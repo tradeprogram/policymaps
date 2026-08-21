@@ -255,6 +255,8 @@ details.method { background: #fafbfc; border: 1px solid var(--line); border-radi
   background: #fafbfc; max-height: 480px; overflow-y: auto;
 }
 .graph-map-info h3 { margin-top: 0; }
+.graph-abstract { margin-top: 12px; }
+.graph-abstract > summary { cursor: pointer; font-weight: 600; color: var(--ink-2); margin-bottom: 8px; }
 .graph-canvas {
   height: 560px; border: 1px solid var(--line); border-radius: 6px; background: #fafbfc;
 }

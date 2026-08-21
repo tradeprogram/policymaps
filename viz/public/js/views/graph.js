@@ -143,7 +143,10 @@ async function drawUI(sec, graph, admGeo) {
   sec.appendChild(el("div", { class: "graph-spatial-layout" }, mapCanvas, mapInfo));
 
   const canvas = el("div", { class: "graph-canvas", id: "graph-canvas" });
-  sec.appendChild(canvas);
+  const abstractGraph = el("details", { class: "graph-abstract" },
+    el("summary", { text: "추상 네트워크 보기" }),
+    canvas);
+  sec.appendChild(abstractGraph);
   const detail = el("div", { class: "graph-detail" });
   sec.appendChild(detail);
   const fallback = el("div");
@@ -216,6 +219,9 @@ async function drawUI(sec, graph, admGeo) {
       network.on("click", (p) => {
         if (p.nodes.length) showNode(byId.get(p.nodes[0]), detail);
       });
+      abstractGraph.addEventListener("toggle", () => {
+        if (abstractGraph.open && network) setTimeout(() => network.fit(), 0);
+      }, { once: true });
     }
 
     // 항상 표 형태도 제공 (CDN 실패 시 유일한 화면)
@@ -303,6 +309,8 @@ function initSpatialMap(mapCanvas, mapInfo, admGeo, byId) {
     .addTo(map);
 
   const markerLayer = L.layerGroup().addTo(map);
+  const graphEdgeLayer = L.layerGroup().addTo(map);
+  const graphNodeLayer = L.layerGroup().addTo(map);
   const admLayer = L.geoJSON(admGeo, {
     style: baseAdmStyle,
     onEachFeature: (feature, lyr) => {
@@ -344,9 +352,13 @@ function initSpatialMap(mapCanvas, mapInfo, admGeo, byId) {
     });
 
     markerLayer.clearLayers();
+    graphEdgeLayer.clearLayers();
+    graphNodeLayer.clearLayers();
     const activeBounds = [];
+    const centersBySig = new Map();
     for (const [sig, b] of boundsBySig) {
       activeBounds.push(b);
+      centersBySig.set(sig, b.getCenter());
       const hit = matched.get(sig);
       const center = b.getCenter();
       L.circleMarker(center, {
@@ -358,6 +370,7 @@ function initSpatialMap(mapCanvas, mapInfo, admGeo, byId) {
       }).bindTooltip(`${hit.label}<br>${dongsBySig.get(sig)}개 행정동`, { permanent: false })
         .addTo(markerLayer);
     }
+    drawGraphOnMap(sub, byId, centersBySig, graphEdgeLayer, graphNodeLayer);
 
     mapInfo.innerHTML = "";
     mapInfo.appendChild(el("h3", { text: "위성·행정동 매칭" }));
@@ -402,6 +415,101 @@ function matchedAdmStyle(weight) {
     fillColor: "#ffcf33",
     fillOpacity: 0.28,
   };
+}
+
+function drawGraphOnMap(sub, byId, centersBySig, edgeLayer, nodeLayer) {
+  const L = window.L;
+  const positions = projectGraphNodes(sub, centersBySig);
+
+  for (const e of sub.edges) {
+    const a = positions.get(e.source);
+    const b = positions.get(e.target);
+    if (!a || !b) continue;
+    const st = REL_STYLE[e.relation] || { color: "#ffffff", width: 1 };
+    L.polyline([a, b], {
+      color: st.color || "#ffffff",
+      weight: Math.max(1.5, st.width || 1),
+      opacity: 0.72,
+      dashArray: st.dashes ? "5,5" : null,
+    }).bindTooltip(`${nodeLabel(byId.get(e.source))}<br>${e.relation}<br>${nodeLabel(byId.get(e.target))}`, {
+      sticky: true,
+    }).addTo(edgeLayer);
+  }
+
+  for (const n of sub.nodes) {
+    const pos = positions.get(n.id);
+    if (!pos) continue;
+    const st = NODE_STYLE[n.label] || { color: "#95a5a6" };
+    const radius = n.label === "Region" ? 8 : n.label === "LegalInstrument" ? 7 : 5;
+    L.circleMarker(pos, {
+      radius,
+      color: "#ffffff",
+      weight: n.status === "repealed" ? 3 : 1.5,
+      fillColor: n.status === "repealed" ? "#d9d9d9" : st.color,
+      fillOpacity: 0.95,
+      opacity: 1,
+    }).bindTooltip(nodeTitle(n), { sticky: true })
+      .on("click", () => showNode(n, document.querySelector(".graph-detail")))
+      .addTo(nodeLayer);
+  }
+}
+
+function projectGraphNodes(sub, centersBySig) {
+  const positions = new Map();
+  for (const n of sub.nodes) {
+    const sig = graphNodeSig(n);
+    if (sig && centersBySig.has(sig)) {
+      positions.set(n.id, jitterLatLng(centersBySig.get(sig), n.id, n.label === "Region" ? 0 : 0.018));
+    }
+  }
+
+  for (let pass = 0; pass < 4; pass++) {
+    let changed = false;
+    for (const n of sub.nodes) {
+      if (positions.has(n.id)) continue;
+      const linked = [];
+      for (const e of sub.edges) {
+        const other = e.source === n.id ? e.target : e.target === n.id ? e.source : null;
+        if (other && positions.has(other)) linked.push(positions.get(other));
+      }
+      if (!linked.length) continue;
+      positions.set(n.id, jitterLatLng(avgLatLng(linked), n.id, 0.035 + pass * 0.01));
+      changed = true;
+    }
+    if (!changed) break;
+  }
+  return positions;
+}
+
+function avgLatLng(points) {
+  const n = points.length || 1;
+  const lat = points.reduce((a, p) => a + p.lat, 0) / n;
+  const lng = points.reduce((a, p) => a + p.lng, 0) / n;
+  return { lat, lng };
+}
+
+function jitterLatLng(center, key, radiusDeg) {
+  if (!radiusDeg) return center;
+  const h = hashString(key);
+  const angle = (h % 6283) / 1000;
+  const scale = 0.35 + ((h >>> 8) % 100) / 100;
+  return {
+    lat: center.lat + Math.sin(angle) * radiusDeg * scale,
+    lng: center.lng + Math.cos(angle) * radiusDeg * scale,
+  };
+}
+
+function hashString(s) {
+  let h = 2166136261;
+  for (const ch of String(s || "")) {
+    h ^= ch.charCodeAt(0);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function nodeLabel(n) {
+  return n?.name || n?.id || "";
 }
 
 function collectMatchedRegions(nodes) {
