@@ -359,7 +359,7 @@ pre.err {
 }
 .ai-panel {
   position: fixed; right: 22px; bottom: 88px; z-index: 1200;
-  width: min(420px, calc(100vw - 28px)); height: min(640px, calc(100vh - 118px));
+  width: min(500px, calc(100vw - 28px)); height: min(740px, calc(100vh - 104px));
   display: none; flex-direction: column; overflow: hidden;
   border-radius: 18px; border: 1px solid rgba(255, 255, 255, .74);
   background:
@@ -396,6 +396,12 @@ pre.err {
   border: 1px solid rgba(255, 255, 255, .72);
   border-bottom-left-radius: 5px;
 }
+.ai-cursor {
+  display: inline-block; width: 6px; height: 1.05em; vertical-align: -2px; margin-left: 1px;
+  background: var(--brand, #277086); border-radius: 1px; animation: ai-blink 1s steps(1) infinite;
+}
+@keyframes ai-blink { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .ai-cursor { animation: none; } }
 .ai-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
 .ai-action {
   border: 1px solid rgba(39, 112, 134, .20);

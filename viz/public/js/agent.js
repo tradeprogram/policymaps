@@ -45,12 +45,20 @@ export function initAgent() {
 
   launcher.addEventListener("click", () => panel.classList.add("open"));
   panel.querySelector(".ai-close").addEventListener("click", () => panel.classList.remove("open"));
-  panel.querySelector("form").addEventListener("submit", async (ev) => {
+  const form = panel.querySelector("form");
+  form.addEventListener("submit", async (ev) => {
     ev.preventDefault();
     const q = input.value.trim();
     if (!q) return;
     input.value = "";
     await ask(q);
+  });
+  // Enter = 전송, Shift+Enter = 줄바꿈
+  input.addEventListener("keydown", (ev) => {
+    if (ev.key === "Enter" && !ev.shiftKey) {
+      ev.preventDefault();
+      form.requestSubmit();
+    }
   });
 
   addAssistant(
@@ -278,19 +286,60 @@ function addUser(text) {
 
 function addAssistant(text, actions = []) {
   messages.push({ role: "assistant", text });
-  const box = el("div", { class: "ai-msg ai-assistant" },
-    ...String(text).split("\n").filter(Boolean).map((p) => el("p", { text: p })));
-  if (actions.length) {
-    box.appendChild(el("div", { class: "ai-actions" },
-      ...actions.map((a) => el("button", {
-        class: "ai-action",
-        type: "button",
-        text: a.label,
-        onclick: () => a.prompt ? ask(a.prompt) : go(a.path),
-      }))));
-  }
+  const box = el("div", { class: "ai-msg ai-assistant" });
   panelBody.appendChild(box);
+  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce) {
+    renderParagraphs(box, text);
+    appendActions(box, actions);
+    panelBody.scrollTop = panelBody.scrollHeight;
+    return;
+  }
+  typeInto(box, String(text), () => appendActions(box, actions));
+}
+
+function renderParagraphs(box, text) {
+  for (const p of String(text).split(/\n+/).filter(Boolean)) box.appendChild(el("p", { text: p }));
+}
+
+function appendActions(box, actions) {
+  if (!actions || !actions.length) return;
+  box.appendChild(el("div", { class: "ai-actions" },
+    ...actions.map((a) => el("button", {
+      class: "ai-action",
+      type: "button",
+      text: a.label,
+      onclick: () => (a.prompt ? ask(a.prompt) : go(a.path)),
+    }))));
   panelBody.scrollTop = panelBody.scrollHeight;
+}
+
+// 답변을 단어 단위로 빠르게 흘려 쓴다(스트리밍 느낌). 문단(\n)은 <p> 로 유지한다.
+function typeInto(box, text, done) {
+  const paragraphs = String(text).split(/\n+/).filter(Boolean);
+  const cursor = el("span", { class: "ai-cursor" });
+  let pi = 0;
+  const nextPara = () => {
+    if (pi >= paragraphs.length) { cursor.remove(); if (done) done(); return; }
+    const p = el("p", {});
+    box.appendChild(p);
+    p.appendChild(cursor);
+    const tokens = paragraphs[pi].match(/\S+\s*/g) || [paragraphs[pi]];
+    // 긴 답변은 한 틱에 여러 단어를 흘려 전체 시간이 늘어지지 않게 한다(빠른 스트리밍 느낌).
+    const burst = tokens.length > 80 ? 3 : tokens.length > 40 ? 2 : 1;
+    let ti = 0;
+    const step = () => {
+      if (ti >= tokens.length) { pi += 1; nextPara(); return; }
+      for (let b = 0; b < burst && ti < tokens.length; b += 1) {
+        cursor.insertAdjacentText("beforebegin", tokens[ti]);
+        ti += 1;
+      }
+      panelBody.scrollTop = panelBody.scrollHeight;
+      setTimeout(step, 12 + Math.random() * 16);
+    };
+    step();
+  };
+  nextPara();
 }
 
 function setBusy(busy) {

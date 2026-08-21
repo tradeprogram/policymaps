@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -21,7 +22,7 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.6-flash"
 GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
 
 
@@ -82,7 +83,7 @@ def call_gemini(payload: dict) -> dict:
         "current_route": payload.get("route"),
         "site_context": context,
         "recent_history": history[-8:],
-        "output_format": "plain Korean text, 3 to 6 short paragraphs, no markdown table",
+        "output_format": "핵심만 담은 짧은 한국어. 3~4문장(또는 2~3개의 짧은 문단) 이내. 장황한 배경설명 없이 실행 중심으로. 순수 텍스트로만 쓰고 마크다운 기호(**, *, #, |, `)는 절대 쓰지 말 것.",
     }
 
     req_body = {
@@ -95,7 +96,9 @@ def call_gemini(payload: dict) -> dict:
         }],
         "generationConfig": {
             "temperature": 0.7,
-            "maxOutputTokens": 1200,
+            # thinking 모델은 출력 토큰을 내부 추론에 먼저 쓰므로 넉넉히 준다
+            # (작으면 finishReason=MAX_TOKENS 로 본문이 빈 채 돌아온다).
+            "maxOutputTokens": 4096,
         },
     }
     req = Request(
@@ -137,8 +140,15 @@ def extract_text(data: dict) -> str:
             if isinstance(part.get("text"), str):
                 parts.append(part["text"])
     if parts:
-        return "\n".join(parts).strip()
-    return "AI 응답을 받았지만 텍스트 본문을 찾지 못했습니다."
+        text = "\n".join(parts).strip()
+        # 방어적 마크다운 제거(프론트가 순수 텍스트로 타이핑하므로 기호가 그대로 보이면 안 된다)
+        text = re.sub(r"\*\*(.+?)\*\*", r"\1", text)
+        text = re.sub(r"(?m)^\s*[*#-]\s+", "", text)
+        return text.replace("**", "").strip()
+    reason = (candidates[0].get("finishReason") if candidates else None) or "UNKNOWN"
+    block = (data.get("promptFeedback") or {}).get("blockReason")
+    hint = f" (finishReason={reason}{', blockReason=' + block if block else ''})"
+    return "AI 응답 본문이 비어 있습니다" + hint + ". thinkingBudget/maxOutputTokens 또는 모델명을 확인하세요."
 
 
 def main() -> None:
