@@ -160,7 +160,7 @@ const FIXTURES = {
 /** MCP tool 이름 — 실데이터에서 이 화면을 채우려면 이 tool 을 호출해야 한다 */
 export const FIXTURE_TOOLS = {
   peers: "similar_regions",
-  gap: "gap_analysis",
+  gap: "recommend_ordinances",
   diffusion: "diffusion_timeline",
   effectiveness: "ordinance_effectiveness",
   votes: "bill_vote_breakdown",

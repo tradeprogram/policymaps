@@ -19,24 +19,75 @@ export async function render(root) {
     return;
   }
 
-  if (peersEnv) renderPeers(root, peersEnv);
-  else root.appendChild(fixtureMissingPanel("peers", peersErr));
+  // fixture 는 data 가 sig_cd 맵({"47190":{...}, ...})이고 envelope.regions 에 커버 목록이 있다.
+  // 구(舊) 단일 구조(data.target 직접)도 하위호환한다.
+  const src = gapEnv || peersEnv;
+  const dd = src.data || {};
+  const single = !!(dd.target || dd.recommendations || dd.peers);
+  const regions = Array.isArray(src.regions) && src.regions.length
+    ? src.regions.slice()
+    : (single ? null : Object.keys(dd));
 
-  if (gapEnv) await renderGap(root, gapEnv);
-  else root.appendChild(fixtureMissingPanel("gap", gapErr));
+  const host = el("div", {});
+  root.appendChild(host);
+
+  const draw = (sig) => {
+    host.innerHTML = "";
+    if (regions && regions.length) host.appendChild(regionPicker(regions, sig, peersEnv, gapEnv, draw));
+    const body = el("div", {});
+    host.appendChild(body);
+    const pSub = single ? (peersEnv && peersEnv.data) : (peersEnv && (peersEnv.data || {})[sig]);
+    const gSub = single ? (gapEnv && gapEnv.data) : (gapEnv && (gapEnv.data || {})[sig]);
+    if (peersEnv) renderPeers(body, pSub || {}, peersEnv);
+    else body.appendChild(fixtureMissingPanel("peers", peersErr));
+    if (gapEnv) renderGap(body, gSub || {}, gapEnv);
+    else body.appendChild(fixtureMissingPanel("gap", gapErr));
+  };
+
+  // 완료판정 시나리오(구미시 47190)를 우선 노출, 없으면 첫 지자체.
+  const initial = single ? null : (regions.includes("47190") ? "47190" : regions[0]);
+  draw(initial);
+}
+
+function regionPicker(regions, current, peersEnv, gapEnv, onChange) {
+  const nameOf = (sig) => {
+    const g = (gapEnv && (gapEnv.data || {})[sig]) || {};
+    const p = (peersEnv && (peersEnv.data || {})[sig]) || {};
+    return (g.target && g.target.name) || (p.target && p.target.name) || sig;
+  };
+  const sel = el("select", { class: "region-select" });
+  for (const sig of regions) {
+    const o = el("option", { value: sig, text: `${nameOf(sig)} (${sig})` });
+    if (sig === current) o.selected = true;
+    sel.appendChild(o);
+  }
+  sel.addEventListener("change", () => onChange(sel.value));
+  return el("div", { class: "gap-region-bar" },
+    el("label", { class: "gap-region-label", text: "기준 지자체" }), sel,
+    el("span", { class: "muted small", text: `사전계산된 ${regions.length}곳 중 선택 · 다른 지자체는 make_gap_fixtures.py 로 추가` }));
 }
 
 /* ---------------- 유사 지자체 ---------------- */
 
-function renderPeers(root, env) {
-  const d = env.data || {};
+function renderPeers(root, d, env) {
   const t = d.target || d.base_region || {};
   const method = d.method || {};
 
   const sec = section(`유사 지자체 — ${t.name || t.region_id || "?"}`,
-    asOfLine(`k=${d.k ?? (d.peers || []).length} · engine=${d._engine || "?"}`)
+    asOfLine(`k=${d.k ?? (d.peers || []).length} · engine=${d._engine || "analytics.peers.find_similar_governments"}`)
   );
   root.appendChild(sec);
+
+  // 일반구(level=3) 등 비교 대상이 아닌 경우 — 엔진이 명시적으로 거부한다 (P1-2)
+  if (d.reason && !(d.peers && d.peers.length)) {
+    sec.appendChild(note(d.reason, "warn"));
+    if (d.parent_region) {
+      const pr = d.parent_region;
+      sec.appendChild(note(`모(母) 자치단체 「${pr.name || pr.region_id || pr}」 로 조회하면 비교 결과가 나온다.`));
+    }
+    sec.appendChild(envelopeFooter(env));
+    return;
+  }
 
   if (t.indicators) {
     sec.appendChild(el("h3", { text: "기준 지자체 지표" }));
@@ -94,13 +145,21 @@ function indicatorRows(ind) {
 
 /* ---------------- 격차분석 ---------------- */
 
-async function renderGap(root, env) {
-  const d = env.data || {};
+async function renderGap(root, d, env) {
   const t = d.target || {};
   const recs = d.recommendations || [];
 
-  const sec = section(`격차분석 — ${t.name || "?"}에 없는 정책`, asOfLine(`engine=${d._engine || "?"}`));
+  const sec = section(`격차분석 — ${t.name || "?"}에 없는 정책`, asOfLine(`engine=${d._engine || "analytics.peers.recommend_ordinances"}`));
   root.appendChild(sec);
+
+  // 일반구(level=3) 등 조례 제정권이 없는 지자체 — 격차 비교 자체가 성립하지 않는다 (P1-2)
+  if (d.reason && !recs.length) {
+    sec.appendChild(el("div", { class: "caution" },
+      el("b", { text: "⚠ 비교 대상이 아님 — " }),
+      document.createTextNode(d.reason)));
+    sec.appendChild(envelopeFooter(env));
+    return;
+  }
 
   const withRepealed = recs.filter((r) => (r.repealed_peer_count || 0) > 0).length;
   sec.appendChild(el("div", { class: "stat-grid" },
