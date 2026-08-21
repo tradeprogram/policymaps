@@ -440,7 +440,7 @@ function drawGraphOnMap(sub, byId, centersBySig, edgeLayer, nodeLayer) {
     const pos = positions.get(n.id);
     if (!pos) continue;
     const st = NODE_STYLE[n.label] || { color: "#95a5a6" };
-    const radius = n.label === "Region" ? 8 : n.label === "LegalInstrument" ? 7 : 5;
+    const radius = n.label === "Region" ? 7 : n.label === "LegalInstrument" ? 6 : 4.5;
     L.circleMarker(pos, {
       radius,
       color: "#ffffff",
@@ -459,7 +459,7 @@ function projectGraphNodes(sub, centersBySig) {
   for (const n of sub.nodes) {
     const sig = graphNodeSig(n);
     if (sig && centersBySig.has(sig)) {
-      positions.set(n.id, jitterLatLng(centersBySig.get(sig), n.id, n.label === "Region" ? 0 : 0.018));
+      positions.set(n.id, jitterLatLng(centersBySig.get(sig), n.id, n.label === "Region" ? 0 : 0.032));
     }
   }
 
@@ -473,7 +473,7 @@ function projectGraphNodes(sub, centersBySig) {
         if (other && positions.has(other)) linked.push(positions.get(other));
       }
       if (!linked.length) continue;
-      positions.set(n.id, jitterLatLng(avgLatLng(linked), n.id, 0.035 + pass * 0.01));
+      positions.set(n.id, jitterLatLng(avgLatLng(linked), n.id, 0.055 + pass * 0.015));
       changed = true;
     }
     if (!changed) break;
