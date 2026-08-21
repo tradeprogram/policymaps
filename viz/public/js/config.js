@@ -19,6 +19,12 @@ export const DATA_SOURCES = {
 
 /** 지도 경계 파일. export 번들에 포함되지 않는 참조 데이터라 DATA_BASE와 분리한다. */
 export const GEO_URL = "./geo/municipalities.geojson";
+export const ADM_DONG_GEO_URL = "./geo/adm_dong.geojson";
+
+export const SATELLITE_TILE = {
+  url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+  attribution: "Imagery: Esri, Maxar, Earthstar Geographics, and the GIS User Community",
+};
 
 /** CDN. 실패하면 화면마다 대체 렌더(표/목록)로 떨어지고 배너가 뜬다. */
 export const CDN = {

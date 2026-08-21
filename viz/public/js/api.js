@@ -7,7 +7,7 @@
  *   2) api/*.json (유사지자체·격차·확산·실효성·표결·검색) 은 가상데이터에만 있다.
  *      실데이터에서는 MCP 서버가 계산해야 하는 값이라 정적 번들에 없다 -> notAvailable 로 떨어진다.
  */
-import { DATA_BASE, DATA_SOURCES, GEO_URL, LIMITS, CATEGORY_FALLBACK } from "./config.js";
+import { DATA_BASE, DATA_SOURCES, GEO_URL, ADM_DONG_GEO_URL, LIMITS, CATEGORY_FALLBACK } from "./config.js";
 import { mapLimit } from "./util.js";
 
 /** ?src=real|mock 로 임시 전환 가능 */
@@ -33,7 +33,11 @@ export class DataMissingError extends Error {
 
 /** 번들 내부 상대경로 로드 */
 export async function getJSON(relPath) {
-  const url = `${BASE}/${relPath.replace(/^\/+/, "")}`;
+  return getJSONFromBase(BASE, relPath);
+}
+
+async function getJSONFromBase(base, relPath) {
+  const url = `${base.replace(/\/+$/, "")}/${relPath.replace(/^\/+/, "")}`;
   if (cache.has(url)) return cache.get(url);
   const p = (async () => {
     let res;
@@ -124,11 +128,11 @@ export async function loadGraph({ force = false } = {}) {
   const m = await loadManifest();
   const n = m.counts?.graph_nodes ?? 0;
   if (!force && n > LIMITS.graphNodeWarn) {
-    const err = new Error(`그래프 노드 ${n.toLocaleString()}개 — 자동 로드를 막았습니다.`);
-    err.name = "GraphTooLargeError";
-    err.nodeCount = n;
-    err.edgeCount = m.counts?.graph_edges ?? 0;
-    throw err;
+    return loadGraphSample({
+      reason: "real graph is too large for automatic browser loading",
+      realNodeCount: n,
+      realEdgeCount: m.counts?.graph_edges ?? 0,
+    });
   }
   const [nodesDoc, edgesDoc] = await Promise.all([
     getJSON("graph/nodes.json"),
@@ -140,6 +144,26 @@ export async function loadGraph({ force = false } = {}) {
     if (nd.label === "Category" && nd.src_id) state.categoryNames[nd.src_id] = nd.name;
   }
   return { nodes, edges };
+}
+
+async function loadGraphSample(meta = {}) {
+  const [nodesDoc, edgesDoc] = await Promise.all([
+    getJSONFromBase(DATA_SOURCES.mock, "graph/nodes.json"),
+    getJSONFromBase(DATA_SOURCES.mock, "graph/edges.json"),
+  ]);
+  const nodes = nodesDoc.nodes || nodesDoc;
+  const edges = edgesDoc.edges || edgesDoc;
+  for (const nd of nodes) {
+    if (nd.label === "Category" && nd.src_id) state.categoryNames[nd.src_id] = nd.name;
+  }
+  return {
+    nodes,
+    edges,
+    sample: true,
+    sampleBase: DATA_SOURCES.mock,
+    sampleWarning: nodesDoc._mock_warning || edgesDoc._mock_warning || null,
+    ...meta,
+  };
 }
 
 export function categoryName(code) {
@@ -180,4 +204,8 @@ export async function loadFixture(key) {
 
 export async function loadGeo() {
   return getRaw(GEO_URL);
+}
+
+export async function loadAdmDongGeo() {
+  return getRaw(ADM_DONG_GEO_URL);
 }

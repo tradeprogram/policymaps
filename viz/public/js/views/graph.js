@@ -1,9 +1,9 @@
 // 5. 법령 위계 그래프 — graph/nodes.json + graph/edges.json 의 경량 서브그래프
 import { el, num, ymd } from "../util.js";
-import { LIMITS } from "../config.js";
-import { loadGraph, loadGraphStats, state } from "../api.js";
+import { LIMITS, SATELLITE_TILE } from "../config.js";
+import { loadAdmDongGeo, loadGraph, loadGraphStats, state } from "../api.js";
 import { section, table, note, loading, asOfLine, errorPanel, cdnFailPanel, badge, statusBadge } from "../components.js";
-import { ensureVisNetwork } from "../vendor.js";
+import { ensureLeaflet, ensureVisNetwork } from "../vendor.js";
 
 const REL_STYLE = {
   DELEGATED_FROM: { color: "#c0392b", label: "위임", dashes: false, width: 2 },
@@ -90,12 +90,18 @@ export async function render(root) {
     sec.appendChild(errorPanel(e, "graph/nodes.json 또는 graph/edges.json 로드 실패"));
     return;
   }
-  await drawUI(sec, graph);
+  if (graph.sample) {
+    sec.appendChild(note(
+      `발표 데모: 실데이터 전체 그래프(${num(graph.realNodeCount)}노드 / ${num(graph.realEdgeCount)}엣지)는 용량상 자동 로드하지 않고, 이 화면만 샘플 그래프를 사용합니다. 구조와 인터랙션은 동일합니다.`,
+      "warn"));
+  }
+  const admGeo = await loadAdmDongGeo().catch(() => null);
+  await drawUI(sec, graph, admGeo);
 }
 
 function sum(obj) { return Object.values(obj || {}).reduce((a, b) => a + (b || 0), 0); }
 
-async function drawUI(sec, graph) {
+async function drawUI(sec, graph, admGeo) {
   const { nodes, edges } = graph;
   const byId = new Map(nodes.map((n) => [n.id, n]));
 
@@ -131,6 +137,11 @@ async function drawUI(sec, graph) {
   sec.appendChild(toolbar);
   sec.appendChild(relBox);
 
+  const mapCanvas = el("div", { class: "graph-map-canvas" });
+  const mapInfo = el("div", { class: "graph-map-info" },
+    note("위성영상 위 행정동 경계를 현재 선택한 그래프 지역과 매칭합니다."));
+  sec.appendChild(el("div", { class: "graph-spatial-layout" }, mapCanvas, mapInfo));
+
   const canvas = el("div", { class: "graph-canvas", id: "graph-canvas" });
   sec.appendChild(canvas);
   const detail = el("div", { class: "graph-detail" });
@@ -142,6 +153,22 @@ async function drawUI(sec, graph) {
   try { await ensureVisNetwork(); }
   catch (e) { visOK = false; canvas.remove(); sec.insertBefore(cdnFailPanel("vis-network(그래프)", e), detail); }
 
+  let spatial = null;
+  if (admGeo) {
+    try {
+      await ensureLeaflet();
+      spatial = initSpatialMap(mapCanvas, mapInfo, admGeo, byId);
+    } catch (e) {
+      mapCanvas.remove();
+      mapInfo.innerHTML = "";
+      mapInfo.appendChild(cdnFailPanel("Leaflet(위성지도)", e));
+    }
+  } else {
+    mapCanvas.remove();
+    mapInfo.innerHTML = "";
+    mapInfo.appendChild(note("행정동 경계 파일(geo/adm_dong.geojson)을 찾지 못했습니다. viz/tools/build_adm_dong_geo.py를 실행하세요.", "warn"));
+  }
+
   seedSel.addEventListener("change", draw);
   hopSel.addEventListener("change", draw);
 
@@ -151,6 +178,7 @@ async function drawUI(sec, graph) {
     const seed = seedSel.value;
     const hops = parseInt(hopSel.value, 10);
     const sub = ego(seed, hops, edges, byId, enabled, LIMITS.graphRenderNodes);
+    if (spatial) spatial.update(sub);
 
     detail.innerHTML = "";
     detail.appendChild(el("div", { class: "as-of", text:
@@ -260,6 +288,149 @@ function ego(seed, hops, edges, byId, enabledRels, maxNodes) {
   const nodeSet = new Set(nodes.map((n) => n.id));
   const subEdges = edges.filter((e) => enabledRels.has(e.relation) && nodeSet.has(e.source) && nodeSet.has(e.target));
   return { nodes, edges: subEdges, truncated };
+}
+
+function initSpatialMap(mapCanvas, mapInfo, admGeo, byId) {
+  const L = window.L;
+  const map = L.map(mapCanvas, { preferCanvas: true, attributionControl: false });
+  L.tileLayer(SATELLITE_TILE.url, {
+    maxZoom: 19,
+    attribution: SATELLITE_TILE.attribution,
+  }).addTo(map);
+  L.control.attribution({ prefix: false })
+    .addAttribution(SATELLITE_TILE.attribution)
+    .addAttribution("행정동 경계: BND_ADM_DONG_PG 2025-06-30")
+    .addTo(map);
+
+  const markerLayer = L.layerGroup().addTo(map);
+  const admLayer = L.geoJSON(admGeo, {
+    style: baseAdmStyle,
+    onEachFeature: (feature, lyr) => {
+      const p = feature.properties || {};
+      lyr.bindTooltip(() => {
+        const matched = lyr._graphMatched;
+        return `<b>${p.adm_nm || p.adm_cd}</b><br>` +
+          `행정동 ${p.adm_cd || ""}<br>` +
+          `시군구 ${p.sig_name || p.sig_cd || "미매칭"}` +
+          (matched ? `<br><b>그래프 매칭: ${matched}</b>` : "");
+      }, { sticky: true });
+    },
+  }).addTo(map);
+
+  const allBounds = admLayer.getBounds();
+  if (allBounds.isValid()) map.fitBounds(allBounds.pad(0.02));
+  mapInfo.appendChild(el("div", { class: "as-of", text:
+    `행정동 ${num(admGeo._meta?.features || admGeo.features?.length || 0)}개 · 미매칭 ${num(admGeo._meta?.unmatched || 0)}개` }));
+
+  function update(sub) {
+    const matched = collectMatchedRegions(sub.nodes);
+    const boundsBySig = new Map();
+    const dongsBySig = new Map();
+
+    admLayer.eachLayer((lyr) => {
+      const p = lyr.feature.properties || {};
+      const sig = String(p.sig_cd || "");
+      const hit = matched.get(sig);
+      lyr._graphMatched = hit ? hit.label : "";
+      lyr.setStyle(hit ? matchedAdmStyle(hit.weight) : baseAdmStyle());
+      if (hit) {
+        dongsBySig.set(sig, (dongsBySig.get(sig) || 0) + 1);
+        const b = lyr.getBounds();
+        if (b.isValid()) {
+          if (!boundsBySig.has(sig)) boundsBySig.set(sig, b);
+          else boundsBySig.get(sig).extend(b);
+        }
+      }
+    });
+
+    markerLayer.clearLayers();
+    const activeBounds = [];
+    for (const [sig, b] of boundsBySig) {
+      activeBounds.push(b);
+      const hit = matched.get(sig);
+      const center = b.getCenter();
+      L.circleMarker(center, {
+        radius: 7,
+        color: "#ffffff",
+        weight: 2,
+        fillColor: "#ffcf33",
+        fillOpacity: 0.95,
+      }).bindTooltip(`${hit.label}<br>${dongsBySig.get(sig)}개 행정동`, { permanent: false })
+        .addTo(markerLayer);
+    }
+
+    mapInfo.innerHTML = "";
+    mapInfo.appendChild(el("h3", { text: "위성·행정동 매칭" }));
+    if (!matched.size) {
+      mapInfo.appendChild(note("현재 서브그래프에서 지역 코드를 찾지 못했습니다.", "warn"));
+      return;
+    }
+    mapInfo.appendChild(el("div", { class: "as-of", text:
+      `그래프 지역 ${num(matched.size)}개 · 경계 매칭 ${num(boundsBySig.size)}개 시군구` }));
+    const topRows = [...matched.entries()].slice(0, 10).map(([sig, hit]) => [
+      hit.label,
+      sig,
+      `${num(hit.weight)}개 노드`,
+      `${num(dongsBySig.get(sig) || 0)}개 동`,
+    ]);
+    mapInfo.appendChild(table(["지역", "sig_cd", "그래프", "경계"], topRows));
+
+    if (activeBounds.length) {
+      const groupBounds = activeBounds.reduce((acc, b) => acc.extend(b), activeBounds[0]);
+      if (groupBounds.isValid()) map.fitBounds(groupBounds.pad(0.18), { maxZoom: 13 });
+    }
+  }
+
+  return { update };
+}
+
+function baseAdmStyle() {
+  return {
+    color: "#ffffff",
+    weight: 0.7,
+    opacity: 0.85,
+    fillColor: "#1f2937",
+    fillOpacity: 0.08,
+  };
+}
+
+function matchedAdmStyle(weight) {
+  return {
+    color: "#ffcf33",
+    weight: Math.min(3, 1 + Math.log2(1 + weight)),
+    opacity: 1,
+    fillColor: "#ffcf33",
+    fillOpacity: 0.28,
+  };
+}
+
+function collectMatchedRegions(nodes) {
+  const out = new Map();
+  for (const n of nodes) {
+    const sig = graphNodeSig(n);
+    if (!sig || sig.endsWith("000")) continue;
+    const prev = out.get(sig);
+    const name = regionLabel(sig, nodes);
+    if (!prev) out.set(sig, { label: name || sig, weight: 1 });
+    else prev.weight += 1;
+  }
+  return out;
+}
+
+function graphNodeSig(n) {
+  if (!n) return "";
+  if (n.label === "Region") return String(n.sig_cd || n.src_id || "");
+  if (n.region_id) return String(n.region_id);
+  if (n.sig_cd) return String(n.sig_cd);
+  return "";
+}
+
+function regionLabel(sig, nodes) {
+  const region = nodes.find((n) => n.label === "Region" && String(n.sig_cd || n.src_id || "") === sig);
+  if (region) return region.name || region.full_name || sig;
+  const owned = nodes.find((n) => String(n.region_id || "") === sig);
+  if (owned?.org_name) return owned.org_name;
+  return sig;
 }
 
 function showNode(n, detail) {
