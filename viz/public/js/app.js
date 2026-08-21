@@ -3,6 +3,7 @@ import { el, qs } from "./util.js";
 import { BASE, state, loadManifest } from "./api.js";
 import { mockBanner, staleBanner, errorPanel, loading } from "./components.js";
 import { route, setNotFound, setOnNavigate, start, go } from "./router.js";
+import { initAgent } from "./agent.js";
 
 import * as dashboard from "./views/dashboard.js";
 import * as mapView from "./views/map.js";
@@ -82,6 +83,7 @@ async function boot() {
   });
 
   start();
+  initAgent();
 }
 
 boot();
