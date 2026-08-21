@@ -134,18 +134,34 @@ code {
 }
 
 .note {
+  position: relative;
+  overflow: hidden;
   font-size: 12.5px; color: var(--ink-2);
-  background: rgba(255, 255, 255, .54);
-  border: 1px solid rgba(255, 255, 255, .68);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, .68), rgba(255, 255, 255, .28) 48%, rgba(111, 183, 190, .10));
+  border: 1px solid rgba(255, 255, 255, .78);
   border-radius: 999px;
   padding: 9px 16px; margin: 10px 0;
-  box-shadow: 0 8px 20px rgba(39, 68, 82, .06);
-  backdrop-filter: blur(12px) saturate(1.12);
-  -webkit-backdrop-filter: blur(12px) saturate(1.12);
+  box-shadow:
+    0 10px 26px rgba(39, 68, 82, .10),
+    inset 0 1px 0 rgba(255, 255, 255, .88),
+    inset 0 -1px 0 rgba(39, 68, 82, .06);
+  backdrop-filter: blur(18px) saturate(1.28);
+  -webkit-backdrop-filter: blur(18px) saturate(1.28);
+}
+.note::before {
+  content: "";
+  position: absolute;
+  inset: 1px 1px auto 1px;
+  height: 48%;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .46), rgba(255, 255, 255, 0));
+  pointer-events: none;
 }
 .note.warn {
-  background: rgba(255, 247, 224, .62);
-  border-color: rgba(217, 181, 92, .28);
+  background:
+    linear-gradient(135deg, rgba(255, 250, 235, .72), rgba(255, 242, 199, .34) 50%, rgba(217, 181, 92, .14));
+  border-color: rgba(255, 255, 255, .76);
   color: #6b4e00;
 }
 
