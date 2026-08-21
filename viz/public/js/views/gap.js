@@ -55,15 +55,15 @@ function regionPicker(regions, current, peersEnv, gapEnv, onChange) {
     const p = (peersEnv && (peersEnv.data || {})[sig]) || {};
     return (g.target && g.target.name) || (p.target && p.target.name) || sig;
   };
-  const sel = el("select", { class: "region-select" });
+  const sel = el("select", { class: "sel" });
   for (const sig of regions) {
     const o = el("option", { value: sig, text: `${nameOf(sig)} (${sig})` });
     if (sig === current) o.selected = true;
     sel.appendChild(o);
   }
   sel.addEventListener("change", () => onChange(sel.value));
-  return el("div", { class: "gap-region-bar" },
-    el("label", { class: "gap-region-label", text: "기준 지자체" }), sel,
+  return el("div", { class: "toolbar" },
+    el("label", { text: "기준 지자체 " }), sel,
     el("span", { class: "muted small", text: `사전계산된 ${regions.length}곳 중 선택 · 다른 지자체는 make_gap_fixtures.py 로 추가` }));
 }
 
