@@ -400,10 +400,10 @@ function initSpatialMap(mapCanvas, mapInfo, admGeo, byId) {
 function baseAdmStyle() {
   return {
     color: "#ffffff",
-    weight: 0.7,
-    opacity: 0.85,
+    weight: 0.45,
+    opacity: 0.38,
     fillColor: "#1f2937",
-    fillOpacity: 0.08,
+    fillOpacity: 0.04,
   };
 }
 
