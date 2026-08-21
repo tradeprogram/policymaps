@@ -112,6 +112,28 @@ def test_build_index_covers_corpus():
         assert stats.get("exists") is True, stats
 
 
+def test_build_index_refuses_empty_corpus_without_touching_existing_index():
+    """빈 DB로 실 인덱스를 덮어쓰는 사고를 막는다."""
+    rag = _rag()
+    with _Sandbox() as sb:
+        rag.build_index(sb.conn, scope="all", index_dir=sb.root, force=True)
+        marker = sb.root / "all" / "sentinel.txt"
+        marker.write_text("keep", encoding="utf-8")
+
+        empty_conn = fresh_db(seed=False)
+        try:
+            try:
+                rag.build_index(empty_conn, scope="all", index_dir=sb.root, force=True)
+            except RuntimeError as exc:
+                assert "empty" in str(exc).lower(), exc
+            else:
+                assert False, "empty corpus build should fail"
+        finally:
+            empty_conn.close()
+
+        assert marker.exists(), "기존 인덱스 디렉터리를 건드리면 안 된다"
+
+
 def test_index_incremental_is_noop_without_changes():
     """변경이 없으면 재빌드하지 않고 reused=True 로 반환해야 한다(증분 규율)."""
     rag = _rag()

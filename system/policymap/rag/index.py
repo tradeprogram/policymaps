@@ -513,12 +513,16 @@ def build_index(
     changed_keys: set[str] = set()
     removed_keys: set[str] = set()
     tombstones: set[str] = set()
+    cur_sig = corpus_signature(conn, scope)
+    if not cur_sig:
+        raise RuntimeError(
+            f"RAG corpus is empty for scope={scope!r}; refusing to build an empty index"
+        )
 
     if incremental and compatible:
         prev_hashes = _segment_hashes(root, prev.get("segments", []))
         prev_tomb = set(prev.get("tombstones", []))
         live_prev = {k: v for k, v in prev_hashes.items() if k not in prev_tomb}
-        cur_sig = corpus_signature(conn, scope)
         cur_keys = set(cur_sig)
         prev_keys = set(live_prev)
         added_keys = cur_keys - prev_keys
