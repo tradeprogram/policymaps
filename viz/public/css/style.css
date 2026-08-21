@@ -134,10 +134,20 @@ code {
 }
 
 .note {
-  font-size: 12.5px; color: var(--ink-2); background: rgba(244, 248, 249, .72);
-  border-left: 3px solid var(--line); padding: 8px 12px; margin: 10px 0; border-radius: 0 4px 4px 0;
+  font-size: 12.5px; color: var(--ink-2);
+  background: rgba(255, 255, 255, .54);
+  border: 1px solid rgba(255, 255, 255, .68);
+  border-radius: 999px;
+  padding: 9px 16px; margin: 10px 0;
+  box-shadow: 0 8px 20px rgba(39, 68, 82, .06);
+  backdrop-filter: blur(12px) saturate(1.12);
+  -webkit-backdrop-filter: blur(12px) saturate(1.12);
 }
-.note.warn { background: var(--warn-soft); border-left-color: var(--warn); color: #6b4e00; }
+.note.warn {
+  background: rgba(255, 247, 224, .62);
+  border-color: rgba(217, 181, 92, .28);
+  color: #6b4e00;
+}
 
 .muted { color: var(--ink-3); }
 .small { font-size: 12px; }
