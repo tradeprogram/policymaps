@@ -24,7 +24,7 @@ make_gap_fixtures.py 가 격차·유사지자체(gap/peers)를 만들었다면, 
   python make_more_fixtures.py --sig 47190 --diffusion-template "출산장려" --query "청년 월세 지원"
   python make_more_fixtures.py --bill-no 2214069            # 특정 의안 표결
 """
-import argparse, json, sys, time
+import argparse, json, re, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -34,7 +34,28 @@ from policymap.config import get_config
 from policymap.mcp_server.server import Server
 
 
+
+_URL_KEY_RE = re.compile(r"([?&])(OC|serviceKey|ServiceKey|KEY|Key)=[^&\"'\s]+")
+
+
+def _sanitize_keys(obj):
+    """fixture 에 스며든 API 키를 제거한다.
+
+    RAG 인덱스(docs.jsonl)는 DB 살균 이전에 구축돼 옛 official_url 을 그대로 들고 있다.
+    그래서 search fixture 는 DB 가 깨끗해도 키가 딸려 나온다. 인덱스를 다시 굽지 않는 한
+    출력 단에서 한 번 더 걸러야 안전하다. [실측: search.json 에 OC 키 10건 유출]
+    """
+    if isinstance(obj, str):
+        out = _URL_KEY_RE.sub(lambda m: m.group(1), obj)
+        return re.sub(r"[?&]$", "", out).replace("?&", "?").replace("&&", "&")
+    if isinstance(obj, list):
+        return [_sanitize_keys(v) for v in obj]
+    if isinstance(obj, dict):
+        return {k: _sanitize_keys(v) for k, v in obj.items()}
+    return obj
+
 def save(out_dir, name, env, summary):
+    env = _sanitize_keys(env)
     (out_dir / f"{name}.json").write_text(
         json.dumps(env, ensure_ascii=False, indent=1), encoding="utf-8")
     kb = (out_dir / f"{name}.json").stat().st_size / 1024
