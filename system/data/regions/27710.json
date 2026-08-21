@@ -1,0 +1,136 @@
+{
+  "sig_cd": "27710",
+  "region_id": "27710",
+  "name": "달성군",
+  "full_name": "대구광역시 달성군",
+  "level": 2,
+  "status": "active",
+  "population": 251993,
+  "ordinance_kinds": {
+    "규칙": 95,
+    "조례": 479
+  },
+  "ordinance_total": 574,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 211
+    },
+    {
+      "code": "C02",
+      "count": 147
+    },
+    {
+      "code": "C03",
+      "count": 113
+    },
+    {
+      "code": "C13",
+      "count": 74
+    },
+    {
+      "code": "C05",
+      "count": 74
+    },
+    {
+      "code": "C08",
+      "count": 70
+    },
+    {
+      "code": "C11",
+      "count": 66
+    },
+    {
+      "code": "C09",
+      "count": 57
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C06",
+      "count": 51
+    },
+    {
+      "code": "C12",
+      "count": 36
+    },
+    {
+      "code": "C10",
+      "count": 29
+    }
+  ],
+  "budget": {
+    "lines": 4008,
+    "exe_amt": 2138468907075,
+    "budget_now": 3627135224272
+  },
+  "recent_changes": [
+    {
+      "change_id": "647d57f773c04ef9805d411eedcb6b96",
+      "ts": "2026-08-19T14:44:12+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2771000|fyr:2025",
+      "entity_name": "2771000 2025 세출(1979건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "77cf9396f9cf4572abb63a16c2f64a90",
+      "ts": "2026-08-19T14:17:32+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2771000|fyr:2026",
+      "entity_name": "2771000 2026 세출(2029건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d5d8814913274459a3b66cac9edd36d0",
+      "ts": "2026-08-19T11:13:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1743503",
+      "entity_name": "대구광역시 달성군 유해야생동물에 의한 인명 및 농작물 피해예방과 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1743503&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9a53e96ccca24d2a8585842b4b8b9e51",
+      "ts": "2026-08-19T11:13:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2032691",
+      "entity_name": "대구광역시 달성군 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2032691&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0b91a588811a410caee973e8a2b1c006",
+      "ts": "2026-08-19T10:59:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1682429",
+      "entity_name": "대구광역시 달성군 출산축하금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1682429&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "918cbf4901c94ecdace05cd10438b1e7",
+      "ts": "2026-08-19T10:59:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1890941",
+      "entity_name": "대구광역시 달성군 임신·출산 및 양육지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1890941&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2fa38f2e59ff48f9a11a748e5cf3e51f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "27710",
+      "entity_name": "달성군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

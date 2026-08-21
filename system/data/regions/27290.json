@@ -1,0 +1,163 @@
+{
+  "sig_cd": "27290",
+  "region_id": "27290",
+  "name": "달서구",
+  "full_name": "대구광역시 달서구",
+  "level": 2,
+  "status": "active",
+  "population": 512963,
+  "ordinance_kinds": {
+    "규칙": 97,
+    "조례": 489
+  },
+  "ordinance_total": 586,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 219
+    },
+    {
+      "code": "C02",
+      "count": 147
+    },
+    {
+      "code": "C03",
+      "count": 123
+    },
+    {
+      "code": "C06",
+      "count": 87
+    },
+    {
+      "code": "C05",
+      "count": 79
+    },
+    {
+      "code": "C11",
+      "count": 71
+    },
+    {
+      "code": "C07",
+      "count": 70
+    },
+    {
+      "code": "C08",
+      "count": 67
+    },
+    {
+      "code": "C13",
+      "count": 64
+    },
+    {
+      "code": "C09",
+      "count": 55
+    },
+    {
+      "code": "C10",
+      "count": 28
+    },
+    {
+      "code": "C04",
+      "count": 14
+    }
+  ],
+  "budget": {
+    "lines": 2475,
+    "exe_amt": 2216493945236,
+    "budget_now": 2860965760875
+  },
+  "recent_changes": [
+    {
+      "change_id": "ae3f4b6a5a914674b934aff8d0b52e69",
+      "ts": "2026-08-19T14:44:08+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2717000|fyr:2025",
+      "entity_name": "2717000 2025 세출(1240건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "12662f2f8c124aa3b0feb9a0ef1922da",
+      "ts": "2026-08-19T14:17:30+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2717000|fyr:2026",
+      "entity_name": "2717000 2026 세출(1235건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d91fddb6a53d47b681e64470a732d867",
+      "ts": "2026-08-19T11:13:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2036201",
+      "entity_name": "대구광역시달서구 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2036201&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1aeab597f44042f49fceea1179f9d699",
+      "ts": "2026-08-19T11:11:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1952865",
+      "entity_name": "대구광역시달서구 달서 반려견 놀이터 관리 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1952865&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "aedc55f3c7ab423fb63b4caa92d41410",
+      "ts": "2026-08-19T11:07:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1562763",
+      "entity_name": "대구광역시달서구 중증장애인 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1562763&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c70953e3685d49cbb3741073f9ad8a08",
+      "ts": "2026-08-19T11:07:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2025791",
+      "entity_name": "대구광역시달서구 반려동물 돌봄 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025791&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6e0ba59d64b540f1b8ea87d494c46487",
+      "ts": "2026-08-19T10:59:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1952871",
+      "entity_name": "대구광역시달서구 출산축하금 지원 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1952871&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a538c9f2f70d4f6ca69745b70585f580",
+      "ts": "2026-08-19T10:59:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1646421",
+      "entity_name": "대구광역시달서구 여성장애인가정 임신·출산·양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1646421&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c9f74a7575354fcdb9d84107e4e9a2bc",
+      "ts": "2026-08-19T10:57:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1952863",
+      "entity_name": "대구광역시달서구 출산장려 및 다자녀가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1952863&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9a3bba6385e74ef2a0b5aef0a3409cff",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "27290",
+      "entity_name": "달서구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

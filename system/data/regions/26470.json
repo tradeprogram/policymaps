@@ -1,0 +1,145 @@
+{
+  "sig_cd": "26470",
+  "region_id": "26470",
+  "name": "연제구",
+  "full_name": "부산광역시 연제구",
+  "level": 2,
+  "status": "active",
+  "population": 211580,
+  "ordinance_kinds": {
+    "규칙": 80,
+    "조례": 411
+  },
+  "ordinance_total": 491,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 197
+    },
+    {
+      "code": "C02",
+      "count": 144
+    },
+    {
+      "code": "C03",
+      "count": 94
+    },
+    {
+      "code": "C08",
+      "count": 60
+    },
+    {
+      "code": "C06",
+      "count": 60
+    },
+    {
+      "code": "C11",
+      "count": 59
+    },
+    {
+      "code": "C05",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 52
+    },
+    {
+      "code": "C09",
+      "count": 49
+    },
+    {
+      "code": "C13",
+      "count": 43
+    },
+    {
+      "code": "C10",
+      "count": 28
+    },
+    {
+      "code": "C04",
+      "count": 13
+    }
+  ],
+  "budget": {
+    "lines": 2437,
+    "exe_amt": 1038573761440,
+    "budget_now": 1450800807340
+  },
+  "recent_changes": [
+    {
+      "change_id": "81fad167215847b282b10eae28827c8c",
+      "ts": "2026-08-19T14:42:32+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2623000|fyr:2025",
+      "entity_name": "2623000 2025 세출(1237건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f9c4f820bd3e420da35d324f43e238dd",
+      "ts": "2026-08-19T14:17:15+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2623000|fyr:2026",
+      "entity_name": "2623000 2026 세출(1200건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "500befcba12048179816665987eea61e",
+      "ts": "2026-08-19T11:14:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1945741",
+      "entity_name": "부산광역시 연제구 소형동물 서식 공간 보호 및 동물 찻길 사고(로드킬) 저감 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1945741&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "99a593c536e746a2a845c13537cd9fc1",
+      "ts": "2026-08-19T11:14:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2096001",
+      "entity_name": "부산광역시 연제구 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2096001&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a52f7c5b37ad4212a41dafb77cad3dd9",
+      "ts": "2026-08-19T11:00:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1969639",
+      "entity_name": "부산광역시 연제구 장애인가정 임신ㆍ출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1969639&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1cc342f1aa544c90b61ca064e5cb7f08",
+      "ts": "2026-08-19T11:00:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1786271",
+      "entity_name": "부산광역시 연제구 임신ㆍ출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786271&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "81ee7c074fe6481aa7927f8f10896789",
+      "ts": "2026-08-19T10:57:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1910165",
+      "entity_name": "부산광역시 연제구 출산장려 및 다자녀 가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910165&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "48a4ae63a7b844d493ef7f1cbeab3c78",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26470",
+      "entity_name": "연제구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

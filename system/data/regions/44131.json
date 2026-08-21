@@ -1,0 +1,30 @@
+{
+  "sig_cd": "44131",
+  "region_id": "44131",
+  "name": "동남구",
+  "full_name": "충청남도 천안시 동남구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "5126661fab99454f9e6ad2a9d6c0863f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44131",
+      "entity_name": "동남구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

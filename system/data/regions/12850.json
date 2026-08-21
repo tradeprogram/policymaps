@@ -1,0 +1,109 @@
+{
+  "sig_cd": "12850",
+  "region_id": "12850",
+  "name": "완도군",
+  "full_name": "전남광주통합특별시 완도군",
+  "level": 2,
+  "status": "active",
+  "population": 44094,
+  "ordinance_kinds": {
+    "규칙": 90,
+    "조례": 537
+  },
+  "ordinance_total": 627,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 220
+    },
+    {
+      "code": "C02",
+      "count": 170
+    },
+    {
+      "code": "C03",
+      "count": 103
+    },
+    {
+      "code": "C11",
+      "count": 98
+    },
+    {
+      "code": "C08",
+      "count": 79
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C06",
+      "count": 62
+    },
+    {
+      "code": "C05",
+      "count": 62
+    },
+    {
+      "code": "C07",
+      "count": 58
+    },
+    {
+      "code": "C09",
+      "count": 56
+    },
+    {
+      "code": "C12",
+      "count": 51
+    },
+    {
+      "code": "C10",
+      "count": 39
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "b3ab7a6b7f86484aa43e1f199ea012c9",
+      "ts": "2026-08-19T11:17:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1973393",
+      "entity_name": "완도군 유해야생동물 피해예방 및 보상 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1973393&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1e650668b96841429df54362e08826ca",
+      "ts": "2026-08-19T11:17:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1340242",
+      "entity_name": "완도군 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1340242&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "61e95d88c91f428391686570e11644f4",
+      "ts": "2026-08-19T10:58:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2160269",
+      "entity_name": "완도군 출산 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2160269&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "de218de25cdd45919714db1862168c15",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12850",
+      "entity_name": "완도군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

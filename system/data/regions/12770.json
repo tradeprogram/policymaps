@@ -1,0 +1,109 @@
+{
+  "sig_cd": "12770",
+  "region_id": "12770",
+  "name": "장흥군",
+  "full_name": "전남광주통합특별시 장흥군",
+  "level": 2,
+  "status": "active",
+  "population": 33906,
+  "ordinance_kinds": {
+    "규칙": 108,
+    "조례": 455
+  },
+  "ordinance_total": 563,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 209
+    },
+    {
+      "code": "C02",
+      "count": 168
+    },
+    {
+      "code": "C11",
+      "count": 91
+    },
+    {
+      "code": "C03",
+      "count": 81
+    },
+    {
+      "code": "C12",
+      "count": 68
+    },
+    {
+      "code": "C13",
+      "count": 59
+    },
+    {
+      "code": "C08",
+      "count": 58
+    },
+    {
+      "code": "C05",
+      "count": 55
+    },
+    {
+      "code": "C06",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 41
+    },
+    {
+      "code": "C07",
+      "count": 35
+    },
+    {
+      "code": "C10",
+      "count": 25
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "b3cf4e6dea0942bd8f4fef7323170b87",
+      "ts": "2026-08-19T11:18:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2052111",
+      "entity_name": "장흥군 야생동물 피해예방시설 지원 및 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2052111&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9e047eb28b0d4f95973847ee9201cb9a",
+      "ts": "2026-08-19T11:09:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2060869",
+      "entity_name": "장흥군 반려동물 보호와 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2060869&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "60b71a391aa54389a48f4bf4fafd8573",
+      "ts": "2026-08-19T11:03:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2047993",
+      "entity_name": "장흥군 출산 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2047993&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "03c2ff63d2f84dcab5bc24e274177b07",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12770",
+      "entity_name": "장흥군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

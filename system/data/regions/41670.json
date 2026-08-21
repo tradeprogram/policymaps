@@ -1,0 +1,154 @@
+{
+  "sig_cd": "41670",
+  "region_id": "41670",
+  "name": "여주시",
+  "full_name": "경기도 여주시",
+  "level": 2,
+  "status": "active",
+  "population": 113383,
+  "ordinance_kinds": {
+    "규칙": 114,
+    "조례": 620
+  },
+  "ordinance_total": 734,
+  "top_categories": [
+    {
+      "code": "C02",
+      "count": 230
+    },
+    {
+      "code": "C01",
+      "count": 218
+    },
+    {
+      "code": "C11",
+      "count": 128
+    },
+    {
+      "code": "C03",
+      "count": 126
+    },
+    {
+      "code": "C13",
+      "count": 83
+    },
+    {
+      "code": "C09",
+      "count": 83
+    },
+    {
+      "code": "C05",
+      "count": 83
+    },
+    {
+      "code": "C08",
+      "count": 79
+    },
+    {
+      "code": "C12",
+      "count": 77
+    },
+    {
+      "code": "C06",
+      "count": 75
+    },
+    {
+      "code": "C07",
+      "count": 74
+    },
+    {
+      "code": "C10",
+      "count": 47
+    }
+  ],
+  "budget": {
+    "lines": 4360,
+    "exe_amt": 1948376883560,
+    "budget_now": 2909154396230
+  },
+  "recent_changes": [
+    {
+      "change_id": "456bf7c0f0b84782bff5687539eb3af3",
+      "ts": "2026-08-19T14:53:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4138000|fyr:2025",
+      "entity_name": "4138000 2025 세출(2230건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "79b703681893414e8b7dd89ea94afaf1",
+      "ts": "2026-08-19T14:20:41+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4138000|fyr:2026",
+      "entity_name": "4138000 2026 세출(2130건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e94a43fb9034480496ce7a8c35761652",
+      "ts": "2026-08-19T11:16:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1622093",
+      "entity_name": "여주시 야생동물로 인한 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1622093&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fa3c5b74b9cc45128020fcaf38cf6243",
+      "ts": "2026-08-19T11:09:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1701865",
+      "entity_name": "여주시 반려동물산업 육성 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1701865&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5e87d937967342ffbbfe9dff95dd64a1",
+      "ts": "2026-08-19T11:09:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1589103",
+      "entity_name": "여주시 반려동물 보호 및 학대방지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1589103&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cc84799a3ba94c7e894e12ce6ae08d87",
+      "ts": "2026-08-19T11:02:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1824549",
+      "entity_name": "여주시 지역소멸 위기 대응 및 인구정책에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1824549&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "585b359a7e754305a46feb4b2d6e57ae",
+      "ts": "2026-08-19T11:02:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1406334",
+      "entity_name": "여주시 여성장애인 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1406334&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e548b5c04516475aa982a6283e7e635c",
+      "ts": "2026-08-19T10:58:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2095769",
+      "entity_name": "여주시 출산장려 및 다자녀 가정 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2095769&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b11ce0aa03634973bdbc99cf32b5b173",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41670",
+      "entity_name": "여주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

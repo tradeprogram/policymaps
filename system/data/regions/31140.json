@@ -1,0 +1,136 @@
+{
+  "sig_cd": "31140",
+  "region_id": "31140",
+  "name": "남구",
+  "full_name": "울산광역시 남구",
+  "level": 2,
+  "status": "active",
+  "population": 304418,
+  "ordinance_kinds": {
+    "규칙": 89,
+    "조례": 391
+  },
+  "ordinance_total": 480,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 207
+    },
+    {
+      "code": "C02",
+      "count": 137
+    },
+    {
+      "code": "C03",
+      "count": 75
+    },
+    {
+      "code": "C08",
+      "count": 68
+    },
+    {
+      "code": "C13",
+      "count": 58
+    },
+    {
+      "code": "C06",
+      "count": 56
+    },
+    {
+      "code": "C05",
+      "count": 53
+    },
+    {
+      "code": "C11",
+      "count": 49
+    },
+    {
+      "code": "C07",
+      "count": 40
+    },
+    {
+      "code": "C09",
+      "count": 37
+    },
+    {
+      "code": "C10",
+      "count": 26
+    },
+    {
+      "code": "C04",
+      "count": 12
+    }
+  ],
+  "budget": {
+    "lines": 1838,
+    "exe_amt": 1380656184817,
+    "budget_now": 1878865714805
+  },
+  "recent_changes": [
+    {
+      "change_id": "ddfde8269bcb403ca93c0ff9b61c1a1a",
+      "ts": "2026-08-19T14:47:29+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3112000|fyr:2025",
+      "entity_name": "3112000 2025 세출(948건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b7df1a5bdb7d431ba82f3975da94da1d",
+      "ts": "2026-08-19T14:18:22+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3112000|fyr:2026",
+      "entity_name": "3112000 2026 세출(890건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4d06b7387c154384a7af06bc230e6b00",
+      "ts": "2026-08-19T11:17:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2102065",
+      "entity_name": "울산광역시 남구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2102065&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f45196880ce9415aa7043bb4a4a29966",
+      "ts": "2026-08-19T11:09:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2116797",
+      "entity_name": "울산광역시 남구 반려동물 및 유실·유기동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2116797&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "14c8f66802ca417fac2ddd857388ef04",
+      "ts": "2026-08-19T11:04:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1757841",
+      "entity_name": "울산광역시 남구 출산·양육 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1757841&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c175d56f1dd84a35a6f6c678d8357725",
+      "ts": "2026-08-19T10:56:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1757837",
+      "entity_name": "울산광역시 남구 출산·양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1757837&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6b074ceb54a6439c8b52038c7d398027",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "31140",
+      "entity_name": "남구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

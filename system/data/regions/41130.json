@@ -1,0 +1,163 @@
+{
+  "sig_cd": "41130",
+  "region_id": "41130",
+  "name": "성남시",
+  "full_name": "경기도 성남시",
+  "level": 2,
+  "status": "active",
+  "population": 901110,
+  "ordinance_kinds": {
+    "규칙": 153,
+    "조례": 695
+  },
+  "ordinance_total": 848,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 279
+    },
+    {
+      "code": "C02",
+      "count": 237
+    },
+    {
+      "code": "C03",
+      "count": 164
+    },
+    {
+      "code": "C11",
+      "count": 142
+    },
+    {
+      "code": "C09",
+      "count": 115
+    },
+    {
+      "code": "C07",
+      "count": 110
+    },
+    {
+      "code": "C05",
+      "count": 106
+    },
+    {
+      "code": "C06",
+      "count": 89
+    },
+    {
+      "code": "C13",
+      "count": 88
+    },
+    {
+      "code": "C08",
+      "count": 86
+    },
+    {
+      "code": "C10",
+      "count": 76
+    },
+    {
+      "code": "C04",
+      "count": 25
+    }
+  ],
+  "budget": {
+    "lines": 8767,
+    "exe_amt": 7206672518988,
+    "budget_now": 12134443841660
+  },
+  "recent_changes": [
+    {
+      "change_id": "15b48755ebbb462f8a2d884e951bf74f",
+      "ts": "2026-08-19T14:49:00+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4112000|fyr:2025",
+      "entity_name": "4112000 2025 세출(4430건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "bfe0453516a74fdba4b495f80d374b22",
+      "ts": "2026-08-19T14:18:45+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4112000|fyr:2026",
+      "entity_name": "4112000 2026 세출(4337건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "6921c7163a464bc79b39c76f185547aa",
+      "ts": "2026-08-19T11:16:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1305599",
+      "entity_name": "야생동물에 의한 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1305599&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "91e1dd5a07b04316a4326c7d823d4909",
+      "ts": "2026-08-19T11:16:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2049059",
+      "entity_name": "성남시 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2049059&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "58af7d6f9b17494c9b6adf1c49918ffc",
+      "ts": "2026-08-19T11:16:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2078595",
+      "entity_name": "성남시 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2078595&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0dd749be085545bbacbcc45ca70901ec",
+      "ts": "2026-08-19T11:01:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1806737",
+      "entity_name": "성남시 저출산·고령사회 대응과 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1806737&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "49cab377418a4d81885bc667eb641e9b",
+      "ts": "2026-08-19T11:01:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1408662",
+      "entity_name": "성남시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1408662&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2b1ec46b1b434abcb32a1569324ba1b2",
+      "ts": "2026-08-19T11:01:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2019943",
+      "entity_name": "성남시 임신·출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2019943&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "30572376046c4f27bef07974a62484a7",
+      "ts": "2026-08-19T10:55:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1907955",
+      "entity_name": "성남시 출산장려 지원 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1907955&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3b99922a52744173b5028e703a918d6d",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41130",
+      "entity_name": "성남시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

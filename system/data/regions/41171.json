@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41171",
+  "region_id": "41171",
+  "name": "만안구",
+  "full_name": "경기도 안양시 만안구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "569bbf838ecc466992eb414bde5e7ddb",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41171",
+      "entity_name": "만안구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

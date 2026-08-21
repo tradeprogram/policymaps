@@ -1,0 +1,138 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "sig_cd": "47170",
+  "region_id": "47170",
+  "name": "안동시",
+  "full_name": "경상북도 안동시",
+  "level": 2,
+  "status": "active",
+  "population": 154000,
+  "ordinance_kinds": {
+    "조례": 409,
+    "규칙": 96
+  },
+  "ordinance_total": 505,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 78
+    },
+    {
+      "code": "C07",
+      "count": 59
+    },
+    {
+      "code": "C08",
+      "count": 59
+    },
+    {
+      "code": "C11",
+      "count": 50
+    },
+    {
+      "code": "C13",
+      "count": 50
+    },
+    {
+      "code": "C04",
+      "count": 37
+    },
+    {
+      "code": "C10",
+      "count": 35
+    },
+    {
+      "code": "C09",
+      "count": 26
+    },
+    {
+      "code": "C05",
+      "count": 24
+    },
+    {
+      "code": "C14",
+      "count": 21
+    },
+    {
+      "code": "C12",
+      "count": 17
+    },
+    {
+      "code": "C06",
+      "count": 11
+    },
+    {
+      "code": "C02",
+      "count": 1
+    },
+    {
+      "code": "C03",
+      "count": 1
+    }
+  ],
+  "budget": {
+    "lines": 1817,
+    "exe_amt": 196438740994,
+    "budget_now": 379080209977
+  },
+  "recent_changes": [
+    {
+      "change_id": "898adfa53f0cc079321fecad0658ede6",
+      "ts": "2026-08-19T08:21:41+0900",
+      "entity_type": "boundary",
+      "entity_id": "47130",
+      "entity_name": "경주시",
+      "event": "created",
+      "official_url": null
+    },
+    {
+      "change_id": "d98faaf8b9995882869c8d2465c6234e",
+      "ts": "2026-08-19T02:01:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2665591",
+      "entity_name": "경상북도 안동시 사회적경제 육성 지원에 관한 규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2665591&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "422552a5b3c1c832e08b3691ded61784",
+      "ts": "2026-08-19T01:25:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2168198",
+      "entity_name": "경상북도 포항시 반려동물 보호 및 복지에 관한 조례",
+      "event": "updated",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2168198&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a7af32630caf6b00f923f24ea23c784b",
+      "ts": "2026-08-19T00:06:21+0900",
+      "entity_type": "boundary",
+      "entity_id": "47170",
+      "entity_name": "안동시",
+      "event": "created",
+      "official_url": null
+    },
+    {
+      "change_id": "7adc69fb8fea5b976d8a719c5337f4c7",
+      "ts": "2026-08-18T07:33:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3716435",
+      "entity_name": "경상북도 자원순환 촉진에 관한 조례",
+      "event": "repealed",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3716435&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b51b799e0ec99bb35058789dac70aa58",
+      "ts": "2026-08-18T02:59:45+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4700000|fyr:2025",
+      "entity_name": "4700000 2025 세출(4670건)",
+      "event": "budget_changed",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-21",
+  "stale": false
+}

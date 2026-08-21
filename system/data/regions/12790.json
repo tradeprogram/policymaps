@@ -1,0 +1,136 @@
+{
+  "sig_cd": "12790",
+  "region_id": "12790",
+  "name": "해남군",
+  "full_name": "전남광주통합특별시 해남군",
+  "level": 2,
+  "status": "active",
+  "population": 61992,
+  "ordinance_kinds": {
+    "규칙": 87,
+    "조례": 522
+  },
+  "ordinance_total": 609,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 210
+    },
+    {
+      "code": "C02",
+      "count": 169
+    },
+    {
+      "code": "C03",
+      "count": 95
+    },
+    {
+      "code": "C11",
+      "count": 83
+    },
+    {
+      "code": "C13",
+      "count": 76
+    },
+    {
+      "code": "C08",
+      "count": 68
+    },
+    {
+      "code": "C12",
+      "count": 66
+    },
+    {
+      "code": "C07",
+      "count": 59
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C05",
+      "count": 57
+    },
+    {
+      "code": "C09",
+      "count": 50
+    },
+    {
+      "code": "C10",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "28a284e82ab74386996e765b922fff6a",
+      "ts": "2026-08-19T11:19:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1609019",
+      "entity_name": "해남군 야생동물 피해예방시설 및 보상금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1609019&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f8801893457447d58f8239f0d7204d0d",
+      "ts": "2026-08-19T11:12:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1379164",
+      "entity_name": "해남군 유기동물 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1379164&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6d0ece47ab2242ec99854bb76a2c9139",
+      "ts": "2026-08-19T11:10:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2061871",
+      "entity_name": "해남군 취약계층 반려동물 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2061871&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4d498d8b75c140ccb4aa6193cf6f0b5b",
+      "ts": "2026-08-19T11:10:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2118367",
+      "entity_name": "해남군 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2118367&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "aa14e49b09a246d493ea33459061d924",
+      "ts": "2026-08-19T11:06:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2108755",
+      "entity_name": "해남군 출산정책위원회 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2108755&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "630c212d50a546e8949e58d7ed18e34a",
+      "ts": "2026-08-19T11:04:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1480123",
+      "entity_name": "해남군 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1480123&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "33245218f94941ebb7a67ed02c6e6db5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12790",
+      "entity_name": "해남군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

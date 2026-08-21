@@ -1,0 +1,145 @@
+{
+  "sig_cd": "48220",
+  "region_id": "48220",
+  "name": "통영시",
+  "full_name": "경상남도 통영시",
+  "level": 2,
+  "status": "active",
+  "population": 115867,
+  "ordinance_kinds": {
+    "규칙": 117,
+    "조례": 540
+  },
+  "ordinance_total": 657,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 222
+    },
+    {
+      "code": "C02",
+      "count": 176
+    },
+    {
+      "code": "C03",
+      "count": 94
+    },
+    {
+      "code": "C11",
+      "count": 84
+    },
+    {
+      "code": "C13",
+      "count": 82
+    },
+    {
+      "code": "C08",
+      "count": 81
+    },
+    {
+      "code": "C05",
+      "count": 80
+    },
+    {
+      "code": "C09",
+      "count": 73
+    },
+    {
+      "code": "C07",
+      "count": 69
+    },
+    {
+      "code": "C06",
+      "count": 63
+    },
+    {
+      "code": "C10",
+      "count": 45
+    },
+    {
+      "code": "C12",
+      "count": 40
+    }
+  ],
+  "budget": {
+    "lines": 3957,
+    "exe_amt": 1615828981000,
+    "budget_now": 2616746012620
+  },
+  "recent_changes": [
+    {
+      "change_id": "27184e8943ca43c9914cf1664ad1006e",
+      "ts": "2026-08-19T15:22:23+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4815000|fyr:2025",
+      "entity_name": "4815000 2025 세출(2021건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c4704aa2f8a44c7b86a8f2b64358bfda",
+      "ts": "2026-08-19T14:35:18+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4815000|fyr:2026",
+      "entity_name": "4815000 2026 세출(1936건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d5047a7bca49410db1421282cbd45228",
+      "ts": "2026-08-19T11:19:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2125557",
+      "entity_name": "통영시 야생동물에 의한 피해 예방 및 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125557&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a0a48c477fb345b28642669d5e74ba76",
+      "ts": "2026-08-19T11:10:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1747789",
+      "entity_name": "통영시 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1747789&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "619d0e81cf974fc2821e9be1d98e6360",
+      "ts": "2026-08-19T11:10:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2006901",
+      "entity_name": "통영시 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2006901&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "17e6c115fbe6466492c0555038316194",
+      "ts": "2026-08-19T11:03:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1491685",
+      "entity_name": "통영시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1491685&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1ac25dc0374443249916aae6b063041f",
+      "ts": "2026-08-19T10:58:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1828741",
+      "entity_name": "통영시 출산 장려 및 보육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1828741&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4876f50cc0c34f28afc94dd13e9e302d",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48220",
+      "entity_name": "통영시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

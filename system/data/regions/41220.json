@@ -1,0 +1,145 @@
+{
+  "sig_cd": "41220",
+  "region_id": "41220",
+  "name": "평택시",
+  "full_name": "경기도 평택시",
+  "level": 2,
+  "status": "active",
+  "population": 620754,
+  "ordinance_kinds": {
+    "규칙": 132,
+    "조례": 631
+  },
+  "ordinance_total": 763,
+  "top_categories": [
+    {
+      "code": "C10",
+      "count": 674
+    },
+    {
+      "code": "C01",
+      "count": 209
+    },
+    {
+      "code": "C02",
+      "count": 138
+    },
+    {
+      "code": "C03",
+      "count": 106
+    },
+    {
+      "code": "C11",
+      "count": 82
+    },
+    {
+      "code": "C09",
+      "count": 76
+    },
+    {
+      "code": "C05",
+      "count": 75
+    },
+    {
+      "code": "C08",
+      "count": 67
+    },
+    {
+      "code": "C13",
+      "count": 65
+    },
+    {
+      "code": "C07",
+      "count": 60
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 38
+    }
+  ],
+  "budget": {
+    "lines": 6555,
+    "exe_amt": 4386289728488,
+    "budget_now": 6126544236732
+  },
+  "recent_changes": [
+    {
+      "change_id": "bc8c31ca187c4e92920268da2b9d159a",
+      "ts": "2026-08-19T14:50:14+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4117000|fyr:2025",
+      "entity_name": "4117000 2025 세출(3347건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c0baa55161e0492fb5ce0ab3daa806b0",
+      "ts": "2026-08-19T14:19:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4117000|fyr:2026",
+      "entity_name": "4117000 2026 세출(3208건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "3199266f9e8e43bfac5697e3f015642c",
+      "ts": "2026-08-19T11:19:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2040765",
+      "entity_name": "평택시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2040765&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f18358211a0346eaae11be2ac43a2953",
+      "ts": "2026-08-19T11:19:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2099071",
+      "entity_name": "평택시 동물보호·복지 및 동물보호센터 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2099071&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7b104ef34b1449fba27eae1d0823c040",
+      "ts": "2026-08-19T11:04:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1617331",
+      "entity_name": "평택시 저출산·고령사회정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1617331&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2395c319d9ce4a15884904c1dcea5fd8",
+      "ts": "2026-08-19T11:04:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2062761",
+      "entity_name": "평택시 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2062761&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a0e78af69fbc4db18a0b38b0895f55fc",
+      "ts": "2026-08-19T10:58:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1792491",
+      "entity_name": "평택시 출산축하ㆍ지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1792491&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e763cdd954d842e8b4d35cf0a8eb6286",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41220",
+      "entity_name": "평택시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

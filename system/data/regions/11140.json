@@ -1,0 +1,136 @@
+{
+  "sig_cd": "11140",
+  "region_id": "11140",
+  "name": "중구",
+  "full_name": "서울특별시 중구",
+  "level": 2,
+  "status": "active",
+  "population": 117493,
+  "ordinance_kinds": {
+    "규칙": 105,
+    "조례": 427
+  },
+  "ordinance_total": 532,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 210
+    },
+    {
+      "code": "C02",
+      "count": 166
+    },
+    {
+      "code": "C03",
+      "count": 112
+    },
+    {
+      "code": "C06",
+      "count": 71
+    },
+    {
+      "code": "C05",
+      "count": 70
+    },
+    {
+      "code": "C11",
+      "count": 64
+    },
+    {
+      "code": "C08",
+      "count": 60
+    },
+    {
+      "code": "C13",
+      "count": 59
+    },
+    {
+      "code": "C07",
+      "count": 56
+    },
+    {
+      "code": "C09",
+      "count": 37
+    },
+    {
+      "code": "C10",
+      "count": 31
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 1847,
+    "exe_amt": 1083524733398,
+    "budget_now": 1580066320290
+  },
+  "recent_changes": [
+    {
+      "change_id": "b40f988b7e134d7ca51550f86d90ca4b",
+      "ts": "2026-08-19T14:38:04+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1112000|fyr:2025",
+      "entity_name": "1112000 2025 세출(968건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "03fb9b1b31e14b8aad9063371aca96cf",
+      "ts": "2026-08-19T14:16:42+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1112000|fyr:2026",
+      "entity_name": "1112000 2026 세출(879건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2fb6020ccf6e4e94928071d7a685e275",
+      "ts": "2026-08-19T11:08:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1841335",
+      "entity_name": "서울특별시 중구 동물보호 및 동물복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1841335&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6a4a2a359af745abb1b64080fba2420e",
+      "ts": "2026-08-19T11:01:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1793155",
+      "entity_name": "서울특별시 중구 출산양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1793155&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2e6bd616ee5342b79579b96397293084",
+      "ts": "2026-08-19T11:01:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2058229",
+      "entity_name": "서울특별시 중구 출산가정을 위한 백일해 예방접종 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058229&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "87c9462b46c44bb99e7fdc2faa806e09",
+      "ts": "2026-08-19T11:01:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1417415",
+      "entity_name": "서울특별시 중구 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417415&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bc2e81e63444430d8aac6555bb6d014e",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11140",
+      "entity_name": "중구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

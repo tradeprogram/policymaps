@@ -1,0 +1,145 @@
+{
+  "sig_cd": "28275",
+  "region_id": "28275",
+  "name": "서해구",
+  "full_name": "인천광역시 서해구",
+  "level": 2,
+  "status": "active",
+  "population": 392173,
+  "ordinance_kinds": {
+    "규칙": 108,
+    "조례": 535
+  },
+  "ordinance_total": 643,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 248
+    },
+    {
+      "code": "C02",
+      "count": 184
+    },
+    {
+      "code": "C03",
+      "count": 110
+    },
+    {
+      "code": "C11",
+      "count": 94
+    },
+    {
+      "code": "C05",
+      "count": 87
+    },
+    {
+      "code": "C08",
+      "count": 72
+    },
+    {
+      "code": "C06",
+      "count": 71
+    },
+    {
+      "code": "C13",
+      "count": 65
+    },
+    {
+      "code": "C09",
+      "count": 59
+    },
+    {
+      "code": "C07",
+      "count": 58
+    },
+    {
+      "code": "C10",
+      "count": 30
+    },
+    {
+      "code": "C04",
+      "count": 22
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "373197571cfb4c8a86212bc4c3664e4e",
+      "ts": "2026-08-19T11:18:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2135845",
+      "entity_name": "인천광역시 서해구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135845&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b5cf7684a83547dbb22a0dbd4caa79c0",
+      "ts": "2026-08-19T11:12:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2135609",
+      "entity_name": "인천광역시 서해구 유기ㆍ유실동물 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135609&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6708e1df6b5d4366bae113cd9678e730",
+      "ts": "2026-08-19T11:11:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2134943",
+      "entity_name": "인천광역시 서해구 반려견 순찰대 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2134943&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "88da0622bc47411394b3feb51ba542ac",
+      "ts": "2026-08-19T11:09:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2135873",
+      "entity_name": "인천광역시 서해구 반려동물 장례문화 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135873&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c642cc206a8c474db82be947e1f2974c",
+      "ts": "2026-08-19T11:09:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2135593",
+      "entity_name": "인천광역시 서해구 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135593&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "367c701bb59b4826ab2ba95b6dad9e84",
+      "ts": "2026-08-19T11:03:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2135711",
+      "entity_name": "인천광역시 서해구 행복한 출산ㆍ양육 환경 조성을 위한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135711&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4c96eebe680a45ee9bc7bec02863e694",
+      "ts": "2026-08-19T11:03:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2135839",
+      "entity_name": "인천광역시 서해구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135839&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2a35748f34b4461ab3f5e2b2d68753e1",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28275",
+      "entity_name": "서해구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

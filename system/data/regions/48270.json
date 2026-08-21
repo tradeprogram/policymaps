@@ -1,0 +1,127 @@
+{
+  "sig_cd": "48270",
+  "region_id": "48270",
+  "name": "밀양시",
+  "full_name": "경상남도 밀양시",
+  "level": 2,
+  "status": "active",
+  "population": 98498,
+  "ordinance_kinds": {
+    "규칙": 116,
+    "조례": 464
+  },
+  "ordinance_total": 580,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 227
+    },
+    {
+      "code": "C02",
+      "count": 169
+    },
+    {
+      "code": "C03",
+      "count": 98
+    },
+    {
+      "code": "C11",
+      "count": 84
+    },
+    {
+      "code": "C08",
+      "count": 70
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C09",
+      "count": 63
+    },
+    {
+      "code": "C05",
+      "count": 61
+    },
+    {
+      "code": "C06",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 45
+    },
+    {
+      "code": "C12",
+      "count": 39
+    },
+    {
+      "code": "C10",
+      "count": 38
+    }
+  ],
+  "budget": {
+    "lines": 3432,
+    "exe_amt": 1930105417985,
+    "budget_now": 2826767307420
+  },
+  "recent_changes": [
+    {
+      "change_id": "707dfed2a6f044c1935a4d7f16ead678",
+      "ts": "2026-08-19T15:23:07+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4818000|fyr:2025",
+      "entity_name": "4818000 2025 세출(1724건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "dcf637cbb39e409785b827f9e7342059",
+      "ts": "2026-08-19T14:35:25+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4818000|fyr:2026",
+      "entity_name": "4818000 2026 세출(1708건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "da2fad62519c416eb12300449cd067ef",
+      "ts": "2026-08-19T11:14:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1364599",
+      "entity_name": "밀양시 야생동물 피해예방시설 지원 및 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1364599&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4ba2f2842b014bc3994b09d45d8c21dd",
+      "ts": "2026-08-19T11:14:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1971113",
+      "entity_name": "밀양시 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971113&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "987d85c0c1ae4399a43ec8f854a81b47",
+      "ts": "2026-08-19T10:57:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2116893",
+      "entity_name": "밀양시 출산장려시책 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2116893&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "87a4a84211ea449fbedbcc93f6316b5f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48270",
+      "entity_name": "밀양시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

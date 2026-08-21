@@ -1,0 +1,127 @@
+{
+  "sig_cd": "27200",
+  "region_id": "27200",
+  "name": "남구",
+  "full_name": "대구광역시 남구",
+  "level": 2,
+  "status": "active",
+  "population": 141659,
+  "ordinance_kinds": {
+    "규칙": 65,
+    "조례": 366
+  },
+  "ordinance_total": 431,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 185
+    },
+    {
+      "code": "C02",
+      "count": 105
+    },
+    {
+      "code": "C03",
+      "count": 82
+    },
+    {
+      "code": "C08",
+      "count": 68
+    },
+    {
+      "code": "C06",
+      "count": 55
+    },
+    {
+      "code": "C05",
+      "count": 52
+    },
+    {
+      "code": "C11",
+      "count": 51
+    },
+    {
+      "code": "C13",
+      "count": 50
+    },
+    {
+      "code": "C07",
+      "count": 40
+    },
+    {
+      "code": "C09",
+      "count": 38
+    },
+    {
+      "code": "C10",
+      "count": 28
+    },
+    {
+      "code": "C04",
+      "count": 14
+    }
+  ],
+  "budget": {
+    "lines": 1820,
+    "exe_amt": 965092993571,
+    "budget_now": 1958445403830
+  },
+  "recent_changes": [
+    {
+      "change_id": "b685d466ef884a6da8ba4feb3a374502",
+      "ts": "2026-08-19T14:43:39+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2714000|fyr:2025",
+      "entity_name": "2714000 2025 세출(918건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d478e977283e45a3bf3a4db7533786f2",
+      "ts": "2026-08-19T14:17:26+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2714000|fyr:2026",
+      "entity_name": "2714000 2026 세출(902건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a1c32b87d4854c31a1f75268e15b97b7",
+      "ts": "2026-08-19T11:13:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2100353",
+      "entity_name": "대구광역시 남구 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100353&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "71ceec31f04b4152abf1d15acecf170c",
+      "ts": "2026-08-19T10:59:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2100357",
+      "entity_name": "대구광역시 남구 임신·출산가정 가사서비스 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100357&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "851374434f704bdbbac3a0308376e6b1",
+      "ts": "2026-08-19T10:55:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1862159",
+      "entity_name": "대구광역시 남구 출생·양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1862159&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a619418d5ff74bcbb9800998dfc620f3",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "27200",
+      "entity_name": "남구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

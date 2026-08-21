@@ -1,0 +1,154 @@
+{
+  "sig_cd": "43130",
+  "region_id": "43130",
+  "name": "충주시",
+  "full_name": "충청북도 충주시",
+  "level": 2,
+  "status": "active",
+  "population": 205872,
+  "ordinance_kinds": {
+    "규칙": 112,
+    "조례": 623
+  },
+  "ordinance_total": 735,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 229
+    },
+    {
+      "code": "C02",
+      "count": 218
+    },
+    {
+      "code": "C11",
+      "count": 125
+    },
+    {
+      "code": "C03",
+      "count": 121
+    },
+    {
+      "code": "C13",
+      "count": 95
+    },
+    {
+      "code": "C05",
+      "count": 87
+    },
+    {
+      "code": "C08",
+      "count": 78
+    },
+    {
+      "code": "C09",
+      "count": 77
+    },
+    {
+      "code": "C07",
+      "count": 76
+    },
+    {
+      "code": "C06",
+      "count": 72
+    },
+    {
+      "code": "C12",
+      "count": 55
+    },
+    {
+      "code": "C10",
+      "count": 53
+    }
+  ],
+  "budget": {
+    "lines": 5623,
+    "exe_amt": 2664605562260,
+    "budget_now": 4261808785990
+  },
+  "recent_changes": [
+    {
+      "change_id": "83422bc741a44461aa7935d46d9a51a2",
+      "ts": "2026-08-19T14:57:26+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4312000|fyr:2025",
+      "entity_name": "4312000 2025 세출(2847건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "8673f73de007423e90ecb39e603128cb",
+      "ts": "2026-08-19T14:23:11+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4312000|fyr:2026",
+      "entity_name": "4312000 2026 세출(2776건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "03068cf4b35a4d31902292efa23fd0b4",
+      "ts": "2026-08-19T11:19:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2107171",
+      "entity_name": "충주시 야생동물에 의한 피해 보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107171&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6698618b0e0b4343a6560cc51f39ae4a",
+      "ts": "2026-08-19T11:19:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1643963",
+      "entity_name": "충주시 동물보호 및 생명 존중 문화 조성 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1643963&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f0aac7239ed3411d8fc4821d0eedd167",
+      "ts": "2026-08-19T11:10:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1789993",
+      "entity_name": "충주시 반려동물 산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1789993&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "369703e82d4c4824954fcc7abb8c1112",
+      "ts": "2026-08-19T11:10:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1521781",
+      "entity_name": "충주시 반려동물보호센터 설치 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1521781&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6bbe734c92344c58a4e0d80bc476ec93",
+      "ts": "2026-08-19T11:10:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1635991",
+      "entity_name": "충주시 반려동물 및 유실·유기동물 보호와 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1635991&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8f0ef77d3b414a4db82dd6d589d7a8d6",
+      "ts": "2026-08-19T11:03:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1973231",
+      "entity_name": "충주시 저출산·고령사회정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1973231&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c17794dfee354f2ab1d7626bc874d4ed",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43130",
+      "entity_name": "충주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

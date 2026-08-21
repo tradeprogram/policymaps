@@ -1,0 +1,118 @@
+{
+  "sig_cd": "12810",
+  "region_id": "12810",
+  "name": "무안군",
+  "full_name": "전남광주통합특별시 무안군",
+  "level": 2,
+  "status": "active",
+  "population": 95598,
+  "ordinance_kinds": {
+    "규칙": 105,
+    "조례": 590
+  },
+  "ordinance_total": 695,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 236
+    },
+    {
+      "code": "C02",
+      "count": 178
+    },
+    {
+      "code": "C03",
+      "count": 126
+    },
+    {
+      "code": "C11",
+      "count": 101
+    },
+    {
+      "code": "C08",
+      "count": 88
+    },
+    {
+      "code": "C13",
+      "count": 86
+    },
+    {
+      "code": "C05",
+      "count": 83
+    },
+    {
+      "code": "C06",
+      "count": 73
+    },
+    {
+      "code": "C12",
+      "count": 70
+    },
+    {
+      "code": "C09",
+      "count": 66
+    },
+    {
+      "code": "C07",
+      "count": 61
+    },
+    {
+      "code": "C10",
+      "count": 39
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "c37483853db444bfa71ed46218b0c29c",
+      "ts": "2026-08-19T11:14:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1793029",
+      "entity_name": "무안군 야생동물에 의한 농작물 등 피해예방 및 보상조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1793029&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a79fa25bfe724f5b96a97d6c0a66cec5",
+      "ts": "2026-08-19T11:07:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1870015",
+      "entity_name": "무안군 반려동물 보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1870015&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9d76cd81232f4fb1bb4d6d79c578e706",
+      "ts": "2026-08-19T11:00:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1402200",
+      "entity_name": "무안군 여성장애인 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1402200&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "53d8068575c641ddb9b6d220203e353a",
+      "ts": "2026-08-19T10:57:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2119859",
+      "entity_name": "무안군 출산장려 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119859&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "89958340b29549c8a5160ecbb54a9288",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12810",
+      "entity_name": "무안군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

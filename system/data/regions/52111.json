@@ -1,0 +1,30 @@
+{
+  "sig_cd": "52111",
+  "region_id": "52111",
+  "name": "완산구",
+  "full_name": "전북특별자치도 전주시 완산구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "e93fd6a5c0ca4ea28693229872792608",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52111",
+      "entity_name": "완산구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

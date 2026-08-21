@@ -1,0 +1,145 @@
+{
+  "sig_cd": "51720",
+  "region_id": "51720",
+  "name": "홍천군",
+  "full_name": "강원특별자치도 홍천군",
+  "level": 2,
+  "status": "active",
+  "population": 65810,
+  "ordinance_kinds": {
+    "규칙": 106,
+    "조례": 487
+  },
+  "ordinance_total": 593,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 228
+    },
+    {
+      "code": "C02",
+      "count": 179
+    },
+    {
+      "code": "C11",
+      "count": 89
+    },
+    {
+      "code": "C03",
+      "count": 83
+    },
+    {
+      "code": "C05",
+      "count": 67
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C08",
+      "count": 64
+    },
+    {
+      "code": "C12",
+      "count": 61
+    },
+    {
+      "code": "C09",
+      "count": 59
+    },
+    {
+      "code": "C06",
+      "count": 52
+    },
+    {
+      "code": "C07",
+      "count": 45
+    },
+    {
+      "code": "C10",
+      "count": 44
+    }
+  ],
+  "budget": {
+    "lines": 4053,
+    "exe_amt": 1489957002710,
+    "budget_now": 2433961162664
+  },
+  "recent_changes": [
+    {
+      "change_id": "e926ba46f68b4864bf06a075b60c67f5",
+      "ts": "2026-08-19T14:55:37+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4271000|fyr:2025",
+      "entity_name": "4271000 2025 세출(2057건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "83e8641f0d10498d9f60bc8dfa50fc42",
+      "ts": "2026-08-19T14:21:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4271000|fyr:2026",
+      "entity_name": "4271000 2026 세출(1996건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e5ca83431ef14b87a1201473969e5b97",
+      "ts": "2026-08-19T11:19:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1979227",
+      "entity_name": "홍천군 야생동물로 인한 피해예방 및 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1979227&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2445bc885f1947d08ae91532233c17ec",
+      "ts": "2026-08-19T11:11:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2121089",
+      "entity_name": "홍천군 반려동물 놀이터 관리 및 운영 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2121089&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ed77646fea634b9e924dd2fac7ad6620",
+      "ts": "2026-08-19T11:10:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1960765",
+      "entity_name": "홍천군 반려동물 보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1960765&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f3dce84e1b5a42f2b7f71ad47fca98f7",
+      "ts": "2026-08-19T11:10:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2121097",
+      "entity_name": "홍천군 반려동물 놀이터 관리 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2121097&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fafa882aae114e32831a1d94316b6dd8",
+      "ts": "2026-08-19T11:04:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1822995",
+      "entity_name": "홍천군 출산·양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1822995&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "190b4ec7afd94ecfaff29f525be59c5b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51720",
+      "entity_name": "홍천군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

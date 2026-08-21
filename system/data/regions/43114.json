@@ -1,0 +1,30 @@
+{
+  "sig_cd": "43114",
+  "region_id": "43114",
+  "name": "청원구",
+  "full_name": "충청북도 청주시 청원구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "3d7fe6bf7d80404d825f827aad119ce5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43114",
+      "entity_name": "청원구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

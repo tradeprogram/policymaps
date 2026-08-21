@@ -1,0 +1,127 @@
+{
+  "sig_cd": "52190",
+  "region_id": "52190",
+  "name": "남원시",
+  "full_name": "전북특별자치도 남원시",
+  "level": 2,
+  "status": "active",
+  "population": 73744,
+  "ordinance_kinds": {
+    "규칙": 105,
+    "조례": 606
+  },
+  "ordinance_total": 711,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 229
+    },
+    {
+      "code": "C02",
+      "count": 203
+    },
+    {
+      "code": "C11",
+      "count": 109
+    },
+    {
+      "code": "C03",
+      "count": 107
+    },
+    {
+      "code": "C13",
+      "count": 91
+    },
+    {
+      "code": "C08",
+      "count": 88
+    },
+    {
+      "code": "C06",
+      "count": 80
+    },
+    {
+      "code": "C05",
+      "count": 76
+    },
+    {
+      "code": "C09",
+      "count": 68
+    },
+    {
+      "code": "C12",
+      "count": 67
+    },
+    {
+      "code": "C07",
+      "count": 64
+    },
+    {
+      "code": "C10",
+      "count": 41
+    }
+  ],
+  "budget": {
+    "lines": 4211,
+    "exe_amt": 1948994092815,
+    "budget_now": 2648877675959
+  },
+  "recent_changes": [
+    {
+      "change_id": "0599316a180742ffa7225d5312bc2fae",
+      "ts": "2026-08-19T15:06:08+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4515000|fyr:2025",
+      "entity_name": "4515000 2025 세출(2147건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b5f6bd22f8bb4348a2790e3201bce66e",
+      "ts": "2026-08-19T14:27:24+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4515000|fyr:2026",
+      "entity_name": "4515000 2026 세출(2064건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e18f2144b42a4db4b41c0c7221cfe861",
+      "ts": "2026-08-19T11:13:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1682829",
+      "entity_name": "남원시 유해 야생동물에 의한 농작물 등 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1682829&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "39d0e701cfde48e3944adb02c6992ef9",
+      "ts": "2026-08-19T11:07:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1882903",
+      "entity_name": "남원시 반려동물 보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1882903&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "00ce862f69be46aea36672ae4a91d69c",
+      "ts": "2026-08-19T10:55:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1515515",
+      "entity_name": "남원시 출생 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515515&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7dbeb59caf72485ea742ea4b1c97421b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52190",
+      "entity_name": "남원시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

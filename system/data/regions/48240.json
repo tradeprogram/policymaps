@@ -1,0 +1,136 @@
+{
+  "sig_cd": "48240",
+  "region_id": "48240",
+  "name": "사천시",
+  "full_name": "경상남도 사천시",
+  "level": 2,
+  "status": "active",
+  "population": 107838,
+  "ordinance_kinds": {
+    "규칙": 111,
+    "조례": 541
+  },
+  "ordinance_total": 652,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 234
+    },
+    {
+      "code": "C02",
+      "count": 182
+    },
+    {
+      "code": "C11",
+      "count": 102
+    },
+    {
+      "code": "C03",
+      "count": 99
+    },
+    {
+      "code": "C13",
+      "count": 76
+    },
+    {
+      "code": "C08",
+      "count": 75
+    },
+    {
+      "code": "C09",
+      "count": 70
+    },
+    {
+      "code": "C05",
+      "count": 70
+    },
+    {
+      "code": "C07",
+      "count": 64
+    },
+    {
+      "code": "C10",
+      "count": 56
+    },
+    {
+      "code": "C12",
+      "count": 54
+    },
+    {
+      "code": "C06",
+      "count": 51
+    }
+  ],
+  "budget": {
+    "lines": 4104,
+    "exe_amt": 1638321162521,
+    "budget_now": 2429647618650
+  },
+  "recent_changes": [
+    {
+      "change_id": "3d2c970b98c3495bb7aa0bc9bf1ff148",
+      "ts": "2026-08-19T15:22:38+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4816000|fyr:2025",
+      "entity_name": "4816000 2025 세출(2078건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d418c7cb00c34a4f8f9a083146ed998f",
+      "ts": "2026-08-19T14:35:20+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4816000|fyr:2026",
+      "entity_name": "4816000 2026 세출(2026건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fde1add3a9584ba7b49a265c4522073a",
+      "ts": "2026-08-19T11:15:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1956649",
+      "entity_name": "사천시 야생동물 피해예방시설 지원 및 피해보상조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1956649&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "10517e97ab2e4d718c0fb9d460d0bd2a",
+      "ts": "2026-08-19T11:15:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2085877",
+      "entity_name": "사천시 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2085877&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fcb26983937e479897d4c11e7516284f",
+      "ts": "2026-08-19T11:08:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1790967",
+      "entity_name": "사천시 반려동물테마파크 설치 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1790967&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8d0844cc081543c39e3437bfb7b77e49",
+      "ts": "2026-08-19T11:04:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1382308",
+      "entity_name": "사천시 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382308&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "88576457609045c3b62326a7beef1ac1",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48240",
+      "entity_name": "사천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

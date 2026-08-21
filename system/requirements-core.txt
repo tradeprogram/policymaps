@@ -1,0 +1,6 @@
+# 코어 런타임 — 표준라이브러리만으로 동작하므로 필수 의존성 없음.
+# CI(refresh.yml)는 이 파일로 설치한다. httpx는 있으면 쓰고 없으면 urllib 폴백이라 선택.
+# 명세[realtime]: "requests/httpx 부재 시 urllib.request 폴백".
+#
+# 필요 시 아래 한 줄만 활성화(고속 HTTP). 주석 유지 시 순수 표준라이브러리로 실행.
+# httpx>=0.27

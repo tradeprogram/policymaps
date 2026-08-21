@@ -1,0 +1,136 @@
+{
+  "sig_cd": "28290",
+  "region_id": "28290",
+  "name": "검단구",
+  "full_name": "인천광역시 검단구",
+  "level": 2,
+  "status": "active",
+  "population": 273735,
+  "ordinance_kinds": {
+    "규칙": 84,
+    "조례": 424
+  },
+  "ordinance_total": 508,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 192
+    },
+    {
+      "code": "C02",
+      "count": 148
+    },
+    {
+      "code": "C03",
+      "count": 99
+    },
+    {
+      "code": "C11",
+      "count": 74
+    },
+    {
+      "code": "C06",
+      "count": 67
+    },
+    {
+      "code": "C05",
+      "count": 66
+    },
+    {
+      "code": "C08",
+      "count": 65
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C13",
+      "count": 43
+    },
+    {
+      "code": "C09",
+      "count": 41
+    },
+    {
+      "code": "C10",
+      "count": 25
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "447510476a714d12a823a36d30a9c38e",
+      "ts": "2026-08-19T11:12:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2142541",
+      "entity_name": "인천광역시 검단구 유기ㆍ유실동물 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142541&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "934a3baf36954ec3b08bf426e2cafa59",
+      "ts": "2026-08-19T11:11:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2142547",
+      "entity_name": "인천광역시 검단구 반려견 순찰대 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142547&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d7295edd24a7459e9ef250f256cfc928",
+      "ts": "2026-08-19T11:09:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2142523",
+      "entity_name": "인천광역시 검단구 반려동물 장례문화 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142523&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5868134625ab4099930a91c43369cc53",
+      "ts": "2026-08-19T11:09:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2142497",
+      "entity_name": "인천광역시 검단구 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142497&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ed6e02b8158c41fc9df04d5c0577c32c",
+      "ts": "2026-08-19T11:06:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2138027",
+      "entity_name": "인천광역시 검단구 행복한 출산ㆍ양육 환경 조성을 위한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2138027&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3f5880f106a14864aa13b485b36e1df6",
+      "ts": "2026-08-19T11:02:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2142505",
+      "entity_name": "인천광역시 검단구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142505&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "064a702c594c40ac94c96ac8c5f4d18b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28290",
+      "entity_name": "검단구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

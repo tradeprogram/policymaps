@@ -1,0 +1,145 @@
+{
+  "sig_cd": "26140",
+  "region_id": "26140",
+  "name": "서구",
+  "full_name": "부산광역시 서구",
+  "level": 2,
+  "status": "active",
+  "population": 101028,
+  "ordinance_kinds": {
+    "규칙": 76,
+    "조례": 407
+  },
+  "ordinance_total": 483,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 200
+    },
+    {
+      "code": "C02",
+      "count": 137
+    },
+    {
+      "code": "C03",
+      "count": 83
+    },
+    {
+      "code": "C06",
+      "count": 68
+    },
+    {
+      "code": "C08",
+      "count": 66
+    },
+    {
+      "code": "C11",
+      "count": 53
+    },
+    {
+      "code": "C05",
+      "count": 51
+    },
+    {
+      "code": "C13",
+      "count": 49
+    },
+    {
+      "code": "C07",
+      "count": 49
+    },
+    {
+      "code": "C09",
+      "count": 38
+    },
+    {
+      "code": "C10",
+      "count": 24
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 2427,
+    "exe_amt": 802308108910,
+    "budget_now": 1300323632020
+  },
+  "recent_changes": [
+    {
+      "change_id": "9003f6cc4eee46d88597cc3ff11e249d",
+      "ts": "2026-08-19T14:41:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2612000|fyr:2025",
+      "entity_name": "2612000 2025 세출(1210건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e4296de0191640eb9ced5ca1b91062fd",
+      "ts": "2026-08-19T14:17:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2612000|fyr:2026",
+      "entity_name": "2612000 2026 세출(1217건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "598737e5ef66487195cdf544cb67b754",
+      "ts": "2026-08-19T11:11:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1991357",
+      "entity_name": "부산광역시 서구 반려견 순찰대 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1991357&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "68749f3a29d54c8cb19881973aecd48d",
+      "ts": "2026-08-19T11:08:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2162411",
+      "entity_name": "부산광역시 서구 사회적 약자 반려동물 진료비 등 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2162411&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8d80be451bec42e9bfb2da1b9d4ff79a",
+      "ts": "2026-08-19T11:08:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1964047",
+      "entity_name": "부산광역시 서구 반려동물 보호 및 학대방지 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1964047&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d611c06a70b842e68f9873a0e2434e23",
+      "ts": "2026-08-19T11:00:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1979349",
+      "entity_name": "부산광역시 서구 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1979349&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "67e9bc8bced24ff28514e1694dcd161d",
+      "ts": "2026-08-19T10:57:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1524117",
+      "entity_name": "부산광역시 서구 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1524117&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d3365415eafe4efda298cbd6da326fc6",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26140",
+      "entity_name": "서구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

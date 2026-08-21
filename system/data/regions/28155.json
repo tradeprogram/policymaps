@@ -1,0 +1,91 @@
+{
+  "sig_cd": "28155",
+  "region_id": "28155",
+  "name": "영종구",
+  "full_name": "인천광역시 영종구",
+  "level": 2,
+  "status": "active",
+  "population": 138091,
+  "ordinance_kinds": {
+    "규칙": 161,
+    "조례": 666
+  },
+  "ordinance_total": 827,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 350
+    },
+    {
+      "code": "C02",
+      "count": 253
+    },
+    {
+      "code": "C03",
+      "count": 127
+    },
+    {
+      "code": "C06",
+      "count": 114
+    },
+    {
+      "code": "C08",
+      "count": 93
+    },
+    {
+      "code": "C13",
+      "count": 88
+    },
+    {
+      "code": "C11",
+      "count": 88
+    },
+    {
+      "code": "C07",
+      "count": 79
+    },
+    {
+      "code": "C05",
+      "count": 74
+    },
+    {
+      "code": "C09",
+      "count": 73
+    },
+    {
+      "code": "C10",
+      "count": 39
+    },
+    {
+      "code": "C04",
+      "count": 17
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "d08dbb3bf07e446fb4926cffc6d7ca97",
+      "ts": "2026-08-19T11:09:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1840243",
+      "entity_name": "인천광역시 중구 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1840243&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "20c8d92cc26d4451aa3a5d9caf169932",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28155",
+      "entity_name": "영종구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

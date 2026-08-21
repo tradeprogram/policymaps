@@ -1,0 +1,136 @@
+{
+  "sig_cd": "26380",
+  "region_id": "26380",
+  "name": "사하구",
+  "full_name": "부산광역시 사하구",
+  "level": 2,
+  "status": "active",
+  "population": 281665,
+  "ordinance_kinds": {
+    "규칙": 91,
+    "조례": 411
+  },
+  "ordinance_total": 502,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 201
+    },
+    {
+      "code": "C02",
+      "count": 137
+    },
+    {
+      "code": "C03",
+      "count": 84
+    },
+    {
+      "code": "C11",
+      "count": 65
+    },
+    {
+      "code": "C06",
+      "count": 62
+    },
+    {
+      "code": "C08",
+      "count": 61
+    },
+    {
+      "code": "C13",
+      "count": 60
+    },
+    {
+      "code": "C05",
+      "count": 57
+    },
+    {
+      "code": "C09",
+      "count": 55
+    },
+    {
+      "code": "C07",
+      "count": 48
+    },
+    {
+      "code": "C10",
+      "count": 28
+    },
+    {
+      "code": "C04",
+      "count": 12
+    }
+  ],
+  "budget": {
+    "lines": 2534,
+    "exe_amt": 1621302711430,
+    "budget_now": 2090503713270
+  },
+  "recent_changes": [
+    {
+      "change_id": "d7262bf65b6e4b2685050db2f78267c7",
+      "ts": "2026-08-19T14:42:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2620000|fyr:2025",
+      "entity_name": "2620000 2025 세출(1292건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c0d0ccb320af417187056c7ff71ad5bd",
+      "ts": "2026-08-19T14:17:12+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2620000|fyr:2026",
+      "entity_name": "2620000 2026 세출(1242건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2b4a3f3aa4964f9a993ffc190fc58138",
+      "ts": "2026-08-19T11:08:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1854335",
+      "entity_name": "부산광역시 사하구 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1854335&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "db1d2fe780ba4701999244eb21ec8954",
+      "ts": "2026-08-19T11:08:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2048647",
+      "entity_name": "부산광역시 사하구 동물보호 및 반려문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2048647&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bc3b11ab92b044abaaef2301dc6e4831",
+      "ts": "2026-08-19T11:00:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1399180",
+      "entity_name": "부산광역시 사하구 장애인 가정 출산 및 영아 양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1399180&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c357c7cab51542fc8cffe2ae5c0395fe",
+      "ts": "2026-08-19T10:57:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1932261",
+      "entity_name": "부산광역시 사하구 저출산 대책 및 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1932261&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ebc0192d68a04735ba62346223136b4c",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26380",
+      "entity_name": "사하구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

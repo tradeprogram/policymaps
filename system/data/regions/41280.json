@@ -1,0 +1,154 @@
+{
+  "sig_cd": "41280",
+  "region_id": "41280",
+  "name": "고양시",
+  "full_name": "경기도 고양시",
+  "level": 2,
+  "status": "active",
+  "population": 1057166,
+  "ordinance_kinds": {
+    "규칙": 126,
+    "조례": 614
+  },
+  "ordinance_total": 740,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 230
+    },
+    {
+      "code": "C02",
+      "count": 217
+    },
+    {
+      "code": "C03",
+      "count": 131
+    },
+    {
+      "code": "C11",
+      "count": 127
+    },
+    {
+      "code": "C09",
+      "count": 106
+    },
+    {
+      "code": "C05",
+      "count": 89
+    },
+    {
+      "code": "C13",
+      "count": 88
+    },
+    {
+      "code": "C08",
+      "count": 86
+    },
+    {
+      "code": "C07",
+      "count": 80
+    },
+    {
+      "code": "C06",
+      "count": 69
+    },
+    {
+      "code": "C10",
+      "count": 57
+    },
+    {
+      "code": "C12",
+      "count": 28
+    }
+  ],
+  "budget": {
+    "lines": 6442,
+    "exe_amt": 5776788297450,
+    "budget_now": 8703270852920
+  },
+  "recent_changes": [
+    {
+      "change_id": "ac9b7224a57f4b0abf825da732273bab",
+      "ts": "2026-08-19T14:50:34+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4120000|fyr:2025",
+      "entity_name": "4120000 2025 세출(3345건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9080b0a7764941e3ad239818f05b9fc4",
+      "ts": "2026-08-19T14:19:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4120000|fyr:2026",
+      "entity_name": "4120000 2026 세출(3097건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "969a2d9308e54ce7b83cf822a1e1a961",
+      "ts": "2026-08-19T11:12:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2074917",
+      "entity_name": "고양시 유해야생동물에 의한 피해 예방 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2074917&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5b419ec38b034b509a505a23570e0a66",
+      "ts": "2026-08-19T11:12:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1811993",
+      "entity_name": "고양시 동물복지 및 생명존중문화 조성 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1811993&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "40e87bc919844178a15a464d62399791",
+      "ts": "2026-08-19T11:06:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2109963",
+      "entity_name": "고양시 사회적 약자 반려동물 진료비등 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2109963&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a4cacae06203417cb5e7f343fe5bea77",
+      "ts": "2026-08-19T10:59:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2100501",
+      "entity_name": "고양시 출산가구 전월세자금 대출이자 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100501&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a9c6a5f2e5ba4d38a878cd7df35be400",
+      "ts": "2026-08-19T10:59:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1405603",
+      "entity_name": "고양시 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1405603&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3897264fb0334f08915858074bfb744c",
+      "ts": "2026-08-19T10:57:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1945095",
+      "entity_name": "고양시 출산·양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1945095&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4780994b3cc0483f8dcfb06173ab4bf7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41280",
+      "entity_name": "고양시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

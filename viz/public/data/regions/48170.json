@@ -1,0 +1,138 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "sig_cd": "48170",
+  "region_id": "48170",
+  "name": "진주시",
+  "full_name": "경상남도 진주시",
+  "level": 2,
+  "status": "active",
+  "population": 342000,
+  "ordinance_kinds": {
+    "조례": 465,
+    "규칙": 158
+  },
+  "ordinance_total": 623,
+  "top_categories": [
+    {
+      "code": "C12",
+      "count": 128
+    },
+    {
+      "code": "C08",
+      "count": 114
+    },
+    {
+      "code": "C06",
+      "count": 103
+    },
+    {
+      "code": "C09",
+      "count": 61
+    },
+    {
+      "code": "C02",
+      "count": 50
+    },
+    {
+      "code": "C01",
+      "count": 43
+    },
+    {
+      "code": "C05",
+      "count": 29
+    },
+    {
+      "code": "C14",
+      "count": 24
+    },
+    {
+      "code": "C13",
+      "count": 14
+    },
+    {
+      "code": "C04",
+      "count": 4
+    },
+    {
+      "code": "C10",
+      "count": 3
+    },
+    {
+      "code": "C11",
+      "count": 3
+    },
+    {
+      "code": "C03",
+      "count": 2
+    },
+    {
+      "code": "C07",
+      "count": 1
+    }
+  ],
+  "budget": {
+    "lines": 8648,
+    "exe_amt": 719530116586,
+    "budget_now": 1313496249773
+  },
+  "recent_changes": [
+    {
+      "change_id": "ea3c0d0f09b3c9223efa3cf2505df7d8",
+      "ts": "2026-08-19T08:23:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3197141",
+      "entity_name": "경상남도 진주시 장애인 자립생활 지원에 관한 규칙",
+      "event": "updated",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3197141&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "37a0fcce995a1ed4dfbb7635a2fac4d7",
+      "ts": "2026-08-19T07:32:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3784465",
+      "entity_name": "경상남도 창원시 자전거이용 활성화에 관한 규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3784465&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f0c7a755d1fdf9d4f7611adf3984311a",
+      "ts": "2026-08-19T07:23:10+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4800000|fyr:2025",
+      "entity_name": "4800000 2025 세출(2875건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "8bb0df1e818379b09a3f3bc5a3c25c95",
+      "ts": "2026-08-19T02:35:58+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4800000|fyr:2025",
+      "entity_name": "4800000 2025 세출(338건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d7cb990a28876496562f276b9e8e37ba",
+      "ts": "2026-08-18T04:36:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3557924",
+      "entity_name": "경상남도 문화예술 진흥에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3557924&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fbd0f9a32b3b49a63758b4a5afd4451a",
+      "ts": "2026-08-17T07:22:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2278843",
+      "entity_name": "경상남도 진주시 한부모가족 지원에 관한 규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2278843&type=HTML&mobileYn="
+    }
+  ],
+  "as_of_date": "2026-08-21",
+  "stale": false
+}

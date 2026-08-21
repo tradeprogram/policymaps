@@ -1,0 +1,136 @@
+{
+  "sig_cd": "28125",
+  "region_id": "28125",
+  "name": "제물포구",
+  "full_name": "인천광역시 제물포구",
+  "level": 2,
+  "status": "active",
+  "population": 99299,
+  "ordinance_kinds": {
+    "규칙": 134,
+    "조례": 759
+  },
+  "ordinance_total": 893,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 338
+    },
+    {
+      "code": "C02",
+      "count": 250
+    },
+    {
+      "code": "C03",
+      "count": 186
+    },
+    {
+      "code": "C06",
+      "count": 123
+    },
+    {
+      "code": "C08",
+      "count": 112
+    },
+    {
+      "code": "C05",
+      "count": 109
+    },
+    {
+      "code": "C11",
+      "count": 104
+    },
+    {
+      "code": "C13",
+      "count": 95
+    },
+    {
+      "code": "C07",
+      "count": 90
+    },
+    {
+      "code": "C09",
+      "count": 81
+    },
+    {
+      "code": "C10",
+      "count": 48
+    },
+    {
+      "code": "C04",
+      "count": 30
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "c613afd540bc4872b2ffbf9423c215ef",
+      "ts": "2026-08-19T11:18:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2147947",
+      "entity_name": "인천광역시 제물포구 동물보호 및 동물복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2147947&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b9fd340b78ac4c8c872e1638ea13f114",
+      "ts": "2026-08-19T11:11:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2153433",
+      "entity_name": "인천광역시 제물포구 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2153433&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b1ba3b39793c438e956db919e9b1c7c4",
+      "ts": "2026-08-19T11:11:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2101765",
+      "entity_name": "인천광역시 동구 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2101765&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5529ca7ae49844578cd7130e1e0d32d6",
+      "ts": "2026-08-19T11:09:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1930013",
+      "entity_name": "인천광역시 동구 동물보호 및 동물복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1930013&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7f840f07a6364df0a5bb3079000c73a1",
+      "ts": "2026-08-19T11:03:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2151257",
+      "entity_name": "인천광역시 제물포구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2151257&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c344498c306d4221902c85270636773a",
+      "ts": "2026-08-19T11:02:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1497055",
+      "entity_name": "인천광역시 동구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1497055&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8335dbe373c44c818c1a2c38d34f13a7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28125",
+      "entity_name": "제물포구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

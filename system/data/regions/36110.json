@@ -1,0 +1,127 @@
+{
+  "sig_cd": "36110",
+  "region_id": "36",
+  "name": "세종특별자치시",
+  "full_name": "세종특별자치시",
+  "level": 1,
+  "status": "active",
+  "population": 390972,
+  "ordinance_kinds": {
+    "규칙": 102,
+    "조례": 845
+  },
+  "ordinance_total": 947,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 874
+    },
+    {
+      "code": "C02",
+      "count": 787
+    },
+    {
+      "code": "C11",
+      "count": 86
+    },
+    {
+      "code": "C03",
+      "count": 83
+    },
+    {
+      "code": "C08",
+      "count": 74
+    },
+    {
+      "code": "C09",
+      "count": 62
+    },
+    {
+      "code": "C05",
+      "count": 50
+    },
+    {
+      "code": "C13",
+      "count": 45
+    },
+    {
+      "code": "C12",
+      "count": 45
+    },
+    {
+      "code": "C10",
+      "count": 45
+    },
+    {
+      "code": "C07",
+      "count": 38
+    },
+    {
+      "code": "C06",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 5025,
+    "exe_amt": 3818450727136,
+    "budget_now": 5042811609333
+  },
+  "recent_changes": [
+    {
+      "change_id": "745fdae1365445bd97c3df9e71339ade",
+      "ts": "2026-08-19T11:16:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1747859",
+      "entity_name": "세종특별자치시 야생동물에 의한 농작물 등 피해 예방 및 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1747859&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "194d421583d048cabefffce2e980087a",
+      "ts": "2026-08-19T11:16:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2019355",
+      "entity_name": "세종특별자치시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2019355&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dfdc9845262c4afea53424e115e8b2e2",
+      "ts": "2026-08-19T11:08:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1992093",
+      "entity_name": "세종특별자치시 반려동물 보호 및 반려문화 조성 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1992093&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c7bbf152d1bc47129232c5090ddca7a2",
+      "ts": "2026-08-19T11:01:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1954635",
+      "entity_name": "세종특별자치시 여성장애인 출산 및 양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1954635&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0584bcae582243e2a8070e6e0ed6646a",
+      "ts": "2026-08-19T10:57:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1973849",
+      "entity_name": "세종특별자치시 출생장려에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1973849&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7f243026392e462ea65980ca0d2c55f4",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "36",
+      "entity_name": "세종특별자치시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,145 @@
+{
+  "sig_cd": "52790",
+  "region_id": "52790",
+  "name": "고창군",
+  "full_name": "전북특별자치도 고창군",
+  "level": 2,
+  "status": "active",
+  "population": 50006,
+  "ordinance_kinds": {
+    "규칙": 92,
+    "조례": 513
+  },
+  "ordinance_total": 605,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 220
+    },
+    {
+      "code": "C02",
+      "count": 172
+    },
+    {
+      "code": "C11",
+      "count": 103
+    },
+    {
+      "code": "C03",
+      "count": 82
+    },
+    {
+      "code": "C12",
+      "count": 76
+    },
+    {
+      "code": "C08",
+      "count": 73
+    },
+    {
+      "code": "C05",
+      "count": 66
+    },
+    {
+      "code": "C13",
+      "count": 55
+    },
+    {
+      "code": "C09",
+      "count": 55
+    },
+    {
+      "code": "C07",
+      "count": 54
+    },
+    {
+      "code": "C06",
+      "count": 49
+    },
+    {
+      "code": "C10",
+      "count": 40
+    }
+  ],
+  "budget": {
+    "lines": 4077,
+    "exe_amt": 1376436955860,
+    "budget_now": 2187397688636
+  },
+  "recent_changes": [
+    {
+      "change_id": "30a95e6141054b34a77fb1dda5bf170b",
+      "ts": "2026-08-19T15:08:15+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4577000|fyr:2025",
+      "entity_name": "4577000 2025 세출(2046건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "37f88162871f44d0a71cd9c085a24c11",
+      "ts": "2026-08-19T14:28:21+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4577000|fyr:2026",
+      "entity_name": "4577000 2026 세출(2031건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f27f52b6e5304dc9bd2271a80054525d",
+      "ts": "2026-08-19T11:12:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1341911",
+      "entity_name": "고창군 야생동물에 의한 농작물피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1341911&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b78a02fce2fa41d0b5799aba048e482c",
+      "ts": "2026-08-19T11:06:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2130835",
+      "entity_name": "고창군 저출산 극복을 위한 인구정책 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130835&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8f455aeacfb24b2990d3b67cfeba38ea",
+      "ts": "2026-08-19T11:04:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2074537",
+      "entity_name": "고창군 저출산 극복을 위한 인구정책 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2074537&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f6e6b51e4a99489fbdf6e303586bfbcf",
+      "ts": "2026-08-19T10:59:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1881911",
+      "entity_name": "고창군 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1881911&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8464c3cbde9c43eda8c2d6338d3ac369",
+      "ts": "2026-08-19T10:53:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2105973",
+      "entity_name": "고창군 출산 등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2105973&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "880b6c8e425746f284b8045fe045bc0e",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52790",
+      "entity_name": "고창군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

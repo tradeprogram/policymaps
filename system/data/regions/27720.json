@@ -1,0 +1,127 @@
+{
+  "sig_cd": "27720",
+  "region_id": "27720",
+  "name": "군위군",
+  "full_name": "대구광역시 군위군",
+  "level": 2,
+  "status": "active",
+  "population": 22552,
+  "ordinance_kinds": {
+    "규칙": 69,
+    "조례": 346
+  },
+  "ordinance_total": 415,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 166
+    },
+    {
+      "code": "C02",
+      "count": 121
+    },
+    {
+      "code": "C03",
+      "count": 63
+    },
+    {
+      "code": "C11",
+      "count": 52
+    },
+    {
+      "code": "C08",
+      "count": 52
+    },
+    {
+      "code": "C12",
+      "count": 49
+    },
+    {
+      "code": "C13",
+      "count": 42
+    },
+    {
+      "code": "C06",
+      "count": 41
+    },
+    {
+      "code": "C09",
+      "count": 37
+    },
+    {
+      "code": "C05",
+      "count": 36
+    },
+    {
+      "code": "C07",
+      "count": 33
+    },
+    {
+      "code": "C10",
+      "count": 20
+    }
+  ],
+  "budget": {
+    "lines": 2298,
+    "exe_amt": 720500546669,
+    "budget_now": 1450000474116
+  },
+  "recent_changes": [
+    {
+      "change_id": "82a483a977304d63bd077d4a2c05f379",
+      "ts": "2026-08-19T14:44:14+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2772000|fyr:2025",
+      "entity_name": "2772000 2025 세출(1157건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1c4f03210e254dba8963fb0116abd8e2",
+      "ts": "2026-08-19T14:17:34+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2772000|fyr:2026",
+      "entity_name": "2772000 2026 세출(1141건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b233962b1f0e4f5c804c05d8d8b8cccc",
+      "ts": "2026-08-19T11:13:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2117697",
+      "entity_name": "대구광역시 군위군 야생동물로 인한 피해의 예방 및 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2117697&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1c56af71166e41e3991a53bc2f2faa95",
+      "ts": "2026-08-19T11:13:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1858099",
+      "entity_name": "대구광역시 군위군 동물보호 및 복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1858099&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a3dc2ae972b74ee2868fe4ca09851cf0",
+      "ts": "2026-08-19T10:57:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2162875",
+      "entity_name": "대구광역시 군위군 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2162875&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "059f47877c574b008db565383a36810a",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "27720",
+      "entity_name": "군위군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

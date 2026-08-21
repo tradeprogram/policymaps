@@ -1,0 +1,181 @@
+{
+  "sig_cd": "11350",
+  "region_id": "11350",
+  "name": "노원구",
+  "full_name": "서울특별시 노원구",
+  "level": 2,
+  "status": "active",
+  "population": 480549,
+  "ordinance_kinds": {
+    "규칙": 110,
+    "조례": 535
+  },
+  "ordinance_total": 645,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 221
+    },
+    {
+      "code": "C02",
+      "count": 174
+    },
+    {
+      "code": "C03",
+      "count": 146
+    },
+    {
+      "code": "C05",
+      "count": 100
+    },
+    {
+      "code": "C06",
+      "count": 99
+    },
+    {
+      "code": "C11",
+      "count": 79
+    },
+    {
+      "code": "C08",
+      "count": 77
+    },
+    {
+      "code": "C13",
+      "count": 71
+    },
+    {
+      "code": "C09",
+      "count": 70
+    },
+    {
+      "code": "C07",
+      "count": 66
+    },
+    {
+      "code": "C10",
+      "count": 42
+    },
+    {
+      "code": "C04",
+      "count": 17
+    }
+  ],
+  "budget": {
+    "lines": 2367,
+    "exe_amt": 2395580704919,
+    "budget_now": 3133621792564
+  },
+  "recent_changes": [
+    {
+      "change_id": "a80c6bee6d8d4dd693d1c187922f1b82",
+      "ts": "2026-08-19T14:39:01+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1121000|fyr:2025",
+      "entity_name": "1121000 2025 세출(1221건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "6f8baaa4cfcf43aa8960aa064f29f2bb",
+      "ts": "2026-08-19T14:16:48+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1121000|fyr:2026",
+      "entity_name": "1121000 2026 세출(1146건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5c1037f597424c20ae0679acfe3f89fa",
+      "ts": "2026-08-19T11:15:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2023141",
+      "entity_name": "서울특별시 노원구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2023141&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "111babd9a2f44a7c9daadfd9046ffb3d",
+      "ts": "2026-08-19T11:15:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1835627",
+      "entity_name": "서울특별시 노원구 야생동물에 의한 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1835627&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fe2021f9dc984af38b6a15eb0d518608",
+      "ts": "2026-08-19T11:15:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1932719",
+      "entity_name": "서울특별시 노원구 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1932719&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5784ae078f35461d8467a6fa57436109",
+      "ts": "2026-08-19T11:08:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1615055",
+      "entity_name": "서울특별시 노원구 반려동물 진료비 표시제 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1615055&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9bc58056b9b9465ca53f6b9d1e9cc3f2",
+      "ts": "2026-08-19T11:08:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1595129",
+      "entity_name": "서울특별시 노원구 반려동물 문화센터 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1595129&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4faa418e65164d5ba6efb033c623aa2b",
+      "ts": "2026-08-19T11:04:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1398005",
+      "entity_name": "서울특별시 노원구 장애인가정 출산지원금 지원 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1398005&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a9af6fd9b0054c9198d2cc69e2e74377",
+      "ts": "2026-08-19T11:01:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1871175",
+      "entity_name": "서울특별시 노원구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871175&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "aafb3e127a3a498481660432b7f902e7",
+      "ts": "2026-08-19T11:01:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2048487",
+      "entity_name": "서울특별시 노원구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2048487&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "db6a45a2c2ca4a5bb556f0934c4e29bd",
+      "ts": "2026-08-19T10:55:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2071381",
+      "entity_name": "서울특별시 노원구 출산양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2071381&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ac617aaf88404cbebfb75335c98a9d28",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11350",
+      "entity_name": "노원구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

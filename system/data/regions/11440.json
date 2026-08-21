@@ -1,0 +1,145 @@
+{
+  "sig_cd": "11440",
+  "region_id": "11440",
+  "name": "마포구",
+  "full_name": "서울특별시 마포구",
+  "level": 2,
+  "status": "active",
+  "population": 356154,
+  "ordinance_kinds": {
+    "규칙": 108,
+    "조례": 468
+  },
+  "ordinance_total": 576,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 225
+    },
+    {
+      "code": "C02",
+      "count": 162
+    },
+    {
+      "code": "C03",
+      "count": 112
+    },
+    {
+      "code": "C11",
+      "count": 78
+    },
+    {
+      "code": "C06",
+      "count": 75
+    },
+    {
+      "code": "C08",
+      "count": 74
+    },
+    {
+      "code": "C05",
+      "count": 67
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C07",
+      "count": 56
+    },
+    {
+      "code": "C09",
+      "count": 50
+    },
+    {
+      "code": "C10",
+      "count": 33
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 2032,
+    "exe_amt": 1605486764197,
+    "budget_now": 2283790536830
+  },
+  "recent_changes": [
+    {
+      "change_id": "b8b2c407978840b2a0e3bf411e8ad50a",
+      "ts": "2026-08-19T14:39:38+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1124000|fyr:2025",
+      "entity_name": "1124000 2025 세출(1053건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "7faf965134ed4910a6063b8f540f046d",
+      "ts": "2026-08-19T14:16:50+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1124000|fyr:2026",
+      "entity_name": "1124000 2026 세출(979건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2a2dbc7b8c964d16b433608df04a0fa5",
+      "ts": "2026-08-19T11:20:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1964645",
+      "entity_name": "서울특별시 마포구 동물 보호 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1964645&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dd9ea2f94a974997b729c5b2fcfa2096",
+      "ts": "2026-08-19T11:15:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1912037",
+      "entity_name": "서울특별시 마포구 야생동물에 의한 피해 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912037&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2c6a66883a584099abf4c6f2ffcbc40a",
+      "ts": "2026-08-19T11:15:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2126539",
+      "entity_name": "서울특별시 마포구 동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126539&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "66da64cbf6294acdadf8064db011e950",
+      "ts": "2026-08-19T11:01:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1923861",
+      "entity_name": "서울특별시 마포구 출산 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1923861&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9cae40650d9d43dd926d5ef0f1dbcb2e",
+      "ts": "2026-08-19T11:01:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1923845",
+      "entity_name": "서울특별시 마포구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1923845&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a820af6485a74edcb0fc2fe0a7f50274",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11440",
+      "entity_name": "마포구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

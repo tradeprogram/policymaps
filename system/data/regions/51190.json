@@ -1,0 +1,136 @@
+{
+  "sig_cd": "51190",
+  "region_id": "51190",
+  "name": "태백시",
+  "full_name": "강원특별자치도 태백시",
+  "level": 2,
+  "status": "active",
+  "population": 36755,
+  "ordinance_kinds": {
+    "규칙": 110,
+    "조례": 450
+  },
+  "ordinance_total": 560,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 223
+    },
+    {
+      "code": "C02",
+      "count": 176
+    },
+    {
+      "code": "C03",
+      "count": 97
+    },
+    {
+      "code": "C11",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 63
+    },
+    {
+      "code": "C05",
+      "count": 61
+    },
+    {
+      "code": "C13",
+      "count": 57
+    },
+    {
+      "code": "C09",
+      "count": 56
+    },
+    {
+      "code": "C06",
+      "count": 52
+    },
+    {
+      "code": "C07",
+      "count": 42
+    },
+    {
+      "code": "C10",
+      "count": 32
+    },
+    {
+      "code": "C12",
+      "count": 25
+    }
+  ],
+  "budget": {
+    "lines": 2983,
+    "exe_amt": 955249105744,
+    "budget_now": 1656071864881
+  },
+  "recent_changes": [
+    {
+      "change_id": "c925e409b871478bafec8bee9f93696d",
+      "ts": "2026-08-19T14:54:57+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4215000|fyr:2025",
+      "entity_name": "4215000 2025 세출(1523건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b867d164ab4f46d8a401cfccddd736fc",
+      "ts": "2026-08-19T14:21:36+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4215000|fyr:2026",
+      "entity_name": "4215000 2026 세출(1460건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "65c2224107db4cce8378f8434af78723",
+      "ts": "2026-08-19T11:19:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2102791",
+      "entity_name": "태백시 야생동물로 인한 피해예방 및 보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2102791&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a112cacb2ff84ee291d20d785b4f01c5",
+      "ts": "2026-08-19T11:12:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2007643",
+      "entity_name": "태백시 유기동물 보호 및 동물보호센터 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007643&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fa7c47e4dc934fecbd5262e40afcdb3f",
+      "ts": "2026-08-19T11:10:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1410671",
+      "entity_name": "태백시 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410671&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "56f2381791f446d2b1647c8d6ca3c212",
+      "ts": "2026-08-19T11:03:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1660525",
+      "entity_name": "태백시 출산양육비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1660525&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0922d51b38ff4a9a8363d554f8688b9a",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51190",
+      "entity_name": "태백시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

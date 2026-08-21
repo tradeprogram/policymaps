@@ -1,0 +1,145 @@
+{
+  "sig_cd": "41800",
+  "region_id": "41800",
+  "name": "연천군",
+  "full_name": "경기도 연천군",
+  "level": 2,
+  "status": "active",
+  "population": 43107,
+  "ordinance_kinds": {
+    "규칙": 122,
+    "조례": 472
+  },
+  "ordinance_total": 594,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 218
+    },
+    {
+      "code": "C02",
+      "count": 167
+    },
+    {
+      "code": "C11",
+      "count": 85
+    },
+    {
+      "code": "C03",
+      "count": 79
+    },
+    {
+      "code": "C08",
+      "count": 78
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C05",
+      "count": 65
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 51
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 40
+    }
+  ],
+  "budget": {
+    "lines": 4477,
+    "exe_amt": 1164512324821,
+    "budget_now": 1739866165860
+  },
+  "recent_changes": [
+    {
+      "change_id": "acde5c78772148ceae190e436e6170d2",
+      "ts": "2026-08-19T14:53:56+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4175000|fyr:2025",
+      "entity_name": "4175000 2025 세출(2307건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b9c18a5fa222412aa5b4036d7ea4f39b",
+      "ts": "2026-08-19T14:20:46+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4175000|fyr:2026",
+      "entity_name": "4175000 2026 세출(2170건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b2fd0411628548e8948778036048c584",
+      "ts": "2026-08-19T11:16:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1630333",
+      "entity_name": "연천군 야생동물에 의한 피해예방 및 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1630333&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "17158e832c85406cb669f16a60a6b7d3",
+      "ts": "2026-08-19T11:16:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1853955",
+      "entity_name": "연천군 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1853955&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a92fc8006387461b971d7124038dfd51",
+      "ts": "2026-08-19T11:09:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2037865",
+      "entity_name": "연천군 장애인 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2037865&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "25df23748cc6426983c311df7c94bed8",
+      "ts": "2026-08-19T11:02:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1851411",
+      "entity_name": "연천군 출산축하금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851411&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6071387e33c74ecf8b175f787a565006",
+      "ts": "2026-08-19T11:02:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1532073",
+      "entity_name": "연천군 임신 및 출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1532073&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f2e898af606c4f8995db23f559bc9ff2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41800",
+      "entity_name": "연천군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

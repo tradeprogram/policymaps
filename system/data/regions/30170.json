@@ -1,0 +1,136 @@
+{
+  "sig_cd": "30170",
+  "region_id": "30170",
+  "name": "서구",
+  "full_name": "대전광역시 서구",
+  "level": 2,
+  "status": "active",
+  "population": 464428,
+  "ordinance_kinds": {
+    "규칙": 87,
+    "조례": 481
+  },
+  "ordinance_total": 568,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 222
+    },
+    {
+      "code": "C02",
+      "count": 152
+    },
+    {
+      "code": "C03",
+      "count": 115
+    },
+    {
+      "code": "C05",
+      "count": 76
+    },
+    {
+      "code": "C08",
+      "count": 75
+    },
+    {
+      "code": "C11",
+      "count": 61
+    },
+    {
+      "code": "C06",
+      "count": 61
+    },
+    {
+      "code": "C07",
+      "count": 56
+    },
+    {
+      "code": "C13",
+      "count": 55
+    },
+    {
+      "code": "C09",
+      "count": 52
+    },
+    {
+      "code": "C10",
+      "count": 31
+    },
+    {
+      "code": "C12",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 2767,
+    "exe_amt": 1999090051424,
+    "budget_now": 2746519631919
+  },
+  "recent_changes": [
+    {
+      "change_id": "02258c7ae0024ceeb329cca1df27d2c4",
+      "ts": "2026-08-19T14:46:35+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3013000|fyr:2025",
+      "entity_name": "3013000 2025 세출(1431건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b2d9f60489174d988aa528c1f058ed13",
+      "ts": "2026-08-19T14:18:14+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3013000|fyr:2026",
+      "entity_name": "3013000 2026 세출(1336건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fbccf953552349dab26c43d47990d23e",
+      "ts": "2026-08-19T11:14:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2119513",
+      "entity_name": "대전광역시 서구 야생동물에 의한 농작물 등 피해 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119513&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "31cd2311defe4297a9bd38ad7df053e7",
+      "ts": "2026-08-19T11:07:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1891013",
+      "entity_name": "대전광역시 서구 사회적 약자 반려동물 의료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891013&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5e5f2d27bae2436285b6a1bf67556f96",
+      "ts": "2026-08-19T11:07:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1971667",
+      "entity_name": "대전광역시 서구 동물보호 및 반려문화 조성 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971667&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "46ee88f91b2c4eb4979b7cc413261b47",
+      "ts": "2026-08-19T10:57:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2051189",
+      "entity_name": "대전광역시 서구 출산 장려 및 다자녀가정 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051189&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "de86227c520e4d6894b77f37e49679e0",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "30170",
+      "entity_name": "서구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,154 @@
+{
+  "sig_cd": "41460",
+  "region_id": "41460",
+  "name": "용인시",
+  "full_name": "경기도 용인시",
+  "level": 2,
+  "status": "active",
+  "population": 1090559,
+  "ordinance_kinds": {
+    "규칙": 145,
+    "조례": 608
+  },
+  "ordinance_total": 753,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 261
+    },
+    {
+      "code": "C02",
+      "count": 212
+    },
+    {
+      "code": "C11",
+      "count": 118
+    },
+    {
+      "code": "C03",
+      "count": 111
+    },
+    {
+      "code": "C09",
+      "count": 88
+    },
+    {
+      "code": "C05",
+      "count": 88
+    },
+    {
+      "code": "C13",
+      "count": 82
+    },
+    {
+      "code": "C07",
+      "count": 82
+    },
+    {
+      "code": "C08",
+      "count": 79
+    },
+    {
+      "code": "C06",
+      "count": 75
+    },
+    {
+      "code": "C10",
+      "count": 50
+    },
+    {
+      "code": "C12",
+      "count": 40
+    }
+  ],
+  "budget": {
+    "lines": 6700,
+    "exe_amt": 6053432568277,
+    "budget_now": 8130563276668
+  },
+  "recent_changes": [
+    {
+      "change_id": "531e01aaba714752a877dffd00c39c0f",
+      "ts": "2026-08-19T14:52:15+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4129000|fyr:2025",
+      "entity_name": "4129000 2025 세출(3415건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "526d555f5eeb4409aa215896f6e7ce6e",
+      "ts": "2026-08-19T14:19:49+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4129000|fyr:2026",
+      "entity_name": "4129000 2026 세출(3285건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "84d4ef8a0d41427fa95774fe61ec1693",
+      "ts": "2026-08-19T11:17:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2082495",
+      "entity_name": "용인시 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2082495&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "30a7435d6ecc4279af5b7602d1bd89d2",
+      "ts": "2026-08-19T11:17:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1754411",
+      "entity_name": "용인시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1754411&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a43c6cebbeee484d85718948d6201cca",
+      "ts": "2026-08-19T11:09:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1950353",
+      "entity_name": "용인시 동물보호 및 사람과 동물의 행복한 동행을 위한 반려문화 조성 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1950353&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5f181ed3a1444572ac8e8831e33b81a1",
+      "ts": "2026-08-19T11:06:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1648019",
+      "entity_name": "용인시 저출산·고령사회 대응과 지속발전을 위한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648019&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "97c8cc14e2104783ab72411240cdb0d2",
+      "ts": "2026-08-19T11:02:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1648033",
+      "entity_name": "용인시 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648033&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9a03539c34d64dd093ac921973fdba04",
+      "ts": "2026-08-19T10:56:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1637355",
+      "entity_name": "용인시 출산지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1637355&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "23601e6a06a44e64bee13f441a7efb73",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41460",
+      "entity_name": "용인시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

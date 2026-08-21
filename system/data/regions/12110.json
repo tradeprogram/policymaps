@@ -1,0 +1,127 @@
+{
+  "sig_cd": "12110",
+  "region_id": "12110",
+  "name": "목포시",
+  "full_name": "전남광주통합특별시 목포시",
+  "level": 2,
+  "status": "active",
+  "population": 199230,
+  "ordinance_kinds": {
+    "규칙": 131,
+    "조례": 701
+  },
+  "ordinance_total": 832,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 280
+    },
+    {
+      "code": "C02",
+      "count": 235
+    },
+    {
+      "code": "C11",
+      "count": 138
+    },
+    {
+      "code": "C03",
+      "count": 131
+    },
+    {
+      "code": "C13",
+      "count": 115
+    },
+    {
+      "code": "C05",
+      "count": 105
+    },
+    {
+      "code": "C08",
+      "count": 100
+    },
+    {
+      "code": "C06",
+      "count": 97
+    },
+    {
+      "code": "C09",
+      "count": 96
+    },
+    {
+      "code": "C07",
+      "count": 91
+    },
+    {
+      "code": "C10",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 31
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "178391fa61d24bbca2f486cf9b2de72c",
+      "ts": "2026-08-19T11:14:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1414318",
+      "entity_name": "목포시 유해야생동물에 의한 인명 및 농작물 등 피해예방과 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1414318&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9f40411627134ccb9e3343992855a869",
+      "ts": "2026-08-19T11:07:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1922111",
+      "entity_name": "목포시 반려동물 및 유실·유기동물 보호와 학대방지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1922111&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "89d0efb49bae492fa88aa449c51c6b83",
+      "ts": "2026-08-19T11:07:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2044759",
+      "entity_name": "목포시 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2044759&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bd5a983125bb409dbc40b978e60ede65",
+      "ts": "2026-08-19T11:00:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1737565",
+      "entity_name": "목포시 저출산ㆍ고령사회정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1737565&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "221231cee9fb483e9d6f48e75211efe6",
+      "ts": "2026-08-19T11:00:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1400724",
+      "entity_name": "목포시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1400724&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "376aea9f3a614fea9acd719fb0251f73",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12110",
+      "entity_name": "목포시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

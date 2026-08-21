@@ -1,0 +1,136 @@
+{
+  "sig_cd": "11410",
+  "region_id": "11410",
+  "name": "서대문구",
+  "full_name": "서울특별시 서대문구",
+  "level": 2,
+  "status": "active",
+  "population": 299531,
+  "ordinance_kinds": {
+    "규칙": 104,
+    "조례": 462
+  },
+  "ordinance_total": 566,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 211
+    },
+    {
+      "code": "C02",
+      "count": 160
+    },
+    {
+      "code": "C03",
+      "count": 110
+    },
+    {
+      "code": "C06",
+      "count": 92
+    },
+    {
+      "code": "C05",
+      "count": 72
+    },
+    {
+      "code": "C11",
+      "count": 71
+    },
+    {
+      "code": "C08",
+      "count": 69
+    },
+    {
+      "code": "C07",
+      "count": 59
+    },
+    {
+      "code": "C09",
+      "count": 57
+    },
+    {
+      "code": "C13",
+      "count": 52
+    },
+    {
+      "code": "C10",
+      "count": 30
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 1925,
+    "exe_amt": 1506561184959,
+    "budget_now": 2058711809840
+  },
+  "recent_changes": [
+    {
+      "change_id": "f89fe7e274f4473ba7c42bc70e9d45e7",
+      "ts": "2026-08-19T14:39:36+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1123000|fyr:2025",
+      "entity_name": "1123000 2025 세출(991건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "465aaa82bc644865bcdb86eb1fee3645",
+      "ts": "2026-08-19T14:16:50+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1123000|fyr:2026",
+      "entity_name": "1123000 2026 세출(934건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "82f235088d6448958fe991633da0fd38",
+      "ts": "2026-08-19T11:15:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1560287",
+      "entity_name": "서울특별시 서대문구 야생동물에 의한 피해 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1560287&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a9e02f420f614506912aba81c6e8c5b3",
+      "ts": "2026-08-19T11:15:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2119985",
+      "entity_name": "서울특별시 서대문구 동물보호 및 동물복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119985&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0df9815f770648688732c4306f4e0b6b",
+      "ts": "2026-08-19T11:01:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1825027",
+      "entity_name": "서울특별시 서대문구 장애인 양육지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1825027&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "898b5b7062bc40338c0c0c204354c791",
+      "ts": "2026-08-19T10:57:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1767991",
+      "entity_name": "서울특별시 서대문구 출산장려 및 다자녀 가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1767991&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "63314ca59f7343ddb7b9f587b87a5dd3",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11410",
+      "entity_name": "서대문구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

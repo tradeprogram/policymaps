@@ -1,0 +1,136 @@
+{
+  "sig_cd": "11530",
+  "region_id": "11530",
+  "name": "구로구",
+  "full_name": "서울특별시 구로구",
+  "level": 2,
+  "status": "active",
+  "population": 382531,
+  "ordinance_kinds": {
+    "규칙": 95,
+    "조례": 492
+  },
+  "ordinance_total": 587,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 213
+    },
+    {
+      "code": "C02",
+      "count": 161
+    },
+    {
+      "code": "C03",
+      "count": 123
+    },
+    {
+      "code": "C08",
+      "count": 90
+    },
+    {
+      "code": "C11",
+      "count": 82
+    },
+    {
+      "code": "C05",
+      "count": 80
+    },
+    {
+      "code": "C06",
+      "count": 69
+    },
+    {
+      "code": "C13",
+      "count": 65
+    },
+    {
+      "code": "C07",
+      "count": 63
+    },
+    {
+      "code": "C09",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 31
+    },
+    {
+      "code": "C04",
+      "count": 15
+    }
+  ],
+  "budget": {
+    "lines": 2557,
+    "exe_amt": 1900415175120,
+    "budget_now": 2874134740780
+  },
+  "recent_changes": [
+    {
+      "change_id": "e355725a98684c5fb2a38fd4ab8fbf18",
+      "ts": "2026-08-19T14:40:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1127000|fyr:2025",
+      "entity_name": "1127000 2025 세출(1339건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "dc82d403b8934938bcd684752b0459d8",
+      "ts": "2026-08-19T14:16:53+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1127000|fyr:2026",
+      "entity_name": "1127000 2026 세출(1218건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "848527df1870470488b0282918ccd1bf",
+      "ts": "2026-08-19T11:15:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2045765",
+      "entity_name": "서울특별시 구로구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2045765&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b9796f6997ae41db847590a6e5d1640e",
+      "ts": "2026-08-19T11:15:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1821791",
+      "entity_name": "서울특별시 구로구 동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1821791&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "30c505c02c77428bb51c1ad405cd1213",
+      "ts": "2026-08-19T11:08:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2097057",
+      "entity_name": "서울특별시 구로구 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2097057&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "47622eac433f4ae8bdffe8293a151c8e",
+      "ts": "2026-08-19T10:57:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1853083",
+      "entity_name": "서울특별시 구로구 출산장려 및 다자녀 가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1853083&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "449fea7f46064c6c9974fde9d2957d5f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11530",
+      "entity_name": "구로구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

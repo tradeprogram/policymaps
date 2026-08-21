@@ -1,0 +1,145 @@
+{
+  "sig_cd": "41590",
+  "region_id": "41590",
+  "name": "화성시",
+  "full_name": "경기도 화성시",
+  "level": 2,
+  "status": "active",
+  "population": 999673,
+  "ordinance_kinds": {
+    "규칙": 124,
+    "조례": 720
+  },
+  "ordinance_total": 844,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 284
+    },
+    {
+      "code": "C02",
+      "count": 232
+    },
+    {
+      "code": "C11",
+      "count": 144
+    },
+    {
+      "code": "C03",
+      "count": 137
+    },
+    {
+      "code": "C13",
+      "count": 109
+    },
+    {
+      "code": "C08",
+      "count": 99
+    },
+    {
+      "code": "C07",
+      "count": 95
+    },
+    {
+      "code": "C05",
+      "count": 95
+    },
+    {
+      "code": "C09",
+      "count": 93
+    },
+    {
+      "code": "C06",
+      "count": 80
+    },
+    {
+      "code": "C10",
+      "count": 69
+    },
+    {
+      "code": "C12",
+      "count": 52
+    }
+  ],
+  "budget": {
+    "lines": 8087,
+    "exe_amt": 6593732009335,
+    "budget_now": 9296458033646
+  },
+  "recent_changes": [
+    {
+      "change_id": "f0eb1600e1034a9ea1030eab6ff11fea",
+      "ts": "2026-08-19T14:53:00+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4134000|fyr:2025",
+      "entity_name": "4134000 2025 세출(3944건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "cfc69e095fab4552ab065684d034ddc0",
+      "ts": "2026-08-19T14:20:16+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4134000|fyr:2026",
+      "entity_name": "4134000 2026 세출(4143건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "23b850ed14874b6f8e0cf6fa1c48e455",
+      "ts": "2026-08-19T11:19:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1986379",
+      "entity_name": "화성시 야생동물에 의한 인명 및 농작물 등의 피해보상에 관한 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1986379&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "89ac5c17147f406a94784b7645c0bab6",
+      "ts": "2026-08-19T11:19:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2055887",
+      "entity_name": "화성시 동물보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2055887&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f2aa40feeca54c3aa0ebd972d02f4cd6",
+      "ts": "2026-08-19T11:10:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1845341",
+      "entity_name": "화성시 취약계층 반려동물 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1845341&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "385d10aa4fd44160959476740f452daa",
+      "ts": "2026-08-19T11:04:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1802547",
+      "entity_name": "화성시 출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1802547&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "059e5931ac514af8961508132e95cd08",
+      "ts": "2026-08-19T11:04:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2151399",
+      "entity_name": "화성시 인구정책 기본 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2151399&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "caae238393364267bdab3a71ddc0e035",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41590",
+      "entity_name": "화성시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

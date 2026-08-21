@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41595",
+  "region_id": "41595",
+  "name": "병점구",
+  "full_name": "경기도 화성시 병점구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "c34372f0c93f4da88d023f0166640b85",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41595",
+      "entity_name": "병점구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

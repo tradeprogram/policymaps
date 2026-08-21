@@ -1,0 +1,127 @@
+{
+  "sig_cd": "47850",
+  "region_id": "47850",
+  "name": "칠곡군",
+  "full_name": "경상북도 칠곡군",
+  "level": 2,
+  "status": "active",
+  "population": 103539,
+  "ordinance_kinds": {
+    "규칙": 97,
+    "조례": 380
+  },
+  "ordinance_total": 477,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 194
+    },
+    {
+      "code": "C02",
+      "count": 145
+    },
+    {
+      "code": "C03",
+      "count": 62
+    },
+    {
+      "code": "C11",
+      "count": 58
+    },
+    {
+      "code": "C08",
+      "count": 56
+    },
+    {
+      "code": "C09",
+      "count": 52
+    },
+    {
+      "code": "C13",
+      "count": 48
+    },
+    {
+      "code": "C05",
+      "count": 48
+    },
+    {
+      "code": "C07",
+      "count": 42
+    },
+    {
+      "code": "C06",
+      "count": 42
+    },
+    {
+      "code": "C10",
+      "count": 31
+    },
+    {
+      "code": "C12",
+      "count": 30
+    }
+  ],
+  "budget": {
+    "lines": 3897,
+    "exe_amt": 1293327992905,
+    "budget_now": 1791087768090
+  },
+  "recent_changes": [
+    {
+      "change_id": "50a4af3d99f24db686fca48fcdb8fdbb",
+      "ts": "2026-08-19T15:20:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4779000|fyr:2025",
+      "entity_name": "4779000 2025 세출(2055건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f97b538f11b94dd3ae5c787e5ceb4752",
+      "ts": "2026-08-19T14:34:12+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4779000|fyr:2026",
+      "entity_name": "4779000 2026 세출(1842건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "876a3d5a940d4db4a89548953c7600a7",
+      "ts": "2026-08-19T11:19:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1408157",
+      "entity_name": "칠곡군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1408157&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "613c37734cbc475fad73dc37d1e252d5",
+      "ts": "2026-08-19T10:58:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1246266",
+      "entity_name": "칠곡군 출산장려 및 다자녀 가정 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1246266&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3c6bdf8e3bb0431f966b5ffca18f3543",
+      "ts": "2026-08-19T10:58:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1913625",
+      "entity_name": "칠곡군 출산장려 및 다자녀 가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1913625&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a65b15434a6e42c58863c5b79d720a9f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47850",
+      "entity_name": "칠곡군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

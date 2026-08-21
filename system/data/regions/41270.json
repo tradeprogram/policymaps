@@ -1,0 +1,163 @@
+{
+  "sig_cd": "41270",
+  "region_id": "41270",
+  "name": "안산시",
+  "full_name": "경기도 안산시",
+  "level": 2,
+  "status": "active",
+  "population": 608883,
+  "ordinance_kinds": {
+    "규칙": 115,
+    "조례": 617
+  },
+  "ordinance_total": 732,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 250
+    },
+    {
+      "code": "C02",
+      "count": 199
+    },
+    {
+      "code": "C11",
+      "count": 130
+    },
+    {
+      "code": "C03",
+      "count": 115
+    },
+    {
+      "code": "C05",
+      "count": 106
+    },
+    {
+      "code": "C09",
+      "count": 94
+    },
+    {
+      "code": "C07",
+      "count": 91
+    },
+    {
+      "code": "C08",
+      "count": 88
+    },
+    {
+      "code": "C13",
+      "count": 79
+    },
+    {
+      "code": "C06",
+      "count": 74
+    },
+    {
+      "code": "C10",
+      "count": 48
+    },
+    {
+      "code": "C12",
+      "count": 31
+    }
+  ],
+  "budget": {
+    "lines": 5830,
+    "exe_amt": 4220876463071,
+    "budget_now": 5616797098058
+  },
+  "recent_changes": [
+    {
+      "change_id": "aca4a8627eaf4d3085d1c354d88009f7",
+      "ts": "2026-08-19T14:50:31+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4119000|fyr:2025",
+      "entity_name": "4119000 2025 세출(2976건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "ac32838271ba4000858fba459c0aa0e6",
+      "ts": "2026-08-19T14:19:08+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4119000|fyr:2026",
+      "entity_name": "4119000 2026 세출(2854건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "6852a06f88aa42078f88c1033792a51e",
+      "ts": "2026-08-19T11:16:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2057779",
+      "entity_name": "안산시 유해야생동물 피해예방 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2057779&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "40aaaea375ab40c5bd3af2d8ebe11aae",
+      "ts": "2026-08-19T11:16:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1957537",
+      "entity_name": "안산시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1957537&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ffbcfce0936844069bccab50feb0c6ab",
+      "ts": "2026-08-19T11:11:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2126361",
+      "entity_name": "안산시 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126361&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b71f8c7a43f040918b0eb8110f60f5eb",
+      "ts": "2026-08-19T11:08:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1534589",
+      "entity_name": "안산시 반려동물 보호 및 학대방지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1534589&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ff3649c4beea400c8d932ac14c87e01e",
+      "ts": "2026-08-19T11:06:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2005305",
+      "entity_name": "안산시 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005305&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "650eeae43ba048bf9ba6c6739042b51d",
+      "ts": "2026-08-19T11:02:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1404561",
+      "entity_name": "안산시 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1404561&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1acff46bc2b548b687fa2a08d18d8ad9",
+      "ts": "2026-08-19T10:58:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2126363",
+      "entity_name": "안산시 출산장려 지원 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126363&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "72dd7d6c2b7749d694e2925bb6230a43",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41270",
+      "entity_name": "안산시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

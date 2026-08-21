@@ -1,0 +1,181 @@
+{
+  "sig_cd": "41500",
+  "region_id": "41500",
+  "name": "이천시",
+  "full_name": "경기도 이천시",
+  "level": 2,
+  "status": "active",
+  "population": 225911,
+  "ordinance_kinds": {
+    "규칙": 117,
+    "조례": 668
+  },
+  "ordinance_total": 785,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 277
+    },
+    {
+      "code": "C02",
+      "count": 205
+    },
+    {
+      "code": "C11",
+      "count": 146
+    },
+    {
+      "code": "C03",
+      "count": 124
+    },
+    {
+      "code": "C05",
+      "count": 99
+    },
+    {
+      "code": "C08",
+      "count": 97
+    },
+    {
+      "code": "C13",
+      "count": 95
+    },
+    {
+      "code": "C09",
+      "count": 75
+    },
+    {
+      "code": "C07",
+      "count": 75
+    },
+    {
+      "code": "C06",
+      "count": 71
+    },
+    {
+      "code": "C12",
+      "count": 63
+    },
+    {
+      "code": "C10",
+      "count": 56
+    }
+  ],
+  "budget": {
+    "lines": 5173,
+    "exe_amt": 2636684762917,
+    "budget_now": 4241319093301
+  },
+  "recent_changes": [
+    {
+      "change_id": "fb22b1b5909545dfabe2f891425c7e38",
+      "ts": "2026-08-19T14:52:35+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4131000|fyr:2025",
+      "entity_name": "4131000 2025 세출(2645건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "ceff8ed8ef2447a880ee259703ec3c8a",
+      "ts": "2026-08-19T14:19:58+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4131000|fyr:2026",
+      "entity_name": "4131000 2026 세출(2528건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2ecc3ca126614f398633512253ed884b",
+      "ts": "2026-08-19T11:17:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2063371",
+      "entity_name": "이천시 야생동물에 의한 농작물 피해 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2063371&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "29824c1e9b3245dda57b409345da2bd8",
+      "ts": "2026-08-19T11:17:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1950389",
+      "entity_name": "이천시 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1950389&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b01cee54d02c400493b62c1232651b1c",
+      "ts": "2026-08-19T11:09:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1847911",
+      "entity_name": "이천시 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1847911&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "10712bd040fb4f3c9512482af1332a5c",
+      "ts": "2026-08-19T11:06:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2097601",
+      "entity_name": "이천시 출산축하금 지급에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2097601&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "084b0eaf44024ac7b67d7269bcffdffe",
+      "ts": "2026-08-19T11:06:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2097563",
+      "entity_name": "이천시 출산축하금 지급에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2097563&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "69a2eaf7eb0547ea8e9155ecca0d07e4",
+      "ts": "2026-08-19T11:02:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1798283",
+      "entity_name": "이천시 출산ㆍ양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1798283&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "56b17880934040ca8ee1eb61038dd257",
+      "ts": "2026-08-19T11:02:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2113145",
+      "entity_name": "이천시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2113145&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ea15d10d5a494ce785aafa3928a0b6d3",
+      "ts": "2026-08-19T11:02:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2113189",
+      "entity_name": "이천시 위기 임신 및 보호출산 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2113189&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f2c0caf8cce84ce8a2063131ef50dd8c",
+      "ts": "2026-08-19T11:02:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2097561",
+      "entity_name": "이천시 1인 자영업자등 출산급여 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2097561&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "55c8089ca4b549b9b0b465e8483c8be5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41500",
+      "entity_name": "이천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

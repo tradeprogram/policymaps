@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41273",
+  "region_id": "41273",
+  "name": "단원구",
+  "full_name": "경기도 안산시 단원구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "4a2c0853ba0b489ab9ad408423e1b5e9",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41273",
+      "entity_name": "단원구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

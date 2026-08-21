@@ -1,0 +1,127 @@
+{
+  "sig_cd": "44790",
+  "region_id": "44790",
+  "name": "청양군",
+  "full_name": "충청남도 청양군",
+  "level": 2,
+  "status": "active",
+  "population": 30032,
+  "ordinance_kinds": {
+    "규칙": 108,
+    "조례": 476
+  },
+  "ordinance_total": 584,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 217
+    },
+    {
+      "code": "C02",
+      "count": 167
+    },
+    {
+      "code": "C03",
+      "count": 88
+    },
+    {
+      "code": "C11",
+      "count": 82
+    },
+    {
+      "code": "C05",
+      "count": 73
+    },
+    {
+      "code": "C08",
+      "count": 67
+    },
+    {
+      "code": "C06",
+      "count": 62
+    },
+    {
+      "code": "C12",
+      "count": 57
+    },
+    {
+      "code": "C13",
+      "count": 53
+    },
+    {
+      "code": "C07",
+      "count": 49
+    },
+    {
+      "code": "C09",
+      "count": 37
+    },
+    {
+      "code": "C10",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 3965,
+    "exe_amt": 1028648531785,
+    "budget_now": 1659283957299
+  },
+  "recent_changes": [
+    {
+      "change_id": "611c3cc5c4a14b8fab97af33067c8169",
+      "ts": "2026-08-19T15:03:09+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4475000|fyr:2025",
+      "entity_name": "4475000 2025 세출(2008건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f90233c9fd374f17bd352a3e842a1f90",
+      "ts": "2026-08-19T14:26:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4475000|fyr:2026",
+      "entity_name": "4475000 2026 세출(1957건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "98c59f39b2ee4b7a984d9f6e9b046b2e",
+      "ts": "2026-08-19T11:19:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1947275",
+      "entity_name": "청양군 야생동물 피해예방시설 설치비용 지원 및 피해 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1947275&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5a9f54ff7f5c4a3e839f2d9c317aaabc",
+      "ts": "2026-08-19T11:04:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2161467",
+      "entity_name": "청양군 임신ㆍ출산관련 서비스 통합처리에 관한 규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2161467&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "86e073ce4c4e48c887f64697de693fb3",
+      "ts": "2026-08-19T10:58:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1535589",
+      "entity_name": "청양군 출산장려 및 양육비 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1535589&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1de9b4e03b2c4da4bfdf3ada768368a4",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44790",
+      "entity_name": "청양군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

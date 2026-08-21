@@ -1,0 +1,30 @@
+{
+  "sig_cd": "47113",
+  "region_id": "47113",
+  "name": "북구",
+  "full_name": "경상북도 포항시 북구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "14523ab65c30497681765cccb05e1dac",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47113",
+      "entity_name": "북구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,127 @@
+{
+  "sig_cd": "51790",
+  "region_id": "51790",
+  "name": "화천군",
+  "full_name": "강원특별자치도 화천군",
+  "level": 2,
+  "status": "active",
+  "population": 22773,
+  "ordinance_kinds": {
+    "규칙": 125,
+    "조례": 473
+  },
+  "ordinance_total": 598,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 230
+    },
+    {
+      "code": "C02",
+      "count": 186
+    },
+    {
+      "code": "C03",
+      "count": 90
+    },
+    {
+      "code": "C13",
+      "count": 65
+    },
+    {
+      "code": "C05",
+      "count": 62
+    },
+    {
+      "code": "C08",
+      "count": 61
+    },
+    {
+      "code": "C11",
+      "count": 59
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C09",
+      "count": 56
+    },
+    {
+      "code": "C12",
+      "count": 55
+    },
+    {
+      "code": "C07",
+      "count": 41
+    },
+    {
+      "code": "C10",
+      "count": 38
+    }
+  ],
+  "budget": {
+    "lines": 2413,
+    "exe_amt": 933630811322,
+    "budget_now": 1696171405121
+  },
+  "recent_changes": [
+    {
+      "change_id": "c14529b1473a46ccab56f503d2cec574",
+      "ts": "2026-08-19T14:56:40+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4277000|fyr:2025",
+      "entity_name": "4277000 2025 세출(1210건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "6ace47b0b2c74da29933581b0298f402",
+      "ts": "2026-08-19T14:22:30+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4277000|fyr:2026",
+      "entity_name": "4277000 2026 세출(1203건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b234e7df760a4786877cd6b8ef5f9b48",
+      "ts": "2026-08-19T11:20:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2052023",
+      "entity_name": "화천군 야생동물에 의한 피해보상 및 구제 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2052023&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c35384169bf745c18ea319a9c57b87e4",
+      "ts": "2026-08-19T11:11:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1974897",
+      "entity_name": "화천군 반려동물 복지 및 반려문화 조성 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974897&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8c28022887904637b5ed09362dbbbdf8",
+      "ts": "2026-08-19T11:04:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2068745",
+      "entity_name": "화천군 장애인가정 출산 및 영아양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2068745&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d444fb1de4e1454b8018f426bf010321",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51790",
+      "entity_name": "화천군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

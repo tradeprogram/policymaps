@@ -1,0 +1,145 @@
+{
+  "sig_cd": "11590",
+  "region_id": "11590",
+  "name": "동작구",
+  "full_name": "서울특별시 동작구",
+  "level": 2,
+  "status": "active",
+  "population": 371543,
+  "ordinance_kinds": {
+    "규칙": 122,
+    "조례": 479
+  },
+  "ordinance_total": 601,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 232
+    },
+    {
+      "code": "C02",
+      "count": 165
+    },
+    {
+      "code": "C03",
+      "count": 126
+    },
+    {
+      "code": "C06",
+      "count": 92
+    },
+    {
+      "code": "C05",
+      "count": 84
+    },
+    {
+      "code": "C08",
+      "count": 79
+    },
+    {
+      "code": "C11",
+      "count": 65
+    },
+    {
+      "code": "C07",
+      "count": 61
+    },
+    {
+      "code": "C13",
+      "count": 50
+    },
+    {
+      "code": "C09",
+      "count": 45
+    },
+    {
+      "code": "C10",
+      "count": 38
+    },
+    {
+      "code": "C04",
+      "count": 24
+    }
+  ],
+  "budget": {
+    "lines": 1994,
+    "exe_amt": 1949047637692,
+    "budget_now": 2766261171909
+  },
+  "recent_changes": [
+    {
+      "change_id": "a28f78250015462fa4b81a02be2e71ef",
+      "ts": "2026-08-19T14:40:15+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1130000|fyr:2025",
+      "entity_name": "1130000 2025 세출(1024건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "ec25007e034a425e9369a938a5e2874c",
+      "ts": "2026-08-19T14:16:55+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1130000|fyr:2026",
+      "entity_name": "1130000 2026 세출(970건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "dcbf1ac7ebfe44eab8fd470eaf1c854a",
+      "ts": "2026-08-19T11:15:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1970859",
+      "entity_name": "서울특별시 동작구 동물보호 및 동물복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1970859&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c083c03663494c318492cc78b944ebbb",
+      "ts": "2026-08-19T11:08:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1831745",
+      "entity_name": "서울특별시 동작구 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1831745&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2be40eaec4df4cbc960e25fddc8f6cc3",
+      "ts": "2026-08-19T11:05:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1788785",
+      "entity_name": "서울특별시 동작구 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1788785&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0f23ab80dc49424ab3fe878c3c276d15",
+      "ts": "2026-08-19T11:01:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1746909",
+      "entity_name": "서울특별시 동작구 출산지원금 지급에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1746909&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3c9f3bd6e41e431aba233a5d6b816ad9",
+      "ts": "2026-08-19T11:01:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1872001",
+      "entity_name": "서울특별시 동작구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872001&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8167c403dd29402f81332de7155fe621",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11590",
+      "entity_name": "동작구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

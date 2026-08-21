@@ -1,0 +1,128 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "data": {
+    "bill": {
+      "bill_id": "PRC_14307LFH5YIEH2J8SY85ENW4J6EHKBZ3",
+      "bill_no": "2214069",
+      "age": 22,
+      "name": "지방재정법 일부개정법률안(대안)",
+      "committee": "국토교통위원회",
+      "propose_dt": "2024-12-14",
+      "proc_dt": "2025-10-13",
+      "proc_result": "수정가결",
+      "proc_result_cd": "수정가결"
+    },
+    "tally_reported": {
+      "member_tcnt": 300,
+      "vote_tcnt": 270,
+      "yes_tcnt": 98,
+      "no_tcnt": 147,
+      "blank_tcnt": 25
+    },
+    "tally_from_votes": {
+      "찬성": 98,
+      "반대": 147,
+      "기권": 18,
+      "기타": 7,
+      "합계": 270
+    },
+    "yes_ratio": 0.363,
+    "party_breakdown": [
+      {
+        "party": "더불어민주당",
+        "찬성": 63,
+        "반대": 84,
+        "기권": 11,
+        "기타": 5,
+        "합계": 163,
+        "찬성률": 0.3865
+      },
+      {
+        "party": "국민의힘",
+        "찬성": 29,
+        "반대": 58,
+        "기권": 4,
+        "기타": 2,
+        "합계": 93,
+        "찬성률": 0.3118
+      },
+      {
+        "party": "조국혁신당",
+        "찬성": 4,
+        "반대": 5,
+        "기권": 1,
+        "기타": 0,
+        "합계": 10,
+        "찬성률": 0.4
+      },
+      {
+        "party": "개혁신당",
+        "찬성": 1,
+        "반대": 0,
+        "기권": 1,
+        "기타": 0,
+        "합계": 2,
+        "찬성률": 0.5
+      },
+      {
+        "party": "진보당",
+        "찬성": 1,
+        "반대": 0,
+        "기권": 1,
+        "기타": 0,
+        "합계": 2,
+        "찬성률": 0.5
+      }
+    ],
+    "proposers": [
+      {
+        "role": "RST",
+        "legislator_id": "DQSY78OW",
+        "name": "오유진",
+        "current_party": "국민의힘",
+        "district": "부산광역시 갑"
+      },
+      {
+        "role": "CO",
+        "legislator_id": "YRGKBTB3",
+        "name": "홍민준",
+        "current_party": "국민의힘",
+        "district": "경상남도 을"
+      },
+      {
+        "role": "CO",
+        "legislator_id": "2JF9GXO5",
+        "name": "정다은",
+        "current_party": "국민의힘",
+        "district": "비례대표"
+      },
+      {
+        "role": "CO",
+        "legislator_id": "XCFRRGUT",
+        "name": "손예준",
+        "current_party": "더불어민주당",
+        "district": "비례대표"
+      },
+      {
+        "role": "CO",
+        "legislator_id": "N6INFMNA",
+        "name": "최수아",
+        "current_party": "더불어민주당",
+        "district": "서울특별시 갑"
+      },
+      {
+        "role": "CO",
+        "legislator_id": "GAXFOJ4B",
+        "name": "윤다은",
+        "current_party": "국민의힘",
+        "district": "경상북도 병"
+      }
+    ]
+  },
+  "as_of_date": "2026-08-21",
+  "stale": false,
+  "execution_allowed": false,
+  "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오."
+}

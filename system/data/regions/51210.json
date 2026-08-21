@@ -1,0 +1,145 @@
+{
+  "sig_cd": "51210",
+  "region_id": "51210",
+  "name": "속초시",
+  "full_name": "강원특별자치도 속초시",
+  "level": 2,
+  "status": "active",
+  "population": 78976,
+  "ordinance_kinds": {
+    "규칙": 118,
+    "조례": 544
+  },
+  "ordinance_total": 662,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 248
+    },
+    {
+      "code": "C02",
+      "count": 194
+    },
+    {
+      "code": "C03",
+      "count": 111
+    },
+    {
+      "code": "C11",
+      "count": 93
+    },
+    {
+      "code": "C08",
+      "count": 82
+    },
+    {
+      "code": "C13",
+      "count": 80
+    },
+    {
+      "code": "C05",
+      "count": 79
+    },
+    {
+      "code": "C06",
+      "count": 65
+    },
+    {
+      "code": "C09",
+      "count": 62
+    },
+    {
+      "code": "C07",
+      "count": 56
+    },
+    {
+      "code": "C10",
+      "count": 54
+    },
+    {
+      "code": "C12",
+      "count": 29
+    }
+  ],
+  "budget": {
+    "lines": 3157,
+    "exe_amt": 968685869814,
+    "budget_now": 1395107954480
+  },
+  "recent_changes": [
+    {
+      "change_id": "c3cf1d4b24b54a62a9c436499f09cfc2",
+      "ts": "2026-08-19T14:54:59+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4216000|fyr:2025",
+      "entity_name": "4216000 2025 세출(1622건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4d1193b2aa474315b8aebc075246b5ed",
+      "ts": "2026-08-19T14:21:41+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4216000|fyr:2026",
+      "entity_name": "4216000 2026 세출(1535건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b58a8703cdf145d8b9512745bbf64267",
+      "ts": "2026-08-19T11:16:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2028855",
+      "entity_name": "속초시 유해야생동물 먹이주기 금지 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2028855&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d2d6ede252774d7dba9d80cbc8b21c36",
+      "ts": "2026-08-19T11:16:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2058943",
+      "entity_name": "속초시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058943&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "49e9e86291e14badaca3331e4a990b89",
+      "ts": "2026-08-19T11:08:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1820817",
+      "entity_name": "속초시 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1820817&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "10ec35916cf046c983cd36dd1d4171dc",
+      "ts": "2026-08-19T11:01:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2114075",
+      "entity_name": "속초시 출산가정 백일해 예방접종 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114075&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b11c98d64c6f4158b8ae9eba842ab7b9",
+      "ts": "2026-08-19T10:55:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2114109",
+      "entity_name": "속초시 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114109&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "792745105fca4b1fb6ca09fd7450f3d0",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51210",
+      "entity_name": "속초시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

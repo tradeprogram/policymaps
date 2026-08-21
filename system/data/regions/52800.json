@@ -1,0 +1,127 @@
+{
+  "sig_cd": "52800",
+  "region_id": "52800",
+  "name": "부안군",
+  "full_name": "전북특별자치도 부안군",
+  "level": 2,
+  "status": "active",
+  "population": 46926,
+  "ordinance_kinds": {
+    "규칙": 100,
+    "조례": 506
+  },
+  "ordinance_total": 606,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 229
+    },
+    {
+      "code": "C02",
+      "count": 170
+    },
+    {
+      "code": "C11",
+      "count": 95
+    },
+    {
+      "code": "C08",
+      "count": 81
+    },
+    {
+      "code": "C03",
+      "count": 81
+    },
+    {
+      "code": "C13",
+      "count": 79
+    },
+    {
+      "code": "C12",
+      "count": 71
+    },
+    {
+      "code": "C05",
+      "count": 62
+    },
+    {
+      "code": "C07",
+      "count": 57
+    },
+    {
+      "code": "C06",
+      "count": 53
+    },
+    {
+      "code": "C09",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 3810,
+    "exe_amt": 1323210125467,
+    "budget_now": 1905189244930
+  },
+  "recent_changes": [
+    {
+      "change_id": "990a2ddbe829437388448dc544a4ca71",
+      "ts": "2026-08-19T15:08:36+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4578000|fyr:2025",
+      "entity_name": "4578000 2025 세출(1924건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0af756bd20d74d6b9ef300647b035760",
+      "ts": "2026-08-19T14:28:32+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4578000|fyr:2026",
+      "entity_name": "4578000 2026 세출(1886건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "8d1405d3098b4957a79288293ed8804d",
+      "ts": "2026-08-19T11:14:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1495443",
+      "entity_name": "부안군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1495443&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8811bc57205e4c87a5c4530d8b89e49d",
+      "ts": "2026-08-19T11:14:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2020515",
+      "entity_name": "부안군 동물보호 및 관리 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2020515&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8ad9fb4d98b44597b9ac1f1bd1cf14d9",
+      "ts": "2026-08-19T10:55:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2090995",
+      "entity_name": "부안군 임신 및 출생 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2090995&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "01918908bb6b4e73839b3f98c39219ff",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52800",
+      "entity_name": "부안군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

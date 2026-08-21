@@ -1,0 +1,145 @@
+{
+  "sig_cd": "48000",
+  "region_id": "48",
+  "name": "경상남도",
+  "full_name": "경상남도",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 123,
+    "조례": 885
+  },
+  "ordinance_total": 1008,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 278
+    },
+    {
+      "code": "C02",
+      "count": 264
+    },
+    {
+      "code": "C11",
+      "count": 239
+    },
+    {
+      "code": "C03",
+      "count": 155
+    },
+    {
+      "code": "C08",
+      "count": 149
+    },
+    {
+      "code": "C13",
+      "count": 133
+    },
+    {
+      "code": "C12",
+      "count": 114
+    },
+    {
+      "code": "C05",
+      "count": 113
+    },
+    {
+      "code": "C07",
+      "count": 111
+    },
+    {
+      "code": "C09",
+      "count": 97
+    },
+    {
+      "code": "C06",
+      "count": 91
+    },
+    {
+      "code": "C10",
+      "count": 55
+    }
+  ],
+  "budget": {
+    "lines": 9043,
+    "exe_amt": 26520837482625,
+    "budget_now": 32094289987763
+  },
+  "recent_changes": [
+    {
+      "change_id": "9dfde11b90df4c3d8cfccfa3fd0f4fb4",
+      "ts": "2026-08-19T11:12:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2074493",
+      "entity_name": "경상남도 야생동물 피해 예방 및 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2074493&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3bc78bcd43ca4dfe8b012407f1b54387",
+      "ts": "2026-08-19T11:12:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1971329",
+      "entity_name": "경상남도 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971329&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3e5175c0b22b42598e00f78ad5ddb648",
+      "ts": "2026-08-19T11:06:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2112905",
+      "entity_name": "경상남도 반려동물 동반관광 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2112905&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b8c978e1cf2144a1829d9cf9e01c2ef8",
+      "ts": "2026-08-19T11:04:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2008699",
+      "entity_name": "경상남도 출산의 날 지정 및 기념에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2008699&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2851a08e9ffa4efea879f3fa61c89671",
+      "ts": "2026-08-19T11:04:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2112887",
+      "entity_name": "경상남도 인구정책 기본 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2112887&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6af66f4ab9d043e3ab3fe9a335446b32",
+      "ts": "2026-08-19T10:59:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1971323",
+      "entity_name": "경상남도 위기 임신 및 보호출산 지원과 아동 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971323&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e9b33bfd89f2428e9d4d1e3c7682b36e",
+      "ts": "2026-08-19T10:59:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2061531",
+      "entity_name": "경상남도 신혼부부 및 출산가구 주택구입 대출 이자 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2061531&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6eab5442d59640589c739845db3d2fd0",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48",
+      "entity_name": "경상남도",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

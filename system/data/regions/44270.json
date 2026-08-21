@@ -1,0 +1,136 @@
+{
+  "sig_cd": "44270",
+  "region_id": "44270",
+  "name": "당진시",
+  "full_name": "충청남도 당진시",
+  "level": 2,
+  "status": "active",
+  "population": 172472,
+  "ordinance_kinds": {
+    "규칙": 119,
+    "조례": 527
+  },
+  "ordinance_total": 646,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 237
+    },
+    {
+      "code": "C02",
+      "count": 186
+    },
+    {
+      "code": "C11",
+      "count": 98
+    },
+    {
+      "code": "C03",
+      "count": 89
+    },
+    {
+      "code": "C08",
+      "count": 80
+    },
+    {
+      "code": "C06",
+      "count": 70
+    },
+    {
+      "code": "C05",
+      "count": 69
+    },
+    {
+      "code": "C07",
+      "count": 66
+    },
+    {
+      "code": "C13",
+      "count": 62
+    },
+    {
+      "code": "C09",
+      "count": 62
+    },
+    {
+      "code": "C12",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 45
+    }
+  ],
+  "budget": {
+    "lines": 4487,
+    "exe_amt": 2320209303192,
+    "budget_now": 3640503113186
+  },
+  "recent_changes": [
+    {
+      "change_id": "5148cc53d0e64389b126d1fd3a32b69c",
+      "ts": "2026-08-19T15:02:05+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4418000|fyr:2025",
+      "entity_name": "4418000 2025 세출(2279건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f97f186ff766405e995846096f03d447",
+      "ts": "2026-08-19T14:25:44+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4418000|fyr:2026",
+      "entity_name": "4418000 2026 세출(2208건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "67a0db92cbe441baa939c4fdf30731b0",
+      "ts": "2026-08-19T11:13:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1736581",
+      "entity_name": "당진시 야생동물에 의한 농작물 등 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1736581&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "363b4c3d1a5e4dad9c795bc90afeaf65",
+      "ts": "2026-08-19T11:07:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1956901",
+      "entity_name": "당진시 동물보호 및 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1956901&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "21666d8f8fd142f0bca9c03b72c30576",
+      "ts": "2026-08-19T10:59:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1917171",
+      "entity_name": "당진시 임신·출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1917171&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4111419c585e477fb9df74e3e4c859a4",
+      "ts": "2026-08-19T10:59:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2015163",
+      "entity_name": "당진시 인구정책 기본 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2015163&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "38f5a6fd00144e01996e4cd79e78766f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44270",
+      "entity_name": "당진시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

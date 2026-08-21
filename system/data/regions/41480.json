@@ -1,0 +1,190 @@
+{
+  "sig_cd": "41480",
+  "region_id": "41480",
+  "name": "파주시",
+  "full_name": "경기도 파주시",
+  "level": 2,
+  "status": "active",
+  "population": 534503,
+  "ordinance_kinds": {
+    "규칙": 119,
+    "조례": 693
+  },
+  "ordinance_total": 812,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 250
+    },
+    {
+      "code": "C02",
+      "count": 207
+    },
+    {
+      "code": "C03",
+      "count": 147
+    },
+    {
+      "code": "C11",
+      "count": 133
+    },
+    {
+      "code": "C13",
+      "count": 101
+    },
+    {
+      "code": "C07",
+      "count": 99
+    },
+    {
+      "code": "C09",
+      "count": 98
+    },
+    {
+      "code": "C08",
+      "count": 97
+    },
+    {
+      "code": "C05",
+      "count": 94
+    },
+    {
+      "code": "C06",
+      "count": 83
+    },
+    {
+      "code": "C10",
+      "count": 62
+    },
+    {
+      "code": "C12",
+      "count": 50
+    }
+  ],
+  "budget": {
+    "lines": 5126,
+    "exe_amt": 3699264447546,
+    "budget_now": 5199069486740
+  },
+  "recent_changes": [
+    {
+      "change_id": "e33a8ee4c7874555a9a2625689d39a1c",
+      "ts": "2026-08-19T14:52:18+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4130000|fyr:2025",
+      "entity_name": "4130000 2025 세출(2654건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f47115b01ff54c1797c71915338b6072",
+      "ts": "2026-08-19T14:19:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4130000|fyr:2026",
+      "entity_name": "4130000 2026 세출(2472건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "04935806778741a497ca8c8026350209",
+      "ts": "2026-08-19T11:19:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2022823",
+      "entity_name": "파주시 유해야생동물 먹이주기 금지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2022823&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5ccca15b16bf4ae19a7fc7a435f3f79e",
+      "ts": "2026-08-19T11:19:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1998291",
+      "entity_name": "파주시 야생동물에 의한 농작물 피해 예방 및 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1998291&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a6a348b2126c40d9a2e8e311c14ad104",
+      "ts": "2026-08-19T11:19:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2058849",
+      "entity_name": "파주시 동물 보호 및 복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058849&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3e503a96e67a48c5a1bfe1a73e69111e",
+      "ts": "2026-08-19T11:19:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1867911",
+      "entity_name": "파주시 동물보호 교육 활성화 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867911&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5eea876699c44f4fa07fbcc12850a719",
+      "ts": "2026-08-19T11:10:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2058881",
+      "entity_name": "파주시 장애인 및 저소득계층 반려동물 진료비 등 부담 완화 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058881&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5c24657f38154dc3b2520bc05ecfa02c",
+      "ts": "2026-08-19T11:03:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2109759",
+      "entity_name": "파주시 출산가정을 위한 백일해 예방접종 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2109759&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3169d441f23a4c1ebdcaf80e84c6d191",
+      "ts": "2026-08-19T11:03:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1593695",
+      "entity_name": "파주시 저출산·고령사회 대응 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1593695&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b381c9d9278542a989d6a3edb3092422",
+      "ts": "2026-08-19T11:03:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1741861",
+      "entity_name": "파주시 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741861&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5325f71836474dda81f242a766b9003f",
+      "ts": "2026-08-19T11:03:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2109745",
+      "entity_name": "파주시 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2109745&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "487e5d370ca745ba8db7951d9a88d145",
+      "ts": "2026-08-19T10:56:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2058863",
+      "entity_name": "파주시 출생축하 및 다자녀가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058863&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "123eb7e64ed94b31984446af509afeb1",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41480",
+      "entity_name": "파주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

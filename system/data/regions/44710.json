@@ -1,0 +1,118 @@
+{
+  "sig_cd": "44710",
+  "region_id": "44710",
+  "name": "금산군",
+  "full_name": "충청남도 금산군",
+  "level": 2,
+  "status": "active",
+  "population": 48847,
+  "ordinance_kinds": {
+    "규칙": 94,
+    "조례": 452
+  },
+  "ordinance_total": 546,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 210
+    },
+    {
+      "code": "C02",
+      "count": 154
+    },
+    {
+      "code": "C08",
+      "count": 72
+    },
+    {
+      "code": "C11",
+      "count": 70
+    },
+    {
+      "code": "C03",
+      "count": 70
+    },
+    {
+      "code": "C13",
+      "count": 59
+    },
+    {
+      "code": "C09",
+      "count": 59
+    },
+    {
+      "code": "C07",
+      "count": 59
+    },
+    {
+      "code": "C06",
+      "count": 57
+    },
+    {
+      "code": "C05",
+      "count": 53
+    },
+    {
+      "code": "C12",
+      "count": 50
+    },
+    {
+      "code": "C10",
+      "count": 36
+    }
+  ],
+  "budget": {
+    "lines": 3492,
+    "exe_amt": 1235201226424,
+    "budget_now": 2035478705264
+  },
+  "recent_changes": [
+    {
+      "change_id": "c7e8d468f9704d16859cfd929a794a6d",
+      "ts": "2026-08-19T15:02:23+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4471000|fyr:2025",
+      "entity_name": "4471000 2025 세출(1734건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4e2d43bd4c4d47d79ef63f078e1bd8c8",
+      "ts": "2026-08-19T14:25:52+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4471000|fyr:2026",
+      "entity_name": "4471000 2026 세출(1758건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "966b80b5e2b8432b8ab511d6c9374976",
+      "ts": "2026-08-19T11:13:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1967759",
+      "entity_name": "금산군 야생동물에 의한 피해예방 및 보상금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1967759&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "479cf57b7ce145be8ff42da9588fa4fc",
+      "ts": "2026-08-19T10:54:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1991049",
+      "entity_name": "금산군 결혼 및 출생 지원 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1991049&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d3f9e349f2f44ae4b340a76b92d11d74",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44710",
+      "entity_name": "금산군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

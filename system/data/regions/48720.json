@@ -1,0 +1,118 @@
+{
+  "sig_cd": "48720",
+  "region_id": "48720",
+  "name": "의령군",
+  "full_name": "경상남도 의령군",
+  "level": 2,
+  "status": "active",
+  "population": 24516,
+  "ordinance_kinds": {
+    "규칙": 104,
+    "조례": 455
+  },
+  "ordinance_total": 559,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 206
+    },
+    {
+      "code": "C02",
+      "count": 180
+    },
+    {
+      "code": "C03",
+      "count": 76
+    },
+    {
+      "code": "C08",
+      "count": 74
+    },
+    {
+      "code": "C11",
+      "count": 72
+    },
+    {
+      "code": "C05",
+      "count": 60
+    },
+    {
+      "code": "C13",
+      "count": 58
+    },
+    {
+      "code": "C12",
+      "count": 54
+    },
+    {
+      "code": "C07",
+      "count": 50
+    },
+    {
+      "code": "C09",
+      "count": 48
+    },
+    {
+      "code": "C06",
+      "count": 45
+    },
+    {
+      "code": "C10",
+      "count": 33
+    }
+  ],
+  "budget": {
+    "lines": 2940,
+    "exe_amt": 985719530734,
+    "budget_now": 1704857510637
+  },
+  "recent_changes": [
+    {
+      "change_id": "024bb584326641b9b1718e19aae7a968",
+      "ts": "2026-08-19T15:23:51+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4871000|fyr:2025",
+      "entity_name": "4871000 2025 세출(1489건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1d71478ce81e43ffa2a150fd5a74817d",
+      "ts": "2026-08-19T14:35:32+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4871000|fyr:2026",
+      "entity_name": "4871000 2026 세출(1451건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "87c8f7969754446f825d8cb3d286e897",
+      "ts": "2026-08-19T11:17:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1318925",
+      "entity_name": "의령군 야생동물에 의한 농작물 피해예방 및 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1318925&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7821a9cbf122404999ecc618de5fc923",
+      "ts": "2026-08-19T11:06:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2075691",
+      "entity_name": "의령군 출산의 날 기념에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2075691&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "29ef160ab9ed4e3d8f278d4f42ebb9a6",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48720",
+      "entity_name": "의령군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

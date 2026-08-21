@@ -1,0 +1,172 @@
+{
+  "sig_cd": "47730",
+  "region_id": "47730",
+  "name": "의성군",
+  "full_name": "경상북도 의성군",
+  "level": 2,
+  "status": "active",
+  "population": 47920,
+  "ordinance_kinds": {
+    "규칙": 107,
+    "조례": 361
+  },
+  "ordinance_total": 468,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 188
+    },
+    {
+      "code": "C02",
+      "count": 135
+    },
+    {
+      "code": "C11",
+      "count": 60
+    },
+    {
+      "code": "C03",
+      "count": 59
+    },
+    {
+      "code": "C08",
+      "count": 49
+    },
+    {
+      "code": "C13",
+      "count": 48
+    },
+    {
+      "code": "C12",
+      "count": 43
+    },
+    {
+      "code": "C05",
+      "count": 43
+    },
+    {
+      "code": "C09",
+      "count": 40
+    },
+    {
+      "code": "C06",
+      "count": 39
+    },
+    {
+      "code": "C07",
+      "count": 37
+    },
+    {
+      "code": "C10",
+      "count": 25
+    }
+  ],
+  "budget": {
+    "lines": 3138,
+    "exe_amt": 1692953882384,
+    "budget_now": 2408773562996
+  },
+  "recent_changes": [
+    {
+      "change_id": "ca193a28c01c47ba9f97769bbb62d3a2",
+      "ts": "2026-08-19T15:18:21+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4772000|fyr:2025",
+      "entity_name": "4772000 2025 세출(1630건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5f848ca52bb54ce49ba172878538c99a",
+      "ts": "2026-08-19T14:33:24+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4772000|fyr:2026",
+      "entity_name": "4772000 2026 세출(1508건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "496dc4c919a04eb983cb9921a4ab9683",
+      "ts": "2026-08-19T11:17:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2103521",
+      "entity_name": "의성군 유해야생동물에 의한 농작물 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103521&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1798a800a5a643a2974976696f0eb4fe",
+      "ts": "2026-08-19T11:11:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1597727",
+      "entity_name": "의성군 반려동물문화센터 관리ㆍ운영에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1597727&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e9c206de974d48c5a692496edb3cd5e1",
+      "ts": "2026-08-19T11:09:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2103507",
+      "entity_name": "의성군 반려동물문화센터 관리ㆍ운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103507&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4d983a478b96428399be6b8c90fdb9a3",
+      "ts": "2026-08-19T11:04:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1438615",
+      "entity_name": "의성군 출산통합지원센터 설치 및 운영 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1438615&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b1a6da2aed8545e3a8322c291ee3aeab",
+      "ts": "2026-08-19T11:02:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1438607",
+      "entity_name": "의성군 출산통합지원센터 설치 및 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1438607&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "190c3e75b06c40df901a5b356a3879a7",
+      "ts": "2026-08-19T11:02:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1801461",
+      "entity_name": "의성군 임신·출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1801461&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b283f420a16545a7af915ac0bdc744c0",
+      "ts": "2026-08-19T10:56:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1932453",
+      "entity_name": "의성군 출산장려금 등 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1932453&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e7467dabe19c48c7b5897cf4dd61fe47",
+      "ts": "2026-08-19T10:56:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2042763",
+      "entity_name": "의성군 출산장려금 등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2042763&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "55ecce6936d3445c960360fbb16167c3",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47730",
+      "entity_name": "의성군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

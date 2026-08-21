@@ -1,0 +1,118 @@
+{
+  "sig_cd": "12300",
+  "region_id": "12300",
+  "name": "북구",
+  "full_name": "전남광주통합특별시 북구",
+  "level": 2,
+  "status": "active",
+  "population": 416780,
+  "ordinance_kinds": {
+    "규칙": 85,
+    "조례": 534
+  },
+  "ordinance_total": 619,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 227
+    },
+    {
+      "code": "C02",
+      "count": 174
+    },
+    {
+      "code": "C03",
+      "count": 130
+    },
+    {
+      "code": "C11",
+      "count": 87
+    },
+    {
+      "code": "C05",
+      "count": 82
+    },
+    {
+      "code": "C06",
+      "count": 77
+    },
+    {
+      "code": "C08",
+      "count": 74
+    },
+    {
+      "code": "C13",
+      "count": 69
+    },
+    {
+      "code": "C07",
+      "count": 64
+    },
+    {
+      "code": "C09",
+      "count": 55
+    },
+    {
+      "code": "C10",
+      "count": 34
+    },
+    {
+      "code": "C04",
+      "count": 14
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "9e9d23cbd242434c968af347dbb35d78",
+      "ts": "2026-08-19T11:18:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2152919",
+      "entity_name": "전남광주통합특별시 북구 유해야생동물 피해 예방 및 관리 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2152919&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bfc35b29fb8649fe8d8d7f580ea71b72",
+      "ts": "2026-08-19T11:18:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2152835",
+      "entity_name": "전남광주통합특별시 북구 야생동물에 의한 농작물 피해 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2152835&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "617abc973e2648df86c99965017e9203",
+      "ts": "2026-08-19T11:09:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2150865",
+      "entity_name": "전남광주통합특별시 북구 동물보호 및 반려문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2150865&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "560dc11a27b8491fbbdb34a7654ef229",
+      "ts": "2026-08-19T10:58:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2152295",
+      "entity_name": "전남광주통합특별시 북구 출산장려 및 양육지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2152295&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3b97a1d8eb884fb68fe28612e6a6b009",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12300",
+      "entity_name": "북구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,703 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "schema": "policymap.static.v1",
+  "generated_at": "2026-08-21T09:00:00+0900",
+  "as_of_date": "2026-08-21",
+  "stale": false,
+  "stale_days": 30,
+  "counts": {
+    "regions": 27,
+    "legal_instrument": 80,
+    "ordinances": 302,
+    "delegations": 249,
+    "bills": 40,
+    "budget_lines": 125669,
+    "change_log": 200,
+    "graph_nodes": 500,
+    "graph_edges": 1500
+  },
+  "graph_stats": {
+    "backend": "networkx",
+    "node_counts": {
+      "Region": 27,
+      "Ordinance": 302,
+      "LegalInstrument": 80,
+      "Bill": 40,
+      "Legislator": 30,
+      "Party": 5,
+      "Category": 16,
+      "BudgetLine": 0
+    },
+    "edge_counts": {
+      "HAS_ORDINANCE": 302,
+      "DELEGATED_FROM/SUBORDINATE_TO": 249,
+      "CITES(+relations)": 153,
+      "ADJACENT_TO": 60,
+      "SUCCEEDED_BY": 1,
+      "CONTAINS": 20,
+      "SIMILAR_TO": 136,
+      "IN_CATEGORY": 367,
+      "FUNDED_BY": 0,
+      "PROPOSED_BY": 72,
+      "VOTED": 110,
+      "MEMBER_OF": 30,
+      "ENACTS": 0
+    },
+    "skipped_edges": {
+      "DELEGATED_FROM": 0,
+      "CITES": 0,
+      "FUNDED_BY": 0
+    }
+  },
+  "watermarks": [
+    {
+      "source": "budget",
+      "scope": "laf:1100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-17T07:12:53+0900",
+      "changed": 3798
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:11",
+      "cursor": "page:14",
+      "status": "ok",
+      "last_success": "2026-08-17T06:25:48+0900",
+      "changed": 537
+    },
+    {
+      "source": "budget",
+      "scope": "laf:1100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-12T02:28:49+0900",
+      "changed": 1071
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:11110",
+      "cursor": "page:6",
+      "status": "ok",
+      "last_success": "2026-08-12T06:04:55+0900",
+      "changed": 812
+    },
+    {
+      "source": "budget",
+      "scope": "laf:1100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-19T04:49:12+0900",
+      "changed": 436
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:11140",
+      "cursor": "page:31",
+      "status": "ok",
+      "last_success": "2026-08-18T08:24:39+0900",
+      "changed": 217
+    },
+    {
+      "source": "budget",
+      "scope": "laf:1100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-12T01:00:25+0900",
+      "changed": 3612
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:11170",
+      "cursor": "page:24",
+      "status": "ok",
+      "last_success": "2026-08-14T03:04:44+0900",
+      "changed": 2201
+    },
+    {
+      "source": "budget",
+      "scope": "laf:1100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-18T02:45:43+0900",
+      "changed": 2348
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:11200",
+      "cursor": "page:10",
+      "status": "ok",
+      "last_success": "2026-08-10T02:46:09+0900",
+      "changed": 1849
+    },
+    {
+      "source": "budget",
+      "scope": "laf:1100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-15T03:16:01+0900",
+      "changed": 2968
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:11215",
+      "cursor": "page:36",
+      "status": "ok",
+      "last_success": "2026-08-14T02:49:23+0900",
+      "changed": 1722
+    },
+    {
+      "source": "budget",
+      "scope": "laf:1100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-11T04:04:45+0900",
+      "changed": 2822
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:11230",
+      "cursor": "page:5",
+      "status": "ok",
+      "last_success": "2026-08-15T04:33:05+0900",
+      "changed": 2309
+    },
+    {
+      "source": "budget",
+      "scope": "laf:2600000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-19T08:46:25+0900",
+      "changed": 1536
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:26",
+      "cursor": "page:29",
+      "status": "ok",
+      "last_success": "2026-08-09T06:54:18+0900",
+      "changed": 3525
+    },
+    {
+      "source": "budget",
+      "scope": "laf:2600000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-14T02:30:33+0900",
+      "changed": 2737
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:26110",
+      "cursor": "page:17",
+      "status": "ok",
+      "last_success": "2026-08-11T01:44:21+0900",
+      "changed": 3125
+    },
+    {
+      "source": "budget",
+      "scope": "laf:2600000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-10T01:00:00+0900",
+      "changed": 2422
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:26140",
+      "cursor": "page:15",
+      "status": "ok",
+      "last_success": "2026-08-09T03:04:22+0900",
+      "changed": 1084
+    },
+    {
+      "source": "budget",
+      "scope": "laf:2600000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-13T07:02:24+0900",
+      "changed": 1733
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:26170",
+      "cursor": "page:11",
+      "status": "ok",
+      "last_success": "2026-08-18T05:27:49+0900",
+      "changed": 2734
+    },
+    {
+      "source": "budget",
+      "scope": "laf:2600000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-19T04:02:16+0900",
+      "changed": 676
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:26200",
+      "cursor": "page:30",
+      "status": "ok",
+      "last_success": "2026-08-18T06:08:31+0900",
+      "changed": 3462
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-09T05:31:50+0900",
+      "changed": 335
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:41",
+      "cursor": "page:20",
+      "status": "ok",
+      "last_success": "2026-08-18T08:37:36+0900",
+      "changed": 3083
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-17T06:58:21+0900",
+      "changed": 3626
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:41110",
+      "cursor": "page:14",
+      "status": "ok",
+      "last_success": "2026-08-15T02:16:04+0900",
+      "changed": 2240
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-14T07:46:19+0900",
+      "changed": 2520
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:41130",
+      "cursor": "page:26",
+      "status": "ok",
+      "last_success": "2026-08-09T01:44:03+0900",
+      "changed": 2025
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-16T02:39:34+0900",
+      "changed": 925
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:41150",
+      "cursor": "page:7",
+      "status": "ok",
+      "last_success": "2026-08-12T08:37:58+0900",
+      "changed": 2838
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-16T05:25:02+0900",
+      "changed": 3199
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:41170",
+      "cursor": "page:30",
+      "status": "ok",
+      "last_success": "2026-08-11T08:22:26+0900",
+      "changed": 3322
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4100000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-11T08:31:15+0900",
+      "changed": 1723
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:41190",
+      "cursor": "page:27",
+      "status": "ok",
+      "last_success": "2026-08-18T02:19:54+0900",
+      "changed": 3875
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4700000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-10T03:00:17+0900",
+      "changed": 2179
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:47",
+      "cursor": "page:38",
+      "status": "ok",
+      "last_success": "2026-08-13T05:39:37+0900",
+      "changed": 1837
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4700000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-11T06:45:54+0900",
+      "changed": 2622
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:47110",
+      "cursor": "page:26",
+      "status": "ok",
+      "last_success": "2026-08-13T01:01:16+0900",
+      "changed": 3651
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4700000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-10T03:23:21+0900",
+      "changed": 2948
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:47130",
+      "cursor": "page:28",
+      "status": "ok",
+      "last_success": "2026-08-10T03:49:36+0900",
+      "changed": 1662
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4700000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-09T04:17:26+0900",
+      "changed": 3007
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:47170",
+      "cursor": "page:18",
+      "status": "ok",
+      "last_success": "2026-08-19T03:29:08+0900",
+      "changed": 1093
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4800000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-15T05:51:34+0900",
+      "changed": 2163
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:48",
+      "cursor": "page:5",
+      "status": "ok",
+      "last_success": "2026-08-18T04:03:01+0900",
+      "changed": 709
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4800000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-19T07:52:58+0900",
+      "changed": 2041
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:48120",
+      "cursor": "page:22",
+      "status": "ok",
+      "last_success": "2026-08-19T05:21:23+0900",
+      "changed": 1764
+    },
+    {
+      "source": "budget",
+      "scope": "laf:4800000|fyr:2025",
+      "cursor": "exe:20251231",
+      "status": "ok",
+      "last_success": "2026-08-12T01:29:39+0900",
+      "changed": 359
+    },
+    {
+      "source": "ordinance",
+      "scope": "region:48170",
+      "cursor": "page:7",
+      "status": "ok",
+      "last_success": "2026-08-10T00:19:52+0900",
+      "changed": 1057
+    }
+  ],
+  "region_index": "regions/index.json",
+  "changes_latest": "changes/latest.json",
+  "changes_months": [
+    {
+      "month": "2026-08",
+      "count": 200,
+      "file": "changes/feed-2026-08.json"
+    }
+  ],
+  "files": [
+    {
+      "file": "api/diffusion.json",
+      "bytes": 7830,
+      "rows": 1,
+      "hash": "sha256:eb7b83554f02d9d188578d341a61d33edc09ec76ed0eaca8b591a6dbbe50506b"
+    },
+    {
+      "file": "api/effectiveness.json",
+      "bytes": 21575,
+      "rows": 1,
+      "hash": "sha256:2d5691b8afd17d0a36bfd3aa94a1ac255fce74b9b3153246c40fbcbb4a490a5a"
+    },
+    {
+      "file": "api/gap.json",
+      "bytes": 36030,
+      "rows": 1,
+      "hash": "sha256:fa82533fe4a011f66116fab0adc1180d9e333117097273a8d20874087a54537b"
+    },
+    {
+      "file": "api/peers.json",
+      "bytes": 8624,
+      "rows": 1,
+      "hash": "sha256:e2551d4d7f105f37126fc5348e1b692f313e31d7351ebc7ccbf84141ea5c0308"
+    },
+    {
+      "file": "api/search.json",
+      "bytes": 17186,
+      "rows": 1,
+      "hash": "sha256:e0b7535ebfa1cb4d15d384f0fa16babbd789d218e2ad8bb6ab79b90f4619d4d3"
+    },
+    {
+      "file": "api/votes.json",
+      "bytes": 3325,
+      "rows": 1,
+      "hash": "sha256:aad7348f8f456636ecf61a121884754ae629318fa50a39c254f92ec6cb3acfd2"
+    },
+    {
+      "file": "changes/feed-2026-08.json",
+      "bytes": 82799,
+      "rows": 200,
+      "hash": "sha256:f47b730b91b272df4c13d7449cbc510c377822d58d49d98dedb6926331c73523"
+    },
+    {
+      "file": "changes/latest.json",
+      "bytes": 111337,
+      "rows": 200,
+      "hash": "sha256:98b3c7a46311ae9a9e31fcf217f74808c29ca469d506f4ac9c79f64c50da1bcc"
+    },
+    {
+      "file": "graph/edges.json",
+      "bytes": 280547,
+      "rows": 1500,
+      "hash": "sha256:c4faf72e820c33e898995745a5fff44f4e6093fff30338ef0b74375f05d9dccf"
+    },
+    {
+      "file": "graph/nodes.json",
+      "bytes": 268681,
+      "rows": 500,
+      "hash": "sha256:454242598ced5c53ff2bd942c45fa7c46aac0aad6c2876aa4375badd89f0255b"
+    },
+    {
+      "file": "meta/graph-stats.json",
+      "bytes": 969,
+      "rows": 1,
+      "hash": "sha256:bca0e35a8ab90b7212ac58f90b4e6ab56ea788eea0e24bcd8ab42094abba591b"
+    },
+    {
+      "file": "regions/11000.json",
+      "bytes": 3708,
+      "rows": 1,
+      "hash": "sha256:67143a3182c43ada8c77375e40b1124a6de3af9c0bf1a080537a518df3995b6e"
+    },
+    {
+      "file": "regions/11110.json",
+      "bytes": 3704,
+      "rows": 1,
+      "hash": "sha256:3f30b2c1a1c1bd6890515b5b6782195c9ac65fda2754376e4cf460e185a061ae"
+    },
+    {
+      "file": "regions/11140.json",
+      "bytes": 3699,
+      "rows": 1,
+      "hash": "sha256:02fc9f928ef2b911846a27ec68d1d16e4bbf2d1ac88af6a0b439ec7992d643f3"
+    },
+    {
+      "file": "regions/11170.json",
+      "bytes": 3706,
+      "rows": 1,
+      "hash": "sha256:c48be6ee2505f279d675ae524389393930da53c694148cd6bee8aa3c9af3f089"
+    },
+    {
+      "file": "regions/11200.json",
+      "bytes": 3704,
+      "rows": 1,
+      "hash": "sha256:a0d36d169df34982aa6c84ee7998c8ab5fb85b2eefd6b53529e48083c01c6bb2"
+    },
+    {
+      "file": "regions/11215.json",
+      "bytes": 3704,
+      "rows": 1,
+      "hash": "sha256:febe7d51c9db69bde9c674ca0283b87d1a4e4d6ca5abcc0b0d5e15b2ec6d25e8"
+    },
+    {
+      "file": "regions/11230.json",
+      "bytes": 3710,
+      "rows": 1,
+      "hash": "sha256:0d27b782fcf6461c651bf8745f96d8e9d9d0a9190e15449cca2faf643d57f588"
+    },
+    {
+      "file": "regions/26000.json",
+      "bytes": 3685,
+      "rows": 1,
+      "hash": "sha256:aa237eb993ccf2aaa2c0e22c4196bff8541bf3358c3b47154859abd73e854a63"
+    },
+    {
+      "file": "regions/26110.json",
+      "bytes": 3678,
+      "rows": 1,
+      "hash": "sha256:f0af9df7b01762eb3976af8d287f3ff77ce137638da91b8dba76be7f70b17d65"
+    },
+    {
+      "file": "regions/26140.json",
+      "bytes": 3677,
+      "rows": 1,
+      "hash": "sha256:6fb00a69ce24360fd9b26f3665cdf1de4dc367c90a9e2c38d4e33e0a3c5ee2f2"
+    },
+    {
+      "file": "regions/26170.json",
+      "bytes": 3675,
+      "rows": 1,
+      "hash": "sha256:e23f7e382a3e509dec3e6b57557a574cadda3625a6f28789c5383b906f7aa74e"
+    },
+    {
+      "file": "regions/26200.json",
+      "bytes": 3681,
+      "rows": 1,
+      "hash": "sha256:b933b5d3614280b41687c73908c33d8cf38cdf1ffc7aaa22450ef8c5ea68cfd3"
+    },
+    {
+      "file": "regions/41000.json",
+      "bytes": 3600,
+      "rows": 1,
+      "hash": "sha256:728bfed3787c1ae2e5c7cea5417088f8e1885db3596e1f81f65b5eb9e9b3b151"
+    },
+    {
+      "file": "regions/41110.json",
+      "bytes": 3611,
+      "rows": 1,
+      "hash": "sha256:b0b1c949d6ffaa8097b8b11dcbe99d9f24b26870afd63a0e6bc149898a5441d9"
+    },
+    {
+      "file": "regions/41130.json",
+      "bytes": 3610,
+      "rows": 1,
+      "hash": "sha256:236a7a5dcaea9048628665f15cc0fdfe7613e0506195663cd7deeae489facae5"
+    },
+    {
+      "file": "regions/41150.json",
+      "bytes": 3614,
+      "rows": 1,
+      "hash": "sha256:a4dbf65dc996e5aae53a130cdb998cc297211a2019d47750cfb501b19b0be837"
+    },
+    {
+      "file": "regions/41170.json",
+      "bytes": 3611,
+      "rows": 1,
+      "hash": "sha256:b8a39914de2bb810766ccb94e22ebf556ede53b57c4f0bde6af57fe709efa5d0"
+    },
+    {
+      "file": "regions/41190.json",
+      "bytes": 3605,
+      "rows": 1,
+      "hash": "sha256:77b78d38f60421b65b0a7dfe073cc1cb33d486b330afd1199d6088dd5b1e856f"
+    },
+    {
+      "file": "regions/47000.json",
+      "bytes": 3481,
+      "rows": 1,
+      "hash": "sha256:6837645d4330c527c9464275cfa7d137d7aaea642decf35c2ee9d76411be8942"
+    },
+    {
+      "file": "regions/47110.json",
+      "bytes": 3485,
+      "rows": 1,
+      "hash": "sha256:fe64fc54b0e1a8b0a71e5df89caf2d353b8850192e04f62be63f8d14af396843"
+    },
+    {
+      "file": "regions/47130.json",
+      "bytes": 3481,
+      "rows": 1,
+      "hash": "sha256:9d8e11245d0550bec83b468ddddb98f5a9a45ef81f10ea40a853532532ec2eb5"
+    },
+    {
+      "file": "regions/47170.json",
+      "bytes": 3482,
+      "rows": 1,
+      "hash": "sha256:629aa9185a13e1143fe3bd23cfe283922fccc5ef4c4a20a979d7a6d8893d9eab"
+    },
+    {
+      "file": "regions/48000.json",
+      "bytes": 3663,
+      "rows": 1,
+      "hash": "sha256:96b8f29ad88b747ff18c42800103225cb6a970889920e43a1e05e5678688c199"
+    },
+    {
+      "file": "regions/48120.json",
+      "bytes": 3669,
+      "rows": 1,
+      "hash": "sha256:48a0292f3a7bd3d1b133b5b46a18e078ef4e9d4078b00f7e8dcf8bb05b1a4b44"
+    },
+    {
+      "file": "regions/48170.json",
+      "bytes": 3668,
+      "rows": 1,
+      "hash": "sha256:3760437bb9bdae67e855fabd5e6438a1f923d611e483552ebd343c052b20e3f1"
+    },
+    {
+      "file": "regions/index.json",
+      "bytes": 4061,
+      "rows": 25,
+      "hash": "sha256:ee2e9031b52b0a14fd39ca3eebe967a17564e1ad23b8c1589426bced9f8d8ec3"
+    },
+    {
+      "file": "state/watermarks.json",
+      "bytes": 22586,
+      "rows": 50,
+      "hash": "sha256:3b4fed947cbded62cdf455c3e35d8da2fc79b5a0b0a1e7bd2721516ed95548c7"
+    }
+  ],
+  "_mock_fixtures": {
+    "peers": "api/peers.json",
+    "gap": "api/gap.json",
+    "diffusion": "api/diffusion.json",
+    "effectiveness": "api/effectiveness.json",
+    "votes": "api/votes.json",
+    "search": "api/search.json"
+  }
+}

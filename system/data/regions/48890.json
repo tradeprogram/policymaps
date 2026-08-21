@@ -1,0 +1,127 @@
+{
+  "sig_cd": "48890",
+  "region_id": "48890",
+  "name": "합천군",
+  "full_name": "경상남도 합천군",
+  "level": 2,
+  "status": "active",
+  "population": 38812,
+  "ordinance_kinds": {
+    "규칙": 102,
+    "조례": 425
+  },
+  "ordinance_total": 527,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 220
+    },
+    {
+      "code": "C02",
+      "count": 165
+    },
+    {
+      "code": "C03",
+      "count": 72
+    },
+    {
+      "code": "C08",
+      "count": 68
+    },
+    {
+      "code": "C11",
+      "count": 64
+    },
+    {
+      "code": "C05",
+      "count": 55
+    },
+    {
+      "code": "C12",
+      "count": 48
+    },
+    {
+      "code": "C13",
+      "count": 46
+    },
+    {
+      "code": "C09",
+      "count": 42
+    },
+    {
+      "code": "C06",
+      "count": 40
+    },
+    {
+      "code": "C07",
+      "count": 38
+    },
+    {
+      "code": "C10",
+      "count": 23
+    }
+  ],
+  "budget": {
+    "lines": 3356,
+    "exe_amt": 1502896945151,
+    "budget_now": 2475989155254
+  },
+  "recent_changes": [
+    {
+      "change_id": "0412194d0d144e448fd647b386a40cd5",
+      "ts": "2026-08-19T15:25:49+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4880000|fyr:2025",
+      "entity_name": "4880000 2025 세출(1699건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9cf82ef7dbe84705bb217c2be44f661d",
+      "ts": "2026-08-19T14:36:17+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4880000|fyr:2026",
+      "entity_name": "4880000 2026 세출(1657건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "60008f0e36d242f0ae2aad4733ade45b",
+      "ts": "2026-08-19T11:19:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1523733",
+      "entity_name": "합천군 야생동물로 인한 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1523733&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3a91885c36eb4337a11789ba40b15078",
+      "ts": "2026-08-19T11:10:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2018767",
+      "entity_name": "합천군 반려동물테마파크 설치 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018767&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ed0f6ea308134733a2e24d26609889b1",
+      "ts": "2026-08-19T11:04:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2160607",
+      "entity_name": "합천군 임신ㆍ출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2160607&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "314d7d7f28cf43b09a3064ef71acb7b8",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48890",
+      "entity_name": "합천군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

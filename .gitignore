@@ -1,0 +1,49 @@
+# ── 비밀정보 (절대 커밋 금지) ────────────────────────────────────────────────
+.env
+*.env
+!.env.example
+**/secrets.json
+*.key
+*.pem
+
+# ── 외부 저장소 클론 (별도 저장소, 재클론 가능) ──────────────────────────────
+external/
+
+# ── 대용량 생성물 (깃허브 100MB 파일 한계 초과 — Release/재생성으로 배포) ────
+# 주의: .gitignore 는 줄 끝 주석을 지원하지 않는다. 주석은 반드시 별도 줄에.
+# RAG 인덱스 9.5GB (최대 파일 305MB)
+system/data/index/
+# graph nodes.json 134MB + edges.json 209MB
+system/data/graph/
+# 원천 참조자료(경계 GeoJSON 18MB 등)
+system/data/reference/
+system/data/*.db
+system/data/*.db-wal
+system/data/*.db-shm
+
+# ── 로그·작업 산출물 ─────────────────────────────────────────────────────────
+system/scratchpad/
+system/data/*.log
+system/data/*.err
+system/data/*_status.json
+system/data/final_report.json
+*.log
+
+# ── 커밋 대상 정적 번들(경량)은 유지 ─────────────────────────────────────────
+# system/data/manifest.json, regions/, changes/, meta/, state/ 는 커밋한다
+# (키 살균 완료본. system/tools_audit_keys.sh 로 검증)
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# ── OS/에디터 ────────────────────────────────────────────────────────────────
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

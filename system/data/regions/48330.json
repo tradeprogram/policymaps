@@ -1,0 +1,145 @@
+{
+  "sig_cd": "48330",
+  "region_id": "48330",
+  "name": "양산시",
+  "full_name": "경상남도 양산시",
+  "level": 2,
+  "status": "active",
+  "population": 361264,
+  "ordinance_kinds": {
+    "규칙": 102,
+    "조례": 558
+  },
+  "ordinance_total": 660,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 228
+    },
+    {
+      "code": "C02",
+      "count": 168
+    },
+    {
+      "code": "C11",
+      "count": 101
+    },
+    {
+      "code": "C03",
+      "count": 92
+    },
+    {
+      "code": "C08",
+      "count": 87
+    },
+    {
+      "code": "C09",
+      "count": 84
+    },
+    {
+      "code": "C05",
+      "count": 81
+    },
+    {
+      "code": "C07",
+      "count": 78
+    },
+    {
+      "code": "C13",
+      "count": 74
+    },
+    {
+      "code": "C06",
+      "count": 65
+    },
+    {
+      "code": "C10",
+      "count": 45
+    },
+    {
+      "code": "C12",
+      "count": 40
+    }
+  ],
+  "budget": {
+    "lines": 6551,
+    "exe_amt": 3132030978274,
+    "budget_now": 4480671068125
+  },
+  "recent_changes": [
+    {
+      "change_id": "3f65fda195c84bf88d9d6d56dc6d5ee3",
+      "ts": "2026-08-19T15:23:35+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4820000|fyr:2025",
+      "entity_name": "4820000 2025 세출(3321건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f28c1942745b437399acb032e9805a1c",
+      "ts": "2026-08-19T14:35:30+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4820000|fyr:2026",
+      "entity_name": "4820000 2026 세출(3230건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9e41bd35af2946e7a2415894efc02de6",
+      "ts": "2026-08-19T11:16:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2028689",
+      "entity_name": "양산시 야생동물에 의한 피해방지 및 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2028689&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "01f0ce6ef0f144ecb3c4d21d44b58e14",
+      "ts": "2026-08-19T11:16:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1947689",
+      "entity_name": "양산시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1947689&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e0bf3204318644d08e74983eb92d2a15",
+      "ts": "2026-08-19T11:08:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2091547",
+      "entity_name": "양산시 반려동물지원센터 관리 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2091547&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bc66aa086215457086f28920afc9285c",
+      "ts": "2026-08-19T11:08:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2081497",
+      "entity_name": "양산시 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2081497&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e04627e49abf4b35a36b4d8a9a05675d",
+      "ts": "2026-08-19T10:58:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1996079",
+      "entity_name": "양산시 저출산 대책 및 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1996079&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5582257c671d47c98d659318d3bdcaa7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48330",
+      "entity_name": "양산시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,163 @@
+{
+  "sig_cd": "52130",
+  "region_id": "52130",
+  "name": "군산시",
+  "full_name": "전북특별자치도 군산시",
+  "level": 2,
+  "status": "active",
+  "population": 255537,
+  "ordinance_kinds": {
+    "규칙": 147,
+    "조례": 662
+  },
+  "ordinance_total": 809,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 291
+    },
+    {
+      "code": "C02",
+      "count": 224
+    },
+    {
+      "code": "C11",
+      "count": 158
+    },
+    {
+      "code": "C03",
+      "count": 113
+    },
+    {
+      "code": "C08",
+      "count": 92
+    },
+    {
+      "code": "C07",
+      "count": 91
+    },
+    {
+      "code": "C05",
+      "count": 90
+    },
+    {
+      "code": "C13",
+      "count": 86
+    },
+    {
+      "code": "C09",
+      "count": 85
+    },
+    {
+      "code": "C06",
+      "count": 85
+    },
+    {
+      "code": "C12",
+      "count": 68
+    },
+    {
+      "code": "C10",
+      "count": 53
+    }
+  ],
+  "budget": {
+    "lines": 4313,
+    "exe_amt": 2856154353070,
+    "budget_now": 3987135018231
+  },
+  "recent_changes": [
+    {
+      "change_id": "c91cf80e2eb24f699d6444a57fa5396a",
+      "ts": "2026-08-19T15:05:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4512000|fyr:2025",
+      "entity_name": "4512000 2025 세출(2214건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "559722c1b9454ffd92a8be357e51d7f1",
+      "ts": "2026-08-19T14:26:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4512000|fyr:2026",
+      "entity_name": "4512000 2026 세출(2099건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "245604a8fba143de9964e13b9c187822",
+      "ts": "2026-08-19T11:13:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2010625",
+      "entity_name": "군산시 야생동물로 인한 피해보상 및 피해예방에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2010625&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b7d1e7956f1f45e3be9ed99cf04f3504",
+      "ts": "2026-08-19T11:07:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1674435",
+      "entity_name": "군산시 반려동물 진료비 표시제 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1674435&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ad94096ad91041f0b5398277d0a9b235",
+      "ts": "2026-08-19T11:07:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1985337",
+      "entity_name": "군산시 반려동물산업 육성 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1985337&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d4210b19efd3427fa29bef9b5ab3b26c",
+      "ts": "2026-08-19T11:07:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2088393",
+      "entity_name": "군산시 반려동물 및 유기·유실동물 보호와 학대방지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2088393&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "66af05a02f23404b8f9bda2de838bc1e",
+      "ts": "2026-08-19T10:59:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1839733",
+      "entity_name": "군산시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1839733&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d068da82f8724a31b4de59a5c65aab9b",
+      "ts": "2026-08-19T10:59:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1967787",
+      "entity_name": "군산시 위기 임신 및 보호출산 지원과 위기 영아 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1967787&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "38a1687efc6643cf86d7e86875f741be",
+      "ts": "2026-08-19T10:54:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1839705",
+      "entity_name": "군산시 출산지원금 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1839705&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4dbba5ef6c1247dc813b735f0fe01d78",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52130",
+      "entity_name": "군산시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

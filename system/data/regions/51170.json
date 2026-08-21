@@ -1,0 +1,127 @@
+{
+  "sig_cd": "51170",
+  "region_id": "51170",
+  "name": "동해시",
+  "full_name": "강원특별자치도 동해시",
+  "level": 2,
+  "status": "active",
+  "population": 85577,
+  "ordinance_kinds": {
+    "규칙": 114,
+    "조례": 449
+  },
+  "ordinance_total": 563,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 216
+    },
+    {
+      "code": "C02",
+      "count": 170
+    },
+    {
+      "code": "C11",
+      "count": 95
+    },
+    {
+      "code": "C03",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 65
+    },
+    {
+      "code": "C07",
+      "count": 63
+    },
+    {
+      "code": "C13",
+      "count": 62
+    },
+    {
+      "code": "C09",
+      "count": 59
+    },
+    {
+      "code": "C05",
+      "count": 50
+    },
+    {
+      "code": "C06",
+      "count": 49
+    },
+    {
+      "code": "C10",
+      "count": 38
+    },
+    {
+      "code": "C12",
+      "count": 32
+    }
+  ],
+  "budget": {
+    "lines": 2822,
+    "exe_amt": 1027650428910,
+    "budget_now": 1441627747132
+  },
+  "recent_changes": [
+    {
+      "change_id": "4f6492d301fa48a8b68e21c84aa43fdf",
+      "ts": "2026-08-19T14:54:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4214000|fyr:2025",
+      "entity_name": "4214000 2025 세출(1447건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0de42ed47b3043aaa38e9ced3e930df6",
+      "ts": "2026-08-19T14:21:30+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4214000|fyr:2026",
+      "entity_name": "4214000 2026 세출(1375건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "dc10f57831ce4947a803653399e5b038",
+      "ts": "2026-08-19T11:14:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2129043",
+      "entity_name": "동해시 야생동물에 의한 피해예방 및  보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129043&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5f479f621a0d459bb37aadac69d6fa9e",
+      "ts": "2026-08-19T11:07:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1822773",
+      "entity_name": "동해시 반려동물 및 유기·유실동물 보호와 학대방지 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1822773&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a8ae2a2bf26d44d7840e0f89ed5546eb",
+      "ts": "2026-08-19T11:00:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1999989",
+      "entity_name": "동해시 저출산ㆍ고령사회 대응을 위한 인구정책지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1999989&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c803f47d6df24ba1bd0846dc51195e54",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51170",
+      "entity_name": "동해시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

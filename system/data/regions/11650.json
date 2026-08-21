@@ -1,0 +1,136 @@
+{
+  "sig_cd": "11650",
+  "region_id": "11650",
+  "name": "서초구",
+  "full_name": "서울특별시 서초구",
+  "level": 2,
+  "status": "active",
+  "population": 414616,
+  "ordinance_kinds": {
+    "규칙": 102,
+    "조례": 413
+  },
+  "ordinance_total": 515,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 209
+    },
+    {
+      "code": "C02",
+      "count": 157
+    },
+    {
+      "code": "C03",
+      "count": 88
+    },
+    {
+      "code": "C08",
+      "count": 76
+    },
+    {
+      "code": "C11",
+      "count": 72
+    },
+    {
+      "code": "C07",
+      "count": 58
+    },
+    {
+      "code": "C06",
+      "count": 57
+    },
+    {
+      "code": "C05",
+      "count": 55
+    },
+    {
+      "code": "C13",
+      "count": 54
+    },
+    {
+      "code": "C09",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 30
+    },
+    {
+      "code": "C04",
+      "count": 15
+    }
+  ],
+  "budget": {
+    "lines": 2019,
+    "exe_amt": 1818559848278,
+    "budget_now": 3058523961260
+  },
+  "recent_changes": [
+    {
+      "change_id": "f8595bf201e0430fae03def7490f40ad",
+      "ts": "2026-08-19T14:40:35+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1132000|fyr:2025",
+      "entity_name": "1132000 2025 세출(1049건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d00808c6044746179355599f4906f036",
+      "ts": "2026-08-19T14:16:57+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1132000|fyr:2026",
+      "entity_name": "1132000 2026 세출(970건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "28ab8a5def5d40e5b3473a0f17e6c378",
+      "ts": "2026-08-19T11:15:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1993575",
+      "entity_name": "서울특별시 서초구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1993575&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c6ec8e2ea3c64899bbfa238c5815da69",
+      "ts": "2026-08-19T11:15:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2070717",
+      "entity_name": "서울특별시 서초구 동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2070717&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d3e4ef09c59746649f7afdcfdea9ec27",
+      "ts": "2026-08-19T11:01:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1442127",
+      "entity_name": "서울특별시 서초구 출산·양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1442127&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b34276115a2e450fbbdb2a4de47d9f96",
+      "ts": "2026-08-19T11:01:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1399151",
+      "entity_name": "서울특별시 서초구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1399151&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d81a8f9f2ee744fa8a255d9e13fd27bd",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11650",
+      "entity_name": "서초구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

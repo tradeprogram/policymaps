@@ -1,0 +1,136 @@
+{
+  "sig_cd": "43720",
+  "region_id": "43720",
+  "name": "보은군",
+  "full_name": "충청북도 보은군",
+  "level": 2,
+  "status": "active",
+  "population": 31480,
+  "ordinance_kinds": {
+    "규칙": 78,
+    "조례": 486
+  },
+  "ordinance_total": 564,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 209
+    },
+    {
+      "code": "C02",
+      "count": 172
+    },
+    {
+      "code": "C03",
+      "count": 92
+    },
+    {
+      "code": "C11",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 68
+    },
+    {
+      "code": "C05",
+      "count": 64
+    },
+    {
+      "code": "C12",
+      "count": 58
+    },
+    {
+      "code": "C09",
+      "count": 52
+    },
+    {
+      "code": "C13",
+      "count": 50
+    },
+    {
+      "code": "C07",
+      "count": 47
+    },
+    {
+      "code": "C06",
+      "count": 46
+    },
+    {
+      "code": "C10",
+      "count": 33
+    }
+  ],
+  "budget": {
+    "lines": 3824,
+    "exe_amt": 1022629631502,
+    "budget_now": 1690344695798
+  },
+  "recent_changes": [
+    {
+      "change_id": "341b18969d024842b626d7e67596c4f4",
+      "ts": "2026-08-19T14:58:14+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4372000|fyr:2025",
+      "entity_name": "4372000 2025 세출(1937건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b0e35a84b2054951a88ea7a9c0d83ab8",
+      "ts": "2026-08-19T14:23:36+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4372000|fyr:2026",
+      "entity_name": "4372000 2026 세출(1887건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "edaa5a3a574c4abb8020a58063f5fee2",
+      "ts": "2026-08-19T11:14:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1960889",
+      "entity_name": "보은군 야생동물에 의한 인명 및 농작물 등에 관한 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1960889&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "32296e382608432785f922acd848177e",
+      "ts": "2026-08-19T11:14:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2082903",
+      "entity_name": "보은군 동물보호 및 복지 증진에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2082903&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fd1c60d12dd7408fa677c7a6f395cde9",
+      "ts": "2026-08-19T11:00:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2114083",
+      "entity_name": "보은군 임신ㆍ출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114083&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7675965eab3c42fc843a2313dfeced94",
+      "ts": "2026-08-19T11:00:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1059129",
+      "entity_name": "보은군 여성장애인 출산지원금 지급에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1059129&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3c730d0da04443b6b2a80ad57b990c45",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43720",
+      "entity_name": "보은군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

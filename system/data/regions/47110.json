@@ -1,0 +1,136 @@
+{
+  "sig_cd": "47110",
+  "region_id": "47110",
+  "name": "포항시",
+  "full_name": "경상북도 포항시",
+  "level": 2,
+  "status": "active",
+  "population": 487018,
+  "ordinance_kinds": {
+    "규칙": 116,
+    "조례": 606
+  },
+  "ordinance_total": 722,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 245
+    },
+    {
+      "code": "C02",
+      "count": 204
+    },
+    {
+      "code": "C11",
+      "count": 127
+    },
+    {
+      "code": "C03",
+      "count": 103
+    },
+    {
+      "code": "C09",
+      "count": 102
+    },
+    {
+      "code": "C08",
+      "count": 93
+    },
+    {
+      "code": "C07",
+      "count": 81
+    },
+    {
+      "code": "C13",
+      "count": 76
+    },
+    {
+      "code": "C05",
+      "count": 76
+    },
+    {
+      "code": "C06",
+      "count": 66
+    },
+    {
+      "code": "C12",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 48
+    }
+  ],
+  "budget": {
+    "lines": 7260,
+    "exe_amt": 4824781963629,
+    "budget_now": 6938029329127
+  },
+  "recent_changes": [
+    {
+      "change_id": "a7352f491fbd4dc6b26e66149f88ffba",
+      "ts": "2026-08-19T15:15:59+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4711000|fyr:2025",
+      "entity_name": "4711000 2025 세출(3704건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "beb72166c3094135a4103d4d962e6ba5",
+      "ts": "2026-08-19T14:32:15+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4711000|fyr:2026",
+      "entity_name": "4711000 2026 세출(3556건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9c259e0d51194c5dbaf4d6a692dc315c",
+      "ts": "2026-08-19T11:19:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1807757",
+      "entity_name": "포항시 야생동물에 의한 농작물 피해보상금 지급에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1807757&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bb7108b59fa24b38b81cd945c427e22d",
+      "ts": "2026-08-19T11:19:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1408833",
+      "entity_name": "포항시 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1408833&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "df24c8c457b34443b2b013389506686f",
+      "ts": "2026-08-19T11:10:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2146235",
+      "entity_name": "포항시 반려동물 테마공원 설치 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2146235&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c651c02d03d34fe598b1a0e8bbc6d23f",
+      "ts": "2026-08-19T10:56:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2125237",
+      "entity_name": "포항시 출산장려 등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125237&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "989e17c8db394f068d0ff11ea95a73b7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47110",
+      "entity_name": "포항시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,145 @@
+{
+  "sig_cd": "11260",
+  "region_id": "11260",
+  "name": "중랑구",
+  "full_name": "서울특별시 중랑구",
+  "level": 2,
+  "status": "active",
+  "population": 376282,
+  "ordinance_kinds": {
+    "규칙": 107,
+    "조례": 440
+  },
+  "ordinance_total": 547,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 225
+    },
+    {
+      "code": "C02",
+      "count": 136
+    },
+    {
+      "code": "C03",
+      "count": 105
+    },
+    {
+      "code": "C06",
+      "count": 82
+    },
+    {
+      "code": "C11",
+      "count": 73
+    },
+    {
+      "code": "C08",
+      "count": 66
+    },
+    {
+      "code": "C05",
+      "count": 61
+    },
+    {
+      "code": "C07",
+      "count": 60
+    },
+    {
+      "code": "C13",
+      "count": 53
+    },
+    {
+      "code": "C09",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 35
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 2270,
+    "exe_amt": 2056909999370,
+    "budget_now": 2873964698718
+  },
+  "recent_changes": [
+    {
+      "change_id": "bbee6cf1f109441bad0d05bd51905abd",
+      "ts": "2026-08-19T14:38:38+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1117000|fyr:2025",
+      "entity_name": "1117000 2025 세출(1168건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "7cb5ec82a5794d1fb06fe109400e492f",
+      "ts": "2026-08-19T14:16:45+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1117000|fyr:2026",
+      "entity_name": "1117000 2026 세출(1102건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "da59f13c9f8745af8ddb39667d20029e",
+      "ts": "2026-08-19T11:16:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2024675",
+      "entity_name": "서울특별시 중랑구 유해야생동물 먹이주기 금지구역 지정 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2024675&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "95ed94d4900343548f0a36be1a75311f",
+      "ts": "2026-08-19T11:16:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1860343",
+      "entity_name": "서울특별시 중랑구 야생동물에 의한 피해 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1860343&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "463b5c7b7e554ad096a2e118d85f1981",
+      "ts": "2026-08-19T11:08:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2084995",
+      "entity_name": "서울특별시 중랑구 취약계층 반려동물 진료비 지원 조례안",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2084995&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9e313997f00c4f56b37f2aa981e89498",
+      "ts": "2026-08-19T11:01:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2072687",
+      "entity_name": "서울특별시 중랑구 출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2072687&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fb5366fc67e44f8eac00c11faf8bb913",
+      "ts": "2026-08-19T11:01:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1860175",
+      "entity_name": "서울특별시 중랑구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1860175&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "764e7111ae544c86abbd35abbabb79cd",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11260",
+      "entity_name": "중랑구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

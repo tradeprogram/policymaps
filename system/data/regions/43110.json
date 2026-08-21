@@ -1,0 +1,172 @@
+{
+  "sig_cd": "43110",
+  "region_id": "43110",
+  "name": "청주시",
+  "full_name": "충청북도 청주시",
+  "level": 2,
+  "status": "active",
+  "population": 859869,
+  "ordinance_kinds": {
+    "규칙": 107,
+    "조례": 647
+  },
+  "ordinance_total": 754,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 259
+    },
+    {
+      "code": "C02",
+      "count": 221
+    },
+    {
+      "code": "C03",
+      "count": 123
+    },
+    {
+      "code": "C11",
+      "count": 104
+    },
+    {
+      "code": "C13",
+      "count": 95
+    },
+    {
+      "code": "C08",
+      "count": 89
+    },
+    {
+      "code": "C07",
+      "count": 87
+    },
+    {
+      "code": "C05",
+      "count": 80
+    },
+    {
+      "code": "C09",
+      "count": 77
+    },
+    {
+      "code": "C06",
+      "count": 76
+    },
+    {
+      "code": "C10",
+      "count": 50
+    },
+    {
+      "code": "C12",
+      "count": 47
+    }
+  ],
+  "budget": {
+    "lines": 8824,
+    "exe_amt": 6400924745828,
+    "budget_now": 9579797247045
+  },
+  "recent_changes": [
+    {
+      "change_id": "d312275458724dc4ae9c2f3afae99122",
+      "ts": "2026-08-19T14:58:12+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4314000|fyr:2025",
+      "entity_name": "4314000 2025 세출(4492건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "af85a6f3f72848708387261c521df8ef",
+      "ts": "2026-08-19T14:23:28+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4314000|fyr:2026",
+      "entity_name": "4314000 2026 세출(4332건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1acfa3f615dc40468e461e546cc21c65",
+      "ts": "2026-08-19T11:19:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2086755",
+      "entity_name": "청주시 야생동물에 의한 피해보상 및 피해예방시설 설치지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2086755&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "568c0b0989904405be30151bd7769dce",
+      "ts": "2026-08-19T11:11:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2030753",
+      "entity_name": "청주시 반려견 놀이터 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030753&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3b9ce7ffb2dc4f75a07492b9262227d6",
+      "ts": "2026-08-19T11:11:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1266306",
+      "entity_name": "청주시 반려동물보호센터 설치 및 운영 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1266306&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f66445b681ab40c18c9d213c264f2024",
+      "ts": "2026-08-19T11:10:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2030719",
+      "entity_name": "청주시 반려동물보호센터 설치 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030719&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "df643e2235bb4d53af4d0d85a9604233",
+      "ts": "2026-08-19T11:03:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2128487",
+      "entity_name": "청주시 저출산ㆍ고령사회 대응 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128487&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "465e36eceb97494f8465c94f920d6bd6",
+      "ts": "2026-08-19T11:03:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1913025",
+      "entity_name": "청주시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1913025&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6d493a57497143c587e8fc670e4bf2c2",
+      "ts": "2026-08-19T10:58:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1806645",
+      "entity_name": "청주시 출산장려 및 양육에 대한 지원 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1806645&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cdb95fbbaca446918ac874d216bc81dd",
+      "ts": "2026-08-19T10:58:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1762397",
+      "entity_name": "청주시 출산장려 및 양육에 대한 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762397&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d335163935844bedbc8f528c0b170c75",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43110",
+      "entity_name": "청주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

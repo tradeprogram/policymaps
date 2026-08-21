@@ -1,0 +1,127 @@
+{
+  "sig_cd": "44770",
+  "region_id": "44770",
+  "name": "서천군",
+  "full_name": "충청남도 서천군",
+  "level": 2,
+  "status": "active",
+  "population": 46635,
+  "ordinance_kinds": {
+    "규칙": 89,
+    "조례": 506
+  },
+  "ordinance_total": 595,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 222
+    },
+    {
+      "code": "C02",
+      "count": 164
+    },
+    {
+      "code": "C05",
+      "count": 86
+    },
+    {
+      "code": "C11",
+      "count": 84
+    },
+    {
+      "code": "C03",
+      "count": 84
+    },
+    {
+      "code": "C08",
+      "count": 74
+    },
+    {
+      "code": "C13",
+      "count": 64
+    },
+    {
+      "code": "C12",
+      "count": 57
+    },
+    {
+      "code": "C06",
+      "count": 57
+    },
+    {
+      "code": "C09",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 56
+    },
+    {
+      "code": "C10",
+      "count": 39
+    }
+  ],
+  "budget": {
+    "lines": 3508,
+    "exe_amt": 1217438033174,
+    "budget_now": 1888298177386
+  },
+  "recent_changes": [
+    {
+      "change_id": "ff0b456875c64a24810785ac4e60079c",
+      "ts": "2026-08-19T15:02:57+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4474000|fyr:2025",
+      "entity_name": "4474000 2025 세출(1776건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e3fb3a9b6f1d4c66a18562009aef370b",
+      "ts": "2026-08-19T14:26:01+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4474000|fyr:2026",
+      "entity_name": "4474000 2026 세출(1732건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "cec1b98c02494bfdbaa691bd5ba64be9",
+      "ts": "2026-08-19T11:16:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2148185",
+      "entity_name": "서천군 야생동물에 의한 피해예방 및 보상 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2148185&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6045ec7164104da7a44b47412a12419c",
+      "ts": "2026-08-19T11:08:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1936947",
+      "entity_name": "서천군 반려동물 및 유실ㆍ유기동물 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1936947&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1ba8954a50774d63b3c0cbe7c3877b75",
+      "ts": "2026-08-19T11:01:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1926447",
+      "entity_name": "서천군 인구정책에 관한 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1926447&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f595640ea40845dab988e36eabe6a5a2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44770",
+      "entity_name": "서천군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

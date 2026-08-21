@@ -1,0 +1,39 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "as_of_date": "2026-08-21",
+  "backend": "networkx",
+  "node_counts": {
+    "Region": 27,
+    "Ordinance": 302,
+    "LegalInstrument": 80,
+    "Bill": 40,
+    "Legislator": 30,
+    "Party": 5,
+    "Category": 16,
+    "BudgetLine": 0
+  },
+  "edge_counts": {
+    "HAS_ORDINANCE": 302,
+    "DELEGATED_FROM/SUBORDINATE_TO": 249,
+    "CITES(+relations)": 153,
+    "ADJACENT_TO": 60,
+    "SUCCEEDED_BY": 1,
+    "CONTAINS": 20,
+    "SIMILAR_TO": 136,
+    "IN_CATEGORY": 367,
+    "FUNDED_BY": 0,
+    "PROPOSED_BY": 72,
+    "VOTED": 110,
+    "MEMBER_OF": 30,
+    "ENACTS": 0
+  },
+  "skipped_edges": {
+    "DELEGATED_FROM": 0,
+    "CITES": 0,
+    "FUNDED_BY": 0
+  },
+  "total_nodes": 500,
+  "total_edges": 1500
+}

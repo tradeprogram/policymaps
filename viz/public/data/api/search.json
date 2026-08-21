@@ -1,0 +1,448 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "data": {
+    "query": "청년 월세 지원",
+    "k": 10,
+    "scope": "all",
+    "hops": 1,
+    "count": 10,
+    "results": [
+      {
+        "doc_key": "ordin:2697975#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:2697975",
+        "parent_name": "부산광역시 영도구 청년 월세 지원에 관한 조례",
+        "article_no": "제1조",
+        "article_title": "위원회 구성",
+        "region_id": "26200",
+        "org_name": "부산광역시 영도구",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2697975&type=HTML&mobileYn=",
+        "content_hash": "sha256:ac0f5faca1c4af0450bd685aee5ec7f6ed6aef1ee8bf6bcb3e610d7eb102e414",
+        "doc_len": 1104,
+        "bm25_score": 17.170511,
+        "bm25_rank": 1,
+        "dense_score": 0.837902,
+        "dense_rank": 6,
+        "score": 0.01639344,
+        "method": "hybrid-rrf",
+        "text": "제제1조(위원회 구성) 이 조례는 청년 월세 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:2697975#a1",
+            "article_no": "제1조",
+            "article_title": "위원회 구성",
+            "score": 0.01639344
+          }
+        ],
+        "rank": 1,
+        "article_hits": 1,
+        "node_type": "ordinance",
+        "id": "ordin:2697975",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "doc_key": "ordin:2354199#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:2354199",
+        "parent_name": "부산광역시 동구 청년 월세 지원에 관한 규칙",
+        "article_no": "제1조",
+        "article_title": "적용범위",
+        "region_id": "26170",
+        "org_name": "부산광역시 동구",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2354199&type=HTML&mobileYn=",
+        "content_hash": "sha256:712fb9d1bbab6481ce05a69b317b1832e23abf7a2d563d3ecb583010dfeac16e",
+        "doc_len": 469,
+        "bm25_score": 7.718628,
+        "bm25_rank": 2,
+        "dense_score": 0.612255,
+        "dense_rank": 20,
+        "score": 0.01612903,
+        "method": "hybrid-rrf",
+        "text": "제제1조(적용범위) 이 조례는 청년 월세 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:2354199#a1",
+            "article_no": "제1조",
+            "article_title": "적용범위",
+            "score": 0.01612903
+          },
+          {
+            "doc_key": "ordin:2354199#a2",
+            "article_no": "제2조",
+            "article_title": "지원대상",
+            "score": 0.01419355
+          },
+          {
+            "doc_key": "ordin:2354199#a3",
+            "article_no": "제3조",
+            "article_title": "지원대상",
+            "score": 0.01225806
+          }
+        ],
+        "rank": 2,
+        "article_hits": 3,
+        "node_type": "ordinance",
+        "id": "ordin:2354199",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "doc_key": "ordin:3999538#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:3999538",
+        "parent_name": "경기도 성남시 청년 월세 지원에 관한 조례",
+        "article_no": "제1조",
+        "article_title": "지원대상",
+        "region_id": "41130",
+        "org_name": "경기도 성남시",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3999538&type=HTML&mobileYn=",
+        "content_hash": "sha256:611e1311b97cede4f4c7158da263ca55dd9499d3a052ed1d8c2dac65970f2f12",
+        "doc_len": 236,
+        "bm25_score": 7.78099,
+        "bm25_rank": 3,
+        "dense_score": 0.533271,
+        "dense_rank": 28,
+        "score": 0.01587302,
+        "method": "hybrid-rrf",
+        "text": "제제1조(지원대상) 이 조례는 청년 월세 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:3999538#a1",
+            "article_no": "제1조",
+            "article_title": "지원대상",
+            "score": 0.01587302
+          },
+          {
+            "doc_key": "ordin:3999538#a2",
+            "article_no": "제2조",
+            "article_title": "목적",
+            "score": 0.01396825
+          },
+          {
+            "doc_key": "ordin:3999538#a3",
+            "article_no": "제3조",
+            "article_title": "정의",
+            "score": 0.01206349
+          }
+        ],
+        "rank": 3,
+        "article_hits": 3,
+        "node_type": "ordinance",
+        "id": "ordin:3999538",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "doc_key": "ordin:2021859#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:2021859",
+        "parent_name": "경기도 수원시 대중교통 활성화 지원에 관한 조례",
+        "article_no": "제1조",
+        "article_title": "목적",
+        "region_id": "41110",
+        "org_name": "경기도 수원시",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2021859&type=HTML&mobileYn=",
+        "content_hash": "sha256:734e35d35a7a5b4eed66d5e6703753f7adb772b4c06787718b14800dd3dd3d71",
+        "doc_len": 307,
+        "bm25_score": 4.898667,
+        "bm25_rank": 4,
+        "dense_score": 0.595906,
+        "dense_rank": 10,
+        "score": 0.015625,
+        "method": "hybrid-rrf",
+        "text": "제제1조(목적) 이 조례는 대중교통 활성화 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:2021859#a1",
+            "article_no": "제1조",
+            "article_title": "목적",
+            "score": 0.015625
+          }
+        ],
+        "rank": 4,
+        "article_hits": 1,
+        "node_type": "ordinance",
+        "id": "ordin:2021859",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "doc_key": "ordin:2102246#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:2102246",
+        "parent_name": "경기도 노인 일자리 창출 지원에 관한 규칙",
+        "article_no": "제1조",
+        "article_title": "적용범위",
+        "region_id": "41",
+        "org_name": "경기도",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2102246&type=HTML&mobileYn=",
+        "content_hash": "sha256:11547cb284af3adaee2365a8d8e5884236a3fb9abf24de4c6238345717588497",
+        "doc_len": 1393,
+        "bm25_score": 4.416502,
+        "bm25_rank": 5,
+        "dense_score": 0.505506,
+        "dense_rank": 20,
+        "score": 0.01538462,
+        "method": "hybrid-rrf",
+        "text": "제제1조(적용범위) 이 조례는 노인 일자리 창출 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:2102246#a1",
+            "article_no": "제1조",
+            "article_title": "적용범위",
+            "score": 0.01538462
+          },
+          {
+            "doc_key": "ordin:2102246#a2",
+            "article_no": "제2조",
+            "article_title": "목적",
+            "score": 0.01353846
+          },
+          {
+            "doc_key": "ordin:2102246#a3",
+            "article_no": "제3조",
+            "article_title": "정의",
+            "score": 0.01169231
+          }
+        ],
+        "rank": 5,
+        "article_hits": 3,
+        "node_type": "ordinance",
+        "id": "ordin:2102246",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "doc_key": "ordin:2554254#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:2554254",
+        "parent_name": "경상북도 포항시 장애인 자립생활 지원에 관한 조례",
+        "article_no": "제1조",
+        "article_title": "위원회 구성",
+        "region_id": "47110",
+        "org_name": "경상북도 포항시",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2554254&type=HTML&mobileYn=",
+        "content_hash": "sha256:90da235a81cb652a82fa992374263aa0e77a69735a64cde46c5329728efd64fe",
+        "doc_len": 286,
+        "bm25_score": 8.016032,
+        "bm25_rank": 6,
+        "dense_score": 0.81324,
+        "dense_rank": 25,
+        "score": 0.01515152,
+        "method": "hybrid-rrf",
+        "text": "제제1조(위원회 구성) 이 조례는 장애인 자립생활 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:2554254#a1",
+            "article_no": "제1조",
+            "article_title": "위원회 구성",
+            "score": 0.01515152
+          },
+          {
+            "doc_key": "ordin:2554254#a2",
+            "article_no": "제2조",
+            "article_title": "목적",
+            "score": 0.01333333
+          }
+        ],
+        "rank": 6,
+        "article_hits": 2,
+        "node_type": "ordinance",
+        "id": "ordin:2554254",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "doc_key": "ordin:3029314#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:3029314",
+        "parent_name": "경상북도 경주시 장애인 자립생활 지원에 관한 규칙",
+        "article_no": "제1조",
+        "article_title": "지원내용",
+        "region_id": "47130",
+        "org_name": "경상북도 경주시",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3029314&type=HTML&mobileYn=",
+        "content_hash": "sha256:3101643c1f73d10fee0019991e2923ac9db53684de7da222681e36fc79179657",
+        "doc_len": 1120,
+        "bm25_score": 7.578969,
+        "bm25_rank": 7,
+        "dense_score": 0.323729,
+        "dense_rank": 18,
+        "score": 0.01492537,
+        "method": "hybrid-rrf",
+        "text": "제제1조(지원내용) 이 조례는 장애인 자립생활 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:3029314#a1",
+            "article_no": "제1조",
+            "article_title": "지원내용",
+            "score": 0.01492537
+          },
+          {
+            "doc_key": "ordin:3029314#a2",
+            "article_no": "제2조",
+            "article_title": "위원회 구성",
+            "score": 0.01313433
+          }
+        ],
+        "rank": 7,
+        "article_hits": 2,
+        "node_type": "ordinance",
+        "id": "ordin:3029314",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "doc_key": "ordin:4038448#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:4038448",
+        "parent_name": "부산광역시 서구 사회적경제 육성 지원에 관한 조례",
+        "article_no": "제1조",
+        "article_title": "위원회 구성",
+        "region_id": "26140",
+        "org_name": "부산광역시 서구",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=4038448&type=HTML&mobileYn=",
+        "content_hash": "sha256:e3bc486fa5b6e5a15746af5a0b59a29e89b32a10935492590fa5fcd6460ca80b",
+        "doc_len": 485,
+        "bm25_score": 5.918464,
+        "bm25_rank": 8,
+        "dense_score": 0.538539,
+        "dense_rank": 12,
+        "score": 0.01470588,
+        "method": "hybrid-rrf",
+        "text": "제제1조(위원회 구성) 이 조례는 사회적경제 육성 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:4038448#a1",
+            "article_no": "제1조",
+            "article_title": "위원회 구성",
+            "score": 0.01470588
+          },
+          {
+            "doc_key": "ordin:4038448#a2",
+            "article_no": "제2조",
+            "article_title": "목적",
+            "score": 0.01294118
+          }
+        ],
+        "rank": 8,
+        "article_hits": 2,
+        "node_type": "ordinance",
+        "id": "ordin:4038448",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "doc_key": "ordin:2242118#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:2242118",
+        "parent_name": "부산광역시 중구 저소득주민 생활안정 지원에 관한 조례",
+        "article_no": "제1조",
+        "article_title": "적용범위",
+        "region_id": "26110",
+        "org_name": "부산광역시 중구",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2242118&type=HTML&mobileYn=",
+        "content_hash": "sha256:da0d811db4410858c35ad1a947f19c2a2ffea52aa06be16422fff46f82163b16",
+        "doc_len": 374,
+        "bm25_score": 7.44802,
+        "bm25_rank": 9,
+        "dense_score": 0.430513,
+        "dense_rank": 23,
+        "score": 0.01449275,
+        "method": "hybrid-rrf",
+        "text": "제제1조(적용범위) 이 조례는 저소득주민 생활안정 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:2242118#a1",
+            "article_no": "제1조",
+            "article_title": "적용범위",
+            "score": 0.01449275
+          },
+          {
+            "doc_key": "ordin:2242118#a2",
+            "article_no": "제2조",
+            "article_title": "지원내용",
+            "score": 0.01275362
+          }
+        ],
+        "rank": 9,
+        "article_hits": 2,
+        "node_type": "ordinance",
+        "id": "ordin:2242118",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      },
+      {
+        "doc_key": "ordin:2279783#a1",
+        "doc_kind": "ordinance_article",
+        "parent_id": "ordin:2279783",
+        "parent_name": "서울특별시 농업인 경영안정 지원에 관한 조례",
+        "article_no": "제1조",
+        "article_title": "지원대상",
+        "region_id": "11",
+        "org_name": "서울특별시",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2279783&type=HTML&mobileYn=",
+        "content_hash": "sha256:f424bd18ebe40b1306f26f457cf46a99902c5408ceabebcdeef6303afb2d08e8",
+        "doc_len": 1398,
+        "bm25_score": 4.107448,
+        "bm25_rank": 10,
+        "dense_score": 0.393017,
+        "dense_rank": 21,
+        "score": 0.01428571,
+        "method": "hybrid-rrf",
+        "text": "제제1조(지원대상) 이 조례는 농업인 경영안정 지원에 필요한 사항을 규정함을 목적으로 한다. [가상 본문 — 실제 조문이 아님]",
+        "matched_articles": [
+          {
+            "doc_key": "ordin:2279783#a1",
+            "article_no": "제1조",
+            "article_title": "지원대상",
+            "score": 0.01428571
+          },
+          {
+            "doc_key": "ordin:2279783#a2",
+            "article_no": "제2조",
+            "article_title": "위원회 구성",
+            "score": 0.01257143
+          },
+          {
+            "doc_key": "ordin:2279783#a3",
+            "article_no": "제3조",
+            "article_title": "지원내용",
+            "score": 0.01085714
+          }
+        ],
+        "rank": 10,
+        "article_hits": 3,
+        "node_type": "ordinance",
+        "id": "ordin:2279783",
+        "verification_status": "source-linked",
+        "status": "active",
+        "verified": true
+      }
+    ],
+    "verification_summary": {
+      "by_status": {
+        "source-linked": 10
+      },
+      "verified": 10,
+      "unverified": 0
+    },
+    "_engine": "rag.hybrid_graph_search(BM25+dense+graph)"
+  },
+  "as_of_date": "2026-08-21",
+  "stale": false,
+  "execution_allowed": false,
+  "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오."
+}

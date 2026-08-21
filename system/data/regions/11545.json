@@ -1,0 +1,163 @@
+{
+  "sig_cd": "11545",
+  "region_id": "11545",
+  "name": "금천구",
+  "full_name": "서울특별시 금천구",
+  "level": 2,
+  "status": "active",
+  "population": 222421,
+  "ordinance_kinds": {
+    "규칙": 97,
+    "조례": 538
+  },
+  "ordinance_total": 635,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 221
+    },
+    {
+      "code": "C02",
+      "count": 169
+    },
+    {
+      "code": "C03",
+      "count": 127
+    },
+    {
+      "code": "C06",
+      "count": 100
+    },
+    {
+      "code": "C05",
+      "count": 88
+    },
+    {
+      "code": "C11",
+      "count": 85
+    },
+    {
+      "code": "C08",
+      "count": 84
+    },
+    {
+      "code": "C07",
+      "count": 69
+    },
+    {
+      "code": "C13",
+      "count": 63
+    },
+    {
+      "code": "C09",
+      "count": 56
+    },
+    {
+      "code": "C10",
+      "count": 45
+    },
+    {
+      "code": "C04",
+      "count": 20
+    }
+  ],
+  "budget": {
+    "lines": 2033,
+    "exe_amt": 1380544541400,
+    "budget_now": 1843154801320
+  },
+  "recent_changes": [
+    {
+      "change_id": "07f9f8fe873642539b8d4087f6f83896",
+      "ts": "2026-08-19T14:40:11+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1128000|fyr:2025",
+      "entity_name": "1128000 2025 세출(1086건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "3f284f04f7d94ac889fece2f74ff3a7c",
+      "ts": "2026-08-19T14:16:53+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1128000|fyr:2026",
+      "entity_name": "1128000 2026 세출(947건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e38bab949b12407ba18ddc39defb06bb",
+      "ts": "2026-08-19T11:15:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2018095",
+      "entity_name": "서울특별시 금천구 유해야생동물 피해예방 및 관리 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018095&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e8fe4d9d62f847f9bd516223b99aa495",
+      "ts": "2026-08-19T11:15:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2101453",
+      "entity_name": "서울특별시 금천구 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2101453&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9316e7c8509e407fb51c01a54bf243dd",
+      "ts": "2026-08-19T11:08:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1910977",
+      "entity_name": "서울특별시 금천구 반려동물 진료비 부담 완화 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910977&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3f99238bec714c59ab8c6a908b0ff5dc",
+      "ts": "2026-08-19T11:04:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1412249",
+      "entity_name": "서울특별시 금천구 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1412249&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4c36d07d930241a59a6879b2f3317f42",
+      "ts": "2026-08-19T11:01:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2018091",
+      "entity_name": "서울특별시 금천구 출생 및 양육지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018091&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a078daab462147bca0f659cd15ec29f3",
+      "ts": "2026-08-19T11:01:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1790233",
+      "entity_name": "서울특별시 금천구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1790233&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "75bbb45fad014150aa29f27c96952f9d",
+      "ts": "2026-08-19T11:01:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2075939",
+      "entity_name": "서울특별시 금천구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2075939&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c4854dd0c7374cbd9921f1130f264768",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11545",
+      "entity_name": "금천구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

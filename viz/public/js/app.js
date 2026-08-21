@@ -1,0 +1,93 @@
+// 앱 셸 — 네비게이션, 배너, 라우팅
+import { el, qs } from "./util.js";
+import { BASE, state, loadManifest } from "./api.js";
+import { DATA_BASE, DATA_SOURCES } from "./config.js";
+import { mockBanner, staleBanner, errorPanel, loading } from "./components.js";
+import { route, setNotFound, setOnNavigate, start, go } from "./router.js";
+
+import * as dashboard from "./views/dashboard.js";
+import * as mapView from "./views/map.js";
+import * as region from "./views/region.js";
+import * as gap from "./views/gap.js";
+import * as graph from "./views/graph.js";
+import * as diffusion from "./views/diffusion.js";
+import * as effectiveness from "./views/effectiveness.js";
+import * as votes from "./views/votes.js";
+import * as search from "./views/search.js";
+
+const NAV = [
+  ["/dashboard", "대시보드", dashboard],
+  ["/map", "지도", mapView],
+  ["/region/:sig", "지역 상세", region],
+  ["/gap", "유사·격차분석", gap],
+  ["/graph", "법령 위계", graph],
+  ["/diffusion", "정책 확산", diffusion],
+  ["/effectiveness", "조례 실효성", effectiveness],
+  ["/votes", "국회 표결", votes],
+  ["/search", "검색", search],
+];
+
+const DEFAULT_REGION = "11110";
+
+async function boot() {
+  const app = qs("#app");
+  const nav = qs("#nav");
+  const banners = qs("#banners");
+  const srcInfo = qs("#src-info");
+
+  // 데이터 소스 표기
+  const srcName = Object.entries(DATA_SOURCES).find(([, v]) => v === BASE)?.[0];
+  srcInfo.textContent = `데이터 소스: ${BASE}${srcName ? ` (${srcName})` : ""}`;
+
+  try {
+    await loadManifest();
+  } catch (e) {
+    app.innerHTML = "";
+    app.appendChild(errorPanel(e,
+      `manifest.json 을 ${BASE} 에서 읽지 못했습니다. `
+      + "① HTTP 서버로 열었는지(file:// 는 fetch 차단) ② js/config.js 의 DATA_BASE 가 맞는지 확인하세요."));
+    return;
+  }
+
+  for (const b of [mockBanner(), staleBanner()]) if (b) banners.appendChild(b);
+
+  // 네비게이션
+  for (const [path, label] of NAV) {
+    const href = "#" + (path === "/region/:sig" ? `/region/${DEFAULT_REGION}` : path);
+    nav.appendChild(el("a", { href, class: "nav-item", "data-pattern": path, text: label }));
+  }
+
+  for (const [path, label, mod] of NAV) {
+    route(path, async (params, query) => {
+      // 컨테이너에 직접 그린다. Leaflet 등은 DOM 에 붙은 상태여야 크기 계산이 된다.
+      const container = qs("#app");
+      container.innerHTML = "";
+      try {
+        await mod.render(container, params, query);
+      } catch (e) {
+        container.innerHTML = "";
+        container.appendChild(errorPanel(e, `${label} 화면 렌더 중 오류`));
+        console.error(e);
+      }
+      window.scrollTo(0, 0);
+    });
+  }
+
+  setNotFound((p) => {
+    qs("#app").innerHTML = "";
+    qs("#app").appendChild(el("div", { class: "panel" },
+      el("h2", { text: "없는 경로" }),
+      el("p", { text: p }),
+      el("button", { class: "btn", text: "대시보드로", onclick: () => go("/dashboard") })));
+  });
+
+  setOnNavigate((pattern) => {
+    for (const a of nav.querySelectorAll(".nav-item")) {
+      a.classList.toggle("active", a.dataset.pattern === pattern);
+    }
+  });
+
+  start();
+}
+
+boot();

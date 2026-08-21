@@ -1,0 +1,136 @@
+{
+  "sig_cd": "41830",
+  "region_id": "41830",
+  "name": "양평군",
+  "full_name": "경기도 양평군",
+  "level": 2,
+  "status": "active",
+  "population": 126995,
+  "ordinance_kinds": {
+    "규칙": 102,
+    "조례": 482
+  },
+  "ordinance_total": 584,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 199
+    },
+    {
+      "code": "C02",
+      "count": 162
+    },
+    {
+      "code": "C11",
+      "count": 87
+    },
+    {
+      "code": "C03",
+      "count": 82
+    },
+    {
+      "code": "C07",
+      "count": 70
+    },
+    {
+      "code": "C08",
+      "count": 69
+    },
+    {
+      "code": "C13",
+      "count": 65
+    },
+    {
+      "code": "C09",
+      "count": 65
+    },
+    {
+      "code": "C06",
+      "count": 60
+    },
+    {
+      "code": "C05",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 3862,
+    "exe_amt": 1552125973253,
+    "budget_now": 2100419846796
+  },
+  "recent_changes": [
+    {
+      "change_id": "b50f1e220f164685ad5e6cb204239f89",
+      "ts": "2026-08-19T14:54:01+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4178000|fyr:2025",
+      "entity_name": "4178000 2025 세출(1985건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "074847878dc04e9782867127cab78d73",
+      "ts": "2026-08-19T14:20:58+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4178000|fyr:2026",
+      "entity_name": "4178000 2026 세출(1877건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "cd5923862d4f4bd29a5ad8fb1d1b558d",
+      "ts": "2026-08-19T11:16:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2102527",
+      "entity_name": "양평군 야생동물로 인한 피해 예방 및 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2102527&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f1780f2fe46b4099b0fa8edafa8f3d6b",
+      "ts": "2026-08-19T11:16:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2114105",
+      "entity_name": "양평군 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114105&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bbb8ae9f07e3473d86ddf1ccf7148f27",
+      "ts": "2026-08-19T10:56:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:761973",
+      "entity_name": "양평군 출산장려금 지원 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=761973&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "61070913e19945a1901b8c91299f10a4",
+      "ts": "2026-08-19T10:55:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1791421",
+      "entity_name": "양평군 출산장려금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1791421&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "53158a3b83c642629f3b7c0338cac095",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41830",
+      "entity_name": "양평군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

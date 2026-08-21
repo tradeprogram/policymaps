@@ -1,0 +1,136 @@
+{
+  "sig_cd": "50000",
+  "region_id": "50",
+  "name": "제주특별자치도",
+  "full_name": "제주특별자치도",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 175,
+    "조례": 1197
+  },
+  "ordinance_total": 1372,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 1292
+    },
+    {
+      "code": "C02",
+      "count": 213
+    },
+    {
+      "code": "C11",
+      "count": 199
+    },
+    {
+      "code": "C03",
+      "count": 180
+    },
+    {
+      "code": "C13",
+      "count": 151
+    },
+    {
+      "code": "C09",
+      "count": 145
+    },
+    {
+      "code": "C05",
+      "count": 120
+    },
+    {
+      "code": "C08",
+      "count": 119
+    },
+    {
+      "code": "C12",
+      "count": 109
+    },
+    {
+      "code": "C07",
+      "count": 100
+    },
+    {
+      "code": "C06",
+      "count": 96
+    },
+    {
+      "code": "C10",
+      "count": 72
+    }
+  ],
+  "budget": {
+    "lines": 11333,
+    "exe_amt": 12956130145584,
+    "budget_now": 18225913124059
+  },
+  "recent_changes": [
+    {
+      "change_id": "0fd379e00a84479185ef892152918983",
+      "ts": "2026-08-19T11:18:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1775565",
+      "entity_name": "제주특별자치도 야생동물에 의한 피해 보상 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1775565&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b224af07260248afabb6070d30a14f7a",
+      "ts": "2026-08-19T11:18:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2104879",
+      "entity_name": "제주특별자치도 동물 보호 및 관리 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2104879&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "51127eaf478446b5a6438255675acd88",
+      "ts": "2026-08-19T11:18:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2104877",
+      "entity_name": "제주특별자치도 공설동물장묘시설 관리 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2104877&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "321b564e65ca47cc95d3fa3afbc27772",
+      "ts": "2026-08-19T11:03:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2057039",
+      "entity_name": "제주특별자치도 저출산·고령사회 대응과 지속가능발전을 위한 정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2057039&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "27da14e705ef439b89683cec9dae9095",
+      "ts": "2026-08-19T11:03:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1518751",
+      "entity_name": "제주특별자치도 장애인가정 임신·출산·양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1518751&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "070ff1fcc617457a98278c2118928c17",
+      "ts": "2026-08-19T10:58:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2058673",
+      "entity_name": "제주특별자치도 출산영향평가 및 출산장려지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058673&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4fe4695605dd48058617bda3171701ea",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "50",
+      "entity_name": "제주특별자치도",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

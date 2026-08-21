@@ -1,0 +1,118 @@
+{
+  "sig_cd": "47290",
+  "region_id": "47290",
+  "name": "경산시",
+  "full_name": "경상북도 경산시",
+  "level": 2,
+  "status": "active",
+  "population": 263171,
+  "ordinance_kinds": {
+    "규칙": 114,
+    "조례": 428
+  },
+  "ordinance_total": 542,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 210
+    },
+    {
+      "code": "C02",
+      "count": 164
+    },
+    {
+      "code": "C11",
+      "count": 78
+    },
+    {
+      "code": "C03",
+      "count": 78
+    },
+    {
+      "code": "C09",
+      "count": 64
+    },
+    {
+      "code": "C13",
+      "count": 56
+    },
+    {
+      "code": "C05",
+      "count": 53
+    },
+    {
+      "code": "C08",
+      "count": 51
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C06",
+      "count": 51
+    },
+    {
+      "code": "C12",
+      "count": 41
+    },
+    {
+      "code": "C10",
+      "count": 37
+    }
+  ],
+  "budget": {
+    "lines": 3617,
+    "exe_amt": 2372324329243,
+    "budget_now": 3380345088655
+  },
+  "recent_changes": [
+    {
+      "change_id": "bf52ecee0c7f4d1c84f4d1355d530fe2",
+      "ts": "2026-08-19T15:18:19+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4720000|fyr:2025",
+      "entity_name": "4720000 2025 세출(1810건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "32f56517c6a94ab48ae587bb0eb88810",
+      "ts": "2026-08-19T14:33:22+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4720000|fyr:2026",
+      "entity_name": "4720000 2026 세출(1807건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "bacbb2d5a9ba446c8d76802a102e6dc9",
+      "ts": "2026-08-19T11:12:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1303873",
+      "entity_name": "경산시 야생동물로 인한 농작물등 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1303873&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9251672f3dea453992f4b7aee8cbc852",
+      "ts": "2026-08-19T10:53:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2146281",
+      "entity_name": "경산시 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2146281&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d2996db53ccd494da042c6b730fc48c7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47290",
+      "entity_name": "경산시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

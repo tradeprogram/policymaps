@@ -1,0 +1,185 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "as_of_date": "2026-08-21",
+  "stale": false,
+  "count": 25,
+  "items": [
+    {
+      "sig_cd": "11000",
+      "name": "서울특별시",
+      "level": 1,
+      "ordinance_total": 1363,
+      "file": "regions/11000.json"
+    },
+    {
+      "sig_cd": "11110",
+      "name": "종로구",
+      "level": 2,
+      "ordinance_total": 514,
+      "file": "regions/11110.json"
+    },
+    {
+      "sig_cd": "11140",
+      "name": "중구",
+      "level": 2,
+      "ordinance_total": 670,
+      "file": "regions/11140.json"
+    },
+    {
+      "sig_cd": "11170",
+      "name": "용산구",
+      "level": 2,
+      "ordinance_total": 586,
+      "file": "regions/11170.json"
+    },
+    {
+      "sig_cd": "11200",
+      "name": "성동구",
+      "level": 2,
+      "ordinance_total": 494,
+      "file": "regions/11200.json"
+    },
+    {
+      "sig_cd": "11215",
+      "name": "광진구",
+      "level": 2,
+      "ordinance_total": 554,
+      "file": "regions/11215.json"
+    },
+    {
+      "sig_cd": "11230",
+      "name": "동대문구",
+      "level": 2,
+      "ordinance_total": 526,
+      "file": "regions/11230.json"
+    },
+    {
+      "sig_cd": "26000",
+      "name": "부산광역시",
+      "level": 1,
+      "ordinance_total": 1084,
+      "file": "regions/26000.json"
+    },
+    {
+      "sig_cd": "26110",
+      "name": "중구",
+      "level": 2,
+      "ordinance_total": 816,
+      "file": "regions/26110.json"
+    },
+    {
+      "sig_cd": "26140",
+      "name": "서구",
+      "level": 2,
+      "ordinance_total": 719,
+      "file": "regions/26140.json"
+    },
+    {
+      "sig_cd": "26170",
+      "name": "동구",
+      "level": 2,
+      "ordinance_total": 798,
+      "file": "regions/26170.json"
+    },
+    {
+      "sig_cd": "26200",
+      "name": "영도구",
+      "level": 2,
+      "ordinance_total": 562,
+      "file": "regions/26200.json"
+    },
+    {
+      "sig_cd": "41000",
+      "name": "경기도",
+      "level": 1,
+      "ordinance_total": 1110,
+      "file": "regions/41000.json"
+    },
+    {
+      "sig_cd": "41110",
+      "name": "수원시",
+      "level": 2,
+      "ordinance_total": 722,
+      "file": "regions/41110.json"
+    },
+    {
+      "sig_cd": "41130",
+      "name": "성남시",
+      "level": 2,
+      "ordinance_total": 543,
+      "file": "regions/41130.json"
+    },
+    {
+      "sig_cd": "41150",
+      "name": "의정부시",
+      "level": 2,
+      "ordinance_total": 719,
+      "file": "regions/41150.json"
+    },
+    {
+      "sig_cd": "41170",
+      "name": "안양시",
+      "level": 2,
+      "ordinance_total": 680,
+      "file": "regions/41170.json"
+    },
+    {
+      "sig_cd": "41190",
+      "name": "부천시",
+      "level": 2,
+      "ordinance_total": 579,
+      "file": "regions/41190.json"
+    },
+    {
+      "sig_cd": "47000",
+      "name": "경상북도",
+      "level": 1,
+      "ordinance_total": 1149,
+      "file": "regions/47000.json"
+    },
+    {
+      "sig_cd": "47110",
+      "name": "포항시",
+      "level": 2,
+      "ordinance_total": 702,
+      "file": "regions/47110.json"
+    },
+    {
+      "sig_cd": "47130",
+      "name": "경주시",
+      "level": 2,
+      "ordinance_total": 425,
+      "file": "regions/47130.json"
+    },
+    {
+      "sig_cd": "47170",
+      "name": "안동시",
+      "level": 2,
+      "ordinance_total": 505,
+      "file": "regions/47170.json"
+    },
+    {
+      "sig_cd": "48000",
+      "name": "경상남도",
+      "level": 1,
+      "ordinance_total": 924,
+      "file": "regions/48000.json"
+    },
+    {
+      "sig_cd": "48120",
+      "name": "창원시",
+      "level": 2,
+      "ordinance_total": 678,
+      "file": "regions/48120.json"
+    },
+    {
+      "sig_cd": "48170",
+      "name": "진주시",
+      "level": 2,
+      "ordinance_total": 623,
+      "file": "regions/48170.json"
+    }
+  ]
+}

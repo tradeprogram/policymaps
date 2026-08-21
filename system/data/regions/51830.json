@@ -1,0 +1,127 @@
+{
+  "sig_cd": "51830",
+  "region_id": "51830",
+  "name": "양양군",
+  "full_name": "강원특별자치도 양양군",
+  "level": 2,
+  "status": "active",
+  "population": 27310,
+  "ordinance_kinds": {
+    "규칙": 110,
+    "조례": 476
+  },
+  "ordinance_total": 586,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 222
+    },
+    {
+      "code": "C02",
+      "count": 171
+    },
+    {
+      "code": "C03",
+      "count": 87
+    },
+    {
+      "code": "C11",
+      "count": 80
+    },
+    {
+      "code": "C08",
+      "count": 70
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 57
+    },
+    {
+      "code": "C09",
+      "count": 54
+    },
+    {
+      "code": "C05",
+      "count": 53
+    },
+    {
+      "code": "C07",
+      "count": 52
+    },
+    {
+      "code": "C10",
+      "count": 45
+    }
+  ],
+  "budget": {
+    "lines": 3128,
+    "exe_amt": 675426398146,
+    "budget_now": 1141788571090
+  },
+  "recent_changes": [
+    {
+      "change_id": "862ea624e01d4b0fb75f658f5ba9e79d",
+      "ts": "2026-08-19T14:57:20+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4281000|fyr:2025",
+      "entity_name": "4281000 2025 세출(1567건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f3631b70856348ac8d991bf8869077d8",
+      "ts": "2026-08-19T14:22:56+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4281000|fyr:2026",
+      "entity_name": "4281000 2026 세출(1561건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "95ba8ff707714059841b5b345ff0739d",
+      "ts": "2026-08-19T11:16:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2029445",
+      "entity_name": "양양군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2029445&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d00c71b23cf2474586205f71f3652dc9",
+      "ts": "2026-08-19T11:08:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1839983",
+      "entity_name": "양양군 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1839983&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a6f9356d17dd448e85c13d4f4eb941d3",
+      "ts": "2026-08-19T10:55:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1532159",
+      "entity_name": "양양군 출산장려금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1532159&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8c0faa3325004d398c1ffa1806cd333d",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51830",
+      "entity_name": "양양군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,26 @@
+{
+  "_note": "합성 픽스처(실데이터 아님) — VWORLD/STANREGIN 키 없이 geo.py 를 오프라인 실행/테스트하기 위한 최소 표본. StanReginCd getStanReginCdList JSON envelope 구조를 모사한다.",
+  "StanReginCd": [
+    {
+      "head": [
+        { "totalCount": 11 },
+        { "RESULT": { "resultCode": "INFO-00", "resultMsg": "NORMAL SERVICE." } }
+      ]
+    },
+    {
+      "row": [
+        { "region_cd": "1100000000", "sido_cd": "11", "sgg_cd": "000", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "서울특별시", "locathigh_cd": "0000000000", "locallow_nm": "서울특별시", "locatjumin_cd": "1100000000", "adpt_de": "19880423" },
+        { "region_cd": "4100000000", "sido_cd": "41", "sgg_cd": "000", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "경기도", "locathigh_cd": "0000000000", "locallow_nm": "경기도", "locatjumin_cd": "4100000000", "adpt_de": "19880423" },
+        { "region_cd": "2900000000", "sido_cd": "29", "sgg_cd": "000", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "광주광역시", "locathigh_cd": "0000000000", "locallow_nm": "광주광역시", "locatjumin_cd": "2900000000", "adpt_de": "19860101" },
+        { "region_cd": "4600000000", "sido_cd": "46", "sgg_cd": "000", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "전라남도", "locathigh_cd": "0000000000", "locallow_nm": "전라남도", "locatjumin_cd": "4600000000", "adpt_de": "19880423" },
+        { "region_cd": "1165000000", "sido_cd": "11", "sgg_cd": "650", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "서울특별시 서초구", "locathigh_cd": "1100000000", "locallow_nm": "서초구", "locatjumin_cd": "1165000000", "adpt_de": "19880423" },
+        { "region_cd": "1168000000", "sido_cd": "11", "sgg_cd": "680", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "서울특별시 강남구", "locathigh_cd": "1100000000", "locallow_nm": "강남구", "locatjumin_cd": "1168000000", "adpt_de": "19880423" },
+        { "region_cd": "1171000000", "sido_cd": "11", "sgg_cd": "710", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "서울특별시 송파구", "locathigh_cd": "1100000000", "locallow_nm": "송파구", "locatjumin_cd": "1171000000", "adpt_de": "19880423" },
+        { "region_cd": "4111000000", "sido_cd": "41", "sgg_cd": "110", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "경기도 수원시", "locathigh_cd": "4100000000", "locallow_nm": "수원시", "locatjumin_cd": "4111000000", "adpt_de": "19950101" },
+        { "region_cd": "4111100000", "sido_cd": "41", "sgg_cd": "111", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "경기도 수원시 장안구", "locathigh_cd": "4111000000", "locallow_nm": "장안구", "locatjumin_cd": "4111100000", "adpt_de": "19881231" },
+        { "region_cd": "2911000000", "sido_cd": "29", "sgg_cd": "110", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "광주광역시 동구", "locathigh_cd": "2900000000", "locallow_nm": "동구", "locatjumin_cd": "2911000000", "adpt_de": "19880423" },
+        { "region_cd": "4611000000", "sido_cd": "46", "sgg_cd": "110", "umd_cd": "000", "ri_cd": "00", "locatadd_nm": "전라남도 목포시", "locathigh_cd": "4600000000", "locallow_nm": "목포시", "locatjumin_cd": "4611000000", "adpt_de": "19880423" }
+      ]
+    }
+  ]
+}

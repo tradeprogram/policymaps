@@ -1,0 +1,127 @@
+{
+  "sig_cd": "28245",
+  "region_id": "28245",
+  "name": "계양구",
+  "full_name": "인천광역시 계양구",
+  "level": 2,
+  "status": "active",
+  "population": 276125,
+  "ordinance_kinds": {
+    "규칙": 89,
+    "조례": 429
+  },
+  "ordinance_total": 518,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 210
+    },
+    {
+      "code": "C02",
+      "count": 137
+    },
+    {
+      "code": "C03",
+      "count": 98
+    },
+    {
+      "code": "C11",
+      "count": 71
+    },
+    {
+      "code": "C08",
+      "count": 70
+    },
+    {
+      "code": "C06",
+      "count": 63
+    },
+    {
+      "code": "C07",
+      "count": 57
+    },
+    {
+      "code": "C05",
+      "count": 56
+    },
+    {
+      "code": "C13",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 49
+    },
+    {
+      "code": "C10",
+      "count": 27
+    },
+    {
+      "code": "C04",
+      "count": 14
+    }
+  ],
+  "budget": {
+    "lines": 2809,
+    "exe_amt": 1436959570485,
+    "budget_now": 1876017010745
+  },
+  "recent_changes": [
+    {
+      "change_id": "a07ecad28a3d472daba585f9c5899b8e",
+      "ts": "2026-08-19T14:44:52+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2817000|fyr:2025",
+      "entity_name": "2817000 2025 세출(1449건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "6b0f33d28e144e4abd30c17aaa84394a",
+      "ts": "2026-08-19T14:17:50+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2817000|fyr:2026",
+      "entity_name": "2817000 2026 세출(1360건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2bb19cbcec474136b38c496df7ec928a",
+      "ts": "2026-08-19T11:18:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1798533",
+      "entity_name": "인천광역시 계양구 야생동물로 인한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1798533&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e91bf569df264a298b69fa920f189a9a",
+      "ts": "2026-08-19T11:09:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1918825",
+      "entity_name": "인천광역시 계양구 동물보호 및 동물복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1918825&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7b72f03623ed45b8a75874edbdd1340c",
+      "ts": "2026-08-19T10:56:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2158337",
+      "entity_name": "인천광역시 계양구 저출생 대응 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2158337&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b7808ff7105a4a2e93031bec0d8aa3d7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28245",
+      "entity_name": "계양구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

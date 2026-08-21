@@ -1,0 +1,127 @@
+{
+  "sig_cd": "11710",
+  "region_id": "11710",
+  "name": "송파구",
+  "full_name": "서울특별시 송파구",
+  "level": 2,
+  "status": "active",
+  "population": 649715,
+  "ordinance_kinds": {
+    "규칙": 114,
+    "조례": 361
+  },
+  "ordinance_total": 475,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 215
+    },
+    {
+      "code": "C02",
+      "count": 122
+    },
+    {
+      "code": "C03",
+      "count": 85
+    },
+    {
+      "code": "C08",
+      "count": 65
+    },
+    {
+      "code": "C06",
+      "count": 60
+    },
+    {
+      "code": "C05",
+      "count": 58
+    },
+    {
+      "code": "C11",
+      "count": 51
+    },
+    {
+      "code": "C13",
+      "count": 50
+    },
+    {
+      "code": "C07",
+      "count": 50
+    },
+    {
+      "code": "C09",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 27
+    },
+    {
+      "code": "C04",
+      "count": 8
+    }
+  ],
+  "budget": {
+    "lines": 2745,
+    "exe_amt": 2374786664238,
+    "budget_now": 3324053276470
+  },
+  "recent_changes": [
+    {
+      "change_id": "586def5c93094acc8febe531a025a1cc",
+      "ts": "2026-08-19T14:40:49+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1134000|fyr:2025",
+      "entity_name": "1134000 2025 세출(1410건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c1e2bb35a0584560a5d6e821c9ca7e1d",
+      "ts": "2026-08-19T14:16:58+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1134000|fyr:2026",
+      "entity_name": "1134000 2026 세출(1335건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5683790dd9ec490ab19aac996907cec6",
+      "ts": "2026-08-19T11:15:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2028515",
+      "entity_name": "서울특별시 송파구 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2028515&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8fe339de70f34080a830fd69c387144a",
+      "ts": "2026-08-19T11:06:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2053773",
+      "entity_name": "서울특별시 송파구 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053773&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7c08d0ce8c4440b69b3464a8326f3fff",
+      "ts": "2026-08-19T11:01:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1727657",
+      "entity_name": "서울특별시 송파구 출산·양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1727657&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c8451d22741d4113b12809df502fb8fb",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11710",
+      "entity_name": "송파구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

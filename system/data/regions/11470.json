@@ -1,0 +1,136 @@
+{
+  "sig_cd": "11470",
+  "region_id": "11470",
+  "name": "양천구",
+  "full_name": "서울특별시 양천구",
+  "level": 2,
+  "status": "active",
+  "population": 420595,
+  "ordinance_kinds": {
+    "규칙": 95,
+    "조례": 471
+  },
+  "ordinance_total": 566,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 211
+    },
+    {
+      "code": "C02",
+      "count": 154
+    },
+    {
+      "code": "C03",
+      "count": 109
+    },
+    {
+      "code": "C06",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 79
+    },
+    {
+      "code": "C05",
+      "count": 78
+    },
+    {
+      "code": "C11",
+      "count": 70
+    },
+    {
+      "code": "C07",
+      "count": 68
+    },
+    {
+      "code": "C09",
+      "count": 61
+    },
+    {
+      "code": "C13",
+      "count": 52
+    },
+    {
+      "code": "C10",
+      "count": 36
+    },
+    {
+      "code": "C04",
+      "count": 12
+    }
+  ],
+  "budget": {
+    "lines": 2239,
+    "exe_amt": 1936112422799,
+    "budget_now": 2623000918340
+  },
+  "recent_changes": [
+    {
+      "change_id": "374347eda36e4a68a7f1a4f425c3b633",
+      "ts": "2026-08-19T14:39:50+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1125000|fyr:2025",
+      "entity_name": "1125000 2025 세출(1174건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "216ab60b69364aef9cc93d042e381661",
+      "ts": "2026-08-19T14:16:51+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1125000|fyr:2026",
+      "entity_name": "1125000 2026 세출(1065건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e689fabb49744f6894a22d11c1dd5ece",
+      "ts": "2026-08-19T11:20:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1823505",
+      "entity_name": "서울특별시 양천구 동물 보호 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1823505&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e0f37f0135384a8bb9537cf4b8acfe5d",
+      "ts": "2026-08-19T11:15:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2031721",
+      "entity_name": "서울특별시 양천구 동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2031721&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7df60e6922744b4081054478e1cb360c",
+      "ts": "2026-08-19T11:06:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1925101",
+      "entity_name": "서울특별시 양천구 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1925101&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b128201f5109404ca43e93163602851d",
+      "ts": "2026-08-19T11:01:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1812545",
+      "entity_name": "서울특별시 양천구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1812545&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "511f4626f98e43e591ec4aae56144b5b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11470",
+      "entity_name": "양천구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

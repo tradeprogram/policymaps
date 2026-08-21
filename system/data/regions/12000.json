@@ -1,0 +1,100 @@
+{
+  "sig_cd": "12000",
+  "region_id": "12",
+  "name": "전남광주통합특별시",
+  "full_name": "전남광주통합특별시",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 55,
+    "조례": 366
+  },
+  "ordinance_total": 421,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 164
+    },
+    {
+      "code": "C11",
+      "count": 103
+    },
+    {
+      "code": "C02",
+      "count": 99
+    },
+    {
+      "code": "C12",
+      "count": 77
+    },
+    {
+      "code": "C08",
+      "count": 69
+    },
+    {
+      "code": "C03",
+      "count": 45
+    },
+    {
+      "code": "C05",
+      "count": 43
+    },
+    {
+      "code": "C06",
+      "count": 39
+    },
+    {
+      "code": "C07",
+      "count": 33
+    },
+    {
+      "code": "C09",
+      "count": 27
+    },
+    {
+      "code": "C13",
+      "count": 23
+    },
+    {
+      "code": "C10",
+      "count": 13
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "0c197641983342ea842a0cac1cfaa961",
+      "ts": "2026-08-19T11:03:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2156011",
+      "entity_name": "전남광주통합특별시 장애인가정 임신ㆍ출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2156011&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c575c18e83404b43b7ae95d6719593a4",
+      "ts": "2026-08-19T11:03:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2137179",
+      "entity_name": "전남광주통합특별시 위기 임신 및 보호출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2137179&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a70b3d36a4e8406a868b75581726c0fd",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12",
+      "entity_name": "전남광주통합특별시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

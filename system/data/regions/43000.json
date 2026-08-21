@@ -1,0 +1,118 @@
+{
+  "sig_cd": "43000",
+  "region_id": "43",
+  "name": "충청북도",
+  "full_name": "충청북도",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 114,
+    "조례": 778
+  },
+  "ordinance_total": 892,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 288
+    },
+    {
+      "code": "C02",
+      "count": 226
+    },
+    {
+      "code": "C11",
+      "count": 197
+    },
+    {
+      "code": "C08",
+      "count": 136
+    },
+    {
+      "code": "C03",
+      "count": 127
+    },
+    {
+      "code": "C13",
+      "count": 117
+    },
+    {
+      "code": "C05",
+      "count": 117
+    },
+    {
+      "code": "C09",
+      "count": 93
+    },
+    {
+      "code": "C07",
+      "count": 86
+    },
+    {
+      "code": "C06",
+      "count": 82
+    },
+    {
+      "code": "C12",
+      "count": 66
+    },
+    {
+      "code": "C10",
+      "count": 37
+    }
+  ],
+  "budget": {
+    "lines": 7032,
+    "exe_amt": 14780292394559,
+    "budget_now": 18557408025320
+  },
+  "recent_changes": [
+    {
+      "change_id": "76599abc618b4778ba085fe236f05d07",
+      "ts": "2026-08-19T11:19:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2039159",
+      "entity_name": "충청북도 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2039159&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3f312e24d1534a1bbc48ca57ebfd96a3",
+      "ts": "2026-08-19T11:10:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2083189",
+      "entity_name": "충청북도 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2083189&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "358520358a774d18a96af2af1b471b49",
+      "ts": "2026-08-19T11:10:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2083223",
+      "entity_name": "충청북도 반려동물 보호 및 문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2083223&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d9dbbcbe87e64865b4c7e788257ca961",
+      "ts": "2026-08-19T11:10:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2083225",
+      "entity_name": "충청북도 반려견 기질평가위원회 구성 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2083225&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "88bfa97743c44eaab0ce8bd5aa50b58e",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43",
+      "entity_name": "충청북도",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

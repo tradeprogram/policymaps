@@ -1,0 +1,136 @@
+{
+  "sig_cd": "26710",
+  "region_id": "26710",
+  "name": "기장군",
+  "full_name": "부산광역시 기장군",
+  "level": 2,
+  "status": "active",
+  "population": 175402,
+  "ordinance_kinds": {
+    "규칙": 88,
+    "조례": 444
+  },
+  "ordinance_total": 532,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 201
+    },
+    {
+      "code": "C02",
+      "count": 146
+    },
+    {
+      "code": "C03",
+      "count": 90
+    },
+    {
+      "code": "C11",
+      "count": 68
+    },
+    {
+      "code": "C06",
+      "count": 66
+    },
+    {
+      "code": "C09",
+      "count": 64
+    },
+    {
+      "code": "C05",
+      "count": 59
+    },
+    {
+      "code": "C08",
+      "count": 57
+    },
+    {
+      "code": "C07",
+      "count": 57
+    },
+    {
+      "code": "C13",
+      "count": 53
+    },
+    {
+      "code": "C10",
+      "count": 35
+    },
+    {
+      "code": "C12",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 3355,
+    "exe_amt": 1577621109411,
+    "budget_now": 2397684730110
+  },
+  "recent_changes": [
+    {
+      "change_id": "3a110582784f4dcc991789470c41485f",
+      "ts": "2026-08-19T14:43:09+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2671000|fyr:2025",
+      "entity_name": "2671000 2025 세출(1699건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1df3a60c0fa04edf8608e7458e20f295",
+      "ts": "2026-08-19T14:17:20+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2671000|fyr:2026",
+      "entity_name": "2671000 2026 세출(1656건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "44c27e39a52748e3b7c09551654cd3d5",
+      "ts": "2026-08-19T11:14:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1370849",
+      "entity_name": "부산광역시 기장군 야생동물에 의한 피해보상 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1370849&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "53a2986c4ea14dc29217a8a52d5d0651",
+      "ts": "2026-08-19T11:14:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2082791",
+      "entity_name": "부산광역시 기장군 동물보호 및 복지 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2082791&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "af3ceef882904d1eb7bf6087f1aae0ff",
+      "ts": "2026-08-19T11:00:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1399895",
+      "entity_name": "부산광역시 기장군 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1399895&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ef5a0b06a6794ca280bd8578c09c2d1a",
+      "ts": "2026-08-19T10:57:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1982001",
+      "entity_name": "부산광역시 기장군 출산장려 및 다자녀 가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1982001&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "716a20ed83ce4b65be41da878e8bc125",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26710",
+      "entity_name": "기장군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

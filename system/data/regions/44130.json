@@ -1,0 +1,145 @@
+{
+  "sig_cd": "44130",
+  "region_id": "44130",
+  "name": "천안시",
+  "full_name": "충청남도 천안시",
+  "level": 2,
+  "status": "active",
+  "population": 666442,
+  "ordinance_kinds": {
+    "규칙": 139,
+    "조례": 773
+  },
+  "ordinance_total": 912,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 271
+    },
+    {
+      "code": "C02",
+      "count": 236
+    },
+    {
+      "code": "C11",
+      "count": 168
+    },
+    {
+      "code": "C03",
+      "count": 144
+    },
+    {
+      "code": "C05",
+      "count": 117
+    },
+    {
+      "code": "C09",
+      "count": 115
+    },
+    {
+      "code": "C08",
+      "count": 113
+    },
+    {
+      "code": "C13",
+      "count": 109
+    },
+    {
+      "code": "C07",
+      "count": 100
+    },
+    {
+      "code": "C06",
+      "count": 90
+    },
+    {
+      "code": "C10",
+      "count": 83
+    },
+    {
+      "code": "C12",
+      "count": 74
+    }
+  ],
+  "budget": {
+    "lines": 4902,
+    "exe_amt": 4776955807405,
+    "budget_now": 6615110394692
+  },
+  "recent_changes": [
+    {
+      "change_id": "55b622508d244048bb971bc344af50fe",
+      "ts": "2026-08-19T15:00:07+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4411000|fyr:2025",
+      "entity_name": "4411000 2025 세출(2448건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4c004bbab77b4d3cb9615600e72604db",
+      "ts": "2026-08-19T14:24:44+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4411000|fyr:2026",
+      "entity_name": "4411000 2026 세출(2454건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "50de90628d914003a520cdae83fd0bee",
+      "ts": "2026-08-19T11:18:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1975777",
+      "entity_name": "천안시 야생동물에 의한 피해 예방 및 보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1975777&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f078f56e3ba644898681fcbd39142102",
+      "ts": "2026-08-19T11:18:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2091403",
+      "entity_name": "천안시 동물보호 및 생명존중문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2091403&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5f8d8c9be6b5402cb9f6a3a425c05b56",
+      "ts": "2026-08-19T11:03:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1727057",
+      "entity_name": "천안시 임신·출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1727057&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7bbb5af142a1440cb88f292343438110",
+      "ts": "2026-08-19T11:03:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1622923",
+      "entity_name": "천안시 여성장애인 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1622923&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1fab8af979bd4dc196a181b8abb339bc",
+      "ts": "2026-08-19T10:58:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2095473",
+      "entity_name": "천안시 출산장려 및 입양가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2095473&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3506bfaea10240c19f0133163980beaf",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44130",
+      "entity_name": "천안시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,172 @@
+{
+  "sig_cd": "41170",
+  "region_id": "41170",
+  "name": "안양시",
+  "full_name": "경기도 안양시",
+  "level": 2,
+  "status": "active",
+  "population": 562143,
+  "ordinance_kinds": {
+    "규칙": 129,
+    "조례": 598
+  },
+  "ordinance_total": 727,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 254
+    },
+    {
+      "code": "C02",
+      "count": 204
+    },
+    {
+      "code": "C03",
+      "count": 135
+    },
+    {
+      "code": "C11",
+      "count": 111
+    },
+    {
+      "code": "C05",
+      "count": 97
+    },
+    {
+      "code": "C09",
+      "count": 91
+    },
+    {
+      "code": "C06",
+      "count": 83
+    },
+    {
+      "code": "C13",
+      "count": 80
+    },
+    {
+      "code": "C08",
+      "count": 78
+    },
+    {
+      "code": "C07",
+      "count": 73
+    },
+    {
+      "code": "C10",
+      "count": 63
+    },
+    {
+      "code": "C04",
+      "count": 18
+    }
+  ],
+  "budget": {
+    "lines": 4815,
+    "exe_amt": 3149889702889,
+    "budget_now": 4847990314818
+  },
+  "recent_changes": [
+    {
+      "change_id": "049dfd7ac5294e00aacbbae812bd49e2",
+      "ts": "2026-08-19T14:49:20+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4114000|fyr:2025",
+      "entity_name": "4114000 2025 세출(2445건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9460c4c6ade14ffc98530054442c8a3b",
+      "ts": "2026-08-19T14:18:53+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4114000|fyr:2026",
+      "entity_name": "4114000 2026 세출(2370건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "86077e7a1e324eae84bd4c7d717ea290",
+      "ts": "2026-08-19T11:16:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2111501",
+      "entity_name": "안양시 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2111501&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "025ef38ca7314e2fa148ad8cdee61d6c",
+      "ts": "2026-08-19T11:16:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1959365",
+      "entity_name": "안양시 동물 보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1959365&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "74aae3deefe54d5e949fd150e255ce9f",
+      "ts": "2026-08-19T11:11:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2017833",
+      "entity_name": "안양시 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2017833&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "128557162522418a9fbf4476f5cb8f8b",
+      "ts": "2026-08-19T11:08:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1894235",
+      "entity_name": "안양시 반려동물 보호 및 학대방지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1894235&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4e205d73d68d4d998855a8277a57bf9b",
+      "ts": "2026-08-19T11:04:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1397443",
+      "entity_name": "안양시 장애인가정 출산지원금 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1397443&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3e1bb0d4208f45eba56463d9262668d9",
+      "ts": "2026-08-19T11:02:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1794601",
+      "entity_name": "안양시 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1794601&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0410b2dba814471babf2b51a8c24b13f",
+      "ts": "2026-08-19T11:02:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2102179",
+      "entity_name": "안양시 인구정책 추진 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2102179&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "67218bdefa6b45c39d81710aef5a7300",
+      "ts": "2026-08-19T10:55:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2078625",
+      "entity_name": "안양시 출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2078625&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b91daf2c02e64e9e87c5ce4155344bce",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41170",
+      "entity_name": "안양시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

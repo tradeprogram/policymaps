@@ -1,0 +1,109 @@
+{
+  "sig_cd": "12710",
+  "region_id": "12710",
+  "name": "담양군",
+  "full_name": "전남광주통합특별시 담양군",
+  "level": 2,
+  "status": "active",
+  "population": 43972,
+  "ordinance_kinds": {
+    "규칙": 104,
+    "조례": 499
+  },
+  "ordinance_total": 603,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 237
+    },
+    {
+      "code": "C02",
+      "count": 181
+    },
+    {
+      "code": "C03",
+      "count": 85
+    },
+    {
+      "code": "C11",
+      "count": 77
+    },
+    {
+      "code": "C08",
+      "count": 73
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C07",
+      "count": 65
+    },
+    {
+      "code": "C05",
+      "count": 61
+    },
+    {
+      "code": "C09",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 58
+    },
+    {
+      "code": "C06",
+      "count": 48
+    },
+    {
+      "code": "C10",
+      "count": 30
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "97dc54ebf554453daa49dc56c1121d9b",
+      "ts": "2026-08-19T11:20:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1854775",
+      "entity_name": "담양군 동물보호 및 복지에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1854775&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b0b3a63dbba1410aab5d19d9bb6e0158",
+      "ts": "2026-08-19T11:13:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2159639",
+      "entity_name": "담양군 야생동물 피해예방 및 보상금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2159639&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b1243331d91b4ae591c28d23a14342b5",
+      "ts": "2026-08-19T11:13:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1697257",
+      "entity_name": "담양군 동물보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697257&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0fcae5591c464875b1f162d6b24f3360",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12710",
+      "entity_name": "담양군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

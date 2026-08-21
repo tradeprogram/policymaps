@@ -1,0 +1,127 @@
+{
+  "sig_cd": "26410",
+  "region_id": "26410",
+  "name": "금정구",
+  "full_name": "부산광역시 금정구",
+  "level": 2,
+  "status": "active",
+  "population": 205483,
+  "ordinance_kinds": {
+    "규칙": 66,
+    "조례": 327
+  },
+  "ordinance_total": 393,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 168
+    },
+    {
+      "code": "C02",
+      "count": 122
+    },
+    {
+      "code": "C03",
+      "count": 66
+    },
+    {
+      "code": "C08",
+      "count": 47
+    },
+    {
+      "code": "C06",
+      "count": 46
+    },
+    {
+      "code": "C05",
+      "count": 45
+    },
+    {
+      "code": "C13",
+      "count": 43
+    },
+    {
+      "code": "C11",
+      "count": 40
+    },
+    {
+      "code": "C07",
+      "count": 39
+    },
+    {
+      "code": "C09",
+      "count": 31
+    },
+    {
+      "code": "C10",
+      "count": 20
+    },
+    {
+      "code": "C04",
+      "count": 7
+    }
+  ],
+  "budget": {
+    "lines": 2624,
+    "exe_amt": 1126192684410,
+    "budget_now": 1669148461040
+  },
+  "recent_changes": [
+    {
+      "change_id": "0dc0abffff814f64a97fb3168c5b0370",
+      "ts": "2026-08-19T14:42:05+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2621000|fyr:2025",
+      "entity_name": "2621000 2025 세출(1312건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fc12ae9c0ccd40e498f429839f0630d3",
+      "ts": "2026-08-19T14:17:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2621000|fyr:2026",
+      "entity_name": "2621000 2026 세출(1312건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0d941a54005e4bc39fdba20117e3bdb2",
+      "ts": "2026-08-19T11:14:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2127283",
+      "entity_name": "부산광역시 금정구 야생동물에 의한 피해 예방 및 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127283&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ee57a53f9e2748f5a0d95cdc391aa8d0",
+      "ts": "2026-08-19T11:14:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1984493",
+      "entity_name": "부산광역시 금정구 동물보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1984493&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b8b74ec2abcd440da328cdd0ef781502",
+      "ts": "2026-08-19T10:57:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1867325",
+      "entity_name": "부산광역시 금정구 출산장려 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867325&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "471ec3d1119a4fee925103479029a395",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26410",
+      "entity_name": "금정구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

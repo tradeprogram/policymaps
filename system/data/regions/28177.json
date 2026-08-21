@@ -1,0 +1,127 @@
+{
+  "sig_cd": "28177",
+  "region_id": "28177",
+  "name": "미추홀구",
+  "full_name": "인천광역시 미추홀구",
+  "level": 2,
+  "status": "active",
+  "population": 418721,
+  "ordinance_kinds": {
+    "규칙": 110,
+    "조례": 396
+  },
+  "ordinance_total": 506,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 229
+    },
+    {
+      "code": "C02",
+      "count": 143
+    },
+    {
+      "code": "C03",
+      "count": 89
+    },
+    {
+      "code": "C11",
+      "count": 66
+    },
+    {
+      "code": "C06",
+      "count": 64
+    },
+    {
+      "code": "C08",
+      "count": 58
+    },
+    {
+      "code": "C05",
+      "count": 57
+    },
+    {
+      "code": "C07",
+      "count": 50
+    },
+    {
+      "code": "C13",
+      "count": 47
+    },
+    {
+      "code": "C09",
+      "count": 43
+    },
+    {
+      "code": "C10",
+      "count": 24
+    },
+    {
+      "code": "C04",
+      "count": 14
+    }
+  ],
+  "budget": {
+    "lines": 2596,
+    "exe_amt": 2063503852467,
+    "budget_now": 2625048777563
+  },
+  "recent_changes": [
+    {
+      "change_id": "3587cf6c78ed431c9b4bacf4a69e64da",
+      "ts": "2026-08-19T14:44:23+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2813000|fyr:2025",
+      "entity_name": "2813000 2025 세출(1309건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1f5e1c989ad6484a94550eb0d2d5d751",
+      "ts": "2026-08-19T14:17:44+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2813000|fyr:2026",
+      "entity_name": "2813000 2026 세출(1287건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1397706fee6c4fd18b4931e267e94ec4",
+      "ts": "2026-08-19T11:18:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2072741",
+      "entity_name": "인천광역시 미추홀구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2072741&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "73adbd8df369498f9e61480c352a8c50",
+      "ts": "2026-08-19T11:18:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1902741",
+      "entity_name": "인천광역시 미추홀구 동물보호 및 복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1902741&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "404243bfbc874e12a41388a1685ec8b6",
+      "ts": "2026-08-19T10:56:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1983805",
+      "entity_name": "인천광역시 미추홀구 출산장려 및 저출산 대책 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1983805&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e28fcf9307834b42abfa48c5b36b89ed",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28177",
+      "entity_name": "미추홀구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

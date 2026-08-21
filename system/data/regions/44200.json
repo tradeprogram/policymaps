@@ -1,0 +1,163 @@
+{
+  "sig_cd": "44200",
+  "region_id": "44200",
+  "name": "아산시",
+  "full_name": "충청남도 아산시",
+  "level": 2,
+  "status": "active",
+  "population": 364270,
+  "ordinance_kinds": {
+    "규칙": 145,
+    "조례": 659
+  },
+  "ordinance_total": 804,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 282
+    },
+    {
+      "code": "C02",
+      "count": 209
+    },
+    {
+      "code": "C11",
+      "count": 133
+    },
+    {
+      "code": "C03",
+      "count": 127
+    },
+    {
+      "code": "C09",
+      "count": 106
+    },
+    {
+      "code": "C08",
+      "count": 96
+    },
+    {
+      "code": "C05",
+      "count": 93
+    },
+    {
+      "code": "C13",
+      "count": 87
+    },
+    {
+      "code": "C07",
+      "count": 80
+    },
+    {
+      "code": "C06",
+      "count": 77
+    },
+    {
+      "code": "C12",
+      "count": 70
+    },
+    {
+      "code": "C10",
+      "count": 63
+    }
+  ],
+  "budget": {
+    "lines": 5623,
+    "exe_amt": 3495567194422,
+    "budget_now": 5121116114345
+  },
+  "recent_changes": [
+    {
+      "change_id": "24a985f2939847558002eb4ea1a0f294",
+      "ts": "2026-08-19T15:01:00+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4414000|fyr:2025",
+      "entity_name": "4414000 2025 세출(2794건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "7008dab4d3a040aa9a8721b6d9b81afb",
+      "ts": "2026-08-19T14:25:11+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4414000|fyr:2026",
+      "entity_name": "4414000 2026 세출(2829건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b449b0a147524675891cb8d3899c06a9",
+      "ts": "2026-08-19T11:16:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2079409",
+      "entity_name": "아산시 유해야생동물 피해예방 및 관리 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079409&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "35880c194c514400a8f0e68cbf402fb7",
+      "ts": "2026-08-19T11:16:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1552225",
+      "entity_name": "아산시 야생동물로 인한 농작물 피해보상 및 피해예방시설 설치 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1552225&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f1668cde34db4e42850340a99306fd9f",
+      "ts": "2026-08-19T11:16:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1992719",
+      "entity_name": "아산시 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1992719&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ea3efdb7f0dc451db91c84cb75a10724",
+      "ts": "2026-08-19T11:02:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1903517",
+      "entity_name": "아산시 저출산·고령사회정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1903517&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bd042c06c74e482bbc7706973f9f951e",
+      "ts": "2026-08-19T11:02:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1432397",
+      "entity_name": "아산시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1432397&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9e193af6691e41d2a830cdf52742486c",
+      "ts": "2026-08-19T11:02:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1756777",
+      "entity_name": "아산시 임신·출산에 관한 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1756777&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "89a61b1fb41c4ac8a364f78555507df8",
+      "ts": "2026-08-19T10:55:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1891393",
+      "entity_name": "아산시 출생축하금 및 다자녀가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891393&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "46786eaf26cf4992824be12803f72ac0",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44200",
+      "entity_name": "아산시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

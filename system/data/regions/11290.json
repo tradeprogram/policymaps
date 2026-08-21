@@ -1,0 +1,127 @@
+{
+  "sig_cd": "11290",
+  "region_id": "11290",
+  "name": "성북구",
+  "full_name": "서울특별시 성북구",
+  "level": 2,
+  "status": "active",
+  "population": 421289,
+  "ordinance_kinds": {
+    "규칙": 92,
+    "조례": 426
+  },
+  "ordinance_total": 518,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 212
+    },
+    {
+      "code": "C02",
+      "count": 120
+    },
+    {
+      "code": "C03",
+      "count": 104
+    },
+    {
+      "code": "C05",
+      "count": 75
+    },
+    {
+      "code": "C13",
+      "count": 65
+    },
+    {
+      "code": "C08",
+      "count": 63
+    },
+    {
+      "code": "C06",
+      "count": 61
+    },
+    {
+      "code": "C11",
+      "count": 59
+    },
+    {
+      "code": "C09",
+      "count": 55
+    },
+    {
+      "code": "C07",
+      "count": 52
+    },
+    {
+      "code": "C10",
+      "count": 30
+    },
+    {
+      "code": "C04",
+      "count": 13
+    }
+  ],
+  "budget": {
+    "lines": 2019,
+    "exe_amt": 2102556396973,
+    "budget_now": 3139531311942
+  },
+  "recent_changes": [
+    {
+      "change_id": "6529ea8f56e44d7688b82aa4fc282c45",
+      "ts": "2026-08-19T14:38:45+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1118000|fyr:2025",
+      "entity_name": "1118000 2025 세출(1029건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1284a00a3b7b400eb2eab862bb73b6b4",
+      "ts": "2026-08-19T14:16:46+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1118000|fyr:2026",
+      "entity_name": "1118000 2026 세출(990건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b5bb2d83bea74b35829ed1dac63b4e33",
+      "ts": "2026-08-19T11:15:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2085017",
+      "entity_name": "서울특별시 성북구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2085017&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b3be0a1b685440b4ab525d6d50be7fcd",
+      "ts": "2026-08-19T11:15:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2129309",
+      "entity_name": "서울특별시 성북구 동물보호 및 동물복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129309&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d47fdc4ca2bb41e9811a962153e6ef2e",
+      "ts": "2026-08-19T11:01:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1394586",
+      "entity_name": "서울특별시 성북구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1394586&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "502dc0980bd142688220c9a6f39f4336",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11290",
+      "entity_name": "성북구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

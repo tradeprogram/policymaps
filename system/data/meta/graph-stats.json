@@ -1,0 +1,36 @@
+{
+  "as_of_date": "2026-08-21",
+  "backend": "networkx",
+  "node_counts": {
+    "Region": 556,
+    "LegalInstrument": 29811,
+    "Ordinance": 199858,
+    "Bill": 19847,
+    "Legislator": 320,
+    "Party": 8,
+    "Category": 16,
+    "BudgetLine": 0
+  },
+  "edge_counts": {
+    "HAS_ORDINANCE": 199858,
+    "DELEGATED_FROM/SUBORDINATE_TO": 307779,
+    "CITES(+relations)": 2189,
+    "ADJACENT_TO": 1098,
+    "SUCCEEDED_BY": 17,
+    "CONTAINS": 529,
+    "SIMILAR_TO": 21740,
+    "IN_CATEGORY": 334831,
+    "FUNDED_BY": 0,
+    "PROPOSED_BY": 241546,
+    "VOTED": 57178,
+    "MEMBER_OF": 299,
+    "ENACTS": 0
+  },
+  "skipped_edges": {
+    "DELEGATED_FROM": 113848,
+    "CITES": 810150,
+    "FUNDED_BY": 183145
+  },
+  "total_nodes": 250416,
+  "total_edges": 1125036
+}

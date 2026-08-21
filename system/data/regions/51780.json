@@ -1,0 +1,118 @@
+{
+  "sig_cd": "51780",
+  "region_id": "51780",
+  "name": "철원군",
+  "full_name": "강원특별자치도 철원군",
+  "level": 2,
+  "status": "active",
+  "population": 39665,
+  "ordinance_kinds": {
+    "규칙": 120,
+    "조례": 398
+  },
+  "ordinance_total": 518,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 230
+    },
+    {
+      "code": "C02",
+      "count": 152
+    },
+    {
+      "code": "C03",
+      "count": 74
+    },
+    {
+      "code": "C11",
+      "count": 69
+    },
+    {
+      "code": "C08",
+      "count": 62
+    },
+    {
+      "code": "C12",
+      "count": 52
+    },
+    {
+      "code": "C05",
+      "count": 51
+    },
+    {
+      "code": "C13",
+      "count": 48
+    },
+    {
+      "code": "C09",
+      "count": 39
+    },
+    {
+      "code": "C06",
+      "count": 38
+    },
+    {
+      "code": "C07",
+      "count": 33
+    },
+    {
+      "code": "C10",
+      "count": 30
+    }
+  ],
+  "budget": {
+    "lines": 3176,
+    "exe_amt": 1012366166803,
+    "budget_now": 1731840296517
+  },
+  "recent_changes": [
+    {
+      "change_id": "baeaf92d3def4bb0b6f498409a95e92a",
+      "ts": "2026-08-19T14:56:22+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4276000|fyr:2025",
+      "entity_name": "4276000 2025 세출(1598건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b02c70bc1f314d35b8a8f4c1ed10e151",
+      "ts": "2026-08-19T14:22:24+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4276000|fyr:2026",
+      "entity_name": "4276000 2026 세출(1578건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "12409068919b4854be56389de3e0ea45",
+      "ts": "2026-08-19T11:18:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2052527",
+      "entity_name": "철원군 야생동물에 의한 피해 예방 및 보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2052527&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "18afaa9be8cb4d379673a23f2d4c9d1e",
+      "ts": "2026-08-19T10:56:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2108347",
+      "entity_name": "철원군 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2108347&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c672920f7e534ad894777de504a86500",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51780",
+      "entity_name": "철원군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

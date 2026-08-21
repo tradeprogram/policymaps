@@ -1,0 +1,109 @@
+{
+  "sig_cd": "12820",
+  "region_id": "12820",
+  "name": "함평군",
+  "full_name": "전남광주통합특별시 함평군",
+  "level": 2,
+  "status": "active",
+  "population": 29651,
+  "ordinance_kinds": {
+    "규칙": 101,
+    "조례": 485
+  },
+  "ordinance_total": 586,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 217
+    },
+    {
+      "code": "C02",
+      "count": 166
+    },
+    {
+      "code": "C11",
+      "count": 94
+    },
+    {
+      "code": "C03",
+      "count": 91
+    },
+    {
+      "code": "C08",
+      "count": 87
+    },
+    {
+      "code": "C12",
+      "count": 71
+    },
+    {
+      "code": "C09",
+      "count": 54
+    },
+    {
+      "code": "C05",
+      "count": 52
+    },
+    {
+      "code": "C13",
+      "count": 51
+    },
+    {
+      "code": "C06",
+      "count": 48
+    },
+    {
+      "code": "C07",
+      "count": 46
+    },
+    {
+      "code": "C10",
+      "count": 37
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "6bdd754f41454ee38e7e7a20abef21f0",
+      "ts": "2026-08-19T11:19:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1774125",
+      "entity_name": "함평군 야생동물에 의한 농작물 피해보상 등 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1774125&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "401a66e67ce14882967a1b51cba26273",
+      "ts": "2026-08-19T11:19:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1987377",
+      "entity_name": "함평군 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1987377&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "21d5b76cd73f4086b01c4793d3a88702",
+      "ts": "2026-08-19T10:58:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2155751",
+      "entity_name": "함평군 출산장려 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2155751&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7db1f45fa9344d0d95c4ebc3d7bc38b6",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12820",
+      "entity_name": "함평군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

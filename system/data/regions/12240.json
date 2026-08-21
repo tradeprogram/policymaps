@@ -1,0 +1,118 @@
+{
+  "sig_cd": "12240",
+  "region_id": "12240",
+  "name": "서구",
+  "full_name": "전남광주통합특별시 서구",
+  "level": 2,
+  "status": "active",
+  "population": 274408,
+  "ordinance_kinds": {
+    "규칙": 100,
+    "조례": 533
+  },
+  "ordinance_total": 633,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 248
+    },
+    {
+      "code": "C02",
+      "count": 173
+    },
+    {
+      "code": "C03",
+      "count": 123
+    },
+    {
+      "code": "C06",
+      "count": 95
+    },
+    {
+      "code": "C08",
+      "count": 77
+    },
+    {
+      "code": "C11",
+      "count": 76
+    },
+    {
+      "code": "C05",
+      "count": 69
+    },
+    {
+      "code": "C13",
+      "count": 68
+    },
+    {
+      "code": "C07",
+      "count": 58
+    },
+    {
+      "code": "C09",
+      "count": 57
+    },
+    {
+      "code": "C10",
+      "count": 41
+    },
+    {
+      "code": "C04",
+      "count": 17
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "8dfb72af93ea4df58904b478a33c2bfd",
+      "ts": "2026-08-19T11:18:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2132149",
+      "entity_name": "전남광주통합특별시 서구 야생동물 피해예방시설 설치비용 지원 및 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132149&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ca989d31035945b4a27fd50cde8ad72f",
+      "ts": "2026-08-19T11:09:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2132749",
+      "entity_name": "전남광주통합특별시 서구 반려동물 및 유실 유기동물 보호와 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132749&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5a977d8711a145219a074125800829b1",
+      "ts": "2026-08-19T11:03:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2132459",
+      "entity_name": "전남광주통합특별시 서구 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132459&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ff09b55b1f554557a99293950202ddca",
+      "ts": "2026-08-19T10:58:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2132335",
+      "entity_name": "전남광주통합특별시 서구 출산 및 양육지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132335&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bcccab34cd7a4e83954cff6b4edc37e4",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12240",
+      "entity_name": "서구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

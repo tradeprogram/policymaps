@@ -1,0 +1,163 @@
+{
+  "sig_cd": "26000",
+  "region_id": "26",
+  "name": "부산광역시",
+  "full_name": "부산광역시",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 111,
+    "조례": 1075
+  },
+  "ordinance_total": 1186,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 302
+    },
+    {
+      "code": "C02",
+      "count": 288
+    },
+    {
+      "code": "C11",
+      "count": 284
+    },
+    {
+      "code": "C08",
+      "count": 189
+    },
+    {
+      "code": "C09",
+      "count": 179
+    },
+    {
+      "code": "C03",
+      "count": 179
+    },
+    {
+      "code": "C13",
+      "count": 159
+    },
+    {
+      "code": "C07",
+      "count": 136
+    },
+    {
+      "code": "C05",
+      "count": 129
+    },
+    {
+      "code": "C06",
+      "count": 116
+    },
+    {
+      "code": "C10",
+      "count": 85
+    },
+    {
+      "code": "C12",
+      "count": 57
+    }
+  ],
+  "budget": {
+    "lines": 7853,
+    "exe_amt": 32800373719805,
+    "budget_now": 39812168374170
+  },
+  "recent_changes": [
+    {
+      "change_id": "d46a2d011b5c41f6a1ef88ee95b4fa68",
+      "ts": "2026-08-19T11:14:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1333456",
+      "entity_name": "부산광역시 유해야생동물 피해 예방 및 보상 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1333456&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3062354dd635417baac84c8e4ca982a3",
+      "ts": "2026-08-19T11:14:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1662577",
+      "entity_name": "부산광역시 동물보호 교육 프로그램 개발 및 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1662577&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d397171973a94e88a1ccff93d8f8c76d",
+      "ts": "2026-08-19T11:14:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1697721",
+      "entity_name": "부산광역시 공설 동물장묘시설 설치 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697721&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1bd6106d027b42b58ff4fee1e10c536f",
+      "ts": "2026-08-19T11:12:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2130461",
+      "entity_name": "부산광역시 동물 보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130461&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "952856a699a34c898a98cb65a80e5bd4",
+      "ts": "2026-08-19T11:08:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2091113",
+      "entity_name": "부산광역시 사회적 약자 반려동물 진료비 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2091113&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "addc0ac200634b4386c5ede050b015c3",
+      "ts": "2026-08-19T11:07:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2040683",
+      "entity_name": "부산광역시 반려동물 관련산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2040683&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0c16725797a94edf80b77dc0c1c49363",
+      "ts": "2026-08-19T11:00:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1918379",
+      "entity_name": "부산광역시 장애인가정 임신ㆍ출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1918379&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e745d2d00a81407390d748b14e4d2102",
+      "ts": "2026-08-19T11:00:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2029881",
+      "entity_name": "부산광역시 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2029881&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ce051db0344b43d88e5ed0df584202f6",
+      "ts": "2026-08-19T10:57:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1892993",
+      "entity_name": "부산광역시 저출산대책 및 출산·양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1892993&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "026ebbaf4ffb47188adf1bbd8cebb9ea",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26",
+      "entity_name": "부산광역시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

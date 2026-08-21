@@ -1,0 +1,127 @@
+{
+  "sig_cd": "41430",
+  "region_id": "41430",
+  "name": "의왕시",
+  "full_name": "경기도 의왕시",
+  "level": 2,
+  "status": "active",
+  "population": 165701,
+  "ordinance_kinds": {
+    "규칙": 105,
+    "조례": 503
+  },
+  "ordinance_total": 608,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 200
+    },
+    {
+      "code": "C02",
+      "count": 172
+    },
+    {
+      "code": "C03",
+      "count": 103
+    },
+    {
+      "code": "C11",
+      "count": 96
+    },
+    {
+      "code": "C08",
+      "count": 87
+    },
+    {
+      "code": "C05",
+      "count": 79
+    },
+    {
+      "code": "C09",
+      "count": 76
+    },
+    {
+      "code": "C07",
+      "count": 72
+    },
+    {
+      "code": "C06",
+      "count": 64
+    },
+    {
+      "code": "C13",
+      "count": 58
+    },
+    {
+      "code": "C10",
+      "count": 53
+    },
+    {
+      "code": "C04",
+      "count": 18
+    }
+  ],
+  "budget": {
+    "lines": 3074,
+    "exe_amt": 1184021318780,
+    "budget_now": 1806923177940
+  },
+  "recent_changes": [
+    {
+      "change_id": "c5e2af27902c4788893f4d94d9a50bd3",
+      "ts": "2026-08-19T14:51:59+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4127000|fyr:2025",
+      "entity_name": "4127000 2025 세출(1545건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e29376726b8a41d299886d9415ca480e",
+      "ts": "2026-08-19T14:19:39+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4127000|fyr:2026",
+      "entity_name": "4127000 2026 세출(1529건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4fc93f5d878343298fc01e8843cf9c24",
+      "ts": "2026-08-19T11:17:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1392755",
+      "entity_name": "의왕시 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1392755&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4ecbfb0b79f5477394045ed905e6e314",
+      "ts": "2026-08-19T11:02:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1830981",
+      "entity_name": "의왕시 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1830981&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4ae39c0ed14e4241a1cb40d82b50c042",
+      "ts": "2026-08-19T10:58:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1920489",
+      "entity_name": "의왕시 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1920489&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "07b3fc3388b845458578ad4affe4becb",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41430",
+      "entity_name": "의왕시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

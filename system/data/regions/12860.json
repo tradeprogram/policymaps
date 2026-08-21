@@ -1,0 +1,91 @@
+{
+  "sig_cd": "12860",
+  "region_id": "12860",
+  "name": "진도군",
+  "full_name": "전남광주통합특별시 진도군",
+  "level": 2,
+  "status": "active",
+  "population": 27841,
+  "ordinance_kinds": {
+    "규칙": 96,
+    "조례": 447
+  },
+  "ordinance_total": 543,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 205
+    },
+    {
+      "code": "C02",
+      "count": 152
+    },
+    {
+      "code": "C03",
+      "count": 76
+    },
+    {
+      "code": "C13",
+      "count": 69
+    },
+    {
+      "code": "C11",
+      "count": 65
+    },
+    {
+      "code": "C12",
+      "count": 61
+    },
+    {
+      "code": "C08",
+      "count": 60
+    },
+    {
+      "code": "C06",
+      "count": 52
+    },
+    {
+      "code": "C05",
+      "count": 52
+    },
+    {
+      "code": "C09",
+      "count": 43
+    },
+    {
+      "code": "C07",
+      "count": 39
+    },
+    {
+      "code": "C10",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "e737a20c82aa45f1b8d5a6ff864dcff3",
+      "ts": "2026-08-19T11:18:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2154277",
+      "entity_name": "진도군 유해야생동물에 의한 농작물 등 피해예방 및 보상금 지급에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2154277&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "924e51d014344ca788284d69d8286802",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12860",
+      "entity_name": "진도군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

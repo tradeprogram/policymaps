@@ -1,0 +1,127 @@
+{
+  "sig_cd": "44825",
+  "region_id": "44825",
+  "name": "태안군",
+  "full_name": "충청남도 태안군",
+  "level": 2,
+  "status": "active",
+  "population": 59005,
+  "ordinance_kinds": {
+    "규칙": 103,
+    "조례": 541
+  },
+  "ordinance_total": 644,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 235
+    },
+    {
+      "code": "C02",
+      "count": 173
+    },
+    {
+      "code": "C11",
+      "count": 98
+    },
+    {
+      "code": "C03",
+      "count": 98
+    },
+    {
+      "code": "C08",
+      "count": 75
+    },
+    {
+      "code": "C06",
+      "count": 74
+    },
+    {
+      "code": "C05",
+      "count": 72
+    },
+    {
+      "code": "C12",
+      "count": 69
+    },
+    {
+      "code": "C07",
+      "count": 65
+    },
+    {
+      "code": "C13",
+      "count": 61
+    },
+    {
+      "code": "C09",
+      "count": 61
+    },
+    {
+      "code": "C10",
+      "count": 37
+    }
+  ],
+  "budget": {
+    "lines": 4158,
+    "exe_amt": 1288852435760,
+    "budget_now": 1854804109379
+  },
+  "recent_changes": [
+    {
+      "change_id": "921005578c484bb9ba2890b9af32d6ba",
+      "ts": "2026-08-19T15:04:04+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4478000|fyr:2025",
+      "entity_name": "4478000 2025 세출(2123건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b1a51151868f4a6895ab73e193941111",
+      "ts": "2026-08-19T14:26:32+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4478000|fyr:2026",
+      "entity_name": "4478000 2026 세출(2035건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "8ef89183b2b14081924b07daea47ac28",
+      "ts": "2026-08-19T11:19:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1686549",
+      "entity_name": "태안군 야생동물 피해예방시설 설치비용 지원 및 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1686549&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "15c5d633602b4df78ba882d6959f1593",
+      "ts": "2026-08-19T11:19:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1832023",
+      "entity_name": "태안군 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1832023&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0cca0f4511e54e859a67860c764600f5",
+      "ts": "2026-08-19T11:03:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1726145",
+      "entity_name": "태안군 장애인 가정 임신·출산·양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1726145&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1fa9fbe455ca4bbe8bcc3816148b0296",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44825",
+      "entity_name": "태안군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

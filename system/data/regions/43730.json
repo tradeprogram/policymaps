@@ -1,0 +1,127 @@
+{
+  "sig_cd": "43730",
+  "region_id": "43730",
+  "name": "옥천군",
+  "full_name": "충청북도 옥천군",
+  "level": 2,
+  "status": "active",
+  "population": 50660,
+  "ordinance_kinds": {
+    "규칙": 101,
+    "조례": 510
+  },
+  "ordinance_total": 611,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 222
+    },
+    {
+      "code": "C02",
+      "count": 153
+    },
+    {
+      "code": "C03",
+      "count": 99
+    },
+    {
+      "code": "C11",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 81
+    },
+    {
+      "code": "C06",
+      "count": 65
+    },
+    {
+      "code": "C05",
+      "count": 61
+    },
+    {
+      "code": "C07",
+      "count": 57
+    },
+    {
+      "code": "C12",
+      "count": 56
+    },
+    {
+      "code": "C13",
+      "count": 54
+    },
+    {
+      "code": "C09",
+      "count": 49
+    },
+    {
+      "code": "C10",
+      "count": 37
+    }
+  ],
+  "budget": {
+    "lines": 3479,
+    "exe_amt": 1136842840020,
+    "budget_now": 1683148972310
+  },
+  "recent_changes": [
+    {
+      "change_id": "f0aa806eb9444d7cbf4eef5706a4f376",
+      "ts": "2026-08-19T14:58:16+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4373000|fyr:2025",
+      "entity_name": "4373000 2025 세출(1777건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5fe196d34654426ca65a4b1d317e0abc",
+      "ts": "2026-08-19T14:23:43+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4373000|fyr:2026",
+      "entity_name": "4373000 2026 세출(1702건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "336232b42ee14061ae1a4a0bdc7ee153",
+      "ts": "2026-08-19T11:17:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1818023",
+      "entity_name": "옥천군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1818023&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f5ff8b08db9f48c48ef4995274d8ea2d",
+      "ts": "2026-08-19T11:17:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1867073",
+      "entity_name": "옥천군 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867073&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "741fde8b58054c0c9e199b8a992b71b2",
+      "ts": "2026-08-19T11:09:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1867071",
+      "entity_name": "옥천군 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867071&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d99b478ba1384c178fc759aa6d7d4b3a",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43730",
+      "entity_name": "옥천군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

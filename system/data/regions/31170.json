@@ -1,0 +1,145 @@
+{
+  "sig_cd": "31170",
+  "region_id": "31170",
+  "name": "동구",
+  "full_name": "울산광역시 동구",
+  "level": 2,
+  "status": "active",
+  "population": 147633,
+  "ordinance_kinds": {
+    "규칙": 93,
+    "조례": 396
+  },
+  "ordinance_total": 489,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 188
+    },
+    {
+      "code": "C02",
+      "count": 128
+    },
+    {
+      "code": "C03",
+      "count": 94
+    },
+    {
+      "code": "C08",
+      "count": 67
+    },
+    {
+      "code": "C11",
+      "count": 66
+    },
+    {
+      "code": "C06",
+      "count": 63
+    },
+    {
+      "code": "C13",
+      "count": 57
+    },
+    {
+      "code": "C05",
+      "count": 54
+    },
+    {
+      "code": "C07",
+      "count": 45
+    },
+    {
+      "code": "C09",
+      "count": 42
+    },
+    {
+      "code": "C10",
+      "count": 35
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 1804,
+    "exe_amt": 738406566410,
+    "budget_now": 1012269310193
+  },
+  "recent_changes": [
+    {
+      "change_id": "f7d371cc02044749ac5e0ccb7d86837f",
+      "ts": "2026-08-19T14:47:30+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3113000|fyr:2025",
+      "entity_name": "3113000 2025 세출(932건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9cbf398aeaec4c0d9c34452068fcc308",
+      "ts": "2026-08-19T14:18:24+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3113000|fyr:2026",
+      "entity_name": "3113000 2026 세출(872건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "68db4eefaf7b45139ceffd2b68761c9c",
+      "ts": "2026-08-19T11:17:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2117295",
+      "entity_name": "울산광역시 동구 야생동물 피해보상 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2117295&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bf4909d43ac44887bb16fbb88a4dbd5f",
+      "ts": "2026-08-19T11:12:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1498617",
+      "entity_name": "울산광역시 동구 유실·유기동물 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1498617&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "856557dae4e246f88fb67329286bd71a",
+      "ts": "2026-08-19T11:09:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1645277",
+      "entity_name": "울산광역시 동구 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1645277&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "011ea0e339c14b2bbaae9048c1fa95b7",
+      "ts": "2026-08-19T11:02:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2024735",
+      "entity_name": "울산광역시 동구 저출산 대책 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2024735&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3f8db14b3b464978985094b8047b8ad6",
+      "ts": "2026-08-19T10:56:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1823539",
+      "entity_name": "울산광역시 동구 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1823539&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "191aac0184284125b3ded957565f0bd5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "31170",
+      "entity_name": "동구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

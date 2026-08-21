@@ -1,0 +1,163 @@
+{
+  "sig_cd": "30230",
+  "region_id": "30230",
+  "name": "대덕구",
+  "full_name": "대전광역시 대덕구",
+  "level": 2,
+  "status": "active",
+  "population": 163823,
+  "ordinance_kinds": {
+    "규칙": 89,
+    "조례": 504
+  },
+  "ordinance_total": 593,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 208
+    },
+    {
+      "code": "C02",
+      "count": 161
+    },
+    {
+      "code": "C03",
+      "count": 124
+    },
+    {
+      "code": "C08",
+      "count": 82
+    },
+    {
+      "code": "C06",
+      "count": 78
+    },
+    {
+      "code": "C11",
+      "count": 73
+    },
+    {
+      "code": "C05",
+      "count": 71
+    },
+    {
+      "code": "C13",
+      "count": 62
+    },
+    {
+      "code": "C07",
+      "count": 54
+    },
+    {
+      "code": "C09",
+      "count": 42
+    },
+    {
+      "code": "C10",
+      "count": 30
+    },
+    {
+      "code": "C04",
+      "count": 20
+    }
+  ],
+  "budget": {
+    "lines": 2741,
+    "exe_amt": 1133391765376,
+    "budget_now": 1646795599882
+  },
+  "recent_changes": [
+    {
+      "change_id": "2b954189a06747c998402b2d51a3388b",
+      "ts": "2026-08-19T14:47:00+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3015000|fyr:2025",
+      "entity_name": "3015000 2025 세출(1401건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a36f621bb9014e1095af5f85b5dfabb9",
+      "ts": "2026-08-19T14:18:17+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3015000|fyr:2026",
+      "entity_name": "3015000 2026 세출(1340건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d46e18ddfe7b449c964cd414503373c4",
+      "ts": "2026-08-19T11:14:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1991567",
+      "entity_name": "대전광역시 대덕구 야생동물로 인한 피해 예방 및 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1991567&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "778dd0cc3673430d9e8c33f4a5eb8657",
+      "ts": "2026-08-19T11:12:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1942485",
+      "entity_name": "대전광역시 대덕구 유실ㆍ유기동물 보호와 입양 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942485&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b562e0a308d74b21825e69d3f2a0e865",
+      "ts": "2026-08-19T11:11:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2091683",
+      "entity_name": "대전광역시 대덕구 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2091683&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "99974eed9f944aaf9431aa3003400eaa",
+      "ts": "2026-08-19T11:07:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2014189",
+      "entity_name": "대전광역시 대덕구 사회적 약자 반려동물 의료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2014189&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ccdfc9cb088c4ad388998bd5e54fff98",
+      "ts": "2026-08-19T11:07:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1879021",
+      "entity_name": "대전광역시 대덕구 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1879021&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3db7314fc1d34634a1eb652d766721a6",
+      "ts": "2026-08-19T10:59:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1413889",
+      "entity_name": "대전광역시 대덕구 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1413889&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b69d18d54122483d95e296216a085ba6",
+      "ts": "2026-08-19T10:55:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1991557",
+      "entity_name": "대전광역시 대덕구 출생축하금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1991557&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6a6769305db3484ea0b8ccb98f8434e1",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "30230",
+      "entity_name": "대덕구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

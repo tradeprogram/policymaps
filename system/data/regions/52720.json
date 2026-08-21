@@ -1,0 +1,136 @@
+{
+  "sig_cd": "52720",
+  "region_id": "52720",
+  "name": "진안군",
+  "full_name": "전북특별자치도 진안군",
+  "level": 2,
+  "status": "active",
+  "population": 24855,
+  "ordinance_kinds": {
+    "규칙": 120,
+    "조례": 469
+  },
+  "ordinance_total": 589,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 227
+    },
+    {
+      "code": "C02",
+      "count": 161
+    },
+    {
+      "code": "C03",
+      "count": 86
+    },
+    {
+      "code": "C11",
+      "count": 84
+    },
+    {
+      "code": "C13",
+      "count": 68
+    },
+    {
+      "code": "C08",
+      "count": 68
+    },
+    {
+      "code": "C12",
+      "count": 63
+    },
+    {
+      "code": "C05",
+      "count": 60
+    },
+    {
+      "code": "C06",
+      "count": 54
+    },
+    {
+      "code": "C09",
+      "count": 53
+    },
+    {
+      "code": "C07",
+      "count": 50
+    },
+    {
+      "code": "C10",
+      "count": 32
+    }
+  ],
+  "budget": {
+    "lines": 3274,
+    "exe_amt": 1025112999937,
+    "budget_now": 1622317884990
+  },
+  "recent_changes": [
+    {
+      "change_id": "385918e14b734a36a2fda703ad753d36",
+      "ts": "2026-08-19T15:06:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4572000|fyr:2025",
+      "entity_name": "4572000 2025 세출(1656건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "615732c4e3c146c0bb4f400f39926009",
+      "ts": "2026-08-19T14:27:51+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4572000|fyr:2026",
+      "entity_name": "4572000 2026 세출(1618건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0da2285f6f29494caf8e7585267455b8",
+      "ts": "2026-08-19T11:18:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1352844",
+      "entity_name": "진안군 유해야생동물에 의한 농작물 등 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1352844&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "856f9862348a4074826b88844c72e328",
+      "ts": "2026-08-19T11:18:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1977223",
+      "entity_name": "진안군 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1977223&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f0cb0c87bfcf4ebaa7b1cf12e1796e57",
+      "ts": "2026-08-19T11:03:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2090325",
+      "entity_name": "진안군 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2090325&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f80c88bc2b9b4c2a8c886cec1fe74519",
+      "ts": "2026-08-19T10:56:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2162705",
+      "entity_name": "진안군 출산장려 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2162705&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "28e5fa197b834ca28c92e0bfc5b4cd75",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52720",
+      "entity_name": "진안군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

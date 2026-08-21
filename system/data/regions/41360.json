@@ -1,0 +1,154 @@
+{
+  "sig_cd": "41360",
+  "region_id": "41360",
+  "name": "남양주시",
+  "full_name": "경기도 남양주시",
+  "level": 2,
+  "status": "active",
+  "population": 727373,
+  "ordinance_kinds": {
+    "규칙": 116,
+    "조례": 641
+  },
+  "ordinance_total": 757,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 240
+    },
+    {
+      "code": "C02",
+      "count": 209
+    },
+    {
+      "code": "C03",
+      "count": 127
+    },
+    {
+      "code": "C11",
+      "count": 116
+    },
+    {
+      "code": "C05",
+      "count": 104
+    },
+    {
+      "code": "C09",
+      "count": 95
+    },
+    {
+      "code": "C08",
+      "count": 92
+    },
+    {
+      "code": "C07",
+      "count": 87
+    },
+    {
+      "code": "C13",
+      "count": 86
+    },
+    {
+      "code": "C06",
+      "count": 77
+    },
+    {
+      "code": "C10",
+      "count": 58
+    },
+    {
+      "code": "C12",
+      "count": 35
+    }
+  ],
+  "budget": {
+    "lines": 6055,
+    "exe_amt": 4478749090665,
+    "budget_now": 6341978603993
+  },
+  "recent_changes": [
+    {
+      "change_id": "729ceb803c1143eba776ee05cf0a05a1",
+      "ts": "2026-08-19T14:50:56+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4123000|fyr:2025",
+      "entity_name": "4123000 2025 세출(3107건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "493b73f6dfe5438cbe2ac8bcac2e96d2",
+      "ts": "2026-08-19T14:19:21+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4123000|fyr:2026",
+      "entity_name": "4123000 2026 세출(2948건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "60ea6261c27542e7b70f91e29bc6d76b",
+      "ts": "2026-08-19T11:13:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2079153",
+      "entity_name": "남양주시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079153&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9e7015ce89fe4d9ea98c29135acf4c94",
+      "ts": "2026-08-19T11:11:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2053075",
+      "entity_name": "남양주시 동물복지 및 유기동물로 인한 피해 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053075&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "47801c6e19a64083808fdb8999ba093d",
+      "ts": "2026-08-19T11:11:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2002273",
+      "entity_name": "남양주시 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002273&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3775b46087d94a109aaf50c1b3f9a1df",
+      "ts": "2026-08-19T11:07:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1728355",
+      "entity_name": "남양주시 중증장애인 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1728355&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0ec33bfa9e824f8f96c9699a940a77f8",
+      "ts": "2026-08-19T10:59:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1683229",
+      "entity_name": "남양주시 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1683229&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "edb9a6d760034e259cde30710d23a3d1",
+      "ts": "2026-08-19T10:55:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2002291",
+      "entity_name": "남양주시 출산축하금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002291&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5dec485def184980b14d532c66ef5a35",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41360",
+      "entity_name": "남양주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

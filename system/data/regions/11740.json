@@ -1,0 +1,136 @@
+{
+  "sig_cd": "11740",
+  "region_id": "11740",
+  "name": "강동구",
+  "full_name": "서울특별시 강동구",
+  "level": 2,
+  "status": "active",
+  "population": 498701,
+  "ordinance_kinds": {
+    "규칙": 108,
+    "조례": 454
+  },
+  "ordinance_total": 562,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 213
+    },
+    {
+      "code": "C02",
+      "count": 161
+    },
+    {
+      "code": "C03",
+      "count": 104
+    },
+    {
+      "code": "C05",
+      "count": 74
+    },
+    {
+      "code": "C11",
+      "count": 70
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C08",
+      "count": 66
+    },
+    {
+      "code": "C06",
+      "count": 65
+    },
+    {
+      "code": "C07",
+      "count": 64
+    },
+    {
+      "code": "C09",
+      "count": 52
+    },
+    {
+      "code": "C10",
+      "count": 35
+    },
+    {
+      "code": "C04",
+      "count": 10
+    }
+  ],
+  "budget": {
+    "lines": 2462,
+    "exe_amt": 2209442592496,
+    "budget_now": 2796797162150
+  },
+  "recent_changes": [
+    {
+      "change_id": "bc7f00ddcd8c4319888cd6450de238d3",
+      "ts": "2026-08-19T14:40:57+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1135000|fyr:2025",
+      "entity_name": "1135000 2025 세출(1274건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "7c164a330bcf4b7b9514819a24af61c0",
+      "ts": "2026-08-19T14:17:00+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1135000|fyr:2026",
+      "entity_name": "1135000 2026 세출(1188건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fe296617c0d0442f8e12708509901f5f",
+      "ts": "2026-08-19T11:15:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2052927",
+      "entity_name": "서울특별시 강동구 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2052927&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fa154b1279634887967467d11ea1ecf9",
+      "ts": "2026-08-19T11:00:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1602481",
+      "entity_name": "서울특별시 강동구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602481&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "81a7bc843e124d7f90ae84273aada7af",
+      "ts": "2026-08-19T10:58:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2065743",
+      "entity_name": "서울특별시 강동구 출산장려 및 다자녀가정 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2065743&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "21f2e6226d3c4cca84770d962d2ad1af",
+      "ts": "2026-08-19T10:55:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2069403",
+      "entity_name": "서울특별시 강동구 출산장려 및 다자녀가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2069403&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "df50877d87e14b608ee9658e361db630",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11740",
+      "entity_name": "강동구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

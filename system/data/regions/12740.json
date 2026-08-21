@@ -1,0 +1,109 @@
+{
+  "sig_cd": "12740",
+  "region_id": "12740",
+  "name": "고흥군",
+  "full_name": "전남광주통합특별시 고흥군",
+  "level": 2,
+  "status": "active",
+  "population": 58991,
+  "ordinance_kinds": {
+    "규칙": 107,
+    "조례": 486
+  },
+  "ordinance_total": 593,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 223
+    },
+    {
+      "code": "C02",
+      "count": 168
+    },
+    {
+      "code": "C11",
+      "count": 81
+    },
+    {
+      "code": "C03",
+      "count": 73
+    },
+    {
+      "code": "C08",
+      "count": 71
+    },
+    {
+      "code": "C12",
+      "count": 63
+    },
+    {
+      "code": "C13",
+      "count": 61
+    },
+    {
+      "code": "C05",
+      "count": 61
+    },
+    {
+      "code": "C06",
+      "count": 58
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 49
+    },
+    {
+      "code": "C10",
+      "count": 41
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "d5c460a6870b4af4a9c4b27f8fc563af",
+      "ts": "2026-08-19T11:12:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2157301",
+      "entity_name": "고흥군 야생동물 피해예방 및 보상금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2157301&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5edcfe43cf2b46f1a1c8bb8f1f95883f",
+      "ts": "2026-08-19T11:12:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2112023",
+      "entity_name": "고흥군 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2112023&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d45c7bd824aa4abe848e8bdb71a46daa",
+      "ts": "2026-08-19T10:57:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2157025",
+      "entity_name": "고흥군 출산장려 및 양육비 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2157025&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "02e7998055c7482896c4bbf4a1a24c6b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12740",
+      "entity_name": "고흥군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

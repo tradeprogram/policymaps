@@ -1,0 +1,154 @@
+{
+  "sig_cd": "52000",
+  "region_id": "52",
+  "name": "전북특별자치도",
+  "full_name": "전북특별자치도",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 152,
+    "조례": 1013
+  },
+  "ordinance_total": 1165,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 1117
+    },
+    {
+      "code": "C11",
+      "count": 226
+    },
+    {
+      "code": "C02",
+      "count": 191
+    },
+    {
+      "code": "C03",
+      "count": 145
+    },
+    {
+      "code": "C08",
+      "count": 132
+    },
+    {
+      "code": "C13",
+      "count": 101
+    },
+    {
+      "code": "C05",
+      "count": 93
+    },
+    {
+      "code": "C12",
+      "count": 92
+    },
+    {
+      "code": "C09",
+      "count": 90
+    },
+    {
+      "code": "C07",
+      "count": 88
+    },
+    {
+      "code": "C06",
+      "count": 57
+    },
+    {
+      "code": "C10",
+      "count": 42
+    }
+  ],
+  "budget": {
+    "lines": 7908,
+    "exe_amt": 18282162784939,
+    "budget_now": 23644350080616
+  },
+  "recent_changes": [
+    {
+      "change_id": "ec4cc51928db4bca94f1f05ef8b2b64b",
+      "ts": "2026-08-19T11:18:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1901007",
+      "entity_name": "전북특별자치도 야생동물 피해예방시설 설치비용 및 피해보상 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1901007&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cdf136ed3c404219b89f2b41b5f531b2",
+      "ts": "2026-08-19T11:18:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1972291",
+      "entity_name": "전북특별자치도 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1972291&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fbb0371908b54c43b24ac7e72c374669",
+      "ts": "2026-08-19T11:10:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1972293",
+      "entity_name": "전북특별자치도 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1972293&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f5045359628745578bd8130fcd292aff",
+      "ts": "2026-08-19T11:10:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2056319",
+      "entity_name": "전북특별자치도 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2056319&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b43d697c90564d77af586cbd37f32a4d",
+      "ts": "2026-08-19T11:04:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1903371",
+      "entity_name": "전북특별자치도 저출산·고령사회 대책 지원 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1903371&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "842c272c68d94220920dd9c189a9dfc3",
+      "ts": "2026-08-19T11:03:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1883821",
+      "entity_name": "전북특별자치도 저출산·고령사회 대책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1883821&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2874331b9cac4dc68606f8ca37ca32b0",
+      "ts": "2026-08-19T11:03:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1901689",
+      "entity_name": "전북특별자치도 장애인가정 임신ㆍ출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1901689&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "260af114fd3c46d6b76d012d36ddcf48",
+      "ts": "2026-08-19T11:03:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2078307",
+      "entity_name": "전북특별자치도 위기 임신 및 보호출산 지원과 아동보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2078307&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b668c4445b7a4ee89e68a7d686b36d9e",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52",
+      "entity_name": "전북특별자치도",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

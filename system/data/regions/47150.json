@@ -1,0 +1,118 @@
+{
+  "sig_cd": "47150",
+  "region_id": "47150",
+  "name": "김천시",
+  "full_name": "경상북도 김천시",
+  "level": 2,
+  "status": "active",
+  "population": 132550,
+  "ordinance_kinds": {
+    "규칙": 114,
+    "조례": 462
+  },
+  "ordinance_total": 576,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 229
+    },
+    {
+      "code": "C02",
+      "count": 181
+    },
+    {
+      "code": "C03",
+      "count": 83
+    },
+    {
+      "code": "C11",
+      "count": 74
+    },
+    {
+      "code": "C08",
+      "count": 72
+    },
+    {
+      "code": "C09",
+      "count": 62
+    },
+    {
+      "code": "C13",
+      "count": 60
+    },
+    {
+      "code": "C05",
+      "count": 54
+    },
+    {
+      "code": "C07",
+      "count": 53
+    },
+    {
+      "code": "C06",
+      "count": 42
+    },
+    {
+      "code": "C12",
+      "count": 37
+    },
+    {
+      "code": "C10",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 4290,
+    "exe_amt": 2222822703099,
+    "budget_now": 3675762942810
+  },
+  "recent_changes": [
+    {
+      "change_id": "ec149b501f5b4c3d95f41690456b2e29",
+      "ts": "2026-08-19T15:16:35+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4713000|fyr:2025",
+      "entity_name": "4713000 2025 세출(2143건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "74dd9a42dc4b43b08c43f3de2a9b36bd",
+      "ts": "2026-08-19T14:32:42+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4713000|fyr:2026",
+      "entity_name": "4713000 2026 세출(2147건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "db2d466a6ccf4b818fbd789717d3e912",
+      "ts": "2026-08-19T11:13:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2085775",
+      "entity_name": "김천시 야생동물로 인한 인명 및 농작물 등 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2085775&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "aa7e79ad1b2b4e3598bec70c99df14cf",
+      "ts": "2026-08-19T10:54:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2160557",
+      "entity_name": "김천시 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2160557&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4b72db0cb4144d38b411a9d385dc0e38",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47150",
+      "entity_name": "김천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

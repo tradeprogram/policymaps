@@ -1,0 +1,154 @@
+{
+  "sig_cd": "11230",
+  "region_id": "11230",
+  "name": "동대문구",
+  "full_name": "서울특별시 동대문구",
+  "level": 2,
+  "status": "active",
+  "population": 353070,
+  "ordinance_kinds": {
+    "규칙": 101,
+    "조례": 480
+  },
+  "ordinance_total": 581,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 224
+    },
+    {
+      "code": "C02",
+      "count": 166
+    },
+    {
+      "code": "C03",
+      "count": 120
+    },
+    {
+      "code": "C11",
+      "count": 82
+    },
+    {
+      "code": "C06",
+      "count": 81
+    },
+    {
+      "code": "C13",
+      "count": 71
+    },
+    {
+      "code": "C05",
+      "count": 71
+    },
+    {
+      "code": "C08",
+      "count": 69
+    },
+    {
+      "code": "C09",
+      "count": 55
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C10",
+      "count": 35
+    },
+    {
+      "code": "C04",
+      "count": 18
+    }
+  ],
+  "budget": {
+    "lines": 1926,
+    "exe_amt": 1754717128375,
+    "budget_now": 2597506298080
+  },
+  "recent_changes": [
+    {
+      "change_id": "9e31ceda82e6421f9fc159e27918a3b1",
+      "ts": "2026-08-19T14:38:27+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1116000|fyr:2025",
+      "entity_name": "1116000 2025 세출(1004건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "96086ca6c6a04472973bc1354dfb622d",
+      "ts": "2026-08-19T14:16:44+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1116000|fyr:2026",
+      "entity_name": "1116000 2026 세출(922건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a1c9959209d84258bbf025750202d4c8",
+      "ts": "2026-08-19T11:15:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2026845",
+      "entity_name": "서울특별시 동대문구 유해야생동물 피해예방 및 관리 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2026845&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ac5d99dbe86c466e8a34299ccbf2ac1c",
+      "ts": "2026-08-19T11:15:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2035113",
+      "entity_name": "서울특별시 동대문구 동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2035113&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b9a4ca5396f74f638ba54eb3f080e4a3",
+      "ts": "2026-08-19T11:01:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1611255",
+      "entity_name": "서울특별시 동대문구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1611255&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a540e95aa6e64f57a03c2582c24ab9fc",
+      "ts": "2026-08-19T11:01:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2082333",
+      "entity_name": "서울특별시 동대문구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2082333&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fcd45e2094a24556bae18a9cfb5fd4b2",
+      "ts": "2026-08-19T10:58:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1517955",
+      "entity_name": "서울특별시 동대문구 출산장려에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1517955&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9a8c48145b3f423299650bf4b03659c7",
+      "ts": "2026-08-19T10:57:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1890197",
+      "entity_name": "서울특별시 동대문구 출생 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1890197&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "554c8dfc7491446aa9d6563720eca33a",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11230",
+      "entity_name": "동대문구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

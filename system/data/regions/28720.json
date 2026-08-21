@@ -1,0 +1,118 @@
+{
+  "sig_cd": "28720",
+  "region_id": "28720",
+  "name": "옹진군",
+  "full_name": "인천광역시 옹진군",
+  "level": 2,
+  "status": "active",
+  "population": 19327,
+  "ordinance_kinds": {
+    "규칙": 96,
+    "조례": 342
+  },
+  "ordinance_total": 438,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 198
+    },
+    {
+      "code": "C02",
+      "count": 137
+    },
+    {
+      "code": "C11",
+      "count": 54
+    },
+    {
+      "code": "C03",
+      "count": 54
+    },
+    {
+      "code": "C08",
+      "count": 49
+    },
+    {
+      "code": "C13",
+      "count": 48
+    },
+    {
+      "code": "C06",
+      "count": 48
+    },
+    {
+      "code": "C12",
+      "count": 40
+    },
+    {
+      "code": "C07",
+      "count": 39
+    },
+    {
+      "code": "C05",
+      "count": 35
+    },
+    {
+      "code": "C10",
+      "count": 31
+    },
+    {
+      "code": "C09",
+      "count": 24
+    }
+  ],
+  "budget": {
+    "lines": 3003,
+    "exe_amt": 771214103844,
+    "budget_now": 1196263030120
+  },
+  "recent_changes": [
+    {
+      "change_id": "fc87221a88c647b09f4420802ae550d5",
+      "ts": "2026-08-19T14:45:09+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2872000|fyr:2025",
+      "entity_name": "2872000 2025 세출(1479건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4a4db195d67343dbb96313c9ff5bf244",
+      "ts": "2026-08-19T14:17:55+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2872000|fyr:2026",
+      "entity_name": "2872000 2026 세출(1524건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "aa973ad5dd8f4b859028cf2867180fc1",
+      "ts": "2026-08-19T11:17:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2004731",
+      "entity_name": "옹진군 야생동물에 의한 농작물 등 피해 보상금 지급에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2004731&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2d5b7e1d10a24b9a97e989b7f1abcc72",
+      "ts": "2026-08-19T10:56:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2059909",
+      "entity_name": "옹진군 출생장려 및 저출산 대책 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2059909&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f8de6d43631b4047aae4139cbad5528d",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28720",
+      "entity_name": "옹진군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

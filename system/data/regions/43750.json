@@ -1,0 +1,145 @@
+{
+  "sig_cd": "43750",
+  "region_id": "43750",
+  "name": "진천군",
+  "full_name": "충청북도 진천군",
+  "level": 2,
+  "status": "active",
+  "population": 85590,
+  "ordinance_kinds": {
+    "규칙": 112,
+    "조례": 514
+  },
+  "ordinance_total": 626,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 228
+    },
+    {
+      "code": "C02",
+      "count": 183
+    },
+    {
+      "code": "C03",
+      "count": 104
+    },
+    {
+      "code": "C11",
+      "count": 92
+    },
+    {
+      "code": "C08",
+      "count": 76
+    },
+    {
+      "code": "C05",
+      "count": 66
+    },
+    {
+      "code": "C07",
+      "count": 65
+    },
+    {
+      "code": "C06",
+      "count": 65
+    },
+    {
+      "code": "C13",
+      "count": 59
+    },
+    {
+      "code": "C09",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 51
+    },
+    {
+      "code": "C10",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 4060,
+    "exe_amt": 1195497165300,
+    "budget_now": 1705783506300
+  },
+  "recent_changes": [
+    {
+      "change_id": "53dc5e7728314564be2ed1b06534318d",
+      "ts": "2026-08-19T14:58:42+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4375000|fyr:2025",
+      "entity_name": "4375000 2025 세출(2055건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "da4bd71d43cf42d8bd65fe79474f2b16",
+      "ts": "2026-08-19T14:23:57+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4375000|fyr:2026",
+      "entity_name": "4375000 2026 세출(2005건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e579361a97b64358a51fd644568fe5af",
+      "ts": "2026-08-19T11:18:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:832021",
+      "entity_name": "진천군 야생동물 피해예방시설 지원 및 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=832021&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0a56885bd4e245219d35de066bce4ca1",
+      "ts": "2026-08-19T11:18:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1942907",
+      "entity_name": "진천군 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942907&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1aa5d4fcca874186aae07abf0585a3c0",
+      "ts": "2026-08-19T11:11:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2047579",
+      "entity_name": "진천군 반려견 놀이터 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2047579&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "33db07a9f8144783b6ecef90b13c3e0c",
+      "ts": "2026-08-19T11:06:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2073743",
+      "entity_name": "진천군 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2073743&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d83f86309cbc4434810b76824baa85c8",
+      "ts": "2026-08-19T11:03:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1912531",
+      "entity_name": "진천군 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912531&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5677cae40d6541c1b18a08ea99eedffc",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43750",
+      "entity_name": "진천군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

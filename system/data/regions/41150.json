@@ -1,0 +1,145 @@
+{
+  "sig_cd": "41150",
+  "region_id": "41150",
+  "name": "의정부시",
+  "full_name": "경기도 의정부시",
+  "level": 2,
+  "status": "active",
+  "population": 461879,
+  "ordinance_kinds": {
+    "규칙": 115,
+    "조례": 580
+  },
+  "ordinance_total": 695,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 232
+    },
+    {
+      "code": "C02",
+      "count": 187
+    },
+    {
+      "code": "C03",
+      "count": 124
+    },
+    {
+      "code": "C11",
+      "count": 110
+    },
+    {
+      "code": "C05",
+      "count": 95
+    },
+    {
+      "code": "C08",
+      "count": 88
+    },
+    {
+      "code": "C06",
+      "count": 84
+    },
+    {
+      "code": "C07",
+      "count": 81
+    },
+    {
+      "code": "C13",
+      "count": 78
+    },
+    {
+      "code": "C09",
+      "count": 78
+    },
+    {
+      "code": "C10",
+      "count": 52
+    },
+    {
+      "code": "C12",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 3333,
+    "exe_amt": 2668403754559,
+    "budget_now": 3510506016280
+  },
+  "recent_changes": [
+    {
+      "change_id": "77b413d5ad6145cdbbce77875a42a22a",
+      "ts": "2026-08-19T14:49:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4113000|fyr:2025",
+      "entity_name": "4113000 2025 세출(1697건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a66ccabc6d76449ba3da254a8e6a3bc6",
+      "ts": "2026-08-19T14:18:49+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4113000|fyr:2026",
+      "entity_name": "4113000 2026 세출(1636건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fd5085cf72124a1d97084b4db5db23fb",
+      "ts": "2026-08-19T11:17:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2047275",
+      "entity_name": "의정부시 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2047275&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fd2169f65a8d4eff95b29b88b29a76a2",
+      "ts": "2026-08-19T11:17:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2013103",
+      "entity_name": "의정부시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2013103&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4709caf07bff46f6a0683ca5db244142",
+      "ts": "2026-08-19T11:17:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2016275",
+      "entity_name": "의정부시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2016275&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a253d54db88449929badd3ac1da335a3",
+      "ts": "2026-08-19T11:02:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2011301",
+      "entity_name": "의정부시 저출산·고령사회정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2011301&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6a788b62161741a3a118514bede45a49",
+      "ts": "2026-08-19T10:56:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2107005",
+      "entity_name": "의정부시 출산장려금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107005&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5ff7a1b315b345748b06912e91373e17",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41150",
+      "entity_name": "의정부시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

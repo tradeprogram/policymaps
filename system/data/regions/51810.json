@@ -1,0 +1,118 @@
+{
+  "sig_cd": "51810",
+  "region_id": "51810",
+  "name": "인제군",
+  "full_name": "강원특별자치도 인제군",
+  "level": 2,
+  "status": "active",
+  "population": 30778,
+  "ordinance_kinds": {
+    "규칙": 100,
+    "조례": 392
+  },
+  "ordinance_total": 492,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 202
+    },
+    {
+      "code": "C02",
+      "count": 151
+    },
+    {
+      "code": "C11",
+      "count": 66
+    },
+    {
+      "code": "C03",
+      "count": 58
+    },
+    {
+      "code": "C08",
+      "count": 57
+    },
+    {
+      "code": "C06",
+      "count": 48
+    },
+    {
+      "code": "C05",
+      "count": 47
+    },
+    {
+      "code": "C13",
+      "count": 46
+    },
+    {
+      "code": "C09",
+      "count": 43
+    },
+    {
+      "code": "C12",
+      "count": 42
+    },
+    {
+      "code": "C07",
+      "count": 34
+    },
+    {
+      "code": "C10",
+      "count": 32
+    }
+  ],
+  "budget": {
+    "lines": 2878,
+    "exe_amt": 1099603931365,
+    "budget_now": 1712030213675
+  },
+  "recent_changes": [
+    {
+      "change_id": "1c716b3bdf9c411cbe948cf3a3b5bb2d",
+      "ts": "2026-08-19T14:57:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4279000|fyr:2025",
+      "entity_name": "4279000 2025 세출(1452건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "8c76242b217344f28efa0e703e1571c0",
+      "ts": "2026-08-19T14:22:43+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4279000|fyr:2026",
+      "entity_name": "4279000 2026 세출(1426건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "937d166973de4cd7a448a6ecbd56eb00",
+      "ts": "2026-08-19T11:17:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1436911",
+      "entity_name": "인제군 야생동물로 인한 피해 예방 및 보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1436911&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "01f4132e8f9241b299ee599fd5467931",
+      "ts": "2026-08-19T10:56:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1486519",
+      "entity_name": "인제군 출산장려금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1486519&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "476156b8c58c4246b30f38c37696d88f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51810",
+      "entity_name": "인제군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,163 @@
+{
+  "sig_cd": "48170",
+  "region_id": "48170",
+  "name": "진주시",
+  "full_name": "경상남도 진주시",
+  "level": 2,
+  "status": "active",
+  "population": 334360,
+  "ordinance_kinds": {
+    "규칙": 117,
+    "조례": 566
+  },
+  "ordinance_total": 683,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 230
+    },
+    {
+      "code": "C02",
+      "count": 193
+    },
+    {
+      "code": "C11",
+      "count": 131
+    },
+    {
+      "code": "C03",
+      "count": 96
+    },
+    {
+      "code": "C13",
+      "count": 89
+    },
+    {
+      "code": "C05",
+      "count": 89
+    },
+    {
+      "code": "C08",
+      "count": 77
+    },
+    {
+      "code": "C09",
+      "count": 73
+    },
+    {
+      "code": "C07",
+      "count": 66
+    },
+    {
+      "code": "C12",
+      "count": 59
+    },
+    {
+      "code": "C06",
+      "count": 49
+    },
+    {
+      "code": "C10",
+      "count": 43
+    }
+  ],
+  "budget": {
+    "lines": 5217,
+    "exe_amt": 3057954750970,
+    "budget_now": 4422353409711
+  },
+  "recent_changes": [
+    {
+      "change_id": "5f91476460714ce1a68984fd9f7f1bc6",
+      "ts": "2026-08-19T15:22:07+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4813000|fyr:2025",
+      "entity_name": "4813000 2025 세출(2702건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "45760b49f2af43caa21df82af5dcbe45",
+      "ts": "2026-08-19T14:35:15+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4813000|fyr:2026",
+      "entity_name": "4813000 2026 세출(2515건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c26bd9f9b93040a39f108586fffa1b2a",
+      "ts": "2026-08-19T11:18:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1513989",
+      "entity_name": "진주시 야생동물로 인한 피해예방 및 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1513989&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0865fefaa44c488fa277876c86a2eb04",
+      "ts": "2026-08-19T11:18:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1816713",
+      "entity_name": "진주시 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816713&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "547e4fd5a48346cab64ea8fa55c8c821",
+      "ts": "2026-08-19T11:10:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1845283",
+      "entity_name": "진주시 중증장애인 반려동물 진료비 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1845283&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0625657838ff4a96a72fe089449844eb",
+      "ts": "2026-08-19T11:10:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2021799",
+      "entity_name": "진주시 반려동물 보호 및 반려문화 조성 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021799&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f063ccc4f136437aacb806556a962358",
+      "ts": "2026-08-19T11:06:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2034631",
+      "entity_name": "진주시 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2034631&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f0e65051460b4156b369505442c3d359",
+      "ts": "2026-08-19T11:03:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2119441",
+      "entity_name": "진주시 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119441&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "25c0dfecc7424ab187bcb4e92c99afa1",
+      "ts": "2026-08-19T10:56:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1997045",
+      "entity_name": "진주시 출산장려 등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1997045&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bc3740aa22e047c39f60ff6862191299",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48170",
+      "entity_name": "진주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

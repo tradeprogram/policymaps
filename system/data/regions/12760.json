@@ -1,0 +1,109 @@
+{
+  "sig_cd": "12760",
+  "region_id": "12760",
+  "name": "화순군",
+  "full_name": "전남광주통합특별시 화순군",
+  "level": 2,
+  "status": "active",
+  "population": 59820,
+  "ordinance_kinds": {
+    "규칙": 86,
+    "조례": 472
+  },
+  "ordinance_total": 558,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 206
+    },
+    {
+      "code": "C02",
+      "count": 160
+    },
+    {
+      "code": "C11",
+      "count": 90
+    },
+    {
+      "code": "C03",
+      "count": 79
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C08",
+      "count": 63
+    },
+    {
+      "code": "C09",
+      "count": 56
+    },
+    {
+      "code": "C05",
+      "count": 55
+    },
+    {
+      "code": "C12",
+      "count": 52
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C06",
+      "count": 44
+    },
+    {
+      "code": "C10",
+      "count": 33
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "ef4802c4cc00499a9be6ba175a929b04",
+      "ts": "2026-08-19T11:20:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1824177",
+      "entity_name": "화순군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1824177&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a2c9911613e64985bb5ecfc29a25256f",
+      "ts": "2026-08-19T11:19:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1754599",
+      "entity_name": "화순군 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1754599&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "257c44d586c64d2aa789cf992e0c67a4",
+      "ts": "2026-08-19T10:58:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2110399",
+      "entity_name": "화순군 출산 장려 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2110399&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cd84ebf40cc449e5afe753edcbac7a2b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12760",
+      "entity_name": "화순군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

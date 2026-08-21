@@ -1,0 +1,118 @@
+{
+  "sig_cd": "47930",
+  "region_id": "47930",
+  "name": "울진군",
+  "full_name": "경상북도 울진군",
+  "level": 2,
+  "status": "active",
+  "population": 46216,
+  "ordinance_kinds": {
+    "규칙": 104,
+    "조례": 432
+  },
+  "ordinance_total": 536,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 190
+    },
+    {
+      "code": "C02",
+      "count": 160
+    },
+    {
+      "code": "C03",
+      "count": 82
+    },
+    {
+      "code": "C11",
+      "count": 68
+    },
+    {
+      "code": "C13",
+      "count": 65
+    },
+    {
+      "code": "C08",
+      "count": 61
+    },
+    {
+      "code": "C07",
+      "count": 58
+    },
+    {
+      "code": "C12",
+      "count": 57
+    },
+    {
+      "code": "C05",
+      "count": 57
+    },
+    {
+      "code": "C06",
+      "count": 50
+    },
+    {
+      "code": "C09",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 36
+    }
+  ],
+  "budget": {
+    "lines": 4211,
+    "exe_amt": 1305282614431,
+    "budget_now": 2266453049770
+  },
+  "recent_changes": [
+    {
+      "change_id": "1746a4e397fa4607baee383606372c4d",
+      "ts": "2026-08-19T15:21:05+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4782000|fyr:2025",
+      "entity_name": "4782000 2025 세출(2222건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "20be8fee4da5438ca0dc82fa22c18c0c",
+      "ts": "2026-08-19T14:34:48+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4782000|fyr:2026",
+      "entity_name": "4782000 2026 세출(1989건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "6e801cf4cefd47cabba1e6defe5d7ea5",
+      "ts": "2026-08-19T11:17:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1270445",
+      "entity_name": "울진군야생동물에 의한 농작물 등 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1270445&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "00b1703c50f04a3d928b78eb87149026",
+      "ts": "2026-08-19T10:56:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1919615",
+      "entity_name": "울진군 출산장려금 등 모자보건 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1919615&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e211df7727cf45959acf303cd84af0a3",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47930",
+      "entity_name": "울진군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

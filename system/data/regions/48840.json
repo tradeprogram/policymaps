@@ -1,0 +1,118 @@
+{
+  "sig_cd": "48840",
+  "region_id": "48840",
+  "name": "남해군",
+  "full_name": "경상남도 남해군",
+  "level": 2,
+  "status": "active",
+  "population": 41116,
+  "ordinance_kinds": {
+    "규칙": 84,
+    "조례": 438
+  },
+  "ordinance_total": 522,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 193
+    },
+    {
+      "code": "C02",
+      "count": 144
+    },
+    {
+      "code": "C08",
+      "count": 80
+    },
+    {
+      "code": "C03",
+      "count": 71
+    },
+    {
+      "code": "C11",
+      "count": 67
+    },
+    {
+      "code": "C12",
+      "count": 56
+    },
+    {
+      "code": "C13",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 49
+    },
+    {
+      "code": "C06",
+      "count": 49
+    },
+    {
+      "code": "C07",
+      "count": 48
+    },
+    {
+      "code": "C05",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 31
+    }
+  ],
+  "budget": {
+    "lines": 3895,
+    "exe_amt": 1212693775974,
+    "budget_now": 1934715407375
+  },
+  "recent_changes": [
+    {
+      "change_id": "9181c80650f54964a32ba3eee5e1373a",
+      "ts": "2026-08-19T15:24:40+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4875000|fyr:2025",
+      "entity_name": "4875000 2025 세출(1966건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fd4f10e423d54840a853517021653990",
+      "ts": "2026-08-19T14:35:38+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4875000|fyr:2026",
+      "entity_name": "4875000 2026 세출(1929건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "eae5ba2f4b15438ab3700129a744b6ca",
+      "ts": "2026-08-19T11:13:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1923165",
+      "entity_name": "남해군 야생동물에 의한 피해예방 및 보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1923165&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b0256f5bf580428285d87f4df131699d",
+      "ts": "2026-08-19T11:13:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1793319",
+      "entity_name": "남해군 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1793319&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "99ef55fbf6494cd1bb0b4be9be5ccb40",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48840",
+      "entity_name": "남해군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

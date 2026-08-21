@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41287",
+  "region_id": "41287",
+  "name": "일산서구",
+  "full_name": "경기도 고양시 일산서구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "3858bfaa32c74854a12320ee3e71eaa2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41287",
+      "entity_name": "일산서구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

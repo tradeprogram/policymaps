@@ -1,0 +1,118 @@
+{
+  "sig_cd": "27110",
+  "region_id": "27110",
+  "name": "중구",
+  "full_name": "대구광역시 중구",
+  "level": 2,
+  "status": "active",
+  "population": 101815,
+  "ordinance_kinds": {
+    "규칙": 86,
+    "조례": 325
+  },
+  "ordinance_total": 411,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 183
+    },
+    {
+      "code": "C02",
+      "count": 124
+    },
+    {
+      "code": "C03",
+      "count": 70
+    },
+    {
+      "code": "C08",
+      "count": 51
+    },
+    {
+      "code": "C11",
+      "count": 50
+    },
+    {
+      "code": "C13",
+      "count": 49
+    },
+    {
+      "code": "C05",
+      "count": 49
+    },
+    {
+      "code": "C06",
+      "count": 45
+    },
+    {
+      "code": "C09",
+      "count": 33
+    },
+    {
+      "code": "C07",
+      "count": 33
+    },
+    {
+      "code": "C10",
+      "count": 23
+    },
+    {
+      "code": "C12",
+      "count": 4
+    }
+  ],
+  "budget": {
+    "lines": 2021,
+    "exe_amt": 665518428720,
+    "budget_now": 1311717824147
+  },
+  "recent_changes": [
+    {
+      "change_id": "634311889b4844f99694771edf0f9bcf",
+      "ts": "2026-08-19T14:43:28+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2711000|fyr:2025",
+      "entity_name": "2711000 2025 세출(1000건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "86a2d6a9f8214faf97b9e0b72ff346a8",
+      "ts": "2026-08-19T14:17:23+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2711000|fyr:2026",
+      "entity_name": "2711000 2026 세출(1021건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "31e97ef1e9d64ce7a3cfba96130a8a0d",
+      "ts": "2026-08-19T11:14:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1639333",
+      "entity_name": "대구광역시 중구 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1639333&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3695bf2cf40c465fbd07394e84302d82",
+      "ts": "2026-08-19T10:59:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1931439",
+      "entity_name": "대구광역시 중구 출산ㆍ양육 및 다자녀가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1931439&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "98446689710045c8811e2893b269f90a",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "27110",
+      "entity_name": "중구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

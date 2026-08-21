@@ -1,0 +1,136 @@
+{
+  "sig_cd": "11305",
+  "region_id": "11305",
+  "name": "강북구",
+  "full_name": "서울특별시 강북구",
+  "level": 2,
+  "status": "active",
+  "population": 277695,
+  "ordinance_kinds": {
+    "규칙": 109,
+    "조례": 447
+  },
+  "ordinance_total": 556,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 220
+    },
+    {
+      "code": "C02",
+      "count": 161
+    },
+    {
+      "code": "C03",
+      "count": 108
+    },
+    {
+      "code": "C08",
+      "count": 73
+    },
+    {
+      "code": "C06",
+      "count": 72
+    },
+    {
+      "code": "C11",
+      "count": 68
+    },
+    {
+      "code": "C05",
+      "count": 68
+    },
+    {
+      "code": "C07",
+      "count": 57
+    },
+    {
+      "code": "C13",
+      "count": 56
+    },
+    {
+      "code": "C09",
+      "count": 42
+    },
+    {
+      "code": "C10",
+      "count": 32
+    },
+    {
+      "code": "C04",
+      "count": 12
+    }
+  ],
+  "budget": {
+    "lines": 2353,
+    "exe_amt": 1749512833111,
+    "budget_now": 3049158645500
+  },
+  "recent_changes": [
+    {
+      "change_id": "0aa8278a7e6241239b0ac79dfc1c7c92",
+      "ts": "2026-08-19T14:38:47+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1119000|fyr:2025",
+      "entity_name": "1119000 2025 세출(1233건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "252c07e997304b54bb32f62a14789b01",
+      "ts": "2026-08-19T14:16:46+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1119000|fyr:2026",
+      "entity_name": "1119000 2026 세출(1120건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f82f2e4ce2864ed3b3afa010fbdc2d58",
+      "ts": "2026-08-19T11:15:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2061713",
+      "entity_name": "서울특별시 강북구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2061713&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "99d4332870044a2c95a0e56b7f42d432",
+      "ts": "2026-08-19T11:15:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2023113",
+      "entity_name": "서울특별시 강북구 야생동물에 의한 피해 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2023113&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "811bea7e64e54179be8254f51622a99c",
+      "ts": "2026-08-19T11:15:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1767793",
+      "entity_name": "서울특별시 강북구 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1767793&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "67b149cab2754f10ad665599a4854eac",
+      "ts": "2026-08-19T11:00:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1868899",
+      "entity_name": "서울특별시 강북구 출산 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1868899&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b3bdeb8d48624d68b014d549e28bccbe",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11305",
+      "entity_name": "강북구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

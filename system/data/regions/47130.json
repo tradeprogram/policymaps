@@ -1,0 +1,136 @@
+{
+  "sig_cd": "47130",
+  "region_id": "47130",
+  "name": "경주시",
+  "full_name": "경상북도 경주시",
+  "level": 2,
+  "status": "active",
+  "population": 242880,
+  "ordinance_kinds": {
+    "규칙": 112,
+    "조례": 501
+  },
+  "ordinance_total": 613,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 216
+    },
+    {
+      "code": "C02",
+      "count": 180
+    },
+    {
+      "code": "C11",
+      "count": 94
+    },
+    {
+      "code": "C13",
+      "count": 78
+    },
+    {
+      "code": "C08",
+      "count": 76
+    },
+    {
+      "code": "C03",
+      "count": 74
+    },
+    {
+      "code": "C09",
+      "count": 72
+    },
+    {
+      "code": "C05",
+      "count": 70
+    },
+    {
+      "code": "C06",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 55
+    },
+    {
+      "code": "C12",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 43
+    }
+  ],
+  "budget": {
+    "lines": 6591,
+    "exe_amt": 3434796570014,
+    "budget_now": 5391337906732
+  },
+  "recent_changes": [
+    {
+      "change_id": "4306ac26b3fe4079ad404b05fa21d7ff",
+      "ts": "2026-08-19T15:16:21+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4712000|fyr:2025",
+      "entity_name": "4712000 2025 세출(3290건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2d4fc30f051a4f329cac3c639794eddf",
+      "ts": "2026-08-19T14:32:29+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4712000|fyr:2026",
+      "entity_name": "4712000 2026 세출(3301건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fa889edcf1f44d6b9bef212b63d5a4df",
+      "ts": "2026-08-19T11:12:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1394978",
+      "entity_name": "경주시 야생동물에 의한 농작물 등 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1394978&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "68698ccaeeed48b580e0d27f8902f170",
+      "ts": "2026-08-19T11:06:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1874863",
+      "entity_name": "경주시 사회적 약자 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1874863&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e757df9ec6a4423e9f45f5c4f5d737b1",
+      "ts": "2026-08-19T11:06:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1687907",
+      "entity_name": "경주시 반려·유기동물 보호 및 동물보호센터 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1687907&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ca8b8e60e4764398a214c41098400538",
+      "ts": "2026-08-19T10:57:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1969485",
+      "entity_name": "경주시 출산장려지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1969485&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fd272e25f2644227b8e14f332185c383",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47130",
+      "entity_name": "경주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

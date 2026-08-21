@@ -1,0 +1,136 @@
+{
+  "sig_cd": "52770",
+  "region_id": "52770",
+  "name": "순창군",
+  "full_name": "전북특별자치도 순창군",
+  "level": 2,
+  "status": "active",
+  "population": 27642,
+  "ordinance_kinds": {
+    "규칙": 104,
+    "조례": 493
+  },
+  "ordinance_total": 597,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 220
+    },
+    {
+      "code": "C02",
+      "count": 175
+    },
+    {
+      "code": "C03",
+      "count": 94
+    },
+    {
+      "code": "C11",
+      "count": 76
+    },
+    {
+      "code": "C12",
+      "count": 75
+    },
+    {
+      "code": "C08",
+      "count": 68
+    },
+    {
+      "code": "C06",
+      "count": 67
+    },
+    {
+      "code": "C13",
+      "count": 63
+    },
+    {
+      "code": "C05",
+      "count": 56
+    },
+    {
+      "code": "C09",
+      "count": 55
+    },
+    {
+      "code": "C10",
+      "count": 47
+    },
+    {
+      "code": "C07",
+      "count": 44
+    }
+  ],
+  "budget": {
+    "lines": 3168,
+    "exe_amt": 933269420651,
+    "budget_now": 1433826611710
+  },
+  "recent_changes": [
+    {
+      "change_id": "fe69ba5ba4754dd2b56ab369bf40e031",
+      "ts": "2026-08-19T15:08:04+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4576000|fyr:2025",
+      "entity_name": "4576000 2025 세출(1582건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4e84635d469846dc86f120464ec1fbde",
+      "ts": "2026-08-19T14:28:19+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4576000|fyr:2026",
+      "entity_name": "4576000 2026 세출(1586건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "7b38dd1e76e14229898f999b3cb939dd",
+      "ts": "2026-08-19T11:16:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1375020",
+      "entity_name": "순창군 유해야생동물에 의한 농작물 등 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1375020&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3cf21ab88c1847beacbcbcc0fbf79bba",
+      "ts": "2026-08-19T11:16:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2080117",
+      "entity_name": "순창군 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2080117&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8e87b57053c94fa28904138e559d2708",
+      "ts": "2026-08-19T11:08:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1416820",
+      "entity_name": "순창군 사회적 약자 반려동물 진료비 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1416820&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ba293ee5a267407f9f0083e8706808a3",
+      "ts": "2026-08-19T10:55:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1993357",
+      "entity_name": "순창군 출산장려 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1993357&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "04f041911bdc470c98e03ad1ab77b457",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52770",
+      "entity_name": "순창군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

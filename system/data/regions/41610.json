@@ -1,0 +1,145 @@
+{
+  "sig_cd": "41610",
+  "region_id": "41610",
+  "name": "광주시",
+  "full_name": "경기도 광주시",
+  "level": 2,
+  "status": "active",
+  "population": 400323,
+  "ordinance_kinds": {
+    "규칙": 100,
+    "조례": 555
+  },
+  "ordinance_total": 655,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 226
+    },
+    {
+      "code": "C02",
+      "count": 184
+    },
+    {
+      "code": "C03",
+      "count": 116
+    },
+    {
+      "code": "C11",
+      "count": 95
+    },
+    {
+      "code": "C09",
+      "count": 85
+    },
+    {
+      "code": "C08",
+      "count": 84
+    },
+    {
+      "code": "C06",
+      "count": 75
+    },
+    {
+      "code": "C05",
+      "count": 75
+    },
+    {
+      "code": "C13",
+      "count": 72
+    },
+    {
+      "code": "C07",
+      "count": 67
+    },
+    {
+      "code": "C10",
+      "count": 50
+    },
+    {
+      "code": "C12",
+      "count": 31
+    }
+  ],
+  "budget": {
+    "lines": 4565,
+    "exe_amt": 3064128107710,
+    "budget_now": 4266244855026
+  },
+  "recent_changes": [
+    {
+      "change_id": "7b26ffc39e3f4185ae410a26eb20df6c",
+      "ts": "2026-08-19T14:53:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4135000|fyr:2025",
+      "entity_name": "4135000 2025 세출(2324건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "55f9ee397ebf40238978c786091448aa",
+      "ts": "2026-08-19T14:20:23+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4135000|fyr:2026",
+      "entity_name": "4135000 2026 세출(2241건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0ad17ed307d84fa2ae607f7db6dd6c22",
+      "ts": "2026-08-19T11:13:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1880131",
+      "entity_name": "광주시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880131&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "80a568f7af2c4edbba0e58d63135952f",
+      "ts": "2026-08-19T11:13:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2000791",
+      "entity_name": "광주시 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000791&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "17e6108080c34643a775d080da62e3ac",
+      "ts": "2026-08-19T11:04:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1992823",
+      "entity_name": "광주시 저출산ㆍ고령사회 대응과 지속발전을 위한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1992823&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e286da71dbae47cb8d1e9fa34eecf4f6",
+      "ts": "2026-08-19T10:59:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1799385",
+      "entity_name": "광주시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1799385&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "172539837db44dd093d937e3cf25177a",
+      "ts": "2026-08-19T10:53:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1829273",
+      "entity_name": "광주시 출산장려금 및 자녀양육비 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1829273&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "70138ed9a2444b5a8ebd559238c126b5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41610",
+      "entity_name": "광주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

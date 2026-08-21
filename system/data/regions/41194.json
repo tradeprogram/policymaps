@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41194",
+  "region_id": "41194",
+  "name": "소사구",
+  "full_name": "경기도 부천시 소사구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "ba38addfe9e64b338c85406ee73a268b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41194",
+      "entity_name": "소사구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

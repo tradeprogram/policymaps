@@ -1,0 +1,317 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "data": {
+    "template": "출산장려",
+    "mode": "enactment",
+    "level": 2,
+    "universe": 226,
+    "adopters": 146,
+    "final_adoption_rate": 0.646,
+    "window": [
+      2009,
+      2026
+    ],
+    "curve": [
+      {
+        "year": 2009,
+        "new": 6,
+        "cumulative": 6,
+        "adoption_rate": 0.0265
+      },
+      {
+        "year": 2010,
+        "new": 3,
+        "cumulative": 9,
+        "adoption_rate": 0.0398
+      },
+      {
+        "year": 2011,
+        "new": 4,
+        "cumulative": 13,
+        "adoption_rate": 0.0575
+      },
+      {
+        "year": 2012,
+        "new": 6,
+        "cumulative": 19,
+        "adoption_rate": 0.0841
+      },
+      {
+        "year": 2013,
+        "new": 8,
+        "cumulative": 27,
+        "adoption_rate": 0.1195
+      },
+      {
+        "year": 2014,
+        "new": 10,
+        "cumulative": 37,
+        "adoption_rate": 0.1637
+      },
+      {
+        "year": 2015,
+        "new": 13,
+        "cumulative": 50,
+        "adoption_rate": 0.2212
+      },
+      {
+        "year": 2016,
+        "new": 14,
+        "cumulative": 64,
+        "adoption_rate": 0.2832
+      },
+      {
+        "year": 2017,
+        "new": 16,
+        "cumulative": 80,
+        "adoption_rate": 0.354
+      },
+      {
+        "year": 2018,
+        "new": 15,
+        "cumulative": 95,
+        "adoption_rate": 0.4204
+      },
+      {
+        "year": 2019,
+        "new": 13,
+        "cumulative": 108,
+        "adoption_rate": 0.4779
+      },
+      {
+        "year": 2020,
+        "new": 11,
+        "cumulative": 119,
+        "adoption_rate": 0.5265
+      },
+      {
+        "year": 2021,
+        "new": 9,
+        "cumulative": 128,
+        "adoption_rate": 0.5664
+      },
+      {
+        "year": 2022,
+        "new": 7,
+        "cumulative": 135,
+        "adoption_rate": 0.5973
+      },
+      {
+        "year": 2023,
+        "new": 4,
+        "cumulative": 139,
+        "adoption_rate": 0.615
+      },
+      {
+        "year": 2024,
+        "new": 4,
+        "cumulative": 143,
+        "adoption_rate": 0.6327
+      },
+      {
+        "year": 2025,
+        "new": 2,
+        "cumulative": 145,
+        "adoption_rate": 0.6416
+      },
+      {
+        "year": 2026,
+        "new": 1,
+        "cumulative": 146,
+        "adoption_rate": 0.646
+      }
+    ],
+    "logistic": {
+      "K_fixed_universe": {
+        "K": 226.0,
+        "r": 0.3309,
+        "t0": 2018.05,
+        "r2": 0.9774,
+        "rmse": 3.62,
+        "t_10_90_years": 13.3
+      },
+      "K_free": {
+        "K": 150.0,
+        "r": 0.4136,
+        "t0": 2016.65,
+        "r2": 0.9787,
+        "rmse": 2.56,
+        "t_10_90_years": 10.6
+      }
+    },
+    "innovators": [
+      {
+        "region_id": "48730",
+        "name": "부산광역시 창원시",
+        "rtype": "시",
+        "year": 2009
+      },
+      {
+        "region_id": "44005",
+        "name": "서울특별시 포항시",
+        "rtype": "시",
+        "year": 2009
+      },
+      {
+        "region_id": "45502",
+        "name": "경상북도 수원시",
+        "rtype": "시",
+        "year": 2010
+      },
+      {
+        "region_id": "47032",
+        "name": "경상북도 포항시",
+        "rtype": "시",
+        "year": 2010
+      },
+      {
+        "region_id": "42803",
+        "name": "경상북도 수원시",
+        "rtype": "시",
+        "year": 2010
+      },
+      {
+        "region_id": "46722",
+        "name": "부산광역시 성남시",
+        "rtype": "시",
+        "year": 2010
+      }
+    ],
+    "rogers_categories": {
+      "innovators": {
+        "n": 4,
+        "year_range": [
+          2009,
+          2009
+        ]
+      },
+      "early_adopters": {
+        "n": 19,
+        "year_range": [
+          2009,
+          2011
+        ]
+      },
+      "early_majority": {
+        "n": 50,
+        "year_range": [
+          2011,
+          2018
+        ]
+      },
+      "late_majority": {
+        "n": 50,
+        "year_range": [
+          2018,
+          2024
+        ]
+      },
+      "laggards": {
+        "n": 23,
+        "year_range": [
+          2024,
+          2026
+        ]
+      },
+      "never_adopted": {
+        "n": 80,
+        "share_of_universe": 0.354
+      }
+    },
+    "path_decomposition": {
+      "counts": {
+        "neighbor_first": 59,
+        "upper_first": 24,
+        "both": 40,
+        "neither": 23
+      },
+      "shares": {
+        "neighbor_first": 0.4041,
+        "upper_first": 0.1644,
+        "both": 0.274,
+        "neither": 0.1575
+      },
+      "definition": "neighbor_first=채택 이전에 인접 지자체 중 채택자 존재, upper_first=소속 광역이 먼저 채택, both=둘 다, neither=선행 신호 없음"
+    },
+    "path_null_test": {
+      "statistic": "prior_adopting_neighbor_share",
+      "observed": 0.6781,
+      "null_mean": 0.7138,
+      "null_sd": 0.0299,
+      "z": -0.777,
+      "p_sim": 0.91055,
+      "permutations": 999,
+      "note": "귀무: 채택연도를 지자체에 무작위 재배정(연도분포 보존). observed <= null_mean 이면 '선행 이웃' 은 확산 증거가 아니라 높은 채택률의 부산물이다."
+    },
+    "path_detail": [
+      {
+        "region_id": "48730",
+        "name": "부산광역시 창원시",
+        "year": 2009,
+        "n_prior_neighbors": 5,
+        "n_neighbors": 5,
+        "upper_adopted_first": false,
+        "path": "neighbor_first"
+      },
+      {
+        "region_id": "44005",
+        "name": "서울특별시 포항시",
+        "year": 2009,
+        "n_prior_neighbors": 0,
+        "n_neighbors": 7,
+        "upper_adopted_first": false,
+        "path": "upper_first"
+      },
+      {
+        "region_id": "45502",
+        "name": "경상북도 수원시",
+        "year": 2010,
+        "n_prior_neighbors": 0,
+        "n_neighbors": 6,
+        "upper_adopted_first": false,
+        "path": "upper_first"
+      },
+      {
+        "region_id": "47032",
+        "name": "경상북도 포항시",
+        "year": 2010,
+        "n_prior_neighbors": 2,
+        "n_neighbors": 4,
+        "upper_adopted_first": false,
+        "path": "upper_first"
+      },
+      {
+        "region_id": "42803",
+        "name": "경상북도 수원시",
+        "year": 2010,
+        "n_prior_neighbors": 0,
+        "n_neighbors": 7,
+        "upper_adopted_first": true,
+        "path": "upper_first"
+      },
+      {
+        "region_id": "46722",
+        "name": "부산광역시 성남시",
+        "year": 2010,
+        "n_prior_neighbors": 3,
+        "n_neighbors": 5,
+        "upper_adopted_first": true,
+        "path": "neighbor_first"
+      }
+    ],
+    "adoption_meta": {
+      "mode": "enactment",
+      "level": 2,
+      "filter": "rr_cls_cd='제정' AND ord_kind='조례'",
+      "matched_ordinances": 146
+    },
+    "_engine": "analytics.diffusion.diffusion_profile",
+    "interpretation_caveat": "확산 곡선(로지스틱 적합)은 방어 가능하나, '이웃을 보고 따라 했다'는 수평확산 해석은 우리 데이터에서 지지되지 않는다 — 이산시간 EHA 20개 사양에서 이웃노출 계수가 BH-FDR 통과 0개(중앙 OR 0.969)이고, 채택연도 공간군집은 시도 고정효과 제거 시 소멸한다(평균 I 0.053→-0.108). 지배 요인은 광역·전국 공통충격(연도추세 중앙 OR 2.47)이다."
+  },
+  "as_of_date": "2026-08-21",
+  "stale": false,
+  "execution_allowed": false,
+  "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오."
+}

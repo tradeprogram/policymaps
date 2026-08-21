@@ -1,0 +1,127 @@
+{
+  "sig_cd": "47250",
+  "region_id": "47250",
+  "name": "상주시",
+  "full_name": "경상북도 상주시",
+  "level": 2,
+  "status": "active",
+  "population": 89070,
+  "ordinance_kinds": {
+    "규칙": 81,
+    "조례": 444
+  },
+  "ordinance_total": 525,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 188
+    },
+    {
+      "code": "C02",
+      "count": 145
+    },
+    {
+      "code": "C03",
+      "count": 77
+    },
+    {
+      "code": "C11",
+      "count": 70
+    },
+    {
+      "code": "C08",
+      "count": 65
+    },
+    {
+      "code": "C05",
+      "count": 58
+    },
+    {
+      "code": "C13",
+      "count": 56
+    },
+    {
+      "code": "C06",
+      "count": 50
+    },
+    {
+      "code": "C12",
+      "count": 49
+    },
+    {
+      "code": "C09",
+      "count": 46
+    },
+    {
+      "code": "C07",
+      "count": 39
+    },
+    {
+      "code": "C10",
+      "count": 37
+    }
+  ],
+  "budget": {
+    "lines": 3892,
+    "exe_amt": 2078518208777,
+    "budget_now": 4554154986162
+  },
+  "recent_changes": [
+    {
+      "change_id": "b78bae65d7a241c6be9641cec342c798",
+      "ts": "2026-08-19T15:17:57+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4718000|fyr:2025",
+      "entity_name": "4718000 2025 세출(1939건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d4d1f0b8767545c8828383e916976016",
+      "ts": "2026-08-19T14:33:18+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4718000|fyr:2026",
+      "entity_name": "4718000 2026 세출(1953건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a9c90cc98e3745ba90c0124ff062c6a4",
+      "ts": "2026-08-19T11:15:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2105507",
+      "entity_name": "상주시 야생동물로 인한 농작물 등 피해 보상조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2105507&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "aaf5786b5e624482adbd056f4d0437a8",
+      "ts": "2026-08-19T11:15:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1957695",
+      "entity_name": "상주시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1957695&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "47b63e30f74146ffbdbb1784725349b6",
+      "ts": "2026-08-19T10:55:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2116107",
+      "entity_name": "상주시 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2116107&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "936feb1025554b058642c9f4a749c536",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47250",
+      "entity_name": "상주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

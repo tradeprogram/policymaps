@@ -1,0 +1,118 @@
+{
+  "sig_cd": "47940",
+  "region_id": "47940",
+  "name": "울릉군",
+  "full_name": "경상북도 울릉군",
+  "level": 2,
+  "status": "active",
+  "population": 8780,
+  "ordinance_kinds": {
+    "규칙": 97,
+    "조례": 329
+  },
+  "ordinance_total": 426,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 188
+    },
+    {
+      "code": "C02",
+      "count": 136
+    },
+    {
+      "code": "C03",
+      "count": 58
+    },
+    {
+      "code": "C11",
+      "count": 49
+    },
+    {
+      "code": "C08",
+      "count": 48
+    },
+    {
+      "code": "C09",
+      "count": 43
+    },
+    {
+      "code": "C13",
+      "count": 42
+    },
+    {
+      "code": "C06",
+      "count": 40
+    },
+    {
+      "code": "C05",
+      "count": 39
+    },
+    {
+      "code": "C10",
+      "count": 33
+    },
+    {
+      "code": "C07",
+      "count": 30
+    },
+    {
+      "code": "C12",
+      "count": 25
+    }
+  ],
+  "budget": {
+    "lines": 2405,
+    "exe_amt": 427860613730,
+    "budget_now": 802648982390
+  },
+  "recent_changes": [
+    {
+      "change_id": "ddf80249c83240f390b898a7cc036232",
+      "ts": "2026-08-19T15:21:19+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4783000|fyr:2025",
+      "entity_name": "4783000 2025 세출(1208건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5eed90a2b5b540b7890c919b7bcf9a13",
+      "ts": "2026-08-19T14:35:05+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4783000|fyr:2026",
+      "entity_name": "4783000 2026 세출(1197건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "23b4cb69630a4506be1a662862a1ea77",
+      "ts": "2026-08-19T11:17:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1426793",
+      "entity_name": "울릉군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1426793&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "186604c92cf5445cb7f4fdfd02cf16c9",
+      "ts": "2026-08-19T10:56:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1379354",
+      "entity_name": "울릉군 출산장려금 등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1379354&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "21435914ef2a4c5e8b090fca09de3bb2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47940",
+      "entity_name": "울릉군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

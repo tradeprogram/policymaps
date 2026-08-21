@@ -1,0 +1,154 @@
+{
+  "sig_cd": "41570",
+  "region_id": "41570",
+  "name": "김포시",
+  "full_name": "경기도 김포시",
+  "level": 2,
+  "status": "active",
+  "population": 483964,
+  "ordinance_kinds": {
+    "규칙": 132,
+    "조례": 551
+  },
+  "ordinance_total": 683,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 238
+    },
+    {
+      "code": "C02",
+      "count": 190
+    },
+    {
+      "code": "C03",
+      "count": 104
+    },
+    {
+      "code": "C11",
+      "count": 98
+    },
+    {
+      "code": "C09",
+      "count": 82
+    },
+    {
+      "code": "C07",
+      "count": 78
+    },
+    {
+      "code": "C08",
+      "count": 77
+    },
+    {
+      "code": "C13",
+      "count": 75
+    },
+    {
+      "code": "C05",
+      "count": 68
+    },
+    {
+      "code": "C06",
+      "count": 62
+    },
+    {
+      "code": "C10",
+      "count": 52
+    },
+    {
+      "code": "C12",
+      "count": 36
+    }
+  ],
+  "budget": {
+    "lines": 5271,
+    "exe_amt": 2957893949210,
+    "budget_now": 3948991196820
+  },
+  "recent_changes": [
+    {
+      "change_id": "136011724560492a80439969f2ae67f7",
+      "ts": "2026-08-19T14:52:40+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4133000|fyr:2025",
+      "entity_name": "4133000 2025 세출(2694건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "96138037685042a3a8fd5e24e6076786",
+      "ts": "2026-08-19T14:20:10+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4133000|fyr:2026",
+      "entity_name": "4133000 2026 세출(2577건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0ed2b6f945a949809764fd5cb28f584c",
+      "ts": "2026-08-19T11:13:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1728885",
+      "entity_name": "김포시 야생동물에 의한 농작물 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1728885&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3bdfd3cede4346d68262410034718181",
+      "ts": "2026-08-19T11:07:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1915669",
+      "entity_name": "김포시 동물보호 및 복지 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1915669&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2a474ccf4e854934861c87d656edcd58",
+      "ts": "2026-08-19T11:04:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2102473",
+      "entity_name": "김포시 저출산 · 고령사회 대응과 지속발전을 위한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2102473&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ac24444ba49c4867be195496f9c62080",
+      "ts": "2026-08-19T10:59:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1262281",
+      "entity_name": "김포시 여성장애인 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1262281&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "59eb3f03db544d8b81f6db44907af46f",
+      "ts": "2026-08-19T10:58:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1717503",
+      "entity_name": "김포시 출산장려 지원 등에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1717503&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "37071df06f59472aafd6b3dfe807f89b",
+      "ts": "2026-08-19T10:57:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1978813",
+      "entity_name": "김포시 출산장려 지원 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1978813&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "05280cf42b5048b08c5300b2efd44657",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41570",
+      "entity_name": "김포시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

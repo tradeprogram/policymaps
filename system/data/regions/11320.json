@@ -1,0 +1,145 @@
+{
+  "sig_cd": "11320",
+  "region_id": "11320",
+  "name": "도봉구",
+  "full_name": "서울특별시 도봉구",
+  "level": 2,
+  "status": "active",
+  "population": 298067,
+  "ordinance_kinds": {
+    "규칙": 112,
+    "조례": 466
+  },
+  "ordinance_total": 578,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 229
+    },
+    {
+      "code": "C02",
+      "count": 164
+    },
+    {
+      "code": "C03",
+      "count": 106
+    },
+    {
+      "code": "C06",
+      "count": 73
+    },
+    {
+      "code": "C08",
+      "count": 69
+    },
+    {
+      "code": "C05",
+      "count": 68
+    },
+    {
+      "code": "C11",
+      "count": 67
+    },
+    {
+      "code": "C13",
+      "count": 65
+    },
+    {
+      "code": "C07",
+      "count": 64
+    },
+    {
+      "code": "C09",
+      "count": 43
+    },
+    {
+      "code": "C10",
+      "count": 34
+    },
+    {
+      "code": "C04",
+      "count": 18
+    }
+  ],
+  "budget": {
+    "lines": 2297,
+    "exe_amt": 1656081726429,
+    "budget_now": 2341114955162
+  },
+  "recent_changes": [
+    {
+      "change_id": "7d79816045964e47b292575948b762aa",
+      "ts": "2026-08-19T14:38:49+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1120000|fyr:2025",
+      "entity_name": "1120000 2025 세출(1185건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "287f4d41b2614a189e9ec34dd6d78985",
+      "ts": "2026-08-19T14:16:47+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1120000|fyr:2026",
+      "entity_name": "1120000 2026 세출(1112건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "54d9f4665afb478688e721440bed5044",
+      "ts": "2026-08-19T11:15:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1808161",
+      "entity_name": "서울특별시 도봉구 야생동물에 의한 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1808161&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5108c36ed54d460ebee1b343942643a4",
+      "ts": "2026-08-19T11:15:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1890271",
+      "entity_name": "서울특별시 도봉구 동물보호 및 복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1890271&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4a6aacc05ce248348000b65da71d7900",
+      "ts": "2026-08-19T11:04:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1957845",
+      "entity_name": "서울특별시 도봉구 출산 및 양육 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1957845&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3deabc182867440080a02dbf81b51e04",
+      "ts": "2026-08-19T11:01:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1908865",
+      "entity_name": "서울특별시 도봉구 출산 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1908865&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e3bd694d768b4f2dbdeb2f5a0ecce45e",
+      "ts": "2026-08-19T11:01:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1402677",
+      "entity_name": "서울특별시 도봉구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1402677&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f34d2a493e9648d5a51fe552dd7560c7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11320",
+      "entity_name": "도봉구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

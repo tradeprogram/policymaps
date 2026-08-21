@@ -1,0 +1,118 @@
+{
+  "sig_cd": "47830",
+  "region_id": "47830",
+  "name": "고령군",
+  "full_name": "경상북도 고령군",
+  "level": 2,
+  "status": "active",
+  "population": 29472,
+  "ordinance_kinds": {
+    "규칙": 103,
+    "조례": 363
+  },
+  "ordinance_total": 466,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 212
+    },
+    {
+      "code": "C02",
+      "count": 149
+    },
+    {
+      "code": "C11",
+      "count": 56
+    },
+    {
+      "code": "C13",
+      "count": 55
+    },
+    {
+      "code": "C09",
+      "count": 55
+    },
+    {
+      "code": "C08",
+      "count": 55
+    },
+    {
+      "code": "C03",
+      "count": 53
+    },
+    {
+      "code": "C05",
+      "count": 51
+    },
+    {
+      "code": "C07",
+      "count": 43
+    },
+    {
+      "code": "C12",
+      "count": 37
+    },
+    {
+      "code": "C06",
+      "count": 37
+    },
+    {
+      "code": "C10",
+      "count": 22
+    }
+  ],
+  "budget": {
+    "lines": 2926,
+    "exe_amt": 842834326219,
+    "budget_now": 1250648796580
+  },
+  "recent_changes": [
+    {
+      "change_id": "546a608a9cc84e86be4efc7c93ca7876",
+      "ts": "2026-08-19T15:19:43+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4777000|fyr:2025",
+      "entity_name": "4777000 2025 세출(1487건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "35f23f788af54a4fbcf2710d52122ae4",
+      "ts": "2026-08-19T14:33:51+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4777000|fyr:2026",
+      "entity_name": "4777000 2026 세출(1439건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "595e1965464c43ae907cb32a972f340d",
+      "ts": "2026-08-19T11:12:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1501489",
+      "entity_name": "고령군 야생동물에 의한 농작물피해 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1501489&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c2abf716991b49dbb01eccfeb83689a8",
+      "ts": "2026-08-19T10:53:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2122667",
+      "entity_name": "고령군 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2122667&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8a62dd3e1da64343ad5c47ed26094561",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47830",
+      "entity_name": "고령군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

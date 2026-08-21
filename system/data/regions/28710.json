@@ -1,0 +1,127 @@
+{
+  "sig_cd": "28710",
+  "region_id": "28710",
+  "name": "강화군",
+  "full_name": "인천광역시 강화군",
+  "level": 2,
+  "status": "active",
+  "population": 69556,
+  "ordinance_kinds": {
+    "규칙": 76,
+    "조례": 407
+  },
+  "ordinance_total": 483,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 189
+    },
+    {
+      "code": "C02",
+      "count": 140
+    },
+    {
+      "code": "C03",
+      "count": 66
+    },
+    {
+      "code": "C08",
+      "count": 60
+    },
+    {
+      "code": "C05",
+      "count": 60
+    },
+    {
+      "code": "C11",
+      "count": 59
+    },
+    {
+      "code": "C13",
+      "count": 53
+    },
+    {
+      "code": "C06",
+      "count": 49
+    },
+    {
+      "code": "C12",
+      "count": 48
+    },
+    {
+      "code": "C09",
+      "count": 45
+    },
+    {
+      "code": "C07",
+      "count": 40
+    },
+    {
+      "code": "C10",
+      "count": 30
+    }
+  ],
+  "budget": {
+    "lines": 3585,
+    "exe_amt": 1259365011132,
+    "budget_now": 1934559615877
+  },
+  "recent_changes": [
+    {
+      "change_id": "63394511a8c941869f709f1547c3f63e",
+      "ts": "2026-08-19T14:44:56+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2871000|fyr:2025",
+      "entity_name": "2871000 2025 세출(1782건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9a19817da60d4ae591f14f7d20c6500e",
+      "ts": "2026-08-19T14:17:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2871000|fyr:2026",
+      "entity_name": "2871000 2026 세출(1803건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "36a2d393123c4d83ad29d94fd008e5a7",
+      "ts": "2026-08-19T11:12:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2105205",
+      "entity_name": "강화군 야생동물에 의한 농작물 피해 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2105205&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "12d9d4bbffb046cd9f43131b99ed34de",
+      "ts": "2026-08-19T10:59:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2087723",
+      "entity_name": "강화군 저출산ㆍ고령사회정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2087723&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d399c17c7a2649a7a326184b3e51db76",
+      "ts": "2026-08-19T10:56:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1989851",
+      "entity_name": "강화군 출산·양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1989851&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1303923410a844dd9ae008138f9d5989",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28710",
+      "entity_name": "강화군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

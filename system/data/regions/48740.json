@@ -1,0 +1,109 @@
+{
+  "sig_cd": "48740",
+  "region_id": "48740",
+  "name": "창녕군",
+  "full_name": "경상남도 창녕군",
+  "level": 2,
+  "status": "active",
+  "population": 54321,
+  "ordinance_kinds": {
+    "규칙": 92,
+    "조례": 393
+  },
+  "ordinance_total": 485,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 200
+    },
+    {
+      "code": "C02",
+      "count": 165
+    },
+    {
+      "code": "C11",
+      "count": 64
+    },
+    {
+      "code": "C08",
+      "count": 57
+    },
+    {
+      "code": "C03",
+      "count": 54
+    },
+    {
+      "code": "C13",
+      "count": 45
+    },
+    {
+      "code": "C07",
+      "count": 44
+    },
+    {
+      "code": "C06",
+      "count": 43
+    },
+    {
+      "code": "C09",
+      "count": 37
+    },
+    {
+      "code": "C05",
+      "count": 37
+    },
+    {
+      "code": "C12",
+      "count": 35
+    },
+    {
+      "code": "C10",
+      "count": 28
+    }
+  ],
+  "budget": {
+    "lines": 3137,
+    "exe_amt": 1270976854712,
+    "budget_now": 1925361076628
+  },
+  "recent_changes": [
+    {
+      "change_id": "c7a5f5610fad4c169e6cd70201190403",
+      "ts": "2026-08-19T15:24:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4873000|fyr:2025",
+      "entity_name": "4873000 2025 세출(1564건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0112fe57dcf9475e8c645bd6d4a40a8e",
+      "ts": "2026-08-19T14:35:35+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4873000|fyr:2026",
+      "entity_name": "4873000 2026 세출(1573건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "db2db2c3c870465d95f3d06feda6b200",
+      "ts": "2026-08-19T11:18:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1494069",
+      "entity_name": "창녕군 야생동물 피해 예방 및 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1494069&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ca7fb91b7ed1470897f8a078235ea3e9",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48740",
+      "entity_name": "창녕군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

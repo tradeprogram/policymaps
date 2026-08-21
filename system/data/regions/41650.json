@@ -1,0 +1,136 @@
+{
+  "sig_cd": "41650",
+  "region_id": "41650",
+  "name": "포천시",
+  "full_name": "경기도 포천시",
+  "level": 2,
+  "status": "active",
+  "population": 140454,
+  "ordinance_kinds": {
+    "규칙": 116,
+    "조례": 542
+  },
+  "ordinance_total": 658,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 244
+    },
+    {
+      "code": "C02",
+      "count": 200
+    },
+    {
+      "code": "C03",
+      "count": 90
+    },
+    {
+      "code": "C11",
+      "count": 89
+    },
+    {
+      "code": "C07",
+      "count": 79
+    },
+    {
+      "code": "C08",
+      "count": 78
+    },
+    {
+      "code": "C05",
+      "count": 76
+    },
+    {
+      "code": "C09",
+      "count": 75
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C06",
+      "count": 62
+    },
+    {
+      "code": "C10",
+      "count": 43
+    },
+    {
+      "code": "C12",
+      "count": 42
+    }
+  ],
+  "budget": {
+    "lines": 5269,
+    "exe_amt": 2738386360250,
+    "budget_now": 3889779919582
+  },
+  "recent_changes": [
+    {
+      "change_id": "97dc67ab8a5f44cbbbc2025a12d6298c",
+      "ts": "2026-08-19T14:53:35+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4137000|fyr:2025",
+      "entity_name": "4137000 2025 세출(2746건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f2ebb59808934730aa0adc4a69b582f4",
+      "ts": "2026-08-19T14:20:35+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4137000|fyr:2026",
+      "entity_name": "4137000 2026 세출(2523건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f210d8beddfc432fa4637aa21dbf74b5",
+      "ts": "2026-08-19T11:19:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2161805",
+      "entity_name": "포천시 야생동물로 인한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2161805&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6165523c9dbd4cb88a1b930f247a3404",
+      "ts": "2026-08-19T11:19:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1223391",
+      "entity_name": "포천시 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1223391&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f8637cd6aa93453898cc9a0f8e294aae",
+      "ts": "2026-08-19T11:10:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2008015",
+      "entity_name": "포천시 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2008015&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "298876ada35b413093c487401f3949b1",
+      "ts": "2026-08-19T10:58:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1629259",
+      "entity_name": "포천시 출산축하 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1629259&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fc0ec99cf385436ab15ddd5a126a72c7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41650",
+      "entity_name": "포천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

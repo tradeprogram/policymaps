@@ -1,0 +1,136 @@
+{
+  "sig_cd": "44150",
+  "region_id": "44150",
+  "name": "공주시",
+  "full_name": "충청남도 공주시",
+  "level": 2,
+  "status": "active",
+  "population": 99619,
+  "ordinance_kinds": {
+    "규칙": 114,
+    "조례": 584
+  },
+  "ordinance_total": 698,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 246
+    },
+    {
+      "code": "C02",
+      "count": 198
+    },
+    {
+      "code": "C11",
+      "count": 111
+    },
+    {
+      "code": "C08",
+      "count": 104
+    },
+    {
+      "code": "C03",
+      "count": 88
+    },
+    {
+      "code": "C13",
+      "count": 84
+    },
+    {
+      "code": "C05",
+      "count": 80
+    },
+    {
+      "code": "C09",
+      "count": 75
+    },
+    {
+      "code": "C07",
+      "count": 62
+    },
+    {
+      "code": "C06",
+      "count": 61
+    },
+    {
+      "code": "C12",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 43
+    }
+  ],
+  "budget": {
+    "lines": 5082,
+    "exe_amt": 2073241859569,
+    "budget_now": 2995585592170
+  },
+  "recent_changes": [
+    {
+      "change_id": "72a92ed14d6a435da84a3782d1ae9914",
+      "ts": "2026-08-19T15:00:19+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4412000|fyr:2025",
+      "entity_name": "4412000 2025 세출(2598건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0ad8fcfd7be14013a8587c47f392c31a",
+      "ts": "2026-08-19T14:24:53+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4412000|fyr:2026",
+      "entity_name": "4412000 2026 세출(2484건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d6006c01907e4c97ab4e407edb8d8ba7",
+      "ts": "2026-08-19T11:12:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1608763",
+      "entity_name": "공주시 야생동물 피해예방 및 보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1608763&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6305b95905cd47a4b6b4d795743e20a1",
+      "ts": "2026-08-19T11:12:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1823983",
+      "entity_name": "공주시 동물보호 및 복지 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1823983&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7efb82ad083c4907b3261221a9206160",
+      "ts": "2026-08-19T11:06:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1923511",
+      "entity_name": "공주시 반려동물 보호 및 반려문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1923511&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2425427c1c39483c8c5934a003654042",
+      "ts": "2026-08-19T10:59:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2087109",
+      "entity_name": "공주시 임신·출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2087109&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a1ba0ca7580549218f4e5ecb8f1cf9fa",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44150",
+      "entity_name": "공주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

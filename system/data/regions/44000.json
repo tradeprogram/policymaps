@@ -1,0 +1,181 @@
+{
+  "sig_cd": "44000",
+  "region_id": "44",
+  "name": "충청남도",
+  "full_name": "충청남도",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 147,
+    "조례": 1032
+  },
+  "ordinance_total": 1179,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 316
+    },
+    {
+      "code": "C11",
+      "count": 271
+    },
+    {
+      "code": "C02",
+      "count": 271
+    },
+    {
+      "code": "C08",
+      "count": 182
+    },
+    {
+      "code": "C03",
+      "count": 176
+    },
+    {
+      "code": "C05",
+      "count": 152
+    },
+    {
+      "code": "C13",
+      "count": 150
+    },
+    {
+      "code": "C12",
+      "count": 135
+    },
+    {
+      "code": "C07",
+      "count": 130
+    },
+    {
+      "code": "C09",
+      "count": 120
+    },
+    {
+      "code": "C06",
+      "count": 117
+    },
+    {
+      "code": "C10",
+      "count": 54
+    }
+  ],
+  "budget": {
+    "lines": 6725,
+    "exe_amt": 20661818247753,
+    "budget_now": 26789000595666
+  },
+  "recent_changes": [
+    {
+      "change_id": "8f317d21c38245359fcb10e2ed310a19",
+      "ts": "2026-08-19T11:19:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1846973",
+      "entity_name": "충청남도 야생동물에 의한 농작물 등 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1846973&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "96ae193cd1d54c639989a042951a70a4",
+      "ts": "2026-08-19T11:19:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1963147",
+      "entity_name": "충청남도 수수료 징수 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1963147&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ceb4c43161f94f09b638cabc50763adb",
+      "ts": "2026-08-19T11:19:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2020303",
+      "entity_name": "충청남도 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2020303&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9a82f4269fcd4247b29d7bbc2f0d049e",
+      "ts": "2026-08-19T11:11:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2074359",
+      "entity_name": "충청남도 반려견 순찰대 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2074359&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d3850c917a554bd19288fdd5fd134f6c",
+      "ts": "2026-08-19T11:10:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1683369",
+      "entity_name": "충청남도 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1683369&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f6e7873eb5b045159ef59bb550b150c5",
+      "ts": "2026-08-19T11:10:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1926929",
+      "entity_name": "충청남도 반려동물 보호 및 문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1926929&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c2b4900eb2ef4b0a89176c91ccbde8cc",
+      "ts": "2026-08-19T11:10:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2111033",
+      "entity_name": "충청남도 반려동물 동반관광 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2111033&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c62a2a623e0d40e596d324ef14d5c0ed",
+      "ts": "2026-08-19T11:03:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2148705",
+      "entity_name": "충청남도 출산ㆍ양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2148705&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "585598513ec94a4c9821270a604ea54b",
+      "ts": "2026-08-19T11:03:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2100991",
+      "entity_name": "충청남도 출산가정 백일해 예방접종 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100991&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dc5a30e60d02434a8c813a9565bf66c5",
+      "ts": "2026-08-19T11:03:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1955065",
+      "entity_name": "충청남도 위기 임신 및 보호출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1955065&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6cd9a6ba8bb5496d857ef0ec40c992e8",
+      "ts": "2026-08-19T11:03:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1004634",
+      "entity_name": "충청남도 여성장애인 출산 및 영아양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1004634&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "97efb25df099480e921a005778f326c9",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44",
+      "entity_name": "충청남도",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

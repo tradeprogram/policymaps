@@ -1,0 +1,145 @@
+{
+  "sig_cd": "28237",
+  "region_id": "28237",
+  "name": "부평구",
+  "full_name": "인천광역시 부평구",
+  "level": 2,
+  "status": "active",
+  "population": 487661,
+  "ordinance_kinds": {
+    "규칙": 95,
+    "조례": 400
+  },
+  "ordinance_total": 495,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 216
+    },
+    {
+      "code": "C02",
+      "count": 135
+    },
+    {
+      "code": "C03",
+      "count": 92
+    },
+    {
+      "code": "C08",
+      "count": 63
+    },
+    {
+      "code": "C11",
+      "count": 58
+    },
+    {
+      "code": "C06",
+      "count": 58
+    },
+    {
+      "code": "C05",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 48
+    },
+    {
+      "code": "C13",
+      "count": 47
+    },
+    {
+      "code": "C09",
+      "count": 42
+    },
+    {
+      "code": "C10",
+      "count": 29
+    },
+    {
+      "code": "C04",
+      "count": 18
+    }
+  ],
+  "budget": {
+    "lines": 2383,
+    "exe_amt": 2265945997595,
+    "budget_now": 2858813013492
+  },
+  "recent_changes": [
+    {
+      "change_id": "0ac4848daaa44740858ca12d1301388a",
+      "ts": "2026-08-19T14:44:50+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2816000|fyr:2025",
+      "entity_name": "2816000 2025 세출(1200건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "703e80ce72e64726853ad6abef0cd770",
+      "ts": "2026-08-19T14:17:48+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2816000|fyr:2026",
+      "entity_name": "2816000 2026 세출(1183건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c4d527431b6944f58f99ba7d4f5ec192",
+      "ts": "2026-08-19T11:09:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1590477",
+      "entity_name": "인천광역시부평구 반려동물 보호 및 학대 방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1590477&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "02d1a9b971944e35b19e9e21cdc63fe3",
+      "ts": "2026-08-19T11:04:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1408285",
+      "entity_name": "인천광역시부평구 장애인가정의 출산지원금 지급 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1408285&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "37685361f3944fe795b6d1d8a2080d98",
+      "ts": "2026-08-19T11:03:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2001921",
+      "entity_name": "인천광역시부평구 저출생 대응과 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2001921&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ee2daa8a6a664f8389619355064f0322",
+      "ts": "2026-08-19T11:02:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1409629",
+      "entity_name": "인천광역시부평구 장애인가정의 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1409629&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d96a0589505546018a9be4fa2339e531",
+      "ts": "2026-08-19T11:02:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2039293",
+      "entity_name": "인천광역시부평구 위기 임신 및 보호출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2039293&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c34c8255430a4b0dbc95000edbf5e729",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28237",
+      "entity_name": "부평구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

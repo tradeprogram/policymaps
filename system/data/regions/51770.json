@@ -1,0 +1,136 @@
+{
+  "sig_cd": "51770",
+  "region_id": "51770",
+  "name": "정선군",
+  "full_name": "강원특별자치도 정선군",
+  "level": 2,
+  "status": "active",
+  "population": 35144,
+  "ordinance_kinds": {
+    "규칙": 115,
+    "조례": 450
+  },
+  "ordinance_total": 565,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 221
+    },
+    {
+      "code": "C02",
+      "count": 157
+    },
+    {
+      "code": "C03",
+      "count": 85
+    },
+    {
+      "code": "C11",
+      "count": 68
+    },
+    {
+      "code": "C08",
+      "count": 68
+    },
+    {
+      "code": "C13",
+      "count": 62
+    },
+    {
+      "code": "C05",
+      "count": 55
+    },
+    {
+      "code": "C09",
+      "count": 54
+    },
+    {
+      "code": "C12",
+      "count": 49
+    },
+    {
+      "code": "C07",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 40
+    },
+    {
+      "code": "C06",
+      "count": 39
+    }
+  ],
+  "budget": {
+    "lines": 2894,
+    "exe_amt": 1123890760140,
+    "budget_now": 1833458755770
+  },
+  "recent_changes": [
+    {
+      "change_id": "ee27f4e8fc744df5af2f36f1e3d65a47",
+      "ts": "2026-08-19T14:56:04+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4275000|fyr:2025",
+      "entity_name": "4275000 2025 세출(1463건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "27b566932e6f40ac949ffb3aa2257a48",
+      "ts": "2026-08-19T14:22:17+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4275000|fyr:2026",
+      "entity_name": "4275000 2026 세출(1431건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4696580996194bfa82cfbdcf12da5a00",
+      "ts": "2026-08-19T11:18:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1410889",
+      "entity_name": "정선군 야생동물 피해예방시설 설치비용 및 피해보상 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410889&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "50df3dd121a7489ca7617ab98b258f98",
+      "ts": "2026-08-19T11:10:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1951925",
+      "entity_name": "정선군 반려동물 보호 및 반려문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1951925&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b8bc9744b73c429cb6ef14afdbf42ef2",
+      "ts": "2026-08-19T10:58:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1396093",
+      "entity_name": "정선군 출산장려 및 양육지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396093&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b33fa40aa3cf46438462ae934d8d79e8",
+      "ts": "2026-08-19T10:58:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1555631",
+      "entity_name": "정선군 출산장려 및 양육지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1555631&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b6c28de929d34bd28a30e54365e4f7a6",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51770",
+      "entity_name": "정선군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

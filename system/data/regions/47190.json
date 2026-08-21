@@ -1,0 +1,154 @@
+{
+  "sig_cd": "47190",
+  "region_id": "47190",
+  "name": "구미시",
+  "full_name": "경상북도 구미시",
+  "level": 2,
+  "status": "active",
+  "population": 402691,
+  "ordinance_kinds": {
+    "규칙": 128,
+    "조례": 574
+  },
+  "ordinance_total": 702,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 223
+    },
+    {
+      "code": "C02",
+      "count": 216
+    },
+    {
+      "code": "C11",
+      "count": 137
+    },
+    {
+      "code": "C03",
+      "count": 113
+    },
+    {
+      "code": "C09",
+      "count": 96
+    },
+    {
+      "code": "C05",
+      "count": 87
+    },
+    {
+      "code": "C13",
+      "count": 80
+    },
+    {
+      "code": "C08",
+      "count": 79
+    },
+    {
+      "code": "C07",
+      "count": 65
+    },
+    {
+      "code": "C06",
+      "count": 65
+    },
+    {
+      "code": "C12",
+      "count": 55
+    },
+    {
+      "code": "C10",
+      "count": 44
+    }
+  ],
+  "budget": {
+    "lines": 4660,
+    "exe_amt": 3564231173000,
+    "budget_now": 5538240215336
+  },
+  "recent_changes": [
+    {
+      "change_id": "84d98ced3d934d518ea903fb108b8d28",
+      "ts": "2026-08-19T15:17:16+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4715000|fyr:2025",
+      "entity_name": "4715000 2025 세출(2420건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "8de32d76cebf4512a87073446bc48b6f",
+      "ts": "2026-08-19T14:33:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4715000|fyr:2026",
+      "entity_name": "4715000 2026 세출(2240건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "37f9b17b40d24bf8a42845d17513a663",
+      "ts": "2026-08-19T11:13:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1843307",
+      "entity_name": "구미시 야생동물에 의한 농작물등 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1843307&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ad35c9783c084315aecf1acb14b2e037",
+      "ts": "2026-08-19T11:13:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2026733",
+      "entity_name": "구미시 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2026733&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4683c3b01fc24cbfb1dd75aa7d738adf",
+      "ts": "2026-08-19T11:07:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1395486",
+      "entity_name": "구미시 반려동물 보호 및 반려문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395486&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "71d0bfb604e6487aaf6325b6d4f55b5f",
+      "ts": "2026-08-19T10:59:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2042585",
+      "entity_name": "구미시 위기 임신 및 보호출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2042585&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1551d8b1351541ce87d5d86cd27bbddc",
+      "ts": "2026-08-19T10:59:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2075561",
+      "entity_name": "구미시 모자ㆍ부자보건사업 등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2075561&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a3d66d52d05b400fa0f14c683d112359",
+      "ts": "2026-08-19T10:57:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1970193",
+      "entity_name": "구미시 출산장려 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1970193&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6253b73801254b9d976aa79f34704bd2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47190",
+      "entity_name": "구미시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

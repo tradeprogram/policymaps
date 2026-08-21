@@ -1,0 +1,138 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "sig_cd": "26110",
+  "region_id": "26110",
+  "name": "중구",
+  "full_name": "부산광역시 중구",
+  "level": 2,
+  "status": "active",
+  "population": 39000,
+  "ordinance_kinds": {
+    "조례": 638,
+    "규칙": 178
+  },
+  "ordinance_total": 816,
+  "top_categories": [
+    {
+      "code": "C13",
+      "count": 118
+    },
+    {
+      "code": "C12",
+      "count": 117
+    },
+    {
+      "code": "C11",
+      "count": 105
+    },
+    {
+      "code": "C02",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 81
+    },
+    {
+      "code": "C01",
+      "count": 72
+    },
+    {
+      "code": "C03",
+      "count": 51
+    },
+    {
+      "code": "C06",
+      "count": 45
+    },
+    {
+      "code": "C07",
+      "count": 34
+    },
+    {
+      "code": "C05",
+      "count": 19
+    },
+    {
+      "code": "C09",
+      "count": 14
+    },
+    {
+      "code": "C10",
+      "count": 13
+    },
+    {
+      "code": "C04",
+      "count": 10
+    },
+    {
+      "code": "C14",
+      "count": 1
+    }
+  ],
+  "budget": {
+    "lines": 8729,
+    "exe_amt": 87711834827,
+    "budget_now": 169084502903
+  },
+  "recent_changes": [
+    {
+      "change_id": "83f3ba37f6796891a536aeda3f575d3a",
+      "ts": "2026-08-19T08:18:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2629884",
+      "entity_name": "부산광역시 교육경비 보조에 관한 조례",
+      "event": "repealed",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2629884&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9b2560353ce4509a44430f08680a30bd",
+      "ts": "2026-08-18T06:22:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3531290",
+      "entity_name": "부산광역시 서구 작은도서관 설치 및 운영에 관한 조례",
+      "event": "updated",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3531290&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3353348891933ef273b81721b391f900",
+      "ts": "2026-08-18T06:17:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3167679",
+      "entity_name": "부산광역시 영도구 행정기구 및 정원에 관한 조례",
+      "event": "repealed",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3167679&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8b48864c428f14a10620e23fa7310510",
+      "ts": "2026-08-18T04:12:24+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2600000|fyr:2025",
+      "entity_name": "2600000 2025 세출(3793건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "7d2e396029963f9c21d30aa77eea0926",
+      "ts": "2026-08-18T02:19:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3268215",
+      "entity_name": "부산광역시 서구 빈집 정비 및 활용에 관한 규칙",
+      "event": "updated",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3268215&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "10c75840cb54e7697773a76eb42fca91",
+      "ts": "2026-08-18T00:44:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2600000|fyr:2025",
+      "entity_name": "2600000 2025 세출(612건)",
+      "event": "budget_changed",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-21",
+  "stale": false
+}

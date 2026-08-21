@@ -1,0 +1,118 @@
+{
+  "sig_cd": "27230",
+  "region_id": "27230",
+  "name": "북구",
+  "full_name": "대구광역시 북구",
+  "level": 2,
+  "status": "active",
+  "population": 406587,
+  "ordinance_kinds": {
+    "규칙": 86,
+    "조례": 424
+  },
+  "ordinance_total": 510,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 199
+    },
+    {
+      "code": "C02",
+      "count": 123
+    },
+    {
+      "code": "C03",
+      "count": 100
+    },
+    {
+      "code": "C06",
+      "count": 73
+    },
+    {
+      "code": "C08",
+      "count": 66
+    },
+    {
+      "code": "C05",
+      "count": 65
+    },
+    {
+      "code": "C11",
+      "count": 61
+    },
+    {
+      "code": "C13",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 44
+    },
+    {
+      "code": "C10",
+      "count": 34
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 2903,
+    "exe_amt": 1816940550984,
+    "budget_now": 2404759747614
+  },
+  "recent_changes": [
+    {
+      "change_id": "22405d6a187045b389218239583241a8",
+      "ts": "2026-08-19T14:43:52+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2715000|fyr:2025",
+      "entity_name": "2715000 2025 세출(1489건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "38f727f5193744f5ba9b37a42538124a",
+      "ts": "2026-08-19T14:17:28+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2715000|fyr:2026",
+      "entity_name": "2715000 2026 세출(1414건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "595e71d2d20a4cc28c02bcfab2539d9d",
+      "ts": "2026-08-19T10:59:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2076081",
+      "entity_name": "대구광역시 북구 위기 임신 및 보호출산 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2076081&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "db0de1d983a640c8a3585047f9b992fa",
+      "ts": "2026-08-19T10:57:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1859411",
+      "entity_name": "대구광역시 북구 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1859411&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "77301ce7235b46c49d0b3d9f62883888",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "27230",
+      "entity_name": "북구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

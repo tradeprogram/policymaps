@@ -1,0 +1,154 @@
+{
+  "sig_cd": "41210",
+  "region_id": "41210",
+  "name": "광명시",
+  "full_name": "경기도 광명시",
+  "level": 2,
+  "status": "active",
+  "population": 303726,
+  "ordinance_kinds": {
+    "규칙": 109,
+    "조례": 631
+  },
+  "ordinance_total": 740,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 256
+    },
+    {
+      "code": "C02",
+      "count": 191
+    },
+    {
+      "code": "C03",
+      "count": 144
+    },
+    {
+      "code": "C11",
+      "count": 118
+    },
+    {
+      "code": "C05",
+      "count": 93
+    },
+    {
+      "code": "C06",
+      "count": 90
+    },
+    {
+      "code": "C09",
+      "count": 84
+    },
+    {
+      "code": "C13",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 81
+    },
+    {
+      "code": "C07",
+      "count": 76
+    },
+    {
+      "code": "C10",
+      "count": 65
+    },
+    {
+      "code": "C12",
+      "count": 17
+    }
+  ],
+  "budget": {
+    "lines": 4423,
+    "exe_amt": 2393643759950,
+    "budget_now": 3397928063350
+  },
+  "recent_changes": [
+    {
+      "change_id": "883ab2ce140f4de4bcd46f1ebe1ed51e",
+      "ts": "2026-08-19T14:49:55+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4116000|fyr:2025",
+      "entity_name": "4116000 2025 세출(2189건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2cdc14a259e544a987749db63e72260c",
+      "ts": "2026-08-19T14:18:59+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4116000|fyr:2026",
+      "entity_name": "4116000 2026 세출(2234건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "95aabc3daf6e40a3a33a638b823e1acc",
+      "ts": "2026-08-19T11:13:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2076281",
+      "entity_name": "광명시 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2076281&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f3885f43c0824ef1884141ed5c408390",
+      "ts": "2026-08-19T11:13:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2116383",
+      "entity_name": "광명시 야생동물 피해예방 및 보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2116383&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "25d27b196ef84a179f519127d9180e4f",
+      "ts": "2026-08-19T11:12:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2027491",
+      "entity_name": "광명시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2027491&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "38df898383b34772813cd41271c59f24",
+      "ts": "2026-08-19T11:11:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2076243",
+      "entity_name": "광명시 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2076243&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "abcaf580289544b392c5e6130e2280dc",
+      "ts": "2026-08-19T11:04:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1789921",
+      "entity_name": "광명시 저출산ㆍ고령사회 대응과 지속 발전을 위한조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1789921&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c4d8ff4ce8ea403da70bf969b44c59f1",
+      "ts": "2026-08-19T10:53:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1591115",
+      "entity_name": "광명시 출산축하금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1591115&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5781f9f1b7e0438491f36ac30bc9c439",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41210",
+      "entity_name": "광명시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

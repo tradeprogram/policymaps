@@ -1,0 +1,154 @@
+{
+  "sig_cd": "41630",
+  "region_id": "41630",
+  "name": "양주시",
+  "full_name": "경기도 양주시",
+  "level": 2,
+  "status": "active",
+  "population": 297352,
+  "ordinance_kinds": {
+    "규칙": 123,
+    "조례": 496
+  },
+  "ordinance_total": 619,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 238
+    },
+    {
+      "code": "C02",
+      "count": 190
+    },
+    {
+      "code": "C03",
+      "count": 96
+    },
+    {
+      "code": "C11",
+      "count": 90
+    },
+    {
+      "code": "C09",
+      "count": 71
+    },
+    {
+      "code": "C05",
+      "count": 68
+    },
+    {
+      "code": "C08",
+      "count": 67
+    },
+    {
+      "code": "C13",
+      "count": 64
+    },
+    {
+      "code": "C07",
+      "count": 62
+    },
+    {
+      "code": "C06",
+      "count": 58
+    },
+    {
+      "code": "C10",
+      "count": 42
+    },
+    {
+      "code": "C12",
+      "count": 27
+    }
+  ],
+  "budget": {
+    "lines": 4235,
+    "exe_amt": 2220862456468,
+    "budget_now": 2884489434431
+  },
+  "recent_changes": [
+    {
+      "change_id": "e33d1297a3e449be93684bb450306cf9",
+      "ts": "2026-08-19T14:53:06+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4136000|fyr:2025",
+      "entity_name": "4136000 2025 세출(2134건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "199482b577714efe8b0e2ac028d76caf",
+      "ts": "2026-08-19T14:20:28+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4136000|fyr:2026",
+      "entity_name": "4136000 2026 세출(2101건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0979093ab8a5435ca022118fec6b1339",
+      "ts": "2026-08-19T11:16:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1371159",
+      "entity_name": "양주시 야생동물에 의한 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1371159&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "455da827c4904888bd2bbbcaae73567a",
+      "ts": "2026-08-19T11:08:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1867123",
+      "entity_name": "양주시 사회적 약자 반려동물 진료비 등 부담 완화 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867123&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "644219b2512e43acbf948d0f67f5a86b",
+      "ts": "2026-08-19T11:08:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2126089",
+      "entity_name": "양주시 동물보호 및 반려문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126089&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "eb30b4faa588430aba6a0b10672000a8",
+      "ts": "2026-08-19T11:06:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1558865",
+      "entity_name": "양주시 저출산 극복을 위한 인구정책 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1558865&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bc69c9b6c305461391eb43ce39c55853",
+      "ts": "2026-08-19T11:02:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1509073",
+      "entity_name": "양주시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1509073&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "547fe3e8471141cc86564384de339763",
+      "ts": "2026-08-19T10:55:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1511431",
+      "entity_name": "양주시 출산축하금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1511431&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "89624f01c88c47bbbc90f93912bcac2d",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41630",
+      "entity_name": "양주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

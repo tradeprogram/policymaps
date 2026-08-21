@@ -1,0 +1,154 @@
+{
+  "sig_cd": "41250",
+  "region_id": "41250",
+  "name": "동두천시",
+  "full_name": "경기도 동두천시",
+  "level": 2,
+  "status": "active",
+  "population": 86186,
+  "ordinance_kinds": {
+    "규칙": 124,
+    "조례": 483
+  },
+  "ordinance_total": 607,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 238
+    },
+    {
+      "code": "C02",
+      "count": 176
+    },
+    {
+      "code": "C03",
+      "count": 98
+    },
+    {
+      "code": "C05",
+      "count": 79
+    },
+    {
+      "code": "C11",
+      "count": 75
+    },
+    {
+      "code": "C13",
+      "count": 68
+    },
+    {
+      "code": "C08",
+      "count": 65
+    },
+    {
+      "code": "C06",
+      "count": 64
+    },
+    {
+      "code": "C09",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 50
+    },
+    {
+      "code": "C12",
+      "count": 14
+    }
+  ],
+  "budget": {
+    "lines": 3240,
+    "exe_amt": 1119551341990,
+    "budget_now": 1812094800750
+  },
+  "recent_changes": [
+    {
+      "change_id": "2ae9d8a8df4a4c4ba2e966a6ecd57a85",
+      "ts": "2026-08-19T14:50:28+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4118000|fyr:2025",
+      "entity_name": "4118000 2025 세출(1647건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9a51df3f42fd4b5e88d91c31e72b61b8",
+      "ts": "2026-08-19T14:19:07+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4118000|fyr:2026",
+      "entity_name": "4118000 2026 세출(1593건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "933a7936d08844b59f18e49bfdc0eea8",
+      "ts": "2026-08-19T11:14:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2127645",
+      "entity_name": "동두천시 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127645&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "08ee08a54b504abaaeedd3d78d7ab521",
+      "ts": "2026-08-19T11:14:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2127527",
+      "entity_name": "동두천시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127527&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "37b1f24d9f624eb7909073de8841a07a",
+      "ts": "2026-08-19T11:14:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2127765",
+      "entity_name": "동두천시 동물 보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127765&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "889723019b514637b628312b2cd79a9d",
+      "ts": "2026-08-19T11:00:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2158389",
+      "entity_name": "동두천시 저출산ㆍ고령사회 대응과 지속발전을 위한 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2158389&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "435c5e36202544d4838269691c7af373",
+      "ts": "2026-08-19T11:00:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1500365",
+      "entity_name": "동두천시 여성장애인 출산지원금 및 양육비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1500365&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "39c79ca9749d44b3acd8d107d8281362",
+      "ts": "2026-08-19T10:55:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2033615",
+      "entity_name": "동두천시 출산장려 등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2033615&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5bb101e04ca4444a97d2aa45286d3f9e",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41250",
+      "entity_name": "동두천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

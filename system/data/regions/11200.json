@@ -1,0 +1,163 @@
+{
+  "sig_cd": "11200",
+  "region_id": "11200",
+  "name": "성동구",
+  "full_name": "서울특별시 성동구",
+  "level": 2,
+  "status": "active",
+  "population": 274346,
+  "ordinance_kinds": {
+    "규칙": 107,
+    "조례": 481
+  },
+  "ordinance_total": 588,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 226
+    },
+    {
+      "code": "C02",
+      "count": 172
+    },
+    {
+      "code": "C03",
+      "count": 116
+    },
+    {
+      "code": "C11",
+      "count": 80
+    },
+    {
+      "code": "C06",
+      "count": 76
+    },
+    {
+      "code": "C08",
+      "count": 72
+    },
+    {
+      "code": "C05",
+      "count": 66
+    },
+    {
+      "code": "C13",
+      "count": 63
+    },
+    {
+      "code": "C09",
+      "count": 60
+    },
+    {
+      "code": "C07",
+      "count": 55
+    },
+    {
+      "code": "C10",
+      "count": 33
+    },
+    {
+      "code": "C04",
+      "count": 15
+    }
+  ],
+  "budget": {
+    "lines": 2414,
+    "exe_amt": 1393441813080,
+    "budget_now": 1832795818630
+  },
+  "recent_changes": [
+    {
+      "change_id": "9186845c0cd24a0d8558d550715d4b42",
+      "ts": "2026-08-19T14:38:15+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1114000|fyr:2025",
+      "entity_name": "1114000 2025 세출(1229건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2b42da2ce007416cbcbb425a71b4c883",
+      "ts": "2026-08-19T14:16:25+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1114000|fyr:2026",
+      "entity_name": "1114000 2026 세출(1185건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f474463cb1ab45fba3e1c242bb587016",
+      "ts": "2026-08-19T11:15:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2057583",
+      "entity_name": "서울특별시 성동구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2057583&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "416929d8f8884b76a229ca74afe52b1b",
+      "ts": "2026-08-19T11:15:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2021201",
+      "entity_name": "서울특별시 성동구 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021201&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3bae3e11ccab420ead35c5cd00e3b17e",
+      "ts": "2026-08-19T11:08:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1664183",
+      "entity_name": "서울특별시 성동구 반려동물 진료비 부담 완화 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664183&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9353892dbcb54ef8934425b7db6e1537",
+      "ts": "2026-08-19T11:06:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1637663",
+      "entity_name": "서울특별시 성동구 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1637663&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3e6702e0123a475f861db701ca1a6018",
+      "ts": "2026-08-19T11:01:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2057581",
+      "entity_name": "서울특별시 성동구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2057581&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1da572c3ff0e4a8c95bad9ce50a070e2",
+      "ts": "2026-08-19T11:01:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2021217",
+      "entity_name": "서울특별시 성동구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021217&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "11fbe1172c6a4b2b8a98a66360c74ec4",
+      "ts": "2026-08-19T10:55:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1852983",
+      "entity_name": "서울특별시 성동구 출생축하금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1852983&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "25cbe9c4abe1455b9233c28bf42e5953",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11200",
+      "entity_name": "성동구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

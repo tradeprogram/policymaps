@@ -1,0 +1,136 @@
+{
+  "sig_cd": "26290",
+  "region_id": "26290",
+  "name": "남구",
+  "full_name": "부산광역시 남구",
+  "level": 2,
+  "status": "active",
+  "population": 254774,
+  "ordinance_kinds": {
+    "규칙": 84,
+    "조례": 428
+  },
+  "ordinance_total": 512,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 204
+    },
+    {
+      "code": "C02",
+      "count": 139
+    },
+    {
+      "code": "C03",
+      "count": 84
+    },
+    {
+      "code": "C06",
+      "count": 71
+    },
+    {
+      "code": "C08",
+      "count": 70
+    },
+    {
+      "code": "C11",
+      "count": 66
+    },
+    {
+      "code": "C05",
+      "count": 64
+    },
+    {
+      "code": "C07",
+      "count": 57
+    },
+    {
+      "code": "C13",
+      "count": 48
+    },
+    {
+      "code": "C09",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 32
+    },
+    {
+      "code": "C04",
+      "count": 18
+    }
+  ],
+  "budget": {
+    "lines": 2270,
+    "exe_amt": 1299540061164,
+    "budget_now": 1797852287140
+  },
+  "recent_changes": [
+    {
+      "change_id": "55952c5009214eea9ec456e4d858b6e0",
+      "ts": "2026-08-19T14:41:42+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2617000|fyr:2025",
+      "entity_name": "2617000 2025 세출(1187건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5ea1f72e05e648c09c73cd2c37f9ca1e",
+      "ts": "2026-08-19T14:17:08+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2617000|fyr:2026",
+      "entity_name": "2617000 2026 세출(1083건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fd6a43d657e64a3e97bbeedba0e1c8dd",
+      "ts": "2026-08-19T11:14:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1816359",
+      "entity_name": "부산광역시 남구 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816359&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "800238d382ba4985bc8ebabf5ba0a5d9",
+      "ts": "2026-08-19T11:07:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1992867",
+      "entity_name": "부산광역시 남구 사회적 약자의 반려동물 진료비 등 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1992867&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "615c98df82174c338bcc9f0c5370fdd3",
+      "ts": "2026-08-19T11:00:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1868225",
+      "entity_name": "부산광역시 남구 장애인가정 출산 및 양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1868225&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "66ef7a4c2aa64289a18a58f6b2fc6e2c",
+      "ts": "2026-08-19T10:55:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1980489",
+      "entity_name": "부산광역시 남구 출산·양육 및 다자녀가정 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1980489&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e3423935aa264cddab694ed12a641713",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26290",
+      "entity_name": "남구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

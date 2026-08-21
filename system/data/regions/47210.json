@@ -1,0 +1,118 @@
+{
+  "sig_cd": "47210",
+  "region_id": "47210",
+  "name": "영주시",
+  "full_name": "경상북도 영주시",
+  "level": 2,
+  "status": "active",
+  "population": 96345,
+  "ordinance_kinds": {
+    "규칙": 111,
+    "조례": 479
+  },
+  "ordinance_total": 590,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 228
+    },
+    {
+      "code": "C02",
+      "count": 177
+    },
+    {
+      "code": "C03",
+      "count": 83
+    },
+    {
+      "code": "C11",
+      "count": 79
+    },
+    {
+      "code": "C09",
+      "count": 72
+    },
+    {
+      "code": "C08",
+      "count": 70
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C05",
+      "count": 56
+    },
+    {
+      "code": "C06",
+      "count": 54
+    },
+    {
+      "code": "C12",
+      "count": 53
+    },
+    {
+      "code": "C07",
+      "count": 53
+    },
+    {
+      "code": "C10",
+      "count": 35
+    }
+  ],
+  "budget": {
+    "lines": 3989,
+    "exe_amt": 1840010900910,
+    "budget_now": 2870221843272
+  },
+  "recent_changes": [
+    {
+      "change_id": "51edce26a1d146d5aba36386b36dabfc",
+      "ts": "2026-08-19T15:17:30+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4716000|fyr:2025",
+      "entity_name": "4716000 2025 세출(2037건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f889ba2d0a324909aaebe596850bba6d",
+      "ts": "2026-08-19T14:33:05+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4716000|fyr:2026",
+      "entity_name": "4716000 2026 세출(1952건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "192dac24405e4715a3ba35167e4645fb",
+      "ts": "2026-08-19T11:17:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1996945",
+      "entity_name": "영주시 야생동물 보호 및 피해예방 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1996945&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "954c528166844f97865a7f0da4a62c18",
+      "ts": "2026-08-19T11:09:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1911299",
+      "entity_name": "영주시 반려동물 및 유실ㆍ유기동물의 보호ㆍ관리와 반려문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911299&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cb96327de28243d49ea0d2dfd1b10b43",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47210",
+      "entity_name": "영주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

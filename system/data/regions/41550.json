@@ -1,0 +1,145 @@
+{
+  "sig_cd": "41550",
+  "region_id": "41550",
+  "name": "안성시",
+  "full_name": "경기도 안성시",
+  "level": 2,
+  "status": "active",
+  "population": 199314,
+  "ordinance_kinds": {
+    "규칙": 122,
+    "조례": 588
+  },
+  "ordinance_total": 710,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 230
+    },
+    {
+      "code": "C02",
+      "count": 205
+    },
+    {
+      "code": "C03",
+      "count": 114
+    },
+    {
+      "code": "C11",
+      "count": 111
+    },
+    {
+      "code": "C05",
+      "count": 86
+    },
+    {
+      "code": "C13",
+      "count": 84
+    },
+    {
+      "code": "C08",
+      "count": 81
+    },
+    {
+      "code": "C07",
+      "count": 77
+    },
+    {
+      "code": "C09",
+      "count": 76
+    },
+    {
+      "code": "C06",
+      "count": 61
+    },
+    {
+      "code": "C12",
+      "count": 60
+    },
+    {
+      "code": "C10",
+      "count": 57
+    }
+  ],
+  "budget": {
+    "lines": 4320,
+    "exe_amt": 2219831698994,
+    "budget_now": 3107548839680
+  },
+  "recent_changes": [
+    {
+      "change_id": "3cfe816b20354e2c8685bb8f4c70e0f2",
+      "ts": "2026-08-19T14:52:38+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4132000|fyr:2025",
+      "entity_name": "4132000 2025 세출(2186건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "871f4b9b36c244a28232fbd14302a173",
+      "ts": "2026-08-19T14:20:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4132000|fyr:2026",
+      "entity_name": "4132000 2026 세출(2134건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "7bec5814b8b44659834f12a15b5f286d",
+      "ts": "2026-08-19T11:16:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2115389",
+      "entity_name": "안성시 야생동물 피해예방 지원 및 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115389&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ce40a84e3dee4a508904033b3f25744b",
+      "ts": "2026-08-19T11:16:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2021651",
+      "entity_name": "안성시 동물보호 및 복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021651&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fbb103e4f70a4e288bcc73c7ecc7a9e4",
+      "ts": "2026-08-19T11:11:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1994915",
+      "entity_name": "안성시 반려견 순찰대 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1994915&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e2d56231c07941f386971b331e787155",
+      "ts": "2026-08-19T11:02:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1881681",
+      "entity_name": "안성시 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1881681&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2939d5ed27ff4946aa398e24feaa3808",
+      "ts": "2026-08-19T10:58:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2115397",
+      "entity_name": "안성시 출산·양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115397&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ffcaeced05004867b6ec1a6a37aa91a5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41550",
+      "entity_name": "안성시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

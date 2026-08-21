@@ -1,0 +1,145 @@
+{
+  "sig_cd": "47280",
+  "region_id": "47280",
+  "name": "문경시",
+  "full_name": "경상북도 문경시",
+  "level": 2,
+  "status": "active",
+  "population": 64662,
+  "ordinance_kinds": {
+    "규칙": 109,
+    "조례": 514
+  },
+  "ordinance_total": 623,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 212
+    },
+    {
+      "code": "C02",
+      "count": 184
+    },
+    {
+      "code": "C11",
+      "count": 103
+    },
+    {
+      "code": "C03",
+      "count": 102
+    },
+    {
+      "code": "C13",
+      "count": 85
+    },
+    {
+      "code": "C05",
+      "count": 69
+    },
+    {
+      "code": "C06",
+      "count": 64
+    },
+    {
+      "code": "C08",
+      "count": 62
+    },
+    {
+      "code": "C09",
+      "count": 58
+    },
+    {
+      "code": "C07",
+      "count": 54
+    },
+    {
+      "code": "C12",
+      "count": 53
+    },
+    {
+      "code": "C10",
+      "count": 33
+    }
+  ],
+  "budget": {
+    "lines": 3758,
+    "exe_amt": 1650061299494,
+    "budget_now": 2499779873768
+  },
+  "recent_changes": [
+    {
+      "change_id": "0e4149a44a95482383c9431e540125ed",
+      "ts": "2026-08-19T15:18:12+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4719000|fyr:2025",
+      "entity_name": "4719000 2025 세출(1939건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "22ef3180af04400f9a8d868b048dd1d0",
+      "ts": "2026-08-19T14:33:20+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4719000|fyr:2026",
+      "entity_name": "4719000 2026 세출(1819건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2e16e60b01f6444d929ac4560145c51c",
+      "ts": "2026-08-19T11:14:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1609183",
+      "entity_name": "문경시 야생동물 등에 의한 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1609183&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "073ce0473b2f4b5bacc7b7afd77eef0d",
+      "ts": "2026-08-19T11:07:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1978359",
+      "entity_name": "문경시 반려동물 및 유실·유기동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1978359&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ce8923186a1246febd553d874afb9aab",
+      "ts": "2026-08-19T11:07:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1487987",
+      "entity_name": "문경시 문경새재 반려동물 힐링센터 관리 및 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1487987&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "25efa7ec272b458eb49f8deaf8651e2f",
+      "ts": "2026-08-19T10:57:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1751809",
+      "entity_name": "문경시 출산장려기금 설치 및 운용 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1751809&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dc2ef9c4ff0545e59b7e634e82cc332d",
+      "ts": "2026-08-19T10:55:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2079533",
+      "entity_name": "문경시 출산장려에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079533&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0ea1b0df9b564f1aa77c5ebe5a579024",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47280",
+      "entity_name": "문경시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

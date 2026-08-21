@@ -1,0 +1,127 @@
+{
+  "sig_cd": "12210",
+  "region_id": "12210",
+  "name": "동구",
+  "full_name": "전남광주통합특별시 동구",
+  "level": 2,
+  "status": "active",
+  "population": 105344,
+  "ordinance_kinds": {
+    "규칙": 105,
+    "조례": 492
+  },
+  "ordinance_total": 597,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 223
+    },
+    {
+      "code": "C02",
+      "count": 154
+    },
+    {
+      "code": "C03",
+      "count": 103
+    },
+    {
+      "code": "C08",
+      "count": 85
+    },
+    {
+      "code": "C06",
+      "count": 79
+    },
+    {
+      "code": "C05",
+      "count": 77
+    },
+    {
+      "code": "C11",
+      "count": 73
+    },
+    {
+      "code": "C13",
+      "count": 67
+    },
+    {
+      "code": "C07",
+      "count": 67
+    },
+    {
+      "code": "C09",
+      "count": 62
+    },
+    {
+      "code": "C10",
+      "count": 28
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "c9921f8189c14a848ff0db23d47d0a10",
+      "ts": "2026-08-19T11:18:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2149161",
+      "entity_name": "전남광주통합특별시 동구 유해야생동물 피해 예방 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2149161&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6974cd4d06e34dadbbb2e35d18efb35a",
+      "ts": "2026-08-19T11:18:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2150697",
+      "entity_name": "전남광주통합특별시 동구 야생동물에 의한 농작물피해 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2150697&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a503dcb3620d445e9d6ff9afd279dbbe",
+      "ts": "2026-08-19T11:09:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2150771",
+      "entity_name": "전남광주통합특별시 동구 동물보호 및 반려문화 조성 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2150771&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1b581fb69c5b42b18f744f222c1b9c05",
+      "ts": "2026-08-19T11:04:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2151681",
+      "entity_name": "전남광주통합특별시 동구 임신ㆍ출산 관련 서비스 통합처리에 관한 규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2151681&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "db3d4074fcaf4ed889e17c85998711cf",
+      "ts": "2026-08-19T11:03:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2148289",
+      "entity_name": "전남광주통합특별시 동구 출산 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2148289&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7a9a1ff655a64526887741b608327bf7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12210",
+      "entity_name": "동구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

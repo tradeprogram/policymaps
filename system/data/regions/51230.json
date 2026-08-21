@@ -1,0 +1,163 @@
+{
+  "sig_cd": "51230",
+  "region_id": "51230",
+  "name": "삼척시",
+  "full_name": "강원특별자치도 삼척시",
+  "level": 2,
+  "status": "active",
+  "population": 60139,
+  "ordinance_kinds": {
+    "규칙": 124,
+    "조례": 518
+  },
+  "ordinance_total": 642,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 244
+    },
+    {
+      "code": "C02",
+      "count": 189
+    },
+    {
+      "code": "C03",
+      "count": 104
+    },
+    {
+      "code": "C11",
+      "count": 97
+    },
+    {
+      "code": "C08",
+      "count": 75
+    },
+    {
+      "code": "C13",
+      "count": 73
+    },
+    {
+      "code": "C05",
+      "count": 69
+    },
+    {
+      "code": "C06",
+      "count": 58
+    },
+    {
+      "code": "C09",
+      "count": 57
+    },
+    {
+      "code": "C12",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 56
+    },
+    {
+      "code": "C10",
+      "count": 45
+    }
+  ],
+  "budget": {
+    "lines": 4807,
+    "exe_amt": 1529353081521,
+    "budget_now": 2340210672295
+  },
+  "recent_changes": [
+    {
+      "change_id": "7cb88dab52374200b940f76a1644f03c",
+      "ts": "2026-08-19T14:55:22+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4217000|fyr:2025",
+      "entity_name": "4217000 2025 세출(2437건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "280b2c5a3bb34a838df90d82858879f3",
+      "ts": "2026-08-19T14:21:47+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4217000|fyr:2026",
+      "entity_name": "4217000 2026 세출(2370건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "6ed6309c848d44fa92fae141adfe807a",
+      "ts": "2026-08-19T11:15:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2028887",
+      "entity_name": "삼척시 유해야생동물 먹이주기 금지 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2028887&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "002ead8f4b5541738a7cc48ce5628ebd",
+      "ts": "2026-08-19T11:15:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1964125",
+      "entity_name": "삼척시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1964125&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b60b8f78b9ed4f2f8a1b93c9f41d69b5",
+      "ts": "2026-08-19T11:08:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1995067",
+      "entity_name": "삼척시 반려·유기동물 보호 및 동물보호센터 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1995067&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e0b8396d42a44893a3aa24906433e373",
+      "ts": "2026-08-19T11:04:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1681881",
+      "entity_name": "삼척시 저출산·고령사회 대응을 위한 인구정책 지원 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1681881&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "93293dc8b6994e96abbaa953773cf3cb",
+      "ts": "2026-08-19T11:00:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1881747",
+      "entity_name": "삼척시 출산축하용품 지원 및 모자보건에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1881747&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f6e142fdd3b141018e149d50d7d47490",
+      "ts": "2026-08-19T11:00:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1815547",
+      "entity_name": "삼척시 저출산·고령사회 대응을 위한 인구정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1815547&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "179be7a16ee94d81a05a823cf347b93d",
+      "ts": "2026-08-19T10:55:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1503075",
+      "entity_name": "삼척시 출산장려금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1503075&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4f23883cc5c94d90b7c49512d5edd607",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51230",
+      "entity_name": "삼척시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

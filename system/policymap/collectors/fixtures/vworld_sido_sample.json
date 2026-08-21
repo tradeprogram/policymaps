@@ -1,0 +1,31 @@
+{
+  "_note": "합성 픽스처(실데이터 아님). V-World data GetFeature(LT_C_ADSIDO_INFO) GeoJSON envelope 모사. 시도 레이어는 ctprvn_cd(2자리)/ctp_kor_nm 속성. 세 사각형은 서로 떨어져 있어 시도 간 인접이 없다(합성 좌표).",
+  "response": {
+    "service": { "name": "data", "version": "2.0", "operation": "GetFeature" },
+    "status": "OK",
+    "record": { "total": "3", "current": "3" },
+    "page": { "size": "1000", "current": "1", "total": "1" },
+    "result": {
+      "featureCollection": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": { "ctprvn_cd": "11", "ctp_kor_nm": "서울특별시", "ctp_eng_nm": "Seoul" },
+            "geometry": { "type": "MultiPolygon", "coordinates": [[[[127.00, 37.40], [127.20, 37.40], [127.20, 37.60], [127.00, 37.60], [127.00, 37.40]]]] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "ctprvn_cd": "41", "ctp_kor_nm": "경기도", "ctp_eng_nm": "Gyeonggi-do" },
+            "geometry": { "type": "MultiPolygon", "coordinates": [[[[127.30, 37.40], [127.50, 37.40], [127.50, 37.60], [127.30, 37.60], [127.30, 37.40]]]] }
+          },
+          {
+            "type": "Feature",
+            "properties": { "ctprvn_cd": "46", "ctp_kor_nm": "전라남도", "ctp_eng_nm": "Jeollanam-do" },
+            "geometry": { "type": "MultiPolygon", "coordinates": [[[[126.20, 34.60], [126.60, 34.60], [126.60, 35.00], [126.20, 35.00], [126.20, 34.60]]]] }
+          }
+        ]
+      }
+    }
+  }
+}

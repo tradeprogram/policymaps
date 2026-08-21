@@ -1,0 +1,136 @@
+{
+  "sig_cd": "41410",
+  "region_id": "41410",
+  "name": "군포시",
+  "full_name": "경기도 군포시",
+  "level": 2,
+  "status": "active",
+  "population": 249253,
+  "ordinance_kinds": {
+    "규칙": 95,
+    "조례": 533
+  },
+  "ordinance_total": 628,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 213
+    },
+    {
+      "code": "C02",
+      "count": 200
+    },
+    {
+      "code": "C03",
+      "count": 104
+    },
+    {
+      "code": "C11",
+      "count": 94
+    },
+    {
+      "code": "C08",
+      "count": 83
+    },
+    {
+      "code": "C05",
+      "count": 79
+    },
+    {
+      "code": "C09",
+      "count": 75
+    },
+    {
+      "code": "C06",
+      "count": 68
+    },
+    {
+      "code": "C07",
+      "count": 66
+    },
+    {
+      "code": "C13",
+      "count": 61
+    },
+    {
+      "code": "C10",
+      "count": 56
+    },
+    {
+      "code": "C04",
+      "count": 14
+    }
+  ],
+  "budget": {
+    "lines": 3299,
+    "exe_amt": 1580134201738,
+    "budget_now": 2147332803410
+  },
+  "recent_changes": [
+    {
+      "change_id": "27b1e94e4f084c96adaf5dd1977aee30",
+      "ts": "2026-08-19T14:51:56+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4126000|fyr:2025",
+      "entity_name": "4126000 2025 세출(1671건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "50e716aacd264e5ca22da1cca0dd7815",
+      "ts": "2026-08-19T14:19:34+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4126000|fyr:2026",
+      "entity_name": "4126000 2026 세출(1628건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1ed6268c3b4549c1876f1a4e6223dfec",
+      "ts": "2026-08-19T11:13:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2125141",
+      "entity_name": "군포시 야생동물 피해예방 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125141&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d367d60b57c6454b8bedf9e945923715",
+      "ts": "2026-08-19T11:07:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2021995",
+      "entity_name": "군포시 동물복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021995&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2f238e05527c4a9f9370a9c6f50f8430",
+      "ts": "2026-08-19T10:58:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1378638",
+      "entity_name": "군포시 출산장려 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1378638&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e6ecb08043ed4dc5a24fda85db00f2bb",
+      "ts": "2026-08-19T10:57:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2106111",
+      "entity_name": "군포시 임신ㆍ출생축하금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2106111&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "32618f44034f4e7ab7cc01cc4f4de6b9",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41410",
+      "entity_name": "군포시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

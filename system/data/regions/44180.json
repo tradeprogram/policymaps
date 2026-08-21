@@ -1,0 +1,145 @@
+{
+  "sig_cd": "44180",
+  "region_id": "44180",
+  "name": "보령시",
+  "full_name": "충청남도 보령시",
+  "level": 2,
+  "status": "active",
+  "population": 91144,
+  "ordinance_kinds": {
+    "규칙": 143,
+    "조례": 567
+  },
+  "ordinance_total": 710,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 245
+    },
+    {
+      "code": "C02",
+      "count": 221
+    },
+    {
+      "code": "C11",
+      "count": 102
+    },
+    {
+      "code": "C03",
+      "count": 99
+    },
+    {
+      "code": "C09",
+      "count": 86
+    },
+    {
+      "code": "C13",
+      "count": 85
+    },
+    {
+      "code": "C08",
+      "count": 77
+    },
+    {
+      "code": "C05",
+      "count": 77
+    },
+    {
+      "code": "C07",
+      "count": 70
+    },
+    {
+      "code": "C12",
+      "count": 60
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C10",
+      "count": 49
+    }
+  ],
+  "budget": {
+    "lines": 4800,
+    "exe_amt": 1876704721298,
+    "budget_now": 2676225248781
+  },
+  "recent_changes": [
+    {
+      "change_id": "04c7a14ceccb43f9b2ce60b287518b36",
+      "ts": "2026-08-19T15:00:41+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4413000|fyr:2025",
+      "entity_name": "4413000 2025 세출(2479건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "07fbc29c6d77434396b1b9f2cf4b4d95",
+      "ts": "2026-08-19T14:25:02+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4413000|fyr:2026",
+      "entity_name": "4413000 2026 세출(2321건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5cbd7989173646e9b92725904584f70f",
+      "ts": "2026-08-19T11:14:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1773713",
+      "entity_name": "보령시 야생동물에 의한 피해예방 및 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1773713&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9a08f314beaf4504a53a3eb02fd583b5",
+      "ts": "2026-08-19T11:14:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1984593",
+      "entity_name": "보령시 동물 보호 및 생명 존중 문화 조성 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1984593&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a44e3e68cf6943d2b1c5c40d67ff3393",
+      "ts": "2026-08-19T11:07:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2058985",
+      "entity_name": "보령시 사회적 약자 반려동물 의료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058985&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f883ae73d9dc4c5186f093d86182ecb5",
+      "ts": "2026-08-19T11:00:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2121455",
+      "entity_name": "보령시 저출산·고령사회정책 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2121455&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "29a34e13b55f4aeab7a0bfbb7ab198a3",
+      "ts": "2026-08-19T10:55:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2121445",
+      "entity_name": "보령시 출산양육지원금 지급에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2121445&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d46cb8110fa348c285211d92a0bb1412",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44180",
+      "entity_name": "보령시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

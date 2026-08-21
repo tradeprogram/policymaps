@@ -1,0 +1,109 @@
+{
+  "sig_cd": "12330",
+  "region_id": "12330",
+  "name": "광산구",
+  "full_name": "전남광주통합특별시 광산구",
+  "level": 2,
+  "status": "active",
+  "population": 382841,
+  "ordinance_kinds": {
+    "규칙": 88,
+    "조례": 529
+  },
+  "ordinance_total": 617,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 205
+    },
+    {
+      "code": "C02",
+      "count": 172
+    },
+    {
+      "code": "C03",
+      "count": 112
+    },
+    {
+      "code": "C11",
+      "count": 102
+    },
+    {
+      "code": "C06",
+      "count": 74
+    },
+    {
+      "code": "C05",
+      "count": 72
+    },
+    {
+      "code": "C08",
+      "count": 69
+    },
+    {
+      "code": "C07",
+      "count": 67
+    },
+    {
+      "code": "C13",
+      "count": 62
+    },
+    {
+      "code": "C09",
+      "count": 62
+    },
+    {
+      "code": "C10",
+      "count": 42
+    },
+    {
+      "code": "C12",
+      "count": 24
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "3deb85cab3ae4557930549d9feb90902",
+      "ts": "2026-08-19T11:18:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2146633",
+      "entity_name": "전남광주통합특별시 광산구 야생동물에 의한 농작물피해 등 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2146633&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dd454fe70d184e38b2749e8d3ac63f37",
+      "ts": "2026-08-19T11:09:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2138991",
+      "entity_name": "전남광주통합특별시 광산구 반려동물 및 유실ㆍ유기동물 보호와 학대방지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2138991&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1b931a9a7d26435b952bda464ea4b08e",
+      "ts": "2026-08-19T11:03:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2143265",
+      "entity_name": "전남광주통합특별시 광산구 출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2143265&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c8826170e1cc4478ad7af077106d5fda",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12330",
+      "entity_name": "광산구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

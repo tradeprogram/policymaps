@@ -1,0 +1,118 @@
+{
+  "sig_cd": "11500",
+  "region_id": "11500",
+  "name": "강서구",
+  "full_name": "서울특별시 강서구",
+  "level": 2,
+  "status": "active",
+  "population": 548268,
+  "ordinance_kinds": {
+    "규칙": 115,
+    "조례": 452
+  },
+  "ordinance_total": 567,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 215
+    },
+    {
+      "code": "C02",
+      "count": 155
+    },
+    {
+      "code": "C03",
+      "count": 114
+    },
+    {
+      "code": "C06",
+      "count": 82
+    },
+    {
+      "code": "C11",
+      "count": 78
+    },
+    {
+      "code": "C08",
+      "count": 74
+    },
+    {
+      "code": "C05",
+      "count": 68
+    },
+    {
+      "code": "C13",
+      "count": 58
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 48
+    },
+    {
+      "code": "C10",
+      "count": 34
+    },
+    {
+      "code": "C04",
+      "count": 21
+    }
+  ],
+  "budget": {
+    "lines": 1927,
+    "exe_amt": 2645091162311,
+    "budget_now": 3671544595780
+  },
+  "recent_changes": [
+    {
+      "change_id": "0df136f84b9d419392fe80a312a4a9ce",
+      "ts": "2026-08-19T14:39:51+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1126000|fyr:2025",
+      "entity_name": "1126000 2025 세출(990건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "bd8481778e0f4b45ac0b376419a2b65b",
+      "ts": "2026-08-19T14:16:52+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1126000|fyr:2026",
+      "entity_name": "1126000 2026 세출(937건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b6fd5071e28a488baf828ca625c1b284",
+      "ts": "2026-08-19T11:15:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2120183",
+      "entity_name": "서울특별시 강서구 동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2120183&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a9aa501506584d94b340def84c48908e",
+      "ts": "2026-08-19T11:00:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2120193",
+      "entity_name": "서울특별시 강서구 출산 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2120193&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f8e5c0e43bce4b6abe5680da1c16fd23",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11500",
+      "entity_name": "강서구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

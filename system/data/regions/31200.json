@@ -1,0 +1,127 @@
+{
+  "sig_cd": "31200",
+  "region_id": "31200",
+  "name": "북구",
+  "full_name": "울산광역시 북구",
+  "level": 2,
+  "status": "active",
+  "population": 213512,
+  "ordinance_kinds": {
+    "규칙": 99,
+    "조례": 375
+  },
+  "ordinance_total": 474,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 203
+    },
+    {
+      "code": "C02",
+      "count": 127
+    },
+    {
+      "code": "C03",
+      "count": 77
+    },
+    {
+      "code": "C08",
+      "count": 64
+    },
+    {
+      "code": "C05",
+      "count": 61
+    },
+    {
+      "code": "C06",
+      "count": 58
+    },
+    {
+      "code": "C13",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 52
+    },
+    {
+      "code": "C11",
+      "count": 46
+    },
+    {
+      "code": "C09",
+      "count": 44
+    },
+    {
+      "code": "C10",
+      "count": 21
+    },
+    {
+      "code": "C12",
+      "count": 19
+    }
+  ],
+  "budget": {
+    "lines": 2146,
+    "exe_amt": 965736472874,
+    "budget_now": 1335879800452
+  },
+  "recent_changes": [
+    {
+      "change_id": "3fcfc7720818425c9619abf5fc8988e1",
+      "ts": "2026-08-19T14:47:32+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3114000|fyr:2025",
+      "entity_name": "3114000 2025 세출(1087건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1d3df871058f4c54a77ce5805d8c0dd8",
+      "ts": "2026-08-19T14:18:25+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3114000|fyr:2026",
+      "entity_name": "3114000 2026 세출(1059건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c46f247b60fd48c282b235a95054def6",
+      "ts": "2026-08-19T11:17:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2081243",
+      "entity_name": "울산광역시 북구 야생동물에 의한 농작물 피해 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2081243&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "458a5bf176e4428098b7b91e56602c80",
+      "ts": "2026-08-19T11:09:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2002111",
+      "entity_name": "울산광역시 북구 반려동물 및 유실·유기동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002111&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cee0b70de75a4b4e807e491e7276259c",
+      "ts": "2026-08-19T10:58:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2035183",
+      "entity_name": "울산광역시 북구 출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2035183&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "972044064aa64c00a052d77fe9bc1a18",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "31200",
+      "entity_name": "북구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

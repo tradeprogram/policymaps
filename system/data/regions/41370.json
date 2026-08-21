@@ -1,0 +1,172 @@
+{
+  "sig_cd": "41370",
+  "region_id": "41370",
+  "name": "오산시",
+  "full_name": "경기도 오산시",
+  "level": 2,
+  "status": "active",
+  "population": 254747,
+  "ordinance_kinds": {
+    "규칙": 110,
+    "조례": 498
+  },
+  "ordinance_total": 608,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 234
+    },
+    {
+      "code": "C02",
+      "count": 175
+    },
+    {
+      "code": "C03",
+      "count": 112
+    },
+    {
+      "code": "C11",
+      "count": 79
+    },
+    {
+      "code": "C08",
+      "count": 78
+    },
+    {
+      "code": "C09",
+      "count": 76
+    },
+    {
+      "code": "C05",
+      "count": 69
+    },
+    {
+      "code": "C13",
+      "count": 68
+    },
+    {
+      "code": "C07",
+      "count": 64
+    },
+    {
+      "code": "C06",
+      "count": 53
+    },
+    {
+      "code": "C10",
+      "count": 47
+    },
+    {
+      "code": "C12",
+      "count": 15
+    }
+  ],
+  "budget": {
+    "lines": 2813,
+    "exe_amt": 1657458211690,
+    "budget_now": 2273323819620
+  },
+  "recent_changes": [
+    {
+      "change_id": "24f3e8c78536440182b05d87904daa19",
+      "ts": "2026-08-19T14:51:19+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4124000|fyr:2025",
+      "entity_name": "4124000 2025 세출(1402건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "64bd5a11db454af09b796a7d9a7ccbe7",
+      "ts": "2026-08-19T14:19:24+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4124000|fyr:2026",
+      "entity_name": "4124000 2026 세출(1411건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "6b9f7ba7870b4d90839a2e0f113253e2",
+      "ts": "2026-08-19T11:17:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1710483",
+      "entity_name": "오산시 야생동물로 인한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1710483&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5e10e0dc377943cf8b759a1d95cbe132",
+      "ts": "2026-08-19T11:17:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2119357",
+      "entity_name": "오산시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119357&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4b62f587d52949dd804a07199eb3c6c5",
+      "ts": "2026-08-19T11:11:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1710489",
+      "entity_name": "오산시 반려동물테마파크 설치 및 운영 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1710489&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d3f0365f3ce1461eabff31cc51aaf163",
+      "ts": "2026-08-19T11:09:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1867839",
+      "entity_name": "오산시 반려동물테마파크 설치 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867839&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b701f0ac4e884b9088b3c42537da2924",
+      "ts": "2026-08-19T11:06:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2088125",
+      "entity_name": "오산시 인구정책 기본 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2088125&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f662e30c7ef04c74a5971b2746e7a8ca",
+      "ts": "2026-08-19T11:04:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2162537",
+      "entity_name": "오산시 장애인가정의 출산지원금 지급 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2162537&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "906e205f1cc54fa4826d3f6f9bae79e2",
+      "ts": "2026-08-19T11:02:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1404714",
+      "entity_name": "오산시 장애인가정의 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1404714&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "49f13b65e02c40c19103ae9412d78f45",
+      "ts": "2026-08-19T10:58:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2109937",
+      "entity_name": "오산시 출산·입양 장려 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2109937&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b5565fbc03a84c90a81c6daba8863846",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41370",
+      "entity_name": "오산시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

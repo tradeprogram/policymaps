@@ -1,0 +1,163 @@
+{
+  "sig_cd": "11620",
+  "region_id": "11620",
+  "name": "관악구",
+  "full_name": "서울특별시 관악구",
+  "level": 2,
+  "status": "active",
+  "population": 477503,
+  "ordinance_kinds": {
+    "규칙": 104,
+    "조례": 458
+  },
+  "ordinance_total": 562,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 213
+    },
+    {
+      "code": "C02",
+      "count": 161
+    },
+    {
+      "code": "C03",
+      "count": 107
+    },
+    {
+      "code": "C08",
+      "count": 77
+    },
+    {
+      "code": "C11",
+      "count": 71
+    },
+    {
+      "code": "C06",
+      "count": 69
+    },
+    {
+      "code": "C05",
+      "count": 68
+    },
+    {
+      "code": "C07",
+      "count": 58
+    },
+    {
+      "code": "C09",
+      "count": 55
+    },
+    {
+      "code": "C13",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 41
+    },
+    {
+      "code": "C04",
+      "count": 18
+    }
+  ],
+  "budget": {
+    "lines": 2193,
+    "exe_amt": 2116630264309,
+    "budget_now": 2802034297910
+  },
+  "recent_changes": [
+    {
+      "change_id": "5e79a4eaa269437d8b4d1f4a2a4d0c37",
+      "ts": "2026-08-19T14:40:27+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1131000|fyr:2025",
+      "entity_name": "1131000 2025 세출(1134건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "ffd3273576a84dc68c9fd81aeebfbf6a",
+      "ts": "2026-08-19T14:16:56+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1131000|fyr:2026",
+      "entity_name": "1131000 2026 세출(1059건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "bd3ebae53fbe402c8844a78579e67e30",
+      "ts": "2026-08-19T11:15:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2029991",
+      "entity_name": "서울특별시 관악구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2029991&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cee1abe64ecd4a2d8e51f2e444bd5e3d",
+      "ts": "2026-08-19T11:15:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1920391",
+      "entity_name": "서울특별시 관악구 야생동물에 의한 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1920391&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "320d0e8bd054432488257cfb4b9e5d4e",
+      "ts": "2026-08-19T11:11:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2100163",
+      "entity_name": "서울특별시 관악구 반려견 매너워터에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100163&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "eb3f76752f8d467a87af52ed598e4226",
+      "ts": "2026-08-19T11:08:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1832177",
+      "entity_name": "서울특별시 관악구 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1832177&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b13a48bc795f4293a879c0c2e7bb7f57",
+      "ts": "2026-08-19T11:00:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1784889",
+      "entity_name": "서울특별시 관악구 출산ㆍ양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1784889&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7c3640b776544744ab31b4092ed7de07",
+      "ts": "2026-08-19T11:00:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2085211",
+      "entity_name": "서울특별시 관악구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2085211&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1517a7e01dc74a88bfbeecc9748ddc26",
+      "ts": "2026-08-19T11:00:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1401244",
+      "entity_name": "서울특별시 관악구 여성장애인 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401244&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "04049a4b5f28475aafba9868292c592f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11620",
+      "entity_name": "관악구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

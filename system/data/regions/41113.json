@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41113",
+  "region_id": "41113",
+  "name": "권선구",
+  "full_name": "경기도 수원시 권선구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "fbe458123ad34a02aa13a532c542f54f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41113",
+      "entity_name": "권선구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

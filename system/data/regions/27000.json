@@ -1,0 +1,127 @@
+{
+  "sig_cd": "27000",
+  "region_id": "27",
+  "name": "대구광역시",
+  "full_name": "대구광역시",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 158,
+    "조례": 788
+  },
+  "ordinance_total": 946,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 292
+    },
+    {
+      "code": "C02",
+      "count": 261
+    },
+    {
+      "code": "C11",
+      "count": 195
+    },
+    {
+      "code": "C03",
+      "count": 140
+    },
+    {
+      "code": "C08",
+      "count": 127
+    },
+    {
+      "code": "C05",
+      "count": 125
+    },
+    {
+      "code": "C09",
+      "count": 117
+    },
+    {
+      "code": "C13",
+      "count": 111
+    },
+    {
+      "code": "C07",
+      "count": 98
+    },
+    {
+      "code": "C06",
+      "count": 79
+    },
+    {
+      "code": "C10",
+      "count": 75
+    },
+    {
+      "code": "C12",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 6185,
+    "exe_amt": 20697238972413,
+    "budget_now": 25614252663660
+  },
+  "recent_changes": [
+    {
+      "change_id": "3a79520f835b430392fc96d729b0fa58",
+      "ts": "2026-08-19T11:11:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2028747",
+      "entity_name": "대구광역시 동물보호 및 복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2028747&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0acf559d3d514952a534545c32d081b3",
+      "ts": "2026-08-19T11:07:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2028745",
+      "entity_name": "대구광역시 반려동물산업 육성 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2028745&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5403b0ed52cc427f8247df168e14cd5d",
+      "ts": "2026-08-19T10:59:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2017511",
+      "entity_name": "대구광역시 위기 임신 및 보호출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2017511&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b3ea1b13da734278bd89dd59e084b406",
+      "ts": "2026-08-19T10:58:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1867151",
+      "entity_name": "대구광역시 출산장려 및 양육지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867151&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e4b62b3ba205400babfc6f9e197d0740",
+      "ts": "2026-08-19T10:57:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2134003",
+      "entity_name": "대구광역시 출산장려 및 양육지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2134003&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2f2e4e1f5e5e4e2782f34351a2f81ca2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "27",
+      "entity_name": "대구광역시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

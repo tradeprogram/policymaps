@@ -1,0 +1,136 @@
+{
+  "sig_cd": "26350",
+  "region_id": "26350",
+  "name": "해운대구",
+  "full_name": "부산광역시 해운대구",
+  "level": 2,
+  "status": "active",
+  "population": 370275,
+  "ordinance_kinds": {
+    "규칙": 82,
+    "조례": 404
+  },
+  "ordinance_total": 486,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 210
+    },
+    {
+      "code": "C02",
+      "count": 133
+    },
+    {
+      "code": "C03",
+      "count": 84
+    },
+    {
+      "code": "C08",
+      "count": 64
+    },
+    {
+      "code": "C06",
+      "count": 61
+    },
+    {
+      "code": "C05",
+      "count": 61
+    },
+    {
+      "code": "C11",
+      "count": 56
+    },
+    {
+      "code": "C13",
+      "count": 47
+    },
+    {
+      "code": "C09",
+      "count": 45
+    },
+    {
+      "code": "C07",
+      "count": 41
+    },
+    {
+      "code": "C10",
+      "count": 29
+    },
+    {
+      "code": "C04",
+      "count": 15
+    }
+  ],
+  "budget": {
+    "lines": 2996,
+    "exe_amt": 1741378646860,
+    "budget_now": 2506981698504
+  },
+  "recent_changes": [
+    {
+      "change_id": "475d86c3771e4123a4937cb5d88b18d7",
+      "ts": "2026-08-19T14:42:01+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2619000|fyr:2025",
+      "entity_name": "2619000 2025 세출(1519건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "67472dd5a2e9409394ce1094248a1423",
+      "ts": "2026-08-19T14:17:10+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2619000|fyr:2026",
+      "entity_name": "2619000 2026 세출(1477건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c8b76f674d0f4b2390554985e4f52382",
+      "ts": "2026-08-19T11:14:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1826709",
+      "entity_name": "부산광역시 해운대구 동물보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1826709&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bc9f13da4a33428abc9a94f37cd36229",
+      "ts": "2026-08-19T11:08:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1972377",
+      "entity_name": "부산광역시 해운대구 사회취약계층 반려동물 진료비 등 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1972377&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "56f8998a89714d5ab68ac62abc859f9c",
+      "ts": "2026-08-19T11:00:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2091949",
+      "entity_name": "부산광역시 해운대구 인구정책 기본 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2091949&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c7eb628a71524f8a9049edc6bea019c0",
+      "ts": "2026-08-19T10:55:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1806715",
+      "entity_name": "부산광역시 해운대구 출산장려 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1806715&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "eb90f972ba0e4e848d3d3052ee98c1ba",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26350",
+      "entity_name": "해운대구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

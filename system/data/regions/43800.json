@@ -1,0 +1,127 @@
+{
+  "sig_cd": "43800",
+  "region_id": "43800",
+  "name": "단양군",
+  "full_name": "충청북도 단양군",
+  "level": 2,
+  "status": "active",
+  "population": 26552,
+  "ordinance_kinds": {
+    "규칙": 92,
+    "조례": 487
+  },
+  "ordinance_total": 579,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 222
+    },
+    {
+      "code": "C02",
+      "count": 164
+    },
+    {
+      "code": "C03",
+      "count": 75
+    },
+    {
+      "code": "C11",
+      "count": 72
+    },
+    {
+      "code": "C08",
+      "count": 72
+    },
+    {
+      "code": "C13",
+      "count": 68
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 57
+    },
+    {
+      "code": "C05",
+      "count": 55
+    },
+    {
+      "code": "C07",
+      "count": 54
+    },
+    {
+      "code": "C09",
+      "count": 53
+    },
+    {
+      "code": "C10",
+      "count": 36
+    }
+  ],
+  "budget": {
+    "lines": 3006,
+    "exe_amt": 879119499300,
+    "budget_now": 1532375099390
+  },
+  "recent_changes": [
+    {
+      "change_id": "c6d777e5c86d4fe3a9e5b8aafda58a26",
+      "ts": "2026-08-19T14:59:18+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4378000|fyr:2025",
+      "entity_name": "4378000 2025 세출(1497건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "186a9ec7e31443239a96255830e86fad",
+      "ts": "2026-08-19T14:24:20+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4378000|fyr:2026",
+      "entity_name": "4378000 2026 세출(1509건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fd2b9c86d5ef4f6e81cb919b1788fd5b",
+      "ts": "2026-08-19T11:13:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1644285",
+      "entity_name": "단양군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1644285&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9bb64e6891c64f9c8534a78c3fd5e573",
+      "ts": "2026-08-19T11:11:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2005873",
+      "entity_name": "단양군 동물복지 및 유기동물로 인한 피해 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005873&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "23bcc49d01d74cb1b56dce7c1b308d60",
+      "ts": "2026-08-19T10:59:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:725304",
+      "entity_name": "단양군 여성장애인 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=725304&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8d3a70ec6ec74d1f8148fed935ddd2d8",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43800",
+      "entity_name": "단양군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

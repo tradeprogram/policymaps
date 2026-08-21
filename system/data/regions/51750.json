@@ -1,0 +1,136 @@
+{
+  "sig_cd": "51750",
+  "region_id": "51750",
+  "name": "영월군",
+  "full_name": "강원특별자치도 영월군",
+  "level": 2,
+  "status": "active",
+  "population": 35685,
+  "ordinance_kinds": {
+    "규칙": 105,
+    "조례": 470
+  },
+  "ordinance_total": 575,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 231
+    },
+    {
+      "code": "C02",
+      "count": 175
+    },
+    {
+      "code": "C03",
+      "count": 93
+    },
+    {
+      "code": "C11",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 69
+    },
+    {
+      "code": "C13",
+      "count": 64
+    },
+    {
+      "code": "C05",
+      "count": 63
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C12",
+      "count": 50
+    },
+    {
+      "code": "C09",
+      "count": 47
+    },
+    {
+      "code": "C06",
+      "count": 46
+    },
+    {
+      "code": "C10",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 3495,
+    "exe_amt": 1062449907975,
+    "budget_now": 1595978867048
+  },
+  "recent_changes": [
+    {
+      "change_id": "de949fb4a2d54c869f2453a174f32054",
+      "ts": "2026-08-19T14:55:41+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4273000|fyr:2025",
+      "entity_name": "4273000 2025 세출(1808건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "bdc6283bbeab41e0802269c41ae0af47",
+      "ts": "2026-08-19T14:22:05+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4273000|fyr:2026",
+      "entity_name": "4273000 2026 세출(1687건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "34c64ea61e6d408b986cc92f0240d31b",
+      "ts": "2026-08-19T11:17:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1966719",
+      "entity_name": "영월군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1966719&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f6704a24a83c4b19bbb040672787667a",
+      "ts": "2026-08-19T11:17:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1916735",
+      "entity_name": "영월군 동물보호 및 생명존중문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1916735&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d726b89c1bc24f6683b5818e68f81249",
+      "ts": "2026-08-19T11:04:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2128315",
+      "entity_name": "영월군 인구정책 기본 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128315&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b6e36e456e6a474db2db511c8a64571e",
+      "ts": "2026-08-19T11:02:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2128435",
+      "entity_name": "영월군 인구정책 기본 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128435&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "edfa39935f0e466bbdc7ceb271c14418",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51750",
+      "entity_name": "영월군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

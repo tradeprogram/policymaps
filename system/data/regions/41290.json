@@ -1,0 +1,145 @@
+{
+  "sig_cd": "41290",
+  "region_id": "41290",
+  "name": "과천시",
+  "full_name": "경기도 과천시",
+  "level": 2,
+  "status": "active",
+  "population": 81008,
+  "ordinance_kinds": {
+    "규칙": 109,
+    "조례": 489
+  },
+  "ordinance_total": 598,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 234
+    },
+    {
+      "code": "C02",
+      "count": 178
+    },
+    {
+      "code": "C11",
+      "count": 89
+    },
+    {
+      "code": "C03",
+      "count": 84
+    },
+    {
+      "code": "C08",
+      "count": 77
+    },
+    {
+      "code": "C05",
+      "count": 73
+    },
+    {
+      "code": "C09",
+      "count": 67
+    },
+    {
+      "code": "C07",
+      "count": 63
+    },
+    {
+      "code": "C06",
+      "count": 61
+    },
+    {
+      "code": "C13",
+      "count": 51
+    },
+    {
+      "code": "C10",
+      "count": 42
+    },
+    {
+      "code": "C04",
+      "count": 17
+    }
+  ],
+  "budget": {
+    "lines": 2318,
+    "exe_amt": 1029326837746,
+    "budget_now": 1569758868616
+  },
+  "recent_changes": [
+    {
+      "change_id": "77f1591b4000499a9fef49ae354f6c0c",
+      "ts": "2026-08-19T14:50:51+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4121000|fyr:2025",
+      "entity_name": "4121000 2025 세출(1167건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5f44ed0c0a774804a18535ba46706ab2",
+      "ts": "2026-08-19T14:19:16+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4121000|fyr:2026",
+      "entity_name": "4121000 2026 세출(1151건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0f331ec187264cb3b0abf1ab141c5b03",
+      "ts": "2026-08-19T11:12:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2032325",
+      "entity_name": "과천시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2032325&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8d42ae1f22484969bb5a23e166900291",
+      "ts": "2026-08-19T11:11:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1862417",
+      "entity_name": "과천시 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1862417&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c4898c4f827d4ab4ac08abf20d19bf45",
+      "ts": "2026-08-19T10:59:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2125061",
+      "entity_name": "과천시 저출산ㆍ고령사회정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125061&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9d1b68fff7694a4cad440ea76154a9bf",
+      "ts": "2026-08-19T10:59:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1400303",
+      "entity_name": "과천시 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1400303&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d519678e8b65428ca329c629f2ab4dc7",
+      "ts": "2026-08-19T10:53:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1878125",
+      "entity_name": "과천시 출산ㆍ입양장려금 및 다자녀가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1878125&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "056f12607d5d4b59acac63db8fd19676",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41290",
+      "entity_name": "과천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

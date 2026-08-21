@@ -1,0 +1,154 @@
+{
+  "sig_cd": "11000",
+  "region_id": "11",
+  "name": "서울특별시",
+  "full_name": "서울특별시",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 241,
+    "조례": 942
+  },
+  "ordinance_total": 1183,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 402
+    },
+    {
+      "code": "C02",
+      "count": 348
+    },
+    {
+      "code": "C11",
+      "count": 230
+    },
+    {
+      "code": "C08",
+      "count": 177
+    },
+    {
+      "code": "C09",
+      "count": 173
+    },
+    {
+      "code": "C03",
+      "count": 170
+    },
+    {
+      "code": "C13",
+      "count": 148
+    },
+    {
+      "code": "C07",
+      "count": 141
+    },
+    {
+      "code": "C05",
+      "count": 136
+    },
+    {
+      "code": "C10",
+      "count": 102
+    },
+    {
+      "code": "C06",
+      "count": 99
+    },
+    {
+      "code": "C04",
+      "count": 25
+    }
+  ],
+  "budget": {
+    "lines": 8992,
+    "exe_amt": 84636128135697,
+    "budget_now": 112803284843038
+  },
+  "recent_changes": [
+    {
+      "change_id": "ec81b078b88e4e98b5bf22bd99e09a6e",
+      "ts": "2026-08-19T11:27:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2054517",
+      "entity_name": "서울특별시 저출산ㆍ고령사회 기본 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2054517&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6efdb434ce344d379f61689a6f788f41",
+      "ts": "2026-08-19T11:27:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2107501",
+      "entity_name": "서울특별시 출산 및 양육지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107501&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b4b0fda9421243f885f35755ca68ed58",
+      "ts": "2026-08-19T11:16:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2009627",
+      "entity_name": "서울특별시 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2009627&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5f96e4fb58864f10879ea73ff2e542d6",
+      "ts": "2026-08-19T11:12:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2116609",
+      "entity_name": "서울특별시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2116609&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6427519c80074da58af35ae4616806f8",
+      "ts": "2026-08-19T11:11:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2099869",
+      "entity_name": "서울특별시 주민참여 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2099869&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0df5804270b5458fb18d486fca7c9be0",
+      "ts": "2026-08-19T11:01:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2130155",
+      "entity_name": "서울특별시 출산 및 양육지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130155&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dd21d348e25e47ff8714912deeee6fe5",
+      "ts": "2026-08-19T11:01:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1481701",
+      "entity_name": "서울특별시 장애인가정 임신ㆍ출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1481701&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "95a692a9a5c845fd923b457f33b8f5af",
+      "ts": "2026-08-19T11:01:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2023991",
+      "entity_name": "서울특별시 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2023991&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6207aac53e9a473cb40ba6bc818b6be9",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11",
+      "entity_name": "서울특별시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

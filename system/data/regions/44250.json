@@ -1,0 +1,127 @@
+{
+  "sig_cd": "44250",
+  "region_id": "44250",
+  "name": "계룡시",
+  "full_name": "충청남도 계룡시",
+  "level": 2,
+  "status": "active",
+  "population": 45983,
+  "ordinance_kinds": {
+    "규칙": 84,
+    "조례": 415
+  },
+  "ordinance_total": 499,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 195
+    },
+    {
+      "code": "C02",
+      "count": 143
+    },
+    {
+      "code": "C03",
+      "count": 87
+    },
+    {
+      "code": "C08",
+      "count": 69
+    },
+    {
+      "code": "C11",
+      "count": 59
+    },
+    {
+      "code": "C06",
+      "count": 56
+    },
+    {
+      "code": "C05",
+      "count": 56
+    },
+    {
+      "code": "C13",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 47
+    },
+    {
+      "code": "C07",
+      "count": 46
+    },
+    {
+      "code": "C10",
+      "count": 34
+    },
+    {
+      "code": "C12",
+      "count": 27
+    }
+  ],
+  "budget": {
+    "lines": 2800,
+    "exe_amt": 517179452727,
+    "budget_now": 786073826455
+  },
+  "recent_changes": [
+    {
+      "change_id": "cb8bcdeb4bfd43adb397f17c68d7e388",
+      "ts": "2026-08-19T15:01:49+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4417000|fyr:2025",
+      "entity_name": "4417000 2025 세출(1433건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "ab4db455f03547c09c97647f91a3c7cb",
+      "ts": "2026-08-19T14:25:37+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4417000|fyr:2026",
+      "entity_name": "4417000 2026 세출(1367건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "853c90deea2346e5a8361659c82559d1",
+      "ts": "2026-08-19T11:12:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2008419",
+      "entity_name": "계룡시 야생동물에 의한 피해예방 및 보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2008419&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "57f79a3c0d2843cda82bf62e0d57bd65",
+      "ts": "2026-08-19T11:06:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1880269",
+      "entity_name": "계룡시 반려동물 및 유실·유기동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880269&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1f66cb42c23f43158148cb5ed48c917c",
+      "ts": "2026-08-19T10:53:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1997693",
+      "entity_name": "계룡시 출산장려금 지원 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1997693&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0191408799224281b8888d2d93a208d9",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44250",
+      "entity_name": "계룡시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

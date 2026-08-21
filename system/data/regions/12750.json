@@ -1,0 +1,100 @@
+{
+  "sig_cd": "12750",
+  "region_id": "12750",
+  "name": "보성군",
+  "full_name": "전남광주통합특별시 보성군",
+  "level": 2,
+  "status": "active",
+  "population": 38101,
+  "ordinance_kinds": {
+    "규칙": 98,
+    "조례": 473
+  },
+  "ordinance_total": 571,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 205
+    },
+    {
+      "code": "C02",
+      "count": 153
+    },
+    {
+      "code": "C03",
+      "count": 85
+    },
+    {
+      "code": "C11",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 75
+    },
+    {
+      "code": "C13",
+      "count": 70
+    },
+    {
+      "code": "C12",
+      "count": 61
+    },
+    {
+      "code": "C05",
+      "count": 59
+    },
+    {
+      "code": "C06",
+      "count": 54
+    },
+    {
+      "code": "C09",
+      "count": 43
+    },
+    {
+      "code": "C07",
+      "count": 41
+    },
+    {
+      "code": "C10",
+      "count": 38
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "341c9d136c4641948961f8d0fe072b4f",
+      "ts": "2026-08-19T11:14:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1766549",
+      "entity_name": "보성군 야생동물로 인한 피해예방 및 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1766549&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ede1871b5ab44deb93bc1baa11230766",
+      "ts": "2026-08-19T10:57:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1764055",
+      "entity_name": "보성군 출산장려 및 양육지원 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1764055&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "39b7e86cdac0451c9e449c7e2697055f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12750",
+      "entity_name": "보성군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

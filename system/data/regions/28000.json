@@ -1,0 +1,145 @@
+{
+  "sig_cd": "28000",
+  "region_id": "28",
+  "name": "인천광역시",
+  "full_name": "인천광역시",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 180,
+    "조례": 933
+  },
+  "ordinance_total": 1113,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 349
+    },
+    {
+      "code": "C02",
+      "count": 310
+    },
+    {
+      "code": "C11",
+      "count": 250
+    },
+    {
+      "code": "C03",
+      "count": 170
+    },
+    {
+      "code": "C09",
+      "count": 143
+    },
+    {
+      "code": "C08",
+      "count": 135
+    },
+    {
+      "code": "C13",
+      "count": 131
+    },
+    {
+      "code": "C05",
+      "count": 125
+    },
+    {
+      "code": "C07",
+      "count": 121
+    },
+    {
+      "code": "C06",
+      "count": 97
+    },
+    {
+      "code": "C10",
+      "count": 82
+    },
+    {
+      "code": "C12",
+      "count": 40
+    }
+  ],
+  "budget": {
+    "lines": 7030,
+    "exe_amt": 25814770207022,
+    "budget_now": 32166362154969
+  },
+  "recent_changes": [
+    {
+      "change_id": "b29a6d754a3047b5bb426f4772aee080",
+      "ts": "2026-08-19T11:18:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1445485",
+      "entity_name": "인천광역시 유해야생동물 피해 예방 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1445485&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "38adb5055f72458e9c565c30b15886fb",
+      "ts": "2026-08-19T11:12:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1958181",
+      "entity_name": "인천광역시 동물보호와 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1958181&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6019eaef5c2c4cd381a7560d445b181a",
+      "ts": "2026-08-19T11:09:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2124753",
+      "entity_name": "인천광역시 사회적 약자 반려동물 진료비등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124753&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "362937c13644494586a7a3dd540ea909",
+      "ts": "2026-08-19T11:09:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1397483",
+      "entity_name": "인천광역시 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1397483&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "23f42759a8ef4eba88023d5e091051be",
+      "ts": "2026-08-19T11:03:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2104533",
+      "entity_name": "인천광역시 저출산 대책 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2104533&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2e8451dd1cf441ab8f106cb1d5adb7fe",
+      "ts": "2026-08-19T11:03:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1602349",
+      "entity_name": "인천광역시 장애인가정 임신·출산·양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602349&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fc7a2f4c09e64201bd1b1393fb850e2a",
+      "ts": "2026-08-19T11:03:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2104531",
+      "entity_name": "인천광역시 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2104531&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d92d91f5cf2a4787856804cd062785c5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28",
+      "entity_name": "인천광역시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,127 @@
+{
+  "sig_cd": "26530",
+  "region_id": "26530",
+  "name": "사상구",
+  "full_name": "부산광역시 사상구",
+  "level": 2,
+  "status": "active",
+  "population": 192275,
+  "ordinance_kinds": {
+    "규칙": 78,
+    "조례": 334
+  },
+  "ordinance_total": 412,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 181
+    },
+    {
+      "code": "C02",
+      "count": 105
+    },
+    {
+      "code": "C03",
+      "count": 68
+    },
+    {
+      "code": "C08",
+      "count": 55
+    },
+    {
+      "code": "C06",
+      "count": 55
+    },
+    {
+      "code": "C11",
+      "count": 48
+    },
+    {
+      "code": "C13",
+      "count": 43
+    },
+    {
+      "code": "C09",
+      "count": 38
+    },
+    {
+      "code": "C05",
+      "count": 38
+    },
+    {
+      "code": "C07",
+      "count": 32
+    },
+    {
+      "code": "C10",
+      "count": 26
+    },
+    {
+      "code": "C04",
+      "count": 10
+    }
+  ],
+  "budget": {
+    "lines": 2591,
+    "exe_amt": 1204090377300,
+    "budget_now": 1652869926560
+  },
+  "recent_changes": [
+    {
+      "change_id": "1182ec63ea7b42669a0a750feee893ea",
+      "ts": "2026-08-19T14:42:56+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2625000|fyr:2025",
+      "entity_name": "2625000 2025 세출(1300건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9776083e19394b6884bb0460b9153d23",
+      "ts": "2026-08-19T14:17:18+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2625000|fyr:2026",
+      "entity_name": "2625000 2026 세출(1291건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fcb4be3fd6864e67b00fb20623e1c407",
+      "ts": "2026-08-19T11:14:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2081227",
+      "entity_name": "부산광역시 사상구 동물보호 및 동물복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2081227&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e635c9c8c3674395b3132d039a30b0ab",
+      "ts": "2026-08-19T11:00:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2133731",
+      "entity_name": "부산광역시 사상구 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133731&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1228217c5f6a4ed18a7b3af9b1ae75e0",
+      "ts": "2026-08-19T10:57:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1882749",
+      "entity_name": "부산광역시 사상구 저출산대책 및 출산장려 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1882749&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b35ffeb8f7c841c18a0a2883d8ee859b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26530",
+      "entity_name": "사상구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

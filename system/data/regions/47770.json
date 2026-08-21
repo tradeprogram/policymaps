@@ -1,0 +1,118 @@
+{
+  "sig_cd": "47770",
+  "region_id": "47770",
+  "name": "영덕군",
+  "full_name": "경상북도 영덕군",
+  "level": 2,
+  "status": "active",
+  "population": 32536,
+  "ordinance_kinds": {
+    "규칙": 95,
+    "조례": 394
+  },
+  "ordinance_total": 489,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 194
+    },
+    {
+      "code": "C02",
+      "count": 168
+    },
+    {
+      "code": "C08",
+      "count": 60
+    },
+    {
+      "code": "C11",
+      "count": 58
+    },
+    {
+      "code": "C03",
+      "count": 57
+    },
+    {
+      "code": "C13",
+      "count": 53
+    },
+    {
+      "code": "C06",
+      "count": 50
+    },
+    {
+      "code": "C05",
+      "count": 47
+    },
+    {
+      "code": "C09",
+      "count": 44
+    },
+    {
+      "code": "C12",
+      "count": 38
+    },
+    {
+      "code": "C07",
+      "count": 33
+    },
+    {
+      "code": "C10",
+      "count": 30
+    }
+  ],
+  "budget": {
+    "lines": 3491,
+    "exe_amt": 1284297934395,
+    "budget_now": 1983341196890
+  },
+  "recent_changes": [
+    {
+      "change_id": "db7fd36da78841ee840736ead760a172",
+      "ts": "2026-08-19T15:19:11+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4775000|fyr:2025",
+      "entity_name": "4775000 2025 세출(1815건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "f1f3eda3e4284c048a981d1b56461b92",
+      "ts": "2026-08-19T14:33:38+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4775000|fyr:2026",
+      "entity_name": "4775000 2026 세출(1676건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c08e81da549048c989824531893f4bf0",
+      "ts": "2026-08-19T11:16:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1872743",
+      "entity_name": "영덕군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872743&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "68fc7092723749d6846b887cf92028bd",
+      "ts": "2026-08-19T10:56:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1981591",
+      "entity_name": "영덕군 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981591&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "306ecb34829b4f7388783cfb96ffd422",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47770",
+      "entity_name": "영덕군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

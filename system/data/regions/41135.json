@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41135",
+  "region_id": "41135",
+  "name": "분당구",
+  "full_name": "경기도 성남시 분당구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "2a469df195e9433b955e731372971bf3",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41135",
+      "entity_name": "분당구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

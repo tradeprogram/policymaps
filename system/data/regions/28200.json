@@ -1,0 +1,145 @@
+{
+  "sig_cd": "28200",
+  "region_id": "28200",
+  "name": "남동구",
+  "full_name": "인천광역시 남동구",
+  "level": 2,
+  "status": "active",
+  "population": 478762,
+  "ordinance_kinds": {
+    "규칙": 90,
+    "조례": 499
+  },
+  "ordinance_total": 589,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 209
+    },
+    {
+      "code": "C02",
+      "count": 147
+    },
+    {
+      "code": "C03",
+      "count": 114
+    },
+    {
+      "code": "C11",
+      "count": 85
+    },
+    {
+      "code": "C08",
+      "count": 76
+    },
+    {
+      "code": "C05",
+      "count": 76
+    },
+    {
+      "code": "C07",
+      "count": 72
+    },
+    {
+      "code": "C06",
+      "count": 72
+    },
+    {
+      "code": "C09",
+      "count": 66
+    },
+    {
+      "code": "C13",
+      "count": 57
+    },
+    {
+      "code": "C10",
+      "count": 38
+    },
+    {
+      "code": "C04",
+      "count": 20
+    }
+  ],
+  "budget": {
+    "lines": 3145,
+    "exe_amt": 2274573133515,
+    "budget_now": 2958364889550
+  },
+  "recent_changes": [
+    {
+      "change_id": "895df4f485ea43449608e0c29beb63aa",
+      "ts": "2026-08-19T14:44:48+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2815000|fyr:2025",
+      "entity_name": "2815000 2025 세출(1643건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e014c43f907e496e930d1fd4ade2e233",
+      "ts": "2026-08-19T14:17:47+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2815000|fyr:2026",
+      "entity_name": "2815000 2026 세출(1502건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b93ba08eb3d648d0b1bd6fa4a8ffaa2a",
+      "ts": "2026-08-19T11:13:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2051801",
+      "entity_name": "남동구 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051801&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d7cd6610242c4e679d91ebbb41045a94",
+      "ts": "2026-08-19T11:07:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1871385",
+      "entity_name": "남동구 동물보호 및 동물복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871385&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "55a503d79be54d1bbcbc52336594c70f",
+      "ts": "2026-08-19T10:59:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2063239",
+      "entity_name": "남동구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2063239&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d01f8d7ddf994fbbbd1ec25ba3ee2716",
+      "ts": "2026-08-19T10:59:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2068659",
+      "entity_name": "남동구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2068659&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a1ff716d93d841cc9807f3aace8a350f",
+      "ts": "2026-08-19T10:54:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1788851",
+      "entity_name": "남동구 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1788851&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "603c1887e8bf4c2b932508751ade4d16",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "28200",
+      "entity_name": "남동구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

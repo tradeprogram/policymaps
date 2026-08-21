@@ -1,0 +1,118 @@
+{
+  "sig_cd": "51150",
+  "region_id": "51150",
+  "name": "강릉시",
+  "full_name": "강원특별자치도 강릉시",
+  "level": 2,
+  "status": "active",
+  "population": 205593,
+  "ordinance_kinds": {
+    "규칙": 121,
+    "조례": 536
+  },
+  "ordinance_total": 657,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 232
+    },
+    {
+      "code": "C02",
+      "count": 174
+    },
+    {
+      "code": "C03",
+      "count": 103
+    },
+    {
+      "code": "C11",
+      "count": 96
+    },
+    {
+      "code": "C13",
+      "count": 89
+    },
+    {
+      "code": "C08",
+      "count": 75
+    },
+    {
+      "code": "C09",
+      "count": 66
+    },
+    {
+      "code": "C07",
+      "count": 65
+    },
+    {
+      "code": "C05",
+      "count": 64
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 37
+    }
+  ],
+  "budget": {
+    "lines": 5544,
+    "exe_amt": 2512664483004,
+    "budget_now": 3606439328194
+  },
+  "recent_changes": [
+    {
+      "change_id": "4bda7e6caa6a4a68b578a7375211ef2a",
+      "ts": "2026-08-19T14:54:52+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4213000|fyr:2025",
+      "entity_name": "4213000 2025 세출(2786건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a704d53904644aa9a605135c8b2c9003",
+      "ts": "2026-08-19T14:21:25+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4213000|fyr:2026",
+      "entity_name": "4213000 2026 세출(2758건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "cd85d8352cf0484e8d8602e16f76047a",
+      "ts": "2026-08-19T11:12:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1391762",
+      "entity_name": "강릉시 야생동물로 인한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1391762&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ad3d934408444421beedc932c1049141",
+      "ts": "2026-08-19T11:12:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2005557",
+      "entity_name": "강릉시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005557&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e2019b65952d49dfb131762a5eecb7d2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51150",
+      "entity_name": "강릉시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

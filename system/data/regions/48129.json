@@ -1,0 +1,30 @@
+{
+  "sig_cd": "48129",
+  "region_id": "48129",
+  "name": "진해구",
+  "full_name": "경상남도 창원시 진해구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "12cdd1083d5a4481b634462f53ecc6af",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48129",
+      "entity_name": "진해구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,145 @@
+{
+  "sig_cd": "48250",
+  "region_id": "48250",
+  "name": "김해시",
+  "full_name": "경상남도 김해시",
+  "level": 2,
+  "status": "active",
+  "population": 532758,
+  "ordinance_kinds": {
+    "규칙": 88,
+    "조례": 643
+  },
+  "ordinance_total": 731,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 213
+    },
+    {
+      "code": "C02",
+      "count": 209
+    },
+    {
+      "code": "C11",
+      "count": 129
+    },
+    {
+      "code": "C03",
+      "count": 114
+    },
+    {
+      "code": "C07",
+      "count": 101
+    },
+    {
+      "code": "C09",
+      "count": 100
+    },
+    {
+      "code": "C05",
+      "count": 90
+    },
+    {
+      "code": "C13",
+      "count": 83
+    },
+    {
+      "code": "C08",
+      "count": 83
+    },
+    {
+      "code": "C06",
+      "count": 73
+    },
+    {
+      "code": "C10",
+      "count": 53
+    },
+    {
+      "code": "C12",
+      "count": 41
+    }
+  ],
+  "budget": {
+    "lines": 4747,
+    "exe_amt": 4017584022541,
+    "budget_now": 5208337305960
+  },
+  "recent_changes": [
+    {
+      "change_id": "59882bb6eb7f4b408f7151b2b4ba08ff",
+      "ts": "2026-08-19T15:22:52+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4817000|fyr:2025",
+      "entity_name": "4817000 2025 세출(2429건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "102ba60977664facae0a7f8db4db3a88",
+      "ts": "2026-08-19T14:35:23+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4817000|fyr:2026",
+      "entity_name": "4817000 2026 세출(2318건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1c470fe544334860821f4e5bc1e576fe",
+      "ts": "2026-08-19T11:13:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1786597",
+      "entity_name": "김해시 야생동물에 의한 피해 예방 및 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786597&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4012f17262334602b2ac1f7ddaf3b9c4",
+      "ts": "2026-08-19T11:13:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1971095",
+      "entity_name": "김해시 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971095&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "02c59daf60ac46a387e580c6535fe653",
+      "ts": "2026-08-19T11:07:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2028247",
+      "entity_name": "김해시 사회적약자 반려동물 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2028247&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5aeb6440619a4eec962619fdf1ae0471",
+      "ts": "2026-08-19T10:59:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1985569",
+      "entity_name": "김해시 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1985569&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3357d3ee13e748b983ccf208e5dde25b",
+      "ts": "2026-08-19T10:54:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2125299",
+      "entity_name": "김해시 출산축하금 지급에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125299&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e14694119b314b468e5b599a0f63b5c2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48250",
+      "entity_name": "김해시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

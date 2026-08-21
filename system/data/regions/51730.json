@@ -1,0 +1,127 @@
+{
+  "sig_cd": "51730",
+  "region_id": "51730",
+  "name": "횡성군",
+  "full_name": "강원특별자치도 횡성군",
+  "level": 2,
+  "status": "active",
+  "population": 45521,
+  "ordinance_kinds": {
+    "규칙": 108,
+    "조례": 461
+  },
+  "ordinance_total": 569,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 227
+    },
+    {
+      "code": "C02",
+      "count": 169
+    },
+    {
+      "code": "C03",
+      "count": 83
+    },
+    {
+      "code": "C11",
+      "count": 82
+    },
+    {
+      "code": "C07",
+      "count": 62
+    },
+    {
+      "code": "C12",
+      "count": 57
+    },
+    {
+      "code": "C08",
+      "count": 57
+    },
+    {
+      "code": "C05",
+      "count": 55
+    },
+    {
+      "code": "C13",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 50
+    },
+    {
+      "code": "C06",
+      "count": 50
+    },
+    {
+      "code": "C10",
+      "count": 36
+    }
+  ],
+  "budget": {
+    "lines": 3505,
+    "exe_amt": 1200173385010,
+    "budget_now": 1966034499630
+  },
+  "recent_changes": [
+    {
+      "change_id": "86e1f07102b44668a0425e7f57662dec",
+      "ts": "2026-08-19T14:55:39+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4272000|fyr:2025",
+      "entity_name": "4272000 2025 세출(1777건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5d6791be9a9d40fe8fd4fd156120afa3",
+      "ts": "2026-08-19T14:22:00+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4272000|fyr:2026",
+      "entity_name": "4272000 2026 세출(1728건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "7c53aad1035e447498453664b3dc50a9",
+      "ts": "2026-08-19T11:20:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2125747",
+      "entity_name": "횡성군 야생동물로 인한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125747&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "25afe192041a4018a29255a31ff7f62b",
+      "ts": "2026-08-19T11:20:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1873761",
+      "entity_name": "횡성군 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873761&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7513ed6bf3d04f3d9c56a59ded2f8e64",
+      "ts": "2026-08-19T10:56:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2124661",
+      "entity_name": "횡성군 행복출산 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124661&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5734241a60984110bc20a4fcdbb747bc",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51730",
+      "entity_name": "횡성군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

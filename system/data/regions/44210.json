@@ -1,0 +1,136 @@
+{
+  "sig_cd": "44210",
+  "region_id": "44210",
+  "name": "서산시",
+  "full_name": "충청남도 서산시",
+  "level": 2,
+  "status": "active",
+  "population": 171093,
+  "ordinance_kinds": {
+    "규칙": 117,
+    "조례": 680
+  },
+  "ordinance_total": 797,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 242
+    },
+    {
+      "code": "C02",
+      "count": 232
+    },
+    {
+      "code": "C03",
+      "count": 135
+    },
+    {
+      "code": "C11",
+      "count": 124
+    },
+    {
+      "code": "C08",
+      "count": 110
+    },
+    {
+      "code": "C05",
+      "count": 104
+    },
+    {
+      "code": "C06",
+      "count": 96
+    },
+    {
+      "code": "C07",
+      "count": 95
+    },
+    {
+      "code": "C13",
+      "count": 88
+    },
+    {
+      "code": "C09",
+      "count": 88
+    },
+    {
+      "code": "C12",
+      "count": 74
+    },
+    {
+      "code": "C10",
+      "count": 51
+    }
+  ],
+  "budget": {
+    "lines": 4416,
+    "exe_amt": 2288669303654,
+    "budget_now": 3344168861961
+  },
+  "recent_changes": [
+    {
+      "change_id": "ee6eeba7cf0a4452b756e853467952ac",
+      "ts": "2026-08-19T15:01:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4415000|fyr:2025",
+      "entity_name": "4415000 2025 세출(2263건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "68179d42495b4101bbb86b342c8fbfd8",
+      "ts": "2026-08-19T14:25:19+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4415000|fyr:2026",
+      "entity_name": "4415000 2026 세출(2153건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "dde57a9a94b04b9a83904b7b5e7b4c01",
+      "ts": "2026-08-19T11:15:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:909036",
+      "entity_name": "서산시 야생동물보호 및 피해보상 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=909036&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "836a165aa8fd4390b9a1a5b0d1f0d7b1",
+      "ts": "2026-08-19T11:08:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1389860",
+      "entity_name": "서산시 중증장애인 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1389860&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0a4179c93fc14b0ab51400fbb7a612c1",
+      "ts": "2026-08-19T11:00:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1725137",
+      "entity_name": "서산시 신생아 출산지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725137&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "57205dff82a54503be91b2c3ee9fc8e3",
+      "ts": "2026-08-19T10:57:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1851983",
+      "entity_name": "서산시 출산장려를 위한 둘째 이후 영유아 양육비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851983&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "60d96bafe50846c0a5d5331b82a4aafe",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44210",
+      "entity_name": "서산시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

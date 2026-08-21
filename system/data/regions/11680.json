@@ -1,0 +1,136 @@
+{
+  "sig_cd": "11680",
+  "region_id": "11680",
+  "name": "강남구",
+  "full_name": "서울특별시 강남구",
+  "level": 2,
+  "status": "active",
+  "population": 552631,
+  "ordinance_kinds": {
+    "규칙": 117,
+    "조례": 407
+  },
+  "ordinance_total": 524,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 216
+    },
+    {
+      "code": "C02",
+      "count": 150
+    },
+    {
+      "code": "C03",
+      "count": 92
+    },
+    {
+      "code": "C11",
+      "count": 74
+    },
+    {
+      "code": "C08",
+      "count": 73
+    },
+    {
+      "code": "C06",
+      "count": 63
+    },
+    {
+      "code": "C05",
+      "count": 63
+    },
+    {
+      "code": "C07",
+      "count": 55
+    },
+    {
+      "code": "C09",
+      "count": 54
+    },
+    {
+      "code": "C13",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 33
+    },
+    {
+      "code": "C04",
+      "count": 11
+    }
+  ],
+  "budget": {
+    "lines": 2298,
+    "exe_amt": 2558539375220,
+    "budget_now": 4501094746533
+  },
+  "recent_changes": [
+    {
+      "change_id": "2ac0965356e34ea8a3cfa8ffdd5484a7",
+      "ts": "2026-08-19T14:40:37+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1133000|fyr:2025",
+      "entity_name": "1133000 2025 세출(1207건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0d213197d5cd4569bc03a2f4b7dfa749",
+      "ts": "2026-08-19T14:16:57+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1133000|fyr:2026",
+      "entity_name": "1133000 2026 세출(1091건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b8d41a3af2084babb138f08c7587a4be",
+      "ts": "2026-08-19T11:20:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2094317",
+      "entity_name": "서울특별시 강남구 동물보호 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2094317&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b9fdd65ebb8d428bab181c3fd34bc508",
+      "ts": "2026-08-19T11:15:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2094323",
+      "entity_name": "서울특별시 강남구 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2094323&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "eb20c4f967884222a2b16f55fa2b6c17",
+      "ts": "2026-08-19T11:00:48+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1856235",
+      "entity_name": "서울특별시 강남구 출산·양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1856235&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2a11cc6cc54a4313a76bfe4a930229e9",
+      "ts": "2026-08-19T11:00:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1400149",
+      "entity_name": "서울특별시 강남구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1400149&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f041c9f1a99249ec9d8455cdb21cc82d",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11680",
+      "entity_name": "강남구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

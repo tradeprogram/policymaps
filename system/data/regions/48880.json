@@ -1,0 +1,118 @@
+{
+  "sig_cd": "48880",
+  "region_id": "48880",
+  "name": "거창군",
+  "full_name": "경상남도 거창군",
+  "level": 2,
+  "status": "active",
+  "population": 58760,
+  "ordinance_kinds": {
+    "규칙": 132,
+    "조례": 480
+  },
+  "ordinance_total": 612,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 202
+    },
+    {
+      "code": "C02",
+      "count": 168
+    },
+    {
+      "code": "C11",
+      "count": 95
+    },
+    {
+      "code": "C03",
+      "count": 78
+    },
+    {
+      "code": "C12",
+      "count": 72
+    },
+    {
+      "code": "C08",
+      "count": 71
+    },
+    {
+      "code": "C05",
+      "count": 69
+    },
+    {
+      "code": "C13",
+      "count": 64
+    },
+    {
+      "code": "C09",
+      "count": 63
+    },
+    {
+      "code": "C07",
+      "count": 63
+    },
+    {
+      "code": "C06",
+      "count": 55
+    },
+    {
+      "code": "C10",
+      "count": 45
+    }
+  ],
+  "budget": {
+    "lines": 3227,
+    "exe_amt": 1349730766960,
+    "budget_now": 2069235915271
+  },
+  "recent_changes": [
+    {
+      "change_id": "8b0b7992622f44cd869a3a3069ceef48",
+      "ts": "2026-08-19T15:25:35+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4879000|fyr:2025",
+      "entity_name": "4879000 2025 세출(1630건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "648b476bcaa94e798698d1fc22a68101",
+      "ts": "2026-08-19T14:36:03+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4879000|fyr:2026",
+      "entity_name": "4879000 2026 세출(1597건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2846048eb0e24ae18f5113cdd71cc5a5",
+      "ts": "2026-08-19T11:12:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2157585",
+      "entity_name": "거창군 야생동물 피해 예방 및 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2157585&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bb1a2ae085014c92a5db0b7f9057c990",
+      "ts": "2026-08-19T10:59:10+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2116491",
+      "entity_name": "거창군 여성장애인 출산지원금 지급조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2116491&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f9a3ee1a370f4c84bebe02303c4faaab",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48880",
+      "entity_name": "거창군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

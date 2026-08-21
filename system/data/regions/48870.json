@@ -1,0 +1,118 @@
+{
+  "sig_cd": "48870",
+  "region_id": "48870",
+  "name": "함양군",
+  "full_name": "경상남도 함양군",
+  "level": 2,
+  "status": "active",
+  "population": 35121,
+  "ordinance_kinds": {
+    "규칙": 96,
+    "조례": 413
+  },
+  "ordinance_total": 509,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 202
+    },
+    {
+      "code": "C02",
+      "count": 158
+    },
+    {
+      "code": "C08",
+      "count": 69
+    },
+    {
+      "code": "C03",
+      "count": 65
+    },
+    {
+      "code": "C11",
+      "count": 62
+    },
+    {
+      "code": "C05",
+      "count": 59
+    },
+    {
+      "code": "C07",
+      "count": 56
+    },
+    {
+      "code": "C12",
+      "count": 50
+    },
+    {
+      "code": "C06",
+      "count": 48
+    },
+    {
+      "code": "C13",
+      "count": 43
+    },
+    {
+      "code": "C09",
+      "count": 43
+    },
+    {
+      "code": "C10",
+      "count": 31
+    }
+  ],
+  "budget": {
+    "lines": 3253,
+    "exe_amt": 1095159410417,
+    "budget_now": 1872041731216
+  },
+  "recent_changes": [
+    {
+      "change_id": "4716aa6e937b49ceae485465c460a934",
+      "ts": "2026-08-19T15:25:23+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4878000|fyr:2025",
+      "entity_name": "4878000 2025 세출(1634건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1b48972b5f61434caa83f9be7fd16b14",
+      "ts": "2026-08-19T14:36:01+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4878000|fyr:2026",
+      "entity_name": "4878000 2026 세출(1619건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "04406c10d8004a00b0c08fe95a68c1f5",
+      "ts": "2026-08-19T11:19:46+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1704045",
+      "entity_name": "함양군 야생동물 피해예방 및 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1704045&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9f1b6d6fc4024b4a89bba418afdec310",
+      "ts": "2026-08-19T11:19:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1726025",
+      "entity_name": "함양군 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1726025&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "394c45bd38614688acbd4f5e5453a3fa",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48870",
+      "entity_name": "함양군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

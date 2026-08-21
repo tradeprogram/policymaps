@@ -1,0 +1,138 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "sig_cd": "41110",
+  "region_id": "41110",
+  "name": "수원시",
+  "full_name": "경기도 수원시",
+  "level": 2,
+  "status": "active",
+  "population": 1190000,
+  "ordinance_kinds": {
+    "조례": 561,
+    "규칙": 161
+  },
+  "ordinance_total": 722,
+  "top_categories": [
+    {
+      "code": "C03",
+      "count": 132
+    },
+    {
+      "code": "C12",
+      "count": 132
+    },
+    {
+      "code": "C14",
+      "count": 100
+    },
+    {
+      "code": "C02",
+      "count": 78
+    },
+    {
+      "code": "C11",
+      "count": 65
+    },
+    {
+      "code": "C10",
+      "count": 46
+    },
+    {
+      "code": "C08",
+      "count": 43
+    },
+    {
+      "code": "C05",
+      "count": 30
+    },
+    {
+      "code": "C04",
+      "count": 17
+    },
+    {
+      "code": "C01",
+      "count": 16
+    },
+    {
+      "code": "C06",
+      "count": 8
+    },
+    {
+      "code": "C07",
+      "count": 3
+    },
+    {
+      "code": "C09",
+      "count": 1
+    },
+    {
+      "code": "C13",
+      "count": 1
+    }
+  ],
+  "budget": {
+    "lines": 4806,
+    "exe_amt": 1928457851286,
+    "budget_now": 3089696481079
+  },
+  "recent_changes": [
+    {
+      "change_id": "f5ecca223a34383cd798b6b44b33eaac",
+      "ts": "2026-08-19T08:56:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3429230",
+      "entity_name": "경기도 의정부시 경관 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3429230&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "827789bcf15ba30460a685220c608244",
+      "ts": "2026-08-19T02:51:23+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3762243",
+      "entity_name": "경기도 재난안전 기금 운용에 관한 조례",
+      "event": "repealed",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3762243&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d6b9a83017fa101f2dff13433d310da4",
+      "ts": "2026-08-19T00:36:36+0900",
+      "entity_type": "boundary",
+      "entity_id": "41110",
+      "entity_name": "수원시",
+      "event": "created",
+      "official_url": null
+    },
+    {
+      "change_id": "e5f703138ffe1d0248925f7bd26df5e8",
+      "ts": "2026-08-19T00:28:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2751217",
+      "entity_name": "경기도 성남시 자전거 이용 활성화에 관한 규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2751217&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "84094b0cb3bfc704044989c31ca3f99d",
+      "ts": "2026-08-18T06:05:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:3281693",
+      "entity_name": "경기도 안양시 자원순환 촉진에 관한 조례",
+      "event": "updated",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3281693&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a5419a4d63a7fce1b12c4bff01440e5e",
+      "ts": "2026-08-18T01:50:05+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4100000|fyr:2025",
+      "entity_name": "4100000 2025 세출(2654건)",
+      "event": "budget_changed",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-21",
+  "stale": false
+}

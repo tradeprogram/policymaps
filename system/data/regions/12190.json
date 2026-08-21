@@ -1,0 +1,136 @@
+{
+  "sig_cd": "12190",
+  "region_id": "12190",
+  "name": "광양시",
+  "full_name": "전남광주통합특별시 광양시",
+  "level": 2,
+  "status": "active",
+  "population": 155979,
+  "ordinance_kinds": {
+    "규칙": 125,
+    "조례": 571
+  },
+  "ordinance_total": 696,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 216
+    },
+    {
+      "code": "C02",
+      "count": 200
+    },
+    {
+      "code": "C03",
+      "count": 117
+    },
+    {
+      "code": "C11",
+      "count": 116
+    },
+    {
+      "code": "C09",
+      "count": 93
+    },
+    {
+      "code": "C08",
+      "count": 81
+    },
+    {
+      "code": "C13",
+      "count": 79
+    },
+    {
+      "code": "C05",
+      "count": 77
+    },
+    {
+      "code": "C07",
+      "count": 76
+    },
+    {
+      "code": "C06",
+      "count": 61
+    },
+    {
+      "code": "C12",
+      "count": 47
+    },
+    {
+      "code": "C10",
+      "count": 47
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "04bea1890fb545eda1c258df08fbb1b2",
+      "ts": "2026-08-19T11:13:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1908047",
+      "entity_name": "광양시 야생동물 등에 의한 피해보상 및 구제에 관한 지원조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1908047&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b2d322f06404433aa2a780766a23824a",
+      "ts": "2026-08-19T11:13:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1782401",
+      "entity_name": "광양시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1782401&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a8f38fe5cbb14b30b7c45e4a9547035c",
+      "ts": "2026-08-19T11:06:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1782403",
+      "entity_name": "광양시 중증장애인 반려동물 진료비 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1782403&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1ba5dc917df94bbe9497480003f2eb3e",
+      "ts": "2026-08-19T11:06:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1974329",
+      "entity_name": "광양시 반려동물 산업 육성 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974329&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2d66c092dfe04d0d99f0ef0069837552",
+      "ts": "2026-08-19T11:06:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2075447",
+      "entity_name": "광양시 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2075447&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "276d7acba07d4077a94347239f94fe82",
+      "ts": "2026-08-19T10:57:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2015351",
+      "entity_name": "광양시 출생가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2015351&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b94786ca4cd640a591693e6ab29d5fa3",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12190",
+      "entity_name": "광양시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

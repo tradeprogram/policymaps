@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "crs": {"type": "name", "properties": {"name": "EPSG:4326"}},
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"sig_cd": "11110", "sig_kor_nm": "종로구", "full_nm": "서울특별시 종로구"},
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [[[[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0], [0.0, 0.0]]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"sig_cd": "11140", "sig_kor_nm": "중구", "full_nm": "서울특별시 중구"},
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [[[[1.0, 0.0], [2.0, 0.0], [2.0, 1.0], [1.0, 1.0], [1.0, 0.0]]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"sig_cd": "26110", "sig_kor_nm": "중구", "full_nm": "부산광역시 중구"},
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [[[[5.0, 5.0], [6.0, 5.0], [6.0, 6.0], [5.0, 6.0], [5.0, 5.0]]]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "sig_cd": "41820",
+  "region_id": "41820",
+  "name": "가평군",
+  "full_name": "경기도 가평군",
+  "level": 2,
+  "status": "active",
+  "population": 62048,
+  "ordinance_kinds": {
+    "규칙": 111,
+    "조례": 507
+  },
+  "ordinance_total": 618,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 248
+    },
+    {
+      "code": "C02",
+      "count": 171
+    },
+    {
+      "code": "C03",
+      "count": 89
+    },
+    {
+      "code": "C11",
+      "count": 76
+    },
+    {
+      "code": "C05",
+      "count": 74
+    },
+    {
+      "code": "C08",
+      "count": 72
+    },
+    {
+      "code": "C13",
+      "count": 71
+    },
+    {
+      "code": "C07",
+      "count": 66
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C10",
+      "count": 52
+    },
+    {
+      "code": "C09",
+      "count": 49
+    },
+    {
+      "code": "C12",
+      "count": 46
+    }
+  ],
+  "budget": {
+    "lines": 3488,
+    "exe_amt": 1218583195463,
+    "budget_now": 1919978202170
+  },
+  "recent_changes": [
+    {
+      "change_id": "ad7258ace8d04eb48bef5709f1fd390b",
+      "ts": "2026-08-19T14:53:58+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4177000|fyr:2025",
+      "entity_name": "4177000 2025 세출(1783건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0a2ed9cf33ea4a4d989906d18dc25203",
+      "ts": "2026-08-19T14:20:52+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4177000|fyr:2026",
+      "entity_name": "4177000 2026 세출(1705건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "dde1efa64eaf48f5be84cfb857ede618",
+      "ts": "2026-08-19T11:12:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1800165",
+      "entity_name": "가평군 야생동물 피해예방 지원  및 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1800165&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a59c631ebb034b66ba962875c6da3086",
+      "ts": "2026-08-19T11:11:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1753907",
+      "entity_name": "가평군 동물복지 및 유기동물로 인한 피해 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1753907&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0ff9442fd1c340b0b714bc5fe36d257a",
+      "ts": "2026-08-19T11:04:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1921263",
+      "entity_name": "가평군 인구정책 지원 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1921263&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cbc5326e72314523a5cc8fb1060d6c78",
+      "ts": "2026-08-19T10:58:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2124495",
+      "entity_name": "가평군 인구정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124495&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c9bd279736d240499cd918fe371a5472",
+      "ts": "2026-08-19T10:56:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2124353",
+      "entity_name": "가평군 출산장려 등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124353&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "58d91df08ed4450c9fae95b204a01255",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41820",
+      "entity_name": "가평군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

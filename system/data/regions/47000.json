@@ -1,0 +1,154 @@
+{
+  "sig_cd": "47000",
+  "region_id": "47",
+  "name": "경상북도",
+  "full_name": "경상북도",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 118,
+    "조례": 1001
+  },
+  "ordinance_total": 1119,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 294
+    },
+    {
+      "code": "C11",
+      "count": 286
+    },
+    {
+      "code": "C02",
+      "count": 253
+    },
+    {
+      "code": "C08",
+      "count": 178
+    },
+    {
+      "code": "C12",
+      "count": 162
+    },
+    {
+      "code": "C03",
+      "count": 156
+    },
+    {
+      "code": "C05",
+      "count": 148
+    },
+    {
+      "code": "C13",
+      "count": 146
+    },
+    {
+      "code": "C07",
+      "count": 129
+    },
+    {
+      "code": "C09",
+      "count": 118
+    },
+    {
+      "code": "C06",
+      "count": 101
+    },
+    {
+      "code": "C10",
+      "count": 53
+    }
+  ],
+  "budget": {
+    "lines": 8353,
+    "exe_amt": 27256680985083,
+    "budget_now": 34876196369282
+  },
+  "recent_changes": [
+    {
+      "change_id": "6620b765627547f8bb375b82b3c5f28a",
+      "ts": "2026-08-19T11:12:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1584611",
+      "entity_name": "경상북도 야생동물 피해예방과 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1584611&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "514c3e2a5a224f3eb47a35d1c18de9a8",
+      "ts": "2026-08-19T11:12:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2004173",
+      "entity_name": "경상북도 동물보호 및 관리 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2004173&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0c6360dd557f46ccbcb22b7192e55858",
+      "ts": "2026-08-19T11:11:53+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2039903",
+      "entity_name": "경상북도 유실ㆍ유기동물 입양 활성화 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2039903&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4138af1330074064b5a85cc4669cf1a9",
+      "ts": "2026-08-19T11:06:45+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1702991",
+      "entity_name": "경상북도 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1702991&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1d70ca0ddb754d41988301433376e13d",
+      "ts": "2026-08-19T11:06:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1301625",
+      "entity_name": "경상북도 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1301625&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fb942e49e8104e758e1b40023b7dbd8d",
+      "ts": "2026-08-19T10:59:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1743089",
+      "entity_name": "경상북도 여성장애인 임신ㆍ출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1743089&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9648c2520c844ce3b6854999cc82a07f",
+      "ts": "2026-08-19T10:58:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1572845",
+      "entity_name": "경상북도 모자ㆍ부자보건 및 출산장려 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1572845&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6d2f6d4d636049ad89b497798bb989c7",
+      "ts": "2026-08-19T10:57:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2057023",
+      "entity_name": "경상북도 모자ㆍ부자보건 및 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2057023&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2a7b722b234d4f53a90b424ddd732992",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47",
+      "entity_name": "경상북도",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

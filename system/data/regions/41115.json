@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41115",
+  "region_id": "41115",
+  "name": "팔달구",
+  "full_name": "경기도 수원시 팔달구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "7cfb29bf3f6d4c409737812d273f9ba6",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41115",
+      "entity_name": "팔달구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

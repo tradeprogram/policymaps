@@ -1,0 +1,109 @@
+{
+  "sig_cd": "12720",
+  "region_id": "12720",
+  "name": "곡성군",
+  "full_name": "전남광주통합특별시 곡성군",
+  "level": 2,
+  "status": "active",
+  "population": 27663,
+  "ordinance_kinds": {
+    "규칙": 87,
+    "조례": 434
+  },
+  "ordinance_total": 521,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 205
+    },
+    {
+      "code": "C02",
+      "count": 158
+    },
+    {
+      "code": "C03",
+      "count": 75
+    },
+    {
+      "code": "C13",
+      "count": 68
+    },
+    {
+      "code": "C08",
+      "count": 67
+    },
+    {
+      "code": "C05",
+      "count": 66
+    },
+    {
+      "code": "C11",
+      "count": 56
+    },
+    {
+      "code": "C06",
+      "count": 52
+    },
+    {
+      "code": "C12",
+      "count": 41
+    },
+    {
+      "code": "C09",
+      "count": 37
+    },
+    {
+      "code": "C10",
+      "count": 36
+    },
+    {
+      "code": "C07",
+      "count": 36
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "77da193eaa9d400f88d54b963f6b9f79",
+      "ts": "2026-08-19T11:12:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2159959",
+      "entity_name": "곡성군 야생동물 등에 의한 피해지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2159959&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fd5df7de0d6f410d95bb4132413fff0c",
+      "ts": "2026-08-19T11:04:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2090643",
+      "entity_name": "곡성군 임신ㆍ출산ㆍ양육 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2090643&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a772bde00f4246ef8703d26efc03e1dc",
+      "ts": "2026-08-19T10:59:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2090669",
+      "entity_name": "곡성군 임신ㆍ출산ㆍ양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2090669&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8009ca3eaf81475f8682e739ed449aea",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12720",
+      "entity_name": "곡성군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

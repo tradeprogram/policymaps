@@ -1,0 +1,163 @@
+{
+  "sig_cd": "51000",
+  "region_id": "51",
+  "name": "강원특별자치도",
+  "full_name": "강원특별자치도",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 153,
+    "조례": 894
+  },
+  "ordinance_total": 1047,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 1006
+    },
+    {
+      "code": "C02",
+      "count": 207
+    },
+    {
+      "code": "C11",
+      "count": 177
+    },
+    {
+      "code": "C08",
+      "count": 108
+    },
+    {
+      "code": "C12",
+      "count": 106
+    },
+    {
+      "code": "C03",
+      "count": 100
+    },
+    {
+      "code": "C13",
+      "count": 96
+    },
+    {
+      "code": "C05",
+      "count": 92
+    },
+    {
+      "code": "C07",
+      "count": 72
+    },
+    {
+      "code": "C09",
+      "count": 71
+    },
+    {
+      "code": "C06",
+      "count": 46
+    },
+    {
+      "code": "C10",
+      "count": 40
+    }
+  ],
+  "budget": {
+    "lines": 7154,
+    "exe_amt": 16073899867980,
+    "budget_now": 20987903249282
+  },
+  "recent_changes": [
+    {
+      "change_id": "3a3485ef68744441a8850949f3513f4c",
+      "ts": "2026-08-19T11:12:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1819903",
+      "entity_name": "강원특별자치도 야생생물 피해 예방 및 보상 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819903&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2c8789afae07429bbb5fc097eb0a0de0",
+      "ts": "2026-08-19T11:11:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1974289",
+      "entity_name": "강원특별자치도 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974289&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9fd03a8a923f4de3a2d0aafa93b03714",
+      "ts": "2026-08-19T11:06:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2124183",
+      "entity_name": "강원특별자치도 사회적 약자의 반려동물 진료비등 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124183&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "613956018a344681a07112e74b4a90ac",
+      "ts": "2026-08-19T11:06:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1819509",
+      "entity_name": "강원특별자치도 반려동물 진료비 표시 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819509&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1395cb31df264f8ba4d1ad8c53063f2c",
+      "ts": "2026-08-19T11:06:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1819517",
+      "entity_name": "강원특별자치도 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819517&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8b1b5f26f58644cd89e25fa30133f2e9",
+      "ts": "2026-08-19T11:06:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1834553",
+      "entity_name": "강원특별자치도 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1834553&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "08ac75067b4b4586a102075397d6e35c",
+      "ts": "2026-08-19T11:04:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1818673",
+      "entity_name": "강원특별자치도 출산·양육 지원 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1818673&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "10f90283140a4cb4985aa5394231f33e",
+      "ts": "2026-08-19T10:59:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1975411",
+      "entity_name": "강원특별자치도 출산·양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1975411&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a7d30a7130dc4cdca3ddfaf9fd329960",
+      "ts": "2026-08-19T10:58:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1911253",
+      "entity_name": "강원특별자치도 위기 임신 및 보호출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911253&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "36661be1acc346c598e4b0ade33f80e6",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51",
+      "entity_name": "강원특별자치도",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

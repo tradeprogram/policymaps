@@ -1,0 +1,30 @@
+{
+  "sig_cd": "50110",
+  "region_id": "50110",
+  "name": "제주시",
+  "full_name": "제주특별자치도 제주시",
+  "level": 3,
+  "status": "active",
+  "population": 484111,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "15b86d0a05c747b7b45c8018447ce341",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "50110",
+      "entity_name": "제주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

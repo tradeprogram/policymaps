@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41133",
+  "region_id": "41133",
+  "name": "중원구",
+  "full_name": "경기도 성남시 중원구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "9abe73824e1c40ecb086da076ec93b07",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41133",
+      "entity_name": "중원구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

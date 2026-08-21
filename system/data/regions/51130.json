@@ -1,0 +1,172 @@
+{
+  "sig_cd": "51130",
+  "region_id": "51130",
+  "name": "원주시",
+  "full_name": "강원특별자치도 원주시",
+  "level": 2,
+  "status": "active",
+  "population": 365218,
+  "ordinance_kinds": {
+    "규칙": 139,
+    "조례": 681
+  },
+  "ordinance_total": 820,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 278
+    },
+    {
+      "code": "C02",
+      "count": 236
+    },
+    {
+      "code": "C11",
+      "count": 139
+    },
+    {
+      "code": "C03",
+      "count": 135
+    },
+    {
+      "code": "C13",
+      "count": 111
+    },
+    {
+      "code": "C05",
+      "count": 90
+    },
+    {
+      "code": "C06",
+      "count": 87
+    },
+    {
+      "code": "C07",
+      "count": 85
+    },
+    {
+      "code": "C08",
+      "count": 81
+    },
+    {
+      "code": "C09",
+      "count": 80
+    },
+    {
+      "code": "C12",
+      "count": 59
+    },
+    {
+      "code": "C10",
+      "count": 52
+    }
+  ],
+  "budget": {
+    "lines": 5737,
+    "exe_amt": 3153192344712,
+    "budget_now": 4441470465425
+  },
+  "recent_changes": [
+    {
+      "change_id": "1919b1bcf04f45bfb006e1f9048f0af2",
+      "ts": "2026-08-19T14:54:29+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4212000|fyr:2025",
+      "entity_name": "4212000 2025 세출(2886건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "09a9059d590242c88ab2a55f84652bba",
+      "ts": "2026-08-19T14:21:19+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4212000|fyr:2026",
+      "entity_name": "4212000 2026 세출(2851건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a722e73f189a44babb305ecafdbc927f",
+      "ts": "2026-08-19T11:17:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1865405",
+      "entity_name": "원주시 야생동물로 인한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1865405&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5990c9088d35410db332c4a8fd2b99fa",
+      "ts": "2026-08-19T11:17:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1865713",
+      "entity_name": "원주시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1865713&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9b7bdb4f399d400db3c56c757acf4ca7",
+      "ts": "2026-08-19T11:11:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2122331",
+      "entity_name": "원주시 반려견 순찰대 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2122331&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6dd33c17582a4107b4baa98581b16414",
+      "ts": "2026-08-19T11:09:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2014265",
+      "entity_name": "원주시 사회적 약자 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2014265&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "47d389c445a1468291d7b6f1414358e4",
+      "ts": "2026-08-19T11:09:26+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1865715",
+      "entity_name": "원주시 반려동물산업 육성 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1865715&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "409613874ac0423bbe4402e0c85a6dea",
+      "ts": "2026-08-19T11:09:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1442231",
+      "entity_name": "원주시 반려동물 보호 및 학대방지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1442231&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e17e9ea32adc421eb8ae3d3d117dc979",
+      "ts": "2026-08-19T11:02:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1953465",
+      "entity_name": "원주시 장애인 가정 임신·출산·양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1953465&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b3bd7bfa47f649268883fa53670af285",
+      "ts": "2026-08-19T10:56:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2106825",
+      "entity_name": "원주시 출생축하금 및 출생아 건강보험료 지원 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2106825&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4156868d8112432d84e0a611f1a5a24b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51130",
+      "entity_name": "원주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

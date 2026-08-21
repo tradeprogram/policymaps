@@ -1,0 +1,136 @@
+{
+  "sig_cd": "12150",
+  "region_id": "12150",
+  "name": "순천시",
+  "full_name": "전남광주통합특별시 순천시",
+  "level": 2,
+  "status": "active",
+  "population": 273733,
+  "ordinance_kinds": {
+    "규칙": 143,
+    "조례": 655
+  },
+  "ordinance_total": 798,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 275
+    },
+    {
+      "code": "C02",
+      "count": 222
+    },
+    {
+      "code": "C11",
+      "count": 113
+    },
+    {
+      "code": "C03",
+      "count": 112
+    },
+    {
+      "code": "C05",
+      "count": 102
+    },
+    {
+      "code": "C13",
+      "count": 98
+    },
+    {
+      "code": "C09",
+      "count": 98
+    },
+    {
+      "code": "C08",
+      "count": 92
+    },
+    {
+      "code": "C07",
+      "count": 86
+    },
+    {
+      "code": "C06",
+      "count": 75
+    },
+    {
+      "code": "C12",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 51
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "586295e4f2604629bacb785f2fc398bb",
+      "ts": "2026-08-19T11:16:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1895253",
+      "entity_name": "순천시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1895253&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "da12c251be1b4864846a68944d9f4059",
+      "ts": "2026-08-19T11:08:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1400759",
+      "entity_name": "순천시 중증장애인 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1400759&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "97f8b89b0e374892b5013cccf0a3a61f",
+      "ts": "2026-08-19T11:08:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1923117",
+      "entity_name": "순천시 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1923117&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "baba07d77b9844f88702f8167ead101e",
+      "ts": "2026-08-19T11:08:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2029553",
+      "entity_name": "순천시 동물보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2029553&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7ec22170f3ab44df87857755d0dcb1ff",
+      "ts": "2026-08-19T11:06:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2103085",
+      "entity_name": "순천시 장난감도서관 및 출산·육아용품대여소 설치·운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103085&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "34a51035ba664dc38c07aaf11ee0c63d",
+      "ts": "2026-08-19T10:57:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2064909",
+      "entity_name": "순천시 저출산 대책 및 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2064909&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "37c57ec3807342c1844ab326a2aa26b5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12150",
+      "entity_name": "순천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

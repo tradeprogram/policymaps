@@ -1,0 +1,118 @@
+{
+  "sig_cd": "43740",
+  "region_id": "43740",
+  "name": "영동군",
+  "full_name": "충청북도 영동군",
+  "level": 2,
+  "status": "active",
+  "population": 43029,
+  "ordinance_kinds": {
+    "규칙": 78,
+    "조례": 419
+  },
+  "ordinance_total": 497,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 202
+    },
+    {
+      "code": "C02",
+      "count": 139
+    },
+    {
+      "code": "C03",
+      "count": 75
+    },
+    {
+      "code": "C11",
+      "count": 63
+    },
+    {
+      "code": "C08",
+      "count": 54
+    },
+    {
+      "code": "C05",
+      "count": 53
+    },
+    {
+      "code": "C13",
+      "count": 50
+    },
+    {
+      "code": "C12",
+      "count": 43
+    },
+    {
+      "code": "C07",
+      "count": 42
+    },
+    {
+      "code": "C06",
+      "count": 42
+    },
+    {
+      "code": "C09",
+      "count": 41
+    },
+    {
+      "code": "C10",
+      "count": 37
+    }
+  ],
+  "budget": {
+    "lines": 3240,
+    "exe_amt": 1189306659580,
+    "budget_now": 1852569019580
+  },
+  "recent_changes": [
+    {
+      "change_id": "0f282a1afeef43c6a004025510a359da",
+      "ts": "2026-08-19T14:58:18+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4374000|fyr:2025",
+      "entity_name": "4374000 2025 세출(1659건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9ed86db87f614f0f8842f1e719011cdd",
+      "ts": "2026-08-19T14:23:50+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4374000|fyr:2026",
+      "entity_name": "4374000 2026 세출(1581건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "767fb57b62ff48b99594ab32a88fb9bd",
+      "ts": "2026-08-19T11:16:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1844925",
+      "entity_name": "영동군 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1844925&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f2248d2f74f34ffba9b3528d17be15b2",
+      "ts": "2026-08-19T11:02:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2126749",
+      "entity_name": "영동군 임신 및 출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126749&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fe69a0b06ba343c5a5beb944f9b64be2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43740",
+      "entity_name": "영동군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,136 @@
+{
+  "sig_cd": "44230",
+  "region_id": "44230",
+  "name": "논산시",
+  "full_name": "충청남도 논산시",
+  "level": 2,
+  "status": "active",
+  "population": 105815,
+  "ordinance_kinds": {
+    "규칙": 113,
+    "조례": 624
+  },
+  "ordinance_total": 737,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 256
+    },
+    {
+      "code": "C02",
+      "count": 198
+    },
+    {
+      "code": "C03",
+      "count": 120
+    },
+    {
+      "code": "C05",
+      "count": 111
+    },
+    {
+      "code": "C11",
+      "count": 104
+    },
+    {
+      "code": "C08",
+      "count": 102
+    },
+    {
+      "code": "C06",
+      "count": 87
+    },
+    {
+      "code": "C13",
+      "count": 79
+    },
+    {
+      "code": "C09",
+      "count": 74
+    },
+    {
+      "code": "C07",
+      "count": 61
+    },
+    {
+      "code": "C12",
+      "count": 59
+    },
+    {
+      "code": "C10",
+      "count": 51
+    }
+  ],
+  "budget": {
+    "lines": 4239,
+    "exe_amt": 2026908016420,
+    "budget_now": 2828084886470
+  },
+  "recent_changes": [
+    {
+      "change_id": "2b2223c1942e4326b521f1a5a7569f08",
+      "ts": "2026-08-19T15:01:34+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4416000|fyr:2025",
+      "entity_name": "4416000 2025 세출(2173건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "dc37447ff9b340409018cb049460eb26",
+      "ts": "2026-08-19T14:25:28+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4416000|fyr:2026",
+      "entity_name": "4416000 2026 세출(2066건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d4c43d3b1a424b27b7c92c63a43d823e",
+      "ts": "2026-08-19T11:13:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1727777",
+      "entity_name": "논산시 야생동물에 의한 피해예방 및 피해보상 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1727777&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6ba12141720a46e1b18dde97e322d560",
+      "ts": "2026-08-19T11:13:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2079439",
+      "entity_name": "논산시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079439&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9aff0a43db60443b9c7ce92010300b7d",
+      "ts": "2026-08-19T11:07:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1933757",
+      "entity_name": "논산시 사회적 약자의 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1933757&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f3cf6617385e47688d33a64e0ada37c9",
+      "ts": "2026-08-19T10:57:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2126773",
+      "entity_name": "논산시 출산장려·양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126773&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "70bd0764485446359de2c9f75f981581",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "44230",
+      "entity_name": "논산시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

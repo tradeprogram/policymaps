@@ -1,0 +1,127 @@
+{
+  "sig_cd": "41390",
+  "region_id": "41390",
+  "name": "시흥시",
+  "full_name": "경기도 시흥시",
+  "level": 2,
+  "status": "active",
+  "population": 514996,
+  "ordinance_kinds": {
+    "규칙": 112,
+    "조례": 636
+  },
+  "ordinance_total": 748,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 251
+    },
+    {
+      "code": "C02",
+      "count": 202
+    },
+    {
+      "code": "C11",
+      "count": 134
+    },
+    {
+      "code": "C03",
+      "count": 118
+    },
+    {
+      "code": "C09",
+      "count": 105
+    },
+    {
+      "code": "C06",
+      "count": 89
+    },
+    {
+      "code": "C05",
+      "count": 88
+    },
+    {
+      "code": "C07",
+      "count": 80
+    },
+    {
+      "code": "C08",
+      "count": 79
+    },
+    {
+      "code": "C13",
+      "count": 76
+    },
+    {
+      "code": "C10",
+      "count": 69
+    },
+    {
+      "code": "C12",
+      "count": 29
+    }
+  ],
+  "budget": {
+    "lines": 4636,
+    "exe_amt": 3813990759387,
+    "budget_now": 4802556942330
+  },
+  "recent_changes": [
+    {
+      "change_id": "d604a9dd170c4b7d9e2f5d9da0de3d62",
+      "ts": "2026-08-19T14:51:37+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4125000|fyr:2025",
+      "entity_name": "4125000 2025 세출(2383건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "04696d808d324d15876de37fe5390bfc",
+      "ts": "2026-08-19T14:19:29+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4125000|fyr:2026",
+      "entity_name": "4125000 2026 세출(2253건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4e62f74cd463457597982830fa84b302",
+      "ts": "2026-08-19T11:16:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1925321",
+      "entity_name": "시흥시 동물보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1925321&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "28002eb4736549e1a3de80326340921f",
+      "ts": "2026-08-19T11:08:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1881657",
+      "entity_name": "시흥시 반려동물 입양 활성화에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1881657&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a95ee78048f8489dad64b103380fe93b",
+      "ts": "2026-08-19T11:02:01+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2112541",
+      "entity_name": "시흥시 임신ㆍ출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2112541&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6cd89695475a492cabda11964616ad65",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41390",
+      "entity_name": "시흥시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

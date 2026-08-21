@@ -1,0 +1,136 @@
+{
+  "sig_cd": "52210",
+  "region_id": "52210",
+  "name": "김제시",
+  "full_name": "전북특별자치도 김제시",
+  "level": 2,
+  "status": "active",
+  "population": 81665,
+  "ordinance_kinds": {
+    "규칙": 102,
+    "조례": 536
+  },
+  "ordinance_total": 638,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 225
+    },
+    {
+      "code": "C02",
+      "count": 164
+    },
+    {
+      "code": "C11",
+      "count": 108
+    },
+    {
+      "code": "C03",
+      "count": 99
+    },
+    {
+      "code": "C05",
+      "count": 75
+    },
+    {
+      "code": "C06",
+      "count": 71
+    },
+    {
+      "code": "C08",
+      "count": 65
+    },
+    {
+      "code": "C12",
+      "count": 64
+    },
+    {
+      "code": "C09",
+      "count": 61
+    },
+    {
+      "code": "C13",
+      "count": 60
+    },
+    {
+      "code": "C07",
+      "count": 60
+    },
+    {
+      "code": "C10",
+      "count": 35
+    }
+  ],
+  "budget": {
+    "lines": 3830,
+    "exe_amt": 1907360221179,
+    "budget_now": 2764703936614
+  },
+  "recent_changes": [
+    {
+      "change_id": "3417b586d47c4b7492ac88356a88a498",
+      "ts": "2026-08-19T15:06:20+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4516000|fyr:2025",
+      "entity_name": "4516000 2025 세출(1937건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "153ece62ae9d4eeda5177dec274f91d8",
+      "ts": "2026-08-19T14:27:34+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4516000|fyr:2026",
+      "entity_name": "4516000 2026 세출(1893건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "b6acfa85dc5e434c96d84eb122213d62",
+      "ts": "2026-08-19T11:13:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1371095",
+      "entity_name": "김제시 유해야생동물에 의한 농작물 등 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1371095&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "613ad2b0352d4998afa218c8e1eae10f",
+      "ts": "2026-08-19T11:04:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1474773",
+      "entity_name": "김제시 장애인가정 출산지원금 지급 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1474773&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2cfb9f5ac96a4ff380342d573657d82a",
+      "ts": "2026-08-19T10:59:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1404298",
+      "entity_name": "김제시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1404298&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6b9937c58a5049fa8e6b2c8fbcdfa9c0",
+      "ts": "2026-08-19T10:54:47+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2087217",
+      "entity_name": "김제시 출산장려 등 모자보건 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2087217&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "770d6ad01a3b4278a256fc0696181ab2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52210",
+      "entity_name": "김제시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

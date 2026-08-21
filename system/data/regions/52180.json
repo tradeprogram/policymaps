@@ -1,0 +1,127 @@
+{
+  "sig_cd": "52180",
+  "region_id": "52180",
+  "name": "정읍시",
+  "full_name": "전북특별자치도 정읍시",
+  "level": 2,
+  "status": "active",
+  "population": 100632,
+  "ordinance_kinds": {
+    "규칙": 125,
+    "조례": 573
+  },
+  "ordinance_total": 698,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 226
+    },
+    {
+      "code": "C02",
+      "count": 180
+    },
+    {
+      "code": "C11",
+      "count": 117
+    },
+    {
+      "code": "C03",
+      "count": 108
+    },
+    {
+      "code": "C13",
+      "count": 87
+    },
+    {
+      "code": "C08",
+      "count": 82
+    },
+    {
+      "code": "C05",
+      "count": 82
+    },
+    {
+      "code": "C07",
+      "count": 75
+    },
+    {
+      "code": "C12",
+      "count": 70
+    },
+    {
+      "code": "C09",
+      "count": 70
+    },
+    {
+      "code": "C06",
+      "count": 67
+    },
+    {
+      "code": "C10",
+      "count": 43
+    }
+  ],
+  "budget": {
+    "lines": 3910,
+    "exe_amt": 1967146330975,
+    "budget_now": 3261677550801
+  },
+  "recent_changes": [
+    {
+      "change_id": "a461c6b937934b5aaa60e603bdd22a5e",
+      "ts": "2026-08-19T15:05:48+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4514000|fyr:2025",
+      "entity_name": "4514000 2025 세출(1931건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d9c69f0f1e6642d683140b403a8ac03f",
+      "ts": "2026-08-19T14:27:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4514000|fyr:2026",
+      "entity_name": "4514000 2026 세출(1979건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "10606dde215b4a828a9bbdbd51ed0b8e",
+      "ts": "2026-08-19T11:18:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1981059",
+      "entity_name": "정읍시 야생동물로 인한 피해예방 및 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981059&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "22c92b232cf94b2188544bba5887c3fd",
+      "ts": "2026-08-19T11:10:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1905641",
+      "entity_name": "정읍시 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1905641&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "21a0ea08c739447599e09690d4094e23",
+      "ts": "2026-08-19T10:58:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1998617",
+      "entity_name": "정읍시 출생 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1998617&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dce0cb0ab9c54cb2bfb7af7771600ae8",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52180",
+      "entity_name": "정읍시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,136 @@
+{
+  "sig_cd": "41310",
+  "region_id": "41310",
+  "name": "구리시",
+  "full_name": "경기도 구리시",
+  "level": 2,
+  "status": "active",
+  "population": 188040,
+  "ordinance_kinds": {
+    "규칙": 119,
+    "조례": 540
+  },
+  "ordinance_total": 659,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 242
+    },
+    {
+      "code": "C02",
+      "count": 187
+    },
+    {
+      "code": "C03",
+      "count": 124
+    },
+    {
+      "code": "C11",
+      "count": 105
+    },
+    {
+      "code": "C06",
+      "count": 85
+    },
+    {
+      "code": "C05",
+      "count": 82
+    },
+    {
+      "code": "C07",
+      "count": 77
+    },
+    {
+      "code": "C08",
+      "count": 74
+    },
+    {
+      "code": "C13",
+      "count": 73
+    },
+    {
+      "code": "C09",
+      "count": 65
+    },
+    {
+      "code": "C10",
+      "count": 54
+    },
+    {
+      "code": "C04",
+      "count": 14
+    }
+  ],
+  "budget": {
+    "lines": 3250,
+    "exe_amt": 1386792634760,
+    "budget_now": 1970596491840
+  },
+  "recent_changes": [
+    {
+      "change_id": "132c42c76bd04fe4842afc61058e3949",
+      "ts": "2026-08-19T14:50:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4122000|fyr:2025",
+      "entity_name": "4122000 2025 세출(1642건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0016aff770a94949af31c0f2514ef5cc",
+      "ts": "2026-08-19T14:19:17+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4122000|fyr:2026",
+      "entity_name": "4122000 2026 세출(1608건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c226b1cbfe0e475c90b1e592bc9c8a29",
+      "ts": "2026-08-19T11:13:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1813421",
+      "entity_name": "구리시 동물보호 및 동물복지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1813421&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "155d78d6ddd44285aaad7501f5b8b85e",
+      "ts": "2026-08-19T11:11:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1939683",
+      "entity_name": "구리시 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1939683&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "493f3497ed684daba023f8bc7a34e710",
+      "ts": "2026-08-19T10:59:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2035703",
+      "entity_name": "구리시 저출산대책 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2035703&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ff9f1b952e7e405e9ecf566e1c44d4f3",
+      "ts": "2026-08-19T10:57:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2094451",
+      "entity_name": "구리시 임신·출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2094451&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "df5567aee921452691082a150006a297",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41310",
+      "entity_name": "구리시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

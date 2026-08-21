@@ -1,0 +1,154 @@
+{
+  "sig_cd": "52110",
+  "region_id": "52110",
+  "name": "전주시",
+  "full_name": "전북특별자치도 전주시",
+  "level": 2,
+  "status": "active",
+  "population": 619849,
+  "ordinance_kinds": {
+    "규칙": 114,
+    "조례": 633
+  },
+  "ordinance_total": 747,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 243
+    },
+    {
+      "code": "C02",
+      "count": 218
+    },
+    {
+      "code": "C03",
+      "count": 123
+    },
+    {
+      "code": "C09",
+      "count": 120
+    },
+    {
+      "code": "C11",
+      "count": 118
+    },
+    {
+      "code": "C13",
+      "count": 99
+    },
+    {
+      "code": "C07",
+      "count": 97
+    },
+    {
+      "code": "C08",
+      "count": 77
+    },
+    {
+      "code": "C05",
+      "count": 76
+    },
+    {
+      "code": "C06",
+      "count": 73
+    },
+    {
+      "code": "C10",
+      "count": 56
+    },
+    {
+      "code": "C12",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 6600,
+    "exe_amt": 4534239666044,
+    "budget_now": 6283184604037
+  },
+  "recent_changes": [
+    {
+      "change_id": "e10185061d0a4d2fa9e554a87f10106c",
+      "ts": "2026-08-19T15:04:51+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4511000|fyr:2025",
+      "entity_name": "4511000 2025 세출(3475건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a94cdb9f345e4f1f9255aea41e72d71e",
+      "ts": "2026-08-19T14:26:45+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4511000|fyr:2026",
+      "entity_name": "4511000 2026 세출(3125건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e6b0369c7f8b4190b56d3082a76f14ed",
+      "ts": "2026-08-19T11:18:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1744909",
+      "entity_name": "전주시 야생동물 피해예방시설 설치비용 및 피해보상 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744909&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "19c75f174d254ce4adc66cfe6de47adc",
+      "ts": "2026-08-19T11:18:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1886525",
+      "entity_name": "전주시 동물복지 및 생명존중문화 조성 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1886525&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a893f69602424944af27fecd6b111ac4",
+      "ts": "2026-08-19T11:10:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2035357",
+      "entity_name": "전주시 반려동물 산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2035357&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bbbe8c8fdee24bbabceb52de98bc8494",
+      "ts": "2026-08-19T11:03:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1871501",
+      "entity_name": "전주시 장애인가정 출산 및 양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871501&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d2d86590603541c798316c073ef8e814",
+      "ts": "2026-08-19T10:58:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1832045",
+      "entity_name": "전주시  저출생 대책 및 출산장려 지원 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1832045&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6076aa89346c457c8884dbf9e2ec5e3b",
+      "ts": "2026-08-19T10:58:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2097871",
+      "entity_name": "전주시 저출생 대책 및 출산장려 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2097871&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6b6f597839654ffeb2dee999d622bc43",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "52110",
+      "entity_name": "전주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

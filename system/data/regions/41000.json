@@ -1,0 +1,181 @@
+{
+  "sig_cd": "41000",
+  "region_id": "41",
+  "name": "경기도",
+  "full_name": "경기도",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 206,
+    "조례": 1465
+  },
+  "ordinance_total": 1671,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 433
+    },
+    {
+      "code": "C02",
+      "count": 432
+    },
+    {
+      "code": "C11",
+      "count": 416
+    },
+    {
+      "code": "C03",
+      "count": 275
+    },
+    {
+      "code": "C08",
+      "count": 258
+    },
+    {
+      "code": "C07",
+      "count": 213
+    },
+    {
+      "code": "C13",
+      "count": 207
+    },
+    {
+      "code": "C05",
+      "count": 201
+    },
+    {
+      "code": "C09",
+      "count": 194
+    },
+    {
+      "code": "C06",
+      "count": 155
+    },
+    {
+      "code": "C12",
+      "count": 125
+    },
+    {
+      "code": "C10",
+      "count": 105
+    }
+  ],
+  "budget": {
+    "lines": 12052,
+    "exe_amt": 76879304962723,
+    "budget_now": 94823984652216
+  },
+  "recent_changes": [
+    {
+      "change_id": "15eb32c405824431a48daf9a54489d51",
+      "ts": "2026-08-19T11:12:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1958411",
+      "entity_name": "경기도 기질평가위원회 구성 등 기질평가 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1958411&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e2348d28c8374a3e8072226bbc1ad7e6",
+      "ts": "2026-08-19T11:12:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2059325",
+      "entity_name": "경기도 공설동물장묘시설 관리 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2059325&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bb5dd391ca334311828e785755324b35",
+      "ts": "2026-08-19T11:11:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2136271",
+      "entity_name": "경기도 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2136271&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b06ec7d356684460a9684b0c9b8a5902",
+      "ts": "2026-08-19T11:11:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2034799",
+      "entity_name": "경기도 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2034799&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "43cdbfc31ad2420e92bfdb0a5bb37cb4",
+      "ts": "2026-08-19T11:06:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2078139",
+      "entity_name": "경기도 홀로 사는 노인 등의 반려동물 입양 및 양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2078139&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a227fd11afd64546a51389c31e937473",
+      "ts": "2026-08-19T11:06:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2021123",
+      "entity_name": "경기도 사회적 약자 반려동물 진료비등 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021123&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e0da6dd1bd0c4a9fb345de2feb5a3bc1",
+      "ts": "2026-08-19T11:06:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1976801",
+      "entity_name": "경기도 반려동물 테마파크 설치 및 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1976801&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b7aaa5c5eb094c4480519b6dcc0f7566",
+      "ts": "2026-08-19T11:06:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2107749",
+      "entity_name": "경기도 반려동물 입양 활성화 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107749&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d3049dfcf21d4bac8c952f90f13d2ba0",
+      "ts": "2026-08-19T11:06:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2136125",
+      "entity_name": "경기도 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2136125&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dfe24b9a2408423c9891f63ad494ef15",
+      "ts": "2026-08-19T11:06:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1799987",
+      "entity_name": "경기도 반려동물 보호 및 문화조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1799987&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "48e6976c219348c38f4751f7fc5c4e97",
+      "ts": "2026-08-19T10:59:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2008613",
+      "entity_name": "경기도 위기임신 및 보호출산 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2008613&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "138a9da1c55c4f77a66b2fc086f64fed",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41",
+      "entity_name": "경기도",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

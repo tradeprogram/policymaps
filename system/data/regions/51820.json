@@ -1,0 +1,127 @@
+{
+  "sig_cd": "51820",
+  "region_id": "51820",
+  "name": "고성군",
+  "full_name": "강원특별자치도 고성군",
+  "level": 2,
+  "status": "active",
+  "population": 27190,
+  "ordinance_kinds": {
+    "규칙": 113,
+    "조례": 450
+  },
+  "ordinance_total": 563,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 221
+    },
+    {
+      "code": "C02",
+      "count": 169
+    },
+    {
+      "code": "C03",
+      "count": 78
+    },
+    {
+      "code": "C13",
+      "count": 67
+    },
+    {
+      "code": "C12",
+      "count": 67
+    },
+    {
+      "code": "C08",
+      "count": 66
+    },
+    {
+      "code": "C11",
+      "count": 64
+    },
+    {
+      "code": "C05",
+      "count": 49
+    },
+    {
+      "code": "C07",
+      "count": 48
+    },
+    {
+      "code": "C09",
+      "count": 46
+    },
+    {
+      "code": "C10",
+      "count": 40
+    },
+    {
+      "code": "C06",
+      "count": 40
+    }
+  ],
+  "budget": {
+    "lines": 2884,
+    "exe_amt": 747059349268,
+    "budget_now": 1222732510315
+  },
+  "recent_changes": [
+    {
+      "change_id": "232792aad14c4aac9e0cd471809eb778",
+      "ts": "2026-08-19T14:57:05+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4280000|fyr:2025",
+      "entity_name": "4280000 2025 세출(1465건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "cb250954403346d3b2df9582b4f9a191",
+      "ts": "2026-08-19T14:22:49+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4280000|fyr:2026",
+      "entity_name": "4280000 2026 세출(1419건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "08cfd90788244bc4a89a98d4cb83fc12",
+      "ts": "2026-08-19T11:12:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2066997",
+      "entity_name": "고성군 야생동물로 인한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2066997&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c5681e8b94a549b28502392c0ab24226",
+      "ts": "2026-08-19T11:12:42+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2155541",
+      "entity_name": "고성군 동물보호 및 동물보호센터 운영에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2155541&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c959043dd9e642d7977ac3f3260a6d1b",
+      "ts": "2026-08-19T11:06:52+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1940445",
+      "entity_name": "고성군 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1940445&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "358e1e3919d54798af3f228f0f1bc0d5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51820",
+      "entity_name": "고성군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

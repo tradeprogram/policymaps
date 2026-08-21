@@ -1,0 +1,136 @@
+{
+  "sig_cd": "51110",
+  "region_id": "51110",
+  "name": "춘천시",
+  "full_name": "강원특별자치도 춘천시",
+  "level": 2,
+  "status": "active",
+  "population": 284853,
+  "ordinance_kinds": {
+    "규칙": 93,
+    "조례": 509
+  },
+  "ordinance_total": 602,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 230
+    },
+    {
+      "code": "C02",
+      "count": 171
+    },
+    {
+      "code": "C11",
+      "count": 101
+    },
+    {
+      "code": "C03",
+      "count": 80
+    },
+    {
+      "code": "C13",
+      "count": 70
+    },
+    {
+      "code": "C09",
+      "count": 70
+    },
+    {
+      "code": "C08",
+      "count": 63
+    },
+    {
+      "code": "C05",
+      "count": 59
+    },
+    {
+      "code": "C06",
+      "count": 55
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C12",
+      "count": 46
+    },
+    {
+      "code": "C10",
+      "count": 42
+    }
+  ],
+  "budget": {
+    "lines": 4542,
+    "exe_amt": 2846131807021,
+    "budget_now": 4125645032462
+  },
+  "recent_changes": [
+    {
+      "change_id": "5517386aead64f628237e0a775153e0f",
+      "ts": "2026-08-19T14:54:26+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4211000|fyr:2025",
+      "entity_name": "4211000 2025 세출(2299건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1f94a2e6bb0a4927bd85d29d1c00ba95",
+      "ts": "2026-08-19T14:21:12+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4211000|fyr:2026",
+      "entity_name": "4211000 2026 세출(2243건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a6d6e45773254e0588df0ea615c60231",
+      "ts": "2026-08-19T11:19:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1251810",
+      "entity_name": "춘천시 야생동물로 인한 피해 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1251810&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ded1d662475346658447653c02bff849",
+      "ts": "2026-08-19T11:19:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2031801",
+      "entity_name": "춘천시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2031801&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f5ce3ee7589c47c0a200312b364b3523",
+      "ts": "2026-08-19T11:10:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1542413",
+      "entity_name": "춘천시 반려동물 산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1542413&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dd8999835890463b839383088b1d80c1",
+      "ts": "2026-08-19T10:56:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2067757",
+      "entity_name": "춘천시 출산 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2067757&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "440e693f80f0437db8954ed2aac68af1",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "51110",
+      "entity_name": "춘천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

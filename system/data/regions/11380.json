@@ -1,0 +1,145 @@
+{
+  "sig_cd": "11380",
+  "region_id": "11380",
+  "name": "은평구",
+  "full_name": "서울특별시 은평구",
+  "level": 2,
+  "status": "active",
+  "population": 453056,
+  "ordinance_kinds": {
+    "규칙": 101,
+    "조례": 434
+  },
+  "ordinance_total": 535,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 217
+    },
+    {
+      "code": "C02",
+      "count": 144
+    },
+    {
+      "code": "C03",
+      "count": 101
+    },
+    {
+      "code": "C06",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 70
+    },
+    {
+      "code": "C13",
+      "count": 68
+    },
+    {
+      "code": "C05",
+      "count": 66
+    },
+    {
+      "code": "C11",
+      "count": 56
+    },
+    {
+      "code": "C09",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 55
+    },
+    {
+      "code": "C10",
+      "count": 32
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 2534,
+    "exe_amt": 2177040226716,
+    "budget_now": 2841326231886
+  },
+  "recent_changes": [
+    {
+      "change_id": "03a9b7de31d74b31b2fd0484e7033503",
+      "ts": "2026-08-19T14:39:12+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1122000|fyr:2025",
+      "entity_name": "1122000 2025 세출(1327건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e5de801661324ab9a9ba72f9ec5c8291",
+      "ts": "2026-08-19T14:16:49+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1122000|fyr:2026",
+      "entity_name": "1122000 2026 세출(1207건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "65972444e69f4a5396e624bf21165689",
+      "ts": "2026-08-19T11:16:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1251041",
+      "entity_name": "서울특별시 은평구 야생동물에 의한 피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1251041&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ee42411430cd401fafaf87bbe5e51231",
+      "ts": "2026-08-19T11:01:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2096987",
+      "entity_name": "서울특별시 은평구 출산준비가정 백일해 예방접종 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2096987&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "33374890a5be4ca0b3d6a42f1563be7e",
+      "ts": "2026-08-19T11:01:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1871245",
+      "entity_name": "서울특별시 은평구 장애인가정 출산지원금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871245&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2bdbcd8377ae465884e378a2488611a8",
+      "ts": "2026-08-19T11:01:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2050425",
+      "entity_name": "서울특별시 은평구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2050425&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9ad2a567a86341438660a6ee8a52041f",
+      "ts": "2026-08-19T10:57:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1871237",
+      "entity_name": "서울특별시 은평구 출산장려 및 다자녀 가정 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871237&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b51649aee7de437cb615969933c07c87",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11380",
+      "entity_name": "은평구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

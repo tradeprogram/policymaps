@@ -1,0 +1,136 @@
+{
+  "sig_cd": "12130",
+  "region_id": "12130",
+  "name": "여수시",
+  "full_name": "전남광주통합특별시 여수시",
+  "level": 2,
+  "status": "active",
+  "population": 260190,
+  "ordinance_kinds": {
+    "규칙": 131,
+    "조례": 726
+  },
+  "ordinance_total": 857,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 273
+    },
+    {
+      "code": "C02",
+      "count": 233
+    },
+    {
+      "code": "C03",
+      "count": 141
+    },
+    {
+      "code": "C11",
+      "count": 136
+    },
+    {
+      "code": "C13",
+      "count": 112
+    },
+    {
+      "code": "C08",
+      "count": 102
+    },
+    {
+      "code": "C07",
+      "count": 102
+    },
+    {
+      "code": "C09",
+      "count": 92
+    },
+    {
+      "code": "C05",
+      "count": 91
+    },
+    {
+      "code": "C06",
+      "count": 82
+    },
+    {
+      "code": "C12",
+      "count": 65
+    },
+    {
+      "code": "C10",
+      "count": 62
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "43188231d42d456bbdbb3ef804144c05",
+      "ts": "2026-08-19T11:16:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1413356",
+      "entity_name": "여수시 야생동물 피해예방시설 설치비용 지원 및 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1413356&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "11a90488bd5348c6afc1cfa78e68491e",
+      "ts": "2026-08-19T11:08:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1740229",
+      "entity_name": "여수시 중증장애인 반려동물 진료비 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1740229&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ce57ed1fd15e4804bd5ee1b637aa3429",
+      "ts": "2026-08-19T11:08:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1596459",
+      "entity_name": "여수시 반려동물 및 유실·유기동물 보호와 학대방지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1596459&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "59b24fbe368543e492e785b71f5d83d8",
+      "ts": "2026-08-19T11:08:56+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1963659",
+      "entity_name": "여수시 반려동물 동반여행 활성화 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1963659&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "15ce19d304c64ad19352009d5c55570a",
+      "ts": "2026-08-19T11:02:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1930473",
+      "entity_name": "여수시 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1930473&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "96ecb1bcb12c45a8a6f2580d55d0d285",
+      "ts": "2026-08-19T10:55:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1878533",
+      "entity_name": "여수시 임신 및 출산지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1878533&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f7fdd11f14ce4279b8c1c1309e07d044",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12130",
+      "entity_name": "여수시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41593",
+  "region_id": "41593",
+  "name": "효행구",
+  "full_name": "경기도 화성시 효행구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "06404b4047fa48d091050c97d75a9c3b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41593",
+      "entity_name": "효행구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

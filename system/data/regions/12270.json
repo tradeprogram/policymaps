@@ -1,0 +1,145 @@
+{
+  "sig_cd": "12270",
+  "region_id": "12270",
+  "name": "남구",
+  "full_name": "전남광주통합특별시 남구",
+  "level": 2,
+  "status": "active",
+  "population": 205428,
+  "ordinance_kinds": {
+    "규칙": 101,
+    "조례": 607
+  },
+  "ordinance_total": 708,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 236
+    },
+    {
+      "code": "C02",
+      "count": 171
+    },
+    {
+      "code": "C03",
+      "count": 154
+    },
+    {
+      "code": "C11",
+      "count": 104
+    },
+    {
+      "code": "C06",
+      "count": 102
+    },
+    {
+      "code": "C05",
+      "count": 89
+    },
+    {
+      "code": "C13",
+      "count": 80
+    },
+    {
+      "code": "C08",
+      "count": 75
+    },
+    {
+      "code": "C07",
+      "count": 74
+    },
+    {
+      "code": "C09",
+      "count": 62
+    },
+    {
+      "code": "C10",
+      "count": 41
+    },
+    {
+      "code": "C04",
+      "count": 25
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "f44a24c993d84bd5947f353cde73db9f",
+      "ts": "2026-08-19T11:18:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2141135",
+      "entity_name": "전남광주통합특별시 남구 야생동물에 의한 피해 보상 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2141135&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "50584ec825fe4489ad5c98809c7acb12",
+      "ts": "2026-08-19T11:18:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2140969",
+      "entity_name": "전남광주통합특별시 남구 동물 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2140969&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ae697af9f3fc4a0f9548f246cfb5b1bc",
+      "ts": "2026-08-19T11:09:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2141657",
+      "entity_name": "전남광주통합특별시 남구 중증장애인 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2141657&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "04132f533d604516ae6949d6fb9a3c17",
+      "ts": "2026-08-19T11:06:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2140909",
+      "entity_name": "전남광주통합특별시 남구 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2140909&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "53e4759aef25489ca326902f097ff537",
+      "ts": "2026-08-19T11:03:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2141387",
+      "entity_name": "전남광주통합특별시 남구 위기 임신 및 보호출산 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2141387&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ca93f88fbccb4a729ca53da185845844",
+      "ts": "2026-08-19T11:03:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2141805",
+      "entity_name": "전남광주통합특별시 남구 여성장애인 임신ㆍ출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2141805&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4706fbedb99c421a981d739f3c65ef4a",
+      "ts": "2026-08-19T10:58:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2140741",
+      "entity_name": "전남광주통합특별시 남구 출산장려 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2140741&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bc80d95cc27743638064ae36c89b773f",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12270",
+      "entity_name": "남구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

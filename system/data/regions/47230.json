@@ -1,0 +1,136 @@
+{
+  "sig_cd": "47230",
+  "region_id": "47230",
+  "name": "영천시",
+  "full_name": "경상북도 영천시",
+  "level": 2,
+  "status": "active",
+  "population": 93847,
+  "ordinance_kinds": {
+    "규칙": 103,
+    "조례": 422
+  },
+  "ordinance_total": 525,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 197
+    },
+    {
+      "code": "C02",
+      "count": 161
+    },
+    {
+      "code": "C11",
+      "count": 82
+    },
+    {
+      "code": "C03",
+      "count": 72
+    },
+    {
+      "code": "C05",
+      "count": 60
+    },
+    {
+      "code": "C09",
+      "count": 59
+    },
+    {
+      "code": "C08",
+      "count": 53
+    },
+    {
+      "code": "C13",
+      "count": 50
+    },
+    {
+      "code": "C07",
+      "count": 48
+    },
+    {
+      "code": "C06",
+      "count": 47
+    },
+    {
+      "code": "C12",
+      "count": 46
+    },
+    {
+      "code": "C10",
+      "count": 32
+    }
+  ],
+  "budget": {
+    "lines": 4014,
+    "exe_amt": 1774328161788,
+    "budget_now": 3066333210513
+  },
+  "recent_changes": [
+    {
+      "change_id": "bd51a49afab24415911522fb9a2f3b68",
+      "ts": "2026-08-19T15:17:48+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4717000|fyr:2025",
+      "entity_name": "4717000 2025 세출(2046건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "34d986e639b1416a80867573bf761e14",
+      "ts": "2026-08-19T14:33:16+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4717000|fyr:2026",
+      "entity_name": "4717000 2026 세출(1968건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "66fa9f8b8e804df3b2ced1f872e0c8a6",
+      "ts": "2026-08-19T11:17:09+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1203074",
+      "entity_name": "영천시 유해야생동물에 의한 농작물피해 보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1203074&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e2139bbe03f044f598c70e58c6525ab8",
+      "ts": "2026-08-19T11:17:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1696109",
+      "entity_name": "영천시 야생동물에 의한 피해지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1696109&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3c45a27f723b4978a48435deb3131c98",
+      "ts": "2026-08-19T11:09:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1986283",
+      "entity_name": "영천시 반려동물 및 유실·유기동물의 보호와 학대방지조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1986283&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "71aee90f06d54458ba5f5effa92cdac3",
+      "ts": "2026-08-19T10:56:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1930577",
+      "entity_name": "영천시 출산·양육 장려금 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1930577&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1ad3274f96444803a24c0f7c6f217a9d",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47230",
+      "entity_name": "영천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

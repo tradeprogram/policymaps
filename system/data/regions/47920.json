@@ -1,0 +1,136 @@
+{
+  "sig_cd": "47920",
+  "region_id": "47920",
+  "name": "봉화군",
+  "full_name": "경상북도 봉화군",
+  "level": 2,
+  "status": "active",
+  "population": 28076,
+  "ordinance_kinds": {
+    "규칙": 104,
+    "조례": 389
+  },
+  "ordinance_total": 493,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 198
+    },
+    {
+      "code": "C02",
+      "count": 161
+    },
+    {
+      "code": "C03",
+      "count": 74
+    },
+    {
+      "code": "C11",
+      "count": 64
+    },
+    {
+      "code": "C08",
+      "count": 60
+    },
+    {
+      "code": "C12",
+      "count": 59
+    },
+    {
+      "code": "C09",
+      "count": 49
+    },
+    {
+      "code": "C06",
+      "count": 49
+    },
+    {
+      "code": "C13",
+      "count": 43
+    },
+    {
+      "code": "C05",
+      "count": 41
+    },
+    {
+      "code": "C07",
+      "count": 36
+    },
+    {
+      "code": "C10",
+      "count": 24
+    }
+  ],
+  "budget": {
+    "lines": 2758,
+    "exe_amt": 1251323501195,
+    "budget_now": 1875132251142
+  },
+  "recent_changes": [
+    {
+      "change_id": "1ca466a57cd7475fbcf19dba9b0ddaff",
+      "ts": "2026-08-19T15:20:46+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4781000|fyr:2025",
+      "entity_name": "4781000 2025 세출(1394건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d38b4c4458c3489fa37239c058e2ffc6",
+      "ts": "2026-08-19T14:34:38+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4781000|fyr:2026",
+      "entity_name": "4781000 2026 세출(1364건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "9110ca4aac2043cfb520cc2971b77fc2",
+      "ts": "2026-08-19T11:14:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1978033",
+      "entity_name": "봉화군 야생동물로 인한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1978033&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "268357d3ed364de8a716407b669672c8",
+      "ts": "2026-08-19T11:07:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1516597",
+      "entity_name": "봉화군 반려동물 보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1516597&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bad42355a0974c489f350dde351267b4",
+      "ts": "2026-08-19T11:00:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2093771",
+      "entity_name": "봉화군 출산육아지원금 지원조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2093771&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "271bda35acbd42928b8014289779cf23",
+      "ts": "2026-08-19T11:00:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1802493",
+      "entity_name": "봉화군 저출생·고령사회정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1802493&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2383cffc6860474798c8526c36c5d9d3",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47920",
+      "entity_name": "봉화군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

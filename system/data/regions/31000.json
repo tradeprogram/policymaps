@@ -1,0 +1,163 @@
+{
+  "sig_cd": "31000",
+  "region_id": "31",
+  "name": "울산광역시",
+  "full_name": "울산광역시",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 126,
+    "조례": 807
+  },
+  "ordinance_total": 933,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 278
+    },
+    {
+      "code": "C02",
+      "count": 236
+    },
+    {
+      "code": "C11",
+      "count": 225
+    },
+    {
+      "code": "C08",
+      "count": 148
+    },
+    {
+      "code": "C03",
+      "count": 125
+    },
+    {
+      "code": "C13",
+      "count": 122
+    },
+    {
+      "code": "C07",
+      "count": 111
+    },
+    {
+      "code": "C09",
+      "count": 98
+    },
+    {
+      "code": "C05",
+      "count": 95
+    },
+    {
+      "code": "C06",
+      "count": 76
+    },
+    {
+      "code": "C10",
+      "count": 66
+    },
+    {
+      "code": "C12",
+      "count": 52
+    }
+  ],
+  "budget": {
+    "lines": 4353,
+    "exe_amt": 9948894291592,
+    "budget_now": 13580768007076
+  },
+  "recent_changes": [
+    {
+      "change_id": "cebed00138554b9e8cd00ecd74a78268",
+      "ts": "2026-08-19T11:17:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1514645",
+      "entity_name": "울산광역시 유해야생동물 피해 예방 및 보상 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1514645&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fc24f7251b1f4e248368fe85761e4212",
+      "ts": "2026-08-19T11:12:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1966461",
+      "entity_name": "울산광역시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1966461&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8b25e54fe5b74366a37ceb208481a8b0",
+      "ts": "2026-08-19T11:11:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1575163",
+      "entity_name": "울산광역시 반려동물 문화센터 설치 및 운영 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1575163&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "00fa5eaeb1ac4511ac38fd6a95a85338",
+      "ts": "2026-08-19T11:09:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2081553",
+      "entity_name": "울산광역시 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2081553&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4f5cef7968cb4a119badabfed5b25205",
+      "ts": "2026-08-19T11:09:16+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1322405",
+      "entity_name": "울산광역시 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1322405&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e51aec010fe640ab9ed2679bbdc11d83",
+      "ts": "2026-08-19T11:09:15+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2134069",
+      "entity_name": "울산광역시 반려동물 문화센터 설치 및 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2134069&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1555a1e8b5e8496bb61078e38a6d5c69",
+      "ts": "2026-08-19T11:02:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2090145",
+      "entity_name": "울산광역시 저출생대책 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2090145&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4836d9ffe13346a6a9f3315a6dcfa2bd",
+      "ts": "2026-08-19T11:02:35+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1841739",
+      "entity_name": "울산광역시 장애인가정 임신ㆍ출산ㆍ양육 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1841739&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e9511dffdfe245a38d59a592174dcc57",
+      "ts": "2026-08-19T11:02:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2034739",
+      "entity_name": "울산광역시 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2034739&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0be978bef2b446debcdb48dc4a17b044",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "31",
+      "entity_name": "울산광역시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

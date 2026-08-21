@@ -1,0 +1,163 @@
+{
+  "sig_cd": "30200",
+  "region_id": "30200",
+  "name": "유성구",
+  "full_name": "대전광역시 유성구",
+  "level": 2,
+  "status": "active",
+  "population": 371855,
+  "ordinance_kinds": {
+    "규칙": 83,
+    "조례": 492
+  },
+  "ordinance_total": 575,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 214
+    },
+    {
+      "code": "C02",
+      "count": 156
+    },
+    {
+      "code": "C03",
+      "count": 113
+    },
+    {
+      "code": "C11",
+      "count": 82
+    },
+    {
+      "code": "C05",
+      "count": 79
+    },
+    {
+      "code": "C08",
+      "count": 72
+    },
+    {
+      "code": "C06",
+      "count": 70
+    },
+    {
+      "code": "C13",
+      "count": 64
+    },
+    {
+      "code": "C07",
+      "count": 60
+    },
+    {
+      "code": "C09",
+      "count": 42
+    },
+    {
+      "code": "C10",
+      "count": 29
+    },
+    {
+      "code": "C12",
+      "count": 17
+    }
+  ],
+  "budget": {
+    "lines": 3118,
+    "exe_amt": 1534241902975,
+    "budget_now": 2156502102630
+  },
+  "recent_changes": [
+    {
+      "change_id": "d7d47f8bed5349ff82e05b43e5158059",
+      "ts": "2026-08-19T14:46:49+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3014000|fyr:2025",
+      "entity_name": "3014000 2025 세출(1617건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fa199902cfe94adabec0a73c749656fa",
+      "ts": "2026-08-19T14:18:15+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3014000|fyr:2026",
+      "entity_name": "3014000 2026 세출(1501건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4f8235dff0d94b2fb398c41e018e6f1b",
+      "ts": "2026-08-19T11:14:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1749619",
+      "entity_name": "대전광역시 유성구 야생동물에 의한 피해 및 피해예방시설 등에 관한 지원조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1749619&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d37f94692a384007aa8ee246d5b84fcd",
+      "ts": "2026-08-19T11:07:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1942299",
+      "entity_name": "대전광역시 유성구 사회적 약자 반려동물 의료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942299&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "aeb0019e7dab48fc9e8861e22cd58b19",
+      "ts": "2026-08-19T11:07:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2118525",
+      "entity_name": "대전광역시 유성구 반려동물 놀이터 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2118525&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "e3b2070ac16f49268823b502b0a3bf3f",
+      "ts": "2026-08-19T11:07:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1942297",
+      "entity_name": "대전광역시 유성구 반려동물과 유기동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942297&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d21aa8d268084645b1dc6819696e4868",
+      "ts": "2026-08-19T11:00:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2056577",
+      "entity_name": "대전광역시 유성구 출산양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2056577&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d1c9cba69bcd48e2852e0a2ee920c49c",
+      "ts": "2026-08-19T11:00:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1574055",
+      "entity_name": "대전광역시 유성구 장애인가정 출산지원금 지급에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1574055&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2412e58c90704e3fb1a7c4918e3e1527",
+      "ts": "2026-08-19T11:00:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2094429",
+      "entity_name": "대전광역시 유성구 위기 임신 및 보호출산 지원과 아동 보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2094429&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "0ee94e99c8d2452e85660f8faf6e6758",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "30200",
+      "entity_name": "유성구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

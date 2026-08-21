@@ -1,0 +1,145 @@
+{
+  "sig_cd": "30000",
+  "region_id": "30",
+  "name": "대전광역시",
+  "full_name": "대전광역시",
+  "level": 1,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {
+    "규칙": 126,
+    "조례": 800
+  },
+  "ordinance_total": 926,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 305
+    },
+    {
+      "code": "C02",
+      "count": 240
+    },
+    {
+      "code": "C11",
+      "count": 181
+    },
+    {
+      "code": "C03",
+      "count": 146
+    },
+    {
+      "code": "C09",
+      "count": 137
+    },
+    {
+      "code": "C08",
+      "count": 122
+    },
+    {
+      "code": "C13",
+      "count": 117
+    },
+    {
+      "code": "C05",
+      "count": 116
+    },
+    {
+      "code": "C07",
+      "count": 95
+    },
+    {
+      "code": "C06",
+      "count": 81
+    },
+    {
+      "code": "C10",
+      "count": 73
+    },
+    {
+      "code": "C12",
+      "count": 25
+    }
+  ],
+  "budget": {
+    "lines": 5686,
+    "exe_amt": 12885662840988,
+    "budget_now": 16644654495546
+  },
+  "recent_changes": [
+    {
+      "change_id": "ad02ee744bc746fca982b3e3bdb4dbc9",
+      "ts": "2026-08-19T11:14:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1972115",
+      "entity_name": "대전광역시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1972115&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "00e5b52ed0ae4173ba09f6ee18365b08",
+      "ts": "2026-08-19T11:11:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2079317",
+      "entity_name": "대전광역시 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079317&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "24ef829432a14c3cad9baa2b00f36fe9",
+      "ts": "2026-08-19T11:07:33+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2019495",
+      "entity_name": "대전광역시 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2019495&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7e1b2e32bea747428eca5e93bf131476",
+      "ts": "2026-08-19T11:07:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1907685",
+      "entity_name": "대전광역시 반려동물 보호 및 문화조성 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1907685&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "11d1eb08a1f14faba545a2f16a87d44d",
+      "ts": "2026-08-19T11:07:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1907653",
+      "entity_name": "대전광역시 반려동물공원 및 동물보호센터 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1907653&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ac470e609d5d438098b125bb53c917c7",
+      "ts": "2026-08-19T11:00:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2110241",
+      "entity_name": "대전광역시 장애인가정 임신·출산·양육 지원조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2110241&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5191b929e6be47c6878f889ab1436fee",
+      "ts": "2026-08-19T10:57:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2000997",
+      "entity_name": "대전광역시 출산장려 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000997&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "20b64eff56ef4b839956b9cbc64adcff",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "30",
+      "entity_name": "대전광역시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

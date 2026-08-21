@@ -1,0 +1,109 @@
+{
+  "sig_cd": "12730",
+  "region_id": "12730",
+  "name": "구례군",
+  "full_name": "전남광주통합특별시 구례군",
+  "level": 2,
+  "status": "active",
+  "population": 24576,
+  "ordinance_kinds": {
+    "규칙": 87,
+    "조례": 419
+  },
+  "ordinance_total": 506,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 213
+    },
+    {
+      "code": "C02",
+      "count": 141
+    },
+    {
+      "code": "C03",
+      "count": 72
+    },
+    {
+      "code": "C11",
+      "count": 65
+    },
+    {
+      "code": "C13",
+      "count": 64
+    },
+    {
+      "code": "C08",
+      "count": 59
+    },
+    {
+      "code": "C05",
+      "count": 48
+    },
+    {
+      "code": "C12",
+      "count": 47
+    },
+    {
+      "code": "C06",
+      "count": 42
+    },
+    {
+      "code": "C09",
+      "count": 40
+    },
+    {
+      "code": "C07",
+      "count": 36
+    },
+    {
+      "code": "C10",
+      "count": 27
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "367c524d454941239b251e98515c1cce",
+      "ts": "2026-08-19T11:13:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1471439",
+      "entity_name": "구례군 야생동물에 의한 농작물 등 피해보상금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1471439&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2d6d95ae756f49bab18547846af5334e",
+      "ts": "2026-08-19T11:11:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1901625",
+      "entity_name": "구례군 유기동물 보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1901625&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ce235584ceec4bd78390fc451af1897b",
+      "ts": "2026-08-19T10:57:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2084425",
+      "entity_name": "구례군 임신ㆍ출산 및 양육 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2084425&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3bcebfcae5df42bdafd194a4fadc93de",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12730",
+      "entity_name": "구례군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

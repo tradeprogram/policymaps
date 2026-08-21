@@ -1,0 +1,118 @@
+{
+  "sig_cd": "43760",
+  "region_id": "43760",
+  "name": "괴산군",
+  "full_name": "충청북도 괴산군",
+  "level": 2,
+  "status": "active",
+  "population": 37267,
+  "ordinance_kinds": {
+    "규칙": 79,
+    "조례": 495
+  },
+  "ordinance_total": 574,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 210
+    },
+    {
+      "code": "C02",
+      "count": 160
+    },
+    {
+      "code": "C03",
+      "count": 86
+    },
+    {
+      "code": "C11",
+      "count": 82
+    },
+    {
+      "code": "C12",
+      "count": 72
+    },
+    {
+      "code": "C08",
+      "count": 64
+    },
+    {
+      "code": "C05",
+      "count": 60
+    },
+    {
+      "code": "C13",
+      "count": 59
+    },
+    {
+      "code": "C09",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 55
+    },
+    {
+      "code": "C06",
+      "count": 52
+    },
+    {
+      "code": "C10",
+      "count": 34
+    }
+  ],
+  "budget": {
+    "lines": 3985,
+    "exe_amt": 1251634202950,
+    "budget_now": 1889959327430
+  },
+  "recent_changes": [
+    {
+      "change_id": "4fb52eee4bfb48cc81675d5f0bd43354",
+      "ts": "2026-08-19T14:58:55+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4376000|fyr:2025",
+      "entity_name": "4376000 2025 세출(2029건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d802e777471646a7b45089f4e432ad38",
+      "ts": "2026-08-19T14:24:05+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4376000|fyr:2026",
+      "entity_name": "4376000 2026 세출(1956건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "900a7a7572374f519dcc4f7b09b88a4e",
+      "ts": "2026-08-19T11:13:12+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1304338",
+      "entity_name": "괴산군 야생동물에 의한 피해 예방 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1304338&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ff43503c13954cfa88660741c87aa85e",
+      "ts": "2026-08-19T10:59:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2097811",
+      "entity_name": "괴산군 임신ㆍ출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2097811&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5740b1489d3e4cbfaa94e76db3e77e7c",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43760",
+      "entity_name": "괴산군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

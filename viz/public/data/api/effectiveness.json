@@ -1,0 +1,626 @@
+{
+  "_mock": true,
+  "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
+  "_mock_generator": "viz/mock/generate_mock.py",
+  "data": {
+    "link_count": 30,
+    "budget_lines": 30,
+    "fyr_filter": null,
+    "min_confidence": 0.0,
+    "totals": {
+      "alloc_amt": 63158000000,
+      "budget_now": 73522825766,
+      "exe_amt": 52792724159,
+      "exec_rate_vs_now": 0.718,
+      "exec_rate_vs_alloc": 0.8359
+    },
+    "by_fiscal_year": [
+      {
+        "fyr": 2023,
+        "lines": 13,
+        "alloc_amt": 26775000000,
+        "budget_now": 30289629622,
+        "exe_amt": 21667506740,
+        "exe_ymd": "20231231",
+        "exec_rate_vs_now": 0.7153,
+        "exec_rate_vs_alloc": 0.8092
+      },
+      {
+        "fyr": 2024,
+        "lines": 6,
+        "alloc_amt": 11676000000,
+        "budget_now": 14269394500,
+        "exe_amt": 10303662952,
+        "exe_ymd": "20241231",
+        "exec_rate_vs_now": 0.7221,
+        "exec_rate_vs_alloc": 0.8825
+      },
+      {
+        "fyr": 2025,
+        "lines": 11,
+        "alloc_amt": 24707000000,
+        "budget_now": 28963801644,
+        "exe_amt": 20821554467,
+        "exe_ymd": "20251231",
+        "exec_rate_vs_now": 0.7189,
+        "exec_rate_vs_alloc": 0.8427
+      }
+    ],
+    "by_ordinance": [
+      {
+        "ordinance_id": "ordin:2567694",
+        "lines": 6,
+        "alloc_amt": 16684000000,
+        "budget_now": 19552860102,
+        "exe_amt": 13925272967,
+        "verified_links": 0,
+        "auto_links": 6,
+        "methods": {
+          "noun-overlap": 3,
+          "field-gate": 2,
+          "dept-weighted": 1
+        },
+        "programs": [
+          {
+            "budget_id": "bud:11110:2025:5487",
+            "fyr": 2025,
+            "dbiz_nm": "다자녀 가정 지원 사업",
+            "field": "문화및관광",
+            "alloc_amt": 3328000000,
+            "budget_now": 3760913379,
+            "exe_amt": 3260245417,
+            "exec_rate": 0.8669,
+            "confidence": 0.4795,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2023:9833",
+            "fyr": 2023,
+            "dbiz_nm": "다자녀 가정 지원 사업",
+            "field": "환경",
+            "alloc_amt": 2352000000,
+            "budget_now": 2450129725,
+            "exe_amt": 1103622287,
+            "exec_rate": 0.4504,
+            "confidence": 0.8916,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2024:5830",
+            "fyr": 2024,
+            "dbiz_nm": "다자녀 가정 지원 사업",
+            "field": "문화및관광",
+            "alloc_amt": 3678000000,
+            "budget_now": 4751162207,
+            "exe_amt": 4182243967,
+            "exec_rate": 0.8803,
+            "confidence": 0.8182,
+            "match_method": "field-gate",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2025:6473",
+            "fyr": 2025,
+            "dbiz_nm": "다자녀 가정 지원 사업",
+            "field": "문화및관광",
+            "alloc_amt": 3825000000,
+            "budget_now": 4170814461,
+            "exe_amt": 3316297981,
+            "exec_rate": 0.7951,
+            "confidence": 0.5452,
+            "match_method": "field-gate",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2025:2367",
+            "fyr": 2025,
+            "dbiz_nm": "다자녀 가정 지원 사업",
+            "field": "산업·중소기업및에너지",
+            "alloc_amt": 280000000,
+            "budget_now": 299334481,
+            "exe_amt": 173997204,
+            "exec_rate": 0.5813,
+            "confidence": 0.7136,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2023:8186",
+            "fyr": 2023,
+            "dbiz_nm": "다자녀 가정 지원 사업",
+            "field": "일반공공행정",
+            "alloc_amt": 3221000000,
+            "budget_now": 4120505849,
+            "exe_amt": 1888866111,
+            "exec_rate": 0.4584,
+            "confidence": 0.6103,
+            "match_method": "dept-weighted",
+            "verified": false
+          }
+        ],
+        "exec_rate_vs_now": 0.7122,
+        "exec_rate_vs_alloc": 0.8346,
+        "name": "서울특별시 종로구 다자녀 가정 지원에 관한 규칙",
+        "region_id": "11110",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2567694&type=HTML&mobileYn=",
+        "verification_status": "source-linked",
+        "status": "active"
+      },
+      {
+        "ordinance_id": "ordin:2731465",
+        "lines": 6,
+        "alloc_amt": 13330000000,
+        "budget_now": 15751124223,
+        "exe_amt": 10418392223,
+        "verified_links": 0,
+        "auto_links": 6,
+        "methods": {
+          "noun-overlap": 2,
+          "dept-weighted": 3,
+          "field-gate": 1
+        },
+        "programs": [
+          {
+            "budget_id": "bud:11110:2023:8890",
+            "fyr": 2023,
+            "dbiz_nm": "길고양이 급식소 설치 운영 사업",
+            "field": "사회복지",
+            "alloc_amt": 3544000000,
+            "budget_now": 4130684293,
+            "exe_amt": 3134665623,
+            "exec_rate": 0.7589,
+            "confidence": 0.8789,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2025:5468",
+            "fyr": 2025,
+            "dbiz_nm": "길고양이 급식소 설치 운영 사업",
+            "field": "일반공공행정",
+            "alloc_amt": 2942000000,
+            "budget_now": 3415414884,
+            "exe_amt": 2522273416,
+            "exec_rate": 0.7385,
+            "confidence": 0.7171,
+            "match_method": "dept-weighted",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2025:6256",
+            "fyr": 2025,
+            "dbiz_nm": "길고양이 급식소 설치 운영 사업",
+            "field": "산업·중소기업및에너지",
+            "alloc_amt": 2525000000,
+            "budget_now": 2529994674,
+            "exe_amt": 1208317125,
+            "exec_rate": 0.4776,
+            "confidence": 0.9329,
+            "match_method": "field-gate",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2024:8444",
+            "fyr": 2024,
+            "dbiz_nm": "길고양이 급식소 설치 운영 사업",
+            "field": "문화및관광",
+            "alloc_amt": 185000000,
+            "budget_now": 198612591,
+            "exe_amt": 169869555,
+            "exec_rate": 0.8553,
+            "confidence": 0.9597,
+            "match_method": "dept-weighted",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2024:6220",
+            "fyr": 2024,
+            "dbiz_nm": "길고양이 급식소 설치 운영 사업",
+            "field": "문화및관광",
+            "alloc_amt": 1153000000,
+            "budget_now": 1527075380,
+            "exe_amt": 1050090264,
+            "exec_rate": 0.6876,
+            "confidence": 0.474,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2025:8643",
+            "fyr": 2025,
+            "dbiz_nm": "길고양이 급식소 설치 운영 사업",
+            "field": "문화및관광",
+            "alloc_amt": 2981000000,
+            "budget_now": 3949342401,
+            "exe_amt": 2333176240,
+            "exec_rate": 0.5908,
+            "confidence": 0.7943,
+            "match_method": "dept-weighted",
+            "verified": false
+          }
+        ],
+        "exec_rate_vs_now": 0.6614,
+        "exec_rate_vs_alloc": 0.7816,
+        "name": "서울특별시 종로구 길고양이 급식소 설치 운영에 관한 조례",
+        "region_id": "11110",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2731465&type=HTML&mobileYn=",
+        "verification_status": "source-linked",
+        "status": "active"
+      },
+      {
+        "ordinance_id": "ordin:4020835",
+        "lines": 4,
+        "alloc_amt": 9980000000,
+        "budget_now": 11616842910,
+        "exe_amt": 9510969066,
+        "verified_links": 0,
+        "auto_links": 4,
+        "methods": {
+          "field-gate": 1,
+          "noun-overlap": 2,
+          "dept-weighted": 1
+        },
+        "programs": [
+          {
+            "budget_id": "bud:11110:2025:7961",
+            "fyr": 2025,
+            "dbiz_nm": "소상공인 육성 지원 사업",
+            "field": "산업·중소기업및에너지",
+            "alloc_amt": 913000000,
+            "budget_now": 1146430361,
+            "exe_amt": 1060527040,
+            "exec_rate": 0.9251,
+            "confidence": 0.5578,
+            "match_method": "field-gate",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2023:2063",
+            "fyr": 2023,
+            "dbiz_nm": "소상공인 육성 지원 사업",
+            "field": "일반공공행정",
+            "alloc_amt": 3145000000,
+            "budget_now": 3406768325,
+            "exe_amt": 3131034146,
+            "exec_rate": 0.9191,
+            "confidence": 0.8327,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2024:5513",
+            "fyr": 2024,
+            "dbiz_nm": "소상공인 육성 지원 사업",
+            "field": "일반공공행정",
+            "alloc_amt": 2586000000,
+            "budget_now": 2572632080,
+            "exe_amt": 2214471793,
+            "exec_rate": 0.8608,
+            "confidence": 0.4635,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2025:5782",
+            "fyr": 2025,
+            "dbiz_nm": "소상공인 육성 지원 사업",
+            "field": "사회복지",
+            "alloc_amt": 3336000000,
+            "budget_now": 4491012144,
+            "exe_amt": 3104936087,
+            "exec_rate": 0.6914,
+            "confidence": 0.4544,
+            "match_method": "dept-weighted",
+            "verified": false
+          }
+        ],
+        "exec_rate_vs_now": 0.8187,
+        "exec_rate_vs_alloc": 0.953,
+        "name": "서울특별시 종로구 소상공인 육성 지원에 관한 조례",
+        "region_id": "11110",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=4020835&type=HTML&mobileYn=",
+        "verification_status": "source-linked",
+        "status": "active"
+      },
+      {
+        "ordinance_id": "ordin:2282212",
+        "lines": 6,
+        "alloc_amt": 10267000000,
+        "budget_now": 11305832911,
+        "exe_amt": 8278834998,
+        "verified_links": 0,
+        "auto_links": 6,
+        "methods": {
+          "field-gate": 4,
+          "dept-weighted": 1,
+          "noun-overlap": 1
+        },
+        "programs": [
+          {
+            "budget_id": "bud:11110:2023:2068",
+            "fyr": 2023,
+            "dbiz_nm": "교통약자 이동편의 증진 사업",
+            "field": "일반공공행정",
+            "alloc_amt": 3286000000,
+            "budget_now": 3196962916,
+            "exe_amt": 2989561761,
+            "exec_rate": 0.9351,
+            "confidence": 0.6422,
+            "match_method": "field-gate",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2023:7619",
+            "fyr": 2023,
+            "dbiz_nm": "교통약자 이동편의 증진 사업",
+            "field": "문화및관광",
+            "alloc_amt": 637000000,
+            "budget_now": 690760622,
+            "exe_amt": 679594098,
+            "exec_rate": 0.9838,
+            "confidence": 0.7224,
+            "match_method": "dept-weighted",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2023:7361",
+            "fyr": 2023,
+            "dbiz_nm": "교통약자 이동편의 증진 사업",
+            "field": "문화및관광",
+            "alloc_amt": 641000000,
+            "budget_now": 629312025,
+            "exe_amt": 381406079,
+            "exec_rate": 0.6061,
+            "confidence": 0.586,
+            "match_method": "field-gate",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2025:3440",
+            "fyr": 2025,
+            "dbiz_nm": "교통약자 이동편의 증진 사업",
+            "field": "문화및관광",
+            "alloc_amt": 1345000000,
+            "budget_now": 1484394476,
+            "exe_amt": 1307046739,
+            "exec_rate": 0.8805,
+            "confidence": 0.7363,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2023:3156",
+            "fyr": 2023,
+            "dbiz_nm": "교통약자 이동편의 증진 사업",
+            "field": "일반공공행정",
+            "alloc_amt": 2238000000,
+            "budget_now": 2969434561,
+            "exe_amt": 2083430323,
+            "exec_rate": 0.7016,
+            "confidence": 0.751,
+            "match_method": "field-gate",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2023:4590",
+            "fyr": 2023,
+            "dbiz_nm": "교통약자 이동편의 증진 사업",
+            "field": "일반공공행정",
+            "alloc_amt": 2120000000,
+            "budget_now": 2334968311,
+            "exe_amt": 837795998,
+            "exec_rate": 0.3588,
+            "confidence": 0.9471,
+            "match_method": "field-gate",
+            "verified": false
+          }
+        ],
+        "exec_rate_vs_now": 0.7323,
+        "exec_rate_vs_alloc": 0.8064,
+        "name": "서울특별시 종로구 교통약자 이동편의 증진에 관한 조례",
+        "region_id": "11110",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2282212&type=HTML&mobileYn=",
+        "verification_status": "source-linked",
+        "status": "active"
+      },
+      {
+        "ordinance_id": "ordin:2936763",
+        "lines": 4,
+        "alloc_amt": 8359000000,
+        "budget_now": 10280072177,
+        "exe_amt": 6616130326,
+        "verified_links": 0,
+        "auto_links": 4,
+        "methods": {
+          "noun-overlap": 4
+        },
+        "programs": [
+          {
+            "budget_id": "bud:11110:2023:6247",
+            "fyr": 2023,
+            "dbiz_nm": "전통시장 활성화 지원 사업",
+            "field": "사회복지",
+            "alloc_amt": 617000000,
+            "budget_now": 767209268,
+            "exe_amt": 316104491,
+            "exec_rate": 0.412,
+            "confidence": 0.9523,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2024:4733",
+            "fyr": 2024,
+            "dbiz_nm": "전통시장 활성화 지원 사업",
+            "field": "사회복지",
+            "alloc_amt": 3269000000,
+            "budget_now": 4201361052,
+            "exe_amt": 1769159940,
+            "exec_rate": 0.4211,
+            "confidence": 0.4925,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2023:9600",
+            "fyr": 2023,
+            "dbiz_nm": "전통시장 활성화 지원 사업",
+            "field": "문화및관광",
+            "alloc_amt": 2428000000,
+            "budget_now": 3138728309,
+            "exe_amt": 2845605587,
+            "exec_rate": 0.9066,
+            "confidence": 0.6415,
+            "match_method": "noun-overlap",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2025:5276",
+            "fyr": 2025,
+            "dbiz_nm": "전통시장 활성화 지원 사업",
+            "field": "산업·중소기업및에너지",
+            "alloc_amt": 2045000000,
+            "budget_now": 2172773548,
+            "exe_amt": 1685260308,
+            "exec_rate": 0.7756,
+            "confidence": 0.833,
+            "match_method": "noun-overlap",
+            "verified": false
+          }
+        ],
+        "exec_rate_vs_now": 0.6436,
+        "exec_rate_vs_alloc": 0.7915,
+        "name": "서울특별시 종로구 전통시장 활성화 지원에 관한 조례",
+        "region_id": "11110",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=2936763&type=HTML&mobileYn=",
+        "verification_status": "source-linked",
+        "status": "active"
+      },
+      {
+        "ordinance_id": "ordin:3510715",
+        "lines": 2,
+        "alloc_amt": 3644000000,
+        "budget_now": 3891253257,
+        "exe_amt": 3027981486,
+        "verified_links": 1,
+        "auto_links": 1,
+        "methods": {
+          "dept-weighted": 1,
+          "field-gate": 1
+        },
+        "programs": [
+          {
+            "budget_id": "bud:11110:2023:5139",
+            "fyr": 2023,
+            "dbiz_nm": "재난안전 기금 운용 사업",
+            "field": "사회복지",
+            "alloc_amt": 2457000000,
+            "budget_now": 2347876422,
+            "exe_amt": 2178504576,
+            "exec_rate": 0.9279,
+            "confidence": 0.6033,
+            "match_method": "dept-weighted",
+            "verified": true
+          },
+          {
+            "budget_id": "bud:11110:2025:4417",
+            "fyr": 2025,
+            "dbiz_nm": "재난안전 기금 운용 사업",
+            "field": "산업·중소기업및에너지",
+            "alloc_amt": 1187000000,
+            "budget_now": 1543376835,
+            "exe_amt": 849476910,
+            "exec_rate": 0.5504,
+            "confidence": 0.9466,
+            "match_method": "field-gate",
+            "verified": false
+          }
+        ],
+        "exec_rate_vs_now": 0.7782,
+        "exec_rate_vs_alloc": 0.8309,
+        "name": "서울특별시 종로구 재난안전 기금 운용에 관한 조례",
+        "region_id": "11110",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3510715&type=HTML&mobileYn=",
+        "verification_status": "source-linked",
+        "status": "active"
+      },
+      {
+        "ordinance_id": "ordin:3201353",
+        "lines": 2,
+        "alloc_amt": 894000000,
+        "budget_now": 1124840186,
+        "exe_amt": 1015143093,
+        "verified_links": 1,
+        "auto_links": 1,
+        "methods": {
+          "field-gate": 1,
+          "noun-overlap": 1
+        },
+        "programs": [
+          {
+            "budget_id": "bud:11110:2023:6796",
+            "fyr": 2023,
+            "dbiz_nm": "의회 회의 운영 사업",
+            "field": "사회복지",
+            "alloc_amt": 89000000,
+            "budget_now": 106288996,
+            "exe_amt": 97315660,
+            "exec_rate": 0.9156,
+            "confidence": 0.8372,
+            "match_method": "field-gate",
+            "verified": false
+          },
+          {
+            "budget_id": "bud:11110:2024:5229",
+            "fyr": 2024,
+            "dbiz_nm": "의회 회의 운영 사업",
+            "field": "일반공공행정",
+            "alloc_amt": 805000000,
+            "budget_now": 1018551190,
+            "exe_amt": 917827433,
+            "exec_rate": 0.9011,
+            "confidence": 0.5887,
+            "match_method": "noun-overlap",
+            "verified": true
+          }
+        ],
+        "exec_rate_vs_now": 0.9025,
+        "exec_rate_vs_alloc": 1.1355,
+        "name": "서울특별시 종로구 의회 회의 운영에 관한 조례",
+        "region_id": "11110",
+        "official_url": "https://www.law.go.kr/DRF/lawService.do?OC=MOCK&target=ordin&MST=3201353&type=HTML&mobileYn=",
+        "verification_status": "source-linked",
+        "status": "active"
+      }
+    ],
+    "verification": {
+      "verified_links": 2,
+      "auto_links": 28,
+      "status": "partially-verified",
+      "note": "조례↔예산 링크는 도메인명사 교집합·분야게이트·부서가중 3채널 자동매칭 결과다(graph.analysis.link_ordinance_budget). verified=0 링크는 수작업 검증을 거치지 않았으므로 집행률은 참고치다."
+    },
+    "caveat": "집행률은 링크된 세부사업의 지출액/예산액 비율이며 조례의 정책효과가 아니다. 회계연도 진행 중(당해년도) 스냅샷은 낮게 나오는 것이 정상이다.",
+    "_engine": "sql:ordinance_budget_link⋈budget_lines",
+    "scope": {
+      "mode": "region",
+      "region_id": "11110",
+      "sig_cd": "11110",
+      "name": "서울특별시 종로구",
+      "linked_ordinances": 7
+    },
+    "region_budget_baseline": {
+      "fyr": 2025,
+      "lines": 3286,
+      "alloc_amt": 341652425650,
+      "budget_now": 382650716728,
+      "exe_amt": 208407979646,
+      "exec_rate_vs_now": 0.5446
+    }
+  },
+  "as_of_date": "2026-08-21",
+  "stale": false,
+  "execution_allowed": false,
+  "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오."
+}

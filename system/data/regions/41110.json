@@ -1,0 +1,163 @@
+{
+  "sig_cd": "41110",
+  "region_id": "41110",
+  "name": "수원시",
+  "full_name": "경기도 수원시",
+  "level": 2,
+  "status": "active",
+  "population": 1185332,
+  "ordinance_kinds": {
+    "규칙": 161,
+    "조례": 706
+  },
+  "ordinance_total": 867,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 284
+    },
+    {
+      "code": "C02",
+      "count": 234
+    },
+    {
+      "code": "C11",
+      "count": 148
+    },
+    {
+      "code": "C03",
+      "count": 143
+    },
+    {
+      "code": "C09",
+      "count": 117
+    },
+    {
+      "code": "C08",
+      "count": 107
+    },
+    {
+      "code": "C05",
+      "count": 104
+    },
+    {
+      "code": "C13",
+      "count": 102
+    },
+    {
+      "code": "C07",
+      "count": 94
+    },
+    {
+      "code": "C06",
+      "count": 90
+    },
+    {
+      "code": "C10",
+      "count": 68
+    },
+    {
+      "code": "C12",
+      "count": 27
+    }
+  ],
+  "budget": {
+    "lines": 6747,
+    "exe_amt": 6694762157207,
+    "budget_now": 8750276857762
+  },
+  "recent_changes": [
+    {
+      "change_id": "433dd4be4739466db36071d6783adf4f",
+      "ts": "2026-08-19T14:48:44+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4111000|fyr:2025",
+      "entity_name": "4111000 2025 세출(3398건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "168ea723a0304d41bb607bc82ec1ab00",
+      "ts": "2026-08-19T14:18:40+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4111000|fyr:2026",
+      "entity_name": "4111000 2026 세출(3349건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "ceebbc773d084aa5bf62d72e376bd3aa",
+      "ts": "2026-08-19T11:16:19+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2020377",
+      "entity_name": "수원시 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2020377&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5ee4b2d6e80b4fa99009f98d2c923c33",
+      "ts": "2026-08-19T11:11:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2102131",
+      "entity_name": "수원시 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2102131&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a0081ae0defd42639da1e94e26002daf",
+      "ts": "2026-08-19T11:08:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2038711",
+      "entity_name": "수원시 사회적 약자 반려동물 진료비등 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2038711&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3ccfe06c36494653bbb6aa77dc7140ba",
+      "ts": "2026-08-19T11:08:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2038747",
+      "entity_name": "수원시 반려동물 보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2038747&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c9b43e454c334ca3ae9cb49bd5965514",
+      "ts": "2026-08-19T11:04:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1418533",
+      "entity_name": "수원시 장애인가정 출산 지원금 지급 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418533&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cff9409cdd2845cba5fe065e89b7c8e3",
+      "ts": "2026-08-19T11:02:00+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2085383",
+      "entity_name": "수원시 장애인가정 출산 지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2085383&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "527df5a0838d432d800869e16146e414",
+      "ts": "2026-08-19T11:01:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2085387",
+      "entity_name": "수원시 자녀 출산·입양 지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2085387&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "abf566564c2c46519c8fe158ccd2cb89",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41110",
+      "entity_name": "수원시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

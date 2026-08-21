@@ -1,0 +1,136 @@
+{
+  "sig_cd": "41190",
+  "region_id": "41190",
+  "name": "부천시",
+  "full_name": "경기도 부천시",
+  "level": 2,
+  "status": "active",
+  "population": 754851,
+  "ordinance_kinds": {
+    "규칙": 127,
+    "조례": 583
+  },
+  "ordinance_total": 710,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 235
+    },
+    {
+      "code": "C02",
+      "count": 195
+    },
+    {
+      "code": "C03",
+      "count": 128
+    },
+    {
+      "code": "C11",
+      "count": 122
+    },
+    {
+      "code": "C08",
+      "count": 91
+    },
+    {
+      "code": "C09",
+      "count": 87
+    },
+    {
+      "code": "C07",
+      "count": 80
+    },
+    {
+      "code": "C06",
+      "count": 76
+    },
+    {
+      "code": "C13",
+      "count": 75
+    },
+    {
+      "code": "C05",
+      "count": 74
+    },
+    {
+      "code": "C10",
+      "count": 55
+    },
+    {
+      "code": "C04",
+      "count": 15
+    }
+  ],
+  "budget": {
+    "lines": 5656,
+    "exe_amt": 4317446446703,
+    "budget_now": 6162031575074
+  },
+  "recent_changes": [
+    {
+      "change_id": "0d044a8145fb4d65850dac4e27eb6db8",
+      "ts": "2026-08-19T14:49:37+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4115000|fyr:2025",
+      "entity_name": "4115000 2025 세출(2924건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0aab4ab22144483ab34532dd79b69c44",
+      "ts": "2026-08-19T14:18:56+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4115000|fyr:2026",
+      "entity_name": "4115000 2026 세출(2732건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "29026c584e504d6e9acebb0054cf8889",
+      "ts": "2026-08-19T11:14:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1856941",
+      "entity_name": "부천시 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1856941&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "43d63d4e574c499eae9a02603f9bebd9",
+      "ts": "2026-08-19T11:11:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2076191",
+      "entity_name": "부천시 반려견 매너워터에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2076191&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1411812c2a5742149081ea62f106862d",
+      "ts": "2026-08-19T11:04:51+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1824353",
+      "entity_name": "부천시 저출산·고령사회 대응과 지속 발전을 위한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1824353&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "febbd9545ac4431ab43edf13e2a20e80",
+      "ts": "2026-08-19T10:55:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2109241",
+      "entity_name": "부천시 출산지원금 지급 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2109241&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c710125cd0484e489185e1285d8cd611",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41190",
+      "entity_name": "부천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

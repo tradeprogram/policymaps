@@ -1,0 +1,30 @@
+{
+  "sig_cd": "41285",
+  "region_id": "41285",
+  "name": "일산동구",
+  "full_name": "경기도 고양시 일산동구",
+  "level": 3,
+  "status": "active",
+  "population": null,
+  "ordinance_kinds": {},
+  "ordinance_total": 0,
+  "top_categories": [],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "cf524662a8e64dda83f9ec6bcbdfa566",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "41285",
+      "entity_name": "일산동구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,118 @@
+{
+  "sig_cd": "47760",
+  "region_id": "47760",
+  "name": "영양군",
+  "full_name": "경상북도 영양군",
+  "level": 2,
+  "status": "active",
+  "population": 15973,
+  "ordinance_kinds": {
+    "규칙": 94,
+    "조례": 351
+  },
+  "ordinance_total": 445,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 202
+    },
+    {
+      "code": "C02",
+      "count": 136
+    },
+    {
+      "code": "C08",
+      "count": 56
+    },
+    {
+      "code": "C11",
+      "count": 49
+    },
+    {
+      "code": "C03",
+      "count": 49
+    },
+    {
+      "code": "C05",
+      "count": 45
+    },
+    {
+      "code": "C13",
+      "count": 42
+    },
+    {
+      "code": "C09",
+      "count": 41
+    },
+    {
+      "code": "C06",
+      "count": 41
+    },
+    {
+      "code": "C12",
+      "count": 37
+    },
+    {
+      "code": "C07",
+      "count": 34
+    },
+    {
+      "code": "C10",
+      "count": 20
+    }
+  ],
+  "budget": {
+    "lines": 2994,
+    "exe_amt": 812761979225,
+    "budget_now": 1440388617731
+  },
+  "recent_changes": [
+    {
+      "change_id": "68be97fdfefa4471a21b3aaef27f0753",
+      "ts": "2026-08-19T15:18:51+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4774000|fyr:2025",
+      "entity_name": "4774000 2025 세출(1482건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "92934d1ecd334895914890030eeb5fd4",
+      "ts": "2026-08-19T14:33:27+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4774000|fyr:2026",
+      "entity_name": "4774000 2026 세출(1512건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "1a0a1bff733745a583ce75a2a03e5d19",
+      "ts": "2026-08-19T11:17:02+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1528511",
+      "entity_name": "영양군 야생동물에 의한 농작물 등 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1528511&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6c144bbbb46b4f238f3bc2006183fe4a",
+      "ts": "2026-08-19T10:58:08+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2117251",
+      "entity_name": "영양군 출산장려 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2117251&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1ef1c22020f542ffac98db2ed9670d18",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47760",
+      "entity_name": "영양군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

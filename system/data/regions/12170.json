@@ -1,0 +1,136 @@
+{
+  "sig_cd": "12170",
+  "region_id": "12170",
+  "name": "나주시",
+  "full_name": "전남광주통합특별시 나주시",
+  "level": 2,
+  "status": "active",
+  "population": 116699,
+  "ordinance_kinds": {
+    "규칙": 120,
+    "조례": 744
+  },
+  "ordinance_total": 864,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 234
+    },
+    {
+      "code": "C02",
+      "count": 232
+    },
+    {
+      "code": "C11",
+      "count": 172
+    },
+    {
+      "code": "C03",
+      "count": 141
+    },
+    {
+      "code": "C08",
+      "count": 112
+    },
+    {
+      "code": "C09",
+      "count": 111
+    },
+    {
+      "code": "C07",
+      "count": 108
+    },
+    {
+      "code": "C05",
+      "count": 105
+    },
+    {
+      "code": "C13",
+      "count": 99
+    },
+    {
+      "code": "C12",
+      "count": 86
+    },
+    {
+      "code": "C06",
+      "count": 79
+    },
+    {
+      "code": "C10",
+      "count": 52
+    }
+  ],
+  "budget": {
+    "lines": 0,
+    "exe_amt": 0,
+    "budget_now": 0
+  },
+  "recent_changes": [
+    {
+      "change_id": "0885dfdda67c4c81bbb334707a17a700",
+      "ts": "2026-08-19T11:13:30+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1946477",
+      "entity_name": "나주시 야생동물로 인한 피해 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1946477&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "26b135ed259c4717bf5d66a36c934d87",
+      "ts": "2026-08-19T11:13:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1808683",
+      "entity_name": "나주시 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1808683&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2bd1e5a6cabb45c6ae9057f9619cf6f8",
+      "ts": "2026-08-19T11:07:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1895459",
+      "entity_name": "나주시 사회적 약자 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1895459&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "070cfb5221fe430db4dc2e20318e11f4",
+      "ts": "2026-08-19T11:07:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1867517",
+      "entity_name": "나주시 반려동물 테마파크 설치 및 운영관리 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867517&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2d8af3c600274f28836b2a5292d465ad",
+      "ts": "2026-08-19T11:07:11+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1932045",
+      "entity_name": "나주시 반려동물 보호 및 반려문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1932045&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "5101474f3cb148b6bfd15d4b58a9e818",
+      "ts": "2026-08-19T10:57:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1946433",
+      "entity_name": "나주시 출산장려지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1946433&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c18b471d941a498f8ee441f62e8cff94",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "12170",
+      "entity_name": "나주시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

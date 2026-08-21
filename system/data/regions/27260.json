@@ -1,0 +1,136 @@
+{
+  "sig_cd": "27260",
+  "region_id": "27260",
+  "name": "수성구",
+  "full_name": "대구광역시 수성구",
+  "level": 2,
+  "status": "active",
+  "population": 407820,
+  "ordinance_kinds": {
+    "규칙": 79,
+    "조례": 485
+  },
+  "ordinance_total": 564,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 206
+    },
+    {
+      "code": "C02",
+      "count": 132
+    },
+    {
+      "code": "C03",
+      "count": 102
+    },
+    {
+      "code": "C05",
+      "count": 85
+    },
+    {
+      "code": "C08",
+      "count": 78
+    },
+    {
+      "code": "C11",
+      "count": 69
+    },
+    {
+      "code": "C06",
+      "count": 68
+    },
+    {
+      "code": "C07",
+      "count": 64
+    },
+    {
+      "code": "C09",
+      "count": 61
+    },
+    {
+      "code": "C13",
+      "count": 57
+    },
+    {
+      "code": "C10",
+      "count": 35
+    },
+    {
+      "code": "C04",
+      "count": 17
+    }
+  ],
+  "budget": {
+    "lines": 2816,
+    "exe_amt": 1726294367632,
+    "budget_now": 2294196223159
+  },
+  "recent_changes": [
+    {
+      "change_id": "e35c314679f248d4bc573291eb4b184b",
+      "ts": "2026-08-19T14:43:55+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2716000|fyr:2025",
+      "entity_name": "2716000 2025 세출(1421건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "2f07c95576b6484ca982568e8c27abfd",
+      "ts": "2026-08-19T14:17:28+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2716000|fyr:2026",
+      "entity_name": "2716000 2026 세출(1395건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "127bbd196de942a79a738e5b288ee9c6",
+      "ts": "2026-08-19T11:13:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1544151",
+      "entity_name": "대구광역시 수성구 야생동물에 의한 인명 및 농작물 피해예방과 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1544151&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1ecfd1e46425452389ec1aacaf0964a7",
+      "ts": "2026-08-19T11:13:58+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2083649",
+      "entity_name": "대구광역시 수성구 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2083649&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3483631dcfb14080aa38e2a4248a473f",
+      "ts": "2026-08-19T11:11:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2092971",
+      "entity_name": "대구광역시 수성구 정서회복을 위한 유기동물 입양 및 양육지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2092971&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b79771c45362470cb108d7d2f9941f6a",
+      "ts": "2026-08-19T10:55:05+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1389465",
+      "entity_name": "대구광역시 수성구 출산장려금 지원 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1389465&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "94648bf646a54b8a8e9733c9be2f7bd7",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "27260",
+      "entity_name": "수성구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

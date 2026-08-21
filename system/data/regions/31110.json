@@ -1,0 +1,163 @@
+{
+  "sig_cd": "31110",
+  "region_id": "31110",
+  "name": "중구",
+  "full_name": "울산광역시 중구",
+  "level": 2,
+  "status": "active",
+  "population": 202823,
+  "ordinance_kinds": {
+    "규칙": 90,
+    "조례": 429
+  },
+  "ordinance_total": 519,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 203
+    },
+    {
+      "code": "C02",
+      "count": 145
+    },
+    {
+      "code": "C03",
+      "count": 91
+    },
+    {
+      "code": "C08",
+      "count": 70
+    },
+    {
+      "code": "C13",
+      "count": 66
+    },
+    {
+      "code": "C11",
+      "count": 61
+    },
+    {
+      "code": "C05",
+      "count": 60
+    },
+    {
+      "code": "C06",
+      "count": 56
+    },
+    {
+      "code": "C07",
+      "count": 51
+    },
+    {
+      "code": "C09",
+      "count": 50
+    },
+    {
+      "code": "C10",
+      "count": 30
+    },
+    {
+      "code": "C04",
+      "count": 15
+    }
+  ],
+  "budget": {
+    "lines": 1951,
+    "exe_amt": 999040233872,
+    "budget_now": 1429131736105
+  },
+  "recent_changes": [
+    {
+      "change_id": "f48cf25d6f32456f8767f8163cbc8e85",
+      "ts": "2026-08-19T14:47:19+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3111000|fyr:2025",
+      "entity_name": "3111000 2025 세출(981건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "54d7ed18a8f64f4caf8b20d797e83606",
+      "ts": "2026-08-19T14:18:21+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3111000|fyr:2026",
+      "entity_name": "3111000 2026 세출(970건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4ea9d36362d64bd6ba5489d5ad84378e",
+      "ts": "2026-08-19T11:17:37+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1411825",
+      "entity_name": "울산광역시 중구 야생동물에 의한 농작물피해 보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1411825&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "94a020e7425f4b95ba6f48029ba6dba0",
+      "ts": "2026-08-19T11:09:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1686809",
+      "entity_name": "울산광역시 중구 반려동물 전용공원 운영 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1686809&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "dea29b03a3f04538983f7946865b88af",
+      "ts": "2026-08-19T11:09:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1917567",
+      "entity_name": "울산광역시 중구 반려동물산업 육성 및 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1917567&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3fd7ccdcc692427d8d265f0f5059a535",
+      "ts": "2026-08-19T11:09:21+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1627345",
+      "entity_name": "울산광역시 중구 반려동물 보호 및 학대 방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627345&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4e3ab7c763254f3f8c9aa94e66bf386e",
+      "ts": "2026-08-19T11:02:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2101987",
+      "entity_name": "울산광역시 중구 출산양육지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2101987&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "319b179a24cb4bbb8552955813880f09",
+      "ts": "2026-08-19T11:02:39+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1209789",
+      "entity_name": "울산광역시 중구 저출산 대책 및 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1209789&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "931e62fb45b544c6bf9817ed85acea48",
+      "ts": "2026-08-19T11:02:38+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2027373",
+      "entity_name": "울산광역시 중구 위기임신 및 보호출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2027373&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "14fb696e58c94c08908f7e16ac11fc5b",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "31110",
+      "entity_name": "중구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

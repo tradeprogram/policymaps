@@ -1,0 +1,127 @@
+{
+  "sig_cd": "26500",
+  "region_id": "26500",
+  "name": "수영구",
+  "full_name": "부산광역시 수영구",
+  "level": 2,
+  "status": "active",
+  "population": 168955,
+  "ordinance_kinds": {
+    "규칙": 65,
+    "조례": 341
+  },
+  "ordinance_total": 406,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 163
+    },
+    {
+      "code": "C02",
+      "count": 115
+    },
+    {
+      "code": "C03",
+      "count": 67
+    },
+    {
+      "code": "C06",
+      "count": 61
+    },
+    {
+      "code": "C08",
+      "count": 54
+    },
+    {
+      "code": "C05",
+      "count": 45
+    },
+    {
+      "code": "C11",
+      "count": 42
+    },
+    {
+      "code": "C09",
+      "count": 40
+    },
+    {
+      "code": "C13",
+      "count": 38
+    },
+    {
+      "code": "C07",
+      "count": 38
+    },
+    {
+      "code": "C10",
+      "count": 23
+    },
+    {
+      "code": "C04",
+      "count": 14
+    }
+  ],
+  "budget": {
+    "lines": 2028,
+    "exe_amt": 915916652520,
+    "budget_now": 1381695822200
+  },
+  "recent_changes": [
+    {
+      "change_id": "c243f1f78027429397b061a3781fe1ee",
+      "ts": "2026-08-19T14:42:44+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2624000|fyr:2025",
+      "entity_name": "2624000 2025 세출(1030건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "4e31bfd5a841484ea3c785e9c98b0fa0",
+      "ts": "2026-08-19T14:17:17+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2624000|fyr:2026",
+      "entity_name": "2624000 2026 세출(998건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a64eefc7c55d4975a6d42fde9c510cb6",
+      "ts": "2026-08-19T11:14:49+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1965581",
+      "entity_name": "부산광역시 수영구 동물보호 및 관리에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1965581&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "09646a2666904996b1b36b39d47b85e9",
+      "ts": "2026-08-19T11:08:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1965585",
+      "entity_name": "부산광역시 수영구 사회적약자 반려동물 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1965585&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "34a0f439acef49978065f193e8b98bf4",
+      "ts": "2026-08-19T10:55:17+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2037563",
+      "entity_name": "부산광역시 수영구 출산장려 및 다자녀가정 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2037563&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3486e4a56dc3485789210c84b6dda993",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "26500",
+      "entity_name": "수영구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

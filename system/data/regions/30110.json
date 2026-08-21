@@ -1,0 +1,154 @@
+{
+  "sig_cd": "30110",
+  "region_id": "30110",
+  "name": "동구",
+  "full_name": "대전광역시 동구",
+  "level": 2,
+  "status": "active",
+  "population": 218050,
+  "ordinance_kinds": {
+    "규칙": 97,
+    "조례": 455
+  },
+  "ordinance_total": 552,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 205
+    },
+    {
+      "code": "C02",
+      "count": 147
+    },
+    {
+      "code": "C03",
+      "count": 115
+    },
+    {
+      "code": "C05",
+      "count": 73
+    },
+    {
+      "code": "C08",
+      "count": 65
+    },
+    {
+      "code": "C11",
+      "count": 62
+    },
+    {
+      "code": "C07",
+      "count": 60
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C13",
+      "count": 55
+    },
+    {
+      "code": "C09",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 30
+    },
+    {
+      "code": "C04",
+      "count": 19
+    }
+  ],
+  "budget": {
+    "lines": 2551,
+    "exe_amt": 1412780917327,
+    "budget_now": 1908902986549
+  },
+  "recent_changes": [
+    {
+      "change_id": "61754506cd1c4afaafd62ed85becca15",
+      "ts": "2026-08-19T14:46:31+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3011000|fyr:2025",
+      "entity_name": "3011000 2025 세출(1331건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "e91dcf05a75a4e728a631b921f815f44",
+      "ts": "2026-08-19T14:18:11+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:3011000|fyr:2026",
+      "entity_name": "3011000 2026 세출(1220건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "d67fd42e2a2743318aef02902495ded9",
+      "ts": "2026-08-19T11:14:03+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1352614",
+      "entity_name": "대전광역시 동구 야생동물에 의한 농작물 등 피해 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1352614&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2163a09cdc024ca3b814dcb6b2f9138f",
+      "ts": "2026-08-19T11:11:18+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2112429",
+      "entity_name": "대전광역시 동구 반려견 순찰대 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2112429&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "7a3b55e225bc4cd38805fcba1c197649",
+      "ts": "2026-08-19T11:07:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1833169",
+      "entity_name": "대전광역시 동구 사회적 약자 반려동물 의료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1833169&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b070189839434b4ba937d179da5d84b4",
+      "ts": "2026-08-19T11:07:28+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1942041",
+      "entity_name": "대전광역시 동구 반려동물 보호 및 학대방지 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942041&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f86907b568184a5f8c8ca67f411dae8e",
+      "ts": "2026-08-19T10:59:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1763681",
+      "entity_name": "대전광역시 동구 장애인가정 출산지원금 지급 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1763681&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1b64ff8451c446b6959948da4c340950",
+      "ts": "2026-08-19T10:57:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2076155",
+      "entity_name": "대전광역시 동구 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2076155&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6656dcca940140e8af81702183d8fec2",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "30110",
+      "entity_name": "동구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

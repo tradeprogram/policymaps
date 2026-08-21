@@ -1,0 +1,154 @@
+{
+  "sig_cd": "43150",
+  "region_id": "43150",
+  "name": "제천시",
+  "full_name": "충청북도 제천시",
+  "level": 2,
+  "status": "active",
+  "population": 128043,
+  "ordinance_kinds": {
+    "규칙": 105,
+    "조례": 541
+  },
+  "ordinance_total": 646,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 229
+    },
+    {
+      "code": "C02",
+      "count": 165
+    },
+    {
+      "code": "C03",
+      "count": 110
+    },
+    {
+      "code": "C11",
+      "count": 109
+    },
+    {
+      "code": "C13",
+      "count": 80
+    },
+    {
+      "code": "C06",
+      "count": 69
+    },
+    {
+      "code": "C08",
+      "count": 66
+    },
+    {
+      "code": "C05",
+      "count": 66
+    },
+    {
+      "code": "C09",
+      "count": 59
+    },
+    {
+      "code": "C07",
+      "count": 59
+    },
+    {
+      "code": "C12",
+      "count": 54
+    },
+    {
+      "code": "C10",
+      "count": 39
+    }
+  ],
+  "budget": {
+    "lines": 4051,
+    "exe_amt": 2112097861500,
+    "budget_now": 3324717835000
+  },
+  "recent_changes": [
+    {
+      "change_id": "71c3c19b5f014a8a888814c8052ef0a6",
+      "ts": "2026-08-19T14:57:50+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4313000|fyr:2025",
+      "entity_name": "4313000 2025 세출(2059건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "af7e5578e53e48beb0be2dbb3a664ac8",
+      "ts": "2026-08-19T14:23:19+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4313000|fyr:2026",
+      "entity_name": "4313000 2026 세출(1992건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "a238373072a6444bba7c80e6ae1608c6",
+      "ts": "2026-08-19T11:18:41+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1982147",
+      "entity_name": "제천시 야생동물에 의한 피해보상 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1982147&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "87c21c0925da4dd799009e56a28a36ef",
+      "ts": "2026-08-19T11:18:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1515395",
+      "entity_name": "제천시 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515395&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "816e61ce6f4448da93305ab6d8d473c7",
+      "ts": "2026-08-19T11:04:40+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2134309",
+      "entity_name": "제천시 임신ㆍ출산 지원에 관한 조례 시행규칙",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2134309&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "9050d7d893e34cf0a926b8fa900dfa5e",
+      "ts": "2026-08-19T11:03:34+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1848229",
+      "entity_name": "제천시 주택 및 출산자금 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1848229&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c1b8b3fc9ea94f2f8a59842d666e77f4",
+      "ts": "2026-08-19T11:03:32+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1680119",
+      "entity_name": "제천시 저출산·고령사회 대응을 위한 인구정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1680119&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "85dcec82deae48c897f7f902d8d6fba8",
+      "ts": "2026-08-19T11:03:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2152367",
+      "entity_name": "제천시 임신ㆍ출산 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2152367&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b91852f33ac649e3854d7098a4adf8a1",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43150",
+      "entity_name": "제천시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

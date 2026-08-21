@@ -1,0 +1,145 @@
+{
+  "sig_cd": "48120",
+  "region_id": "48120",
+  "name": "창원시",
+  "full_name": "경상남도 창원시",
+  "level": 2,
+  "status": "active",
+  "population": 985937,
+  "ordinance_kinds": {
+    "규칙": 143,
+    "조례": 789
+  },
+  "ordinance_total": 932,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 262
+    },
+    {
+      "code": "C02",
+      "count": 244
+    },
+    {
+      "code": "C11",
+      "count": 184
+    },
+    {
+      "code": "C03",
+      "count": 161
+    },
+    {
+      "code": "C08",
+      "count": 124
+    },
+    {
+      "code": "C05",
+      "count": 111
+    },
+    {
+      "code": "C13",
+      "count": 110
+    },
+    {
+      "code": "C09",
+      "count": 108
+    },
+    {
+      "code": "C07",
+      "count": 100
+    },
+    {
+      "code": "C06",
+      "count": 76
+    },
+    {
+      "code": "C10",
+      "count": 70
+    },
+    {
+      "code": "C12",
+      "count": 57
+    }
+  ],
+  "budget": {
+    "lines": 8046,
+    "exe_amt": 7443220055810,
+    "budget_now": 9528600992030
+  },
+  "recent_changes": [
+    {
+      "change_id": "88ee1e21eb36491c81de303948fad65e",
+      "ts": "2026-08-19T15:21:50+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4811000|fyr:2025",
+      "entity_name": "4811000 2025 세출(4177건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "0662142e059946adb62a95087617a297",
+      "ts": "2026-08-19T14:35:12+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4811000|fyr:2026",
+      "entity_name": "4811000 2026 세출(3869건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "40eed90f7e8941659d28b9659739d1a7",
+      "ts": "2026-08-19T11:18:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1935597",
+      "entity_name": "창원시 야생동물로 인한 농작물 피해예방과 인명 및 농작물 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1935597&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "022f9bf605c2435db1bac130767a2872",
+      "ts": "2026-08-19T11:10:14+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1995609",
+      "entity_name": "창원시 장애인 및 저소득층의 반려동물 진료비 등 부담 완화 및 진료비 표시제 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1995609&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "f74910a5472e4551b6b52bdf54f09153",
+      "ts": "2026-08-19T11:10:13+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2103817",
+      "entity_name": "창원시 동물 보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103817&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "ac0795c6528b4b56a491a45ea883e85b",
+      "ts": "2026-08-19T11:06:24+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1986467",
+      "entity_name": "창원시 출산의 날 기념에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1986467&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "bd3087e3f65b412899b0a64ca0840ec3",
+      "ts": "2026-08-19T10:58:25+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2129965",
+      "entity_name": "창원시 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129965&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "8eb2d4fde3444b51868b5111b966a344",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "48120",
+      "entity_name": "창원시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

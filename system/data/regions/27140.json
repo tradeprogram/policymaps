@@ -1,0 +1,127 @@
+{
+  "sig_cd": "27140",
+  "region_id": "27140",
+  "name": "동구",
+  "full_name": "대구광역시 동구",
+  "level": 2,
+  "status": "active",
+  "population": 338544,
+  "ordinance_kinds": {
+    "규칙": 87,
+    "조례": 387
+  },
+  "ordinance_total": 474,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 193
+    },
+    {
+      "code": "C02",
+      "count": 123
+    },
+    {
+      "code": "C03",
+      "count": 85
+    },
+    {
+      "code": "C06",
+      "count": 61
+    },
+    {
+      "code": "C08",
+      "count": 56
+    },
+    {
+      "code": "C11",
+      "count": 53
+    },
+    {
+      "code": "C07",
+      "count": 53
+    },
+    {
+      "code": "C13",
+      "count": 47
+    },
+    {
+      "code": "C05",
+      "count": 45
+    },
+    {
+      "code": "C09",
+      "count": 38
+    },
+    {
+      "code": "C10",
+      "count": 30
+    },
+    {
+      "code": "C04",
+      "count": 15
+    }
+  ],
+  "budget": {
+    "lines": 2524,
+    "exe_amt": 1812569410917,
+    "budget_now": 2554540430724
+  },
+  "recent_changes": [
+    {
+      "change_id": "35dadb63623149349b1ab836f9693606",
+      "ts": "2026-08-19T14:43:36+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2712000|fyr:2025",
+      "entity_name": "2712000 2025 세출(1301건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "cd2477b77c1c48a4bd1740311eec64a4",
+      "ts": "2026-08-19T14:17:24+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:2712000|fyr:2026",
+      "entity_name": "2712000 2026 세출(1223건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "06c74e73d9904a2c915e8353b5393351",
+      "ts": "2026-08-19T11:13:55+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2073269",
+      "entity_name": "대구광역시 동구 유해야생동물 먹이주기 금지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2073269&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "c931e527b3de42fca7d8678c65de1f25",
+      "ts": "2026-08-19T11:13:54+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2117427",
+      "entity_name": "대구광역시 동구 동물보호에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2117427&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "3ca3374dc8554204b49aa310215de3ca",
+      "ts": "2026-08-19T10:57:20+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1879621",
+      "entity_name": "대구광역시 동구 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1879621&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "4a281cf3681c40f387908be4225bfc43",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "27140",
+      "entity_name": "동구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

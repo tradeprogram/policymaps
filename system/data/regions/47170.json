@@ -1,0 +1,145 @@
+{
+  "sig_cd": "47170",
+  "region_id": "47170",
+  "name": "안동시",
+  "full_name": "경상북도 안동시",
+  "level": 2,
+  "status": "active",
+  "population": 151584,
+  "ordinance_kinds": {
+    "규칙": 122,
+    "조례": 559
+  },
+  "ordinance_total": 681,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 230
+    },
+    {
+      "code": "C02",
+      "count": 209
+    },
+    {
+      "code": "C11",
+      "count": 99
+    },
+    {
+      "code": "C13",
+      "count": 91
+    },
+    {
+      "code": "C03",
+      "count": 89
+    },
+    {
+      "code": "C09",
+      "count": 80
+    },
+    {
+      "code": "C05",
+      "count": 79
+    },
+    {
+      "code": "C08",
+      "count": 65
+    },
+    {
+      "code": "C06",
+      "count": 59
+    },
+    {
+      "code": "C07",
+      "count": 57
+    },
+    {
+      "code": "C12",
+      "count": 52
+    },
+    {
+      "code": "C10",
+      "count": 43
+    }
+  ],
+  "budget": {
+    "lines": 5125,
+    "exe_amt": 3224096950136,
+    "budget_now": 5139540982500
+  },
+  "recent_changes": [
+    {
+      "change_id": "74b31dd66cb9491c8dd92bf67c8e29fc",
+      "ts": "2026-08-19T15:16:58+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4714000|fyr:2025",
+      "entity_name": "4714000 2025 세출(2605건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5c208b221ebd40a88584a5e9adb6a161",
+      "ts": "2026-08-19T14:32:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4714000|fyr:2026",
+      "entity_name": "4714000 2026 세출(2520건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "7da778879d784945a61ebcc65c19b14c",
+      "ts": "2026-08-19T11:16:31+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2000669",
+      "entity_name": "안동시 유해야생동물로 인한 농작물피해보상 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000669&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d6858c851c6f4c0aa6180895d21b53e9",
+      "ts": "2026-08-19T11:08:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1895853",
+      "entity_name": "안동시 반려동물 보호 및 반려문화 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1895853&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a53ad4d703bb4e3fa0a4f4fe607f933a",
+      "ts": "2026-08-19T11:02:07+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1967951",
+      "entity_name": "안동시 저출산ㆍ고령사회정책 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1967951&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "1de4e38fba824f6cb2fd339c3a9ac040",
+      "ts": "2026-08-19T11:02:06+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2019253",
+      "entity_name": "안동시 위기임신 및 보호출산 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2019253&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "fa1b2b8731fa445ea5f6ded68f2526f7",
+      "ts": "2026-08-19T10:55:50+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1438539",
+      "entity_name": "안동시 출산장려 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1438539&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "2b9c36b901944b348472258663b5c4d5",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "47170",
+      "entity_name": "안동시",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

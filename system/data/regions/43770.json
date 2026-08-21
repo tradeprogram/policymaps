@@ -1,0 +1,127 @@
+{
+  "sig_cd": "43770",
+  "region_id": "43770",
+  "name": "음성군",
+  "full_name": "충청북도 음성군",
+  "level": 2,
+  "status": "active",
+  "population": 96036,
+  "ordinance_kinds": {
+    "규칙": 115,
+    "조례": 482
+  },
+  "ordinance_total": 597,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 227
+    },
+    {
+      "code": "C02",
+      "count": 191
+    },
+    {
+      "code": "C03",
+      "count": 93
+    },
+    {
+      "code": "C11",
+      "count": 81
+    },
+    {
+      "code": "C08",
+      "count": 72
+    },
+    {
+      "code": "C09",
+      "count": 60
+    },
+    {
+      "code": "C13",
+      "count": 59
+    },
+    {
+      "code": "C05",
+      "count": 55
+    },
+    {
+      "code": "C07",
+      "count": 54
+    },
+    {
+      "code": "C06",
+      "count": 54
+    },
+    {
+      "code": "C12",
+      "count": 52
+    },
+    {
+      "code": "C10",
+      "count": 35
+    }
+  ],
+  "budget": {
+    "lines": 3942,
+    "exe_amt": 1460280399426,
+    "budget_now": 2261730116527
+  },
+  "recent_changes": [
+    {
+      "change_id": "ab5d67836ca44f5987893d311b5326df",
+      "ts": "2026-08-19T14:59:07+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4377000|fyr:2025",
+      "entity_name": "4377000 2025 세출(1991건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "5e73e1af2ab549e9a7d775064dc2bcc6",
+      "ts": "2026-08-19T14:24:12+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:4377000|fyr:2026",
+      "entity_name": "4377000 2026 세출(1951건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c5991d6d8dff4b799697146354d24f35",
+      "ts": "2026-08-19T11:17:44+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2014377",
+      "entity_name": "음성군 야생동물에 의한 피해보상에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2014377&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "d20f3fdfe50a43369cc6837652518a07",
+      "ts": "2026-08-19T11:17:43+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1493947",
+      "entity_name": "음성군 동물보호 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1493947&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a152bf8305464f5e826962d20dfd2d19",
+      "ts": "2026-08-19T10:56:22+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2084311",
+      "entity_name": "음성군 출산장려금 등 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2084311&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "be20e7a2f76b4a3ab9329e0abf63a365",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "43770",
+      "entity_name": "음성군",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}

@@ -1,0 +1,154 @@
+{
+  "sig_cd": "11560",
+  "region_id": "11560",
+  "name": "영등포구",
+  "full_name": "서울특별시 영등포구",
+  "level": 2,
+  "status": "active",
+  "population": 371691,
+  "ordinance_kinds": {
+    "규칙": 110,
+    "조례": 512
+  },
+  "ordinance_total": 622,
+  "top_categories": [
+    {
+      "code": "C01",
+      "count": 234
+    },
+    {
+      "code": "C02",
+      "count": 169
+    },
+    {
+      "code": "C03",
+      "count": 117
+    },
+    {
+      "code": "C11",
+      "count": 89
+    },
+    {
+      "code": "C08",
+      "count": 83
+    },
+    {
+      "code": "C05",
+      "count": 78
+    },
+    {
+      "code": "C06",
+      "count": 77
+    },
+    {
+      "code": "C07",
+      "count": 66
+    },
+    {
+      "code": "C13",
+      "count": 64
+    },
+    {
+      "code": "C09",
+      "count": 61
+    },
+    {
+      "code": "C10",
+      "count": 33
+    },
+    {
+      "code": "C04",
+      "count": 16
+    }
+  ],
+  "budget": {
+    "lines": 2244,
+    "exe_amt": 1830250274963,
+    "budget_now": 2745256318625
+  },
+  "recent_changes": [
+    {
+      "change_id": "36e4d652718b4a9381bbe1c1fcb6d9ea",
+      "ts": "2026-08-19T14:40:13+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1129000|fyr:2025",
+      "entity_name": "1129000 2025 세출(1169건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "fb3abbcd00744dc384772f7548559a54",
+      "ts": "2026-08-19T14:16:54+0900",
+      "entity_type": "budget",
+      "entity_id": "laf:1129000|fyr:2026",
+      "entity_name": "1129000 2026 세출(1075건)",
+      "event": "budget_changed",
+      "official_url": null
+    },
+    {
+      "change_id": "c638760f4ea4466389dd887e32850258",
+      "ts": "2026-08-19T11:15:59+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2067515",
+      "entity_name": "서울특별시 영등포구 유해야생동물 먹이주기 금지구역 지정 등에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2067515&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "6d9c4a56d831478fa63ddfead0fcd7ba",
+      "ts": "2026-08-19T11:15:57+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:2067531",
+      "entity_name": "서울특별시 영등포구 동물 보호 및 복지에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2067531&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "be47d11d6adb43e9816fa900235da83d",
+      "ts": "2026-08-19T11:08:27+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:898500",
+      "entity_name": "서울특별시 영등포구 중증장애인 반려동물 진료비 지원 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=898500&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "b25b8a4289124571bdbade650f3ab4a3",
+      "ts": "2026-08-19T11:06:04+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1374413",
+      "entity_name": "서울특별시 영등포구 출산친화도시 조성에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1374413&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cfdff80fffc5406491fc7055c828469e",
+      "ts": "2026-08-19T11:01:29+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1498537",
+      "entity_name": "서울특별시 영등포구 장애인가정 출산지원금 지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1498537&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "cc6d84854c204db89444546cfe343caf",
+      "ts": "2026-08-19T10:55:36+0900",
+      "entity_type": "ordinance",
+      "entity_id": "ordin:1800585",
+      "entity_name": "서울특별시 영등포구 출산 및 양육지원에 관한 조례",
+      "event": "created",
+      "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1800585&type=HTML&mobileYn="
+    },
+    {
+      "change_id": "a1a00ed275f74913977a897cb6d989ec",
+      "ts": "2026-08-19T10:44:29+0900",
+      "entity_type": "boundary",
+      "entity_id": "11560",
+      "entity_name": "영등포구",
+      "event": "created",
+      "official_url": null
+    }
+  ],
+  "as_of_date": "2026-08-19",
+  "stale": false
+}
