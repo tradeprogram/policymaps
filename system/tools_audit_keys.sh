@@ -11,7 +11,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 ENVF="$ROOT/system/.env"
 [ -f "$ENVF" ] || { echo "  .env 없음: $ENVF"; exit 2; }
 
-SECRET_VARS='^(LAW_OC|ASSEMBLY_KEY|VWORLD_KEY|LOFIN_KEY|STANREGIN_KEY|STANREGIN_KEY_ENC)='
+SECRET_VARS='^(LAW_OC|ASSEMBLY_KEY|VWORLD_KEY|LOFIN_KEY|STANREGIN_KEY|STANREGIN_KEY_ENC|GEMINI_API_KEY|GOOGLE_API_KEY)='
 mapfile -t KEYS < <(grep -vE '^\s*#' "$ENVF" | grep -E "$SECRET_VARS" \
   | cut -d= -f2- | tr -d '"' | tr -d "'" | awk 'length($0)>=6' | sort -u)
 [ "${#KEYS[@]}" -gt 0 ] || { echo "  검사할 키 없음"; exit 2; }
