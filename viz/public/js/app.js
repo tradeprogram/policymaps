@@ -1,7 +1,6 @@
 // 앱 셸 — 네비게이션, 배너, 라우팅
 import { el, qs } from "./util.js";
 import { BASE, state, loadManifest } from "./api.js";
-import { DATA_BASE, DATA_SOURCES } from "./config.js";
 import { mockBanner, staleBanner, errorPanel, loading } from "./components.js";
 import { route, setNotFound, setOnNavigate, start, go } from "./router.js";
 
@@ -33,11 +32,6 @@ async function boot() {
   const app = qs("#app");
   const nav = qs("#nav");
   const banners = qs("#banners");
-  const srcInfo = qs("#src-info");
-
-  // 데이터 소스 표기
-  const srcName = Object.entries(DATA_SOURCES).find(([, v]) => v === BASE)?.[0];
-  srcInfo.textContent = `데이터 소스: ${BASE}${srcName ? ` (${srcName})` : ""}`;
 
   try {
     await loadManifest();
