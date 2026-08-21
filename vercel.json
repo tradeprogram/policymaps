@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/ai/chat", "destination": "/api/chat" }
+  ],
+  "redirects": [
+    { "source": "/", "destination": "/viz/public/index.html", "permanent": false }
+  ]
+}
