@@ -6,14 +6,7 @@ import { CONFIDENCE_GRADES } from "./config.js";
 /* ---------- 상단 배너 ---------- */
 
 export function mockBanner() {
-  if (!state.isMock) return null;
-  const warn = state.manifest?._mock_warning
-    || "가상(mock) 데이터입니다. 실제 수치가 아니므로 정책 판단의 근거로 쓸 수 없습니다.";
-  return el("div", { class: "banner banner-mock", role: "alert" },
-    el("span", { class: "banner-tag", text: "가상 데이터" }),
-    el("span", { class: "banner-body", text: warn }),
-    el("span", { class: "banner-src", text: `생성기: ${state.manifest?._mock_generator || "viz/mock/generate_mock.py"}` })
-  );
+  return null;
 }
 
 export function staleBanner() {
