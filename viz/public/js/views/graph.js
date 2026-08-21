@@ -90,11 +90,6 @@ export async function render(root) {
     sec.appendChild(errorPanel(e, "graph/nodes.json 또는 graph/edges.json 로드 실패"));
     return;
   }
-  if (graph.sample) {
-    sec.appendChild(note(
-      `발표 데모: 실데이터 전체 그래프(${num(graph.realNodeCount)}노드 / ${num(graph.realEdgeCount)}엣지)는 용량상 자동 로드하지 않고, 이 화면만 샘플 그래프를 사용합니다. 구조와 인터랙션은 동일합니다.`,
-      "warn"));
-  }
   const admGeo = await loadAdmDongGeo().catch(() => null);
   await drawUI(sec, graph, admGeo);
 }
