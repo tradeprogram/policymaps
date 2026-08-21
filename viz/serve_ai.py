@@ -2,7 +2,7 @@
 
 Run from the repository root:
 
-    set GEMINI_API_KEY=...
+    echo GEMINI_API_KEY=... > .env
     python viz/serve_ai.py --port 8742
 
 The browser never receives the API key. Static files are served from the
@@ -21,8 +21,8 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_MODEL = "gemini-3.7-flash"
-GEMINI_ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/interactions"
+DEFAULT_MODEL = "gemini-2.5-flash"
+GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
 
 
 SYSTEM_PROMPT = """너는 'AI 정책분석관'이다. 자치법규 정책지도 사이트 안에서 지자체 실무자의 의사결정을 돕는다.
@@ -66,6 +66,7 @@ class Handler(SimpleHTTPRequestHandler):
 
 
 def call_gemini(payload: dict) -> dict:
+    load_env_files()
     api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY 환경변수가 없습니다.")
@@ -85,12 +86,20 @@ def call_gemini(payload: dict) -> dict:
     }
 
     req_body = {
-        "model": model,
-        "input": json.dumps(prompt, ensure_ascii=False),
-        "generation_config": {"thinking_level": "low"},
+        "systemInstruction": {
+            "parts": [{"text": SYSTEM_PROMPT}],
+        },
+        "contents": [{
+            "role": "user",
+            "parts": [{"text": json.dumps(prompt, ensure_ascii=False)}],
+        }],
+        "generationConfig": {
+            "temperature": 0.7,
+            "maxOutputTokens": 1200,
+        },
     }
     req = Request(
-        GEMINI_ENDPOINT,
+        f"{GEMINI_BASE}/models/{model}:generateContent",
         data=json.dumps(req_body, ensure_ascii=False).encode("utf-8"),
         headers={
             "content-type": "application/json",
@@ -101,6 +110,21 @@ def call_gemini(payload: dict) -> dict:
     with urlopen(req, timeout=45) as res:
         data = json.loads(res.read().decode("utf-8"))
     return {"answer": extract_text(data), "model": model}
+
+
+def load_env_files() -> None:
+    for path in (ROOT / ".env", ROOT / "system" / ".env"):
+        if not path.exists():
+            continue
+        for line in path.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            if key and key not in os.environ:
+                os.environ[key] = value
 
 
 def extract_text(data: dict) -> str:
@@ -122,6 +146,7 @@ def main() -> None:
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8742)
     args = parser.parse_args()
+    load_env_files()
     os.chdir(ROOT)
     server = ThreadingHTTPServer((args.host, args.port), Handler)
     print(f"Serving {ROOT} at http://{args.host}:{args.port}/viz/public/index.html")

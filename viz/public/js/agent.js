@@ -81,10 +81,15 @@ async function ask(text) {
     statusLine.textContent = data.model ? `Gemini: ${data.model}` : "AI 답변 완료";
   } catch (e) {
     addAssistant(localAnswer(text, context), actions);
-    statusLine.textContent = "Gemini 프록시 미연결 · 로컬 요약";
+    statusLine.textContent = `Gemini 오류 · 로컬 요약 (${shortError(e.message)})`;
   } finally {
     setBusy(false);
   }
+}
+
+function shortError(message) {
+  const s = String(message || "연결 실패").replace(/\s+/g, " ").trim();
+  return s.length > 56 ? `${s.slice(0, 56)}...` : s;
 }
 
 async function buildContext(question) {

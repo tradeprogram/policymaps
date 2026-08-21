@@ -41,12 +41,13 @@ Gemini API 를 쓰는 발표용 실행법이다. API 키는 브라우저에 넣�
 
 ```bash
 cd F:/policy_maps
-set GEMINI_API_KEY=발급받은_키
+echo GEMINI_API_KEY=발급받은_키 > .env
 python viz/serve_ai.py --port 8742
 ```
 
 - 접속: <http://127.0.0.1:8742/viz/public/index.html?src=real>
 - 우하단 `AI` 버튼을 누르면 정책분석관 패널이 열린다.
+- `.env` 는 `.gitignore` 로 제외되어 GitHub 에 올라가지 않는다.
 - `GEMINI_API_KEY` 가 없거나 일반 `python -m http.server` 로 띄운 경우에도 로컬 요약 모드로 동작한다.
 
 ### 1-3. 가상데이터 재생성
