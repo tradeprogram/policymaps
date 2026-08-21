@@ -65,7 +65,7 @@ code {
 }
 .brand {
   display: flex; align-items: center;
-  background: #fff; border: 0; border-radius: 0;
+  background: transparent; border: 0; border-radius: 0;
   padding: 0;
 }
 .brand-logo { display: block; width: 132px; height: auto; }
