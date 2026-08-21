@@ -153,8 +153,11 @@ def extract_text(data: dict) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--host", default="127.0.0.1")
-    parser.add_argument("--port", type=int, default=8742)
+    # 클라우드(Render 등)는 PORT 를 환경변수로 준다. 있으면 0.0.0.0 에 바인딩하고,
+    # 로컬(PORT 없음)은 기존대로 127.0.0.1:8742 를 쓴다.
+    default_host = "0.0.0.0" if os.environ.get("PORT") else "127.0.0.1"
+    parser.add_argument("--host", default=os.environ.get("HOST", default_host))
+    parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", "8742")))
     args = parser.parse_args()
     load_env_files()
     os.chdir(ROOT)

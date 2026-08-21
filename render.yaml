@@ -1,0 +1,23 @@
+# Render 배포 블루프린트 — 정적 사이트 + Gemini 프록시(serve_ai.py)를 한 서비스로 올린다.
+# 사용법:
+#   1) Render 대시보드 → New → Blueprint → 이 레포 선택 → Apply
+#   2) 배포 후 대시보드의 Environment 에서 GEMINI_API_KEY 값을 입력(1회)
+#   3) https://<서비스명>.onrender.com/viz/public/index.html?src=real 접속
+#
+# 코어는 파이썬 표준 라이브러리만 쓰므로 별도 의존성 설치가 필요 없다.
+services:
+  - type: web
+    name: policymaps
+    runtime: python
+    plan: free
+    buildCommand: "pip install --upgrade pip"
+    startCommand: "python viz/serve_ai.py"
+    healthCheckPath: /viz/public/index.html
+    autoDeploy: true
+    envVars:
+      # 키는 저장소에 넣지 않는다. 대시보드에서 직접 입력(sync:false).
+      - key: GEMINI_API_KEY
+        sync: false
+      # (선택) 모델 변경 시. 미설정 시 코드 기본값 gemini-3.6-flash.
+      - key: GEMINI_MODEL
+        sync: false
