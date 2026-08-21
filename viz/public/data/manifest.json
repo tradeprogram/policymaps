@@ -477,15 +477,15 @@
     },
     {
       "file": "api/gap.json",
-      "bytes": 36030,
+      "bytes": 37795,
       "rows": 1,
-      "hash": "sha256:fa82533fe4a011f66116fab0adc1180d9e333117097273a8d20874087a54537b"
+      "hash": "sha256:867b3f87a9f21e5e5e9c5112338e8c34c878c8ae6665b338ae2f7e004defb769"
     },
     {
       "file": "api/peers.json",
-      "bytes": 8624,
+      "bytes": 9233,
       "rows": 1,
-      "hash": "sha256:e2551d4d7f105f37126fc5348e1b692f313e31d7351ebc7ccbf84141ea5c0308"
+      "hash": "sha256:ccaa467ce01d0e0c95d5b90fc5144ef080ba8cbb609a6b5c3f652f6488d41ab0"
     },
     {
       "file": "api/search.json",

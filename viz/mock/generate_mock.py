@@ -49,6 +49,7 @@ from datetime import date, datetime, timedelta
 # --------------------------------------------------------------------------- #
 # 0) 상수 — 가상 표식 / 기준일
 # --------------------------------------------------------------------------- #
+MOCK_FOCUS_SIG = "11110"
 SCHEMA = "policymap.static.v1"
 MOCK_WARNING = (
     "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 "
@@ -872,8 +873,12 @@ def build_watermarks(rng, regions) -> list[dict]:
 # --------------------------------------------------------------------------- #
 # 6) MCP tool 응답 목업 (api/*.json)
 # --------------------------------------------------------------------------- #
-def envelope(payload: dict) -> dict:
-    """server.py::_envelope 와 동일한 봉투 + 가상 표식."""
+def envelope(payload: dict, **extra) -> dict:
+    """server.py::_envelope 와 동일한 봉투 + 가상 표식.
+
+    extra 는 실데이터 fixture(make_gap_fixtures.py)가 최상위에 두는 키를 맞추기 위한 것.
+    예: regions=[sig] — 이걸 빼면 DATA_BASE 를 실데이터로 바꿀 때 구조가 어긋난다.
+    """
     env = mock_header()
     env.update({
         "data": payload,
@@ -882,6 +887,7 @@ def envelope(payload: dict) -> dict:
         "execution_allowed": False,
         "disclaimer": DISCLAIMER,
     })
+    env.update(extra)
     return env
 
 
@@ -1519,9 +1525,17 @@ def main() -> int:
         "votes": ("api/votes.json", build_votes(rng, bills, legislators)),
         "search": ("api/search.json", build_search(rng, ordinances, instruments)),
     }
+    # [실데이터 정합] system/make_gap_fixtures.py 는 gap/peers 를 {sig_cd: 결과} 맵으로
+    # 내보내고 최상위에 regions 목록을 둔다. 목업이 단일 지역 객체로 감싸면 DATA_BASE 를
+    # 실데이터로 바꾸는 순간 프론트가 깨진다. 두 fixture 만 실데이터 형식에 맞춘다. [실측]
+    MAPPED = {"gap", "peers"}
     fixture_map = {}
     for name, (rel, payload) in fixtures.items():
-        emit(rel, envelope(payload), 1)
+        if name in MAPPED:
+            sig = (payload.get("target") or {}).get("sig_cd") or MOCK_FOCUS_SIG
+            emit(rel, envelope({sig: payload}, regions=[sig]), 1)
+        else:
+            emit(rel, envelope(payload), 1)
         fixture_map[name] = rel
 
     # --- manifest -------------------------------------------------------------

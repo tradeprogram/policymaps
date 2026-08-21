@@ -3,287 +3,292 @@
   "_mock_warning": "가상(mock) 데이터입니다. 실제 자치법규·법령·예산·표결 값이 아니며 어떤 판단 근거로도 사용할 수 없습니다. 시각화 개발 전용.",
   "_mock_generator": "viz/mock/generate_mock.py",
   "data": {
-    "base_region": {
-      "region_id": "11110",
-      "sig_cd": "11110",
-      "name": "서울특별시 종로구"
-    },
-    "k": 10,
-    "peers": [
-      {
-        "region_id": "26110",
-        "sig_cd": "26110",
-        "name": "부산광역시 중구",
-        "rtype": "자치구",
-        "similarity": 0.851656,
-        "weighted_distance": 0.174183,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 1.2279,
-          "area_km2": 1.0252,
-          "fiscal_self_ratio": 1.1951,
-          "welfare_ratio": 0.4661,
-          "budget_total": 2.0785
+    "11110": {
+      "base_region": {
+        "region_id": "11110",
+        "sig_cd": "11110",
+        "name": "서울특별시 종로구"
+      },
+      "k": 10,
+      "peers": [
+        {
+          "region_id": "26110",
+          "sig_cd": "26110",
+          "name": "부산광역시 중구",
+          "rtype": "자치구",
+          "similarity": 0.851656,
+          "weighted_distance": 0.174183,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 1.2279,
+            "area_km2": 1.0252,
+            "fiscal_self_ratio": 1.1951,
+            "welfare_ratio": 0.4661,
+            "budget_total": 2.0785
+          },
+          "indicators": {
+            "population": 39000,
+            "area_km2": 2.83,
+            "fiscal_self_ratio": 0.205327,
+            "welfare_ratio": 0.344618,
+            "budget_total": 140654429243
+          }
         },
-        "indicators": {
-          "population": 39000,
-          "area_km2": 2.83,
-          "fiscal_self_ratio": 0.205327,
-          "welfare_ratio": 0.344618,
-          "budget_total": 140654429243
-        }
-      },
-      {
-        "region_id": "41110",
-        "sig_cd": "41110",
-        "name": "경기도 수원시",
-        "rtype": "시",
-        "similarity": 0.847448,
-        "weighted_distance": 0.180014,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 0.967,
-          "area_km2": 2.2685,
-          "fiscal_self_ratio": 1.0728,
-          "welfare_ratio": 0.4954,
-          "budget_total": 1.7936
+        {
+          "region_id": "41110",
+          "sig_cd": "41110",
+          "name": "경기도 수원시",
+          "rtype": "시",
+          "similarity": 0.847448,
+          "weighted_distance": 0.180014,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 0.967,
+            "area_km2": 2.2685,
+            "fiscal_self_ratio": 1.0728,
+            "welfare_ratio": 0.4954,
+            "budget_total": 1.7936
+          },
+          "indicators": {
+            "population": 1190000,
+            "area_km2": 121.1,
+            "fiscal_self_ratio": 0.483629,
+            "welfare_ratio": 0.421793,
+            "budget_total": 2898503854567
+          }
         },
-        "indicators": {
-          "population": 1190000,
-          "area_km2": 121.1,
-          "fiscal_self_ratio": 0.483629,
-          "welfare_ratio": 0.421793,
-          "budget_total": 2898503854567
-        }
-      },
-      {
-        "region_id": "26200",
-        "sig_cd": "26200",
-        "name": "부산광역시 영도구",
-        "rtype": "자치구",
-        "similarity": 0.814558,
-        "weighted_distance": 0.22766,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 2.1411,
-          "area_km2": 0.3601,
-          "fiscal_self_ratio": 2.0888,
-          "welfare_ratio": 0.53,
-          "budget_total": 1.2924
+        {
+          "region_id": "26200",
+          "sig_cd": "26200",
+          "name": "부산광역시 영도구",
+          "rtype": "자치구",
+          "similarity": 0.814558,
+          "weighted_distance": 0.22766,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 2.1411,
+            "area_km2": 0.3601,
+            "fiscal_self_ratio": 2.0888,
+            "welfare_ratio": 0.53,
+            "budget_total": 1.2924
+          },
+          "indicators": {
+            "population": 104000,
+            "area_km2": 14.2,
+            "fiscal_self_ratio": 0.22024,
+            "welfare_ratio": 0.32715,
+            "budget_total": 230951455655
+          }
         },
-        "indicators": {
-          "population": 104000,
-          "area_km2": 14.2,
-          "fiscal_self_ratio": 0.22024,
-          "welfare_ratio": 0.32715,
-          "budget_total": 230951455655
-        }
-      },
-      {
-        "region_id": "11215",
-        "sig_cd": "11215",
-        "name": "서울특별시 광진구",
-        "rtype": "자치구",
-        "similarity": 0.805414,
-        "weighted_distance": 0.241598,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 1.6242,
-          "area_km2": 0.5654,
-          "fiscal_self_ratio": 0.4663,
-          "welfare_ratio": 1.9811,
-          "budget_total": 0.7139
+        {
+          "region_id": "11215",
+          "sig_cd": "11215",
+          "name": "서울특별시 광진구",
+          "rtype": "자치구",
+          "similarity": 0.805414,
+          "weighted_distance": 0.241598,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 1.6242,
+            "area_km2": 0.5654,
+            "fiscal_self_ratio": 0.4663,
+            "welfare_ratio": 1.9811,
+            "budget_total": 0.7139
+          },
+          "indicators": {
+            "population": 334000,
+            "area_km2": 17.06,
+            "fiscal_self_ratio": 0.677068,
+            "welfare_ratio": 0.157872,
+            "budget_total": 700974245783
+          }
         },
-        "indicators": {
-          "population": 334000,
-          "area_km2": 17.06,
-          "fiscal_self_ratio": 0.677068,
-          "welfare_ratio": 0.157872,
-          "budget_total": 700974245783
-        }
-      },
-      {
-        "region_id": "41150",
-        "sig_cd": "41150",
-        "name": "경기도 의정부시",
-        "rtype": "시",
-        "similarity": 0.708551,
-        "weighted_distance": 0.411331,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 1.1558,
-          "area_km2": 0.3165,
-          "fiscal_self_ratio": 1.3336,
-          "welfare_ratio": 0.5197,
-          "budget_total": 0.6297
+        {
+          "region_id": "41150",
+          "sig_cd": "41150",
+          "name": "경기도 의정부시",
+          "rtype": "시",
+          "similarity": 0.708551,
+          "weighted_distance": 0.411331,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 1.1558,
+            "area_km2": 0.3165,
+            "fiscal_self_ratio": 1.3336,
+            "welfare_ratio": 0.5197,
+            "budget_total": 0.6297
+          },
+          "indicators": {
+            "population": 464000,
+            "area_km2": 81.54,
+            "fiscal_self_ratio": 0.527969,
+            "welfare_ratio": 0.402632,
+            "budget_total": 1557797805719
+          }
         },
-        "indicators": {
-          "population": 464000,
-          "area_km2": 81.54,
-          "fiscal_self_ratio": 0.527969,
-          "welfare_ratio": 0.402632,
-          "budget_total": 1557797805719
-        }
-      },
-      {
-        "region_id": "47170",
-        "sig_cd": "47170",
-        "name": "경상북도 안동시",
-        "rtype": "시",
-        "similarity": 0.681274,
-        "weighted_distance": 0.467839,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 1.0393,
-          "area_km2": 1.0295,
-          "fiscal_self_ratio": 1.8761,
-          "welfare_ratio": 0.2875,
-          "budget_total": 0.9065
+        {
+          "region_id": "47170",
+          "sig_cd": "47170",
+          "name": "경상북도 안동시",
+          "rtype": "시",
+          "similarity": 0.681274,
+          "weighted_distance": 0.467839,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 1.0393,
+            "area_km2": 1.0295,
+            "fiscal_self_ratio": 1.8761,
+            "welfare_ratio": 0.2875,
+            "budget_total": 0.9065
+          },
+          "indicators": {
+            "population": 154000,
+            "area_km2": 1521.3,
+            "fiscal_self_ratio": 0.408608,
+            "welfare_ratio": 0.419728,
+            "budget_total": 338578558644
+          }
         },
-        "indicators": {
-          "population": 154000,
-          "area_km2": 1521.3,
-          "fiscal_self_ratio": 0.408608,
-          "welfare_ratio": 0.419728,
-          "budget_total": 338578558644
-        }
-      },
-      {
-        "region_id": "26140",
-        "sig_cd": "26140",
-        "name": "부산광역시 서구",
-        "rtype": "자치구",
-        "similarity": 0.667424,
-        "weighted_distance": 0.498297,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 0.9521,
-          "area_km2": 2.2106,
-          "fiscal_self_ratio": 1.9954,
-          "welfare_ratio": 2.1248,
-          "budget_total": 0.4039
+        {
+          "region_id": "26140",
+          "sig_cd": "26140",
+          "name": "부산광역시 서구",
+          "rtype": "자치구",
+          "similarity": 0.667424,
+          "weighted_distance": 0.498297,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 0.9521,
+            "area_km2": 2.2106,
+            "fiscal_self_ratio": 1.9954,
+            "welfare_ratio": 2.1248,
+            "budget_total": 0.4039
+          },
+          "indicators": {
+            "population": 105000,
+            "area_km2": 13.93,
+            "fiscal_self_ratio": 0.582435,
+            "welfare_ratio": 0.305867,
+            "budget_total": 219864922180
+          }
         },
-        "indicators": {
-          "population": 105000,
-          "area_km2": 13.93,
-          "fiscal_self_ratio": 0.582435,
-          "welfare_ratio": 0.305867,
-          "budget_total": 219864922180
-        }
-      },
-      {
-        "region_id": "26170",
-        "sig_cd": "26170",
-        "name": "부산광역시 동구",
-        "rtype": "자치구",
-        "similarity": 0.662779,
-        "weighted_distance": 0.508799,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 0.2666,
-          "area_km2": 0.6271,
-          "fiscal_self_ratio": 1.0187,
-          "welfare_ratio": 1.487,
-          "budget_total": 0.6161
+        {
+          "region_id": "26170",
+          "sig_cd": "26170",
+          "name": "부산광역시 동구",
+          "rtype": "자치구",
+          "similarity": 0.662779,
+          "weighted_distance": 0.508799,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 0.2666,
+            "area_km2": 0.6271,
+            "fiscal_self_ratio": 1.0187,
+            "welfare_ratio": 1.487,
+            "budget_total": 0.6161
+          },
+          "indicators": {
+            "population": 85000,
+            "area_km2": 9.78,
+            "fiscal_self_ratio": 0.648887,
+            "welfare_ratio": 0.350337,
+            "budget_total": 305240358155
+          }
         },
-        "indicators": {
-          "population": 85000,
-          "area_km2": 9.78,
-          "fiscal_self_ratio": 0.648887,
-          "welfare_ratio": 0.350337,
-          "budget_total": 305240358155
-        }
-      },
-      {
-        "region_id": "41190",
-        "sig_cd": "41190",
-        "name": "경기도 부천시",
-        "rtype": "시",
-        "similarity": 0.529037,
-        "weighted_distance": 0.890228,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 2.3962,
-          "area_km2": 0.8056,
-          "fiscal_self_ratio": 0.3468,
-          "welfare_ratio": 1.2841,
-          "budget_total": 0.7129
+        {
+          "region_id": "41190",
+          "sig_cd": "41190",
+          "name": "경기도 부천시",
+          "rtype": "시",
+          "similarity": 0.529037,
+          "weighted_distance": 0.890228,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 2.3962,
+            "area_km2": 0.8056,
+            "fiscal_self_ratio": 0.3468,
+            "welfare_ratio": 1.2841,
+            "budget_total": 0.7129
+          },
+          "indicators": {
+            "population": 770000,
+            "area_km2": 53.44,
+            "fiscal_self_ratio": 0.464972,
+            "welfare_ratio": 0.204794,
+            "budget_total": 1601795798246
+          }
         },
-        "indicators": {
-          "population": 770000,
-          "area_km2": 53.44,
-          "fiscal_self_ratio": 0.464972,
-          "welfare_ratio": 0.204794,
-          "budget_total": 1601795798246
+        {
+          "region_id": "11200",
+          "sig_cd": "11200",
+          "name": "서울특별시 성동구",
+          "rtype": "자치구",
+          "similarity": 0.490114,
+          "weighted_distance": 1.04034,
+          "policy_profile_cosine": null,
+          "indicator_gap_sd": {
+            "population": 0.9279,
+            "area_km2": 1.5503,
+            "fiscal_self_ratio": 0.1457,
+            "welfare_ratio": 0.299,
+            "budget_total": 1.5942
+          },
+          "indicators": {
+            "population": 275000,
+            "area_km2": 16.86,
+            "fiscal_self_ratio": 0.411694,
+            "welfare_ratio": 0.361417,
+            "budget_total": 958616032367
+          }
         }
-      },
-      {
-        "region_id": "11200",
-        "sig_cd": "11200",
-        "name": "서울특별시 성동구",
-        "rtype": "자치구",
-        "similarity": 0.490114,
-        "weighted_distance": 1.04034,
-        "policy_profile_cosine": null,
-        "indicator_gap_sd": {
-          "population": 0.9279,
-          "area_km2": 1.5503,
-          "fiscal_self_ratio": 0.1457,
-          "welfare_ratio": 0.299,
-          "budget_total": 1.5942
-        },
-        "indicators": {
-          "population": 275000,
-          "area_km2": 16.86,
-          "fiscal_self_ratio": 0.411694,
-          "welfare_ratio": 0.361417,
-          "budget_total": 958616032367
-        }
-      }
-    ],
-    "method": {
-      "partition_by_type": true,
-      "candidate_pool": 19,
-      "weights": {
-        "population": 0.25,
-        "area_km2": 0.13,
-        "fiscal_self_ratio": 0.3,
-        "welfare_ratio": 0.07,
-        "budget_total": 0.25
-      },
-      "weight_provenance": {
-        "population": "ours",
-        "area_km2": "ours",
-        "budget_total": "ours",
-        "fiscal_self_ratio": "mois_public",
-        "welfare_ratio": "mois_public"
-      },
-      "policy_profile_weight": 0.0,
-      "min_indicator_coverage": 0.6,
-      "missing_mois_indicators": [
-        "인구증감률",
-        "고령인구비율",
-        "조출생률"
       ],
-      "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d)."
-    },
-    "target": {
-      "region_id": "11110",
-      "sig_cd": "11110",
-      "name": "서울특별시 종로구",
-      "rtype": "자치구",
-      "indicators": {
-        "population": 138000,
-        "area_km2": 23.91,
-        "fiscal_self_ratio": 0.610839,
-        "welfare_ratio": 0.274934,
-        "budget_total": 341652425650
-      }
-    },
-    "_engine": "analytics.peers.find_similar_governments"
+      "method": {
+        "partition_by_type": true,
+        "candidate_pool": 19,
+        "weights": {
+          "population": 0.25,
+          "area_km2": 0.13,
+          "fiscal_self_ratio": 0.3,
+          "welfare_ratio": 0.07,
+          "budget_total": 0.25
+        },
+        "weight_provenance": {
+          "population": "ours",
+          "area_km2": "ours",
+          "budget_total": "ours",
+          "fiscal_self_ratio": "mois_public",
+          "welfare_ratio": "mois_public"
+        },
+        "policy_profile_weight": 0.0,
+        "min_indicator_coverage": 0.6,
+        "missing_mois_indicators": [
+          "인구증감률",
+          "고령인구비율",
+          "조출생률"
+        ],
+        "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d)."
+      },
+      "target": {
+        "region_id": "11110",
+        "sig_cd": "11110",
+        "name": "서울특별시 종로구",
+        "rtype": "자치구",
+        "indicators": {
+          "population": 138000,
+          "area_km2": 23.91,
+          "fiscal_self_ratio": 0.610839,
+          "welfare_ratio": 0.274934,
+          "budget_total": 341652425650
+        }
+      },
+      "_engine": "analytics.peers.find_similar_governments"
+    }
   },
   "as_of_date": "2026-08-21",
   "stale": false,
   "execution_allowed": false,
-  "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오."
+  "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오.",
+  "regions": [
+    "11110"
+  ]
 }
