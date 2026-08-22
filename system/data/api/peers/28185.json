@@ -1,0 +1,330 @@
+{
+ "data": {
+  "28185": {
+   "target": {
+    "region_id": "28185",
+    "sig_cd": "28185",
+    "name": "인천광역시 연수구",
+    "rtype": "자치구",
+    "indicators": {
+     "population": 410280.0,
+     "area_km2": 56.96773607226945,
+     "fiscal_self_ratio": 0.45011105307805743,
+     "welfare_ratio": 0.46746452118346454,
+     "budget_total": 1169327904471.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "27260",
+     "sig_cd": "27260",
+     "name": "대구광역시 수성구",
+     "rtype": "자치구",
+     "similarity": 0.564276,
+     "weighted_distance": 0.243945,
+     "policy_profile_cosine": 0.1193,
+     "indicator_gap_sd": {
+      "population": 0.0109,
+      "area_km2": 0.3513,
+      "fiscal_self_ratio": 0.3307,
+      "welfare_ratio": 0.3765,
+      "budget_total": 0.0536
+     },
+     "indicators": {
+      "population": 407820.0,
+      "area_km2": 76.66856930534786,
+      "fiscal_self_ratio": 0.41070346238729105,
+      "welfare_ratio": 0.49940302636587697,
+      "budget_total": 1190641945258.0
+     }
+    },
+    {
+     "region_id": "26350",
+     "sig_cd": "26350",
+     "name": "부산광역시 해운대구",
+     "rtype": "자치구",
+     "similarity": 0.563781,
+     "weighted_distance": 0.230734,
+     "policy_profile_cosine": 0.1018,
+     "indicator_gap_sd": {
+      "population": 0.1852,
+      "area_km2": 0.1035,
+      "fiscal_self_ratio": 0.2682,
+      "welfare_ratio": 0.1062,
+      "budget_total": 0.2892
+     },
+     "indicators": {
+      "population": 370275.0,
+      "area_km2": 52.192653453532856,
+      "fiscal_self_ratio": 0.41814432768504417,
+      "welfare_ratio": 0.4764703911880995,
+      "budget_total": 1289127536904.0
+     }
+    },
+    {
+     "region_id": "28245",
+     "sig_cd": "28245",
+     "name": "인천광역시 계양구",
+     "rtype": "자치구",
+     "similarity": 0.518666,
+     "weighted_distance": 0.541665,
+     "policy_profile_cosine": 0.2773,
+     "indicator_gap_sd": {
+      "population": 0.7146,
+      "area_km2": 0.268,
+      "fiscal_self_ratio": 0.3923,
+      "welfare_ratio": 0.7041,
+      "budget_total": 0.5496
+     },
+     "indicators": {
+      "population": 276125.0,
+      "area_km2": 45.41671903146028,
+      "fiscal_self_ratio": 0.40335229953060914,
+      "welfare_ratio": 0.5271940585103504,
+      "budget_total": 971468049995.0
+     }
+    },
+    {
+     "region_id": "31140",
+     "sig_cd": "31140",
+     "name": "울산광역시 남구",
+     "rtype": "자치구",
+     "similarity": 0.505471,
+     "weighted_distance": 0.436032,
+     "policy_profile_cosine": 0.151,
+     "indicator_gap_sd": {
+      "population": 0.5386,
+      "area_km2": 0.2991,
+      "fiscal_self_ratio": 0.2621,
+      "welfare_ratio": 0.2426,
+      "budget_total": 0.5701
+     },
+     "indicators": {
+      "population": 304418.0,
+      "area_km2": 73.36104323951832,
+      "fiscal_self_ratio": 0.4188736823108785,
+      "welfare_ratio": 0.44688389339374346,
+      "budget_total": 964774447756.0
+     }
+    },
+    {
+     "region_id": "30170",
+     "sig_cd": "30170",
+     "name": "대전광역시 서구",
+     "rtype": "자치구",
+     "similarity": 0.485923,
+     "weighted_distance": 0.486391,
+     "policy_profile_cosine": 0.1389,
+     "indicator_gap_sd": {
+      "population": 0.2237,
+      "area_km2": 0.6104,
+      "fiscal_self_ratio": 0.4523,
+      "welfare_ratio": 0.2625,
+      "budget_total": 0.6616
+     },
+     "indicators": {
+      "population": 464428.0,
+      "area_km2": 95.44799807966305,
+      "fiscal_self_ratio": 0.3962107498513966,
+      "welfare_ratio": 0.4897334761917757,
+      "budget_total": 1461715657395.0
+     }
+    },
+    {
+     "region_id": "11380",
+     "sig_cd": "11380",
+     "name": "서울특별시 은평구",
+     "rtype": "자치구",
+     "similarity": 0.475795,
+     "weighted_distance": 0.48662,
+     "policy_profile_cosine": 0.1102,
+     "indicator_gap_sd": {
+      "population": 0.179,
+      "area_km2": 0.7718,
+      "fiscal_self_ratio": 0.0567,
+      "welfare_ratio": 0.6483,
+      "budget_total": 0.6956
+     },
+     "indicators": {
+      "population": 453056.0,
+      "area_km2": 29.664530939883793,
+      "fiscal_self_ratio": 0.443351818402146,
+      "welfare_ratio": 0.5224566458198264,
+      "budget_total": 1478573118862.0
+     }
+    },
+    {
+     "region_id": "11620",
+     "sig_cd": "11620",
+     "name": "서울특별시 관악구",
+     "rtype": "자치구",
+     "similarity": 0.474956,
+     "weighted_distance": 0.528258,
+     "policy_profile_cosine": 0.1418,
+     "indicator_gap_sd": {
+      "population": 0.2738,
+      "area_km2": 0.7716,
+      "fiscal_self_ratio": 0.4298,
+      "welfare_ratio": 0.3395,
+      "budget_total": 0.6911
+     },
+     "indicators": {
+      "population": 477503.0,
+      "area_km2": 29.667315008817397,
+      "fiscal_self_ratio": 0.5013335200642892,
+      "welfare_ratio": 0.49626302881948325,
+      "budget_total": 1476334398500.0
+     }
+    },
+    {
+     "region_id": "28177",
+     "sig_cd": "28177",
+     "name": "인천광역시 미추홀구",
+     "rtype": "자치구",
+     "similarity": 0.46922,
+     "weighted_distance": 0.754379,
+     "policy_profile_cosine": 0.2821,
+     "indicator_gap_sd": {
+      "population": 0.0368,
+      "area_km2": 0.9753,
+      "fiscal_self_ratio": 0.9293,
+      "welfare_ratio": 1.4075,
+      "budget_total": 0.4352
+     },
+     "indicators": {
+      "population": 418721.0,
+      "area_km2": 24.97502572369192,
+      "fiscal_self_ratio": 0.33935629060583083,
+      "welfare_ratio": 0.5868614928731496,
+      "budget_total": 1354232661627.0
+     }
+    },
+    {
+     "region_id": "28200",
+     "sig_cd": "28200",
+     "name": "인천광역시 남동구",
+     "rtype": "자치구",
+     "similarity": 0.468635,
+     "weighted_distance": 0.700303,
+     "policy_profile_cosine": 0.2467,
+     "indicator_gap_sd": {
+      "population": 0.2786,
+      "area_km2": 0.0132,
+      "fiscal_self_ratio": 0.8983,
+      "welfare_ratio": 1.1122,
+      "budget_total": 0.7546
+     },
+     "indicators": {
+      "population": 478762.0,
+      "area_km2": 57.608568452972705,
+      "fiscal_self_ratio": 0.3430534691314766,
+      "welfare_ratio": 0.5618101121330409,
+      "budget_total": 1508263823310.0
+     }
+    },
+    {
+     "region_id": "30200",
+     "sig_cd": "30200",
+     "name": "대전광역시 유성구",
+     "rtype": "자치구",
+     "similarity": 0.463554,
+     "weighted_distance": 0.567191,
+     "policy_profile_cosine": 0.1394,
+     "indicator_gap_sd": {
+      "population": 0.1775,
+      "area_km2": 1.333,
+      "fiscal_self_ratio": 0.2089,
+      "welfare_ratio": 0.9738,
+      "budget_total": 0.1159
+     },
+     "indicators": {
+      "population": 371855.0,
+      "area_km2": 175.83586918831875,
+      "fiscal_self_ratio": 0.42520838602212785,
+      "welfare_ratio": 0.5500733082165018,
+      "budget_total": 1124488583050.0
+     }
+    },
+    {
+     "region_id": "27230",
+     "sig_cd": "27230",
+     "name": "대구광역시 북구",
+     "rtype": "자치구",
+     "similarity": 0.45419,
+     "weighted_distance": 0.592904,
+     "policy_profile_cosine": 0.1318,
+     "indicator_gap_sd": {
+      "population": 0.0163,
+      "area_km2": 0.5905,
+      "fiscal_self_ratio": 0.9335,
+      "welfare_ratio": 0.7493,
+      "budget_total": 0.1473
+     },
+     "indicators": {
+      "population": 406587.0,
+      "area_km2": 93.85419900870917,
+      "fiscal_self_ratio": 0.33885747126402,
+      "welfare_ratio": 0.5310309060982301,
+      "budget_total": 1228883661640.0
+     }
+    },
+    {
+     "region_id": "28237",
+     "sig_cd": "28237",
+     "name": "인천광역시 부평구",
+     "rtype": "자치구",
+     "similarity": 0.45324,
+     "weighted_distance": 0.779014,
+     "policy_profile_cosine": 0.2511,
+     "indicator_gap_sd": {
+      "population": 0.3118,
+      "area_km2": 0.6792,
+      "fiscal_self_ratio": 0.9415,
+      "welfare_ratio": 1.4046,
+      "budget_total": 0.6886
+     },
+     "indicators": {
+      "population": 487661.0,
+      "area_km2": 32.079011756913474,
+      "fiscal_self_ratio": 0.3378997351403976,
+      "welfare_ratio": 0.5866219464499821,
+      "budget_total": 1475055292896.0
+     }
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 69,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.35,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d)."
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "28185"
+ ]
+}

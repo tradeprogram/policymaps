@@ -1,0 +1,330 @@
+{
+ "data": {
+  "48860": {
+   "target": {
+    "region_id": "48860",
+    "sig_cd": "48860",
+    "name": "경상남도 산청군",
+    "rtype": "군",
+    "indicators": {
+     "population": 32634.0,
+     "area_km2": 791.7727291666156,
+     "fiscal_self_ratio": 0.5946612708782062,
+     "welfare_ratio": 0.11240427349074457,
+     "budget_total": 1112767149910.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "48890",
+     "sig_cd": "48890",
+     "name": "경상남도 합천군",
+     "rtype": "군",
+     "similarity": 0.581856,
+     "weighted_distance": 0.271867,
+     "policy_profile_cosine": 0.2023,
+     "indicator_gap_sd": {
+      "population": 0.3123,
+      "area_km2": 0.429,
+      "fiscal_self_ratio": 0.0155,
+      "welfare_ratio": 0.4562,
+      "budget_total": 0.2093
+     },
+     "indicators": {
+      "population": 38812.0,
+      "area_km2": 983.9437374755894,
+      "fiscal_self_ratio": 0.5937350402999554,
+      "welfare_ratio": 0.13317661128424121,
+      "budget_total": 1177401306340.0
+     }
+    },
+    {
+     "region_id": "43760",
+     "sig_cd": "43760",
+     "name": "충청북도 괴산군",
+     "rtype": "군",
+     "similarity": 0.505985,
+     "weighted_distance": 0.393234,
+     "policy_profile_cosine": 0.1127,
+     "indicator_gap_sd": {
+      "population": 0.2391,
+      "area_km2": 0.1209,
+      "fiscal_self_ratio": 0.4877,
+      "welfare_ratio": 0.459,
+      "budget_total": 0.4575
+     },
+     "indicators": {
+      "population": 37267.0,
+      "area_km2": 841.7736971048258,
+      "fiscal_self_ratio": 0.6237963227017675,
+      "welfare_ratio": 0.1333005540337753,
+      "budget_total": 983560369950.0
+     }
+    },
+    {
+     "region_id": "48820",
+     "sig_cd": "48820",
+     "name": "경상남도 고성군",
+     "rtype": "군",
+     "similarity": 0.462485,
+     "weighted_distance": 0.638425,
+     "policy_profile_cosine": 0.1879,
+     "indicator_gap_sd": {
+      "population": 0.6484,
+      "area_km2": 0.8288,
+      "fiscal_self_ratio": 0.5853,
+      "welfare_ratio": 0.9094,
+      "budget_total": 0.4585
+     },
+     "indicators": {
+      "population": 46771.0,
+      "area_km2": 520.3597060251268,
+      "fiscal_self_ratio": 0.6296257468150512,
+      "welfare_ratio": 0.15380633374505823,
+      "budget_total": 983314217220.0
+     }
+    },
+    {
+     "region_id": "52790",
+     "sig_cd": "52790",
+     "name": "전북특별자치도 고창군",
+     "rtype": "군",
+     "similarity": 0.449936,
+     "weighted_distance": 0.538121,
+     "policy_profile_cosine": 0.0781,
+     "indicator_gap_sd": {
+      "population": 0.7688,
+      "area_km2": 0.5081,
+      "fiscal_self_ratio": 0.0469,
+      "welfare_ratio": 1.2103,
+      "budget_total": 0.142
+     },
+     "indicators": {
+      "population": 50006.0,
+      "area_km2": 612.1136811600197,
+      "fiscal_self_ratio": 0.5974607952269567,
+      "welfare_ratio": 0.16750647031969854,
+      "budget_total": 1070958283030.0
+     }
+    },
+    {
+     "region_id": "52800",
+     "sig_cd": "52800",
+     "name": "전북특별자치도 부안군",
+     "rtype": "군",
+     "similarity": 0.43868,
+     "weighted_distance": 0.605513,
+     "policy_profile_cosine": 0.0966,
+     "indicator_gap_sd": {
+      "population": 0.6543,
+      "area_km2": 0.9161,
+      "fiscal_self_ratio": 0.0155,
+      "welfare_ratio": 1.041,
+      "budget_total": 0.5463
+     },
+     "indicators": {
+      "population": 46926.0,
+      "area_km2": 497.86600592175944,
+      "fiscal_self_ratio": 0.5955876282798933,
+      "welfare_ratio": 0.15979878453481267,
+      "budget_total": 960301655840.0
+     }
+    },
+    {
+     "region_id": "47730",
+     "sig_cd": "47730",
+     "name": "경상북도 의성군",
+     "rtype": "군",
+     "similarity": 0.438362,
+     "weighted_distance": 0.675333,
+     "policy_profile_cosine": 0.1439,
+     "indicator_gap_sd": {
+      "population": 0.6921,
+      "area_km2": 0.77,
+      "fiscal_self_ratio": 0.647,
+      "welfare_ratio": 1.0583,
+      "budget_total": 0.4702
+     },
+     "indicators": {
+      "population": 47920.0,
+      "area_km2": 1169.3934595363646,
+      "fiscal_self_ratio": 0.6333155757654629,
+      "welfare_ratio": 0.1605860460917936,
+      "budget_total": 1263246282582.0
+     }
+    },
+    {
+     "region_id": "48870",
+     "sig_cd": "48870",
+     "name": "경상남도 함양군",
+     "rtype": "군",
+     "similarity": 0.432965,
+     "weighted_distance": 0.843369,
+     "policy_profile_cosine": 0.2296,
+     "indicator_gap_sd": {
+      "population": 0.1323,
+      "area_km2": 0.1851,
+      "fiscal_self_ratio": 1.3844,
+      "welfare_ratio": 0.2993,
+      "budget_total": 0.6962
+     },
+     "indicators": {
+      "population": 35121.0,
+      "area_km2": 720.9300508649069,
+      "fiscal_self_ratio": 0.6773674757128554,
+      "welfare_ratio": 0.1260308436673286,
+      "budget_total": 922229333851.0
+     }
+    },
+    {
+     "region_id": "48850",
+     "sig_cd": "48850",
+     "name": "경상남도 하동군",
+     "rtype": "군",
+     "similarity": 0.424233,
+     "weighted_distance": 0.922439,
+     "policy_profile_cosine": 0.2461,
+     "indicator_gap_sd": {
+      "population": 0.3458,
+      "area_km2": 0.3057,
+      "fiscal_self_ratio": 1.6058,
+      "welfare_ratio": 0.5823,
+      "budget_total": 0.2152
+     },
+     "indicators": {
+      "population": 39539.0,
+      "area_km2": 678.1944176611879,
+      "fiscal_self_ratio": 0.6905900606589231,
+      "welfare_ratio": 0.13891555439684697,
+      "budget_total": 1050013015341.0
+     }
+    },
+    {
+     "region_id": "44760",
+     "sig_cd": "44760",
+     "name": "충청남도 부여군",
+     "rtype": "군",
+     "similarity": 0.421903,
+     "weighted_distance": 0.74363,
+     "policy_profile_cosine": 0.1403,
+     "indicator_gap_sd": {
+      "population": 1.0262,
+      "area_km2": 0.4702,
+      "fiscal_self_ratio": 0.3875,
+      "welfare_ratio": 1.5728,
+      "budget_total": 0.4135
+     },
+     "indicators": {
+      "population": 57687.0,
+      "area_km2": 623.9895899164068,
+      "fiscal_self_ratio": 0.571512918236276,
+      "welfare_ratio": 0.18401428104818404,
+      "budget_total": 1244068735785.0
+     }
+    },
+    {
+     "region_id": "44790",
+     "sig_cd": "44790",
+     "name": "충청남도 청양군",
+     "rtype": "군",
+     "similarity": 0.417242,
+     "weighted_distance": 0.776171,
+     "policy_profile_cosine": 0.1465,
+     "indicator_gap_sd": {
+      "population": 0.1497,
+      "area_km2": 0.99,
+      "fiscal_self_ratio": 0.7381,
+      "welfare_ratio": 0.8632,
+      "budget_total": 1.0076
+     },
+     "indicators": {
+      "population": 30032.0,
+      "area_km2": 479.553072260773,
+      "fiscal_self_ratio": 0.6387544887081615,
+      "welfare_ratio": 0.15170694961081901,
+      "budget_total": 847922594713.0
+     }
+    },
+    {
+     "region_id": "47900",
+     "sig_cd": "47900",
+     "name": "경상북도 예천군",
+     "rtype": "군",
+     "similarity": 0.416022,
+     "weighted_distance": 0.759661,
+     "policy_profile_cosine": 0.1332,
+     "indicator_gap_sd": {
+      "population": 0.8851,
+      "area_km2": 0.3464,
+      "fiscal_self_ratio": 0.0636,
+      "welfare_ratio": 1.6438,
+      "budget_total": 0.8373
+     },
+     "indicators": {
+      "population": 53340.0,
+      "area_km2": 664.3846930316918,
+      "fiscal_self_ratio": 0.5908588946249276,
+      "welfare_ratio": 0.18724656520677307,
+      "budget_total": 887789458869.0
+     }
+    },
+    {
+     "region_id": "52720",
+     "sig_cd": "52720",
+     "name": "전북특별자치도 진안군",
+     "rtype": "군",
+     "similarity": 0.414741,
+     "weighted_distance": 0.719101,
+     "policy_profile_cosine": 0.1047,
+     "indicator_gap_sd": {
+      "population": 0.4905,
+      "area_km2": 0.0067,
+      "fiscal_self_ratio": 0.6008,
+      "welfare_ratio": 0.6325,
+      "budget_total": 1.1325
+     },
+     "indicators": {
+      "population": 24855.0,
+      "area_km2": 789.0882475507542,
+      "fiscal_self_ratio": 0.630555956118352,
+      "welfare_ratio": 0.14120152035497063,
+      "budget_total": 819832544430.0
+     }
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 81,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.35,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d)."
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "48860"
+ ]
+}

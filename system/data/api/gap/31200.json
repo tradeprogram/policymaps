@@ -1,0 +1,1527 @@
+{
+ "data": {
+  "31200": {
+   "target": {
+    "region_id": "31200",
+    "sig_cd": "31200",
+    "name": "울산광역시 북구",
+    "rtype": "자치구",
+    "indicators": {
+     "population": 213512.0,
+     "area_km2": 158.05218004069405,
+     "fiscal_self_ratio": 0.40444988152418926,
+     "welfare_ratio": 0.4496665133721688,
+     "budget_total": 664788608892.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "26410",
+     "name": "부산광역시 금정구"
+    },
+    {
+     "region_id": "30230",
+     "name": "대전광역시 대덕구"
+    },
+    {
+     "region_id": "31110",
+     "name": "울산광역시 중구"
+    },
+    {
+     "region_id": "30110",
+     "name": "대전광역시 동구"
+    },
+    {
+     "region_id": "31140",
+     "name": "울산광역시 남구"
+    },
+    {
+     "region_id": "30140",
+     "name": "대전광역시 중구"
+    },
+    {
+     "region_id": "26530",
+     "name": "부산광역시 사상구"
+    },
+    {
+     "region_id": "31170",
+     "name": "울산광역시 동구"
+    },
+    {
+     "region_id": "28245",
+     "name": "인천광역시 계양구"
+    },
+    {
+     "region_id": "26320",
+     "name": "부산광역시 북구"
+    },
+    {
+     "region_id": "26290",
+     "name": "부산광역시 남구"
+    },
+    {
+     "region_id": "30200",
+     "name": "대전광역시 유성구"
+    }
+   ],
+   "peer_pool_size": 12,
+   "my_policy_count": 375,
+   "suppressed_exact_duplicate": 230,
+   "flagged_as_variant": 134,
+   "recommendations": [
+    {
+     "policy_key": "생활임금",
+     "peer_count": 10,
+     "peer_share": 0.8333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "생활민원 처리",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1322110",
+       "ordinance_name": "부산광역시 사상구 생활임금 조례",
+       "enacted_on": "20171228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1322110&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1610693",
+       "ordinance_name": "대전광역시 동구 생활임금 조례",
+       "enacted_on": "20210701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1610693&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "ordinance_id": "ordin:1689729",
+       "ordinance_name": "인천광역시 계양구 생활임금 조례",
+       "enacted_on": "20220311",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1689729&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1735115",
+       "ordinance_name": "부산광역시 북구 생활임금 조례",
+       "enacted_on": "20221012",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1735115&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1835053",
+       "ordinance_name": "대전광역시 중구 생활임금 조례",
+       "enacted_on": "20230711",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1835053&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "재향군인 예우 및 지원",
+     "peer_count": 10,
+     "peer_share": 0.8333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "병역명문가 예우 및 지원",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:738908",
+       "ordinance_name": "부산광역시 사상구 재향군인 등 예우 및 지원에 관한 조례",
+       "enacted_on": "20141226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=738908&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26410",
+       "name": "부산광역시 금정구",
+       "ordinance_id": "ordin:1356103",
+       "ordinance_name": "부산광역시 금정구 재향군인 등 예우 및 지원에 관한 조례",
+       "enacted_on": "20180820",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1356103&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1390358",
+       "ordinance_name": "부산광역시 북구 재향군인 등 예우 및 지원에 관한 조례",
+       "enacted_on": "20190410",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1390358&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1504779",
+       "ordinance_name": "부산광역시 남구 재향군인 등 예우 및 지원에 관한 조례",
+       "enacted_on": "20200605",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1504779&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30200",
+       "name": "대전광역시 유성구",
+       "ordinance_id": "ordin:1651091",
+       "ordinance_name": "대전광역시 유성구 재향군인 예우 및 지원에 관한 조례",
+       "enacted_on": "20211224",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1651091&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "지역상권 상생 및 활성화",
+     "peer_count": 10,
+     "peer_share": 0.8333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "도시재생 활성화 및 지원",
+      "similarity": 0.375
+     },
+     "peers": [
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1730825",
+       "ordinance_name": "대전광역시 대덕구 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20220930",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1730825&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1730735",
+       "ordinance_name": "대전광역시 동구 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20220930",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1730735&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1735119",
+       "ordinance_name": "부산광역시 북구 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221012",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1735119&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1739101",
+       "ordinance_name": "대전광역시 중구 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221020",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1739101&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "ordinance_id": "ordin:1739375",
+       "ordinance_name": "인천광역시 계양구 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221021",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1739375&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "지역아동센터 운영 및 지원",
+     "peer_count": 10,
+     "peer_share": 0.8333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "장애인 인권센터 설치 및 운영지원",
+      "similarity": 0.381
+     },
+     "peers": [
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:968459",
+       "ordinance_name": "부산광역시 남구 지역아동센터 운영 및 지원에 관한 조례",
+       "enacted_on": "20130621",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=968459&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1223727",
+       "ordinance_name": "부산광역시 사상구 지역아동센터 운영 및 지원 조례",
+       "enacted_on": "20160324",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1223727&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31140",
+       "name": "울산광역시 남구",
+       "ordinance_id": "ordin:1233862",
+       "ordinance_name": "울산광역시 남구 지역아동센터 운영 및 지원에 관한 조례",
+       "enacted_on": "20160520",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1233862&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1394138",
+       "ordinance_name": "대전광역시 동구 지역아동센터 운영 및 지원 조례",
+       "enacted_on": "20190515",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1394138&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "ordinance_id": "ordin:1419147",
+       "ordinance_name": "울산광역시 동구 지역아동센터 운영 및 지원에 관한 조례",
+       "enacted_on": "20191031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1419147&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "고독사 예방 및 사회적 고립가구 지원",
+     "peer_count": 9,
+     "peer_share": 0.75,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "고독사 예방 및 지원",
+      "similarity": 0.526
+     },
+     "peers": [
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1409559",
+       "ordinance_name": "부산광역시 사상구 고독사 예방 및 사회적 고립가구 지원 조례",
+       "enacted_on": "20190919",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1409559&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1847847",
+       "ordinance_name": "대전광역시 중구 고독사 예방 및 사회적 고립가구 지원 조례",
+       "enacted_on": "20230816",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1847847&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "ordinance_id": "ordin:1926059",
+       "ordinance_name": "인천광역시 계양구 고독사 예방 및 사회적 고립가구 지원 조례",
+       "enacted_on": "20240510",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1926059&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1932363",
+       "ordinance_name": "대전광역시 동구 고독사 예방 및 사회적 고립가구 지원에 관한 조례",
+       "enacted_on": "20240522",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1932363&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1978623",
+       "ordinance_name": "부산광역시 북구 고독사 예방 및 사회적 고립가구 지원에 관한 조례",
+       "enacted_on": "20241023",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1978623&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "아동학대 예방 및 피해아동 보호",
+     "peer_count": 9,
+     "peer_share": 0.75,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "장애인학대 예방 및 피해장애인 보호·지원",
+      "similarity": 0.522
+     },
+     "peers": [
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1310784",
+       "ordinance_name": "대전광역시 중구 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20171108",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1310784&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1618725",
+       "ordinance_name": "대전광역시 대덕구 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20210730",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1618725&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26410",
+       "name": "부산광역시 금정구",
+       "ordinance_id": "ordin:1621419",
+       "ordinance_name": "부산광역시 금정구 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20210811",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1621419&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "ordinance_id": "ordin:1649255",
+       "ordinance_name": "울산광역시 동구 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20211216",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1649255&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1680047",
+       "ordinance_name": "부산광역시 사상구 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20220127",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1680047&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "자치분권 촉진 및 지원",
+     "peer_count": 9,
+     "peer_share": 0.75,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "repealed_on": "20231228"
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "repealed_on": "20240612"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통안전 증진을 위한 지원",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "26410",
+       "name": "부산광역시 금정구",
+       "ordinance_id": "ordin:1241978",
+       "ordinance_name": "부산광역시 금정구 자치분권 촉진·지원 조례",
+       "enacted_on": "20160708",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1241978&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31110",
+       "name": "울산광역시 중구",
+       "ordinance_id": "ordin:1288084",
+       "ordinance_name": "울산광역시 중구 자치분권 촉진 및 지원 조례",
+       "enacted_on": "20170529",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1288084&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "ordinance_id": "ordin:1430003",
+       "ordinance_name": "울산광역시 동구 자치분권 촉진 및 지원 조례",
+       "enacted_on": "20191031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1430003&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1534511",
+       "ordinance_name": "대전광역시 동구 자치분권 촉진·지원 조례",
+       "enacted_on": "20201007",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1534511&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "ordinance_id": "ordin:1626603",
+       "ordinance_name": "인천광역시 계양구 자치분권 촉진 및 지원 조례",
+       "enacted_on": "20210924",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626603&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의회 건의안 및 결의안 관리",
+     "peer_count": 8,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "출자ㆍ출연 기관 사이버보안 관리",
+      "similarity": 0.2
+     },
+     "peers": [
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1413880",
+       "ordinance_name": "대전광역시 대덕구의회 건의안 및 결의안 관리에 관한 조례",
+       "enacted_on": "20191018",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1413880&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1578081",
+       "ordinance_name": "대전광역시 동구의회 건의안 및 결의안 관리 조례",
+       "enacted_on": "20210308",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1578081&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31140",
+       "name": "울산광역시 남구",
+       "ordinance_id": "ordin:1603691",
+       "ordinance_name": "울산광역시 남구의회 건의안 및 결의안 관리에 관한 조례",
+       "enacted_on": "20210611",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1603691&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1616775",
+       "ordinance_name": "대전광역시 중구의회 건의안 및 결의안 관리에 관한 조례",
+       "enacted_on": "20210719",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1616775&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30200",
+       "name": "대전광역시 유성구",
+       "ordinance_id": "ordin:1906729",
+       "ordinance_name": "대전광역시 유성구의회 건의안 및 결의안 관리에 관한 조례",
+       "enacted_on": "20240214",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1906729&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "조례 입법평가",
+     "peer_count": 8,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "성별영향평가",
+      "similarity": 0.2
+     },
+     "peers": [
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:741857",
+       "ordinance_name": "부산광역시 사상구 조례 입법평가 조례",
+       "enacted_on": "20150409",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=741857&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26410",
+       "name": "부산광역시 금정구",
+       "ordinance_id": "ordin:1198647",
+       "ordinance_name": "부산광역시 금정구 조례 입법평가 조례",
+       "enacted_on": "20151030",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1198647&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1394597",
+       "ordinance_name": "대전광역시 대덕구 조례 입법평가 조례",
+       "enacted_on": "20190517",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1394597&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1395589",
+       "ordinance_name": "부산광역시 북구 조례 입법평가 조례",
+       "enacted_on": "20190529",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395589&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "ordinance_id": "ordin:1418121",
+       "ordinance_name": "울산광역시 동구 조례 입법평가 조례",
+       "enacted_on": "20191031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418121&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "개인형 이동장치 이용 안전증진",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통안전 증진을 위한 지원",
+      "similarity": 0.316
+     },
+     "peers": [
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1650695",
+       "ordinance_name": "부산광역시 북구 개인형 이동장치 이용안전 증진 조례",
+       "enacted_on": "20211222",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1650695&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31140",
+       "name": "울산광역시 남구",
+       "ordinance_id": "ordin:1651191",
+       "ordinance_name": "울산광역시 남구 개인형 이동장치 이용안전 증진 조례",
+       "enacted_on": "20211228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1651191&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1764541",
+       "ordinance_name": "대전광역시 동구 개인형 이동장치 이용 안전증진 조례",
+       "enacted_on": "20221227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1764541&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1862225",
+       "ordinance_name": "대전광역시 중구 개인형 이동장치 이용안전 증진 조례",
+       "enacted_on": "20231010",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1862225&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26410",
+       "name": "부산광역시 금정구",
+       "ordinance_id": "ordin:1960701",
+       "ordinance_name": "부산광역시 금정구 개인형 이동장치 이용안전 증진 조례",
+       "enacted_on": "20240731",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1960701&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "긴급지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "긴급복지지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1198415",
+       "ordinance_name": "대전광역시 동구 긴급지원에 관한 조례",
+       "enacted_on": "20151109",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1198415&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1252780",
+       "ordinance_name": "부산광역시 북구 긴급지원에 관한 조례",
+       "enacted_on": "20160928",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1252780&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30200",
+       "name": "대전광역시 유성구",
+       "ordinance_id": "ordin:1513913",
+       "ordinance_name": "대전광역시 유성구 긴급지원에 관한 조례",
+       "enacted_on": "20200708",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1513913&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1620909",
+       "ordinance_name": "부산광역시 남구 긴급지원에 관한 조례",
+       "enacted_on": "20210809",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1620909&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1656223",
+       "ordinance_name": "대전광역시 중구 긴급지원에 관한 조례",
+       "enacted_on": "20211227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1656223&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "문화예술진흥",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "문화예술회관 설치 및 운영",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "31110",
+       "name": "울산광역시 중구",
+       "ordinance_id": "ordin:1323642",
+       "ordinance_name": "울산광역시 중구 문화예술 진흥에 관한 조례",
+       "enacted_on": "20171229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1323642&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30200",
+       "name": "대전광역시 유성구",
+       "ordinance_id": "ordin:1632233",
+       "ordinance_name": "대전광역시 유성구 문화예술 진흥 조례",
+       "enacted_on": "20211006",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632233&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "ordinance_id": "ordin:1749523",
+       "ordinance_name": "인천광역시 계양구 문화예술진흥 조례",
+       "enacted_on": "20221118",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1749523&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "ordinance_id": "ordin:1793745",
+       "ordinance_name": "울산광역시 동구 문화예술 진흥에 관한 조례",
+       "enacted_on": "20230330",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1793745&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1942413",
+       "ordinance_name": "대전광역시 대덕구 문화예술진흥 조례",
+       "enacted_on": "20240628",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942413&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "범죄피해자 보호",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "디지털 성범죄 예방 및 피해자 지원",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1317790",
+       "ordinance_name": "부산광역시 사상구 범죄피해자 보호 조례",
+       "enacted_on": "20171214",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1317790&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1391701",
+       "ordinance_name": "부산광역시 남구 범죄피해자 보호 조례",
+       "enacted_on": "20190418",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1391701&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1546323",
+       "ordinance_name": "대전광역시 동구 범죄피해자 보호 조례",
+       "enacted_on": "20201116",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1546323&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1546803",
+       "ordinance_name": "대전광역시 중구 범죄피해자 보호 조례",
+       "enacted_on": "20201116",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1546803&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1553133",
+       "ordinance_name": "부산광역시 북구 범죄피해자 보호 조례",
+       "enacted_on": "20201216",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1553133&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "생활주변 위험수목 처리 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "해양쓰레기 수거 및 처리 지원",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1398456",
+       "ordinance_name": "대전광역시 대덕구 생활주변 위험수목 처리 지원에 관한 조례",
+       "enacted_on": "20190621",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1398456&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "ordinance_id": "ordin:1512287",
+       "ordinance_name": "인천광역시 계양구 생활주변 위험수목 처리 지원 조례",
+       "enacted_on": "20200703",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1512287&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1611013",
+       "ordinance_name": "대전광역시 동구 생활주변 위험수목 처리 지원 조례",
+       "enacted_on": "20210701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1611013&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30200",
+       "name": "대전광역시 유성구",
+       "ordinance_id": "ordin:1783601",
+       "ordinance_name": "대전광역시 유성구 생활주변 위험수목 처리 지원 조례",
+       "enacted_on": "20230217",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1783601&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1873745",
+       "ordinance_name": "대전광역시 중구 생활주변 위험수목 처리 지원 조례",
+       "enacted_on": "20231114",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873745&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "성인문해교육 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "평화통일교육 지원",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "31110",
+       "name": "울산광역시 중구",
+       "ordinance_id": "ordin:968706",
+       "ordinance_name": "울산광역시 중구 성인 문해교육 지원에 관한 조례",
+       "enacted_on": "20141229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=968706&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31140",
+       "name": "울산광역시 남구",
+       "ordinance_id": "ordin:1233860",
+       "ordinance_name": "울산광역시 남구 성인 문해교육 지원에 관한 조례",
+       "enacted_on": "20160520",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1233860&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1439433",
+       "ordinance_name": "부산광역시 사상구 성인문해교육 지원에 관한 조례",
+       "enacted_on": "20191230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1439433&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1816789",
+       "ordinance_name": "부산광역시 북구 성인문해교육 지원에 관한 조례",
+       "enacted_on": "20230607",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816789&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1942451",
+       "ordinance_name": "대전광역시 대덕구 성인문해교육 지원에 관한 조례",
+       "enacted_on": "20240628",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942451&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "스포츠클럽 육성 및 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "repealed_on": "20220224"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "로컬푸드 육성 및 지원",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1395824",
+       "ordinance_name": "부산광역시 북구 스포츠클럽 육성 및 지원에 관한 조례",
+       "enacted_on": "20190529",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395824&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1801735",
+       "ordinance_name": "대전광역시 중구 스포츠클럽 육성 및 지원에 관한 조례",
+       "enacted_on": "20230414",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1801735&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31140",
+       "name": "울산광역시 남구",
+       "ordinance_id": "ordin:1806289",
+       "ordinance_name": "울산광역시 남구 스포츠클럽 육성 및 지원에 관한 조례",
+       "enacted_on": "20230504",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1806289&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1856733",
+       "ordinance_name": "대전광역시 동구 스포츠클럽 육성 및 지원에 관한 조례",
+       "enacted_on": "20230927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1856733&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1881407",
+       "ordinance_name": "부산광역시 남구 스포츠클럽 육성 및 지원 조례",
+       "enacted_on": "20231214",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1881407&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "식생활 교육 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "어르신 생활디지털 교육 지원",
+      "similarity": 0.471
+     },
+     "peers": [
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1395820",
+       "ordinance_name": "부산광역시 북구 식생활 교육 지원에 관한 조례",
+       "enacted_on": "20190529",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395820&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1433967",
+       "ordinance_name": "대전광역시 대덕구 식생활 교육 지원 조례",
+       "enacted_on": "20191220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1433967&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1536679",
+       "ordinance_name": "대전광역시 동구 식생활 교육 지원 조례",
+       "enacted_on": "20201012",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1536679&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1588345",
+       "ordinance_name": "부산광역시 사상구 식생활교육지원 조례",
+       "enacted_on": "20210409",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1588345&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1738517",
+       "ordinance_name": "부산광역시 남구 식생활교육 지원 조례",
+       "enacted_on": "20221007",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1738517&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "안전취약계층 안전 환경 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "화재안전취약가구 주택용 소방시설 설치 지원",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1700337",
+       "ordinance_name": "부산광역시 남구 안전취약계층 안전 환경 지원 조례",
+       "enacted_on": "20220408",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1700337&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1942469",
+       "ordinance_name": "대전광역시 대덕구 안전취약계층 안전 환경 지원 조례",
+       "enacted_on": "20240628",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942469&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30200",
+       "name": "대전광역시 유성구",
+       "ordinance_id": "ordin:1942305",
+       "ordinance_name": "대전광역시 유성구 안전취약계층 안전 환경 지원 조례",
+       "enacted_on": "20240628",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942305&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1979309",
+       "ordinance_name": "대전광역시 중구 안전취약계층 안전 환경 지원 조례",
+       "enacted_on": "20241022",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1979309&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:2037631",
+       "ordinance_name": "대전광역시 동구 안전취약계층 안전 환경 지원 조례",
+       "enacted_on": "20250515",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2037631&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "여름철 물놀이 안전관리",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "지하안전관리",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1330672",
+       "ordinance_name": "부산광역시 북구 여름철 물놀이 안전관리 조례",
+       "enacted_on": "20171227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1330672&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1340333",
+       "ordinance_name": "부산광역시 남구 여름철 물놀이 안전 관리 조례",
+       "enacted_on": "20180301",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1340333&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26410",
+       "name": "부산광역시 금정구",
+       "ordinance_id": "ordin:1411202",
+       "ordinance_name": "부산광역시 금정구 여름철 물놀이 안전관리 조례",
+       "enacted_on": "20190927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1411202&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "ordinance_id": "ordin:1419167",
+       "ordinance_name": "울산광역시 동구 여름철 물놀이 안전관리 조례",
+       "enacted_on": "20191031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1419167&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1433975",
+       "ordinance_name": "대전광역시 대덕구 여름철 물놀이 안전관리 조례",
+       "enacted_on": "20191220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1433975&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "옥외행사의 안전관리",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "지하안전관리",
+      "similarity": 0.462
+     },
+     "peers": [
+      {
+       "region_id": "31140",
+       "name": "울산광역시 남구",
+       "ordinance_id": "ordin:1274321",
+       "ordinance_name": "울산광역시 남구 옥외행사의 안전관리에 관한 조례",
+       "enacted_on": "20170105",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1274321&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1398455",
+       "ordinance_name": "대전광역시 대덕구 옥외행사의 안전관리에 관한 조례",
+       "enacted_on": "20190621",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1398455&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "ordinance_id": "ordin:1808451",
+       "ordinance_name": "인천광역시 계양구 옥외행사의 안전관리에 관한 조례",
+       "enacted_on": "20230512",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1808451&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26410",
+       "name": "부산광역시 금정구",
+       "ordinance_id": "ordin:1809041",
+       "ordinance_name": "부산광역시 금정구 옥외행사의 안전관리에 관한 조례",
+       "enacted_on": "20230515",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1809041&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1816375",
+       "ordinance_name": "부산광역시 남구 옥외행사의 안전관리에 관한 조례",
+       "enacted_on": "20230605",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816375&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "외국인주민 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "거주외국인 등에 관한 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1135964",
+       "ordinance_name": "대전광역시 대덕구 외국인주민 지원조례",
+       "enacted_on": "20110218",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1135964&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1579421",
+       "ordinance_name": "부산광역시 남구 외국인주민 지원 조례",
+       "enacted_on": "20210311",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579421&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "ordinance_id": "ordin:1626577",
+       "ordinance_name": "인천광역시 계양구 외국인주민 지원 조례",
+       "enacted_on": "20210924",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626577&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "ordinance_id": "ordin:2026887",
+       "ordinance_name": "울산광역시 동구 외국인주민 지원 조례",
+       "enacted_on": "20250403",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2026887&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30200",
+       "name": "대전광역시 유성구",
+       "ordinance_id": "ordin:2056605",
+       "ordinance_name": "대전광역시 유성구 외국인주민 지원 조례",
+       "enacted_on": "20250714",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2056605&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의안의 비용추계",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "repealed_on": "20161118"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "의회 의원 소송비용 지원",
+      "similarity": 0.133
+     },
+     "peers": [
+      {
+       "region_id": "26410",
+       "name": "부산광역시 금정구",
+       "ordinance_id": "ordin:1666805",
+       "ordinance_name": "부산광역시 금정구 의안의 비용추계에 관한 조례",
+       "enacted_on": "20211217",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1666805&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1683551",
+       "ordinance_name": "대전광역시 대덕구 의안의 비용추계에 관한 조례",
+       "enacted_on": "20220211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1683551&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1692693",
+       "ordinance_name": "부산광역시 사상구 의안의 비용추계에 관한 조례",
+       "enacted_on": "20220325",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1692693&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1698331",
+       "ordinance_name": "부산광역시 북구 의안의 비용추계에 관한 조례",
+       "enacted_on": "20220415",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1698331&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1830783",
+       "ordinance_name": "대전광역시 중구 의안의 비용추계에 관한 조례",
+       "enacted_on": "20230701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1830783&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의회 교섭단체 구성 및 운영",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "통합방위협의회 구성 및 운영",
+      "similarity": 0.421
+     },
+     "peers": [
+      {
+       "region_id": "26320",
+       "name": "부산광역시 북구",
+       "ordinance_id": "ordin:1756087",
+       "ordinance_name": "부산광역시 북구의회 교섭단체 구성 및 운영 조례",
+       "enacted_on": "20221214",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1756087&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "ordinance_id": "ordin:1891133",
+       "ordinance_name": "울산광역시 동구의회 교섭단체 구성 및 운영 조례",
+       "enacted_on": "20231228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891133&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1906003",
+       "ordinance_name": "대전광역시 중구의회 교섭단체 구성 및 운영 등에 관한 조례",
+       "enacted_on": "20240207",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1906003&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1905981",
+       "ordinance_name": "부산광역시 남구의회 교섭단체 구성 및 운영 조례",
+       "enacted_on": "20240207",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1905981&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31140",
+       "name": "울산광역시 남구",
+       "ordinance_id": "ordin:1911071",
+       "ordinance_name": "울산광역시 남구의회 교섭단체 구성 및 운영에 관한 조례",
+       "enacted_on": "20240308",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911071&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "조례·규칙 등 공포",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 3,
+     "repealed_peers": [
+      {
+       "region_id": "28245",
+       "name": "인천광역시 계양구",
+       "repealed_on": "20161118"
+      },
+      {
+       "region_id": "26410",
+       "name": "부산광역시 금정구",
+       "repealed_on": "20190201"
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "repealed_on": "20191031"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "의회 주민조례발안",
+      "similarity": 0.167
+     },
+     "peers": [
+      {
+       "region_id": "30200",
+       "name": "대전광역시 유성구",
+       "ordinance_id": "ordin:1667373",
+       "ordinance_name": "대전광역시 유성구 조례·규칙 등 공포에 관한 조례",
+       "enacted_on": "20211224",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1667373&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31110",
+       "name": "울산광역시 중구",
+       "ordinance_id": "ordin:1656287",
+       "ordinance_name": "울산광역시 중구 조례ㆍ규칙 공포 조례",
+       "enacted_on": "20211227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1656287&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26290",
+       "name": "부산광역시 남구",
+       "ordinance_id": "ordin:1659443",
+       "ordinance_name": "부산광역시 남구 조례·규칙 등 공포에 관한 조례",
+       "enacted_on": "20211230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1659443&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30230",
+       "name": "대전광역시 대덕구",
+       "ordinance_id": "ordin:1683545",
+       "ordinance_name": "대전광역시 대덕구 조례·규칙 등 공포에 관한 조례",
+       "enacted_on": "20220211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1683545&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1692677",
+       "ordinance_name": "부산광역시 사상구 조례·규칙 등 공포에 관한 조례",
+       "enacted_on": "20220325",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1692677&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "청소년 통행금지구역·통행제한구역 지정 및 운영",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "청소년 문화의 집 설치 및 운영",
+      "similarity": 0.231
+     },
+     "peers": [
+      {
+       "region_id": "31110",
+       "name": "울산광역시 중구",
+       "ordinance_id": "ordin:1021400",
+       "ordinance_name": "울산광역시 중구 청소년통행금지구역·통행제한구역 지정 및 운영에 관한 조례",
+       "enacted_on": "20141229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1021400&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31170",
+       "name": "울산광역시 동구",
+       "ordinance_id": "ordin:1419083",
+       "ordinance_name": "울산광역시 동구 청소년 통행금지구역·통행제한구역 지정 및 운영에 관한 조례",
+       "enacted_on": "20191031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1419083&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26530",
+       "name": "부산광역시 사상구",
+       "ordinance_id": "ordin:1558127",
+       "ordinance_name": "부산광역시 사상구 청소년 통행금지구역·통행제한구역 지정 및 운영에 관한 조례",
+       "enacted_on": "20201224",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1558127&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30140",
+       "name": "대전광역시 중구",
+       "ordinance_id": "ordin:1558337",
+       "ordinance_name": "대전광역시 중구 청소년 통행금지구역·통행제한구역 지정 및 운영에 관한 조례",
+       "enacted_on": "20201228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1558337&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30110",
+       "name": "대전광역시 동구",
+       "ordinance_id": "ordin:1844575",
+       "ordinance_name": "대전광역시 동구 청소년 통행금지구역·통행제한구역 지정 및 운영에 관한 조례",
+       "enacted_on": "20230804",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1844575&type=HTML&mobileYn="
+      }
+     ]
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 69,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.0,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d).",
+    "min_peers": 3,
+    "same_sido_boost": true,
+    "dup_threshold": 0.55,
+    "exclude_variants": true,
+    "policy_key": "조례명에서 지자체명·법형식 접미 제거 → canon_key(어절 단위 연결어 제거) → 정규형 완전일치는 '보유'로 제외, 잔여 근사는 closest_own 과 함께 likely_variant 로 표시"
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "31200"
+ ]
+}

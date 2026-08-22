@@ -1,0 +1,195 @@
+{
+ "data": {
+  "bill": {
+   "bill_id": "PRC_W2E5F1D2C0C9J1H6I4G9H5F7G1C8C1",
+   "bill_no": "2215184",
+   "age": 22,
+   "name": "국방·군사시설 사업에 관한 법률 일부개정법률안",
+   "committee": "국방위원회",
+   "propose_dt": "2025-12-11",
+   "proc_dt": "2026-04-23",
+   "proc_result": "원안가결",
+   "proc_result_cd": "원안가결"
+  },
+  "tally_reported": {
+   "member_tcnt": 295,
+   "vote_tcnt": 186,
+   "yes_tcnt": 186,
+   "no_tcnt": 0,
+   "blank_tcnt": 0
+  },
+  "tally_from_votes": {
+   "찬성": 185,
+   "반대": 0,
+   "기권": 0,
+   "기타": 109,
+   "합계": 294
+  },
+  "yes_ratio": 0.6293,
+  "party_breakdown": [
+   {
+    "party": "더불어민주당",
+    "찬성": 118,
+    "반대": 0,
+    "기권": 0,
+    "기타": 42,
+    "합계": 160,
+    "찬성률": 0.7375
+   },
+   {
+    "party": "국민의힘",
+    "찬성": 53,
+    "반대": 0,
+    "기권": 0,
+    "기타": 53,
+    "합계": 106,
+    "찬성률": 0.5
+   },
+   {
+    "party": "조국혁신당",
+    "찬성": 7,
+    "반대": 0,
+    "기권": 0,
+    "기타": 5,
+    "합계": 12,
+    "찬성률": 0.5833
+   },
+   {
+    "party": "무소속",
+    "찬성": 3,
+    "반대": 0,
+    "기권": 0,
+    "기타": 4,
+    "합계": 7,
+    "찬성률": 0.4286
+   },
+   {
+    "party": "진보당",
+    "찬성": 2,
+    "반대": 0,
+    "기권": 0,
+    "기타": 2,
+    "합계": 4,
+    "찬성률": 0.5
+   },
+   {
+    "party": "개혁신당",
+    "찬성": 2,
+    "반대": 0,
+    "기권": 0,
+    "기타": 1,
+    "합계": 3,
+    "찬성률": 0.6667
+   },
+   {
+    "party": "기본소득당",
+    "찬성": 0,
+    "반대": 0,
+    "기권": 0,
+    "기타": 1,
+    "합계": 1,
+    "찬성률": 0.0
+   },
+   {
+    "party": "사회민주당",
+    "찬성": 0,
+    "반대": 0,
+    "기권": 0,
+    "기타": 1,
+    "합계": 1,
+    "찬성률": 0.0
+   }
+  ],
+  "proposers": [
+   {
+    "role": "RST",
+    "legislator_id": "EPI69383",
+    "name": "김용태",
+    "current_party": "국민의힘",
+    "district": "경기 포천시가평군"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "TCP9838Y",
+    "name": "김민전",
+    "current_party": "국민의힘",
+    "district": "비례대표"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "9D939735",
+    "name": "김성원",
+    "current_party": "국민의힘",
+    "district": "경기 동두천시양주시연천군을"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "CNZ51556",
+    "name": "김예지",
+    "current_party": "국민의힘",
+    "district": "비례대표"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "QQP4727N",
+    "name": "배준영",
+    "current_party": "국민의힘",
+    "district": "인천 중구강화군옹진군"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "JP222486",
+    "name": "서천호",
+    "current_party": "국민의힘",
+    "district": "경남 사천시남해군하동군"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "CNW5754J",
+    "name": "송석준",
+    "current_party": "국민의힘",
+    "district": "경기 이천시"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "8UC4779G",
+    "name": "우재준",
+    "current_party": "국민의힘",
+    "district": "대구 북구갑"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "WXJ8352N",
+    "name": "이성권",
+    "current_party": "국민의힘",
+    "district": "부산 사하구갑"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "HSW1214Q",
+    "name": "이종배",
+    "current_party": "국민의힘",
+    "district": "충북 충주시"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "CGW7415Z",
+    "name": "정성국",
+    "current_party": "국민의힘",
+    "district": "부산 부산진구갑"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "MQU41854",
+    "name": "조은희",
+    "current_party": "국민의힘",
+    "district": "서울 서초구갑"
+   }
+  ]
+ },
+ "as_of_date": "2026-08-21T03:51:11+0900",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오.",
+ "official_url": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_W2E5F1D2C0C9J1H6I4G9H5F7G1C8C1"
+}

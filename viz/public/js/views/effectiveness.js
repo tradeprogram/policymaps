@@ -1,19 +1,104 @@
-// 7. 조례 실효성 — api/effectiveness.json
+// 7. 조례 실효성 — 전국 shard api/effectiveness/{sig}.json, 폴백 api/effectiveness.json
 //    ★ 조례-예산 링크는 확률적 자동매칭이다. "추정 연결" 배지 + confidence 등급 표기 필수.
 import { el, num, won, pct, extLink } from "../util.js";
-import { loadFixture } from "../api.js";
-import { section, table, note, loading, asOfLine, fixtureMissingPanel, badge, statCard,
+import { loadRegionCatalog, shardCoverage, loadRegionalShard, loadFixture } from "../api.js";
+import { section, table, note, loading, asOfLine, errorPanel, badge, statCard,
          confidenceBadge, statusBadge, envelopeFooter, cdnFailPanel } from "../components.js";
+import { regionSelector, notPrecomputedPanel, sourceLine } from "../nationwide.js";
 import { ensureChart } from "../vendor.js";
 
-export async function render(root) {
-  root.appendChild(loading("조례-예산 실효성 데이터를 불러오는 중…"));
-  let env;
-  try { env = await loadFixture("effectiveness"); }
-  catch (e) { root.innerHTML = ""; root.appendChild(fixtureMissingPanel("effectiveness", e)); return; }
-  root.innerHTML = "";
+const PREFERRED = ["47190", "11110"];
 
-  const d = env.data || {};
+export async function render(root) {
+  root.appendChild(loading("전국 지자체 목록을 불러오는 중…"));
+
+  let cat;
+  try {
+    cat = await loadRegionCatalog();
+  } catch (e) {
+    root.innerHTML = "";
+    root.appendChild(errorPanel(e, "지역 목록(regions/index.json · api/index.json)을 읽지 못했습니다."));
+    return;
+  }
+
+  const covered = await shardCoverage("effectiveness");
+  let fixtureOnly = false;
+  if (!covered.size) {
+    // 색인이 없다 — 기존 단일 파일이 어느 지역 결과인지 scope 에서 읽는다.
+    fixtureOnly = true;
+    try {
+      const env = await loadFixture("effectiveness");
+      const dd = env.data || {};
+      const keys = Object.keys(dd).every((k) => /^\d{4,5}$/.test(k)) && Object.keys(dd).length
+        ? Object.keys(dd)
+        : [dd.scope?.sig_cd || dd.scope?.region_id || dd.region_id].filter(Boolean);
+      for (const cd of keys) covered.add(String(cd));
+    } catch (e) { /* 커버리지 미상 */ }
+  }
+
+  const items = cat.items.slice();
+  const seen = new Set(items.map((i) => i.sig_cd));
+  for (const cd of covered) {
+    if (seen.has(cd)) continue;
+    const found = (cat.all || []).find((x) => x.sig_cd === cd);
+    items.push(found || { sig_cd: cd, name: null, level: null, sido: cat.sidoOf(cd) });
+    seen.add(cd);
+  }
+  items.sort((a, b) => (a.sig_cd < b.sig_cd ? -1 : a.sig_cd > b.sig_cd ? 1 : 0));
+
+  root.innerHTML = "";
+  if (!items.length) {
+    root.appendChild(errorPanel(new Error("region list is empty"),
+      "선택할 지자체가 없습니다. regions/index.json 또는 api/index.json 을 확인하세요."));
+    return;
+  }
+
+  const initial = PREFERRED.find((cd) => covered.has(cd))
+    || [...covered][0]
+    || PREFERRED.find((cd) => seen.has(cd))
+    || items[0].sig_cd;
+
+  const nameOf = (sig) => {
+    const it = items.find((x) => x.sig_cd === sig);
+    return it && it.name ? it.name : null;
+  };
+
+  const body = el("div", {});
+  root.appendChild(regionSelector({
+    items, sidoOf: cat.sidoOf, current: initial, covered,
+    onChange: (sig) => { draw(sig); },
+  }));
+  root.appendChild(el("div", { class: "as-of", text:
+    `전국 ${cat.items.length}곳 선택 가능`
+    + (cat.hasApiIndex ? ` · 사전계산 ${covered.size}곳 (api/index.json)` : "")
+    + (fixtureOnly ? ` · api/index.json 없음 → 기존 단일 fixture ${covered.size}곳만 사전계산됨` : "") }));
+  root.appendChild(body);
+
+  let token = 0;
+  async function draw(sig) {
+    const my = ++token;
+    body.innerHTML = "";
+    body.appendChild(loading(`${nameOf(sig) || sig} 의 조례-예산 연결을 불러오는 중…`));
+    const res = await loadRegionalShard("effectiveness", sig);
+    if (my !== token) return;
+    body.innerHTML = "";
+    if (!res.data) {
+      body.appendChild(notPrecomputedPanel({
+        kind: "effectiveness", sig, name: nameOf(sig),
+        tried: res.tried || [],
+        fixtureRegions: res.fixtureRegions || [...covered],
+        onPick: (cd) => draw(cd),
+      }));
+      return;
+    }
+    await renderBody(body, res.data, res.env, res);
+  }
+
+  await draw(initial);
+}
+
+/** 지역 1곳의 실효성 결과 렌더 */
+async function renderBody(root, d, env, res) {
   const t = d.totals || {};
   const v = d.verification || {};
 
@@ -25,7 +110,8 @@ export async function render(root) {
       + "verified=1 인 링크만 '확인됨'이며, 나머지는 모두 추정이다. 아래 집행률은 참고치다." })
   ));
 
-  root.appendChild(section("연결 요약",
+  const scope = d.scope || {};
+  root.appendChild(section(`연결 요약 — ${scope.name || scope.sig_cd || scope.region_id || "지역 미상"}`,
     asOfLine(`engine=${d._engine || "?"}`),
     el("div", { class: "stat-grid" },
       statCard("링크 수", num(d.link_count), `예산 세부사업 ${num(d.budget_lines)}건`),
@@ -44,6 +130,18 @@ export async function render(root) {
     ),
     v.note ? note(v.note, "warn") : null,
     d.caveat ? note(d.caveat, "warn") : null,
+    // 링크 0건을 그냥 두면 '이 지자체는 조례를 예산에 반영하지 않았다'로 오독된다.
+    // 실제 원인은 예산 원자료 자체가 없는 것과, 예산은 있는데 매칭이 안 된 것 두 가지다.
+    // 실측: 전국 243곳 중 32곳(전남광주통합특별시 28 + 인천 개편 4구)이 전자다.
+    !d.link_count ? note(
+      (d.region_budget_baseline || {}).lines
+        ? "링크 0건 — 이 지역의 예산 세부사업은 있으나 조례와 자동매칭된 것이 없다. "
+          + "«조례가 예산에 반영되지 않았다»는 뜻이 아니라 «매칭에 실패했다»는 뜻이며, "
+          + "집행률을 이 지역의 정책 성과로 읽으면 안 된다."
+        : "링크 0건 — 이 지역은 예산 원자료(세부사업)가 DB에 전혀 없어 조례-예산 연결을 계산할 수 없다. "
+          + "2026년 통합·개편으로 신설된 지자체는 결산 통계가 아직 산출되지 않아 이 상태가 된다. "
+          + "«예산을 집행하지 않았다»는 뜻이 결코 아니다.",
+      "warn") : null,
     note("등급 기준: verified=1 → 확인됨 / confidence≥0.8 → 추정(높음) / 0.6~0.8 → 추정(중간) / 0.6 미만 → 추정(낮음). "
       + "표본 584건 수작업 검증에서 전체 정밀도 64.9%, confidence≥0.8 구간 93.2%였다 "
       + "(검증 시점 링크 93,964건 기준이라 현재 모집단에 그대로 적용되지는 않는다).")
@@ -100,6 +198,8 @@ export async function render(root) {
       note("링크된 세부사업 금액이 지역 전체 예산에서 차지하는 비중을 보기 위한 참고값이다.")));
   }
 
+  const src = sourceLine(res);
+  if (src) root.appendChild(src);
   root.appendChild(envelopeFooter(env));
 }
 

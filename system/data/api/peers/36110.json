@@ -1,0 +1,306 @@
+{
+ "data": {
+  "36110": {
+   "target": {
+    "region_id": "36",
+    "sig_cd": "36110",
+    "name": "세종특별자치시",
+    "rtype": "광역",
+    "indicators": {
+     "population": 390972.0,
+     "area_km2": 464.9883535334696,
+     "fiscal_self_ratio": 0.04927095609253207,
+     "welfare_ratio": 0.23695662088785158,
+     "budget_total": 2545771703444.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "44",
+     "sig_cd": "44000",
+     "name": "충청남도",
+     "rtype": "광역",
+     "similarity": 0.345983,
+     "weighted_distance": 1.588194,
+     "policy_profile_cosine": 0.271,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 0.752,
+      "welfare_ratio": 0.9584,
+      "budget_total": 2.3064
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.06446812073317165,
+      "welfare_ratio": 0.29404737224062394,
+      "budget_total": 13496087966270.0
+     }
+    },
+    {
+     "region_id": "51",
+     "sig_cd": "51000",
+     "name": "강원특별자치도",
+     "rtype": "광역",
+     "similarity": 0.321737,
+     "weighted_distance": 1.663514,
+     "policy_profile_cosine": 0.222,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 1.5241,
+      "welfare_ratio": 1.0108,
+      "budget_total": 1.9466
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.018468529126498323,
+      "welfare_ratio": 0.29716838526519496,
+      "budget_total": 10403703611476.0
+     }
+    },
+    {
+     "region_id": "26",
+     "sig_cd": "26000",
+     "name": "부산광역시",
+     "rtype": "광역",
+     "similarity": 0.31821,
+     "weighted_distance": 2.020101,
+     "policy_profile_cosine": 0.2942,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 0.595,
+      "welfare_ratio": 2.3409,
+      "budget_total": 2.8568
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.037245230977348776,
+      "welfare_ratio": 0.37639458979523266,
+      "budget_total": 20093274971100.0
+     }
+    },
+    {
+     "region_id": "50",
+     "sig_cd": "50000",
+     "name": "제주특별자치도",
+     "rtype": "광역",
+     "similarity": 0.317573,
+     "weighted_distance": 2.028048,
+     "policy_profile_cosine": 0.294,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 2.438,
+      "welfare_ratio": 0.506,
+      "budget_total": 1.7309
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.0,
+      "welfare_ratio": 0.20681559042986122,
+      "budget_total": 8901412377832.0
+     }
+    },
+    {
+     "region_id": "27",
+     "sig_cd": "27000",
+     "name": "대구광역시",
+     "rtype": "광역",
+     "similarity": 0.316461,
+     "weighted_distance": 1.846164,
+     "policy_profile_cosine": 0.2517,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 1.1812,
+      "welfare_ratio": 2.502,
+      "budget_total": 2.2417
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.025398023947918014,
+      "welfare_ratio": 0.38599391706300945,
+      "budget_total": 12879018250820.0
+     }
+    },
+    {
+     "region_id": "28",
+     "sig_cd": "28000",
+     "name": "인천광역시",
+     "rtype": "광역",
+     "similarity": 0.315045,
+     "weighted_distance": 1.848657,
+     "policy_profile_cosine": 0.2482,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 0.6274,
+      "welfare_ratio": 2.2512,
+      "budget_total": 2.5659
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.036590928425123015,
+      "welfare_ratio": 0.37105200064356364,
+      "budget_total": 16282058430798.0
+     }
+    },
+    {
+     "region_id": "52",
+     "sig_cd": "52000",
+     "name": "전북특별자치도",
+     "rtype": "광역",
+     "similarity": 0.313173,
+     "weighted_distance": 1.804685,
+     "policy_profile_cosine": 0.2326,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 1.5081,
+      "welfare_ratio": 1.7902,
+      "budget_total": 2.1096
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.01879249154470186,
+      "welfare_ratio": 0.34359290700587214,
+      "budget_total": 11705532809300.0
+     }
+    },
+    {
+     "region_id": "31",
+     "sig_cd": "31000",
+     "name": "울산광역시",
+     "rtype": "광역",
+     "similarity": 0.304999,
+     "weighted_distance": 1.910751,
+     "policy_profile_cosine": 0.2334,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 2.438,
+      "welfare_ratio": 0.6941,
+      "budget_total": 1.3369
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.0,
+      "welfare_ratio": 0.27830153582650136,
+      "budget_total": 6694025780373.0
+     }
+    },
+    {
+     "region_id": "30",
+     "sig_cd": "30000",
+     "name": "대전광역시",
+     "rtype": "광역",
+     "similarity": 0.29786,
+     "weighted_distance": 2.125437,
+     "policy_profile_cosine": 0.2568,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 2.438,
+      "welfare_ratio": 2.1084,
+      "budget_total": 1.6812
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.0,
+      "welfare_ratio": 0.3625478317951785,
+      "budget_total": 8586620856055.0
+     }
+    },
+    {
+     "region_id": "43",
+     "sig_cd": "43000",
+     "name": "충청북도",
+     "rtype": "광역",
+     "similarity": 0.284219,
+     "weighted_distance": 2.09778,
+     "policy_profile_cosine": 0.2125,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 2.438,
+      "welfare_ratio": 1.323,
+      "budget_total": 1.8142
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.0,
+      "welfare_ratio": 0.3157603907126146,
+      "budget_total": 9453768908200.0
+     }
+    },
+    {
+     "region_id": "47",
+     "sig_cd": "47000",
+     "name": "경상북도",
+     "rtype": "광역",
+     "similarity": 0.280648,
+     "weighted_distance": 2.206143,
+     "policy_profile_cosine": 0.2226,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 1.9599,
+      "welfare_ratio": 0.7765,
+      "budget_total": 2.7004
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.009661941735167656,
+      "welfare_ratio": 0.2832084691625383,
+      "budget_total": 17944795675172.0
+     }
+    },
+    {
+     "region_id": "41",
+     "sig_cd": "41000",
+     "name": "경기도",
+     "rtype": "광역",
+     "similarity": 0.26348,
+     "weighted_distance": 2.855997,
+     "policy_profile_cosine": 0.2712,
+     "indicator_gap_sd": {
+      "fiscal_self_ratio": 0.4393,
+      "welfare_ratio": 3.4561,
+      "budget_total": 4.0808
+     },
+     "indicators": {
+      "population": null,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.04039334181437215,
+      "welfare_ratio": 0.44282130305355266,
+      "budget_total": 48693453322304.0
+     }
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 15,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.35,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d)."
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "36110"
+ ]
+}

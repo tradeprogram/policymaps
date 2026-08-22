@@ -1,75 +1,129 @@
 // 4. 유사 지자체 + 격차분석 (킬러 화면)
-//    peers.json / gap.json 소비. "N곳 보유 / M곳 폐지" 경고 배지 필수.
+//    전국 shard: api/peers/{sig}.json · api/gap/{sig}.json
+//    폴백:       api/peers.json · api/gap.json 의 data[sig] (사전계산 5곳)
+//    "N곳 보유 / M곳 폐지" 경고 배지 필수.
 import { el, num, pct, ymd, extLink } from "../util.js";
-import { loadFixture, DataMissingError } from "../api.js";
-import { section, table, note, loading, asOfLine, errorPanel, fixtureMissingPanel,
+import { loadRegionCatalog, shardCoverage, loadRegionalShard, loadFixture } from "../api.js";
+import { section, table, note, loading, asOfLine, errorPanel,
          badge, envelopeFooter, cdnFailPanel } from "../components.js";
+import { regionSelector, notPrecomputedPanel, sourceLine } from "../nationwide.js";
 import { ensureChart } from "../vendor.js";
 
+/** 완료판정 시나리오(구미시)를 기본으로 노출하고, 없으면 사전계산된 첫 곳으로 */
+const PREFERRED = ["47190", "11110"];
+
 export async function render(root) {
-  root.appendChild(loading("유사 지자체·격차분석 결과를 불러오는 중…"));
+  root.appendChild(loading("전국 지자체 목록을 불러오는 중…"));
 
-  let peersEnv = null, gapEnv = null, peersErr = null, gapErr = null;
-  try { peersEnv = await loadFixture("peers"); } catch (e) { peersErr = e; }
-  try { gapEnv = await loadFixture("gap"); } catch (e) { gapErr = e; }
-  root.innerHTML = "";
-
-  if (peersErr && gapErr) {
-    root.appendChild(fixtureMissingPanel("gap", gapErr));
+  let cat;
+  try {
+    cat = await loadRegionCatalog();
+  } catch (e) {
+    root.innerHTML = "";
+    root.appendChild(errorPanel(e, "지역 목록(regions/index.json · api/index.json)을 읽지 못했습니다."));
     return;
   }
 
-  // fixture 는 data 가 sig_cd 맵({"47190":{...}, ...})이고 envelope.regions 에 커버 목록이 있다.
-  // 구(舊) 단일 구조(data.target 직접)도 하위호환한다.
-  const src = gapEnv || peersEnv;
-  const dd = src.data || {};
-  const single = !!(dd.target || dd.recommendations || dd.peers);
-  const regions = Array.isArray(src.regions) && src.regions.length
-    ? src.regions.slice()
-    : (single ? null : Object.keys(dd));
+  // 사전계산 커버리지 — api/index.json 이 있으면 거기서, 없으면 기존 단일 fixture 의 키에서.
+  const covered = new Set();
+  for (const s of await Promise.all([shardCoverage("gap"), shardCoverage("peers")])) {
+    for (const cd of s) covered.add(cd);
+  }
+  let fixtureOnly = false;
+  if (!covered.size) {
+    fixtureOnly = true;
+    for (const kind of ["gap", "peers"]) {
+      try {
+        const env = await loadFixture(kind);
+        const keys = Array.isArray(env.regions) ? env.regions : Object.keys(env.data || {});
+        for (const cd of keys) if (/^\d{4,5}$/.test(String(cd))) covered.add(String(cd));
+      } catch (e) { /* 없으면 커버리지 미상 */ }
+    }
+  }
 
-  const host = el("div", {});
-  root.appendChild(host);
+  // 선택기 목록 = 전국 level 1·2 + (사전계산된 일반구처럼 목록 밖이지만 결과가 있는 곳)
+  const items = cat.items.slice();
+  const seen = new Set(items.map((i) => i.sig_cd));
+  for (const cd of covered) {
+    if (seen.has(cd)) continue;
+    const found = (cat.all || []).find((x) => x.sig_cd === cd);
+    items.push(found || { sig_cd: cd, name: null, level: null, sido: cat.sidoOf(cd) });
+    seen.add(cd);
+  }
+  items.sort((a, b) => (a.sig_cd < b.sig_cd ? -1 : a.sig_cd > b.sig_cd ? 1 : 0));
 
-  const draw = (sig) => {
-    host.innerHTML = "";
-    if (regions && regions.length) host.appendChild(regionPicker(regions, sig, peersEnv, gapEnv, draw));
-    const body = el("div", {});
-    host.appendChild(body);
-    const pSub = single ? (peersEnv && peersEnv.data) : (peersEnv && (peersEnv.data || {})[sig]);
-    const gSub = single ? (gapEnv && gapEnv.data) : (gapEnv && (gapEnv.data || {})[sig]);
-    if (peersEnv) renderPeers(body, pSub || {}, peersEnv);
-    else body.appendChild(fixtureMissingPanel("peers", peersErr));
-    if (gapEnv) renderGap(body, gSub || {}, gapEnv);
-    else body.appendChild(fixtureMissingPanel("gap", gapErr));
+  root.innerHTML = "";
+
+  if (!items.length) {
+    root.appendChild(errorPanel(new Error("region list is empty"),
+      "선택할 지자체가 없습니다. regions/index.json 또는 api/index.json 을 확인하세요."));
+    return;
+  }
+
+  const initial = PREFERRED.find((cd) => covered.has(cd))
+    || [...covered][0]
+    || PREFERRED.find((cd) => seen.has(cd))
+    || items[0].sig_cd;
+
+  const nameOf = (sig) => {
+    const it = items.find((x) => x.sig_cd === sig);
+    return it && it.name ? it.name : null;
   };
 
-  // 완료판정 시나리오(구미시 47190)를 우선 노출, 없으면 첫 지자체.
-  const initial = single ? null : (regions.includes("47190") ? "47190" : regions[0]);
-  draw(initial);
+  const body = el("div", {});
+  const picker = regionSelector({
+    items, sidoOf: cat.sidoOf, current: initial, covered,
+    onChange: (sig) => { draw(sig); },
+  });
+  root.appendChild(picker);
+  root.appendChild(el("div", { class: "as-of", text:
+    `전국 ${cat.items.length}곳 선택 가능`
+    + (cat.hasApiIndex ? ` · 사전계산 ${covered.size}곳 (api/index.json)` : "")
+    + (fixtureOnly ? ` · api/index.json 없음 → 기존 단일 fixture ${covered.size}곳만 사전계산됨` : "")
+    + ` · 목록 출처 ${(cat.sources || []).join(", ") || "없음"}` }));
+  root.appendChild(body);
+
+  let token = 0;
+  async function draw(sig) {
+    const my = ++token;
+    body.innerHTML = "";
+    body.appendChild(loading(`${nameOf(sig) || sig} 결과를 불러오는 중…`));
+    const [pRes, gRes] = await Promise.all([
+      loadRegionalShard("peers", sig),
+      loadRegionalShard("gap", sig),
+    ]);
+    if (my !== token) return; // 빠르게 바꾸면 늦게 온 응답은 버린다
+    body.innerHTML = "";
+
+    if (!pRes.data && !gRes.data) {
+      body.appendChild(notPrecomputedPanel({
+        kind: "gap", sig, name: nameOf(sig),
+        tried: [...(gRes.tried || []), ...(pRes.tried || [])],
+        fixtureRegions: gRes.fixtureRegions || pRes.fixtureRegions || [...covered],
+        onPick: (cd) => draw(cd),
+      }));
+      return;
+    }
+
+    if (pRes.data) { renderPeers(body, pRes.data, pRes.env, pRes); }
+    else body.appendChild(notPrecomputedPanel({ kind: "peers", sig, name: nameOf(sig), tried: pRes.tried || [] }));
+
+    if (gRes.data) { await renderGap(body, gRes.data, gRes.env, gRes); }
+    else body.appendChild(notPrecomputedPanel({ kind: "gap", sig, name: nameOf(sig), tried: gRes.tried || [] }));
+  }
+
+  await draw(initial);
 }
 
-function regionPicker(regions, current, peersEnv, gapEnv, onChange) {
-  const nameOf = (sig) => {
-    const g = (gapEnv && (gapEnv.data || {})[sig]) || {};
-    const p = (peersEnv && (peersEnv.data || {})[sig]) || {};
-    return (g.target && g.target.name) || (p.target && p.target.name) || sig;
-  };
-  const sel = el("select", { class: "sel" });
-  for (const sig of regions) {
-    const o = el("option", { value: sig, text: `${nameOf(sig)} (${sig})` });
-    if (sig === current) o.selected = true;
-    sel.appendChild(o);
-  }
-  sel.addEventListener("change", () => onChange(sel.value));
-  return el("div", { class: "toolbar" },
-    el("label", { text: "기준 지자체 " }), sel,
-    el("span", { class: "muted small", text: `사전계산된 ${regions.length}곳 중 선택 · 다른 지자체는 make_gap_fixtures.py 로 추가` }));
+/** 어느 소스(전국 shard / 단일 fixture)에서 온 결과인지 패널에 밝힌다. */
+function appendSource(sec, res) {
+  const line = sourceLine(res);
+  if (line) sec.appendChild(line);
 }
 
 /* ---------------- 유사 지자체 ---------------- */
 
-function renderPeers(root, d, env) {
+function renderPeers(root, d, env, res) {
   const t = d.target || d.base_region || {};
   const method = d.method || {};
 
@@ -85,6 +139,7 @@ function renderPeers(root, d, env) {
       const pr = d.parent_region;
       sec.appendChild(note(`모(母) 자치단체 「${pr.name || pr.region_id || pr}」 로 조회하면 비교 결과가 나온다.`));
     }
+    appendSource(sec, res);
     sec.appendChild(envelopeFooter(env));
     return;
   }
@@ -96,6 +151,10 @@ function renderPeers(root, d, env) {
 
   const peers = d.peers || [];
   sec.appendChild(el("h3", { text: `유사 지자체 ${peers.length}곳` }));
+  // "0곳" 을 그냥 두면 '유사한 곳이 없다'는 결론으로 읽힌다. 실제 원인은 대개
+  // 기준 지자체의 재정 지표가 DB 에 없어 유사도를 계산할 수 없는 것이다.
+  // 원인을 숨기지 않는다 (표기 규율).
+  if (!peers.length) sec.appendChild(missingIndicatorNote(t.indicators));
   sec.appendChild(table(
     ["순위", "지자체", "유형", "유사도", "가중거리", "인구", "재정자립도", "복지비율"],
     peers.map((p, i) => [
@@ -129,7 +188,34 @@ function renderPeers(root, d, env) {
       + `· 지표 최소 커버리지 ${method.min_indicator_coverage ?? "—"}`)
   ));
 
+  appendSource(sec, res);
   sec.appendChild(envelopeFooter(env));
+}
+
+/**
+ * 유사도 계산에 쓰이는 지표 중 비어 있는 것을 짚어 준다.
+ * 실측: 전국 243곳 중 32곳(전남광주통합특별시 28 + 인천 개편 4구)이
+ * budget_total·fiscal_self_ratio·welfare_ratio 가 NULL 이라 peers 가 0곳이 된다.
+ * 이 경우 "유사한 지자체가 없다"가 아니라 "계산할 수 없다"가 사실이다.
+ */
+function missingIndicatorNote(ind) {
+  const need = {
+    budget_total: "예산총액", fiscal_self_ratio: "재정자립도",
+    welfare_ratio: "복지예산 비율", population: "인구", area_km2: "면적",
+  };
+  const miss = ind
+    ? Object.keys(need).filter((k) => ind[k] === null || ind[k] === undefined)
+    : Object.keys(need);
+  if (!miss.length) {
+    return note("비교 가능한 유사 지자체를 찾지 못했다. 후보 풀이 좁거나 "
+      + "지표 커버리지 기준을 넘긴 후보가 없다는 뜻이다.", "warn");
+  }
+  return note(
+    `이 지자체는 ${miss.map((k) => need[k]).join("·")} 지표가 DB에 없어 유사도를 계산할 수 없다. `
+    + "표의 '0곳'은 «유사한 지자체가 없다»는 뜻이 아니라 «비교 자체가 불가능하다»는 뜻이며, "
+    + "따라서 아래 격차분석(추천 후보)도 비어 있다. "
+    + "2026년 통합·개편으로 신설된 지자체는 결산 통계가 아직 산출되지 않아 이 상태가 된다.",
+    "warn");
 }
 
 function indicatorRows(ind) {
@@ -145,7 +231,7 @@ function indicatorRows(ind) {
 
 /* ---------------- 격차분석 ---------------- */
 
-async function renderGap(root, d, env) {
+async function renderGap(root, d, env, res) {
   const t = d.target || {};
   const recs = d.recommendations || [];
 
@@ -157,6 +243,7 @@ async function renderGap(root, d, env) {
     sec.appendChild(el("div", { class: "caution" },
       el("b", { text: "⚠ 비교 대상이 아님 — " }),
       document.createTextNode(d.reason)));
+    appendSource(sec, res);
     sec.appendChild(envelopeFooter(env));
     return;
   }
@@ -179,7 +266,14 @@ async function renderGap(root, d, env) {
   }
 
   if (!recs.length) {
-    sec.appendChild(note("추천 후보가 없습니다.", "warn"));
+    // 비교 대상이 0곳이면 "없다"가 아니라 "못 구했다"이다 — 원인을 같이 적는다.
+    if (!(d.peers || []).length) {
+      sec.appendChild(note("비교할 유사 지자체를 구하지 못해 추천 후보를 낼 수 없다.", "warn"));
+      sec.appendChild(missingIndicatorNote((d.target || {}).indicators));
+    } else {
+      sec.appendChild(note("추천 후보가 없습니다.", "warn"));
+    }
+    appendSource(sec, res);
     sec.appendChild(envelopeFooter(env));
     return;
   }
@@ -215,6 +309,7 @@ async function renderGap(root, d, env) {
     sec.insertBefore(cdnFailPanel("Chart.js(차트)", e), list);
   }
 
+  appendSource(sec, res);
   sec.appendChild(envelopeFooter(env));
 }
 

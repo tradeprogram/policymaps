@@ -1,0 +1,35 @@
+{
+ "data": {
+  "link_count": 0,
+  "budget_lines": 0,
+  "totals": {},
+  "by_ordinance": [],
+  "verification": {
+   "verified_links": 0,
+   "auto_links": 0,
+   "status": "no-link"
+  },
+  "_engine": "sql:ordinance_budget_link⋈budget_lines",
+  "scope": {
+   "mode": "region",
+   "region_id": "12760",
+   "sig_cd": "12760",
+   "name": "전남광주통합특별시 화순군",
+   "linked_ordinances": 0
+  },
+  "region_budget_baseline": {
+   "lines": 0,
+   "alloc_amt": 0,
+   "budget_now": 0,
+   "exe_amt": 0,
+   "max_fyr": null,
+   "exe_ymd": null,
+   "exec_rate_vs_now": null,
+   "exec_rate_vs_alloc": null
+  }
+ },
+ "as_of_date": "2026-08-21T03:51:11+0900",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오."
+}

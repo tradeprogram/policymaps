@@ -1,6 +1,8 @@
-// 3. 지역 상세 — regions/{sig_cd}.json 소비
+// 3. 지역 상세 — regions/{sig_cd}.json 소비.
+//    지역 선택기는 전국(시도별 optgroup + 검색). 목록 출처는 regions/index.json + api/index.json.
 import { el, num, won, pct, dtime, extLink } from "../util.js";
-import { loadRegion, loadRegionIndex, categoryName, state } from "../api.js";
+import { loadRegion, loadRegionCatalog, categoryName, state } from "../api.js";
+import { regionSelector } from "../nationwide.js";
 import { section, statCard, table, note, loading, asOfLine, errorPanel, badge, statusBadge, cdnFailPanel } from "../components.js";
 import { ensureChart } from "../vendor.js";
 import { go } from "../router.js";
@@ -9,20 +11,20 @@ export async function render(root, params) {
   const sig = params.sig;
   root.appendChild(loading(`${sig} 지역 데이터를 불러오는 중…`));
 
-  let idx = null;
-  try { idx = await loadRegionIndex(); } catch (e) { /* 선택자만 못 그림 */ }
+  let cat = null;
+  try { cat = await loadRegionCatalog(); } catch (e) { /* 선택기만 못 그림 */ }
 
   let doc;
   try {
     doc = await loadRegion(sig);
   } catch (e) {
     root.innerHTML = "";
-    root.appendChild(regionPicker(idx, sig));
+    root.appendChild(regionPicker(cat, sig));
     root.appendChild(errorPanel(e, `regions/${sig}.json 을 읽지 못했습니다. 현재 데이터 소스에 없는 지역일 수 있습니다.`));
     return;
   }
   root.innerHTML = "";
-  root.appendChild(regionPicker(idx, sig));
+  root.appendChild(regionPicker(cat, sig));
 
   const b = doc.budget || {};
   const execRate = b.budget_now ? b.exe_amt / b.budget_now : null;
@@ -106,19 +108,30 @@ export async function render(root, params) {
       el("button", { class: "btn", text: "조례 실효성", onclick: () => go("/effectiveness") }),
       el("button", { class: "btn", text: "지도로 돌아가기", onclick: () => go("/map") })
     ),
-    note("유사 지자체·격차분석·실효성 화면은 사전계산 fixture(api/*.json)를 소비한다. "
-      + "가상데이터에서는 특정 기준 지역 1곳에 대한 결과만 들어 있다.")
+    note("유사 지자체·격차분석·실효성 화면은 사전계산 결과를 소비한다. "
+      + "전국 shard(api/gap/{sig}.json 등)가 있으면 그것을, 없으면 기존 단일 파일(api/gap.json)을 쓰고, "
+      + "둘 다 없는 지역은 '아직 사전계산되지 않았습니다' 안내가 뜬다.")
   ));
 }
 
-function regionPicker(idx, current) {
-  const items = idx ? (idx.items || idx.regions || []) : [];
-  const sel = el("select", { class: "sel" },
-    ...items.map((it) => el("option", { value: it.sig_cd, selected: String(it.sig_cd) === String(current) ? "selected" : null,
-      text: `${it.name} (${it.sig_cd})` })));
-  sel.addEventListener("change", () => go(`/region/${sel.value}`));
-  return el("div", { class: "toolbar" },
-    el("label", { text: "지역 선택 " }), sel,
-    el("span", { class: "muted", text: ` · shard ${items.length}개` })
-  );
+function regionPicker(cat, current) {
+  if (!cat || !(cat.all || []).length) return el("div", { class: "toolbar" },
+    el("span", { class: "muted small", text: "지역 목록(regions/index.json)을 읽지 못해 선택기를 그리지 못했습니다." }));
+
+  // 지역 상세는 일반구(level 3)도 shard 가 있으므로 전체 목록을 쓴다.
+  const items = cat.all.slice();
+  if (!items.some((x) => x.sig_cd === String(current))) {
+    items.push({ sig_cd: String(current), name: null, level: null, sido: cat.sidoOf(current) });
+    items.sort((a, b) => (a.sig_cd < b.sig_cd ? -1 : a.sig_cd > b.sig_cd ? 1 : 0));
+  }
+  const covered = new Set(items.filter((x) => x.hasRegionShard).map((x) => x.sig_cd));
+
+  const picker = regionSelector({
+    items, sidoOf: cat.sidoOf, current: String(current), covered,
+    label: "지역", coveredLabel: "shard 있는 곳만", coveredWord: "shard 보유",
+    onChange: (sig) => go(`/region/${sig}`),
+  });
+  picker.appendChild(el("span", { class: "muted small",
+    text: `전국 ${items.length}곳 · shard 보유 ${covered.size}곳(✓) · 목록 출처 ${(cat.sources || []).join(", ") || "없음"}` }));
+  return picker;
 }

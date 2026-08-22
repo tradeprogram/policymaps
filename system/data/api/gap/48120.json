@@ -1,0 +1,1612 @@
+{
+ "data": {
+  "48120": {
+   "target": {
+    "region_id": "48120",
+    "sig_cd": "48120",
+    "name": "경상남도 창원시",
+    "rtype": "시",
+    "indicators": {
+     "population": 985937.0,
+     "area_km2": null,
+     "fiscal_self_ratio": 0.6076928634691068,
+     "welfare_ratio": 0.34128600802275616,
+     "budget_total": 5071661080933.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시"
+    },
+    {
+     "region_id": "41460",
+     "name": "경기도 용인시"
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시"
+    },
+    {
+     "region_id": "41110",
+     "name": "경기도 수원시"
+    },
+    {
+     "region_id": "44130",
+     "name": "충청남도 천안시"
+    },
+    {
+     "region_id": "41360",
+     "name": "경기도 남양주시"
+    },
+    {
+     "region_id": "41190",
+     "name": "경기도 부천시"
+    },
+    {
+     "region_id": "41270",
+     "name": "경기도 안산시"
+    },
+    {
+     "region_id": "41220",
+     "name": "경기도 평택시"
+    },
+    {
+     "region_id": "47110",
+     "name": "경상북도 포항시"
+    },
+    {
+     "region_id": "41590",
+     "name": "경기도 화성시"
+    },
+    {
+     "region_id": "41480",
+     "name": "경기도 파주시"
+    },
+    {
+     "region_id": "48170",
+     "name": "경상남도 진주시"
+    },
+    {
+     "region_id": "48220",
+     "name": "경상남도 통영시"
+    },
+    {
+     "region_id": "48240",
+     "name": "경상남도 사천시"
+    },
+    {
+     "region_id": "48250",
+     "name": "경상남도 김해시"
+    },
+    {
+     "region_id": "48270",
+     "name": "경상남도 밀양시"
+    },
+    {
+     "region_id": "48310",
+     "name": "경상남도 거제시"
+    },
+    {
+     "region_id": "48330",
+     "name": "경상남도 양산시"
+    }
+   ],
+   "peer_pool_size": 19,
+   "my_policy_count": 788,
+   "suppressed_exact_duplicate": 382,
+   "flagged_as_variant": 357,
+   "recommendations": [
+    {
+     "policy_key": "의회 포상",
+     "peer_count": 17,
+     "peer_share": 0.8947,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "41590",
+       "name": "경기도 화성시",
+       "repealed_on": "20110106"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "포상",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "41590",
+       "name": "경기도 화성시",
+       "ordinance_id": "ordin:1796925",
+       "ordinance_name": "화성시의회 포상 조례",
+       "enacted_on": "20191018",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1796925&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41270",
+       "name": "경기도 안산시",
+       "ordinance_id": "ordin:1547237",
+       "ordinance_name": "안산시의회 포상 조례",
+       "enacted_on": "20201118",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547237&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "ordinance_id": "ordin:1655643",
+       "ordinance_name": "청주시의회 포상 조례",
+       "enacted_on": "20211229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1655643&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1718965",
+       "ordinance_name": "천안시의회 포상 조례",
+       "enacted_on": "20220801",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1718965&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1794621",
+       "ordinance_name": "용인시의회 포상 조례",
+       "enacted_on": "20230331",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1794621&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "응급의료 지원",
+     "peer_count": 15,
+     "peer_share": 0.7895,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "한방난임치료 지원",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1079141",
+       "ordinance_name": "고양시 응급의료 지원에 관한 조례",
+       "enacted_on": "20111230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1079141&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "ordinance_id": "ordin:1198640",
+       "ordinance_name": "청주시 응급의료지원에 관한 조례",
+       "enacted_on": "20151008",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1198640&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1282477",
+       "ordinance_name": "파주시 응급의료 지원에 관한 조례",
+       "enacted_on": "20170331",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1282477&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41220",
+       "name": "경기도 평택시",
+       "ordinance_id": "ordin:1373776",
+       "ordinance_name": "평택시 응급의료 지원에 관한 조례",
+       "enacted_on": "20181218",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1373776&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41190",
+       "name": "경기도 부천시",
+       "ordinance_id": "ordin:1516271",
+       "ordinance_name": "부천시 응급의료 지원에 관한 조례",
+       "enacted_on": "20200713",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1516271&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "제안제도 운영",
+     "peer_count": 15,
+     "peer_share": 0.7895,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "시민 제안",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "48250",
+       "name": "경상남도 김해시",
+       "ordinance_id": "ordin:1210425",
+       "ordinance_name": "김해시 제안제도 운영 조례",
+       "enacted_on": "20151231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1210425&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1579861",
+       "ordinance_name": "파주시 제안제도 운영 조례",
+       "enacted_on": "20210316",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579861&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41190",
+       "name": "경기도 부천시",
+       "ordinance_id": "ordin:1613649",
+       "ordinance_name": "부천시 제안제도 운영에 관한 조례",
+       "enacted_on": "20210712",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1613649&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1717803",
+       "ordinance_name": "거제시 제안제도 운영 조례",
+       "enacted_on": "20220707",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1717803&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41220",
+       "name": "경기도 평택시",
+       "ordinance_id": "ordin:1749263",
+       "ordinance_name": "평택시 제안제도 운영 조례",
+       "enacted_on": "20221117",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1749263&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "회계관계공무원 재정보증",
+     "peer_count": 14,
+     "peer_share": 0.7368,
+     "repealed_peer_count": 5,
+     "repealed_peers": [
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "repealed_on": "20150609"
+      },
+      {
+       "region_id": "48220",
+       "name": "경상남도 통영시",
+       "repealed_on": "20171120"
+      },
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "repealed_on": "20171226"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "공무원 복무",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1163953",
+       "ordinance_name": "천안시 회계관계공무원 재정보증 조례",
+       "enacted_on": "20150721",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1163953&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1277427",
+       "ordinance_name": "고양시 회계관계공무원 재정보증 조례",
+       "enacted_on": "20170210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1277427&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41190",
+       "name": "경기도 부천시",
+       "ordinance_id": "ordin:1294759",
+       "ordinance_name": "부천시 회계관계공무원 재정보증 조례",
+       "enacted_on": "20170710",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1294759&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48250",
+       "name": "경상남도 김해시",
+       "ordinance_id": "ordin:1297759",
+       "ordinance_name": "김해시 회계관계공무원 재정보증 조례",
+       "enacted_on": "20170728",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1297759&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1316666",
+       "ordinance_name": "용인시 회계관계공무원 재정보증 조례",
+       "enacted_on": "20171211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1316666&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "사회복지협의회 지원",
+     "peer_count": 13,
+     "peer_share": 0.6842,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "사회복지사 등의 처우 및 지위 향상",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "41110",
+       "name": "경기도 수원시",
+       "ordinance_id": "ordin:734207",
+       "ordinance_name": "수원시 사회복지협의회 지원 조례",
+       "enacted_on": "20141007",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=734207&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1141860",
+       "ordinance_name": "고양시 사회복지협의회 지원 조례",
+       "enacted_on": "20150102",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1141860&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1176333",
+       "ordinance_name": "용인시 사회복지협의회 지원 조례",
+       "enacted_on": "20150518",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1176333&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "ordinance_id": "ordin:1093984",
+       "ordinance_name": "청주시사회복지협의회 지원 조례",
+       "enacted_on": "20150611",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1093984&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "ordinance_id": "ordin:1183789",
+       "ordinance_name": "남양주시 사회복지협의회 지원 조례",
+       "enacted_on": "20150813",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1183789&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "석면안전관리 및 지원",
+     "peer_count": 13,
+     "peer_share": 0.6842,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "치매관리 및 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1347633",
+       "ordinance_name": "용인시 석면안전관리 및 지원에 관한 조례",
+       "enacted_on": "20180511",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1347633&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1404866",
+       "ordinance_name": "파주시 석면안전관리 및 지원에 관한 조례",
+       "enacted_on": "20190719",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1404866&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1418641",
+       "ordinance_name": "천안시 석면안전관리 및 지원에 관한 조례",
+       "enacted_on": "20191111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418641&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1440897",
+       "ordinance_name": "고양시 석면안전관리 및 지원에 관한 조례",
+       "enacted_on": "20191231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1440897&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41110",
+       "name": "경기도 수원시",
+       "ordinance_id": "ordin:1440693",
+       "ordinance_name": "수원시 석면안전관리 및 지원에 관한 조례",
+       "enacted_on": "20191231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1440693&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "장기요양요원 처우개선 및 지위 향상",
+     "peer_count": 13,
+     "peer_share": 0.6842,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "repealed_on": "20230727"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "사회복지사 등의 처우 및 지위 향상",
+      "similarity": 0.348
+     },
+     "peers": [
+      {
+       "region_id": "41110",
+       "name": "경기도 수원시",
+       "ordinance_id": "ordin:1440709",
+       "ordinance_name": "수원시 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+       "enacted_on": "20191231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1440709&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1541417",
+       "ordinance_name": "파주시 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+       "enacted_on": "20201102",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1541417&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1601055",
+       "ordinance_name": "포항시 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+       "enacted_on": "20210601",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1601055&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1686825",
+       "ordinance_name": "용인시 장기요양요원 처우개선 및 지위 향상에 관한 조례",
+       "enacted_on": "20220228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1686825&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1844261",
+       "ordinance_name": "천안시 장기요양 요원 처우개선 및 지위향상에 관한 조례",
+       "enacted_on": "20230621",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1844261&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "교복 지원",
+     "peer_count": 12,
+     "peer_share": 0.6316,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "repealed_on": "20250918"
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "repealed_on": "20250925"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "긴급복지 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1380172",
+       "ordinance_name": "포항시 교복 지원 조례",
+       "enacted_on": "20190102",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1380172&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41110",
+       "name": "경기도 수원시",
+       "ordinance_id": "ordin:1382402",
+       "ordinance_name": "수원시 교복 지원 조례",
+       "enacted_on": "20190110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382402&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1404738",
+       "ordinance_name": "파주시 교복 지원 조례",
+       "enacted_on": "20190719",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1404738&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "ordinance_id": "ordin:1436387",
+       "ordinance_name": "남양주시 교복 지원 조례",
+       "enacted_on": "20191226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1436387&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1594427",
+       "ordinance_name": "천안시 교복 지원 조례",
+       "enacted_on": "20210511",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1594427&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "마을상수도 및 소규모급수시설 관리",
+     "peer_count": 12,
+     "peer_share": 0.6316,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "repealed_on": "20140701"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "마을상수도",
+      "similarity": 0.471
+     },
+     "peers": [
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1097809",
+       "ordinance_name": "밀양시 마을상수도 및 소규모급수시설 관리 조례",
+       "enacted_on": "20100820",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1097809&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48250",
+       "name": "경상남도 김해시",
+       "ordinance_id": "ordin:1074546",
+       "ordinance_name": "김해시 마을상수도ㆍ소규모급수시설 관리 조례",
+       "enacted_on": "20110331",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1074546&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:731188",
+       "ordinance_name": "거제시 마을상수도 및 소규모급수시설 관리조례",
+       "enacted_on": "20130726",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=731188&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48170",
+       "name": "경상남도 진주시",
+       "ordinance_id": "ordin:982095",
+       "ordinance_name": "진주시마을상수도·소규모급수시설관리조례",
+       "enacted_on": "20130925",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=982095&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "ordinance_id": "ordin:1271014",
+       "ordinance_name": "사천시 마을상수도 및 소규모 급수시설 관리조례",
+       "enacted_on": "20161229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1271014&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "보건소 수가",
+     "peer_count": 12,
+     "peer_share": 0.6316,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "repealed_on": "19960301"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "보건소 진료비 및 수수료",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "41220",
+       "name": "경기도 평택시",
+       "ordinance_id": "ordin:1950231",
+       "ordinance_name": "평택시 보건소 수가 조례",
+       "enacted_on": "20240705",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1950231&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48170",
+       "name": "경상남도 진주시",
+       "ordinance_id": "ordin:1973473",
+       "ordinance_name": "진주시 보건소 수가조례",
+       "enacted_on": "20240930",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1973473&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41110",
+       "name": "경기도 수원시",
+       "ordinance_id": "ordin:1985173",
+       "ordinance_name": "수원시 보건소 수가 조례",
+       "enacted_on": "20241114",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1985173&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1988787",
+       "ordinance_name": "밀양시 보건소 수가 조례",
+       "enacted_on": "20241128",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1988787&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48330",
+       "name": "경상남도 양산시",
+       "ordinance_id": "ordin:1996185",
+       "ordinance_name": "양산시 보건소 수가조례",
+       "enacted_on": "20241219",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1996185&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "소비자기본",
+     "peer_count": 12,
+     "peer_share": 0.6316,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "소비자 보호",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1305640",
+       "ordinance_name": "용인시 소비자 기본 조례",
+       "enacted_on": "20171002",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1305640&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1382559",
+       "ordinance_name": "고양시 소비자기본 조례",
+       "enacted_on": "20190111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382559&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41190",
+       "name": "경기도 부천시",
+       "ordinance_id": "ordin:1126972",
+       "ordinance_name": "부천시 소비자기본 조례",
+       "enacted_on": "20190814",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1126972&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48330",
+       "name": "경상남도 양산시",
+       "ordinance_id": "ordin:1481599",
+       "ordinance_name": "양산시 소비자 기본 조례",
+       "enacted_on": "20200326",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1481599&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1549251",
+       "ordinance_name": "밀양시 소비자 기본 조례",
+       "enacted_on": "20201126",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1549251&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "주택용 소방시설 설치 지원",
+     "peer_count": 12,
+     "peer_share": 0.6316,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "41270",
+       "name": "경기도 안산시",
+       "repealed_on": "20241002"
+      },
+      {
+       "region_id": "41110",
+       "name": "경기도 수원시",
+       "repealed_on": "20260226"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "생활폐기물 거점수거시설 설치 지원",
+      "similarity": 0.417
+     },
+     "peers": [
+      {
+       "region_id": "41220",
+       "name": "경기도 평택시",
+       "ordinance_id": "ordin:1304171",
+       "ordinance_name": "평택시 주택용 소방시설 설치 지원에 관한 조례",
+       "enacted_on": "20170929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1304171&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1316709",
+       "ordinance_name": "용인시 주택용 소방시설 설치 지원에 관한 조례",
+       "enacted_on": "20171211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1316709&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41190",
+       "name": "경기도 부천시",
+       "ordinance_id": "ordin:1362452",
+       "ordinance_name": "부천시 주택용 소방시설 설치 지원에 관한 조례",
+       "enacted_on": "20181011",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1362452&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48250",
+       "name": "경상남도 김해시",
+       "ordinance_id": "ordin:1566879",
+       "ordinance_name": "김해시 주택용 소방시설 설치 지원에 관한 조례",
+       "enacted_on": "20201230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1566879&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1808779",
+       "ordinance_name": "거제시 주택용 소방시설 설치 지원에 관한 조례",
+       "enacted_on": "20230511",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1808779&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "계약심의위원회의 구성·운영 및 주민참여감독대상공사 범위",
+     "peer_count": 11,
+     "peer_share": 0.5789,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "repealed_on": "20140701"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "계약심의위원회 구성ㆍ운영",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "41220",
+       "name": "경기도 평택시",
+       "ordinance_id": "ordin:1268016",
+       "ordinance_name": "평택시 계약심의위원회의 구성ㆍ운영 및 주민참여감독대상공사 범위 등에 관한 조례",
+       "enacted_on": "20161219",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1268016&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1271020",
+       "ordinance_name": "밀양시 계약심의위원회의 구성ㆍ운영 및 주민참여감독대상공사 범위 등에 관한 조례",
+       "enacted_on": "20161222",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1271020&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "ordinance_id": "ordin:1397952",
+       "ordinance_name": "사천시 계약심의위원회의 구성ㆍ운영 및 주민참여 감독대상공사 범위 등에 관한 조례",
+       "enacted_on": "20161229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1397952&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1275119",
+       "ordinance_name": "포항시 계약심의위원회의 구성·운영 및 주민참여감독대상공사 범위 등에 관한 조례",
+       "enacted_on": "20170110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1275119&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1316667",
+       "ordinance_name": "용인시 계약심의위원회의 구성·운영 및 주민참여감독대상공사 범위 등에 관한 조례",
+       "enacted_on": "20171211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1316667&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "먹거리 보장 기본",
+     "peer_count": 11,
+     "peer_share": 0.5789,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "먹거리계획 기본",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1717629",
+       "ordinance_name": "거제시 먹거리 보장 기본 조례",
+       "enacted_on": "20220707",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1717629&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48250",
+       "name": "경상남도 김해시",
+       "ordinance_id": "ordin:1756321",
+       "ordinance_name": "김해시 먹거리 보장 기본 조례",
+       "enacted_on": "20221214",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1756321&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "ordinance_id": "ordin:1762411",
+       "ordinance_name": "청주시 먹거리 보장 기본 조례",
+       "enacted_on": "20221223",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762411&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1784429",
+       "ordinance_name": "고양시 먹거리 보장 기본 조례",
+       "enacted_on": "20230221",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1784429&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "ordinance_id": "ordin:1790969",
+       "ordinance_name": "사천시 먹거리 보장 기본 조례",
+       "enacted_on": "20230316",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1790969&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "재향경우회 지원",
+     "peer_count": 11,
+     "peer_share": 0.5789,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "해병전우회 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "ordinance_id": "ordin:1540225",
+       "ordinance_name": "남양주시 재향경우회 지원에 관한 조례",
+       "enacted_on": "20201029",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1540225&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "ordinance_id": "ordin:1551279",
+       "ordinance_name": "사천시 재향경우회 지원에 관한 조례",
+       "enacted_on": "20201210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1551279&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1559803",
+       "ordinance_name": "거제시 재향경우회 지원에 관한 조례",
+       "enacted_on": "20201229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1559803&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41270",
+       "name": "경기도 안산시",
+       "ordinance_id": "ordin:1560825",
+       "ordinance_name": "안산시 재향경우회 지원에 관한 조례",
+       "enacted_on": "20201230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1560825&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41190",
+       "name": "경기도 부천시",
+       "ordinance_id": "ordin:1573679",
+       "ordinance_name": "부천시 재향경우회 지원 조례",
+       "enacted_on": "20210208",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1573679&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "거리공연 활성화 지원",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "마산항 활성화를 위한 지원",
+      "similarity": 0.533
+     },
+     "peers": [
+      {
+       "region_id": "41190",
+       "name": "경기도 부천시",
+       "ordinance_id": "ordin:1496291",
+       "ordinance_name": "부천시 거리공연 활성화 및 지원에 관한 조례",
+       "enacted_on": "20200520",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1496291&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48220",
+       "name": "경상남도 통영시",
+       "ordinance_id": "ordin:1763229",
+       "ordinance_name": "통영시 거리공연 활성화 및 지원 조례",
+       "enacted_on": "20221226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1763229&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1794873",
+       "ordinance_name": "거제시 거리공연 활성화 지원에 관한 조례",
+       "enacted_on": "20230330",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1794873&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "ordinance_id": "ordin:1853433",
+       "ordinance_name": "사천시 거리공연 활성화 및 지원에 관한 조례",
+       "enacted_on": "20230921",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1853433&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41590",
+       "name": "경기도 화성시",
+       "ordinance_id": "ordin:1863451",
+       "ordinance_name": "화성시 거리공연 활성화 및 지원에 관한 조례",
+       "enacted_on": "20231005",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1863451&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "공간정보",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "repealed_on": "20140701"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "공간정보시스템 사용료 등 징수",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1163990",
+       "ordinance_name": "천안시 공간정보에 관한 조례",
+       "enacted_on": "20150721",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1163990&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "ordinance_id": "ordin:1346625",
+       "ordinance_name": "남양주시 공간정보에 관한 조례",
+       "enacted_on": "20180503",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1346625&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48250",
+       "name": "경상남도 김해시",
+       "ordinance_id": "ordin:1355149",
+       "ordinance_name": "김해시 공간정보에 관한 조례",
+       "enacted_on": "20180810",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1355149&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1497749",
+       "ordinance_name": "포항시 공간정보에 관한 조례",
+       "enacted_on": "20200526",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1497749&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1660283",
+       "ordinance_name": "고양시 공간정보에 관한 조례",
+       "enacted_on": "20211231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1660283&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "노인학대 예방 및 보호",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "아동학대 예방 및 피해아동 보호",
+      "similarity": 0.471
+     },
+     "peers": [
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "ordinance_id": "ordin:1244952",
+       "ordinance_name": "남양주시 노인학대예방 및 보호에 관한 조례",
+       "enacted_on": "20160728",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1244952&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1347829",
+       "ordinance_name": "용인시 노인학대 예방 및 보호에 관한 조례",
+       "enacted_on": "20180514",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1347829&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "ordinance_id": "ordin:1579255",
+       "ordinance_name": "청주시 노인학대 예방 및 보호에 관한 조례",
+       "enacted_on": "20210312",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579255&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1602105",
+       "ordinance_name": "고양시 노인학대 예방 및 보호에 관한 조례",
+       "enacted_on": "20210604",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602105&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48250",
+       "name": "경상남도 김해시",
+       "ordinance_id": "ordin:1627295",
+       "ordinance_name": "김해시 노인학대 예방 및 보호 조례",
+       "enacted_on": "20210924",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627295&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "보행안전 및 편의증진",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통약자의 이동편의 증진",
+      "similarity": 0.353
+     },
+     "peers": [
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1602131",
+       "ordinance_name": "고양시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20210604",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602131&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41590",
+       "name": "경기도 화성시",
+       "ordinance_id": "ordin:1630665",
+       "ordinance_name": "화성시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20210930",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1630665&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1644031",
+       "ordinance_name": "포항시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211130",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1644031&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48330",
+       "name": "경상남도 양산시",
+       "ordinance_id": "ordin:1648403",
+       "ordinance_name": "양산시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211216",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648403&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "ordinance_id": "ordin:1653179",
+       "ordinance_name": "사천시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211223",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1653179&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "생활임금",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "식생활 교육 지원",
+      "similarity": 0.222
+     },
+     "peers": [
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1255628",
+       "ordinance_name": "용인시 생활임금 조례",
+       "enacted_on": "20161012",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1255628&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1377089",
+       "ordinance_name": "파주시 생활임금 조례",
+       "enacted_on": "20181228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1377089&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1440883",
+       "ordinance_name": "고양시 생활임금 조례",
+       "enacted_on": "20191231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1440883&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41220",
+       "name": "경기도 평택시",
+       "ordinance_id": "ordin:1579833",
+       "ordinance_name": "평택시 생활임금 조례",
+       "enacted_on": "20210226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579833&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1842569",
+       "ordinance_name": "천안시 생활임금 조례",
+       "enacted_on": "20230801",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1842569&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "시민헌장",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "시민 제안",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "ordinance_id": "ordin:1181628",
+       "ordinance_name": "청주시 시민헌장조례",
+       "enacted_on": "19700625",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1181628&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41270",
+       "name": "경기도 안산시",
+       "ordinance_id": "ordin:811175",
+       "ordinance_name": "안산시 시민헌장 조례",
+       "enacted_on": "19861206",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=811175&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "ordinance_id": "ordin:975699",
+       "ordinance_name": "남양주시시민헌장조례",
+       "enacted_on": "19960515",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=975699&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1082185",
+       "ordinance_name": "고양시 시민헌장 조례",
+       "enacted_on": "20081212",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1082185&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1144578",
+       "ordinance_name": "파주시 시민헌장 조례",
+       "enacted_on": "20111223",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1144578&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "액화석유가스사업 허가기준",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "자동차관리사업 등록기준",
+      "similarity": 0.19
+     },
+     "peers": [
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "ordinance_id": "ordin:1192210",
+       "ordinance_name": "남양주시 액화석유가스사업 허가기준에 관한 조례",
+       "enacted_on": "20150930",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1192210&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1189459",
+       "ordinance_name": "거제시 액화석유가스사업 허가기준에 관한 조례",
+       "enacted_on": "20151001",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1189459&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1192422",
+       "ordinance_name": "파주시 액화석유가스사업 허가기준에 관한 조례",
+       "enacted_on": "20151012",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1192422&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "ordinance_id": "ordin:1203539",
+       "ordinance_name": "사천시 액화석유가스사업 허가기준 조례",
+       "enacted_on": "20151203",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1203539&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48330",
+       "name": "경상남도 양산시",
+       "ordinance_id": "ordin:1216126",
+       "ordinance_name": "양산시 액화석유가스사업 허가기준에 관한 조례",
+       "enacted_on": "20151231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1216126&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "어린이ㆍ사회복지급식관리지원센터 설치 및 운영",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "정신건강복지센터 및 중독관리통합지원센터 설치 및 운영",
+      "similarity": 0.474
+     },
+     "peers": [
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1782237",
+       "ordinance_name": "고양시 어린이·사회복지급식관리지원센터 설치 및 운영 조례",
+       "enacted_on": "20230207",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1782237&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1807761",
+       "ordinance_name": "포항시 어린이·사회복지급식관리지원센터 설치 및 운영에 관한 조례",
+       "enacted_on": "20230510",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1807761&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1857271",
+       "ordinance_name": "파주시 어린이·사회복지급식관리지원센터 설치 및 운영 조례",
+       "enacted_on": "20230927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1857271&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48250",
+       "name": "경상남도 김해시",
+       "ordinance_id": "ordin:1916275",
+       "ordinance_name": "김해시 어린이ㆍ사회복지급식관리지원센터 설치 및 운영 조례",
+       "enacted_on": "20240328",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1916275&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1984083",
+       "ordinance_name": "천안시 어린이·사회복지급식관리지원센터 설치 및 운영에 관한 조례",
+       "enacted_on": "20241111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1984083&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "자원의 절약과 재활용촉진",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 3,
+     "repealed_peers": [
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "repealed_on": "20140701"
+      },
+      {
+       "region_id": "41360",
+       "name": "경기도 남양주시",
+       "repealed_on": "20150930"
+      },
+      {
+       "region_id": "41220",
+       "name": "경기도 평택시",
+       "repealed_on": "20200605"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "드론산업 육성 및 활용 촉진",
+      "similarity": 0.316
+     },
+     "peers": [
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1085154",
+       "ordinance_name": "용인시 자원의 절약과 재활용 촉진에 관한 조례",
+       "enacted_on": "20141006",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1085154&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41270",
+       "name": "경기도 안산시",
+       "ordinance_id": "ordin:1236201",
+       "ordinance_name": "안산시 자원의 절약과 재활용 촉진에 관한 조례",
+       "enacted_on": "20160607",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1236201&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48250",
+       "name": "경상남도 김해시",
+       "ordinance_id": "ordin:1508535",
+       "ordinance_name": "김해시 자원의 절약과 재활용촉진에 관한 조례",
+       "enacted_on": "20200626",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1508535&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41190",
+       "name": "경기도 부천시",
+       "ordinance_id": "ordin:1621933",
+       "ordinance_name": "부천시 자원의 절약과 재활용촉진에 관한 조례",
+       "enacted_on": "20210817",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1621933&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1741845",
+       "ordinance_name": "파주시 자원의 절약과 재활용촉진에 관한 조례",
+       "enacted_on": "20221031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741845&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "전통상업보존구역 지정 및 대규모·준대규모 점포의 등록제한",
+     "peer_count": 10,
+     "peer_share": 0.5263,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "43110",
+       "name": "충청북도 청주시",
+       "repealed_on": "20140701"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "유통기업상생발전 및 전통상업보존구역 지정",
+      "similarity": 0.474
+     },
+     "peers": [
+      {
+       "region_id": "41460",
+       "name": "경기도 용인시",
+       "ordinance_id": "ordin:1090194",
+       "ordinance_name": "용인시 전통상업보존구역 지정 및 대규모·준대규모점포의 등록제한 등에 관한 조례",
+       "enacted_on": "20140808",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1090194&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48240",
+       "name": "경상남도 사천시",
+       "ordinance_id": "ordin:1362715",
+       "ordinance_name": "사천시 전통상업보존구역 지정 및 대규모·준대규모 점포의 등록제한 등에 관한 조례",
+       "enacted_on": "20181011",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1362715&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41590",
+       "name": "경기도 화성시",
+       "ordinance_id": "ordin:1398644",
+       "ordinance_name": "화성시 전통상업보존구역 지정 및 대규모ㆍ준대규모점포의 등록제한 등에 관한 조례",
+       "enacted_on": "20190614",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1398644&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41480",
+       "name": "경기도 파주시",
+       "ordinance_id": "ordin:1437847",
+       "ordinance_name": "파주시 전통상업보존구역 지정 및 대규모·준대규모점포의 등록제한 등에 관한 조례",
+       "enacted_on": "20191227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1437847&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41280",
+       "name": "경기도 고양시",
+       "ordinance_id": "ordin:1440857",
+       "ordinance_name": "고양시 전통상업보존구역 지정 및 대규모·준대규모 점포의 등록제한 등에 관한 조례",
+       "enacted_on": "20191231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1440857&type=HTML&mobileYn="
+      }
+     ]
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 74,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.0,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d).",
+    "min_peers": 3,
+    "same_sido_boost": true,
+    "dup_threshold": 0.55,
+    "exclude_variants": true,
+    "policy_key": "조례명에서 지자체명·법형식 접미 제거 → canon_key(어절 단위 연결어 제거) → 정규형 완전일치는 '보유'로 제외, 잔여 근사는 closest_own 과 함께 likely_variant 로 표시"
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "48120"
+ ]
+}

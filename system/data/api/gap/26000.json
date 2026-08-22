@@ -1,0 +1,1519 @@
+{
+ "data": {
+  "26000": {
+   "target": {
+    "region_id": "26",
+    "sig_cd": "26000",
+    "name": "부산광역시",
+    "rtype": "광역",
+    "indicators": {
+     "population": null,
+     "area_km2": null,
+     "fiscal_self_ratio": 0.037245230977348776,
+     "welfare_ratio": 0.37639458979523266,
+     "budget_total": 20093274971100.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "28",
+     "name": "인천광역시"
+    },
+    {
+     "region_id": "27",
+     "name": "대구광역시"
+    },
+    {
+     "region_id": "52",
+     "name": "전북특별자치도"
+    },
+    {
+     "region_id": "41",
+     "name": "경기도"
+    },
+    {
+     "region_id": "11",
+     "name": "서울특별시"
+    },
+    {
+     "region_id": "51",
+     "name": "강원특별자치도"
+    },
+    {
+     "region_id": "47",
+     "name": "경상북도"
+    },
+    {
+     "region_id": "44",
+     "name": "충청남도"
+    },
+    {
+     "region_id": "48",
+     "name": "경상남도"
+    },
+    {
+     "region_id": "43",
+     "name": "충청북도"
+    },
+    {
+     "region_id": "30",
+     "name": "대전광역시"
+    },
+    {
+     "region_id": "31",
+     "name": "울산광역시"
+    }
+   ],
+   "peer_pool_size": 12,
+   "my_policy_count": 1074,
+   "suppressed_exact_duplicate": 494,
+   "flagged_as_variant": 364,
+   "recommendations": [
+    {
+     "policy_key": "국가보훈대상자 예우 및 지원",
+     "peer_count": 12,
+     "peer_share": 1.0,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "독립유공자 예우 및 지원",
+      "similarity": 0.444
+     },
+     "peers": [
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1819291",
+       "ordinance_name": "강원특별자치도 국가보훈대상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819291&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:1837699",
+       "ordinance_name": "대전광역시 국가보훈대상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20230714",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1837699&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1847001",
+       "ordinance_name": "충청남도 국가보훈대상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20230810",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1847001&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1934833",
+       "ordinance_name": "전북특별자치도 국가보훈대상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20240531",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1934833&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1955165",
+       "ordinance_name": "경상북도 국가보훈대상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20240711",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1955165&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "인공조명에 의한 빛공해 방지",
+     "peer_count": 11,
+     "peer_share": 0.9167,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "빛공해 방지",
+      "similarity": 0.533
+     },
+     "peers": [
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1821239",
+       "ordinance_name": "강원특별자치도 인공조명에 의한 빛공해 방지 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1821239&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1925825",
+       "ordinance_name": "울산광역시 인공조명에 의한 빛공해 방지 조례",
+       "enacted_on": "20240509",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1925825&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:1943391",
+       "ordinance_name": "대전광역시 인공조명에 의한 빛공해 방지 조례",
+       "enacted_on": "20240628",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1943391&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1955179",
+       "ordinance_name": "경상북도 인공조명에 의한 빛공해 방지 조례",
+       "enacted_on": "20240711",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1955179&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:2003999",
+       "ordinance_name": "충청남도 인공조명에 의한 빛공해 방지 조례",
+       "enacted_on": "20241230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2003999&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "자동차 공회전 제한",
+     "peer_count": 11,
+     "peer_share": 0.9167,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "27",
+       "name": "대구광역시",
+       "repealed_on": "20091012"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "화물자동차 공영차고지 재정지원",
+      "similarity": 0.3
+     },
+     "peers": [
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:1191447",
+       "ordinance_name": "대전광역시 자동차 공회전 제한조례",
+       "enacted_on": "20151008",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1191447&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1211048",
+       "ordinance_name": "울산광역시 자동차 공회전 제한에 관한 조례",
+       "enacted_on": "20151231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1211048&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1267853",
+       "ordinance_name": "경상북도 자동차 공회전 제한에 관한 조례",
+       "enacted_on": "20161215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1267853&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28",
+       "name": "인천광역시",
+       "ordinance_id": "ordin:1397553",
+       "ordinance_name": "인천광역시 자동차 공회전 제한에 관한 조례",
+       "enacted_on": "20190603",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1397553&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1620379",
+       "ordinance_name": "충청북도 자동차공회전 제한에 관한 조례",
+       "enacted_on": "20210806",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1620379&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "화재예방",
+     "peer_count": 11,
+     "peer_share": 0.9167,
+     "repealed_peer_count": 4,
+     "repealed_peers": [
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "repealed_on": "20041230"
+      },
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "repealed_on": "20050531"
+      },
+      {
+       "region_id": "28",
+       "name": "인천광역시",
+       "repealed_on": "20050725"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "화재예방 및 소방훈련 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1272862",
+       "ordinance_name": "충청북도 화재예방 조례",
+       "enacted_on": "20161230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1272862&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1504579",
+       "ordinance_name": "충청남도 화재예방 조례",
+       "enacted_on": "20200610",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1504579&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1819897",
+       "ordinance_name": "강원특별자치도 화재예방 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819897&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:1837695",
+       "ordinance_name": "대전광역시 화재예방 조례",
+       "enacted_on": "20230714",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1837695&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:1843811",
+       "ordinance_name": "경상남도 화재예방 조례",
+       "enacted_on": "20230803",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1843811&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "보증채무 관리",
+     "peer_count": 10,
+     "peer_share": 0.8333,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "28",
+       "name": "인천광역시",
+       "repealed_on": "20170101"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "어항관리",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "27",
+       "name": "대구광역시",
+       "ordinance_id": "ordin:695691",
+       "ordinance_name": "대구광역시 보증채무관리 조례",
+       "enacted_on": "20120330",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=695691&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:837369",
+       "ordinance_name": "경기도 보증채무관리 조례",
+       "enacted_on": "20120511",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=837369&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:736450",
+       "ordinance_name": "경상남도 보증채무 관리 조례",
+       "enacted_on": "20141010",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=736450&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1030093",
+       "ordinance_name": "충청남도보증채무관리조례",
+       "enacted_on": "20141230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1030093&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:1210709",
+       "ordinance_name": "대전광역시 보증채무관리조례",
+       "enacted_on": "20151231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1210709&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "산업단지 개발 지원",
+     "peer_count": 10,
+     "peer_share": 0.8333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "산업단지 온실가스 감축지원",
+      "similarity": 0.444
+     },
+     "peers": [
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1771911",
+       "ordinance_name": "충청북도 산업단지 개발 지원 조례",
+       "enacted_on": "20221230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1771911&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1900221",
+       "ordinance_name": "전북특별자치도 산업단지 개발 지원 조례",
+       "enacted_on": "20231208",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1900221&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1925831",
+       "ordinance_name": "울산광역시 산업단지개발 지원 조례",
+       "enacted_on": "20240509",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1925831&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1932079",
+       "ordinance_name": "강원특별자치도 산업단지 개발 지원 조례",
+       "enacted_on": "20240510",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1932079&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:1943319",
+       "ordinance_name": "대전광역시 산업단지 개발 지원 조례",
+       "enacted_on": "20240628",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1943319&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "기부자 예우 및 기부심사위원회 운영",
+     "peer_count": 9,
+     "peer_share": 0.75,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "기부자 예우",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1469457",
+       "ordinance_name": "경상북도 기부자 예우 및 기부심사위원회 운영에 관한 조례",
+       "enacted_on": "20200220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1469457&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1564893",
+       "ordinance_name": "경기도 기부자 예우 및 기부심사위원회 운영에 관한 조례",
+       "enacted_on": "20201231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1564893&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1818977",
+       "ordinance_name": "강원특별자치도 기부자 예우 및 기부심사위원회 운영에 관한 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1818977&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1899599",
+       "ordinance_name": "전북특별자치도 기부자 예우 및 기부심사위원회 운영에 관한 조례",
+       "enacted_on": "20231208",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1899599&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:1899743",
+       "ordinance_name": "경상남도 기부자 예우 및 기부심사위원회 운영에 관한 조례",
+       "enacted_on": "20240102",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1899743&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "건설기계 공영주기장 설치 및 운영",
+     "peer_count": 8,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "시립공연장 설치 및 운영",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:1255717",
+       "ordinance_name": "경상남도 건설기계 공영주기장 설치 및 운영 등에 관한 조례",
+       "enacted_on": "20161013",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1255717&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:1277604",
+       "ordinance_name": "대전광역시 건설기계 공영주기장 설치 및 운영 조례",
+       "enacted_on": "20170210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1277604&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1576907",
+       "ordinance_name": "경상북도 건설기계 공영주기장 설치 및 운영 등에 관한 조례",
+       "enacted_on": "20210225",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1576907&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1613011",
+       "ordinance_name": "충청북도 건설기계 공영주기장 설치 및 운영 조례",
+       "enacted_on": "20210709",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1613011&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1819039",
+       "ordinance_name": "강원특별자치도 건설기계 공영주기장 설치 및 운영 등에 관한 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819039&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "노인학대 예방 및 보호",
+     "peer_count": 8,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "repealed_on": "20240216"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "아동학대 예방 및 피해아동 보호",
+      "similarity": 0.471
+     },
+     "peers": [
+      {
+       "region_id": "28",
+       "name": "인천광역시",
+       "ordinance_id": "ordin:675808",
+       "ordinance_name": "인천광역시 노인학대 예방 및 보호에 관한 조례",
+       "enacted_on": "20120116",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=675808&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1348082",
+       "ordinance_name": "울산광역시 노인학대 예방 및 보호에 관한 조례",
+       "enacted_on": "20180517",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1348082&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1494313",
+       "ordinance_name": "충청북도 노인학대 예방 및 보호 조례",
+       "enacted_on": "20200515",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1494313&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1672485",
+       "ordinance_name": "충청남도 노인학대 예방 및 보호에 관한 조례",
+       "enacted_on": "20211230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1672485&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1819883",
+       "ordinance_name": "강원특별자치도 노인학대 예방 및 보호에 관한 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819883&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "심폐소생술 교육 활성화",
+     "peer_count": 8,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "산림교육 활성화",
+      "similarity": 0.533
+     },
+     "peers": [
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1362588",
+       "ordinance_name": "경기도 심폐소생술 교육 활성화에 관한 조례",
+       "enacted_on": "20181001",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1362588&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1697049",
+       "ordinance_name": "충청남도 심폐소생술 교육 활성화에 관한 조례",
+       "enacted_on": "20220411",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697049&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11",
+       "name": "서울특별시",
+       "ordinance_id": "ordin:1772971",
+       "ordinance_name": "서울특별시 심폐소생술 교육 활성화에 관한 조례",
+       "enacted_on": "20221230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1772971&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:1803663",
+       "ordinance_name": "대전광역시 심폐소생술 교육 활성화 조례",
+       "enacted_on": "20230421",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1803663&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1416760",
+       "ordinance_name": "경상북도 심폐소생술 교육 활성화에 관한 조례",
+       "enacted_on": "20230713",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1416760&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의회 기본",
+     "peer_count": 8,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "의회 회의운영 기본",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1819177",
+       "ordinance_name": "강원특별자치도의회 기본 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819177&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:2059445",
+       "ordinance_name": "경기도의회 기본 조례",
+       "enacted_on": "20250718",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2059445&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:2091871",
+       "ordinance_name": "전북특별자치도의회 기본 조례",
+       "enacted_on": "20251212",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2091871&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11",
+       "name": "서울특별시",
+       "ordinance_id": "ordin:2099987",
+       "ordinance_name": "서울특별시의회 기본 조례",
+       "enacted_on": "20260105",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2099987&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:2110245",
+       "ordinance_name": "대전광역시의회 기본 조례",
+       "enacted_on": "20260213",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2110245&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "지역상권 상생 및 활성화",
+     "peer_count": 8,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "지역상권 상생협력 촉진 및 지원",
+      "similarity": 0.526
+     },
+     "peers": [
+      {
+       "region_id": "11",
+       "name": "서울특별시",
+       "ordinance_id": "ordin:1811137",
+       "ordinance_name": "서울특별시 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20230522",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1811137&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1908109",
+       "ordinance_name": "경상북도 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20240219",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1908109&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27",
+       "name": "대구광역시",
+       "ordinance_id": "ordin:1908591",
+       "ordinance_name": "대구광역시 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20240220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1908591&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1934783",
+       "ordinance_name": "전북특별자치도 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20240531",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1934783&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:2007329",
+       "ordinance_name": "경기도 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20241231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007329&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "한우 육성 지원",
+     "peer_count": 8,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "야영장 육성 및 지원",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1416367",
+       "ordinance_name": "경상북도 한우 육성 지원에 관한 조례",
+       "enacted_on": "20191031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1416367&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1514625",
+       "ordinance_name": "울산광역시 한우 육성 지원에 관한 조례",
+       "enacted_on": "20200709",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1514625&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1564935",
+       "ordinance_name": "경기도 한우 육성 지원에 관한 조례",
+       "enacted_on": "20201231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1564935&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:1637985",
+       "ordinance_name": "경상남도 한우 육성 지원에 관한 조례",
+       "enacted_on": "20211104",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1637985&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1847063",
+       "ordinance_name": "충청남도 한우 육성 지원에 관한 조례",
+       "enacted_on": "20230810",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1847063&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "도세",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": null,
+     "peers": [
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1742201",
+       "ordinance_name": "경기도 도세 조례",
+       "enacted_on": "20221031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1742201&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1771995",
+       "ordinance_name": "충청남도 도세 조례",
+       "enacted_on": "20221230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1771995&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1904389",
+       "ordinance_name": "전북특별자치도 도세 조례",
+       "enacted_on": "20231208",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1904389&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1954979",
+       "ordinance_name": "충청북도 도세조례",
+       "enacted_on": "20240712",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1954979&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:1971289",
+       "ordinance_name": "경상남도 도세 조례",
+       "enacted_on": "20240926",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971289&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "산업디자인 육성 및 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "디자인산업과 디자인 전문기업 육성 및 지원",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1716981",
+       "ordinance_name": "울산광역시 산업디자인 육성 및 지원 조례",
+       "enacted_on": "20220715",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1716981&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1813117",
+       "ordinance_name": "경상북도 산업디자인 육성 및 지원조례",
+       "enacted_on": "20230525",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1813117&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1839033",
+       "ordinance_name": "경기도 산업디자인 육성 및 지원 조례",
+       "enacted_on": "20230718",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1839033&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:1844011",
+       "ordinance_name": "경상남도 산업디자인 육성 및 지원 조례",
+       "enacted_on": "20230803",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1844011&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1900059",
+       "ordinance_name": "전북특별자치도 산업디자인 육성 및 지원 조례",
+       "enacted_on": "20231208",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1900059&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "상징물 관리",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "건축물관리",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1303904",
+       "ordinance_name": "울산광역시 상징물 관리 조례",
+       "enacted_on": "20170928",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1303904&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1813205",
+       "ordinance_name": "경상북도 상징물 관리 조례",
+       "enacted_on": "20230525",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1813205&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1848823",
+       "ordinance_name": "경기도 상징물 관리 조례",
+       "enacted_on": "20230718",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1848823&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1897057",
+       "ordinance_name": "전북특별자치도 상징물 관리 조례",
+       "enacted_on": "20231229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1897057&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27",
+       "name": "대구광역시",
+       "ordinance_id": "ordin:1917905",
+       "ordinance_name": "대구광역시 상징물 관리 조례",
+       "enacted_on": "20240401",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1917905&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "습지보전 및 관리",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "낙동강하구 보전·관리",
+      "similarity": 0.462
+     },
+     "peers": [
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1971231",
+       "ordinance_name": "경상북도 습지보전 및 관리에 관한 조례",
+       "enacted_on": "20240926",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971231&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:2027705",
+       "ordinance_name": "경상남도 습지보전 및 관리 조례",
+       "enacted_on": "20250407",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2027705&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:2042885",
+       "ordinance_name": "강원특별자치도 습지보전 및 관리 조례",
+       "enacted_on": "20250605",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2042885&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:2122113",
+       "ordinance_name": "대전광역시 습지보전 및 관리 조례",
+       "enacted_on": "20260410",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2122113&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:2136093",
+       "ordinance_name": "경기도 습지보전 및 관리 조례",
+       "enacted_on": "20260629",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2136093&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의사상자 예우 및 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "독립유공자 예우 및 지원",
+      "similarity": 0.533
+     },
+     "peers": [
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:739193",
+       "ordinance_name": "경상남도 의사상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20141226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=739193&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11",
+       "name": "서울특별시",
+       "ordinance_id": "ordin:1410283",
+       "ordinance_name": "서울특별시 의사상자 등 예우 및 지원에 관한 조례",
+       "enacted_on": "20190926",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410283&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1833623",
+       "ordinance_name": "충청북도 의사상자 예우 및 지원 조례",
+       "enacted_on": "20230707",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1833623&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28",
+       "name": "인천광역시",
+       "ordinance_id": "ordin:1937167",
+       "ordinance_name": "인천광역시 의사상자 등 예우 및 지원에 관한 조례",
+       "enacted_on": "20240610",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937167&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1955209",
+       "ordinance_name": "경상북도 의사상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20240711",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1955209&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "재향소방동우회 육성 및 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "야영장 육성 및 지원",
+      "similarity": 0.375
+     },
+     "peers": [
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1717335",
+       "ordinance_name": "경기도 재향소방동우회 육성 및 지원에 관한 조례",
+       "enacted_on": "20220719",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1717335&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1847103",
+       "ordinance_name": "충청남도 재향소방동우회 육성 및 지원에 관한 조례",
+       "enacted_on": "20230810",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1847103&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1897167",
+       "ordinance_name": "강원특별자치도 재향소방동우회 육성 및 지원에 관한 조례",
+       "enacted_on": "20231229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1897167&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1955015",
+       "ordinance_name": "충청북도 재향소방동우회 육성 및 지원 조례",
+       "enacted_on": "20240712",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1955015&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:2027715",
+       "ordinance_name": "경상남도 재향소방동우회 육성 및 지원에 관한 조례",
+       "enacted_on": "20250407",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2027715&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "지역특화작목 연구개발 및 육성",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "연구개발장비 공동활용",
+      "similarity": 0.3
+     },
+     "peers": [
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:1439137",
+       "ordinance_name": "경상남도 지역특화작목 연구개발 및 육성 조례",
+       "enacted_on": "20191226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1439137&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1452345",
+       "ordinance_name": "경상북도 지역특화작목 연구개발 및 육성 조례",
+       "enacted_on": "20200109",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1452345&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1799907",
+       "ordinance_name": "경기도 지역특화작목 연구개발 및 육성 조례",
+       "enacted_on": "20230411",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1799907&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1808867",
+       "ordinance_name": "충청북도 지역특화작목 연구개발 및 육성 조례",
+       "enacted_on": "20230512",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1808867&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1934831",
+       "ordinance_name": "전북특별자치도 지역특화작목 연구개발 및 육성 조례",
+       "enacted_on": "20240531",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1934831&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "태권도 진흥 및 지원",
+     "peer_count": 7,
+     "peer_share": 0.5833,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "국악진흥 및 지원",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1788093",
+       "ordinance_name": "경기도 태권도 진흥 및 지원 조례",
+       "enacted_on": "20230306",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1788093&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1821253",
+       "ordinance_name": "강원특별자치도 태권도 진흥 및 지원 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1821253&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1416766",
+       "ordinance_name": "경상북도 태권도 진흥 및 지원에 관한 조례",
+       "enacted_on": "20230713",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1416766&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1900939",
+       "ordinance_name": "전북특별자치도 태권도 진흥에 관한 지원 조례",
+       "enacted_on": "20231208",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1900939&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1896871",
+       "ordinance_name": "충청남도 태권도 진흥 및 지원에 관한 조례",
+       "enacted_on": "20231229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896871&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "4차 산업혁명 촉진",
+     "peer_count": 6,
+     "peer_share": 0.5,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "산업 디지털 전환 촉진",
+      "similarity": 0.267
+     },
+     "peers": [
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1502479",
+       "ordinance_name": "경상북도 4차 산업혁명 촉진에 관한 조례",
+       "enacted_on": "20200604",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1502479&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27",
+       "name": "대구광역시",
+       "ordinance_id": "ordin:1734789",
+       "ordinance_name": "대구광역시 4차 산업혁명 촉진에 관한 조례",
+       "enacted_on": "20221011",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1734789&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51",
+       "name": "강원특별자치도",
+       "ordinance_id": "ordin:1819601",
+       "ordinance_name": "강원특별자치도 4차 산업혁명 촉진에 관한 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819601&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1902605",
+       "ordinance_name": "전북특별자치도 4차 산업혁명 촉진 조례",
+       "enacted_on": "20231208",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1902605&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "30",
+       "name": "대전광역시",
+       "ordinance_id": "ordin:1943461",
+       "ordinance_name": "대전광역시 4차 산업혁명 촉진 조례",
+       "enacted_on": "20240628",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1943461&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "공동주택 품질점검단 설치 및 운영",
+     "peer_count": 6,
+     "peer_share": 0.5,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "공동주택관리기술자문단 설치 및 운영",
+      "similarity": 0.538
+     },
+     "peers": [
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1712483",
+       "ordinance_name": "울산광역시 공동주택 품질점검단 설치 및 운영 조례",
+       "enacted_on": "20220623",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1712483&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:1839051",
+       "ordinance_name": "경기도 공동주택 품질점검단 설치 및 운영 조례",
+       "enacted_on": "20230718",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1839051&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:1844373",
+       "ordinance_name": "충청북도 공동주택 품질점검단 설치 및 운영 조례",
+       "enacted_on": "20230804",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1844373&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28",
+       "name": "인천광역시",
+       "ordinance_id": "ordin:1896609",
+       "ordinance_name": "인천광역시 공동주택 품질점검단 설치 및 운영 조례",
+       "enacted_on": "20231229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896609&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52",
+       "name": "전북특별자치도",
+       "ordinance_id": "ordin:1934751",
+       "ordinance_name": "전북특별자치도 공동주택 품질점검단 설치 및 운영 조례",
+       "enacted_on": "20240531",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1934751&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "관리방조제의 범위",
+     "peer_count": 6,
+     "peer_share": 0.5,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통영향평가 대상사업의 범위",
+      "similarity": 0.211
+     },
+     "peers": [
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1008972",
+       "ordinance_name": "경상북도 관리방조제의 범위에 관한 조례",
+       "enacted_on": "20130916",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1008972&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "28",
+       "name": "인천광역시",
+       "ordinance_id": "ordin:1171947",
+       "ordinance_name": "인천광역시 관리방조제의 범위에 관한 조례",
+       "enacted_on": "20150727",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1171947&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48",
+       "name": "경상남도",
+       "ordinance_id": "ordin:1196941",
+       "ordinance_name": "경상남도 관리방조제의 범위에 관한 조례",
+       "enacted_on": "20151029",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1196941&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1752429",
+       "ordinance_name": "울산광역시 관리방조제의 범위에 관한 조례",
+       "enacted_on": "20221201",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1752429&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1847089",
+       "ordinance_name": "충청남도 관리방조제의 범위에 관한 조례",
+       "enacted_on": "20230810",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1847089&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "귀농어·귀촌 활성화 및 지원",
+     "peer_count": 6,
+     "peer_share": 0.5,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "거리예술 활성화 및 지원",
+      "similarity": 0.471
+     },
+     "peers": [
+      {
+       "region_id": "47",
+       "name": "경상북도",
+       "ordinance_id": "ordin:1598311",
+       "ordinance_name": "경상북도 귀농어·귀촌 활성화 및 지원 조례",
+       "enacted_on": "20210524",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1598311&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44",
+       "name": "충청남도",
+       "ordinance_id": "ordin:1617049",
+       "ordinance_name": "충청남도 귀농어·귀촌 활성화 지원에 관한 조례",
+       "enacted_on": "20210720",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1617049&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "31",
+       "name": "울산광역시",
+       "ordinance_id": "ordin:1752567",
+       "ordinance_name": "울산광역시 귀농어ㆍ귀촌 활성화 및 지원에 관한 조례",
+       "enacted_on": "20221201",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1752567&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41",
+       "name": "경기도",
+       "ordinance_id": "ordin:2012587",
+       "ordinance_name": "경기도 귀농어·귀촌 활성화 및 지원에 관한 조례",
+       "enacted_on": "20250120",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2012587&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43",
+       "name": "충청북도",
+       "ordinance_id": "ordin:2027271",
+       "ordinance_name": "충청북도 귀농어ㆍ귀촌 활성화 및 지원에 관한 조례",
+       "enacted_on": "20250404",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2027271&type=HTML&mobileYn="
+      }
+     ]
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 15,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.0,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d).",
+    "min_peers": 3,
+    "same_sido_boost": true,
+    "dup_threshold": 0.55,
+    "exclude_variants": true,
+    "policy_key": "조례명에서 지자체명·법형식 접미 제거 → canon_key(어절 단위 연결어 제거) → 정규형 완전일치는 '보유'로 제외, 잔여 근사는 closest_own 과 함께 likely_variant 로 표시"
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "26000"
+ ]
+}

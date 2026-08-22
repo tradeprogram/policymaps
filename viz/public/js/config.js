@@ -80,3 +80,69 @@ export const CATEGORY_FALLBACK = {
   "C-BIRTH": "출산장려ㆍ양육지원",
   "C-PET": "반려동물ㆍ동물보호",
 };
+
+/* ==================================================================== *
+ *  전국(nationwide) shard 레이아웃
+ * ==================================================================== */
+
+/**
+ * 사전계산 결과를 지역/항목 단위 shard 로 쪼갠 배치.
+ * make_nationwide.py 가 아래 경로로 굽는 것을 전제하되, 로더(api.js)는
+ * shard 가 없으면 기존 단일 파일(api/gap.json 등)로 폴백한다 — 하위호환.
+ *
+ *   api/index.json                   커버리지 색인 (아래 스키마)
+ *   api/gap/{sig_cd}.json            지역별 격차분석 봉투
+ *   api/peers/{sig_cd}.json          지역별 유사 지자체 봉투
+ *   api/effectiveness/{sig_cd}.json  지역별 조례-예산 실효성 봉투
+ *   api/diffusion/{key}.json         정책 템플릿별 확산 봉투
+ *   api/votes/{key}.json             의안별 표결 봉투
+ *   api/search/{key}.json            질의별 검색 봉투(선택)
+ *
+ * api/index.json 스키마 — 모든 필드가 선택이고, 로더는 아래 변형을 모두 받는다.
+ * {
+ *   "as_of_date": "2026-08-22",
+ *   "regions": [
+ *     {"sig_cd":"47190","name":"구미시","sido":"경상북도","level":2,
+ *      "has":{"gap":true,"peers":true,"effectiveness":true}}
+ *   ],
+ *   "gap":   ["47190", ...]  |  [{"sig_cd":"47190","file":"api/gap/47190.json"}],
+ *   "peers": [...],  "effectiveness": [...],
+ *   "diffusion": [{"key":"맨발걷기","label":"맨발걷기 (level2·122/130 제정본)",
+ *                  "file":"api/diffusion/맨발걷기.json"}],
+ *   "votes":     [{"key":"2215741","label":"소상공인 보호 및 지원에 관한 법률 …",
+ *                  "file":"api/votes/2215741.json"}]
+ * }
+ * 배열 대신 {키: 객체} 맵, 객체 대신 문자열, regions 대신 items 도 허용한다.
+ */
+export const API_SHARDS = {
+  index: "api/index.json",
+  gap: "api/gap",
+  peers: "api/peers",
+  effectiveness: "api/effectiveness",
+  diffusion: "api/diffusion",
+  votes: "api/votes",
+  search: "api/search",
+};
+
+/** shard 가 없을 때 화면에 안내할 생성기 경로 */
+export const NATIONWIDE_GENERATOR = "system/make_nationwide.py";
+
+/**
+ * 지역 선택기에 올릴 level.
+ * 1=광역 16곳, 2=기초 227곳 → 243곳. level 3(일반구 41곳)은 조례 제정권이 없어 제외한다.
+ */
+export const PICKER_LEVELS = [1, 2];
+
+/**
+ * 시도 그룹 이름 폴백. sig_cd 앞 2자리 -> 이름.
+ * ★ 1차 출처는 regions/index.json 의 level=1 항목이다(이 DB에는 '전남광주통합특별시(12)'
+ *   처럼 표준 코드표에 없는 개편 지자체가 있어 하드코딩을 신뢰하면 안 된다).
+ *   여기 값은 level=1 항목이 없는 접두어에만 쓰인다.
+ */
+export const SIDO_FALLBACK = {
+  "11": "서울특별시", "12": "전남광주통합특별시", "26": "부산광역시", "27": "대구광역시",
+  "28": "인천광역시", "29": "광주광역시", "30": "대전광역시", "31": "울산광역시",
+  "36": "세종특별자치시", "41": "경기도", "42": "강원도", "43": "충청북도",
+  "44": "충청남도", "45": "전라북도", "46": "전라남도", "47": "경상북도",
+  "48": "경상남도", "50": "제주특별자치도", "51": "강원특별자치도", "52": "전북특별자치도",
+};

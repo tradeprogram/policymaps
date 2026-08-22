@@ -1,0 +1,1542 @@
+{
+ "data": {
+  "47840": {
+   "target": {
+    "region_id": "47840",
+    "sig_cd": "47840",
+    "name": "경상북도 성주군",
+    "rtype": "군",
+    "indicators": {
+     "population": 40374.0,
+     "area_km2": 612.9445176135754,
+     "fiscal_self_ratio": 0.6219323117320124,
+     "welfare_ratio": 0.15308863990665586,
+     "budget_total": 797198551600.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "44790",
+     "name": "충청남도 청양군"
+    },
+    {
+     "region_id": "48820",
+     "name": "경상남도 고성군"
+    },
+    {
+     "region_id": "43730",
+     "name": "충청북도 옥천군"
+    },
+    {
+     "region_id": "52800",
+     "name": "전북특별자치도 부안군"
+    },
+    {
+     "region_id": "43760",
+     "name": "충청북도 괴산군"
+    },
+    {
+     "region_id": "52750",
+     "name": "전북특별자치도 임실군"
+    },
+    {
+     "region_id": "47900",
+     "name": "경상북도 예천군"
+    },
+    {
+     "region_id": "52720",
+     "name": "전북특별자치도 진안군"
+    },
+    {
+     "region_id": "52770",
+     "name": "전북특별자치도 순창군"
+    },
+    {
+     "region_id": "44825",
+     "name": "충청남도 태안군"
+    },
+    {
+     "region_id": "47830",
+     "name": "경상북도 고령군"
+    },
+    {
+     "region_id": "52730",
+     "name": "전북특별자치도 무주군"
+    },
+    {
+     "region_id": "47730",
+     "name": "경상북도 의성군"
+    },
+    {
+     "region_id": "47750",
+     "name": "경상북도 청송군"
+    },
+    {
+     "region_id": "47760",
+     "name": "경상북도 영양군"
+    },
+    {
+     "region_id": "47770",
+     "name": "경상북도 영덕군"
+    },
+    {
+     "region_id": "47820",
+     "name": "경상북도 청도군"
+    },
+    {
+     "region_id": "47850",
+     "name": "경상북도 칠곡군"
+    },
+    {
+     "region_id": "47920",
+     "name": "경상북도 봉화군"
+    },
+    {
+     "region_id": "47930",
+     "name": "경상북도 울진군"
+    },
+    {
+     "region_id": "47940",
+     "name": "경상북도 울릉군"
+    }
+   ],
+   "peer_pool_size": 21,
+   "my_policy_count": 358,
+   "suppressed_exact_duplicate": 238,
+   "flagged_as_variant": 204,
+   "recommendations": [
+    {
+     "policy_key": "성별영향평가",
+     "peer_count": 18,
+     "peer_share": 0.8571,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "성별영향분석평가위원회 구성 및 운영",
+      "similarity": 0.421
+     },
+     "peers": [
+      {
+       "region_id": "52720",
+       "name": "전북특별자치도 진안군",
+       "ordinance_id": "ordin:1373837",
+       "ordinance_name": "진안군 성별영향평가 조례",
+       "enacted_on": "20181217",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1373837&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47900",
+       "name": "경상북도 예천군",
+       "ordinance_id": "ordin:1394260",
+       "ordinance_name": "예천군 성별영향평가 조례",
+       "enacted_on": "20190516",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1394260&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52750",
+       "name": "전북특별자치도 임실군",
+       "ordinance_id": "ordin:1413577",
+       "ordinance_name": "임실군 성별영향평가 조례",
+       "enacted_on": "20191015",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1413577&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1422175",
+       "ordinance_name": "봉화군 성별영향평가 조례",
+       "enacted_on": "20191118",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422175&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43730",
+       "name": "충청북도 옥천군",
+       "ordinance_id": "ordin:1527015",
+       "ordinance_name": "옥천군 성별영향평가 조례",
+       "enacted_on": "20200910",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1527015&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "노래연습장업자 교육",
+     "peer_count": 17,
+     "peer_share": 0.8095,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "평생교육진흥",
+      "similarity": 0.154
+     },
+     "peers": [
+      {
+       "region_id": "52730",
+       "name": "전북특별자치도 무주군",
+       "ordinance_id": "ordin:1594463",
+       "ordinance_name": "무주군 노래연습장업자 교육에 관한 조례",
+       "enacted_on": "20210511",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1594463&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44790",
+       "name": "충청남도 청양군",
+       "ordinance_id": "ordin:1596153",
+       "ordinance_name": "청양군 노래연습장업자 교육에 관한 조례",
+       "enacted_on": "20210517",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1596153&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44825",
+       "name": "충청남도 태안군",
+       "ordinance_id": "ordin:1600405",
+       "ordinance_name": "태안군 노래연습장업자 교육에 관한 조례",
+       "enacted_on": "20210531",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1600405&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47830",
+       "name": "경상북도 고령군",
+       "ordinance_id": "ordin:1609249",
+       "ordinance_name": "고령군 노래연습장업자 교육에 관한 조례",
+       "enacted_on": "20210701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1609249&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43730",
+       "name": "충청북도 옥천군",
+       "ordinance_id": "ordin:1628997",
+       "ordinance_name": "옥천군 노래연습장업자 교육에 관한 조례",
+       "enacted_on": "20210929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1628997&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "보행안전 및 편의증진",
+     "peer_count": 17,
+     "peer_share": 0.8095,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통약자의 이동편의 증진",
+      "similarity": 0.353
+     },
+     "peers": [
+      {
+       "region_id": "52730",
+       "name": "전북특별자치도 무주군",
+       "ordinance_id": "ordin:1670531",
+       "ordinance_name": "무주군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1670531&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52720",
+       "name": "전북특별자치도 진안군",
+       "ordinance_id": "ordin:1670515",
+       "ordinance_name": "진안군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1670515&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44825",
+       "name": "충청남도 태안군",
+       "ordinance_id": "ordin:1648975",
+       "ordinance_name": "태안군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211217",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648975&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47830",
+       "name": "경상북도 고령군",
+       "ordinance_id": "ordin:1652991",
+       "ordinance_name": "고령군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211223",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1652991&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47930",
+       "name": "경상북도 울진군",
+       "ordinance_id": "ordin:1657251",
+       "ordinance_name": "울진군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1657251&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "상수도 원인자부담금 산정 및 징수",
+     "peer_count": 17,
+     "peer_share": 0.8095,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "도로복구비 원인자 부담금",
+      "similarity": 0.455
+     },
+     "peers": [
+      {
+       "region_id": "47850",
+       "name": "경상북도 칠곡군",
+       "ordinance_id": "ordin:1018711",
+       "ordinance_name": "칠곡군 상수도원인자부담금 산정ㆍ징수 등에 관한 조례",
+       "enacted_on": "20120807",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1018711&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52800",
+       "name": "전북특별자치도 부안군",
+       "ordinance_id": "ordin:1043687",
+       "ordinance_name": "부안군 상수도 원인자부담금 산정·징수 등에 관한 조례",
+       "enacted_on": "20141014",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1043687&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47730",
+       "name": "경상북도 의성군",
+       "ordinance_id": "ordin:953841",
+       "ordinance_name": "의성군 상수도 원인자부담금 산정ㆍ징수 등에 관한 조례",
+       "enacted_on": "20141016",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=953841&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47770",
+       "name": "경상북도 영덕군",
+       "ordinance_id": "ordin:1148925",
+       "ordinance_name": "영덕군 상수도원인자부담금 산정·징수 등에 관한 조례",
+       "enacted_on": "20141027",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1148925&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52730",
+       "name": "전북특별자치도 무주군",
+       "ordinance_id": "ordin:1138842",
+       "ordinance_name": "무주군 상수도 원인자부담금 산정·징수 등에 관한 조례",
+       "enacted_on": "20150703",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1138842&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "공모사업 관리",
+     "peer_count": 16,
+     "peer_share": 0.7619,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "물품관리",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "43760",
+       "name": "충청북도 괴산군",
+       "ordinance_id": "ordin:1536201",
+       "ordinance_name": "괴산군 공모사업 관리 조례",
+       "enacted_on": "20201008",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1536201&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44825",
+       "name": "충청남도 태안군",
+       "ordinance_id": "ordin:1579173",
+       "ordinance_name": "태안군 공모사업 관리 조례",
+       "enacted_on": "20210312",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579173&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48820",
+       "name": "경상남도 고성군",
+       "ordinance_id": "ordin:1634303",
+       "ordinance_name": "고성군 공모사업 관리 조례",
+       "enacted_on": "20211019",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1634303&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47750",
+       "name": "경상북도 청송군",
+       "ordinance_id": "ordin:1686993",
+       "ordinance_name": "청송군 공모사업 관리 조례",
+       "enacted_on": "20220228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1686993&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43730",
+       "name": "충청북도 옥천군",
+       "ordinance_id": "ordin:1789311",
+       "ordinance_name": "옥천군 공모사업 관리에 관한 조례",
+       "enacted_on": "20230310",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1789311&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "지속가능발전 기본",
+     "peer_count": 16,
+     "peer_share": 0.7619,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "옥외광고발전기금 설치 및 운용",
+      "similarity": 0.222
+     },
+     "peers": [
+      {
+       "region_id": "52730",
+       "name": "전북특별자치도 무주군",
+       "ordinance_id": "ordin:1737503",
+       "ordinance_name": "무주군 지속가능발전 기본 조례",
+       "enacted_on": "20221017",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1737503&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47760",
+       "name": "경상북도 영양군",
+       "ordinance_id": "ordin:1758083",
+       "ordinance_name": "영양군 지속가능발전 기본 조례",
+       "enacted_on": "20221216",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758083&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1758765",
+       "ordinance_name": "봉화군 지속가능발전 기본 조례",
+       "enacted_on": "20221219",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758765&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47930",
+       "name": "경상북도 울진군",
+       "ordinance_id": "ordin:1761569",
+       "ordinance_name": "울진군 지속가능발전 기본 조례",
+       "enacted_on": "20221222",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1761569&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47730",
+       "name": "경상북도 의성군",
+       "ordinance_id": "ordin:1761435",
+       "ordinance_name": "의성군 지속가능발전 기본 조례",
+       "enacted_on": "20221222",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1761435&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "녹색제품 구매촉진",
+     "peer_count": 15,
+     "peer_share": 0.7143,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "친환경상품 구매촉진",
+      "similarity": 0.533
+     },
+     "peers": [
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1802483",
+       "ordinance_name": "봉화군 녹색제품 구매촉진 조례",
+       "enacted_on": "20230417",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1802483&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47850",
+       "name": "경상북도 칠곡군",
+       "ordinance_id": "ordin:1856019",
+       "ordinance_name": "칠곡군 녹색제품 구매촉진에 관한 조례",
+       "enacted_on": "20230926",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1856019&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52720",
+       "name": "전북특별자치도 진안군",
+       "ordinance_id": "ordin:1864815",
+       "ordinance_name": "진안군 녹색제품 구매촉진 조례",
+       "enacted_on": "20231011",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1864815&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52770",
+       "name": "전북특별자치도 순창군",
+       "ordinance_id": "ordin:1884771",
+       "ordinance_name": "순창군 녹색제품 구매촉진 조례",
+       "enacted_on": "20231215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884771&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52750",
+       "name": "전북특별자치도 임실군",
+       "ordinance_id": "ordin:1889713",
+       "ordinance_name": "임실군 녹색제품 구매촉진 조례",
+       "enacted_on": "20231227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889713&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "홍보대사 운영",
+     "peer_count": 15,
+     "peer_share": 0.7143,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "농기계 임대사업 운영",
+      "similarity": 0.308
+     },
+     "peers": [
+      {
+       "region_id": "52720",
+       "name": "전북특별자치도 진안군",
+       "ordinance_id": "ordin:733639",
+       "ordinance_name": "진안군 홍보대사 운영 조례",
+       "enacted_on": "20090504",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=733639&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47730",
+       "name": "경상북도 의성군",
+       "ordinance_id": "ordin:1393963",
+       "ordinance_name": "의성군 홍보대사 운영 조례",
+       "enacted_on": "20190514",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1393963&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52770",
+       "name": "전북특별자치도 순창군",
+       "ordinance_id": "ordin:1401857",
+       "ordinance_name": "순창군 홍보대사 운영 조례",
+       "enacted_on": "20190628",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401857&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1401903",
+       "ordinance_name": "봉화군 홍보대사 운영 조례",
+       "enacted_on": "20190704",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401903&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47900",
+       "name": "경상북도 예천군",
+       "ordinance_id": "ordin:1557511",
+       "ordinance_name": "예천군 홍보대사 운영 조례",
+       "enacted_on": "20201224",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1557511&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "수리계 관리",
+     "peer_count": 14,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "물품관리",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "47730",
+       "name": "경상북도 의성군",
+       "ordinance_id": "ordin:1025027",
+       "ordinance_name": "의성군수리계관리조례",
+       "enacted_on": "20020115",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1025027&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47760",
+       "name": "경상북도 영양군",
+       "ordinance_id": "ordin:1193197",
+       "ordinance_name": "영양군 수리계 관리 조례",
+       "enacted_on": "20151008",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1193197&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47900",
+       "name": "경상북도 예천군",
+       "ordinance_id": "ordin:1195906",
+       "ordinance_name": "예천군 수리계 관리 조례",
+       "enacted_on": "20151030",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1195906&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47930",
+       "name": "경상북도 울진군",
+       "ordinance_id": "ordin:1230274",
+       "ordinance_name": "울진군수리계관리조례",
+       "enacted_on": "20160420",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1230274&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1289974",
+       "ordinance_name": "봉화군 수리계 관리 조례",
+       "enacted_on": "20170601",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1289974&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "정신건강복지센터 설치 및 운영",
+     "peer_count": 14,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "주민자치센터 설치 및 운영",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "48820",
+       "name": "경상남도 고성군",
+       "ordinance_id": "ordin:1401064",
+       "ordinance_name": "고성군 정신건강복지센터 설치 및 운영 조례",
+       "enacted_on": "20190701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401064&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47850",
+       "name": "경상북도 칠곡군",
+       "ordinance_id": "ordin:1492091",
+       "ordinance_name": "칠곡군 정신건강복지센터 설치 및 운영 조례",
+       "enacted_on": "20200508",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1492091&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52800",
+       "name": "전북특별자치도 부안군",
+       "ordinance_id": "ordin:1495499",
+       "ordinance_name": "부안군 정신건강복지센터 설치·운영 조례",
+       "enacted_on": "20200519",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1495499&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47930",
+       "name": "경상북도 울진군",
+       "ordinance_id": "ordin:1615517",
+       "ordinance_name": "울진군 정신건강복지센터 설치 및 운영 조례",
+       "enacted_on": "20210716",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1615517&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47750",
+       "name": "경상북도 청송군",
+       "ordinance_id": "ordin:1704693",
+       "ordinance_name": "청송군 정신건강복지센터 설치·운영 조례",
+       "enacted_on": "20220429",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1704693&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "치매관리 및 지원",
+     "peer_count": 14,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "공동주택관리 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "47850",
+       "name": "경상북도 칠곡군",
+       "ordinance_id": "ordin:1385413",
+       "ordinance_name": "칠곡군 치매관리 및 지원에 관한 조례",
+       "enacted_on": "20190215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1385413&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48820",
+       "name": "경상남도 고성군",
+       "ordinance_id": "ordin:1401063",
+       "ordinance_name": "고성군 치매관리 및 지원에 관한 조례",
+       "enacted_on": "20190701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401063&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43730",
+       "name": "충청북도 옥천군",
+       "ordinance_id": "ordin:1521973",
+       "ordinance_name": "옥천군 치매관리 및 지원에 관한 조례",
+       "enacted_on": "20200804",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1521973&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52770",
+       "name": "전북특별자치도 순창군",
+       "ordinance_id": "ordin:1589657",
+       "ordinance_name": "순창군 치매관리 및 지원에 관한 조례",
+       "enacted_on": "20210415",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1589657&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:1798027",
+       "ordinance_name": "청도군 치매관리 및 지원에 관한 조례",
+       "enacted_on": "20230405",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1798027&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "침수방지시설 설치 지원",
+     "peer_count": 14,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "화재취약계층 소방시설 설치지원",
+      "similarity": 0.455
+     },
+     "peers": [
+      {
+       "region_id": "48820",
+       "name": "경상남도 고성군",
+       "ordinance_id": "ordin:1808321",
+       "ordinance_name": "고성군 침수 방지시설 설치 및 지원에 관한 조례",
+       "enacted_on": "20230510",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1808321&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47760",
+       "name": "경상북도 영양군",
+       "ordinance_id": "ordin:1808751",
+       "ordinance_name": "영양군 침수 방지시설 설치 및 지원에 관한 조례",
+       "enacted_on": "20230512",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1808751&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1821149",
+       "ordinance_name": "봉화군 침수방지시설 설치 및 지원에 관한 조례",
+       "enacted_on": "20230608",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1821149&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52770",
+       "name": "전북특별자치도 순창군",
+       "ordinance_id": "ordin:1836301",
+       "ordinance_name": "순창군 침수 방지시설 설치 및 지원에 관한 조례",
+       "enacted_on": "20230629",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1836301&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52750",
+       "name": "전북특별자치도 임실군",
+       "ordinance_id": "ordin:1832103",
+       "ordinance_name": "임실군 침수 방지시설 설치 및 지원에 관한 조례",
+       "enacted_on": "20230705",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1832103&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의회 입법·법률고문 운영",
+     "peer_count": 13,
+     "peer_share": 0.619,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "의회 회기와 그 운영",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "52800",
+       "name": "전북특별자치도 부안군",
+       "ordinance_id": "ordin:1016098",
+       "ordinance_name": "부안군의회 입법 및 법률 고문운영 조례",
+       "enacted_on": "20141105",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1016098&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:2040943",
+       "ordinance_name": "청도군의회 입법 및 법률고문 운영에 관한 조례",
+       "enacted_on": "20160921",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2040943&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47730",
+       "name": "경상북도 의성군",
+       "ordinance_id": "ordin:1273928",
+       "ordinance_name": "의성군의회 입법 및 법률고문 운영 조례",
+       "enacted_on": "20161230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1273928&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44790",
+       "name": "충청남도 청양군",
+       "ordinance_id": "ordin:1383905",
+       "ordinance_name": "청양군의회 입법ㆍ법률고문 운영 조례",
+       "enacted_on": "20190130",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1383905&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43760",
+       "name": "충청북도 괴산군",
+       "ordinance_id": "ordin:1602213",
+       "ordinance_name": "괴산군의회 입법·법률고문 운영 조례",
+       "enacted_on": "20210604",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602213&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "고독사 예방 및 사회적 고립가구 지원",
+     "peer_count": 12,
+     "peer_share": 0.5714,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "고독사 예방 및 지원",
+      "similarity": 0.526
+     },
+     "peers": [
+      {
+       "region_id": "47760",
+       "name": "경상북도 영양군",
+       "ordinance_id": "ordin:1610143",
+       "ordinance_name": "영양군 고독사 예방 및 사회적 고립가구 지원 조례",
+       "enacted_on": "20210702",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1610143&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47750",
+       "name": "경상북도 청송군",
+       "ordinance_id": "ordin:1723803",
+       "ordinance_name": "청송군 고독사 예방 및 사회적 고립가구 지원 조례",
+       "enacted_on": "20220818",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1723803&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47770",
+       "name": "경상북도 영덕군",
+       "ordinance_id": "ordin:1794837",
+       "ordinance_name": "영덕군 고독사 예방 및 사회적 고립가구 지원 조례",
+       "enacted_on": "20230331",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1794837&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52800",
+       "name": "전북특별자치도 부안군",
+       "ordinance_id": "ordin:1836341",
+       "ordinance_name": "부안군 고독사 예방 및 사회적 고립가구 지원 조례",
+       "enacted_on": "20230713",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1836341&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47830",
+       "name": "경상북도 고령군",
+       "ordinance_id": "ordin:1861755",
+       "ordinance_name": "고령군 고독사 예방 및 사회적 고립가구 지원에 관한 조례",
+       "enacted_on": "20231005",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1861755&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "군계획",
+     "peer_count": 12,
+     "peer_share": 0.5714,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "도시계획",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "47930",
+       "name": "경상북도 울진군",
+       "ordinance_id": "ordin:1807053",
+       "ordinance_name": "울진군 군계획조례",
+       "enacted_on": "20230501",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1807053&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43730",
+       "name": "충청북도 옥천군",
+       "ordinance_id": "ordin:2054307",
+       "ordinance_name": "옥천군 군계획 조례",
+       "enacted_on": "20250710",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2054307&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52800",
+       "name": "전북특별자치도 부안군",
+       "ordinance_id": "ordin:2059843",
+       "ordinance_name": "부안군 군계획 조례",
+       "enacted_on": "20250718",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2059843&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52730",
+       "name": "전북특별자치도 무주군",
+       "ordinance_id": "ordin:2090963",
+       "ordinance_name": "무주군 군계획 조례",
+       "enacted_on": "20251210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2090963&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:2093765",
+       "ordinance_name": "봉화군 군계획 조례",
+       "enacted_on": "20251215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2093765&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "농작물 병해충 예찰·방제단 구성 및 운영",
+     "peer_count": 12,
+     "peer_share": 0.5714,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "지적재조사추진단 구성 및 운영",
+      "similarity": 0.32
+     },
+     "peers": [
+      {
+       "region_id": "47770",
+       "name": "경상북도 영덕군",
+       "ordinance_id": "ordin:1315299",
+       "ordinance_name": "영덕군 농작물 병해충예찰·방제단 구성 및 운영 등에 관한 조례",
+       "enacted_on": "20171130",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1315299&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43760",
+       "name": "충청북도 괴산군",
+       "ordinance_id": "ordin:1343564",
+       "ordinance_name": "괴산군 농작물병해충 예찰ㆍ방제단 구성 및 운영 조례",
+       "enacted_on": "20180406",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1343564&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44790",
+       "name": "충청남도 청양군",
+       "ordinance_id": "ordin:1374042",
+       "ordinance_name": "청양군 농작물 병해충 예찰·방제단 구성 및 운영 조례",
+       "enacted_on": "20181215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1374042&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43730",
+       "name": "충청북도 옥천군",
+       "ordinance_id": "ordin:1477969",
+       "ordinance_name": "옥천군 농작물 병해충 예찰·방제단 구성 및 운영 조례",
+       "enacted_on": "20200310",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1477969&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:1511965",
+       "ordinance_name": "청도군 농작물병해충 예찰·방제단 구성 및 운영 조례",
+       "enacted_on": "20200702",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1511965&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "인터넷시스템 설치 및 운영",
+     "peer_count": 12,
+     "peer_share": 0.5714,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "repealed_on": "20170911"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "보훈회관 설치 및 운영",
+      "similarity": 0.375
+     },
+     "peers": [
+      {
+       "region_id": "47760",
+       "name": "경상북도 영양군",
+       "ordinance_id": "ordin:1040893",
+       "ordinance_name": "영양군 인터넷시스템 설치 및 운영에 관한 조례",
+       "enacted_on": "20150313",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1040893&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47940",
+       "name": "경상북도 울릉군",
+       "ordinance_id": "ordin:1224641",
+       "ordinance_name": "울릉군 인터넷 시스템 설치 및 운영에 관한 조례",
+       "enacted_on": "20151228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1224641&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47900",
+       "name": "경상북도 예천군",
+       "ordinance_id": "ordin:1274516",
+       "ordinance_name": "예천군 인터넷 시스템 설치 및 운영에 관한 조례",
+       "enacted_on": "20161107",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1274516&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47850",
+       "name": "경상북도 칠곡군",
+       "ordinance_id": "ordin:1304557",
+       "ordinance_name": "칠곡군 인터넷시스템 설치 및 운영에 관한 조례",
+       "enacted_on": "20170929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1304557&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44790",
+       "name": "충청남도 청양군",
+       "ordinance_id": "ordin:1355969",
+       "ordinance_name": "청양군 인터넷시스템 설치 및 운영에 관한 조례",
+       "enacted_on": "20180815",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1355969&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "지역상권 상생 및 활성화",
+     "peer_count": 12,
+     "peer_share": 0.5714,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "도시재생 활성화 및 지원",
+      "similarity": 0.375
+     },
+     "peers": [
+      {
+       "region_id": "47760",
+       "name": "경상북도 영양군",
+       "ordinance_id": "ordin:1731029",
+       "ordinance_name": "영양군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20220930",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1731029&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44825",
+       "name": "충청남도 태안군",
+       "ordinance_id": "ordin:1738235",
+       "ordinance_name": "태안군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221017",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1738235&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43760",
+       "name": "충청북도 괴산군",
+       "ordinance_id": "ordin:1738745",
+       "ordinance_name": "괴산군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221019",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1738745&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44790",
+       "name": "충청남도 청양군",
+       "ordinance_id": "ordin:1739551",
+       "ordinance_name": "청양군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221021",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1739551&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48820",
+       "name": "경상남도 고성군",
+       "ordinance_id": "ordin:1743909",
+       "ordinance_name": "고성군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221104",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1743909&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "고령운전자 교통사고 예방",
+     "peer_count": 11,
+     "peer_share": 0.5238,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통안전 증진",
+      "similarity": 0.133
+     },
+     "peers": [
+      {
+       "region_id": "52730",
+       "name": "전북특별자치도 무주군",
+       "ordinance_id": "ordin:1393941",
+       "ordinance_name": "무주군 고령운전자 교통사고 예방에 관한 조례",
+       "enacted_on": "20190507",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1393941&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52750",
+       "name": "전북특별자치도 임실군",
+       "ordinance_id": "ordin:1396289",
+       "ordinance_name": "임실군 고령운전자 교통사고 예방에 관한 조례",
+       "enacted_on": "20190531",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396289&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47750",
+       "name": "경상북도 청송군",
+       "ordinance_id": "ordin:1490243",
+       "ordinance_name": "청송군 고령운전자 교통사고 예방을 위한 조례",
+       "enacted_on": "20200501",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1490243&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47940",
+       "name": "경상북도 울릉군",
+       "ordinance_id": "ordin:1519321",
+       "ordinance_name": "울릉군 고령운전자 교통사고 예방에 관한 조례",
+       "enacted_on": "20200717",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1519321&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48820",
+       "name": "경상남도 고성군",
+       "ordinance_id": "ordin:1581241",
+       "ordinance_name": "고성군 고령운전자 교통사고 예방에 관한 조례",
+       "enacted_on": "20210322",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1581241&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "정책실명제 운영",
+     "peer_count": 11,
+     "peer_share": 0.5238,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "주민참여 예산제 운영",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "47850",
+       "name": "경상북도 칠곡군",
+       "ordinance_id": "ordin:1438721",
+       "ordinance_name": "칠곡군 정책실명제 운영 조례",
+       "enacted_on": "20191227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1438721&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52800",
+       "name": "전북특별자치도 부안군",
+       "ordinance_id": "ordin:1495533",
+       "ordinance_name": "부안군 정책실명제 운영 조례",
+       "enacted_on": "20200519",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1495533&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52730",
+       "name": "전북특별자치도 무주군",
+       "ordinance_id": "ordin:1552677",
+       "ordinance_name": "무주군 정책실명제 운영 조례",
+       "enacted_on": "20201215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1552677&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47940",
+       "name": "경상북도 울릉군",
+       "ordinance_id": "ordin:1862521",
+       "ordinance_name": "울릉군 정책실명제 운영 조례",
+       "enacted_on": "20230927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1862521&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:1874997",
+       "ordinance_name": "청도군 정책실명제 운영 조례",
+       "enacted_on": "20231116",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1874997&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "청소년상담복지센터 설치 및 운영",
+     "peer_count": 11,
+     "peer_share": 0.5238,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "52770",
+       "name": "전북특별자치도 순창군",
+       "repealed_on": "20151015"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "주민자치센터 설치 및 운영",
+      "similarity": 0.476
+     },
+     "peers": [
+      {
+       "region_id": "47770",
+       "name": "경상북도 영덕군",
+       "ordinance_id": "ordin:1194483",
+       "ordinance_name": "영덕군 청소년상담복지센터 설치 및 운영 조례",
+       "enacted_on": "20151021",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1194483&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47760",
+       "name": "경상북도 영양군",
+       "ordinance_id": "ordin:1564527",
+       "ordinance_name": "영양군 청소년상담복지센터 설치 및 운영 조례",
+       "enacted_on": "20201231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1564527&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47850",
+       "name": "경상북도 칠곡군",
+       "ordinance_id": "ordin:1640581",
+       "ordinance_name": "칠곡군 청소년상담복지센터 설치 및 운영 조례",
+       "enacted_on": "20211112",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1640581&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47750",
+       "name": "경상북도 청송군",
+       "ordinance_id": "ordin:1851691",
+       "ordinance_name": "청송군 청소년상담복지센터 설치·운영 조례",
+       "enacted_on": "20230915",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851691&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52720",
+       "name": "전북특별자치도 진안군",
+       "ordinance_id": "ordin:1864787",
+       "ordinance_name": "진안군 청소년상담복지센터 설치 및 운영 조례",
+       "enacted_on": "20231011",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1864787&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "헌혈 권장",
+     "peer_count": 11,
+     "peer_share": 0.5238,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "47760",
+       "name": "경상북도 영양군",
+       "repealed_on": "20220819"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "헌혈 및 장기등·인체조직 기증 장려",
+      "similarity": 0.133
+     },
+     "peers": [
+      {
+       "region_id": "43730",
+       "name": "충청북도 옥천군",
+       "ordinance_id": "ordin:1274371",
+       "ordinance_name": "옥천군 헌혈권장 조례",
+       "enacted_on": "20170106",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1274371&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47750",
+       "name": "경상북도 청송군",
+       "ordinance_id": "ordin:1617745",
+       "ordinance_name": "청송군 헌혈 권장에 관한 조례",
+       "enacted_on": "20210630",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1617745&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1762305",
+       "ordinance_name": "봉화군 헌혈 권장에 관한 조례",
+       "enacted_on": "20221219",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762305&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47770",
+       "name": "경상북도 영덕군",
+       "ordinance_id": "ordin:1770249",
+       "ordinance_name": "영덕군 헌혈권장 조례",
+       "enacted_on": "20221230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1770249&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52770",
+       "name": "전북특별자치도 순창군",
+       "ordinance_id": "ordin:1807649",
+       "ordinance_name": "순창군 헌혈 권장에 관한 조례",
+       "enacted_on": "20230428",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1807649&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "효행 장려 및 지원",
+     "peer_count": 11,
+     "peer_share": 0.5238,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "화장장려금 지원",
+      "similarity": 0.364
+     },
+     "peers": [
+      {
+       "region_id": "47830",
+       "name": "경상북도 고령군",
+       "ordinance_id": "ordin:904090",
+       "ordinance_name": "고령군 효행 장려 및 지원에 관한 조례",
+       "enacted_on": "20141219",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=904090&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47730",
+       "name": "경상북도 의성군",
+       "ordinance_id": "ordin:959600",
+       "ordinance_name": "의성군 효행 장려 및 지원에 관한 조례",
+       "enacted_on": "20141231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=959600&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52750",
+       "name": "전북특별자치도 임실군",
+       "ordinance_id": "ordin:1576033",
+       "ordinance_name": "임실군 효행 장려 및 지원에 관한 조례",
+       "enacted_on": "20210219",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1576033&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47930",
+       "name": "경상북도 울진군",
+       "ordinance_id": "ordin:1806565",
+       "ordinance_name": "울진군 효행장려 및 지원 조례",
+       "enacted_on": "20230501",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1806565&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47900",
+       "name": "경상북도 예천군",
+       "ordinance_id": "ordin:1880045",
+       "ordinance_name": "예천군 효행 장려 및 지원에 관한 조례",
+       "enacted_on": "20231211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880045&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "감염병의 예방 및 관리",
+     "peer_count": 10,
+     "peer_share": 0.4762,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "물품관리",
+      "similarity": 0.2
+     },
+     "peers": [
+      {
+       "region_id": "52730",
+       "name": "전북특별자치도 무주군",
+       "ordinance_id": "ordin:1511223",
+       "ordinance_name": "무주군 감염병의 예방 및 관리 조례",
+       "enacted_on": "20200701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1511223&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43730",
+       "name": "충청북도 옥천군",
+       "ordinance_id": "ordin:1521969",
+       "ordinance_name": "옥천군 감염병의 예방 및 관리에 관한 조례",
+       "enacted_on": "20200804",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1521969&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47730",
+       "name": "경상북도 의성군",
+       "ordinance_id": "ordin:1548815",
+       "ordinance_name": "의성군 감염병의 예방 및 관리에 관한 조례",
+       "enacted_on": "20201126",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1548815&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47750",
+       "name": "경상북도 청송군",
+       "ordinance_id": "ordin:1586611",
+       "ordinance_name": "청송군 감염병의 예방 및 관리에 관한 조례",
+       "enacted_on": "20210405",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1586611&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:1632419",
+       "ordinance_name": "청도군 감염병의 예방 및 관리에 관한 조례",
+       "enacted_on": "20211005",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632419&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "국가유공자 등 우선주차구역 설치 및 운영",
+     "peer_count": 10,
+     "peer_share": 0.4762,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "보훈회관 설치 및 운영",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "43730",
+       "name": "충청북도 옥천군",
+       "ordinance_id": "ordin:1857671",
+       "ordinance_name": "옥천군 국가유공자 우선주차구역 설치 및 운영에 관한 조례",
+       "enacted_on": "20230927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1857671&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48820",
+       "name": "경상남도 고성군",
+       "ordinance_id": "ordin:1859967",
+       "ordinance_name": "고성군 국가유공자 우선주차구역 설치 및 운영에 관한 조례",
+       "enacted_on": "20231004",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1859967&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47770",
+       "name": "경상북도 영덕군",
+       "ordinance_id": "ordin:1909227",
+       "ordinance_name": "영덕군 국가유공자 우선주차구역 설치 및 운영에 관한 조례",
+       "enacted_on": "20240216",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1909227&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52800",
+       "name": "전북특별자치도 부안군",
+       "ordinance_id": "ordin:1921931",
+       "ordinance_name": "부안군 국가유공자 우선주차구역 설치 및 운영 조례",
+       "enacted_on": "20240419",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1921931&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43760",
+       "name": "충청북도 괴산군",
+       "ordinance_id": "ordin:1926403",
+       "ordinance_name": "괴산군 국가유공자 우선주차구역 설치 및 운영에 관한 조례",
+       "enacted_on": "20240510",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1926403&type=HTML&mobileYn="
+      }
+     ]
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 81,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.0,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d).",
+    "min_peers": 3,
+    "same_sido_boost": true,
+    "dup_threshold": 0.55,
+    "exclude_variants": true,
+    "policy_key": "조례명에서 지자체명·법형식 접미 제거 → canon_key(어절 단위 연결어 제거) → 정규형 완전일치는 '보유'로 제외, 잔여 근사는 closest_own 과 함께 likely_variant 로 표시"
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "47840"
+ ]
+}

@@ -1,0 +1,470 @@
+{
+ "data": {
+  "template": "생리용품",
+  "mode": "enactment",
+  "level": 2,
+  "universe": 227,
+  "adopters": 32,
+  "final_adoption_rate": 0.141,
+  "window": [
+   2021,
+   2026
+  ],
+  "curve": [
+   {
+    "year": 2021,
+    "new": 1,
+    "cumulative": 1,
+    "adoption_rate": 0.0044
+   },
+   {
+    "year": 2022,
+    "new": 4,
+    "cumulative": 5,
+    "adoption_rate": 0.022
+   },
+   {
+    "year": 2023,
+    "new": 10,
+    "cumulative": 15,
+    "adoption_rate": 0.0661
+   },
+   {
+    "year": 2024,
+    "new": 10,
+    "cumulative": 25,
+    "adoption_rate": 0.1101
+   },
+   {
+    "year": 2025,
+    "new": 4,
+    "cumulative": 29,
+    "adoption_rate": 0.1278
+   },
+   {
+    "year": 2026,
+    "new": 3,
+    "cumulative": 32,
+    "adoption_rate": 0.141
+   }
+  ],
+  "logistic": {
+   "K_fixed_universe": {
+    "K": 227.0,
+    "r": 0.3662468327719937,
+    "t0": 2030.5671167293376,
+    "K_fixed": true,
+    "r2": 0.8609362487590981,
+    "rmse": 4.3934976099496135,
+    "t_10_90_years": 11.998599746002979,
+    "peak_rate_per_year": 20.784507759810644,
+    "sse": 115.8169274917978
+   },
+   "K_free": {
+    "K": 31.72332760353659,
+    "r": 1.4665750992824285,
+    "t0": 2023.104477012825,
+    "K_fixed": false,
+    "r2": 0.9980643492120775,
+    "rmse": 0.5183426308718201,
+    "t_10_90_years": 2.99640240504736,
+    "peak_rate_per_year": 11.63116058243142,
+    "sse": 1.61207449787472
+   }
+  },
+  "innovators": [
+   {
+    "region_id": "47760",
+    "name": "경상북도 영양군",
+    "rtype": "군",
+    "year": 2021
+   },
+   {
+    "region_id": "28155",
+    "name": "인천광역시 영종구",
+    "rtype": "자치구",
+    "year": 2022
+   },
+   {
+    "region_id": "31170",
+    "name": "울산광역시 동구",
+    "rtype": "자치구",
+    "year": 2022
+   }
+  ],
+  "rogers_categories": {
+   "innovators": {
+    "n": 1,
+    "year_range": [
+     2021,
+     2021
+    ]
+   },
+   "early_adopters": {
+    "n": 4,
+    "year_range": [
+     2022,
+     2022
+    ]
+   },
+   "early_majority": {
+    "n": 11,
+    "year_range": [
+     2023,
+     2024
+    ]
+   },
+   "late_majority": {
+    "n": 11,
+    "year_range": [
+     2024,
+     2025
+    ]
+   },
+   "laggards": {
+    "n": 5,
+    "year_range": [
+     2025,
+     2026
+    ]
+   },
+   "never_adopted": {
+    "n": 195,
+    "share_of_universe": 0.859
+   }
+  },
+  "path_decomposition": {
+   "counts": {
+    "neighbor_first": 5,
+    "upper_first": 2,
+    "both": 0,
+    "neither": 25
+   },
+   "shares": {
+    "neighbor_first": 0.1562,
+    "upper_first": 0.0625,
+    "both": 0.0,
+    "neither": 0.7812
+   },
+   "definition": "neighbor_first=채택 이전에 인접 지자체 중 채택자 존재, upper_first=소속 광역이 먼저 채택, both=둘 다, neither=선행 신호 없음"
+  },
+  "path_null_test": {
+   "statistic": "prior_adopting_neighbor_share",
+   "observed": 0.1562,
+   "null_mean": 0.2131,
+   "null_sd": 0.0656,
+   "z": -0.865,
+   "p_sim": 0.865,
+   "permutations": 999,
+   "note": "귀무: 채택연도를 지자체에 무작위 재배정(연도분포 보존). observed <= null_mean 이면 '선행 이웃' 은 확산 증거가 아니라 높은 채택률의 부산물이다."
+  },
+  "path_detail": [
+   {
+    "region_id": "47760",
+    "name": "경상북도 영양군",
+    "year": 2021,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 5,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "28155",
+    "name": "인천광역시 영종구",
+    "year": 2022,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 0,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "31170",
+    "name": "울산광역시 동구",
+    "year": 2022,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 1,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "44770",
+    "name": "충청남도 서천군",
+    "year": 2022,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 4,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "44810",
+    "name": "충청남도 예산군",
+    "year": 2022,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 6,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "11215",
+    "name": "서울특별시 광진구",
+    "year": 2023,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 7,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "26260",
+    "name": "부산광역시 동래구",
+    "year": 2023,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 6,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "26320",
+    "name": "부산광역시 북구",
+    "year": 2023,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 7,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "26410",
+    "name": "부산광역시 금정구",
+    "year": 2023,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 5,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "30230",
+    "name": "대전광역시 대덕구",
+    "year": 2023,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 4,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "41130",
+    "name": "경기도 성남시",
+    "year": 2023,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 1,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "44210",
+    "name": "충청남도 서산시",
+    "year": 2023,
+    "n_prior_neighbors": 1,
+    "n_neighbors": 4,
+    "upper_adopted_first": false,
+    "path": "neighbor_first"
+   },
+   {
+    "region_id": "47930",
+    "name": "경상북도 울진군",
+    "year": 2023,
+    "n_prior_neighbors": 1,
+    "n_neighbors": 5,
+    "upper_adopted_first": false,
+    "path": "neighbor_first"
+   },
+   {
+    "region_id": "51170",
+    "name": "강원특별자치도 동해시",
+    "year": 2023,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 3,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "52730",
+    "name": "전북특별자치도 무주군",
+    "year": 2023,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 6,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "11470",
+    "name": "서울특별시 양천구",
+    "year": 2024,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 4,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "12130",
+    "name": "전남광주통합특별시 여수시",
+    "year": 2024,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 3,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "27170",
+    "name": "대구광역시 서구",
+    "year": 2024,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 4,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "30140",
+    "name": "대전광역시 중구",
+    "year": 2024,
+    "n_prior_neighbors": 1,
+    "n_neighbors": 4,
+    "upper_adopted_first": false,
+    "path": "neighbor_first"
+   },
+   {
+    "region_id": "41170",
+    "name": "경기도 안양시",
+    "year": 2024,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 1,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "47230",
+    "name": "경상북도 영천시",
+    "year": 2024,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 7,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "48170",
+    "name": "경상남도 진주시",
+    "year": 2024,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 6,
+    "upper_adopted_first": true,
+    "path": "upper_first"
+   },
+   {
+    "region_id": "48820",
+    "name": "경상남도 고성군",
+    "year": 2024,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 4,
+    "upper_adopted_first": true,
+    "path": "upper_first"
+   },
+   {
+    "region_id": "51110",
+    "name": "강원특별자치도 춘천시",
+    "year": 2024,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 5,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "52750",
+    "name": "전북특별자치도 임실군",
+    "year": 2024,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 6,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "26140",
+    "name": "부산광역시 서구",
+    "year": 2025,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 6,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "27260",
+    "name": "대구광역시 수성구",
+    "year": 2025,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 5,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "41110",
+    "name": "경기도 수원시",
+    "year": 2025,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 2,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "41460",
+    "name": "경기도 용인시",
+    "year": 2025,
+    "n_prior_neighbors": 1,
+    "n_neighbors": 2,
+    "upper_adopted_first": false,
+    "path": "neighbor_first"
+   },
+   {
+    "region_id": "28290",
+    "name": "인천광역시 검단구",
+    "year": 2026,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 0,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "47280",
+    "name": "경상북도 문경시",
+    "year": 2026,
+    "n_prior_neighbors": 0,
+    "n_neighbors": 6,
+    "upper_adopted_first": false,
+    "path": "neither"
+   },
+   {
+    "region_id": "47290",
+    "name": "경상북도 경산시",
+    "year": 2026,
+    "n_prior_neighbors": 2,
+    "n_neighbors": 5,
+    "upper_adopted_first": false,
+    "path": "neighbor_first"
+   }
+  ],
+  "adoption_meta": {
+   "template": "생리용품",
+   "mode": "enactment",
+   "ord_kind": "조례",
+   "universe": 227,
+   "adopters_observed": 32,
+   "holders_any_version": 72,
+   "enactment_date_coverage": 0.4444,
+   "year_min": 2021,
+   "year_max": 2026,
+   "warning": "rr_cls_cd='제정' 만 사용 → 개정 이력이 있는 조례는 제외되어 채택 시점이 관측되지 않는다(선택편의). enactment_date_coverage 로 정도를 확인하라."
+  },
+  "_engine": "analytics.diffusion.diffusion_profile",
+  "interpretation_caveat": "확산 곡선(로지스틱 적합)은 방어 가능하나, '이웃을 보고 따라 했다'는 수평확산 해석은 우리 데이터에서 지지되지 않는다 — 이산시간 EHA 20개 사양에서 이웃노출 계수가 BH-FDR 통과 0개(중앙 OR 0.969)이고, 채택연도 공간군집은 시도 고정효과 제거 시 소멸한다(평균 I 0.053→-0.108). 지배 요인은 광역·전국 공통충격(연도추세 중앙 OR 2.47)이다."
+ },
+ "as_of_date": "2026-08-21T03:51:11+0900",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오."
+}

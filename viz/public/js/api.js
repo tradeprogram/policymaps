@@ -7,7 +7,8 @@
  *   2) api/*.json (유사지자체·격차·확산·실효성·표결·검색) 은 가상데이터에만 있다.
  *      실데이터에서는 MCP 서버가 계산해야 하는 값이라 정적 번들에 없다 -> notAvailable 로 떨어진다.
  */
-import { DATA_BASE, DATA_SOURCES, GEO_URL, ADM_DONG_GEO_URL, LIMITS, CATEGORY_FALLBACK } from "./config.js";
+import { DATA_BASE, DATA_SOURCES, GEO_URL, ADM_DONG_GEO_URL, LIMITS, CATEGORY_FALLBACK,
+         API_SHARDS, PICKER_LEVELS, SIDO_FALLBACK } from "./config.js";
 import { mapLimit } from "./util.js";
 
 /** ?src=real|mock 로 임시 전환 가능 */
@@ -208,4 +209,356 @@ export async function loadGeo() {
 
 export async function loadAdmDongGeo() {
   return getRaw(ADM_DONG_GEO_URL);
+}
+
+/* ==================================================================== *
+ *  전국 shard 로더 — api/index.json + api/{kind}/{key}.json
+ *
+ *  설계 원칙
+ *   1) shard 우선, 단일 파일 폴백. api/gap/47190.json 이 없으면 api/gap.json 의
+ *      data["47190"] 로 떨어지고, 그것도 없으면 missing 을 돌려준다(에러로 죽지 않는다).
+ *   2) 색인은 관대하게 읽는다. make_nationwide.py 산출 형태가 확정되기 전이므로
+ *      배열/맵, 문자열/객체, regions/items 등을 모두 받는다.
+ *   3) 색인이 아예 없어도 regions/index.json(전국 284곳)만으로 선택기를 채운다.
+ * ==================================================================== */
+
+/** 지역 shard 를 갖는 화면 */
+export const REGIONAL_KINDS = ["gap", "peers", "effectiveness"];
+/** 항목(정책 템플릿·의안·질의) 목록을 갖는 화면 */
+export const CATALOG_KINDS = ["diffusion", "votes", "search"];
+
+function asArray(v) { return Array.isArray(v) ? v : []; }
+
+/** sig_cd 로 보이는 키만으로 이뤄진 맵인가 (fixture 의 data 가 {sig: 결과} 인지 판정) */
+export function isSigMap(o) {
+  if (!o || typeof o !== "object" || Array.isArray(o)) return false;
+  const ks = Object.keys(o);
+  return ks.length > 0 && ks.every((k) => /^\d{4,5}$/.test(k));
+}
+
+function shardDir(kind) {
+  return API_SHARDS[kind] || ("api/" + kind);
+}
+
+/** api/index.json 이 있는 디렉터리. 색인이 주는 상대경로의 기준이다. */
+const API_DIR = API_SHARDS.index.replace(/[^/]*$/, "");
+
+/**
+ * 색인이 준 경로를 실제로 받아볼 후보들로 바꾼다.
+ * make_nationwide.py 는 "gap/47190.json" 처럼 api/ 기준 상대경로를 준다.
+ * 번들 루트 기준("api/gap/47190.json")으로 주는 구현도 받아들인다.
+ */
+function pathCandidates(p) {
+  if (typeof p !== "string" || !p) return [];
+  if (/^https?:\/\//.test(p) || p.startsWith("/")) return [p];
+  const clean = p.replace(/^\.\//, "");
+  return clean.startsWith(API_DIR) ? [clean] : [API_DIR + clean, clean];
+}
+
+/** {path, bytes} 객체 / 문자열 어느 쪽이든 경로 문자열로 */
+function pathOf(v) {
+  if (typeof v === "string") return v;
+  if (v && typeof v === "object" && typeof v.path === "string") return v.path;
+  if (v && typeof v === "object" && typeof v.file === "string") return v.file;
+  return null;
+}
+
+/** 색인의 layout({kind: "gap/{key}.json"}) 로 경로를 만든다 */
+function layoutPath(api, kind, key) {
+  const tpl = api && api.layout && api.layout[kind];
+  if (typeof tpl !== "string") return null;
+  return tpl.replace("{key}", String(key)).replace("{sig_cd}", String(key)).replace("{sig}", String(key));
+}
+
+/** 색인에서 kind 목록을 뽑는다. 배열/맵/문자열 어느 쪽이든 배열로 정규화. */
+function pickList(idx, kind) {
+  if (!idx || typeof idx !== "object") return [];
+  const cands = [
+    idx[kind],
+    idx.coverage && idx.coverage[kind],
+    idx.catalog && idx.catalog[kind],
+    idx.shards && idx.shards[kind],
+    idx.data && idx.data[kind],
+  ];
+  for (const c of cands) if (Array.isArray(c)) return c;
+  for (const c of cands) {
+    if (c && typeof c === "object") {
+      return Object.entries(c).map(([k, v]) =>
+        (v && typeof v === "object" ? { key: k, sig_cd: k, ...v } : { key: k, sig_cd: k }));
+    }
+  }
+  return [];
+}
+
+function normRegionEntry(x) {
+  if (typeof x === "string" || typeof x === "number") return { sig_cd: String(x) };
+  if (!x || typeof x !== "object") return null;
+  const sig = x.sig_cd ?? x.sig ?? x.sigCd ?? x.code ?? x.region_sig ?? x.key ?? x.id ?? x.region_id;
+  if (sig === undefined || sig === null || sig === "") return null;
+  return {
+    sig_cd: String(sig),
+    name: x.name || x.region_name || x.full_name || null,
+    level: x.level ?? null,
+    sido: x.sido || x.sido_name || x.ctp_kor_nm || null,
+    file: pathOf(x.file) || pathOf(x.path) || null,
+    files: x.files || null,
+    has: x.has || x.kinds || x.available || null,
+  };
+}
+
+let apiIndexPromise = null;
+
+/** api/index.json (전국 커버리지 색인). 없으면 null — 에러가 아니다. */
+export async function loadApiIndex() {
+  if (!apiIndexPromise) {
+    apiIndexPromise = (async () => {
+      try { return await getJSON(API_SHARDS.index); }
+      catch (e) {
+        if (e instanceof DataMissingError) return null;
+        throw e;
+      }
+    })();
+  }
+  return apiIndexPromise;
+}
+
+let regionCatalogPromise = null;
+
+/**
+ * 전국 지역 선택기용 목록.
+ * items = [{sig_cd, name, level, sido, hasRegionShard}] — level 1·2 만, sig_cd 오름차순.
+ * 실데이터에서는 243곳(광역 16 + 기초 227)이 잡힌다. level 3 일반구는 조례 제정권이 없어 뺀다.
+ */
+export async function loadRegionCatalog() {
+  if (regionCatalogPromise) return regionCatalogPromise;
+  regionCatalogPromise = (async () => {
+    const byCd = new Map();
+    const sidoName = {};
+    const sources = [];
+
+    const add = (e) => {
+      if (!e) return;
+      const cur = byCd.get(e.sig_cd) || { sig_cd: e.sig_cd };
+      byCd.set(e.sig_cd, {
+        sig_cd: e.sig_cd,
+        name: cur.name || e.name || null,
+        level: cur.level ?? e.level ?? null,
+        sido: cur.sido || e.sido || null,
+        hasRegionShard: cur.hasRegionShard || !!e.hasRegionShard,
+      });
+    };
+
+    // 1) regions/index.json — 지역 상세 shard 목록(실데이터 284곳)
+    try {
+      const idx = await loadRegionIndex();
+      const items = asArray(idx.items || idx.regions);
+      for (const it of items) {
+        const n = normRegionEntry(it);
+        if (n) { n.hasRegionShard = true; add(n); }
+      }
+      for (const it of items) {
+        if (it && it.level === 1 && it.sig_cd && it.name) {
+          sidoName[String(it.sig_cd).slice(0, 2)] = it.name;
+        }
+      }
+      if (items.length) sources.push(state.manifest?.region_index || "regions/index.json");
+    } catch (e) { /* 지역 색인이 없어도 아래 소스로 계속 */ }
+
+    // 2) api/index.json — make_nationwide.py 산출
+    const api = await loadApiIndex();
+    if (api) {
+      let n = 0;
+      for (const raw of pickList(api, "regions")) {
+        const e = normRegionEntry(raw);
+        if (!e) continue;
+        add(e); n++;
+        const p = e.sig_cd.slice(0, 2);
+        if (e.sido && !sidoName[p]) sidoName[p] = e.sido;
+      }
+      for (const kind of REGIONAL_KINDS) {
+        for (const raw of pickList(api, kind)) { const e = normRegionEntry(raw); if (e) { add(e); n++; } }
+      }
+      if (n) sources.push(API_SHARDS.index);
+    }
+
+    const sidoOf = (sig) => {
+      const p = String(sig).slice(0, 2);
+      return sidoName[p] || SIDO_FALLBACK[p] || "기타";
+    };
+
+    const all = [...byCd.values()]
+      .map((e) => ({ ...e, sido: e.sido || sidoOf(e.sig_cd) }))
+      .sort((a, b) => (a.sig_cd < b.sig_cd ? -1 : a.sig_cd > b.sig_cd ? 1 : 0));
+    // items = 선택기에 올릴 level 1·2. all = 일반구(level 3) 포함 전체(사전계산된 일반구를 되살릴 때 쓴다).
+    const items = all.filter((e) => e.level === null || e.level === undefined || PICKER_LEVELS.includes(e.level));
+
+    return { items, all, sidoOf, sources, hasApiIndex: !!api };
+  })();
+  return regionCatalogPromise;
+}
+
+/** 색인이 알려주는 kind 별 커버 지역 Set. 색인이 없으면 빈 Set(=커버리지 미상). */
+export async function shardCoverage(kind) {
+  const api = await loadApiIndex();
+  const set = new Set();
+  if (!api) return set;
+  for (const raw of pickList(api, kind)) { const e = normRegionEntry(raw); if (e) set.add(e.sig_cd); }
+  for (const raw of pickList(api, "regions")) {
+    const e = normRegionEntry(raw);
+    if (!e) continue;
+    const has = e.has;
+    // files 가 있으면 그것이 가장 정확한 커버리지다(kind 별로 파일이 있는지)
+    if (e.files && typeof e.files === "object") {
+      if (pathOf(e.files[kind]) || e.files[kind] === true) set.add(e.sig_cd);
+      continue;
+    }
+    const ok = has === null || has === undefined || has === true
+      || (Array.isArray(has) && has.includes(kind))
+      || (typeof has === "object" && !Array.isArray(has) && (has[kind] === true || has[kind] === 1));
+    if (ok) set.add(e.sig_cd);
+  }
+  return set;
+}
+
+/** 색인이 지정한 shard 경로가 있으면 그것부터, 없으면 관례 경로. */
+async function regionalShardPaths(kind, sig) {
+  const out = [];
+  const push = (p) => { for (const c of pathCandidates(p)) out.push(c); };
+  const api = await loadApiIndex();
+  if (api) {
+    push(pathOf((api.files && api.files[kind] && api.files[kind][sig])
+      || (api.paths && api.paths[kind] && api.paths[kind][sig])));
+    for (const raw of [...pickList(api, kind), ...pickList(api, "regions")]) {
+      const e = normRegionEntry(raw);
+      if (!e || e.sig_cd !== String(sig)) continue;
+      if (e.files) push(pathOf(e.files[kind]));
+      if (e.file) push(e.file);
+    }
+    push(layoutPath(api, kind, sig));
+  }
+  out.push(shardDir(kind) + "/" + sig + ".json");
+  return [...new Set(out.filter(Boolean))];
+}
+
+function unwrapSub(env, sig) {
+  const dd = (env && typeof env === "object" && "data" in env) ? env.data : env;
+  if (isSigMap(dd)) return dd[String(sig)] ?? null;
+  return dd;
+}
+
+/**
+ * 지역 단위 사전계산 결과 로드. 절대 throw 하지 않는다(화면이 안내로 처리한다).
+ * 반환 source: "shard" | "fixture-map" | "fixture-single" | "none"
+ *   missing=true → "이 지역은 아직 사전계산되지 않았습니다" 안내 대상.
+ */
+export async function loadRegionalShard(kind, sig) {
+  const tried = await regionalShardPaths(kind, sig);
+  for (const p of tried) {
+    try {
+      const env = await getJSON(p);
+      const sub = unwrapSub(env, sig);
+      if (sub) return { env, data: sub, source: "shard", path: p };
+    } catch (e) {
+      if (!(e instanceof DataMissingError)) return { env: null, data: null, source: "none", missing: true, tried, error: e };
+    }
+  }
+  // 폴백 — 기존 단일 파일 (api/gap.json 등). 하위호환.
+  let env;
+  try { env = await loadFixture(kind); }
+  catch (e) { return { env: null, data: null, source: "none", missing: true, tried, error: e }; }
+
+  const dd = (env && env.data) || {};
+  if (isSigMap(dd)) {
+    if (dd[String(sig)]) return { env, data: dd[String(sig)], source: "fixture-map" };
+    return { env: null, data: null, source: "none", missing: true, tried, fixtureRegions: Object.keys(dd) };
+  }
+  // 단일 객체 fixture — 어느 지역 결과인지 확인한다. 다른 지역으로 오인시키면 안 된다.
+  const own = (dd.scope && (dd.scope.sig_cd || dd.scope.region_id))
+    || (dd.target && (dd.target.sig_cd || dd.target.region_id))
+    || dd.region_id || null;
+  if (own && String(own) !== String(sig)) {
+    return { env: null, data: null, source: "none", missing: true, tried, fixtureRegions: [String(own)] };
+  }
+  return { env, data: dd, source: "fixture-single", fixtureRegion: own ? String(own) : null };
+}
+
+function normCatalogEntry(x, kind, api) {
+  const base = shardDir(kind);
+  const conv = (k) => base + "/" + encodeURIComponent(String(k)) + ".json";
+  if (typeof x === "string" || typeof x === "number") {
+    const k = String(x);
+    return { key: k, label: k, paths: [conv(k)], file: conv(k), meta: {} };
+  }
+  if (!x || typeof x !== "object") return null;
+  const key = x.key ?? x.id ?? x.slug ?? x.template ?? x.bill_no ?? x.bill_id ?? x.query ?? x.name;
+  if (key === undefined || key === null || key === "") return null;
+  const label = x.label || x.title || x.name || x.template || x.query || String(key);
+  const paths = [];
+  for (const p of [pathOf(x.file), pathOf(x.path), layoutPath(api, kind, key)]) {
+    for (const c of pathCandidates(p)) paths.push(c);
+  }
+  paths.push(conv(key));
+  const uniq = [...new Set(paths.filter(Boolean))];
+  return { key: String(key), label: String(label), paths: uniq, file: uniq[0], meta: x };
+}
+
+/** 확산 템플릿 / 의안 / 질의 목록. 색인이 없으면 빈 배열 → 화면은 단일 fixture 로 동작. */
+export async function loadCatalog(kind) {
+  const api = await loadApiIndex();
+  if (!api) return [];
+  const out = [];
+  const seen = new Set();
+  for (const raw of pickList(api, kind)) {
+    const e = normCatalogEntry(raw, kind, api);
+    if (e && !seen.has(e.key)) { seen.add(e.key); out.push(e); }
+  }
+  return out;
+}
+
+/** 단일 fixture 가 실제로 어느 항목의 결과인지 — 폴백이 엉뚱한 항목을 대신 그리는 것을 막는다. */
+function catalogKeyOf(kind, d) {
+  if (!d || typeof d !== "object") return null;
+  if (kind === "diffusion") return d.template != null ? String(d.template) : null;
+  if (kind === "votes") {
+    const b = d.bill || {};
+    const v = b.bill_no ?? b.bill_id;
+    return v != null && v !== "" ? String(v) : null;
+  }
+  if (kind === "search") return d.query != null ? String(d.query) : null;
+  return null;
+}
+
+/**
+ * 목록 항목 1건 로드. entry 가 null 이면(=색인 없음) 단일 fixture 를 그대로 쓴다.
+ * shard 가 없을 때 단일 fixture 로 폴백하되, 그 fixture 가 다른 항목의 결과면 폴백하지 않는다.
+ * 반환 source: "shard" | "fixture" | "fixture-fallback" | "none"
+ */
+export async function loadCatalogItem(kind, entry) {
+  const tried = entry ? (entry.paths || (entry.file ? [entry.file] : [])) : [];
+  for (const p of tried) {
+    try {
+      const env = await getJSON(p);
+      return { env, data: (env && env.data) || env, source: "shard", path: p };
+    } catch (e) {
+      if (!(e instanceof DataMissingError)) return { env: null, data: null, source: "none", missing: true, tried, error: e };
+    }
+  }
+  let env;
+  try { env = await loadFixture(kind); }
+  catch (e) { return { env: null, data: null, source: "none", missing: true, tried, error: e }; }
+
+  const data = (env && env.data) || env;
+  if (entry) {
+    const own = catalogKeyOf(kind, data);
+    const meta = entry.meta || {};
+    const matches = own === null
+      || own === entry.key
+      || String(meta.bill_id ?? "") === own
+      || String(meta.bill_no ?? "") === own
+      || String(meta.template ?? "") === own;
+    if (!matches) {
+      return { env: null, data: null, source: "none", missing: true, tried, fixtureKey: own };
+    }
+  }
+  return { env, data, source: entry ? "fixture-fallback" : "fixture" };
 }

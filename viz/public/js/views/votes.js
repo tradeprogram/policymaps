@@ -1,21 +1,65 @@
-// 8. 국회 표결 — api/votes.json. 정당별 찬반 스택 차트.
+// 8. 국회 표결 — 전국 shard api/votes/{의안번호}.json (목록은 api/index.json 의 votes)
+//    폴백: api/votes.json 단일 1건. 정당별 찬반 스택 차트.
 import { el, num, pct, ymd } from "../util.js";
-import { loadFixture } from "../api.js";
-import { section, table, note, loading, asOfLine, fixtureMissingPanel, badge, statCard,
+import { loadCatalog, loadCatalogItem } from "../api.js";
+import { section, table, note, loading, asOfLine, badge, statCard,
          envelopeFooter, cdnFailPanel } from "../components.js";
+import { catalogSelector, notPrecomputedPanel, sourceLine } from "../nationwide.js";
 import { ensureChart } from "../vendor.js";
 
 const VOTE_COLORS = { "찬성": "#2c66a8", "반대": "#c0392b", "기권": "#f39c12", "기타": "#95a5a6" };
 const VOTE_KEYS = ["찬성", "반대", "기권", "기타"];
 
 export async function render(root) {
-  root.appendChild(loading("표결 데이터를 불러오는 중…"));
-  let env;
-  try { env = await loadFixture("votes"); }
-  catch (e) { root.innerHTML = ""; root.appendChild(fixtureMissingPanel("votes", e)); return; }
+  root.appendChild(loading("의안 목록을 불러오는 중…"));
+  const entries = await loadCatalog("votes");
   root.innerHTML = "";
 
-  const d = env.data || {};
+  const picker = catalogSelector({
+    entries, current: entries.length ? entries[0].key : null,
+    label: "의안", onChange: (k) => draw(k),
+  });
+  if (picker) root.appendChild(picker);
+  else if (!entries.length) {
+    root.appendChild(note(
+      "의안 목록(api/index.json 의 votes)이 없어 번들에 있는 1건만 표시한다. "
+      + "make_nationwide.py 로 의안별 shard 를 구우면 여기에 선택기가 붙는다."));
+  } else {
+    root.appendChild(note(
+      `사전계산된 의안이 「${entries[0].label}」 1건뿐이라 선택기를 띄우지 않는다. `
+      + "make_nationwide.py 로 의안을 더 구우면 선택기가 붙는다."));
+  }
+
+  const body = el("div", {});
+  root.appendChild(body);
+
+  let token = 0;
+  async function draw(key) {
+    const my = ++token;
+    body.innerHTML = "";
+    body.appendChild(loading("표결 데이터를 불러오는 중…"));
+    const entry = entries.find((e) => e.key === String(key)) || null;
+    const res = await loadCatalogItem("votes", entry);
+    if (my !== token) return;
+    body.innerHTML = "";
+    if (!res.data) {
+      body.appendChild(notPrecomputedPanel({
+        kind: "votes", sig: key, name: entry ? entry.label : null,
+        subject: "의안",
+        tried: res.tried || (res.path ? [res.path] : []),
+        fixtureRegions: entries.map((e) => e.key).filter((k) => k !== String(key)),
+        onPick: (k) => draw(k),
+      }));
+      return;
+    }
+    await renderBody(body, res.data, res.env, res);
+  }
+
+  await draw(entries.length ? entries[0].key : null);
+}
+
+/** 의안 1건의 표결 결과 렌더 */
+async function renderBody(root, d, env, res) {
   const b = d.bill || {};
   const rep = d.tally_reported || {};
   const fromVotes = d.tally_from_votes || {};
@@ -106,5 +150,7 @@ export async function render(root) {
         props.map((p) => [roleLabel[p.role] || p.role || "—", p.name, p.current_party || "—", p.district || "—"]))));
   }
 
+  const src = sourceLine(res);
+  if (src) root.appendChild(src);
   root.appendChild(envelopeFooter(env));
 }

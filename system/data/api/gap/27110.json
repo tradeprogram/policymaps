@@ -1,0 +1,1504 @@
+{
+ "data": {
+  "27110": {
+   "target": {
+    "region_id": "27110",
+    "sig_cd": "27110",
+    "name": "대구광역시 중구",
+    "rtype": "자치구",
+    "indicators": {
+     "population": 101815.0,
+     "area_km2": 7.072389623231107,
+     "fiscal_self_ratio": 0.6303307717119645,
+     "welfare_ratio": 0.3360823000229323,
+     "budget_total": 649271506667.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "11140",
+     "name": "서울특별시 중구"
+    },
+    {
+     "region_id": "26140",
+     "name": "부산광역시 서구"
+    },
+    {
+     "region_id": "27200",
+     "name": "대구광역시 남구"
+    },
+    {
+     "region_id": "26170",
+     "name": "부산광역시 동구"
+    },
+    {
+     "region_id": "26500",
+     "name": "부산광역시 수영구"
+    },
+    {
+     "region_id": "11110",
+     "name": "서울특별시 종로구"
+    },
+    {
+     "region_id": "26200",
+     "name": "부산광역시 영도구"
+    },
+    {
+     "region_id": "11545",
+     "name": "서울특별시 금천구"
+    },
+    {
+     "region_id": "27170",
+     "name": "대구광역시 서구"
+    },
+    {
+     "region_id": "11200",
+     "name": "서울특별시 성동구"
+    },
+    {
+     "region_id": "26110",
+     "name": "부산광역시 중구"
+    },
+    {
+     "region_id": "11170",
+     "name": "서울특별시 용산구"
+    },
+    {
+     "region_id": "27140",
+     "name": "대구광역시 동구"
+    },
+    {
+     "region_id": "27230",
+     "name": "대구광역시 북구"
+    },
+    {
+     "region_id": "27260",
+     "name": "대구광역시 수성구"
+    },
+    {
+     "region_id": "27290",
+     "name": "대구광역시 달서구"
+    }
+   ],
+   "peer_pool_size": 16,
+   "my_policy_count": 325,
+   "suppressed_exact_duplicate": 228,
+   "flagged_as_variant": 163,
+   "recommendations": [
+    {
+     "policy_key": "아동 급식지원",
+     "peer_count": 16,
+     "peer_share": 1.0,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "친환경 학교급식 지원",
+      "similarity": 0.462
+     },
+     "peers": [
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1401160",
+       "ordinance_name": "부산광역시 서구 아동 급식지원 조례",
+       "enacted_on": "20190701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401160&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27290",
+       "name": "대구광역시 달서구",
+       "ordinance_id": "ordin:1742347",
+       "ordinance_name": "대구광역시달서구 아동급식지원 조례",
+       "enacted_on": "20221101",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1742347&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27260",
+       "name": "대구광역시 수성구",
+       "ordinance_id": "ordin:1746457",
+       "ordinance_name": "대구광역시 수성구 아동급식 지원 조례",
+       "enacted_on": "20221110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1746457&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26110",
+       "name": "부산광역시 중구",
+       "ordinance_id": "ordin:1753795",
+       "ordinance_name": "부산광역시 중구 아동 급식지원 조례",
+       "enacted_on": "20221207",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1753795&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27200",
+       "name": "대구광역시 남구",
+       "ordinance_id": "ordin:1754343",
+       "ordinance_name": "대구광역시 남구 아동 급식지원 조례",
+       "enacted_on": "20221209",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1754343&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의회 공인",
+     "peer_count": 16,
+     "peer_share": 1.0,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "공인",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:825625",
+       "ordinance_name": "대구광역시 북구의회 공인 조례",
+       "enacted_on": "20081030",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=825625&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:777981",
+       "ordinance_name": "부산광역시 서구의회 공인 조례",
+       "enacted_on": "20081217",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=777981&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26170",
+       "name": "부산광역시 동구",
+       "ordinance_id": "ordin:819753",
+       "ordinance_name": "부산광역시 동구의회 공인 조례",
+       "enacted_on": "20130207",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=819753&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11200",
+       "name": "서울특별시 성동구",
+       "ordinance_id": "ordin:934765",
+       "ordinance_name": "서울특별시 성동구의회 공인 조례",
+       "enacted_on": "20130221",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=934765&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27260",
+       "name": "대구광역시 수성구",
+       "ordinance_id": "ordin:1263247",
+       "ordinance_name": "대구광역시 수성구의회 공인 조례",
+       "enacted_on": "20161031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1263247&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "환경 기본",
+     "peer_count": 16,
+     "peer_share": 1.0,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "구세 기본",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "11170",
+       "name": "서울특별시 용산구",
+       "ordinance_id": "ordin:1695637",
+       "ordinance_name": "서울특별시 용산구 환경기본 조례",
+       "enacted_on": "20220408",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1695637&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1825047",
+       "ordinance_name": "부산광역시 서구 환경 기본 조례",
+       "enacted_on": "20230628",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1825047&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27170",
+       "name": "대구광역시 서구",
+       "ordinance_id": "ordin:1835795",
+       "ordinance_name": "대구광역시 서구 환경 기본 조례",
+       "enacted_on": "20230710",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1835795&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11140",
+       "name": "서울특별시 중구",
+       "ordinance_id": "ordin:1841019",
+       "ordinance_name": "서울특별시 중구 환경기본 조례",
+       "enacted_on": "20230725",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1841019&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1863547",
+       "ordinance_name": "서울특별시 금천구 환경기본조례",
+       "enacted_on": "20231012",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1863547&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "주차장특별회계 설치",
+     "peer_count": 15,
+     "peer_share": 0.9375,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "의료급여기금특별회계 설치 및 운용",
+      "similarity": 0.476
+     },
+     "peers": [
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:1820435",
+       "ordinance_name": "대구광역시 북구 주차장특별회계 설치 조례",
+       "enacted_on": "20230612",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1820435&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26170",
+       "name": "부산광역시 동구",
+       "ordinance_id": "ordin:1847125",
+       "ordinance_name": "부산광역시 동구 주차장 특별회계 설치 조례",
+       "enacted_on": "20230810",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1847125&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1862051",
+       "ordinance_name": "부산광역시 서구 주차장특별회계 설치 조례",
+       "enacted_on": "20231006",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1862051&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27200",
+       "name": "대구광역시 남구",
+       "ordinance_id": "ordin:1862147",
+       "ordinance_name": "대구광역시 남구 주차장특별회계 설치 조례",
+       "enacted_on": "20231010",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1862147&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1863553",
+       "ordinance_name": "서울특별시 금천구 주차장특별회계 설치조례",
+       "enacted_on": "20231012",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1863553&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "공중화장실 등의 불법촬영 예방",
+     "peer_count": 12,
+     "peer_share": 0.75,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "다중이용시설 불법촬영 예방",
+      "similarity": 0.476
+     },
+     "peers": [
+      {
+       "region_id": "27260",
+       "name": "대구광역시 수성구",
+       "ordinance_id": "ordin:1528657",
+       "ordinance_name": "대구광역시 수성구 공중화장실 등의 불법촬영 예방 조례",
+       "enacted_on": "20200921",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1528657&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26500",
+       "name": "부산광역시 수영구",
+       "ordinance_id": "ordin:1532941",
+       "ordinance_name": "부산광역시 수영구 공중화장실 등의 불법촬영예방에 관한 조례",
+       "enacted_on": "20200929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1532941&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27170",
+       "name": "대구광역시 서구",
+       "ordinance_id": "ordin:1544131",
+       "ordinance_name": "대구광역시 서구 공중화장실 등의 불법촬영 예방에 관한 조례",
+       "enacted_on": "20201110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1544131&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:1560551",
+       "ordinance_name": "대구광역시 북구 공중화장실 등의 불법촬영 예방 조례",
+       "enacted_on": "20201230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1560551&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1595161",
+       "ordinance_name": "서울특별시 금천구 공중화장실 등의 불법촬영 예방에 관한 조례",
+       "enacted_on": "20210513",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1595161&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "보건소 수가",
+     "peer_count": 12,
+     "peer_share": 0.75,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "보건소 진료비 및 수수료",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "26110",
+       "name": "부산광역시 중구",
+       "ordinance_id": "ordin:1981447",
+       "ordinance_name": "부산광역시 중구 보건소수가 조례",
+       "enacted_on": "20241104",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981447&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1991349",
+       "ordinance_name": "부산광역시 서구 보건소 수가 조례",
+       "enacted_on": "20241210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1991349&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27140",
+       "name": "대구광역시 동구",
+       "ordinance_id": "ordin:2030981",
+       "ordinance_name": "대구광역시 동구보건소 수가 조례",
+       "enacted_on": "20250421",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030981&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:2033089",
+       "ordinance_name": "서울특별시 금천구 보건소 수가 조례",
+       "enacted_on": "20250501",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2033089&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26200",
+       "name": "부산광역시 영도구",
+       "ordinance_id": "ordin:2034367",
+       "ordinance_name": "부산광역시 영도구 보건소 수가 조례",
+       "enacted_on": "20250507",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2034367&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "공공디자인 진흥",
+     "peer_count": 11,
+     "peer_share": 0.6875,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "범죄예방 환경디자인",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "27200",
+       "name": "대구광역시 남구",
+       "ordinance_id": "ordin:1550963",
+       "ordinance_name": "대구광역시 남구 공공디자인 진흥에 관한 조례",
+       "enacted_on": "20201210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1550963&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27260",
+       "name": "대구광역시 수성구",
+       "ordinance_id": "ordin:1554631",
+       "ordinance_name": "대구광역시 수성구 공공디자인 진흥에 관한 조례",
+       "enacted_on": "20201221",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1554631&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11140",
+       "name": "서울특별시 중구",
+       "ordinance_id": "ordin:1841131",
+       "ordinance_name": "서울특별시 중구 공공디자인 진흥 조례",
+       "enacted_on": "20230725",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1841131&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11110",
+       "name": "서울특별시 종로구",
+       "ordinance_id": "ordin:1939621",
+       "ordinance_name": "서울특별시 종로구 공공디자인 진흥 조례",
+       "enacted_on": "20240621",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1939621&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26200",
+       "name": "부산광역시 영도구",
+       "ordinance_id": "ordin:1953357",
+       "ordinance_name": "부산광역시 영도구 공공디자인 진흥에 관한 조례",
+       "enacted_on": "20240712",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1953357&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "장애인체육 진흥",
+     "peer_count": 11,
+     "peer_share": 0.6875,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "생활체육진흥",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "27200",
+       "name": "대구광역시 남구",
+       "ordinance_id": "ordin:1012550",
+       "ordinance_name": "대구광역시 남구 장애인체육 진흥 조례",
+       "enacted_on": "20141120",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1012550&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:1242183",
+       "ordinance_name": "대구광역시 북구 장애인체육 진흥 조례",
+       "enacted_on": "20160711",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1242183&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27170",
+       "name": "대구광역시 서구",
+       "ordinance_id": "ordin:1242140",
+       "ordinance_name": "대구광역시 서구 장애인체육 진흥 조례",
+       "enacted_on": "20160711",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1242140&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26170",
+       "name": "부산광역시 동구",
+       "ordinance_id": "ordin:1365979",
+       "ordinance_name": "부산광역시 동구 장애인 체육 진흥 조례",
+       "enacted_on": "20181109",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365979&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27260",
+       "name": "대구광역시 수성구",
+       "ordinance_id": "ordin:1813791",
+       "ordinance_name": "대구광역시 수성구 장애인체육 진흥 조례",
+       "enacted_on": "20230530",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1813791&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "1인가구 지원",
+     "peer_count": 10,
+     "peer_share": 0.625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "저장강박 의심가구 지원",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1622461",
+       "ordinance_name": "부산광역시 서구 1인가구 지원에 관한 조례",
+       "enacted_on": "20210817",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1622461&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26170",
+       "name": "부산광역시 동구",
+       "ordinance_id": "ordin:1683931",
+       "ordinance_name": "부산광역시 동구 1인가구 지원에 관한 조례",
+       "enacted_on": "20220214",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1683931&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11140",
+       "name": "서울특별시 중구",
+       "ordinance_id": "ordin:1738469",
+       "ordinance_name": "서울특별시 중구 1인가구 지원 조례",
+       "enacted_on": "20221019",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1738469&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27170",
+       "name": "대구광역시 서구",
+       "ordinance_id": "ordin:1748537",
+       "ordinance_name": "대구광역시 서구 1인가구 지원 조례",
+       "enacted_on": "20221110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1748537&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27290",
+       "name": "대구광역시 달서구",
+       "ordinance_id": "ordin:1829861",
+       "ordinance_name": "대구광역시달서구 1인가구 지원 조례",
+       "enacted_on": "20230703",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1829861&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "남북교류 협력",
+     "peer_count": 10,
+     "peer_share": 0.625,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "26500",
+       "name": "부산광역시 수영구",
+       "repealed_on": "20241230"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": null,
+     "peers": [
+      {
+       "region_id": "26170",
+       "name": "부산광역시 동구",
+       "ordinance_id": "ordin:1375261",
+       "ordinance_name": "부산광역시 동구 남북교류협력에 관한 조례",
+       "enacted_on": "20181221",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1375261&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27200",
+       "name": "대구광역시 남구",
+       "ordinance_id": "ordin:1390378",
+       "ordinance_name": "대구광역시 남구 남북교류 협력에 관한 조례",
+       "enacted_on": "20190410",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1390378&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11110",
+       "name": "서울특별시 종로구",
+       "ordinance_id": "ordin:1417093",
+       "ordinance_name": "서울특별시 종로구 남북교류협력에 관한 조례",
+       "enacted_on": "20191108",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417093&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11140",
+       "name": "서울특별시 중구",
+       "ordinance_id": "ordin:1417439",
+       "ordinance_name": "서울특별시 중구 남북교류협력에 관한 조례",
+       "enacted_on": "20191108",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417439&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27140",
+       "name": "대구광역시 동구",
+       "ordinance_id": "ordin:1705687",
+       "ordinance_name": "대구광역시 동구 남북교류 협력에 관한 조례",
+       "enacted_on": "20220502",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1705687&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "맨발걷기 활성화 및 지원",
+     "peer_count": 10,
+     "peer_share": 0.625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "거리공연 활성화 및 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "27260",
+       "name": "대구광역시 수성구",
+       "ordinance_id": "ordin:1826905",
+       "ordinance_name": "대구광역시 수성구 맨발걷기 활성화 지원에 관한 조례",
+       "enacted_on": "20230630",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1826905&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:1859437",
+       "ordinance_name": "대구광역시 북구 맨발걷기 활성화 및 지원에 관한 조례",
+       "enacted_on": "20231004",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1859437&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26110",
+       "name": "부산광역시 중구",
+       "ordinance_id": "ordin:1872005",
+       "ordinance_name": "부산광역시 중구 맨발걷기 활성화 및 지원에 관한 조례",
+       "enacted_on": "20231110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872005&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11170",
+       "name": "서울특별시 용산구",
+       "ordinance_id": "ordin:1893447",
+       "ordinance_name": "서울특별시 용산구 맨발 걷기 활성화 지원에 관한 조례",
+       "enacted_on": "20231229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1893447&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11110",
+       "name": "서울특별시 종로구",
+       "ordinance_id": "ordin:1918817",
+       "ordinance_name": "서울특별시 종로구 맨발걷기 활성화 및 지원에 관한 조례",
+       "enacted_on": "20240405",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1918817&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "북한이탈주민 정착지원",
+     "peer_count": 10,
+     "peer_share": 0.625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "외국인주민 지원",
+      "similarity": 0.267
+     },
+     "peers": [
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1262722",
+       "ordinance_name": "부산광역시 서구 북한이탈주민 정착 지원에 관한 조례",
+       "enacted_on": "20161107",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1262722&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1286837",
+       "ordinance_name": "서울특별시 금천구 북한이탈주민 정착 지원에 관한 조례",
+       "enacted_on": "20170515",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1286837&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11200",
+       "name": "서울특별시 성동구",
+       "ordinance_id": "ordin:1342049",
+       "ordinance_name": "서울특별시 성동구 북한이탈주민 정착지원에 관한 조례",
+       "enacted_on": "20180321",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1342049&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11170",
+       "name": "서울특별시 용산구",
+       "ordinance_id": "ordin:1418017",
+       "ordinance_name": "서울특별시 용산구 북한이탈주민 정착 지원에 관한 조례",
+       "enacted_on": "20191108",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418017&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26200",
+       "name": "부산광역시 영도구",
+       "ordinance_id": "ordin:1715953",
+       "ordinance_name": "부산광역시 영도구 북한이탈주민 정착지원에 관한 조례",
+       "enacted_on": "20220706",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1715953&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "불용의약품 등의 관리",
+     "peer_count": 10,
+     "peer_share": 0.625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "물품관리",
+      "similarity": 0.444
+     },
+     "peers": [
+      {
+       "region_id": "11200",
+       "name": "서울특별시 성동구",
+       "ordinance_id": "ordin:1059104",
+       "ordinance_name": "서울특별시 성동구 불용의약품 관리에 관한 조례",
+       "enacted_on": "20091119",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1059104&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1262732",
+       "ordinance_name": "부산광역시 서구 불용의약품 등의 관리에 관한 조례",
+       "enacted_on": "20161107",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1262732&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27140",
+       "name": "대구광역시 동구",
+       "ordinance_id": "ordin:1282285",
+       "ordinance_name": "대구광역시 동구 불용의약품 등의 관리에 관한 조례",
+       "enacted_on": "20170330",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1282285&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27200",
+       "name": "대구광역시 남구",
+       "ordinance_id": "ordin:1398155",
+       "ordinance_name": "대구광역시 남구 불용의약품 등의 관리에 관한 조례",
+       "enacted_on": "20190620",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1398155&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11140",
+       "name": "서울특별시 중구",
+       "ordinance_id": "ordin:1440255",
+       "ordinance_name": "서울특별시 중구 불용의약품 등의 관리에 관한 조례",
+       "enacted_on": "20200101",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1440255&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "생활임금",
+     "peer_count": 10,
+     "peer_share": 0.625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "생활체육진흥",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "11200",
+       "name": "서울특별시 성동구",
+       "ordinance_id": "ordin:1145156",
+       "ordinance_name": "서울특별시 성동구 생활임금 조례",
+       "enacted_on": "20150521",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1145156&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1192297",
+       "ordinance_name": "서울특별시 금천구 생활임금 조례",
+       "enacted_on": "20151008",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1192297&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1404681",
+       "ordinance_name": "부산광역시 서구 생활임금 조례",
+       "enacted_on": "20190715",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1404681&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11110",
+       "name": "서울특별시 종로구",
+       "ordinance_id": "ordin:1437317",
+       "ordinance_name": "서울특별시 종로구 생활임금 조례",
+       "enacted_on": "20191227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1437317&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11140",
+       "name": "서울특별시 중구",
+       "ordinance_id": "ordin:1628617",
+       "ordinance_name": "서울특별시 중구 생활임금 조례",
+       "enacted_on": "20210929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1628617&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의회 입법ㆍ법률고문 운영",
+     "peer_count": 10,
+     "peer_share": 0.625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "고문변호사 운영",
+      "similarity": 0.267
+     },
+     "peers": [
+      {
+       "region_id": "11170",
+       "name": "서울특별시 용산구",
+       "ordinance_id": "ordin:850158",
+       "ordinance_name": "서울특별시 용산구의회 입법·법률고문 운영 조례",
+       "enacted_on": "20120229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=850158&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26200",
+       "name": "부산광역시 영도구",
+       "ordinance_id": "ordin:1417497",
+       "ordinance_name": "부산광역시 영도구의회 입법·법률고문 운영 조례",
+       "enacted_on": "20191108",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417497&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27290",
+       "name": "대구광역시 달서구",
+       "ordinance_id": "ordin:1439811",
+       "ordinance_name": "대구광역시달서구 의회 입법·법률고문 운영 조례",
+       "enacted_on": "20191231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1439811&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1574423",
+       "ordinance_name": "부산광역시 서구의회 입법 및 법률고문 운영 조례",
+       "enacted_on": "20210215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1574423&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1974411",
+       "ordinance_name": "서울특별시 금천구의회 입법ㆍ법률고문 운영 조례",
+       "enacted_on": "20241002",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974411&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "새마을운동조직 육성 및 지원",
+     "peer_count": 9,
+     "peer_share": 0.5625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "국민운동조직의 지원",
+      "similarity": 0.444
+     },
+     "peers": [
+      {
+       "region_id": "11140",
+       "name": "서울특별시 중구",
+       "ordinance_id": "ordin:990777",
+       "ordinance_name": "서울특별시 중구 새마을운동조직 육성 및 지원에 관한 조례",
+       "enacted_on": "20131002",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=990777&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1263111",
+       "ordinance_name": "부산광역시 서구 새마을운동조직 육성 및 지원 조례",
+       "enacted_on": "20161107",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1263111&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11200",
+       "name": "서울특별시 성동구",
+       "ordinance_id": "ordin:1264481",
+       "ordinance_name": "서울특별시 성동구 새마을운동조직 육성 및 지원에 관한 조례",
+       "enacted_on": "20161117",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1264481&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26500",
+       "name": "부산광역시 수영구",
+       "ordinance_id": "ordin:1347743",
+       "ordinance_name": "부산광역시 수영구 새마을운동 조직 육성 및 지원에 관한 조례",
+       "enacted_on": "20180515",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1347743&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26200",
+       "name": "부산광역시 영도구",
+       "ordinance_id": "ordin:1394030",
+       "ordinance_name": "부산광역시 영도구 새마을운동조직 육성 및 지원에 관한 조례",
+       "enacted_on": "20190515",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1394030&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "은둔형 외톨이 지원",
+     "peer_count": 9,
+     "peer_share": 0.5625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "경로당지원",
+      "similarity": 0.182
+     },
+     "peers": [
+      {
+       "region_id": "27260",
+       "name": "대구광역시 수성구",
+       "ordinance_id": "ordin:1852415",
+       "ordinance_name": "대구광역시 수성구 은둔형 외톨이 지원 조례",
+       "enacted_on": "20230920",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1852415&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:1872077",
+       "ordinance_name": "대구광역시 북구 은둔형 외톨이 지원 조례",
+       "enacted_on": "20231110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872077&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1910983",
+       "ordinance_name": "서울특별시 금천구 은둔형 외톨이 지원 조례",
+       "enacted_on": "20240308",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910983&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26500",
+       "name": "부산광역시 수영구",
+       "ordinance_id": "ordin:1912351",
+       "ordinance_name": "부산광역시 수영구 은둔형 외톨이 지원 조례",
+       "enacted_on": "20240315",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912351&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27200",
+       "name": "대구광역시 남구",
+       "ordinance_id": "ordin:1913707",
+       "ordinance_name": "대구광역시 남구 은둔형 외톨이 지원 조례",
+       "enacted_on": "20240320",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1913707&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "장애인 고용촉진 및 직업재활 지원",
+     "peer_count": 9,
+     "peer_share": 0.5625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "장애인 자립생활 지원",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "26200",
+       "name": "부산광역시 영도구",
+       "ordinance_id": "ordin:1364231",
+       "ordinance_name": "부산광역시 영도구 장애인 고용촉진 및 직업재활 지원에 관한 조례",
+       "enacted_on": "20181101",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1364231&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27290",
+       "name": "대구광역시 달서구",
+       "ordinance_id": "ordin:1372000",
+       "ordinance_name": "대구광역시달서구 장애인 고용촉진 및 직업재활 지원에 관한 조례",
+       "enacted_on": "20181203",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1372000&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:1378358",
+       "ordinance_name": "대구광역시 북구 장애인 고용촉진 및 직업재활지원에 관한 조례",
+       "enacted_on": "20181231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1378358&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27200",
+       "name": "대구광역시 남구",
+       "ordinance_id": "ordin:1550955",
+       "ordinance_name": "대구광역시 남구 장애인 고용촉진 및 직업재활 지원에 관한 조례",
+       "enacted_on": "20201210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1550955&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1595159",
+       "ordinance_name": "서울특별시 금천구 장애인 고용촉진 및 직업재활 지원에 관한 조례",
+       "enacted_on": "20210513",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1595159&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "재향경우회 지원",
+     "peer_count": 9,
+     "peer_share": 0.5625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "재향군인 예우 및 지원",
+      "similarity": 0.308
+     },
+     "peers": [
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1562361",
+       "ordinance_name": "서울특별시 금천구 재향경우회 지원에 관한 조례",
+       "enacted_on": "20201231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1562361&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26110",
+       "name": "부산광역시 중구",
+       "ordinance_id": "ordin:1572663",
+       "ordinance_name": "부산광역시 중구 재향경우회 지원 조례",
+       "enacted_on": "20210202",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1572663&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:1578329",
+       "ordinance_name": "대구광역시 북구 재향경우회 지원에 관한 조례",
+       "enacted_on": "20210310",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1578329&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11140",
+       "name": "서울특별시 중구",
+       "ordinance_id": "ordin:1586313",
+       "ordinance_name": "서울특별시 중구 재향경우회 지원에 관한 조례",
+       "enacted_on": "20210402",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1586313&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11170",
+       "name": "서울특별시 용산구",
+       "ordinance_id": "ordin:1639619",
+       "ordinance_name": "서울특별시 용산구 재향경우회 지원에 관한 조례",
+       "enacted_on": "20211112",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1639619&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "홍보대사 운영",
+     "peer_count": 9,
+     "peer_share": 0.5625,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "고문변호사 운영",
+      "similarity": 0.364
+     },
+     "peers": [
+      {
+       "region_id": "27260",
+       "name": "대구광역시 수성구",
+       "ordinance_id": "ordin:1254164",
+       "ordinance_name": "대구광역시 수성구 홍보대사 운영 조례",
+       "enacted_on": "20160930",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1254164&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11170",
+       "name": "서울특별시 용산구",
+       "ordinance_id": "ordin:1401627",
+       "ordinance_name": "서울특별시 용산구 홍보대사 운영 조례",
+       "enacted_on": "20190705",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401627&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26200",
+       "name": "부산광역시 영도구",
+       "ordinance_id": "ordin:1580915",
+       "ordinance_name": "부산광역시 영도구 홍보대사 운영 조례",
+       "enacted_on": "20210322",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580915&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27290",
+       "name": "대구광역시 달서구",
+       "ordinance_id": "ordin:1584177",
+       "ordinance_name": "대구광역시달서구 홍보대사 운영에 관한 조례",
+       "enacted_on": "20210401",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1584177&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:1600003",
+       "ordinance_name": "대구광역시 북구 홍보대사 운영에 관한 조례",
+       "enacted_on": "20210531",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1600003&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "가족돌봄 청소년·청년 지원",
+     "peer_count": 8,
+     "peer_share": 0.5,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "학교 밖 청소년 지원",
+      "similarity": 0.471
+     },
+     "peers": [
+      {
+       "region_id": "26170",
+       "name": "부산광역시 동구",
+       "ordinance_id": "ordin:1948353",
+       "ordinance_name": "부산광역시 동구 가족돌봄청소년ㆍ청년 지원에 관한 조례",
+       "enacted_on": "20240701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1948353&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1957999",
+       "ordinance_name": "부산광역시 서구 가족돌봄 청소년·청년 지원 조례",
+       "enacted_on": "20240712",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1957999&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11170",
+       "name": "서울특별시 용산구",
+       "ordinance_id": "ordin:1985767",
+       "ordinance_name": "서울특별시 용산구 가족돌봄청소년·청년 지원에 관한 조례",
+       "enacted_on": "20241115",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1985767&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27290",
+       "name": "대구광역시 달서구",
+       "ordinance_id": "ordin:1990929",
+       "ordinance_name": "대구광역시달서구 가족돌봄 청소년·청년 지원에 관한 조례",
+       "enacted_on": "20241211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1990929&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11110",
+       "name": "서울특별시 종로구",
+       "ordinance_id": "ordin:2094281",
+       "ordinance_name": "서울특별시 종로구 가족돌봄 청소년·청년 지원 조례",
+       "enacted_on": "20251219",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2094281&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "경관",
+     "peer_count": 8,
+     "peer_share": 0.5,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": null,
+     "peers": [
+      {
+       "region_id": "26110",
+       "name": "부산광역시 중구",
+       "ordinance_id": "ordin:1248167",
+       "ordinance_name": "부산광역시 중구 경관조례",
+       "enacted_on": "20160812",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1248167&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26170",
+       "name": "부산광역시 동구",
+       "ordinance_id": "ordin:1302229",
+       "ordinance_name": "부산광역시 동구 경관 조례",
+       "enacted_on": "20170915",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1302229&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26140",
+       "name": "부산광역시 서구",
+       "ordinance_id": "ordin:1347375",
+       "ordinance_name": "부산광역시 서구 경관 조례",
+       "enacted_on": "20180510",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1347375&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26200",
+       "name": "부산광역시 영도구",
+       "ordinance_id": "ordin:1410553",
+       "ordinance_name": "부산광역시 영도구 경관 조례",
+       "enacted_on": "20190927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410553&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27260",
+       "name": "대구광역시 수성구",
+       "ordinance_id": "ordin:1607033",
+       "ordinance_name": "대구광역시 수성구 경관 조례",
+       "enacted_on": "20210630",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1607033&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "공유수면 점용료·사용료 징수",
+     "peer_count": 8,
+     "peer_share": 0.5,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "도로점용 허가 및 점용료 징수",
+      "similarity": 0.421
+     },
+     "peers": [
+      {
+       "region_id": "27230",
+       "name": "대구광역시 북구",
+       "ordinance_id": "ordin:1713349",
+       "ordinance_name": "대구광역시 북구 공유수면 점용료·사용료 징수 조례",
+       "enacted_on": "20220630",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1713349&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26170",
+       "name": "부산광역시 동구",
+       "ordinance_id": "ordin:1718739",
+       "ordinance_name": "부산광역시 동구 공유수면 점용료ㆍ사용료 징수 조례",
+       "enacted_on": "20220729",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1718739&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26500",
+       "name": "부산광역시 수영구",
+       "ordinance_id": "ordin:1719359",
+       "ordinance_name": "부산광역시 수영구 공유수면 점용료·사용료 징수 조례",
+       "enacted_on": "20220801",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1719359&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26200",
+       "name": "부산광역시 영도구",
+       "ordinance_id": "ordin:1737161",
+       "ordinance_name": "부산광역시 영도구 공유수면 점용료ㆍ사용료 징수 조례",
+       "enacted_on": "20221017",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1737161&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26110",
+       "name": "부산광역시 중구",
+       "ordinance_id": "ordin:1754085",
+       "ordinance_name": "부산광역시 중구 공유수면 점용료·사용료 징수 조례",
+       "enacted_on": "20221207",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1754085&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "도로복구 원인자 부담금 징수",
+     "peer_count": 8,
+     "peer_share": 0.5,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "도로점용 허가 및 점용료 징수",
+      "similarity": 0.2
+     },
+     "peers": [
+      {
+       "region_id": "11200",
+       "name": "서울특별시 성동구",
+       "ordinance_id": "ordin:1132738",
+       "ordinance_name": "서울특별시 성동구 도로복구 원인자부담금 징수 조례",
+       "enacted_on": "20141113",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1132738&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1412234",
+       "ordinance_name": "서울특별시 금천구 도로복구 원인자 부담금 징수 조례",
+       "enacted_on": "20191010",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1412234&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11170",
+       "name": "서울특별시 용산구",
+       "ordinance_id": "ordin:1417999",
+       "ordinance_name": "서울특별시 용산구 도로복구원인자부담금 징수조례",
+       "enacted_on": "20191108",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417999&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "27140",
+       "name": "대구광역시 동구",
+       "ordinance_id": "ordin:1509291",
+       "ordinance_name": "대구광역시 동구 도로복구 원인자 부담금 징수 조례",
+       "enacted_on": "20200630",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1509291&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11110",
+       "name": "서울특별시 종로구",
+       "ordinance_id": "ordin:1545213",
+       "ordinance_name": "서울특별시 종로구 도로복구 원인자부담금 징수 조례",
+       "enacted_on": "20201113",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545213&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "바르게살기운동조직 육성 및 지원",
+     "peer_count": 8,
+     "peer_share": 0.5,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "국민운동조직의 지원",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "11140",
+       "name": "서울특별시 중구",
+       "ordinance_id": "ordin:990779",
+       "ordinance_name": "서울특별시 중구 바르게살기운동조직 육성 및 지원에 관한 조례",
+       "enacted_on": "20131002",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=990779&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26170",
+       "name": "부산광역시 동구",
+       "ordinance_id": "ordin:1174171",
+       "ordinance_name": "부산광역시 동구 바르게살기운동조직 육성 및 지원에 관한 조례",
+       "enacted_on": "20150619",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1174171&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26110",
+       "name": "부산광역시 중구",
+       "ordinance_id": "ordin:1387211",
+       "ordinance_name": "부산광역시 중구 바르게살기운동조직 육성 및 지원 조례",
+       "enacted_on": "20190308",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1387211&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "11545",
+       "name": "서울특별시 금천구",
+       "ordinance_id": "ordin:1632551",
+       "ordinance_name": "서울특별시 금천구 바르게살기운동조직 육성 및 지원에 관한 조례",
+       "enacted_on": "20210929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632551&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "26500",
+       "name": "부산광역시 수영구",
+       "ordinance_id": "ordin:1636373",
+       "ordinance_name": "부산광역시 수영구 바르게살기운동조직 육성 및 지원에 관한 조례",
+       "enacted_on": "20211101",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1636373&type=HTML&mobileYn="
+      }
+     ]
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 69,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.0,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d).",
+    "min_peers": 3,
+    "same_sido_boost": true,
+    "dup_threshold": 0.55,
+    "exclude_variants": true,
+    "policy_key": "조례명에서 지자체명·법형식 접미 제거 → canon_key(어절 단위 연결어 제거) → 정규형 완전일치는 '보유'로 제외, 잔여 근사는 closest_own 과 함께 likely_variant 로 표시"
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "27110"
+ ]
+}

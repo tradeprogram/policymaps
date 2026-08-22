@@ -1,0 +1,1608 @@
+{
+ "data": {
+  "51760": {
+   "target": {
+    "region_id": "51760",
+    "sig_cd": "51760",
+    "name": "강원특별자치도 평창군",
+    "rtype": "군",
+    "indicators": {
+     "population": 39865.0,
+     "area_km2": 1463.1454051743701,
+     "fiscal_self_ratio": 0.6962882578288769,
+     "welfare_ratio": 0.15926624869071168,
+     "budget_total": 965471536299.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "51730",
+     "name": "강원특별자치도 횡성군"
+    },
+    {
+     "region_id": "51810",
+     "name": "강원특별자치도 인제군"
+    },
+    {
+     "region_id": "51780",
+     "name": "강원특별자치도 철원군"
+    },
+    {
+     "region_id": "43740",
+     "name": "충청북도 영동군"
+    },
+    {
+     "region_id": "51770",
+     "name": "강원특별자치도 정선군"
+    },
+    {
+     "region_id": "51750",
+     "name": "강원특별자치도 영월군"
+    },
+    {
+     "region_id": "47820",
+     "name": "경상북도 청도군"
+    },
+    {
+     "region_id": "48850",
+     "name": "경상남도 하동군"
+    },
+    {
+     "region_id": "48870",
+     "name": "경상남도 함양군"
+    },
+    {
+     "region_id": "48880",
+     "name": "경상남도 거창군"
+    },
+    {
+     "region_id": "41800",
+     "name": "경기도 연천군"
+    },
+    {
+     "region_id": "47920",
+     "name": "경상북도 봉화군"
+    },
+    {
+     "region_id": "51720",
+     "name": "강원특별자치도 홍천군"
+    },
+    {
+     "region_id": "51790",
+     "name": "강원특별자치도 화천군"
+    },
+    {
+     "region_id": "51800",
+     "name": "강원특별자치도 양구군"
+    },
+    {
+     "region_id": "51820",
+     "name": "강원특별자치도 고성군"
+    },
+    {
+     "region_id": "51830",
+     "name": "강원특별자치도 양양군"
+    }
+   ],
+   "peer_pool_size": 17,
+   "my_policy_count": 511,
+   "suppressed_exact_duplicate": 263,
+   "flagged_as_variant": 211,
+   "recommendations": [
+    {
+     "policy_key": "리개발위원회",
+     "peer_count": 14,
+     "peer_share": 0.8235,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "41800",
+       "name": "경기도 연천군",
+       "repealed_on": "20221206"
+      },
+      {
+       "region_id": "51780",
+       "name": "강원특별자치도 철원군",
+       "repealed_on": "20230809"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "의회 위원회",
+      "similarity": 0.444
+     },
+     "peers": [
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:790085",
+       "ordinance_name": "영동군 리개발위원회 조례",
+       "enacted_on": "20110110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=790085&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48850",
+       "name": "경상남도 하동군",
+       "ordinance_id": "ordin:965761",
+       "ordinance_name": "하동군 리 개발위원회 조례",
+       "enacted_on": "20130410",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=965761&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1164108",
+       "ordinance_name": "인제군 리개발위원회 조례",
+       "enacted_on": "20141226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1164108&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1191070",
+       "ordinance_name": "정선군 리개발위원회 조례",
+       "enacted_on": "20151005",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1191070&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48870",
+       "name": "경상남도 함양군",
+       "ordinance_id": "ordin:1270229",
+       "ordinance_name": "함양군 리개발위원회조례",
+       "enacted_on": "20161227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1270229&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "교통약자의 이동편의 증진",
+     "peer_count": 12,
+     "peer_share": 0.7059,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통안전 증진",
+      "similarity": 0.267
+     },
+     "peers": [
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1927537",
+       "ordinance_name": "봉화군 교통약자의 이동편의 증진에 관한 조례",
+       "enacted_on": "20240502",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1927537&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1931101",
+       "ordinance_name": "홍천군 교통약자의 이동편의 증진에 관한 조례",
+       "enacted_on": "20240517",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1931101&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51780",
+       "name": "강원특별자치도 철원군",
+       "ordinance_id": "ordin:1948757",
+       "ordinance_name": "철원군 교통약자의 이동편의 증진에 관한 조례",
+       "enacted_on": "20240703",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1948757&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48870",
+       "name": "경상남도 함양군",
+       "ordinance_id": "ordin:2022511",
+       "ordinance_name": "함양군 교통약자의 이동편의 증진 조례",
+       "enacted_on": "20250313",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2022511&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:2051341",
+       "ordinance_name": "영동군 교통약자의 이동편의 증진에 관한 조례",
+       "enacted_on": "20250704",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051341&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의회 포상",
+     "peer_count": 12,
+     "peer_share": 0.7059,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "포상",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1027880",
+       "ordinance_name": "인제군의회 포상 조례",
+       "enacted_on": "20150302",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1027880&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51780",
+       "name": "강원특별자치도 철원군",
+       "ordinance_id": "ordin:1676455",
+       "ordinance_name": "철원군의회 포상 조례",
+       "enacted_on": "20220113",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1676455&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1745821",
+       "ordinance_name": "정선군의회 포상 조례",
+       "enacted_on": "20221109",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1745821&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51800",
+       "name": "강원특별자치도 양구군",
+       "ordinance_id": "ordin:1768959",
+       "ordinance_name": "양구군의회 포상조례",
+       "enacted_on": "20221228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1768959&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:1801241",
+       "ordinance_name": "고성군의회 포상 조례",
+       "enacted_on": "20230414",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1801241&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "4에이치활동 지원",
+     "peer_count": 11,
+     "peer_share": 0.6471,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "repealed_on": "20191125"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "자원봉사활동 지원",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1269144",
+       "ordinance_name": "정선군 4에이치활동 지원 조례",
+       "enacted_on": "20161222",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1269144&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51780",
+       "name": "강원특별자치도 철원군",
+       "ordinance_id": "ordin:1400429",
+       "ordinance_name": "철원군 4에이치활동 지원조례",
+       "enacted_on": "20190701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1400429&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1527283",
+       "ordinance_name": "인제군 4에이치활동 지원 조례",
+       "enacted_on": "20200911",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1527283&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51830",
+       "name": "강원특별자치도 양양군",
+       "ordinance_id": "ordin:1678421",
+       "ordinance_name": "양양군 4에이치활동 지원 조례",
+       "enacted_on": "20220110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1678421&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51790",
+       "name": "강원특별자치도 화천군",
+       "ordinance_id": "ordin:1700431",
+       "ordinance_name": "화천군 4에이치활동 지원 조례",
+       "enacted_on": "20220419",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1700431&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "성실납세자 등 지원",
+     "peer_count": 11,
+     "peer_share": 0.6471,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "납세자보호관 사무처리",
+      "similarity": 0.267
+     },
+     "peers": [
+      {
+       "region_id": "48880",
+       "name": "경상남도 거창군",
+       "ordinance_id": "ordin:991129",
+       "ordinance_name": "거창군 성실납세자 등 지원조례",
+       "enacted_on": "20111004",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=991129&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48850",
+       "name": "경상남도 하동군",
+       "ordinance_id": "ordin:950314",
+       "ordinance_name": "하동군 성실납세자 등 지원에 관한 조례",
+       "enacted_on": "20130410",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=950314&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48870",
+       "name": "경상남도 함양군",
+       "ordinance_id": "ordin:1244595",
+       "ordinance_name": "함양군 성실납세자 등 지원 조례",
+       "enacted_on": "20160715",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1244595&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51730",
+       "name": "강원특별자치도 횡성군",
+       "ordinance_id": "ordin:1286072",
+       "ordinance_name": "횡성군 성실납세자 등 지원에 관한 조례",
+       "enacted_on": "20170420",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1286072&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51750",
+       "name": "강원특별자치도 영월군",
+       "ordinance_id": "ordin:1305745",
+       "ordinance_name": "영월군 성실납세자 지원에 관한 조례",
+       "enacted_on": "20170929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1305745&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "다문화가족 지원",
+     "peer_count": 10,
+     "peer_share": 0.5882,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "48880",
+       "name": "경상남도 거창군",
+       "repealed_on": "20210929"
+      },
+      {
+       "region_id": "51790",
+       "name": "강원특별자치도 화천군",
+       "repealed_on": "20241105"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "건강가정·다문화가족지원센터 설치 및 운영",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "48850",
+       "name": "경상남도 하동군",
+       "ordinance_id": "ordin:930470",
+       "ordinance_name": "하동군 다문화가족 지원 조례",
+       "enacted_on": "20130410",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=930470&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:867032",
+       "ordinance_name": "영동군 다문화가족 지원 조례",
+       "enacted_on": "20150326",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=867032&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1395339",
+       "ordinance_name": "홍천군 다문화가족 지원 조례",
+       "enacted_on": "20190520",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395339&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51750",
+       "name": "강원특별자치도 영월군",
+       "ordinance_id": "ordin:1599401",
+       "ordinance_name": "영월군 다문화가족 지원 조례",
+       "enacted_on": "20210528",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1599401&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:1741917",
+       "ordinance_name": "고성군 다문화가족 지원 조례",
+       "enacted_on": "20221031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741917&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "보행안전 및 편의증진",
+     "peer_count": 10,
+     "peer_share": 0.5882,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통안전 증진",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "41800",
+       "name": "경기도 연천군",
+       "ordinance_id": "ordin:1625463",
+       "ordinance_name": "연천군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20210916",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1625463&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1645779",
+       "ordinance_name": "홍천군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1645779&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51830",
+       "name": "강원특별자치도 양양군",
+       "ordinance_id": "ordin:1669373",
+       "ordinance_name": "양양군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669373&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1671551",
+       "ordinance_name": "봉화군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1671551&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:1669679",
+       "ordinance_name": "영동군 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669679&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "외국인주민 지원",
+     "peer_count": 10,
+     "peer_share": 0.5882,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "repealed_on": "20121126"
+      },
+      {
+       "region_id": "51800",
+       "name": "강원특별자치도 양구군",
+       "repealed_on": "20131114"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "거주외국인 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "41800",
+       "name": "경기도 연천군",
+       "ordinance_id": "ordin:880014",
+       "ordinance_name": "연천군 외국인주민 지원 조례",
+       "enacted_on": "20120323",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=880014&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48850",
+       "name": "경상남도 하동군",
+       "ordinance_id": "ordin:831240",
+       "ordinance_name": "하동군 외국인주민 지원 조례",
+       "enacted_on": "20130410",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=831240&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51750",
+       "name": "강원특별자치도 영월군",
+       "ordinance_id": "ordin:1599311",
+       "ordinance_name": "영월군 외국인주민 지원 조례",
+       "enacted_on": "20210528",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1599311&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1822975",
+       "ordinance_name": "홍천군 외국인주민 지원 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1822975&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51790",
+       "name": "강원특별자치도 화천군",
+       "ordinance_id": "ordin:1888627",
+       "ordinance_name": "화천군 외국인주민 지원조례",
+       "enacted_on": "20231226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1888627&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "한국수화언어 활성화 지원",
+     "peer_count": 10,
+     "peer_share": 0.5882,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "농공단지 활성화 지원",
+      "similarity": 0.444
+     },
+     "peers": [
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1627591",
+       "ordinance_name": "홍천군 한국수화언어 활성화 지원 조례",
+       "enacted_on": "20210927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627591&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51790",
+       "name": "강원특별자치도 화천군",
+       "ordinance_id": "ordin:1683669",
+       "ordinance_name": "화천군 한국수화언어 활성화 지원 조례",
+       "enacted_on": "20220211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1683669&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1700031",
+       "ordinance_name": "정선군 한국수화언어 활성화 지원 조례",
+       "enacted_on": "20220418",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1700031&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:1727313",
+       "ordinance_name": "고성군 한국수화언어 활성화 지원 조례",
+       "enacted_on": "20220914",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1727313&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1739145",
+       "ordinance_name": "인제군 한국수화언어 활성화 지원 조례",
+       "enacted_on": "20221020",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1739145&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "공중화장실 등의 불법촬영 예방",
+     "peer_count": 9,
+     "peer_share": 0.5294,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "다중이용시설 불법촬영 예방",
+      "similarity": 0.476
+     },
+     "peers": [
+      {
+       "region_id": "48870",
+       "name": "경상남도 함양군",
+       "ordinance_id": "ordin:1617623",
+       "ordinance_name": "함양군 공중화장실 등의 불법촬영 예방 조례",
+       "enacted_on": "20210715",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1617623&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41800",
+       "name": "경기도 연천군",
+       "ordinance_id": "ordin:1625461",
+       "ordinance_name": "연천군 공중화장실 등의 불법촬영 예방 조례",
+       "enacted_on": "20210916",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1625461&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1627595",
+       "ordinance_name": "홍천군 공중화장실 등의 불법촬영 예방 조례",
+       "enacted_on": "20210927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627595&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48880",
+       "name": "경상남도 거창군",
+       "ordinance_id": "ordin:1629225",
+       "ordinance_name": "거창군 공중화장실 등의 불법촬영 예방 조례",
+       "enacted_on": "20210929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1629225&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1639999",
+       "ordinance_name": "인제군 공중화장실 등의 불법촬영 예방에 관한 조례",
+       "enacted_on": "20211111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1639999&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "북한이탈주민 정착지원",
+     "peer_count": 9,
+     "peer_share": 0.5294,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "보호관찰 대상자 등 사회정착 지원",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "51730",
+       "name": "강원특별자치도 횡성군",
+       "ordinance_id": "ordin:1486917",
+       "ordinance_name": "횡성군 북한이탈주민 정착지원에 관한 조례",
+       "enacted_on": "20200410",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1486917&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:1600937",
+       "ordinance_name": "영동군 북한이탈주민 정착지원에 관한 조례",
+       "enacted_on": "20210531",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1600937&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1657895",
+       "ordinance_name": "봉화군 북한이탈주민 정착지원에 관한 조례",
+       "enacted_on": "20220101",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1657895&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:1851941",
+       "ordinance_name": "고성군 북한이탈주민 정착지원에 관한 조례",
+       "enacted_on": "20230918",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851941&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1910075",
+       "ordinance_name": "인제군 북한이탈주민 정착지원에 관한 조례",
+       "enacted_on": "20240229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910075&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "응급의료 지원",
+     "peer_count": 9,
+     "peer_share": 0.5294,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "출생아 건강보험료 지원",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "48870",
+       "name": "경상남도 함양군",
+       "ordinance_id": "ordin:1290417",
+       "ordinance_name": "함양군 응급의료 지원에 관한 조례",
+       "enacted_on": "20170427",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1290417&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48850",
+       "name": "경상남도 하동군",
+       "ordinance_id": "ordin:1407966",
+       "ordinance_name": "하동군 응급의료 지원에 관한 조례",
+       "enacted_on": "20190830",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1407966&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51780",
+       "name": "강원특별자치도 철원군",
+       "ordinance_id": "ordin:1418563",
+       "ordinance_name": "철원군 응급의료 지원에 관한 조례",
+       "enacted_on": "20191111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418563&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:1632417",
+       "ordinance_name": "청도군 응급의료 지원에 관한 조례",
+       "enacted_on": "20211005",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632417&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1660679",
+       "ordinance_name": "홍천군 응급의료 지원에 관한 조례",
+       "enacted_on": "20211231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1660679&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "주차장 특별회계 설치",
+     "peer_count": 9,
+     "peer_share": 0.5294,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "repealed_on": "20191014"
+      },
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "repealed_on": "20211230"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "수질개선특별회계 설치 및 운용",
+      "similarity": 0.526
+     },
+     "peers": [
+      {
+       "region_id": "51780",
+       "name": "강원특별자치도 철원군",
+       "ordinance_id": "ordin:1846055",
+       "ordinance_name": "철원군주차장특별회계 설치조례",
+       "enacted_on": "20230809",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1846055&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51800",
+       "name": "강원특별자치도 양구군",
+       "ordinance_id": "ordin:1852175",
+       "ordinance_name": "양구군 주차장 특별회계 설치조례",
+       "enacted_on": "20230919",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1852175&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1854679",
+       "ordinance_name": "정선군 주차장 특별회계 설치 조례",
+       "enacted_on": "20230925",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1854679&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51830",
+       "name": "강원특별자치도 양양군",
+       "ordinance_id": "ordin:1678943",
+       "ordinance_name": "양양군 주차장 특별회계 설치 조례",
+       "enacted_on": "20231117",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1678943&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51730",
+       "name": "강원특별자치도 횡성군",
+       "ordinance_id": "ordin:1884279",
+       "ordinance_name": "횡성군 주차장 특별회계 설치 조례",
+       "enacted_on": "20231220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884279&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "지역상권 상생 및 활성화",
+     "peer_count": 9,
+     "peer_share": 0.5294,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "도시재생 활성화 및 지원",
+      "similarity": 0.375
+     },
+     "peers": [
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1729963",
+       "ordinance_name": "정선군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20220927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1729963&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41800",
+       "name": "경기도 연천군",
+       "ordinance_id": "ordin:1741897",
+       "ordinance_name": "연천군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221027",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741897&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:1741921",
+       "ordinance_name": "고성군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741921&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51800",
+       "name": "강원특별자치도 양구군",
+       "ordinance_id": "ordin:1745869",
+       "ordinance_name": "양구군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20221109",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1745869&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:2060785",
+       "ordinance_name": "홍천군 지역상권 상생 및 활성화에 관한 조례",
+       "enacted_on": "20250725",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2060785&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "참전유공자 지원",
+     "peer_count": 9,
+     "peer_share": 0.5294,
+     "repealed_peer_count": 6,
+     "repealed_peers": [
+      {
+       "region_id": "48880",
+       "name": "경상남도 거창군",
+       "repealed_on": "20110404"
+      },
+      {
+       "region_id": "41800",
+       "name": "경기도 연천군",
+       "repealed_on": "20120323"
+      },
+      {
+       "region_id": "51780",
+       "name": "강원특별자치도 철원군",
+       "repealed_on": "20140514"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "정신건강증진 및 정신질환자 지원",
+      "similarity": 0.235
+     },
+     "peers": [
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:1875005",
+       "ordinance_name": "청도군 참전유공자 지원에 관한 조례",
+       "enacted_on": "20231116",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875005&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48850",
+       "name": "경상남도 하동군",
+       "ordinance_id": "ordin:1875373",
+       "ordinance_name": "하동군 참전유공자 등 지원에 관한 조례",
+       "enacted_on": "20231116",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875373&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1967249",
+       "ordinance_name": "정선군 참전유공자 지원 조례",
+       "enacted_on": "20240919",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1967249&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1979235",
+       "ordinance_name": "홍천군 참전유공자 등 지원 조례",
+       "enacted_on": "20240925",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1979235&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:2021677",
+       "ordinance_name": "인제군 참전유공자 지원 조례",
+       "enacted_on": "20250313",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021677&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "농업작업 안전재해 예방지원",
+     "peer_count": 8,
+     "peer_share": 0.4706,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "산업재해 예방",
+      "similarity": 0.375
+     },
+     "peers": [
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1928631",
+       "ordinance_name": "인제군 농업작업 안전재해 예방 및 지원 조례",
+       "enacted_on": "20240516",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1928631&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51790",
+       "name": "강원특별자치도 화천군",
+       "ordinance_id": "ordin:1974895",
+       "ordinance_name": "화천군 농업작업 안전재해예방 및 지원 조례",
+       "enacted_on": "20241002",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974895&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48870",
+       "name": "경상남도 함양군",
+       "ordinance_id": "ordin:2051647",
+       "ordinance_name": "함양군 농업작업 안전재해 예방 및 지원에 관한 조례",
+       "enacted_on": "20250701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051647&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:2051309",
+       "ordinance_name": "영동군 농업작업안전재해 예방 및 지원 조례",
+       "enacted_on": "20250704",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051309&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:2057485",
+       "ordinance_name": "청도군 농업작업 안전재해 예방 및 지원에 관한 조례",
+       "enacted_on": "20250715",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2057485&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "모범운전자회 지원",
+     "peer_count": 8,
+     "peer_share": 0.4706,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "번영회 지원",
+      "similarity": 0.364
+     },
+     "peers": [
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:1212751",
+       "ordinance_name": "영동군 모범운전자회 지원 조례",
+       "enacted_on": "20160105",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1212751&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:1216246",
+       "ordinance_name": "고성군 모범운전자회 지원에 관한 조례",
+       "enacted_on": "20160108",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1216246&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51830",
+       "name": "강원특별자치도 양양군",
+       "ordinance_id": "ordin:1273778",
+       "ordinance_name": "양양군 모범운전자회 지원에 관한 조례",
+       "enacted_on": "20161228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1273778&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1420879",
+       "ordinance_name": "정선군 모범운전자회 지원조례",
+       "enacted_on": "20191115",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1420879&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51730",
+       "name": "강원특별자치도 횡성군",
+       "ordinance_id": "ordin:1905449",
+       "ordinance_name": "횡성군 모범운전자회 지원 조례",
+       "enacted_on": "20240206",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1905449&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "보건소 수가",
+     "peer_count": 8,
+     "peer_share": 0.4706,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "51730",
+       "name": "강원특별자치도 횡성군",
+       "repealed_on": "20140507"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "보건의료원 수가",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "48850",
+       "name": "경상남도 하동군",
+       "ordinance_id": "ordin:2025575",
+       "ordinance_name": "하동군 보건소 수가 조례",
+       "enacted_on": "20250331",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025575&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:2034509",
+       "ordinance_name": "영동군 보건소 수가 조례",
+       "enacted_on": "20250507",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2034509&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51750",
+       "name": "강원특별자치도 영월군",
+       "ordinance_id": "ordin:2035781",
+       "ordinance_name": "영월군 보건소 수가 조례",
+       "enacted_on": "20250509",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2035781&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51800",
+       "name": "강원특별자치도 양구군",
+       "ordinance_id": "ordin:2038943",
+       "ordinance_name": "양구군 보건소 수가조례",
+       "enacted_on": "20250516",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2038943&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:2043919",
+       "ordinance_name": "고성군 보건소 수가 조례",
+       "enacted_on": "20250613",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2043919&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "상수도원인자부담금 산정·징수",
+     "peer_count": 8,
+     "peer_share": 0.4706,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "수도시설의 원인자부담금",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:977076",
+       "ordinance_name": "홍천군 상수도원인자 부담금 산정·징수 등에 관한 조례",
+       "enacted_on": "20080612",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=977076&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1314286",
+       "ordinance_name": "인제군 상수도 원인자부담금 산정·징수 등에 관한 조례",
+       "enacted_on": "20171027",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1314286&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:1378815",
+       "ordinance_name": "영동군 상수도 원인자부담금 산정 및 징수 등에 관한 조례",
+       "enacted_on": "20181231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1378815&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51790",
+       "name": "강원특별자치도 화천군",
+       "ordinance_id": "ordin:1538963",
+       "ordinance_name": "화천군 상수도원인자부담금 산정ㆍ징수 등에 관한 조례",
+       "enacted_on": "20201016",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1538963&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:1731933",
+       "ordinance_name": "청도군 상수도원인자부담금 산정ㆍ징수 등에 관한 조례",
+       "enacted_on": "20221005",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1731933&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의회 회기운영",
+     "peer_count": 8,
+     "peer_share": 0.4706,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "양수기운영관리",
+      "similarity": 0.364
+     },
+     "peers": [
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:1706471",
+       "ordinance_name": "고성군의회 회기운영 등에 관한 조례",
+       "enacted_on": "20220503",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1706471&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51800",
+       "name": "강원특별자치도 양구군",
+       "ordinance_id": "ordin:1732677",
+       "ordinance_name": "양구군의회 회기운영 등에 관한 조례",
+       "enacted_on": "20221007",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1732677&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1761145",
+       "ordinance_name": "인제군의회 회기운영 등에 관한 조례",
+       "enacted_on": "20221222",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1761145&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51830",
+       "name": "강원특별자치도 양양군",
+       "ordinance_id": "ordin:1678093",
+       "ordinance_name": "양양군의회 회기 운영 등에 관한 조례",
+       "enacted_on": "20230228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1678093&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1884329",
+       "ordinance_name": "정선군의회 회기운영 등에 관한 조례",
+       "enacted_on": "20231220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884329&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "이장정수",
+     "peer_count": 8,
+     "peer_share": 0.4706,
+     "repealed_peer_count": 3,
+     "repealed_peers": [
+      {
+       "region_id": "48880",
+       "name": "경상남도 거창군",
+       "repealed_on": "20070801"
+      },
+      {
+       "region_id": "51800",
+       "name": "강원특별자치도 양구군",
+       "repealed_on": "20210101"
+      },
+      {
+       "region_id": "51750",
+       "name": "강원특별자치도 영월군",
+       "repealed_on": "20250701"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "행정리 설치 및 이장 정수",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "51830",
+       "name": "강원특별자치도 양양군",
+       "ordinance_id": "ordin:1678405",
+       "ordinance_name": "양양군 이장 정수 조례",
+       "enacted_on": "20220110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1678405&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48870",
+       "name": "경상남도 함양군",
+       "ordinance_id": "ordin:1779625",
+       "ordinance_name": "함양군 이장 정수 조례",
+       "enacted_on": "20221229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1779625&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51730",
+       "name": "강원특별자치도 횡성군",
+       "ordinance_id": "ordin:1884299",
+       "ordinance_name": "횡성군 이장정수조례",
+       "enacted_on": "20231220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884299&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1992573",
+       "ordinance_name": "봉화군 이장정수 조례",
+       "enacted_on": "20241216",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1992573&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51780",
+       "name": "강원특별자치도 철원군",
+       "ordinance_id": "ordin:1998457",
+       "ordinance_name": "철원군 이장정수조례",
+       "enacted_on": "20241226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1998457&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "친환경농업 육성",
+     "peer_count": 8,
+     "peer_share": 0.4706,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "48870",
+       "name": "경상남도 함양군",
+       "repealed_on": "20160530"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "치유농업 육성 및 지원",
+      "similarity": 0.462
+     },
+     "peers": [
+      {
+       "region_id": "47820",
+       "name": "경상북도 청도군",
+       "ordinance_id": "ordin:1214577",
+       "ordinance_name": "청도군 친환경농업 육성조례",
+       "enacted_on": "20151230",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1214577&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1284291",
+       "ordinance_name": "정선군 친환경농업육성 조례",
+       "enacted_on": "20170417",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1284291&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1429411",
+       "ordinance_name": "홍천군 친환경농업 육성 조례",
+       "enacted_on": "20191125",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1429411&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48880",
+       "name": "경상남도 거창군",
+       "ordinance_id": "ordin:1423595",
+       "ordinance_name": "거창군 친환경농업 육성 조례",
+       "enacted_on": "20191127",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1423595&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:1648877",
+       "ordinance_name": "고성군 친환경농업 육성 조례",
+       "enacted_on": "20211217",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648877&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "기업 및 투자 유치촉진",
+     "peer_count": 7,
+     "peer_share": 0.4118,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "투자유치 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "51810",
+       "name": "강원특별자치도 인제군",
+       "ordinance_id": "ordin:1812875",
+       "ordinance_name": "인제군 기업 및 투자유치 촉진 조례",
+       "enacted_on": "20230525",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1812875&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1822973",
+       "ordinance_name": "홍천군 기업 및 투자유치 촉진 조례",
+       "enacted_on": "20230609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1822973&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51800",
+       "name": "강원특별자치도 양구군",
+       "ordinance_id": "ordin:2021663",
+       "ordinance_name": "양구군 기업 및 투자유치 촉진조례",
+       "enacted_on": "20250314",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021663&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43740",
+       "name": "충청북도 영동군",
+       "ordinance_id": "ordin:2061511",
+       "ordinance_name": "영동군 기업 및 투자유치 촉진 조례",
+       "enacted_on": "20250731",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2061511&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:2089467",
+       "ordinance_name": "봉화군 기업 및 투자 유치촉진 조례",
+       "enacted_on": "20251117",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2089467&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "민원업무담당공무원 등의 보호 및 지원",
+     "peer_count": 7,
+     "peer_share": 0.4118,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "인감업무담당공무원보험공제등가입",
+      "similarity": 0.519
+     },
+     "peers": [
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:1632319",
+       "ordinance_name": "정선군 민원업무담당공무원 보호 및 지원에 관한 조례",
+       "enacted_on": "20211005",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632319&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:1648915",
+       "ordinance_name": "고성군 민원업무담당공무원 등의 보호 및 지원 조례",
+       "enacted_on": "20211217",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648915&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47920",
+       "name": "경상북도 봉화군",
+       "ordinance_id": "ordin:1703947",
+       "ordinance_name": "봉화군 민원업무담당공무원 등의 보호 및 지원 조례",
+       "enacted_on": "20220428",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1703947&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48870",
+       "name": "경상남도 함양군",
+       "ordinance_id": "ordin:1746787",
+       "ordinance_name": "함양군 민원업무담당 공무원 등의 보호 및 지원에 관한 조례",
+       "enacted_on": "20221110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1746787&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51720",
+       "name": "강원특별자치도 홍천군",
+       "ordinance_id": "ordin:1754795",
+       "ordinance_name": "홍천군 민원업무 담당공무원 등의 보호 및 지원에 관한 조례",
+       "enacted_on": "20221209",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1754795&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "범죄예방 도시환경디자인",
+     "peer_count": 7,
+     "peer_share": 0.4118,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "51780",
+       "name": "강원특별자치도 철원군",
+       "repealed_on": "20240703"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "주민안전보호 도시환경디자인",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "51830",
+       "name": "강원특별자치도 양양군",
+       "ordinance_id": "ordin:2042549",
+       "ordinance_name": "양양군 범죄예방 도시환경디자인 조례",
+       "enacted_on": "20250604",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2042549&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51770",
+       "name": "강원특별자치도 정선군",
+       "ordinance_id": "ordin:2047407",
+       "ordinance_name": "정선군 범죄예방 도시환경디자인 조례",
+       "enacted_on": "20250630",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2047407&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51750",
+       "name": "강원특별자치도 영월군",
+       "ordinance_id": "ordin:2051251",
+       "ordinance_name": "영월군 범죄예방 도시환경디자인 조례",
+       "enacted_on": "20250704",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051251&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51820",
+       "name": "강원특별자치도 고성군",
+       "ordinance_id": "ordin:2055639",
+       "ordinance_name": "고성군 범죄예방 도시환경디자인 조례",
+       "enacted_on": "20250711",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2055639&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51800",
+       "name": "강원특별자치도 양구군",
+       "ordinance_id": "ordin:2066921",
+       "ordinance_name": "양구군 범죄예방 도시환경디자인 조례",
+       "enacted_on": "20250912",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2066921&type=HTML&mobileYn="
+      }
+     ]
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 81,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.0,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d).",
+    "min_peers": 3,
+    "same_sido_boost": true,
+    "dup_threshold": 0.55,
+    "exclude_variants": true,
+    "policy_key": "조례명에서 지자체명·법형식 접미 제거 → canon_key(어절 단위 연결어 제거) → 정규형 완전일치는 '보유'로 제외, 잔여 근사는 closest_own 과 함께 likely_variant 로 표시"
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51760"
+ ]
+}

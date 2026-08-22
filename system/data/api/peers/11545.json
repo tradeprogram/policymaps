@@ -1,0 +1,330 @@
+{
+ "data": {
+  "11545": {
+   "target": {
+    "region_id": "11545",
+    "sig_cd": "11545",
+    "name": "서울특별시 금천구",
+    "rtype": "자치구",
+    "indicators": {
+     "population": 222421.0,
+     "area_km2": 13.026663386821859,
+     "fiscal_self_ratio": 0.5558446539785153,
+     "welfare_ratio": 0.44796882671426197,
+     "budget_total": 978878913710.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "11200",
+     "sig_cd": "11200",
+     "name": "서울특별시 성동구",
+     "rtype": "자치구",
+     "similarity": 0.617142,
+     "weighted_distance": 0.262261,
+     "policy_profile_cosine": 0.292,
+     "indicator_gap_sd": {
+      "population": 0.3787,
+      "area_km2": 0.3016,
+      "fiscal_self_ratio": 0.2187,
+      "welfare_ratio": 0.2761,
+      "budget_total": 0.0754
+     },
+     "indicators": {
+      "population": 274346.0,
+      "area_km2": 16.810477652785025,
+      "fiscal_self_ratio": 0.581914368206796,
+      "welfare_ratio": 0.4245476319625442,
+      "budget_total": 954305994800.0
+     }
+    },
+    {
+     "region_id": "11410",
+     "sig_cd": "11410",
+     "name": "서울특별시 서대문구",
+     "rtype": "자치구",
+     "similarity": 0.580191,
+     "weighted_distance": 0.351871,
+     "policy_profile_cosine": 0.2839,
+     "indicator_gap_sd": {
+      "population": 0.5372,
+      "area_km2": 0.3615,
+      "fiscal_self_ratio": 0.1014,
+      "welfare_ratio": 0.1315,
+      "budget_total": 0.3487
+     },
+     "indicators": {
+      "population": 299531.0,
+      "area_km2": 17.6840534929281,
+      "fiscal_self_ratio": 0.5679336119703279,
+      "welfare_ratio": 0.43681699251757394,
+      "budget_total": 1101045273990.0
+     }
+    },
+    {
+     "region_id": "11320",
+     "sig_cd": "11320",
+     "name": "서울특별시 도봉구",
+     "rtype": "자치구",
+     "similarity": 0.544155,
+     "weighted_distance": 0.463997,
+     "policy_profile_cosine": 0.2862,
+     "indicator_gap_sd": {
+      "population": 0.5283,
+      "area_km2": 0.5471,
+      "fiscal_self_ratio": 0.1405,
+      "welfare_ratio": 0.0071,
+      "budget_total": 0.6346
+     },
+     "indicators": {
+      "population": 298067.0,
+      "area_km2": 20.688140392628288,
+      "fiscal_self_ratio": 0.5391031153194814,
+      "welfare_ratio": 0.4473643284120059,
+      "budget_total": 1212534716828.0
+     }
+    },
+    {
+     "region_id": "11215",
+     "sig_cd": "11215",
+     "name": "서울특별시 광진구",
+     "rtype": "자치구",
+     "similarity": 0.510199,
+     "weighted_distance": 0.540549,
+     "policy_profile_cosine": 0.2522,
+     "indicator_gap_sd": {
+      "population": 0.7164,
+      "area_km2": 0.3171,
+      "fiscal_self_ratio": 0.3693,
+      "welfare_ratio": 0.7825,
+      "budget_total": 0.5179
+     },
+     "indicators": {
+      "population": 330802.0,
+      "area_km2": 17.032357022620797,
+      "fiscal_self_ratio": 0.5998586198173499,
+      "welfare_ratio": 0.38158611440147533,
+      "budget_total": 1165712442230.0
+     }
+    },
+    {
+     "region_id": "11440",
+     "sig_cd": "11440",
+     "name": "서울특별시 마포구",
+     "rtype": "자치구",
+     "similarity": 0.508246,
+     "weighted_distance": 0.623569,
+     "policy_profile_cosine": 0.3083,
+     "indicator_gap_sd": {
+      "population": 0.8496,
+      "area_km2": 0.7166,
+      "fiscal_self_ratio": 0.3422,
+      "welfare_ratio": 0.3424,
+      "budget_total": 0.627
+     },
+     "indicators": {
+      "population": 356154.0,
+      "area_km2": 23.876929916959387,
+      "fiscal_self_ratio": 0.5966288735574956,
+      "welfare_ratio": 0.41892581747478636,
+      "budget_total": 1209412964935.0
+     }
+    },
+    {
+     "region_id": "11230",
+     "sig_cd": "11230",
+     "name": "서울특별시 동대문구",
+     "rtype": "자치구",
+     "similarity": 0.492982,
+     "weighted_distance": 0.632162,
+     "policy_profile_cosine": 0.2707,
+     "indicator_gap_sd": {
+      "population": 0.8339,
+      "area_km2": 0.1095,
+      "fiscal_self_ratio": 0.1666,
+      "welfare_ratio": 0.3232,
+      "budget_total": 0.9134
+     },
+     "indicators": {
+      "population": 353070.0,
+      "area_km2": 14.290338739143822,
+      "fiscal_self_ratio": 0.5757056681940945,
+      "welfare_ratio": 0.4205551596010995,
+      "budget_total": 1332085273740.0
+     }
+    },
+    {
+     "region_id": "11560",
+     "sig_cd": "11560",
+     "name": "서울특별시 영등포구",
+     "rtype": "자치구",
+     "similarity": 0.472141,
+     "weighted_distance": 0.844685,
+     "policy_profile_cosine": 0.3422,
+     "indicator_gap_sd": {
+      "population": 0.9267,
+      "area_km2": 0.7496,
+      "fiscal_self_ratio": 0.5449,
+      "welfare_ratio": 0.7361,
+      "budget_total": 1.0932
+     },
+     "indicators": {
+      "population": 371691.0,
+      "area_km2": 24.552644573211293,
+      "fiscal_self_ratio": 0.6207875903478552,
+      "welfare_ratio": 0.38552669662260436,
+      "budget_total": 1415362858516.0
+     }
+    },
+    {
+     "region_id": "11260",
+     "sig_cd": "11260",
+     "name": "서울특별시 중랑구",
+     "rtype": "자치구",
+     "similarity": 0.470246,
+     "weighted_distance": 0.828658,
+     "policy_profile_cosine": 0.328,
+     "indicator_gap_sd": {
+      "population": 0.9489,
+      "area_km2": 0.4146,
+      "fiscal_self_ratio": 0.3829,
+      "welfare_ratio": 0.2208,
+      "budget_total": 1.252
+     },
+     "indicators": {
+      "population": 376282.0,
+      "area_km2": 18.49555520749543,
+      "fiscal_self_ratio": 0.5102089341005314,
+      "welfare_ratio": 0.46670088752686995,
+      "budget_total": 1493249817893.0
+     }
+    },
+    {
+     "region_id": "11305",
+     "sig_cd": "11305",
+     "name": "서울특별시 강북구",
+     "rtype": "자치구",
+     "similarity": 0.466463,
+     "weighted_distance": 0.798411,
+     "policy_profile_cosine": 0.3001,
+     "indicator_gap_sd": {
+      "population": 0.4006,
+      "area_km2": 0.7033,
+      "fiscal_self_ratio": 0.3557,
+      "welfare_ratio": 0.6761,
+      "budget_total": 1.361
+     },
+     "indicators": {
+      "population": 277695.0,
+      "area_km2": 23.610263031731623,
+      "fiscal_self_ratio": 0.5982316728305099,
+      "welfare_ratio": 0.390616346143131,
+      "budget_total": 1549207630390.0
+     }
+    },
+    {
+     "region_id": "11470",
+     "sig_cd": "11470",
+     "name": "서울특별시 양천구",
+     "rtype": "자치구",
+     "similarity": 0.464833,
+     "weighted_distance": 0.802872,
+     "policy_profile_cosine": 0.298,
+     "indicator_gap_sd": {
+      "population": 1.1498,
+      "area_km2": 0.3344,
+      "fiscal_self_ratio": 0.133,
+      "welfare_ratio": 0.1166,
+      "budget_total": 1.0832
+     },
+     "indicators": {
+      "population": 420595.0,
+      "area_km2": 17.283077578106226,
+      "fiscal_self_ratio": 0.5716991682207853,
+      "welfare_ratio": 0.43807863144451187,
+      "budget_total": 1410605012900.0
+     }
+    },
+    {
+     "region_id": "11530",
+     "sig_cd": "11530",
+     "name": "서울특별시 구로구",
+     "rtype": "자치구",
+     "similarity": 0.459916,
+     "weighted_distance": 0.825705,
+     "policy_profile_cosine": 0.2968,
+     "indicator_gap_sd": {
+      "population": 0.9786,
+      "area_km2": 0.5106,
+      "fiscal_self_ratio": 0.0108,
+      "welfare_ratio": 0.1987,
+      "budget_total": 1.2739
+     },
+     "indicators": {
+      "population": 382531.0,
+      "area_km2": 20.059359339695042,
+      "fiscal_self_ratio": 0.5571305251183722,
+      "welfare_ratio": 0.43111484276749007,
+      "budget_total": 1504335783400.0
+     }
+    },
+    {
+     "region_id": "27170",
+     "sig_cd": "27170",
+     "name": "대구광역시 서구",
+     "rtype": "자치구",
+     "similarity": 0.455234,
+     "weighted_distance": 0.577675,
+     "policy_profile_cosine": 0.1235,
+     "indicator_gap_sd": {
+      "population": 0.5559,
+      "area_km2": 0.3424,
+      "fiscal_self_ratio": 0.7499,
+      "welfare_ratio": 0.7202,
+      "budget_total": 0.3806
+     },
+     "indicators": {
+      "population": 163456.0,
+      "area_km2": 17.400813358975142,
+      "fiscal_self_ratio": 0.466473809380779,
+      "welfare_ratio": 0.5090606513595376,
+      "budget_total": 860941833590.0
+     }
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 69,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.35,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d)."
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "11545"
+ ]
+}

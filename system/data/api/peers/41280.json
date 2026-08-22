@@ -1,0 +1,318 @@
+{
+ "data": {
+  "41280": {
+   "target": {
+    "region_id": "41280",
+    "sig_cd": "41280",
+    "name": "경기도 고양시",
+    "rtype": "시",
+    "indicators": {
+     "population": 1057166.0,
+     "area_km2": null,
+     "fiscal_self_ratio": 0.6415819615825993,
+     "welfare_ratio": 0.40252490411313147,
+     "budget_total": 4443153602410.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "41110",
+     "sig_cd": "41110",
+     "name": "경기도 수원시",
+     "rtype": "시",
+     "similarity": 0.668342,
+     "weighted_distance": 0.088759,
+     "policy_profile_cosine": 0.2038,
+     "indicator_gap_sd": {
+      "population": 0.135,
+      "fiscal_self_ratio": 0.0001,
+      "welfare_ratio": 0.0572,
+      "budget_total": 0.091
+     },
+     "indicators": {
+      "population": 1185332.0,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.6415879554950106,
+      "welfare_ratio": 0.407277531143418,
+      "budget_total": 4654990453162.0
+     }
+    },
+    {
+     "region_id": "41460",
+     "sig_cd": "41460",
+     "name": "경기도 용인시",
+     "rtype": "시",
+     "similarity": 0.569289,
+     "weighted_distance": 0.324046,
+     "policy_profile_cosine": 0.2239,
+     "indicator_gap_sd": {
+      "population": 0.0367,
+      "fiscal_self_ratio": 0.0608,
+      "welfare_ratio": 1.109,
+      "budget_total": 0.1235
+     },
+     "indicators": {
+      "population": 1090559.0,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.6378100344154701,
+      "welfare_ratio": 0.3103088933328089,
+      "budget_total": 4171022906043.0
+     }
+    },
+    {
+     "region_id": "48120",
+     "sig_cd": "48120",
+     "name": "경상남도 창원시",
+     "rtype": "시",
+     "similarity": 0.521987,
+     "weighted_distance": 0.409509,
+     "policy_profile_cosine": 0.1738,
+     "indicator_gap_sd": {
+      "population": 0.0823,
+      "fiscal_self_ratio": 0.5463,
+      "welfare_ratio": 0.7365,
+      "budget_total": 0.2585
+     },
+     "indicators": {
+      "population": 985937.0,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.6076928634691068,
+      "welfare_ratio": 0.34128600802275616,
+      "budget_total": 5071661080933.0
+     }
+    },
+    {
+     "region_id": "41190",
+     "sig_cd": "41190",
+     "name": "경기도 부천시",
+     "rtype": "시",
+     "similarity": 0.512593,
+     "weighted_distance": 0.530426,
+     "policy_profile_cosine": 0.2511,
+     "indicator_gap_sd": {
+      "population": 0.3973,
+      "fiscal_self_ratio": 0.4978,
+      "welfare_ratio": 0.5159,
+      "budget_total": 0.6703
+     },
+     "indicators": {
+      "population": 754851.0,
+      "area_km2": 53.75888985231194,
+      "fiscal_self_ratio": 0.6106972269365284,
+      "welfare_ratio": 0.44541800571932977,
+      "budget_total": 3152916016994.0
+     }
+    },
+    {
+     "region_id": "41360",
+     "sig_cd": "41360",
+     "name": "경기도 남양주시",
+     "rtype": "시",
+     "similarity": 0.511032,
+     "weighted_distance": 0.4636,
+     "policy_profile_cosine": 0.1912,
+     "indicator_gap_sd": {
+      "population": 0.441,
+      "fiscal_self_ratio": 0.4144,
+      "welfare_ratio": 0.1167,
+      "budget_total": 0.5861
+     },
+     "indicators": {
+      "population": 727373.0,
+      "area_km2": 459.4622995322249,
+      "fiscal_self_ratio": 0.6158716184594692,
+      "welfare_ratio": 0.41223263941295973,
+      "budget_total": 3291794678370.0
+     }
+    },
+    {
+     "region_id": "41220",
+     "sig_cd": "41220",
+     "name": "경기도 평택시",
+     "rtype": "시",
+     "similarity": 0.485994,
+     "weighted_distance": 0.521146,
+     "policy_profile_cosine": 0.1677,
+     "indicator_gap_sd": {
+      "population": 0.628,
+      "fiscal_self_ratio": 0.0387,
+      "welfare_ratio": 0.6193,
+      "budget_total": 0.6645
+     },
+     "indicators": {
+      "population": 620754.0,
+      "area_km2": 458.4080829856383,
+      "fiscal_self_ratio": 0.6439800249986072,
+      "welfare_ratio": 0.35102880078423226,
+      "budget_total": 3162287486326.0
+     }
+    },
+    {
+     "region_id": "43110",
+     "sig_cd": "43110",
+     "name": "충청북도 청주시",
+     "rtype": "시",
+     "similarity": 0.4814,
+     "weighted_distance": 0.520493,
+     "policy_profile_cosine": 0.154,
+     "indicator_gap_sd": {
+      "population": 0.2436,
+      "fiscal_self_ratio": 0.5787,
+      "welfare_ratio": 1.2634,
+      "budget_total": 0.186
+     },
+     "indicators": {
+      "population": 859869.0,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.6056789603126516,
+      "welfare_ratio": 0.29747697992706296,
+      "budget_total": 4886803140352.0
+     }
+    },
+    {
+     "region_id": "41590",
+     "sig_cd": "41590",
+     "name": "경기도 화성시",
+     "rtype": "시",
+     "similarity": 0.464924,
+     "weighted_distance": 0.585072,
+     "policy_profile_cosine": 0.1567,
+     "indicator_gap_sd": {
+      "population": 0.066,
+      "fiscal_self_ratio": 0.8153,
+      "welfare_ratio": 1.1448,
+      "budget_total": 0.149
+     },
+     "indicators": {
+      "population": 999673.0,
+      "area_km2": 713.3027062065523,
+      "fiscal_self_ratio": 0.6921617077585926,
+      "welfare_ratio": 0.307331293517308,
+      "budget_total": 4795150073245.0
+     }
+    },
+    {
+     "region_id": "41270",
+     "sig_cd": "41270",
+     "name": "경기도 안산시",
+     "rtype": "시",
+     "similarity": 0.456987,
+     "weighted_distance": 0.652828,
+     "policy_profile_cosine": 0.1821,
+     "indicator_gap_sd": {
+      "population": 0.6508,
+      "fiscal_self_ratio": 0.5411,
+      "welfare_ratio": 0.3787,
+      "budget_total": 0.8174
+     },
+     "indicators": {
+      "population": 608883.0,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.6080152199521502,
+      "welfare_ratio": 0.37103301579236914,
+      "budget_total": 2924315361890.0
+     }
+    },
+    {
+     "region_id": "41480",
+     "sig_cd": "41480",
+     "name": "경기도 파주시",
+     "rtype": "시",
+     "similarity": 0.447271,
+     "weighted_distance": 0.7707,
+     "policy_profile_cosine": 0.2291,
+     "indicator_gap_sd": {
+      "population": 0.8044,
+      "fiscal_self_ratio": 0.5988,
+      "welfare_ratio": 0.1303,
+      "budget_total": 0.9924
+     },
+     "indicators": {
+      "population": 534503.0,
+      "area_km2": 688.7505989994398,
+      "fiscal_self_ratio": 0.6044318966148832,
+      "welfare_ratio": 0.4133582176286368,
+      "budget_total": 2673826694920.0
+     }
+    },
+    {
+     "region_id": "44130",
+     "sig_cd": "44130",
+     "name": "충청남도 천안시",
+     "rtype": "시",
+     "similarity": 0.446543,
+     "weighted_distance": 0.65399,
+     "policy_profile_cosine": 0.153,
+     "indicator_gap_sd": {
+      "population": 0.5442,
+      "fiscal_self_ratio": 0.6003,
+      "welfare_ratio": 1.299,
+      "budget_total": 0.5361
+     },
+     "indicators": {
+      "population": 666442.0,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.6043431422278989,
+      "welfare_ratio": 0.29451201525123194,
+      "budget_total": 3377169002567.0
+     }
+    },
+    {
+     "region_id": "41170",
+     "sig_cd": "41170",
+     "name": "경기도 안양시",
+     "rtype": "시",
+     "similarity": 0.431373,
+     "weighted_distance": 0.780378,
+     "policy_profile_cosine": 0.1894,
+     "indicator_gap_sd": {
+      "population": 0.745,
+      "fiscal_self_ratio": 0.4278,
+      "welfare_ratio": 0.3071,
+      "budget_total": 1.1482
+     },
+     "indicators": {
+      "population": 562143.0,
+      "area_km2": null,
+      "fiscal_self_ratio": 0.6681186915912469,
+      "welfare_ratio": 0.3769862149415831,
+      "budget_total": 2468930100519.0
+     }
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 74,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.35,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d)."
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "41280"
+ ]
+}

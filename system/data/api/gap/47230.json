@@ -1,0 +1,1544 @@
+{
+ "data": {
+  "47230": {
+   "target": {
+    "region_id": "47230",
+    "sig_cd": "47230",
+    "name": "경상북도 영천시",
+    "rtype": "시",
+    "indicators": {
+     "population": 93847.0,
+     "area_km2": 915.4935276819713,
+     "fiscal_self_ratio": 0.6981496893085576,
+     "welfare_ratio": 0.17778824763926812,
+     "budget_total": 1589643990549.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "47210",
+     "name": "경상북도 영주시"
+    },
+    {
+     "region_id": "52180",
+     "name": "전북특별자치도 정읍시"
+    },
+    {
+     "region_id": "48270",
+     "name": "경상남도 밀양시"
+    },
+    {
+     "region_id": "43150",
+     "name": "충청북도 제천시"
+    },
+    {
+     "region_id": "47150",
+     "name": "경상북도 김천시"
+    },
+    {
+     "region_id": "41670",
+     "name": "경기도 여주시"
+    },
+    {
+     "region_id": "44150",
+     "name": "충청남도 공주시"
+    },
+    {
+     "region_id": "52190",
+     "name": "전북특별자치도 남원시"
+    },
+    {
+     "region_id": "51230",
+     "name": "강원특별자치도 삼척시"
+    },
+    {
+     "region_id": "47280",
+     "name": "경상북도 문경시"
+    },
+    {
+     "region_id": "43130",
+     "name": "충청북도 충주시"
+    },
+    {
+     "region_id": "44270",
+     "name": "충청남도 당진시"
+    },
+    {
+     "region_id": "47110",
+     "name": "경상북도 포항시"
+    },
+    {
+     "region_id": "47130",
+     "name": "경상북도 경주시"
+    },
+    {
+     "region_id": "47170",
+     "name": "경상북도 안동시"
+    },
+    {
+     "region_id": "47190",
+     "name": "경상북도 구미시"
+    },
+    {
+     "region_id": "47250",
+     "name": "경상북도 상주시"
+    },
+    {
+     "region_id": "47290",
+     "name": "경상북도 경산시"
+    }
+   ],
+   "peer_pool_size": 18,
+   "my_policy_count": 421,
+   "suppressed_exact_duplicate": 259,
+   "flagged_as_variant": 215,
+   "recommendations": [
+    {
+     "policy_key": "녹색제품 구매촉진",
+     "peer_count": 18,
+     "peer_share": 1.0,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "친환경상품 구매촉진",
+      "similarity": 0.533
+     },
+     "peers": [
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:712659",
+       "ordinance_name": "정읍시 녹색제품 구매촉진 조례",
+       "enacted_on": "20111202",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=712659&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:934871",
+       "ordinance_name": "김천시 녹색제품 구매촉진 조례",
+       "enacted_on": "20120705",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=934871&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1205146",
+       "ordinance_name": "포항시 녹색제품 구매촉진 조례",
+       "enacted_on": "20151215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1205146&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1250620",
+       "ordinance_name": "경주시 녹색제품 구매촉진에 관한 조례",
+       "enacted_on": "20160920",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1250620&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1319195",
+       "ordinance_name": "밀양시 녹색제품 구매촉진에 관한 조례",
+       "enacted_on": "20171221",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1319195&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "자전거 이용 활성화",
+     "peer_count": 18,
+     "peer_share": 1.0,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "공영자전거 운영",
+      "similarity": 0.308
+     },
+     "peers": [
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1034131",
+       "ordinance_name": "포항시 자전거이용 활성화에 관한 조례",
+       "enacted_on": "20110111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1034131&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:780897",
+       "ordinance_name": "김천시 자전거이용 활성화에 관한 조례",
+       "enacted_on": "20121122",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=780897&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47210",
+       "name": "경상북도 영주시",
+       "ordinance_id": "ordin:829923",
+       "ordinance_name": "영주시 자전거 이용 활성화에 관한 조례",
+       "enacted_on": "20141229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=829923&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1116305",
+       "ordinance_name": "밀양시 자전거 이용 활성화에 관한 조례",
+       "enacted_on": "20141231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1116305&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41670",
+       "name": "경기도 여주시",
+       "ordinance_id": "ordin:1306294",
+       "ordinance_name": "여주시 자전거이용 활성화에 관한 조례",
+       "enacted_on": "20170927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1306294&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의용소방대 지원",
+     "peer_count": 17,
+     "peer_share": 0.9444,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "자율방범대 지원",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1272488",
+       "ordinance_name": "밀양시 의용소방대 지원 조례",
+       "enacted_on": "20161222",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1272488&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41670",
+       "name": "경기도 여주시",
+       "ordinance_id": "ordin:1526663",
+       "ordinance_name": "여주시 의용소방대 지원에 관한 조례",
+       "enacted_on": "20190624",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1526663&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1485815",
+       "ordinance_name": "공주시 의용소방대 지원 조례",
+       "enacted_on": "20200406",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1485815&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1620105",
+       "ordinance_name": "제천시 의용소방대 지원 조례",
+       "enacted_on": "20210806",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1620105&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51230",
+       "name": "강원특별자치도 삼척시",
+       "ordinance_id": "ordin:1739467",
+       "ordinance_name": "삼척시 의용소방대 지원에 관한 조례",
+       "enacted_on": "20221021",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1739467&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "영유아보육",
+     "peer_count": 16,
+     "peer_share": 0.8889,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "44270",
+       "name": "충청남도 당진시",
+       "repealed_on": "20120101"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": null,
+     "peers": [
+      {
+       "region_id": "47280",
+       "name": "경상북도 문경시",
+       "ordinance_id": "ordin:1343005",
+       "ordinance_name": "문경시 영유아보육 조례",
+       "enacted_on": "20180330",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1343005&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47290",
+       "name": "경상북도 경산시",
+       "ordinance_id": "ordin:1503659",
+       "ordinance_name": "경산시 영유아보육 조례",
+       "enacted_on": "20200609",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1503659&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47210",
+       "name": "경상북도 영주시",
+       "ordinance_id": "ordin:1579201",
+       "ordinance_name": "영주시 영유아 보육 조례",
+       "enacted_on": "20210312",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579201&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1751273",
+       "ordinance_name": "충주시 영유아 보육조례",
+       "enacted_on": "20221111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1751273&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1815785",
+       "ordinance_name": "김천시 영유아보육 조례",
+       "enacted_on": "20230601",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1815785&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "개인형 이동장치 이용안전 증진",
+     "peer_count": 15,
+     "peer_share": 0.8333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통약자의 이동편의 증진",
+      "similarity": 0.182
+     },
+     "peers": [
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1573903",
+       "ordinance_name": "포항시 개인형 이동장치 이용안전 증진 조례",
+       "enacted_on": "20210209",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1573903&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47290",
+       "name": "경상북도 경산시",
+       "ordinance_id": "ordin:1601849",
+       "ordinance_name": "경산시 개인형 이동장치 이용안전 증진 조례",
+       "enacted_on": "20210603",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1601849&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1602189",
+       "ordinance_name": "제천시 개인형 이동장치 이용안전 증진 조례",
+       "enacted_on": "20210604",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602189&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:4664039",
+       "ordinance_name": "경주시 개인형 이동장치 이용안전 증진 조례",
+       "enacted_on": "20211231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=4664039&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1693191",
+       "ordinance_name": "김천시 개인형 이동장치 이용 및 안전 증진 조례",
+       "enacted_on": "20220331",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1693191&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "정책실명제 운영",
+     "peer_count": 15,
+     "peer_share": 0.8333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "주민참여예산제 운영",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "47190",
+       "name": "경상북도 구미시",
+       "ordinance_id": "ordin:1367065",
+       "ordinance_name": "구미시 정책실명제 운영 조례",
+       "enacted_on": "20181119",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1367065&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47290",
+       "name": "경상북도 경산시",
+       "ordinance_id": "ordin:1582265",
+       "ordinance_name": "경산시 정책실명제 운영 조례",
+       "enacted_on": "20210325",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1582265&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1700069",
+       "ordinance_name": "충주시 정책실명제 운영 조례",
+       "enacted_on": "20220415",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1700069&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1832329",
+       "ordinance_name": "김천시 정책실명제 운영 조례",
+       "enacted_on": "20230706",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1832329&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47280",
+       "name": "경상북도 문경시",
+       "ordinance_id": "ordin:1899325",
+       "ordinance_name": "문경시 정책실명제 운영 조례",
+       "enacted_on": "20231229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1899325&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "긴급복지지원",
+     "peer_count": 14,
+     "peer_share": 0.7778,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교복 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1203138",
+       "ordinance_name": "경주시 긴급복지지원에 관한 조례",
+       "enacted_on": "20151130",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1203138&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1235642",
+       "ordinance_name": "공주시 긴급복지 지원에 관한 조례",
+       "enacted_on": "20160601",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1235642&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1291293",
+       "ordinance_name": "김천시 긴급복지지원에 관한 조례",
+       "enacted_on": "20170622",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1291293&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51230",
+       "name": "강원특별자치도 삼척시",
+       "ordinance_id": "ordin:1313067",
+       "ordinance_name": "삼척시 긴급복지지원 조례",
+       "enacted_on": "20171117",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1313067&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47170",
+       "name": "경상북도 안동시",
+       "ordinance_id": "ordin:1313105",
+       "ordinance_name": "안동시 긴급복지 지원에 관한 조례",
+       "enacted_on": "20171117",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1313105&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "공모사업 관리",
+     "peer_count": 13,
+     "peer_share": 0.7222,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "물품 관리",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "47210",
+       "name": "경상북도 영주시",
+       "ordinance_id": "ordin:1541603",
+       "ordinance_name": "영주시 공모사업 관리에 관한 조례",
+       "enacted_on": "20201102",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1541603&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52190",
+       "name": "전북특별자치도 남원시",
+       "ordinance_id": "ordin:1582605",
+       "ordinance_name": "남원시 공모사업 관리에 관한 조례",
+       "enacted_on": "20210326",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1582605&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1643357",
+       "ordinance_name": "밀양시 공모사업 관리에 관한 조례",
+       "enacted_on": "20211125",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1643357&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47280",
+       "name": "경상북도 문경시",
+       "ordinance_id": "ordin:1655101",
+       "ordinance_name": "문경시 공모사업 관리 조례",
+       "enacted_on": "20211229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1655101&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1726547",
+       "ordinance_name": "경주시 공모사업 관리 조례",
+       "enacted_on": "20220901",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1726547&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "마을회관 지원",
+     "peer_count": 13,
+     "peer_share": 0.7222,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "새마을운동조직 육성 및 지원",
+      "similarity": 0.267
+     },
+     "peers": [
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1195450",
+       "ordinance_name": "경주시 마을회관 지원 조례",
+       "enacted_on": "20151028",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1195450&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1200576",
+       "ordinance_name": "김천시 마을회관 지원에 관한 조례",
+       "enacted_on": "20151119",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1200576&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1541769",
+       "ordinance_name": "포항시 마을회관 지원에 관한 조례",
+       "enacted_on": "20201103",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1541769&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1612699",
+       "ordinance_name": "제천시 마을회관 지원 조례",
+       "enacted_on": "20210709",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612699&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1633183",
+       "ordinance_name": "충주시 마을회관 등 지원 조례",
+       "enacted_on": "20211001",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1633183&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의사상자 등 예우 및 지원",
+     "peer_count": 13,
+     "peer_share": 0.7222,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "재향군인 예우 및 지원",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "47190",
+       "name": "경상북도 구미시",
+       "ordinance_id": "ordin:954893",
+       "ordinance_name": "구미시 의사상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20080716",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=954893&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:960139",
+       "ordinance_name": "포항시 의사상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20090616",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=960139&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1109110",
+       "ordinance_name": "밀양시 의사상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20120612",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1109110&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1397087",
+       "ordinance_name": "공주시 의사상자 예우 및 지원에 관한 조례",
+       "enacted_on": "20190603",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1397087&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1497557",
+       "ordinance_name": "김천시 의사상자 등 예우 및 지원에 관한 조례",
+       "enacted_on": "20200521",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1497557&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "학교 밖 청소년 지원",
+     "peer_count": 13,
+     "peer_share": 0.7222,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "가정 밖 청소년 보호 및 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "47290",
+       "name": "경상북도 경산시",
+       "ordinance_id": "ordin:1405236",
+       "ordinance_name": "경산시 학교 밖 청소년 지원에 관한 조례",
+       "enacted_on": "20190725",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1405236&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51230",
+       "name": "강원특별자치도 삼척시",
+       "ordinance_id": "ordin:1473949",
+       "ordinance_name": "삼척시 학교 밖 청소년 지원 조례",
+       "enacted_on": "20200228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1473949&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1522813",
+       "ordinance_name": "충주시 학교 밖 청소년 지원 조례",
+       "enacted_on": "20200807",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1522813&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1547603",
+       "ordinance_name": "김천시 학교 밖 청소년 지원 조례",
+       "enacted_on": "20201119",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547603&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1602187",
+       "ordinance_name": "제천시 학교 밖 청소년 지원 조례",
+       "enacted_on": "20210604",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602187&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "홍보대사 운영",
+     "peer_count": 13,
+     "peer_share": 0.7222,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "농기계 임대사업 및 순회수리 운영",
+      "similarity": 0.235
+     },
+     "peers": [
+      {
+       "region_id": "47210",
+       "name": "경상북도 영주시",
+       "ordinance_id": "ordin:974573",
+       "ordinance_name": "영주시 홍보대사 운영 조례",
+       "enacted_on": "20150225",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=974573&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1268073",
+       "ordinance_name": "공주시 홍보대사 운영에 관한 조례",
+       "enacted_on": "20161215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1268073&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47290",
+       "name": "경상북도 경산시",
+       "ordinance_id": "ordin:1351952",
+       "ordinance_name": "경산시 홍보대사 운영 조례",
+       "enacted_on": "20180717",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1351952&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1386382",
+       "ordinance_name": "경주시 홍보대사 운영에 관한 조례",
+       "enacted_on": "20190228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1386382&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1395763",
+       "ordinance_name": "김천시 홍보대사 운영에 관한 조례",
+       "enacted_on": "20190530",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395763&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "아동학대 예방 및 피해아동 보호",
+     "peer_count": 12,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "스토킹 예방 및 피해지원",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "47210",
+       "name": "경상북도 영주시",
+       "ordinance_id": "ordin:1414894",
+       "ordinance_name": "영주시 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20191025",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1414894&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1528173",
+       "ordinance_name": "김천시 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20200917",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1528173&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1532555",
+       "ordinance_name": "포항시 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20200929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1532555&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1589723",
+       "ordinance_name": "경주시 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20210414",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1589723&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1590993",
+       "ordinance_name": "공주시 아동학대 예방 및 피해아동 보호에 관한 조례",
+       "enacted_on": "20210421",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1590993&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "장기요양요원 처우 개선 및 지위 향상",
+     "peer_count": 12,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "repealed_on": "20231004"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "사회복지사 등의 처우 및 지위 향상",
+      "similarity": 0.348
+     },
+     "peers": [
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1601055",
+       "ordinance_name": "포항시 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+       "enacted_on": "20210601",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1601055&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52190",
+       "name": "전북특별자치도 남원시",
+       "ordinance_id": "ordin:1649027",
+       "ordinance_name": "남원시 장기요양요원 처우개선 및 지위 향상에 관한 조례",
+       "enacted_on": "20211217",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1649027&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1735793",
+       "ordinance_name": "충주시 장기요양요원 처우개선 및 지위향상에 관한 조례",
+       "enacted_on": "20221007",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1735793&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47210",
+       "name": "경상북도 영주시",
+       "ordinance_id": "ordin:1738317",
+       "ordinance_name": "영주시 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+       "enacted_on": "20221018",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1738317&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47170",
+       "name": "경상북도 안동시",
+       "ordinance_id": "ordin:1789445",
+       "ordinance_name": "안동시 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+       "enacted_on": "20230310",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1789445&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "장애인차별금지 및 인권보장",
+     "peer_count": 12,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "장애인 인권침해 및 범죄피해 예방",
+      "similarity": 0.273
+     },
+     "peers": [
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1285676",
+       "ordinance_name": "포항시 장애인 차별금지 및 인권보장에 관한 조례",
+       "enacted_on": "20170502",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1285676&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47210",
+       "name": "경상북도 영주시",
+       "ordinance_id": "ordin:1387389",
+       "ordinance_name": "영주시 장애인 차별금지 및 인권보장에 관한 조례",
+       "enacted_on": "20190311",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1387389&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1575135",
+       "ordinance_name": "밀양시 장애인차별금지 및 인권보장에 관한 조례",
+       "enacted_on": "20210218",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1575135&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47290",
+       "name": "경상북도 경산시",
+       "ordinance_id": "ordin:1629087",
+       "ordinance_name": "경산시 장애인차별금지 및 인권보장에 관한 조례",
+       "enacted_on": "20210929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1629087&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1730983",
+       "ordinance_name": "제천시 장애인차별금지 및 인권보장에 관한 조례",
+       "enacted_on": "20220930",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1730983&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "참전유공자 지원",
+     "peer_count": 12,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "44270",
+       "name": "충청남도 당진시",
+       "repealed_on": "20120101"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "국가보훈대상자 및 참전유공자 예우",
+      "similarity": 0.421
+     },
+     "peers": [
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1888923",
+       "ordinance_name": "밀양시 참전유공자 등 지원 조례",
+       "enacted_on": "20231226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1888923&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47250",
+       "name": "경상북도 상주시",
+       "ordinance_id": "ordin:1916045",
+       "ordinance_name": "상주시 참전유공자 지원 조례",
+       "enacted_on": "20240327",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1916045&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47190",
+       "name": "경상북도 구미시",
+       "ordinance_id": "ordin:1970207",
+       "ordinance_name": "구미시 참전유공자 지원에 관한 조례",
+       "enacted_on": "20240925",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1970207&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44270",
+       "name": "충청남도 당진시",
+       "ordinance_id": "ordin:1980241",
+       "ordinance_name": "당진시 참전유공자 지원에 관한 조례",
+       "enacted_on": "20241030",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1980241&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51230",
+       "name": "강원특별자치도 삼척시",
+       "ordinance_id": "ordin:1985959",
+       "ordinance_name": "삼척시 참전유공자 지원 조례",
+       "enacted_on": "20241115",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1985959&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "보행안전 및 편의증진",
+     "peer_count": 11,
+     "peer_share": 0.6111,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통약자의 이동편의 증진",
+      "similarity": 0.353
+     },
+     "peers": [
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1609121",
+       "ordinance_name": "김천시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20210701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1609121&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1620099",
+       "ordinance_name": "제천시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20210806",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1620099&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1635989",
+       "ordinance_name": "충주시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211029",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1635989&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1639091",
+       "ordinance_name": "공주시 보행안전 및 편의 증진에 관한 조례",
+       "enacted_on": "20211109",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1639091&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1644031",
+       "ordinance_name": "포항시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211130",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1644031&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "불용의약품 등 관리",
+     "peer_count": 11,
+     "peer_share": 0.6111,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "물품 관리",
+      "similarity": 0.444
+     },
+     "peers": [
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1000492",
+       "ordinance_name": "포항시 불용의약품 등의 관리 조례",
+       "enacted_on": "20131015",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1000492&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41670",
+       "name": "경기도 여주시",
+       "ordinance_id": "ordin:1261144",
+       "ordinance_name": "여주시 불용의약품 등 관리에 관한 조례",
+       "enacted_on": "20161031",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1261144&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47170",
+       "name": "경상북도 안동시",
+       "ordinance_id": "ordin:1340532",
+       "ordinance_name": "안동시 불용의약품 등의 관리에 관한 조례",
+       "enacted_on": "20180302",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1340532&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1393782",
+       "ordinance_name": "밀양시 불용의약품 등의 관리에 관한 조례",
+       "enacted_on": "20190509",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1393782&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1548277",
+       "ordinance_name": "경주시 불용의약품 등 관리에 관한 조례",
+       "enacted_on": "20201118",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1548277&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "산업재해 예방 및 노동안전보건 지원",
+     "peer_count": 11,
+     "peer_share": 0.6111,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "농업작업 안전재해 예방 및 지원",
+      "similarity": 0.417
+     },
+     "peers": [
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1707511",
+       "ordinance_name": "충주시 산업재해 예방 및 노동안전보건 지원 조례",
+       "enacted_on": "20220506",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1707511&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1729993",
+       "ordinance_name": "공주시 산업재해 예방 및 노동안전보건 지원 조례",
+       "enacted_on": "20220927",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1729993&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52190",
+       "name": "전북특별자치도 남원시",
+       "ordinance_id": "ordin:1756259",
+       "ordinance_name": "남원시 산업재해 예방 및 노동안전보건 지원 조례",
+       "enacted_on": "20221214",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1756259&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1758521",
+       "ordinance_name": "제천시 산업재해 예방 및 노동안전보건 지원 조례",
+       "enacted_on": "20221216",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758521&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51230",
+       "name": "강원특별자치도 삼척시",
+       "ordinance_id": "ordin:1785303",
+       "ordinance_name": "삼척시 산업재해 예방 및 노동안전보건 지원에 관한 조례",
+       "enacted_on": "20230224",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1785303&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "안전관리민관협력위원회 구성 및 운영",
+     "peer_count": 11,
+     "peer_share": 0.6111,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "52190",
+       "name": "전북특별자치도 남원시",
+       "repealed_on": "20210930"
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "repealed_on": "20240920"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "각종 위원회 구성 및 운영",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "47170",
+       "name": "경상북도 안동시",
+       "ordinance_id": "ordin:1304489",
+       "ordinance_name": "안동시 안전관리민관협력위원회 구성 및 운영 조례",
+       "enacted_on": "20170929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1304489&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1308326",
+       "ordinance_name": "밀양시 안전관리민관협력위원회 구성 및 운영 조례",
+       "enacted_on": "20171026",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1308326&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1310877",
+       "ordinance_name": "포항시 안전관리 민관협력위원회 구성 및 운영 조례",
+       "enacted_on": "20171107",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1310877&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1317272",
+       "ordinance_name": "공주시 안전관리민관협력위원회 구성 및 운영에 관한 조례",
+       "enacted_on": "20171208",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1317272&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1331123",
+       "ordinance_name": "경주시 안전관리민관협력위원회 구성 및 운영 조례",
+       "enacted_on": "20171228",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1331123&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "재향경우회 지원",
+     "peer_count": 11,
+     "peer_share": 0.6111,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "재향군인 예우 및 지원",
+      "similarity": 0.308
+     },
+     "peers": [
+      {
+       "region_id": "52190",
+       "name": "전북특별자치도 남원시",
+       "ordinance_id": "ordin:1198901",
+       "ordinance_name": "남원시 재향경우회 지원에 관한 조례",
+       "enacted_on": "20151111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1198901&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1541481",
+       "ordinance_name": "공주시 재향경우회 지원에 관한 조례",
+       "enacted_on": "20201102",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1541481&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1564245",
+       "ordinance_name": "김천시 재향경우회 지원에 관한 조례",
+       "enacted_on": "20201231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1564245&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1574893",
+       "ordinance_name": "정읍시 재향경우회 지원 조례",
+       "enacted_on": "20210217",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1574893&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1577237",
+       "ordinance_name": "충주시 재향경우회 지원에 관한 조례",
+       "enacted_on": "20210226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1577237&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "행정정보공개",
+     "peer_count": 11,
+     "peer_share": 0.6111,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "44270",
+       "name": "충청남도 당진시",
+       "repealed_on": "20120101"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "주소정보",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "47170",
+       "name": "경상북도 안동시",
+       "ordinance_id": "ordin:1264930",
+       "ordinance_name": "안동시 행정정보공개 조례",
+       "enacted_on": "20161118",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1264930&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47250",
+       "name": "경상북도 상주시",
+       "ordinance_id": "ordin:1410422",
+       "ordinance_name": "상주시 행정정보 공개 조례",
+       "enacted_on": "20190926",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410422&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1608771",
+       "ordinance_name": "공주시 행정정보 공개 조례",
+       "enacted_on": "20210701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1608771&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1638815",
+       "ordinance_name": "정읍시 행정정보공개 조례",
+       "enacted_on": "20211103",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1638815&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1710689",
+       "ordinance_name": "제천시 행정정보공개 조례",
+       "enacted_on": "20220527",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1710689&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "건강생활실천협의회 운영",
+     "peer_count": 10,
+     "peer_share": 0.5556,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "건강생활 실천 및 건강환경 조성 지원",
+      "similarity": 0.455
+     },
+     "peers": [
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1013569",
+       "ordinance_name": "포항시 건강생활실천협의회 운영 조례",
+       "enacted_on": "20091013",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1013569&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47290",
+       "name": "경상북도 경산시",
+       "ordinance_id": "ordin:1318413",
+       "ordinance_name": "경산시 건강생활실천협의회 운영 조례",
+       "enacted_on": "20171214",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1318413&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47280",
+       "name": "경상북도 문경시",
+       "ordinance_id": "ordin:1406524",
+       "ordinance_name": "문경시 건강생활실천협의회 운영조례",
+       "enacted_on": "20190807",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1406524&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1549149",
+       "ordinance_name": "제천시 건강생활실천협의회 운영 조례",
+       "enacted_on": "20201127",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1549149&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47190",
+       "name": "경상북도 구미시",
+       "ordinance_id": "ordin:1654971",
+       "ordinance_name": "구미시 건강생활실천협의회 운영 조례",
+       "enacted_on": "20211229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1654971&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "다함께돌봄 지원",
+     "peer_count": 10,
+     "peer_share": 0.5556,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "다함께돌봄센터 설치 및 운영",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "47290",
+       "name": "경상북도 경산시",
+       "ordinance_id": "ordin:1529829",
+       "ordinance_name": "경산시 다함께돌봄 지원에 관한 조례",
+       "enacted_on": "20200924",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1529829&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41670",
+       "name": "경기도 여주시",
+       "ordinance_id": "ordin:1572421",
+       "ordinance_name": "여주시 다함께 돌봄 지원에 관한 조례",
+       "enacted_on": "20201215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1572421&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1776495",
+       "ordinance_name": "경주시 다함께돌봄 지원에 관한 조례",
+       "enacted_on": "20221229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1776495&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1849965",
+       "ordinance_name": "공주시 다함께 돌봄 지원에 관한 조례",
+       "enacted_on": "20230901",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1849965&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1861551",
+       "ordinance_name": "제천시 다함께돌봄 지원에 관한 조례",
+       "enacted_on": "20231006",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1861551&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "독서문화진흥",
+     "peer_count": 10,
+     "peer_share": 0.5556,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "문화예술 진흥 및 지원",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1226900",
+       "ordinance_name": "충주시 독서문화진흥 조례",
+       "enacted_on": "20160408",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1226900&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43150",
+       "name": "충청북도 제천시",
+       "ordinance_id": "ordin:1236929",
+       "ordinance_name": "제천시 독서문화 진흥 조례",
+       "enacted_on": "20160610",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1236929&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47110",
+       "name": "경상북도 포항시",
+       "ordinance_id": "ordin:1497815",
+       "ordinance_name": "포항시 독서문화 진흥 조례",
+       "enacted_on": "20200526",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1497815&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52190",
+       "name": "전북특별자치도 남원시",
+       "ordinance_id": "ordin:1714803",
+       "ordinance_name": "남원시 독서문화 진흥 조례",
+       "enacted_on": "20220706",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1714803&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47280",
+       "name": "경상북도 문경시",
+       "ordinance_id": "ordin:1912249",
+       "ordinance_name": "문경시 독서문화 진흥 조례",
+       "enacted_on": "20240314",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912249&type=HTML&mobileYn="
+      }
+     ]
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 74,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.0,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d).",
+    "min_peers": 3,
+    "same_sido_boost": true,
+    "dup_threshold": 0.55,
+    "exclude_variants": true,
+    "policy_key": "조례명에서 지자체명·법형식 접미 제거 → canon_key(어절 단위 연결어 제거) → 정규형 완전일치는 '보유'로 제외, 잔여 근사는 closest_own 과 함께 likely_variant 로 표시"
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "47230"
+ ]
+}

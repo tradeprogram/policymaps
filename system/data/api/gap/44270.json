@@ -1,0 +1,1550 @@
+{
+ "data": {
+  "44270": {
+   "target": {
+    "region_id": "44270",
+    "sig_cd": "44270",
+    "name": "충청남도 당진시",
+    "rtype": "시",
+    "indicators": {
+     "population": 172472.0,
+     "area_km2": 708.8545517397379,
+     "fiscal_self_ratio": 0.6510200596765239,
+     "welfare_ratio": 0.2054189416162152,
+     "budget_total": 1820815115866.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "44210",
+     "name": "충청남도 서산시"
+    },
+    {
+     "region_id": "48310",
+     "name": "경상남도 거제시"
+    },
+    {
+     "region_id": "41550",
+     "name": "경기도 안성시"
+    },
+    {
+     "region_id": "44150",
+     "name": "충청남도 공주시"
+    },
+    {
+     "region_id": "51150",
+     "name": "강원특별자치도 강릉시"
+    },
+    {
+     "region_id": "47150",
+     "name": "경상북도 김천시"
+    },
+    {
+     "region_id": "44230",
+     "name": "충청남도 논산시"
+    },
+    {
+     "region_id": "43130",
+     "name": "충청북도 충주시"
+    },
+    {
+     "region_id": "52180",
+     "name": "전북특별자치도 정읍시"
+    },
+    {
+     "region_id": "48270",
+     "name": "경상남도 밀양시"
+    },
+    {
+     "region_id": "44180",
+     "name": "충청남도 보령시"
+    },
+    {
+     "region_id": "47130",
+     "name": "경상북도 경주시"
+    },
+    {
+     "region_id": "44130",
+     "name": "충청남도 천안시"
+    },
+    {
+     "region_id": "44200",
+     "name": "충청남도 아산시"
+    },
+    {
+     "region_id": "44250",
+     "name": "충청남도 계룡시"
+    }
+   ],
+   "peer_pool_size": 15,
+   "my_policy_count": 527,
+   "suppressed_exact_duplicate": 296,
+   "flagged_as_variant": 226,
+   "recommendations": [
+    {
+     "policy_key": "위생업소 지원",
+     "peer_count": 13,
+     "peer_share": 0.8667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "착한가격업소 지원 및 관리",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1353207",
+       "ordinance_name": "경주시 위생업소 지원에 관한 조례",
+       "enacted_on": "20180731",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1353207&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1362862",
+       "ordinance_name": "아산시 위생업소 지원에 관한 조례",
+       "enacted_on": "20181005",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1362862&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1418703",
+       "ordinance_name": "논산시 위생업소 지원에 관한 조례",
+       "enacted_on": "20191111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418703&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1420171",
+       "ordinance_name": "김천시 위생업소 등 지원에 관한 조례",
+       "enacted_on": "20191114",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1420171&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1516359",
+       "ordinance_name": "충주시 위생업소 지원에 관한 조례",
+       "enacted_on": "20200710",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1516359&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "장애인 차별금지 및 인권보장",
+     "peer_count": 12,
+     "peer_share": 0.8,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "인권 보장 및 증진",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1044231",
+       "ordinance_name": "천안시 장애인차별금지 및 인권보장 조례",
+       "enacted_on": "20130607",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1044231&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44250",
+       "name": "충청남도 계룡시",
+       "ordinance_id": "ordin:966807",
+       "ordinance_name": "계룡시 장애인 차별금지 및 인권보장에 관한 조례",
+       "enacted_on": "20131108",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=966807&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41550",
+       "name": "경기도 안성시",
+       "ordinance_id": "ordin:1143841",
+       "ordinance_name": "안성시 장애인 차별금지 및 인권보장에 관한 조례",
+       "enacted_on": "20150506",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1143841&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1261553",
+       "ordinance_name": "아산시 장애인차별금지 및 인권보장에 관한 조례",
+       "enacted_on": "20161017",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1261553&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1418707",
+       "ordinance_name": "논산시 장애인 차별금지 및 인권보장에 관한 조례",
+       "enacted_on": "20191111",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418707&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "장애인가족 지원",
+     "peer_count": 11,
+     "peer_share": 0.7333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "다문화가족 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1041503",
+       "ordinance_name": "김천시 장애인가족 지원 조례",
+       "enacted_on": "20150521",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1041503&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1261550",
+       "ordinance_name": "아산시 장애인가족 지원 조례",
+       "enacted_on": "20161017",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1261550&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41550",
+       "name": "경기도 안성시",
+       "ordinance_id": "ordin:1307042",
+       "ordinance_name": "안성시 장애인가족 지원 조례",
+       "enacted_on": "20170929",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1307042&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1605865",
+       "ordinance_name": "거제시 장애인가족 지원 조례",
+       "enacted_on": "20210624",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1605865&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51150",
+       "name": "강원특별자치도 강릉시",
+       "ordinance_id": "ordin:1716307",
+       "ordinance_name": "강릉시 장애인가족 지원 조례",
+       "enacted_on": "20220713",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1716307&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "개인정보 보호",
+     "peer_count": 10,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "주소정보",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1700051",
+       "ordinance_name": "충주시 개인정보 보호조례",
+       "enacted_on": "20220415",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1700051&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1851483",
+       "ordinance_name": "아산시 개인정보 보호에 관한 조례",
+       "enacted_on": "20230915",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851483&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1884419",
+       "ordinance_name": "서산시 개인정보 보호에 관한 조례",
+       "enacted_on": "20231220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884419&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1947227",
+       "ordinance_name": "논산시 개인정보 보호에 관한 조례",
+       "enacted_on": "20240701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1947227&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1998729",
+       "ordinance_name": "김천시 개인정보 보호에 관한 조례",
+       "enacted_on": "20241226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1998729&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "국가유공자 등 우선주차구역 설치 및 운영",
+     "peer_count": 10,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "가족센터 설치 및 운영",
+      "similarity": 0.286
+     },
+     "peers": [
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1850031",
+       "ordinance_name": "공주시 국가유공자 우선주차구역 설치 및 운영 조례",
+       "enacted_on": "20230901",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1850031&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1891455",
+       "ordinance_name": "정읍시 국가유공자 등 우선주차구역 설치 및 운영 조례",
+       "enacted_on": "20231226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891455&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51150",
+       "name": "강원특별자치도 강릉시",
+       "ordinance_id": "ordin:1889469",
+       "ordinance_name": "강릉시 국가유공자 등 우선주차구역 설치 및 운영에 관한 조례",
+       "enacted_on": "20231227",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889469&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1911353",
+       "ordinance_name": "논산시 국가유공자 등 우선주차구역 설치 및 운영 조례",
+       "enacted_on": "20240311",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911353&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1914803",
+       "ordinance_name": "서산시 국가유공자 우선주차구역 설치 및 운영에 관한 조례",
+       "enacted_on": "20240325",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1914803&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "남북교류협력",
+     "peer_count": 10,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "국내·국외 교류협력 촉진",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1372307",
+       "ordinance_name": "충주시 남북교류협력에 관한 조례",
+       "enacted_on": "20181207",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1372307&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1506799",
+       "ordinance_name": "천안시 남북교류협력 조례",
+       "enacted_on": "20200622",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1506799&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1603481",
+       "ordinance_name": "논산시 남북교류협력에 관한 조례",
+       "enacted_on": "20210610",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1603481&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1619283",
+       "ordinance_name": "서산시 남북교류협력에 관한 조례",
+       "enacted_on": "20210801",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1619283&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44250",
+       "name": "충청남도 계룡시",
+       "ordinance_id": "ordin:1639535",
+       "ordinance_name": "계룡시 남북교류협력에 관한 조례",
+       "enacted_on": "20211110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1639535&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "보행안전 및 편의증진",
+     "peer_count": 10,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교통약자 이동편의 증진을 위한 특별교통수단 운영",
+      "similarity": 0.261
+     },
+     "peers": [
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1609121",
+       "ordinance_name": "김천시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20210701",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1609121&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44180",
+       "name": "충청남도 보령시",
+       "ordinance_id": "ordin:1623391",
+       "ordinance_name": "보령시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20210830",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1623391&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1635989",
+       "ordinance_name": "충주시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20211029",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1635989&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1639091",
+       "ordinance_name": "공주시 보행안전 및 편의 증진에 관한 조례",
+       "enacted_on": "20211109",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1639091&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1707537",
+       "ordinance_name": "정읍시 보행안전 및 편의증진에 관한 조례",
+       "enacted_on": "20220506",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1707537&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "시설관리공단 설립 및 운영",
+     "peer_count": 10,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "repealed_on": "20230731"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "복지재단 설립 및 운영",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1394982",
+       "ordinance_name": "경주시 시설관리공단 설립 및 운영에 관한 조례",
+       "enacted_on": "20190514",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1394982&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1527745",
+       "ordinance_name": "아산시 시설관리공단 설립 및 운영에 관한 조례",
+       "enacted_on": "20200915",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1527745&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41550",
+       "name": "경기도 안성시",
+       "ordinance_id": "ordin:1537843",
+       "ordinance_name": "안성시 시설관리공단 설립 및 운영에 관한 조례",
+       "enacted_on": "20201014",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1537843&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1705975",
+       "ordinance_name": "논산시 시설관리공단 설립 및 운영에 관한 조례",
+       "enacted_on": "20220502",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1705975&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1948999",
+       "ordinance_name": "김천시 시설관리공단 설립 및 운영에 관한 조례",
+       "enacted_on": "20240704",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1948999&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "자치분권 촉진 및 지원",
+     "peer_count": 10,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "44180",
+       "name": "충청남도 보령시",
+       "repealed_on": "20231220"
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "repealed_on": "20251127"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "물의 재이용 촉진 및 지원",
+      "similarity": 0.4
+     },
+     "peers": [
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1250915",
+       "ordinance_name": "서산시 자치분권 촉진·지원 조례",
+       "enacted_on": "20160921",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1250915&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1324268",
+       "ordinance_name": "천안시 자치분권 촉진 및 지원 조례",
+       "enacted_on": "20171229",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1324268&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44250",
+       "name": "충청남도 계룡시",
+       "ordinance_id": "ordin:1339086",
+       "ordinance_name": "계룡시 자치분권 촉진 및 지원 조례",
+       "enacted_on": "20180220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1339086&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1341806",
+       "ordinance_name": "아산시 자치분권 촉진ㆍ지원 조례",
+       "enacted_on": "20180315",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1341806&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1391215",
+       "ordinance_name": "충주시 자치분권 촉진 및 지원 조례",
+       "enacted_on": "20190412",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1391215&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "효행 장려 및 지원",
+     "peer_count": 10,
+     "peer_share": 0.6667,
+     "repealed_peer_count": 2,
+     "repealed_peers": [
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "repealed_on": "20210511"
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "repealed_on": "20250305"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "교복 지원",
+      "similarity": 0.25
+     },
+     "peers": [
+      {
+       "region_id": "44250",
+       "name": "충청남도 계룡시",
+       "ordinance_id": "ordin:915448",
+       "ordinance_name": "계룡시 효행 장려 및 지원에 관한 조례",
+       "enacted_on": "20100420",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=915448&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1147985",
+       "ordinance_name": "논산시 효행 장려 및 지원에 관한 조례",
+       "enacted_on": "20130430",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1147985&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1173519",
+       "ordinance_name": "정읍시 효행장려 및 지원에 관한 조례",
+       "enacted_on": "20141219",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1173519&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1310344",
+       "ordinance_name": "거제시 효행 장려 및 지원에 관한 조례",
+       "enacted_on": "20171109",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1310344&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1337035",
+       "ordinance_name": "밀양시 효행 장려 및 지원에 관한 조례",
+       "enacted_on": "20180129",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1337035&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "금연환경 조성 및 간접흡연 피해방지",
+     "peer_count": 9,
+     "peer_share": 0.6,
+     "repealed_peer_count": 1,
+     "repealed_peers": [
+      {
+       "region_id": "44180",
+       "name": "충청남도 보령시",
+       "repealed_on": "20250512"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "금연환경 조성 및 금연지도원 운영",
+      "similarity": 0.417
+     },
+     "peers": [
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1177677",
+       "ordinance_name": "경주시 금연환경 조성 및 간접흡연 피해방지 조례",
+       "enacted_on": "20150731",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1177677&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1355100",
+       "ordinance_name": "김천시 금연 환경조성 및 간접흡연 피해방지 조례",
+       "enacted_on": "20180809",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1355100&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1387962",
+       "ordinance_name": "아산시 금연환경 조성 및 간접흡연 피해방지 조례",
+       "enacted_on": "20190315",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1387962&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1551085",
+       "ordinance_name": "서산시 금연환경 조성 및 간접흡연 피해방지 조례",
+       "enacted_on": "20201210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1551085&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1632713",
+       "ordinance_name": "정읍시 금연환경 조성 및 간접흡연 피해방지 조례",
+       "enacted_on": "20211001",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632713&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "문화관광해설사 운영 및 지원",
+     "peer_count": 9,
+     "peer_share": 0.6,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "지역아동센터 운영 및 지원",
+      "similarity": 0.316
+     },
+     "peers": [
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1224437",
+       "ordinance_name": "논산시 문화관광해설사 운영 및 지원에 관한 조례",
+       "enacted_on": "20160330",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1224437&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1412607",
+       "ordinance_name": "서산시 문화관광해설사 운영 및 지원에 관한 조례",
+       "enacted_on": "20191010",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1412607&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1920643",
+       "ordinance_name": "밀양시 문화관광해설사 운영 및 지원 조례",
+       "enacted_on": "20240411",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1920643&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1936507",
+       "ordinance_name": "아산시 문화관광해설사 운영 및 지원에 관한 조례",
+       "enacted_on": "20240605",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1936507&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:2025971",
+       "ordinance_name": "천안시 문화관광해설사 운영 및 지원에 관한 조례",
+       "enacted_on": "20250401",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025971&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "민간투자사업 심의위원회 운영",
+     "peer_count": 9,
+     "peer_share": 0.6,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "계약심의위원회의 구성ㆍ운영",
+      "similarity": 0.435
+     },
+     "peers": [
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1184338",
+       "ordinance_name": "서산시 민간투자사업심의위원회 운영 조례",
+       "enacted_on": "20150817",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1184338&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1265779",
+       "ordinance_name": "거제시 민간투자사업심의위원회 운영 조례",
+       "enacted_on": "20161129",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1265779&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1267562",
+       "ordinance_name": "아산시 민간투자사업심의위원회 운영 조례",
+       "enacted_on": "20161215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1267562&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1351232",
+       "ordinance_name": "경주시 민간투자사업심의위원회 운영조례",
+       "enacted_on": "20180704",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1351232&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1507033",
+       "ordinance_name": "천안시 민간투자사업 심의위원회 운영 조례",
+       "enacted_on": "20200622",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1507033&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "성별영향평가",
+     "peer_count": 9,
+     "peer_share": 0.6,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "의회 입법영향평가",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1652747",
+       "ordinance_name": "경주시 성별영향평가 조례",
+       "enacted_on": "20211224",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1652747&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1790837",
+       "ordinance_name": "정읍시 성별영향평가 조례",
+       "enacted_on": "20230315",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1790837&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1840029",
+       "ordinance_name": "거제시 성별영향평가 조례",
+       "enacted_on": "20230720",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1840029&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44250",
+       "name": "충청남도 계룡시",
+       "ordinance_id": "ordin:1880319",
+       "ordinance_name": "계룡시 성별영향평가 조례",
+       "enacted_on": "20231211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880319&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1980027",
+       "ordinance_name": "논산시 성별영향평가 조례",
+       "enacted_on": "20241030",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1980027&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "체불임금 없는 관급공사 운영",
+     "peer_count": 9,
+     "peer_share": 0.6,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "관급공사 지역건설근로자 우선고용과 체불임금 방지 및 하도급업체 보호",
+      "similarity": 0.308
+     },
+     "peers": [
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:765367",
+       "ordinance_name": "서산시 체불임금 없는 관급공사 운영 조례",
+       "enacted_on": "20111010",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=765367&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48270",
+       "name": "경상남도 밀양시",
+       "ordinance_id": "ordin:1109109",
+       "ordinance_name": "밀양시 체불임금 없는 관급공사 운영을 위한 조례",
+       "enacted_on": "20111118",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1109109&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:683358",
+       "ordinance_name": "정읍시 체불임금 없는 관급공사 운영 조례",
+       "enacted_on": "20120406",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=683358&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:660813",
+       "ordinance_name": "공주시 체불임금 없는 관급공사 운영 조례",
+       "enacted_on": "20120607",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=660813&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41550",
+       "name": "경기도 안성시",
+       "ordinance_id": "ordin:1071192",
+       "ordinance_name": "안성시 체불임금 없는 관급공사 운영을 위한 조례",
+       "enacted_on": "20140107",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1071192&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "화재대피용 방연마스크 비치 및 지원",
+     "peer_count": 9,
+     "peer_share": 0.6,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "의정회 설치 및 지원",
+      "similarity": 0.211
+     },
+     "peers": [
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1431923",
+       "ordinance_name": "논산시 화재대피용 방연마스크 비치 및 지원에 관한 조례",
+       "enacted_on": "20191213",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1431923&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1568631",
+       "ordinance_name": "충주시 화재대피용 방연마스크 비치 및 지원에 관한 조례",
+       "enacted_on": "20201231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1568631&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1589473",
+       "ordinance_name": "천안시 화재대피용 방연마스크 비치 및 지원 조례",
+       "enacted_on": "20210415",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1589473&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1645917",
+       "ordinance_name": "서산시 화재대피용 방연마스크 비치 및 지원에 관한 조례",
+       "enacted_on": "20211210",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1645917&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1851481",
+       "ordinance_name": "아산시 화재대피용 방연마스크 비치 및 지원에 관한 조례",
+       "enacted_on": "20230915",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851481&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "환경교육의 활성화 및 지원",
+     "peer_count": 9,
+     "peer_share": 0.6,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "걷기 활성화 지원",
+      "similarity": 0.533
+     },
+     "peers": [
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1738757",
+       "ordinance_name": "서산시 환경교육의 활성화 및 지원에 관한 조례",
+       "enacted_on": "20221019",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1738757&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1816567",
+       "ordinance_name": "아산시 환경교육의 활성화 및 지원에 관한 조례",
+       "enacted_on": "20230605",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816567&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1900671",
+       "ordinance_name": "거제시 환경교육의 활성화 및 지원에 관한 조례",
+       "enacted_on": "20240104",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1900671&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "51150",
+       "name": "강원특별자치도 강릉시",
+       "ordinance_id": "ordin:1937761",
+       "ordinance_name": "강릉시 환경교육의 활성화 및 지원에 관한 조례",
+       "enacted_on": "20240612",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937761&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1965625",
+       "ordinance_name": "논산시 환경교육의 활성화 및 지원에 관한 조례",
+       "enacted_on": "20240910",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1965625&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "건강도시 기본",
+     "peer_count": 8,
+     "peer_share": 0.5333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "건강도시 조성 및 건강생활실천협의회 구성",
+      "similarity": 0.3
+     },
+     "peers": [
+      {
+       "region_id": "41550",
+       "name": "경기도 안성시",
+       "ordinance_id": "ordin:908076",
+       "ordinance_name": "안성시 건강도시 기본조례",
+       "enacted_on": "20140319",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=908076&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1287012",
+       "ordinance_name": "아산시 건강도시 기본 조례",
+       "enacted_on": "20170515",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1287012&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1390882",
+       "ordinance_name": "거제시 건강도시 기본 조례",
+       "enacted_on": "20190411",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1390882&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1759363",
+       "ordinance_name": "논산시 건강도시 기본 조례",
+       "enacted_on": "20221220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1759363&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1849969",
+       "ordinance_name": "공주시 건강도시 기본 조례",
+       "enacted_on": "20230901",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1849969&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "공영개발사업 설치",
+     "peer_count": 8,
+     "peer_share": 0.5333,
+     "repealed_peer_count": 4,
+     "repealed_peers": [
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "repealed_on": "20091231"
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "repealed_on": "20191111"
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "repealed_on": "20210524"
+      }
+     ],
+     "caution": "유사 지자체 중 폐지 사례 있음 — 상위법 개정 등으로 대체되었을 수 있으니 제정 전 확인 필요",
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "수도사업 설치",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1407839",
+       "ordinance_name": "공주시 공영개발사업 설치 조례",
+       "enacted_on": "20190829",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1407839&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1408685",
+       "ordinance_name": "아산시 공영개발사업 설치 조례",
+       "enacted_on": "20190916",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1408685&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41550",
+       "name": "경기도 안성시",
+       "ordinance_id": "ordin:1413522",
+       "ordinance_name": "안성시 공영개발사업 설치조례",
+       "enacted_on": "20191016",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1413522&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1420127",
+       "ordinance_name": "김천시공영개발사업설치조례",
+       "enacted_on": "20191114",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1420127&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1500585",
+       "ordinance_name": "천안시 공영개발사업 설치 조례",
+       "enacted_on": "20200601",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1500585&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "로컬푸드 육성 및 지원",
+     "peer_count": 8,
+     "peer_share": 0.5333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "민축구단 육성 및 지원",
+      "similarity": 0.429
+     },
+     "peers": [
+      {
+       "region_id": "44210",
+       "name": "충청남도 서산시",
+       "ordinance_id": "ordin:1619263",
+       "ordinance_name": "서산시 로컬푸드 육성 및 지원 조례",
+       "enacted_on": "20210801",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1619263&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1850737",
+       "ordinance_name": "논산시 로컬푸드 육성 및 지원 조례",
+       "enacted_on": "20230911",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1850737&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44250",
+       "name": "충청남도 계룡시",
+       "ordinance_id": "ordin:1880229",
+       "ordinance_name": "계룡시 로컬푸드 육성 및 지원 조례",
+       "enacted_on": "20231211",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880229&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1905575",
+       "ordinance_name": "정읍시 로컬푸드 육성 및 지원에 관한 조례",
+       "enacted_on": "20231226",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1905575&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1993187",
+       "ordinance_name": "아산시 로컬푸드 육성 및 지원에 관한 조례",
+       "enacted_on": "20241216",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1993187&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "식생활 교육 지원",
+     "peer_count": 8,
+     "peer_share": 0.5333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "성인 문해교육 지원",
+      "similarity": 0.462
+     },
+     "peers": [
+      {
+       "region_id": "44180",
+       "name": "충청남도 보령시",
+       "ordinance_id": "ordin:1358721",
+       "ordinance_name": "보령시 식생활교육 지원 조례",
+       "enacted_on": "20180920",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1358721&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47150",
+       "name": "경상북도 김천시",
+       "ordinance_id": "ordin:1395765",
+       "ordinance_name": "김천시 식생활교육 지원에 관한 조례",
+       "enacted_on": "20190530",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395765&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1519137",
+       "ordinance_name": "경주시 식생활교육지원 조례",
+       "enacted_on": "20200710",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1519137&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "48310",
+       "name": "경상남도 거제시",
+       "ordinance_id": "ordin:1841255",
+       "ordinance_name": "거제시 식생활 교육 지원 조례",
+       "enacted_on": "20230720",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1841255&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1993189",
+       "ordinance_name": "아산시 식생활 교육 지원 조례",
+       "enacted_on": "20241216",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1993189&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "영농폐기물 수거 지원",
+     "peer_count": 8,
+     "peer_share": 0.5333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "폐기물 관리",
+      "similarity": 0.333
+     },
+     "peers": [
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1405049",
+       "ordinance_name": "충주시 영농폐기물 수거 지원 등에 관한 조례",
+       "enacted_on": "20190719",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1405049&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1781407",
+       "ordinance_name": "천안시 영농폐기물 수거 지원 등에 관한 조례",
+       "enacted_on": "20230201",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1781407&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1799721",
+       "ordinance_name": "정읍시 영농폐기물 수거 및 지원 등에 관한 조례",
+       "enacted_on": "20230411",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1799721&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44180",
+       "name": "충청남도 보령시",
+       "ordinance_id": "ordin:1814027",
+       "ordinance_name": "보령시 영농폐기물 수거 지원 등에 관한 조례",
+       "enacted_on": "20230530",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1814027&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1851487",
+       "ordinance_name": "아산시 영농폐기물 수거지원에 관한 조례",
+       "enacted_on": "20230915",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851487&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "외국인 계절근로자 등 지원",
+     "peer_count": 8,
+     "peer_share": 0.5333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "외국인근로자 지원센터 설치 및 운영",
+      "similarity": 0.545
+     },
+     "peers": [
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1639093",
+       "ordinance_name": "공주시 외국인 계절근로자 지원에 관한 조례",
+       "enacted_on": "20211109",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1639093&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1641073",
+       "ordinance_name": "논산시 외국인 계절근로자 지원에 관한 조례",
+       "enacted_on": "20211110",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641073&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:1707513",
+       "ordinance_name": "충주시 외국인 계절근로자 지원에 관한 조례",
+       "enacted_on": "20220506",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1707513&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41550",
+       "name": "경기도 안성시",
+       "ordinance_id": "ordin:1732651",
+       "ordinance_name": "안성시 외국인 계절근로자 지원에 관한 조례",
+       "enacted_on": "20221007",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1732651&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44130",
+       "name": "충청남도 천안시",
+       "ordinance_id": "ordin:1823297",
+       "ordinance_name": "천안시 외국인 계절근로자 지원에 관한 조례",
+       "enacted_on": "20230621",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1823297&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "의회 의원연구단체 구성 및 운영",
+     "peer_count": 8,
+     "peer_share": 0.5333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "의회 의원 연구모임 지원",
+      "similarity": 0.5
+     },
+     "peers": [
+      {
+       "region_id": "44150",
+       "name": "충청남도 공주시",
+       "ordinance_id": "ordin:1850041",
+       "ordinance_name": "공주시의회 의원 연구단체 구성 및 운영 조례",
+       "enacted_on": "20230901",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1850041&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "47130",
+       "name": "경상북도 경주시",
+       "ordinance_id": "ordin:1859771",
+       "ordinance_name": "경주시의회 의원연구단체 구성 및 운영 조례",
+       "enacted_on": "20231004",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1859771&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44250",
+       "name": "충청남도 계룡시",
+       "ordinance_id": "ordin:1967119",
+       "ordinance_name": "계룡시의회 의원연구단체 구성 및 운영 조례",
+       "enacted_on": "20240910",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1967119&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:2018645",
+       "ordinance_name": "아산시의회 의원연구단체 구성 및 운영 조례",
+       "enacted_on": "20250305",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018645&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:2019135",
+       "ordinance_name": "정읍시의회 의원 연구단체 구성 및 운영 조례",
+       "enacted_on": "20250307",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2019135&type=HTML&mobileYn="
+      }
+     ]
+    },
+    {
+     "policy_key": "중증장애인생산품 우선구매 촉진",
+     "peer_count": 8,
+     "peer_share": 0.5333,
+     "repealed_peer_count": 0,
+     "repealed_peers": [],
+     "caution": null,
+     "likely_variant_of_mine": false,
+     "closest_own": {
+      "policy_key": "녹색제품 구매촉진",
+      "similarity": 0.3
+     },
+     "peers": [
+      {
+       "region_id": "44200",
+       "name": "충청남도 아산시",
+       "ordinance_id": "ordin:1268262",
+       "ordinance_name": "아산시 중증장애인생산품 우선구매 촉진 조례",
+       "enacted_on": "20161215",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1268262&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "44230",
+       "name": "충청남도 논산시",
+       "ordinance_id": "ordin:1705961",
+       "ordinance_name": "논산시 중증장애인생산품 우선구매 촉진 조례",
+       "enacted_on": "20220502",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1705961&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "52180",
+       "name": "전북특별자치도 정읍시",
+       "ordinance_id": "ordin:1821591",
+       "ordinance_name": "정읍시 중증장애인생산품 우선구매 촉진 조례",
+       "enacted_on": "20230614",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1821591&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "41550",
+       "name": "경기도 안성시",
+       "ordinance_id": "ordin:1994929",
+       "ordinance_name": "안성시 중증장애인생산품 우선구매 촉진 조례",
+       "enacted_on": "20241220",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1994929&type=HTML&mobileYn="
+      },
+      {
+       "region_id": "43130",
+       "name": "충청북도 충주시",
+       "ordinance_id": "ordin:2107179",
+       "ordinance_name": "충주시 중증장애인생산품 우선 구매 촉진 조례",
+       "enacted_on": "20251231",
+       "url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107179&type=HTML&mobileYn="
+      }
+     ]
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 74,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.0,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d).",
+    "min_peers": 3,
+    "same_sido_boost": true,
+    "dup_threshold": 0.55,
+    "exclude_variants": true,
+    "policy_key": "조례명에서 지자체명·법형식 접미 제거 → canon_key(어절 단위 연결어 제거) → 정규형 완전일치는 '보유'로 제외, 잔여 근사는 closest_own 과 함께 likely_variant 로 표시"
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "44270"
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "data": {
+  "47280": {
+   "target": {
+    "region_id": "47280",
+    "sig_cd": "47280",
+    "name": "경상북도 문경시",
+    "rtype": "시",
+    "indicators": {
+     "population": 64662.0,
+     "area_km2": 914.6474283677555,
+     "fiscal_self_ratio": 0.7368146990750674,
+     "welfare_ratio": 0.16147947876558738,
+     "budget_total": 1303159757318.0
+    }
+   },
+   "peers": [
+    {
+     "region_id": "47210",
+     "sig_cd": "47210",
+     "name": "경상북도 영주시",
+     "rtype": "시",
+     "similarity": 0.518604,
+     "weighted_distance": 0.371323,
+     "policy_profile_cosine": 0.1275,
+     "indicator_gap_sd": {
+      "population": 0.4703,
+      "area_km2": 0.2885,
+      "fiscal_self_ratio": 0.3646,
+      "welfare_ratio": 0.3651,
+      "budget_total": 0.3003
+     },
+     "indicators": {
+      "population": 96345.0,
+      "area_km2": 672.9942259060001,
+      "fiscal_self_ratio": 0.7141957069624731,
+      "welfare_ratio": 0.19183616859156624,
+      "budget_total": 1519628936088.0
+     }
+    },
+    {
+     "region_id": "47230",
+     "sig_cd": "47230",
+     "name": "경상북도 영천시",
+     "rtype": "시",
+     "similarity": 0.499471,
+     "weighted_distance": 0.452975,
+     "policy_profile_cosine": 0.1489,
+     "indicator_gap_sd": {
+      "population": 0.4394,
+      "area_km2": 0.0009,
+      "fiscal_self_ratio": 0.6233,
+      "welfare_ratio": 0.1961,
+      "budget_total": 0.3883
+     },
+     "indicators": {
+      "population": 93847.0,
+      "area_km2": 915.4935276819713,
+      "fiscal_self_ratio": 0.6981496893085576,
+      "welfare_ratio": 0.17778824763926812,
+      "budget_total": 1589643990549.0
+     }
+    },
+    {
+     "region_id": "51230",
+     "sig_cd": "51230",
+     "name": "강원특별자치도 삼척시",
+     "rtype": "시",
+     "similarity": 0.497778,
+     "weighted_distance": 0.409074,
+     "policy_profile_cosine": 0.1042,
+     "indicator_gap_sd": {
+      "population": 0.0855,
+      "area_km2": 0.2453,
+      "fiscal_self_ratio": 0.701,
+      "welfare_ratio": 0.1406,
+      "budget_total": 0.1883
+     },
+     "indicators": {
+      "population": 60139.0,
+      "area_km2": 1187.2928753965573,
+      "fiscal_self_ratio": 0.6933249394377231,
+      "welfare_ratio": 0.17317257577460632,
+      "budget_total": 1183415107983.0
+     }
+    },
+    {
+     "region_id": "41670",
+     "sig_cd": "41670",
+     "name": "경기도 여주시",
+     "rtype": "시",
+     "similarity": 0.487425,
+     "weighted_distance": 0.432878,
+     "policy_profile_cosine": 0.0966,
+     "indicator_gap_sd": {
+      "population": 0.6624,
+      "area_km2": 0.3852,
+      "fiscal_self_ratio": 0.2372,
+      "welfare_ratio": 0.4185,
+      "budget_total": 0.3421
+     },
+     "indicators": {
+      "population": 113383.0,
+      "area_km2": 607.218245327503,
+      "fiscal_self_ratio": 0.722100589853897,
+      "welfare_ratio": 0.19627926350899172,
+      "budget_total": 1552497897650.0
+     }
+    },
+    {
+     "region_id": "47250",
+     "sig_cd": "47250",
+     "name": "경상북도 상주시",
+     "rtype": "시",
+     "similarity": 0.476505,
+     "weighted_distance": 0.62676,
+     "policy_profile_cosine": 0.2198,
+     "indicator_gap_sd": {
+      "population": 0.3777,
+      "area_km2": 0.2948,
+      "fiscal_self_ratio": 0.3901,
+      "welfare_ratio": 0.5386,
+      "budget_total": 1.0581
+     },
+     "indicators": {
+      "population": 89070.0,
+      "area_km2": 1251.4734158842314,
+      "fiscal_self_ratio": 0.7610165811692694,
+      "welfare_ratio": 0.11669241551739495,
+      "budget_total": 2239539631957.0
+     }
+    },
+    {
+     "region_id": "43150",
+     "sig_cd": "43150",
+     "name": "충청북도 제천시",
+     "rtype": "시",
+     "similarity": 0.456982,
+     "weighted_distance": 0.546804,
+     "policy_profile_cosine": 0.105,
+     "indicator_gap_sd": {
+      "population": 0.8058,
+      "area_km2": 0.0342,
+      "fiscal_self_ratio": 0.3522,
+      "welfare_ratio": 0.5568,
+      "budget_total": 0.5571
+     },
+     "indicators": {
+      "population": 128043.0,
+      "area_km2": 882.0036429910023,
+      "fiscal_self_ratio": 0.7149644669621533,
+      "welfare_ratio": 0.20777740825119434,
+      "budget_total": 1733029851420.0
+     }
+    },
+    {
+     "region_id": "52190",
+     "sig_cd": "52190",
+     "name": "전북특별자치도 남원시",
+     "rtype": "시",
+     "similarity": 0.447953,
+     "weighted_distance": 0.621492,
+     "policy_profile_cosine": 0.1345,
+     "indicator_gap_sd": {
+      "population": 0.155,
+      "area_km2": 0.1862,
+      "fiscal_self_ratio": 1.1041,
+      "welfare_ratio": 0.3105,
+      "budget_total": 0.1149
+     },
+     "indicators": {
+      "population": 73744.0,
+      "area_km2": 750.2942330162127,
+      "fiscal_self_ratio": 0.668322519511049,
+      "welfare_ratio": 0.18729568955317819,
+      "budget_total": 1382070262522.0
+     }
+    },
+    {
+     "region_id": "52180",
+     "sig_cd": "52180",
+     "name": "전북특별자치도 정읍시",
+     "rtype": "시",
+     "similarity": 0.447234,
+     "weighted_distance": 0.591726,
+     "policy_profile_cosine": 0.1111,
+     "indicator_gap_sd": {
+      "population": 0.5217,
+      "area_km2": 0.2544,
+      "fiscal_self_ratio": 0.8158,
+      "welfare_ratio": 0.6601,
+      "budget_total": 0.4173
+     },
+     "indicators": {
+      "population": 100632.0,
+      "area_km2": 697.8460556539197,
+      "fiscal_self_ratio": 0.6862076108423114,
+      "welfare_ratio": 0.21637029077189987,
+      "budget_total": 1613417361342.0
+     }
+    },
+    {
+     "region_id": "48270",
+     "sig_cd": "48270",
+     "name": "경상남도 밀양시",
+     "rtype": "시",
+     "similarity": 0.445132,
+     "weighted_distance": 0.600093,
+     "policy_profile_cosine": 0.1112,
+     "indicator_gap_sd": {
+      "population": 0.4964,
+      "area_km2": 0.1244,
+      "fiscal_self_ratio": 0.9489,
+      "welfare_ratio": 0.5181,
+      "budget_total": 0.1739
+     },
+     "indicators": {
+      "population": 98498.0,
+      "area_km2": 801.3352884773625,
+      "fiscal_self_ratio": 0.6779466778961551,
+      "welfare_ratio": 0.204562624216717,
+      "budget_total": 1424468442785.0
+     }
+    },
+    {
+     "region_id": "47150",
+     "sig_cd": "47150",
+     "name": "경상북도 김천시",
+     "rtype": "시",
+     "similarity": 0.438602,
+     "weighted_distance": 0.698701,
+     "policy_profile_cosine": 0.1599,
+     "indicator_gap_sd": {
+      "population": 0.8466,
+      "area_km2": 0.0889,
+      "fiscal_self_ratio": 0.7869,
+      "welfare_ratio": 0.4883,
+      "budget_total": 0.6497
+     },
+     "indicators": {
+      "population": 132550.0,
+      "area_km2": 1005.3641467051311,
+      "fiscal_self_ratio": 0.6880005253796422,
+      "welfare_ratio": 0.2020782907047159,
+      "budget_total": 1817142202210.0
+     }
+    },
+    {
+     "region_id": "41650",
+     "sig_cd": "41650",
+     "name": "경기도 포천시",
+     "rtype": "시",
+     "similarity": 0.423113,
+     "weighted_distance": 0.689554,
+     "policy_profile_cosine": 0.1097,
+     "indicator_gap_sd": {
+      "population": 0.915,
+      "area_km2": 0.0969,
+      "fiscal_self_ratio": 0.3565,
+      "welfare_ratio": 0.023,
+      "budget_total": 0.9525
+     },
+     "indicators": {
+      "population": 140454.0,
+      "area_km2": 825.1247533997752,
+      "fiscal_self_ratio": 0.7589328823755122,
+      "welfare_ratio": 0.15956324755946066,
+      "budget_total": 2121713742219.0
+     }
+    },
+    {
+     "region_id": "44150",
+     "sig_cd": "44150",
+     "name": "충청남도 공주시",
+     "rtype": "시",
+     "similarity": 0.415344,
+     "weighted_distance": 0.732218,
+     "policy_profile_cosine": 0.1146,
+     "indicator_gap_sd": {
+      "population": 0.5098,
+      "area_km2": 0.0534,
+      "fiscal_self_ratio": 1.1766,
+      "welfare_ratio": 0.2659,
+      "budget_total": 0.4498
+     },
+     "indicators": {
+      "population": 99619.0,
+      "area_km2": 864.1065419062242,
+      "fiscal_self_ratio": 0.663825200669041,
+      "welfare_ratio": 0.18358900775966594,
+      "budget_total": 1640422555550.0
+     }
+    }
+   ],
+   "method": {
+    "partition_by_type": true,
+    "candidate_pool": 74,
+    "weights": {
+     "population": 0.25,
+     "area_km2": 0.13,
+     "fiscal_self_ratio": 0.3,
+     "welfare_ratio": 0.07,
+     "budget_total": 0.25
+    },
+    "weight_provenance": {
+     "population": "ours",
+     "area_km2": "ours",
+     "budget_total": "ours",
+     "fiscal_self_ratio": "mois_public",
+     "welfare_ratio": "mois_public"
+    },
+    "policy_profile_weight": 0.35,
+    "min_indicator_coverage": 0.6,
+    "missing_mois_indicators": [
+     "인구증감률",
+     "고령인구비율",
+     "조출생률"
+    ],
+    "note": "지표는 동일 유형 내 z-표준화 후 가중 유클리드. sim=1/(1+d)."
+   }
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "47280"
+ ]
+}
