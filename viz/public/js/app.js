@@ -14,6 +14,11 @@ import * as diffusion from "./views/diffusion.js";
 import * as effectiveness from "./views/effectiveness.js";
 import * as votes from "./views/votes.js";
 import * as search from "./views/search.js";
+import * as neural from "./views/neural.js";
+import * as spatial from "./views/spatial.js";
+import * as lifecycle from "./views/lifecycle.js";
+import * as trust from "./views/trust.js";
+import * as analytics from "./views/analytics.js";
 
 const NAV = [
   ["/dashboard", "대시보드", dashboard],
@@ -21,10 +26,15 @@ const NAV = [
   ["/region/:sig", "지역 상세", region],
   ["/gap", "유사·격차분석", gap],
   ["/graph", "법령 위계", graph],
+  ["/lifecycle", "정책 생애주기", lifecycle],
   ["/diffusion", "정책 확산", diffusion],
   ["/effectiveness", "조례 실효성", effectiveness],
+  ["/neural", "신경망 유사도", neural],
+  ["/spatial", "공간 분석", spatial],
+  ["/analytics", "확산 위험모형", analytics],
   ["/votes", "국회 표결", votes],
   ["/search", "검색", search],
+  ["/trust", "검증 공시", trust],
 ];
 
 const DEFAULT_REGION = "11110";

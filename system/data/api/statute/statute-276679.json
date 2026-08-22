@@ -1,0 +1,514 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:276679",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "의사상자 등 예우 및 지원에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20251001",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=276679&type=HTML&mobileYn=&efYd=20251001",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 330,
+   "child_ordinances": 321,
+   "by_verification_status": {
+    "article-missing": 1,
+    "article-verified": 91,
+    "unverifiable": 238
+   },
+   "by_delegation_type": {
+    "law-delegated": 330
+   },
+   "regions_top": [
+    {
+     "region_id": "30",
+     "name": "대전광역시",
+     "ordinances": 17
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 8
+    },
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "48220",
+     "name": "경상남도 통영시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41390",
+     "name": "경기도 시흥시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "27290",
+     "name": "대구광역시 달서구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "11",
+     "name": "서울특별시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "47150",
+     "name": "경상북도 김천시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "43130",
+     "name": "충청북도 충주시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41650",
+     "name": "경기도 포천시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "27260",
+     "name": "대구광역시 수성구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "51830",
+     "name": "강원특별자치도 양양군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48",
+     "name": "경상남도",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47830",
+     "name": "경상북도 고령군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47110",
+     "name": "경상북도 포항시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "43760",
+     "name": "충청북도 괴산군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "28",
+     "name": "인천광역시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "26",
+     "name": "부산광역시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "51730",
+     "name": "강원특별자치도 횡성군",
+     "ordinances": 3
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 직무 외의 행위로 위해(危害)에 처한 다른 사람의 생명ㆍ신체 또는 재산을 구하다가 사망하거나 부상을 입은 사람과 그 유족 또는 가족에 대하여 그 희생과 피해의 정도 등에 알맞은 예우와 지원을 함으로써 의사상자의 숭고한 뜻을 기리고 사회정의를 실현하는 데에 이바지하는 것을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"구조행위\"란 자신의 생명 또는 신체상의 위험을 무릅쓰고 급박한 위해에 처한 다른 사람의 생명ㆍ신체 또는 재산을 구하기 위한 직접적ㆍ적극적 행위를 말한다.\n2. \"의사자(義死者)\"란 직무 외의 행위로서 구조행위를 하다가 사망(의상자가 그 부상으로 인하여 사망한 경우를 포함한다)하여 보건복지부장관이 이 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "적용범위",
+    "body": "제3조(적용범위)\n① 이 법은 다음 각 호의 어느 하나에 해당하는 때에 적용한다. <개정 2011.8.4>\n1. 강도ㆍ절도ㆍ폭행ㆍ납치 등의 범죄행위를 제지하거나 그 범인을 체포하다가 사망하거나 부상을 입는 구조행위를 한 때\n2. 자동차ㆍ열차, 그 밖의 운송수단의 사고로 위해에 처한 다른 사람의 생명ㆍ신체 또는 재산을 구하",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "의사상자심사위원회",
+    "body": "제4조(의사상자심사위원회)\n① 다음 각 호의 사항을 심사ㆍ의결하기 위하여 보건복지부에 의사상자심사위원회(이하 \"위원회\"라 한다)를 둔다. <개정 2008.2.29, 2010.1.18, 2014.1.28>\n1. 제5조에 따른 의사상자의 인정 및 의상자의 부상등급의 결정에 관한 사항\n2. 제6조에 따른 의상자의 부상등급 변경",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "인정신청 등",
+    "body": "제5조(인정신청 등)\n① 이 법의 적용을 받으려는 사람은 대통령령으로 정하는 바에 따라 그 주소지 또는 구조행위지를 관할하는 시장(「제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법」에 따른 행정시장을 포함한다. 이하 같다)ㆍ군수ㆍ구청장(자치구의 구청장에 한한다. 이하 같다)에게 의사상자 인정신청을 하여야 한다.\n②",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "부상등급 변경신청",
+    "body": "제6조(부상등급 변경신청)\n① 의상자가 그 구조행위로 인하여 입은 부상이 악화되어 제5조제6항에 따라 결정된 부상등급의 변경을 원하는 경우에는 대통령령으로 정하는 바에 따라 그 주소지를 관할하는 시장ㆍ군수ㆍ구청장에게 부상등급 변경신청을 하여야 한다. <개정 2024.1.23>\n② 제5조제2항 및 제5항은 제1항에 따른 부",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "이의신청",
+    "body": "제6조의2(이의신청)\n① 제4조제1항제1호 또는 제2호의 사항과 관련된 보건복지부장관의 결정에 이의(異議)가 있는 사람은 결정을 통보받은 날부터 30일 이내에 보건복지부령으로 정하는 바에 따라 보건복지부장관에게 이의를 신청할 수 있다.\n② 보건복지부장관은 제1항에 따른 이의신청에 대하여 위원회의 심사ㆍ의결을 거쳐 60일 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "영전의 수여 등",
+    "body": "제7조(영전의 수여 등)\n국가는 의사상자가 보여준 살신성인의 숭고한 희생정신과 용기가 항구적으로 존중되고 사회의 귀감이 될 수 있도록 「상훈법」으로 정하는 바에 따라 영전의 수여 등 필요한 조치를 할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": "2",
+    "title": "기념사업",
+    "body": "제7조의2(기념사업)\n① 국가와 지방자치단체는 의사자를 추모하고 숭고한 뜻을 기리기 위한 동상 및 비석 등의 기념물을 설치하는 기념사업(이하 이 조에서 \"기념사업\"이라 한다)을 수행할 수 있다.\n② 국가는 지방자치단체가 기념사업을 수행하는 경우 예산의 범위에서 비용의 전부 또는 일부를 보조할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0007021"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "보상금",
+    "body": "제8조(보상금)\n① 국가는 의상자 및 의사자유족에게 보상금을 지급한다. 다만, 다른 법률에 따라 국가 또는 지방자치단체로부터 보상금을 지급받은 때에는 그 금액에 상당한 보상금을 지급하지 아니한다.\n② 보상금의 지급수준은 「통계법」 제3조제2호에 따라 국가데이터처장이 지정하여 고시하는 통계 중 가계조사통계의 전국가구 가계소",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "물건의 멸실ㆍ훼손에 대한 보상금",
+    "body": "제9조(물건의 멸실ㆍ훼손에 대한 보상금)\n① 국가는 의사상자의 구조행위로 인하여 의사상자의 물건이 멸실ㆍ훼손된 때에는 의상자 또는 의사자유족에게 그 손해액에 상당한 보상금을 지급한다. 다만, 다른 법률에 따라 손해배상을 받은 경우는 그러하지 아니하다.\n② 제1항의 보상금액은 그 물건의 교환가격 또는 필요한 수리비로 한다.",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "보상금 지급순위",
+    "body": "제10조(보상금 지급순위)\n① 제8조 및 제9조에 따른 보상금(이하 \"보상금\"이라 한다)은 의상자의 경우에는 그 본인에게, 의사자유족의 경우에는 그 배우자ㆍ자녀ㆍ부모ㆍ조부모 및 형제자매의 순으로 지급한다. 이 경우 같은 순위의 유족이 2인 이상인 때에는 보상금을 같은 금액으로 나누어 지급한다.\n② 태아는 제1항에 따른 지",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "의료급여",
+    "body": "제11조(의료급여)\n① 의상자 및 의사자유족에 대하여 그 신청에 따라 「의료급여법」이 정하는 의료급여를 실시한다. 다만, 대통령령으로 정하는 경미한 신체상의 부상을 입은 의상자는 그러하지 아니하다.\n② 제1항에 따른 의료급여는 의사상자가 구조행위를 한 때부터 실시한다. 이 경우 의료급여를 실시하기 전에 의상자 또는 의사자",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "교육보호",
+    "body": "제12조(교육보호)\n의사자의 자녀 및 의상자와 그 자녀에 대하여 그 신청에 따라 「국민기초생활 보장법」으로 정하는 교육급여를 실시한다. 다만, 대통령령으로 정하는 경미한 신체상의 부상을 입은 의상자 및 그 자녀는 그러하지 아니하다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "취업보호",
+    "body": "제13조(취업보호)\n의상자ㆍ의사자유족 및 의상자가족의 생활안정을 도모하기 위하여 대통령령으로 정하는 바에 따라 취업보호를 실시한다. 다만, 대통령령으로 정하는 경미한 신체상의 부상을 입은 의상자 및 그 가족은 그러하지 아니하다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "장제보호",
+    "body": "제14조(장제보호)\n의사자에 대하여는 「국민기초생활 보장법」으로 정하는 장제급여를 실시한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "고궁 등의 이용 지원",
+    "body": "제15조(고궁 등의 이용 지원)\n의상자ㆍ의사자유족 및 의상자가족 중 대통령령으로 정하는 사람에게는 대통령령으로 정하는 바에 따라 국가나 지방자치단체가 관리하는 고궁과 공원 등의 시설을 무료로 이용하게 하거나 그 요금을 할인할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "보호기관",
+    "body": "제16조(보호기관)\n제8조부터 제14조까지의 규정에 따른 보상금지급ㆍ의료급여ㆍ교육보호ㆍ취업보호 및 장제보호의 실시는 관할 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장이 행한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "권리의 보호",
+    "body": "제17조(권리의 보호)\n이 법에 따른 보상금의 지급을 받을 권리는 이를 양도 또는 담보로 제공하거나 압류할 수 없다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "신청기간의 제한",
+    "body": "제18조(신청기간의 제한)\n제8조부터 제14조까지의 규정에 따른 보상금지급ㆍ의료급여ㆍ교육보호ㆍ취업보호 및 장제보호는 의사상자 인정결정을 통보받은 날(교육보호의 경우 그 통보를 받은 날 당시에 교육보호사유가 없는 경우에는 이후에 교육보호사유가 발생한 날을 말한다)부터 3년이 지나면 신청할 수 없다. <개정 2011.8.4>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "보상금의 환수 등",
+    "body": "제19조(보상금의 환수 등)\n① 보건복지부장관 또는 보호기관은 거짓이나 그 밖의 부정한 방법으로 이 법에 따른 보상금 또는 보호를 받은 사람에 대하여 그가 받은 보상금 또는 보호에 사용된 비용을 환수한다. <개정 2008.2.29, 2010.1.18>\n② 보건복지부장관 또는 보호기관은 제1항에 따라 환수를 하는 경우 해당",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "벌칙 적용에서 공무원 의제",
+    "body": "제20조(벌칙 적용에서 공무원 의제)\n위원회의 위원 중 공무원이 아닌 위원은 「형법」 제127조 및 제129조부터 제132조까지의 규정에 따른 벌칙을 적용할 때에는 공무원으로 본다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제21조(벌칙)\n① 거짓이나 그 밖의 부정한 방법으로 이 법에 따른 보상금, 보호 또는 지원을 받은 사람이나 보상금, 보호 또는 지원을 받게 한 사람은 5년 이하의 징역 또는 5천만원 이하의 벌금에 처한다.\n② 제1항의 미수범은 처벌한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0021001"
+   }
+  ],
+  "article_count": 23,
+  "articles_shown": 23,
+  "articles_truncated_bodies": 11,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1042760",
+    "name": "의왕시 의로운 시민 등에 대한 예우 및 지원에 관한 조례",
+    "region_id": "41430",
+    "org_name": "경기도 의왕시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1042760&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1083919",
+    "name": "포천시 포천아트밸리 천문과학관 설치 및 운영 조례",
+    "region_id": "41650",
+    "org_name": "경기도 포천시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1083919&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1109110",
+    "name": "밀양시 의사상자 예우 및 지원에 관한 조례",
+    "region_id": "48270",
+    "org_name": "경상남도 밀양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1109110&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1191570",
+    "name": "대전광역시 중구 의사상자 등 예우 및 지원에 관한 조례",
+    "region_id": "30140",
+    "org_name": "대전광역시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1191570&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1195358",
+    "name": "아산시 의로운 시민 등에 대한 예우 및 지원에 관한 조례",
+    "region_id": "44200",
+    "org_name": "충청남도 아산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1195358&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1253777",
+    "name": "완도군 의로운 군민 등에 대한 예우 및 지원에 관한 조례",
+    "region_id": "12850",
+    "org_name": "전남광주통합특별시 완도군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1253777&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1261082",
+    "name": "논산시 의사상자 예우 및 지원에 관한 조례",
+    "region_id": "44230",
+    "org_name": "충청남도 논산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1261082&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1261093",
+    "name": "칠곡군 주차장 조례",
+    "region_id": "47850",
+    "org_name": "경상북도 칠곡군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1261093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1262764",
+    "name": "구미시 저소득주민 자녀 교복구입비 지원에 관한 조례",
+    "region_id": "47190",
+    "org_name": "경상북도 구미시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1262764&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1263854",
+    "name": "대전광역시 동구 의사상자 등 예우 및 지원에 관한 조례",
+    "region_id": "30110",
+    "org_name": "대전광역시 동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1263854&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1280743",
+    "name": "서울특별시 성북구 의사상자 등 예우 및 지원 조례",
+    "region_id": "11290",
+    "org_name": "서울특별시 성북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1280743&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1338676",
+    "name": "서울특별시 강북구 의사상자 등 예우 및 지원에 관한 조례",
+    "region_id": "11305",
+    "org_name": "서울특별시 강북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1338676&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1346434",
+    "name": "임실군 의사상자 등 예우 및 지원에 관한 조례",
+    "region_id": "52750",
+    "org_name": "전북특별자치도 임실군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1346434&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1352154",
+    "name": "서울특별시 동작구 의사상자 등 예우 및 지원에 관한 조례",
+    "region_id": "11590",
+    "org_name": "서울특별시 동작구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1352154&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1359369",
+    "name": "청원군 체육시설의 설치 및 운영조례",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1359369&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1359375",
+    "name": "청원군 문의문화재단지 관리운영에 관한 조례",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1359375&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1360151",
+    "name": "청원군 옥화자연휴양림 관리 및 운영조례",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1360151&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1361678",
+    "name": "서울특별시 강동구 의사상자 등 예우 및 지원에 관한 조례",
+    "region_id": "11740",
+    "org_name": "서울특별시 강동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1361678&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1362265",
+    "name": "시흥시 의사상자 등에 대한 예우 및 지원에 관한 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1362265&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1374360",
+    "name": "서울특별시 종로구 의사상자 등 예우 및 지원에 관한 조례",
+    "region_id": "11110",
+    "org_name": "서울특별시 종로구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1374360&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

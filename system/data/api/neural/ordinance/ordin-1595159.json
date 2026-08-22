@@ -1,0 +1,769 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1595159",
+   "key": "ordin-1595159",
+   "mst": "1595159",
+   "name": "서울특별시 금천구 장애인 고용촉진 및 직업재활 지원에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "11545",
+   "sig_cd": "11545",
+   "region_name": "서울특별시 금천구",
+   "org_name": "서울특별시 금천구",
+   "enacted_on": "20210513",
+   "effective_on": "20210513",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 10,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1595159",
+   "categories": [
+    {
+     "code": "C11",
+     "name": "경제·산업·일자리",
+     "confidence": 0.5385,
+     "method": "rule"
+    },
+    {
+     "code": "C03",
+     "name": "복지·돌봄",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.896287,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1957879",
+      "key": "ordin-1957879",
+      "name": "서울특별시 금천구 장애인 보조견 생활이용편의 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20240718",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1957879",
+      "categories": [
+       "C03",
+       "C10"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.893375,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1910989",
+      "key": "ordin-1910989",
+      "name": "서울특별시 금천구 노인급식 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20240308",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1910989",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.886175,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2008757",
+      "key": "ordin-2008757",
+      "name": "서울특별시 금천구 청렴도 향상 및 부패방지 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20250103",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2008757",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.885373,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1339858",
+      "key": "ordin-1339858",
+      "name": "서울특별시 금천구 도시녹화 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20180227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1339858",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.879041,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1910979",
+      "key": "ordin-1910979",
+      "name": "서울특별시 금천구 중장년 창업 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20240308",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1910979",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.875154,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1936243",
+      "key": "ordin-1936243",
+      "name": "서울특별시 금천구 문화체육시설의 설치 및 운영·관리에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20240607",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1936243",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.873778,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1440031",
+      "key": "ordin-1440031",
+      "name": "서울특별시 금천구 도서관 설치 및 운영에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20191231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1440031",
+      "categories": [
+       "C13",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.872557,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2017123",
+      "key": "ordin-2017123",
+      "name": "서울특별시 금천구 주민고용보조금 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20250228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2017123",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.868726,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2060219",
+      "key": "ordin-2060219",
+      "name": "서울특별시 금천구 청년 창업 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20250724",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060219",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.868697,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2112347",
+      "key": "ordin-2112347",
+      "name": "서울특별시 금천구의회 청렴도 향상 및 부패방지 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20260226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2112347",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.986717,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1725209",
+      "key": "ordin-1725209",
+      "name": "서울특별시 금천구 구로공단 노동자생활체험관 설치 및 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20220815",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1725209",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.984004,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1736771",
+      "key": "ordin-1736771",
+      "name": "서울특별시 금천구 어린이놀이시설 안전관리 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20221015",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1736771",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.983026,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2112333",
+      "key": "ordin-2112333",
+      "name": "서울특별시 금천구 공동주택관리 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20260226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2112333",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.982765,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1440285",
+      "key": "ordin-1440285",
+      "name": "서울특별시 금천구 공무원 직무발명 보상조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20191231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1440285",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.982666,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2060263",
+      "key": "ordin-2060263",
+      "name": "서울특별시 금천구 발달장애인의 사회활동을 위한 보험 가입 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20250724",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060263",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.982645,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2075907",
+      "key": "ordin-2075907",
+      "name": "서울특별시 금천구 사무의 민간위탁에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20251002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2075907",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.982231,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1286825",
+      "key": "ordin-1286825",
+      "name": "서울특별시 금천구 자치분권 촉진 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20170515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1286825",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.98212,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2075903",
+      "key": "ordin-2075903",
+      "name": "서울특별시 금천구 구세 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20251002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2075903",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.982103,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1839871",
+      "key": "ordin-1839871",
+      "name": "서울특별시 금천구 결산서 등의 제출 및 예비비 지출 승인에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20230720",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1839871",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.982015,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2008765",
+      "key": "ordin-2008765",
+      "name": "서울특별시 금천구 청년친화도시 조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20250103",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2008765",
+      "categories": [
+       "C05",
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.993248,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1616229",
+      "key": "ordin-1616229",
+      "name": "서울특별시 금천구 공직자윤리위원회 구성과 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20210709",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1616229",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99285,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1617287",
+      "key": "ordin-1617287",
+      "name": "서울특별시 금천구 재난현장 통합자원봉사지원단 구성 및 운영 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20210709",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1617287",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.992696,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1215005",
+      "key": "ordin-1215005",
+      "name": "서울특별시 금천구 별정직공무원 자진퇴직수당지급에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20160105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1215005",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991845,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1931271",
+      "key": "ordin-1931271",
+      "name": "서울특별시 금천구의회 의원의 의정활동비 등 지급에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20240520",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1931271",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.991583,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1322687",
+      "key": "ordin-1322687",
+      "name": "서울특별시 금천구 생활소음 및 비산먼지 저감 실천에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20171229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1322687",
+      "categories": [
+       "C07",
+       "C06"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.991157,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2106683",
+      "key": "ordin-2106683",
+      "name": "서울특별시 금천구 디지털재난 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20260108",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2106683",
+      "categories": [
+       "C08",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.99092,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2075943",
+      "key": "ordin-2075943",
+      "name": "서울특별시 금천구 정원문화 조성 및 진흥에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20251002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2075943",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.99089,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2125393",
+      "key": "ordin-2125393",
+      "name": "서울특별시 금천구 지방공무원 인사규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20260423",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2125393",
+      "categories": [
+       "C01",
+       "C06"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990849,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1856107",
+      "key": "ordin-1856107",
+      "name": "서울특별시 금천구 인구정책 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20230720",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1856107",
+      "categories": [
+       "C04",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990834,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1777259",
+      "key": "ordin-1777259",
+      "name": "서울특별시 금천구 공무직 고용안정과 권익보호에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20230110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1777259",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

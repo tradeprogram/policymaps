@@ -1,0 +1,686 @@
+{
+ "data": {
+  "region": {
+   "region_id": "11320",
+   "sig_cd": "11320",
+   "name": "도봉구",
+   "full_name": "서울특별시 도봉구",
+   "level": 2
+  },
+  "counts": {
+   "total": 674,
+   "active": 578,
+   "repealed": 96,
+   "by_rr_cls_cd": {
+    "일부개정": 304,
+    "전부개정": 52,
+    "제정": 222,
+    "폐지": 96
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1991,
+    "n": 1
+   },
+   {
+    "year": 1994,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 2
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 11
+   },
+   {
+    "year": 2013,
+    "n": 9
+   },
+   {
+    "year": 2014,
+    "n": 14
+   },
+   {
+    "year": 2015,
+    "n": 14
+   },
+   {
+    "year": 2016,
+    "n": 12
+   },
+   {
+    "year": 2017,
+    "n": 27
+   },
+   {
+    "year": 2018,
+    "n": 21
+   },
+   {
+    "year": 2019,
+    "n": 32
+   },
+   {
+    "year": 2020,
+    "n": 60
+   },
+   {
+    "year": 2021,
+    "n": 101
+   },
+   {
+    "year": 2022,
+    "n": 66
+   },
+   {
+    "year": 2023,
+    "n": 95
+   },
+   {
+    "year": 2024,
+    "n": 62
+   },
+   {
+    "year": 2025,
+    "n": 77
+   },
+   {
+    "year": 2026,
+    "n": 48
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 8
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 5
+   },
+   {
+    "year": 2016,
+    "n": 1
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 3
+   },
+   {
+    "year": 2019,
+    "n": 3
+   },
+   {
+    "year": 2020,
+    "n": 10
+   },
+   {
+    "year": 2021,
+    "n": 18
+   },
+   {
+    "year": 2022,
+    "n": 11
+   },
+   {
+    "year": 2023,
+    "n": 9
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 5
+   },
+   {
+    "year": 2026,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원 재정보증 조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한과태료부과징수규칙",
+    "display_name": "부동산중개업법 위반자에 대한 과태료 부과·징수 규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   },
+   {
+    "policy_key": "여성발전기본조례",
+    "display_name": "여성발전기본 조례",
+    "rows": 1,
+    "nationwide_regions": 57
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례",
+    "display_name": "사회단체보조금 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 51
+   },
+   {
+    "policy_key": "금연환경조성및지원에관한조례",
+    "display_name": "금연 환경조성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "사회적기업육성및지원에관한조례",
+    "display_name": "사회적기업 육성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 48
+   },
+   {
+    "policy_key": "의회위원회조례",
+    "display_name": "의회 위원회 조례",
+    "rows": 1,
+    "nationwide_regions": 47
+   },
+   {
+    "policy_key": "도시디자인조례",
+    "display_name": "도시디자인 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "노인복지기금설치및운용조례",
+    "display_name": "노인복지기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 37
+   },
+   {
+    "policy_key": "지방보조사업자의법령위반등에대한신고포상금지급에관한규칙",
+    "display_name": "지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 35
+   },
+   {
+    "policy_key": "다문화가족지원조례",
+    "display_name": "다문화가족 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 33
+   },
+   {
+    "policy_key": "지역정보화촉진조례시행규칙",
+    "display_name": "지역정보화 촉진 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 29
+   },
+   {
+    "policy_key": "수입증지조례시행규칙",
+    "display_name": "수입증지조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 28
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2127973",
+    "name": "서울특별시 도봉구 생활안정자금 특별회계 운용·관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-05-07",
+    "repealed_on": "2026-05-07",
+    "repealed_on_raw": "20260507",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127973&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126479",
+    "name": "서울특별시 도봉구 생활안정자금 특별회계 운용·관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-30",
+    "repealed_on": "2026-04-30",
+    "repealed_on_raw": "20260430",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126479&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2112281",
+    "name": "서울특별시 도봉구 회계관계공무원 재정보증 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-26",
+    "repealed_on": "2026-02-26",
+    "repealed_on_raw": "20260226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2112281&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2101255",
+    "name": "서울특별시 도봉구 도농상생 공공급식 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-31",
+    "repealed_on": "2025-12-31",
+    "repealed_on_raw": "20251231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2101255&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2067463",
+    "name": "서울특별시 도봉구 청소년·아동지도위원 위촉에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-09-18",
+    "repealed_on": "2025-09-18",
+    "repealed_on_raw": "20250918",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2067463&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2062679",
+    "name": "서울특별시 도봉구 문화예술혁신교육특구 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-08-07",
+    "repealed_on": "2025-08-07",
+    "repealed_on_raw": "20250807",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2062679&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2037435",
+    "name": "서울특별시 도봉구 주식회사 설립 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-15",
+    "repealed_on": "2025-05-15",
+    "repealed_on_raw": "20250515",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2037435&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2021247",
+    "name": "서울특별시 도봉구 지역정보화 촉진 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-03-13",
+    "repealed_on": "2025-03-13",
+    "repealed_on_raw": "20250313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021247&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1910605",
+    "name": "서울특별시 도봉구 투자사업심사에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-03-07",
+    "repealed_on": "2024-03-07",
+    "repealed_on_raw": "20240307",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910605&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1890299",
+    "name": "서울특별시 도봉구의회 의원연구단체 구성 및 지원 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-28",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1890299&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1890259",
+    "name": "서울특별시 도봉구 인터넷시스템 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-28",
+    "repealed_on": "2023-12-28",
+    "repealed_on_raw": "20231228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1890259&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1874621",
+    "name": "서울특별시도봉구쓰레기줄이기와자원재활용촉진에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-16",
+    "repealed_on": "2023-11-16",
+    "repealed_on_raw": "20231116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1874621&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1868093",
+    "name": "서울특별시 도봉구 청소년미래카드 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-02",
+    "repealed_on": "2023-11-02",
+    "repealed_on_raw": "20231102",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1868093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851077",
+    "name": "서울특별시 도봉구 도시 및 주거환경정비사업 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-09-14",
+    "repealed_on": "2023-09-14",
+    "repealed_on_raw": "20230914",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1817355",
+    "name": "서울특별시도봉구통계사무처리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-06-08",
+    "repealed_on": "2023-08-01",
+    "repealed_on_raw": "20230801",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1817355&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1817359",
+    "name": "서울특별시 도봉구 공공근로사업 추진위원회 설치 및 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-06-08",
+    "repealed_on": "2023-06-08",
+    "repealed_on_raw": "20230608",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1817359&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1815189",
+    "name": "서울특별시 도봉구 도시 및 주거환경정비사업 시행 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-01",
+    "repealed_on": "2023-06-01",
+    "repealed_on_raw": "20230601",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1815189&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1800573",
+    "name": "서울특별시도봉구통합관리기금설치조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-13",
+    "repealed_on": "2023-04-13",
+    "repealed_on_raw": "20230413",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1800573&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1784873",
+    "name": "서울특별시 도봉구 불용의약품 등 관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-23",
+    "repealed_on": "2023-02-23",
+    "repealed_on_raw": "20230223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1784873&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1765725",
+    "name": "서울특별시 도봉구 기후변화 대응에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-29",
+    "repealed_on": "2022-12-29",
+    "repealed_on_raw": "20221229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1765725&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1765729",
+    "name": "서울특별시 도봉구 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-29",
+    "repealed_on": "2022-12-29",
+    "repealed_on_raw": "20221229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1765729&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1765773",
+    "name": "서울특별시 도봉구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-29",
+    "repealed_on": "2022-12-29",
+    "repealed_on_raw": "20221229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1765773&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1745369",
+    "name": "서울특별시 도봉구 장애인 학생 교복구입비 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-08",
+    "repealed_on": "2022-11-08",
+    "repealed_on_raw": "20221108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1745369&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1723675",
+    "name": "서울특별시 도봉구 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-18",
+    "repealed_on": "2022-08-18",
+    "repealed_on_raw": "20220818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1723675&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1722005",
+    "name": "서울특별시 도봉구 여성구정평가단 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-12",
+    "repealed_on": "2022-08-12",
+    "repealed_on_raw": "20220812",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1722005&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1691477",
+    "name": "서울특별시 도봉구 구민감사관 운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-03-17",
+    "repealed_on": "2022-03-17",
+    "repealed_on_raw": "20220317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1691477&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1683081",
+    "name": "서울특별시 도봉구 아동·여성 안전에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-02-10",
+    "repealed_on": "2022-02-10",
+    "repealed_on_raw": "20220210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1683081&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664347",
+    "name": "서울특별시 도봉구의회에 출석하여 답변 할 수 있는 관계공무원 등의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664347&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664349",
+    "name": "서울특별시 도봉구의회 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664355",
+    "name": "서울특별시 도봉구의회 회기 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664355&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664373",
+    "name": "서울특별시 도봉구 구민청(區民聽) 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664373&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664375",
+    "name": "서울특별시 도봉구 김수영문학관 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664375&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664435",
+    "name": "서울특별시 도봉구 노인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664435&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664371",
+    "name": "서울특별시 도봉구 둘리뮤지엄 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664379",
+    "name": "서울특별시 도봉구 함석헌기념관 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664379&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632507",
+    "name": "서울특별시 도봉구 외국인 치안봉사단 설치 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-07",
+    "repealed_on": "2021-10-07",
+    "repealed_on_raw": "20211007",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632507&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1625749",
+    "name": "서울특별시 도봉구 사회적기업 육성 및 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2021-09-23",
+    "repealed_on_raw": "20210923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1625749&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1625729",
+    "name": "서울특별시도봉구새마을장학금지급조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2021-09-23",
+    "repealed_on_raw": "20210923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1625729&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1625745",
+    "name": "서울특별시도봉구통장자녀장학금지급조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2021-09-23",
+    "repealed_on_raw": "20210923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1625745&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1624801",
+    "name": "서울특별시 도봉구 교육발전협의회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-16",
+    "repealed_on": "2021-09-16",
+    "repealed_on_raw": "20210916",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1624801&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 2,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "11320"
+ ]
+}

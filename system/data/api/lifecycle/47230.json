@@ -1,0 +1,710 @@
+{
+ "data": {
+  "region": {
+   "region_id": "47230",
+   "sig_cd": "47230",
+   "name": "영천시",
+   "full_name": "경상북도 영천시",
+   "level": 2
+  },
+  "counts": {
+   "total": 591,
+   "active": 525,
+   "repealed": 66,
+   "by_rr_cls_cd": {
+    "일부개정": 344,
+    "전부개정": 19,
+    "제정": 162,
+    "폐지": 66
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 9
+   },
+   {
+    "year": 2010,
+    "n": 20
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 9
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 14
+   },
+   {
+    "year": 2015,
+    "n": 16
+   },
+   {
+    "year": 2016,
+    "n": 23
+   },
+   {
+    "year": 2017,
+    "n": 16
+   },
+   {
+    "year": 2018,
+    "n": 10
+   },
+   {
+    "year": 2019,
+    "n": 33
+   },
+   {
+    "year": 2020,
+    "n": 31
+   },
+   {
+    "year": 2021,
+    "n": 23
+   },
+   {
+    "year": 2022,
+    "n": 103
+   },
+   {
+    "year": 2023,
+    "n": 81
+   },
+   {
+    "year": 2024,
+    "n": 75
+   },
+   {
+    "year": 2025,
+    "n": 84
+   },
+   {
+    "year": 2026,
+    "n": 22
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 1
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 9
+   },
+   {
+    "year": 2015,
+    "n": 5
+   },
+   {
+    "year": 2016,
+    "n": 2
+   },
+   {
+    "year": 2017,
+    "n": 6
+   },
+   {
+    "year": 2019,
+    "n": 2
+   },
+   {
+    "year": 2020,
+    "n": 3
+   },
+   {
+    "year": 2021,
+    "n": 3
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 6
+   },
+   {
+    "year": 2024,
+    "n": 1
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직 공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로 무단점용자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로 무단점용자에 대한 과태료 부과·징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민 자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민 자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영 상황의 공개 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2123223",
+    "name": "영천시 농공지구조성사업특별회계 설치 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-15",
+    "repealed_on": "2026-04-15",
+    "repealed_on_raw": "20260415",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2123223&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1930609",
+    "name": "영천시 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-05-17",
+    "repealed_on": "2024-05-17",
+    "repealed_on_raw": "20240517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1930609&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1895915",
+    "name": "영천시 주거환경개선지구 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1895915&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1833543",
+    "name": "영천시 복지위원 정수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-07",
+    "repealed_on": "2023-07-07",
+    "repealed_on_raw": "20230707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1833543&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1838735",
+    "name": "영천시 청소년 지도육성 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-07",
+    "repealed_on": "2023-07-07",
+    "repealed_on_raw": "20230707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1838735&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1833559",
+    "name": "영천시 지역정보화 촉진 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-07-07",
+    "repealed_on": "2023-07-07",
+    "repealed_on_raw": "20230707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1833559&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1816665",
+    "name": "영천시 재해대책기금 운영관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-06-05",
+    "repealed_on": "2023-06-05",
+    "repealed_on_raw": "20230605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816665&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1801439",
+    "name": "영천시 장애인복지위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-14",
+    "repealed_on": "2023-04-14",
+    "repealed_on_raw": "20230414",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1801439&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1772397",
+    "name": "영천시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-31",
+    "repealed_on": "2022-12-31",
+    "repealed_on_raw": "20221231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1772397&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1696055",
+    "name": "영천시 각종 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-08",
+    "repealed_on": "2022-04-08",
+    "repealed_on_raw": "20220408",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1696055&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1675409",
+    "name": "영천시 주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-07",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1675409&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1631585",
+    "name": "영천시 간이상수도·소규모급수시설 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-09-28",
+    "repealed_on": "2021-09-28",
+    "repealed_on_raw": "20210928",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1631585&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1602819",
+    "name": "영천시 체육진흥협의회 조직 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-08",
+    "repealed_on": "2021-06-08",
+    "repealed_on_raw": "20210608",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602819&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1577459",
+    "name": "영천시 건강생활실천협의회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-26",
+    "repealed_on": "2021-02-26",
+    "repealed_on_raw": "20210226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1577459&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1559529",
+    "name": "영천시 주민소득지원 및 생활안정기금 운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-28",
+    "repealed_on": "2020-12-28",
+    "repealed_on_raw": "20201228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1559529&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1565977",
+    "name": "영천시 주민소득지원생활안정기금 운영관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-28",
+    "repealed_on": "2020-12-28",
+    "repealed_on_raw": "20201228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1565977&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1572801",
+    "name": "영천시 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-10",
+    "repealed_on": "2020-11-10",
+    "repealed_on_raw": "20201110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1572801&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1422391",
+    "name": "영천시 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-18",
+    "repealed_on": "2019-11-18",
+    "repealed_on_raw": "20191118",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422391&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1422745",
+    "name": "영천시 지방공무원 임용후보자 장학 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-18",
+    "repealed_on": "2019-11-18",
+    "repealed_on_raw": "20191118",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422745&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1342010",
+    "name": "영천시 사회적기업 육성 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-29",
+    "repealed_on": "2017-12-29",
+    "repealed_on_raw": "20171229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1342010&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1325999",
+    "name": "영천시 주차장 조례 시행 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-12-29",
+    "repealed_on": "2017-12-29",
+    "repealed_on_raw": "20171229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1325999&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1288350",
+    "name": "영천시 지방공무원 징계의 양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-05-30",
+    "repealed_on": "2017-05-30",
+    "repealed_on_raw": "20170530",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1288350&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1284990",
+    "name": "영천시 특수목적법인 설립 및 출자 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-04-18",
+    "repealed_on": "2017-04-18",
+    "repealed_on_raw": "20170418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1284990&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1279224",
+    "name": "영천시 농촌보육·정보센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-02-28",
+    "repealed_on": "2017-02-28",
+    "repealed_on_raw": "20170228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1279224&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1279225",
+    "name": "영천시 농촌보육·정보센터 설치 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-02-28",
+    "repealed_on": "2017-02-28",
+    "repealed_on_raw": "20170228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1279225&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1269851",
+    "name": "영천시 여성발전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-26",
+    "repealed_on": "2016-12-26",
+    "repealed_on_raw": "20161226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1269851&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1264642",
+    "name": "영천시 지방계약직 공무원 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-11-16",
+    "repealed_on": "2016-11-16",
+    "repealed_on_raw": "20161116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1264642&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1206447",
+    "name": "영천시 도로 무단점용자에 대한 과태료 부과·징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-21",
+    "repealed_on": "2015-12-21",
+    "repealed_on_raw": "20151221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1206447&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1206502",
+    "name": "영천시 국민 건강증진법 위반자에 대한 과태료 부과·징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-21",
+    "repealed_on": "2015-12-21",
+    "repealed_on_raw": "20151221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1206502&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1206501",
+    "name": "영천시 도로 무단점용자에 대한 과태료 부과·징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-21",
+    "repealed_on": "2015-12-21",
+    "repealed_on_raw": "20151221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1206501&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1203064",
+    "name": "영천시 문화예술 공간 및 건축물에 대한 미술장식 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-11-20",
+    "repealed_on": "2015-11-20",
+    "repealed_on_raw": "20151120",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1203064&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1130903",
+    "name": "영천시 이장 정수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-07-01",
+    "repealed_on": "2015-07-01",
+    "repealed_on_raw": "20150701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1130903&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1127865",
+    "name": "영천시립도서관 설치 및 사용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-31",
+    "repealed_on": "2014-12-31",
+    "repealed_on_raw": "20141231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1127865&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1012083",
+    "name": "영천시 지방별정직 공무원의 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-31",
+    "repealed_on": "2014-12-31",
+    "repealed_on_raw": "20141231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1012083&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1127868",
+    "name": "영천시립 도서관 열람 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2014-12-31",
+    "repealed_on": "2014-12-31",
+    "repealed_on_raw": "20141231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1127868&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:764542",
+    "name": "영천시 사회단체 보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-04",
+    "repealed_on": "2014-12-04",
+    "repealed_on_raw": "20141204",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=764542&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:822088",
+    "name": "영천시 1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-10-15",
+    "repealed_on": "2014-10-15",
+    "repealed_on_raw": "20141015",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=822088&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1041264",
+    "name": "영천시 환경관련 과태료 부과ㆍ징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-10-15",
+    "repealed_on": "2014-10-15",
+    "repealed_on_raw": "20141015",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1041264&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:989420",
+    "name": "「도로명주소법」개정에 따른 「영천시 행정기구 설치 조례」등의 정비에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-08-06",
+    "repealed_on": "2014-08-06",
+    "repealed_on_raw": "20140806",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=989420&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1127726",
+    "name": "영천시 지방공업단지 조성 및 분양에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-08-06",
+    "repealed_on": "2014-08-06",
+    "repealed_on_raw": "20140806",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1127726&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "47230"
+ ]
+}

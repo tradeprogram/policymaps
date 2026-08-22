@@ -1,0 +1,722 @@
+{
+ "data": {
+  "region": {
+   "region_id": "47840",
+   "sig_cd": "47840",
+   "name": "성주군",
+   "full_name": "경상북도 성주군",
+   "level": 2
+  },
+  "counts": {
+   "total": 501,
+   "active": 452,
+   "repealed": 49,
+   "by_rr_cls_cd": {
+    "일부개정": 302,
+    "전부개정": 16,
+    "제정": 134,
+    "폐지": 49
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1984,
+    "n": 1
+   },
+   {
+    "year": 1989,
+    "n": 3
+   },
+   {
+    "year": 1992,
+    "n": 1
+   },
+   {
+    "year": 1994,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2000,
+    "n": 2
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 6
+   },
+   {
+    "year": 2012,
+    "n": 8
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 10
+   },
+   {
+    "year": 2015,
+    "n": 15
+   },
+   {
+    "year": 2016,
+    "n": 14
+   },
+   {
+    "year": 2017,
+    "n": 18
+   },
+   {
+    "year": 2018,
+    "n": 41
+   },
+   {
+    "year": 2019,
+    "n": 17
+   },
+   {
+    "year": 2020,
+    "n": 25
+   },
+   {
+    "year": 2021,
+    "n": 20
+   },
+   {
+    "year": 2022,
+    "n": 110
+   },
+   {
+    "year": 2023,
+    "n": 27
+   },
+   {
+    "year": 2024,
+    "n": 53
+   },
+   {
+    "year": 2025,
+    "n": 70
+   },
+   {
+    "year": 2026,
+    "n": 26
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 3
+   },
+   {
+    "year": 2015,
+    "n": 5
+   },
+   {
+    "year": 2016,
+    "n": 1
+   },
+   {
+    "year": 2017,
+    "n": 2
+   },
+   {
+    "year": 2018,
+    "n": 8
+   },
+   {
+    "year": 2020,
+    "n": 5
+   },
+   {
+    "year": 2022,
+    "n": 1
+   },
+   {
+    "year": 2023,
+    "n": 5
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2025,
+    "n": 2
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계 양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성 검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민 자녀장학금 지급조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민 자녀장학금 지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계설치및운영조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수규칙",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수규칙",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "호적과태료부과징수조례",
+    "display_name": "호적과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 62
+   },
+   {
+    "policy_key": "재정운영상황의공개조례시행규칙",
+    "display_name": "재정운영상황의공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   },
+   {
+    "policy_key": "계획관리지역안에서의공장건축가능지역지정에관한조례",
+    "display_name": "계획관리지역 안에서의 공장건축 가능지역 지정에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 32
+   },
+   {
+    "policy_key": "지방별정직공무원의범위에관한조례",
+    "display_name": "지방별정직공무원의 범위에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 29
+   },
+   {
+    "policy_key": "사회적기업육성지원에관한조례",
+    "display_name": "사회적기업 육성지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 28
+   },
+   {
+    "policy_key": "새마을소득사업운영관리조례",
+    "display_name": "새마을소득사업 운영관리 조례",
+    "rows": 1,
+    "nationwide_regions": 28
+   },
+   {
+    "policy_key": "지방공업단지조성및분양에관한조례",
+    "display_name": "지방공업단지조성및분양에관한조례",
+    "rows": 1,
+    "nationwide_regions": 27
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2114093",
+    "name": "성주군 새마을소득사업 운영관리 조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-03-04",
+    "repealed_on": "2026-03-04",
+    "repealed_on_raw": "20260304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2100819",
+    "name": "성주군 비지정관광지 쓰레기수거 수수료 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-26",
+    "repealed_on": "2025-12-26",
+    "repealed_on_raw": "20251226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100819&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2100807",
+    "name": "성주군 새마을소득사업 운영관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-26",
+    "repealed_on": "2025-12-26",
+    "repealed_on_raw": "20251226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100807&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1417239",
+    "name": "성주군 저소득주민 자녀장학금 지급조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-03-27",
+    "repealed_on": "2024-03-27",
+    "repealed_on_raw": "20240327",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1910131",
+    "name": "성주군 노인복지기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-29",
+    "repealed_on": "2024-02-29",
+    "repealed_on_raw": "20240229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910131&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937313",
+    "name": "성주군노인복지기금설치및운용에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-02-29",
+    "repealed_on": "2024-02-29",
+    "repealed_on_raw": "20240229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937313&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896269",
+    "name": "성주군 정책실명제 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896269&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1885653",
+    "name": "성주군 저소득주민 생활안정자금 융자 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1885653&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1885651",
+    "name": "성주군 저소득주민 자녀장학금 지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1885651&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1891919",
+    "name": "성주군 저소득주민 생활안정자금 융자 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891919&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1878351",
+    "name": "성주군새마을소득특별지원사업자금운영관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-01",
+    "repealed_on": "2023-12-01",
+    "repealed_on_raw": "20231201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1878351&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1689967",
+    "name": "성주군 사전재해영향성 검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-10",
+    "repealed_on": "2022-03-10",
+    "repealed_on_raw": "20220310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1689967&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1557485",
+    "name": "성주군 지방별정직공무원의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-24",
+    "repealed_on": "2020-12-24",
+    "repealed_on_raw": "20201224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1557485&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1557481",
+    "name": "성주군 지방별정직공무원의 임용 등에 관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-24",
+    "repealed_on": "2020-12-24",
+    "repealed_on_raw": "20201224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1557481&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1557479",
+    "name": "성주군지방계약직공무원시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-24",
+    "repealed_on": "2020-12-24",
+    "repealed_on_raw": "20201224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1557479&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1557483",
+    "name": "성주군 지방별정직공무원의 임용 등에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-24",
+    "repealed_on": "2020-12-24",
+    "repealed_on_raw": "20201224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1557483&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1551257",
+    "name": "성주군토지분할허가조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-10",
+    "repealed_on": "2020-12-10",
+    "repealed_on_raw": "20201210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1551257&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1376454",
+    "name": "성주군 폐기물 관련 과태료 부과·징수 업무에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1376454&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1376461",
+    "name": "성주군가축사육제한에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1376461&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1343976",
+    "name": "성주군 계획관리지역 안에서의 공장건축 가능지역 지정에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-04-09",
+    "repealed_on": "2018-04-09",
+    "repealed_on_raw": "20180409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1343976&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1343972",
+    "name": "성주군공유재산임야관리위탁조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-04-09",
+    "repealed_on": "2018-04-09",
+    "repealed_on_raw": "20180409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1343972&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1343975",
+    "name": "성주군 기반시설특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-04-09",
+    "repealed_on": "2018-04-09",
+    "repealed_on_raw": "20180409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1343975&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1343977",
+    "name": "성주군농공지구조성사업특별회계설치운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-04-09",
+    "repealed_on": "2018-04-09",
+    "repealed_on_raw": "20180409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1343977&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1343973",
+    "name": "성주군주택사업특별회계설치및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-04-09",
+    "repealed_on": "2018-04-09",
+    "repealed_on_raw": "20180409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1343973&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1343970",
+    "name": "성주군호적과태료부과징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-04-09",
+    "repealed_on": "2018-04-09",
+    "repealed_on_raw": "20180409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1343970&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1318455",
+    "name": "성주군 사회적기업 육성지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-14",
+    "repealed_on": "2017-12-14",
+    "repealed_on_raw": "20171214",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1318455&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:982824",
+    "name": "성주군 지방공무원 징계 양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-06-08",
+    "repealed_on": "2017-06-08",
+    "repealed_on_raw": "20170608",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=982824&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1231060",
+    "name": "성주군금수문화예술마을설치및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-05-04",
+    "repealed_on": "2016-05-04",
+    "repealed_on_raw": "20160504",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1231060&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1208264",
+    "name": "성주군 국민건강증진법 위반자에 대한 과태료 부과·징수규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-24",
+    "repealed_on": "2015-12-24",
+    "repealed_on_raw": "20151224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1208264&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1189638",
+    "name": "성주군 4세대 이상 효 가정 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-01",
+    "repealed_on": "2015-10-01",
+    "repealed_on_raw": "20151001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1189638&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1189639",
+    "name": "성주군 장수축하금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-01",
+    "repealed_on": "2015-10-01",
+    "repealed_on_raw": "20151001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1189639&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:763703",
+    "name": "성주군 군세 감면 조례(폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "2015-04-23",
+    "repealed_on": "2015-04-23",
+    "repealed_on_raw": "20150423",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=763703&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:832907",
+    "name": "성주군음반·비디오물및게임물에관한법률에의한수수료징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-02-12",
+    "repealed_on": "2015-02-12",
+    "repealed_on_raw": "20150212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=832907&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:769965",
+    "name": "성주군 보조금 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-31",
+    "repealed_on": "2014-12-31",
+    "repealed_on_raw": "20141231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=769965&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1026269",
+    "name": "성주군 사회단체보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-31",
+    "repealed_on": "2014-12-31",
+    "repealed_on_raw": "20141231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1026269&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:898146",
+    "name": "성주군 문화예술공간 및 건축물에 대한 미술장식 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-10-10",
+    "repealed_on": "2014-10-10",
+    "repealed_on_raw": "20141010",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=898146&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:930643",
+    "name": "성주군어린이집운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-08-09",
+    "repealed_on": "2012-08-09",
+    "repealed_on_raw": "20120809",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=930643&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:977126",
+    "name": "성주군지방공업단지조성및분양에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-08-09",
+    "repealed_on": "2012-08-09",
+    "repealed_on_raw": "20120809",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=977126&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:930650",
+    "name": "성주군어린이집운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2012-08-09",
+    "repealed_on": "2012-08-09",
+    "repealed_on_raw": "20120809",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=930650&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:952553",
+    "name": "성주군성산청소년수련원운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-08-04",
+    "repealed_on": "2011-08-04",
+    "repealed_on_raw": "20110804",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=952553&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "47840"
+ ]
+}

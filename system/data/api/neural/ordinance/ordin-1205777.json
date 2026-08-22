@@ -1,0 +1,767 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1205777",
+   "key": "ordin-1205777",
+   "mst": "1205777",
+   "name": "완주군 곤충산업 육성 및 지원에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "52710",
+   "sig_cd": "52710",
+   "region_name": "전북특별자치도 완주군",
+   "org_name": "전북특별자치도 완주군",
+   "enacted_on": "20151112",
+   "effective_on": "20151112",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 8,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1205777",
+   "categories": [
+    {
+     "code": "C11",
+     "name": "경제·산업·일자리",
+     "confidence": 0.6,
+     "method": "rule"
+    },
+    {
+     "code": "C14",
+     "name": "동물·반려",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.949778,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1746751",
+      "key": "ordin-1746751",
+      "name": "완주군 드론산업 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20221110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1746751",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.949373,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1712407",
+      "key": "ordin-1712407",
+      "name": "완주군 수소산업 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20220623",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1712407",
+      "categories": [
+       "C11",
+       "C08"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.927363,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1380558",
+      "key": "ordin-1380558",
+      "name": "완주군 1인 창조기업 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20160317",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1380558",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.922952,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1886843",
+      "key": "ordin-1886843",
+      "name": "완주군의회 의원 연구단체 구성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20231221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1886843",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.922072,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1997429",
+      "key": "ordin-1997429",
+      "name": "완주군 국악진흥 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20241224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1997429",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.913498,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2085635",
+      "key": "ordin-2085635",
+      "name": "완주군 신산업 육성 및 지원 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20251113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2085635",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.911027,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2031565",
+      "key": "ordin-2031565",
+      "name": "완주군 공정무역 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20250423",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2031565",
+      "categories": [
+       "C11",
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.906192,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1735861",
+      "key": "ordin-1735861",
+      "name": "완주군 양봉산업 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20221013",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1735861",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.901027,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1849697",
+      "key": "ordin-1849697",
+      "name": "완주군 귀농·귀촌 활성화 및 지원에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20230831",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1849697",
+      "categories": [
+       "C12",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.900553,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2073927",
+      "key": "ordin-2073927",
+      "name": "완주군 귀농·귀촌 활성화 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20250930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2073927",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.992,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2047813",
+      "key": "ordin-2047813",
+      "name": "완주군 일자리 창출 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20250630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2047813",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.991821,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1602221",
+      "key": "ordin-1602221",
+      "name": "완주군 보도구역 내 횡단차도 설치에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20210524",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1602221",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.991303,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2073973",
+      "key": "ordin-2073973",
+      "name": "완주군 인터넷 홈페이지 운영 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20250930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2073973",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991199,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1790925",
+      "key": "ordin-1790925",
+      "name": "완주군 액화석유가스사업 허가기준에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20230316",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1790925",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.991155,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2085653",
+      "key": "ordin-2085653",
+      "name": "완주군의회 의정 홍보 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20251113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2085653",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.991022,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2085585",
+      "key": "ordin-2085585",
+      "name": "완주군 중소기업육성기금 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20251113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2085585",
+      "categories": [
+       "C02",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990917,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1861685",
+      "key": "ordin-1861685",
+      "name": "완주군 마한 역사문화 보존 및 육성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20231005",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1861685",
+      "categories": [
+       "C13",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.990889,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2063965",
+      "key": "ordin-2063965",
+      "name": "완주군 여성의 경제활동 촉진과 경력단절 예방에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20250811",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2063965",
+      "categories": [
+       "C02",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990869,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1886755",
+      "key": "ordin-1886755",
+      "name": "완주군 청년일자리 창출 및 고용촉진에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20231221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1886755",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990855,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2093591",
+      "key": "ordin-2093591",
+      "name": "완주군 청년 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20251218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2093591",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994611,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1966335",
+      "key": "ordin-1966335",
+      "name": "완주군 개인형 이동장치 이용안전 증진 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20240912",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1966335",
+      "categories": [
+       "C10",
+       "C08"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994481,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1790919",
+      "key": "ordin-1790919",
+      "name": "완주군 결산검사위원 선임 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20230316",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1790919",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994474,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1712423",
+      "key": "ordin-1712423",
+      "name": "완주군 상수도 원인자부담금 산정·징수 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20220623",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1712423",
+      "categories": [
+       "C02",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994405,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2074001",
+      "key": "ordin-2074001",
+      "name": "완주군의회 의원당선인 교육연수에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20250930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2074001",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994398,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1920537",
+      "key": "ordin-1920537",
+      "name": "완주군 환경·사회·지배구조(ESG) 경영 활성화 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20240411",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1920537",
+      "categories": [
+       "C11",
+       "C08",
+       "C07"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.994335,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2047787",
+      "key": "ordin-2047787",
+      "name": "완주군 국가보훈대상자 등 예우 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20250630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2047787",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.994245,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1861691",
+      "key": "ordin-1861691",
+      "name": "완주군 영양관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20231005",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1861691",
+      "categories": [
+       "C06"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.994122,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1599557",
+      "key": "ordin-1599557",
+      "name": "완주군 체불임금 없는 관급공사 운영을 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20210524",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1599557",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.99411,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1395872",
+      "key": "ordin-1395872",
+      "name": "완주군 음식물류 폐기물 발생억제 및 수집 운반 재활용에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20190516",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1395872",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.99403,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1351608",
+      "key": "ordin-1351608",
+      "name": "완주군 청소년지도위원의 위촉에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 완주군",
+      "sig_cd": "52710",
+      "enacted_on": "20180712",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1351608",
+      "categories": [
+       "C05",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

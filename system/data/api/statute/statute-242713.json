@@ -1,0 +1,604 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:242713",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "공무원 행동강령",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20220602",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=242713&type=HTML&mobileYn=&efYd=20220602",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 328,
+   "child_ordinances": 294,
+   "by_verification_status": {
+    "article-missing": 27,
+    "article-verified": 131,
+    "unverifiable": 170
+   },
+   "by_delegation_type": {
+    "law-delegated": 328
+   },
+   "regions_top": [
+    {
+     "region_id": "51130",
+     "name": "강원특별자치도 원주시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48220",
+     "name": "경상남도 통영시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "44270",
+     "name": "충청남도 당진시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41570",
+     "name": "경기도 김포시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 3
+    },
+    {
+     "region_id": "11650",
+     "name": "서울특별시 서초구",
+     "ordinances": 3
+    },
+    {
+     "region_id": "edu:50",
+     "name": "제주특별자치도교육청",
+     "ordinances": 2
+    },
+    {
+     "region_id": "edu:48",
+     "name": "경상남도교육청",
+     "ordinances": 2
+    },
+    {
+     "region_id": "edu:47",
+     "name": "경상북도교육청",
+     "ordinances": 2
+    },
+    {
+     "region_id": "edu:43",
+     "name": "충청북도교육청",
+     "ordinances": 2
+    },
+    {
+     "region_id": "edu:27",
+     "name": "대구광역시교육청",
+     "ordinances": 2
+    },
+    {
+     "region_id": "52730",
+     "name": "전북특별자치도 무주군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "51820",
+     "name": "강원특별자치도 고성군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "51790",
+     "name": "강원특별자치도 화천군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "51780",
+     "name": "강원특별자치도 철원군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "51150",
+     "name": "강원특별자치도 강릉시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48820",
+     "name": "경상남도 고성군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48740",
+     "name": "경상남도 창녕군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48310",
+     "name": "경상남도 거제시",
+     "ordinances": 2
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 영은 「부패방지 및 국민권익위원회의 설치와 운영에 관한 법률」 제8조에 따라 공무원이 준수하여야 할 행동기준을 규정하는 것을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"직무관련자\"란 공무원의 소관 업무와 관련되는 자로서 다음 각 목의 어느 하나에 해당하는 개인[공무원이 사인(私人)의 지위에 있는 경우에는 개인으로 본다] 또는 법인ㆍ단체를 말한다.\n나. 인가ㆍ허가 등의 취소, 영업정지, 과징금 또는 과태료의 부과 등으로 이익 또는 불이익을 직접적으로 받는 개인 또는 ",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "적용 범위",
+    "body": "제3조(적용 범위)\n이 영은 국가공무원(국회, 법원, 헌법재판소 및 선거관리위원회 소속의 국가공무원은 제외한다)과 지방공무원(지방의회의원은 제외한다)에게 적용한다. <개정 2016.9.27>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "공정한 직무수행을 해치는 지시에 대한 처리",
+    "body": "제4조(공정한 직무수행을 해치는 지시에 대한 처리)\n① 공무원은 상급자가 자기 또는 타인의 부당한 이익을 위하여 공정한 직무수행을 현저하게 해치는 지시를 하였을 때에는 그 사유를 그 상급자에게 소명하고 지시에 따르지 아니하거나 제23조에 따라 지정된 공무원 행동강령에 관한 업무를 담당하는 공무원(이하 \"행동강령책임관\"이라",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": null,
+    "body": "제5조\n삭제 <2022.6.2>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "2",
+    "title": null,
+    "body": "제5조의2\n삭제 <2022.6.2>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0005021"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "3",
+    "title": null,
+    "body": "제5조의3\n삭제 <2022.6.2>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0005031"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "4",
+    "title": null,
+    "body": "제5조의4\n삭제 <2022.6.2>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0005041"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "5",
+    "title": null,
+    "body": "제5조의5\n삭제 <2022.6.2>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0005051"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "6",
+    "title": null,
+    "body": "제5조의6\n삭제 <2022.6.2>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0005061"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "특혜의 배제",
+    "body": "제6조(특혜의 배제)\n공무원은 직무를 수행할 때 지연ㆍ혈연ㆍ학연ㆍ종교 등을 이유로 특정인에게 특혜를 주거나 특정인을 차별하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "예산의 목적 외 사용 금지",
+    "body": "제7조(예산의 목적 외 사용 금지)\n공무원은 여비, 업무추진비 등 공무 활동을 위한 예산을 목적 외의 용도로 사용하여 소속 기관에 재산상 손해를 입혀서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "정치인 등의 부당한 요구에 대한 처리",
+    "body": "제8조(정치인 등의 부당한 요구에 대한 처리)\n① 공무원은 정치인이나 정당 등으로부터 부당한 직무수행을 강요받거나 청탁을 받은 경우에는 소속 기관의 장에게 보고하거나 행동강령책임관과 상담한 후 처리하여야 한다.\n② 제1항에 따라 보고를 받은 소속 기관의 장이나 상담을 한 행동강령책임관은 그 공무원이 공정한 직무수행을 할 ",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "인사 청탁 등의 금지",
+    "body": "제9조(인사 청탁 등의 금지)\n① 공무원은 자신의 임용ㆍ승진ㆍ전보 등 인사에 부당한 영향을 미치기 위하여 타인으로 하여금 인사업무 담당자에게 청탁을 하도록 해서는 아니 된다.\n② 공무원은 직위를 이용하여 다른 공무원의 임용ㆍ승진ㆍ전보 등 인사에 부당하게 개입해서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "이권 개입 등의 금지",
+    "body": "제10조(이권 개입 등의 금지)\n공무원은 자신의 직위를 직접 이용하여 부당한 이익을 얻거나 타인이 부당한 이익을 얻도록 해서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "2",
+    "title": "직위의 사적 이용 금지",
+    "body": "제10조의2(직위의 사적 이용 금지)\n공무원은 직무의 범위를 벗어나 사적 이익을 위하여 소속 기관의 명칭이나 직위를 공표ㆍ게시하는 등의 방법으로 이용하거나 이용하게 해서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0010021"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "알선ㆍ청탁 등의 금지",
+    "body": "제11조(알선ㆍ청탁 등의 금지)\n① 공무원은 자기 또는 타인의 부당한 이익을 위하여 다른 공직자(「부패방지 및 국민권익위원회의 설치와 운영에 관한 법률」 제2조제3호가목 및 나목에 따른 공직자를 말한다. 이하 같다)의 공정한 직무수행을 해치는 알선ㆍ청탁 등을 해서는 아니 된다. <개정 2018.1.16>\n② 공무원은 직무",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "직무 관련 정보를 이용한 거래 등의 제한",
+    "body": "제12조(직무 관련 정보를 이용한 거래 등의 제한)\n① 공무원은 직무수행 중 알게 된 정보를 이용하여 유가증권, 부동산 등과 관련된 재산상 거래 또는 투자를 하거나 타인에게 그러한 정보를 제공하여 재산상 거래 또는 투자를 돕는 행위를 해서는 아니 된다.\n② 중앙행정기관의 장등은 제1항에 따라 소관 분야별로 직무관련 정보를",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": null,
+    "body": "제13조\n삭제 <2022.6.2>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": "2",
+    "title": "사적 노무 요구 금지",
+    "body": "제13조의2(사적 노무 요구 금지)\n공무원은 자신의 직무권한을 행사하거나 지위ㆍ직책 등에서 유래되는 사실상 영향력을 행사하여 직무관련자 또는 직무관련공무원으로부터 사적 노무를 제공받거나 요구 또는 약속해서는 아니 된다. 다만, 다른 법령 또는 사회상규에 따라 허용되는 경우에는 그러하지 아니하다.",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0013021"
+   },
+   {
+    "article_no": "13",
+    "article_branch": "3",
+    "title": "직무권한 등을 행사한 부당 행위의 금지",
+    "body": "제13조의3(직무권한 등을 행사한 부당 행위의 금지)\n1. 인가ㆍ허가 등을 담당하는 공무원이 그 신청인에게 불이익을 주거나 제3자에게 이익 또는 불이익을 주기 위하여 부당하게 그 신청의 접수를 지연하거나 거부하는 행위\n2. 직무관련공무원에게 직무와 관련이 없거나 직무의 범위를 벗어나 부당한 지시ㆍ요구를 하는 행위\n3. 공",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0013031"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "금품등의 수수 금지",
+    "body": "제14조(금품등의 수수 금지)\n① 공무원은 직무 관련 여부 및 기부ㆍ후원ㆍ증여 등 그 명목에 관계없이 동일인으로부터 1회에 100만원 또는 매 회계연도에 300만원을 초과하는 금품등을 받거나 요구 또는 약속해서는 아니 된다.\n② 공무원은 직무와 관련하여 대가성 여부를 불문하고 제1항에서 정한 금액 이하의 금품등을 받거나 ",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "2",
+    "title": "감독기관의 부당한 요구 금지",
+    "body": "제14조의2(감독기관의 부당한 요구 금지)\n① 감독ㆍ감사ㆍ조사ㆍ평가를 하는 기관(이하 이 조에서 \"감독기관\"이라 한다)에 소속된 공무원은 자신이 소속된 기관의 출장ㆍ행사ㆍ연수 등과 관련하여 감독ㆍ감사ㆍ조사ㆍ평가를 받는 기관(이하 이 조에서 \"피감기관\"이라 한다)에 다음 각 호의 어느 하나에 해당하는 부당한 요구를 해서는 ",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0014021"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "외부강의등의 사례금 수수 제한",
+    "body": "제15조(외부강의등의 사례금 수수 제한)\n① 공무원은 자신의 직무와 관련되거나 그 지위ㆍ직책 등에서 유래되는 사실상의 영향력을 통하여 요청받은 교육ㆍ홍보ㆍ토론회ㆍ세미나ㆍ공청회 또는 그 밖의 회의 등에서 한 강의ㆍ강연ㆍ기고 등(이하 \"외부강의등\"이라 한다)의 대가로서 중앙행정기관의 장등이 정하는 금액을 초과하는 사례금을 받",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": null,
+    "body": "제16조\n삭제 <2022.6.2>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "경조사의 통지 제한",
+    "body": "제17조(경조사의 통지 제한)\n1. 친족(「민법」 제767조에 따른 친족을 말한다)에게 알리는 경우\n2. 현재 근무하고 있거나 과거에 근무하였던 기관의 소속 직원에게 알리는 경우\n3. 신문, 방송 또는 제2호에 따른 직원에게만 열람이 허용되는 내부통신망 등을 통하여 알리는 경우\n4. 공무원 자신이 소속된 종교단체ㆍ친목단체",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "위반 여부에 대한 상담",
+    "body": "제18조(위반 여부에 대한 상담)\n공무원은 알선ㆍ청탁, 금품등의 수수, 외부강의등의 사례금 수수, 경조사의 통지 등에 대하여 이 영을 위반하는 지가 분명하지 아니할 때에는 행동강령책임관과 상담한 후 처리하여야 한다. <개정 2016.9.27>",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "위반행위의 신고 및 확인",
+    "body": "제19조(위반행위의 신고 및 확인)\n① 누구든지 공무원이 이 영을 위반한 사실을 알게 되었을 때에는 그 공무원이 소속된 기관의 장, 그 기관의 행동강령책임관 또는 국민권익위원회에 신고할 수 있다.\n② 제1항에 따라 신고하는 자는 본인과 위반자의 인적 사항과 위반 내용을 구체적으로 제시해야 한다.\n③ 제1항에 따라 위반행위",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "징계 등",
+    "body": "제20조(징계 등)\n제19조제4항에 따른 보고를 받은 소속 기관의 장은 해당 공무원을 징계하는 등 필요한 조치를 할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "수수 금지 금품등의 신고 및 처리",
+    "body": "제21조(수수 금지 금품등의 신고 및 처리)\n① 공무원은 다음 각 호의 어느 하나에 해당하는 경우에는 소속 기관의 장에게 지체 없이 서면으로 신고하여야 한다.\n1. 공무원 자신이 수수 금지 금품등을 받거나 그 제공의 약속 또는 의사표시를 받은 경우\n2. 공무원이 자신의 배우자나 직계 존속ㆍ비속이 수수 금지 금품등을 받거나",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "교육",
+    "body": "제22조(교육)\n① 중앙행정기관의 장등은 소속 공무원에 대하여 이 영의 준수를 위한 교육계획을 수립ㆍ시행하여야 하며, 매년 1회 이상 교육을 하여야 한다.\n② 중앙행정기관의 장등은 공무원을 신규임용할 때 이 영의 교육을 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20220602",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "행동강령책임관의 지정",
+    "body": "제23조(행동강령책임관의 지정)\n① 중앙행정기관의 장등은 그 기관과 그 소속 기관 중 기관장이 4급 이상 공무원(고위공무원단에 속하는 일반직공무원을 포함한다)이거나 이에 상당하는 공무원인 기관에 대하여 행동강령책임관을 지정하여야 한다. 다만, 소속 기관의 규모ㆍ성격 및 지리적 특성을 고려하여 그 기관에 행동강령책임관을 지",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "기관별 행동강령의 운영 등",
+    "body": "제24조(기관별 행동강령의 운영 등)\n① 중앙행정기관의 장등은 이 영의 시행에 필요한 범위에서 해당 기관의 특성에 적합한 세부적인 기관별 공무원 행동강령을 제정하여야 한다. <개정 2010.11.2>\n② 중앙행정기관의 장등은 제1항에 따른 기관별 공무원 행동강령을 제정하거나 개정할 때에는 국민권익위원회에 알려야 한다.\n③",
+    "body_truncated": true,
+    "effective_on": "20220602",
+    "article_key": "0024001"
+   }
+  ],
+  "article_count": 33,
+  "articles_shown": 33,
+  "articles_truncated_bodies": 14,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1172849",
+    "name": "당진군 공무원 행동강령",
+    "region_id": "44270",
+    "org_name": "충청남도 당진시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1172849&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1181085",
+    "name": "청주시 공무원 행동강령(폐지)",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1181085&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1355172",
+    "name": "창녕군 공무원 행동강령 규칙",
+    "region_id": "48740",
+    "org_name": "경상남도 창녕군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1355172&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395343",
+    "name": "단양군 공무원 행동 강령",
+    "region_id": "43800",
+    "org_name": "충청북도 단양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395343&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1417076",
+    "name": "과천시 공무원 행동강령 규칙",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417076&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1498029",
+    "name": "구례군 공무원 행동강령 규칙",
+    "region_id": "12730",
+    "org_name": "전남광주통합특별시 구례군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1498029&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1519975",
+    "name": "울진군 공무원 행동강령에 관한 규칙",
+    "region_id": "47930",
+    "org_name": "경상북도 울진군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1519975&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530647",
+    "name": "충청북도교육청 직장 내 괴롭힘 예방 및 금지에 관한 조례",
+    "region_id": "edu:43",
+    "org_name": "충청북도교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530647&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1531277",
+    "name": "서울특별시 구로구 지방공무원 징계 등에 관한 규칙",
+    "region_id": "11530",
+    "org_name": "서울특별시 구로구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1531277&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1543199",
+    "name": "울릉군 공무원 행동강령에 관한 규칙",
+    "region_id": "47940",
+    "org_name": "경상북도 울릉군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1543199&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1561303",
+    "name": "익산시 공무원 행동강령",
+    "region_id": "52140",
+    "org_name": "전북특별자치도 익산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1561303&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1587229",
+    "name": "서울특별시 서초구 지방공무원 징계양정 규칙",
+    "region_id": "11650",
+    "org_name": "서울특별시 서초구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1587229&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1592407",
+    "name": "임실군 공무원 행동강령 규칙",
+    "region_id": "52750",
+    "org_name": "전북특별자치도 임실군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1592407&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1643909",
+    "name": "부산광역시 해운대구의회 공무원 행동강령",
+    "region_id": "26350",
+    "org_name": "부산광역시 해운대구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1643909&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1645283",
+    "name": "시흥시 공무원 등의 부조리 신고 포상금 지급 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1645283&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1648175",
+    "name": "사천시의회 공무원 행동강령 규칙",
+    "region_id": "48240",
+    "org_name": "경상남도 사천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648175&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1650813",
+    "name": "부산광역시 강서구의회 공무원 행동강령",
+    "region_id": "26440",
+    "org_name": "부산광역시 강서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1650813&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1656073",
+    "name": "부산광역시 서구의회 공무원 행동강령",
+    "region_id": "26140",
+    "org_name": "부산광역시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1656073&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664893",
+    "name": "서울특별시 서초구의회 지방공무원 징계양정 규칙",
+    "region_id": "11650",
+    "org_name": "서울특별시 서초구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664893&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1666693",
+    "name": "부산광역시동래구의회 공무원 행동강령",
+    "region_id": "26260",
+    "org_name": "부산광역시 동래구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1666693&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

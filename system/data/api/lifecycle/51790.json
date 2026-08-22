@@ -1,0 +1,694 @@
+{
+ "data": {
+  "region": {
+   "region_id": "51790",
+   "sig_cd": "51790",
+   "name": "화천군",
+   "full_name": "강원특별자치도 화천군",
+   "level": 2
+  },
+  "counts": {
+   "total": 676,
+   "active": 598,
+   "repealed": 78,
+   "by_rr_cls_cd": {
+    "일부개정": 406,
+    "전부개정": 28,
+    "제정": 164,
+    "폐지": 78
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1982,
+    "n": 1
+   },
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 8
+   },
+   {
+    "year": 2012,
+    "n": 9
+   },
+   {
+    "year": 2013,
+    "n": 5
+   },
+   {
+    "year": 2014,
+    "n": 3
+   },
+   {
+    "year": 2015,
+    "n": 9
+   },
+   {
+    "year": 2016,
+    "n": 11
+   },
+   {
+    "year": 2017,
+    "n": 18
+   },
+   {
+    "year": 2018,
+    "n": 11
+   },
+   {
+    "year": 2019,
+    "n": 29
+   },
+   {
+    "year": 2020,
+    "n": 30
+   },
+   {
+    "year": 2021,
+    "n": 34
+   },
+   {
+    "year": 2022,
+    "n": 96
+   },
+   {
+    "year": 2023,
+    "n": 146
+   },
+   {
+    "year": 2024,
+    "n": 105
+   },
+   {
+    "year": 2025,
+    "n": 117
+   },
+   {
+    "year": 2026,
+    "n": 32
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1982,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 1
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 3
+   },
+   {
+    "year": 2015,
+    "n": 3
+   },
+   {
+    "year": 2016,
+    "n": 4
+   },
+   {
+    "year": 2017,
+    "n": 9
+   },
+   {
+    "year": 2018,
+    "n": 4
+   },
+   {
+    "year": 2019,
+    "n": 1
+   },
+   {
+    "year": 2020,
+    "n": 12
+   },
+   {
+    "year": 2021,
+    "n": 2
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 3
+   },
+   {
+    "year": 2024,
+    "n": 10
+   },
+   {
+    "year": 2025,
+    "n": 6
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수.분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계 공무원 재정보증 조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀장학금 지급조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과.징수조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례",
+    "display_name": "사회단체보조금지원에관한조례",
+    "rows": 1,
+    "nationwide_regions": 51
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례시행규칙",
+    "display_name": "오수.분뇨및축산폐수의처리에관한 조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 42
+   },
+   {
+    "policy_key": "촉탁의료인보수지급조례",
+    "display_name": "촉탁의료인보수지급조례",
+    "rows": 1,
+    "nationwide_regions": 40
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례시행규칙",
+    "display_name": "통합관리기금 설치 및 운용조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 40
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운용조례",
+    "display_name": "기반시설특별회계 설치 및 운용조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "소송사건수행증인등의실비변상조례",
+    "display_name": "소송사건수행증인등의실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "다문화가족지원조례",
+    "display_name": "다문화가족 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 33
+   },
+   {
+    "policy_key": "건강생활실천협의회운영조례",
+    "display_name": "건강생활실천협의회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 29
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2099159",
+    "name": "화천군 장애인 재활센터 관리 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-29",
+    "repealed_on": "2025-12-29",
+    "repealed_on_raw": "20251229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2099159&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2050141",
+    "name": "화천군 농촌총각 국제결혼 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-02",
+    "repealed_on": "2025-07-02",
+    "repealed_on_raw": "20250702",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2050141&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2022049",
+    "name": "화천군 저소득주민 생활안정기금 융자 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-17",
+    "repealed_on": "2025-03-17",
+    "repealed_on_raw": "20250317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2022049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2022051",
+    "name": "화천군 저소득주민 생활안정기금 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-17",
+    "repealed_on": "2025-03-17",
+    "repealed_on_raw": "20250317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2022051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2022045",
+    "name": "화천군 저소득주민 생활안정기금 융자 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-03-17",
+    "repealed_on": "2025-03-17",
+    "repealed_on_raw": "20250317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2022045&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2010805",
+    "name": "화천군 군민안전보험 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-01-08",
+    "repealed_on": "2025-01-08",
+    "repealed_on_raw": "20250108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2010805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2002439",
+    "name": "화천군 안전관리위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002439&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2002451",
+    "name": "화천군 재난안전대책본부 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002451&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2002447",
+    "name": "화천군 재난현장 통합지원본부 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002447&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2002443",
+    "name": "화천군 지역사회 안전을 위한 사회단체 참여 및 지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2002437",
+    "name": "화천군 화재취약계층 주택용 소방시설 설치 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002437&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981829",
+    "name": "화천군 다문화가족 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-05",
+    "repealed_on": "2024-11-05",
+    "repealed_on_raw": "20241105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981829&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1974879",
+    "name": "화천군 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-02",
+    "repealed_on": "2024-10-02",
+    "repealed_on_raw": "20241002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974879&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1974887",
+    "name": "화천군 화재폐기물 처리비 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-02",
+    "repealed_on": "2024-10-02",
+    "repealed_on_raw": "20241002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974887&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1945343",
+    "name": "화천군 새마을소득사업 운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-02",
+    "repealed_on": "2024-07-02",
+    "repealed_on_raw": "20240702",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1945343&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1945241",
+    "name": "화천군 새마을소득사업 운영 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-07-02",
+    "repealed_on": "2024-07-02",
+    "repealed_on_raw": "20240702",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1945241&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1888541",
+    "name": "화천군 디엠제트(DMZ) 아카데미 관리 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-26",
+    "repealed_on": "2023-12-26",
+    "repealed_on_raw": "20231226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1888541&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1888677",
+    "name": "화천군 아동위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-26",
+    "repealed_on": "2023-12-26",
+    "repealed_on_raw": "20231226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1888677&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1888689",
+    "name": "화천군 청·장년 일자리보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-26",
+    "repealed_on": "2023-12-26",
+    "repealed_on_raw": "20231226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1888689&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1760079",
+    "name": "화천군 주민의 조례 제정·개정 및 폐지 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-21",
+    "repealed_on": "2022-12-21",
+    "repealed_on_raw": "20221221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1760079&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1760015",
+    "name": "화천군 통합관리기금 설치 및 운용조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-21",
+    "repealed_on": "2022-12-21",
+    "repealed_on_raw": "20221221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1760015&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1745523",
+    "name": "화천군 종합사회복지관 관리운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-08",
+    "repealed_on": "2022-11-08",
+    "repealed_on_raw": "20221108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1745523&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1654417",
+    "name": "화천군 야생동물에 의한 농작물피해보상 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-29",
+    "repealed_on": "2021-12-29",
+    "repealed_on_raw": "20211229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1654417&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1582873",
+    "name": "화천군 건강생활실천협의회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-29",
+    "repealed_on": "2021-03-29",
+    "repealed_on_raw": "20210329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1582873&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1581993",
+    "name": "화천군 상수도 수질감시위원회 설치 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1581993&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1549441",
+    "name": "화천군 제안서 평가위원회 설치 및 운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-30",
+    "repealed_on": "2020-11-30",
+    "repealed_on_raw": "20201130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1549441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1538943",
+    "name": "화천군 위생관리시설 사용료 징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-16",
+    "repealed_on": "2020-11-16",
+    "repealed_on_raw": "20201116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1538943&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1538925",
+    "name": "화천군 낚시 제한구역 내에서의 낚시 수수료 징수 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-16",
+    "repealed_on": "2020-10-16",
+    "repealed_on_raw": "20201016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1538925&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1538839",
+    "name": "화천군 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-16",
+    "repealed_on": "2020-10-16",
+    "repealed_on_raw": "20201016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1538839&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1538951",
+    "name": "화천군 출생아 건강보험 가입지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-16",
+    "repealed_on": "2020-10-16",
+    "repealed_on_raw": "20201016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1538951&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1538829",
+    "name": "화천군 통합관리기금 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-16",
+    "repealed_on": "2020-10-16",
+    "repealed_on_raw": "20201016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1538829&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1538931",
+    "name": "화천군 상수도 급수 사용료 부과 징수 사무처리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-10-16",
+    "repealed_on": "2020-10-16",
+    "repealed_on_raw": "20201016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1538931&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1519033",
+    "name": "화천군사전재해영향성검토위원회 구성 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-16",
+    "repealed_on": "2020-07-16",
+    "repealed_on_raw": "20200716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1519033&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1519045",
+    "name": "화천군 자연재해원인 조사·분석·평가에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-16",
+    "repealed_on": "2020-07-16",
+    "repealed_on_raw": "20200716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1519045&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1518405",
+    "name": "화천군 자원의 절약과 재활용 촉진에 관한 과태료 부과ㆍ징수 및 신고 포상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-16",
+    "repealed_on": "2020-07-16",
+    "repealed_on_raw": "20200716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1518405&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1485903",
+    "name": "화천군 산모·신생아 건강관리 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-07",
+    "repealed_on": "2020-04-07",
+    "repealed_on_raw": "20200407",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1485903&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:4471017",
+    "name": "화천군 회계관계 공무원 재정보증 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-19",
+    "repealed_on": "2019-12-19",
+    "repealed_on_raw": "20191219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=4471017&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1373577",
+    "name": "화천군지역개발사업특별회계설치및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-17",
+    "repealed_on": "2018-12-17",
+    "repealed_on_raw": "20181217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1373577&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1373578",
+    "name": "화천군공영개발사업공기업지방채발행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-12-17",
+    "repealed_on": "2018-12-17",
+    "repealed_on_raw": "20181217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1373578&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1361750",
+    "name": "화천군 문화예술공간 및 미술장식 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-10-05",
+    "repealed_on": "2018-10-05",
+    "repealed_on_raw": "20181005",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1361750&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51790"
+ ]
+}

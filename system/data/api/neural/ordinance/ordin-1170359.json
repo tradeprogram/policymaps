@@ -1,0 +1,769 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1170359",
+   "key": "ordin-1170359",
+   "mst": "1170359",
+   "name": "고양시 문화관광해설사 운영 및 지원에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "41280",
+   "sig_cd": "41280",
+   "region_name": "경기도 고양시",
+   "org_name": "경기도 고양시",
+   "enacted_on": "20150417",
+   "effective_on": "20150417",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 12,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1170359",
+   "categories": [
+    {
+     "code": "C13",
+     "name": "문화·체육·관광",
+     "confidence": 0.625,
+     "method": "rule"
+    },
+    {
+     "code": "C11",
+     "name": "경제·산업·일자리",
+     "confidence": 0.3333,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.9365,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2076313",
+      "key": "ordin-2076313",
+      "name": "평택시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 평택시",
+      "sig_cd": "41220",
+      "enacted_on": "20251002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2076313",
+      "categories": [
+       "C13",
+       "C10"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.921175,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1142482",
+      "key": "ordin-1142482",
+      "name": "구리시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20150520",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1142482",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.907558,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1917595",
+      "key": "ordin-1917595",
+      "name": "성남시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 성남시",
+      "sig_cd": "41130",
+      "enacted_on": "20240401",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1917595",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.906985,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1574361",
+      "key": "ordin-1574361",
+      "name": "김해시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 김해시",
+      "sig_cd": "48250",
+      "enacted_on": "20210210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1574361",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.901538,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1936507",
+      "key": "ordin-1936507",
+      "name": "아산시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20240605",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1936507",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.900674,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2106187",
+      "key": "ordin-2106187",
+      "name": "원주시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 원주시",
+      "sig_cd": "51130",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2106187",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.893315,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1022258",
+      "key": "ordin-1022258",
+      "name": "제천시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 제천시",
+      "sig_cd": "43150",
+      "enacted_on": "20120713",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1022258",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.889944,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2055871",
+      "key": "ordin-2055871",
+      "name": "화성시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 화성시",
+      "sig_cd": "41590",
+      "enacted_on": "20250711",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2055871",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.888502,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2025971",
+      "key": "ordin-2025971",
+      "name": "천안시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 천안시",
+      "sig_cd": "44130",
+      "enacted_on": "20250401",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2025971",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.886964,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1357281",
+      "key": "ordin-1357281",
+      "name": "하남시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 하남시",
+      "sig_cd": "41450",
+      "enacted_on": "20180903",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1357281",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.99198,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2020423",
+      "key": "ordin-2020423",
+      "name": "고양시 체육시설 관리 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20250311",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2020423",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.991547,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2073503",
+      "key": "ordin-2073503",
+      "name": "고양영상문화단지 조성사업 특별회계 설치 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20250930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2073503",
+      "categories": [
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.991234,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1875157",
+      "key": "ordin-1875157",
+      "name": "고양시 문화시설 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20231117",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1875157",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991078,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1981801",
+      "key": "ordin-1981801",
+      "name": "고양시 교통유발부담금에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20241105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1981801",
+      "categories": [
+       "C10",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990847,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1499057",
+      "key": "ordin-1499057",
+      "name": "고양시 다함께돌봄센터 설치 및 운영 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20200529",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1499057",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.990292,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2073517",
+      "key": "ordin-2073517",
+      "name": "고양시 지역 돌봄 통합지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20250930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2073517",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990024,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2073505",
+      "key": "ordin-2073505",
+      "name": "고양시 도시 및 주거환경정비 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20250930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2073505",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.990003,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1971781",
+      "key": "ordin-1971781",
+      "name": "고양시 청년공간 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20240927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1971781",
+      "categories": [
+       "C05",
+       "C09"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989875,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1631261",
+      "key": "ordin-1631261",
+      "name": "고양시 종합사회복지관 설치 및 위탁운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20211001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1631261",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.989861,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1631291",
+      "key": "ordin-1631291",
+      "name": "고양시 청소년 노동인권 보호 및 증진 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20211001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1631291",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.988671,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1583521",
+      "key": "ordin-1583521",
+      "name": "고양시 장애인 표준사업장 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20210330",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1583521",
+      "categories": [
+       "C11",
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.988072,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1875219",
+      "key": "ordin-1875219",
+      "name": "고양시 청년농업인 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20231117",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1875219",
+      "categories": [
+       "C12",
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.987791,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1674327",
+      "key": "ordin-1674327",
+      "name": "고양시 공무원 후생복지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20220111",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1674327",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.987645,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1782237",
+      "key": "ordin-1782237",
+      "name": "고양시 어린이·사회복지급식관리지원센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20230207",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1782237",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.987446,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1971759",
+      "key": "ordin-1971759",
+      "name": "고양시 공동주택 리모델링 활성화 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20240927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1971759",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.986915,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1777425",
+      "key": "ordin-1777425",
+      "name": "고양시 소규모 공동주택관리 보조금 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20230110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1777425",
+      "categories": [
+       "C09",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.986834,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1704251",
+      "key": "ordin-1704251",
+      "name": "고양시 공동주택관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20220429",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1704251",
+      "categories": [
+       "C09",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.986812,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1440903",
+      "key": "ordin-1440903",
+      "name": "고양시 장애인 고용촉진 및 직업재활 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20191231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1440903",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.986804,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1614119",
+      "key": "ordin-1614119",
+      "name": "고양시 동 종합복지회관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20210713",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1614119",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.986751,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1777391",
+      "key": "ordin-1777391",
+      "name": "고양시 주거복지 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20230110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1777391",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

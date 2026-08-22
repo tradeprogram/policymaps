@@ -1,0 +1,779 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1656287",
+   "key": "ordin-1656287",
+   "mst": "1656287",
+   "name": "울산광역시 중구 조례ㆍ규칙 공포 조례",
+   "ord_kind": "조례",
+   "region_id": "31110",
+   "sig_cd": "31110",
+   "region_name": "울산광역시 중구",
+   "org_name": "울산광역시 중구",
+   "enacted_on": "20211227",
+   "effective_on": "20220113",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 8,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1656287",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.4545,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.947915,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2081673",
+      "key": "ordin-2081673",
+      "name": "울산광역시 중구 포상 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20251103",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2081673",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.929579,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2154127",
+      "key": "ordin-2154127",
+      "name": "울산광역시 중구 지방공무원 정원 규칙",
+      "ord_kind": "규칙",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20260730",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2154127",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.924873,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1239992",
+      "key": "ordin-1239992",
+      "name": "울산광역시 중구 사무위임 규칙",
+      "ord_kind": "규칙",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20160701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1239992",
+      "categories": [
+       "C06"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.923064,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1521699",
+      "key": "ordin-1521699",
+      "name": "울산광역시 중구 안전도시 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20200803",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1521699",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.918318,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2042917",
+      "key": "ordin-2042917",
+      "name": "울산광역시 중구 산불방지 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20250609",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2042917",
+      "categories": [
+       "C06",
+       "C12"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.914912,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1971705",
+      "key": "ordin-1971705",
+      "name": "울산광역시 중구의회 의원 연구단체 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20240927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1971705",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.914869,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1951797",
+      "key": "ordin-1951797",
+      "name": "울산광역시 중구 인구정책 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20240708",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1951797",
+      "categories": [
+       "C04",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.914356,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1809111",
+      "key": "ordin-1809111",
+      "name": "울산광역시 중구 청년일자리 창출 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20230515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1809111",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.913298,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1773539",
+      "key": "ordin-1773539",
+      "name": "울산광역시 중구 사무위임 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20221226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1773539",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.911425,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2154155",
+      "key": "ordin-2154155",
+      "name": "울산광역시 중구 지방공무원 정원 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20260730",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2154155",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.991325,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1619331",
+      "key": "ordin-1619331",
+      "name": "울산광역시 중구 아동ㆍ청소년 부모 빚 대물림 방지 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20210802",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1619331",
+      "categories": [
+       "C05",
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.990464,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1936767",
+      "key": "ordin-1936767",
+      "name": "울산광역시 중구의회 소셜미디어 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20240610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1936767",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990373,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2086977",
+      "key": "ordin-2086977",
+      "name": "울산광역시 중구 청소년복지심의위원회 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20251117",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2086977",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990211,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1824237",
+      "key": "ordin-1824237",
+      "name": "울산광역시 중구 국가보훈대상자 등 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20230626",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1824237",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.989967,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1854491",
+      "key": "ordin-1854491",
+      "name": "울산광역시 중구 예비군 훈련장 차량운행 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20230925",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1854491",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.989762,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2108809",
+      "key": "ordin-2108809",
+      "name": "울산광역시 중구 보건소 진료비 및 수수료 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20250523",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2108809",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.989729,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2072827",
+      "key": "ordin-2072827",
+      "name": "울산광역시 중구 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20250929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2072827",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989714,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1951783",
+      "key": "ordin-1951783",
+      "name": "울산광역시 중구 청소년육성위원회 및 청소년지도위원 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20240708",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1951783",
+      "categories": [
+       "C05",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989578,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1362006",
+      "key": "ordin-1362006",
+      "name": "울산광역시 중구 자살예방 및 생명존중문화 조성을 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20181008",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1362006",
+      "categories": [
+       "C13",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.989483,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1951771",
+      "key": "ordin-1951771",
+      "name": "울산광역시 중구 행정 복지달력 제작 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20240708",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1951771",
+      "categories": [
+       "C02",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.993437,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2072827",
+      "key": "ordin-2072827",
+      "name": "울산광역시 중구 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20250929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2072827",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993253,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1297972",
+      "key": "ordin-1297972",
+      "name": "울산광역시 중구 주민등록업무담당공무원 보험·공제 등의 가입에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20170731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1297972",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.992797,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1619333",
+      "key": "ordin-1619333",
+      "name": "울산광역시 중구 아이스팩 수거 및 재사용 등의 활성화 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20210802",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1619333",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.992733,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1744723",
+      "key": "ordin-1744723",
+      "name": "울산광역시 중구 마을세무사 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20221107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1744723",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.992716,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1951859",
+      "key": "ordin-1951859",
+      "name": "울산광역시 중구 전통무예 진흥 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20240708",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1951859",
+      "categories": [
+       "C06",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.992469,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1941403",
+      "key": "ordin-1941403",
+      "name": "울산광역시 중구 법제사무 처리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20240627",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1941403",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.992324,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1873413",
+      "key": "ordin-1873413",
+      "name": "울산광역시 중구 전세사기피해자·주택임차인 보호 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20231113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1873413",
+      "categories": [
+       "C02",
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.992148,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1610329",
+      "key": "ordin-1610329",
+      "name": "울산광역시 중구 경관 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20210705",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1610329",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.992039,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1638651",
+      "key": "ordin-1638651",
+      "name": "울산광역시 중구 주민의 안전한 생활환경 지원을 위한 공사장 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20211108",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1638651",
+      "categories": [
+       "C08",
+       "C10",
+       "C07"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.991977,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1699877",
+      "key": "ordin-1699877",
+      "name": "울산광역시 중구 노점관리 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20220418",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1699877",
+      "categories": [
+       "C11",
+       "C07"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2072827",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.991583,
+    "best_rank": 1,
+    "ordinance_id": "ordin:2072827",
+    "key": "ordin-2072827",
+    "name": "울산광역시 중구 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+    "region_name": "울산광역시 중구",
+    "sig_cd": "31110",
+    "enacted_on": "20250929",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2072827"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

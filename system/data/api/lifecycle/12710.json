@@ -1,0 +1,690 @@
+{
+ "data": {
+  "region": {
+   "region_id": "12710",
+   "sig_cd": "12710",
+   "name": "담양군",
+   "full_name": "전남광주통합특별시 담양군",
+   "level": 2
+  },
+  "counts": {
+   "total": 693,
+   "active": 603,
+   "repealed": 90,
+   "by_rr_cls_cd": {
+    "일부개정": 423,
+    "전부개정": 25,
+    "제정": 155,
+    "폐지": 90
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1992,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 7
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 5
+   },
+   {
+    "year": 2014,
+    "n": 12
+   },
+   {
+    "year": 2015,
+    "n": 20
+   },
+   {
+    "year": 2016,
+    "n": 17
+   },
+   {
+    "year": 2017,
+    "n": 18
+   },
+   {
+    "year": 2018,
+    "n": 35
+   },
+   {
+    "year": 2019,
+    "n": 19
+   },
+   {
+    "year": 2020,
+    "n": 22
+   },
+   {
+    "year": 2021,
+    "n": 38
+   },
+   {
+    "year": 2022,
+    "n": 53
+   },
+   {
+    "year": 2023,
+    "n": 93
+   },
+   {
+    "year": 2024,
+    "n": 59
+   },
+   {
+    "year": 2025,
+    "n": 135
+   },
+   {
+    "year": 2026,
+    "n": 134
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 13
+   },
+   {
+    "year": 2016,
+    "n": 9
+   },
+   {
+    "year": 2017,
+    "n": 6
+   },
+   {
+    "year": 2018,
+    "n": 6
+   },
+   {
+    "year": 2020,
+    "n": 4
+   },
+   {
+    "year": 2021,
+    "n": 8
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 3
+   },
+   {
+    "year": 2024,
+    "n": 1
+   },
+   {
+    "year": 2025,
+    "n": 2
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직 공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산 폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법위반자에대한과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회운영규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금 운용.관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황공개조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "장수수당지급조례",
+    "display_name": "장수수당 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 56
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:808286",
+    "name": "담양군국토이용관리법위반자에대한과태료부과ㆍ징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=808286&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:818898",
+    "name": "담양군새마을소득사업운영관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=818898&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:803600",
+    "name": "담양군재난관리 ．재해대책기금운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=803600&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:796977",
+    "name": "담양군새마을소득사업운영관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=796977&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:803601",
+    "name": "담양군재난관리 ．재해대책기금운용관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=803601&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2118573",
+    "name": "담양군 향촌돌봄 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-10",
+    "repealed_on": "2026-03-10",
+    "repealed_on_raw": "20260310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2118573&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2037899",
+    "name": "담양군 주·정차 과태료 면제에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-05-15",
+    "repealed_on": "2025-05-15",
+    "repealed_on_raw": "20250515",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2037899&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2028143",
+    "name": "담양군 각종 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-08",
+    "repealed_on": "2025-04-08",
+    "repealed_on_raw": "20250408",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2028143&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1888905",
+    "name": "담양군 복합노인복지시설 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-22",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1888905&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1809605",
+    "name": "담양군 재난관리기금 운용 ㆍ관리조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-05-16",
+    "repealed_on": "2023-05-16",
+    "repealed_on_raw": "20230516",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1809605&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1809601",
+    "name": "담양군 정책실명제 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-05-16",
+    "repealed_on": "2023-05-16",
+    "repealed_on_raw": "20230516",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1809601&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1800829",
+    "name": "담양군 상수도 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-13",
+    "repealed_on": "2023-04-13",
+    "repealed_on_raw": "20230413",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1800829&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1772781",
+    "name": "담양군 저탄소녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-09-21",
+    "repealed_on": "2022-09-21",
+    "repealed_on_raw": "20220921",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1772781&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1772779",
+    "name": "담양군 기록관 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-09-21",
+    "repealed_on": "2022-09-21",
+    "repealed_on_raw": "20220921",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1772779&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1670689",
+    "name": "담양군 행정정보 공개 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-07",
+    "repealed_on": "2022-01-07",
+    "repealed_on_raw": "20220107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1670689&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1642479",
+    "name": "담양군 생활체육 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-19",
+    "repealed_on": "2021-11-19",
+    "repealed_on_raw": "20211119",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1642479&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1642471",
+    "name": "담양군 장애인 생활체육 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-19",
+    "repealed_on": "2021-11-19",
+    "repealed_on_raw": "20211119",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1642471&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1599659",
+    "name": "담양군 재정 투자사업 심사 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-05-28",
+    "repealed_on": "2021-05-28",
+    "repealed_on_raw": "20210528",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1599659&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1590533",
+    "name": "담양군 지방 전문직 공무원 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-04-19",
+    "repealed_on": "2021-04-19",
+    "repealed_on_raw": "20210419",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1590533&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1585791",
+    "name": "담양군 농업기계 수리 봉사반 설치 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-04-05",
+    "repealed_on": "2021-04-05",
+    "repealed_on_raw": "20210405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1585791&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1585801",
+    "name": "담양군 통합관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-04-05",
+    "repealed_on": "2021-04-05",
+    "repealed_on_raw": "20210405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1585801&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1585825",
+    "name": "담양군 통합관리기금 설치 및 운용조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-04-05",
+    "repealed_on": "2021-04-05",
+    "repealed_on_raw": "20210405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1585825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1575521",
+    "name": "담양군 계획관리ㆍ관리지역 내 휴게음식점 일반음식점 및 숙박시설 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-19",
+    "repealed_on": "2021-02-19",
+    "repealed_on_raw": "20210219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1575521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545695",
+    "name": "담양군 한국지역진흥재단 지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545695&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545679",
+    "name": "담양군 도로점용료 및 과태료 부과징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545679&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1515613",
+    "name": "담양군 지속가능발전위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-10",
+    "repealed_on": "2020-07-10",
+    "repealed_on_raw": "20200710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515613&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1487133",
+    "name": "담양세계대나무박람회 조직위원회 설립 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-10",
+    "repealed_on": "2020-04-10",
+    "repealed_on_raw": "20200410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1487133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1381141",
+    "name": "담양군 리 명칭과 구역에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1381141&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1382831",
+    "name": "담양군 반 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382831&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1382830",
+    "name": "담양군 이장의 임무 및 실비 변상에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382830&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1382828",
+    "name": "담양군 이장 정수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382828&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1382832",
+    "name": "담양군 반 설치 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382832&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1382829",
+    "name": "담양군 이장 임명에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382829&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1322190",
+    "name": "담양군주민자치센터설치및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-28",
+    "repealed_on": "2017-12-28",
+    "repealed_on_raw": "20171228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1322190&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1321410",
+    "name": "담양군 가로수 조성 및 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-20",
+    "repealed_on": "2017-12-20",
+    "repealed_on_raw": "20171220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1321410&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1321415",
+    "name": "담양군 사단법인 담양대나무축제위원회 지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-20",
+    "repealed_on": "2017-12-20",
+    "repealed_on_raw": "20171220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1321415&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1284446",
+    "name": "담양군 메타세쿼이아 가로수길 효율적 관리 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-04-18",
+    "repealed_on": "2017-04-18",
+    "repealed_on_raw": "20170418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1284446&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1279606",
+    "name": "담양군 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-03-03",
+    "repealed_on": "2017-03-03",
+    "repealed_on_raw": "20170303",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1279606&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1279608",
+    "name": "담양군추성경기장관리운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-03-03",
+    "repealed_on": "2017-03-03",
+    "repealed_on_raw": "20170303",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1279608&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1408148",
+    "name": "담양군 뉴-담양비전위원회 설치 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-30",
+    "repealed_on": "2016-12-30",
+    "repealed_on_raw": "20161230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1408148&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 7,
+   "sentinel_99991231": 5
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "12710"
+ ]
+}

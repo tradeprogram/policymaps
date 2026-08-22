@@ -1,0 +1,784 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:266687",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "한부모가족지원법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2024-12-03",
+   "effective_on": "20251204",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=266687&type=HTML&mobileYn=&efYd=20251204",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 3370,
+   "child_ordinances": 3276,
+   "by_verification_status": {
+    "article-missing": 22,
+    "article-verified": 1349,
+    "unverifiable": 1999
+   },
+   "by_delegation_type": {
+    "law-delegated": 3370
+   },
+   "regions_top": [
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 31
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 30
+    },
+    {
+     "region_id": "41110",
+     "name": "경기도 수원시",
+     "ordinances": 26
+    },
+    {
+     "region_id": "48120",
+     "name": "경상남도 창원시",
+     "ordinances": 24
+    },
+    {
+     "region_id": "47230",
+     "name": "경상북도 영천시",
+     "ordinances": 24
+    },
+    {
+     "region_id": "41480",
+     "name": "경기도 파주시",
+     "ordinances": 24
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 24
+    },
+    {
+     "region_id": "48330",
+     "name": "경상남도 양산시",
+     "ordinances": 23
+    },
+    {
+     "region_id": "44130",
+     "name": "충청남도 천안시",
+     "ordinances": 23
+    },
+    {
+     "region_id": "41570",
+     "name": "경기도 김포시",
+     "ordinances": 23
+    },
+    {
+     "region_id": "48310",
+     "name": "경상남도 거제시",
+     "ordinances": 22
+    },
+    {
+     "region_id": "44200",
+     "name": "충청남도 아산시",
+     "ordinances": 22
+    },
+    {
+     "region_id": "41650",
+     "name": "경기도 포천시",
+     "ordinances": 22
+    },
+    {
+     "region_id": "41630",
+     "name": "경기도 양주시",
+     "ordinances": 22
+    },
+    {
+     "region_id": "41390",
+     "name": "경기도 시흥시",
+     "ordinances": 22
+    },
+    {
+     "region_id": "27",
+     "name": "대구광역시",
+     "ordinances": 21
+    },
+    {
+     "region_id": "47110",
+     "name": "경상북도 포항시",
+     "ordinances": 20
+    },
+    {
+     "region_id": "41370",
+     "name": "경기도 오산시",
+     "ordinances": 20
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 20
+    },
+    {
+     "region_id": "31710",
+     "name": "울산광역시 울주군",
+     "ordinances": 20
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 한부모가족이 안정적인 가족 기능을 유지하고 자립할 수 있도록 지원함으로써 한부모가족의 생활 안정과 복지 증진에 이바지함을 목적으로 한다. <개정 2018.1.16>",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "국가 등의 책임",
+    "body": "제2조(국가 등의 책임)\n① 국가와 지방자치단체는 한부모가족의 복지를 증진할 책임을 진다.\n② 국가와 지방자치단체는 한부모가족의 권익과 자립을 지원하기 위한 여건을 조성하고 이를 위한 시책을 수립ㆍ시행하여야 한다. <신설 2011.4.12, 2014.1.21, 2018.1.16>\n③ 국가와 지방자치단체는 한부모가족에 대한",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "한부모가족의 권리와 책임",
+    "body": "제3조(한부모가족의 권리와 책임)\n① 한부모가족의 모(母) 또는 부(父)는 임신과 출산 및 양육을 사유로 합리적인 이유 없이 교육ㆍ고용 등에서 차별을 받지 아니한다. <신설 2011.4.12>\n② 한부모가족의 모 또는 부와 아동은 한부모가족 관련 정책결정과정에 참여할 권리가 있다. <신설 2018.1.16>\n③ 한부모가족",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제4조(정의)\n1. \"모\" 또는 \"부\"란 다음 각 목의 어느 하나에 해당하는 자로서 아동인 자녀를 양육하는 자를 말한다.\n가. 배우자와 사별 또는 이혼하거나 배우자로부터 유기(遺棄)된 자\n나. 정신이나 신체의 장애로 장기간 노동능력을 상실한 배우자를 가진 자\n다. 교정시설ㆍ치료감호시설에 입소한 배우자 또는 병역복무 중인 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "지원대상자의 범위",
+    "body": "제5조(지원대상자의 범위)\n① 이 법에 따른 지원대상자는 제4조제1호ㆍ제1호의2 및 제2호부터 제5호까지의 규정에 해당하는 자로서 여성가족부령으로 정하는 자로 한다. <개정 2008.2.29, 2010.1.18, 2011.4.12, 2014.1.21>\n② 제1항에 따른 지원대상자 중 아동의 연령을 초과하는 자녀가 있는 한",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "2",
+    "title": "지원대상자의 범위에 대한 특례",
+    "body": "제5조의2(지원대상자의 범위에 대한 특례)\n① 혼인 관계에 있지 아니한 자로서 출산 전 임신부와 출산 후 해당 아동을 양육하지 아니하는 모는 제5조에도 불구하고 제19조제1항제1호의 출산지원시설을 이용할 때에는 이 법에 따른 지원대상자가 된다. <개정 2011.4.12, 2014.1.21, 2018.1.16, 2023.4",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0005021"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "3",
+    "title": "자료 또는 정보의 제공과 홍보",
+    "body": "제5조의3(자료 또는 정보의 제공과 홍보)\n① 국가와 지방자치단체는 이 법에 따른 지원대상자를 발굴하기 위하여 필요한 자료 또는 정보의 제공과 홍보에 노력하여야 한다. <개정 2024.12.3>\n② 국가와 지방자치단체는 청소년 한부모에게 공공 및 민간의 복지서비스를 연계ㆍ제공하기 위하여 청소년 한부모가 자녀의 출생을 신고",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0005031"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "4",
+    "title": "한부모가족의 날",
+    "body": "제5조의4(한부모가족의 날)\n① 한부모가족에 대한 국민의 이해와 관심을 제고하기 위하여 매년 5월 10일을 한부모가족의 날로 한다.\n② 국가와 지방자치단체는 한부모가족의 날의 취지에 맞는 행사 등 사업을 실시할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0005041"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "5",
+    "title": "한부모가족 정책에 관한 기본계획의 수립",
+    "body": "제5조의5(한부모가족 정책에 관한 기본계획의 수립)\n① 여성가족부장관은 한부모가족 지원을 위하여 한부모가족 정책에 관한 기본계획(이하 \"기본계획\"이라 한다)을 5년마다 수립하여야 한다.\n② 기본계획에는 다음 각 호의 사항이 포함되어야 한다.\n1. 한부모가족 지원 정책의 기본방향\n2. 한부모가족 지원을 위한 분야별 발전시책",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0005051"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "6",
+    "title": "연도별 시행계획의 수립ㆍ시행 등",
+    "body": "제5조의6(연도별 시행계획의 수립ㆍ시행 등)\n① 여성가족부장관, 관계 중앙행정기관의 장과 시ㆍ도지사는 매년 기본계획에 따라 한부모가족정책에 관한 시행계획(이하 \"시행계획\"이라 한다)을 수립ㆍ시행하여야 한다.\n② 관계 중앙행정기관의 장과 시ㆍ도지사는 전년도의 시행계획에 따른 추진실적 및 다음 연도의 시행계획을 대통령령으로 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0005061"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "실태조사 등",
+    "body": "제6조(실태조사 등)\n① 여성가족부장관은 한부모가족 지원을 위한 정책수립에 활용하기 위하여 3년마다 한부모가족에 대한 실태조사를 실시하고 그 결과를 공표하여야 한다. 또한, 여성가족부장관은 필요한 경우 여성가족부령으로 정하는 바에 따라 청소년 한부모 등에 대한 실태를 조사ㆍ연구할 수 있다. <개정 2017.12.12>\n②",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "한부모가족 지원업무 관련 공무원의 교육",
+    "body": "제6조의2(한부모가족 지원업무 관련 공무원의 교육)\n국가와 지방자치단체는 한부모가족 지원 관련 업무에 종사하는 공무원의 한부모가족에 대한 이해 증진과 전문성 향상을 위하여 교육을 실시할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": null,
+    "body": "제7조\n삭제 <2011.4.12>",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": null,
+    "body": "제8조\n삭제 <2011.4.12>",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "한부모가족복지단체에 대한 지원 등",
+    "body": "제9조(한부모가족복지단체에 대한 지원 등)\n① 국가와 지방자치단체는 한부모가족복지단체에 대하여 필요한 비용의 전부 또는 일부를 보조하거나 그 업무수행에 필요한 행정적 지원을 할 수 있다.\n② 국가와 지방자치단체는 한부모가족 간의 정보 공유와 상부상조 등을 위한 자조모임 단체의 사업 등을 지원할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "지원대상자의 조사 등",
+    "body": "제10조(지원대상자의 조사 등)\n① 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장(자치구의 구청장을 말한다. 이하 같다)은 매년 1회 이상 관할구역 지원대상자의 가족상황, 생활실태 등을 조사하여야 한다. <개정 2010.5.17, 2011.4.12, 2014.1.21>\n② 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장은 제1",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "복지 급여의 신청",
+    "body": "제11조(복지 급여의 신청)\n① 지원대상자 또는 그 친족이나 그 밖의 이해관계인은 제12조에 따른 복지 급여를 관할 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장에게 신청할 수 있다. <개정 2010.5.17, 2014.1.21>\n② 제1항에 따라 복지 급여 신청을 할 때에는 다음 각 호에 따른 자료 또는 정보의 제공에 대",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "복지 급여의 내용",
+    "body": "제12조(복지 급여의 내용)\n① 국가나 지방자치단체는 제11조에 따른 복지 급여의 신청이 있으면 다음 각 호의 복지 급여를 실시하여야 한다. <개정 2011.4.12, 2014.1.21, 2020.10.20>\n1. 생계비\n2. 아동교육지원비\n3. 삭제<2011.4.12>\n4. 아동양육비\n5. 그 밖에 대통령령으로 정하는 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "2",
+    "title": "복지 급여 사유의 확인 등",
+    "body": "제12조의2(복지 급여 사유의 확인 등)\n① 여성가족부장관 또는 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장은 제11조에 따라 복지 급여를 신청한 지원대상자 또는 제12조에 따른 복지 급여를 받고 있는 지원대상자에 대하여 급여 사유의 발생ㆍ변경 또는 상실을 확인하기 위하여 필요한 소득ㆍ재산 등에 관한 자료의 제출을 요구할",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0012021"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "3",
+    "title": "금융정보등의 제공",
+    "body": "제12조의3(금융정보등의 제공)\n① 여성가족부장관은 제11조에 따라 복지 급여를 신청한 지원대상자의 급여 사유의 발생을 확인하기 위하여 필요하다고 인정하는 경우 「금융실명거래 및 비밀보장에 관한 법률」 제4조제1항과 「신용정보의 이용 및 보호에 관한 법률」 제32조제2항에도 불구하고 지원대상자가 제11조제2항에 따라 제출",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0012031"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "4",
+    "title": "복지 급여의 거절ㆍ변경 등",
+    "body": "제12조의4(복지 급여의 거절ㆍ변경 등)\n① 여성가족부장관 또는 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장은 제11조에 따라 복지 급여를 신청한 지원대상자가 제12조의2제1항에 따른 자료의 제출을 거부하거나 조사ㆍ질문을 거부ㆍ방해 또는 기피하는 경우에는 복지 급여의 지급을 거절할 수 있다. <개정 2014.1.21>\n②",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0012041"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "5",
+    "title": "복지급여수급계좌",
+    "body": "제12조의5(복지급여수급계좌)\n① 국가나 지방자치단체는 제12조에 따른 복지 급여를 받는 지원대상자의 신청이 있는 경우에는 복지 급여를 지원대상자 명의의 지정된 계좌(이하 \"복지급여수급계좌\"라 한다)로 입금하여야 한다. 다만, 정보통신장애나 그 밖에 대통령령으로 정하는 불가피한 사유로 복지급여수급계좌로 이체할 수 없을 때",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0012051"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "복지 자금의 대여",
+    "body": "제13조(복지 자금의 대여)\n① 국가나 지방자치단체는 한부모가족의 생활안정과 자립을 촉진하기 위하여 다음 각 호의 어느 하나의 자금을 대여할 수 있다.\n1. 사업에 필요한 자금\n2. 아동교육비\n3. 의료비\n4. 주택자금\n5. 그 밖에 대통령령으로 정하는 한부모가족의 복지를 위하여 필요한 자금\n② 제1항에 따른 대여 자금의",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "고용의 촉진",
+    "body": "제14조(고용의 촉진)\n① 국가 또는 지방자치단체는 한부모가족의 모 또는 부와 아동의 직업능력을 개발하기 위하여 능력 및 적성 등을 고려한 직업능력개발훈련을 실시하여야 한다.\n② 국가 또는 지방자치단체는 한부모가족의 모 또는 부와 아동의 고용을 촉진하기 위하여 개개인의 희망ㆍ적성ㆍ능력과 직종 등을 고려하여 적합한 직업을 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "2",
+    "title": "고용지원 연계",
+    "body": "제14조의2(고용지원 연계)\n① 국가 및 지방자치단체는 한부모가족의 모 또는 부와 아동의 취업기회를 확대하기 위하여 한부모가족 관련 시설 및 기관과 「직업안정법」 제2조의2제1호에 따른 직업안정기관간 효율적인 연계를 도모하여야 한다. <개정 2009.10.9>\n② 고용노동부장관은 한부모가족의 모 또는 부와 아동을 위한 취",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0014021"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "공공시설에 매점 및 시설 설치",
+    "body": "제15조(공공시설에 매점 및 시설 설치)\n국가나 지방자치단체가 운영하는 공공시설의 장은 그 공공시설에 각종 매점 및 시설의 설치를 허가하는 경우 이를 한부모가족 또는 한부모가족복지단체에 우선적으로 허가할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "시설 우선이용",
+    "body": "제16조(시설 우선이용)\n국가나 지방자치단체는 한부모가족의 아동이 공공의 아동 편의시설과 그 밖의 공공시설을 우선적으로 이용할 수 있도록 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "가족지원서비스",
+    "body": "제17조(가족지원서비스)\n1. 아동의 양육 및 교육 서비스\n2. 장애인, 노인, 만성질환자 등의 부양 서비스\n3. 취사, 청소, 세탁 등 가사 서비스\n4. 교육ㆍ상담 등 가족 관계 증진 서비스\n5. 인지청구 및 자녀양육비 청구, 출생확인신청 등을 위한 법률상담, 소송대리 등 법률구조서비스\n5의2. 출생확인신청을 위한 유전",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "2",
+    "title": "청소년 한부모에 대한 학업 지원",
+    "body": "제17조의2(청소년 한부모에 대한 학업 지원)\n① 국가나 지방자치단체는 청소년 한부모가 학업을 할 수 있도록 다음 각 호의 지원을 할 수 있다. <개정 2024.12.3>\n1. 「초ㆍ중등교육법」 제2조에 따른 학교에서의 학적 유지를 위한 지원 및 교육비 지원 또는 검정고시 지원\n2. 「평생교육법」 제31조제2항에 따른 학",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0017021"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "3",
+    "title": "자녀양육비 이행지원",
+    "body": "제17조의3(자녀양육비 이행지원)\n여성가족부장관은 자녀양육비 산정을 위한 자녀양육비 가이드라인을 마련하여 법원이 이혼 판결 시 적극 활용할 수 있도록 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0017031"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "4",
+    "title": "청소년 한부모의 자립지원",
+    "body": "제17조의4(청소년 한부모의 자립지원)\n① 국가나 지방자치단체는 청소년 한부모가 주거마련 등 자립에 필요한 자산을 형성할 수 있도록 재정적인 지원을 할 수 있다.\n② 제1항에 따른 지원으로 형성된 자산은 청소년 한부모가 이 법에 따른 지원대상자에 해당하는지 여부를 조사ㆍ확인할 때 이를 포함하지 아니한다.\n③ 제1항에 따른",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0017041"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "5",
+    "title": "청소년 한부모의 건강진단",
+    "body": "제17조의5(청소년 한부모의 건강진단)\n① 국가와 지방자치단체는 청소년 한부모의 건강증진을 위하여 건강진단을 실시할 수 있다.\n② 국가와 지방자치단체는 제1항에 따른 건강진단의 결과를 청소년 한부모 본인에게 알려주어야 한다.\n③ 국가와 지방자치단체는 제1항과 제2항에 따른 건강진단의 실시와 그 결과 통보를 전문기관 또는 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0017051"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "6",
+    "title": "미혼모 등의 건강관리 등 지원",
+    "body": "제17조의6(미혼모 등의 건강관리 등 지원)\n① 국가와 지방자치단체는 미혼모 또는 미혼부와 그 자녀가 건강하게 생활할 수 있도록 산전(産前)ㆍ분만ㆍ산후(産後)관리, 질병의 예방ㆍ상담ㆍ치료, 영양ㆍ건강에 관한 교육 등 건강관리를 위한 지원을 할 수 있다.\n② 국가와 지방자치단체는 제19조제1항제1호의 출산지원시설에 입소한 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0017061"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "7",
+    "title": "아동ㆍ청소년 보육ㆍ교육",
+    "body": "제17조의7(아동ㆍ청소년 보육ㆍ교육)\n국가와 지방자치단체는 아동ㆍ청소년 보육ㆍ교육을 실시함에 있어서 한부모가족 구성원인 아동ㆍ청소년을 차별하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0017071"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "국민주택의 분양 및 임대",
+    "body": "제18조(국민주택의 분양 및 임대)\n국가나 지방자치단체는 「주택법」에서 정하는 바에 따라 국민주택을 분양하거나 임대할 때에는 한부모가족에게 일정 비율이 우선 분양될 수 있도록 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": "2",
+    "title": "한부모가족 상담전화의 설치",
+    "body": "제18조의2(한부모가족 상담전화의 설치)\n① 여성가족부장관은 한부모가족 지원에 관한 종합정보의 제공과 지원기관 및 시설의 연계 등에 관한 전문적이고 체계적인 상담서비스를 제공하기 위하여 한부모가족 상담전화를 설치ㆍ운영할 수 있다.\n② 제1항에 따른 한부모가족 상담전화의 설치ㆍ운영에 필요한 사항은 여성가족부령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0018021"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "한부모가족복지시설",
+    "body": "제19조(한부모가족복지시설)\n① 한부모가족복지시설은 다음 각 호의 시설로 한다. <개정 2018.1.16, 2023.4.11>\n1. 출산지원시설: 다음 각 목의 어느 하나에 해당하는 자의 임신ㆍ출산 및 그 출산 아동(3세 미만에 한정한다)의 양육을 위하여 주거 등을 지원하는 시설\n가. 제4조제1호의 모\n나. 혼인 관계에 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "한부모가족복지시설의 설치",
+    "body": "제20조(한부모가족복지시설의 설치)\n① 국가나 지방자치단체는 한부모가족복지시설을 설치할 수 있다.\n② 제19조에 따른 한부모가족복지시설의 장은 청소년 한부모가 입소를 요청하는 경우에는 우선 입소를 위한 조치를 취하여야 한다. <신설 2011.4.12>\n③ 국가나 지방자치단체 외의 자가 한부모가족복지시설을 설치ㆍ운영하려면 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "폐지 또는 휴지",
+    "body": "제21조(폐지 또는 휴지)\n① 제20조제3항에 따라 한부모가족복지시설의 설치 신고를 한 자가 그 시설의 폐지, 일시적 운영중단 또는 운영재개를 하려면 여성가족부령으로 정하는 바에 따라 미리 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장에게 신고하여야 한다. <개정 2008.2.29, 2010.1.18, 2010.5.17, ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "수탁 의무",
+    "body": "제22조(수탁 의무)\n한부모가족복지시설을 설치ㆍ운영하는 자는 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장으로부터 한부모가족복지시설에 한부모가족을 입소하도록 위탁받으면 정당한 사유 없이 이를 거부하지 못한다. <개정 2014.1.21, 2020.10.20>",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "감독",
+    "body": "제23조(감독)\n① 여성가족부장관, 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 한부모가족복지시설을 설치ㆍ운영하는 자에게 그 시설에 관하여 필요한 보고를 하게 하거나, 관계 공무원에게 시설의 운영 상황을 조사하게 하거나 장부 등 그 밖의 서류를 검사하게 할 수 있다. <개정 2008.2.29, 2010.1.18>\n② 제1항에 따라",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": "2",
+    "title": "시설의 평가",
+    "body": "제23조의2(시설의 평가)\n① 여성가족부장관과 시ㆍ도지사는 여성가족부령으로 정하는 바에 따라 한부모가족복지시설을 정기적으로 평가하고, 그 결과를 공표하거나 한부모가족복지시설의 감독ㆍ지원 등에 반영할 수 있으며 한부모가족복지시설의 거주자를 다른 한부모가족복지시설로 보내는 등의 조치를 할 수 있다.\n② 여성가족부장관이나 시ㆍ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0023021"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "시설 폐쇄 등",
+    "body": "제24조(시설 폐쇄 등)\n① 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장은 한부모가족복지시설이 다음 각 호의 어느 하나에 해당하면 그 사업의 정지나 폐지를 명하거나 시설을 폐쇄할 수 있다. <개정 2010.5.17, 2011.4.12, 2014.1.21, 2016.3.2, 2020.10.20>\n1. 제20조제6항의 시설 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": "2",
+    "title": "청문",
+    "body": "제24조의2(청문)\n특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장은 제24조제1항에 따라 사업의 폐지를 명하거나 시설을 폐쇄하려면 청문을 하여야 한다. <개정 2010.5.17, 2014.1.21, 2016.3.2>",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0024021"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "비용의 보조",
+    "body": "제25조(비용의 보조)\n국가나 지방자치단체는 대통령령으로 정하는 바에 따라 한부모가족복지사업에 드는 비용을 보조할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": "2",
+    "title": "부정수급자에 대한 비용의 징수",
+    "body": "제25조의2(부정수급자에 대한 비용의 징수)\n① 거짓이나 그 밖의 부정한 방법으로 복지 급여를 받거나 타인으로 하여금 복지 급여를 받게 한 경우 복지 급여를 지급한 지원기관은 그 비용의 전부 또는 일부를 그 복지 급여를 받은 자 또는 복지 급여를 받게 한 자(이하 \"부정수급자\"라 한다)로부터 징수할 수 있다. <개정 20",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0025021"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "보조금 등의 반환명령",
+    "body": "제26조(보조금 등의 반환명령)\n① 국가나 지방자치단체는 한부모가족복지시설의 장이나 한부모가족복지단체의 장이 다음 각 호의 어느 하나에 해당하면 이미 내준 보조금의 전부 또는 일부의 반환을 명할 수 있다.\n1. 보조금의 교부 조건을 위반한 경우\n2. 거짓이나 그 밖의 부정한 방법으로 보조금을 받은 경우\n3. 한부모가족복지",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "양도ㆍ담보 및 압류 금지",
+    "body": "제27조(양도ㆍ담보 및 압류 금지)\n① 이 법에 따라 지급된 복지급여와 이를 받을 권리는 다른 사람에게 양도하거나 담보로 제공할 수 없으며, 다른 사람은 이를 압류할 수 없다. <개정 2014.1.21>\n② 제12조의5제1항에 따라 지정된 복지급여수급계좌의 예금에 관한 채권은 압류할 수 없다. <신설 2014.1.21>",
+    "body_truncated": false,
+    "effective_on": "20250604",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "심사 청구",
+    "body": "제28조(심사 청구)\n① 지원대상자 또는 그 친족이나 그 밖의 이해관계인은 이 법에 따른 복지 급여 등에 대하여 이의가 있으면 그 결정을 통지받은 날부터 90일 이내에 서면으로 해당 복지실시기관에 심사를 청구할 수 있다. <개정 2014.1.21>\n② 복지실시기관은 제1항의 심사 청구를 받으면 30일 이내에 이를 심사ㆍ결",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제29조(벌칙)\n① 제12조의3제6항을 위반하여 금융정보등을 사용 또는 누설한 사람은 5년 이하의 징역 또는 5천만원 이하의 벌금에 처한다. <신설 2012.2.1, 2014.1.21>\n② 제12조의2제4항을 위반하여 자료 등을 사용 또는 누설한 사람은 3년 이하의 징역 또는 3천만원 이하의 벌금에 처한다. <신설 201",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "양벌규정",
+    "body": "제30조(양벌규정)\n법인의 대표자나 법인 또는 개인의 대리인, 사용인, 그 밖의 종업원이 그 법인 또는 개인의 업무에 관하여 제29조의 위반행위를 하면 그 행위자를 벌하는 외에 그 법인 또는 개인에게도 해당 조문의 벌금 또는 과료의 형을 과(科)한다. 다만, 법인 또는 개인이 그 위반행위를 방지하기 위하여 해당 업무에 관",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": "2",
+    "title": "과태료",
+    "body": "제30조의2(과태료)\n① 다음 각 호의 어느 하나에 해당하는 자에게는 300만원 이하의 과태료를 부과할 수 있다. <개정 2011.4.12>\n1. 제22조를 위반하여 정당한 사유 없이 수탁을 거부한 자\n2. 정당한 이유 없이 제23조제1항에 따른 보고를 하지 아니하거나 거짓으로 한 자 또는 조사ㆍ검사를 거부하거나 기피한 ",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0030021"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "권한 등의 위임 및 위탁",
+    "body": "제31조(권한 등의 위임 및 위탁)\n① 여성가족부장관이나 시ㆍ도지사는 대통령령으로 정하는 바에 따라 이 법에 따른 권한의 일부를 시장ㆍ군수ㆍ구청장에게 위임할 수 있다. <개정 2008.2.29, 2010.1.18, 2024.12.3>\n② 여성가족부장관이나 시ㆍ도지사는 대통령령으로 정하는 바에 따라 이 법에 따른 업무의 일",
+    "body_truncated": true,
+    "effective_on": "20250604",
+    "article_key": "0031001"
+   }
+  ],
+  "article_count": 53,
+  "articles_shown": 53,
+  "articles_truncated_bodies": 37,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:2042763",
+    "name": "의성군 출산장려금 등 지원에 관한 조례",
+    "region_id": "47730",
+    "org_name": "경상북도 의성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2042763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2000997",
+    "name": "대전광역시 출산장려 및 양육 지원에 관한 조례",
+    "region_id": "30",
+    "org_name": "대전광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000997&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132335",
+    "name": "전남광주통합특별시 서구 출산 및 양육지원 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132335&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1509073",
+    "name": "양주시 장애인가정 출산지원금 지급 조례",
+    "region_id": "41630",
+    "org_name": "경기도 양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1509073&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2135711",
+    "name": "인천광역시 서해구 행복한 출산ㆍ양육 환경 조성을 위한 조례",
+    "region_id": "28275",
+    "org_name": "인천광역시 서해구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135711&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128487",
+    "name": "청주시 저출산ㆍ고령사회 대응 및 지원에 관한 조례",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128487&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2162537",
+    "name": "오산시 장애인가정의 출산지원금 지급 조례 시행규칙",
+    "region_id": "41370",
+    "org_name": "경기도 오산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2162537&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2103085",
+    "name": "순천시 장난감도서관 및 출산·육아용품대여소 설치·운영 조례",
+    "region_id": "12150",
+    "org_name": "전남광주통합특별시 순천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103085&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2138027",
+    "name": "인천광역시 검단구 행복한 출산ㆍ양육 환경 조성을 위한 조례",
+    "region_id": "28290",
+    "org_name": "인천광역시 검단구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2138027&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1895459",
+    "name": "나주시 사회적 약자 반려동물 진료비 지원 조례",
+    "region_id": "12170",
+    "org_name": "전남광주통합특별시 나주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1895459&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1933757",
+    "name": "논산시 사회적 약자의 반려동물 진료비 지원 조례",
+    "region_id": "44230",
+    "org_name": "충청남도 논산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1933757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1942299",
+    "name": "대전광역시 유성구 사회적 약자 반려동물 의료비 지원 조례",
+    "region_id": "30200",
+    "org_name": "대전광역시 유성구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942299&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1978359",
+    "name": "문경시 반려동물 및 유실·유기동물 보호 조례",
+    "region_id": "47280",
+    "org_name": "경상북도 문경시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1978359&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1925135",
+    "name": "부산광역시 중구 취약계층 반려동물 및 장애인 보조견 진료비 등 지원 조례",
+    "region_id": "26110",
+    "org_name": "부산광역시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1925135&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1910977",
+    "name": "서울특별시 금천구 반려동물 진료비 부담 완화 지원 조례",
+    "region_id": "11545",
+    "org_name": "서울특별시 금천구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910977&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664183",
+    "name": "서울특별시 성동구 반려동물 진료비 부담 완화 지원 조례",
+    "region_id": "11200",
+    "org_name": "서울특별시 성동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664183&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2084995",
+    "name": "서울특별시 중랑구 취약계층 반려동물 진료비 지원 조례안",
+    "region_id": "11260",
+    "org_name": "서울특별시 중랑구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2084995&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2103507",
+    "name": "의성군 반려동물문화센터 관리ㆍ운영에 관한 조례",
+    "region_id": "47730",
+    "org_name": "경상북도 의성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103507&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2056319",
+    "name": "전북특별자치도 반려동물 보호 및 학대방지 조례",
+    "region_id": "52",
+    "org_name": "전북특별자치도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2056319&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1995609",
+    "name": "창원시 장애인 및 저소득층의 반려동물 진료비 등 부담 완화 및 진료비 표시제 지원에 관한 조례",
+    "region_id": "48120",
+    "org_name": "경상남도 창원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1995609&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

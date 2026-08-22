@@ -1,0 +1,794 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1502997",
+   "key": "ordin-1502997",
+   "mst": "1502997",
+   "name": "아산시 안전보안관 운영 조례",
+   "ord_kind": "조례",
+   "region_id": "44200",
+   "sig_cd": "44200",
+   "region_name": "충청남도 아산시",
+   "org_name": "충청남도 아산시",
+   "enacted_on": "20200605",
+   "effective_on": "20200605",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 10,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1502997",
+   "categories": [
+    {
+     "code": "C08",
+     "name": "안전·재난",
+     "confidence": 0.625,
+     "method": "rule"
+    },
+    {
+     "code": "C05",
+     "name": "청년·교육",
+     "confidence": 0.5,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.87105,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1701495",
+      "key": "ordin-1701495",
+      "name": "춘천시 안전보안관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20220421",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1701495",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.859863,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1528235",
+      "key": "ordin-1528235",
+      "name": "양산시 안전보안관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 양산시",
+      "sig_cd": "48330",
+      "enacted_on": "20200917",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1528235",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.853949,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1802577",
+      "key": "ordin-1802577",
+      "name": "화성시 안전보안관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 화성시",
+      "sig_cd": "41590",
+      "enacted_on": "20230414",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1802577",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.840704,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2067601",
+      "key": "ordin-2067601",
+      "name": "울산광역시 울주군 온양문화복지센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 울주군",
+      "sig_cd": "31710",
+      "enacted_on": "20250918",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2067601",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.833282,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1587777",
+      "key": "ordin-1587777",
+      "name": "예산군 안전보안관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 예산군",
+      "sig_cd": "44810",
+      "enacted_on": "20210405",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1587777",
+      "categories": [
+       "C08",
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.822961,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2147997",
+      "key": "ordin-2147997",
+      "name": "울산광역시 울주군 웅촌문화복지센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 울주군",
+      "sig_cd": "31710",
+      "enacted_on": "20260702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "pending",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2147997",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.806496,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1919095",
+      "key": "ordin-1919095",
+      "name": "화성시 아동보호구역 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 화성시",
+      "sig_cd": "41590",
+      "enacted_on": "20240405",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1919095",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.805181,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1800991",
+      "key": "ordin-1800991",
+      "name": "경주시 안전보안관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 경주시",
+      "sig_cd": "47130",
+      "enacted_on": "20230413",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1800991",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.802138,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1479787",
+      "key": "ordin-1479787",
+      "name": "아산시 안전관리위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20200316",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1479787",
+      "categories": [
+       "C08",
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.798983,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1547607",
+      "key": "ordin-1547607",
+      "name": "김천시 안전보안관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 김천시",
+      "sig_cd": "47150",
+      "enacted_on": "20201119",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1547607",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.993175,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1552305",
+      "key": "ordin-1552305",
+      "name": "아산시 장애인 평생교육 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20201215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1552305",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.990976,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2092093",
+      "key": "ordin-2092093",
+      "name": "아산시 체육시설 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20251215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2092093",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990934,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1362848",
+      "key": "ordin-1362848",
+      "name": "아산시 노인종합복지관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20181005",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1362848",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990908,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1310030",
+      "key": "ordin-1310030",
+      "name": "아산시 의용소방대 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20171106",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1310030",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990536,
+      "stored_rank": null,
+      "ordinance_id": "ordin:698553",
+      "key": "ordin-698553",
+      "name": "아산시 장애인복지위원회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20120309",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=698553",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.990085,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2092131",
+      "key": "ordin-2092131",
+      "name": "아산시립도서관 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20251215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2092131",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.98975,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2162551",
+      "key": "ordin-2162551",
+      "name": "아산시청 직장어린이집 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20260818",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2162551",
+      "categories": [
+       "C01",
+       "C04"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989378,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2018617",
+      "key": "ordin-2018617",
+      "name": "아산시 노인복지 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20250305",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2018617",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.98914,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1222319",
+      "key": "ordin-1222319",
+      "name": "아산시 감염병 예방 및 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20160315",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1222319",
+      "categories": [
+       "C06",
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.989041,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1301554",
+      "key": "ordin-1301554",
+      "name": "아산시 친환경농업 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20170915",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1301554",
+      "categories": [
+       "C12",
+       "C07"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 3,
+    "stored_agreement": 0.3
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.99369,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1479787",
+      "key": "ordin-1479787",
+      "name": "아산시 안전관리위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20200316",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1479787",
+      "categories": [
+       "C08",
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.992997,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1408705",
+      "key": "ordin-1408705",
+      "name": "아산시 시민안전보험 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20190916",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1408705",
+      "categories": [
+       "C08",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.986063,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1493271",
+      "key": "ordin-1493271",
+      "name": "아산시 사립 박물관 및 사립 미술관 진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20200514",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1493271",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.985739,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2064855",
+      "key": "ordin-2064855",
+      "name": "아산시 도시재생 활성화 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20250814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2064855",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.985399,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1797919",
+      "key": "ordin-1797919",
+      "name": "아산역사박물관 건립자문위원회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20230405",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1797919",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.985353,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1591501",
+      "key": "ordin-1591501",
+      "name": "아산시 문화예술진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20210426",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1591501",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.985201,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1912787",
+      "key": "ordin-1912787",
+      "name": "아산시 보육교직원 권익보호 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20240315",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1912787",
+      "categories": [
+       "C04",
+       "C06"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.984733,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1269748",
+      "key": "ordin-1269748",
+      "name": "아산시 여성농업인 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20161215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1269748",
+      "categories": [
+       "C12",
+       "C04"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.984716,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1647349",
+      "key": "ordin-1647349",
+      "name": "아산시 청소년의 날 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20211215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1647349",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.984552,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1205782",
+      "key": "ordin-1205782",
+      "name": "아산시 여성친화도시 조성에 관한 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20151215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1205782",
+      "categories": [
+       "C09",
+       "C08"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1479787",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.897914,
+    "best_rank": 1,
+    "ordinance_id": "ordin:1479787",
+    "key": "ordin-1479787",
+    "name": "아산시 안전관리위원회 운영 조례",
+    "region_name": "충청남도 아산시",
+    "sig_cd": "44200",
+    "enacted_on": "20200316",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1479787"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

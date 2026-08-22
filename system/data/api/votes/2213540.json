@@ -1,0 +1,216 @@
+{
+ "data": {
+  "bill": {
+   "bill_id": "PRC_M2M5G0F9E0D9L1I4H4P6O3N9M4V7U1",
+   "bill_no": "2213540",
+   "age": 22,
+   "name": "아동·청소년의 성보호에 관한 법률 일부개정법률안",
+   "committee": "성평등가족위원회",
+   "propose_dt": "2025-10-13",
+   "proc_dt": "2026-05-07",
+   "proc_result": "수정가결",
+   "proc_result_cd": "수정가결"
+  },
+  "tally_reported": {
+   "member_tcnt": 286,
+   "vote_tcnt": 166,
+   "yes_tcnt": 165,
+   "no_tcnt": 0,
+   "blank_tcnt": 1
+  },
+  "tally_from_votes": {
+   "찬성": 165,
+   "반대": 0,
+   "기권": 1,
+   "기타": 119,
+   "합계": 285
+  },
+  "yes_ratio": 0.5789,
+  "party_breakdown": [
+   {
+    "party": "더불어민주당",
+    "찬성": 112,
+    "반대": 0,
+    "기권": 1,
+    "기타": 39,
+    "합계": 152,
+    "찬성률": 0.7368
+   },
+   {
+    "party": "국민의힘",
+    "찬성": 35,
+    "반대": 0,
+    "기권": 0,
+    "기타": 70,
+    "합계": 105,
+    "찬성률": 0.3333
+   },
+   {
+    "party": "조국혁신당",
+    "찬성": 9,
+    "반대": 0,
+    "기권": 0,
+    "기타": 3,
+    "합계": 12,
+    "찬성률": 0.75
+   },
+   {
+    "party": "무소속",
+    "찬성": 3,
+    "반대": 0,
+    "기권": 0,
+    "기타": 4,
+    "합계": 7,
+    "찬성률": 0.4286
+   },
+   {
+    "party": "진보당",
+    "찬성": 4,
+    "반대": 0,
+    "기권": 0,
+    "기타": 0,
+    "합계": 4,
+    "찬성률": 1.0
+   },
+   {
+    "party": "개혁신당",
+    "찬성": 1,
+    "반대": 0,
+    "기권": 0,
+    "기타": 2,
+    "합계": 3,
+    "찬성률": 0.3333
+   },
+   {
+    "party": "기본소득당",
+    "찬성": 0,
+    "반대": 0,
+    "기권": 0,
+    "기타": 1,
+    "합계": 1,
+    "찬성률": 0.0
+   },
+   {
+    "party": "사회민주당",
+    "찬성": 1,
+    "반대": 0,
+    "기권": 0,
+    "기타": 0,
+    "합계": 1,
+    "찬성률": 1.0
+   }
+  ],
+  "proposers": [
+   {
+    "role": "RST",
+    "legislator_id": "X639721U",
+    "name": "임미애",
+    "current_party": "더불어민주당",
+    "district": "비례대표"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "IUX1829H",
+    "name": "김남근",
+    "current_party": "더불어민주당",
+    "district": "서울 성북구을"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "YM42715P",
+    "name": "김준혁",
+    "current_party": "더불어민주당",
+    "district": "경기 수원시정"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "VZA76236",
+    "name": "박선원",
+    "current_party": "더불어민주당",
+    "district": "인천 부평구을"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "8BF5855P",
+    "name": "박지원",
+    "current_party": "더불어민주당",
+    "district": "전남광주통합특별시 해남군완도군진도군"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "E2B3753X",
+    "name": "박해철",
+    "current_party": "더불어민주당",
+    "district": "경기 안산시병"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "JC14718Q",
+    "name": "윤준병",
+    "current_party": "더불어민주당",
+    "district": "전북 정읍시고창군"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "HFV52269",
+    "name": "이병진",
+    "current_party": null,
+    "district": null
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "0R68099X",
+    "name": "이수진",
+    "current_party": "더불어민주당",
+    "district": "경기 성남시중원구"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "3LP22204",
+    "name": "이재강",
+    "current_party": "더불어민주당",
+    "district": "경기 의정부시을"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "RBM5454A",
+    "name": "이주희",
+    "current_party": "더불어민주당",
+    "district": "비례대표"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "LT72093S",
+    "name": "정일영",
+    "current_party": "더불어민주당",
+    "district": "인천 연수구을"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "1S05899F",
+    "name": "채현일",
+    "current_party": "더불어민주당",
+    "district": "서울 영등포구갑"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "CC78321E",
+    "name": "최혁진",
+    "current_party": "무소속",
+    "district": "비례대표"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "HHB5652A",
+    "name": "허성무",
+    "current_party": "더불어민주당",
+    "district": "경남 창원시성산구"
+   }
+  ]
+ },
+ "as_of_date": "2026-08-21T03:51:11+0900",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오.",
+ "official_url": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_M2M5G0F9E0D9L1I4H4P6O3N9M4V7U1"
+}

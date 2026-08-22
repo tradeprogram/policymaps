@@ -1,0 +1,710 @@
+{
+ "data": {
+  "region": {
+   "region_id": "51830",
+   "sig_cd": "51830",
+   "name": "양양군",
+   "full_name": "강원특별자치도 양양군",
+   "level": 2
+  },
+  "counts": {
+   "total": 688,
+   "active": 586,
+   "repealed": 102,
+   "by_rr_cls_cd": {
+    "일부개정": 365,
+    "전부개정": 22,
+    "제정": 199,
+    "폐지": 102
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2000,
+    "n": 4
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 9
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 29
+   },
+   {
+    "year": 2013,
+    "n": 13
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 19
+   },
+   {
+    "year": 2017,
+    "n": 13
+   },
+   {
+    "year": 2018,
+    "n": 21
+   },
+   {
+    "year": 2019,
+    "n": 25
+   },
+   {
+    "year": 2020,
+    "n": 50
+   },
+   {
+    "year": 2021,
+    "n": 31
+   },
+   {
+    "year": 2022,
+    "n": 62
+   },
+   {
+    "year": 2023,
+    "n": 106
+   },
+   {
+    "year": 2024,
+    "n": 111
+   },
+   {
+    "year": 2025,
+    "n": 129
+   },
+   {
+    "year": 2026,
+    "n": 28
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 4
+   },
+   {
+    "year": 2013,
+    "n": 8
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 1
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 1
+   },
+   {
+    "year": 2018,
+    "n": 7
+   },
+   {
+    "year": 2019,
+    "n": 4
+   },
+   {
+    "year": 2020,
+    "n": 9
+   },
+   {
+    "year": 2021,
+    "n": 10
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 4
+   },
+   {
+    "year": 2024,
+    "n": 4
+   },
+   {
+    "year": 2025,
+    "n": 4
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료 부과·징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득 주민자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득 주민자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:895421",
+    "name": "양양군 1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-10-06",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=895421&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:916635",
+    "name": "양양군생활보호기금운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2006-04-14",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=916635&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:908129",
+    "name": "양양군수방단운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2006-04-14",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=908129&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:916619",
+    "name": "양양군재난관리기금의운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2005-01-06",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=916619&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:908140",
+    "name": "양양군재해대책기금운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2005-01-06",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=908140&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:896598",
+    "name": "양양군재해대책본부의운영등에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2005-04-11",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=896598&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:895424",
+    "name": "양양군준농림지역내음식점.숙박시설설치에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2003-06-11",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=895424&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:896596",
+    "name": "양양군하천골재채취사업운영관리특별회계설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "2006-04-14",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=896596&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:891660",
+    "name": "양양군향토인재양성사업특별회계설치및운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-03-04",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=891660&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:892007",
+    "name": "양양군구교지구일단의주택지조성사업시행조례에관한공공용지부담규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2000-01-19",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=892007&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:892008",
+    "name": "양양군구교지구일단의주택지조성사업시행조례에관한환지및토지가격산출규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2000-01-19",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=892008&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:892012",
+    "name": "양양군구교지구일단의주택지조성사업청산금사무처리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2000-01-19",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=892012&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:892010",
+    "name": "양양군구교지구일단의주택지조성사업체비지매각규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2000-01-19",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=892010&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:916620",
+    "name": "양양군재난관리기금의운용관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2005-01-06",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=916620&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:908142",
+    "name": "양양군재해대책기금운용관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2005-01-06",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=908142&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2102943",
+    "name": "양양군 합창단 설립 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-31",
+    "repealed_on": "2025-12-31",
+    "repealed_on_raw": "20251231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2102943&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2087485",
+    "name": "양양군 보건진료소 수가 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-18",
+    "repealed_on": "2025-11-18",
+    "repealed_on_raw": "20251118",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2087485&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2032371",
+    "name": "양양군 도시림등 조성 및 관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-15",
+    "repealed_on": "2025-04-15",
+    "repealed_on_raw": "20250415",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2032371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2015661",
+    "name": "양양군 낚시통제구역 지정 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-17",
+    "repealed_on": "2025-02-17",
+    "repealed_on_raw": "20250217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2015661&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1935059",
+    "name": "양양군 지역개발사업특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-31",
+    "repealed_on": "2024-05-31",
+    "repealed_on_raw": "20240531",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1935059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1921503",
+    "name": "양양군 미혼자 국제결혼 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-16",
+    "repealed_on": "2024-04-16",
+    "repealed_on_raw": "20240416",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1921503&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1921481",
+    "name": "양양군 미혼자 국제결혼 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-04-16",
+    "repealed_on": "2024-04-16",
+    "repealed_on_raw": "20240416",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1921481&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1910203",
+    "name": "양양군 주택임대차계약서 확정일자 부여업무 처리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-02-27",
+    "repealed_on": "2024-02-27",
+    "repealed_on_raw": "20240227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910203&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1471873",
+    "name": "양양군 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-20",
+    "repealed_on": "2023-09-20",
+    "repealed_on_raw": "20230920",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1471873&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1667573",
+    "name": "양양군 참전유공자 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-20",
+    "repealed_on": "2023-09-20",
+    "repealed_on_raw": "20230920",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1667573&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:966469",
+    "name": "양양군 물가대책위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-14",
+    "repealed_on": "2023-07-14",
+    "repealed_on_raw": "20230714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=966469&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1334608",
+    "name": "양양군 축제운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-26",
+    "repealed_on": "2023-05-26",
+    "repealed_on_raw": "20230526",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1334608&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1734323",
+    "name": "양양군의회 의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-07",
+    "repealed_on": "2022-10-07",
+    "repealed_on_raw": "20221007",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1734323&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1734325",
+    "name": "양양군의회 행동강령 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-07",
+    "repealed_on": "2022-10-07",
+    "repealed_on_raw": "20221007",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1734325&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1675133",
+    "name": "양양군 주민의 조례 제정·개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-10",
+    "repealed_on": "2022-01-10",
+    "repealed_on_raw": "20220110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1675133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669371",
+    "name": "양양군 인구해안지구 일단의 주택지 조성사업 시행 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-27",
+    "repealed_on": "2021-12-27",
+    "repealed_on_raw": "20211227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669365",
+    "name": "양양군 인구해안지구 일단의 주택지 조성사업 청산금 사무처리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-27",
+    "repealed_on": "2021-12-27",
+    "repealed_on_raw": "20211227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669365&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669363",
+    "name": "양양군 인구해안지구 일단의 주택지 조성사업 체비지 매각 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-27",
+    "repealed_on": "2021-12-27",
+    "repealed_on_raw": "20211227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669363&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669361",
+    "name": "양양군 인구해안지구 일단의 주택지 조성사업 환지지정 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-27",
+    "repealed_on": "2021-12-27",
+    "repealed_on_raw": "20211227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669361&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632649",
+    "name": "양양군 저소득 주민자녀 장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-01",
+    "repealed_on": "2021-10-01",
+    "repealed_on_raw": "20211001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632649&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632651",
+    "name": "양양군 저소득 주민자녀 장학금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-10-01",
+    "repealed_on": "2021-10-01",
+    "repealed_on_raw": "20211001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632651&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1623355",
+    "name": "양양군 생활체육 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-16",
+    "repealed_on": "2021-07-16",
+    "repealed_on_raw": "20210716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1623355&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1623353",
+    "name": "양양군 체육진흥협의회 조직운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-16",
+    "repealed_on": "2021-07-16",
+    "repealed_on_raw": "20210716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1623353&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1577011",
+    "name": "양양군 주택사업특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-23",
+    "repealed_on": "2021-02-23",
+    "repealed_on_raw": "20210223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1577011&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1577013",
+    "name": "양양군 주택사업특별회계 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-02-23",
+    "repealed_on": "2021-02-23",
+    "repealed_on_raw": "20210223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1577013&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 15,
+   "sentinel_99991231": 15
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51830"
+ ]
+}

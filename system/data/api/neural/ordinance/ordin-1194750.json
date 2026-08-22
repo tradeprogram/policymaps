@@ -1,0 +1,762 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1194750",
+   "key": "ordin-1194750",
+   "mst": "1194750",
+   "name": "함양군 경로당 지원 조례",
+   "ord_kind": "조례",
+   "region_id": "48870",
+   "sig_cd": "48870",
+   "region_name": "경상남도 함양군",
+   "org_name": "경상남도 함양군",
+   "enacted_on": "20151001",
+   "effective_on": "20151001",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 9,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1194750",
+   "categories": [
+    {
+     "code": "C03",
+     "name": "복지·돌봄",
+     "confidence": 0.625,
+     "method": "rule"
+    },
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.920099,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1607829",
+      "key": "ordin-1607829",
+      "name": "함양군 마을공동체 활성화 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20210617",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1607829",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.914847,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2082563",
+      "key": "ordin-2082563",
+      "name": "함양군 화장장려금 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20251105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2082563",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.909884,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:979868",
+      "key": "ordin-979868",
+      "name": "함양군 농촌 인력난 해소를 위한 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20150226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=979868",
+      "categories": [
+       "C11",
+       "C12"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.908243,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2024607",
+      "key": "ordin-2024607",
+      "name": "함양군 양수기 대부 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20100831",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2024607",
+      "categories": []
+     },
+     {
+      "rank": 5,
+      "cosine": 0.896841,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1922561",
+      "key": "ordin-1922561",
+      "name": "함양군 생산관리지역 내 농촌융복합시설 설치에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20240417",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1922561",
+      "categories": [
+       "C06",
+       "C12"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.896347,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1834291",
+      "key": "ordin-1834291",
+      "name": "함양군 재향군인 예우 및 지원에 관한조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20230706",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1834291",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.8936,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1350589",
+      "key": "ordin-1350589",
+      "name": "함양군의회 의원 신분증 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20180621",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1350589",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.891862,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2082557",
+      "key": "ordin-2082557",
+      "name": "함양군 리의 명칭 및 구역에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20251105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2082557",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.890063,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1416582",
+      "key": "ordin-1416582",
+      "name": "함양군조례규칙등 공포에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20230706",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1416582",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.888509,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1642979",
+      "key": "ordin-1642979",
+      "name": "함양군 마을방송시스템 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20211118",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1642979",
+      "categories": [
+       "C08"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.988843,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1892907",
+      "key": "ordin-1892907",
+      "name": "함양군 사무전결 처리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20231228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1892907",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.988013,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1274405",
+      "key": "ordin-1274405",
+      "name": "함양군 지역아동센터 운영 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20161227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1274405",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.987435,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1057945",
+      "key": "ordin-1057945",
+      "name": "함양군 청소년유해환경 신고포상금 지급 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20121228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1057945",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.987403,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1043532",
+      "key": "ordin-1043532",
+      "name": "함양군 장애인가족 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20150421",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1043532",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.987378,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1065450",
+      "key": "ordin-1065450",
+      "name": "함양군지방공무원직장협의회의 설립ㆍ운영에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "19990726",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1065450",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.987083,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1921645",
+      "key": "ordin-1921645",
+      "name": "함양군 온종일돌봄 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20240417",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1921645",
+      "categories": [
+       "C05",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.987057,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2106039",
+      "key": "ordin-2106039",
+      "name": "함양군 납세자보호에 관한 사무 처리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20260102",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2106039",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.986839,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2015523",
+      "key": "ordin-2015523",
+      "name": "함양군 공무용 차량 관리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20250213",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2015523",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.986772,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1033017",
+      "key": "ordin-1033017",
+      "name": "대한노인회 함양군지회 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20141230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1033017",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.986646,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1274121",
+      "key": "ordin-1274121",
+      "name": "함양군 주민등록 사무의 읍·면 위임 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20161227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1274121",
+      "categories": [
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994595,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1903841",
+      "key": "ordin-1903841",
+      "name": "함양군 지역치안협의회 설치 및 운영조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20231228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1903841",
+      "categories": [
+       "C03",
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994553,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1780981",
+      "key": "ordin-1780981",
+      "name": "함양군 사무인계ㆍ인수규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20221201",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1780981",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994302,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1876929",
+      "key": "ordin-1876929",
+      "name": "함양군 산양삼산업 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20231123",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1876929",
+      "categories": [
+       "C11",
+       "C12"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994147,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1849727",
+      "key": "ordin-1849727",
+      "name": "함양군 가로등 및 보안등 설치 및 관리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20230824",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1849727",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994089,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1477567",
+      "key": "ordin-1477567",
+      "name": "함양군 청소년 통행금지구역ㆍ통행제한구역 지정 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20200102",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1477567",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.994079,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2162349",
+      "key": "ordin-2162349",
+      "name": "함양군 안전관리민관협력위원회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20260806",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2162349",
+      "categories": [
+       "C08",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993925,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1236172",
+      "key": "ordin-1236172",
+      "name": "함양군 위생업소 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20160530",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1236172",
+      "categories": [
+       "C06",
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993912,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2162347",
+      "key": "ordin-2162347",
+      "name": "함양군 국내외 교류협력에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20260806",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2162347",
+      "categories": [
+       "C09",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.99388,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1522581",
+      "key": "ordin-1522581",
+      "name": "함양군 폐기물관리에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20200806",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1522581",
+      "categories": [
+       "C07"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993823,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1779621",
+      "key": "ordin-1779621",
+      "name": "함양군 사무의 민간위탁 촉진 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20221229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1779621",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

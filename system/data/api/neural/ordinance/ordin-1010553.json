@@ -1,0 +1,769 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1010553",
+   "key": "ordin-1010553",
+   "mst": "1010553",
+   "name": "춘천시 농업발전기금 설치 및 운용 조례 시행규칙",
+   "ord_kind": "규칙",
+   "region_id": "51110",
+   "sig_cd": "51110",
+   "region_name": "강원특별자치도 춘천시",
+   "org_name": "강원특별자치도 춘천시",
+   "enacted_on": "20150430",
+   "effective_on": "20150430",
+   "repealed_on": null,
+   "rr_cls_cd": "전부개정",
+   "article_count": 4,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1010553",
+   "categories": [
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.4,
+     "method": "rule"
+    },
+    {
+     "code": "C12",
+     "name": "농림·수산",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.983648,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1963315",
+      "key": "ordin-1963315",
+      "name": "춘천시 농업발전기금 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20240814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1963315",
+      "categories": [
+       "C02",
+       "C12"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.872983,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1261051",
+      "key": "ordin-1261051",
+      "name": "논산시 재난관리기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 논산시",
+      "sig_cd": "44230",
+      "enacted_on": "20161031",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1261051",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.867763,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2115939",
+      "key": "ordin-2115939",
+      "name": "논산시 재난관리기금 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 논산시",
+      "sig_cd": "44230",
+      "enacted_on": "20260320",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2115939",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.852442,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1288882",
+      "key": "ordin-1288882",
+      "name": "안성시 농업발전기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20170428",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1288882",
+      "categories": [
+       "C12",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.842029,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2086219",
+      "key": "ordin-2086219",
+      "name": "안성시 농업발전기금 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20251114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2086219",
+      "categories": [
+       "C12",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.836184,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1268844",
+      "key": "ordin-1268844",
+      "name": "고령군 농업발전기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 고령군",
+      "sig_cd": "47830",
+      "enacted_on": "20161220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1268844",
+      "categories": [
+       "C02",
+       "C12"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.822851,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1933017",
+      "key": "ordin-1933017",
+      "name": "청양군농업발전기금 설치 및 관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20240524",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1933017",
+      "categories": [
+       "C02",
+       "C12"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.821838,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2060861",
+      "key": "ordin-2060861",
+      "name": "홍천군 농업발전기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 홍천군",
+      "sig_cd": "51720",
+      "enacted_on": "20250725",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060861",
+      "categories": [
+       "C12",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.819448,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1816251",
+      "key": "ordin-1816251",
+      "name": "고령군 농업발전기금 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 고령군",
+      "sig_cd": "47830",
+      "enacted_on": "20230531",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1816251",
+      "categories": [
+       "C02",
+       "C12"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.815418,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1478189",
+      "key": "ordin-1478189",
+      "name": "함안군 농업발전기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 함안군",
+      "sig_cd": "48730",
+      "enacted_on": "20200310",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1478189",
+      "categories": [
+       "C12",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.986832,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2067789",
+      "key": "ordin-2067789",
+      "name": "춘천시 권한대행 및 직무대리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20250918",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2067789",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.986565,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1963329",
+      "key": "ordin-1963329",
+      "name": "춘천시 문화예술진흥 및 예술인 복지증진에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20240814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1963329",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.98636,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1630355",
+      "key": "ordin-1630355",
+      "name": "춘천시 공영장례 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20210930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1630355",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.986206,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1365376",
+      "key": "ordin-1365376",
+      "name": "민주평화통일자문회의 춘천시협의회 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20181109",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1365376",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.985978,
+      "stored_rank": null,
+      "ordinance_id": "ordin:951235",
+      "key": "ordin-951235",
+      "name": "춘천시히트파이프(H.P)주식회사 설립 및 운영조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "19960719",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=951235",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.985923,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1271736",
+      "key": "ordin-1271736",
+      "name": "춘천시 어린이놀이시설 안전관리 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20161230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1271736",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.985665,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2112561",
+      "key": "ordin-2112561",
+      "name": "춘천시 양육비 이행확보 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20260226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2112561",
+      "categories": [
+       "C04",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.985584,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1024823",
+      "key": "ordin-1024823",
+      "name": "춘천시 보도구역내 횡단차도 설치에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20141231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1024823",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.985436,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1483929",
+      "key": "ordin-1483929",
+      "name": "춘천시 저소득 위기가구 생활안정지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20200402",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1483929",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.985296,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2064807",
+      "key": "ordin-2064807",
+      "name": "춘천시 폐기물 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20250814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2064807",
+      "categories": [
+       "C07",
+       "C06"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 4,
+    "stored_agreement": 0.4
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994891,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1295485",
+      "key": "ordin-1295485",
+      "name": "춘천시 건축물관리자의 제설·제빙 책임에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20170713",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1295485",
+      "categories": [
+       "C09",
+       "C10"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994236,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1060997",
+      "key": "ordin-1060997",
+      "name": "춘천시 새마을지도자 및 새마을부녀회원 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20090108",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1060997",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994202,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2160497",
+      "key": "ordin-2160497",
+      "name": "춘천시 후평 일반산업단지 복합문화센터 운영 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20260813",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "pending",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2160497",
+      "categories": [
+       "C11",
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994191,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1766271",
+      "key": "ordin-1766271",
+      "name": "춘천시 산악구호 및 예방활동 단체 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20221229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1766271",
+      "categories": [
+       "C08",
+       "C12"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994003,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1928601",
+      "key": "ordin-1928601",
+      "name": "춘천시 헌혈권장 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20240516",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1928601",
+      "categories": [
+       "C06",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993998,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2018595",
+      "key": "ordin-2018595",
+      "name": "춘천시 공영개발사업 직영기업 회계 규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20250306",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2018595",
+      "categories": [
+       "C02",
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993981,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1596863",
+      "key": "ordin-1596863",
+      "name": "춘천시 의약품 안전사용 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20210520",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1596863",
+      "categories": [
+       "C08",
+       "C06"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993878,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1209956",
+      "key": "ordin-1209956",
+      "name": "춘천시 가스사업 등의 허가기준에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20151231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1209956",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993853,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1831887",
+      "key": "ordin-1831887",
+      "name": "춘천시 주요 농산물 최저가격 보장에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20230706",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1831887",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993838,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1362477",
+      "key": "ordin-1362477",
+      "name": "춘천시 상수원관리지역 주민지원사업계획 수립 절차 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 춘천시",
+      "sig_cd": "51110",
+      "enacted_on": "20181011",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1362477",
+      "categories": [
+       "C07"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

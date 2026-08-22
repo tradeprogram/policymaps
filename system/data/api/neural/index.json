@@ -1,0 +1,8677 @@
+{
+ "generator": "make_neural_fixtures.py",
+ "as_of_date": "2026-08-22",
+ "generated_at": "2026-08-22T14:11:22+0900",
+ "params": {
+  "only": [
+   "ordinance",
+   "quality",
+   "region"
+  ],
+  "models": [
+   "graphsage-numpy",
+   "metapath2vec-numpy",
+   "node2vec-numpy"
+  ],
+  "targets": 400,
+  "limit": 0,
+  "k": 10,
+  "sample": 20000,
+  "pairs": 200000,
+  "force": false
+ },
+ "layout": {
+  "ordinance": "ordinance/{ordinance_id with ':'→'-'}.json",
+  "region": "region/{sig_cd}.json",
+  "quality": "quality.json"
+ },
+ "models": [
+  {
+   "model_name": "graphsage-numpy",
+   "dim": 132,
+   "encoding": "f32b64",
+   "nodes_total": 242891,
+   "nodes_by_kind": {
+    "Bill": 18911,
+    "BudgetLine": 68726,
+    "Category": 2,
+    "LegalInstrument": 77,
+    "Legislator": 320,
+    "Ordinance": 154310,
+    "Party": 8,
+    "Region": 537
+   },
+   "computed_at": "2026-08-19T19:39:08+0900",
+   "similarity_rows": 1548470,
+   "similarity_computed_at": "2026-08-19T21:11:03+0900",
+   "algorithm": {
+    "family": "GraphSAGE",
+    "supervision": "unsupervised (link-based)",
+    "impl": "policymap.neural.gnn (numpy 수동 미분)",
+    "note": "이웃 집계(mean/pool)로 노드 표현 학습. 학습 시 held-out 엣지를 메시지패싱에서 제거해 누수를 막는다."
+   }
+  },
+  {
+   "model_name": "metapath2vec-numpy",
+   "dim": 64,
+   "encoding": "f32b64",
+   "nodes_total": 209203,
+   "nodes_by_kind": {
+    "Bill": 18911,
+    "BudgetLine": 35038,
+    "Category": 2,
+    "LegalInstrument": 77,
+    "Legislator": 320,
+    "Ordinance": 154310,
+    "Party": 8,
+    "Region": 537
+   },
+   "computed_at": "2026-08-19T16:42:43+0900",
+   "similarity_rows": 305370,
+   "similarity_computed_at": "2026-08-19T20:00:24+0900",
+   "algorithm": {
+    "family": "metapath2vec",
+    "supervision": "unsupervised (SGNS)",
+    "impl": "policymap.neural.embeddings (numpy 수동 미분)",
+    "note": "이종그래프 메타패스(R-O-R, O-I-O, O-B-O, O-C-O, O-R-O 등)로 워크를 강제해 타입 의미를 보존한다."
+   }
+  },
+  {
+   "model_name": "node2vec-numpy",
+   "dim": 128,
+   "encoding": "f32b64",
+   "nodes_total": 209203,
+   "nodes_by_kind": {
+    "Bill": 18911,
+    "BudgetLine": 35038,
+    "Category": 2,
+    "LegalInstrument": 77,
+    "Legislator": 320,
+    "Ordinance": 154310,
+    "Party": 8,
+    "Region": 537
+   },
+   "computed_at": "2026-08-19T16:34:40+0900",
+   "similarity_rows": 39690,
+   "similarity_computed_at": "2026-08-19T17:02:02+0900",
+   "algorithm": {
+    "family": "node2vec/DeepWalk",
+    "supervision": "unsupervised (SGNS)",
+    "impl": "policymap.neural.embeddings (numpy 수동 미분)",
+    "note": "2차 랜덤워크 + skip-gram negative sampling. p=q=1 이면 DeepWalk."
+   }
+  }
+ ],
+ "ordinances": [
+  {
+   "key": "ordin-1657445",
+   "ordinance_id": "ordin:1657445",
+   "name": "양주시 의안의 비용추계에 관한 조례",
+   "region_name": "경기도 양주시",
+   "sig_cd": "41630",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 14,
+   "path": "ordinance/ordin-1657445.json",
+   "bytes": 22997,
+   "reused": true
+  },
+  {
+   "key": "ordin-1405774",
+   "ordinance_id": "ordin:1405774",
+   "name": "포천시 농작물 병해충 예찰ㆍ방제단 구성 및 운영 조례",
+   "region_name": "경기도 포천시",
+   "sig_cd": "41650",
+   "status": "active",
+   "categories": [
+    "C07"
+   ],
+   "gap_hits": 13,
+   "path": "ordinance/ordin-1405774.json",
+   "bytes": 23003,
+   "reused": true
+  },
+  {
+   "key": "ordin-1875025",
+   "ordinance_id": "ordin:1875025",
+   "name": "청도군의회 인사청문회 조례",
+   "region_name": "경상북도 청도군",
+   "sig_cd": "47820",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 13,
+   "path": "ordinance/ordin-1875025.json",
+   "bytes": 23023,
+   "reused": true
+  },
+  {
+   "key": "ordin-1126972",
+   "ordinance_id": "ordin:1126972",
+   "name": "부천시 소비자기본 조례",
+   "region_name": "경기도 부천시",
+   "sig_cd": "41190",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C08"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1126972.json",
+   "bytes": 22995,
+   "reused": true
+  },
+  {
+   "key": "ordin-1269090",
+   "ordinance_id": "ordin:1269090",
+   "name": "파주시 농작물 병해충 예찰·방제단 구성 및 운영 조례",
+   "region_name": "경기도 파주시",
+   "sig_cd": "41480",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C12"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1269090.json",
+   "bytes": 23183,
+   "reused": true
+  },
+  {
+   "key": "ordin-1353353",
+   "ordinance_id": "ordin:1353353",
+   "name": "광명시 의안의 비용추계에 관한 조례",
+   "region_name": "경기도 광명시",
+   "sig_cd": "41210",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1353353.json",
+   "bytes": 23420,
+   "reused": true
+  },
+  {
+   "key": "ordin-1388300",
+   "ordinance_id": "ordin:1388300",
+   "name": "옥천군 남북교류협력에 관한 조례",
+   "region_name": "충청북도 옥천군",
+   "sig_cd": "43730",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1388300.json",
+   "bytes": 22619,
+   "reused": true
+  },
+  {
+   "key": "ordin-1645291",
+   "ordinance_id": "ordin:1645291",
+   "name": "시흥시 의안의 비용추계에 관한 조례",
+   "region_name": "경기도 시흥시",
+   "sig_cd": "41390",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1645291.json",
+   "bytes": 23356,
+   "reused": true
+  },
+  {
+   "key": "ordin-1651497",
+   "ordinance_id": "ordin:1651497",
+   "name": "과천시 의안의 비용 추계에 관한 조례",
+   "region_name": "경기도 과천시",
+   "sig_cd": "41290",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1651497.json",
+   "bytes": 22991,
+   "reused": true
+  },
+  {
+   "key": "ordin-1654229",
+   "ordinance_id": "ordin:1654229",
+   "name": "과천시의회 위원회 조례",
+   "region_name": "경기도 과천시",
+   "sig_cd": "41290",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1654229.json",
+   "bytes": 23586,
+   "reused": true
+  },
+  {
+   "key": "ordin-1655427",
+   "ordinance_id": "ordin:1655427",
+   "name": "포천시의회 위원회 조례",
+   "region_name": "경기도 포천시",
+   "sig_cd": "41650",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1655427.json",
+   "bytes": 23467,
+   "reused": true
+  },
+  {
+   "key": "ordin-1678255",
+   "ordinance_id": "ordin:1678255",
+   "name": "양주시의회 위원회 조례",
+   "region_name": "경기도 양주시",
+   "sig_cd": "41630",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1678255.json",
+   "bytes": 23499,
+   "reused": true
+  },
+  {
+   "key": "ordin-1842479",
+   "ordinance_id": "ordin:1842479",
+   "name": "양주시 예비군 훈련장 차량운행 지원에 관한 조례",
+   "region_name": "경기도 양주시",
+   "sig_cd": "41630",
+   "status": "active",
+   "categories": [
+    "C02"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-1842479.json",
+   "bytes": 23050,
+   "reused": true
+  },
+  {
+   "key": "ordin-908076",
+   "ordinance_id": "ordin:908076",
+   "name": "안성시 건강도시 기본조례",
+   "region_name": "경기도 안성시",
+   "sig_cd": "41550",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C09"
+   ],
+   "gap_hits": 12,
+   "path": "ordinance/ordin-908076.json",
+   "bytes": 23036,
+   "reused": true
+  },
+  {
+   "key": "ordin-1142482",
+   "ordinance_id": "ordin:1142482",
+   "name": "구리시 문화관광해설사 운영 및 지원에 관한 조례",
+   "region_name": "경기도 구리시",
+   "sig_cd": "41310",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C11"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1142482.json",
+   "bytes": 23783,
+   "reused": true
+  },
+  {
+   "key": "ordin-1170869",
+   "ordinance_id": "ordin:1170869",
+   "name": "이천시 도로점용공사장 교통소통대책에 관한 조례",
+   "region_name": "경기도 이천시",
+   "sig_cd": "41500",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1170869.json",
+   "bytes": 22998,
+   "reused": true
+  },
+  {
+   "key": "ordin-1186093",
+   "ordinance_id": "ordin:1186093",
+   "name": "부산광역시 해운대구 조례·규칙 등 공포에 관한 조례",
+   "region_name": "부산광역시 해운대구",
+   "sig_cd": "26350",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1186093.json",
+   "bytes": 23774,
+   "reused": true
+  },
+  {
+   "key": "ordin-1192330",
+   "ordinance_id": "ordin:1192330",
+   "name": "남양주시 도로점용공사장 교통소통대책에 관한 조례",
+   "region_name": "경기도 남양주시",
+   "sig_cd": "41360",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1192330.json",
+   "bytes": 23205,
+   "reused": true
+  },
+  {
+   "key": "ordin-1215298",
+   "ordinance_id": "ordin:1215298",
+   "name": "안산시 도로와 다른 시설의 연결에 관한 조례",
+   "region_name": "경기도 안산시",
+   "sig_cd": "41270",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1215298.json",
+   "bytes": 22984,
+   "reused": true
+  },
+  {
+   "key": "ordin-1218186",
+   "ordinance_id": "ordin:1218186",
+   "name": "시흥시 도로점용 공사장 교통소통 대책에 관한 조례",
+   "region_name": "경기도 시흥시",
+   "sig_cd": "41390",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1218186.json",
+   "bytes": 23758,
+   "reused": true
+  },
+  {
+   "key": "ordin-1261322",
+   "ordinance_id": "ordin:1261322",
+   "name": "김포시 불용의약품 등 관리에 관한 조례",
+   "region_name": "경기도 김포시",
+   "sig_cd": "41570",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C07"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1261322.json",
+   "bytes": 23408,
+   "reused": true
+  },
+  {
+   "key": "ordin-1274784",
+   "ordinance_id": "ordin:1274784",
+   "name": "광주시 문화관광해설사 운영 및  지원에 관한 조례",
+   "region_name": "경기도 광주시",
+   "sig_cd": "41610",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C11"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1274784.json",
+   "bytes": 23794,
+   "reused": true
+  },
+  {
+   "key": "ordin-1283508",
+   "ordinance_id": "ordin:1283508",
+   "name": "부천시 건강도시 기본 조례",
+   "region_name": "경기도 부천시",
+   "sig_cd": "41190",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C09"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1283508.json",
+   "bytes": 23765,
+   "reused": true
+  },
+  {
+   "key": "ordin-1305640",
+   "ordinance_id": "ordin:1305640",
+   "name": "용인시 소비자 기본 조례",
+   "region_name": "경기도 용인시",
+   "sig_cd": "41460",
+   "status": "active",
+   "categories": [
+    "C11"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1305640.json",
+   "bytes": 23447,
+   "reused": true
+  },
+  {
+   "key": "ordin-1314641",
+   "ordinance_id": "ordin:1314641",
+   "name": "안성시 농작물 병해충 예찰·방제단 구성 및 운영 조례",
+   "region_name": "경기도 안성시",
+   "sig_cd": "41550",
+   "status": "active",
+   "categories": [
+    "C07"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1314641.json",
+   "bytes": 23179,
+   "reused": true
+  },
+  {
+   "key": "ordin-1346624",
+   "ordinance_id": "ordin:1346624",
+   "name": "남양주시 예비군훈련장 차량운행 지원에 관한 조례",
+   "region_name": "경기도 남양주시",
+   "sig_cd": "41360",
+   "status": "active",
+   "categories": [
+    "C02"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1346624.json",
+   "bytes": 23492,
+   "reused": true
+  },
+  {
+   "key": "ordin-1411380",
+   "ordinance_id": "ordin:1411380",
+   "name": "안산시 식생활교육 지원 조례",
+   "region_name": "경기도 안산시",
+   "sig_cd": "41270",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C03"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1411380.json",
+   "bytes": 22958,
+   "reused": true
+  },
+  {
+   "key": "ordin-1667683",
+   "ordinance_id": "ordin:1667683",
+   "name": "단양군의회 장애인공무원 편의지원 조례",
+   "region_name": "충청북도 단양군",
+   "sig_cd": "43800",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C03"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1667683.json",
+   "bytes": 23602,
+   "reused": true
+  },
+  {
+   "key": "ordin-1669463",
+   "ordinance_id": "ordin:1669463",
+   "name": "옥천군의회 장애인공무원 편의지원 조례",
+   "region_name": "충청북도 옥천군",
+   "sig_cd": "43730",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C03"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1669463.json",
+   "bytes": 23019,
+   "reused": true
+  },
+  {
+   "key": "ordin-1719627",
+   "ordinance_id": "ordin:1719627",
+   "name": "구리시의회 위원회 조례",
+   "region_name": "경기도 구리시",
+   "sig_cd": "41310",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1719627.json",
+   "bytes": 23173,
+   "reused": true
+  },
+  {
+   "key": "ordin-1798767",
+   "ordinance_id": "ordin:1798767",
+   "name": "여주시의회 위원회 조례",
+   "region_name": "경기도 여주시",
+   "sig_cd": "41670",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-1798767.json",
+   "bytes": 23741,
+   "reused": true
+  },
+  {
+   "key": "ordin-684215",
+   "ordinance_id": "ordin:684215",
+   "name": "수원시 건강도시 기본 조례",
+   "region_name": "경기도 수원시",
+   "sig_cd": "41110",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C09"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-684215.json",
+   "bytes": 23110,
+   "reused": true
+  },
+  {
+   "key": "ordin-744448",
+   "ordinance_id": "ordin:744448",
+   "name": "동두천시 문화관광해설사 운영 및 지원에 관한 조례",
+   "region_name": "경기도 동두천시",
+   "sig_cd": "41250",
+   "status": "active",
+   "categories": [
+    "C13"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-744448.json",
+   "bytes": 23168,
+   "reused": true
+  },
+  {
+   "key": "ordin-871025",
+   "ordinance_id": "ordin:871025",
+   "name": "남양주시 문화관광해설사 운영 및 지원에 관한 조례",
+   "region_name": "경기도 남양주시",
+   "sig_cd": "41360",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C11"
+   ],
+   "gap_hits": 11,
+   "path": "ordinance/ordin-871025.json",
+   "bytes": 23789,
+   "reused": true
+  },
+  {
+   "key": "ordin-1047944",
+   "ordinance_id": "ordin:1047944",
+   "name": "군포시 도로점용 공사장 교통소통대책에 관한 조례",
+   "region_name": "경기도 군포시",
+   "sig_cd": "41410",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1047944.json",
+   "bytes": 22985,
+   "reused": true
+  },
+  {
+   "key": "ordin-1133602",
+   "ordinance_id": "ordin:1133602",
+   "name": "서울특별시 금천구 담배소매인 지정 사실조사에 관한 조례",
+   "region_name": "서울특별시 금천구",
+   "sig_cd": "11545",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1133602.json",
+   "bytes": 23999,
+   "reused": true
+  },
+  {
+   "key": "ordin-1170359",
+   "ordinance_id": "ordin:1170359",
+   "name": "고양시 문화관광해설사 운영 및 지원에 관한 조례",
+   "region_name": "경기도 고양시",
+   "sig_cd": "41280",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C11"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1170359.json",
+   "bytes": 23287,
+   "reused": true
+  },
+  {
+   "key": "ordin-1171914",
+   "ordinance_id": "ordin:1171914",
+   "name": "남양주시 식생활 교육 지원 조례",
+   "region_name": "경기도 남양주시",
+   "sig_cd": "41360",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C04"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1171914.json",
+   "bytes": 23079,
+   "reused": true
+  },
+  {
+   "key": "ordin-1194750",
+   "ordinance_id": "ordin:1194750",
+   "name": "함양군 경로당 지원 조례",
+   "region_name": "경상남도 함양군",
+   "sig_cd": "48870",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C02"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1194750.json",
+   "bytes": 23042,
+   "reused": true
+  },
+  {
+   "key": "ordin-1215891",
+   "ordinance_id": "ordin:1215891",
+   "name": "과천시 도로점용 공사장 교통소통 대책에 관한 조례",
+   "region_name": "경기도 과천시",
+   "sig_cd": "41290",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1215891.json",
+   "bytes": 23073,
+   "reused": true
+  },
+  {
+   "key": "ordin-1237218",
+   "ordinance_id": "ordin:1237218",
+   "name": "수원시 실내공기질 관리에 관한 조례",
+   "region_name": "경기도 수원시",
+   "sig_cd": "41110",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C09"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1237218.json",
+   "bytes": 23111,
+   "reused": true
+  },
+  {
+   "key": "ordin-1261144",
+   "ordinance_id": "ordin:1261144",
+   "name": "여주시 불용의약품 등 관리에 관한 조례",
+   "region_name": "경기도 여주시",
+   "sig_cd": "41670",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C07"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1261144.json",
+   "bytes": 23144,
+   "reused": true
+  },
+  {
+   "key": "ordin-1277427",
+   "ordinance_id": "ordin:1277427",
+   "name": "고양시 회계관계공무원 재정보증 조례",
+   "region_name": "경기도 고양시",
+   "sig_cd": "41280",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1277427.json",
+   "bytes": 23055,
+   "reused": true
+  },
+  {
+   "key": "ordin-1282655",
+   "ordinance_id": "ordin:1282655",
+   "name": "광주시 회계관계공무원 재정보증 조례",
+   "region_name": "경기도 광주시",
+   "sig_cd": "41610",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1282655.json",
+   "bytes": 23164,
+   "reused": true
+  },
+  {
+   "key": "ordin-1333575",
+   "ordinance_id": "ordin:1333575",
+   "name": "구리시 예비군 훈련장 차량운행에 관한 지원 조례",
+   "region_name": "경기도 구리시",
+   "sig_cd": "41310",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C02"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1333575.json",
+   "bytes": 23630,
+   "reused": true
+  },
+  {
+   "key": "ordin-1382559",
+   "ordinance_id": "ordin:1382559",
+   "name": "고양시 소비자기본 조례",
+   "region_name": "경기도 고양시",
+   "sig_cd": "41280",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C05"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1382559.json",
+   "bytes": 22912,
+   "reused": true
+  },
+  {
+   "key": "ordin-1384186",
+   "ordinance_id": "ordin:1384186",
+   "name": "파주시 실내공기질 관리에 관한 조례",
+   "region_name": "경기도 파주시",
+   "sig_cd": "41480",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C09"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1384186.json",
+   "bytes": 23525,
+   "reused": true
+  },
+  {
+   "key": "ordin-1384343",
+   "ordinance_id": "ordin:1384343",
+   "name": "부천시 식생활 교육 지원 조례",
+   "region_name": "경기도 부천시",
+   "sig_cd": "41190",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C04"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1384343.json",
+   "bytes": 23035,
+   "reused": true
+  },
+  {
+   "key": "ordin-1395820",
+   "ordinance_id": "ordin:1395820",
+   "name": "부산광역시 북구 식생활 교육 지원에 관한 조례",
+   "region_name": "부산광역시 북구",
+   "sig_cd": "26320",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C11"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1395820.json",
+   "bytes": 25961,
+   "reused": true
+  },
+  {
+   "key": "ordin-1401627",
+   "ordinance_id": "ordin:1401627",
+   "name": "서울특별시 용산구 홍보대사 운영 조례",
+   "region_name": "서울특별시 용산구",
+   "sig_cd": "11170",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C13"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1401627.json",
+   "bytes": 23813,
+   "reused": true
+  },
+  {
+   "key": "ordin-1412179",
+   "ordinance_id": "ordin:1412179",
+   "name": "서울특별시 은평구 재난현장 통합지원본부 설치 및 운영 조례",
+   "region_name": "서울특별시 은평구",
+   "sig_cd": "11380",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C06"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1412179.json",
+   "bytes": 23740,
+   "reused": true
+  },
+  {
+   "key": "ordin-1553147",
+   "ordinance_id": "ordin:1553147",
+   "name": "부산광역시 북구 안전보안관 운영 조례",
+   "region_name": "부산광역시 북구",
+   "sig_cd": "26320",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C05"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1553147.json",
+   "bytes": 24576,
+   "reused": true
+  },
+  {
+   "key": "ordin-1556611",
+   "ordinance_id": "ordin:1556611",
+   "name": "포천시 재향경우회 지원에 관한 조례",
+   "region_name": "경기도 포천시",
+   "sig_cd": "41650",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C08"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1556611.json",
+   "bytes": 23266,
+   "reused": true
+  },
+  {
+   "key": "ordin-1610143",
+   "ordinance_id": "ordin:1610143",
+   "name": "영양군 고독사 예방 및 사회적 고립가구 지원 조례",
+   "region_name": "경상북도 영양군",
+   "sig_cd": "47760",
+   "status": "active",
+   "categories": [
+    "C11"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1610143.json",
+   "bytes": 22843,
+   "reused": true
+  },
+  {
+   "key": "ordin-1647503",
+   "ordinance_id": "ordin:1647503",
+   "name": "청양군의회 장애인공무원 편의지원 조례",
+   "region_name": "충청남도 청양군",
+   "sig_cd": "44790",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C03"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1647503.json",
+   "bytes": 23647,
+   "reused": true
+  },
+  {
+   "key": "ordin-1659443",
+   "ordinance_id": "ordin:1659443",
+   "name": "부산광역시 남구 조례·규칙 등 공포에 관한 조례",
+   "region_name": "부산광역시 남구",
+   "sig_cd": "26290",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1659443.json",
+   "bytes": 23473,
+   "reused": true
+  },
+  {
+   "key": "ordin-1673581",
+   "ordinance_id": "ordin:1673581",
+   "name": "연천군의회 장애인공무원 편의지원 조례",
+   "region_name": "경기도 연천군",
+   "sig_cd": "41800",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C03"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1673581.json",
+   "bytes": 23429,
+   "reused": true
+  },
+  {
+   "key": "ordin-1731029",
+   "ordinance_id": "ordin:1731029",
+   "name": "영양군 지역상권 상생 및 활성화에 관한 조례",
+   "region_name": "경상북도 영양군",
+   "sig_cd": "47760",
+   "status": "active",
+   "categories": [
+    "C02"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1731029.json",
+   "bytes": 22881,
+   "reused": true
+  },
+  {
+   "key": "ordin-1760459",
+   "ordinance_id": "ordin:1760459",
+   "name": "의령군 지능정보화 조례",
+   "region_name": "경상남도 의령군",
+   "sig_cd": "48720",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C12"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1760459.json",
+   "bytes": 22893,
+   "reused": true
+  },
+  {
+   "key": "ordin-1766091",
+   "ordinance_id": "ordin:1766091",
+   "name": "서울특별시 관악구 관광진흥 조례",
+   "region_name": "서울특별시 관악구",
+   "sig_cd": "11620",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C03"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1766091.json",
+   "bytes": 24798,
+   "reused": true
+  },
+  {
+   "key": "ordin-1777673",
+   "ordinance_id": "ordin:1777673",
+   "name": "함양군 지능정보화 조례",
+   "region_name": "경상남도 함양군",
+   "sig_cd": "48870",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1777673.json",
+   "bytes": 23323,
+   "reused": true
+  },
+  {
+   "key": "ordin-1845975",
+   "ordinance_id": "ordin:1845975",
+   "name": "하남시 예비군 훈련장 차량운행 지원에 관한 조례",
+   "region_name": "경기도 하남시",
+   "sig_cd": "41450",
+   "status": "active",
+   "categories": [
+    "C02"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1845975.json",
+   "bytes": 23125,
+   "reused": true
+  },
+  {
+   "key": "ordin-1851483",
+   "ordinance_id": "ordin:1851483",
+   "name": "아산시 개인정보 보호에 관한 조례",
+   "region_name": "충청남도 아산시",
+   "sig_cd": "44200",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1851483.json",
+   "bytes": 23198,
+   "reused": true
+  },
+  {
+   "key": "ordin-1852805",
+   "ordinance_id": "ordin:1852805",
+   "name": "하동군의회 인사청문회 조례",
+   "region_name": "경상남도 하동군",
+   "sig_cd": "48850",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-1852805.json",
+   "bytes": 23450,
+   "reused": true
+  },
+  {
+   "key": "ordin-811175",
+   "ordinance_id": "ordin:811175",
+   "name": "안산시 시민헌장 조례",
+   "region_name": "경기도 안산시",
+   "sig_cd": "41270",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-811175.json",
+   "bytes": 23370,
+   "reused": true
+  },
+  {
+   "key": "ordin-933758",
+   "ordinance_id": "ordin:933758",
+   "name": "의왕시 건강도시 기본 조례",
+   "region_name": "경기도 의왕시",
+   "sig_cd": "41430",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C09"
+   ],
+   "gap_hits": 10,
+   "path": "ordinance/ordin-933758.json",
+   "bytes": 22838,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000492",
+   "ordinance_id": "ordin:1000492",
+   "name": "포항시 불용의약품 등의 관리 조례",
+   "region_name": "경상북도 포항시",
+   "sig_cd": "47110",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C06"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1000492.json",
+   "bytes": 23054,
+   "reused": true
+  },
+  {
+   "key": "ordin-1025703",
+   "ordinance_id": "ordin:1025703",
+   "name": "하남시시민헌장조례",
+   "region_name": "경기도 하남시",
+   "sig_cd": "41450",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1025703.json",
+   "bytes": 22662,
+   "reused": true
+  },
+  {
+   "key": "ordin-1052846",
+   "ordinance_id": "ordin:1052846",
+   "name": "포천시 고문 공인노무사 운영 조례",
+   "region_name": "경기도 포천시",
+   "sig_cd": "41650",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C11"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1052846.json",
+   "bytes": 22936,
+   "reused": true
+  },
+  {
+   "key": "ordin-1078999",
+   "ordinance_id": "ordin:1078999",
+   "name": "고양시 예산절감 및 예산낭비 사례 공개 조례",
+   "region_name": "경기도 고양시",
+   "sig_cd": "41280",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1078999.json",
+   "bytes": 23816,
+   "reused": true
+  },
+  {
+   "key": "ordin-1083235",
+   "ordinance_id": "ordin:1083235",
+   "name": "군포시 예산절감 및 예산낭비 사례 등 공개에 관한 조례",
+   "region_name": "경기도 군포시",
+   "sig_cd": "41410",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1083235.json",
+   "bytes": 23444,
+   "reused": true
+  },
+  {
+   "key": "ordin-1127083",
+   "ordinance_id": "ordin:1127083",
+   "name": "부천시 고문공인노무사 운영 조례",
+   "region_name": "경기도 부천시",
+   "sig_cd": "41190",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C11"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1127083.json",
+   "bytes": 23504,
+   "reused": true
+  },
+  {
+   "key": "ordin-1143719",
+   "ordinance_id": "ordin:1143719",
+   "name": "울산광역시 남구 출자·출연 기관의 운영에 관한 조례",
+   "region_name": "울산광역시 남구",
+   "sig_cd": "31140",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1143719.json",
+   "bytes": 23681,
+   "reused": true
+  },
+  {
+   "key": "ordin-1157444",
+   "ordinance_id": "ordin:1157444",
+   "name": "이천시 고문 공인노무사 운영 조례",
+   "region_name": "경기도 이천시",
+   "sig_cd": "41500",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C11"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1157444.json",
+   "bytes": 23663,
+   "reused": true
+  },
+  {
+   "key": "ordin-1164778",
+   "ordinance_id": "ordin:1164778",
+   "name": "서울특별시 동대문구 공유(共有) 촉진 조례",
+   "region_name": "서울특별시 동대문구",
+   "sig_cd": "11230",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C10"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1164778.json",
+   "bytes": 24420,
+   "reused": true
+  },
+  {
+   "key": "ordin-1173570",
+   "ordinance_id": "ordin:1173570",
+   "name": "이천시 안전관리위원회 운영 조례",
+   "region_name": "경기도 이천시",
+   "sig_cd": "41500",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1173570.json",
+   "bytes": 23592,
+   "reused": true
+  },
+  {
+   "key": "ordin-1177103",
+   "ordinance_id": "ordin:1177103",
+   "name": "용인시 도로와 다른 시설의 연결에 관한 조례",
+   "region_name": "경기도 용인시",
+   "sig_cd": "41460",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1177103.json",
+   "bytes": 23596,
+   "reused": true
+  },
+  {
+   "key": "ordin-1189535",
+   "ordinance_id": "ordin:1189535",
+   "name": "시흥시 도로와 다른 시설의 연결에 관한 조례",
+   "region_name": "경기도 시흥시",
+   "sig_cd": "41390",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1189535.json",
+   "bytes": 22946,
+   "reused": true
+  },
+  {
+   "key": "ordin-1195673",
+   "ordinance_id": "ordin:1195673",
+   "name": "의왕시 도로와 다른 시설의 연결에 관한 조례",
+   "region_name": "경기도 의왕시",
+   "sig_cd": "41430",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1195673.json",
+   "bytes": 22926,
+   "reused": true
+  },
+  {
+   "key": "ordin-1197820",
+   "ordinance_id": "ordin:1197820",
+   "name": "부산광역시 해운대구 어린이 통학로 교통안전을 위한 조례",
+   "region_name": "부산광역시 해운대구",
+   "sig_cd": "26350",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C04",
+    "C08"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1197820.json",
+   "bytes": 25064,
+   "reused": true
+  },
+  {
+   "key": "ordin-1198522",
+   "ordinance_id": "ordin:1198522",
+   "name": "고양시 식생활 교육 지원 조례",
+   "region_name": "경기도 고양시",
+   "sig_cd": "41280",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C04"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1198522.json",
+   "bytes": 23058,
+   "reused": true
+  },
+  {
+   "key": "ordin-1207698",
+   "ordinance_id": "ordin:1207698",
+   "name": "서울특별시 영등포구 공유(共有) 촉진 조례",
+   "region_name": "서울특별시 영등포구",
+   "sig_cd": "11560",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1207698.json",
+   "bytes": 23557,
+   "reused": true
+  },
+  {
+   "key": "ordin-1216259",
+   "ordinance_id": "ordin:1216259",
+   "name": "과천시 도로와 다른 시설의 연결에 관한 조례",
+   "region_name": "경기도 과천시",
+   "sig_cd": "41290",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C08"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1216259.json",
+   "bytes": 23785,
+   "reused": true
+  },
+  {
+   "key": "ordin-1231861",
+   "ordinance_id": "ordin:1231861",
+   "name": "서울특별시 도봉구 홍보대사 운영에 관한 조례",
+   "region_name": "서울특별시 도봉구",
+   "sig_cd": "11320",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C13"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1231861.json",
+   "bytes": 23529,
+   "reused": true
+  },
+  {
+   "key": "ordin-1267534",
+   "ordinance_id": "ordin:1267534",
+   "name": "시흥시 실내공기질 관리에 관한 조례",
+   "region_name": "경기도 시흥시",
+   "sig_cd": "41390",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1267534.json",
+   "bytes": 23080,
+   "reused": true
+  },
+  {
+   "key": "ordin-1269116",
+   "ordinance_id": "ordin:1269116",
+   "name": "안성시 안전관리 민관협력위원회 구성 및 운영 조례",
+   "region_name": "경기도 안성시",
+   "sig_cd": "41550",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1269116.json",
+   "bytes": 23590,
+   "reused": true
+  },
+  {
+   "key": "ordin-1274516",
+   "ordinance_id": "ordin:1274516",
+   "name": "예천군 인터넷 시스템 설치 및 운영에 관한 조례",
+   "region_name": "경상북도 예천군",
+   "sig_cd": "47900",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C13"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1274516.json",
+   "bytes": 23761,
+   "reused": true
+  },
+  {
+   "key": "ordin-1277147",
+   "ordinance_id": "ordin:1277147",
+   "name": "부산광역시 북구 보훈회관 설치 및 운영 조례",
+   "region_name": "부산광역시 북구",
+   "sig_cd": "26320",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C05"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1277147.json",
+   "bytes": 23224,
+   "reused": true
+  },
+  {
+   "key": "ordin-1282477",
+   "ordinance_id": "ordin:1282477",
+   "name": "파주시 응급의료 지원에 관한 조례",
+   "region_name": "경기도 파주시",
+   "sig_cd": "41480",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1282477.json",
+   "bytes": 23073,
+   "reused": true
+  },
+  {
+   "key": "ordin-1287339",
+   "ordinance_id": "ordin:1287339",
+   "name": "연천군 회계관계공무원 재정보증조례",
+   "region_name": "경기도 연천군",
+   "sig_cd": "41800",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1287339.json",
+   "bytes": 23051,
+   "reused": true
+  },
+  {
+   "key": "ordin-1295344",
+   "ordinance_id": "ordin:1295344",
+   "name": "서울특별시 도봉구 공유(共有) 촉진 조례",
+   "region_name": "서울특별시 도봉구",
+   "sig_cd": "11320",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1295344.json",
+   "bytes": 24066,
+   "reused": true
+  },
+  {
+   "key": "ordin-1297524",
+   "ordinance_id": "ordin:1297524",
+   "name": "김포시 공간정보에 관한 조례",
+   "region_name": "경기도 김포시",
+   "sig_cd": "41570",
+   "status": "active",
+   "categories": [
+    "C11"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1297524.json",
+   "bytes": 23318,
+   "reused": true
+  },
+  {
+   "key": "ordin-1321183",
+   "ordinance_id": "ordin:1321183",
+   "name": "남양주시 재난안전대책본부 구성 및 운영 조례",
+   "region_name": "경기도 남양주시",
+   "sig_cd": "41360",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1321183.json",
+   "bytes": 23203,
+   "reused": true
+  },
+  {
+   "key": "ordin-1322042",
+   "ordinance_id": "ordin:1322042",
+   "name": "서울특별시 영등포구 관광진흥 조례",
+   "region_name": "서울특별시 영등포구",
+   "sig_cd": "11560",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C13"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1322042.json",
+   "bytes": 24336,
+   "reused": true
+  },
+  {
+   "key": "ordin-1333260",
+   "ordinance_id": "ordin:1333260",
+   "name": "안산시 안전관리위원회 운영 조례",
+   "region_name": "경기도 안산시",
+   "sig_cd": "41270",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1333260.json",
+   "bytes": 25359,
+   "reused": true
+  },
+  {
+   "key": "ordin-1333263",
+   "ordinance_id": "ordin:1333263",
+   "name": "안산시 장애인가족 지원 조례",
+   "region_name": "경기도 안산시",
+   "sig_cd": "41270",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C06"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1333263.json",
+   "bytes": 23085,
+   "reused": true
+  },
+  {
+   "key": "ordin-1333794",
+   "ordinance_id": "ordin:1333794",
+   "name": "군포시 실내공기질 관리에 관한 조례",
+   "region_name": "경기도 군포시",
+   "sig_cd": "41410",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C09"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1333794.json",
+   "bytes": 22986,
+   "reused": true
+  },
+  {
+   "key": "ordin-1340340",
+   "ordinance_id": "ordin:1340340",
+   "name": "부산광역시 남구 응급의료 지원에 관한 조례",
+   "region_name": "부산광역시 남구",
+   "sig_cd": "26290",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1340340.json",
+   "bytes": 23792,
+   "reused": true
+  },
+  {
+   "key": "ordin-1358474",
+   "ordinance_id": "ordin:1358474",
+   "name": "서울특별시 중구 공유(共有) 촉진 조례",
+   "region_name": "서울특별시 중구",
+   "sig_cd": "11140",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1358474.json",
+   "bytes": 23447,
+   "reused": true
+  },
+  {
+   "key": "ordin-1373240",
+   "ordinance_id": "ordin:1373240",
+   "name": "용인시 안전관리위원회 운영 조례",
+   "region_name": "경기도 용인시",
+   "sig_cd": "41460",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1373240.json",
+   "bytes": 24350,
+   "reused": true
+  },
+  {
+   "key": "ordin-1376469",
+   "ordinance_id": "ordin:1376469",
+   "name": "성주군 리개발위원회 조례",
+   "region_name": "경상북도 성주군",
+   "sig_cd": "47840",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C09"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1376469.json",
+   "bytes": 23285,
+   "reused": true
+  },
+  {
+   "key": "ordin-1382402",
+   "ordinance_id": "ordin:1382402",
+   "name": "수원시 교복 지원 조례",
+   "region_name": "경기도 수원시",
+   "sig_cd": "41110",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C03"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1382402.json",
+   "bytes": 23015,
+   "reused": true
+  },
+  {
+   "key": "ordin-1388358",
+   "ordinance_id": "ordin:1388358",
+   "name": "단양군 정책실명제 운영 조례",
+   "region_name": "충청북도 단양군",
+   "sig_cd": "43800",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C05"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1388358.json",
+   "bytes": 23740,
+   "reused": true
+  },
+  {
+   "key": "ordin-1395765",
+   "ordinance_id": "ordin:1395765",
+   "name": "김천시 식생활교육 지원에 관한 조례",
+   "region_name": "경상북도 김천시",
+   "sig_cd": "47150",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C11"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1395765.json",
+   "bytes": 23655,
+   "reused": true
+  },
+  {
+   "key": "ordin-1402364",
+   "ordinance_id": "ordin:1402364",
+   "name": "안성시 도시개발조례",
+   "region_name": "경기도 안성시",
+   "sig_cd": "41550",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C11"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1402364.json",
+   "bytes": 22981,
+   "reused": true
+  },
+  {
+   "key": "ordin-1405429",
+   "ordinance_id": "ordin:1405429",
+   "name": "평택시 공중화장실 등의 불법촬영 예방 조례",
+   "region_name": "경기도 평택시",
+   "sig_cd": "41220",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C03"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1405429.json",
+   "bytes": 23189,
+   "reused": true
+  },
+  {
+   "key": "ordin-1407966",
+   "ordinance_id": "ordin:1407966",
+   "name": "하동군 응급의료 지원에 관한 조례",
+   "region_name": "경상남도 하동군",
+   "sig_cd": "48850",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1407966.json",
+   "bytes": 22951,
+   "reused": true
+  },
+  {
+   "key": "ordin-1414709",
+   "ordinance_id": "ordin:1414709",
+   "name": "화성시 농작물 병해충 예찰ㆍ방제단 구성 및 운영 조례",
+   "region_name": "경기도 화성시",
+   "sig_cd": "41590",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1414709.json",
+   "bytes": 23116,
+   "reused": true
+  },
+  {
+   "key": "ordin-1419889",
+   "ordinance_id": "ordin:1419889",
+   "name": "서울특별시 구로구 공유(共有) 촉진 조례",
+   "region_name": "서울특별시 구로구",
+   "sig_cd": "11530",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1419889.json",
+   "bytes": 23332,
+   "reused": true
+  },
+  {
+   "key": "ordin-1435089",
+   "ordinance_id": "ordin:1435089",
+   "name": "부천시 공중화장실 등의 불법촬영예방에 관한 조례",
+   "region_name": "경기도 부천시",
+   "sig_cd": "41190",
+   "status": "active",
+   "categories": [
+    "C08"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1435089.json",
+   "bytes": 22842,
+   "reused": true
+  },
+  {
+   "key": "ordin-1437679",
+   "ordinance_id": "ordin:1437679",
+   "name": "구리시 소비자 기본 조례",
+   "region_name": "경기도 구리시",
+   "sig_cd": "41310",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C05"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1437679.json",
+   "bytes": 22939,
+   "reused": true
+  },
+  {
+   "key": "ordin-1437685",
+   "ordinance_id": "ordin:1437685",
+   "name": "구리시 재난안전대책본부 구성 및 운영 등에 관한 조례",
+   "region_name": "경기도 구리시",
+   "sig_cd": "41310",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1437685.json",
+   "bytes": 23871,
+   "reused": true
+  },
+  {
+   "key": "ordin-1502997",
+   "ordinance_id": "ordin:1502997",
+   "name": "아산시 안전보안관 운영 조례",
+   "region_name": "충청남도 아산시",
+   "sig_cd": "44200",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C05"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1502997.json",
+   "bytes": 23645,
+   "reused": true
+  },
+  {
+   "key": "ordin-1540225",
+   "ordinance_id": "ordin:1540225",
+   "name": "남양주시 재향경우회 지원에 관한 조례",
+   "region_name": "경기도 남양주시",
+   "sig_cd": "41360",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C05"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1540225.json",
+   "bytes": 24312,
+   "reused": true
+  },
+  {
+   "key": "ordin-1588345",
+   "ordinance_id": "ordin:1588345",
+   "name": "부산광역시 사상구 식생활교육지원 조례",
+   "region_name": "부산광역시 사상구",
+   "sig_cd": "26530",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C04"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1588345.json",
+   "bytes": 25875,
+   "reused": true
+  },
+  {
+   "key": "ordin-1588457",
+   "ordinance_id": "ordin:1588457",
+   "name": "대구광역시 서구 구보 조례",
+   "region_name": "대구광역시 서구",
+   "sig_cd": "27170",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C13"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1588457.json",
+   "bytes": 23891,
+   "reused": true
+  },
+  {
+   "key": "ordin-1592191",
+   "ordinance_id": "ordin:1592191",
+   "name": "서울특별시 광진구 상징물에 관한 조례",
+   "region_name": "서울특별시 광진구",
+   "sig_cd": "11215",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1592191.json",
+   "bytes": 24760,
+   "reused": true
+  },
+  {
+   "key": "ordin-1595159",
+   "ordinance_id": "ordin:1595159",
+   "name": "서울특별시 금천구 장애인 고용촉진 및 직업재활 지원에 관한 조례",
+   "region_name": "서울특별시 금천구",
+   "sig_cd": "11545",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C03"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1595159.json",
+   "bytes": 23901,
+   "reused": true
+  },
+  {
+   "key": "ordin-1611359",
+   "ordinance_id": "ordin:1611359",
+   "name": "김포시 문화예술진흥 조례",
+   "region_name": "경기도 김포시",
+   "sig_cd": "41570",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C09"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1611359.json",
+   "bytes": 23622,
+   "reused": true
+  },
+  {
+   "key": "ordin-1625003",
+   "ordinance_id": "ordin:1625003",
+   "name": "서울특별시 성동구 관광진흥 조례",
+   "region_name": "서울특별시 성동구",
+   "sig_cd": "11200",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C03"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1625003.json",
+   "bytes": 24389,
+   "reused": true
+  },
+  {
+   "key": "ordin-1625463",
+   "ordinance_id": "ordin:1625463",
+   "name": "연천군 보행안전 및 편의증진에 관한 조례",
+   "region_name": "경기도 연천군",
+   "sig_cd": "41800",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C07",
+    "C08"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1625463.json",
+   "bytes": 23200,
+   "reused": true
+  },
+  {
+   "key": "ordin-1626523",
+   "ordinance_id": "ordin:1626523",
+   "name": "서울특별시 서초구 상징물에 관한 조례",
+   "region_name": "서울특별시 서초구",
+   "sig_cd": "11650",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1626523.json",
+   "bytes": 23298,
+   "reused": true
+  },
+  {
+   "key": "ordin-1639091",
+   "ordinance_id": "ordin:1639091",
+   "name": "공주시 보행안전 및 편의 증진에 관한 조례",
+   "region_name": "충청남도 공주시",
+   "sig_cd": "44150",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C10"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1639091.json",
+   "bytes": 23589,
+   "reused": true
+  },
+  {
+   "key": "ordin-1640287",
+   "ordinance_id": "ordin:1640287",
+   "name": "파주시 공모사업 관리에 관한 조례",
+   "region_name": "경기도 파주시",
+   "sig_cd": "41480",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1640287.json",
+   "bytes": 23369,
+   "reused": true
+  },
+  {
+   "key": "ordin-1654699",
+   "ordinance_id": "ordin:1654699",
+   "name": "고창군의회 장애인공무원 편의지원 조례",
+   "region_name": "전북특별자치도 고창군",
+   "sig_cd": "52790",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C03"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1654699.json",
+   "bytes": 23249,
+   "reused": true
+  },
+  {
+   "key": "ordin-1656287",
+   "ordinance_id": "ordin:1656287",
+   "name": "울산광역시 중구 조례ㆍ규칙 공포 조례",
+   "region_name": "울산광역시 중구",
+   "sig_cd": "31110",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1656287.json",
+   "bytes": 23949,
+   "reused": true
+  },
+  {
+   "key": "ordin-1665241",
+   "ordinance_id": "ordin:1665241",
+   "name": "구리시 공모사업 관리 조례",
+   "region_name": "경기도 구리시",
+   "sig_cd": "41310",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1665241.json",
+   "bytes": 22970,
+   "reused": true
+  },
+  {
+   "key": "ordin-1666805",
+   "ordinance_id": "ordin:1666805",
+   "name": "부산광역시 금정구 의안의 비용추계에 관한 조례",
+   "region_name": "부산광역시 금정구",
+   "sig_cd": "26410",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1666805.json",
+   "bytes": 24101,
+   "reused": true
+  },
+  {
+   "key": "ordin-1738745",
+   "ordinance_id": "ordin:1738745",
+   "name": "괴산군 지역상권 상생 및 활성화에 관한 조례",
+   "region_name": "충청북도 괴산군",
+   "sig_cd": "43760",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1738745.json",
+   "bytes": 24004,
+   "reused": true
+  },
+  {
+   "key": "ordin-1785133",
+   "ordinance_id": "ordin:1785133",
+   "name": "서울특별시 강북구 관광진흥 조례",
+   "region_name": "서울특별시 강북구",
+   "sig_cd": "11305",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C03"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1785133.json",
+   "bytes": 24167,
+   "reused": true
+  },
+  {
+   "key": "ordin-1793701",
+   "ordinance_id": "ordin:1793701",
+   "name": "서울특별시 강동구 상징물 조례",
+   "region_name": "서울특별시 강동구",
+   "sig_cd": "11740",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1793701.json",
+   "bytes": 23902,
+   "reused": true
+  },
+  {
+   "key": "ordin-1800277",
+   "ordinance_id": "ordin:1800277",
+   "name": "양구군 정책실명제 운영 조례",
+   "region_name": "강원특별자치도 양구군",
+   "sig_cd": "51800",
+   "status": "active",
+   "categories": [
+    "C05"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1800277.json",
+   "bytes": 23089,
+   "reused": true
+  },
+  {
+   "key": "ordin-1818393",
+   "ordinance_id": "ordin:1818393",
+   "name": "성주군 인구감소 대응에 관한 조례",
+   "region_name": "경상북도 성주군",
+   "sig_cd": "47840",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C04"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1818393.json",
+   "bytes": 23016,
+   "reused": true
+  },
+  {
+   "key": "ordin-1826677",
+   "ordinance_id": "ordin:1826677",
+   "name": "부산광역시 해운대구 영유아 보육 조례",
+   "region_name": "부산광역시 해운대구",
+   "sig_cd": "26350",
+   "status": "active",
+   "categories": [
+    "C04",
+    "C03"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1826677.json",
+   "bytes": 24770,
+   "reused": true
+  },
+  {
+   "key": "ordin-1857271",
+   "ordinance_id": "ordin:1857271",
+   "name": "파주시 어린이·사회복지급식관리지원센터 설치 및 운영 조례",
+   "region_name": "경기도 파주시",
+   "sig_cd": "41480",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C06"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1857271.json",
+   "bytes": 23360,
+   "reused": true
+  },
+  {
+   "key": "ordin-1874997",
+   "ordinance_id": "ordin:1874997",
+   "name": "청도군 정책실명제 운영 조례",
+   "region_name": "경상북도 청도군",
+   "sig_cd": "47820",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C05"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1874997.json",
+   "bytes": 23092,
+   "reused": true
+  },
+  {
+   "key": "ordin-1911425",
+   "ordinance_id": "ordin:1911425",
+   "name": "성주군의회 인사청문회 조례",
+   "region_name": "경상북도 성주군",
+   "sig_cd": "47840",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1911425.json",
+   "bytes": 22929,
+   "reused": true
+  },
+  {
+   "key": "ordin-1990477",
+   "ordinance_id": "ordin:1990477",
+   "name": "군포시 주차장 설치 및 관리 조례",
+   "region_name": "경기도 군포시",
+   "sig_cd": "41410",
+   "status": "active",
+   "categories": [
+    "C10"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1990477.json",
+   "bytes": 23152,
+   "reused": true
+  },
+  {
+   "key": "ordin-1999523",
+   "ordinance_id": "ordin:1999523",
+   "name": "서울특별시 용산구의회 기본 조례",
+   "region_name": "서울특별시 용산구",
+   "sig_cd": "11170",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-1999523.json",
+   "bytes": 23587,
+   "reused": true
+  },
+  {
+   "key": "ordin-2040013",
+   "ordinance_id": "ordin:2040013",
+   "name": "이천시 주차장 설치 및 관리 조례",
+   "region_name": "경기도 이천시",
+   "sig_cd": "41500",
+   "status": "active",
+   "categories": [
+    "C10"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-2040013.json",
+   "bytes": 23068,
+   "reused": true
+  },
+  {
+   "key": "ordin-818880",
+   "ordinance_id": "ordin:818880",
+   "name": "오산시시민헌장조례",
+   "region_name": "경기도 오산시",
+   "sig_cd": "41370",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-818880.json",
+   "bytes": 23559,
+   "reused": true
+  },
+  {
+   "key": "ordin-835339",
+   "ordinance_id": "ordin:835339",
+   "name": "구리시시민헌장조례",
+   "region_name": "경기도 구리시",
+   "sig_cd": "41310",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C09"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-835339.json",
+   "bytes": 23624,
+   "reused": true
+  },
+  {
+   "key": "ordin-879963",
+   "ordinance_id": "ordin:879963",
+   "name": "안산시 예산절감 및 예산낭비 사례 등 공개에 관한 조례",
+   "region_name": "경기도 안산시",
+   "sig_cd": "41270",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-879963.json",
+   "bytes": 23110,
+   "reused": true
+  },
+  {
+   "key": "ordin-950830",
+   "ordinance_id": "ordin:950830",
+   "name": "부산광역시 해운대구 담배소매인지정 사실조사에 관한 조례",
+   "region_name": "부산광역시 해운대구",
+   "sig_cd": "26350",
+   "status": "active",
+   "categories": [
+    "C02"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-950830.json",
+   "bytes": 23578,
+   "reused": true
+  },
+  {
+   "key": "ordin-956344",
+   "ordinance_id": "ordin:956344",
+   "name": "부산광역시 북구 보행권 확보 및 보행환경 개선에 관한 조례",
+   "region_name": "부산광역시 북구",
+   "sig_cd": "26320",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C03",
+    "C07"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-956344.json",
+   "bytes": 23721,
+   "reused": true
+  },
+  {
+   "key": "ordin-975699",
+   "ordinance_id": "ordin:975699",
+   "name": "남양주시시민헌장조례",
+   "region_name": "경기도 남양주시",
+   "sig_cd": "41360",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C07"
+   ],
+   "gap_hits": 9,
+   "path": "ordinance/ordin-975699.json",
+   "bytes": 23093,
+   "reused": true
+  },
+  {
+   "key": "ordin-1016098",
+   "ordinance_id": "ordin:1016098",
+   "name": "부안군의회 입법 및 법률 고문운영 조례",
+   "region_name": "전북특별자치도 부안군",
+   "sig_cd": "52800",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1016098.json",
+   "bytes": 23062,
+   "reused": true
+  },
+  {
+   "key": "ordin-1018711",
+   "ordinance_id": "ordin:1018711",
+   "name": "칠곡군 상수도원인자부담금 산정ㆍ징수 등에 관한 조례",
+   "region_name": "경상북도 칠곡군",
+   "sig_cd": "47850",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C09"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1018711.json",
+   "bytes": 23538,
+   "reused": true
+  },
+  {
+   "key": "ordin-1023244",
+   "ordinance_id": "ordin:1023244",
+   "name": "서울특별시 강북구 국어 진흥 조례",
+   "region_name": "서울특별시 강북구",
+   "sig_cd": "11305",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C13"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1023244.json",
+   "bytes": 25349,
+   "reused": true
+  },
+  {
+   "key": "ordin-1042727",
+   "ordinance_id": "ordin:1042727",
+   "name": "시흥시 장애인전용주차구역 관리에 관한 조례",
+   "region_name": "경기도 시흥시",
+   "sig_cd": "41390",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C10"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1042727.json",
+   "bytes": 23178,
+   "reused": true
+  },
+  {
+   "key": "ordin-1050527",
+   "ordinance_id": "ordin:1050527",
+   "name": "서울특별시 서초구 장애인고용촉진 및 직업재활 지원에 관한 조례",
+   "region_name": "서울특별시 서초구",
+   "sig_cd": "11650",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C03"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1050527.json",
+   "bytes": 26048,
+   "reused": true
+  },
+  {
+   "key": "ordin-1059104",
+   "ordinance_id": "ordin:1059104",
+   "name": "서울특별시 성동구 불용의약품 관리에 관한 조례",
+   "region_name": "서울특별시 성동구",
+   "sig_cd": "11200",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C07"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1059104.json",
+   "bytes": 23688,
+   "reused": true
+  },
+  {
+   "key": "ordin-1077378",
+   "ordinance_id": "ordin:1077378",
+   "name": "부산광역시 사하구 담배소매인 지정 사실조사에 관한 조례",
+   "region_name": "부산광역시 사하구",
+   "sig_cd": "26380",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1077378.json",
+   "bytes": 23432,
+   "reused": true
+  },
+  {
+   "key": "ordin-1116884",
+   "ordinance_id": "ordin:1116884",
+   "name": "여주시 장애인전용주차구역 관리에 관한 조례",
+   "region_name": "경기도 여주시",
+   "sig_cd": "41670",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C10"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1116884.json",
+   "bytes": 23194,
+   "reused": true
+  },
+  {
+   "key": "ordin-1133273",
+   "ordinance_id": "ordin:1133273",
+   "name": "서울특별시 성동구 국어 진흥 조례",
+   "region_name": "서울특별시 성동구",
+   "sig_cd": "11200",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C13"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1133273.json",
+   "bytes": 23347,
+   "reused": true
+  },
+  {
+   "key": "ordin-1140278",
+   "ordinance_id": "ordin:1140278",
+   "name": "수원시 재난안전대책본부 구성 및 운영 등에 관한 조례",
+   "region_name": "경기도 수원시",
+   "sig_cd": "41110",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C02"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1140278.json",
+   "bytes": 23692,
+   "reused": true
+  },
+  {
+   "key": "ordin-1144716",
+   "ordinance_id": "ordin:1144716",
+   "name": "안양시 불용의약품 등 관리에 관한 조례",
+   "region_name": "경기도 안양시",
+   "sig_cd": "41170",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C07"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1144716.json",
+   "bytes": 23060,
+   "reused": true
+  },
+  {
+   "key": "ordin-1188799",
+   "ordinance_id": "ordin:1188799",
+   "name": "시흥시 자치분권 촉진 및 지원에 관한 조례",
+   "region_name": "경기도 시흥시",
+   "sig_cd": "41390",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C09"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1188799.json",
+   "bytes": 23582,
+   "reused": true
+  },
+  {
+   "key": "ordin-1195906",
+   "ordinance_id": "ordin:1195906",
+   "name": "예천군 수리계 관리 조례",
+   "region_name": "경상북도 예천군",
+   "sig_cd": "47900",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C11"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1195906.json",
+   "bytes": 24000,
+   "reused": true
+  },
+  {
+   "key": "ordin-1197442",
+   "ordinance_id": "ordin:1197442",
+   "name": "안성시 장애인전용주차구역 관리에 관한 조례",
+   "region_name": "경기도 안성시",
+   "sig_cd": "41550",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C10"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1197442.json",
+   "bytes": 22967,
+   "reused": true
+  },
+  {
+   "key": "ordin-1198647",
+   "ordinance_id": "ordin:1198647",
+   "name": "부산광역시 금정구 조례 입법평가 조례",
+   "region_name": "부산광역시 금정구",
+   "sig_cd": "26410",
+   "status": "active",
+   "categories": [],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1198647.json",
+   "bytes": 24351,
+   "reused": true
+  },
+  {
+   "key": "ordin-1205448",
+   "ordinance_id": "ordin:1205448",
+   "name": "강릉시 공간정보에 관한 조례",
+   "region_name": "강원특별자치도 강릉시",
+   "sig_cd": "51150",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C07"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1205448.json",
+   "bytes": 23005,
+   "reused": true
+  },
+  {
+   "key": "ordin-1208417",
+   "ordinance_id": "ordin:1208417",
+   "name": "음성군 물의 재이용 촉진 및 지원 조례",
+   "region_name": "충청북도 음성군",
+   "sig_cd": "43770",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C09"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1208417.json",
+   "bytes": 23395,
+   "reused": true
+  },
+  {
+   "key": "ordin-1212644",
+   "ordinance_id": "ordin:1212644",
+   "name": "광명시 장애인전용주차구역 관리에 관한 조례",
+   "region_name": "경기도 광명시",
+   "sig_cd": "41210",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C10"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1212644.json",
+   "bytes": 24119,
+   "reused": true
+  },
+  {
+   "key": "ordin-1222716",
+   "ordinance_id": "ordin:1222716",
+   "name": "여주시 한부모가족 지원 조례",
+   "region_name": "경기도 여주시",
+   "sig_cd": "41670",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C06"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1222716.json",
+   "bytes": 24152,
+   "reused": true
+  },
+  {
+   "key": "ordin-1224801",
+   "ordinance_id": "ordin:1224801",
+   "name": "서울특별시 은평구 자치분권 촉진 및 지원에 관한 조례",
+   "region_name": "서울특별시 은평구",
+   "sig_cd": "11380",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C09"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1224801.json",
+   "bytes": 24437,
+   "reused": true
+  },
+  {
+   "key": "ordin-1235919",
+   "ordinance_id": "ordin:1235919",
+   "name": "평택시 불용의약품 등 관리에 관한 조례",
+   "region_name": "경기도 평택시",
+   "sig_cd": "41220",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C06"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1235919.json",
+   "bytes": 23355,
+   "reused": true
+  },
+  {
+   "key": "ordin-1242525",
+   "ordinance_id": "ordin:1242525",
+   "name": "서울특별시 중구 국어 진흥 조례",
+   "region_name": "서울특별시 중구",
+   "sig_cd": "11140",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C13"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1242525.json",
+   "bytes": 23558,
+   "reused": true
+  },
+  {
+   "key": "ordin-1243606",
+   "ordinance_id": "ordin:1243606",
+   "name": "아산시 공간정보에 관한 조례",
+   "region_name": "충청남도 아산시",
+   "sig_cd": "44200",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C07"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1243606.json",
+   "bytes": 23239,
+   "reused": true
+  },
+  {
+   "key": "ordin-1248357",
+   "ordinance_id": "ordin:1248357",
+   "name": "서울특별시 동대문구 국어 진흥 조례",
+   "region_name": "서울특별시 동대문구",
+   "sig_cd": "11230",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C13"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1248357.json",
+   "bytes": 24364,
+   "reused": true
+  },
+  {
+   "key": "ordin-1274405",
+   "ordinance_id": "ordin:1274405",
+   "name": "함양군 지역아동센터 운영 및 지원 조례",
+   "region_name": "경상남도 함양군",
+   "sig_cd": "48870",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C02"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1274405.json",
+   "bytes": 23194,
+   "reused": true
+  },
+  {
+   "key": "ordin-1283778",
+   "ordinance_id": "ordin:1283778",
+   "name": "이천시 안전관리 민관협력위원회 구성 및 운영 조례",
+   "region_name": "경기도 이천시",
+   "sig_cd": "41500",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1283778.json",
+   "bytes": 24279,
+   "reused": true
+  },
+  {
+   "key": "ordin-1290417",
+   "ordinance_id": "ordin:1290417",
+   "name": "함양군 응급의료 지원에 관한 조례",
+   "region_name": "경상남도 함양군",
+   "sig_cd": "48870",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C08"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1290417.json",
+   "bytes": 22993,
+   "reused": true
+  },
+  {
+   "key": "ordin-1293570",
+   "ordinance_id": "ordin:1293570",
+   "name": "서울특별시 중구 부부의 날 기념에 관한 조례",
+   "region_name": "서울특별시 중구",
+   "sig_cd": "11140",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1293570.json",
+   "bytes": 23977,
+   "reused": true
+  },
+  {
+   "key": "ordin-1295744",
+   "ordinance_id": "ordin:1295744",
+   "name": "서울특별시 도봉구 부부의 날 기념에 관한 조례",
+   "region_name": "서울특별시 도봉구",
+   "sig_cd": "11320",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1295744.json",
+   "bytes": 24339,
+   "reused": true
+  },
+  {
+   "key": "ordin-1301918",
+   "ordinance_id": "ordin:1301918",
+   "name": "서울특별시 은평구 부부의 날 기념에 관한 조례",
+   "region_name": "서울특별시 은평구",
+   "sig_cd": "11380",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C07"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1301918.json",
+   "bytes": 23750,
+   "reused": true
+  },
+  {
+   "key": "ordin-1302672",
+   "ordinance_id": "ordin:1302672",
+   "name": "동두천시 주택 조례",
+   "region_name": "경기도 동두천시",
+   "sig_cd": "41250",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C11"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1302672.json",
+   "bytes": 23165,
+   "reused": true
+  },
+  {
+   "key": "ordin-1303722",
+   "ordinance_id": "ordin:1303722",
+   "name": "서울특별시 동작구 부부의 날 기념에 관한 조례",
+   "region_name": "서울특별시 동작구",
+   "sig_cd": "11590",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1303722.json",
+   "bytes": 23552,
+   "reused": true
+  },
+  {
+   "key": "ordin-1306570",
+   "ordinance_id": "ordin:1306570",
+   "name": "서울특별시 구로구 부부의 날 기념에 관한 조례",
+   "region_name": "서울특별시 구로구",
+   "sig_cd": "11530",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1306570.json",
+   "bytes": 23643,
+   "reused": true
+  },
+  {
+   "key": "ordin-1342938",
+   "ordinance_id": "ordin:1342938",
+   "name": "파주시 경로당 지원에 관한 조례",
+   "region_name": "경기도 파주시",
+   "sig_cd": "41480",
+   "status": "active",
+   "categories": [
+    "C03"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1342938.json",
+   "bytes": 23172,
+   "reused": true
+  },
+  {
+   "key": "ordin-1343291",
+   "ordinance_id": "ordin:1343291",
+   "name": "이천시 자치분권 촉진 및 지원 조례",
+   "region_name": "경기도 이천시",
+   "sig_cd": "41500",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C09"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1343291.json",
+   "bytes": 23178,
+   "reused": true
+  },
+  {
+   "key": "ordin-1345017",
+   "ordinance_id": "ordin:1345017",
+   "name": "부산광역시 남구 납세자보호에 관한 사무처리 조례",
+   "region_name": "부산광역시 남구",
+   "sig_cd": "26290",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1345017.json",
+   "bytes": 24469,
+   "reused": true
+  },
+  {
+   "key": "ordin-1346801",
+   "ordinance_id": "ordin:1346801",
+   "name": "울산광역시 중구 출자·출연 기관의 운영에 관한 조례",
+   "region_name": "울산광역시 중구",
+   "sig_cd": "31110",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1346801.json",
+   "bytes": 24000,
+   "reused": true
+  },
+  {
+   "key": "ordin-1347202",
+   "ordinance_id": "ordin:1347202",
+   "name": "부산광역시 서구 납세자보호에 관한 사무처리 조례",
+   "region_name": "부산광역시 서구",
+   "sig_cd": "26140",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1347202.json",
+   "bytes": 23426,
+   "reused": true
+  },
+  {
+   "key": "ordin-1356108",
+   "ordinance_id": "ordin:1356108",
+   "name": "부산광역시 금정구 보훈회관 설치 및 운영에 관한 조례",
+   "region_name": "부산광역시 금정구",
+   "sig_cd": "26410",
+   "status": "active",
+   "categories": [
+    "C03"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1356108.json",
+   "bytes": 24254,
+   "reused": true
+  },
+  {
+   "key": "ordin-1357105",
+   "ordinance_id": "ordin:1357105",
+   "name": "보은군 지역아동센터 운영 및 지원 조례",
+   "region_name": "충청북도 보은군",
+   "sig_cd": "43720",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C02"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1357105.json",
+   "bytes": 23155,
+   "reused": true
+  },
+  {
+   "key": "ordin-1376460",
+   "ordinance_id": "ordin:1376460",
+   "name": "성주군 가축사육 제한에 관한 조례",
+   "region_name": "경상북도 성주군",
+   "sig_cd": "47840",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C09"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1376460.json",
+   "bytes": 23650,
+   "reused": true
+  },
+  {
+   "key": "ordin-1376488",
+   "ordinance_id": "ordin:1376488",
+   "name": "성주군 영유아 보육조례",
+   "region_name": "경상북도 성주군",
+   "sig_cd": "47840",
+   "status": "active",
+   "categories": [
+    "C04",
+    "C03"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1376488.json",
+   "bytes": 23508,
+   "reused": true
+  },
+  {
+   "key": "ordin-1383905",
+   "ordinance_id": "ordin:1383905",
+   "name": "청양군의회 입법ㆍ법률고문 운영 조례",
+   "region_name": "충청남도 청양군",
+   "sig_cd": "44790",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C05"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1383905.json",
+   "bytes": 22896,
+   "reused": true
+  },
+  {
+   "key": "ordin-1384338",
+   "ordinance_id": "ordin:1384338",
+   "name": "부천시 재난현장 통합지원본부 설치 및 운영 조례",
+   "region_name": "경기도 부천시",
+   "sig_cd": "41190",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C06"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1384338.json",
+   "bytes": 23469,
+   "reused": true
+  },
+  {
+   "key": "ordin-1387722",
+   "ordinance_id": "ordin:1387722",
+   "name": "남양주시 재난현장 통합지원본부 설치 및 운영 조례",
+   "region_name": "경기도 남양주시",
+   "sig_cd": "41360",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C06"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1387722.json",
+   "bytes": 23305,
+   "reused": true
+  },
+  {
+   "key": "ordin-1388069",
+   "ordinance_id": "ordin:1388069",
+   "name": "광주시 재난현장 통합지원본부 설치 및 운영 조례",
+   "region_name": "경기도 광주시",
+   "sig_cd": "41610",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C06"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1388069.json",
+   "bytes": 23021,
+   "reused": true
+  },
+  {
+   "key": "ordin-1388206",
+   "ordinance_id": "ordin:1388206",
+   "name": "단양군 남북교류협력에 관한 조례",
+   "region_name": "충청북도 단양군",
+   "sig_cd": "43800",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C06"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1388206.json",
+   "bytes": 23556,
+   "reused": true
+  },
+  {
+   "key": "ordin-1389535",
+   "ordinance_id": "ordin:1389535",
+   "name": "파주시 로컬푸드 육성 및 지원에 관한 조례",
+   "region_name": "경기도 파주시",
+   "sig_cd": "41480",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C11"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1389535.json",
+   "bytes": 23235,
+   "reused": true
+  },
+  {
+   "key": "ordin-1391722",
+   "ordinance_id": "ordin:1391722",
+   "name": "군포시 재난안전대책본부 구성·운영 조례",
+   "region_name": "경기도 군포시",
+   "sig_cd": "41410",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C02"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1391722.json",
+   "bytes": 23254,
+   "reused": true
+  },
+  {
+   "key": "ordin-1394851",
+   "ordinance_id": "ordin:1394851",
+   "name": "서울특별시 은평구 사회재난 구호 및 복구 지원에 관한 조례",
+   "region_name": "서울특별시 은평구",
+   "sig_cd": "11380",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C02"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1394851.json",
+   "bytes": 23595,
+   "reused": true
+  },
+  {
+   "key": "ordin-1395237",
+   "ordinance_id": "ordin:1395237",
+   "name": "부산광역시동래구 인터넷시스템 설치 및 운영에 관한 조례",
+   "region_name": "부산광역시 동래구",
+   "sig_cd": "26260",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C01"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1395237.json",
+   "bytes": 25343,
+   "reused": true
+  },
+  {
+   "key": "ordin-1395589",
+   "ordinance_id": "ordin:1395589",
+   "name": "부산광역시 북구 조례 입법평가 조례",
+   "region_name": "부산광역시 북구",
+   "sig_cd": "26320",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1395589.json",
+   "bytes": 23323,
+   "reused": true
+  },
+  {
+   "key": "ordin-1397351",
+   "ordinance_id": "ordin:1397351",
+   "name": "여주시 주택 조례",
+   "region_name": "경기도 여주시",
+   "sig_cd": "41670",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C10"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1397351.json",
+   "bytes": 22901,
+   "reused": true
+  },
+  {
+   "key": "ordin-1402366",
+   "ordinance_id": "ordin:1402366",
+   "name": "안성시 교복 지원 조례",
+   "region_name": "경기도 안성시",
+   "sig_cd": "41550",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C03"
+   ],
+   "gap_hits": 8,
+   "path": "ordinance/ordin-1402366.json",
+   "bytes": 24123,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000249",
+   "ordinance_id": "ordin:1000249",
+   "name": "충청북도의회 공인조례",
+   "region_name": "충청북도",
+   "sig_cd": "43000",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1000249.json",
+   "bytes": 22630,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000760",
+   "ordinance_id": "ordin:1000760",
+   "name": "대구광역시 남구 담배소매인 지정 사실조사에 관한 조례",
+   "region_name": "대구광역시 남구",
+   "sig_cd": "27200",
+   "status": "active",
+   "categories": [
+    "C02"
+   ],
+   "gap_hits": 4,
+   "path": "ordinance/ordin-1000760.json",
+   "bytes": 23218,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000855",
+   "ordinance_id": "ordin:1000855",
+   "name": "무안군 재향군인 예우 및 지원에 관한 조례",
+   "region_name": "전남광주통합특별시 무안군",
+   "sig_cd": "12810",
+   "status": "active",
+   "categories": [
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1000855.json",
+   "bytes": 23666,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004634",
+   "ordinance_id": "ordin:1004634",
+   "name": "충청남도 여성장애인 출산 및 영아양육 지원 조례",
+   "region_name": "충청남도",
+   "sig_cd": "44000",
+   "status": "active",
+   "categories": [
+    "C04",
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004634.json",
+   "bytes": 25186,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000867",
+   "ordinance_id": "ordin:1000867",
+   "name": "영천시 지방별정직 공무원의 범위에 관한 조례",
+   "region_name": "경상북도 영천시",
+   "sig_cd": "47230",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C05"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1000867.json",
+   "bytes": 24197,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001571",
+   "ordinance_id": "ordin:1001571",
+   "name": "부여군 농식품제조·가공업 시설기준 특례규칙",
+   "region_name": "충청남도 부여군",
+   "sig_cd": "44760",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C06"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001571.json",
+   "bytes": 23599,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000463",
+   "ordinance_id": "ordin:1000463",
+   "name": "진천군 규제 신고고객 보호·서비스헌장 운영 조례",
+   "region_name": "충청북도 진천군",
+   "sig_cd": "43750",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1000463.json",
+   "bytes": 23166,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000696",
+   "ordinance_id": "ordin:1000696",
+   "name": "영양군 공용차량 관리 규칙",
+   "region_name": "경상북도 영양군",
+   "sig_cd": "47760",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C10"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1000696.json",
+   "bytes": 22987,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000548",
+   "ordinance_id": "ordin:1000548",
+   "name": "의령군 택지개발에 따른 폐기물처리시설 설치비용 산정에 관한 조례",
+   "region_name": "경상남도 의령군",
+   "sig_cd": "48720",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1000548.json",
+   "bytes": 24137,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001844",
+   "ordinance_id": "ordin:1001844",
+   "name": "완도군 보도구역 내에 횡단차도 설치에 관한 조례",
+   "region_name": "전남광주통합특별시 완도군",
+   "sig_cd": "12850",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001844.json",
+   "bytes": 24159,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001100",
+   "ordinance_id": "ordin:1001100",
+   "name": "보령시 고향사랑자문관 운영 조례",
+   "region_name": "충청남도 보령시",
+   "sig_cd": "44180",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001100.json",
+   "bytes": 24205,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001242",
+   "ordinance_id": "ordin:1001242",
+   "name": "김포시 특산품판매장 운영 관리 조례",
+   "region_name": "경기도 김포시",
+   "sig_cd": "41570",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C12"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001242.json",
+   "bytes": 23065,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001180",
+   "ordinance_id": "ordin:1001180",
+   "name": "함평군민의날에관한조례",
+   "region_name": "전남광주통합특별시 함평군",
+   "sig_cd": "12820",
+   "status": "active",
+   "categories": [
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001180.json",
+   "bytes": 23473,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005734",
+   "ordinance_id": "ordin:1005734",
+   "name": "대전광역시 중구 상징물 조례",
+   "region_name": "대전광역시 중구",
+   "sig_cd": "30140",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C14"
+   ],
+   "gap_hits": 1,
+   "path": "ordinance/ordin-1005734.json",
+   "bytes": 23365,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000442",
+   "ordinance_id": "ordin:1000442",
+   "name": "고성군의회기 및 의원배지에 관한 규칙",
+   "region_name": "경상남도 고성군",
+   "sig_cd": "48820",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1000442.json",
+   "bytes": 23080,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000833",
+   "ordinance_id": "ordin:1000833",
+   "name": "포항시 보증채무 관리 조례",
+   "region_name": "경상북도 포항시",
+   "sig_cd": "47110",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C08"
+   ],
+   "gap_hits": 1,
+   "path": "ordinance/ordin-1000833.json",
+   "bytes": 23189,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001074",
+   "ordinance_id": "ordin:1001074",
+   "name": "충청남도 후천적 장애발생 예방 및 지원에 관한 조례",
+   "region_name": "충청남도",
+   "sig_cd": "44000",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001074.json",
+   "bytes": 22970,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007348",
+   "ordinance_id": "ordin:1007348",
+   "name": "제천시 임산부 전용주차장 설치 및 운영에 관한 조례 시행규칙",
+   "region_name": "충청북도 제천시",
+   "sig_cd": "43150",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C04"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1007348.json",
+   "bytes": 22933,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001749",
+   "ordinance_id": "ordin:1001749",
+   "name": "홍천군 학교급식 지원 조례 시행규칙",
+   "region_name": "강원특별자치도 홍천군",
+   "sig_cd": "51720",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C12"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001749.json",
+   "bytes": 23350,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002303",
+   "ordinance_id": "ordin:1002303",
+   "name": "포항시 건강도시 조성 조례",
+   "region_name": "경상북도 포항시",
+   "sig_cd": "47110",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C09"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002303.json",
+   "bytes": 23215,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002682",
+   "ordinance_id": "ordin:1002682",
+   "name": "화순군 친환경미생물배양실 운영 및 관리에 관한 조례",
+   "region_name": "전남광주통합특별시 화순군",
+   "sig_cd": "12760",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C12"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002682.json",
+   "bytes": 24138,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001675",
+   "ordinance_id": "ordin:1001675",
+   "name": "철원군 산사태취약지역지정위원회 구성 및 운영조례",
+   "region_name": "강원특별자치도 철원군",
+   "sig_cd": "51780",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C08"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001675.json",
+   "bytes": 23416,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002384",
+   "ordinance_id": "ordin:1002384",
+   "name": "김제시 여성친화도시 조성에 관한 기본 조례",
+   "region_name": "전북특별자치도 김제시",
+   "sig_cd": "52210",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002384.json",
+   "bytes": 23327,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002660",
+   "ordinance_id": "ordin:1002660",
+   "name": "경상북도 광역교통시설부담금 부과·징수 및 광역교통시설특별회계 설치 조례",
+   "region_name": "경상북도",
+   "sig_cd": "47000",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C10"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002660.json",
+   "bytes": 24193,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001425",
+   "ordinance_id": "ordin:1001425",
+   "name": "보성군 지방공기업법 적용대상 사업의 기준에 관한 조례",
+   "region_name": "전남광주통합특별시 보성군",
+   "sig_cd": "12750",
+   "status": "active",
+   "categories": [
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001425.json",
+   "bytes": 23390,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001258",
+   "ordinance_id": "ordin:1001258",
+   "name": "김포시 농업인의 날 조례",
+   "region_name": "경기도 김포시",
+   "sig_cd": "41570",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001258.json",
+   "bytes": 25211,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001247",
+   "ordinance_id": "ordin:1001247",
+   "name": "제주특별자치도과학관 설립 및 운영 조례 시행규칙",
+   "region_name": "제주특별자치도",
+   "sig_cd": "50000",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001247.json",
+   "bytes": 23691,
+   "reused": true
+  },
+  {
+   "key": "ordin-1042760",
+   "ordinance_id": "ordin:1042760",
+   "name": "의왕시 의로운 시민 등에 대한 예우 및 지원에 관한 조례",
+   "region_name": "경기도 의왕시",
+   "sig_cd": "41430",
+   "status": "active",
+   "categories": [
+    "C14",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1042760.json",
+   "bytes": 22981,
+   "reused": true
+  },
+  {
+   "key": "ordin-1000868",
+   "ordinance_id": "ordin:1000868",
+   "name": "인천광역시동구 지적재조사위원회ㆍ경계결정위원회의 구성 및 운영에 관한 조례",
+   "region_name": "인천광역시 제물포구",
+   "sig_cd": "28125",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1000868.json",
+   "bytes": 23580,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001797",
+   "ordinance_id": "ordin:1001797",
+   "name": "삼척시 공공간행물 광고표시에 따른 광고료 징수 조례",
+   "region_name": "강원특별자치도 삼척시",
+   "sig_cd": "51230",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001797.json",
+   "bytes": 23358,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001406",
+   "ordinance_id": "ordin:1001406",
+   "name": "서울특별시 도봉구 독서문화진흥 조례",
+   "region_name": "서울특별시 도봉구",
+   "sig_cd": "11320",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C13"
+   ],
+   "gap_hits": 1,
+   "path": "ordinance/ordin-1001406.json",
+   "bytes": 23761,
+   "reused": true
+  },
+  {
+   "key": "ordin-1012081",
+   "ordinance_id": "ordin:1012081",
+   "name": "양양군 약수터 등 보호 및 관리 조례 시행규칙",
+   "region_name": "강원특별자치도 양양군",
+   "sig_cd": "51830",
+   "status": "active",
+   "categories": [
+    "C04",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1012081.json",
+   "bytes": 23418,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001933",
+   "ordinance_id": "ordin:1001933",
+   "name": "울산광역시 남구 새마을 장학금 지급 조례",
+   "region_name": "울산광역시 남구",
+   "sig_cd": "31140",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001933.json",
+   "bytes": 23376,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002665",
+   "ordinance_id": "ordin:1002665",
+   "name": "부산광역시 사하구 건강생활실천협의회 설치 조례",
+   "region_name": "부산광역시 사하구",
+   "sig_cd": "26380",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002665.json",
+   "bytes": 24253,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002917",
+   "ordinance_id": "ordin:1002917",
+   "name": "부산광역시 동구 친환경 학교급식 지원 조례",
+   "region_name": "부산광역시 동구",
+   "sig_cd": "26170",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002917.json",
+   "bytes": 23376,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002410",
+   "ordinance_id": "ordin:1002410",
+   "name": "오산시 자연재해 원인·조사·분석·평가에 관한 조례",
+   "region_name": "경기도 오산시",
+   "sig_cd": "41370",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002410.json",
+   "bytes": 22940,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002505",
+   "ordinance_id": "ordin:1002505",
+   "name": "영천시 주택임대차계약서 확정일자 부여 업무 처리 규칙",
+   "region_name": "경상북도 영천시",
+   "sig_cd": "47230",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002505.json",
+   "bytes": 23224,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002956",
+   "ordinance_id": "ordin:1002956",
+   "name": "영양군 도로복구비 원인자 부담금 조례",
+   "region_name": "경상북도 영양군",
+   "sig_cd": "47760",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002956.json",
+   "bytes": 22964,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001628",
+   "ordinance_id": "ordin:1001628",
+   "name": "전주시 홍보대사 운영 조례",
+   "region_name": "전북특별자치도 전주시",
+   "sig_cd": "52110",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001628.json",
+   "bytes": 23930,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004121",
+   "ordinance_id": "ordin:1004121",
+   "name": "김포시 지역농업개발센타 설치 운영조례",
+   "region_name": "경기도 김포시",
+   "sig_cd": "41570",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C09"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004121.json",
+   "bytes": 25235,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001976",
+   "ordinance_id": "ordin:1001976",
+   "name": "포항시 시청직장운동경기부 설치 조례",
+   "region_name": "경상북도 포항시",
+   "sig_cd": "47110",
+   "status": "active",
+   "categories": [
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001976.json",
+   "bytes": 23564,
+   "reused": true
+  },
+  {
+   "key": "ordin-1070013",
+   "ordinance_id": "ordin:1070013",
+   "name": "안성시 상징물 조례",
+   "region_name": "경기도 안성시",
+   "sig_cd": "41550",
+   "status": "active",
+   "categories": [
+    "C14"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1070013.json",
+   "bytes": 22986,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001116",
+   "ordinance_id": "ordin:1001116",
+   "name": "화순군 주민등록업무 담당공무원 보험·공제 등의 가입조례",
+   "region_name": "전남광주통합특별시 화순군",
+   "sig_cd": "12760",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001116.json",
+   "bytes": 23899,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002778",
+   "ordinance_id": "ordin:1002778",
+   "name": "진천군 업무추진비 공개 및 집행에 관한 조례",
+   "region_name": "충청북도 진천군",
+   "sig_cd": "43750",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002778.json",
+   "bytes": 23882,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003351",
+   "ordinance_id": "ordin:1003351",
+   "name": "인천광역시동구 청소년지원센터 설치 및 운영에 관한 조례",
+   "region_name": "인천광역시 제물포구",
+   "sig_cd": "28125",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003351.json",
+   "bytes": 24319,
+   "reused": true
+  },
+  {
+   "key": "ordin-1014893",
+   "ordinance_id": "ordin:1014893",
+   "name": "양산시 아동위원 구성 및 운영 등에 관한 조례",
+   "region_name": "경상남도 양산시",
+   "sig_cd": "48330",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C04"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1014893.json",
+   "bytes": 23176,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003886",
+   "ordinance_id": "ordin:1003886",
+   "name": "오산시 법무행정 처리규칙",
+   "region_name": "경기도 오산시",
+   "sig_cd": "41370",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C05"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003886.json",
+   "bytes": 23579,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003781",
+   "ordinance_id": "ordin:1003781",
+   "name": "무주군 저소득주민 노인장기요양보험급여 이용에 따른 본인일부부담금 지원 조례",
+   "region_name": "전북특별자치도 무주군",
+   "sig_cd": "52730",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C06"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003781.json",
+   "bytes": 23577,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003100",
+   "ordinance_id": "ordin:1003100",
+   "name": "울진군 규제 신고고객 보호·서비스 헌장 운영 규칙",
+   "region_name": "경상북도 울진군",
+   "sig_cd": "47930",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003100.json",
+   "bytes": 23029,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003138",
+   "ordinance_id": "ordin:1003138",
+   "name": "군산시 산사태취약지역 지정위원회 설치운영조례",
+   "region_name": "전북특별자치도 군산시",
+   "sig_cd": "52130",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C08"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003138.json",
+   "bytes": 23515,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003312",
+   "ordinance_id": "ordin:1003312",
+   "name": "함평군계획관리지역안에서의공장건축가능지역지정에관한조례",
+   "region_name": "전남광주통합특별시 함평군",
+   "sig_cd": "12820",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003312.json",
+   "bytes": 25438,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002997",
+   "ordinance_id": "ordin:1002997",
+   "name": "대전광역시 서구 주차장 설치 및 관리 조례 시행규칙",
+   "region_name": "대전광역시 서구",
+   "sig_cd": "30170",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002997.json",
+   "bytes": 23261,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001650",
+   "ordinance_id": "ordin:1001650",
+   "name": "진주시 기업규제 신고고객 보호·서비스 헌장 운영규칙",
+   "region_name": "경상남도 진주시",
+   "sig_cd": "48170",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001650.json",
+   "bytes": 23459,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004580",
+   "ordinance_id": "ordin:1004580",
+   "name": "칠곡군 가축분뇨 공공처리시설 관리·운영 조례",
+   "region_name": "경상북도 칠곡군",
+   "sig_cd": "47850",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C02"
+   ],
+   "gap_hits": 3,
+   "path": "ordinance/ordin-1004580.json",
+   "bytes": 23130,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003619",
+   "ordinance_id": "ordin:1003619",
+   "name": "제천시 의병묘지관리비 지원에 관한 조례",
+   "region_name": "충청북도 제천시",
+   "sig_cd": "43150",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003619.json",
+   "bytes": 23129,
+   "reused": true
+  },
+  {
+   "key": "ordin-1081220",
+   "ordinance_id": "ordin:1081220",
+   "name": "화성시 물품관리 조례 시행규칙",
+   "region_name": "경기도 화성시",
+   "sig_cd": "41590",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C14"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1081220.json",
+   "bytes": 23068,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001248",
+   "ordinance_id": "ordin:1001248",
+   "name": "제주특별자치도 도서지역 여객선운임 지원 조례 시행규칙",
+   "region_name": "제주특별자치도",
+   "sig_cd": "50000",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001248.json",
+   "bytes": 23386,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002850",
+   "ordinance_id": "ordin:1002850",
+   "name": "영광군공무원직장협의회설립ㆍ운영에관한조례",
+   "region_name": "전남광주통합특별시 영광군",
+   "sig_cd": "12830",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002850.json",
+   "bytes": 24081,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003549",
+   "ordinance_id": "ordin:1003549",
+   "name": "고성군읍·면종합복지회관설치및운영조례시행규칙",
+   "region_name": "강원특별자치도 고성군",
+   "sig_cd": "51820",
+   "status": "active",
+   "categories": [
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003549.json",
+   "bytes": 23931,
+   "reused": true
+  },
+  {
+   "key": "ordin-1015508",
+   "ordinance_id": "ordin:1015508",
+   "name": "서울특별시 중구 어린이집 급식의 방사능 등 유해물질로부터 안전한 식재료 사용 지원에 관한 조례",
+   "region_name": "서울특별시 중구",
+   "sig_cd": "11140",
+   "status": "active",
+   "categories": [
+    "C04",
+    "C08"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1015508.json",
+   "bytes": 24245,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003944",
+   "ordinance_id": "ordin:1003944",
+   "name": "청송군 주민소득지원 및 생활안정 기금 운용 관리 조례",
+   "region_name": "경상북도 청송군",
+   "sig_cd": "47750",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C05"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003944.json",
+   "bytes": 22991,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004337",
+   "ordinance_id": "ordin:1004337",
+   "name": "부산광역시 사하구 공동화장실 관리 및 지원 등에 관한 조례",
+   "region_name": "부산광역시 사하구",
+   "sig_cd": "26380",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C06"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004337.json",
+   "bytes": 23561,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003247",
+   "ordinance_id": "ordin:1003247",
+   "name": "대구광역시 남구 규제 신고고객 보호·서비스 헌장 운영 규칙",
+   "region_name": "대구광역시 남구",
+   "sig_cd": "27200",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003247.json",
+   "bytes": 23460,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003180",
+   "ordinance_id": "ordin:1003180",
+   "name": "대구광역시 수성구 산사태취약지역 지정위원회의 구성 및 운영에 관한 조례",
+   "region_name": "대구광역시 수성구",
+   "sig_cd": "27260",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C08"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003180.json",
+   "bytes": 23792,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003969",
+   "ordinance_id": "ordin:1003969",
+   "name": "칠곡군 상수도원인자부담금 산정ㆍ징수 등에 관한 조례 시행규칙",
+   "region_name": "경상북도 칠곡군",
+   "sig_cd": "47850",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003969.json",
+   "bytes": 23241,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004521",
+   "ordinance_id": "ordin:1004521",
+   "name": "양산시 견인자동차 운영 및 대행법인 등 관리조례",
+   "region_name": "경상남도 양산시",
+   "sig_cd": "48330",
+   "status": "active",
+   "categories": [
+    "C10"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004521.json",
+   "bytes": 22953,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002756",
+   "ordinance_id": "ordin:1002756",
+   "name": "화순군 지방공무원 직무 발명 보상 조례",
+   "region_name": "전남광주통합특별시 화순군",
+   "sig_cd": "12760",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002756.json",
+   "bytes": 23490,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004590",
+   "ordinance_id": "ordin:1004590",
+   "name": "칠곡군 수리계의 조직과 운영에 관한 조례",
+   "region_name": "경상북도 칠곡군",
+   "sig_cd": "47850",
+   "status": "active",
+   "categories": [
+    "C12"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004590.json",
+   "bytes": 24021,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004451",
+   "ordinance_id": "ordin:1004451",
+   "name": "부산광역시 서구 소년소녀합창단 운영 조례",
+   "region_name": "부산광역시 서구",
+   "sig_cd": "26140",
+   "status": "active",
+   "categories": [
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004451.json",
+   "bytes": 23413,
+   "reused": true
+  },
+  {
+   "key": "ordin-1124281",
+   "ordinance_id": "ordin:1124281",
+   "name": "부여군 야생동물에 의한 피해예방 및 보상 등에 관한 조례 시행규칙",
+   "region_name": "충청남도 부여군",
+   "sig_cd": "44760",
+   "status": "active",
+   "categories": [
+    "C14",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1124281.json",
+   "bytes": 23406,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001380",
+   "ordinance_id": "ordin:1001380",
+   "name": "울산광역시 남구 전문가 무료상담실 설치 및 운영 조례",
+   "region_name": "울산광역시 남구",
+   "sig_cd": "31140",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001380.json",
+   "bytes": 23894,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003743",
+   "ordinance_id": "ordin:1003743",
+   "name": "영주시 지방별정직 공무원 자진퇴직수당 지급에 관한 규칙",
+   "region_name": "경상북도 영주시",
+   "sig_cd": "47210",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003743.json",
+   "bytes": 23253,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005176",
+   "ordinance_id": "ordin:1005176",
+   "name": "고성군 사회복지사 등의 처우 및 지위 향상에 관한 조례",
+   "region_name": "강원특별자치도 고성군",
+   "sig_cd": "51820",
+   "status": "active",
+   "categories": [
+    "C03"
+   ],
+   "gap_hits": 1,
+   "path": "ordinance/ordin-1005176.json",
+   "bytes": 23210,
+   "reused": true
+  },
+  {
+   "key": "ordin-1018709",
+   "ordinance_id": "ordin:1018709",
+   "name": "칠곡군 상수도 급수공사 대행 규칙",
+   "region_name": "경상북도 칠곡군",
+   "sig_cd": "47850",
+   "status": "active",
+   "categories": [
+    "C04",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1018709.json",
+   "bytes": 23554,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005446",
+   "ordinance_id": "ordin:1005446",
+   "name": "경주시의회 입법·법률고문 운영 조례",
+   "region_name": "경상북도 경주시",
+   "sig_cd": "47130",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C05"
+   ],
+   "gap_hits": 3,
+   "path": "ordinance/ordin-1005446.json",
+   "bytes": 22959,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006093",
+   "ordinance_id": "ordin:1006093",
+   "name": "정선군 저소득층 국민건강보험료 및 장기요양보험료 지원조례",
+   "region_name": "강원특별자치도 정선군",
+   "sig_cd": "51770",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C02",
+    "C06"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1006093.json",
+   "bytes": 23699,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004534",
+   "ordinance_id": "ordin:1004534",
+   "name": "진도군 음식물류 폐기물 수집ㆍ운반 및 재활용촉진을 위한 조례",
+   "region_name": "전남광주통합특별시 진도군",
+   "sig_cd": "12860",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004534.json",
+   "bytes": 24215,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003985",
+   "ordinance_id": "ordin:1003985",
+   "name": "영양군 재난관리기금 운용 및 관리 조례 시행규칙",
+   "region_name": "경상북도 영양군",
+   "sig_cd": "47760",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C08"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003985.json",
+   "bytes": 23379,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005497",
+   "ordinance_id": "ordin:1005497",
+   "name": "화순군 나무은행설치 및 운영조례",
+   "region_name": "전남광주통합특별시 화순군",
+   "sig_cd": "12760",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1005497.json",
+   "bytes": 24824,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004799",
+   "ordinance_id": "ordin:1004799",
+   "name": "서울특별시 양천구 도로점용공사장 교통소통대책에 관한 조례 시행규칙",
+   "region_name": "서울특별시 양천구",
+   "sig_cd": "11470",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004799.json",
+   "bytes": 23191,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004615",
+   "ordinance_id": "ordin:1004615",
+   "name": "영광군군민의상조례",
+   "region_name": "전남광주통합특별시 영광군",
+   "sig_cd": "12830",
+   "status": "active",
+   "categories": [
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004615.json",
+   "bytes": 23967,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004620",
+   "ordinance_id": "ordin:1004620",
+   "name": "제천시 농가 소규모 식품가공사업 육성 및 지원에 관한 조례",
+   "region_name": "충청북도 제천시",
+   "sig_cd": "43150",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004620.json",
+   "bytes": 23093,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004553",
+   "ordinance_id": "ordin:1004553",
+   "name": "영암군 작은도서관 및 독서문화 진흥을 위한 조례 시행규칙",
+   "region_name": "전남광주통합특별시 영암군",
+   "sig_cd": "12800",
+   "status": "active",
+   "categories": [
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004553.json",
+   "bytes": 24153,
+   "reused": true
+  },
+  {
+   "key": "ordin-1149524",
+   "ordinance_id": "ordin:1149524",
+   "name": "경상남도 지방도상 야생동물 등의 충돌방지 및 사체처리 등에 관한 조례 시행규칙",
+   "region_name": "경상남도",
+   "sig_cd": "48000",
+   "status": "active",
+   "categories": [
+    "C14",
+    "C10"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1149524.json",
+   "bytes": 22978,
+   "reused": true
+  },
+  {
+   "key": "ordin-1001758",
+   "ordinance_id": "ordin:1001758",
+   "name": "울산광역시 북구 주민참여 기본 조례",
+   "region_name": "울산광역시 북구",
+   "sig_cd": "31200",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1001758.json",
+   "bytes": 23338,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003952",
+   "ordinance_id": "ordin:1003952",
+   "name": "예산군 자원봉사활동 지원 조례 시행규칙",
+   "region_name": "충청남도 예산군",
+   "sig_cd": "44810",
+   "status": "active",
+   "categories": [
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003952.json",
+   "bytes": 23213,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006899",
+   "ordinance_id": "ordin:1006899",
+   "name": "서울특별시 종로구 장애인 차별금지 및 인권증진에 관한 조례",
+   "region_name": "서울특별시 종로구",
+   "sig_cd": "11110",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1006899.json",
+   "bytes": 23803,
+   "reused": true
+  },
+  {
+   "key": "ordin-1018713",
+   "ordinance_id": "ordin:1018713",
+   "name": "칠곡군 하수도 배수설비공사 대행 규칙",
+   "region_name": "경상북도 칠곡군",
+   "sig_cd": "47850",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C04"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1018713.json",
+   "bytes": 24084,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005881",
+   "ordinance_id": "ordin:1005881",
+   "name": "대구광역시 수성구 협동조합 지원에 관한 조례",
+   "region_name": "대구광역시 수성구",
+   "sig_cd": "27260",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C05"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1005881.json",
+   "bytes": 24304,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006526",
+   "ordinance_id": "ordin:1006526",
+   "name": "포천시 대한적십자사 활동 지원에 관한 조례",
+   "region_name": "경기도 포천시",
+   "sig_cd": "41650",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C06"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1006526.json",
+   "bytes": 24430,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005480",
+   "ordinance_id": "ordin:1005480",
+   "name": "금산군 규제 신고고객 보호·서비스 헌장 운영 조례",
+   "region_name": "충청남도 금산군",
+   "sig_cd": "44710",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1005480.json",
+   "bytes": 23771,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003996",
+   "ordinance_id": "ordin:1003996",
+   "name": "영양군 빗물관리에 관한 조례",
+   "region_name": "경상북도 영양군",
+   "sig_cd": "47760",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003996.json",
+   "bytes": 22855,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006536",
+   "ordinance_id": "ordin:1006536",
+   "name": "함평군소도읍육성지원조례",
+   "region_name": "전남광주통합특별시 함평군",
+   "sig_cd": "12820",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1006536.json",
+   "bytes": 24224,
+   "reused": true
+  },
+  {
+   "key": "ordin-1008323",
+   "ordinance_id": "ordin:1008323",
+   "name": "무주군 부설주차장 설치비용 산정기준 등에 관한 조례",
+   "region_name": "전북특별자치도 무주군",
+   "sig_cd": "52730",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1008323.json",
+   "bytes": 24458,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006594",
+   "ordinance_id": "ordin:1006594",
+   "name": "경상북도 직무대리 규칙",
+   "region_name": "경상북도",
+   "sig_cd": "47000",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1006594.json",
+   "bytes": 23287,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005295",
+   "ordinance_id": "ordin:1005295",
+   "name": "대구광역시 수성구 가축분뇨의 관리 및 이용에 관한 조례",
+   "region_name": "대구광역시 수성구",
+   "sig_cd": "27260",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1005295.json",
+   "bytes": 24140,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004760",
+   "ordinance_id": "ordin:1004760",
+   "name": "부산광역시 사하구 사하문화원 지원 조례",
+   "region_name": "부산광역시 사하구",
+   "sig_cd": "26380",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004760.json",
+   "bytes": 24267,
+   "reused": true
+  },
+  {
+   "key": "ordin-1182518",
+   "ordinance_id": "ordin:1182518",
+   "name": "인천광역시동구 상징물관리 조례",
+   "region_name": "인천광역시 제물포구",
+   "sig_cd": "28125",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C14"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1182518.json",
+   "bytes": 23586,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002511",
+   "ordinance_id": "ordin:1002511",
+   "name": "영광군 행정기구 설치조례 중 개정조례 등의 시행일에 관한 규칙",
+   "region_name": "전남광주통합특별시 영광군",
+   "sig_cd": "12830",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002511.json",
+   "bytes": 23328,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003997",
+   "ordinance_id": "ordin:1003997",
+   "name": "영양군 자연재해위험개선지구 안에서의 행위제한에 관한 조례",
+   "region_name": "경상북도 영양군",
+   "sig_cd": "47760",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003997.json",
+   "bytes": 23200,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007538",
+   "ordinance_id": "ordin:1007538",
+   "name": "장수군 효행장려 및 지원에 관한 조례",
+   "region_name": "전북특별자치도 장수군",
+   "sig_cd": "52740",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C05"
+   ],
+   "gap_hits": 1,
+   "path": "ordinance/ordin-1007538.json",
+   "bytes": 23289,
+   "reused": true
+  },
+  {
+   "key": "ordin-1024737",
+   "ordinance_id": "ordin:1024737",
+   "name": "서울특별시 종로구 입양가정 지원 조례",
+   "region_name": "서울특별시 종로구",
+   "sig_cd": "11110",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C04"
+   ],
+   "gap_hits": 7,
+   "path": "ordinance/ordin-1024737.json",
+   "bytes": 24196,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006075",
+   "ordinance_id": "ordin:1006075",
+   "name": "사단법인 UN지속가능발전교육 인제전문센터(RCE) 설립 및 지원에 관한 조례",
+   "region_name": "강원특별자치도 인제군",
+   "sig_cd": "51810",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1006075.json",
+   "bytes": 23356,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007769",
+   "ordinance_id": "ordin:1007769",
+   "name": "김천시 식품진흥기금 설치 및 운용 조례",
+   "region_name": "경상북도 김천시",
+   "sig_cd": "47150",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C06"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1007769.json",
+   "bytes": 23623,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006061",
+   "ordinance_id": "ordin:1006061",
+   "name": "김포시 먹는 물 수질검사 조례",
+   "region_name": "경기도 김포시",
+   "sig_cd": "41570",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1006061.json",
+   "bytes": 23359,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004189",
+   "ordinance_id": "ordin:1004189",
+   "name": "충청북도 화학물질 안전관리 조례",
+   "region_name": "충청북도",
+   "sig_cd": "43000",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004189.json",
+   "bytes": 22883,
+   "reused": true
+  },
+  {
+   "key": "ordin-1009741",
+   "ordinance_id": "ordin:1009741",
+   "name": "화순군 공영개발사업특별회계 설치조례",
+   "region_name": "전남광주통합특별시 화순군",
+   "sig_cd": "12760",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C09"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1009741.json",
+   "bytes": 24865,
+   "reused": true
+  },
+  {
+   "key": "ordin-1009907",
+   "ordinance_id": "ordin:1009907",
+   "name": "춘천시 소양호선착장 시설사용료 징수조례",
+   "region_name": "강원특별자치도 춘천시",
+   "sig_cd": "51110",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C10"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1009907.json",
+   "bytes": 24062,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006865",
+   "ordinance_id": "ordin:1006865",
+   "name": "금산군 녹색제품 구매 촉진 조례",
+   "region_name": "충청남도 금산군",
+   "sig_cd": "44710",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C11"
+   ],
+   "gap_hits": 3,
+   "path": "ordinance/ordin-1006865.json",
+   "bytes": 23697,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007360",
+   "ordinance_id": "ordin:1007360",
+   "name": "연천군 농특산물 통합상표 관리조례",
+   "region_name": "경기도 연천군",
+   "sig_cd": "41800",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1007360.json",
+   "bytes": 22922,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007161",
+   "ordinance_id": "ordin:1007161",
+   "name": "대구광역시 달성군 문화원 지원 및 육성에 관한 조례",
+   "region_name": "대구광역시 달성군",
+   "sig_cd": "27710",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1007161.json",
+   "bytes": 23693,
+   "reused": true
+  },
+  {
+   "key": "ordin-1189544",
+   "ordinance_id": "ordin:1189544",
+   "name": "부산광역시 서구 어린이놀이시설 안전관리 조례",
+   "region_name": "부산광역시 서구",
+   "sig_cd": "26140",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C14"
+   ],
+   "gap_hits": 2,
+   "path": "ordinance/ordin-1189544.json",
+   "bytes": 23423,
+   "reused": true
+  },
+  {
+   "key": "ordin-1002759",
+   "ordinance_id": "ordin:1002759",
+   "name": "보성군 인감업무담당공무원 보험ㆍ공제 등의 가입조례",
+   "region_name": "전남광주통합특별시 보성군",
+   "sig_cd": "12750",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1002759.json",
+   "bytes": 23411,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004283",
+   "ordinance_id": "ordin:1004283",
+   "name": "영양군 주민참여예산제 운영 조례",
+   "region_name": "경상북도 영양군",
+   "sig_cd": "47760",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C08"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004283.json",
+   "bytes": 23519,
+   "reused": true
+  },
+  {
+   "key": "ordin-1008185",
+   "ordinance_id": "ordin:1008185",
+   "name": "안동시읍·면복지회관설치운영조례시행규칙",
+   "region_name": "경상북도 안동시",
+   "sig_cd": "47170",
+   "status": "active",
+   "categories": [
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1008185.json",
+   "bytes": 23806,
+   "reused": true
+  },
+  {
+   "key": "ordin-1025707",
+   "ordinance_id": "ordin:1025707",
+   "name": "하남시 효행 장려 및 지원에 관한 조례",
+   "region_name": "경기도 하남시",
+   "sig_cd": "41450",
+   "status": "active",
+   "categories": [
+    "C04",
+    "C05"
+   ],
+   "gap_hits": 5,
+   "path": "ordinance/ordin-1025707.json",
+   "bytes": 23057,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006447",
+   "ordinance_id": "ordin:1006447",
+   "name": "옹진군 청소년공부방 설치 및 활동 지원 조례",
+   "region_name": "인천광역시 옹진군",
+   "sig_cd": "28720",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C05"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1006447.json",
+   "bytes": 23292,
+   "reused": true
+  },
+  {
+   "key": "ordin-1009769",
+   "ordinance_id": "ordin:1009769",
+   "name": "산청군 보건의료원 임상연구비 지급 조례",
+   "region_name": "경상남도 산청군",
+   "sig_cd": "48860",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 1,
+   "path": "ordinance/ordin-1009769.json",
+   "bytes": 23035,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007744",
+   "ordinance_id": "ordin:1007744",
+   "name": "대구광역시 동구 생활환경 청결실천에 관한 조례",
+   "region_name": "대구광역시 동구",
+   "sig_cd": "27140",
+   "status": "active",
+   "categories": [
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1007744.json",
+   "bytes": 23235,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004432",
+   "ordinance_id": "ordin:1004432",
+   "name": "부여군 산사태취약지역 지정위원회 설치 및 운영에 관한 조례 시행규칙",
+   "region_name": "충청남도 부여군",
+   "sig_cd": "44760",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004432.json",
+   "bytes": 23949,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010072",
+   "ordinance_id": "ordin:1010072",
+   "name": "완도군 지방채상환기금 설치 및 운영 조례",
+   "region_name": "전남광주통합특별시 완도군",
+   "sig_cd": "12850",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C09"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010072.json",
+   "bytes": 23485,
+   "reused": true
+  },
+  {
+   "key": "ordin-1009979",
+   "ordinance_id": "ordin:1009979",
+   "name": "목포시 장애인편의시설 설치사항 사전점검 등에 관한 조례",
+   "region_name": "전남광주통합특별시 목포시",
+   "sig_cd": "12110",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C10"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1009979.json",
+   "bytes": 23529,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007073",
+   "ordinance_id": "ordin:1007073",
+   "name": "제천시 고기능 LED약용작물연구소 관리 및 운영 조례 시행규칙",
+   "region_name": "충청북도 제천시",
+   "sig_cd": "43150",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1007073.json",
+   "bytes": 24354,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010553",
+   "ordinance_id": "ordin:1010553",
+   "name": "춘천시 농업발전기금 설치 및 운용 조례 시행규칙",
+   "region_name": "강원특별자치도 춘천시",
+   "sig_cd": "51110",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C12"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010553.json",
+   "bytes": 23537,
+   "reused": true
+  },
+  {
+   "key": "ordin-1008473",
+   "ordinance_id": "ordin:1008473",
+   "name": "서울특별시 성북구 문화예술진흥자문위원회 조례 시행규칙",
+   "region_name": "서울특별시 성북구",
+   "sig_cd": "11290",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1008473.json",
+   "bytes": 23804,
+   "reused": true
+  },
+  {
+   "key": "ordin-1189785",
+   "ordinance_id": "ordin:1189785",
+   "name": "인천광역시 계양구 상징물 관리 조례",
+   "region_name": "인천광역시 계양구",
+   "sig_cd": "28245",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C14"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1189785.json",
+   "bytes": 24077,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003458",
+   "ordinance_id": "ordin:1003458",
+   "name": "울산광역시 남구 인감업무담당공무원 보험·공제 등의 가입 조례",
+   "region_name": "울산광역시 남구",
+   "sig_cd": "31140",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003458.json",
+   "bytes": 24057,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004375",
+   "ordinance_id": "ordin:1004375",
+   "name": "안동시소하천점용료및사용료징수조례",
+   "region_name": "경상북도 안동시",
+   "sig_cd": "47170",
+   "status": "active",
+   "categories": [
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004375.json",
+   "bytes": 23563,
+   "reused": true
+  },
+  {
+   "key": "ordin-1009551",
+   "ordinance_id": "ordin:1009551",
+   "name": "칠곡군 종합자원봉사센터 설치 및 운영 조례",
+   "region_name": "경상북도 칠곡군",
+   "sig_cd": "47850",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1009551.json",
+   "bytes": 23416,
+   "reused": true
+  },
+  {
+   "key": "ordin-1025847",
+   "ordinance_id": "ordin:1025847",
+   "name": "홍천군쓰레기규격봉투판매소운영규정",
+   "region_name": "강원특별자치도 홍천군",
+   "sig_cd": "51720",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C04"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1025847.json",
+   "bytes": 23713,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006876",
+   "ordinance_id": "ordin:1006876",
+   "name": "전주시 북한이탈주민 정착지원에 관한 조례",
+   "region_name": "전북특별자치도 전주시",
+   "sig_cd": "52110",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C05"
+   ],
+   "gap_hits": 1,
+   "path": "ordinance/ordin-1006876.json",
+   "bytes": 23354,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010278",
+   "ordinance_id": "ordin:1010278",
+   "name": "인제군 불용의약품 관리에 관한 조례",
+   "region_name": "강원특별자치도 인제군",
+   "sig_cd": "51810",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010278.json",
+   "bytes": 23895,
+   "reused": true
+  },
+  {
+   "key": "ordin-1009237",
+   "ordinance_id": "ordin:1009237",
+   "name": "영월군 규제 신고고객 보호·서비스헌장 운영 조례",
+   "region_name": "강원특별자치도 영월군",
+   "sig_cd": "51750",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1009237.json",
+   "bytes": 23352,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005448",
+   "ordinance_id": "ordin:1005448",
+   "name": "영덕군 액화석유가스사업 허가기준 등에 관한 조례",
+   "region_name": "경상북도 영덕군",
+   "sig_cd": "47770",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C02"
+   ],
+   "gap_hits": 4,
+   "path": "ordinance/ordin-1005448.json",
+   "bytes": 22980,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010696",
+   "ordinance_id": "ordin:1010696",
+   "name": "제천시 슬레이트 지붕해체 지원에 관한 조례",
+   "region_name": "충청북도 제천시",
+   "sig_cd": "43150",
+   "status": "active",
+   "categories": [
+    "C09",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010696.json",
+   "bytes": 23811,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010501",
+   "ordinance_id": "ordin:1010501",
+   "name": "김천시 자전거이용 활성화에 관한 규칙",
+   "region_name": "경상북도 김천시",
+   "sig_cd": "47150",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010501.json",
+   "bytes": 23141,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007144",
+   "ordinance_id": "ordin:1007144",
+   "name": "하남시지방공기업법적용대상사업의기준에관한조례",
+   "region_name": "경기도 하남시",
+   "sig_cd": "41450",
+   "status": "active",
+   "categories": [
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1007144.json",
+   "bytes": 22879,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010599",
+   "ordinance_id": "ordin:1010599",
+   "name": "포항시 농특산물 공동상표 관리 조례 시행규칙",
+   "region_name": "경상북도 포항시",
+   "sig_cd": "47110",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010599.json",
+   "bytes": 24236,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010883",
+   "ordinance_id": "ordin:1010883",
+   "name": "임실군 인터넷 매체를 활용한 홍보에 관한 조례",
+   "region_name": "전북특별자치도 임실군",
+   "sig_cd": "52750",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C05"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010883.json",
+   "bytes": 23463,
+   "reused": true
+  },
+  {
+   "key": "ordin-1195358",
+   "ordinance_id": "ordin:1195358",
+   "name": "아산시 의로운 시민 등에 대한 예우 및 지원에 관한 조례",
+   "region_name": "충청남도 아산시",
+   "sig_cd": "44200",
+   "status": "active",
+   "categories": [
+    "C14",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1195358.json",
+   "bytes": 23134,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003749",
+   "ordinance_id": "ordin:1003749",
+   "name": "계룡시 면·동의 관할구역 변경에 관한 조례",
+   "region_name": "충청남도 계룡시",
+   "sig_cd": "44250",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003749.json",
+   "bytes": 23587,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005588",
+   "ordinance_id": "ordin:1005588",
+   "name": "보령시 별정직공무원 자진퇴직수당 지급에 관한 규칙",
+   "region_name": "충청남도 보령시",
+   "sig_cd": "44180",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1005588.json",
+   "bytes": 23152,
+   "reused": true
+  },
+  {
+   "key": "ordin-1009611",
+   "ordinance_id": "ordin:1009611",
+   "name": "고령군 지역치안협의회 설치 및 운영 조례",
+   "region_name": "경상북도 고령군",
+   "sig_cd": "47830",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1009611.json",
+   "bytes": 23621,
+   "reused": true
+  },
+  {
+   "key": "ordin-1027904",
+   "ordinance_id": "ordin:1027904",
+   "name": "목포시 어린이 안전 지원 조례",
+   "region_name": "전남광주통합특별시 목포시",
+   "sig_cd": "12110",
+   "status": "active",
+   "categories": [
+    "C04",
+    "C08"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1027904.json",
+   "bytes": 23669,
+   "reused": true
+  },
+  {
+   "key": "ordin-1006938",
+   "ordinance_id": "ordin:1006938",
+   "name": "진도군 이장 자녀 장학금 지급 조례",
+   "region_name": "전남광주통합특별시 진도군",
+   "sig_cd": "12860",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1006938.json",
+   "bytes": 23548,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010708",
+   "ordinance_id": "ordin:1010708",
+   "name": "제천시 응급의료 지원에 관한 조례",
+   "region_name": "충청북도 제천시",
+   "sig_cd": "43150",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 3,
+   "path": "ordinance/ordin-1010708.json",
+   "bytes": 23732,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010306",
+   "ordinance_id": "ordin:1010306",
+   "name": "군산시근로청소년임대아파트설치운영조례시행규칙",
+   "region_name": "전북특별자치도 군산시",
+   "sig_cd": "52130",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010306.json",
+   "bytes": 23496,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005837",
+   "ordinance_id": "ordin:1005837",
+   "name": "철원군재난관리기금 운용 관리조례 시행규칙",
+   "region_name": "강원특별자치도 철원군",
+   "sig_cd": "51780",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C08"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1005837.json",
+   "bytes": 23386,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010871",
+   "ordinance_id": "ordin:1010871",
+   "name": "춘천시 재해우려지구 정비 및 관리조례",
+   "region_name": "강원특별자치도 춘천시",
+   "sig_cd": "51110",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C09"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010871.json",
+   "bytes": 23849,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010649",
+   "ordinance_id": "ordin:1010649",
+   "name": "서울특별시 중구 부패영향평가 규칙",
+   "region_name": "서울특별시 중구",
+   "sig_cd": "11140",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C10"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010649.json",
+   "bytes": 23549,
+   "reused": true
+  },
+  {
+   "key": "ordin-1009782",
+   "ordinance_id": "ordin:1009782",
+   "name": "대구광역시 동구 명예구민증 수여 조례",
+   "region_name": "대구광역시 동구",
+   "sig_cd": "27140",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1009782.json",
+   "bytes": 23349,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011652",
+   "ordinance_id": "ordin:1011652",
+   "name": "안성시 농가 소규모 식품가공사업 육성에 관한 조례",
+   "region_name": "경기도 안성시",
+   "sig_cd": "41550",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1011652.json",
+   "bytes": 22904,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011333",
+   "ordinance_id": "ordin:1011333",
+   "name": "부산광역시 부산진구문화원 지원 조례",
+   "region_name": "부산광역시 부산진구",
+   "sig_cd": "26230",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1011333.json",
+   "bytes": 23838,
+   "reused": true
+  },
+  {
+   "key": "ordin-1200058",
+   "ordinance_id": "ordin:1200058",
+   "name": "나주시 가축분뇨의 관리 및 이용에 관한 조례",
+   "region_name": "전남광주통합특별시 나주시",
+   "sig_cd": "12170",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C14"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1200058.json",
+   "bytes": 23623,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003751",
+   "ordinance_id": "ordin:1003751",
+   "name": "계룡시 면ㆍ동 및 리의 명칭과 구역에 관한 조례",
+   "region_name": "충청남도 계룡시",
+   "sig_cd": "44250",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003751.json",
+   "bytes": 22832,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005715",
+   "ordinance_id": "ordin:1005715",
+   "name": "광양시 담배소매인 지정 사실조사에 대한 조례",
+   "region_name": "전남광주통합특별시 광양시",
+   "sig_cd": "12190",
+   "status": "active",
+   "categories": [
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1005715.json",
+   "bytes": 23558,
+   "reused": true
+  },
+  {
+   "key": "ordin-1009773",
+   "ordinance_id": "ordin:1009773",
+   "name": "부여군 대한노인회 부여군지회 지원에 관한 조례",
+   "region_name": "충청남도 부여군",
+   "sig_cd": "44760",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1009773.json",
+   "bytes": 24972,
+   "reused": true
+  },
+  {
+   "key": "ordin-1029282",
+   "ordinance_id": "ordin:1029282",
+   "name": "경기도 전자파 안심지대 지정·운영 조례",
+   "region_name": "경기도",
+   "sig_cd": "41000",
+   "status": "active",
+   "categories": [
+    "C04",
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1029282.json",
+   "bytes": 23170,
+   "reused": true
+  },
+  {
+   "key": "ordin-1008270",
+   "ordinance_id": "ordin:1008270",
+   "name": "칠곡군 학교급식 지원 조례 시행규칙",
+   "region_name": "경상북도 칠곡군",
+   "sig_cd": "47850",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1008270.json",
+   "bytes": 23139,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011008",
+   "ordinance_id": "ordin:1011008",
+   "name": "대구광역시 수성구 식품안전 기본 조례",
+   "region_name": "대구광역시 수성구",
+   "sig_cd": "27260",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C06"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1011008.json",
+   "bytes": 24554,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010630",
+   "ordinance_id": "ordin:1010630",
+   "name": "홍천군 생활폐기물 수집· 운반 대행업체 평가 조례",
+   "region_name": "강원특별자치도 홍천군",
+   "sig_cd": "51720",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C07"
+   ],
+   "gap_hits": 3,
+   "path": "ordinance/ordin-1010630.json",
+   "bytes": 24075,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007180",
+   "ordinance_id": "ordin:1007180",
+   "name": "부산광역시 서구 지역치안협의회 설치 및 운영 조례",
+   "region_name": "부산광역시 서구",
+   "sig_cd": "26140",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C08"
+   ],
+   "gap_hits": 3,
+   "path": "ordinance/ordin-1007180.json",
+   "bytes": 23907,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011820",
+   "ordinance_id": "ordin:1011820",
+   "name": "해남군 물의 재이용 촉진 및 지원에 관한 조례",
+   "region_name": "전남광주통합특별시 해남군",
+   "sig_cd": "12790",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C09"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1011820.json",
+   "bytes": 23278,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010707",
+   "ordinance_id": "ordin:1010707",
+   "name": "제천시 임산부 전용주차장 설치 및 운영에 관한 조례",
+   "region_name": "충청북도 제천시",
+   "sig_cd": "43150",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C10"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010707.json",
+   "bytes": 23044,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010562",
+   "ordinance_id": "ordin:1010562",
+   "name": "대구광역시달서구 규제 신고고객 보호·서비스 헌장 운영 규칙",
+   "region_name": "대구광역시 달서구",
+   "sig_cd": "27290",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010562.json",
+   "bytes": 24404,
+   "reused": true
+  },
+  {
+   "key": "ordin-1013197",
+   "ordinance_id": "ordin:1013197",
+   "name": "영주시 농축산물 가격안정기금 설치 및 운용 조례 시행규칙",
+   "region_name": "경상북도 영주시",
+   "sig_cd": "47210",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01",
+    "C12"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1013197.json",
+   "bytes": 23586,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011975",
+   "ordinance_id": "ordin:1011975",
+   "name": "하남시 문화예술 육성 및 지원에 관한 조례",
+   "region_name": "경기도 하남시",
+   "sig_cd": "41450",
+   "status": "active",
+   "categories": [
+    "C13",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1011975.json",
+   "bytes": 22988,
+   "reused": true
+  },
+  {
+   "key": "ordin-1200891",
+   "ordinance_id": "ordin:1200891",
+   "name": "안동시 상징물에 관한 조례",
+   "region_name": "경상북도 안동시",
+   "sig_cd": "47170",
+   "status": "active",
+   "categories": [
+    "C14"
+   ],
+   "gap_hits": 2,
+   "path": "ordinance/ordin-1200891.json",
+   "bytes": 23041,
+   "reused": true
+  },
+  {
+   "key": "ordin-1003784",
+   "ordinance_id": "ordin:1003784",
+   "name": "목포시 동의 명칭과 구역에 관한 조례",
+   "region_name": "전남광주통합특별시 목포시",
+   "sig_cd": "12110",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1003784.json",
+   "bytes": 24211,
+   "reused": true
+  },
+  {
+   "key": "ordin-1005752",
+   "ordinance_id": "ordin:1005752",
+   "name": "완도군 자치법규 입법 및 운영에 관한 조례",
+   "region_name": "전남광주통합특별시 완도군",
+   "sig_cd": "12850",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1005752.json",
+   "bytes": 23602,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010363",
+   "ordinance_id": "ordin:1010363",
+   "name": "서울특별시 서초구 학생 치과주치의 및 저소득층 아동 치과치료 지원 조례",
+   "region_name": "서울특별시 서초구",
+   "sig_cd": "11650",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C05"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010363.json",
+   "bytes": 24147,
+   "reused": true
+  },
+  {
+   "key": "ordin-1034133",
+   "ordinance_id": "ordin:1034133",
+   "name": "서산시 임산부 전용주차구역 설치·운영에 관한 조례",
+   "region_name": "충청남도 서산시",
+   "sig_cd": "44210",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C04",
+    "C10"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1034133.json",
+   "bytes": 23361,
+   "reused": true
+  },
+  {
+   "key": "ordin-1010884",
+   "ordinance_id": "ordin:1010884",
+   "name": "임실군 저소득주민 생활안정 지원 조례",
+   "region_name": "전북특별자치도 임실군",
+   "sig_cd": "52750",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C05"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1010884.json",
+   "bytes": 23394,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011868",
+   "ordinance_id": "ordin:1011868",
+   "name": "부산광역시 사하구 응급의료 지원에 관한 조례",
+   "region_name": "부산광역시 사하구",
+   "sig_cd": "26380",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C02"
+   ],
+   "gap_hits": 6,
+   "path": "ordinance/ordin-1011868.json",
+   "bytes": 23607,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011949",
+   "ordinance_id": "ordin:1011949",
+   "name": "포항시 생활폐기물 수집ㆍ운반대행자 평가 조례",
+   "region_name": "경상북도 포항시",
+   "sig_cd": "47110",
+   "status": "active",
+   "categories": [
+    "C07",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1011949.json",
+   "bytes": 23710,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011066",
+   "ordinance_id": "ordin:1011066",
+   "name": "영양군 안전관리자문단 구성 및 운영에 관한 조례",
+   "region_name": "경상북도 영양군",
+   "sig_cd": "47760",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C05"
+   ],
+   "gap_hits": 3,
+   "path": "ordinance/ordin-1011066.json",
+   "bytes": 23468,
+   "reused": true
+  },
+  {
+   "key": "ordin-1012108",
+   "ordinance_id": "ordin:1012108",
+   "name": "옹진군 지진 피해시설물 위험도 평가단 구성 및 운영에 관한 조례",
+   "region_name": "인천광역시 옹진군",
+   "sig_cd": "28720",
+   "status": "active",
+   "categories": [
+    "C08",
+    "C09"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1012108.json",
+   "bytes": 23332,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011215",
+   "ordinance_id": "ordin:1011215",
+   "name": "평택시 수입증지 조례",
+   "region_name": "경기도 평택시",
+   "sig_cd": "41220",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C10"
+   ],
+   "gap_hits": 1,
+   "path": "ordinance/ordin-1011215.json",
+   "bytes": 23953,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011590",
+   "ordinance_id": "ordin:1011590",
+   "name": "함양군 규제신고 기업고객 보호·서비스 헌장 및 운영 조례",
+   "region_name": "경상남도 함양군",
+   "sig_cd": "48870",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1011590.json",
+   "bytes": 23129,
+   "reused": true
+  },
+  {
+   "key": "ordin-1013908",
+   "ordinance_id": "ordin:1013908",
+   "name": "서울특별시 중구 가축사육제한에 관한 조례 시행규칙",
+   "region_name": "서울특별시 중구",
+   "sig_cd": "11140",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C12"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1013908.json",
+   "bytes": 23594,
+   "reused": true
+  },
+  {
+   "key": "ordin-1012550",
+   "ordinance_id": "ordin:1012550",
+   "name": "대구광역시 남구 장애인체육 진흥 조례",
+   "region_name": "대구광역시 남구",
+   "sig_cd": "27200",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C13"
+   ],
+   "gap_hits": 2,
+   "path": "ordinance/ordin-1012550.json",
+   "bytes": 23925,
+   "reused": true
+  },
+  {
+   "key": "ordin-1203074",
+   "ordinance_id": "ordin:1203074",
+   "name": "영천시 유해야생동물에 의한 농작물피해 보상 조례",
+   "region_name": "경상북도 영천시",
+   "sig_cd": "47230",
+   "status": "active",
+   "categories": [
+    "C14",
+    "C12"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1203074.json",
+   "bytes": 25178,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004031",
+   "ordinance_id": "ordin:1004031",
+   "name": "진도군 지방공무원 명예퇴직수당 등 지급에 관한 규칙",
+   "region_name": "전남광주통합특별시 진도군",
+   "sig_cd": "12860",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004031.json",
+   "bytes": 24002,
+   "reused": true
+  },
+  {
+   "key": "ordin-1007958",
+   "ordinance_id": "ordin:1007958",
+   "name": "곡성군 지방별정직공무원 자진퇴직수당 지급에 관한 규칙",
+   "region_name": "전남광주통합특별시 곡성군",
+   "sig_cd": "12720",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1007958.json",
+   "bytes": 23627,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011650",
+   "ordinance_id": "ordin:1011650",
+   "name": "안성시 사회복지협의회 지원 조례",
+   "region_name": "경기도 안성시",
+   "sig_cd": "41550",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C01"
+   ],
+   "gap_hits": 5,
+   "path": "ordinance/ordin-1011650.json",
+   "bytes": 24731,
+   "reused": true
+  },
+  {
+   "key": "ordin-1035069",
+   "ordinance_id": "ordin:1035069",
+   "name": "영동군 농업인 마을공동급식 지원 조례",
+   "region_name": "충청북도 영동군",
+   "sig_cd": "43740",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C04"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1035069.json",
+   "bytes": 24020,
+   "reused": true
+  },
+  {
+   "key": "ordin-1013202",
+   "ordinance_id": "ordin:1013202",
+   "name": "여수시4-H회장학금지급조례",
+   "region_name": "전남광주통합특별시 여수시",
+   "sig_cd": "12130",
+   "status": "active",
+   "categories": [
+    "C05",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1013202.json",
+   "bytes": 23526,
+   "reused": true
+  },
+  {
+   "key": "ordin-1012061",
+   "ordinance_id": "ordin:1012061",
+   "name": "문경시 금연환경조성 및 간접흡연 피해방지 조례 시행규칙",
+   "region_name": "경상북도 문경시",
+   "sig_cd": "47280",
+   "status": "active",
+   "categories": [
+    "C06",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1012061.json",
+   "bytes": 23966,
+   "reused": true
+  },
+  {
+   "key": "ordin-1012346",
+   "ordinance_id": "ordin:1012346",
+   "name": "의령군 규제 신고고객 보호 및 서비스 헌장 운영 규칙",
+   "region_name": "경상남도 의령군",
+   "sig_cd": "48720",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C07"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1012346.json",
+   "bytes": 22910,
+   "reused": true
+  },
+  {
+   "key": "ordin-1013237",
+   "ordinance_id": "ordin:1013237",
+   "name": "안동시 영상정보처리기기 및 통합관제센터 구축ㆍ운영 조례",
+   "region_name": "경상북도 안동시",
+   "sig_cd": "47170",
+   "status": "active",
+   "categories": [
+    "C08"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1013237.json",
+   "bytes": 23033,
+   "reused": true
+  },
+  {
+   "key": "ordin-1012719",
+   "ordinance_id": "ordin:1012719",
+   "name": "청송군기반시설특별회계 설치·운영 조례",
+   "region_name": "경상북도 청송군",
+   "sig_cd": "47750",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C09"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1012719.json",
+   "bytes": 23808,
+   "reused": true
+  },
+  {
+   "key": "ordin-1011569",
+   "ordinance_id": "ordin:1011569",
+   "name": "제천시 오지주민 교통불편보상금 지급에 관한 조례",
+   "region_name": "충청북도 제천시",
+   "sig_cd": "43150",
+   "status": "active",
+   "categories": [
+    "C10",
+    "C02"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1011569.json",
+   "bytes": 24426,
+   "reused": true
+  },
+  {
+   "key": "ordin-1013142",
+   "ordinance_id": "ordin:1013142",
+   "name": "서울특별시 중랑구 주요업무 등의 평가에 관한 규칙",
+   "region_name": "서울특별시 중랑구",
+   "sig_cd": "11260",
+   "status": "active",
+   "categories": [
+    "C11"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1013142.json",
+   "bytes": 24205,
+   "reused": true
+  },
+  {
+   "key": "ordin-1014200",
+   "ordinance_id": "ordin:1014200",
+   "name": "태안군 농업관련단체 지원에 관한 조례",
+   "region_name": "충청남도 태안군",
+   "sig_cd": "44825",
+   "status": "active",
+   "categories": [
+    "C12",
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1014200.json",
+   "bytes": 23120,
+   "reused": true
+  },
+  {
+   "key": "ordin-1014473",
+   "ordinance_id": "ordin:1014473",
+   "name": "영동군 난계 박연의 날 조례",
+   "region_name": "충청북도 영동군",
+   "sig_cd": "43740",
+   "status": "active",
+   "categories": [
+    "C13"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1014473.json",
+   "bytes": 22760,
+   "reused": true
+  },
+  {
+   "key": "ordin-1205777",
+   "ordinance_id": "ordin:1205777",
+   "name": "완주군 곤충산업 육성 및 지원에 관한 조례",
+   "region_name": "전북특별자치도 완주군",
+   "sig_cd": "52710",
+   "status": "active",
+   "categories": [
+    "C11",
+    "C14"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1205777.json",
+   "bytes": 23630,
+   "reused": true
+  },
+  {
+   "key": "ordin-1004978",
+   "ordinance_id": "ordin:1004978",
+   "name": "김천시공무원직장협의회의설립·운영에관한규칙",
+   "region_name": "경상북도 김천시",
+   "sig_cd": "47150",
+   "status": "active",
+   "categories": [
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1004978.json",
+   "bytes": 23043,
+   "reused": true
+  },
+  {
+   "key": "ordin-1008356",
+   "ordinance_id": "ordin:1008356",
+   "name": "대전광역시 유성구 수입증지 조례",
+   "region_name": "대전광역시 유성구",
+   "sig_cd": "30200",
+   "status": "active",
+   "categories": [
+    "C02",
+    "C01"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1008356.json",
+   "bytes": 24282,
+   "reused": true
+  },
+  {
+   "key": "ordin-1012500",
+   "ordinance_id": "ordin:1012500",
+   "name": "서울특별시 동대문구 의정회 설치 및 육성지원 조례",
+   "region_name": "서울특별시 동대문구",
+   "sig_cd": "11230",
+   "status": "active",
+   "categories": [
+    "C01",
+    "C03"
+   ],
+   "gap_hits": 0,
+   "path": "ordinance/ordin-1012500.json",
+   "bytes": 23754,
+   "reused": true
+  },
+  {
+   "key": "ordin-1036668",
+   "ordinance_id": "ordin:1036668",
+   "name": "남원시 노인일자리 창출 지원 조례",
+   "region_name": "전북특별자치도 남원시",
+   "sig_cd": "52190",
+   "status": "active",
+   "categories": [
+    "C03",
+    "C04",
+    "C11"
+   ],
+   "gap_hits": 3,
+   "path": "ordinance/ordin-1036668.json",
+   "bytes": 24177,
+   "reused": true
+  }
+ ],
+ "regions": [
+  {
+   "sig_cd": "11000",
+   "region_id": "11",
+   "name": "서울특별시",
+   "level": 1,
+   "path": "region/11000.json",
+   "bytes": 12954,
+   "reused": true
+  },
+  {
+   "sig_cd": "12000",
+   "region_id": "12",
+   "name": "전남광주통합특별시",
+   "level": 1,
+   "path": "region/12000.json",
+   "bytes": 12704,
+   "reused": true
+  },
+  {
+   "sig_cd": "26000",
+   "region_id": "26",
+   "name": "부산광역시",
+   "level": 1,
+   "path": "region/26000.json",
+   "bytes": 13282,
+   "reused": true
+  },
+  {
+   "sig_cd": "27000",
+   "region_id": "27",
+   "name": "대구광역시",
+   "level": 1,
+   "path": "region/27000.json",
+   "bytes": 12667,
+   "reused": true
+  },
+  {
+   "sig_cd": "28000",
+   "region_id": "28",
+   "name": "인천광역시",
+   "level": 1,
+   "path": "region/28000.json",
+   "bytes": 12966,
+   "reused": true
+  },
+  {
+   "sig_cd": "30000",
+   "region_id": "30",
+   "name": "대전광역시",
+   "level": 1,
+   "path": "region/30000.json",
+   "bytes": 12943,
+   "reused": true
+  },
+  {
+   "sig_cd": "31000",
+   "region_id": "31",
+   "name": "울산광역시",
+   "level": 1,
+   "path": "region/31000.json",
+   "bytes": 12693,
+   "reused": true
+  },
+  {
+   "sig_cd": "36110",
+   "region_id": "36",
+   "name": "세종특별자치시",
+   "level": 1,
+   "path": "region/36110.json",
+   "bytes": 12979,
+   "reused": true
+  },
+  {
+   "sig_cd": "41000",
+   "region_id": "41",
+   "name": "경기도",
+   "level": 1,
+   "path": "region/41000.json",
+   "bytes": 12973,
+   "reused": true
+  },
+  {
+   "sig_cd": "43000",
+   "region_id": "43",
+   "name": "충청북도",
+   "level": 1,
+   "path": "region/43000.json",
+   "bytes": 13002,
+   "reused": true
+  },
+  {
+   "sig_cd": "44000",
+   "region_id": "44",
+   "name": "충청남도",
+   "level": 1,
+   "path": "region/44000.json",
+   "bytes": 12725,
+   "reused": true
+  },
+  {
+   "sig_cd": "47000",
+   "region_id": "47",
+   "name": "경상북도",
+   "level": 1,
+   "path": "region/47000.json",
+   "bytes": 12689,
+   "reused": true
+  },
+  {
+   "sig_cd": "48000",
+   "region_id": "48",
+   "name": "경상남도",
+   "level": 1,
+   "path": "region/48000.json",
+   "bytes": 13013,
+   "reused": true
+  },
+  {
+   "sig_cd": "50000",
+   "region_id": "50",
+   "name": "제주특별자치도",
+   "level": 1,
+   "path": "region/50000.json",
+   "bytes": 12684,
+   "reused": true
+  },
+  {
+   "sig_cd": "51000",
+   "region_id": "51",
+   "name": "강원특별자치도",
+   "level": 1,
+   "path": "region/51000.json",
+   "bytes": 12366,
+   "reused": true
+  },
+  {
+   "sig_cd": "52000",
+   "region_id": "52",
+   "name": "전북특별자치도",
+   "level": 1,
+   "path": "region/52000.json",
+   "bytes": 12648,
+   "reused": true
+  },
+  {
+   "sig_cd": "11110",
+   "region_id": "11110",
+   "name": "서울특별시 종로구",
+   "level": 2,
+   "path": "region/11110.json",
+   "bytes": 11020,
+   "reused": true
+  },
+  {
+   "sig_cd": "11140",
+   "region_id": "11140",
+   "name": "서울특별시 중구",
+   "level": 2,
+   "path": "region/11140.json",
+   "bytes": 11031,
+   "reused": true
+  },
+  {
+   "sig_cd": "11170",
+   "region_id": "11170",
+   "name": "서울특별시 용산구",
+   "level": 2,
+   "path": "region/11170.json",
+   "bytes": 10653,
+   "reused": true
+  },
+  {
+   "sig_cd": "11200",
+   "region_id": "11200",
+   "name": "서울특별시 성동구",
+   "level": 2,
+   "path": "region/11200.json",
+   "bytes": 10310,
+   "reused": true
+  },
+  {
+   "sig_cd": "11215",
+   "region_id": "11215",
+   "name": "서울특별시 광진구",
+   "level": 2,
+   "path": "region/11215.json",
+   "bytes": 9580,
+   "reused": true
+  },
+  {
+   "sig_cd": "11230",
+   "region_id": "11230",
+   "name": "서울특별시 동대문구",
+   "level": 2,
+   "path": "region/11230.json",
+   "bytes": 10699,
+   "reused": true
+  },
+  {
+   "sig_cd": "11260",
+   "region_id": "11260",
+   "name": "서울특별시 중랑구",
+   "level": 2,
+   "path": "region/11260.json",
+   "bytes": 10644,
+   "reused": true
+  },
+  {
+   "sig_cd": "11290",
+   "region_id": "11290",
+   "name": "서울특별시 성북구",
+   "level": 2,
+   "path": "region/11290.json",
+   "bytes": 10696,
+   "reused": true
+  },
+  {
+   "sig_cd": "11305",
+   "region_id": "11305",
+   "name": "서울특별시 강북구",
+   "level": 2,
+   "path": "region/11305.json",
+   "bytes": 11015,
+   "reused": true
+  },
+  {
+   "sig_cd": "11320",
+   "region_id": "11320",
+   "name": "서울특별시 도봉구",
+   "level": 2,
+   "path": "region/11320.json",
+   "bytes": 10283,
+   "reused": true
+  },
+  {
+   "sig_cd": "11350",
+   "region_id": "11350",
+   "name": "서울특별시 노원구",
+   "level": 2,
+   "path": "region/11350.json",
+   "bytes": 10948,
+   "reused": true
+  },
+  {
+   "sig_cd": "11380",
+   "region_id": "11380",
+   "name": "서울특별시 은평구",
+   "level": 2,
+   "path": "region/11380.json",
+   "bytes": 9975,
+   "reused": true
+  },
+  {
+   "sig_cd": "11410",
+   "region_id": "11410",
+   "name": "서울특별시 서대문구",
+   "level": 2,
+   "path": "region/11410.json",
+   "bytes": 10968,
+   "reused": true
+  },
+  {
+   "sig_cd": "11440",
+   "region_id": "11440",
+   "name": "서울특별시 마포구",
+   "level": 2,
+   "path": "region/11440.json",
+   "bytes": 11994,
+   "reused": true
+  },
+  {
+   "sig_cd": "11470",
+   "region_id": "11470",
+   "name": "서울특별시 양천구",
+   "level": 2,
+   "path": "region/11470.json",
+   "bytes": 10626,
+   "reused": true
+  },
+  {
+   "sig_cd": "11500",
+   "region_id": "11500",
+   "name": "서울특별시 강서구",
+   "level": 2,
+   "path": "region/11500.json",
+   "bytes": 10320,
+   "reused": true
+  },
+  {
+   "sig_cd": "11530",
+   "region_id": "11530",
+   "name": "서울특별시 구로구",
+   "level": 2,
+   "path": "region/11530.json",
+   "bytes": 9659,
+   "reused": true
+  },
+  {
+   "sig_cd": "11545",
+   "region_id": "11545",
+   "name": "서울특별시 금천구",
+   "level": 2,
+   "path": "region/11545.json",
+   "bytes": 9627,
+   "reused": true
+  },
+  {
+   "sig_cd": "11560",
+   "region_id": "11560",
+   "name": "서울특별시 영등포구",
+   "level": 2,
+   "path": "region/11560.json",
+   "bytes": 10296,
+   "reused": true
+  },
+  {
+   "sig_cd": "11590",
+   "region_id": "11590",
+   "name": "서울특별시 동작구",
+   "level": 2,
+   "path": "region/11590.json",
+   "bytes": 9638,
+   "reused": true
+  },
+  {
+   "sig_cd": "11620",
+   "region_id": "11620",
+   "name": "서울특별시 관악구",
+   "level": 2,
+   "path": "region/11620.json",
+   "bytes": 9616,
+   "reused": true
+  },
+  {
+   "sig_cd": "11650",
+   "region_id": "11650",
+   "name": "서울특별시 서초구",
+   "level": 2,
+   "path": "region/11650.json",
+   "bytes": 10323,
+   "reused": true
+  },
+  {
+   "sig_cd": "11680",
+   "region_id": "11680",
+   "name": "서울특별시 강남구",
+   "level": 2,
+   "path": "region/11680.json",
+   "bytes": 10360,
+   "reused": true
+  },
+  {
+   "sig_cd": "11710",
+   "region_id": "11710",
+   "name": "서울특별시 송파구",
+   "level": 2,
+   "path": "region/11710.json",
+   "bytes": 10644,
+   "reused": true
+  },
+  {
+   "sig_cd": "11740",
+   "region_id": "11740",
+   "name": "서울특별시 강동구",
+   "level": 2,
+   "path": "region/11740.json",
+   "bytes": 9991,
+   "reused": true
+  },
+  {
+   "sig_cd": "12110",
+   "region_id": "12110",
+   "name": "전남광주통합특별시 목포시",
+   "level": 2,
+   "path": "region/12110.json",
+   "bytes": 10666,
+   "reused": true
+  },
+  {
+   "sig_cd": "12130",
+   "region_id": "12130",
+   "name": "전남광주통합특별시 여수시",
+   "level": 2,
+   "path": "region/12130.json",
+   "bytes": 9708,
+   "reused": true
+  },
+  {
+   "sig_cd": "12150",
+   "region_id": "12150",
+   "name": "전남광주통합특별시 순천시",
+   "level": 2,
+   "path": "region/12150.json",
+   "bytes": 10309,
+   "reused": true
+  },
+  {
+   "sig_cd": "12170",
+   "region_id": "12170",
+   "name": "전남광주통합특별시 나주시",
+   "level": 2,
+   "path": "region/12170.json",
+   "bytes": 9709,
+   "reused": true
+  },
+  {
+   "sig_cd": "12190",
+   "region_id": "12190",
+   "name": "전남광주통합특별시 광양시",
+   "level": 2,
+   "path": "region/12190.json",
+   "bytes": 9347,
+   "reused": true
+  },
+  {
+   "sig_cd": "12210",
+   "region_id": "12210",
+   "name": "전남광주통합특별시 동구",
+   "level": 2,
+   "path": "region/12210.json",
+   "bytes": 10710,
+   "reused": true
+  },
+  {
+   "sig_cd": "12240",
+   "region_id": "12240",
+   "name": "전남광주통합특별시 서구",
+   "level": 2,
+   "path": "region/12240.json",
+   "bytes": 9363,
+   "reused": true
+  },
+  {
+   "sig_cd": "12270",
+   "region_id": "12270",
+   "name": "전남광주통합특별시 남구",
+   "level": 2,
+   "path": "region/12270.json",
+   "bytes": 10406,
+   "reused": true
+  },
+  {
+   "sig_cd": "12300",
+   "region_id": "12300",
+   "name": "전남광주통합특별시 북구",
+   "level": 2,
+   "path": "region/12300.json",
+   "bytes": 9315,
+   "reused": true
+  },
+  {
+   "sig_cd": "12330",
+   "region_id": "12330",
+   "name": "전남광주통합특별시 광산구",
+   "level": 2,
+   "path": "region/12330.json",
+   "bytes": 9734,
+   "reused": true
+  },
+  {
+   "sig_cd": "12710",
+   "region_id": "12710",
+   "name": "전남광주통합특별시 담양군",
+   "level": 2,
+   "path": "region/12710.json",
+   "bytes": 10789,
+   "reused": true
+  },
+  {
+   "sig_cd": "12720",
+   "region_id": "12720",
+   "name": "전남광주통합특별시 곡성군",
+   "level": 2,
+   "path": "region/12720.json",
+   "bytes": 9410,
+   "reused": true
+  },
+  {
+   "sig_cd": "12730",
+   "region_id": "12730",
+   "name": "전남광주통합특별시 구례군",
+   "level": 2,
+   "path": "region/12730.json",
+   "bytes": 9395,
+   "reused": true
+  },
+  {
+   "sig_cd": "12740",
+   "region_id": "12740",
+   "name": "전남광주통합특별시 고흥군",
+   "level": 2,
+   "path": "region/12740.json",
+   "bytes": 10395,
+   "reused": true
+  },
+  {
+   "sig_cd": "12750",
+   "region_id": "12750",
+   "name": "전남광주통합특별시 보성군",
+   "level": 2,
+   "path": "region/12750.json",
+   "bytes": 9374,
+   "reused": true
+  },
+  {
+   "sig_cd": "12760",
+   "region_id": "12760",
+   "name": "전남광주통합특별시 화순군",
+   "level": 2,
+   "path": "region/12760.json",
+   "bytes": 10495,
+   "reused": true
+  },
+  {
+   "sig_cd": "12770",
+   "region_id": "12770",
+   "name": "전남광주통합특별시 장흥군",
+   "level": 2,
+   "path": "region/12770.json",
+   "bytes": 9770,
+   "reused": true
+  },
+  {
+   "sig_cd": "12780",
+   "region_id": "12780",
+   "name": "전남광주통합특별시 강진군",
+   "level": 2,
+   "path": "region/12780.json",
+   "bytes": 9744,
+   "reused": true
+  },
+  {
+   "sig_cd": "12790",
+   "region_id": "12790",
+   "name": "전남광주통합특별시 해남군",
+   "level": 2,
+   "path": "region/12790.json",
+   "bytes": 9719,
+   "reused": true
+  },
+  {
+   "sig_cd": "12800",
+   "region_id": "12800",
+   "name": "전남광주통합특별시 영암군",
+   "level": 2,
+   "path": "region/12800.json",
+   "bytes": 10449,
+   "reused": true
+  },
+  {
+   "sig_cd": "12810",
+   "region_id": "12810",
+   "name": "전남광주통합특별시 무안군",
+   "level": 2,
+   "path": "region/12810.json",
+   "bytes": 10782,
+   "reused": true
+  },
+  {
+   "sig_cd": "12820",
+   "region_id": "12820",
+   "name": "전남광주통합특별시 함평군",
+   "level": 2,
+   "path": "region/12820.json",
+   "bytes": 9717,
+   "reused": true
+  },
+  {
+   "sig_cd": "12830",
+   "region_id": "12830",
+   "name": "전남광주통합특별시 영광군",
+   "level": 2,
+   "path": "region/12830.json",
+   "bytes": 10027,
+   "reused": true
+  },
+  {
+   "sig_cd": "12840",
+   "region_id": "12840",
+   "name": "전남광주통합특별시 장성군",
+   "level": 2,
+   "path": "region/12840.json",
+   "bytes": 10122,
+   "reused": true
+  },
+  {
+   "sig_cd": "12850",
+   "region_id": "12850",
+   "name": "전남광주통합특별시 완도군",
+   "level": 2,
+   "path": "region/12850.json",
+   "bytes": 10385,
+   "reused": true
+  },
+  {
+   "sig_cd": "12860",
+   "region_id": "12860",
+   "name": "전남광주통합특별시 진도군",
+   "level": 2,
+   "path": "region/12860.json",
+   "bytes": 9996,
+   "reused": true
+  },
+  {
+   "sig_cd": "12870",
+   "region_id": "12870",
+   "name": "전남광주통합특별시 신안군",
+   "level": 2,
+   "path": "region/12870.json",
+   "bytes": 10082,
+   "reused": true
+  },
+  {
+   "sig_cd": "26110",
+   "region_id": "26110",
+   "name": "부산광역시 중구",
+   "level": 2,
+   "path": "region/26110.json",
+   "bytes": 9633,
+   "reused": true
+  },
+  {
+   "sig_cd": "26140",
+   "region_id": "26140",
+   "name": "부산광역시 서구",
+   "level": 2,
+   "path": "region/26140.json",
+   "bytes": 9645,
+   "reused": true
+  },
+  {
+   "sig_cd": "26170",
+   "region_id": "26170",
+   "name": "부산광역시 동구",
+   "level": 2,
+   "path": "region/26170.json",
+   "bytes": 10304,
+   "reused": true
+  },
+  {
+   "sig_cd": "26200",
+   "region_id": "26200",
+   "name": "부산광역시 영도구",
+   "level": 2,
+   "path": "region/26200.json",
+   "bytes": 9994,
+   "reused": true
+  },
+  {
+   "sig_cd": "26230",
+   "region_id": "26230",
+   "name": "부산광역시 부산진구",
+   "level": 2,
+   "path": "region/26230.json",
+   "bytes": 10303,
+   "reused": true
+  },
+  {
+   "sig_cd": "26260",
+   "region_id": "26260",
+   "name": "부산광역시 동래구",
+   "level": 2,
+   "path": "region/26260.json",
+   "bytes": 9617,
+   "reused": true
+  },
+  {
+   "sig_cd": "26290",
+   "region_id": "26290",
+   "name": "부산광역시 남구",
+   "level": 2,
+   "path": "region/26290.json",
+   "bytes": 9287,
+   "reused": true
+  },
+  {
+   "sig_cd": "26320",
+   "region_id": "26320",
+   "name": "부산광역시 북구",
+   "level": 2,
+   "path": "region/26320.json",
+   "bytes": 9257,
+   "reused": true
+  },
+  {
+   "sig_cd": "26350",
+   "region_id": "26350",
+   "name": "부산광역시 해운대구",
+   "level": 2,
+   "path": "region/26350.json",
+   "bytes": 9654,
+   "reused": true
+  },
+  {
+   "sig_cd": "26380",
+   "region_id": "26380",
+   "name": "부산광역시 사하구",
+   "level": 2,
+   "path": "region/26380.json",
+   "bytes": 9626,
+   "reused": true
+  },
+  {
+   "sig_cd": "26410",
+   "region_id": "26410",
+   "name": "부산광역시 금정구",
+   "level": 2,
+   "path": "region/26410.json",
+   "bytes": 10296,
+   "reused": true
+  },
+  {
+   "sig_cd": "26440",
+   "region_id": "26440",
+   "name": "부산광역시 강서구",
+   "level": 2,
+   "path": "region/26440.json",
+   "bytes": 9636,
+   "reused": true
+  },
+  {
+   "sig_cd": "26470",
+   "region_id": "26470",
+   "name": "부산광역시 연제구",
+   "level": 2,
+   "path": "region/26470.json",
+   "bytes": 9930,
+   "reused": true
+  },
+  {
+   "sig_cd": "26500",
+   "region_id": "26500",
+   "name": "부산광역시 수영구",
+   "level": 2,
+   "path": "region/26500.json",
+   "bytes": 9293,
+   "reused": true
+  },
+  {
+   "sig_cd": "26530",
+   "region_id": "26530",
+   "name": "부산광역시 사상구",
+   "level": 2,
+   "path": "region/26530.json",
+   "bytes": 9641,
+   "reused": true
+  },
+  {
+   "sig_cd": "26710",
+   "region_id": "26710",
+   "name": "부산광역시 기장군",
+   "level": 2,
+   "path": "region/26710.json",
+   "bytes": 9935,
+   "reused": true
+  },
+  {
+   "sig_cd": "27110",
+   "region_id": "27110",
+   "name": "대구광역시 중구",
+   "level": 2,
+   "path": "region/27110.json",
+   "bytes": 10235,
+   "reused": true
+  },
+  {
+   "sig_cd": "27140",
+   "region_id": "27140",
+   "name": "대구광역시 동구",
+   "level": 2,
+   "path": "region/27140.json",
+   "bytes": 9247,
+   "reused": true
+  },
+  {
+   "sig_cd": "27170",
+   "region_id": "27170",
+   "name": "대구광역시 서구",
+   "level": 2,
+   "path": "region/27170.json",
+   "bytes": 9974,
+   "reused": true
+  },
+  {
+   "sig_cd": "27200",
+   "region_id": "27200",
+   "name": "대구광역시 남구",
+   "level": 2,
+   "path": "region/27200.json",
+   "bytes": 10947,
+   "reused": true
+  },
+  {
+   "sig_cd": "27230",
+   "region_id": "27230",
+   "name": "대구광역시 북구",
+   "level": 2,
+   "path": "region/27230.json",
+   "bytes": 9924,
+   "reused": true
+  },
+  {
+   "sig_cd": "27260",
+   "region_id": "27260",
+   "name": "대구광역시 수성구",
+   "level": 2,
+   "path": "region/27260.json",
+   "bytes": 9901,
+   "reused": true
+  },
+  {
+   "sig_cd": "27290",
+   "region_id": "27290",
+   "name": "대구광역시 달서구",
+   "level": 2,
+   "path": "region/27290.json",
+   "bytes": 9965,
+   "reused": true
+  },
+  {
+   "sig_cd": "27710",
+   "region_id": "27710",
+   "name": "대구광역시 달성군",
+   "level": 2,
+   "path": "region/27710.json",
+   "bytes": 10255,
+   "reused": true
+  },
+  {
+   "sig_cd": "27720",
+   "region_id": "27720",
+   "name": "대구광역시 군위군",
+   "level": 2,
+   "path": "region/27720.json",
+   "bytes": 9962,
+   "reused": true
+  },
+  {
+   "sig_cd": "28125",
+   "region_id": "28125",
+   "name": "인천광역시 제물포구",
+   "level": 2,
+   "path": "region/28125.json",
+   "bytes": 9643,
+   "reused": true
+  },
+  {
+   "sig_cd": "28155",
+   "region_id": "28155",
+   "name": "인천광역시 영종구",
+   "level": 2,
+   "path": "region/28155.json",
+   "bytes": 10329,
+   "reused": true
+  },
+  {
+   "sig_cd": "28177",
+   "region_id": "28177",
+   "name": "인천광역시 미추홀구",
+   "level": 2,
+   "path": "region/28177.json",
+   "bytes": 9954,
+   "reused": true
+  },
+  {
+   "sig_cd": "28185",
+   "region_id": "28185",
+   "name": "인천광역시 연수구",
+   "level": 2,
+   "path": "region/28185.json",
+   "bytes": 10562,
+   "reused": true
+  },
+  {
+   "sig_cd": "28200",
+   "region_id": "28200",
+   "name": "인천광역시 남동구",
+   "level": 2,
+   "path": "region/28200.json",
+   "bytes": 9646,
+   "reused": true
+  },
+  {
+   "sig_cd": "28237",
+   "region_id": "28237",
+   "name": "인천광역시 부평구",
+   "level": 2,
+   "path": "region/28237.json",
+   "bytes": 9996,
+   "reused": true
+  },
+  {
+   "sig_cd": "28245",
+   "region_id": "28245",
+   "name": "인천광역시 계양구",
+   "level": 2,
+   "path": "region/28245.json",
+   "bytes": 9940,
+   "reused": true
+  },
+  {
+   "sig_cd": "28275",
+   "region_id": "28275",
+   "name": "인천광역시 서해구",
+   "level": 2,
+   "path": "region/28275.json",
+   "bytes": 9937,
+   "reused": true
+  },
+  {
+   "sig_cd": "28290",
+   "region_id": "28290",
+   "name": "인천광역시 검단구",
+   "level": 2,
+   "path": "region/28290.json",
+   "bytes": 9971,
+   "reused": true
+  },
+  {
+   "sig_cd": "28710",
+   "region_id": "28710",
+   "name": "인천광역시 강화군",
+   "level": 2,
+   "path": "region/28710.json",
+   "bytes": 9661,
+   "reused": true
+  },
+  {
+   "sig_cd": "28720",
+   "region_id": "28720",
+   "name": "인천광역시 옹진군",
+   "level": 2,
+   "path": "region/28720.json",
+   "bytes": 9702,
+   "reused": true
+  },
+  {
+   "sig_cd": "30110",
+   "region_id": "30110",
+   "name": "대전광역시 동구",
+   "level": 2,
+   "path": "region/30110.json",
+   "bytes": 9917,
+   "reused": true
+  },
+  {
+   "sig_cd": "30140",
+   "region_id": "30140",
+   "name": "대전광역시 중구",
+   "level": 2,
+   "path": "region/30140.json",
+   "bytes": 9250,
+   "reused": true
+  },
+  {
+   "sig_cd": "30170",
+   "region_id": "30170",
+   "name": "대전광역시 서구",
+   "level": 2,
+   "path": "region/30170.json",
+   "bytes": 9620,
+   "reused": true
+  },
+  {
+   "sig_cd": "30200",
+   "region_id": "30200",
+   "name": "대전광역시 유성구",
+   "level": 2,
+   "path": "region/30200.json",
+   "bytes": 10229,
+   "reused": true
+  },
+  {
+   "sig_cd": "30230",
+   "region_id": "30230",
+   "name": "대전광역시 대덕구",
+   "level": 2,
+   "path": "region/30230.json",
+   "bytes": 9632,
+   "reused": true
+  },
+  {
+   "sig_cd": "31110",
+   "region_id": "31110",
+   "name": "울산광역시 중구",
+   "level": 2,
+   "path": "region/31110.json",
+   "bytes": 9906,
+   "reused": true
+  },
+  {
+   "sig_cd": "31140",
+   "region_id": "31140",
+   "name": "울산광역시 남구",
+   "level": 2,
+   "path": "region/31140.json",
+   "bytes": 10580,
+   "reused": true
+  },
+  {
+   "sig_cd": "31170",
+   "region_id": "31170",
+   "name": "울산광역시 동구",
+   "level": 2,
+   "path": "region/31170.json",
+   "bytes": 10301,
+   "reused": true
+  },
+  {
+   "sig_cd": "31200",
+   "region_id": "31200",
+   "name": "울산광역시 북구",
+   "level": 2,
+   "path": "region/31200.json",
+   "bytes": 9973,
+   "reused": true
+  },
+  {
+   "sig_cd": "31710",
+   "region_id": "31710",
+   "name": "울산광역시 울주군",
+   "level": 2,
+   "path": "region/31710.json",
+   "bytes": 10587,
+   "reused": true
+  },
+  {
+   "sig_cd": "41110",
+   "region_id": "41110",
+   "name": "경기도 수원시",
+   "level": 2,
+   "path": "region/41110.json",
+   "bytes": 9629,
+   "reused": true
+  },
+  {
+   "sig_cd": "41130",
+   "region_id": "41130",
+   "name": "경기도 성남시",
+   "level": 2,
+   "path": "region/41130.json",
+   "bytes": 9899,
+   "reused": true
+  },
+  {
+   "sig_cd": "41150",
+   "region_id": "41150",
+   "name": "경기도 의정부시",
+   "level": 2,
+   "path": "region/41150.json",
+   "bytes": 9949,
+   "reused": true
+  },
+  {
+   "sig_cd": "41170",
+   "region_id": "41170",
+   "name": "경기도 안양시",
+   "level": 2,
+   "path": "region/41170.json",
+   "bytes": 10245,
+   "reused": true
+  },
+  {
+   "sig_cd": "41190",
+   "region_id": "41190",
+   "name": "경기도 부천시",
+   "level": 2,
+   "path": "region/41190.json",
+   "bytes": 9245,
+   "reused": true
+  },
+  {
+   "sig_cd": "41210",
+   "region_id": "41210",
+   "name": "경기도 광명시",
+   "level": 2,
+   "path": "region/41210.json",
+   "bytes": 9919,
+   "reused": true
+  },
+  {
+   "sig_cd": "41220",
+   "region_id": "41220",
+   "name": "경기도 평택시",
+   "level": 2,
+   "path": "region/41220.json",
+   "bytes": 9963,
+   "reused": true
+  },
+  {
+   "sig_cd": "41250",
+   "region_id": "41250",
+   "name": "경기도 동두천시",
+   "level": 2,
+   "path": "region/41250.json",
+   "bytes": 10247,
+   "reused": true
+  },
+  {
+   "sig_cd": "41270",
+   "region_id": "41270",
+   "name": "경기도 안산시",
+   "level": 2,
+   "path": "region/41270.json",
+   "bytes": 9291,
+   "reused": true
+  },
+  {
+   "sig_cd": "41280",
+   "region_id": "41280",
+   "name": "경기도 고양시",
+   "level": 2,
+   "path": "region/41280.json",
+   "bytes": 10260,
+   "reused": true
+  },
+  {
+   "sig_cd": "41290",
+   "region_id": "41290",
+   "name": "경기도 과천시",
+   "level": 2,
+   "path": "region/41290.json",
+   "bytes": 9921,
+   "reused": true
+  },
+  {
+   "sig_cd": "41310",
+   "region_id": "41310",
+   "name": "경기도 구리시",
+   "level": 2,
+   "path": "region/41310.json",
+   "bytes": 9632,
+   "reused": true
+  },
+  {
+   "sig_cd": "41360",
+   "region_id": "41360",
+   "name": "경기도 남양주시",
+   "level": 2,
+   "path": "region/41360.json",
+   "bytes": 9243,
+   "reused": true
+  },
+  {
+   "sig_cd": "41370",
+   "region_id": "41370",
+   "name": "경기도 오산시",
+   "level": 2,
+   "path": "region/41370.json",
+   "bytes": 9573,
+   "reused": true
+  },
+  {
+   "sig_cd": "41390",
+   "region_id": "41390",
+   "name": "경기도 시흥시",
+   "level": 2,
+   "path": "region/41390.json",
+   "bytes": 9897,
+   "reused": true
+  },
+  {
+   "sig_cd": "41410",
+   "region_id": "41410",
+   "name": "경기도 군포시",
+   "level": 2,
+   "path": "region/41410.json",
+   "bytes": 9612,
+   "reused": true
+  },
+  {
+   "sig_cd": "41430",
+   "region_id": "41430",
+   "name": "경기도 의왕시",
+   "level": 2,
+   "path": "region/41430.json",
+   "bytes": 9614,
+   "reused": true
+  },
+  {
+   "sig_cd": "41450",
+   "region_id": "41450",
+   "name": "경기도 하남시",
+   "level": 2,
+   "path": "region/41450.json",
+   "bytes": 9573,
+   "reused": true
+  },
+  {
+   "sig_cd": "41460",
+   "region_id": "41460",
+   "name": "경기도 용인시",
+   "level": 2,
+   "path": "region/41460.json",
+   "bytes": 10219,
+   "reused": true
+  },
+  {
+   "sig_cd": "41480",
+   "region_id": "41480",
+   "name": "경기도 파주시",
+   "level": 2,
+   "path": "region/41480.json",
+   "bytes": 10271,
+   "reused": true
+  },
+  {
+   "sig_cd": "41500",
+   "region_id": "41500",
+   "name": "경기도 이천시",
+   "level": 2,
+   "path": "region/41500.json",
+   "bytes": 9937,
+   "reused": true
+  },
+  {
+   "sig_cd": "41550",
+   "region_id": "41550",
+   "name": "경기도 안성시",
+   "level": 2,
+   "path": "region/41550.json",
+   "bytes": 9273,
+   "reused": true
+  },
+  {
+   "sig_cd": "41570",
+   "region_id": "41570",
+   "name": "경기도 김포시",
+   "level": 2,
+   "path": "region/41570.json",
+   "bytes": 10271,
+   "reused": true
+  },
+  {
+   "sig_cd": "41590",
+   "region_id": "41590",
+   "name": "경기도 화성시",
+   "level": 2,
+   "path": "region/41590.json",
+   "bytes": 9251,
+   "reused": true
+  },
+  {
+   "sig_cd": "41610",
+   "region_id": "41610",
+   "name": "경기도 광주시",
+   "level": 2,
+   "path": "region/41610.json",
+   "bytes": 9612,
+   "reused": true
+  },
+  {
+   "sig_cd": "41630",
+   "region_id": "41630",
+   "name": "경기도 양주시",
+   "level": 2,
+   "path": "region/41630.json",
+   "bytes": 9894,
+   "reused": true
+  },
+  {
+   "sig_cd": "41650",
+   "region_id": "41650",
+   "name": "경기도 포천시",
+   "level": 2,
+   "path": "region/41650.json",
+   "bytes": 9887,
+   "reused": true
+  },
+  {
+   "sig_cd": "41670",
+   "region_id": "41670",
+   "name": "경기도 여주시",
+   "level": 2,
+   "path": "region/41670.json",
+   "bytes": 10283,
+   "reused": true
+  },
+  {
+   "sig_cd": "41800",
+   "region_id": "41800",
+   "name": "경기도 연천군",
+   "level": 2,
+   "path": "region/41800.json",
+   "bytes": 9614,
+   "reused": true
+  },
+  {
+   "sig_cd": "41820",
+   "region_id": "41820",
+   "name": "경기도 가평군",
+   "level": 2,
+   "path": "region/41820.json",
+   "bytes": 9691,
+   "reused": true
+  },
+  {
+   "sig_cd": "41830",
+   "region_id": "41830",
+   "name": "경기도 양평군",
+   "level": 2,
+   "path": "region/41830.json",
+   "bytes": 9295,
+   "reused": true
+  },
+  {
+   "sig_cd": "43110",
+   "region_id": "43110",
+   "name": "충청북도 청주시",
+   "level": 2,
+   "path": "region/43110.json",
+   "bytes": 9598,
+   "reused": true
+  },
+  {
+   "sig_cd": "43130",
+   "region_id": "43130",
+   "name": "충청북도 충주시",
+   "level": 2,
+   "path": "region/43130.json",
+   "bytes": 10291,
+   "reused": true
+  },
+  {
+   "sig_cd": "43150",
+   "region_id": "43150",
+   "name": "충청북도 제천시",
+   "level": 2,
+   "path": "region/43150.json",
+   "bytes": 10281,
+   "reused": true
+  },
+  {
+   "sig_cd": "43720",
+   "region_id": "43720",
+   "name": "충청북도 보은군",
+   "level": 2,
+   "path": "region/43720.json",
+   "bytes": 9660,
+   "reused": true
+  },
+  {
+   "sig_cd": "43730",
+   "region_id": "43730",
+   "name": "충청북도 옥천군",
+   "level": 2,
+   "path": "region/43730.json",
+   "bytes": 9972,
+   "reused": true
+  },
+  {
+   "sig_cd": "43740",
+   "region_id": "43740",
+   "name": "충청북도 영동군",
+   "level": 2,
+   "path": "region/43740.json",
+   "bytes": 9669,
+   "reused": true
+  },
+  {
+   "sig_cd": "43745",
+   "region_id": "43745",
+   "name": "충청북도 증평군",
+   "level": 2,
+   "path": "region/43745.json",
+   "bytes": 9653,
+   "reused": true
+  },
+  {
+   "sig_cd": "43750",
+   "region_id": "43750",
+   "name": "충청북도 진천군",
+   "level": 2,
+   "path": "region/43750.json",
+   "bytes": 9283,
+   "reused": true
+  },
+  {
+   "sig_cd": "43760",
+   "region_id": "43760",
+   "name": "충청북도 괴산군",
+   "level": 2,
+   "path": "region/43760.json",
+   "bytes": 9921,
+   "reused": true
+  },
+  {
+   "sig_cd": "43770",
+   "region_id": "43770",
+   "name": "충청북도 음성군",
+   "level": 2,
+   "path": "region/43770.json",
+   "bytes": 9685,
+   "reused": true
+  },
+  {
+   "sig_cd": "43800",
+   "region_id": "43800",
+   "name": "충청북도 단양군",
+   "level": 2,
+   "path": "region/43800.json",
+   "bytes": 9663,
+   "reused": true
+  },
+  {
+   "sig_cd": "44130",
+   "region_id": "44130",
+   "name": "충청남도 천안시",
+   "level": 2,
+   "path": "region/44130.json",
+   "bytes": 9253,
+   "reused": true
+  },
+  {
+   "sig_cd": "44150",
+   "region_id": "44150",
+   "name": "충청남도 공주시",
+   "level": 2,
+   "path": "region/44150.json",
+   "bytes": 9950,
+   "reused": true
+  },
+  {
+   "sig_cd": "44180",
+   "region_id": "44180",
+   "name": "충청남도 보령시",
+   "level": 2,
+   "path": "region/44180.json",
+   "bytes": 9271,
+   "reused": true
+  },
+  {
+   "sig_cd": "44200",
+   "region_id": "44200",
+   "name": "충청남도 아산시",
+   "level": 2,
+   "path": "region/44200.json",
+   "bytes": 9946,
+   "reused": true
+  },
+  {
+   "sig_cd": "44210",
+   "region_id": "44210",
+   "name": "충청남도 서산시",
+   "level": 2,
+   "path": "region/44210.json",
+   "bytes": 9954,
+   "reused": true
+  },
+  {
+   "sig_cd": "44230",
+   "region_id": "44230",
+   "name": "충청남도 논산시",
+   "level": 2,
+   "path": "region/44230.json",
+   "bytes": 9624,
+   "reused": true
+  },
+  {
+   "sig_cd": "44250",
+   "region_id": "44250",
+   "name": "충청남도 계룡시",
+   "level": 2,
+   "path": "region/44250.json",
+   "bytes": 9337,
+   "reused": true
+  },
+  {
+   "sig_cd": "44270",
+   "region_id": "44270",
+   "name": "충청남도 당진시",
+   "level": 2,
+   "path": "region/44270.json",
+   "bytes": 9913,
+   "reused": true
+  },
+  {
+   "sig_cd": "44710",
+   "region_id": "44710",
+   "name": "충청남도 금산군",
+   "level": 2,
+   "path": "region/44710.json",
+   "bytes": 10732,
+   "reused": true
+  },
+  {
+   "sig_cd": "44760",
+   "region_id": "44760",
+   "name": "충청남도 부여군",
+   "level": 2,
+   "path": "region/44760.json",
+   "bytes": 9677,
+   "reused": true
+  },
+  {
+   "sig_cd": "44770",
+   "region_id": "44770",
+   "name": "충청남도 서천군",
+   "level": 2,
+   "path": "region/44770.json",
+   "bytes": 10982,
+   "reused": true
+  },
+  {
+   "sig_cd": "44790",
+   "region_id": "44790",
+   "name": "충청남도 청양군",
+   "level": 2,
+   "path": "region/44790.json",
+   "bytes": 9717,
+   "reused": true
+  },
+  {
+   "sig_cd": "44800",
+   "region_id": "44800",
+   "name": "충청남도 홍성군",
+   "level": 2,
+   "path": "region/44800.json",
+   "bytes": 9970,
+   "reused": true
+  },
+  {
+   "sig_cd": "44810",
+   "region_id": "44810",
+   "name": "충청남도 예산군",
+   "level": 2,
+   "path": "region/44810.json",
+   "bytes": 9297,
+   "reused": true
+  },
+  {
+   "sig_cd": "44825",
+   "region_id": "44825",
+   "name": "충청남도 태안군",
+   "level": 2,
+   "path": "region/44825.json",
+   "bytes": 10063,
+   "reused": true
+  },
+  {
+   "sig_cd": "47110",
+   "region_id": "47110",
+   "name": "경상북도 포항시",
+   "level": 2,
+   "path": "region/47110.json",
+   "bytes": 9271,
+   "reused": true
+  },
+  {
+   "sig_cd": "47130",
+   "region_id": "47130",
+   "name": "경상북도 경주시",
+   "level": 2,
+   "path": "region/47130.json",
+   "bytes": 9969,
+   "reused": true
+  },
+  {
+   "sig_cd": "47150",
+   "region_id": "47150",
+   "name": "경상북도 김천시",
+   "level": 2,
+   "path": "region/47150.json",
+   "bytes": 9649,
+   "reused": true
+  },
+  {
+   "sig_cd": "47170",
+   "region_id": "47170",
+   "name": "경상북도 안동시",
+   "level": 2,
+   "path": "region/47170.json",
+   "bytes": 9281,
+   "reused": true
+  },
+  {
+   "sig_cd": "47190",
+   "region_id": "47190",
+   "name": "경상북도 구미시",
+   "level": 2,
+   "path": "region/47190.json",
+   "bytes": 9303,
+   "reused": true
+  },
+  {
+   "sig_cd": "47210",
+   "region_id": "47210",
+   "name": "경상북도 영주시",
+   "level": 2,
+   "path": "region/47210.json",
+   "bytes": 9625,
+   "reused": true
+  },
+  {
+   "sig_cd": "47230",
+   "region_id": "47230",
+   "name": "경상북도 영천시",
+   "level": 2,
+   "path": "region/47230.json",
+   "bytes": 9933,
+   "reused": true
+  },
+  {
+   "sig_cd": "47250",
+   "region_id": "47250",
+   "name": "경상북도 상주시",
+   "level": 2,
+   "path": "region/47250.json",
+   "bytes": 9570,
+   "reused": true
+  },
+  {
+   "sig_cd": "47280",
+   "region_id": "47280",
+   "name": "경상북도 문경시",
+   "level": 2,
+   "path": "region/47280.json",
+   "bytes": 10351,
+   "reused": true
+  },
+  {
+   "sig_cd": "47290",
+   "region_id": "47290",
+   "name": "경상북도 경산시",
+   "level": 2,
+   "path": "region/47290.json",
+   "bytes": 9951,
+   "reused": true
+  },
+  {
+   "sig_cd": "47730",
+   "region_id": "47730",
+   "name": "경상북도 의성군",
+   "level": 2,
+   "path": "region/47730.json",
+   "bytes": 9632,
+   "reused": true
+  },
+  {
+   "sig_cd": "47750",
+   "region_id": "47750",
+   "name": "경상북도 청송군",
+   "level": 2,
+   "path": "region/47750.json",
+   "bytes": 10954,
+   "reused": true
+  },
+  {
+   "sig_cd": "47760",
+   "region_id": "47760",
+   "name": "경상북도 영양군",
+   "level": 2,
+   "path": "region/47760.json",
+   "bytes": 10042,
+   "reused": true
+  },
+  {
+   "sig_cd": "47770",
+   "region_id": "47770",
+   "name": "경상북도 영덕군",
+   "level": 2,
+   "path": "region/47770.json",
+   "bytes": 9307,
+   "reused": true
+  },
+  {
+   "sig_cd": "47820",
+   "region_id": "47820",
+   "name": "경상북도 청도군",
+   "level": 2,
+   "path": "region/47820.json",
+   "bytes": 9659,
+   "reused": true
+  },
+  {
+   "sig_cd": "47830",
+   "region_id": "47830",
+   "name": "경상북도 고령군",
+   "level": 2,
+   "path": "region/47830.json",
+   "bytes": 9682,
+   "reused": true
+  },
+  {
+   "sig_cd": "47840",
+   "region_id": "47840",
+   "name": "경상북도 성주군",
+   "level": 2,
+   "path": "region/47840.json",
+   "bytes": 10325,
+   "reused": true
+  },
+  {
+   "sig_cd": "47850",
+   "region_id": "47850",
+   "name": "경상북도 칠곡군",
+   "level": 2,
+   "path": "region/47850.json",
+   "bytes": 9331,
+   "reused": true
+  },
+  {
+   "sig_cd": "47900",
+   "region_id": "47900",
+   "name": "경상북도 예천군",
+   "level": 2,
+   "path": "region/47900.json",
+   "bytes": 10006,
+   "reused": true
+  },
+  {
+   "sig_cd": "47920",
+   "region_id": "47920",
+   "name": "경상북도 봉화군",
+   "level": 2,
+   "path": "region/47920.json",
+   "bytes": 9688,
+   "reused": true
+  },
+  {
+   "sig_cd": "47930",
+   "region_id": "47930",
+   "name": "경상북도 울진군",
+   "level": 2,
+   "path": "region/47930.json",
+   "bytes": 9289,
+   "reused": true
+  },
+  {
+   "sig_cd": "47940",
+   "region_id": "47940",
+   "name": "경상북도 울릉군",
+   "level": 2,
+   "path": "region/47940.json",
+   "bytes": 9739,
+   "reused": true
+  },
+  {
+   "sig_cd": "48120",
+   "region_id": "48120",
+   "name": "경상남도 창원시",
+   "level": 2,
+   "path": "region/48120.json",
+   "bytes": 9564,
+   "reused": true
+  },
+  {
+   "sig_cd": "48170",
+   "region_id": "48170",
+   "name": "경상남도 진주시",
+   "level": 2,
+   "path": "region/48170.json",
+   "bytes": 9328,
+   "reused": true
+  },
+  {
+   "sig_cd": "48220",
+   "region_id": "48220",
+   "name": "경상남도 통영시",
+   "level": 2,
+   "path": "region/48220.json",
+   "bytes": 9733,
+   "reused": true
+  },
+  {
+   "sig_cd": "48240",
+   "region_id": "48240",
+   "name": "경상남도 사천시",
+   "level": 2,
+   "path": "region/48240.json",
+   "bytes": 9937,
+   "reused": true
+  },
+  {
+   "sig_cd": "48250",
+   "region_id": "48250",
+   "name": "경상남도 김해시",
+   "level": 2,
+   "path": "region/48250.json",
+   "bytes": 10296,
+   "reused": true
+  },
+  {
+   "sig_cd": "48270",
+   "region_id": "48270",
+   "name": "경상남도 밀양시",
+   "level": 2,
+   "path": "region/48270.json",
+   "bytes": 9976,
+   "reused": true
+  },
+  {
+   "sig_cd": "48310",
+   "region_id": "48310",
+   "name": "경상남도 거제시",
+   "level": 2,
+   "path": "region/48310.json",
+   "bytes": 10293,
+   "reused": true
+  },
+  {
+   "sig_cd": "48330",
+   "region_id": "48330",
+   "name": "경상남도 양산시",
+   "level": 2,
+   "path": "region/48330.json",
+   "bytes": 9926,
+   "reused": true
+  },
+  {
+   "sig_cd": "48720",
+   "region_id": "48720",
+   "name": "경상남도 의령군",
+   "level": 2,
+   "path": "region/48720.json",
+   "bytes": 9324,
+   "reused": true
+  },
+  {
+   "sig_cd": "48730",
+   "region_id": "48730",
+   "name": "경상남도 함안군",
+   "level": 2,
+   "path": "region/48730.json",
+   "bytes": 9661,
+   "reused": true
+  },
+  {
+   "sig_cd": "48740",
+   "region_id": "48740",
+   "name": "경상남도 창녕군",
+   "level": 2,
+   "path": "region/48740.json",
+   "bytes": 9671,
+   "reused": true
+  },
+  {
+   "sig_cd": "48820",
+   "region_id": "48820",
+   "name": "경상남도 고성군",
+   "level": 2,
+   "path": "region/48820.json",
+   "bytes": 9670,
+   "reused": true
+  },
+  {
+   "sig_cd": "48840",
+   "region_id": "48840",
+   "name": "경상남도 남해군",
+   "level": 2,
+   "path": "region/48840.json",
+   "bytes": 9673,
+   "reused": true
+  },
+  {
+   "sig_cd": "48850",
+   "region_id": "48850",
+   "name": "경상남도 하동군",
+   "level": 2,
+   "path": "region/48850.json",
+   "bytes": 9706,
+   "reused": true
+  },
+  {
+   "sig_cd": "48860",
+   "region_id": "48860",
+   "name": "경상남도 산청군",
+   "level": 2,
+   "path": "region/48860.json",
+   "bytes": 9643,
+   "reused": true
+  },
+  {
+   "sig_cd": "48870",
+   "region_id": "48870",
+   "name": "경상남도 함양군",
+   "level": 2,
+   "path": "region/48870.json",
+   "bytes": 9985,
+   "reused": true
+  },
+  {
+   "sig_cd": "48880",
+   "region_id": "48880",
+   "name": "경상남도 거창군",
+   "level": 2,
+   "path": "region/48880.json",
+   "bytes": 10359,
+   "reused": true
+  },
+  {
+   "sig_cd": "48890",
+   "region_id": "48890",
+   "name": "경상남도 합천군",
+   "level": 2,
+   "path": "region/48890.json",
+   "bytes": 10270,
+   "reused": true
+  },
+  {
+   "sig_cd": "51110",
+   "region_id": "51110",
+   "name": "강원특별자치도 춘천시",
+   "level": 2,
+   "path": "region/51110.json",
+   "bytes": 10014,
+   "reused": true
+  },
+  {
+   "sig_cd": "51130",
+   "region_id": "51130",
+   "name": "강원특별자치도 원주시",
+   "level": 2,
+   "path": "region/51130.json",
+   "bytes": 10586,
+   "reused": true
+  },
+  {
+   "sig_cd": "51150",
+   "region_id": "51150",
+   "name": "강원특별자치도 강릉시",
+   "level": 2,
+   "path": "region/51150.json",
+   "bytes": 9676,
+   "reused": true
+  },
+  {
+   "sig_cd": "51170",
+   "region_id": "51170",
+   "name": "강원특별자치도 동해시",
+   "level": 2,
+   "path": "region/51170.json",
+   "bytes": 10067,
+   "reused": true
+  },
+  {
+   "sig_cd": "51190",
+   "region_id": "51190",
+   "name": "강원특별자치도 태백시",
+   "level": 2,
+   "path": "region/51190.json",
+   "bytes": 10817,
+   "reused": true
+  },
+  {
+   "sig_cd": "51210",
+   "region_id": "51210",
+   "name": "강원특별자치도 속초시",
+   "level": 2,
+   "path": "region/51210.json",
+   "bytes": 9995,
+   "reused": true
+  },
+  {
+   "sig_cd": "51230",
+   "region_id": "51230",
+   "name": "강원특별자치도 삼척시",
+   "level": 2,
+   "path": "region/51230.json",
+   "bytes": 10390,
+   "reused": true
+  },
+  {
+   "sig_cd": "51720",
+   "region_id": "51720",
+   "name": "강원특별자치도 홍천군",
+   "level": 2,
+   "path": "region/51720.json",
+   "bytes": 9301,
+   "reused": true
+  },
+  {
+   "sig_cd": "51730",
+   "region_id": "51730",
+   "name": "강원특별자치도 횡성군",
+   "level": 2,
+   "path": "region/51730.json",
+   "bytes": 10383,
+   "reused": true
+  },
+  {
+   "sig_cd": "51750",
+   "region_id": "51750",
+   "name": "강원특별자치도 영월군",
+   "level": 2,
+   "path": "region/51750.json",
+   "bytes": 10012,
+   "reused": true
+  },
+  {
+   "sig_cd": "51760",
+   "region_id": "51760",
+   "name": "강원특별자치도 평창군",
+   "level": 2,
+   "path": "region/51760.json",
+   "bytes": 10403,
+   "reused": true
+  },
+  {
+   "sig_cd": "51770",
+   "region_id": "51770",
+   "name": "강원특별자치도 정선군",
+   "level": 2,
+   "path": "region/51770.json",
+   "bytes": 11432,
+   "reused": true
+  },
+  {
+   "sig_cd": "51780",
+   "region_id": "51780",
+   "name": "강원특별자치도 철원군",
+   "level": 2,
+   "path": "region/51780.json",
+   "bytes": 10030,
+   "reused": true
+  },
+  {
+   "sig_cd": "51790",
+   "region_id": "51790",
+   "name": "강원특별자치도 화천군",
+   "level": 2,
+   "path": "region/51790.json",
+   "bytes": 9304,
+   "reused": true
+  },
+  {
+   "sig_cd": "51800",
+   "region_id": "51800",
+   "name": "강원특별자치도 양구군",
+   "level": 2,
+   "path": "region/51800.json",
+   "bytes": 9688,
+   "reused": true
+  },
+  {
+   "sig_cd": "51810",
+   "region_id": "51810",
+   "name": "강원특별자치도 인제군",
+   "level": 2,
+   "path": "region/51810.json",
+   "bytes": 10020,
+   "reused": true
+  },
+  {
+   "sig_cd": "51820",
+   "region_id": "51820",
+   "name": "강원특별자치도 고성군",
+   "level": 2,
+   "path": "region/51820.json",
+   "bytes": 10018,
+   "reused": true
+  },
+  {
+   "sig_cd": "51830",
+   "region_id": "51830",
+   "name": "강원특별자치도 양양군",
+   "level": 2,
+   "path": "region/51830.json",
+   "bytes": 9991,
+   "reused": true
+  },
+  {
+   "sig_cd": "52110",
+   "region_id": "52110",
+   "name": "전북특별자치도 전주시",
+   "level": 2,
+   "path": "region/52110.json",
+   "bytes": 9668,
+   "reused": true
+  },
+  {
+   "sig_cd": "52130",
+   "region_id": "52130",
+   "name": "전북특별자치도 군산시",
+   "level": 2,
+   "path": "region/52130.json",
+   "bytes": 10324,
+   "reused": true
+  },
+  {
+   "sig_cd": "52140",
+   "region_id": "52140",
+   "name": "전북특별자치도 익산시",
+   "level": 2,
+   "path": "region/52140.json",
+   "bytes": 9658,
+   "reused": true
+  },
+  {
+   "sig_cd": "52180",
+   "region_id": "52180",
+   "name": "전북특별자치도 정읍시",
+   "level": 2,
+   "path": "region/52180.json",
+   "bytes": 10043,
+   "reused": true
+  },
+  {
+   "sig_cd": "52190",
+   "region_id": "52190",
+   "name": "전북특별자치도 남원시",
+   "level": 2,
+   "path": "region/52190.json",
+   "bytes": 9654,
+   "reused": true
+  },
+  {
+   "sig_cd": "52210",
+   "region_id": "52210",
+   "name": "전북특별자치도 김제시",
+   "level": 2,
+   "path": "region/52210.json",
+   "bytes": 10018,
+   "reused": true
+  },
+  {
+   "sig_cd": "52710",
+   "region_id": "52710",
+   "name": "전북특별자치도 완주군",
+   "level": 2,
+   "path": "region/52710.json",
+   "bytes": 10030,
+   "reused": true
+  },
+  {
+   "sig_cd": "52720",
+   "region_id": "52720",
+   "name": "전북특별자치도 진안군",
+   "level": 2,
+   "path": "region/52720.json",
+   "bytes": 10075,
+   "reused": true
+  },
+  {
+   "sig_cd": "52730",
+   "region_id": "52730",
+   "name": "전북특별자치도 무주군",
+   "level": 2,
+   "path": "region/52730.json",
+   "bytes": 9337,
+   "reused": true
+  },
+  {
+   "sig_cd": "52740",
+   "region_id": "52740",
+   "name": "전북특별자치도 장수군",
+   "level": 2,
+   "path": "region/52740.json",
+   "bytes": 10010,
+   "reused": true
+  },
+  {
+   "sig_cd": "52750",
+   "region_id": "52750",
+   "name": "전북특별자치도 임실군",
+   "level": 2,
+   "path": "region/52750.json",
+   "bytes": 10358,
+   "reused": true
+  },
+  {
+   "sig_cd": "52770",
+   "region_id": "52770",
+   "name": "전북특별자치도 순창군",
+   "level": 2,
+   "path": "region/52770.json",
+   "bytes": 9748,
+   "reused": true
+  },
+  {
+   "sig_cd": "52790",
+   "region_id": "52790",
+   "name": "전북특별자치도 고창군",
+   "level": 2,
+   "path": "region/52790.json",
+   "bytes": 10000,
+   "reused": true
+  },
+  {
+   "sig_cd": "52800",
+   "region_id": "52800",
+   "name": "전북특별자치도 부안군",
+   "level": 2,
+   "path": "region/52800.json",
+   "bytes": 9400,
+   "reused": true
+  }
+ ],
+ "totals": {
+  "ordinance": {
+   "files": 400,
+   "made": 0,
+   "reused": 400,
+   "failed": 0,
+   "bytes": 9427810,
+   "repealed_neighbors": 0
+  },
+  "region": {
+   "files": 243,
+   "made": 0,
+   "reused": 243,
+   "failed": 0,
+   "bytes": 2462513
+  },
+  "quality": {
+   "files": 1,
+   "bytes": 10918,
+   "reused": true
+  },
+  "on_disk": {
+   "ordinance": {
+    "files": 400,
+    "bytes": 9427810
+   },
+   "region": {
+    "files": 243,
+    "bytes": 2462513
+   },
+   "quality": {
+    "files": 1,
+    "bytes": 10918
+   },
+   "total_files": 644,
+   "total_bytes": 11901241
+  },
+  "seconds": 11.8
+ },
+ "warnings": [],
+ "errors": [],
+ "notes": [
+  "이웃은 node_embeddings 코사인 재계산본이다(후보=전체 노드). neural_similarity 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+  "폐지 조례는 status/repealed/repealed_on 으로 표시된다. 선례 추천 금지."
+ ],
+ "pool_status": {
+  "active": 154310
+ },
+ "target_selection": {
+  "targets": 400,
+  "from_gap_shards": 225,
+  "gap_pool": 11206,
+  "category_histogram": {
+   "(none)": 11,
+   "C01": 126,
+   "C02": 108,
+   "C03": 65,
+   "C04": 23,
+   "C05": 42,
+   "C06": 46,
+   "C07": 40,
+   "C08": 58,
+   "C09": 39,
+   "C10": 44,
+   "C11": 52,
+   "C12": 25,
+   "C13": 38,
+   "C14": 14
+  },
+  "distinct_sig_cd": 153,
+  "rule": "gap shard 등장 조례를 등장횟수 내림차순으로 절반까지 채우고, 나머지는 분류(ordinance_category) 라운드로빈으로 고르게 채운다."
+ }
+}

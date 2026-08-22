@@ -1,0 +1,758 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1004189",
+   "key": "ordin-1004189",
+   "mst": "1004189",
+   "name": "충청북도 화학물질 안전관리 조례",
+   "ord_kind": "조례",
+   "region_id": "43",
+   "sig_cd": "43000",
+   "region_name": "충청북도",
+   "org_name": "충청북도",
+   "enacted_on": "20150101",
+   "effective_on": "20150101",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 14,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1004189",
+   "categories": [
+    {
+     "code": "C08",
+     "name": "안전·재난",
+     "confidence": 0.5714,
+     "method": "rule"
+    },
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.931169,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1262187",
+      "key": "ordin-1262187",
+      "name": "충청북도 도민배심원제 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20161104",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1262187",
+      "categories": []
+     },
+     {
+      "rank": 2,
+      "cosine": 0.904004,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2056009",
+      "key": "ordin-2056009",
+      "name": "충청북도 집합건물 관리에 관한 감독 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20250711",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2056009",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.903151,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2055259",
+      "key": "ordin-2055259",
+      "name": "충청남도 집합건물 관리에 관한 감독 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도",
+      "sig_cd": "44000",
+      "enacted_on": "20250710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2055259",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.898436,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2003859",
+      "key": "ordin-2003859",
+      "name": "충청남도 도민평가단 등의 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도",
+      "sig_cd": "44000",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2003859",
+      "categories": []
+     },
+     {
+      "rank": 5,
+      "cosine": 0.898026,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2143391",
+      "key": "ordin-2143391",
+      "name": "충청북도 조령산자연휴양림 운영 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20260703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2143391",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.896527,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1862579",
+      "key": "ordin-1862579",
+      "name": "충청남도 무료법률상담실 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도",
+      "sig_cd": "44000",
+      "enacted_on": "20231010",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1862579",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.896181,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2014657",
+      "key": "ordin-2014657",
+      "name": "충청북도 건축물 해체공사 안전관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20250207",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2014657",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.893593,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1672515",
+      "key": "ordin-1672515",
+      "name": "충청남도 공동주택 관리 종사자 인권증진에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도",
+      "sig_cd": "44000",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1672515",
+      "categories": [
+       "C09",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.89358,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1981189",
+      "key": "ordin-1981189",
+      "name": "충청북도 기업 및 투자 유치 촉진 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20241101",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1981189",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.893033,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2104685",
+      "key": "ordin-2104685",
+      "name": "충청북도 기업 및 투자 유치 촉진 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2104685",
+      "categories": [
+       "C11",
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.985542,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1919163",
+      "key": "ordin-1919163",
+      "name": "충청북도 노사관계 발전 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20240405",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1919163",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.985402,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1829421",
+      "key": "ordin-1829421",
+      "name": "충청북도 지방별정직공무원 자진퇴직수당 지급에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20230701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1829421",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.985275,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2039155",
+      "key": "ordin-2039155",
+      "name": "충청북도 푸드테크산업 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20250516",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2039155",
+      "categories": [
+       "C11",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.985202,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2056265",
+      "key": "ordin-2056265",
+      "name": "충청북도 국어 바르게 쓰기 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20250711",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2056265",
+      "categories": [
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.984469,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1620385",
+      "key": "ordin-1620385",
+      "name": "충청북도 정책연구용역 관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20210806",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1620385",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.984212,
+      "stored_rank": null,
+      "ordinance_id": "ordin:990797",
+      "key": "ordin-990797",
+      "name": "충청북도 도시가스 공급시설 설치비 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20150101",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=990797",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.984064,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2039177",
+      "key": "ordin-2039177",
+      "name": "충청북도 명예도민 예우 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20250516",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2039177",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.983774,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1833631",
+      "key": "ordin-1833631",
+      "name": "충청북도 토종농작물 보존 및 육성 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20230707",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1833631",
+      "categories": [
+       "C12",
+       "C06"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.983681,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2104749",
+      "key": "ordin-2104749",
+      "name": "충청북도의회 공무원 후생복지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2104749",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.983641,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2119145",
+      "key": "ordin-2119145",
+      "name": "충청북도 자연환경 및 생물다양성 보전 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20260403",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2119145",
+      "categories": [
+       "C07",
+       "C06"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994987,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2083089",
+      "key": "ordin-2083089",
+      "name": "충청북도 장애인가족 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20251107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2083089",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994951,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2158517",
+      "key": "ordin-2158517",
+      "name": "충청북도 보건환경연구원 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20260807",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2158517",
+      "categories": [
+       "C06",
+       "C07"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.99482,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1833603",
+      "key": "ordin-1833603",
+      "name": "충청북도 청소년지도자 처우 개선 및 지위 향상 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20230707",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1833603",
+      "categories": [
+       "C05",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994531,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1672361",
+      "key": "ordin-1672361",
+      "name": "충청북도의회 지방공무원 인사교류 규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20211231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1672361",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994514,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1487337",
+      "key": "ordin-1487337",
+      "name": "충청북도 광역교통시설부담금 부과·징수 및 특별회계 운용·관리조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20200410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1487337",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.994508,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2104697",
+      "key": "ordin-2104697",
+      "name": "충청북도 데이터산업 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2104697",
+      "categories": [
+       "C11",
+       "C07"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.99447,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2104649",
+      "key": "ordin-2104649",
+      "name": "충청북도 성과관리 및 평가에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2104649",
+      "categories": []
+     },
+     {
+      "rank": 8,
+      "cosine": 0.994433,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1771951",
+      "key": "ordin-1771951",
+      "name": "충청북도 수출용 전기용품 및 생활용품의 안전인증 등 면제확인에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20221230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1771951",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.994399,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1771937",
+      "key": "ordin-1771937",
+      "name": "충청북도 청소년수련시설협회 설립ㆍ운영 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20221230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1771937",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.994397,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1713807",
+      "key": "ordin-1713807",
+      "name": "충청북도 유통분쟁조정위원회 설치 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도",
+      "sig_cd": "43000",
+      "enacted_on": "20220630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1713807",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

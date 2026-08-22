@@ -1,0 +1,759 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1800277",
+   "key": "ordin-1800277",
+   "mst": "1800277",
+   "name": "양구군 정책실명제 운영 조례",
+   "ord_kind": "조례",
+   "region_id": "51800",
+   "sig_cd": "51800",
+   "region_name": "강원특별자치도 양구군",
+   "org_name": "강원특별자치도 양구군",
+   "enacted_on": "20230412",
+   "effective_on": "20230412",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 12,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1800277",
+   "categories": [
+    {
+     "code": "C05",
+     "name": "청년·교육",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.917237,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2124019",
+      "key": "ordin-2124019",
+      "name": "양구군 주민참여예산제 운영조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20260417",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2124019",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.909696,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2123993",
+      "key": "ordin-2123993",
+      "name": "양구군 주민참여예산제 운영조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20260417",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2123993",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.902206,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1376246",
+      "key": "ordin-1376246",
+      "name": "양구군 스포츠전시관 운영조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20181226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1376246",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.884294,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2063463",
+      "key": "ordin-2063463",
+      "name": "양구군 적극행정 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20250808",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2063463",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.882823,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1939807",
+      "key": "ordin-1939807",
+      "name": "양구 방짜식기전시관 운영조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20240621",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1939807",
+      "categories": []
+     },
+     {
+      "rank": 6,
+      "cosine": 0.870177,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1633579",
+      "key": "ordin-1633579",
+      "name": "양구군립 박수근미술관 운영조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20211012",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1633579",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.867587,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2124039",
+      "key": "ordin-2124039",
+      "name": "양구군립 박수근미술관 운영조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20260417",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2124039",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.863521,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2038827",
+      "key": "ordin-2038827",
+      "name": "양구군 산양·사향노루센터 설치 운영조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20250516",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2038827",
+      "categories": [
+       "C14",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.862457,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2000057",
+      "key": "ordin-2000057",
+      "name": "양구군 평생학습관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20241227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2000057",
+      "categories": [
+       "C05",
+       "C10"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.859086,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:991036",
+      "key": "ordin-991036",
+      "name": "양구군공인조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20061123",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=991036",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.98872,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1817829",
+      "key": "ordin-1817829",
+      "name": "양구군 농어업인 수당 지원 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20230609",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1817829",
+      "categories": [
+       "C12",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.988032,
+      "stored_rank": null,
+      "ordinance_id": "ordin:802848",
+      "key": "ordin-802848",
+      "name": "양구군 바르게살기운동조직 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20141215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=802848",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.987745,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2043853",
+      "key": "ordin-2043853",
+      "name": "양구군 폐기물관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20250613",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2043853",
+      "categories": [
+       "C07",
+       "C06"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.987736,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1817835",
+      "key": "ordin-1817835",
+      "name": "양구군재난관리기금 운용·관리조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20230609",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1817835",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.987663,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1572405",
+      "key": "ordin-1572405",
+      "name": "코로나19 양구군 긴급 재난 지원 조례<제명변경2021.1.28>",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20210128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1572405",
+      "categories": [
+       "C11",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.987502,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1019620",
+      "key": "ordin-1019620",
+      "name": "양구군 중소기업육성 융자금이자에 대한 보조금 지급조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20141215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1019620",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.987396,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1523379",
+      "key": "ordin-1523379",
+      "name": "양구군 노인종합복지센터 설치 및 운영조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20200807",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1523379",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.987304,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2110057",
+      "key": "ordin-2110057",
+      "name": "양구군 고령농업인 영농지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20260213",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2110057",
+      "categories": [
+       "C12",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.98727,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1411413",
+      "key": "ordin-1411413",
+      "name": "양구군 저소득계층 임대보증금 지원조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20190930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1411413",
+      "categories": [
+       "C03",
+       "C09"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.987075,
+      "stored_rank": null,
+      "ordinance_id": "ordin:991328",
+      "key": "ordin-991328",
+      "name": "양구군 지방공무원 근무규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20070202",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=991328",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994442,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2124013",
+      "key": "ordin-2124013",
+      "name": "양구군 읍·면 종합복지회관 설치 및 운영조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20260417",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2124013",
+      "categories": [
+       "C03",
+       "C12"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994332,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1773651",
+      "key": "ordin-1773651",
+      "name": "양구군 자체감사규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20221228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1773651",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994331,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2086367",
+      "key": "ordin-2086367",
+      "name": "양구군 주택용 소방시설 설치지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20251114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2086367",
+      "categories": [
+       "C08",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993984,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1830109",
+      "key": "ordin-1830109",
+      "name": "양구군 업무제휴와 협약 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20230703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1830109",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993981,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1817857",
+      "key": "ordin-1817857",
+      "name": "양구벌꿀 가공센터 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20230609",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1817857",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.99397,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1586921",
+      "key": "ordin-1586921",
+      "name": "양구군 학생 통학 교통비 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20210408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1586921",
+      "categories": [
+       "C05",
+       "C10"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993938,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1800359",
+      "key": "ordin-1800359",
+      "name": "양구군 악취 방지 및 저감 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20230412",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1800359",
+      "categories": [
+       "C06",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993888,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1886427",
+      "key": "ordin-1886427",
+      "name": "양구군 지방세입징수포상금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20231221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1886427",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993784,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1523067",
+      "key": "ordin-1523067",
+      "name": "양구군 사회단체 활동지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20200807",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1523067",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993771,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2094585",
+      "key": "ordin-2094585",
+      "name": "양구군 행정기구 설치조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 양구군",
+      "sig_cd": "51800",
+      "enacted_on": "20251219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2094585",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

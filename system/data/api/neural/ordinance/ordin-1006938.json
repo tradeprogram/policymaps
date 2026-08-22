@@ -1,0 +1,762 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1006938",
+   "key": "ordin-1006938",
+   "mst": "1006938",
+   "name": "진도군 이장 자녀 장학금 지급 조례",
+   "ord_kind": "조례",
+   "region_id": "12860",
+   "sig_cd": "12860",
+   "region_name": "전남광주통합특별시 진도군",
+   "org_name": "전남광주통합특별시 진도군",
+   "enacted_on": "20131231",
+   "effective_on": "20131231",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 10,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1006938",
+   "categories": [
+    {
+     "code": "C05",
+     "name": "청년·교육",
+     "confidence": 0.625,
+     "method": "rule"
+    },
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.976915,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:904577",
+      "key": "ordin-904577",
+      "name": "진도군 이장 자녀 장학금 지급 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20131231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=904577",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.946159,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1602977",
+      "key": "ordin-1602977",
+      "name": "완도군 이장자녀 장학금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 완도군",
+      "sig_cd": "12850",
+      "enacted_on": "20210609",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1602977",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.918912,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1602979",
+      "key": "ordin-1602979",
+      "name": "완도군 이장자녀장학금 지급 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 완도군",
+      "sig_cd": "12850",
+      "enacted_on": "20210609",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1602979",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.864718,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2133591",
+      "key": "ordin-2133591",
+      "name": "진도군 4-H 장학금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20260506",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2133591",
+      "categories": [
+       "C05",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.837242,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1353203",
+      "key": "ordin-1353203",
+      "name": "진도군 음식판매자동차의 영업장소 지정 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20180801",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1353203",
+      "categories": [
+       "C13",
+       "C06"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.827378,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1764919",
+      "key": "ordin-1764919",
+      "name": "진도군 계약심사 업무처리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20221228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1764919",
+      "categories": [
+       "C08",
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.826124,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1539499",
+      "key": "ordin-1539499",
+      "name": "진도군 수돗물수질평가위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20201014",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1539499",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.822543,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1673867",
+      "key": "ordin-1673867",
+      "name": "진도군의회 의원 간담회 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20211229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1673867",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.814996,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1927925",
+      "key": "ordin-1927925",
+      "name": "청송군 이장 자녀 장학금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20240514",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1927925",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.808917,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2026683",
+      "key": "ordin-2026683",
+      "name": "진도군 지방공무원 수당 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20250402",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2026683",
+      "categories": [
+       "C01",
+       "C06"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.98287,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1706587",
+      "key": "ordin-1706587",
+      "name": "진도군청 및 읍면사무소 소재지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20220503",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1706587",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.98175,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1673887",
+      "key": "ordin-1673887",
+      "name": "진도군의회 사무기구 설치 및 직원 정수 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20220105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1673887",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.981555,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1211640",
+      "key": "ordin-1211640",
+      "name": "진도군 인터넷시스템 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20151229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1211640",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.98149,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1211678",
+      "key": "ordin-1211678",
+      "name": "진도군 공무원직장협의회의 설립ㆍ운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20151229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1211678",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.980993,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1374109",
+      "key": "ordin-1374109",
+      "name": "진도군 북한이탈주민 정착 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20181212",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1374109",
+      "categories": []
+     },
+     {
+      "rank": 6,
+      "cosine": 0.980929,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1813009",
+      "key": "ordin-1813009",
+      "name": "진도군 적극행정 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20230525",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813009",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.980664,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1157440",
+      "key": "ordin-1157440",
+      "name": "진도군 상수도 원인자부담금 및 손괴자부담금 징수 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20141027",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1157440",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.98051,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2050167",
+      "key": "ordin-2050167",
+      "name": "진도군의회 회의 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20250702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2050167",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.980454,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1928801",
+      "key": "ordin-1928801",
+      "name": "진도군 택시 기본차령 연장 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20240516",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1928801",
+      "categories": [
+       "C10",
+       "C07"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.980368,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2043609",
+      "key": "ordin-2043609",
+      "name": "진도군 자활기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20250611",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2043609",
+      "categories": [
+       "C02",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.99568,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2050195",
+      "key": "ordin-2050195",
+      "name": "진도군 향토문화회관 관리 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20250702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2050195",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.995557,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1868347",
+      "key": "ordin-1868347",
+      "name": "진도군 장애인 인권침해 및 범죄피해 예방 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20231101",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1868347",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.995532,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1654859",
+      "key": "ordin-1654859",
+      "name": "진도군 안전보안관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20211229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1654859",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.995478,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1884881",
+      "key": "ordin-1884881",
+      "name": "진도군 의료급여기금 특별회계 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20231220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1884881",
+      "categories": [
+       "C02",
+       "C01",
+       "C06"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.995378,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2134381",
+      "key": "ordin-2134381",
+      "name": "진도군 주택임대차계약서 확정일자 부여업무 처리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20260520",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2134381",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.995349,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2116413",
+      "key": "ordin-2116413",
+      "name": "진도 한옥펜션·캠핑장 관리 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20260325",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2116413",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.995346,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1629059",
+      "key": "ordin-1629059",
+      "name": "진도군 보행안전 및 편의증진에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20210929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1629059",
+      "categories": [
+       "C10",
+       "C07",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.995338,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1539459",
+      "key": "ordin-1539459",
+      "name": "진도군 보증채무관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20201014",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1539459",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.995301,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1504119",
+      "key": "ordin-1504119",
+      "name": "진도군 저소득주민 국민건강보험료 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20200610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1504119",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.995205,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1504127",
+      "key": "ordin-1504127",
+      "name": "진도군 청소년상담복지센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20200610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1504127",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

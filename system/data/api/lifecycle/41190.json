@@ -1,0 +1,942 @@
+{
+ "data": {
+  "region": {
+   "region_id": "41190",
+   "sig_cd": "41190",
+   "name": "부천시",
+   "full_name": "경기도 부천시",
+   "level": 2
+  },
+  "counts": {
+   "total": 1313,
+   "active": 710,
+   "repealed": 603,
+   "by_rr_cls_cd": {
+    "일부개정": 462,
+    "전부개정": 38,
+    "제정": 210,
+    "폐지": 603
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1973,
+    "n": 5
+   },
+   {
+    "year": 1974,
+    "n": 7
+   },
+   {
+    "year": 1975,
+    "n": 5
+   },
+   {
+    "year": 1976,
+    "n": 6
+   },
+   {
+    "year": 1977,
+    "n": 37
+   },
+   {
+    "year": 1978,
+    "n": 5
+   },
+   {
+    "year": 1979,
+    "n": 5
+   },
+   {
+    "year": 1980,
+    "n": 2
+   },
+   {
+    "year": 1981,
+    "n": 3
+   },
+   {
+    "year": 1982,
+    "n": 23
+   },
+   {
+    "year": 1983,
+    "n": 6
+   },
+   {
+    "year": 1984,
+    "n": 13
+   },
+   {
+    "year": 1985,
+    "n": 1
+   },
+   {
+    "year": 1986,
+    "n": 7
+   },
+   {
+    "year": 1987,
+    "n": 11
+   },
+   {
+    "year": 1988,
+    "n": 20
+   },
+   {
+    "year": 1989,
+    "n": 15
+   },
+   {
+    "year": 1991,
+    "n": 7
+   },
+   {
+    "year": 1992,
+    "n": 8
+   },
+   {
+    "year": 1993,
+    "n": 5
+   },
+   {
+    "year": 1994,
+    "n": 14
+   },
+   {
+    "year": 1995,
+    "n": 27
+   },
+   {
+    "year": 1996,
+    "n": 10
+   },
+   {
+    "year": 1997,
+    "n": 17
+   },
+   {
+    "year": 1998,
+    "n": 21
+   },
+   {
+    "year": 1999,
+    "n": 40
+   },
+   {
+    "year": 2000,
+    "n": 15
+   },
+   {
+    "year": 2001,
+    "n": 6
+   },
+   {
+    "year": 2003,
+    "n": 16
+   },
+   {
+    "year": 2004,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 9
+   },
+   {
+    "year": 2006,
+    "n": 7
+   },
+   {
+    "year": 2007,
+    "n": 8
+   },
+   {
+    "year": 2008,
+    "n": 35
+   },
+   {
+    "year": 2009,
+    "n": 17
+   },
+   {
+    "year": 2010,
+    "n": 10
+   },
+   {
+    "year": 2011,
+    "n": 22
+   },
+   {
+    "year": 2012,
+    "n": 18
+   },
+   {
+    "year": 2013,
+    "n": 12
+   },
+   {
+    "year": 2014,
+    "n": 19
+   },
+   {
+    "year": 2015,
+    "n": 27
+   },
+   {
+    "year": 2016,
+    "n": 26
+   },
+   {
+    "year": 2017,
+    "n": 22
+   },
+   {
+    "year": 2018,
+    "n": 22
+   },
+   {
+    "year": 2019,
+    "n": 48
+   },
+   {
+    "year": 2020,
+    "n": 50
+   },
+   {
+    "year": 2021,
+    "n": 85
+   },
+   {
+    "year": 2022,
+    "n": 79
+   },
+   {
+    "year": 2023,
+    "n": 128
+   },
+   {
+    "year": 2024,
+    "n": 109
+   },
+   {
+    "year": 2025,
+    "n": 122
+   },
+   {
+    "year": 2026,
+    "n": 78
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1973,
+    "n": 4
+   },
+   {
+    "year": 1974,
+    "n": 7
+   },
+   {
+    "year": 1975,
+    "n": 5
+   },
+   {
+    "year": 1976,
+    "n": 6
+   },
+   {
+    "year": 1977,
+    "n": 37
+   },
+   {
+    "year": 1978,
+    "n": 5
+   },
+   {
+    "year": 1979,
+    "n": 5
+   },
+   {
+    "year": 1980,
+    "n": 2
+   },
+   {
+    "year": 1981,
+    "n": 3
+   },
+   {
+    "year": 1982,
+    "n": 23
+   },
+   {
+    "year": 1983,
+    "n": 6
+   },
+   {
+    "year": 1984,
+    "n": 13
+   },
+   {
+    "year": 1985,
+    "n": 1
+   },
+   {
+    "year": 1986,
+    "n": 7
+   },
+   {
+    "year": 1987,
+    "n": 11
+   },
+   {
+    "year": 1988,
+    "n": 20
+   },
+   {
+    "year": 1989,
+    "n": 14
+   },
+   {
+    "year": 1990,
+    "n": 1
+   },
+   {
+    "year": 1991,
+    "n": 7
+   },
+   {
+    "year": 1992,
+    "n": 8
+   },
+   {
+    "year": 1993,
+    "n": 5
+   },
+   {
+    "year": 1994,
+    "n": 14
+   },
+   {
+    "year": 1995,
+    "n": 27
+   },
+   {
+    "year": 1996,
+    "n": 10
+   },
+   {
+    "year": 1997,
+    "n": 17
+   },
+   {
+    "year": 1998,
+    "n": 21
+   },
+   {
+    "year": 1999,
+    "n": 39
+   },
+   {
+    "year": 2000,
+    "n": 15
+   },
+   {
+    "year": 2001,
+    "n": 6
+   },
+   {
+    "year": 2003,
+    "n": 16
+   },
+   {
+    "year": 2004,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 8
+   },
+   {
+    "year": 2006,
+    "n": 7
+   },
+   {
+    "year": 2007,
+    "n": 7
+   },
+   {
+    "year": 2008,
+    "n": 33
+   },
+   {
+    "year": 2009,
+    "n": 13
+   },
+   {
+    "year": 2010,
+    "n": 8
+   },
+   {
+    "year": 2011,
+    "n": 21
+   },
+   {
+    "year": 2012,
+    "n": 17
+   },
+   {
+    "year": 2013,
+    "n": 9
+   },
+   {
+    "year": 2014,
+    "n": 16
+   },
+   {
+    "year": 2015,
+    "n": 12
+   },
+   {
+    "year": 2016,
+    "n": 11
+   },
+   {
+    "year": 2017,
+    "n": 6
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 11
+   },
+   {
+    "year": 2020,
+    "n": 13
+   },
+   {
+    "year": 2021,
+    "n": 12
+   },
+   {
+    "year": 2022,
+    "n": 12
+   },
+   {
+    "year": 2023,
+    "n": 8
+   },
+   {
+    "year": 2024,
+    "n": 4
+   },
+   {
+    "year": 2025,
+    "n": 10
+   },
+   {
+    "year": 2026,
+    "n": 4
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 3,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "보건소설치조례",
+    "display_name": "보건소설치조례",
+    "rows": 3,
+    "nationwide_regions": 20
+   },
+   {
+    "policy_key": "사무의동위임규칙",
+    "display_name": "사무의동위임규칙",
+    "rows": 3,
+    "nationwide_regions": 4
+   },
+   {
+    "policy_key": "토지등급평가자문위원회실비변상규칙",
+    "display_name": "토지등급평가자문위원회실비변상규칙",
+    "rows": 3,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "주거환경개선지구조례",
+    "display_name": "주거환경개선지구조례",
+    "rows": 2,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "공영개발사업특별회계설치조례",
+    "display_name": "공영개발사업특별회계설치조례",
+    "rows": 2,
+    "nationwide_regions": 14
+   },
+   {
+    "policy_key": "새마을운동협의회조례",
+    "display_name": "새마을운동협의회조례",
+    "rows": 2,
+    "nationwide_regions": 14
+   },
+   {
+    "policy_key": "위생처리장사용료징수조례",
+    "display_name": "위생처리장사용료징수조례",
+    "rows": 2,
+    "nationwide_regions": 7
+   },
+   {
+    "policy_key": "공설묘지설치조례",
+    "display_name": "공설묘지설치조례",
+    "rows": 2,
+    "nationwide_regions": 5
+   },
+   {
+    "policy_key": "재해대책위원회운영조례",
+    "display_name": "재해대책위원회운영조례",
+    "rows": 2,
+    "nationwide_regions": 5
+   },
+   {
+    "policy_key": "오물수거수수료징수조례",
+    "display_name": "오물수거수수료징수조례",
+    "rows": 2,
+    "nationwide_regions": 4
+   },
+   {
+    "policy_key": "계약직공무원규정시행규칙",
+    "display_name": "계약직공무원규정시행규칙",
+    "rows": 2,
+    "nationwide_regions": 3
+   },
+   {
+    "policy_key": "의료보험조합에대한사업소세과세면제에관한조례",
+    "display_name": "의료보험 조합에 대한 사업소세 과세면제에 관한 조례",
+    "rows": 2,
+    "nationwide_regions": 3
+   },
+   {
+    "policy_key": "지방공무원수당지급조례",
+    "display_name": "지방공무원수당지급조례",
+    "rows": 2,
+    "nationwide_regions": 3
+   },
+   {
+    "policy_key": "공영주택관리조례",
+    "display_name": "공영주택관리조례",
+    "rows": 2,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "광고물등관리법시행규칙",
+    "display_name": "광고물등관리법시행규칙",
+    "rows": 2,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "유기장영업허가수수료징수조례",
+    "display_name": "유기장영업허가수수료징수조례",
+    "rows": 2,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "의용소방대원보수조례",
+    "display_name": "의용소방대원보수조례",
+    "rows": 2,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "농촌주택사업특별회계설치및운용조례",
+    "display_name": "농촌주택사업특별회계설치및운용조례",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:1038505",
+    "name": "부천시공설묘지설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "1999-11-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1038505&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:999440",
+    "name": "부천시공설묘지설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "1973-11-24",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=999440&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2144533",
+    "name": "부천시 도로관리심의회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-07-06",
+    "repealed_on": "2026-07-06",
+    "repealed_on_raw": "20260706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2144533&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130223",
+    "name": "부천시 교통정보센터 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-05-18",
+    "repealed_on": "2026-05-18",
+    "repealed_on_raw": "20260518",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130223&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2109237",
+    "name": "부천시 방사성물질로부터 안전한 공공 급식 관련 우수 급식 산업 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-09",
+    "repealed_on": "2026-02-09",
+    "repealed_on_raw": "20260209",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2109237&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2109239",
+    "name": "부천시 저소득세대 국민건강보험료 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-09",
+    "repealed_on": "2026-02-09",
+    "repealed_on_raw": "20260209",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2109239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2095347",
+    "name": "부천시 미혼모·부 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-22",
+    "repealed_on": "2025-12-22",
+    "repealed_on_raw": "20251222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2095347&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2095335",
+    "name": "부천시 지역치안협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-22",
+    "repealed_on": "2025-12-22",
+    "repealed_on_raw": "20251222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2095335&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2065603",
+    "name": "부천시 인생이모작 지원 센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-08-25",
+    "repealed_on": "2025-08-25",
+    "repealed_on_raw": "20250825",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2065603&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2039509",
+    "name": "부천시 안전 활동 민간단체 평가 심의위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-19",
+    "repealed_on": "2025-05-19",
+    "repealed_on_raw": "20250519",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2039509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2027459",
+    "name": "부천시 인생이모작 지원 센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-07",
+    "repealed_on": "2025-04-07",
+    "repealed_on_raw": "20250407",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2027459&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2014877",
+    "name": "부천시 저소득 법무보호복지대상자 등에 대한 사회정착 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-10",
+    "repealed_on": "2025-02-10",
+    "repealed_on_raw": "20250210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2014877&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2014879",
+    "name": "부천시 청소년 법률지원센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-10",
+    "repealed_on": "2025-02-10",
+    "repealed_on_raw": "20250210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2014879&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1996495",
+    "name": "부천시 국민기초생활보장수급자 장제비 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-23",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1996495&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1972713",
+    "name": "부천시 장기미집행 도시계획시설 대지보상 임시특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-30",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1972713&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1988099",
+    "name": "부천시 장기미집행 도시계획시설 대지보상 임시특별회계 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-11-25",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1988099&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1978207",
+    "name": "부천시 도당천문공원 관리 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-10-21",
+    "repealed_on": "2024-10-21",
+    "repealed_on_raw": "20241021",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1978207&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1942593",
+    "name": "부천시 건축물 철거공사 안전관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-28",
+    "repealed_on": "2024-06-28",
+    "repealed_on_raw": "20240628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942593&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1942591",
+    "name": "부천시 주거지역 공사장 안전관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-28",
+    "repealed_on": "2024-06-28",
+    "repealed_on_raw": "20240628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942591&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1938775",
+    "name": "부천시 정신건강복지센터 설치 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-06-17",
+    "repealed_on": "2024-06-17",
+    "repealed_on_raw": "20240617",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1938775&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1888143",
+    "name": "부천 스마트도시 특수목적법인 설립 및 출자 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-26",
+    "repealed_on": "2023-12-26",
+    "repealed_on_raw": "20231226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1888143&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1888133",
+    "name": "부천시 어린이공원 및 어린이놀이터 관리 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-26",
+    "repealed_on": "2023-12-26",
+    "repealed_on_raw": "20231226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1888133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876043",
+    "name": "부천시 택시운송사업의 구분 변경에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-22",
+    "repealed_on": "2023-11-22",
+    "repealed_on_raw": "20231122",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876043&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1840941",
+    "name": "부천시 유원지 조성 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-07-24",
+    "repealed_on": "2023-07-24",
+    "repealed_on_raw": "20230724",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1840941&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1827375",
+    "name": "부천시 유원지 조성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-30",
+    "repealed_on": "2023-06-30",
+    "repealed_on_raw": "20230630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1827375&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1816467",
+    "name": "부천시 사회적경제 육성 및 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-06-05",
+    "repealed_on": "2023-06-05",
+    "repealed_on_raw": "20230605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816467&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1809471",
+    "name": "부천시 문화의 거리 조성 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-16",
+    "repealed_on": "2023-05-16",
+    "repealed_on_raw": "20230516",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1809471&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1822357",
+    "name": "부천시 행정종합정보센터 및 민원센터 설치 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-16",
+    "repealed_on": "2023-05-16",
+    "repealed_on_raw": "20230516",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1822357&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1762851",
+    "name": "부천시 수도관리 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-26",
+    "repealed_on": "2022-12-26",
+    "repealed_on_raw": "20221226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762851&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1762833",
+    "name": "부천시 아기환영 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-26",
+    "repealed_on": "2022-12-26",
+    "repealed_on_raw": "20221226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762833&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1741833",
+    "name": "부천시 권한대행 및 직무대리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-10-31",
+    "repealed_on": "2022-10-31",
+    "repealed_on_raw": "20221031",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741833&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1741839",
+    "name": "부천시 먹는물수질검사기관 운영 및 검사수수료 징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-10-31",
+    "repealed_on": "2022-10-31",
+    "repealed_on_raw": "20221031",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741839&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1741837",
+    "name": "부천시 지역정보화 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-10-31",
+    "repealed_on": "2022-10-31",
+    "repealed_on_raw": "20221031",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741837&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1737279",
+    "name": "부천시 공영개발사업조성 재산관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-17",
+    "repealed_on": "2022-10-17",
+    "repealed_on_raw": "20221017",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1737279&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1737293",
+    "name": "부천시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-17",
+    "repealed_on": "2022-10-17",
+    "repealed_on_raw": "20221017",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1737293&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1726989",
+    "name": "부천시 하수ㆍ분뇨처리시설 관리운영조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-09-13",
+    "repealed_on": "2022-09-13",
+    "repealed_on_raw": "20220913",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1726989&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1722985",
+    "name": "부천시 하수·분뇨처리시설 관리운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-16",
+    "repealed_on": "2022-08-16",
+    "repealed_on_raw": "20220816",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1722985&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1710027",
+    "name": "부천시 부녀아동상담소 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-05-19",
+    "repealed_on": "2022-05-19",
+    "repealed_on_raw": "20220519",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1710027&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1697447",
+    "name": "부천시 진로교육 활성화 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-13",
+    "repealed_on": "2022-04-13",
+    "repealed_on_raw": "20220413",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697447&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1691897",
+    "name": "부천시 인터넷방송국 및 웹진 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-03-21",
+    "repealed_on": "2022-03-21",
+    "repealed_on_raw": "20220321",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1691897&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 2,
+   "sentinel_99991231": 2
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "41190"
+ ]
+}

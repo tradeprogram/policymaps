@@ -1,0 +1,797 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1000867",
+   "key": "ordin-1000867",
+   "mst": "1000867",
+   "name": "영천시 지방별정직 공무원의 범위에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "47230",
+   "sig_cd": "47230",
+   "region_name": "경상북도 영천시",
+   "org_name": "경상북도 영천시",
+   "enacted_on": "20120327",
+   "effective_on": "20120327",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 3,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1000867",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.6,
+     "method": "rule"
+    },
+    {
+     "code": "C05",
+     "name": "청년·교육",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.916255,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1930581",
+      "key": "ordin-1930581",
+      "name": "영천시의회에 출석·답변할 수 있는 관계공무원의 범위에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20240517",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1930581",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.910889,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2123261",
+      "key": "ordin-2123261",
+      "name": "영천시 지방공무원 정원 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20260415",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2123261",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.901091,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2000699",
+      "key": "ordin-2000699",
+      "name": "영천시 지방공무원 복무 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20241227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2000699",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.887225,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1919021",
+      "key": "ordin-1919021",
+      "name": "영천시 지방공무원 근무 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20240405",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1919021",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.879352,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1895935",
+      "key": "ordin-1895935",
+      "name": "영천시 지방세 세무조사 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20231229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1895935",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.873248,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2123171",
+      "key": "ordin-2123171",
+      "name": "영천시 지방공무원 정원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20260415",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2123171",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.870273,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1259267",
+      "key": "ordin-1259267",
+      "name": "영천시 지방별정직공무원 자진퇴직수당지급에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20161019",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1259267",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.868921,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1190871",
+      "key": "ordin-1190871",
+      "name": "영천시 취업지원센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20151007",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1190871",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.868565,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1696163",
+      "key": "ordin-1696163",
+      "name": "영천시 보훈회관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20220408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1696163",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.864405,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2087817",
+      "key": "ordin-2087817",
+      "name": "영천시 지방공무원 인사 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20251119",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2087817",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990235,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1801445",
+      "key": "ordin-1801445",
+      "name": "영천시 병역명문가 예우 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20230414",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1801445",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.990084,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2049589",
+      "key": "ordin-2049589",
+      "name": "영천시 어르신 대중교통 무료이용 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20250701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2049589",
+      "categories": [
+       "C10",
+       "C03"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990034,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1749821",
+      "key": "ordin-1749821",
+      "name": "영천시 건축물 해체공사 안전관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20221118",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1749821",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.989165,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2041863",
+      "key": "ordin-2041863",
+      "name": "영천시 스포츠 전지훈련 유치 활성화 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20250528",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2041863",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.988866,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1864481",
+      "key": "ordin-1864481",
+      "name": "영천시 주차장특별회계 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20231013",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1864481",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.988775,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1801423",
+      "key": "ordin-1801423",
+      "name": "영천시 민원업무담당공무원 등의 보호 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20230414",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1801423",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.988454,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1749795",
+      "key": "ordin-1749795",
+      "name": "영천시 주민투표 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20221118",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1749795",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.988182,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1723187",
+      "key": "ordin-1723187",
+      "name": "영천시 전통시장 및 상점가 육성을 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20220816",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1723187",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.987907,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1723209",
+      "key": "ordin-1723209",
+      "name": "영천시 지하안전 관리 및 유지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20220816",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1723209",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.987871,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1259267",
+      "key": "ordin-1259267",
+      "name": "영천시 지방별정직공무원 자진퇴직수당지급에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20161019",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1259267",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994502,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2103387",
+      "key": "ordin-2103387",
+      "name": "영천시 회계관리에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2103387",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99404,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1032178",
+      "key": "ordin-1032178",
+      "name": "영천시 농특산물 공동브랜드 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20101004",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1032178",
+      "categories": [
+       "C12",
+       "C07"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.99397,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1237335",
+      "key": "ordin-1237335",
+      "name": "영천시 아동복지심의위원회 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20160614",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1237335",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993933,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1223953",
+      "key": "ordin-1223953",
+      "name": "영천시 가스사업허가 기준 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20160323",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1223953",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993932,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1723203",
+      "key": "ordin-1723203",
+      "name": "영천시 일반농산어촌개발사업 시설물 운영 및 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20220816",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1723203",
+      "categories": [
+       "C09",
+       "C12"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993875,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2123171",
+      "key": "ordin-2123171",
+      "name": "영천시 지방공무원 정원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20260415",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2123171",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993792,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1442659",
+      "key": "ordin-1442659",
+      "name": "영천시 적극행정 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20191231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1442659",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993497,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2123217",
+      "key": "ordin-2123217",
+      "name": "영천시 공유재산 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20260415",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2123217",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993425,
+      "stored_rank": null,
+      "ordinance_id": "ordin:770807",
+      "key": "ordin-770807",
+      "name": "영천시 양수기 운영관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20101004",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=770807",
+      "categories": []
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993414,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1269849",
+      "key": "ordin-1269849",
+      "name": "영천시 계약심의위원회의 구성·운영 및 주민참여감독대상공사 범위 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영천시",
+      "sig_cd": "47230",
+      "enacted_on": "20161226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1269849",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2123171",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.933561,
+    "best_rank": 6,
+    "ordinance_id": "ordin:2123171",
+    "key": "ordin-2123171",
+    "name": "영천시 지방공무원 정원 조례",
+    "region_name": "경상북도 영천시",
+    "sig_cd": "47230",
+    "enacted_on": "20260415",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2123171"
+   },
+   {
+    "node_id": "ordinance:ordin:1259267",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.929072,
+    "best_rank": 7,
+    "ordinance_id": "ordin:1259267",
+    "key": "ordin-1259267",
+    "name": "영천시 지방별정직공무원 자진퇴직수당지급에 관한 규칙",
+    "region_name": "경상북도 영천시",
+    "sig_cd": "47230",
+    "enacted_on": "20161019",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1259267"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

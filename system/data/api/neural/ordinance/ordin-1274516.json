@@ -1,0 +1,775 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1274516",
+   "key": "ordin-1274516",
+   "mst": "1274516",
+   "name": "예천군 인터넷 시스템 설치 및 운영에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "47900",
+   "sig_cd": "47900",
+   "region_name": "경상북도 예천군",
+   "org_name": "경상북도 예천군",
+   "enacted_on": "20161107",
+   "effective_on": "20161107",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 25,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1274516",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.5,
+     "method": "rule"
+    },
+    {
+     "code": "C13",
+     "name": "문화·체육·관광",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.892085,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2126957",
+      "key": "ordin-2126957",
+      "name": "예천군의회 정례회 및 임시회 회기 운영 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20260430",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2126957",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.891251,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1274742",
+      "key": "ordin-1274742",
+      "name": "예천군 지적재조사ㆍ경계결정위원회 및 지적재조사추진단 구성과 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20161114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1274742",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.885415,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1021406",
+      "key": "ordin-1021406",
+      "name": "예천군 민원조정위원회 설치 및 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20090409",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1021406",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.885046,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1657165",
+      "key": "ordin-1657165",
+      "name": "예천군 마을방송시스템 설치 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20211227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1657165",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.884284,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1657157",
+      "key": "ordin-1657157",
+      "name": "예천군 한옥 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20211227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1657157",
+      "categories": [
+       "C09",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.882409,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1719035",
+      "key": "ordin-1719035",
+      "name": "예천군 이불빨래방 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20220801",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1719035",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.881709,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1711893",
+      "key": "ordin-1711893",
+      "name": "예천군 금고지정 및 운영에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20220620",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1711893",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.878584,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1719063",
+      "key": "ordin-1719063",
+      "name": "예천군과 국내ㆍ외 도시 간 자매결연 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20220801",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1719063",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.878075,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1657161",
+      "key": "ordin-1657161",
+      "name": "예천군 한국전쟁 전후 민간인 희생자 위령사업 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20211227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1657161",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.878027,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1883071",
+      "key": "ordin-1883071",
+      "name": "예천군 물가대책위원회 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20231218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1883071",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990959,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2096265",
+      "key": "ordin-2096265",
+      "name": "예천군 화학물질 안전관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20251224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2096265",
+      "categories": [
+       "C08",
+       "C06"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99047,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1667865",
+      "key": "ordin-1667865",
+      "name": "예천군의회 지방공무원 후생복지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20220106",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1667865",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990137,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1655161",
+      "key": "ordin-1655161",
+      "name": "예천군의회 비위공직자의 의원면직 처리제한에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20211223",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1655161",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990076,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1301608",
+      "key": "ordin-1301608",
+      "name": "예천군 공동주택 품질검수단 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20170918",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1301608",
+      "categories": [
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990063,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2068973",
+      "key": "ordin-2068973",
+      "name": "예천군 물품관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20250922",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2068973",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.989698,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1408751",
+      "key": "ordin-1408751",
+      "name": "예천군 상징물 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20190916",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1408751",
+      "categories": []
+     },
+     {
+      "rank": 7,
+      "cosine": 0.989467,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1199794",
+      "key": "ordin-1199794",
+      "name": "예천군 교통안전에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20151116",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1199794",
+      "categories": [
+       "C10",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989442,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2096267",
+      "key": "ordin-2096267",
+      "name": "예천군 지방공무원 정원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20251224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2096267",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.988822,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1997011",
+      "key": "ordin-1997011",
+      "name": "예천군 폐기물 처리시설 설치촉진 및 주변지역 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20241223",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1997011",
+      "categories": [
+       "C07",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.988746,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2122639",
+      "key": "ordin-2122639",
+      "name": "예천군의회 청원 심사 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20260414",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2122639",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.99396,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1374645",
+      "key": "ordin-1374645",
+      "name": "예천군 친환경상품 구매촉진에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20181220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1374645",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993333,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1657161",
+      "key": "ordin-1657161",
+      "name": "예천군 한국전쟁 전후 민간인 희생자 위령사업 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20211227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1657161",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993304,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1540315",
+      "key": "ordin-1540315",
+      "name": "예천군 사회적경제 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20201029",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1540315",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993233,
+      "stored_rank": null,
+      "ordinance_id": "ordin:890339",
+      "key": "ordin-890339",
+      "name": "예천군 각종위원회 실비 변상 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20090409",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=890339",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993163,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1301433",
+      "key": "ordin-1301433",
+      "name": "예천군 주택임대차계약서 확정일자 부여 업무처리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20170918",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1301433",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993077,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2117723",
+      "key": "ordin-2117723",
+      "name": "예천군 희망택시 운행 및 이용주민 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20260330",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2117723",
+      "categories": [
+       "C10",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993037,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1301609",
+      "key": "ordin-1301609",
+      "name": "예천군 바르게살기운동조직 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20170918",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1301609",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.992843,
+      "stored_rank": null,
+      "ordinance_id": "ordin:790249",
+      "key": "ordin-790249",
+      "name": "예천군의회 공인 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20090409",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=790249",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.992808,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1657167",
+      "key": "ordin-1657167",
+      "name": "예천군 여객자동차 운수사업 재정지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20211227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1657167",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.992806,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1885663",
+      "key": "ordin-1885663",
+      "name": "예천군 리의 명칭 및 구역에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 예천군",
+      "sig_cd": "47900",
+      "enacted_on": "20231221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1885663",
+      "categories": []
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1657161",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.935704,
+    "best_rank": 2,
+    "ordinance_id": "ordin:1657161",
+    "key": "ordin-1657161",
+    "name": "예천군 한국전쟁 전후 민간인 희생자 위령사업 지원에 관한 조례",
+    "region_name": "경상북도 예천군",
+    "sig_cd": "47900",
+    "enacted_on": "20211227",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1657161"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

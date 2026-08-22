@@ -1,0 +1,415 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:268869",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "산림보호법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2025-01-31",
+   "effective_on": "20260201",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=268869&type=HTML&mobileYn=&efYd=20260201",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 397,
+   "child_ordinances": 355,
+   "by_verification_status": {
+    "article-missing": 311,
+    "article-verified": 4,
+    "unverifiable": 82
+   },
+   "by_delegation_type": {
+    "law-delegated": 397
+   },
+   "regions_top": [
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 9
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41650",
+     "name": "경기도 포천시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "44825",
+     "name": "충청남도 태안군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "44770",
+     "name": "충청남도 서천군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "44230",
+     "name": "충청남도 논산시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "52710",
+     "name": "전북특별자치도 완주군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "52",
+     "name": "전북특별자치도",
+     "ordinances": 3
+    },
+    {
+     "region_id": "51820",
+     "name": "강원특별자치도 고성군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "51730",
+     "name": "강원특별자치도 횡성군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "51230",
+     "name": "강원특별자치도 삼척시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "51210",
+     "name": "강원특별자치도 속초시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "51",
+     "name": "강원특별자치도",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48890",
+     "name": "경상남도 합천군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48870",
+     "name": "경상남도 함양군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48860",
+     "name": "경상남도 산청군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48850",
+     "name": "경상남도 하동군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48730",
+     "name": "경상남도 함안군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48330",
+     "name": "경상남도 양산시",
+     "ordinances": 3
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "산림보호의 기본원칙",
+    "body": "1.  산림을 자연적 또는 인위적인 피해로부터 온전하게 보호할 것\n2.  산림의 건강성을 유지ㆍ증진하여 지속 가능한 산림관리 기반을 조성할 것\n3.  산림보호구역의 합리적ㆍ체계적 관리로 산림의 공익기능을 증진할 것\n4.  국가와 지방자치단체 간에 유기적인 산림보호 협조체계를 만들어서 산림피해에 신속히 대응하게 할 것",
+    "body_truncated": false,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제3조"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "산림의 구분과 산림의 관할 행정청",
+    "body": "산림의 구분과 산림별 관할 행정청에 대하여는 「산림자원의 조성 및 관리에 관한 법률」 제4조 및 제5조를 적용한다.",
+    "body_truncated": false,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제6조"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "산림보호구역의 지정",
+    "body": "① 산림청장 또는 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사ㆍ특별자치도지사(이하 \"시ㆍ도지사\"라 한다)는 특별히 산림을 보호할 필요가 있으면 다음 각 호의 구분에 따라 산림보호구역을 지정할 수 있다. <개정 2012.2.22, 2014.6.3>\n1.  생활환경보호구역: 도시, 공단, 주요 병원 및 요양소의 주변 등 생활환경의 ",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제7조"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "산림보호구역 지정의 고시 등",
+    "body": "① 산림청장 또는 시ㆍ도지사는 제7조에 따라 산림보호구역을 지정하려면 지정 예정지에 대하여 다음 각 호의 사항을 공고하고, 토지소유자와 관할 시장ㆍ군수ㆍ구청장(자치구의 구청장을 말한다. 이하 같다) 및 「광업법」 제38조에 따른 광업권이 등록되어 있는 자 등 농림축산식품부령으로 정하는 자에게 알려야 한다. <개정 2012",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제8조"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "산림보호구역에서의 행위 제한",
+    "body": "① 산림보호구역(「산림문화ㆍ휴양에 관한 법률」 제14조제1항 또는 제2항에 따른 자연휴양림조성계획을 작성하거나 승인받은 구역은 제외한다. 이하 이 조에서 같다) 안에서는 다음 각 호의 행위를 하지 못한다. <개정 2014.6.3, 2018.2.21>\n1.  입목(立木)ㆍ죽(竹)의 벌채\n2.  임산물의 굴취(掘取)ㆍ채취\n2",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제9조"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "산림보호구역의 관리 등",
+    "body": "① 산림청장 또는 시ㆍ도지사는 산림보호구역을 지정하였으면 그 지정 목적대로 보호ㆍ관리하도록 노력하여야 한다. 이 경우 산림보호구역의 보호ㆍ관리나 기능 증진을 위하여 필요하다고 인정하면 관리인을 지정하거나, 산림보호구역의 소유자 또는 관리인과 산림보호에 관한 협약(이하 \"산림보호관리협약\"이라 한다)을 체결하여 산림을 관리하",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제10조"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "2",
+    "title": "국립공원 안의 산림유전자원보호구역 관리",
+    "body": "① 지방산림청장은 「자연공원법」 제2조제2호에 따른 국립공원 안의 산림유전자원보호구역의 보호ㆍ관리를 위하여 다음 각 호의 행위를 할 수 있다. 이 경우 공원관리청에 미리 통보하여야 한다.\n1.  산림유전자원의 조사ㆍ보존 및 연구\n2.  산림병해충의 방제\n3.  산불예방\n4.  그 밖에 산림유전자원보호구역의 보호ㆍ관리를 위",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제10조의2"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "3",
+    "title": "산림유전자원보호구역 관리기본계획의 수립ㆍ시행 등",
+    "body": "① 산림청장은 산림유전자원보호구역의 보호ㆍ관리를 위하여 5년마다 다음 각 호의 사항이 포함된 산림유전자원보호구역 관리기본계획(이하\"관리기본계획\"이라 한다)을 수립ㆍ시행하여야 한다.\n1.  산림유전자원보호구역 보호ㆍ관리 목표의 설정에 관한 사항\n2.  산림유전자원의 조사ㆍ연구에 관한 사항\n3.  산림유전자원의 분포 현황에 ",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제10조의3"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "산림보호구역의 지정해제",
+    "body": "① 산림청장 또는 시ㆍ도지사는 다음 각 호의 구분에 따라 산림보호구역의 전부 또는 일부의 지정을 해제할 수 있다. <개정 2010.2.4, 2012.2.22, 2013.3.23, 2014.6.3, 2016.12.27, 2019.12.3, 2023.3.21, 2023.8.8, 2024.2.6>\n1.  생활환경보호구역, 경관",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제11조"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "2",
+    "title": "산림보호구역의 재지정",
+    "body": "① 제11조제1항제1호다목부터 아목까지 및 제2호나목에 따라 지정해제된 산림보호구역이 다음 각 호의 어느 하나에 해당하는 경우에는 산림보호구역으로 다시 지정할 수 있다. <개정 2019.12.3, 2020.3.24>\n1.  산림보호구역 지정해제가 고시된 날부터 3년이 되는 날까지 관련 사업이 시작되지 아니한 경우\n2.  ",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제11조의2"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "산림보호구역의 토지의 매수ㆍ교환",
+    "body": "① 국가나 지방자치단체는 산림보호구역의 지정 목적을 달성하기 위하여 필요하면 토지소유자와 협의하거나 토지소유자의 신청을 받아 산림보호구역의 토지(입목ㆍ죽을 포함한다. 이하 이 조에서 같다)나 대통령령으로 정하는 산림보호구역 인근의 토지를 예산의 범위에서 매수하거나 국유림 또는 공유림과 교환할 수 있다. 다만, 다음 각 호",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제12조"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "산림정화구역의 지정 등",
+    "body": "① 산림청장, 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장 또는 지방산림청장은 오염되었거나 오염될 우려가 있어 오염을 방지ㆍ정화할 필요가 있는 산림이나 산림환경 보전을 위하여 필요하다고 인정되는 산림의 전부 또는 일부를 대통령령으로 정하는 기준에 따라 산림정화구역으로 지정할 수 있다. <개정 2014.6.3>\n② 산림청장",
+    "body_truncated": true,
+    "effective_on": "2026-02-01",
+    "article_key": "statute:268869::제14조"
+   }
+  ],
+  "article_count": 12,
+  "articles_shown": 12,
+  "articles_truncated_bodies": 10,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:2124395",
+    "name": "가평군 산사태취약지역지정위원회 구성 및 운영에 관한 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124395&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125875",
+    "name": "하동군 재난 대피에 관한 조례",
+    "region_id": "48850",
+    "org_name": "경상남도 하동군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125875&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127169",
+    "name": "경상남도 자연환경보전 조례",
+    "region_id": "48",
+    "org_name": "경상남도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127169&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127521",
+    "name": "동두천시 산사태취약지역 지정위원회 구성 및 운영에 관한 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128777",
+    "name": "대구광역시 조경관리 조례",
+    "region_id": "27",
+    "org_name": "대구광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128777&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2129709",
+    "name": "남양주시 도시숲 등의 조성 및 관리에 관한 조례",
+    "region_id": "41360",
+    "org_name": "경기도 남양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129709&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2131669",
+    "name": "하동군 산불방지 등 포상금 지급 규칙",
+    "region_id": "48850",
+    "org_name": "경상남도 하동군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2131669&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132779",
+    "name": "전남광주통합특별시 서구 보호수 및 노거수 관리 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132779&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132807",
+    "name": "전남광주통합특별시 서구 산사태 취약지역 지정위원회 구성 및 운영에 관한 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132807&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133627",
+    "name": "진도군 재난현장 통합지원본부 설치 및 운영 조례",
+    "region_id": "12860",
+    "org_name": "전남광주통합특별시 진도군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133627&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2135419",
+    "name": "인천광역시 서해구 산사태취약지역지정위원회 구성 및 운영에 관한 조례",
+    "region_id": "28275",
+    "org_name": "인천광역시 서해구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2136159",
+    "name": "경기도 자연환경보전 조례",
+    "region_id": "41",
+    "org_name": "경기도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2136159&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2137841",
+    "name": "제주특별자치도 장사 등에 관한 조례",
+    "region_id": "50",
+    "org_name": "제주특별자치도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2137841&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2137911",
+    "name": "서울특별시 영등포구 가로수 조성 및 관리 조례",
+    "region_id": "11560",
+    "org_name": "서울특별시 영등포구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2137911&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2139639",
+    "name": "함안군 재난대피에 관한 조례",
+    "region_id": "48730",
+    "org_name": "경상남도 함안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2139639&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2142695",
+    "name": "안성시 산사태취약지역지정위원회의 구성ㆍ운영에 관한 조례",
+    "region_id": "41550",
+    "org_name": "경기도 안성시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142695&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2143671",
+    "name": "인천광역시 검단구 산사태취약지역지정위원회 구성 및 운영에 관한 조례",
+    "region_id": "28290",
+    "org_name": "인천광역시 검단구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2143671&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2146669",
+    "name": "전남광주통합특별시 광산구 산사태취약지역지정위원회 구성 및 운영에 관한 조례",
+    "region_id": "12330",
+    "org_name": "전남광주통합특별시 광산구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2146669&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2149105",
+    "name": "전남광주통합특별시 동구 산불방지 활동 지원에 관한 조례",
+    "region_id": "12210",
+    "org_name": "전남광주통합특별시 동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2149105&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2150707",
+    "name": "전남광주통합특별시 동구 산사태취약지역지정위원회 설치 및 운영에 관한 조례",
+    "region_id": "12210",
+    "org_name": "전남광주통합특별시 동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2150707&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

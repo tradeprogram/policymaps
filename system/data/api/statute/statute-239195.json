@@ -1,0 +1,586 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:239195",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "지방공무원 인사기록ㆍ통계 및 인사사무 처리 규칙",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20220113",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=239195&type=HTML&mobileYn=&efYd=20220113",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 489,
+   "child_ordinances": 463,
+   "by_verification_status": {
+    "article-missing": 139,
+    "article-verified": 310,
+    "unverifiable": 40
+   },
+   "by_delegation_type": {
+    "law-delegated": 489
+   },
+   "regions_top": [
+    {
+     "region_id": "52800",
+     "name": "전북특별자치도 부안군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "26440",
+     "name": "부산광역시 강서구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "52210",
+     "name": "전북특별자치도 김제시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48740",
+     "name": "경상남도 창녕군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47290",
+     "name": "경상북도 경산시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47170",
+     "name": "경상북도 안동시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "44790",
+     "name": "충청남도 청양군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "44180",
+     "name": "충청남도 보령시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "43",
+     "name": "충청북도",
+     "ordinances": 4
+    },
+    {
+     "region_id": "31140",
+     "name": "울산광역시 남구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "31",
+     "name": "울산광역시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "30170",
+     "name": "대전광역시 서구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "27110",
+     "name": "대구광역시 중구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "12780",
+     "name": "전남광주통합특별시 강진군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "12770",
+     "name": "전남광주통합특별시 장흥군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "11590",
+     "name": "서울특별시 동작구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "11560",
+     "name": "서울특별시 영등포구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "11545",
+     "name": "서울특별시 금천구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "51830",
+     "name": "강원특별자치도 양양군",
+     "ordinances": 3
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 규칙은 「지방공무원법」 제6조제3항과 「지방공무원 임용령」 제10조제2항 및 제10조의2에 따라 지방자치단체 소속 지방공무원의 인사기록과 인사통계 보고 및 인사사무 처리에 관한 통일적인 서식과 절차를 규정하여 인사관리를 합리화함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "다른 법령과의 관계",
+    "body": "제2조(다른 법령과의 관계)\n지방자치단체의 장과 지방의회의 의장 소속 지방공무원(이하 \"공무원\"이라 한다)의 인사기록과 인사통계 보고 및 인사사무 처리는 다른 법령에 특별한 규정이 있는 경우를 제외하고는 이 규칙에 따른다. <개정 2020.1.14, 2022.1.4>",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "인사사무의 전산관리 서식 등",
+    "body": "제3조(인사사무의 전산관리 서식 등)\n인사사무를 전산관리하기 위하여 필요한 서식 및 사무절차는 행정안전부장관이 따로 정할 수 있다. <개정 2013.3.23, 2014.11.19, 2017.7.26>",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "인사기록의 종류",
+    "body": "제4조(인사기록의 종류)\n공무원의 인사기록은 개인별 인사기록과 인사관리서류로 구분하며 그 종류는 별표 1과 같다.",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "인사기록의 작성ㆍ유지ㆍ보관",
+    "body": "제5조(인사기록의 작성ㆍ유지ㆍ보관)\n① 임용권자는 소속 공무원에 대한 제4조의 인사기록을 작성ㆍ유지ㆍ보관(보존을 포함한다. 이하 같다)하여야 한다.\n② 공무원의 임용권이 없는 5급 이상 공무원, 연구관ㆍ지도관 또는 이에 상당하는 공무원인 기관의 장은 필요하다고 인정할 때에는 제4조의 인사기록의 부본(副本)을 작성ㆍ유지ㆍ보",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "2",
+    "title": "인사기록의 전자적 관리 등",
+    "body": "제5조의2(인사기록의 전자적 관리 등)\n① 임용권자는 제5조에도 불구하고 소속 공무원에 대한 인사기록을 전자인사관리시스템으로 작성ㆍ유지ㆍ보관할 수 있다. 다만, 별지 제2호서식의 인사기록카드는 전자인사관리시스템으로 기록ㆍ유지ㆍ보관하여야 한다.\n② 제1항에 따라 인사기록을 전자인사관리시스템으로 작성ㆍ유지ㆍ보관하는 방법 및 ",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0005021"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "인사기록카드의 정리 및 변경",
+    "body": "제6조(인사기록카드의 정리 및 변경)\n① 공무원이 신규임용, 승진, 전직, 전보, 강임, 면직, 징계, 휴직, 직위해제, 복직, 국내외 훈련, 국외 출장, 겸임, 파견, 직무대리, 승급, 전출, 전입되었거나 포상을 받았을 때에는 임용권자는 지체 없이 그 사실을 별지 제2호서식의 인사기록카드에 기록하여야 한다.\n② 공무원이",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "징계등 처분기록의 말소",
+    "body": "제7조(징계등 처분기록의 말소)\n① 임용권자는 징계처분을 받은 공무원이 다음 각 호의 어느 하나에 해당하는 경우에는 그 공무원의 인사기록카드에 올라 있는 징계처분의 기록을 말소해야 한다. <개정 2020.1.14>\n1. 징계처분의 집행이 끝난 날부터 다음의 각 목의 구분에 따른 기간이 지난 경우. 다만, 징계처분을 받고 ",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "개인별 인사기록의 이관",
+    "body": "제8조(개인별 인사기록의 이관)\n① 공무원이 전출되어 임용권자가 달라진 때에는 그 공무원의 전(前) 임용권자는 그 공무원의 개인별 인사기록, 인사평정서, 근무성적평정, 경력평정, 가점평정에 관한 서류 및 전자인사관리시스템으로 작성한 인사기록 파일을 그 사유가 발생한 후 지체 없이 그 공무원의 새 임용권자에게 이관해야 한다",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "전력 조회",
+    "body": "제9조(전력 조회)\n① 임용권자는 공무원을 임용할 때에는 임용예정자의 공무원 경력 여부를 「공무원연금법」 제4조에 따른 공무원연금공단에 조회해야 한다. 다만, 임용예정자의 나이 등을 고려할 때 공무원 경력이 없는 것이 명백하거나 경력증명서 등을 통하여 공무원 경력이 확인된 경우에는 공무원 경력 조회를 생략할 수 있다. <",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "시험 요구 서식 및 구비서류",
+    "body": "제10조(시험 요구 서식 및 구비서류)\n① 임용권자가 시험실시기관의 장에게 경력경쟁임용시험을 요구할 때에는 별지 제6호서식의 공무원 경력경쟁임용시험 요구서에 따른다. <개정 2013.12.12>\n② 임용권자가 시험실시기관의 장에게 일반승진시험 및 전직시험을 요구할 때에는 별지 제7호서식의 공무원 일반승진시험 요구서 및 별",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "임용후보자 추천 서식",
+    "body": "제11조(임용후보자 추천 서식)\n임용권자가 시험실시기관의 장에게 임용후보자 추천을 요구할 때에는 별지 제9호서식의 공무원 임용후보자 추천 요구서에 따르고, 시험실시기관의 장이 임용권자에게 임용후보자를 추천할 때에는 별지 제10호서식의 공무원 임용후보자 추천서에 따른다.",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "임용관계 서식 및 구비서류",
+    "body": "제12조(임용관계 서식 및 구비서류)\n① 임용권자는 공무원을 임용할 때에는 별지 제11호서식의 공무원 임용서에 별지 제12호서식의 공무원 임용조사서와 별표 3의 구비서류를 첨부하여야 한다. 다만, 임용권자와 시험실시기관의 장이 같은 경우에는 시험 시행 시 제출한 서류는 첨부하지 아니할 수 있다.\n② 제1항의 서류는 원본을",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "2",
+    "title": "당연퇴직 사유 등의 확인",
+    "body": "제12조의2(당연퇴직 사유 등의 확인)\n① 임용권자는 소속 공무원의 승진임용 시 법 제31조에 따른 임용 결격사유 및 법 제61조에 따른 당연퇴직 사유에 해당하는지를 확인하여야 한다. 다만, 승진이 없는 지방전문경력관, 특정직공무원 및 별정직공무원 등의 경우에는 임용일부터 5년마다 이를 확인하여야 한다. <개정 2013.",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0012021"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "3",
+    "title": "복수국적 여부의 확인",
+    "body": "제12조의3(복수국적 여부의 확인)\n임용권자는 영 제3조의6제2항에 따른 업무 분야에 공무원을 임용하려는 경우 임용예정자가 같은 항에 따라 임용이 제한되는 복수국적자에 해당하는지 여부를 법무부장관에게 조회해야 한다.",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0012031"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "선서문",
+    "body": "제13조(선서문)\n임용권자는 선서한 공무원으로 하여금 별지 제14호서식의 선서문 두 부에 각각 서명날인하게 하여 한 부는 개인별 인사기록으로 분류하여 보관하고, 한 부는 본인이 가지고 있도록 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "전출ㆍ전입 동의요구 및 통보",
+    "body": "제14조(전출ㆍ전입 동의요구 및 통보)\n① 임용권자가 다른 지방자치단체 소속 공무원의 전입을 요구할 때에는 별지 제15호서식의 공무원 전입ㆍ전출 동의 요구서에 따르며, 전입ㆍ전출 동의 요구서를 받은 지방자치단체의 장과 지방의회의 의장이 그 동의 여부를 통보할 때에는 별지 제16호서식의 공무원 전출ㆍ전입 동의서에 따른다. ",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "전보 사전의결",
+    "body": "제15조(전보 사전의결)\n임용권자는 전보 제한기간 중에 있는 공무원을 영 제27조제2항 및 같은 조 제4항 단서에 따라 해당 인사위원회에 전보의결을 요구할 때에는 별지 제17호서식에 따른다.",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": null,
+    "body": "제16조\n삭제 <2020.1.14>",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "정원ㆍ현원 대비표",
+    "body": "제17조(정원ㆍ현원 대비표)\n임용권자는 소속 공무원에 대한 정원과 현원을 파악하기 위하여 매월 말일을 기준으로 별지 제20호서식의 정원ㆍ현원 대비표를 작성하여 갖춰 두어야 한다. 이 경우 정원ㆍ현원 대비표의 작성 단위는 과 단위의 보조기관, 소속 행정기관 또는 하부행정기관 단위로 한다.",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "임용장 및 발령 통지서",
+    "body": "제18조(임용장 및 발령 통지서)\n① 임용권자는 정규공무원으로 신규임용되거나 승진임용되는 공무원에게 별지 제21호서식의 임용장을 수여한다. 이 경우 소속 기관의 장이 대리 수여할 수 있으며, 효율적인 인사운영을 위해 필요하면 별지 제22호서식의 인사발령 통지서(전자문서형식으로 공람하는 것을 포함한다)를 줌으로써 임용장 수",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "발령대장",
+    "body": "제19조(발령대장)\n① 임용권자는 소속 공무원에 대한 인사발령 사항을 기록하기 위하여 별지 제24호서식의 발령대장을 갖추고 보관하여야 한다. 다만, 승급발령의 경우에는 그 발령인원이 많은 경우에만 기록을 생략할 수 있다.\n② 제1항의 발령대장은 필요하다고 인정될 때에는 계급별 또는 발령 내용별로 구분하여 갖추고 보관할 수",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": null,
+    "body": "제20조\n삭제 <2008.8.26>",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "공보의 게재",
+    "body": "제21조(공보의 게재)\n임용권자는 5급 이상 소속 공무원 및 이에 상당하는 소속 공무원의 신규임용 및 승진임용 등의 인사발령 사항은 발령과 동시에 특별시ㆍ광역시ㆍ특별자치시ㆍ도 또는 특별자치도(이하 \"시ㆍ도\"라 한다)에서 발행하는 공보 또는 인터넷 홈페이지 등 홍보매체에 게재해야 한다. <개정 2020.1.14, 2022.",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "인사발령 통지",
+    "body": "제22조(인사발령 통지)\n임용권자가 제18조에 따른 인사발령을 하였을 때에는 발령과 동시에 별지 제27호서식의 인사발령 통지서로 관련 기관에 통지하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "재직증명서 및 경력증명서의 발급",
+    "body": "제23조(재직증명서 및 경력증명서의 발급)\n① 임용권자는 재직 중인 공무원이 재직증명서의 발급을 청구할 때에는 별지 제2호서식의 인사기록카드에 따라 별지 제28호서식의 재직증명서를 발급하여야 한다.\n② 임용권자는 다음 각 호의 어느 하나에 해당하는 사람이 경력증명서의 발급을 청구할 때에는 별지 제2호서식의 인사기록카드나 ",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "인사통계 보고의 구분",
+    "body": "제24조(인사통계 보고의 구분)\n① 인사통계 보고는 정기보고와 수시보고로 구분한다.\n② 정기보고의 종류는 공무원 현원통계, 임용통계, 징계종류별 비위통계 등으로 하고, 종류 및 서식 등에 관하여 필요한 사항은 행정안전부장관이 정한다. <개정 2020.1.14>\n③ 제2항에 따른 정기보고의 작성기준일은 매년 12월 31일 ",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "통계 보고의 단계",
+    "body": "제25조(통계 보고의 단계)\n해당 연도 통계의 정기보고는 다음해 1월 10일까지 작성하되, 다음해 1월 20일까지 시장ㆍ군수 또는 자치구의 구청장은 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사ㆍ특별자치도지사(이하 \"시ㆍ도지사\"라 한다)에게, 시ㆍ군ㆍ자치구의회의 의장은 시ㆍ도의회의 의장에게 보고하고, 시ㆍ도지사와 시ㆍ도의회의 의장",
+    "body_truncated": true,
+    "effective_on": "20220113",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": "2",
+    "title": "통계 자료의 제공 및 활용",
+    "body": "제25조의2(통계 자료의 제공 및 활용)\n행정안전부장관은 제25조에 따라 보고받은 통계를 인사정책의 수립 및 운영 등을 위해 활용할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0025021"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "전체 공무원 통계조사",
+    "body": "제26조(전체 공무원 통계조사)\n행정안전부장관은 필요하다고 인정할 때에는 공무원 총조사 계획을 수립하여 전체 공무원을 대상으로 공무원 각자의 인사 사항을 조사할 수 있다. <개정 2013.3.23, 2014.11.19, 2017.7.26>",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "통계조사의 협조",
+    "body": "제27조(통계조사의 협조)\n행정안전부장관은 교육부장관의 협조를 받아 시ㆍ도 교육감 소속의 지방공무원에 대한 인사통계의 보고를 받을 수 있다. <개정 2013.3.23, 2014.11.19, 2017.7.26, 2020.1.14, 2022.1.4>",
+    "body_truncated": false,
+    "effective_on": "20220113",
+    "article_key": "0027001"
+   }
+  ],
+  "article_count": 31,
+  "articles_shown": 31,
+  "articles_truncated_bodies": 16,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1004428",
+    "name": "하동군 지방계약직공무원 규정 시행규칙",
+    "region_id": "48850",
+    "org_name": "경상남도 하동군",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1004428&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1005777",
+    "name": "부안군 지방계약직공무원규정 시행규칙",
+    "region_id": "52800",
+    "org_name": "전북특별자치도 부안군",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1005777&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1008986",
+    "name": "대구광역시 북구 지방계약직공무원 규정 시행규칙",
+    "region_id": "27230",
+    "org_name": "대구광역시 북구",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1008986&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1037006",
+    "name": "원주시 지방계약직공무원 규정 시행규칙",
+    "region_id": "51130",
+    "org_name": "강원특별자치도 원주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1037006&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1082084",
+    "name": "고양시 지방계약직공무원 규정 시행규칙",
+    "region_id": "41280",
+    "org_name": "경기도 고양시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1082084&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1094480",
+    "name": "울산광역시동구 지방계약직공무원 규정 시행규칙",
+    "region_id": "31170",
+    "org_name": "울산광역시 동구",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1094480&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1126340",
+    "name": "강릉시 지방계약직공무원 규정 시행규칙",
+    "region_id": "51150",
+    "org_name": "강원특별자치도 강릉시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1126340&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1176482",
+    "name": "충주시 지방 계약직 공무원 규정 시행규칙",
+    "region_id": "43130",
+    "org_name": "충청북도 충주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1176482&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1181295",
+    "name": "청주시 지방공무원 인사규칙(폐지)",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1181295&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1203302",
+    "name": "서울특별시 중구 지방계약직공무원 관리 규칙",
+    "region_id": "11140",
+    "org_name": "서울특별시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1203302&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1318439",
+    "name": "영양군 지방공무원 인사 규칙",
+    "region_id": "47760",
+    "org_name": "경상북도 영양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1318439&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1349671",
+    "name": "구례군 지방공무원 인사 규칙",
+    "region_id": "12730",
+    "org_name": "전남광주통합특별시 구례군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1349671&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1350362",
+    "name": "서울특별시 영등포구 지방공무원 근무에 관한 규칙",
+    "region_id": "11560",
+    "org_name": "서울특별시 영등포구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1350362&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1351345",
+    "name": "서산시 지방계약직공무원규정 시행규칙",
+    "region_id": "44210",
+    "org_name": "충청남도 서산시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1351345&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1359402",
+    "name": "청원군 지방공무원 인사규칙",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1359402&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396344",
+    "name": "태안군 지방공무원 인사 규칙",
+    "region_id": "44825",
+    "org_name": "충청남도 태안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396344&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1422701",
+    "name": "울산광역시 북구 지방공무원 인사 규칙",
+    "region_id": "31200",
+    "org_name": "울산광역시 북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422701&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1432817",
+    "name": "서울특별시 마포구 지방공무원 근무에 관한 규칙",
+    "region_id": "11440",
+    "org_name": "서울특별시 마포구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1432817&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1588809",
+    "name": "장흥군 지방공무원 인사 규칙",
+    "region_id": "12770",
+    "org_name": "전남광주통합특별시 장흥군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1588809&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1625019",
+    "name": "서울특별시 양천구 지방공무원 근무에 관한 규칙",
+    "region_id": "11470",
+    "org_name": "서울특별시 양천구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1625019&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

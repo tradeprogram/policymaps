@@ -1,0 +1,702 @@
+{
+ "data": {
+  "region": {
+   "region_id": "44230",
+   "sig_cd": "44230",
+   "name": "논산시",
+   "full_name": "충청남도 논산시",
+   "level": 2
+  },
+  "counts": {
+   "total": 832,
+   "active": 737,
+   "repealed": 95,
+   "by_rr_cls_cd": {
+    "일부개정": 450,
+    "전부개정": 31,
+    "제정": 256,
+    "폐지": 95
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 15
+   },
+   {
+    "year": 2015,
+    "n": 14
+   },
+   {
+    "year": 2016,
+    "n": 34
+   },
+   {
+    "year": 2017,
+    "n": 16
+   },
+   {
+    "year": 2018,
+    "n": 21
+   },
+   {
+    "year": 2019,
+    "n": 40
+   },
+   {
+    "year": 2020,
+    "n": 41
+   },
+   {
+    "year": 2021,
+    "n": 96
+   },
+   {
+    "year": 2022,
+    "n": 68
+   },
+   {
+    "year": 2023,
+    "n": 147
+   },
+   {
+    "year": 2024,
+    "n": 140
+   },
+   {
+    "year": 2025,
+    "n": 114
+   },
+   {
+    "year": 2026,
+    "n": 51
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 4
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 6
+   },
+   {
+    "year": 2016,
+    "n": 6
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 8
+   },
+   {
+    "year": 2020,
+    "n": 8
+   },
+   {
+    "year": 2021,
+    "n": 16
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 3
+   },
+   {
+    "year": 2024,
+    "n": 1
+   },
+   {
+    "year": 2025,
+    "n": 4
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계 양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수ㆍ분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법위반자에대한과태료부과ㆍ징수조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황공개조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "주민의조례제정및개폐청구에관한조례",
+    "display_name": "주민의 조례 제정 및 개·폐 청구에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "재정운영상황공개조례시행규칙",
+    "display_name": "재정운영상황공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 58
+   },
+   {
+    "policy_key": "장수수당지급조례",
+    "display_name": "장수수당 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 56
+   },
+   {
+    "policy_key": "지방채상환기금설치및운용조례",
+    "display_name": "지방채상환기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 52
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2126805",
+    "name": "논산시의회 포상규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-04-30",
+    "repealed_on": "2026-04-30",
+    "repealed_on_raw": "20260430",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2100617",
+    "name": "논산시 대학생 아르바이트 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-12-30",
+    "repealed_on": "2025-12-30",
+    "repealed_on_raw": "20251230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100617&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2095535",
+    "name": "논산시 소하천 점ㆍ사용료 등 부과 및 징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-12-22",
+    "repealed_on": "2025-12-22",
+    "repealed_on_raw": "20251222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2095535&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2036365",
+    "name": "논산시 중소기업경영안정기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-12",
+    "repealed_on": "2025-05-12",
+    "repealed_on_raw": "20250512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2036365&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2036311",
+    "name": "논산시 중소기업경영안정기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-05-12",
+    "repealed_on": "2025-05-12",
+    "repealed_on_raw": "20250512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2036311&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1911361",
+    "name": "논산시 시민안전보험 가입에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-11",
+    "repealed_on": "2024-03-13",
+    "repealed_on_raw": "20240313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911361&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1850577",
+    "name": "논산시 장기요양요원 처우개선 및 지위향상에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-11",
+    "repealed_on": "2023-09-11",
+    "repealed_on_raw": "20230911",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1850577&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1820979",
+    "name": "논산시 정책자문위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-12",
+    "repealed_on": "2023-06-12",
+    "repealed_on_raw": "20230612",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1820979&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1807561",
+    "name": "논산시 자연재난인명피해심의위원회 구성 및 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-05-10",
+    "repealed_on": "2023-05-10",
+    "repealed_on_raw": "20230510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1807561&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1780531",
+    "name": "논산시 기후변화 대응 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-20",
+    "repealed_on": "2022-12-20",
+    "repealed_on_raw": "20221220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1780531&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1780533",
+    "name": "논산시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-20",
+    "repealed_on": "2022-12-20",
+    "repealed_on_raw": "20221220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1780533&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1698005",
+    "name": "논산시 지방보조금 신고포상금 지급 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-11",
+    "repealed_on": "2022-04-11",
+    "repealed_on_raw": "20220411",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1698005&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669941",
+    "name": "논산시 주민의 조례 제정 및 개·폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-20",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669941&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1670013",
+    "name": "논산시 주민의 조례 제정 및 개·폐 청구에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1670013&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661137",
+    "name": "논산시 국민기초생활보장수급자 생활안정기금 융자 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661137&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661127",
+    "name": "논산시 노인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661127&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661133",
+    "name": "논산시 농업발전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661129",
+    "name": "논산시 문화예술진흥기금 조성 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661129&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661131",
+    "name": "논산시 양성평등기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661131&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661135",
+    "name": "논산시장기미집행도시계획시설대지보상임시특별회계설치및운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661135&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661125",
+    "name": "논산시 체육진흥기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661125&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661151",
+    "name": "논산시 국민기초생활수급자 생활안정기금 융자 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661151&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661145",
+    "name": "논산시문화예술진흥기금조성운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661145&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661149",
+    "name": "논산시 장기미집행 도시계획시설 대지보상 임시특별회계 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661149&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661147",
+    "name": "논산시체육진흥기금설치및운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661147&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669997",
+    "name": "논산시 농업산ㆍ학협동심의회 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-20",
+    "repealed_on": "2021-12-20",
+    "repealed_on_raw": "20211220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669997&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1603303",
+    "name": "논산시각종위원회실비변상조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-10",
+    "repealed_on": "2021-06-10",
+    "repealed_on_raw": "20210610",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1603303&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1604081",
+    "name": "논산시 아동급식위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-10",
+    "repealed_on": "2021-06-10",
+    "repealed_on_raw": "20210610",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1604081&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1578381",
+    "name": "논산시 택지개발에 따른 폐기물처리시설 설치 비용 산정에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-10",
+    "repealed_on": "2021-03-10",
+    "repealed_on_raw": "20210310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1578381&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1544337",
+    "name": "논산시 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-10",
+    "repealed_on": "2021-01-08",
+    "repealed_on_raw": "20210108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1544337&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1544719",
+    "name": "논산시 기반시설특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-10",
+    "repealed_on": "2020-11-10",
+    "repealed_on_raw": "20201110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1544719&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1527079",
+    "name": "논산시 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-10",
+    "repealed_on": "2020-09-10",
+    "repealed_on_raw": "20200910",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1527079&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1515429",
+    "name": "논산시공공사업에따른주택자금융자기금설치및운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-10",
+    "repealed_on": "2020-07-10",
+    "repealed_on_raw": "20200710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515429&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1515427",
+    "name": "논산시공공사업에따른주택자금융자기금설치및운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-07-10",
+    "repealed_on": "2020-07-10",
+    "repealed_on_raw": "20200710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515427&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1474751",
+    "name": "논산시새마을주민소득지원기금운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-03-02",
+    "repealed_on": "2020-03-02",
+    "repealed_on_raw": "20200302",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1474751&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1474753",
+    "name": "논산시새마을주민소득지원기금운용관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-03-02",
+    "repealed_on": "2020-03-02",
+    "repealed_on_raw": "20200302",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1474753&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1474749",
+    "name": "논산시 지방채상환기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-03-02",
+    "repealed_on": "2020-03-02",
+    "repealed_on_raw": "20200302",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1474749&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1418689",
+    "name": "논산시 교통약자 특별교통수단 관리 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-11",
+    "repealed_on": "2020-01-01",
+    "repealed_on_raw": "20200101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418689&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1431889",
+    "name": "논산시부동산중개업법위반자에관한과태료부과ㆍ징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-13",
+    "repealed_on": "2019-12-13",
+    "repealed_on_raw": "20191213",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1431889&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1431915",
+    "name": "논산시 부실공사방지위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-13",
+    "repealed_on": "2019-12-13",
+    "repealed_on_raw": "20191213",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1431915&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "44230"
+ ]
+}

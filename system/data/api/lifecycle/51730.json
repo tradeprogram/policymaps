@@ -1,0 +1,694 @@
+{
+ "data": {
+  "region": {
+   "region_id": "51730",
+   "sig_cd": "51730",
+   "name": "횡성군",
+   "full_name": "강원특별자치도 횡성군",
+   "level": 2
+  },
+  "counts": {
+   "total": 705,
+   "active": 569,
+   "repealed": 136,
+   "by_rr_cls_cd": {
+    "일부개정": 372,
+    "전부개정": 41,
+    "제정": 156,
+    "폐지": 136
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 5
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 9
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 12
+   },
+   {
+    "year": 2013,
+    "n": 11
+   },
+   {
+    "year": 2014,
+    "n": 7
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 33
+   },
+   {
+    "year": 2017,
+    "n": 18
+   },
+   {
+    "year": 2018,
+    "n": 20
+   },
+   {
+    "year": 2019,
+    "n": 24
+   },
+   {
+    "year": 2020,
+    "n": 27
+   },
+   {
+    "year": 2021,
+    "n": 32
+   },
+   {
+    "year": 2022,
+    "n": 58
+   },
+   {
+    "year": 2023,
+    "n": 169
+   },
+   {
+    "year": 2024,
+    "n": 104
+   },
+   {
+    "year": 2025,
+    "n": 96
+   },
+   {
+    "year": 2026,
+    "n": 52
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 7
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 8
+   },
+   {
+    "year": 2014,
+    "n": 7
+   },
+   {
+    "year": 2015,
+    "n": 5
+   },
+   {
+    "year": 2016,
+    "n": 23
+   },
+   {
+    "year": 2017,
+    "n": 2
+   },
+   {
+    "year": 2018,
+    "n": 14
+   },
+   {
+    "year": 2019,
+    "n": 9
+   },
+   {
+    "year": 2020,
+    "n": 6
+   },
+   {
+    "year": 2021,
+    "n": 7
+   },
+   {
+    "year": 2022,
+    "n": 13
+   },
+   {
+    "year": 2023,
+    "n": 3
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 4
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과·징수조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금지급조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2093041",
+    "name": "횡성군 주택용 소방시설 설치 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-17",
+    "repealed_on": "2025-12-17",
+    "repealed_on_raw": "20251217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2093041&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2093033",
+    "name": "횡성군 지역개발사업 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-17",
+    "repealed_on": "2025-12-17",
+    "repealed_on_raw": "20251217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2093033&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2058335",
+    "name": "횡성군 향토주인상 및 향토일꾼상 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-07-14",
+    "repealed_on": "2025-07-14",
+    "repealed_on_raw": "20250714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058335&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2058393",
+    "name": "횡성군 건강생활실천협의회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-11",
+    "repealed_on": "2025-07-11",
+    "repealed_on_raw": "20250711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058393&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2119403",
+    "name": "횡성군 청·장년 일자리보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-18",
+    "repealed_on": "2024-12-18",
+    "repealed_on_raw": "20241218",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119403&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2002379",
+    "name": "횡성군읍면종합복지회관설치및운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-12-18",
+    "repealed_on": "2024-12-18",
+    "repealed_on_raw": "20241218",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002379&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1857603",
+    "name": "횡성군 장기미집행 도시계획시설 대지보상 임시특별회계 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2023-09-27",
+    "repealed_on_raw": "20230927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1857603&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1884255",
+    "name": "횡성군 참전유공자 등 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-14",
+    "repealed_on": "2023-07-14",
+    "repealed_on_raw": "20230714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884255&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1805303",
+    "name": "횡성군 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-01",
+    "repealed_on": "2023-05-01",
+    "repealed_on_raw": "20230501",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1805303&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1758459",
+    "name": "횡성군 공설묘지 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-16",
+    "repealed_on": "2022-12-16",
+    "repealed_on_raw": "20221216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758459&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1758457",
+    "name": "횡성군 공설 봉안당 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-16",
+    "repealed_on": "2022-12-16",
+    "repealed_on_raw": "20221216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758457&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1757921",
+    "name": "횡성군 군정모니터 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-16",
+    "repealed_on": "2022-12-16",
+    "repealed_on_raw": "20221216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1757921&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1757923",
+    "name": "횡성군민대통합위원회의 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-16",
+    "repealed_on": "2022-12-16",
+    "repealed_on_raw": "20221216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1757923&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1758441",
+    "name": "횡성군공설묘지관리·운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-16",
+    "repealed_on": "2022-12-16",
+    "repealed_on_raw": "20221216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1759199",
+    "name": "횡성군의회 의원 상해 등 보상금 지급에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-16",
+    "repealed_on": "2022-12-16",
+    "repealed_on_raw": "20221216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1759199&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1744813",
+    "name": "횡성공론화위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-07",
+    "repealed_on": "2022-11-07",
+    "repealed_on_raw": "20221107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744813&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1744819",
+    "name": "횡성군 보도구역내 횡단차도 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-07",
+    "repealed_on": "2022-11-07",
+    "repealed_on_raw": "20221107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744819&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1744821",
+    "name": "횡성군사전재해영향성검토위원회 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-07",
+    "repealed_on": "2022-11-07",
+    "repealed_on_raw": "20221107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744821&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1744823",
+    "name": "횡성군 축산폐수처리사업소 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-07",
+    "repealed_on": "2022-11-07",
+    "repealed_on_raw": "20221107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744823&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1744817",
+    "name": "횡성군 횡성레포츠공원 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-07",
+    "repealed_on": "2022-11-07",
+    "repealed_on_raw": "20221107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744817&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1744805",
+    "name": "횡성군 체육진흥기금 설치 및 운용조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-07",
+    "repealed_on": "2022-11-07",
+    "repealed_on_raw": "20221107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1744803",
+    "name": "횡성군 축산폐수처리사업소 직제규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-07",
+    "repealed_on": "2022-11-07",
+    "repealed_on_raw": "20221107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744803&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1668975",
+    "name": "횡성군 도시림 및 가로수 조성ㆍ관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1668975&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1680531",
+    "name": "횡성군 주민의 조례제정 및 개폐청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1680531&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1668969",
+    "name": "횡성군 체육진흥협의회 조직운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1668969&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1665273",
+    "name": "횡성군 새마을운동조직 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1665273&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1613749",
+    "name": "횡성군 도로명주소에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-06-30",
+    "repealed_on": "2021-06-30",
+    "repealed_on_raw": "20210630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1613749&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1613359",
+    "name": "횡성군 재정안정화기금 운용에 관한 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-06-30",
+    "repealed_on": "2021-06-30",
+    "repealed_on_raw": "20210630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1613359&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1588963",
+    "name": "횡성군 한옥학교 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-04-12",
+    "repealed_on": "2021-04-12",
+    "repealed_on_raw": "20210412",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1588963&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1565711",
+    "name": "횡성군 농공단지 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1565711&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1565737",
+    "name": "횡성군 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1565737&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1509537",
+    "name": "횡성군 민원상담관 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-06-30",
+    "repealed_on": "2020-06-30",
+    "repealed_on_raw": "20200630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1509537&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1527253",
+    "name": "횡성군 캠핑장 관리 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-06-30",
+    "repealed_on": "2020-06-30",
+    "repealed_on_raw": "20200630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1527253&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1486899",
+    "name": "횡성군수렵장 운영관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-10",
+    "repealed_on": "2020-04-10",
+    "repealed_on_raw": "20200410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1486899&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1486901",
+    "name": "횡성군 친환경상품 구매촉진 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-10",
+    "repealed_on": "2020-04-10",
+    "repealed_on_raw": "20200410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1486901&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1435393",
+    "name": "횡성군문화관운영관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-24",
+    "repealed_on": "2019-12-24",
+    "repealed_on_raw": "20191224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1435393&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1435413",
+    "name": "횡성군 자원의 절약과 재활용촉진 관련 과태료 부과징수 및 신고포상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-24",
+    "repealed_on": "2019-12-24",
+    "repealed_on_raw": "20191224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1435413&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1435411",
+    "name": "횡성군 폐기물관련 과태료부과·징수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-24",
+    "repealed_on": "2019-12-24",
+    "repealed_on_raw": "20191224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1435411&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1424149",
+    "name": "횡성군노인복지기금설치및운용에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-28",
+    "repealed_on": "2019-11-28",
+    "repealed_on_raw": "20191128",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1424149&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1424415",
+    "name": "횡성군 농업안정기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-28",
+    "repealed_on": "2019-11-28",
+    "repealed_on_raw": "20191128",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1424415&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51730"
+ ]
+}

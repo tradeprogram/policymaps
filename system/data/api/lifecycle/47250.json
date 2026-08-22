@@ -1,0 +1,702 @@
+{
+ "data": {
+  "region": {
+   "region_id": "47250",
+   "sig_cd": "47250",
+   "name": "상주시",
+   "full_name": "경상북도 상주시",
+   "level": 2
+  },
+  "counts": {
+   "total": 626,
+   "active": 525,
+   "repealed": 101,
+   "by_rr_cls_cd": {
+    "일부개정": 380,
+    "전부개정": 17,
+    "제정": 128,
+    "폐지": 101
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 11
+   },
+   {
+    "year": 2012,
+    "n": 24
+   },
+   {
+    "year": 2013,
+    "n": 31
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 17
+   },
+   {
+    "year": 2016,
+    "n": 7
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 9
+   },
+   {
+    "year": 2019,
+    "n": 17
+   },
+   {
+    "year": 2020,
+    "n": 17
+   },
+   {
+    "year": 2021,
+    "n": 38
+   },
+   {
+    "year": 2022,
+    "n": 35
+   },
+   {
+    "year": 2023,
+    "n": 61
+   },
+   {
+    "year": 2024,
+    "n": 71
+   },
+   {
+    "year": 2025,
+    "n": 132
+   },
+   {
+    "year": 2026,
+    "n": 122
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 8
+   },
+   {
+    "year": 2012,
+    "n": 18
+   },
+   {
+    "year": 2013,
+    "n": 20
+   },
+   {
+    "year": 2014,
+    "n": 3
+   },
+   {
+    "year": 2015,
+    "n": 4
+   },
+   {
+    "year": 2016,
+    "n": 1
+   },
+   {
+    "year": 2017,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 4
+   },
+   {
+    "year": 2020,
+    "n": 3
+   },
+   {
+    "year": 2021,
+    "n": 5
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 4
+   },
+   {
+    "year": 2024,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계 양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료 부과징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용 규제위반 사업장에 대한 과태료 부과 및 신고 포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용·관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계설치및운영조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2006463",
+    "name": "상주시 생활체육공원 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2006463&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2006465",
+    "name": "상주시 시민운동장 관리 및 사용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2006465&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1988555",
+    "name": "상주시 자치분권 촉진 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-26",
+    "repealed_on": "2024-11-26",
+    "repealed_on_raw": "20241126",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1988555&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1895969",
+    "name": "상주시 학교급식 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1895969&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896001",
+    "name": "상주시 학교급식 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896001&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1809321",
+    "name": "상주시 우복동 학당 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-12",
+    "repealed_on": "2023-05-12",
+    "repealed_on_raw": "20230512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1809321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1809329",
+    "name": "상주시 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-12",
+    "repealed_on": "2023-05-12",
+    "repealed_on_raw": "20230512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1809329&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1726555",
+    "name": "상주시 시사편찬위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-30",
+    "repealed_on": "2022-08-30",
+    "repealed_on_raw": "20220830",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1726555&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1726565",
+    "name": "상주시 아동·여성안전 지역연대 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-30",
+    "repealed_on": "2022-08-30",
+    "repealed_on_raw": "20220830",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1726565&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1665879",
+    "name": "상주시 주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1665879&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1661853",
+    "name": "상주시 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1661853&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1642685",
+    "name": "상주시 사회적기업 육성지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-19",
+    "repealed_on": "2021-11-19",
+    "repealed_on_raw": "20211119",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1642685&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1603025",
+    "name": "상주시 시민프로축구단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-04",
+    "repealed_on": "2021-06-04",
+    "repealed_on_raw": "20210604",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1603025&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1582929",
+    "name": "상주시 평생학습관 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-29",
+    "repealed_on": "2021-03-29",
+    "repealed_on_raw": "20210329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1582929&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1582931",
+    "name": "상주시 평생학습관 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-03-29",
+    "repealed_on": "2021-03-29",
+    "repealed_on_raw": "20210329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1582931&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1548801",
+    "name": "상주시 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-16",
+    "repealed_on": "2020-11-16",
+    "repealed_on_raw": "20201116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1548801&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1497849",
+    "name": "상주시 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-26",
+    "repealed_on": "2020-05-26",
+    "repealed_on_raw": "20200526",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1497849&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1490493",
+    "name": "상주시 자치법규집 편찬·발행 등에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-04-23",
+    "repealed_on": "2020-04-23",
+    "repealed_on_raw": "20200423",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1490493&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1410985",
+    "name": "상주시 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-09-26",
+    "repealed_on": "2019-09-26",
+    "repealed_on_raw": "20190926",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410985&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1410761",
+    "name": "상주시 여성회관 운영 및 사용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-09-26",
+    "repealed_on": "2019-09-26",
+    "repealed_on_raw": "20190926",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410761&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1410762",
+    "name": "상주시 여성회관 운영 및 사용조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-09-26",
+    "repealed_on": "2019-09-26",
+    "repealed_on_raw": "20190926",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410762&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1404387",
+    "name": "상주시 장애인 등의 편의시설 설치사항 사전 점검에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-07-16",
+    "repealed_on": "2019-07-16",
+    "repealed_on_raw": "20190716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1404387&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1283523",
+    "name": "상주시 지방공무원 징계 양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-04-10",
+    "repealed_on": "2017-04-10",
+    "repealed_on_raw": "20170410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1283523&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1253551",
+    "name": "상주시 여성발전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-09-28",
+    "repealed_on": "2016-09-28",
+    "repealed_on_raw": "20160928",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1253551&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1776519",
+    "name": "상주시 보조금 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-01-01",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1776519&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1776517",
+    "name": "상주시 사회단체 보조금 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-01-01",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1776517&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1031523",
+    "name": "상주시 저소득주민 자녀 장학기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-03",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1031523&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:966873",
+    "name": "상주시 저소득주민 자녀 장학기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2014-12-03",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=966873&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1196212",
+    "name": "상주시먹는물수질검사수수료징수등에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-09-19",
+    "repealed_on": "2014-09-19",
+    "repealed_on_raw": "20140919",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1196212&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:969349",
+    "name": "상주시 지방별정직공무원의 범위 및 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-09-19",
+    "repealed_on": "2014-09-19",
+    "repealed_on_raw": "20140919",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=969349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1031521",
+    "name": "상주시 지방계약직공무원 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2014-09-19",
+    "repealed_on": "2014-09-19",
+    "repealed_on_raw": "20140919",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1031521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:853431",
+    "name": "상주시 고문변호사 위촉 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-05-10",
+    "repealed_on": "2013-08-11",
+    "repealed_on_raw": "20130811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=853431&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:956552",
+    "name": "상주시 소송수행자 포상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-05-10",
+    "repealed_on": "2013-08-11",
+    "repealed_on_raw": "20130811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=956552&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:950500",
+    "name": "상주시 소송사무 처리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-05-10",
+    "repealed_on": "2013-08-11",
+    "repealed_on_raw": "20130811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=950500&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:910753",
+    "name": "상주시농업기반시설의목적외사용경비징수범위에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-05-10",
+    "repealed_on": "2013-05-10",
+    "repealed_on_raw": "20130510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=910753&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:910751",
+    "name": "상주시 도로무단점용자에 대한 과태료 부과징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-05-10",
+    "repealed_on": "2013-05-10",
+    "repealed_on_raw": "20130510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=910751&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:966883",
+    "name": "상주시물품관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-05-10",
+    "repealed_on": "2013-05-10",
+    "repealed_on_raw": "20130510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=966883&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:946959",
+    "name": "상주시 도로무단점용자에 대한 과태료 부과징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-05-10",
+    "repealed_on": "2013-05-10",
+    "repealed_on_raw": "20130510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=946959&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:945628",
+    "name": "상주시환지청산금취급규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-04-19",
+    "repealed_on": "2013-04-19",
+    "repealed_on_raw": "20130419",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=945628&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:950032",
+    "name": "상주시리개발위원회조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-03-29",
+    "repealed_on": "2013-03-29",
+    "repealed_on_raw": "20130329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=950032&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "47250"
+ ]
+}

@@ -1,0 +1,783 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1003886",
+   "key": "ordin-1003886",
+   "mst": "1003886",
+   "name": "오산시 법무행정 처리규칙",
+   "ord_kind": "규칙",
+   "region_id": "41370",
+   "sig_cd": "41370",
+   "region_name": "경기도 오산시",
+   "org_name": "경기도 오산시",
+   "enacted_on": "20140530",
+   "effective_on": "20140530",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 16,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1003886",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.5,
+     "method": "rule"
+    },
+    {
+     "code": "C05",
+     "name": "청년·교육",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.932469,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1679247",
+      "key": "ordin-1679247",
+      "name": "오산시의회 지방공무원 근무 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20220111",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1679247",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.903146,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:840354",
+      "key": "ordin-840354",
+      "name": "오산시의회공인조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "19920314",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=840354",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.902741,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1377064",
+      "key": "ordin-1377064",
+      "name": "오산시 자체감사 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20200228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1377064",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.899771,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1679253",
+      "key": "ordin-1679253",
+      "name": "오산시의회 지방공무원 명예퇴직수당 등 지급에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20220111",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1679253",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.896408,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1969741",
+      "key": "ordin-1969741",
+      "name": "오산시 장난감대여점 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20240925",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1969741",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.896244,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1348272",
+      "key": "ordin-1348272",
+      "name": "오산시지방공무원근무규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20180323",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1348272",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.894354,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:833686",
+      "key": "ordin-833686",
+      "name": "오산시 의로운 시민 등에 대한 예우 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20111110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=833686",
+      "categories": [
+       "C14",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.893993,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1651723",
+      "key": "ordin-1651723",
+      "name": "오산시 장애인차별금지 및 인권보장에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20211223",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1651723",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.888592,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2088113",
+      "key": "ordin-2088113",
+      "name": "오산시 지방공무원 위탁교육비 반납에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20251120",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2088113",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.888135,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1678659",
+      "key": "ordin-1678659",
+      "name": "오산시의회 지방공무원 여비 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20220113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1678659",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.985085,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1251795",
+      "key": "ordin-1251795",
+      "name": "오산시 전통시장 활성화 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20141211",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1251795",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.984767,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2162579",
+      "key": "ordin-2162579",
+      "name": "오산시 야영장 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20260818",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2162579",
+      "categories": [
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.984064,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1626681",
+      "key": "ordin-1626681",
+      "name": "오산시 공공심야어린이병원 및 공공심야약국 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20210924",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1626681",
+      "categories": [
+       "C06"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.983403,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1984507",
+      "key": "ordin-1984507",
+      "name": "오산시 음식물류 폐기물 감량기기 설치 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20241112",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1984507",
+      "categories": [
+       "C07",
+       "C09",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.98333,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1347620",
+      "key": "ordin-1347620",
+      "name": "오산시 안전관리민관협력위원회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20180511",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1347620",
+      "categories": [
+       "C08",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.983072,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1638127",
+      "key": "ordin-1638127",
+      "name": "오산시 상수도 원인자부담금 산정·징수 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20211105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1638127",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.982797,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2017277",
+      "key": "ordin-2017277",
+      "name": "오산시 공무원 행동강령 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20250228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2017277",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.982563,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2025423",
+      "key": "ordin-2025423",
+      "name": "오산시지역보건의료심의위원회운영조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20250331",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2025423",
+      "categories": [
+       "C01",
+       "C06"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.982411,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1321233",
+      "key": "ordin-1321233",
+      "name": "오산시 시민감시단 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20171226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1321233",
+      "categories": [
+       "C09"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.982379,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1452983",
+      "key": "ordin-1452983",
+      "name": "오산시 음식물류 폐기물의 발생억제, 수집·운반 및 재활용에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20191220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1452983",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.996141,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2119359",
+      "key": "ordin-2119359",
+      "name": "오산시 통·반 설치 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20260406",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2119359",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99565,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2105301",
+      "key": "ordin-2105301",
+      "name": "오산시 예산성과금 지급 등에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20251120",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2105301",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.99564,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1931937",
+      "key": "ordin-1931937",
+      "name": "오산시 정체성 함양을 위한 지명 사용에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20240517",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1931937",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.995421,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1596327",
+      "key": "ordin-1596327",
+      "name": "오산시 제안제도 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20210517",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1596327",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.995342,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2017279",
+      "key": "ordin-2017279",
+      "name": "오산시 공공청사 및 공공시설 부설주차장 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20250228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2017279",
+      "categories": [
+       "C10",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.995107,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1304890",
+      "key": "ordin-1304890",
+      "name": "오산시 독립유공자 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20170926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1304890",
+      "categories": [
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.995077,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2162579",
+      "key": "ordin-2162579",
+      "name": "오산시 야영장 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20260818",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2162579",
+      "categories": [
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.995076,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1914753",
+      "key": "ordin-1914753",
+      "name": "오산시 공중화장실 등의 설치 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20240325",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1914753",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.995013,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1593131",
+      "key": "ordin-1593131",
+      "name": "오산시의회 의회기 및 의원배지에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20200917",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1593131",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.994847,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1651627",
+      "key": "ordin-1651627",
+      "name": "오산시 민원상담 콜센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20211223",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1651627",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2162579",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.989922,
+    "best_rank": 2,
+    "ordinance_id": "ordin:2162579",
+    "key": "ordin-2162579",
+    "name": "오산시 야영장 운영 조례 시행규칙",
+    "region_name": "경기도 오산시",
+    "sig_cd": "41370",
+    "enacted_on": "20260818",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2162579"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

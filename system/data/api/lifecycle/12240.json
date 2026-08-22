@@ -1,0 +1,705 @@
+{
+ "data": {
+  "region": {
+   "region_id": "12240",
+   "sig_cd": "12240",
+   "name": "서구",
+   "full_name": "전남광주통합특별시 서구",
+   "level": 2
+  },
+  "counts": {
+   "total": 712,
+   "active": 633,
+   "repealed": 79,
+   "by_rr_cls_cd": {
+    "일부개정": 632,
+    "전부개정": 1,
+    "폐지": 79
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 6
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 7
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 2
+   },
+   {
+    "year": 2018,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 1
+   },
+   {
+    "year": 2020,
+    "n": 4
+   },
+   {
+    "year": 2021,
+    "n": 4
+   },
+   {
+    "year": 2022,
+    "n": 7
+   },
+   {
+    "year": 2023,
+    "n": 6
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 4
+   },
+   {
+    "year": 2026,
+    "n": 634
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 7
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 1
+   },
+   {
+    "year": 2018,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 1
+   },
+   {
+    "year": 2020,
+    "n": 4
+   },
+   {
+    "year": 2021,
+    "n": 3
+   },
+   {
+    "year": 2022,
+    "n": 8
+   },
+   {
+    "year": 2023,
+    "n": 6
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 3
+   },
+   {
+    "year": 2026,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례시행규칙",
+    "display_name": "재해대책기금운용관리조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 64
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례시행규칙",
+    "display_name": "오수·분뇨및축산폐수의처리에관한조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 42
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례시행규칙",
+    "display_name": "재난관리기금운용관리조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 33
+   },
+   {
+    "policy_key": "기조례",
+    "display_name": "기조례",
+    "rows": 1,
+    "nationwide_regions": 29
+   },
+   {
+    "policy_key": "의회포상규칙",
+    "display_name": "의회포상규칙",
+    "rows": 1,
+    "nationwide_regions": 26
+   },
+   {
+    "policy_key": "업무등의평가에관한규칙",
+    "display_name": "업무등의평가에관한규칙",
+    "rows": 1,
+    "nationwide_regions": 6
+   },
+   {
+    "policy_key": "서구국민체육센터설치및운영조례",
+    "display_name": "서구 국민체육센터 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "서구농지관리위원회운영에관한조례",
+    "display_name": "서구 농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "서구사회단체보조금지원조례",
+    "display_name": "서구 사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "서구위원회실비변상조례",
+    "display_name": "서구 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "서구저탄소녹색성장기본조례",
+    "display_name": "서구 저탄소녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "서구지방계약직공무원규정시행규칙",
+    "display_name": "서구 지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "서구지방고용직공무원임용등에관한조례",
+    "display_name": "서구 지방고용직공무원 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "서구지방공무원징계양정에관한규칙",
+    "display_name": "서구 지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "서구1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "서구 1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 1
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:675081",
+    "name": "광주광역시 서구 건강도시자문위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-01-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=675081&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:675068",
+    "name": "광주광역시 서구 건강생활실천협의회 설치 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-04-10",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=675068&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:728463",
+    "name": "광주광역시 서구 농지관리위원회 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-05-10",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=728463&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128807",
+    "name": "광주광역시 서구 공공발간물이용에 따른 광고물게재 사용료징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-05-12",
+    "repealed_on": "2026-05-12",
+    "repealed_on_raw": "20260512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128807&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128805",
+    "name": "광주광역시 서구 공공발간물이용에 따른 광고물게재 사용료징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-05-12",
+    "repealed_on": "2026-05-12",
+    "repealed_on_raw": "20260512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2129003",
+    "name": "광주광역시 서구의회 업무추진비 사용 및 공개 등에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-05-12",
+    "repealed_on": "2026-05-12",
+    "repealed_on_raw": "20260512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129003&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2090433",
+    "name": "광주광역시  서구 자치분권 촉진 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-08",
+    "repealed_on": "2025-12-08",
+    "repealed_on_raw": "20251208",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2090433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2041673",
+    "name": "광주광역시 서구 외국인주민 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-27",
+    "repealed_on": "2025-05-27",
+    "repealed_on_raw": "20250527",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2041673&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2019889",
+    "name": "광주광역시 서구 공공형 실내어린이놀이시설 조성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-10",
+    "repealed_on": "2025-03-10",
+    "repealed_on_raw": "20250310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2019889&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1992989",
+    "name": "광주광역시 서구 지방재정공시심의위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-18",
+    "repealed_on": "2024-12-18",
+    "repealed_on_raw": "20241218",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1992989&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1962891",
+    "name": "광주광역시 서구 홀로 사는 노인 고독사 예방을 위한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-08-12",
+    "repealed_on": "2024-08-12",
+    "repealed_on_raw": "20240812",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1962891&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1887627",
+    "name": "광주광역시 서구 공공와이파이 제공 및 이용 활성화에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-23",
+    "repealed_on": "2023-12-23",
+    "repealed_on_raw": "20231223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1887627&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1870633",
+    "name": "광주광역시 서구 노인 안전지팡이 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-08",
+    "repealed_on": "2023-11-08",
+    "repealed_on_raw": "20231108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1870633&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1837823",
+    "name": "광주광역시 서구 지방별정직공무원의 임용자격기준에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-07-15",
+    "repealed_on": "2023-07-15",
+    "repealed_on_raw": "20230715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1837823&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1816449",
+    "name": "광주광역시 서구 조손가정 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-05",
+    "repealed_on": "2023-06-05",
+    "repealed_on_raw": "20230605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816449&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1802315",
+    "name": "광주광역시 서구 아동·여성안전 지역연대 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-29",
+    "repealed_on": "2023-03-29",
+    "repealed_on_raw": "20230329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1802315&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1802317",
+    "name": "광주광역시 서구 여성의 안전한 생활을 위한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-29",
+    "repealed_on": "2023-03-29",
+    "repealed_on_raw": "20230329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1802317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1761923",
+    "name": "광주광역시 서구 교통특구 지정·운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-23",
+    "repealed_on": "2022-12-23",
+    "repealed_on_raw": "20221223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1761923&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1761925",
+    "name": "광주광역시 서구 수해주택 복구지원자금 융자 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-23",
+    "repealed_on": "2022-12-23",
+    "repealed_on_raw": "20221223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1761925&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1761935",
+    "name": "광주광역시 서구 수해주택복구 지원자금 융자 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-23",
+    "repealed_on": "2022-12-23",
+    "repealed_on_raw": "20221223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1761935&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1748593",
+    "name": "광주광역시 서구 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-16",
+    "repealed_on": "2022-11-16",
+    "repealed_on_raw": "20221116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1748593&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1748687",
+    "name": "광주광역시 서구 저탄소녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-16",
+    "repealed_on": "2022-11-16",
+    "repealed_on_raw": "20221116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1748687&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1707479",
+    "name": "광주광역시 서구 참전유공자 예우 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-05-09",
+    "repealed_on": "2022-05-09",
+    "repealed_on_raw": "20220509",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1707479&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1649703",
+    "name": "광주광역시 서구 의회사무국 직원 추천 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-20",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1649703&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1668165",
+    "name": "광주광역시 서구 주민 조례제정 및 개폐청구 연서주민수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-07",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1668165&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1601371",
+    "name": "광주광역시 서구 생활체육진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-01",
+    "repealed_on": "2021-06-09",
+    "repealed_on_raw": "20210609",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1601371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1601355",
+    "name": "광주광역시 서구 장애인체육 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-01",
+    "repealed_on": "2021-06-09",
+    "repealed_on_raw": "20210609",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1601355&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1601353",
+    "name": "광주광역시 서구 체육진흥협의회 조직운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-01",
+    "repealed_on": "2021-06-09",
+    "repealed_on_raw": "20210609",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1601353&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1554813",
+    "name": "광주광역시 서구 기반시설 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-21",
+    "repealed_on": "2020-12-21",
+    "repealed_on_raw": "20201221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1554813&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1546785",
+    "name": "광주광역시 서구 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-17",
+    "repealed_on": "2020-11-17",
+    "repealed_on_raw": "20201117",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1546785&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1538331",
+    "name": "광주광역시 서구 청소년문화의 집 관리 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-10-16",
+    "repealed_on": "2020-10-16",
+    "repealed_on_raw": "20201016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1538331&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1487575",
+    "name": "광주광역시 서구 국제화추진협의회 구성과 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-14",
+    "repealed_on": "2020-04-14",
+    "repealed_on_raw": "20200414",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1487575&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1434987",
+    "name": "광주광역시 서구 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-23",
+    "repealed_on": "2019-12-23",
+    "repealed_on_raw": "20191223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1434987&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1362070",
+    "name": "광주광역시 서구 임대주택분쟁조정위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-10-08",
+    "repealed_on": "2018-10-08",
+    "repealed_on_raw": "20181008",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1362070&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1332027",
+    "name": "광주광역시 서구 국민체육센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-01-05",
+    "repealed_on": "2018-01-05",
+    "repealed_on_raw": "20180105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1332027&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1482927",
+    "name": "광주광역시 서구 지방계약직공무원규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-05-18",
+    "repealed_on": "2017-05-18",
+    "repealed_on_raw": "20170518",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1482927&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1271512",
+    "name": "광주광역시 서구 무료전문상담실 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-30",
+    "repealed_on": "2016-12-30",
+    "repealed_on_raw": "20161230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1271512&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1246842",
+    "name": "광주광역시 서구 자원의 절약과 재활용촉진에 관한 과태료부과징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-08-10",
+    "repealed_on": "2016-08-10",
+    "repealed_on_raw": "20160810",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1246842&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1237446",
+    "name": "광주광역시 서구 지적·자폐성장애인 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-06-10",
+    "repealed_on": "2016-06-10",
+    "repealed_on_raw": "20160610",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1237446&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1224119",
+    "name": "광주광역시 서구세심의위원회 등 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-03-25",
+    "repealed_on": "2016-03-25",
+    "repealed_on_raw": "20160325",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1224119&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 3,
+   "sentinel_99991231": 3
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "12240"
+ ]
+}

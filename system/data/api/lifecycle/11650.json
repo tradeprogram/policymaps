@@ -1,0 +1,774 @@
+{
+ "data": {
+  "region": {
+   "region_id": "11650",
+   "sig_cd": "11650",
+   "name": "서초구",
+   "full_name": "서울특별시 서초구",
+   "level": 2
+  },
+  "counts": {
+   "total": 669,
+   "active": 515,
+   "repealed": 154,
+   "by_rr_cls_cd": {
+    "일부개정": 319,
+    "전부개정": 26,
+    "제정": 170,
+    "폐지": 154
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 1992,
+    "n": 4
+   },
+   {
+    "year": 1994,
+    "n": 2
+   },
+   {
+    "year": 1995,
+    "n": 18
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 4
+   },
+   {
+    "year": 1999,
+    "n": 8
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 2
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 4
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 11
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 10
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 5
+   },
+   {
+    "year": 2014,
+    "n": 7
+   },
+   {
+    "year": 2015,
+    "n": 27
+   },
+   {
+    "year": 2016,
+    "n": 17
+   },
+   {
+    "year": 2017,
+    "n": 16
+   },
+   {
+    "year": 2018,
+    "n": 12
+   },
+   {
+    "year": 2019,
+    "n": 32
+   },
+   {
+    "year": 2020,
+    "n": 37
+   },
+   {
+    "year": 2021,
+    "n": 103
+   },
+   {
+    "year": 2022,
+    "n": 58
+   },
+   {
+    "year": 2023,
+    "n": 52
+   },
+   {
+    "year": 2024,
+    "n": 78
+   },
+   {
+    "year": 2025,
+    "n": 105
+   },
+   {
+    "year": 2026,
+    "n": 29
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 1992,
+    "n": 4
+   },
+   {
+    "year": 1994,
+    "n": 2
+   },
+   {
+    "year": 1995,
+    "n": 18
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 4
+   },
+   {
+    "year": 1999,
+    "n": 8
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 2
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 4
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 11
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2009,
+    "n": 8
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 4
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 2
+   },
+   {
+    "year": 2018,
+    "n": 4
+   },
+   {
+    "year": 2019,
+    "n": 10
+   },
+   {
+    "year": 2020,
+    "n": 11
+   },
+   {
+    "year": 2021,
+    "n": 16
+   },
+   {
+    "year": 2022,
+    "n": 10
+   },
+   {
+    "year": 2023,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "도시가스사업기금설치조례",
+    "display_name": "도시가스사업기금설치조례",
+    "rows": 2,
+    "nationwide_regions": 9
+   },
+   {
+    "policy_key": "기획조정위원회규칙",
+    "display_name": "기획조정위원회규칙",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원 재정보증 조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품사용 규제 위반사업장에 대한 과태료부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례시행규칙",
+    "display_name": "재해대책기금운용관리조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 64
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황공개조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "금연환경조성및지원에관한조례",
+    "display_name": "금연 환경조성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "사회적기업육성및지원에관한조례",
+    "display_name": "사회적기업 육성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 48
+   },
+   {
+    "policy_key": "의회위원회조례",
+    "display_name": "의회 위원회 조례",
+    "rows": 1,
+    "nationwide_regions": 47
+   },
+   {
+    "policy_key": "도시디자인조례",
+    "display_name": "도시디자인 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2053631",
+    "name": "서울특별시 서초구 음식물류폐기물 감량기기 설치에 관한 지원 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-07-10",
+    "repealed_on": "2025-07-10",
+    "repealed_on_raw": "20250710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053631&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1781877",
+    "name": "서울특별시 서초구 기후변화 대응에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-01",
+    "repealed_on": "2023-02-01",
+    "repealed_on_raw": "20230201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1781877&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1781875",
+    "name": "서울특별시 서초구 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-01",
+    "repealed_on": "2023-02-01",
+    "repealed_on_raw": "20230201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1781875&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1726059",
+    "name": "서울특별시 서초구 인터넷 홈페이지 설치 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-09-01",
+    "repealed_on": "2022-09-01",
+    "repealed_on_raw": "20220901",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1726059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1710609",
+    "name": "서울특별시 서초구 가축사육 제한에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-05-26",
+    "repealed_on": "2022-05-26",
+    "repealed_on_raw": "20220526",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1710609&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1635825",
+    "name": "서울특별시 서초구 노인휴양소의 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-28",
+    "repealed_on": "2022-04-29",
+    "repealed_on_raw": "20220429",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1635825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1697867",
+    "name": "서울특별시 서초구 가축사육 제한에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-14",
+    "repealed_on": "2022-04-14",
+    "repealed_on_raw": "20220414",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697867&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1692809",
+    "name": "서울특별시 서초구 투자사업 심사에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-03-28",
+    "repealed_on": "2022-03-28",
+    "repealed_on_raw": "20220328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1692809&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1685425",
+    "name": "서울특별시 서초구 통합관리기금 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-02-21",
+    "repealed_on": "2022-02-21",
+    "repealed_on_raw": "20220221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1685425&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664863",
+    "name": "서울특별시 서초구 지방별정직공무원 인사관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664863&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1626509",
+    "name": "서울특별시 서초구 재활용품판매대금관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1626525",
+    "name": "서울특별시 서초구 통합관리기금 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626525&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1601737",
+    "name": "서울특별시 서초구 재활용품판매대금관리기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-06-03",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1601737&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664871",
+    "name": "서울특별시 서초구 어르신전용주차구역 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664871&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1664873",
+    "name": "서울특별시 서초구 임산부전용주차구역 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1664873&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1644943",
+    "name": "서울특별시 서초구 홀로 사는 노인 고독사 예방 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-07",
+    "repealed_on": "2021-12-07",
+    "repealed_on_raw": "20211207",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1644943&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1643429",
+    "name": "서울특별시 서초구 소하천점용료 등 징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-11-25",
+    "repealed_on": "2021-11-25",
+    "repealed_on_raw": "20211125",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1643429&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1640741",
+    "name": "서울특별시 서초구 인사위원회 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-11-15",
+    "repealed_on": "2021-11-15",
+    "repealed_on_raw": "20211115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1640741&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1635399",
+    "name": "서울특별시 서초구 감정평가업자 선정에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-28",
+    "repealed_on": "2021-10-28",
+    "repealed_on_raw": "20211028",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1635399&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1626533",
+    "name": "서울특별시 서초구 사회적기업 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2021-09-23",
+    "repealed_on_raw": "20210923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626533&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1626541",
+    "name": "서울특별시 서초구 성년후견제도 이용 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2021-09-23",
+    "repealed_on_raw": "20210923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626541&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1623717",
+    "name": "서울특별시 서초구 주민참여 예산제 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-09-02",
+    "repealed_on": "2021-09-02",
+    "repealed_on_raw": "20210902",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1623717&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1619747",
+    "name": "서울특별시 서초구 정기시장의 시설기준 및 운영·관리 등에 관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-29",
+    "repealed_on": "2021-06-29",
+    "repealed_on_raw": "20210629",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1619747&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1605369",
+    "name": "서울특별시 서초구 청년 중소기업 취업지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-22",
+    "repealed_on": "2021-06-22",
+    "repealed_on_raw": "20210622",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1605369&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1599871",
+    "name": "서울특별시 서초구 청소년 통행금지구역·통행제한구역 지정 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-31",
+    "repealed_on": "2021-05-31",
+    "repealed_on_raw": "20210531",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1599871&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1576925",
+    "name": "서울특별시 서초구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-02-25",
+    "repealed_on": "2021-02-25",
+    "repealed_on_raw": "20210225",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1576925&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1573577",
+    "name": "서울특별시 서초구 청소년·아동복지위원회 구성 및 운영에 관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-08",
+    "repealed_on": "2021-02-08",
+    "repealed_on_raw": "20210208",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1573577&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1570875",
+    "name": "서울특별시 서초구 장난감대여센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-01-13",
+    "repealed_on": "2021-01-13",
+    "repealed_on_raw": "20210113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1570875&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1570881",
+    "name": "서울특별시 서초구 정신건강복지센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-01-13",
+    "repealed_on": "2021-01-13",
+    "repealed_on_raw": "20210113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1570881&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1526933",
+    "name": "서울특별시 서초구 사회복지진흥기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-09-10",
+    "repealed_on": "2020-09-10",
+    "repealed_on_raw": "20200910",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1526933&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1520625",
+    "name": "서울특별시 서초구 단독정화조 환기구 방충망 설치지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-28",
+    "repealed_on": "2020-07-28",
+    "repealed_on_raw": "20200728",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1520625&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1520623",
+    "name": "서울특별시 서초구 사전재해영향성검토위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-28",
+    "repealed_on": "2020-07-28",
+    "repealed_on_raw": "20200728",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1520623&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1514293",
+    "name": "서울특별시 서초구 이동도서관 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-09",
+    "repealed_on": "2020-07-09",
+    "repealed_on_raw": "20200709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1514293&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1512091",
+    "name": "서울특별시 서초구 옥외광고물특별정비자금 융자 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-07-03",
+    "repealed_on": "2020-07-03",
+    "repealed_on_raw": "20200703",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1512091&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1512095",
+    "name": "서울특별시 서초구 재난 및 안전관리기구의 설치·운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-07-03",
+    "repealed_on": "2020-07-03",
+    "repealed_on_raw": "20200703",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1512095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1496623",
+    "name": "서울특별시 서초구 탈세정보포상금 지급 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-05-21",
+    "repealed_on": "2020-05-21",
+    "repealed_on_raw": "20200521",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1496623&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1489243",
+    "name": "서울특별시 서초구 종합자료실 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-04-23",
+    "repealed_on": "2020-04-23",
+    "repealed_on_raw": "20200423",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1489243&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1489241",
+    "name": "서울특별시 서초구 주택개량 재개발사업 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-04-23",
+    "repealed_on": "2020-04-23",
+    "repealed_on_raw": "20200423",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1489241&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1475081",
+    "name": "서울특별시 서초구 구세 감면 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-01-30",
+    "repealed_on": "2020-01-30",
+    "repealed_on_raw": "20200130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1475081&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1442125",
+    "name": "서울특별시 서초구 사회복지진흥기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-04-22",
+    "repealed_on": "2020-01-01",
+    "repealed_on_raw": "20200101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1442125&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "11650"
+ ]
+}

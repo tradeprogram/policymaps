@@ -1,0 +1,710 @@
+{
+ "data": {
+  "region": {
+   "region_id": "47280",
+   "sig_cd": "47280",
+   "name": "문경시",
+   "full_name": "경상북도 문경시",
+   "level": 2
+  },
+  "counts": {
+   "total": 742,
+   "active": 623,
+   "repealed": 119,
+   "by_rr_cls_cd": {
+    "일부개정": 372,
+    "전부개정": 37,
+    "제정": 214,
+    "폐지": 119
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1995,
+    "n": 4
+   },
+   {
+    "year": 1998,
+    "n": 2
+   },
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 10
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 8
+   },
+   {
+    "year": 2011,
+    "n": 4
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 11
+   },
+   {
+    "year": 2014,
+    "n": 23
+   },
+   {
+    "year": 2015,
+    "n": 36
+   },
+   {
+    "year": 2016,
+    "n": 16
+   },
+   {
+    "year": 2017,
+    "n": 15
+   },
+   {
+    "year": 2018,
+    "n": 16
+   },
+   {
+    "year": 2019,
+    "n": 37
+   },
+   {
+    "year": 2020,
+    "n": 39
+   },
+   {
+    "year": 2021,
+    "n": 82
+   },
+   {
+    "year": 2022,
+    "n": 44
+   },
+   {
+    "year": 2023,
+    "n": 128
+   },
+   {
+    "year": 2024,
+    "n": 111
+   },
+   {
+    "year": 2025,
+    "n": 92
+   },
+   {
+    "year": 2026,
+    "n": 45
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 9
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 11
+   },
+   {
+    "year": 2015,
+    "n": 19
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 5
+   },
+   {
+    "year": 2020,
+    "n": 5
+   },
+   {
+    "year": 2021,
+    "n": 6
+   },
+   {
+    "year": 2022,
+    "n": 12
+   },
+   {
+    "year": 2023,
+    "n": 8
+   },
+   {
+    "year": 2024,
+    "n": 14
+   },
+   {
+    "year": 2025,
+    "n": 3
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여업무 처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례규칙등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금 지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료 부과징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회 실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의 운영 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2115053",
+    "name": "문경시 식품제조ㆍ가공업 시설기준 특례 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-03-11",
+    "repealed_on": "2026-03-11",
+    "repealed_on_raw": "20260311",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115053&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2100765",
+    "name": "문경시 국제교류협력 증진에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-30",
+    "repealed_on": "2025-12-30",
+    "repealed_on_raw": "20251230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100765&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2024869",
+    "name": "문경시의회 표창규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-03-26",
+    "repealed_on": "2025-03-26",
+    "repealed_on_raw": "20250326",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2024869&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007965",
+    "name": "문경시 가은역 꼬마열차 체험시설 운영관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007965&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007941",
+    "name": "2024 경북문경 세계군인 태권도 선수권대회 조직위원회 설립 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007941&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007943",
+    "name": "2024 문경 세계태권도 한마당 조직위원회 설립 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007943&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007947",
+    "name": "2024 문경 아시아 유·청소년 유도 선수권대회 조직위원회 설립 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007947&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007951",
+    "name": "문경시 2015경북문경세계군인체육대회 문경시민지원위원회 활동지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007951&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007957",
+    "name": "문경시 리의 명칭과 구역에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007957&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007955",
+    "name": "문경시 리·통반 설치 및 리·통장 정수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007955&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007945",
+    "name": "문경시 문경관광진흥공단 설립 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007945&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007959",
+    "name": "문경시 읍·면·동의 명칭과 구역에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007959&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007949",
+    "name": "문경시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007949&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2007961",
+    "name": "문경시 행정동의 설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2007961&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1980211",
+    "name": "문경시 여성회관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-21",
+    "repealed_on": "2024-10-21",
+    "repealed_on_raw": "20241021",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1980211&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1980213",
+    "name": "문경시 여성회관 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-10-21",
+    "repealed_on": "2024-10-21",
+    "repealed_on_raw": "20241021",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1980213&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1899371",
+    "name": "문경시 치수사업특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1899371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1899399",
+    "name": "문경시 새마을소득사업 운영관리조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1899399&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1899377",
+    "name": "문경시 문경생태미로공원 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1899377&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896011",
+    "name": "문경시 새마을소득사업 운영 및 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896011&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896013",
+    "name": "문경시 새마을소득사업융자금 이자보조금 지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896013&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1868427",
+    "name": "문경시 노인복지기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-01",
+    "repealed_on": "2023-11-01",
+    "repealed_on_raw": "20231101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1868427&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1868431",
+    "name": "문경시 노인복지기금 설치 및 운용에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-01",
+    "repealed_on": "2023-11-01",
+    "repealed_on_raw": "20231101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1868431&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1804339",
+    "name": "문경시 정책실명제 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-26",
+    "repealed_on": "2023-04-26",
+    "repealed_on_raw": "20230426",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1804339&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1794037",
+    "name": "문경시 재단법인 문경문화관광재단 설립 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-29",
+    "repealed_on": "2023-03-29",
+    "repealed_on_raw": "20230329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1794037&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1855077",
+    "name": "문경시 중·고등학교 신입생 교복구입비 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-29",
+    "repealed_on": "2023-03-29",
+    "repealed_on_raw": "20230329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1855077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1766857",
+    "name": "문경시 생활체육진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-29",
+    "repealed_on": "2022-12-29",
+    "repealed_on_raw": "20221229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1766857&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1766853",
+    "name": "문경시 체육진흥협의회 조직운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-29",
+    "repealed_on": "2022-12-29",
+    "repealed_on_raw": "20221229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1766853&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1737707",
+    "name": "문경시 농·특산품 전시홍보관 설치 및 관리운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-17",
+    "repealed_on": "2022-10-17",
+    "repealed_on_raw": "20221017",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1737707&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1713055",
+    "name": "문경시 예산성과금 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-06-02",
+    "repealed_on": "2022-06-02",
+    "repealed_on_raw": "20220602",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1713055&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1703921",
+    "name": "문경시 조례·규칙심의회 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-27",
+    "repealed_on": "2022-04-27",
+    "repealed_on_raw": "20220427",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1703921&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1703929",
+    "name": "문경시 협상에 의한 계약 제안서평가위원회 구성 및 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-27",
+    "repealed_on": "2022-04-27",
+    "repealed_on_raw": "20220427",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1703929&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1702925",
+    "name": "문경시 규칙의 제정과 개정ㆍ폐지 의견 제출 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-22",
+    "repealed_on": "2022-04-22",
+    "repealed_on_raw": "20220422",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1702925&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1702927",
+    "name": "문경시 의안의 비용추계에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-22",
+    "repealed_on": "2022-04-22",
+    "repealed_on_raw": "20220422",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1702927&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1702919",
+    "name": "문경시 자치법규에 대한 입법평가 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-22",
+    "repealed_on": "2022-04-22",
+    "repealed_on_raw": "20220422",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1702919&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1702921",
+    "name": "문경시 자치법규 입법예고에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-22",
+    "repealed_on": "2022-04-22",
+    "repealed_on_raw": "20220422",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1702921&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1702929",
+    "name": "문경시 조례규칙등 공포에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-22",
+    "repealed_on": "2022-04-22",
+    "repealed_on_raw": "20220422",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1702929&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1655117",
+    "name": "문경시 주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-29",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1655117&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641801",
+    "name": "문경시 사무의 민간위탁 촉진 및 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-11-17",
+    "repealed_on": "2021-11-17",
+    "repealed_on_raw": "20211117",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641801&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1619717",
+    "name": "문경시 다문화가족 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-08-04",
+    "repealed_on": "2021-08-04",
+    "repealed_on_raw": "20210804",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1619717&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "47280"
+ ]
+}

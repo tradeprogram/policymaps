@@ -124,6 +124,17 @@ export const API_SHARDS = {
   search: "api/search",
 };
 
+/**
+ * make_extend_fixtures.py 가 굽는 확장 카탈로그.
+ * api/index.json(make_nationwide.py 산출)에는 표결 15건·검색 5건만 들어 있는데,
+ * 확장 생성기가 표결 149건·검색 40건을 더 구웠다. 두 색인을 합쳐야 화면에서 전부 고를 수 있다.
+ * 없으면 조용히 무시된다(가상데이터·구 번들 하위호환).
+ */
+export const EXTRA_CATALOGS = {
+  votes: { path: "api/votes_index.json", lists: ["bills"] },
+  search: { path: "api/search_index.json", lists: ["queries"] },
+};
+
 /** shard 가 없을 때 화면에 안내할 생성기 경로 */
 export const NATIONWIDE_GENERATOR = "system/make_nationwide.py";
 

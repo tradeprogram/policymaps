@@ -1,0 +1,694 @@
+{
+ "data": {
+  "region": {
+   "region_id": "51820",
+   "sig_cd": "51820",
+   "name": "고성군",
+   "full_name": "강원특별자치도 고성군",
+   "level": 2
+  },
+  "counts": {
+   "total": 626,
+   "active": 563,
+   "repealed": 63,
+   "by_rr_cls_cd": {
+    "일부개정": 396,
+    "전부개정": 22,
+    "제정": 145,
+    "폐지": 63
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 1994,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 10
+   },
+   {
+    "year": 2015,
+    "n": 32
+   },
+   {
+    "year": 2016,
+    "n": 17
+   },
+   {
+    "year": 2017,
+    "n": 14
+   },
+   {
+    "year": 2018,
+    "n": 7
+   },
+   {
+    "year": 2019,
+    "n": 11
+   },
+   {
+    "year": 2020,
+    "n": 34
+   },
+   {
+    "year": 2021,
+    "n": 48
+   },
+   {
+    "year": 2022,
+    "n": 148
+   },
+   {
+    "year": 2023,
+    "n": 91
+   },
+   {
+    "year": 2024,
+    "n": 64
+   },
+   {
+    "year": 2025,
+    "n": 95
+   },
+   {
+    "year": 2026,
+    "n": 31
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 9
+   },
+   {
+    "year": 2016,
+    "n": 4
+   },
+   {
+    "year": 2017,
+    "n": 3
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 2
+   },
+   {
+    "year": 2020,
+    "n": 7
+   },
+   {
+    "year": 2021,
+    "n": 4
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 4
+   },
+   {
+    "year": 2025,
+    "n": 1
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회 실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀장학금지급조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금 설치 및 운용조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례",
+    "display_name": "사회단체보조금 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 51
+   },
+   {
+    "policy_key": "의회의원윤리강령및윤리실천규범등에관한조례",
+    "display_name": "의회 의원 윤리강령 및 윤리실천 규범 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운용조례",
+    "display_name": "기반시설특별회계 설치 및 운용조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "지역정보화촉진조례",
+    "display_name": "지역정보화 촉진조례",
+    "rows": 1,
+    "nationwide_regions": 32
+   },
+   {
+    "policy_key": "기조례",
+    "display_name": "기조례",
+    "rows": 1,
+    "nationwide_regions": 29
+   },
+   {
+    "policy_key": "농지개량사업시행조례",
+    "display_name": "농지개량사업시행조례",
+    "rows": 1,
+    "nationwide_regions": 29
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2121177",
+    "name": "고성군 이장 임명에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-04-10",
+    "repealed_on": "2026-04-10",
+    "repealed_on_raw": "20260410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2121177&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2051305",
+    "name": "고성군 미혼자 국제결혼 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-04",
+    "repealed_on": "2025-07-04",
+    "repealed_on_raw": "20250704",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051305&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1894687",
+    "name": "고성군아동위원회운영등에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1894687&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1839969",
+    "name": "고성군 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-20",
+    "repealed_on": "2023-07-20",
+    "repealed_on_raw": "20230720",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1839969&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1823957",
+    "name": "고성군 복지위원 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-23",
+    "repealed_on": "2023-06-23",
+    "repealed_on_raw": "20230623",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1823957&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1801237",
+    "name": "고성군남북교류진흥기금설치및운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-14",
+    "repealed_on": "2023-04-14",
+    "repealed_on_raw": "20230414",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1801237&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1768983",
+    "name": "고성군 각종위원회 실비변상조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1768983&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1741923",
+    "name": "고성군 청·장년 일자리보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-31",
+    "repealed_on": "2022-10-31",
+    "repealed_on_raw": "20221031",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741923&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1741907",
+    "name": "고성군 건강가정지원센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-10-31",
+    "repealed_on": "2022-10-31",
+    "repealed_on_raw": "20221031",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1741907&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1703109",
+    "name": "봉수대 해변 레저체험시설 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-26",
+    "repealed_on": "2022-04-26",
+    "repealed_on_raw": "20220426",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1703109&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669323",
+    "name": "고성군 주민의 조례 제정·개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-07",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669323&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1648827",
+    "name": "고성군 저소득주민자녀장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-17",
+    "repealed_on": "2021-12-17",
+    "repealed_on_raw": "20211217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648827&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1648829",
+    "name": "고성군저소득주민자녀장학금지급조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-17",
+    "repealed_on": "2021-12-17",
+    "repealed_on_raw": "20211217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648829&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1548007",
+    "name": "고성군노인복지기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-23",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1548007&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1548009",
+    "name": "고성군 노인복지기금 설치 및 운용에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-23",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1548009&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1548051",
+    "name": "고성군 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-23",
+    "repealed_on": "2020-11-23",
+    "repealed_on_raw": "20201123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1548051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1513317",
+    "name": "봉수대 오토캠핑장 관리·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-06",
+    "repealed_on": "2020-07-06",
+    "repealed_on_raw": "20200706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1513317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1492589",
+    "name": "고성군의회 의원 윤리강령 및 윤리실천 규범 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-12",
+    "repealed_on": "2020-05-12",
+    "repealed_on_raw": "20200512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1492589&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1492615",
+    "name": "고성군의회 의원 행동강령 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-12",
+    "repealed_on": "2020-05-12",
+    "repealed_on_raw": "20200512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1492615&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1492595",
+    "name": "고성군자원의절약과재활용촉진에관한법률위반자에대한과태료·부과징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-12",
+    "repealed_on": "2020-05-12",
+    "repealed_on_raw": "20200512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1492595&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1483035",
+    "name": "고성군 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-01",
+    "repealed_on": "2020-04-01",
+    "repealed_on_raw": "20200401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1483035&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1448749",
+    "name": "고성군탈세정보교부금지급규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-01-08",
+    "repealed_on": "2020-01-08",
+    "repealed_on_raw": "20200108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1448749&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1424435",
+    "name": "고성군대외협력기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-29",
+    "repealed_on": "2019-11-29",
+    "repealed_on_raw": "20191129",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1424435&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1420075",
+    "name": "고성군남북교류진흥기금설치및운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-14",
+    "repealed_on": "2019-11-14",
+    "repealed_on_raw": "20191114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1420075&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1344797",
+    "name": "고성군 사전재해영향성검토위원회 구성 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-04-12",
+    "repealed_on": "2018-04-12",
+    "repealed_on_raw": "20180412",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1344797&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1315888",
+    "name": "고성군장애인보호작업장설치및운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-12-06",
+    "repealed_on": "2017-12-06",
+    "repealed_on_raw": "20171206",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1315888&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1270133",
+    "name": "고성군주택사업특별회계설치및운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-26",
+    "repealed_on": "2017-01-01",
+    "repealed_on_raw": "20170101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1270133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1270134",
+    "name": "고성군주택사업특별회계설치및운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-12-26",
+    "repealed_on": "2017-01-01",
+    "repealed_on_raw": "20170101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1270134&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1260094",
+    "name": "고성군 향토민속공예품 전시홍보관 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-10-24",
+    "repealed_on": "2016-10-24",
+    "repealed_on_raw": "20161024",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1260094&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1243779",
+    "name": "고성군 상표권 사용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-07-15",
+    "repealed_on": "2016-07-15",
+    "repealed_on_raw": "20160715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1243779&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1230288",
+    "name": "고성군기조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-04-15",
+    "repealed_on": "2016-04-15",
+    "repealed_on_raw": "20160415",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1230288&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1230301",
+    "name": "고성군 상표권 사용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-04-15",
+    "repealed_on": "2016-04-15",
+    "repealed_on_raw": "20160415",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1230301&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1214465",
+    "name": "고성군기반시설특별회계 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-22",
+    "repealed_on": "2015-12-22",
+    "repealed_on_raw": "20151222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1214465&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1214481",
+    "name": "고성군여성발전기금 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-22",
+    "repealed_on": "2015-12-22",
+    "repealed_on_raw": "20151222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1214481&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1214482",
+    "name": "고성군여성발전기금설치및운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-22",
+    "repealed_on": "2015-12-22",
+    "repealed_on_raw": "20151222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1214482&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1214226",
+    "name": "고성군 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-18",
+    "repealed_on": "2015-12-18",
+    "repealed_on_raw": "20151218",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1214226&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1483013",
+    "name": "고성군사회단체보조금지원에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-11-05",
+    "repealed_on": "2015-11-05",
+    "repealed_on_raw": "20151105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1483013&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1192407",
+    "name": "고성군전통사찰보존구역주변지역보호조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-07",
+    "repealed_on": "2015-10-07",
+    "repealed_on_raw": "20151007",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1192407&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1205044",
+    "name": "고성군도시공원·녹지의점용허가에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-05-08",
+    "repealed_on": "2015-05-08",
+    "repealed_on_raw": "20150508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1205044&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1042917",
+    "name": "고성군 보조금관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-05-08",
+    "repealed_on": "2015-05-08",
+    "repealed_on_raw": "20150508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1042917&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51820"
+ ]
+}

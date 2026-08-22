@@ -1,0 +1,800 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1036668",
+   "key": "ordin-1036668",
+   "mst": "1036668",
+   "name": "남원시 노인일자리 창출 지원 조례",
+   "ord_kind": "조례",
+   "region_id": "52190",
+   "sig_cd": "52190",
+   "region_name": "전북특별자치도 남원시",
+   "org_name": "전북특별자치도 남원시",
+   "enacted_on": "20141114",
+   "effective_on": "20141114",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 7,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1036668",
+   "categories": [
+    {
+     "code": "C03",
+     "name": "복지·돌봄",
+     "confidence": 0.5385,
+     "method": "rule"
+    },
+    {
+     "code": "C04",
+     "name": "인구·출산·양육",
+     "confidence": 0.5,
+     "method": "rule"
+    },
+    {
+     "code": "C11",
+     "name": "경제·산업·일자리",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.926851,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1868185",
+      "key": "ordin-1868185",
+      "name": "부산광역시 영도구 노인일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 영도구",
+      "sig_cd": "26200",
+      "enacted_on": "20231011",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1868185",
+      "categories": [
+       "C03",
+       "C04",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.896307,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1864155",
+      "key": "ordin-1864155",
+      "name": "안성시 노인 일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20231013",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1864155",
+      "categories": [
+       "C03",
+       "C04",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.882759,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1261741",
+      "key": "ordin-1261741",
+      "name": "아산시 노인일자리사업 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 아산시",
+      "sig_cd": "44200",
+      "enacted_on": "20161017",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1261741",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.87827,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1616575",
+      "key": "ordin-1616575",
+      "name": "김제시 노인일자리사업 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 김제시",
+      "sig_cd": "52210",
+      "enacted_on": "20210715",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1616575",
+      "categories": [
+       "C03",
+       "C04",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.876405,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1910869",
+      "key": "ordin-1910869",
+      "name": "울산광역시 노인일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시",
+      "sig_cd": "31000",
+      "enacted_on": "20240307",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1910869",
+      "categories": [
+       "C03",
+       "C11"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.874968,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1981353",
+      "key": "ordin-1981353",
+      "name": "전북특별자치도 노인 일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도",
+      "sig_cd": "52000",
+      "enacted_on": "20241101",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1981353",
+      "categories": [
+       "C03",
+       "C04",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.871513,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1039032",
+      "key": "ordin-1039032",
+      "name": "하남시 노인 일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 하남시",
+      "sig_cd": "41450",
+      "enacted_on": "20141226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1039032",
+      "categories": [
+       "C03",
+       "C04",
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.871363,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1981051",
+      "key": "ordin-1981051",
+      "name": "정읍시 일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 정읍시",
+      "sig_cd": "52180",
+      "enacted_on": "20241101",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1981051",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.863826,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1416508",
+      "key": "ordin-1416508",
+      "name": "김해시 노인일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 김해시",
+      "sig_cd": "48250",
+      "enacted_on": "20230713",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1416508",
+      "categories": [
+       "C03",
+       "C04",
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.861309,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1302288",
+      "key": "ordin-1302288",
+      "name": "파주시 노인일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 파주시",
+      "sig_cd": "41480",
+      "enacted_on": "20170922",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1302288",
+      "categories": [
+       "C03",
+       "C04",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994395,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2093115",
+      "key": "ordin-2093115",
+      "name": "남원시 친환경미생물 배양센터 관리 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20251217",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2093115",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994196,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1563963",
+      "key": "ordin-1563963",
+      "name": "남원시 춘향문화예술회관 관리 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20201231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1563963",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.992899,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1889677",
+      "key": "ordin-1889677",
+      "name": "남원시 향토박물관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20231218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1889677",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.992492,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2035867",
+      "key": "ordin-2035867",
+      "name": "남원시 장애인 가족 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20250509",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2035867",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.992473,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2059051",
+      "key": "ordin-2059051",
+      "name": "남원시 건강생활지원센터 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20250718",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2059051",
+      "categories": [
+       "C06"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.992231,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1975345",
+      "key": "ordin-1975345",
+      "name": "남원시 아동 친화도시 조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20241002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1975345",
+      "categories": [
+       "C03",
+       "C09"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.992183,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1888797",
+      "key": "ordin-1888797",
+      "name": "남원시 폐기물처리시설 주변영향지역 주민지원기금 운용관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20231218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1888797",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.992061,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2093131",
+      "key": "ordin-2093131",
+      "name": "남원시 여성청소년 보건위생용품 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20251217",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2093131",
+      "categories": [
+       "C06",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.992024,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1905357",
+      "key": "ordin-1905357",
+      "name": "남원시 안전보안관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20240205",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1905357",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.992003,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2093077",
+      "key": "ordin-2093077",
+      "name": "남원시 마을상수도·소규모급수시설 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20251217",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2093077",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.987525,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1888797",
+      "key": "ordin-1888797",
+      "name": "남원시 폐기물처리시설 주변영향지역 주민지원기금 운용관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20231218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1888797",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.985738,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2080519",
+      "key": "ordin-2080519",
+      "name": "남원시 보건소 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20251017",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2080519",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.98562,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1975363",
+      "key": "ordin-1975363",
+      "name": "남원시 재활용품 수집인 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20250718",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1975363",
+      "categories": [
+       "C07",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.9855,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1661305",
+      "key": "ordin-1661305",
+      "name": "남원시의회 장애인공무원 편의지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20211231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1661305",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.98522,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1320703",
+      "key": "ordin-1320703",
+      "name": "남원시 관광시설 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20250718",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1320703",
+      "categories": [
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.985017,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2093155",
+      "key": "ordin-2093155",
+      "name": "남원시 복지안전주택 지원 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20251217",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2093155",
+      "categories": [
+       "C08",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.984039,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1885399",
+      "key": "ordin-1885399",
+      "name": "남원시 관광협의회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20231218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1885399",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.983867,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1403242",
+      "key": "ordin-1403242",
+      "name": "남원시 시민안전보험 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20190712",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1403242",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.98386,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2093075",
+      "key": "ordin-2093075",
+      "name": "남원시 폐기물관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20251217",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2093075",
+      "categories": [
+       "C07"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.983495,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1882997",
+      "key": "ordin-1882997",
+      "name": "남원시 어린이ㆍ사회복지급식관리지원센터 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 남원시",
+      "sig_cd": "52190",
+      "enacted_on": "20231218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1882997",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1888797",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.989854,
+    "best_rank": 1,
+    "ordinance_id": "ordin:1888797",
+    "key": "ordin-1888797",
+    "name": "남원시 폐기물처리시설 주변영향지역 주민지원기금 운용관리 조례",
+    "region_name": "전북특별자치도 남원시",
+    "sig_cd": "52190",
+    "enacted_on": "20231218",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1888797"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

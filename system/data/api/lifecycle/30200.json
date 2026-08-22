@@ -1,0 +1,694 @@
+{
+ "data": {
+  "region": {
+   "region_id": "30200",
+   "sig_cd": "30200",
+   "name": "유성구",
+   "full_name": "대전광역시 유성구",
+   "level": 2
+  },
+  "counts": {
+   "total": 713,
+   "active": 575,
+   "repealed": 138,
+   "by_rr_cls_cd": {
+    "일부개정": 377,
+    "전부개정": 21,
+    "제정": 177,
+    "폐지": 138
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 11
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 12
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 8
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 16
+   },
+   {
+    "year": 2016,
+    "n": 12
+   },
+   {
+    "year": 2017,
+    "n": 18
+   },
+   {
+    "year": 2018,
+    "n": 7
+   },
+   {
+    "year": 2019,
+    "n": 21
+   },
+   {
+    "year": 2020,
+    "n": 30
+   },
+   {
+    "year": 2021,
+    "n": 62
+   },
+   {
+    "year": 2022,
+    "n": 46
+   },
+   {
+    "year": 2023,
+    "n": 70
+   },
+   {
+    "year": 2024,
+    "n": 158
+   },
+   {
+    "year": 2025,
+    "n": 141
+   },
+   {
+    "year": 2026,
+    "n": 59
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 11
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 11
+   },
+   {
+    "year": 2011,
+    "n": 6
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 13
+   },
+   {
+    "year": 2016,
+    "n": 6
+   },
+   {
+    "year": 2017,
+    "n": 8
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 8
+   },
+   {
+    "year": 2020,
+    "n": 5
+   },
+   {
+    "year": 2021,
+    "n": 7
+   },
+   {
+    "year": 2022,
+    "n": 4
+   },
+   {
+    "year": 2023,
+    "n": 5
+   },
+   {
+    "year": 2024,
+    "n": 8
+   },
+   {
+    "year": 2025,
+    "n": 5
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직·운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수.분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원 재정보증 조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀장학금지급조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:822999",
+    "name": "대전광역시유성구인감업무담당공무원보험·공제등의가입조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=822999&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:839183",
+    "name": "대전광역시유성구재난관리기금운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=839183&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:843856",
+    "name": "대전광역시유성구재해대책기금조성및운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=843856&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:826941",
+    "name": "대전광역시유성구주민소득지원및생활안정기금운용관리조례",
+    "ord_kind": "규칙",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=826941&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2083827",
+    "name": "대전광역시 유성구 녹지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-10",
+    "repealed_on": "2025-11-10",
+    "repealed_on_raw": "20251110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2083827&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2077347",
+    "name": "대전광역시 유성구 부실공사 방지 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-02",
+    "repealed_on": "2025-10-02",
+    "repealed_on_raw": "20251002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2077347&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2015237",
+    "name": "대전광역시 유성구 계약서 등 갑·을 명칭 사용 제한 권고 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-12",
+    "repealed_on": "2025-02-12",
+    "repealed_on_raw": "20250212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2015237&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2015259",
+    "name": "대전광역시 유성구 구민 자율청결 실천 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-12",
+    "repealed_on": "2025-02-12",
+    "repealed_on_raw": "20250212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2015259&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2015265",
+    "name": "대전광역시 유성구 노후된 건축물 및 폐·공가 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-12",
+    "repealed_on": "2025-02-12",
+    "repealed_on_raw": "20250212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2015265&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1959545",
+    "name": "대전광역시 유성구 금연지도원 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-26",
+    "repealed_on": "2024-07-26",
+    "repealed_on_raw": "20240726",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1959545&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1959519",
+    "name": "대전광역시 유성구 자치분권특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-26",
+    "repealed_on": "2024-07-26",
+    "repealed_on_raw": "20240726",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1959519&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1942275",
+    "name": "대전광역시 유성구 공공조형물 건립 및 관리 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-28",
+    "repealed_on": "2024-06-28",
+    "repealed_on_raw": "20240628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942275&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1942293",
+    "name": "대전광역시유성구주민능력계발교실및학생방과후취미교육등운영에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-28",
+    "repealed_on": "2024-06-28",
+    "repealed_on_raw": "20240628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942293&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1942267",
+    "name": "대전광역시 유성구 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-28",
+    "repealed_on": "2024-06-28",
+    "repealed_on_raw": "20240628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942267&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1942113",
+    "name": "대전광역시 유성구 주민자치센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-06-28",
+    "repealed_on": "2024-06-28",
+    "repealed_on_raw": "20240628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942113&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1961673",
+    "name": "대전광역시 유성구 장애인 전동보장구 보험료 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-17",
+    "repealed_on": "2024-05-17",
+    "repealed_on_raw": "20240517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1961673&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1881565",
+    "name": "대전광역시 유성구 노인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-15",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1881565&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1872187",
+    "name": "대전광역시 유성구 유통분쟁조정위원회 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872187&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1866337",
+    "name": "대전광역시 유성구 범죄예방 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-10",
+    "repealed_on": "2023-10-10",
+    "repealed_on_raw": "20231010",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1866337&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1836691",
+    "name": "대전광역시 유성구 구정조정위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-14",
+    "repealed_on": "2023-07-14",
+    "repealed_on_raw": "20230714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1836691&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1836637",
+    "name": "대전광역시 유성구 구정조정위원회 구성 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-07-14",
+    "repealed_on": "2023-07-14",
+    "repealed_on_raw": "20230714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1836637&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1736273",
+    "name": "대전광역시 유성구 정책연구용역 공개 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-14",
+    "repealed_on": "2023-01-01",
+    "repealed_on_raw": "20230101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1736273&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1760963",
+    "name": "대전광역시 유성구 요양보호사 처우 개선 및 지위 향상에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-22",
+    "repealed_on": "2022-12-22",
+    "repealed_on_raw": "20221222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1760963&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1760951",
+    "name": "대전광역시 유성구 의회사무국 직원 추천 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-22",
+    "repealed_on": "2022-12-22",
+    "repealed_on_raw": "20221222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1760951&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1760977",
+    "name": "대전광역시 유성구 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-22",
+    "repealed_on": "2022-12-22",
+    "repealed_on_raw": "20221222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1760977&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1651147",
+    "name": "대전광역시 유성구 주민의 조례제정 및 개폐청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-24",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1651147&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632235",
+    "name": "대전광역시 유성구 교통복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-06",
+    "repealed_on": "2021-10-06",
+    "repealed_on_raw": "20211006",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632235&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632219",
+    "name": "대전광역시 유성구 덕명지구 도시개발사업조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-06",
+    "repealed_on": "2021-10-06",
+    "repealed_on_raw": "20211006",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632611",
+    "name": "대전광역시 유성구 덕명지구 도시개발사업조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-10-06",
+    "repealed_on": "2021-10-06",
+    "repealed_on_raw": "20211006",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632611&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1598451",
+    "name": "대전광역시 유성구 구지편찬위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-14",
+    "repealed_on": "2021-05-14",
+    "repealed_on_raw": "20210514",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1598451&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1574039",
+    "name": "대전광역시 유성구 공무원직장협의회의 설립·운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-10",
+    "repealed_on": "2021-02-10",
+    "repealed_on_raw": "20210210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1574039&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1574041",
+    "name": "대전광역시유성구공무원직장협의회의설립·운영에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-02-10",
+    "repealed_on": "2021-02-10",
+    "repealed_on_raw": "20210210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1574041&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1571099",
+    "name": "대전광역시 유성구 기금관리 및 통합관리기금 설치에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-01-15",
+    "repealed_on": "2021-01-15",
+    "repealed_on_raw": "20210115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1571099&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1551497",
+    "name": "대전광역시 유성구 효행 가정 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-11",
+    "repealed_on": "2020-12-11",
+    "repealed_on_raw": "20201211",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1551497&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545289",
+    "name": "대전광역시 유성구 로컬푸드 인증에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545289&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1536695",
+    "name": "대전광역시유성구조례의명칭변경에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-12",
+    "repealed_on": "2020-10-12",
+    "repealed_on_raw": "20201012",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1536695&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1536697",
+    "name": "대전광역시유성구규칙·훈령·예규의명칭변경에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-10-12",
+    "repealed_on": "2020-10-12",
+    "repealed_on_raw": "20201012",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1536697&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1536689",
+    "name": "대전광역시 유성구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-10-12",
+    "repealed_on": "2020-10-12",
+    "repealed_on_raw": "20201012",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1536689&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:4471133",
+    "name": "대전광역시 유성구 사회적기업 육성 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-20",
+    "repealed_on": "2019-12-20",
+    "repealed_on_raw": "20191220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=4471133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:4471043",
+    "name": "대전광역시 유성구 협동조합 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-20",
+    "repealed_on": "2019-12-20",
+    "repealed_on_raw": "20191220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=4471043&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 4,
+   "sentinel_99991231": 4
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "30200"
+ ]
+}

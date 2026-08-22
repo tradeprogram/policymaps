@@ -1,0 +1,762 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1654699",
+   "key": "ordin-1654699",
+   "mst": "1654699",
+   "name": "고창군의회 장애인공무원 편의지원 조례",
+   "ord_kind": "조례",
+   "region_id": "52790",
+   "sig_cd": "52790",
+   "region_name": "전북특별자치도 고창군",
+   "org_name": "전북특별자치도 고창군",
+   "enacted_on": "20211229",
+   "effective_on": "20211229",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 10,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1654699",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.6471,
+     "method": "rule"
+    },
+    {
+     "code": "C03",
+     "name": "복지·돌봄",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.887709,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2130355",
+      "key": "ordin-2130355",
+      "name": "고창군 지방공무원 정원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20260515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2130355",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.88534,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1022023",
+      "key": "ordin-1022023",
+      "name": "고창군 소송수행자 포상금지급 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20100319",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1022023",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.877873,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2074533",
+      "key": "ordin-2074533",
+      "name": "고창군 행정규제 혁신 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20251015",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2074533",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.869325,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1654695",
+      "key": "ordin-1654695",
+      "name": "고창군의회 지방공무원 복무 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20211229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1654695",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.868679,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2090637",
+      "key": "ordin-2090637",
+      "name": "고창군 행정규제 혁신 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20251015",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2090637",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.859059,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2049463",
+      "key": "ordin-2049463",
+      "name": "고창군 공무원 직무발명 보상 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20250701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "body-missing",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2049463",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.858272,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1881891",
+      "key": "ordin-1881891",
+      "name": "고창군 자율적 내부통제 운영에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20231215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1881891",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.858026,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1722525",
+      "key": "ordin-1722525",
+      "name": "고창군 공무원 등의 보호 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20220812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1722525",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.855228,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1931727",
+      "key": "ordin-1931727",
+      "name": "고창군 고창농악전수관 설치 및 운영관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20240516",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1931727",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.854493,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:818530",
+      "key": "ordin-818530",
+      "name": "고창군 새농민양성소 설치 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20100319",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=818530",
+      "categories": [
+       "C12",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.988273,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1780567",
+      "key": "ordin-1780567",
+      "name": "고창군 아동복지 증진에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20230120",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1780567",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.988248,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1789401",
+      "key": "ordin-1789401",
+      "name": "고창군 청년가업승계 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20230310",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1789401",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.988051,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1176300",
+      "key": "ordin-1176300",
+      "name": "고창군 지방별정직공무원 자진퇴직 수당지급에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20150703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1176300",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.9878,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1842779",
+      "key": "ordin-1842779",
+      "name": "고창군 농업재해 복구 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20230801",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1842779",
+      "categories": [
+       "C12",
+       "C08"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.987786,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1995281",
+      "key": "ordin-1995281",
+      "name": "고창군 온라인쇼핑몰 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20241216",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1995281",
+      "categories": [
+       "C12",
+       "C06"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.987489,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1864391",
+      "key": "ordin-1864391",
+      "name": "고창군 지방공무원 복무 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20231013",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1864391",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.987207,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1881867",
+      "key": "ordin-1881867",
+      "name": "고창군 지방세 세무조사 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20231215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1881867",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.987063,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1032503",
+      "key": "ordin-1032503",
+      "name": "고창군 읍면종합복지회관 운영관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20100225",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1032503",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.987058,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1911869",
+      "key": "ordin-1911869",
+      "name": "고창군의회 인사청문회 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20240312",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1911869",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.986842,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1298375",
+      "key": "ordin-1298375",
+      "name": "고창군 판소리박물관 설치 및 운영관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20170801",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1298375",
+      "categories": [
+       "C13",
+       "C08"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 4,
+    "stored_agreement": 0.4
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.995583,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1780575",
+      "key": "ordin-1780575",
+      "name": "고창군 청소년육성위원회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20230120",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1780575",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.995234,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1960969",
+      "key": "ordin-1960969",
+      "name": "고창군 안전보안관 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20240801",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1960969",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.995218,
+      "stored_rank": null,
+      "ordinance_id": "ordin:899156",
+      "key": "ordin-899156",
+      "name": "고창군 어장관리선 척수 및 사용기준에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20111114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=899156",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994894,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1779997",
+      "key": "ordin-1779997",
+      "name": "고창군 각종 위원회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20230120",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1779997",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994813,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1388713",
+      "key": "ordin-1388713",
+      "name": "고창군 항일독립운동 기념에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20190325",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1388713",
+      "categories": [
+       "C02",
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.994786,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1950707",
+      "key": "ordin-1950707",
+      "name": "고창군 보행환경 개선에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20240701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1950707",
+      "categories": [
+       "C03",
+       "C07",
+       "C10"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.994454,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1245925",
+      "key": "ordin-1245925",
+      "name": "고창군 범죄피해자 보호 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20160712",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1245925",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.99445,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1950733",
+      "key": "ordin-1950733",
+      "name": "고창군 식품진흥기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20231215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1950733",
+      "categories": [
+       "C02",
+       "C06"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.994325,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1199518",
+      "key": "ordin-1199518",
+      "name": "고창군 국가보훈대상자 등 예우 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20151105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1199518",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.994306,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1882093",
+      "key": "ordin-1882093",
+      "name": "고창군 가족센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 고창군",
+      "sig_cd": "52790",
+      "enacted_on": "20231215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1882093",
+      "categories": [
+       "C06",
+       "C13"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

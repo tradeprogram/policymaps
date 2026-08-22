@@ -1,0 +1,769 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1011868",
+   "key": "ordin-1011868",
+   "mst": "1011868",
+   "name": "부산광역시 사하구 응급의료 지원에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "26380",
+   "sig_cd": "26380",
+   "region_name": "부산광역시 사하구",
+   "org_name": "부산광역시 사하구",
+   "enacted_on": "20150330",
+   "effective_on": "20150330",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 9,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1011868",
+   "categories": [
+    {
+     "code": "C06",
+     "name": "보건·의료",
+     "confidence": 0.6471,
+     "method": "rule"
+    },
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.884129,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:994795",
+      "key": "ordin-994795",
+      "name": "대구광역시 수성구 응급의료 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 수성구",
+      "sig_cd": "27260",
+      "enacted_on": "20130730",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=994795",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.84139,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2064441",
+      "key": "ordin-2064441",
+      "name": "부산광역시 동구 응급의료 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 동구",
+      "sig_cd": "26170",
+      "enacted_on": "20250812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2064441",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.836138,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1811475",
+      "key": "ordin-1811475",
+      "name": "안양시 응급의료 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안양시",
+      "sig_cd": "41170",
+      "enacted_on": "20230522",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1811475",
+      "categories": [
+       "C06",
+       "C08"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.830402,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1945761",
+      "key": "ordin-1945761",
+      "name": "부산광역시 연제구 응급의료 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 연제구",
+      "sig_cd": "26470",
+      "enacted_on": "20240701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1945761",
+      "categories": [
+       "C06",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.825889,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1856559",
+      "key": "ordin-1856559",
+      "name": "인천광역시 연수구 소상공인 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 연수구",
+      "sig_cd": "28185",
+      "enacted_on": "20230927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1856559",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.825327,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1594323",
+      "key": "ordin-1594323",
+      "name": "부산광역시 금정구 체육진흥협의회 조직 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20210511",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1594323",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.818296,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1294869",
+      "key": "ordin-1294869",
+      "name": "양평군 응급의료 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 양평군",
+      "sig_cd": "41830",
+      "enacted_on": "20170710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1294869",
+      "categories": [
+       "C06",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.814854,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1543561",
+      "key": "ordin-1543561",
+      "name": "인천광역시 연수구 건강도시 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 연수구",
+      "sig_cd": "28185",
+      "enacted_on": "20201109",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1543561",
+      "categories": [
+       "C06",
+       "C09"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.810855,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1516271",
+      "key": "ordin-1516271",
+      "name": "부천시 응급의료 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20200713",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1516271",
+      "categories": [
+       "C06",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.804346,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1833815",
+      "key": "ordin-1833815",
+      "name": "대구광역시 동구 응급의료지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 동구",
+      "sig_cd": "27140",
+      "enacted_on": "20230710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1833815",
+      "categories": [
+       "C06",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994735,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1486747",
+      "key": "ordin-1486747",
+      "name": "부산광역시 사하구 청사 부설주차장 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20200410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1486747",
+      "categories": [
+       "C10",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993739,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2029065",
+      "key": "ordin-2029065",
+      "name": "부산광역시 사하구 관광진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20250414",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2029065",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993599,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1825071",
+      "key": "ordin-1825071",
+      "name": "부산광역시 사하구 청소년 문화의 집 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20230628",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1825071",
+      "categories": [
+       "C05",
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993507,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2029045",
+      "key": "ordin-2029045",
+      "name": "부산광역시 사하구 생활폐기물 수집·운반 대행 수수료 원가계산에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20250414",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2029045",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993478,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1394455",
+      "key": "ordin-1394455",
+      "name": "부산광역시 사하구 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20190517",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1394455",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.99316,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2111333",
+      "key": "ordin-2111333",
+      "name": "부산광역시 사하구 숙련기술장인 선정 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20260224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2111333",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993082,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1969119",
+      "key": "ordin-1969119",
+      "name": "부산광역시 사하구 지역상권 상생 및 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20240924",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1969119",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.992871,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1983027",
+      "key": "ordin-1983027",
+      "name": "부산광역시 사하구 자원봉사활동 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20241108",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1983027",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.992628,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2128363",
+      "key": "ordin-2128363",
+      "name": "부산광역시 사하구의회 공무원 여비 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20260508",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2128363",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.992616,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2082731",
+      "key": "ordin-2082731",
+      "name": "부산광역시 사하구 국제교류 협력 증진에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20251107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2082731",
+      "categories": [
+       "C13",
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 1,
+    "stored_agreement": 0.1
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.981508,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1681823",
+      "key": "ordin-1681823",
+      "name": "부산광역시 사하구 공동주택 품질점검단 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20220204",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1681823",
+      "categories": [
+       "C09",
+       "C08"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.981174,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1510617",
+      "key": "ordin-1510617",
+      "name": "부산광역시 사하구 진로교육지원센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20200701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1510617",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.981131,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2111337",
+      "key": "ordin-2111337",
+      "name": "부산광역시 사하구 공동주택 관리에 관한 감사 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20260224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2111337",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.980638,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1854369",
+      "key": "ordin-1854369",
+      "name": "부산광역시 사하구 공동주택관리 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20230925",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1854369",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.980631,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1409167",
+      "key": "ordin-1409167",
+      "name": "부산광역시 사하구 정신건강증진 및 정신질환자 복지서비스 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20190920",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1409167",
+      "categories": [
+       "C06",
+       "C03"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.980585,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1887893",
+      "key": "ordin-1887893",
+      "name": "부산광역시 사하구 여성친화도시 조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20231226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1887893",
+      "categories": [
+       "C09",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.980289,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1565471",
+      "key": "ordin-1565471",
+      "name": "부산광역시 사하구 의용소방대 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20210101",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1565471",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.980222,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1650757",
+      "key": "ordin-1650757",
+      "name": "부산광역시 사하구 성인문해교육 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20211228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1650757",
+      "categories": [
+       "C05",
+       "C03"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.980149,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1785171",
+      "key": "ordin-1785171",
+      "name": "부산광역시 사하구 학교급식 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20230224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1785171",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.979877,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1155519",
+      "key": "ordin-1155519",
+      "name": "부산광역시 사하구 생활폐기물 수집·운반 대행업체 평가에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20150710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1155519",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

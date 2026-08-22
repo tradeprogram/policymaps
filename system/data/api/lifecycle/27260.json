@@ -1,0 +1,718 @@
+{
+ "data": {
+  "region": {
+   "region_id": "27260",
+   "sig_cd": "27260",
+   "name": "수성구",
+   "full_name": "대구광역시 수성구",
+   "level": 2
+  },
+  "counts": {
+   "total": 648,
+   "active": 564,
+   "repealed": 84,
+   "by_rr_cls_cd": {
+    "일부개정": 321,
+    "전부개정": 26,
+    "제정": 217,
+    "폐지": 84
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 8
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 15
+   },
+   {
+    "year": 2014,
+    "n": 11
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 18
+   },
+   {
+    "year": 2017,
+    "n": 21
+   },
+   {
+    "year": 2018,
+    "n": 24
+   },
+   {
+    "year": 2019,
+    "n": 58
+   },
+   {
+    "year": 2020,
+    "n": 43
+   },
+   {
+    "year": 2021,
+    "n": 87
+   },
+   {
+    "year": 2022,
+    "n": 46
+   },
+   {
+    "year": 2023,
+    "n": 103
+   },
+   {
+    "year": 2024,
+    "n": 82
+   },
+   {
+    "year": 2025,
+    "n": 82
+   },
+   {
+    "year": 2026,
+    "n": 18
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 7
+   },
+   {
+    "year": 2016,
+    "n": 6
+   },
+   {
+    "year": 2017,
+    "n": 7
+   },
+   {
+    "year": 2018,
+    "n": 3
+   },
+   {
+    "year": 2019,
+    "n": 7
+   },
+   {
+    "year": 2020,
+    "n": 4
+   },
+   {
+    "year": 2021,
+    "n": 5
+   },
+   {
+    "year": 2022,
+    "n": 2
+   },
+   {
+    "year": 2023,
+    "n": 7
+   },
+   {
+    "year": 2024,
+    "n": 1
+   },
+   {
+    "year": 2025,
+    "n": 4
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과·징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀장학금지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "호적과태료부과징수조례",
+    "display_name": "호적과태료부과·징수조례",
+    "rows": 1,
+    "nationwide_regions": 62
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황공개조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한과태료부과징수규칙",
+    "display_name": "부동산중개업법위반자에대한과태료부과·징수규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:851441",
+    "name": "대구광역시수성구관용심사위원회의설치및운영에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2009-06-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=851441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2083629",
+    "name": "대구광역시 수성구 구정 여론모니터 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-10",
+    "repealed_on": "2025-11-10",
+    "repealed_on_raw": "20251110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2083629&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2068571",
+    "name": "대구광역시 수성구 공동주택 재난 예보ㆍ경보시설 설치 및 운영 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-22",
+    "repealed_on": "2025-09-22",
+    "repealed_on_raw": "20250922",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2068571&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2047025",
+    "name": "대구광역시 수성구 의회에 출석·답변할 수 있는 관계공무원의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2047025&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2047027",
+    "name": "대구광역시 수성구의회 회기운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2047027&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1979785",
+    "name": "대구광역시 수성구 문화예술진흥 심의위원회 구성과 운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-10-30",
+    "repealed_on": "2024-10-30",
+    "repealed_on_raw": "20241030",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1979785&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1884127",
+    "name": "대구광역시 수성구 자치분권 촉진·지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-20",
+    "repealed_on": "2023-12-20",
+    "repealed_on_raw": "20231220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884127&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1872127",
+    "name": "대구광역시 수성구 안전도시 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872127&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1872111",
+    "name": "대구광역시 수성구 유통분쟁조정위원회 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872111&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1799053",
+    "name": "대구광역시수성구이동도서관운영에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-10",
+    "repealed_on": "2023-04-10",
+    "repealed_on_raw": "20230410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1799053&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1799113",
+    "name": "대구광역시 수성구 금고 지정 및 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-10",
+    "repealed_on": "2023-04-10",
+    "repealed_on_raw": "20230410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1799113&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1799109",
+    "name": "대구광역시 수성구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-10",
+    "repealed_on": "2023-04-10",
+    "repealed_on_raw": "20230410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1799109&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1799117",
+    "name": "대구광역시수성구축제추진위원회운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-10",
+    "repealed_on": "2023-04-10",
+    "repealed_on_raw": "20230410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1799117&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1686775",
+    "name": "대구광역시 수성구 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-02-28",
+    "repealed_on": "2022-03-25",
+    "repealed_on_raw": "20220325",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1686775&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1686763",
+    "name": "대구광역시 수성구 주민의 조례 제정과 개폐청구 연서주민수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-02-28",
+    "repealed_on": "2022-02-28",
+    "repealed_on_raw": "20220228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1686763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1636413",
+    "name": "대구광역시 수성구 지방사전재해 영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-01",
+    "repealed_on": "2021-11-01",
+    "repealed_on_raw": "20211101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1636413&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1642251",
+    "name": "대구광역시 수성구 아동ㆍ여성보호 지역연대 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2021-09-23",
+    "repealed_on_raw": "20210923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1642251&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1607005",
+    "name": "대구광역시수성구주거환경개선사업특별회계설치운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-30",
+    "repealed_on": "2021-06-30",
+    "repealed_on_raw": "20210630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1607005&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1600039",
+    "name": "대구광역시 수성구 청소년육성 전담공무원의 역할 및 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-31",
+    "repealed_on": "2021-05-31",
+    "repealed_on_raw": "20210531",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1600039&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1600051",
+    "name": "대구광역시 수성구 청소년육성 전담기구의 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-31",
+    "repealed_on": "2021-05-31",
+    "repealed_on_raw": "20210531",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1600051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1581971",
+    "name": "대구광역시 수성구 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-10",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1581971&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1554617",
+    "name": "대구광역시 수성구 노인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-21",
+    "repealed_on": "2020-12-21",
+    "repealed_on_raw": "20201221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1554617&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1500207",
+    "name": "대구광역시 수성구 지방공무원 임용후보자 장학규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-06-01",
+    "repealed_on": "2020-06-01",
+    "repealed_on_raw": "20200601",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1500207&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1489559",
+    "name": "대구광역시 수성구 신청사건립기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-11",
+    "repealed_on": "2020-01-01",
+    "repealed_on_raw": "20200101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1489559&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1418273",
+    "name": "대구광역시 수성구 생활소음저감 실천에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-11",
+    "repealed_on": "2019-11-11",
+    "repealed_on_raw": "20191111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418273&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1418275",
+    "name": "대구광역시 수성구 재난안전대책본부 운영 조례 시행 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-11",
+    "repealed_on": "2019-11-11",
+    "repealed_on_raw": "20191111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1418275&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1411577",
+    "name": "대구광역시 수성구 정책연구용역 공개 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-09-30",
+    "repealed_on": "2019-09-30",
+    "repealed_on_raw": "20190930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1411577&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1393647",
+    "name": "대구광역시 수성구 자치법규정보 관리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-05-10",
+    "repealed_on": "2019-05-10",
+    "repealed_on_raw": "20190510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1393647&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1393648",
+    "name": "대구광역시 수성구 조례·규칙심의회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-05-10",
+    "repealed_on": "2019-05-10",
+    "repealed_on_raw": "20190510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1393648&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1389469",
+    "name": "대구광역시 수성구 청년커뮤니티센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-04-01",
+    "repealed_on": "2019-04-01",
+    "repealed_on_raw": "20190401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1389469&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1384382",
+    "name": "대구광역시 수성구 재정투자사업 심사에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-02-11",
+    "repealed_on": "2019-02-11",
+    "repealed_on_raw": "20190211",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1384382&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1384059",
+    "name": "대구광역시 수성구 더불어 행복한 도시재생지원센터의 설치·운영 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-30",
+    "repealed_on": "2018-12-30",
+    "repealed_on_raw": "20181230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1384059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1338705",
+    "name": "대구광역시 수성구 청소년수련관 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-02-12",
+    "repealed_on": "2018-02-12",
+    "repealed_on_raw": "20180212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1338705&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1338706",
+    "name": "대구광역시 수성구 청소년수련원 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-02-12",
+    "repealed_on": "2018-02-12",
+    "repealed_on_raw": "20180212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1338706&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1316559",
+    "name": "대구광역시 수성구 전통시장 육성 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-11",
+    "repealed_on": "2017-12-11",
+    "repealed_on_raw": "20171211",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1316559&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1311122",
+    "name": "대구광역시 수성구 청소년수련관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-11-10",
+    "repealed_on": "2017-11-10",
+    "repealed_on_raw": "20171110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1311122&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1311124",
+    "name": "대구광역시 수성구 청소년수련원 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-11-10",
+    "repealed_on": "2017-11-10",
+    "repealed_on_raw": "20171110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1311124&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1301129",
+    "name": "대구광역시 수성구 저소득주민 응급구호에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-09-11",
+    "repealed_on": "2017-09-11",
+    "repealed_on_raw": "20170911",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1301129&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1294640",
+    "name": "대구광역시 수성구 저소득주민 응급구호에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-07-10",
+    "repealed_on": "2017-07-10",
+    "repealed_on_raw": "20170710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1294640&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1290482",
+    "name": "대구광역시 수성구 문화센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-04-10",
+    "repealed_on": "2017-04-10",
+    "repealed_on_raw": "20170410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1290482&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 1,
+   "sentinel_99991231": 1
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "27260"
+ ]
+}

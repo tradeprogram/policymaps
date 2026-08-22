@@ -1,0 +1,901 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:277139",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "공직자윤리법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20260102",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=277139&type=HTML&mobileYn=&efYd=20260102",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 1570,
+   "child_ordinances": 909,
+   "by_verification_status": {
+    "article-missing": 1313,
+    "article-verified": 121,
+    "unverifiable": 136
+   },
+   "by_delegation_type": {
+    "law-delegated": 1570
+   },
+   "regions_top": [
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 9
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 8
+    },
+    {
+     "region_id": "41220",
+     "name": "경기도 평택시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "52",
+     "name": "전북특별자치도",
+     "ordinances": 6
+    },
+    {
+     "region_id": "51",
+     "name": "강원특별자치도",
+     "ordinances": 6
+    },
+    {
+     "region_id": "47850",
+     "name": "경상북도 칠곡군",
+     "ordinances": 6
+    },
+    {
+     "region_id": "47210",
+     "name": "경상북도 영주시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "47",
+     "name": "경상북도",
+     "ordinances": 6
+    },
+    {
+     "region_id": "44270",
+     "name": "충청남도 당진시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "44210",
+     "name": "충청남도 서산시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41830",
+     "name": "경기도 양평군",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41820",
+     "name": "경기도 가평군",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41190",
+     "name": "경기도 부천시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 6
+    },
+    {
+     "region_id": "36",
+     "name": "세종특별자치시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "12110",
+     "name": "전남광주통합특별시 목포시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "51790",
+     "name": "강원특별자치도 화천군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "48840",
+     "name": "경상남도 남해군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "48740",
+     "name": "경상남도 창녕군",
+     "ordinances": 5
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 공직자 및 공직후보자의 재산등록, 등록재산 공개 및 재산형성과정 소명과 공직을 이용한 재산취득의 규제, 공직자의 선물신고 및 주식백지신탁, 퇴직공직자의 취업제한 및 행위제한 등을 규정함으로써 공직자의 부정한 재산 증식을 방지하고, 공무집행의 공정성을 확보하는 등 공익과 사익의 이해충돌을 방지하여 국",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "생활보장 등",
+    "body": "제2조(생활보장 등)\n국가는 공직자가 공직에 헌신할 수 있도록 공직자의 생활을 보장하고, 공직윤리의 확립에 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": "2",
+    "title": "이해충돌 방지 의무",
+    "body": "제2조의2(이해충돌 방지 의무)\n① 국가 또는 지방자치단체는 공직자가 수행하는 직무가 공직자의 재산상 이해와 관련되어 공정한 직무수행이 어려운 상황이 일어나지 아니하도록 노력하여야 한다.\n② 공직자는 자신이 수행하는 직무가 자신의 재산상 이해와 관련되어 공정한 직무수행이 어려운 상황이 일어나지 아니하도록 직무수행의 적정성",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0002021"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "등록의무자",
+    "body": "제3조(등록의무자)\n① 다음 각 호의 어느 하나에 해당하는 공직자(이하 \"등록의무자\"라 한다)는 이 법에서 정하는 바에 따라 재산을 등록하여야 한다. <개정 2009.2.3, 2011.7.29, 2012.12.11, 2013.3.23, 2014.12.30, 2015.12.29, 2017.7.26, 2019.12.10, 2",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": "2",
+    "title": "공직유관단체",
+    "body": "제3조의2(공직유관단체)\n① 제9조제2항제8호에 따른 정부 공직자윤리위원회는 정부 또는 지방자치단체의 재정지원 규모, 임원선임 방법 등을 고려하여 다음 각 호에 해당하는 기관ㆍ단체를 공직유관단체로 지정할 수 있다. <개정 2014.12.30>\n1. 한국은행\n2. 공기업\n3. 정부의 출자ㆍ출연ㆍ보조를 받는 기관ㆍ단체(재출자",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0003021"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "등록대상재산",
+    "body": "제4조(등록대상재산)\n① 등록의무자가 등록할 재산은 다음 각 호의 어느 하나에 해당하는 사람의 재산(소유 명의와 관계없이 사실상 소유하는 재산, 비영리법인에 출연한 재산과 외국에 있는 재산을 포함한다. 이하 같다)으로 한다. <개정 2011.7.29>\n1. 본인\n2. 배우자(사실상의 혼인관계에 있는 사람을 포함한다. 이하",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "재산의 등록기관과 등록시기 등",
+    "body": "제5조(재산의 등록기관과 등록시기 등)\n① 공직자는 등록의무자가 된 날부터 2개월이 되는 날이 속하는 달의 말일까지 등록의무자가 된 날 현재의 재산을 다음 각 호의 구분에 따른 기관(이하 \"등록기관\"이라 한다)에 등록하여야 한다. 다만, 등록의무자가 된 날부터 2개월이 되는 날이 속하는 달의 말일까지 등록의무를 면제받은 ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "변동사항 신고",
+    "body": "제6조(변동사항 신고)\n① 등록의무자는 매년 1월 1일부터 12월 31일까지의 재산 변동사항을 다음 해 2월 말일까지 등록기관에 신고하여야 한다. 다만, 최초의 등록 후 또는 제5조제1항 단서에 따른 신고 후 최초의 변동사항 신고의 경우에는 등록의무자가 된 날부터 그 해 12월 31일까지의 재산 변동사항을 등록기관에 신고",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "주식 및 가상자산 거래내역의 신고",
+    "body": "제6조의2(주식 및 가상자산 거래내역의 신고)\n① 제10조제1항 각 호의 공개대상자에 해당하는 등록의무자는 제6조 또는 제11조제1항에 따른 재산 변동사항 신고 시에 제4조제1항 각 호의 어느 하나에 해당하는 사람의 주식 및 가상자산의 취득 또는 양도에 관한 거래 내용을 등록기관에 신고하여야 한다. <개정 2023.6.1",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "3",
+    "title": "변동사항 신고의 유예 등",
+    "body": "제6조의3(변동사항 신고의 유예 등)\n① 등록기관의 장은 등록의무자가 다음 각 호의 어느 하나에 해당하여 변동사항 신고의 유예신청을 하는 경우에는 3년의 범위에서 제6조제1항 또는 제11조제1항에 따른 변동사항 신고를 유예할 수 있다.\n1. 법령의 규정에 따라 외국에 파견근무하게 된 경우\n2. 법령의 규정에 따라 휴직하게",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0006031"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "4",
+    "title": "변동사항 신고의 범위와 내용",
+    "body": "제6조의4(변동사항 신고의 범위와 내용)\n1. 제4조제2항제1호 및 제2호에 해당하는 재산과 제4조제3항제12호 중 골프회원권의 매매ㆍ증여 또는 공시가격 고시 등으로 인한 변동사항. 다만, 매매 등의 거래를 한 경우 실거래가를 신고하고 증여와 같이 실거래가격을 알 수 없거나 해당 연도에 거래를 하지 아니한 경우에는 공시가",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0006041"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "5",
+    "title": "금융거래정보ㆍ부동산정보 등의 제공 및 활용 등",
+    "body": "제6조의5(금융거래정보ㆍ부동산정보 등의 제공 및 활용 등)\n① 공직자윤리위원회는 제5조제1항, 제6조제1항ㆍ제2항, 제10조제2항 및 제11조제1항에 따른 등록 또는 신고(이하 이 조에서 \"재산등록ㆍ신고\"라 한다)를 위하여 필요한 경우에는 「금융실명거래 및 비밀보장에 관한 법률」 제4조, 「신용정보의 이용 및 보호에 관한",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0006051"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "등록기간의 연장",
+    "body": "제7조(등록기간의 연장)\n등록기관의 장은 등록의무자(제6조제2항의 퇴직공직자를 포함한다. 이하 제8조ㆍ제10조ㆍ제12조ㆍ제13조 및 제24조에서 같다)가 부득이한 사유로 재산등록(신고를 포함한다. 이하 같다)의 기간 연장을 신청한 경우에 그 사유가 타당하다고 인정할 때에는 재산의 전부 또는 일부에 대한 등록기간을 연장할 ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "등록사항의 심사",
+    "body": "제8조(등록사항의 심사)\n① 공직자윤리위원회는 등록된 사항을 심사하여야 한다.\n② 공직자윤리위원회는 등록의무자가 등록재산의 일부를 과실로 빠트리거나 가액합산 등을 잘못 기재한 부분이 있다고 인정될 때에는 등록의무자에게 기간을 정하여 재산등록서류의 보완을 명할 수 있다.\n③ 공직자윤리위원회는 제1항에 따른 심사를 위하여 필",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": "2",
+    "title": "심사결과의 처리",
+    "body": "제8조의2(심사결과의 처리)\n① 공직자윤리위원회는 제8조에 따른 등록사항의 심사(제9조의2에 따른 재심사를 포함한다) 결과 다음 각 호의 어느 하나에 해당하면 제2항에 따른 필요한 조치를 하여야 한다. <개정 2019.12.3, 2023.12.26>\n1. 등록대상재산을 거짓으로 기재한 경우\n2. 등록대상재산을 중대한 과실",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0008021"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "공직자윤리위원회",
+    "body": "제9조(공직자윤리위원회)\n① 다음 각 호의 사항을 심사ㆍ결정하기 위하여 국회ㆍ대법원ㆍ헌법재판소ㆍ중앙선거관리위원회ㆍ정부ㆍ지방자치단체 및 특별시ㆍ광역시ㆍ특별자치시ㆍ도ㆍ특별자치도교육청에 각각 공직자윤리위원회를 둔다. <개정 2011.7.29>\n1. 재산등록사항의 심사와 그 결과의 처리\n2. 제8조제12항 후단에 따른 승인\n3.",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "2",
+    "title": "공직자윤리위원회 직권 재심사",
+    "body": "제9조의2(공직자윤리위원회 직권 재심사)\n1. 결정의 기초가 된 증거자료가 위조ㆍ변조 또는 고의로 누락된 사실이 밝혀진 경우\n2. 심사과정에서 조사가 이루어지지 아니한 중요한 증거가 새로 발견된 경우\n3. 심사과정의 심의ㆍ의결 절차 등에 관한 위법이 발견되었을 경우",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0009021"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "등록재산의 공개",
+    "body": "제10조(등록재산의 공개)\n① 공직자윤리위원회는 관할 등록의무자 중 다음 각 호의 어느 하나에 해당하는 공직자 본인과 배우자 및 본인의 직계존속ㆍ직계비속의 재산에 관한 등록사항과 제6조에 따른 변동사항 신고내용을 등록기간 또는 신고기간 만료 후 1개월 이내에 관보(공보를 포함한다) 및 인사혁신처장이 지정하는 정보통신망을 ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "2",
+    "title": "공직선거후보자 등의 재산공개",
+    "body": "제10조의2(공직선거후보자 등의 재산공개)\n① 대통령, 국회의원, 지방자치단체의 장, 지방의회의원 선거의 후보자가 되려는 사람이 후보자등록을 할 때에는 전년도 12월 31일 현재의 제4조에 따른 등록대상재산에 관한 신고서를 관할 선거관리위원회에 제출하고, 관할 선거관리위원회는 후보자 등록 공고 시에 후보자의 재산신고사항을",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0010021"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "전보된 사람 등의 재산신고",
+    "body": "제11조(전보된 사람 등의 재산신고)\n① 등록의무자가 공무원 또는 공직유관단체 임직원의 신분을 보유하면서(퇴직일부터 2개월이 되는 날이 속하는 달의 말일까지 다시 공무원 또는 공직유관단체 임직원이 되는 경우를 포함한다) 전보 등으로 인하여 등록의무를 면제받았을 때에는 전보 등이 된 날부터 2개월이 되는 날이 속하는 달의 ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "성실등록의무 등",
+    "body": "제12조(성실등록의무 등)\n① 등록의무자는 제4조에서 규정하는 등록대상재산과 그 가액, 취득일자, 취득경위, 소득원 등을 재산등록 서류에 거짓으로 기재하여서는 아니 된다.\n② 등록의무자는 공직자윤리위원회 등의 등록사항에 대한 심사에 성실하게 응하여야 한다.\n③ 제4조제1항제2호 또는 제3호의 사람은 등록의무자의 재산등록이",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "재산등록사항의 목적 외 이용금지 등",
+    "body": "제13조(재산등록사항의 목적 외 이용금지 등)\n등록의무자는 허위등록이나 그 밖에 이 법에서 정한 사유 외에 등록된 사항을 이유로 불리한 처우나 처분을 받지 아니하며, 누구든지 재산등록사항을 이 법에서 정한 목적 외의 용도로 이용하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "비밀엄수",
+    "body": "제14조(비밀엄수)\n재산등록업무에 종사하거나 종사하였던 사람 또는 직무상 재산등록사항을 알게 된 사람은 다른 사람에게 이를 누설하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "10",
+    "title": "주식의 매각요구 및 신탁의 해지",
+    "body": "제14조의10(주식의 매각요구 및 신탁의 해지)\n① 주식백지신탁의 신탁자는 관할 공직자윤리위원회의 허가를 받아 수탁기관에 신탁재산을 모두 매각할 것을 서면으로 요구할 수 있다.\n② 주식백지신탁의 신탁자는 다음 각 호의 어느 하나에 해당하는 사유가 발생하면 수탁기관에 주식백지신탁계약의 해지를 청구할 수 있다. 다만, 제2호",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014101"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "11",
+    "title": "이해충돌 직무에 대한 관여 금지",
+    "body": "제14조의11(이해충돌 직무에 대한 관여 금지)\n① 공개대상자등은 다음 각 호의 기간 동안 공개대상자등 또는 그 이해관계자가 백지신탁한 주식이나 보유하고 있는 주식과 관련하여 해당 주식을 발행한 기업의 경영 또는 재산상 권리에 영향을 미칠 수 있는 직무에 결재, 지시, 의견표명 등의 방법을 통하여 관여해서는 아니 된다. ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014111"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "12",
+    "title": "주식백지신탁 심사위원회 직권 재심사",
+    "body": "제14조의12(주식백지신탁 심사위원회 직권 재심사)\n1. 결정의 기초가 된 증거자료가 위조ㆍ변조 또는 고의로 누락된 사실이 밝혀진 경우\n2. 심사과정에서 조사가 이루어지지 아니한 중요한 증거가 새로 발견된 경우\n3. 심사과정의 심의ㆍ의결 절차 등에 관한 위법이 발견되었을 경우",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0014121"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "13",
+    "title": "주식과 직무관련성 없는 직위로의 변경 신청 등",
+    "body": "제14조의13(주식과 직무관련성 없는 직위로의 변경 신청 등)\n① 제14조의4제1항에 따라 주식 매각의무 또는 주식백지신탁 의무가 발생한 공개대상자등은 그 의무가 발생한 날부터 2개월 이내에 공개대상자등 또는 그 이해관계자가 보유하고 있는 주식과 관련성이 있는 직무사항을 명시하여 소속 기관의 장 등에게 직위 변경을 신청할",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014131"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "14",
+    "title": "주식의 매각 또는 신탁 사실의 공개",
+    "body": "제14조의14(주식의 매각 또는 신탁 사실의 공개)\n① 제14조의4제1항 또는 제14조의6제2항에 따라 주식 매각 또는 주식백지신탁 계약의 체결 사실을 신고받은 등록기관의 장은 해당 사실을 공개하여야 한다.\n② 제14조의8제2항제1호에 따라 처음 신탁된 주식의 처분이 완료된 사실을 통보받은 관할 공직자윤리위원회는 해당 사",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014141"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "15",
+    "title": "기관별 주식취득의 제한",
+    "body": "제14조의15(기관별 주식취득의 제한)\n① 국가기관의 장(국회는 국회사무총장, 법원은 법원행정처장, 헌법재판소는 헌법재판소사무처장, 중앙선거관리위원회는 중앙선거관리위원회사무총장을 말한다. 이하 같다) 및 지방자치단체의 장은 기업 등에 대한 정보를 획득하거나 영향력을 행사하는 등 공익과 사익의 이해충돌이 발생할 우려가 있는",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014151"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "16",
+    "title": "기관별 부동산취득의 제한",
+    "body": "제14조의16(기관별 부동산취득의 제한)\n① 국가기관의 장, 지방자치단체의 장 및 공직유관단체의 장은 부동산에 대한 정보를 획득하거나 이와 관련된 업무를 수행한다고 인정되는 부서의 제3조제1항 각 호에 따른 공직자 본인 및 그 이해관계자가 관련 업무 분야 및 관할의 부동산을 새로 취득하는 것을 제한할 수 있다. 다만, 상",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014161"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "17",
+    "title": "기관별 가상자산 보유의 제한",
+    "body": "제14조의17(기관별 가상자산 보유의 제한)\n① 국가기관의 장 및 지방자치단체의 장은 가상자산에 대한 정보를 획득하거나 영향력을 행사하는 업무를 수행한다고 인정되는 부서 또는 직위의 제3조제1항 각 호에 따른 공직자 본인 및 그 이해관계자가 가상자산을 보유하는 것을 제한할 수 있다.\n② 각 기관의 장은 제1항에 따라 소속",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014171"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "2",
+    "title": "직무상 비밀 등을 이용한 재물취득의 금지",
+    "body": "제14조의2(직무상 비밀 등을 이용한 재물취득의 금지)\n등록의무자는 직무상 알게 된 비밀 또는 소속 기관의 미공개정보를 이용하여 재물이나 재산상 이익을 취득하거나 제3자로 하여금 취득하게 하여서는 아니 된다. <개정 2023.12.26>",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0014021"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "3",
+    "title": "금융거래자료의 제공ㆍ누설 등 금지",
+    "body": "제14조의3(금융거래자료의 제공ㆍ누설 등 금지)\n제8조제5항에 따라 금융거래의 내용에 관한 자료를 제공받은 사람은 그 자료를 타인에게 제공 또는 누설하거나 그 목적 외의 용도로 이용하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0014031"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "4",
+    "title": "주식의 매각 또는 신탁",
+    "body": "제14조의4(주식의 매각 또는 신탁)\n① 등록의무자 중 제10조제1항에 따른 공개대상자와 재정경제부 및 금융위원회 소속 공무원 중 대통령령으로 정하는 사람(이하 \"공개대상자등\"이라 한다)은 본인 및 그 이해관계자(제4조제1항제2호 또는 제3호에 해당하는 사람을 말하되, 제4조제1항제3호의 사람 중 제12조제4항에 따라 재",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014041"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "5",
+    "title": "주식백지신탁 심사위원회의 직무관련성 심사 등",
+    "body": "제14조의5(주식백지신탁 심사위원회의 직무관련성 심사 등)\n① 공개대상자등 및 그 이해관계인이 보유하고 있는 주식의 직무관련성을 심사ㆍ결정하기 위하여 인사혁신처에 주식백지신탁 심사위원회를 둔다. <개정 2013.3.23, 2014.11.19>\n② 주식백지신탁 심사위원회는 위원장 1명을 포함한 9명의 위원으로 구성한다.\n③",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014051"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "6",
+    "title": "주식취득의 제한",
+    "body": "제14조의6(주식취득의 제한)\n① 제14조의4제1항에 따라 주식백지신탁계약이 체결된 경우에는 그 신탁계약이 해지될 때까지는 공개대상자등과 이해관계자 중 어느 누구도 새로 주식을 취득하여서는 아니 된다. 다만, 이해관계자가 「상법」에 따른 주식회사의 발기인으로서 주식을 인수하는 경우에는 그러하지 아니하다. <개정 2019.",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014061"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "7",
+    "title": "신탁재산에 관한 정보제공금지 등",
+    "body": "제14조의7(신탁재산에 관한 정보제공금지 등)\n① 제14조의4제1항 또는 제14조의6제2항에 따라 주식백지신탁계약이 체결된 경우 공개대상자등 및 그 이해관계자는 「자본시장과 금융투자업에 관한 법률」 제91조 및 제113조에도 불구하고 신탁업자ㆍ집합투자업자ㆍ투자회사ㆍ투자매매업자 또는 투자중개업자에 대하여 신탁재산의 관리ㆍ운",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014071"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "8",
+    "title": "신탁상황의 보고 등",
+    "body": "제14조의8(신탁상황의 보고 등)\n① 주식백지신탁의 수탁기관은 매년 1월 1일(주식백지신탁계약이 체결된 해의 경우에는 계약체결일)부터 12월 31일까지 신탁재산을 관리ㆍ운용ㆍ처분한 내용을 다음 해 1월 중에 관할 공직자윤리위원회에 보고하여야 한다. 이 경우 12월 중에 주식백지신탁계약이 체결되었으면 다음 해의 관리ㆍ운용ㆍ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0014081"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "9",
+    "title": "수탁기관에 대한 감독",
+    "body": "제14조의9(수탁기관에 대한 감독)\n공직자윤리위원회는 수탁기관의 임직원이 이 법 또는 이 법에 따른 명령이나 처분을 위반하면 그 임직원에게 시정명령 또는 징계처분 등 적절한 조치를 취하도록 금융감독원장에게 요청할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0014091"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "외국 정부 등으로부터 받은 선물의 신고",
+    "body": "제15조(외국 정부 등으로부터 받은 선물의 신고)\n① 공무원(지방의회의원을 포함한다. 이하 제22조에서 같다) 또는 공직유관단체의 임직원은 외국으로부터 선물(대가 없이 제공되는 물품 및 그 밖에 이에 준하는 것을 말하되, 현금은 제외한다. 이하 같다)을 받거나 그 직무와 관련하여 외국인(외국단체를 포함한다. 이하 같다)에",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "선물의 귀속 등",
+    "body": "제16조(선물의 귀속 등)\n① 제15조제1항에 따라 신고된 선물은 신고 즉시 국가 또는 지방자치단체에 귀속된다. <개정 2019.12.3>\n② 신고된 선물의 관리ㆍ유지 등에 관한 사항은 대통령령 또는 조례로 정한다. <개정 2019.12.3>",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "퇴직공직자의 취업제한",
+    "body": "제17조(퇴직공직자의 취업제한)\n① 제3조제1항제1호부터 제12호까지의 어느 하나에 해당하는 공직자와 부당한 영향력 행사 가능성 및 공정한 직무수행을 저해할 가능성 등을 고려하여 국회규칙, 대법원규칙, 헌법재판소규칙, 중앙선거관리위원회규칙 또는 대통령령으로 정하는 공무원과 공직유관단체의 직원(이하 이 장에서 \"취업심사대상",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "취업제한 여부의 확인 및 취업승인",
+    "body": "제18조(취업제한 여부의 확인 및 취업승인)\n① 취업심사대상자가 제17조제1항 단서에 따라 퇴직 전 5년 동안 소속하였던 부서 또는 기관의 업무와 취업심사대상기관 간에 밀접한 관련성이 없다는 확인을 받아 취업심사대상기관에 취업을 하려는 경우에는 국회규칙, 대법원규칙, 헌법재판소규칙, 중앙선거관리위원회규칙 또는 대통령령으로",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": "2",
+    "title": "퇴직공직자의 업무취급 제한",
+    "body": "제18조의2(퇴직공직자의 업무취급 제한)\n① 모든 공무원 또는 공직유관단체 임직원은 다른 법률에 특별한 규정이 있는 경우를 제외하고는 재직 중에 직접 처리한 제17조제2항 각 호의 업무를 퇴직 후에 취급할 수 없다.\n② 기관업무기준 취업심사대상자는 다른 법률에 특별한 규정이 있는 경우를 제외하고는 퇴직 전 2년부터 퇴직할",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0018021"
+   },
+   {
+    "article_no": "18",
+    "article_branch": "3",
+    "title": "업무취급 제한 퇴직공직자의 업무내역서 제출",
+    "body": "제18조의3(업무취급 제한 퇴직공직자의 업무내역서 제출)\n① 제18조의2제2항에 따라 퇴직 후 일정한 업무취급을 제한받는 기관업무기준 취업심사대상자는 퇴직 후 2년간 업무활동내역 등이 포함된 업무내역서를 매년 작성하여 소속 취업심사대상기관의 장의 확인을 거쳐 관할 공직자윤리위원회에 제출하여야 한다. <개정 2014.12.",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0018031"
+   },
+   {
+    "article_no": "18",
+    "article_branch": "4",
+    "title": "퇴직공직자 등에 대한 행위제한",
+    "body": "제18조의4(퇴직공직자 등에 대한 행위제한)\n① 퇴직한 모든 공무원과 공직유관단체의 임직원(이하 \"퇴직공직자\"라 한다)은 본인 또는 제3자의 이익을 위하여 퇴직 전 소속 기관의 공무원과 임직원(이하 \"재직자\"라 한다)에게 법령을 위반하게 하거나 지위 또는 권한을 남용하게 하는 등 공정한 직무수행을 저해하는 부정한 청탁 또",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0018041"
+   },
+   {
+    "article_no": "18",
+    "article_branch": "5",
+    "title": "재직자 등의 취업청탁 등 제한",
+    "body": "제18조의5(재직자 등의 취업청탁 등 제한)\n① 재직 중인 취업심사대상자는 퇴직 전 5년 동안 처리한 업무 중 제17조제2항 각 호에서 정하는 업무와 관련한 취업심사대상기관을 상대로 하여 재직 중 본인의 취업을 위한 청탁행위를 하여서는 아니 된다. <개정 2014.12.30, 2019.12.3>\n② 국가기관, 지방자치단체",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0018051"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "취업자의 해임 요구 등",
+    "body": "제19조(취업자의 해임 요구 등)\n① 관할 공직자윤리위원회는 다음 각 호의 어느 하나에 해당하는 경우에는 국가기관의 장 또는 지방자치단체의 장에게 해당인에 대한 취업해제조치를 하도록 요청하여야 하며, 요청을 받은 국가기관의 장 또는 지방자치단체의 장은 해당인이 취업하고 있는 취업심사대상기관의 장에게 해당인의 해임을 요구하",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "2",
+    "title": "취업 및 업무취급제한 위반 여부 확인방법 등",
+    "body": "제19조의2(취업 및 업무취급제한 위반 여부 확인방법 등)\n① 국가기관, 지방자치단체 또는 공직유관단체의 장은 취업심사대상자가 퇴직한 경우에는 그 퇴직 후 3년 동안 관련 취업심사대상기관에의 취업 여부를 직접 확인하거나 국세청, 「국민건강보험법」 제13조에 따른 국민건강보험공단, 「국민연금법」 제24조에 따른 국민연금공단",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0019021"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "3",
+    "title": "취업제한 여부의 확인, 취업승인, 업무취급승인 및 업무내역서 심사 기록의 작성ㆍ관리 및 결과의 공개",
+    "body": "제19조의3(취업제한 여부의 확인, 취업승인, 업무취급승인 및 업무내역서 심사 기록의 작성ㆍ관리 및 결과의 공개)\n① 관할 공직자윤리위원회는 다음 각 호의 어느 하나에 해당하는 심사를 하는 경우 각각의 심사사항에 대한 결정의 근거가 되는 사유를 회의록에 기록ㆍ관리하여야 하며, 심사를 완료한 때에는 그 심사 결과를 관할 공",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0019031"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "4",
+    "title": "기관업무기준 취업심사대상자에 대한 취업이력공시",
+    "body": "제19조의4(기관업무기준 취업심사대상자에 대한 취업이력공시)\n① 공직자윤리위원회는 기관업무기준 취업심사대상자의 퇴직일부터 10년 동안 취업심사대상기관에 취업한 현황을 매년 조사하여 그 취업이력을 공직자윤리위원회가 지정하는 인터넷 사이트에 다음 해 6월 30일까지 공시(公示)하여야 한다. <개정 2019.12.3>\n② 기관",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0019041"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "기획ㆍ총괄기관",
+    "body": "제20조(기획ㆍ총괄기관)\n인사혁신처장은 이 법에 따른 재산등록 및 공개, 주식의 매각 또는 신탁, 선물신고, 퇴직공직자의 취업제한 및 행위제한 등에 관한 기획ㆍ총괄업무를 관장한다. <개정 2013.3.23, 2014.11.19, 2014.12.30>",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": "2",
+    "title": "국회 등에 대한 보고",
+    "body": "제20조의2(국회 등에 대한 보고)\n① 공직자윤리위원회는 매년 정기국회 개회 전까지 또는 해당 지방의회 2차 정례회 개최 전까지 전년도의 재산등록, 주식의 매각 또는 신탁, 선물신고, 퇴직공직자의 취업제한에 관한 실태(제17조제1항 단서에 따라 취업승인을 하거나 제18조제3항에 따른 심사 결과 취업할 수 있다고 통지하는 ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0020021"
+   },
+   {
+    "article_no": "20",
+    "article_branch": "3",
+    "title": "벌칙 적용에서 공무원 의제",
+    "body": "제20조의3(벌칙 적용에서 공무원 의제)\n공직자윤리위원회와 제14조의5에 따른 주식백지신탁 심사위원회의 위원장 및 위원으로서 공무원이 아닌 사람은 「형법」 제129조부터 제132조까지의 규정을 적용할 때에는 공무원으로 본다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0020031"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "위임규정",
+    "body": "제21조(위임규정)\n이 법 시행에 필요한 사항은 국회규칙, 대법원규칙, 헌법재판소규칙, 중앙선거관리위원회규칙, 대통령령 또는 지방자치단체의 조례로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "징계 등",
+    "body": "제22조(징계 등)\n1. 제5조제1항을 위반하여 재산등록을 하지 아니한 경우\n2. 제5조제1항, 제6조제1항ㆍ제2항, 제6조의3, 제7조, 제10조제2항 또는 제11조제1항에 따른 재산등록, 변동사항 신고 등을 정당한 이유 없이 대통령령으로 정하는 기간 내에 마치지 아니한 경우\n3. 제6조제1항(10월부터 12월까지 중 ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "시정 권고",
+    "body": "제23조(시정 권고)\n관할 공직자윤리위원회는 국가기관, 지방자치단체 또는 공직유관단체의 장이 제18조의5제2항을 위반하여 해당 기관의 취업심사대상자를 제17조제2항 각 호의 업무와 관련된 취업심사대상기관으로 취업을 알선하는 경우에는 시정을 권고할 수 있다. 이 경우 시정 권고를 받은 국가기관, 지방자치단체 또는 공직유관단",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "재산등록 거부의 죄",
+    "body": "제24조(재산등록 거부의 죄)\n① 등록의무자가 정당한 사유 없이 재산등록을 거부하면 1년 이하의 징역 또는 1천만원 이하의 벌금에 처한다.\n② 제10조의2제1항 및 제2항에 따른 공직선거후보자 등이 정당한 사유 없이 등록대상재산에 관한 신고서를 제출하지 아니하면 6개월 이하의 징역 또는 500만원 이하의 벌금에 처한다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": "2",
+    "title": "주식백지신탁 거부의 죄",
+    "body": "제24조의2(주식백지신탁 거부의 죄)\n공개대상자 등이 정당한 사유 없이 제14조의4제1항 또는 제14조의6제2항을 위반하여 자신이 보유하는 주식을 매각 또는 백지신탁하지 아니하면 1년 이하의 징역 또는 1천만원 이하의 벌금에 처한다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0024021"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "거짓 자료 제출 등의 죄",
+    "body": "제25조(거짓 자료 제출 등의 죄)\n공직자윤리위원회(제8조제11항에 따라 공직자윤리위원회로부터 재산등록사항에 관한 권한을 위임받은 등록기관의 장 등을 포함한다. 이하 제26조에서 같다) 또는 주식백지신탁 심사위원회로부터 제8조제4항 및 제5항(제6조의2제4항, 제11조제2항 및 제14조의4제6항에서 준용하는 경우를 포함한",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "출석거부의 죄",
+    "body": "제26조(출석거부의 죄)\n공직자윤리위원회로부터 제8조제6항(제6조의2제4항, 제11조제2항 및 제14조의4제6항에서 준용하는 경우를 포함한다)에 따른 출석요구를 받은 사람이 정당한 사유 없이 출석요구에 응하지 아니하면 6개월 이하의 징역 또는 500만원 이하의 벌금에 처한다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "무허가 열람ㆍ복사의 죄",
+    "body": "제27조(무허가 열람ㆍ복사의 죄)\n제10조제3항(제11조제2항에서 준용하는 경우를 포함한다)을 위반하여 허가 없이 재산등록사항을 열람ㆍ복사하거나 이를 하게 한 경우에는 1년 이하의 징역 또는 1천만원 이하의 벌금에 처한다.",
+    "body_truncated": false,
+    "effective_on": "20260102",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "비밀누설의 죄",
+    "body": "제28조(비밀누설의 죄)\n① 제14조(제6조의2제4항, 제11조제2항 및 제14조의4제6항에서 준용하는 경우를 포함한다)를 위반하여 재산등록업무에 종사하거나 종사하였던 사람 또는 직무상 재산등록사항을 알게 된 사람이 공개된 재산등록사항 외의 재산등록사항을 정당한 사유 없이 누설하면 1년 이하의 징역 또는 1천만원 이하의 ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": "2",
+    "title": "주식백지신탁 관여금지 위반의 죄",
+    "body": "제28조의2(주식백지신탁 관여금지 위반의 죄)\n① 공개대상자등 또는 그 이해관계자가 제14조의7제1항 본문을 위반하여 신탁재산의 관리ㆍ운용ㆍ처분에 관한 정보제공을 요구하거나, 신탁업자ㆍ집합투자업자ㆍ투자회사ㆍ투자매매업자 또는 투자중개업자의 임직원이 정보제공 요구에 응하면 각각 1년 이하의 징역 또는 1천만원 이하의 벌금에 ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0028021"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "취업제한, 업무취급 제한 및 행위제한 위반의 죄",
+    "body": "제29조(취업제한, 업무취급 제한 및 행위제한 위반의 죄)\n1. 제17조제1항을 위반하여 취업승인을 받지 않고 밀접한 업무관련성이 있는 취업심사대상기관에 취업한 사람\n2. 제18조의2제1항을 위반하여 재직 중 본인이 직접 처리한 업무를 퇴직 후 취급한 사람\n3. 제18조의4제1항을 위반하여 퇴직 전 소속 기관의 임직원을 ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "과태료",
+    "body": "제30조(과태료)\n① 제18조의2제2항을 위반하여 퇴직 전 2년부터 퇴직한 때까지 근무한 기관의 업무를 취급한 사람에게는 5천만원 이하의 과태료를 부과한다. <개정 2015.12.29>\n② 다음 각 호의 어느 하나에 해당하는 사람에게는 2천만원 이하의 과태료를 부과한다. <개정 2014.12.30, 2015.12.29, ",
+    "body_truncated": true,
+    "effective_on": "20260102",
+    "article_key": "0030001"
+   }
+  ],
+  "article_count": 66,
+  "articles_shown": 66,
+  "articles_truncated_bodies": 50,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1182473",
+    "name": "의령군의회의원 윤리강령 및 윤리실천규범에 관한 조례",
+    "region_id": "48720",
+    "org_name": "경상남도 의령군",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1182473&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197471",
+    "name": "경상북도 지방의료원 설립 및 운영 조례",
+    "region_id": "47",
+    "org_name": "경상북도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197471&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1208527",
+    "name": "남해군의회 의원 윤리강령 및 윤리실천규범 조례",
+    "region_id": "48840",
+    "org_name": "경상남도 남해군",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1208527&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1291197",
+    "name": "울산광역시 중구의회 의원 행동강령 조례",
+    "region_id": "31110",
+    "org_name": "울산광역시 중구",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1291197&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1297624",
+    "name": "함양군의회 의원 행동강령 조례",
+    "region_id": "48870",
+    "org_name": "경상남도 함양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1297624&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1352370",
+    "name": "서울특별시 광진구의회 의원 행동강령 조례",
+    "region_id": "11215",
+    "org_name": "서울특별시 광진구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1352370&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1355172",
+    "name": "창녕군 공무원 행동강령 규칙",
+    "region_id": "48740",
+    "org_name": "경상남도 창녕군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1355172&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395343",
+    "name": "단양군 공무원 행동 강령",
+    "region_id": "43800",
+    "org_name": "충청북도 단양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395343&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1397784",
+    "name": "인천광역시 시민인권보장 및 증진에 관한 조례 시행규칙",
+    "region_id": "28",
+    "org_name": "인천광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1397784&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1410610",
+    "name": "옹진군의회 의원 행동강령 조례",
+    "region_id": "28720",
+    "org_name": "인천광역시 옹진군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410610&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1417076",
+    "name": "과천시 공무원 행동강령 규칙",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417076&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1423195",
+    "name": "산청군 부조리신고 포상금 지급 조례",
+    "region_id": "48860",
+    "org_name": "경상남도 산청군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1423195&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1434617",
+    "name": "함평군 부조리 신고 보상금 지급에 관한 조례",
+    "region_id": "12820",
+    "org_name": "전남광주통합특별시 함평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1434617&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1439827",
+    "name": "인천광역시 연수구 부조리신고 보상금 지급에 관한 조례",
+    "region_id": "28185",
+    "org_name": "인천광역시 연수구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1439827&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1445913",
+    "name": "고양시 부조리 신고보상금 지급에 관한 조례",
+    "region_id": "41280",
+    "org_name": "경기도 고양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1445913&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1451681",
+    "name": "봉화군의회 의원 행동강령 조례",
+    "region_id": "47920",
+    "org_name": "경상북도 봉화군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1451681&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1476379",
+    "name": "인천광역시 계양구 부조리 신고보상금 지급 조례",
+    "region_id": "28245",
+    "org_name": "인천광역시 계양구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1476379&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1496661",
+    "name": "안산시 부조리 신고포상금 지급 조례",
+    "region_id": "41270",
+    "org_name": "경기도 안산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1496661&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1496825",
+    "name": "성주군의회 의원 행동강령 조례",
+    "region_id": "47840",
+    "org_name": "경상북도 성주군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1496825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1496981",
+    "name": "인천광역시 동구 공무원 행동강령 규칙",
+    "region_id": "28125",
+    "org_name": "인천광역시 제물포구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1496981&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

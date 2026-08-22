@@ -1,0 +1,804 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1008323",
+   "key": "ordin-1008323",
+   "mst": "1008323",
+   "name": "무주군 부설주차장 설치비용 산정기준 등에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "52730",
+   "sig_cd": "52730",
+   "region_name": "전북특별자치도 무주군",
+   "org_name": "전북특별자치도 무주군",
+   "enacted_on": "20120402",
+   "effective_on": "20120402",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 4,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1008323",
+   "categories": [
+    {
+     "code": "C10",
+     "name": "교통",
+     "confidence": 0.5714,
+     "method": "rule"
+    },
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.3333,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.814852,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2090959",
+      "key": "ordin-2090959",
+      "name": "무주군 주차장 설치 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20251210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2090959",
+      "categories": [
+       "C10",
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.77905,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1193602",
+      "key": "ordin-1193602",
+      "name": "양평군 농업생산기반시설의 목적 외 사용에 따른 경비 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 양평군",
+      "sig_cd": "41830",
+      "enacted_on": "20151012",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1193602",
+      "categories": [
+       "C12",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.773435,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2074299",
+      "key": "ordin-2074299",
+      "name": "창원시 마을세무사 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 창원시",
+      "sig_cd": "48120",
+      "enacted_on": "20250930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2074299",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.766956,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2114065",
+      "key": "ordin-2114065",
+      "name": "양평군 작은축제 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 양평군",
+      "sig_cd": "41830",
+      "enacted_on": "20260304",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2114065",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.76182,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1846419",
+      "key": "ordin-1846419",
+      "name": "부산광역시 연제구 공유주차장 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 연제구",
+      "sig_cd": "26470",
+      "enacted_on": "20230810",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1846419",
+      "categories": [
+       "C10",
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.757618,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1610571",
+      "key": "ordin-1610571",
+      "name": "부산광역시 연제구 마을공동체 활성화 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 연제구",
+      "sig_cd": "26470",
+      "enacted_on": "20210706",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1610571",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.757344,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2003493",
+      "key": "ordin-2003493",
+      "name": "창원시 미세먼지 저감 및 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 창원시",
+      "sig_cd": "48120",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2003493",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.753236,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2040519",
+      "key": "ordin-2040519",
+      "name": "이천시 스마트농업 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 이천시",
+      "sig_cd": "41500",
+      "enacted_on": "20250516",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2040519",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.749188,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2071891",
+      "key": "ordin-2071891",
+      "name": "보은군 농업근로자 공동숙소 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 보은군",
+      "sig_cd": "43720",
+      "enacted_on": "20250926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2071891",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.745655,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2080985",
+      "key": "ordin-2080985",
+      "name": "증평군 주차장 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 증평군",
+      "sig_cd": "43745",
+      "enacted_on": "20251010",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2080985",
+      "categories": [
+       "C10"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990658,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2030459",
+      "key": "ordin-2030459",
+      "name": "무주군 야간관광 활성화 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20250417",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2030459",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.990632,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1996903",
+      "key": "ordin-1996903",
+      "name": "무주군 천마산업 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20241219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1996903",
+      "categories": [
+       "C11",
+       "C12"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990228,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1834755",
+      "key": "ordin-1834755",
+      "name": "무주군 치유농업 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20230711",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1834755",
+      "categories": [
+       "C12",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.9902,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1363827",
+      "key": "ordin-1363827",
+      "name": "무주군 양수기 운영관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20181005",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1363827",
+      "categories": []
+     },
+     {
+      "rank": 5,
+      "cosine": 0.989898,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1614551",
+      "key": "ordin-1614551",
+      "name": "무주군 환경 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20210712",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1614551",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.989828,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1863307",
+      "key": "ordin-1863307",
+      "name": "무주군 고독사 예방 및 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20231011",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1863307",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.989741,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1940309",
+      "key": "ordin-1940309",
+      "name": "무주군 최북미술관 및 김환태문학관 운영ㆍ관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20240624",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1940309",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989694,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2159815",
+      "key": "ordin-2159815",
+      "name": "무주군 청년센터 관리 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20260812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2159815",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989443,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1526205",
+      "key": "ordin-1526205",
+      "name": "무주군공무원 직장협의회의 설립·운영에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20200901",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1526205",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.989415,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1490117",
+      "key": "ordin-1490117",
+      "name": "무주군 건축 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20200501",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1490117",
+      "categories": [
+       "C02",
+       "C01",
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.996212,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2090959",
+      "key": "ordin-2090959",
+      "name": "무주군 주차장 설치 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20251210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2090959",
+      "categories": [
+       "C10",
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.996028,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1805471",
+      "key": "ordin-1805471",
+      "name": "무주군 주차장특별회계 설치조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20230501",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1805471",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.991916,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2159897",
+      "key": "ordin-2159897",
+      "name": "무주군 청년 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20260812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2159897",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991136,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1363814",
+      "key": "ordin-1363814",
+      "name": "무주군 읍·면 종합복지회관 운영·관리조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20181005",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1363814",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.991132,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1546609",
+      "key": "ordin-1546609",
+      "name": "무주군 반딧골 광역 친환경 농업단지 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20201116",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1546609",
+      "categories": [
+       "C12",
+       "C07"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.990499,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2159815",
+      "key": "ordin-2159815",
+      "name": "무주군 청년센터 관리 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20260812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2159815",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990275,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1202066",
+      "key": "ordin-1202066",
+      "name": "무주군 교통안전 봉사단체 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20151125",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1202066",
+      "categories": [
+       "C10",
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.99023,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1632053",
+      "key": "ordin-1632053",
+      "name": "무주군 사회복지협의회 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20210923",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1632053",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990084,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1863301",
+      "key": "ordin-1863301",
+      "name": "무주군 노인복지 증진 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20231011",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1863301",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990007,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2159817",
+      "key": "ordin-2159817",
+      "name": "무주군 보건의료원 진료비 및 수수료 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 무주군",
+      "sig_cd": "52730",
+      "enacted_on": "20260812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2159817",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2090959",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.905532,
+    "best_rank": 1,
+    "ordinance_id": "ordin:2090959",
+    "key": "ordin-2090959",
+    "name": "무주군 주차장 설치 및 관리 조례",
+    "region_name": "전북특별자치도 무주군",
+    "sig_cd": "52730",
+    "enacted_on": "20251210",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2090959"
+   },
+   {
+    "node_id": "ordinance:ordin:2159815",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.990096,
+    "best_rank": 6,
+    "ordinance_id": "ordin:2159815",
+    "key": "ordin-2159815",
+    "name": "무주군 청년센터 관리 및 운영에 관한 조례",
+    "region_name": "전북특별자치도 무주군",
+    "sig_cd": "52730",
+    "enacted_on": "20260812",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2159815"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

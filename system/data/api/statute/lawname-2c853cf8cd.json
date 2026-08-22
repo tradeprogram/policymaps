@@ -1,0 +1,293 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "lawname:수의사법",
+   "name": null,
+   "missing": true
+  },
+  "delegation": {
+   "rows": 447,
+   "child_ordinances": 155,
+   "by_verification_status": {
+    "unverifiable": 447
+   },
+   "by_delegation_type": {
+    "law-delegated": 447
+   },
+   "regions_top": [
+    {
+     "region_id": "52770",
+     "name": "전북특별자치도 순창군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "52130",
+     "name": "전북특별자치도 군산시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "52",
+     "name": "전북특별자치도",
+     "ordinances": 2
+    },
+    {
+     "region_id": "51",
+     "name": "강원특별자치도",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48170",
+     "name": "경상남도 진주시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48120",
+     "name": "경상남도 창원시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48",
+     "name": "경상남도",
+     "ordinances": 2
+    },
+    {
+     "region_id": "44230",
+     "name": "충청남도 논산시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "44180",
+     "name": "충청남도 보령시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "43130",
+     "name": "충청북도 충주시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "41800",
+     "name": "경기도 연천군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "41630",
+     "name": "경기도 양주시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "41480",
+     "name": "경기도 파주시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "41110",
+     "name": "경기도 수원시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "29",
+     "name": "광주광역시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 2
+    },
+    {
+     "region_id": "28",
+     "name": "인천광역시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "26290",
+     "name": "부산광역시 남구",
+     "ordinances": 2
+    },
+    {
+     "region_id": "12790",
+     "name": "전남광주통합특별시 해남군",
+     "ordinances": 2
+    }
+   ]
+  },
+  "articles": [],
+  "article_count": 0,
+  "articles_shown": 0,
+  "articles_truncated_bodies": 0,
+  "articles_available": false,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1819509",
+    "name": "강원특별자치도 반려동물 진료비 표시 지원 조례",
+    "region_id": "51",
+    "org_name": "강원특별자치도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1819509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1874863",
+    "name": "경주시 사회적 약자 반려동물 진료비 지원 조례",
+    "region_id": "47130",
+    "org_name": "경상북도 경주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1874863&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2109963",
+    "name": "고양시 사회적 약자 반려동물 진료비등 지원 조례",
+    "region_id": "41280",
+    "org_name": "경기도 고양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2109963&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1782403",
+    "name": "광양시 중증장애인 반려동물 진료비 지원에 관한 조례",
+    "region_id": "12190",
+    "org_name": "전남광주통합특별시 광양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1782403&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1872941",
+    "name": "광주광역시 사회적 약자 반려동물 진료비 지원 조례",
+    "region_id": "29",
+    "org_name": "(구)광주광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872941&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2088393",
+    "name": "군산시 반려동물 및 유기·유실동물 보호와 학대방지에 관한 조례",
+    "region_id": "52130",
+    "org_name": "전북특별자치도 군산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2088393&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1674435",
+    "name": "군산시 반려동물 진료비 표시제 지원에 관한 조례",
+    "region_id": "52130",
+    "org_name": "전북특별자치도 군산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1674435&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2021995",
+    "name": "군포시 동물복지 조례",
+    "region_id": "41410",
+    "org_name": "경기도 군포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021995&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1895459",
+    "name": "나주시 사회적 약자 반려동물 진료비 지원 조례",
+    "region_id": "12170",
+    "org_name": "전남광주통합특별시 나주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1895459&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1728355",
+    "name": "남양주시 중증장애인 반려동물 진료비 지원 조례",
+    "region_id": "41360",
+    "org_name": "경기도 남양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1728355&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1933757",
+    "name": "논산시 사회적 약자의 반려동물 진료비 지원 조례",
+    "region_id": "44230",
+    "org_name": "충청남도 논산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1933757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1956901",
+    "name": "당진시 동물보호 및 반려동물 진료비 지원 조례",
+    "region_id": "44270",
+    "org_name": "충청남도 당진시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1956901&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1562763",
+    "name": "대구광역시달서구 중증장애인 반려동물 진료비 지원 조례",
+    "region_id": "27290",
+    "org_name": "대구광역시 달서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1562763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2014189",
+    "name": "대전광역시 대덕구 사회적 약자 반려동물 의료비 지원 조례",
+    "region_id": "30230",
+    "org_name": "대전광역시 대덕구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2014189&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1833169",
+    "name": "대전광역시 동구 사회적 약자 반려동물 의료비 지원 조례",
+    "region_id": "30110",
+    "org_name": "대전광역시 동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1833169&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1891013",
+    "name": "대전광역시 서구 사회적 약자 반려동물 의료비 지원 조례",
+    "region_id": "30170",
+    "org_name": "대전광역시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891013&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1942299",
+    "name": "대전광역시 유성구 사회적 약자 반려동물 의료비 지원 조례",
+    "region_id": "30200",
+    "org_name": "대전광역시 유성구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1942299&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1822773",
+    "name": "동해시 반려동물 및 유기·유실동물 보호와 학대방지 등에 관한 조례",
+    "region_id": "51170",
+    "org_name": "강원특별자치도 동해시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1822773&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1922111",
+    "name": "목포시 반려동물 및 유실·유기동물 보호와 학대방지에 관한 조례",
+    "region_id": "12110",
+    "org_name": "전남광주통합특별시 목포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1922111&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2058985",
+    "name": "보령시 사회적 약자 반려동물 의료비 지원 조례",
+    "region_id": "44180",
+    "org_name": "충청남도 보령시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058985&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

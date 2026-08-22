@@ -1,0 +1,766 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1195673",
+   "key": "ordin-1195673",
+   "mst": "1195673",
+   "name": "의왕시 도로와 다른 시설의 연결에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "41430",
+   "sig_cd": "41430",
+   "region_name": "경기도 의왕시",
+   "org_name": "경기도 의왕시",
+   "enacted_on": "20151030",
+   "effective_on": "20151030",
+   "repealed_on": null,
+   "rr_cls_cd": "전부개정",
+   "article_count": 14,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1195673",
+   "categories": [
+    {
+     "code": "C10",
+     "name": "교통",
+     "confidence": 0.6,
+     "method": "rule"
+    },
+    {
+     "code": "C08",
+     "name": "안전·재난",
+     "confidence": 0.5,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.870926,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1022887",
+      "key": "ordin-1022887",
+      "name": "의왕시 시기 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20141006",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1022887",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.866946,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:965420",
+      "key": "ordin-965420",
+      "name": "의왕시 사업용자동차 운송사업자 차고지설치 의무면제 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20130730",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=965420",
+      "categories": [
+       "C10"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.853155,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2111807",
+      "key": "ordin-2111807",
+      "name": "의왕시 철도특구 발전에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20200306",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2111807",
+      "categories": [
+       "C10"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.852272,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2014233",
+      "key": "ordin-2014233",
+      "name": "의왕시 장사시설의 설치 및 운영관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20250207",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2014233",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.851062,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2096133",
+      "key": "ordin-2096133",
+      "name": "의왕시 지하수관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20251224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2096133",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.848765,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2015479",
+      "key": "ordin-2015479",
+      "name": "의왕시 지방보조금 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2015479",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.847103,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2013567",
+      "key": "ordin-2013567",
+      "name": "의왕시 장사시설의 설치 및 운영관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20241120",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2013567",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.843669,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1276602",
+      "key": "ordin-1276602",
+      "name": "의왕시 도시계획 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20170201",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1276602",
+      "categories": [
+       "C09"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.841983,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1042760",
+      "key": "ordin-1042760",
+      "name": "의왕시 의로운 시민 등에 대한 예우 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20150403",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1042760",
+      "categories": [
+       "C14",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.840682,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2002325",
+      "key": "ordin-2002325",
+      "name": "의왕시 도시계획 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2002325",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.992055,
+      "stored_rank": null,
+      "ordinance_id": "ordin:934346",
+      "key": "ordin-934346",
+      "name": "의왕시 기업 에스오에스 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20080515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=934346",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.990339,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1976089",
+      "key": "ordin-1976089",
+      "name": "의왕시 향토유산 보호 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20241001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1976089",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990203,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1289247",
+      "key": "ordin-1289247",
+      "name": "의왕시 공간정보시스템 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20170607",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1289247",
+      "categories": [
+       "C07",
+       "C10"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990131,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1405933",
+      "key": "ordin-1405933",
+      "name": "의왕시 경유자동차 저공해 촉진 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20190801",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1405933",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990121,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1782271",
+      "key": "ordin-1782271",
+      "name": "의왕시 물순환 회복에 관한 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20230207",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1782271",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.989931,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1789983",
+      "key": "ordin-1789983",
+      "name": "의왕시 도시공원 및 녹지 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20230314",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1789983",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.989921,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2154223",
+      "key": "ordin-2154223",
+      "name": "의왕시 지방공기업 상하수도사업 회계 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20260730",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2154223",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989883,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1745665",
+      "key": "ordin-1745665",
+      "name": "의왕시 명품도시자문위원회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20221109",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1745665",
+      "categories": [
+       "C01",
+       "C05",
+       "C09"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989838,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1842195",
+      "key": "ordin-1842195",
+      "name": "의왕시 관광 진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20230731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1842195",
+      "categories": [
+       "C11",
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.989782,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2002317",
+      "key": "ordin-2002317",
+      "name": "의왕시 체육진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2002317",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.995714,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1736325",
+      "key": "ordin-1736325",
+      "name": "의왕시의회 지방공무원 시험수당 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20221014",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1736325",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.995484,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2128219",
+      "key": "ordin-2128219",
+      "name": "의왕시 노인 낙상사고 예방 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20260507",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2128219",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.995347,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1396053",
+      "key": "ordin-1396053",
+      "name": "의왕시 문화원 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20190531",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1396053",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.995234,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2040507",
+      "key": "ordin-2040507",
+      "name": "의왕시의회 공인 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20250521",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2040507",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.995137,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2096123",
+      "key": "ordin-2096123",
+      "name": "의왕시 수돗물평가위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20251224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2096123",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.994999,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1974309",
+      "key": "ordin-1974309",
+      "name": "의왕시의회 교섭단체 구성과 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20241001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1974309",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.994965,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1424015",
+      "key": "ordin-1424015",
+      "name": "의왕시 재난관리기금 운용·관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20191128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1424015",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.994917,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2022043",
+      "key": "ordin-2022043",
+      "name": "의왕시 골목형상점가 활성화 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20250317",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2022043",
+      "categories": [
+       "C11",
+       "C10"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.994728,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1976079",
+      "key": "ordin-1976079",
+      "name": "의왕시 재난 및 안전관리 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20241001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1976079",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.994709,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1423977",
+      "key": "ordin-1423977",
+      "name": "의왕시 장학기금 설치 및 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20191128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1423977",
+      "categories": [
+       "C05",
+       "C03",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "generator": "make_extend_fixtures.py",
+ "as_of_date": "2026-08-22",
+ "generated_at": "2026-08-22T14:54:39+0900",
+ "params": {
+  "out": "F:\\policy_maps\\system\\data",
+  "only": [
+   "succession"
+  ],
+  "force": false,
+  "limit": 0,
+  "search_k": 10,
+  "search_limit": 0,
+  "votes_top": 120,
+  "votes_recent": 60,
+  "lifecycle_top": 100,
+  "cohort_min": 10,
+  "cohort_top": 80,
+  "region_top": 20,
+  "region_recent": 40,
+  "statute_top": 200,
+  "article_limit": 400,
+  "body_chars": 180,
+  "statute_regions": 20,
+  "statute_children": 20
+ },
+ "layout": {
+  "search": "search/{slug}.json",
+  "votes": "votes/{bill_no}.json",
+  "lifecycle": "lifecycle/{sig_cd}.json",
+  "statute": "statute/{instrument_id with ':'→'-'}.json",
+  "verification": "verification/summary.json",
+  "succession": "succession.json",
+  "catalogs": [
+   "search_index.json",
+   "votes_index.json",
+   "lifecycle_index.json",
+   "statute_index.json",
+   "extend_index.json"
+  ]
+ },
+ "warnings": [],
+ "errors": [],
+ "succession": {
+  "path": "succession.json",
+  "rows": 17,
+  "events": 5,
+  "bytes": 15994
+ },
+ "totals": {
+  "by_kind": {
+   "search": {
+    "files": 40,
+    "bytes": 597651
+   },
+   "votes": {
+    "files": 149,
+    "bytes": 498460
+   },
+   "lifecycle": {
+    "files": 243,
+    "bytes": 5289418
+   },
+   "statute": {
+    "files": 200,
+    "bytes": 12709177
+   },
+   "verification": {
+    "files": 1,
+    "bytes": 12967
+   },
+   "catalogs": {
+    "files": 5,
+    "bytes": 230961
+   }
+  },
+  "files": 638,
+  "bytes": 19338634,
+  "seconds": 0.0,
+  "errors": 0,
+  "warnings": 0
+ }
+}

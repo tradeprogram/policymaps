@@ -1,0 +1,764 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1003997",
+   "key": "ordin-1003997",
+   "mst": "1003997",
+   "name": "영양군 자연재해위험개선지구 안에서의 행위제한에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "47760",
+   "sig_cd": "47760",
+   "region_name": "경상북도 영양군",
+   "org_name": "경상북도 영양군",
+   "enacted_on": "20140307",
+   "effective_on": "20140307",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 8,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1003997",
+   "categories": [
+    {
+     "code": "C08",
+     "name": "안전·재난",
+     "confidence": 0.625,
+     "method": "rule"
+    },
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.3333,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.852701,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1203827",
+      "key": "ordin-1203827",
+      "name": "영양군립요양원 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20151204",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1203827",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.843356,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1203826",
+      "key": "ordin-1203826",
+      "name": "영양군립요양원 설치 및 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20151204",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1203826",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.834647,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1304544",
+      "key": "ordin-1304544",
+      "name": "영양군 작은도서관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20170929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1304544",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.830165,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1808745",
+      "key": "ordin-1808745",
+      "name": "영양군 부동산가격공시위원회 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20230512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1808745",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.824155,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1373507",
+      "key": "ordin-1373507",
+      "name": "영양군 농촌진흥사업 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20181214",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1373507",
+      "categories": [
+       "C12",
+       "C05"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.821657,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2117259",
+      "key": "ordin-2117259",
+      "name": "영양군 정주형 작은농원 관리 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20260327",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2117259",
+      "categories": [
+       "C02",
+       "C04"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.815572,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1724041",
+      "key": "ordin-1724041",
+      "name": "영양군 주민감사 청구에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20220819",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1724041",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.814022,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1828697",
+      "key": "ordin-1828697",
+      "name": "영양군 물가대책위원회 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20230630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1828697",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.8112,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1431953",
+      "key": "ordin-1431953",
+      "name": "영양군 유통기업 상생발전 및 전통상업 보존구역 지정 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20191213",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1431953",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.808831,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1292670",
+      "key": "ordin-1292670",
+      "name": "영양군 여중군자 장계향 선양사업 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20170630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "body-missing",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1292670",
+      "categories": []
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.989548,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1576573",
+      "key": "ordin-1576573",
+      "name": "영양군 직장 내 괴롭힘 금지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20210224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1576573",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.987444,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1204483",
+      "key": "ordin-1204483",
+      "name": "영양군 지진피해 시설물 위험도 평가단 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20150313",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1204483",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.986625,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1662045",
+      "key": "ordin-1662045",
+      "name": "영양군 상징물에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20211231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1662045",
+      "categories": []
+     },
+     {
+      "rank": 4,
+      "cosine": 0.985555,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1185486",
+      "key": "ordin-1185486",
+      "name": "영양군 다문화가족 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20150731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1185486",
+      "categories": [
+       "C13",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.984661,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1962611",
+      "key": "ordin-1962611",
+      "name": "영양군 폐기물 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20240809",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1962611",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.984453,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1698051",
+      "key": "ordin-1698051",
+      "name": "영양군의회 공무원 후생복지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20220408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1698051",
+      "categories": [
+       "C01",
+       "C06",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.984451,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1095997",
+      "key": "ordin-1095997",
+      "name": "영양군 반 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20150313",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1095997",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.984169,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1808763",
+      "key": "ordin-1808763",
+      "name": "영양군폐기물처리시설설치촉진및주변지역지원등에관한조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20230512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1808763",
+      "categories": [
+       "C07",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.983942,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1962613",
+      "key": "ordin-1962613",
+      "name": "영양군 하수도 사용 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20240809",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1962613",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.983941,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1828689",
+      "key": "ordin-1828689",
+      "name": "영양군 영양에코둥지 관리ㆍ운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20230630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1828689",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.993629,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1338297",
+      "key": "ordin-1338297",
+      "name": "영양군 건축물관리자의 제설 및 제빙 책임에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20180209",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1338297",
+      "categories": [
+       "C09",
+       "C10"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993062,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1355120",
+      "key": "ordin-1355120",
+      "name": "영양군 옥외광고물 등의 관리와 옥외광고산업 진흥에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20180810",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1355120",
+      "categories": [
+       "C11",
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.992831,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1621805",
+      "key": "ordin-1621805",
+      "name": "영양군 수입증지 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20210813",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1621805",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.992639,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1543147",
+      "key": "ordin-1543147",
+      "name": "영양군 공동상표 사용에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20201106",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1543147",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.992606,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1597749",
+      "key": "ordin-1597749",
+      "name": "영양군 소셜미디어 운영 및 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20210521",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1597749",
+      "categories": [
+       "C13",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.992556,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1661997",
+      "key": "ordin-1661997",
+      "name": "영양군의회의원 상해 등 보상금 지급에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20211231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1661997",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.992463,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1991887",
+      "key": "ordin-1991887",
+      "name": "영양군 고향사랑 기부금 모금 및 운용에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20241213",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1991887",
+      "categories": [
+       "C11",
+       "C12"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.99235,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1193582",
+      "key": "ordin-1193582",
+      "name": "영양군청소년수련원 설치 및 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20151008",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1193582",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.992235,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1991875",
+      "key": "ordin-1991875",
+      "name": "영양군 교육경비 보조에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20241213",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1991875",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.99198,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1833569",
+      "key": "ordin-1833569",
+      "name": "영양군 조례·규칙심의회 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 영양군",
+      "sig_cd": "47760",
+      "enacted_on": "20230707",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1833569",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

@@ -1,0 +1,810 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:250715",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "감정평가 및 감정평가사에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2023-05-09",
+   "effective_on": "20230810",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=250715&type=HTML&mobileYn=&efYd=20230810",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 948,
+   "child_ordinances": 767,
+   "by_verification_status": {
+    "article-verified": 615,
+    "unverifiable": 333
+   },
+   "by_delegation_type": {
+    "law-delegated": 948
+   },
+   "regions_top": [
+    {
+     "region_id": "41220",
+     "name": "경기도 평택시",
+     "ordinances": 12
+    },
+    {
+     "region_id": "41190",
+     "name": "경기도 부천시",
+     "ordinances": 12
+    },
+    {
+     "region_id": "12190",
+     "name": "전남광주통합특별시 광양시",
+     "ordinances": 12
+    },
+    {
+     "region_id": "41670",
+     "name": "경기도 여주시",
+     "ordinances": 10
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 9
+    },
+    {
+     "region_id": "48120",
+     "name": "경상남도 창원시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "41610",
+     "name": "경기도 광주시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "41590",
+     "name": "경기도 화성시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "41460",
+     "name": "경기도 용인시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "52110",
+     "name": "전북특별자치도 전주시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "41390",
+     "name": "경기도 시흥시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "41170",
+     "name": "경기도 안양시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "41150",
+     "name": "경기도 의정부시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "41130",
+     "name": "경기도 성남시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "41570",
+     "name": "경기도 김포시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41480",
+     "name": "경기도 파주시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "52720",
+     "name": "전북특별자치도 진안군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "48310",
+     "name": "경상남도 거제시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "48250",
+     "name": "경상남도 김해시",
+     "ordinances": 5
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 감정평가 및 감정평가사에 관한 제도를 확립하여 공정한 감정평가를 도모함으로써 국민의 재산권을 보호하고 국가경제 발전에 기여함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"토지등\"이란 토지 및 그 정착물, 동산, 그 밖에 대통령령으로 정하는 재산과 이들에 관한 소유권 외의 권리를 말한다.\n2. \"감정평가\"란 토지등의 경제적 가치를 판정하여 그 결과를 가액(價額)으로 표시하는 것을 말한다.\n3. \"감정평가업\"이란 타인의 의뢰에 따라 일정한 보수를 받고 토지등의 감정평가를",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "기준",
+    "body": "제3조(기준)\n① 감정평가법인등이 토지를 감정평가하는 경우에는 그 토지와 이용가치가 비슷하다고 인정되는 「부동산 가격공시에 관한 법률」에 따른 표준지공시지가를 기준으로 하여야 한다. 다만, 적정한 실거래가가 있는 경우에는 이를 기준으로 할 수 있다. <개정 2020.4.7>\n② 제1항에도 불구하고 감정평가법인등이 「주식회",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "직무",
+    "body": "제4조(직무)\n① 감정평가사는 타인의 의뢰를 받아 토지등을 감정평가하는 것을 그 직무로 한다. <개정 2021.7.20>\n② 감정평가사는 공공성을 지닌 가치평가 전문직으로서 공정하고 객관적으로 그 직무를 수행한다. <신설 2021.7.20>",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "감정평가의 의뢰",
+    "body": "제5조(감정평가의 의뢰)\n① 국가, 지방자치단체, 「공공기관의 운영에 관한 법률」에 따른 공공기관 또는 그 밖에 대통령령으로 정하는 공공단체(이하 \"국가등\"이라 한다)가 토지등의 관리ㆍ매입ㆍ매각ㆍ경매ㆍ재평가 등을 위하여 토지등을 감정평가하려는 경우에는 감정평가법인등에 의뢰하여야 한다. <개정 2020.4.7>\n② 금융기관",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "감정평가서",
+    "body": "제6조(감정평가서)\n① 감정평가법인등은 감정평가를 의뢰받은 때에는 지체 없이 감정평가를 실시한 후 국토교통부령으로 정하는 바에 따라 감정평가 의뢰인에게 감정평가서(「전자문서 및 전자거래기본법」 제2조에 따른 전자문서로 된 감정평가서를 포함한다)를 발급하여야 한다. <개정 2020.4.7, 2021.7.20>\n② 감정평가서",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "감정평가서의 심사 등",
+    "body": "제7조(감정평가서의 심사 등)\n① 감정평가법인은 제6조에 따라 감정평가서를 의뢰인에게 발급하기 전에 감정평가를 한 소속 감정평가사가 작성한 감정평가서의 적정성을 같은 법인 소속의 다른 감정평가사에게 심사하게 하고, 그 적정성을 심사한 감정평가사로 하여금 감정평가서에 그 심사사실을 표시하고 서명과 날인을 하게 하여야 한다.",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "감정평가 타당성조사 등",
+    "body": "제8조(감정평가 타당성조사 등)\n① 국토교통부장관은 제6조에 따라 감정평가서가 발급된 후 해당 감정평가가 이 법 또는 다른 법률에서 정하는 절차와 방법 등에 따라 타당하게 이루어졌는지를 직권으로 또는 관계 기관 등의 요청에 따라 조사할 수 있다.\n② 제1항에 따른 타당성조사를 할 경우에는 해당 감정평가법인등 및 대통령령으",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "감정평가 정보체계의 구축ㆍ운용 등",
+    "body": "제9조(감정평가 정보체계의 구축ㆍ운용 등)\n① 국토교통부장관은 국가등이 의뢰하는 감정평가와 관련된 정보 및 자료를 효율적이고 체계적으로 관리하기 위하여 감정평가 정보체계(이하 \"감정평가 정보체계\"라 한다)를 구축ㆍ운영할 수 있다.\n② 「공익사업을 위한 토지 등의 취득 및 보상에 관한 법률」에 따른 감정평가 등 국토교통부령",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "감정평가법인등의 업무",
+    "body": "제10조(감정평가법인등의 업무)\n1. 「부동산 가격공시에 관한 법률」에 따라 감정평가법인등이 수행하는 업무\n2. 「부동산 가격공시에 관한 법률」 제8조제2호에 따른 목적을 위한 토지등의 감정평가\n3. 「자산재평가법」에 따른 토지등의 감정평가\n4. 법원에 계속 중인 소송 또는 경매를 위한 토지등의 감정평가\n5. 금융기관ㆍ보",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "자격",
+    "body": "제11조(자격)\n제14조에 따른 감정평가사시험에 합격한 사람은 감정평가사의 자격이 있다.",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "결격사유",
+    "body": "제12조(결격사유)\n① 다음 각 호의 어느 하나에 해당하는 사람은 감정평가사가 될 수 없다. <개정 2020.6.9, 2021.7.20, 2023.5.9>\n1. 삭제<2021.7.20>\n2. 파산선고를 받은 사람으로서 복권되지 아니한 사람\n3. 금고 이상의 실형을 선고받고 그 집행이 종료(집행이 종료된 것으로 보는 경우를",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "자격의 취소",
+    "body": "제13조(자격의 취소)\n① 국토교통부장관은 감정평가사가 다음 각 호의 어느 하나에 해당하는 경우에는 그 자격을 취소하여야 한다. <개정 2021.7.20>\n1. 부정한 방법으로 감정평가사의 자격을 받은 경우\n2. 제39조제2항제1호에 해당하는 징계를 받은 경우\n② 국토교통부장관은 제1항에 따라 감정평가사의 자격을 취소한 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "감정평가사시험",
+    "body": "제14조(감정평가사시험)\n① 감정평가사시험(이하 \"시험\"이라 한다)은 국토교통부장관이 실시하며, 제1차 시험과 제2차 시험으로 이루어진다.\n② 시험의 최종 합격 발표일을 기준으로 제12조에 따른 결격사유에 해당하는 사람은 시험에 응시할 수 없다.\n③ 국토교통부장관은 제2항에 따라 시험에 응시할 수 없음에도 불구하고 시험에",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "시험의 일부면제",
+    "body": "제15조(시험의 일부면제)\n① 감정평가법인 등 대통령령으로 정하는 기관에서 5년 이상 감정평가와 관련된 업무에 종사한 사람에 대해서는 시험 중 제1차 시험을 면제한다.\n② 제1차 시험에 합격한 사람에 대해서는 다음 회의 시험에 한정하여 제1차 시험을 면제한다.",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "부정행위자에 대한 제재",
+    "body": "제16조(부정행위자에 대한 제재)\n① 국토교통부장관은 다음 각 호의 어느 하나에 해당하는 사람에 대해서는 해당 시험을 정지시키거나 무효로 한다.\n1. 부정한 방법으로 시험에 응시한 사람\n2. 시험에서 부정한 행위를 한 사람\n3. 제15조제1항에 따른 시험의 일부 면제를 위한 관련 서류를 거짓 또는 부정한 방법으로 제출한 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "등록 및 갱신등록",
+    "body": "제17조(등록 및 갱신등록)\n① 제11조에 따른 감정평가사 자격이 있는 사람이 제10조에 따른 업무를 하려는 경우에는 대통령령으로 정하는 바에 따라 실무수습 또는 교육연수를 마치고 국토교통부장관에게 등록하여야 한다. <개정 2021.7.20>\n② 제1항에 따라 등록한 감정평가사는 대통령령으로 정하는 바에 따라 등록을 갱신",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "등록 및 갱신등록의 거부",
+    "body": "제18조(등록 및 갱신등록의 거부)\n① 국토교통부장관은 제17조에 따른 등록 또는 갱신등록을 신청한 사람이 다음 각 호의 어느 하나에 해당하는 경우에는 그 등록을 거부하여야 한다. <개정 2021.7.20>\n1. 제12조 각 호의 어느 하나에 해당하는 경우\n2. 제17조제1항에 따른 실무수습 또는 교육연수를 받지 아니한 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "등록의 취소",
+    "body": "제19조(등록의 취소)\n① 국토교통부장관은 제17조에 따라 등록한 감정평가사가 다음 각 호의 어느 하나에 해당하는 경우에는 그 등록을 취소하여야 한다. <개정 2021.7.20>\n1. 제12조 각 호의 어느 하나에 해당하는 경우\n2. 사망한 경우\n3. 등록취소를 신청한 경우\n4. 제39조제2항제2호에 해당하는 징계를 받은",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "외국감정평가사",
+    "body": "제20조(외국감정평가사)\n① 외국의 감정평가사 자격을 가진 사람으로서 제12조에 따른 결격사유에 해당하지 아니하는 사람은 그 본국에서 대한민국정부가 부여한 감정평가사 자격을 인정하는 경우에 한정하여 국토교통부장관의 인가를 받아 제10조 각 호의 업무를 수행할 수 있다.\n② 국토교통부장관은 제1항에 따른 인가를 하는 경우 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "사무소 개설 등",
+    "body": "제21조(사무소 개설 등)\n① 제17조에 따라 등록을 한 감정평가사가 감정평가업을 하려는 경우에는 감정평가사사무소를 개설할 수 있다. <개정 2021.7.20>\n② 다음 각 호의 어느 하나에 해당하는 사람은 제1항에 따른 개설을 할 수 없다. <개정 2021.7.20>\n1. 제18조제1항 각 호의 어느 하나에 해당하는 사",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": "2",
+    "title": "고용인의 신고",
+    "body": "제21조의2(고용인의 신고)\n감정평가법인등은 소속 감정평가사 또는 제24조에 따른 사무직원을 고용하거나 고용관계가 종료된 때에는 국토교통부령으로 정하는 바에 따라 국토교통부장관에게 신고하여야 한다. <개정 2020.4.7>",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0021021"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "사무소의 명칭 등",
+    "body": "제22조(사무소의 명칭 등)\n① 제21조에 따라 사무소를 개설한 감정평가법인등은 그 사무소의 명칭에 \"감정평가사사무소\"라는 용어를 사용하여야 하며, 제29조에 따른 법인은 그 명칭에 \"감정평가법인\"이라는 용어를 사용하여야 한다. <개정 2020.4.7, 2021.7.20>\n② 이 법에 따른 감정평가사가 아닌 사람은 \"감정",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "수수료 등",
+    "body": "제23조(수수료 등)\n① 감정평가법인등은 의뢰인으로부터 업무수행에 따른 수수료와 그에 필요한 실비를 받을 수 있다. <개정 2020.4.7>\n② 제1항에 따른 수수료의 요율 및 실비의 범위는 국토교통부장관이 제40조에 따른 감정평가관리ㆍ징계위원회의 심의를 거쳐 결정한다.\n③ 감정평가법인등과 의뢰인은 제2항에 따른 수수료의",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "사무직원",
+    "body": "제24조(사무직원)\n① 감정평가법인등은 그 직무의 수행을 보조하기 위하여 사무직원을 둘 수 있다. 다만, 다음 각 호의 어느 하나에 해당하는 사람은 사무직원이 될 수 없다. <개정 2019.8.20, 2020.4.7, 2023.5.9>\n1. 미성년자 또는 피성년후견인ㆍ피한정후견인\n2. 이 법 또는 「형법」 제129조부터 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "성실의무 등",
+    "body": "제25조(성실의무 등)\n① 감정평가법인등(감정평가법인 또는 감정평가사사무소의 소속 감정평가사를 포함한다. 이하 이 조에서 같다)은 제10조에 따른 업무를 하는 경우 품위를 유지하여야 하고, 신의와 성실로써 공정하게 하여야 하며, 고의 또는 중대한 과실로 업무를 잘못하여서는 아니 된다. <개정 2020.4.7, 2021.7",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "비밀엄수",
+    "body": "제26조(비밀엄수)\n감정평가법인등(감정평가법인 또는 감정평가사사무소의 소속 감정평가사를 포함한다. 이하 이 조에서 같다)이나 그 사무직원 또는 감정평가법인등이었거나 그 사무직원이었던 사람은 업무상 알게 된 비밀을 누설하여서는 아니 된다. 다만, 다른 법령에 특별한 규정이 있는 경우에는 그러하지 아니하다. <개정 2020.",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "명의대여 등의 금지",
+    "body": "제27조(명의대여 등의 금지)\n① 감정평가사 또는 감정평가법인등은 다른 사람에게 자기의 성명 또는 상호를 사용하여 제10조에 따른 업무를 수행하게 하거나 자격증ㆍ등록증 또는 인가증을 양도ㆍ대여하거나 이를 부당하게 행사하여서는 아니 된다. <개정 2020.4.7>\n② 누구든지 제1항의 행위를 알선해서는 아니 된다. <신설 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "손해배상책임",
+    "body": "제28조(손해배상책임)\n① 감정평가법인등이 감정평가를 하면서 고의 또는 과실로 감정평가 당시의 적정가격과 현저한 차이가 있게 감정평가를 하거나 감정평가 서류에 거짓을 기록함으로써 감정평가 의뢰인이나 선의의 제3자에게 손해를 발생하게 하였을 때에는 감정평가법인등은 그 손해를 배상할 책임이 있다. <개정 2020.4.7>\n②",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": "2",
+    "title": "감정평가 유도ㆍ요구 금지",
+    "body": "제28조의2(감정평가 유도ㆍ요구 금지)\n누구든지 감정평가법인등(감정평가법인 또는 감정평가사사무소의 소속 감정평가사를 포함한다)과 그 사무직원에게 토지등에 대하여 특정한 가액으로 감정평가를 유도 또는 요구하는 행위를 하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0028021"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "설립 등",
+    "body": "제29조(설립 등)\n① 감정평가사는 제10조에 따른 업무를 조직적으로 수행하기 위하여 감정평가법인을 설립할 수 있다.\n② 감정평가법인은 전체 사원 또는 이사의 100분의 70이 넘는 범위에서 대통령령으로 정하는 비율 이상을 감정평가사로 두어야 한다. 이 경우 감정평가사가 아닌 사원 또는 이사는 토지등에 대한 전문성 등 대",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "해산",
+    "body": "제30조(해산)\n① 감정평가법인은 다음 각 호의 어느 하나에 해당하는 경우에는 해산한다.\n1. 정관으로 정한 해산 사유의 발생\n2. 사원총회 또는 주주총회의 결의\n3. 합병\n4. 설립인가의 취소\n5. 파산\n6. 법원의 명령 또는 판결\n② 감정평가법인이 해산한 때에는 국토교통부령으로 정하는 바에 따라 이를 국토교통부장관에게",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "자본금 등",
+    "body": "제31조(자본금 등)\n① 감정평가법인의 자본금은 2억원 이상이어야 한다.\n② 감정평가법인은 직전 사업연도 말 재무상태표의 자산총액에서 부채총액을 차감한 금액이 2억원에 미달하면 미달한 금액을 매 사업연도가 끝난 후 6개월 이내에 사원의 증여로 보전(補塡)하거나 증자(增資)하여야 한다.\n③ 제2항에 따라 증여받은 금액은 특",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "인가취소 등",
+    "body": "제32조(인가취소 등)\n① 국토교통부장관은 감정평가법인등이 다음 각 호의 어느 하나에 해당하는 경우에는 그 설립인가를 취소(제29조에 따른 감정평가법인에 한정한다)하거나 2년 이내의 범위에서 기간을 정하여 업무의 정지를 명할 수 있다. 다만, 제2호 또는 제7호에 해당하는 경우에는 그 설립인가를 취소하여야 한다. <개정 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "목적 및 설립",
+    "body": "제33조(목적 및 설립)\n① 감정평가사의 품위 유지와 직무의 개선ㆍ발전을 도모하고, 회원의 관리 및 지도에 관한 사무를 하도록 하기 위하여 한국감정평가사협회(이하 \"협회\"라 한다)를 둔다.\n② 협회는 법인으로 한다.\n③ 협회는 국토교통부장관의 인가를 받아 주된 사무소의 소재지에서 설립등기를 함으로써 성립한다.\n④ 협회는 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "회칙",
+    "body": "제34조(회칙)\n① 협회는 회칙을 정하여 국토교통부장관의 인가를 받아야 한다. 회칙을 변경할 때에도 또한 같다.\n② 제1항에 따른 회칙에는 다음 각 호의 사항이 포함되어야 한다.\n1. 명칭과 사무소 소재지\n2. 회원가입 및 탈퇴에 관한 사항\n3. 임원 구성에 관한 사항\n4. 회원의 권리 및 의무에 관한 사항\n5. 회원의 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "회원가입 의무 등",
+    "body": "제35조(회원가입 의무 등)\n① 감정평가법인등과 그 소속 감정평가사는 협회에 회원으로 가입하여야 하며, 그 밖의 감정평가사는 협회의 회원으로 가입할 수 있다. <개정 2020.4.7>\n② 협회에 회원으로 가입한 감정평가법인등과 감정평가사는 제34조에 따른 회칙을 준수하여야 한다. <개정 2020.4.7>",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0035001"
+   },
+   {
+    "article_no": "36",
+    "article_branch": null,
+    "title": "윤리규정",
+    "body": "제36조(윤리규정)\n① 협회는 회원이 직무를 수행할 때 지켜야 할 직업윤리에 관한 규정을 제정하여야 한다.\n② 회원은 제1항에 따른 직업윤리에 관한 규정을 준수하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0036001"
+   },
+   {
+    "article_no": "37",
+    "article_branch": null,
+    "title": "자문 등",
+    "body": "제37조(자문 등)\n① 국가등은 제4조에 따른 감정평가사의 직무에 관한 사항에 대하여 협회에 업무의 자문을 요청하거나 협회의 임원ㆍ회원 또는 직원을 전문분야에 위촉하기 위하여 추천을 요청할 수 있다. <개정 2021.7.20>\n② 협회는 제1항에 따라 자문 또는 추천을 요청받은 경우 그 회원으로 하여금 요청받은 업무를 수",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0037001"
+   },
+   {
+    "article_no": "38",
+    "article_branch": null,
+    "title": "회원에 대한 교육ㆍ연수 등",
+    "body": "제38조(회원에 대한 교육ㆍ연수 등)\n① 협회는 다음 각 호의 사람에 대하여 교육ㆍ연수를 실시하고 회원의 자체적인 교육ㆍ연수활동을 지도ㆍ관리한다. <개정 2019.8.20>\n1. 회원\n2. 제17조에 따라 등록을 하려는 감정평가사\n3. 제24조에 따른 사무직원\n② 제1항에 따른 교육ㆍ연수를 실시하기 위하여 협회에 연수원을",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0038001"
+   },
+   {
+    "article_no": "39",
+    "article_branch": null,
+    "title": "징계",
+    "body": "제39조(징계)\n① 국토교통부장관은 감정평가사가 다음 각 호의 어느 하나에 해당하는 경우에는 제40조에 따른 감정평가관리ㆍ징계위원회의 의결에 따라 제2항 각 호의 어느 하나에 해당하는 징계를 할 수 있다. 다만, 제2항제1호에 따른 징계는 제11호, 제12호에 해당하는 경우 및 제27조를 위반하여 다른 사람에게 자격증ㆍ등",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0039001"
+   },
+   {
+    "article_no": "39",
+    "article_branch": "2",
+    "title": "징계의 공고",
+    "body": "제39조의2(징계의 공고)\n① 국토교통부장관은 제39조제1항 및 제2항에 따라 징계를 한 때에는 지체 없이 그 구체적인 사유를 해당 감정평가사, 감정평가법인등 및 협회에 각각 알리고, 그 내용을 대통령령으로 정하는 바에 따라 관보 또는 인터넷 홈페이지 등에 게시 또는 공고하여야 한다.\n② 협회는 제1항에 따라 통보받은 내",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0039021"
+   },
+   {
+    "article_no": "40",
+    "article_branch": null,
+    "title": "감정평가관리ㆍ징계위원회",
+    "body": "제40조(감정평가관리ㆍ징계위원회)\n① 다음 각 호의 사항을 심의 또는 의결하기 위하여 국토교통부에 감정평가관리ㆍ징계위원회(이하 \"위원회\"라 한다)를 둔다. <개정 2020.6.9, 2021.7.20>\n1. 감정평가 관계 법령의 제정ㆍ개정에 관한 사항 중 국토교통부장관이 회의에 부치는 사항\n1의2. 제3조제5항에 따른 실무",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0040001"
+   },
+   {
+    "article_no": "41",
+    "article_branch": null,
+    "title": "과징금의 부과",
+    "body": "제41조(과징금의 부과)\n① 국토교통부장관은 감정평가법인등이 제32조제1항 각 호의 어느 하나에 해당하게 되어 업무정지처분을 하여야 하는 경우로서 그 업무정지처분이 「부동산 가격공시에 관한 법률」 제3조에 따른 표준지공시지가의 공시 등의 업무를 정상적으로 수행하는 데에 지장을 초래하는 등 공익을 해칠 우려가 있는 경우에는",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0041001"
+   },
+   {
+    "article_no": "42",
+    "article_branch": null,
+    "title": "이의신청",
+    "body": "제42조(이의신청)\n① 제41조에 따른 과징금의 부과에 이의가 있는 자는 이를 통보받은 날부터 30일 이내에 사유서를 갖추어 국토교통부장관에게 이의를 신청할 수 있다.\n② 국토교통부장관은 제1항에 따른 이의신청에 대하여 30일 이내에 결정을 하여야 한다. 다만, 부득이한 사정으로 그 기간에 결정을 할 수 없을 때에는 30",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0042001"
+   },
+   {
+    "article_no": "43",
+    "article_branch": null,
+    "title": "과징금 납부기한의 연장과 분할납부",
+    "body": "제43조(과징금 납부기한의 연장과 분할납부)\n① 국토교통부장관은 과징금을 부과받은 자(이하 \"과징금납부의무자\"라 한다)가 다음 각 호의 어느 하나에 해당하는 사유로 과징금의 전액을 일시에 납부하기 어렵다고 인정될 때에는 그 납부기한을 연장하거나 분할납부하게 할 수 있다. 이 경우 필요하다고 인정할 때에는 담보를 제공하게 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0043001"
+   },
+   {
+    "article_no": "44",
+    "article_branch": null,
+    "title": "과징금의 징수와 체납처분",
+    "body": "제44조(과징금의 징수와 체납처분)\n① 국토교통부장관은 과징금납부의무자가 납부기한까지 과징금을 납부하지 아니한 경우에는 납부기한의 다음 날부터 과징금을 납부한 날의 전날까지의 기간에 대하여 대통령령으로 정하는 가산금을 징수할 수 있다. <개정 2020.6.9>\n② 국토교통부장관은 과징금납부의무자가 납부기한까지 과징금을 납",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0044001"
+   },
+   {
+    "article_no": "45",
+    "article_branch": null,
+    "title": "청문",
+    "body": "제45조(청문)\n1. 제13조제1항제1호에 따른 감정평가사 자격의 취소\n2. 제32조제1항에 따른 감정평가법인의 설립인가 취소",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0045001"
+   },
+   {
+    "article_no": "46",
+    "article_branch": null,
+    "title": "업무의 위탁",
+    "body": "제46조(업무의 위탁)\n① 이 법에 따른 국토교통부장관의 업무 중 다음 각 호의 업무는 「한국부동산원법」에 따른 한국부동산원, 「한국산업인력공단법」에 따른 한국산업인력공단 또는 협회에 위탁할 수 있다. 다만, 제3호 및 제4호에 따른 업무는 협회에만 위탁할 수 있다. <개정 2019.8.20, 2020.6.9, 2021.",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0046001"
+   },
+   {
+    "article_no": "47",
+    "article_branch": null,
+    "title": "지도ㆍ감독",
+    "body": "제47조(지도ㆍ감독)\n① 국토교통부장관은 감정평가법인등 및 협회를 감독하기 위하여 필요할 때에는 그 업무에 관한 보고 또는 자료의 제출, 그 밖에 필요한 명령을 할 수 있으며, 소속 공무원으로 하여금 그 사무소에 출입하여 장부ㆍ서류 등을 검사하게 할 수 있다. <개정 2020.4.7, 2020.6.9>\n② 제1항에 따라 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0047001"
+   },
+   {
+    "article_no": "48",
+    "article_branch": null,
+    "title": "벌칙 적용에서 공무원 의제",
+    "body": "제48조(벌칙 적용에서 공무원 의제)\n1. 제10조제1호 및 제2호의 업무를 수행하는 감정평가사\n2. 제40조에 따른 위원회의 위원 중 공무원이 아닌 위원\n3. 제46조에 따른 위탁업무에 종사하는 협회의 임직원",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0048001"
+   },
+   {
+    "article_no": "49",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제49조(벌칙)\n1. 부정한 방법으로 감정평가사의 자격을 취득한 사람\n2. 감정평가법인등이 아닌 자로서 감정평가업을 한 자\n3. 구비서류를 거짓으로 작성하는 등 부정한 방법으로 제17조에 따른 등록이나 갱신등록을 한 사람\n4. 제18조에 따라 등록 또는 갱신등록이 거부되거나 제13조, 제19조 또는 제39조에 따라 자격 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0049001"
+   },
+   {
+    "article_no": "50",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제50조(벌칙)\n1. 제21조제4항을 위반하여 둘 이상의 사무소를 설치한 사람\n2. 제21조제5항 또는 제29조제9항을 위반하여 소속 감정평가사 외의 사람에게 제10조의 업무를 하게 한 자\n3. 제25조제3항, 제5항 또는 제26조를 위반한 자\n4. 제27조제1항을 위반하여 감정평가사의 자격증ㆍ등록증 또는 감정평가법인의 ",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0050001"
+   },
+   {
+    "article_no": "50",
+    "article_branch": "2",
+    "title": "몰수ㆍ추징",
+    "body": "제50조의2(몰수ㆍ추징)\n제49조제6호 및 제50조제4호의 죄를 지은 자가 받은 금품이나 그 밖의 이익은 몰수한다. 이를 몰수할 수 없을 때에는 그 가액을 추징한다.",
+    "body_truncated": false,
+    "effective_on": "20230810",
+    "article_key": "0050021"
+   },
+   {
+    "article_no": "51",
+    "article_branch": null,
+    "title": "양벌규정",
+    "body": "제51조(양벌규정)\n법인의 대표자나 법인 또는 개인의 대리인, 사용인, 그 밖의 종업원이 그 법인 또는 개인의 업무에 관하여 제49조 또는 제50조의 위반행위를 하면 그 행위자를 벌하는 외에 그 법인 또는 개인에게도 해당 조문의 벌금형을 부과한다. 다만, 법인 또는 개인이 그 위반행위를 방지하기 위하여 해당 업무에 상당한",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0051001"
+   },
+   {
+    "article_no": "52",
+    "article_branch": null,
+    "title": "과태료",
+    "body": "제52조(과태료)\n① 제24조제1항을 위반하여 사무직원을 둔 자에게는 500만원 이하의 과태료를 부과한다. <신설 2021.7.20>\n② 다음 각 호의 어느 하나에 해당하는 자에게는 400만원 이하의 과태료를 부과한다. <개정 2019.8.20, 2021.7.20>\n1. 삭제<2021.7.20>\n2. 삭제<2021.7.2",
+    "body_truncated": true,
+    "effective_on": "20230810",
+    "article_key": "0052001"
+   }
+  ],
+  "article_count": 56,
+  "articles_shown": 56,
+  "articles_truncated_bodies": 45,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:2124481",
+    "name": "가평군 공유재산 관리 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124481&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125249",
+    "name": "울릉군 건축물관리 조례",
+    "region_id": "47940",
+    "org_name": "경상북도 울릉군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125249&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125925",
+    "name": "영주시 주차장 조례",
+    "region_id": "47210",
+    "org_name": "경상북도 영주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125925&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125947",
+    "name": "부천시 성골지구 도시개발사업 시행 조례 시행규칙",
+    "region_id": "41190",
+    "org_name": "경기도 부천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125947&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126387",
+    "name": "안산시 공유재산 관리 조례",
+    "region_id": "41270",
+    "org_name": "경기도 안산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126387&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126431",
+    "name": "안산시 주차장 조례",
+    "region_id": "41270",
+    "org_name": "경기도 안산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126431&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127479",
+    "name": "동두천시 공유재산 관리 조례 시행규칙",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127479&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127685",
+    "name": "동두천시 공유재산 관리 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127685&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127813",
+    "name": "오산시 주차장 조례",
+    "region_id": "41370",
+    "org_name": "경기도 오산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127813&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128049",
+    "name": "시흥시 도심 복합개발 지원에 관한 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128051",
+    "name": "시흥시 도시 및 주거환경정비 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128143",
+    "name": "시흥시 주차장 설치 및 관리 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128143&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128203",
+    "name": "상주시 공유재산 관리 규칙",
+    "region_id": "47250",
+    "org_name": "경상북도 상주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128203&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128233",
+    "name": "양양군 공유재산 관리 조례",
+    "region_id": "51830",
+    "org_name": "강원특별자치도 양양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128233&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128609",
+    "name": "전북특별자치도 도시 및 주거환경 정비조례",
+    "region_id": "52",
+    "org_name": "전북특별자치도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128609&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128915",
+    "name": "대구광역시 도시계획 조례",
+    "region_id": "27",
+    "org_name": "대구광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128915&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2129689",
+    "name": "남양주시 공유재산관리 조례",
+    "region_id": "41360",
+    "org_name": "경기도 남양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129689&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2129983",
+    "name": "창원시 공유재산 관리 조례",
+    "region_id": "48120",
+    "org_name": "경상남도 창원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129983&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130213",
+    "name": "부천시 공동주택 기본 조례",
+    "region_id": "41190",
+    "org_name": "경기도 부천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130213&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130259",
+    "name": "부천시 주차장 설치 및 관리 조례",
+    "region_id": "41190",
+    "org_name": "경기도 부천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130259&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

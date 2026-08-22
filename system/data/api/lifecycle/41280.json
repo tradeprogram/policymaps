@@ -1,0 +1,778 @@
+{
+ "data": {
+  "region": {
+   "region_id": "41280",
+   "sig_cd": "41280",
+   "name": "고양시",
+   "full_name": "경기도 고양시",
+   "level": 2
+  },
+  "counts": {
+   "total": 1021,
+   "active": 740,
+   "repealed": 281,
+   "by_rr_cls_cd": {
+    "일부개정": 489,
+    "전부개정": 51,
+    "제정": 200,
+    "폐지": 281
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1994,
+    "n": 18
+   },
+   {
+    "year": 1996,
+    "n": 3
+   },
+   {
+    "year": 1997,
+    "n": 4
+   },
+   {
+    "year": 1998,
+    "n": 27
+   },
+   {
+    "year": 1999,
+    "n": 11
+   },
+   {
+    "year": 2000,
+    "n": 11
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 7
+   },
+   {
+    "year": 2003,
+    "n": 10
+   },
+   {
+    "year": 2004,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 8
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 12
+   },
+   {
+    "year": 2008,
+    "n": 12
+   },
+   {
+    "year": 2009,
+    "n": 10
+   },
+   {
+    "year": 2010,
+    "n": 11
+   },
+   {
+    "year": 2011,
+    "n": 18
+   },
+   {
+    "year": 2012,
+    "n": 13
+   },
+   {
+    "year": 2013,
+    "n": 13
+   },
+   {
+    "year": 2014,
+    "n": 14
+   },
+   {
+    "year": 2015,
+    "n": 32
+   },
+   {
+    "year": 2016,
+    "n": 15
+   },
+   {
+    "year": 2017,
+    "n": 23
+   },
+   {
+    "year": 2018,
+    "n": 16
+   },
+   {
+    "year": 2019,
+    "n": 57
+   },
+   {
+    "year": 2020,
+    "n": 81
+   },
+   {
+    "year": 2021,
+    "n": 98
+   },
+   {
+    "year": 2022,
+    "n": 39
+   },
+   {
+    "year": 2023,
+    "n": 179
+   },
+   {
+    "year": 2024,
+    "n": 106
+   },
+   {
+    "year": 2025,
+    "n": 115
+   },
+   {
+    "year": 2026,
+    "n": 49
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1994,
+    "n": 18
+   },
+   {
+    "year": 1996,
+    "n": 3
+   },
+   {
+    "year": 1997,
+    "n": 4
+   },
+   {
+    "year": 1998,
+    "n": 27
+   },
+   {
+    "year": 1999,
+    "n": 11
+   },
+   {
+    "year": 2000,
+    "n": 11
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 7
+   },
+   {
+    "year": 2003,
+    "n": 10
+   },
+   {
+    "year": 2004,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 12
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 8
+   },
+   {
+    "year": 2010,
+    "n": 11
+   },
+   {
+    "year": 2011,
+    "n": 13
+   },
+   {
+    "year": 2012,
+    "n": 8
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 9
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 3
+   },
+   {
+    "year": 2017,
+    "n": 6
+   },
+   {
+    "year": 2018,
+    "n": 4
+   },
+   {
+    "year": 2019,
+    "n": 11
+   },
+   {
+    "year": 2020,
+    "n": 9
+   },
+   {
+    "year": 2021,
+    "n": 10
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 18
+   },
+   {
+    "year": 2024,
+    "n": 13
+   },
+   {
+    "year": 2025,
+    "n": 16
+   },
+   {
+    "year": 2026,
+    "n": 4
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "보건진료소수가조례",
+    "display_name": "보건진료소수가조례",
+    "rows": 2,
+    "nationwide_regions": 15
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설 특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보 교부금 지급 규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과 · 징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료 부과·징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수규칙",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수 규칙",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2119595",
+    "name": "고양시 중소기업 기술개발자금 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-07",
+    "repealed_on": "2026-04-07",
+    "repealed_on_raw": "20260407",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119595&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2113101",
+    "name": "고양컨벤션뷰로 설립·운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-02-27",
+    "repealed_on": "2026-03-20",
+    "repealed_on_raw": "20260320",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2113101&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2107063",
+    "name": "고양시 영유아 및 아동·청소년 정신건강증진에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-01-09",
+    "repealed_on": "2026-01-09",
+    "repealed_on_raw": "20260109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107063&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2107059",
+    "name": "고양시 통장의 임무와 복무 및 실비변상에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-01-09",
+    "repealed_on": "2026-01-09",
+    "repealed_on_raw": "20260109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2100503",
+    "name": "고양시 대학생 학자금 대출이자 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-30",
+    "repealed_on": "2025-12-30",
+    "repealed_on_raw": "20251230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100503&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2086127",
+    "name": "고양시 낚시 등의 금지구역 내 위반자 과태료 부과·징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-11-14",
+    "repealed_on": "2025-11-14",
+    "repealed_on_raw": "20251114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2086127&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2073511",
+    "name": "고양시 도로관리심의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-30",
+    "repealed_on": "2025-09-30",
+    "repealed_on_raw": "20250930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2073511&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2055481",
+    "name": "고양시 농어촌 주택사업특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-11",
+    "repealed_on": "2025-07-11",
+    "repealed_on_raw": "20250711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2055481&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2055435",
+    "name": "고양시 농어촌주택사업특별회계 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-07-11",
+    "repealed_on": "2025-07-11",
+    "repealed_on_raw": "20250711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2055435&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030237",
+    "name": "고양시 뇌병변장애인 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030237&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030269",
+    "name": "고양시 발달장애인 권리보장 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030269&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030233",
+    "name": "고양시 장애인가족 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030233&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030271",
+    "name": "고양시 장애인복지위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030271&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030231",
+    "name": "고양시 장애인식개선사업 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030231&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2029419",
+    "name": "고양시 장애인 차별금지 및 인권보장에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2029419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030267",
+    "name": "고양시 한국수화언어 활성화 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030267&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030265",
+    "name": "고양시 폐기물처리시설 주민지원기금 운용규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030265&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2011333",
+    "name": "고양시 고양형혁신교육 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-01-10",
+    "repealed_on": "2025-01-10",
+    "repealed_on_raw": "20250110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2011333&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2011313",
+    "name": "고양시 조례·규칙심의회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-01-10",
+    "repealed_on": "2025-01-10",
+    "repealed_on_raw": "20250110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2011313&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2011317",
+    "name": "고양시 주부시정모니터 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-01-10",
+    "repealed_on": "2025-01-10",
+    "repealed_on_raw": "20250110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2011317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1971785",
+    "name": "고양시 환경시설 등에 관한 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-27",
+    "repealed_on": "2024-09-27",
+    "repealed_on_raw": "20240927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971785&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1971751",
+    "name": "고양시 수도시설이설등 원인자 및 손괴자 부담금 징수조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-09-27",
+    "repealed_on": "2024-09-27",
+    "repealed_on_raw": "20240927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971751&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1945077",
+    "name": "고양시 높빛공직자 포상 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-07-02",
+    "repealed_on": "2024-07-02",
+    "repealed_on_raw": "20240702",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1945077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1909731",
+    "name": "고양시 어린이 통학로 안전관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-27",
+    "repealed_on": "2024-02-27",
+    "repealed_on_raw": "20240227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1909731&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875151",
+    "name": "고양문화의집 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875151&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875153",
+    "name": "고양시 문예회관 사용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875153&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875159",
+    "name": "고양시 어린이박물관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875159&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875269",
+    "name": "고양시 장애인 등의 편의시설 사전점검에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875269&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1879165",
+    "name": "고양시 저소득주민 생활안정융자금 특별회계 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-08",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1879165&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875155",
+    "name": "고양영상미디어센터 설치·운영 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875155&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875131",
+    "name": "고양문화의집 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875131&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875127",
+    "name": "고양시 문예회관 사용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875127&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1879157",
+    "name": "고양시 저소득주민 생활안정자금 융자 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-08",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1879157&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1894383",
+    "name": "고양시 저출산·고령사회 대응과 지속발전을 위한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1894383&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1879161",
+    "name": "고양시 자치분권 촉진 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-08",
+    "repealed_on": "2023-12-08",
+    "repealed_on_raw": "20231208",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1879161&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875135",
+    "name": "고양시 지방공기업법 적용대상 사업의 기준에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2023-11-17",
+    "repealed_on_raw": "20231117",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875135&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875197",
+    "name": "고양시 지역보건의료사업의 업무대행에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2023-11-17",
+    "repealed_on_raw": "20231117",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875197&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875133",
+    "name": "고양시 지역보건의료사업의 업무대행에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-17",
+    "repealed_on": "2023-11-17",
+    "repealed_on_raw": "20231117",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1853917",
+    "name": "고양시 행주산성문화재 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-09-22",
+    "repealed_on": "2023-09-22",
+    "repealed_on_raw": "20230922",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1853917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1811981",
+    "name": "고양시 안전관리민관협력위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-23",
+    "repealed_on": "2023-05-23",
+    "repealed_on_raw": "20230523",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1811981&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 1,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "41280"
+ ]
+}

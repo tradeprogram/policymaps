@@ -1,0 +1,810 @@
+{
+ "data": {
+  "region": {
+   "region_id": "26290",
+   "sig_cd": "26290",
+   "name": "남구",
+   "full_name": "부산광역시 남구",
+   "level": 2
+  },
+  "counts": {
+   "total": 657,
+   "active": 512,
+   "repealed": 145,
+   "by_rr_cls_cd": {
+    "일부개정": 303,
+    "전부개정": 24,
+    "제정": 185,
+    "폐지": 145
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1988,
+    "n": 5
+   },
+   {
+    "year": 1989,
+    "n": 9
+   },
+   {
+    "year": 1990,
+    "n": 1
+   },
+   {
+    "year": 1991,
+    "n": 3
+   },
+   {
+    "year": 1992,
+    "n": 1
+   },
+   {
+    "year": 1993,
+    "n": 2
+   },
+   {
+    "year": 1994,
+    "n": 2
+   },
+   {
+    "year": 1995,
+    "n": 10
+   },
+   {
+    "year": 1996,
+    "n": 4
+   },
+   {
+    "year": 1997,
+    "n": 3
+   },
+   {
+    "year": 1998,
+    "n": 5
+   },
+   {
+    "year": 1999,
+    "n": 6
+   },
+   {
+    "year": 2000,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 5
+   },
+   {
+    "year": 2005,
+    "n": 19
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 10
+   },
+   {
+    "year": 2010,
+    "n": 9
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 15
+   },
+   {
+    "year": 2015,
+    "n": 14
+   },
+   {
+    "year": 2016,
+    "n": 7
+   },
+   {
+    "year": 2017,
+    "n": 8
+   },
+   {
+    "year": 2018,
+    "n": 22
+   },
+   {
+    "year": 2019,
+    "n": 23
+   },
+   {
+    "year": 2020,
+    "n": 17
+   },
+   {
+    "year": 2021,
+    "n": 56
+   },
+   {
+    "year": 2022,
+    "n": 58
+   },
+   {
+    "year": 2023,
+    "n": 55
+   },
+   {
+    "year": 2024,
+    "n": 107
+   },
+   {
+    "year": 2025,
+    "n": 119
+   },
+   {
+    "year": 2026,
+    "n": 31
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 1989,
+    "n": 11
+   },
+   {
+    "year": 1990,
+    "n": 2
+   },
+   {
+    "year": 1991,
+    "n": 4
+   },
+   {
+    "year": 1992,
+    "n": 1
+   },
+   {
+    "year": 1993,
+    "n": 2
+   },
+   {
+    "year": 1994,
+    "n": 2
+   },
+   {
+    "year": 1995,
+    "n": 10
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 5
+   },
+   {
+    "year": 1998,
+    "n": 5
+   },
+   {
+    "year": 1999,
+    "n": 7
+   },
+   {
+    "year": 2000,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 5
+   },
+   {
+    "year": 2005,
+    "n": 8
+   },
+   {
+    "year": 2006,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 7
+   },
+   {
+    "year": 2010,
+    "n": 8
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 11
+   },
+   {
+    "year": 2015,
+    "n": 2
+   },
+   {
+    "year": 2016,
+    "n": 2
+   },
+   {
+    "year": 2017,
+    "n": 2
+   },
+   {
+    "year": 2018,
+    "n": 5
+   },
+   {
+    "year": 2019,
+    "n": 3
+   },
+   {
+    "year": 2020,
+    "n": 2
+   },
+   {
+    "year": 2021,
+    "n": 1
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 1
+   },
+   {
+    "year": 2024,
+    "n": 6
+   },
+   {
+    "year": 2025,
+    "n": 5
+   },
+   {
+    "year": 2026,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직 운영에 관한 조례",
+    "rows": 2,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과징수 조례",
+    "rows": 2,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "보건소설치조례",
+    "display_name": "보건소설치조례",
+    "rows": 2,
+    "nationwide_regions": 20
+   },
+   {
+    "policy_key": "주차장기금설치및운용조례",
+    "display_name": "주차장기금 설치 및 운용 조례",
+    "rows": 2,
+    "nationwide_regions": 3
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여 업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성 검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법 위반자에 대한 행정처분 규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용·관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀장학금지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:939456",
+    "name": "부산광역시 남구 노인복지관 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-03-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=939456&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:939052",
+    "name": "부산광역시 남구 여성발전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2005-07-08",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=939052&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:939082",
+    "name": "부산광역시 남구 장애인복지관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-03-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=939082&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:940831",
+    "name": "부산광역시 남구 가격표시제 위반자에 대한 과태료징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2006-09-29",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=940831&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:939767",
+    "name": "부산광역시 남구세 부과징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2005-11-11",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=939767&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2131149",
+    "name": "부산광역시 남구 대동골문화센터 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-06-01",
+    "repealed_on": "2026-06-01",
+    "repealed_on_raw": "20260601",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2131149&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2120685",
+    "name": "부산광역시 남구 대동골문화센터 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-08",
+    "repealed_on": "2026-04-08",
+    "repealed_on_raw": "20260408",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2120685&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2101579",
+    "name": "부산광역시 남구 장애인·노인·임산부 등의 편의시설 사전검사 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-31",
+    "repealed_on": "2025-12-31",
+    "repealed_on_raw": "20251231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2101579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2094373",
+    "name": "부산광역시 남구 보도정비 및 유지관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-19",
+    "repealed_on": "2025-12-19",
+    "repealed_on_raw": "20251219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2094373&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2094361",
+    "name": "부산광역시 남구 안심통학버스 운영 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-19",
+    "repealed_on": "2025-12-19",
+    "repealed_on_raw": "20251219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2094361&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2094365",
+    "name": "부산광역시 남구 한시적 양육비 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-19",
+    "repealed_on": "2025-12-19",
+    "repealed_on_raw": "20251219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2094365&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2027349",
+    "name": "부산광역시 남구 교복 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-07",
+    "repealed_on": "2025-04-07",
+    "repealed_on_raw": "20250407",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2027349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1980503",
+    "name": "부산광역시 남구 지적현장민원실 설치·운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-10-31",
+    "repealed_on": "2024-10-31",
+    "repealed_on_raw": "20241031",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1980503&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1916437",
+    "name": "부산광역시 남구 2030부산월드엑스포 유치 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1916437&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1916441",
+    "name": "부산광역시 남구 소년소녀합창단 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1916441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1916439",
+    "name": "부산광역시 남구 시니어합창단 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1916439&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1916445",
+    "name": "부산광역시 남구 여성합창단 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1916445&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1858971",
+    "name": "부산광역시 남구 장기미집행도시계획시설대지보상 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1858971&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1858967",
+    "name": "부산광역시 남구 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2023-09-27",
+    "repealed_on_raw": "20230927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1858967&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1762733",
+    "name": "부산광역시 남구 장애인체육 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-26",
+    "repealed_on": "2022-12-26",
+    "repealed_on_raw": "20221226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762733&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1762737",
+    "name": "부산광역시 남구 체육진흥협의회 조직 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-26",
+    "repealed_on": "2022-12-26",
+    "repealed_on_raw": "20221226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762737&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1700335",
+    "name": "부산광역시 남구 소방안전취약계층 주택용 소방시설지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-08",
+    "repealed_on": "2022-04-08",
+    "repealed_on_raw": "20220408",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1700335&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1579411",
+    "name": "부산광역시 남구 아동·여성 안전 지역연대 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-11",
+    "repealed_on": "2021-03-11",
+    "repealed_on_raw": "20210311",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579411&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1541903",
+    "name": "부산광역시 남구 지방공무원 임용후보자 장학규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-02",
+    "repealed_on": "2020-11-02",
+    "repealed_on_raw": "20201102",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1541903&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1503515",
+    "name": "부산광역시 남구 사전재해영향성 검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-06-05",
+    "repealed_on": "2020-06-05",
+    "repealed_on_raw": "20200605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1503515&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1412917",
+    "name": "부산광역시 남구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-10-14",
+    "repealed_on": "2019-10-14",
+    "repealed_on_raw": "20191014",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1412917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1391695",
+    "name": "부산광역시 남구 자연재난 인명피해심의위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-04-18",
+    "repealed_on": "2019-04-18",
+    "repealed_on_raw": "20190418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1391695&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396773",
+    "name": "부산광역시 남구 구정발전연구단 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-03-13",
+    "repealed_on": "2019-03-13",
+    "repealed_on_raw": "20190313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396773&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1364763",
+    "name": "부산광역시 남구 동상ㆍ기념비 및 조형물 건립기준 등에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-11-06",
+    "repealed_on": "2018-11-06",
+    "repealed_on_raw": "20181106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1364763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1357903",
+    "name": "부산광역시 남구 기반시설특별회계 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-09-14",
+    "repealed_on": "2018-09-14",
+    "repealed_on_raw": "20180914",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1357903&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1357406",
+    "name": "부산광역시 남구 기반시설특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-09-07",
+    "repealed_on": "2018-09-07",
+    "repealed_on_raw": "20180907",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1357406&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1345015",
+    "name": "부산광역시 남구 위반 건축물에 대한 과태료 및 이행강제금 부과 징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-04-19",
+    "repealed_on": "2018-04-19",
+    "repealed_on_raw": "20180419",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1345015&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396444",
+    "name": "부산광역시 남구 체육진흥협의회 조직 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-03-01",
+    "repealed_on": "2018-03-01",
+    "repealed_on_raw": "20180301",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396444&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396454",
+    "name": "부산광역시 남구 보증채무 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-11-15",
+    "repealed_on": "2017-11-15",
+    "repealed_on_raw": "20171115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396454&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1283264",
+    "name": "부산광역시 남구 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-04-06",
+    "repealed_on": "2017-04-06",
+    "repealed_on_raw": "20170406",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1283264&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1398037",
+    "name": "부산광역시 남구 주민소득 지원 및 생활안정기금 운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-05-10",
+    "repealed_on": "2016-05-10",
+    "repealed_on_raw": "20160510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1398037&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1232163",
+    "name": "부산광역시 남구 주민소득 지원 및 생활안정기금 운영 관리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-05-10",
+    "repealed_on": "2016-05-10",
+    "repealed_on_raw": "20160510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1232163&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1093389",
+    "name": "부산광역시 남구 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-06-08",
+    "repealed_on": "2015-06-08",
+    "repealed_on_raw": "20150608",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1093389&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1397321",
+    "name": "부산광역시 남구 사회단체보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-29",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1397321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396629",
+    "name": "부산광역시 남구 행정지면이용 광고 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-11-07",
+    "repealed_on": "2014-11-07",
+    "repealed_on_raw": "20141107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396629&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 5,
+   "sentinel_99991231": 5
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "26290"
+ ]
+}

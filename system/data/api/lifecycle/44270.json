@@ -1,0 +1,666 @@
+{
+ "data": {
+  "region": {
+   "region_id": "44270",
+   "sig_cd": "44270",
+   "name": "당진시",
+   "full_name": "충청남도 당진시",
+   "level": 2
+  },
+  "counts": {
+   "total": 1168,
+   "active": 646,
+   "repealed": 522,
+   "by_rr_cls_cd": {
+    "일부개정": 444,
+    "전부개정": 46,
+    "제정": 156,
+    "폐지": 522
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 381
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 15
+   },
+   {
+    "year": 2015,
+    "n": 12
+   },
+   {
+    "year": 2016,
+    "n": 7
+   },
+   {
+    "year": 2017,
+    "n": 10
+   },
+   {
+    "year": 2018,
+    "n": 20
+   },
+   {
+    "year": 2019,
+    "n": 36
+   },
+   {
+    "year": 2020,
+    "n": 20
+   },
+   {
+    "year": 2021,
+    "n": 118
+   },
+   {
+    "year": 2022,
+    "n": 68
+   },
+   {
+    "year": 2023,
+    "n": 87
+   },
+   {
+    "year": 2024,
+    "n": 139
+   },
+   {
+    "year": 2025,
+    "n": 195
+   },
+   {
+    "year": 2026,
+    "n": 51
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 365
+   },
+   {
+    "year": 2013,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 13
+   },
+   {
+    "year": 2015,
+    "n": 7
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 16
+   },
+   {
+    "year": 2019,
+    "n": 14
+   },
+   {
+    "year": 2020,
+    "n": 14
+   },
+   {
+    "year": 2021,
+    "n": 16
+   },
+   {
+    "year": 2022,
+    "n": 10
+   },
+   {
+    "year": 2023,
+    "n": 10
+   },
+   {
+    "year": 2024,
+    "n": 14
+   },
+   {
+    "year": 2025,
+    "n": 21
+   },
+   {
+    "year": 2026,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "주민자치센터설치및운영조례",
+    "display_name": "주민자치센터 설치 및 운영 조례",
+    "rows": 2,
+    "nationwide_regions": 42
+   },
+   {
+    "policy_key": "국제화추진협의회운영조례",
+    "display_name": "국제화추진협의회 운영 조례",
+    "rows": 2,
+    "nationwide_regions": 13
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료 부과·징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "장수수당지급조례",
+    "display_name": "장수수당 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 56
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례",
+    "display_name": "사회단체보조금 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 51
+   },
+   {
+    "policy_key": "생활체육진흥조례",
+    "display_name": "생활체육진흥 조례",
+    "rows": 1,
+    "nationwide_regions": 50
+   },
+   {
+    "policy_key": "사회적기업육성및지원에관한조례",
+    "display_name": "사회적기업 육성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 48
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:1170402",
+    "name": "당진군지방행정동우회지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-01-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1170402&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1170406",
+    "name": "당진시 관광지 유료주차장 사용료징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-12-31",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1170406&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1170440",
+    "name": "당진시 문화예술 진흥기금의 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-10-15",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1170440&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1170403",
+    "name": "당진시 문화예술창달 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-10-15",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1170403&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2113419",
+    "name": "당진시의회 지방별정직공무원의 범위 및 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-27",
+    "repealed_on": "2026-02-27",
+    "repealed_on_raw": "20260227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2113419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2116255",
+    "name": "당진시 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-27",
+    "repealed_on": "2026-02-27",
+    "repealed_on_raw": "20260227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2116255&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2092463",
+    "name": "당진시 갈등예방과 해결에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-15",
+    "repealed_on": "2025-12-15",
+    "repealed_on_raw": "20251215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2092463&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2092557",
+    "name": "당진시 기반시설부담구역 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-15",
+    "repealed_on": "2025-12-15",
+    "repealed_on_raw": "20251215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2092557&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2092465",
+    "name": "당진시 자치분권 촉진 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-15",
+    "repealed_on": "2025-12-15",
+    "repealed_on_raw": "20251215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2092465&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2092571",
+    "name": "당진시 기반시설부담구역 특별회계 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-12-15",
+    "repealed_on": "2025-12-15",
+    "repealed_on_raw": "20251215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2092571&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2086629",
+    "name": "당진시 사회적경제기업 제품 구매촉진 및 판로지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-14",
+    "repealed_on": "2025-11-14",
+    "repealed_on_raw": "20251114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2086629&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2079561",
+    "name": "당진시 동물복지형 친환경녹색축산 육성 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-15",
+    "repealed_on": "2025-10-15",
+    "repealed_on_raw": "20251015",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079561&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2079563",
+    "name": "당진시 범죄예방 디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-15",
+    "repealed_on": "2025-10-15",
+    "repealed_on_raw": "20251015",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079563&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2079551",
+    "name": "당진시 시민 건강증진을 위한 시설물 설치 및 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-15",
+    "repealed_on": "2025-10-15",
+    "repealed_on_raw": "20251015",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079551&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2080707",
+    "name": "당진시 임산부 전용주차장 설치·운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-09-30",
+    "repealed_on": "2025-09-30",
+    "repealed_on_raw": "20250930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2080707&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2065071",
+    "name": "당진시 재난 및 감염병 피해 노동자에 대한 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-08-14",
+    "repealed_on": "2025-08-14",
+    "repealed_on_raw": "20250814",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2065071&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2064999",
+    "name": "당진시 중소기업 경영안정기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-08-14",
+    "repealed_on": "2025-08-14",
+    "repealed_on_raw": "20250814",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2064999&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2065077",
+    "name": "당진시 중소기업 경영안정기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-08-14",
+    "repealed_on": "2025-08-14",
+    "repealed_on_raw": "20250814",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2065077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2048399",
+    "name": "당진시 여성의 전당 관리 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2048399&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2048297",
+    "name": "당진시의회 소식지 발행에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2048297&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2048393",
+    "name": "당진시 청소년 지도위원의 위촉에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2048393&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2026443",
+    "name": "당진시 성별영향분석평가에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-01",
+    "repealed_on": "2025-04-01",
+    "repealed_on_raw": "20250401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2026443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2026431",
+    "name": "당진시의회 고문변호사 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-01",
+    "repealed_on": "2025-04-01",
+    "repealed_on_raw": "20250401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2026431&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2026461",
+    "name": "당진시 임산부 전용주차장 설치·운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-01",
+    "repealed_on": "2025-04-01",
+    "repealed_on_raw": "20250401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2026461&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1973723",
+    "name": "당진시 건강가정지원센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-30",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1973723&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1992049",
+    "name": "당진시 농공지구 조성 및 관리사업 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-13",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1992049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1973735",
+    "name": "당진시 에너지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-30",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1973735&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1992041",
+    "name": "당진시 노동사건 무료 법률지원 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-13",
+    "repealed_on": "2024-12-13",
+    "repealed_on_raw": "20241213",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1992041&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1992015",
+    "name": "당진시 지역균형발전 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-13",
+    "repealed_on": "2024-12-13",
+    "repealed_on_raw": "20241213",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1992015&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1980231",
+    "name": "당진시 금연지도원 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-30",
+    "repealed_on": "2024-10-30",
+    "repealed_on_raw": "20241030",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1980231&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1965087",
+    "name": "당진시 정기시장 등의 개설 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-08-30",
+    "repealed_on": "2024-08-30",
+    "repealed_on_raw": "20240830",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1965087&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1956899",
+    "name": "당진시 농산물 이용촉진 등 농산물 직거래 활성화를 위한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-15",
+    "repealed_on": "2024-07-15",
+    "repealed_on_raw": "20240715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1956899&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1956893",
+    "name": "당진시 로컬푸드 시설물 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-15",
+    "repealed_on": "2024-07-15",
+    "repealed_on_raw": "20240715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1956893&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1956895",
+    "name": "당진시 로컬푸드 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-15",
+    "repealed_on": "2024-07-15",
+    "repealed_on_raw": "20240715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1956895&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1956911",
+    "name": "당진시 읍·면·동 개발자문위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-15",
+    "repealed_on": "2024-07-15",
+    "repealed_on_raw": "20240715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1956911&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1923291",
+    "name": "당진시 장기미집행 도시계획시설 대지보상 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-30",
+    "repealed_on": "2024-04-30",
+    "repealed_on_raw": "20240430",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1923291&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1917183",
+    "name": "당진시 건강도시 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1917183&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1917181",
+    "name": "당진시민 건강증진을 위한 건강생활실천협의회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1917181&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1917175",
+    "name": "당진시 인구증가 시책 추진을 위한 지원 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1917175&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1907235",
+    "name": "당진시 난지도 관광지 조성사업 시행 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-15",
+    "repealed_on": "2024-02-15",
+    "repealed_on_raw": "20240215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1907235&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 4,
+   "sentinel_99991231": 4
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "44270"
+ ]
+}

@@ -1,0 +1,698 @@
+{
+ "data": {
+  "region": {
+   "region_id": "30170",
+   "sig_cd": "30170",
+   "name": "서구",
+   "full_name": "대전광역시 서구",
+   "level": 2
+  },
+  "counts": {
+   "total": 694,
+   "active": 568,
+   "repealed": 126,
+   "by_rr_cls_cd": {
+    "일부개정": 370,
+    "전부개정": 21,
+    "제정": 177,
+    "폐지": 126
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 8
+   },
+   {
+    "year": 2009,
+    "n": 10
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 14
+   },
+   {
+    "year": 2014,
+    "n": 9
+   },
+   {
+    "year": 2015,
+    "n": 17
+   },
+   {
+    "year": 2016,
+    "n": 28
+   },
+   {
+    "year": 2017,
+    "n": 16
+   },
+   {
+    "year": 2018,
+    "n": 18
+   },
+   {
+    "year": 2019,
+    "n": 24
+   },
+   {
+    "year": 2020,
+    "n": 41
+   },
+   {
+    "year": 2021,
+    "n": 69
+   },
+   {
+    "year": 2022,
+    "n": 74
+   },
+   {
+    "year": 2023,
+    "n": 85
+   },
+   {
+    "year": 2024,
+    "n": 112
+   },
+   {
+    "year": 2025,
+    "n": 87
+   },
+   {
+    "year": 2026,
+    "n": 54
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 4
+   },
+   {
+    "year": 2012,
+    "n": 4
+   },
+   {
+    "year": 2013,
+    "n": 12
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 8
+   },
+   {
+    "year": 2017,
+    "n": 8
+   },
+   {
+    "year": 2018,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 6
+   },
+   {
+    "year": 2020,
+    "n": 9
+   },
+   {
+    "year": 2021,
+    "n": 11
+   },
+   {
+    "year": 2022,
+    "n": 7
+   },
+   {
+    "year": 2023,
+    "n": 5
+   },
+   {
+    "year": 2024,
+    "n": 5
+   },
+   {
+    "year": 2025,
+    "n": 3
+   },
+   {
+    "year": 2026,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직 공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료부과 징수조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회 실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품사용규제 위반 사업장에 대한 과태료 부과 및 신고포상금 지급조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용·관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민 자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:813334",
+    "name": "대전광역시서구공동주택분쟁조정위원회구성및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=813334&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2119553",
+    "name": "대전광역시 서구의회 의정자문위원 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-07",
+    "repealed_on": "2026-04-07",
+    "repealed_on_raw": "20260407",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119553&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2119549",
+    "name": "대전광역시 서구 자치분권 촉진 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-07",
+    "repealed_on": "2026-04-07",
+    "repealed_on_raw": "20260407",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119549&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2118521",
+    "name": "대전광역시 서구의회 의정자문위원 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-04-02",
+    "repealed_on": "2026-04-02",
+    "repealed_on_raw": "20260402",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2118521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2101973",
+    "name": "대전광역시 서구기 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-31",
+    "repealed_on": "2025-12-31",
+    "repealed_on_raw": "20251231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2101973&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2073349",
+    "name": "대전광역시 서구 규제개혁위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-30",
+    "repealed_on": "2025-09-30",
+    "repealed_on_raw": "20250930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2073349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2051201",
+    "name": "대전광역시 서구의회 방청에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-07-04",
+    "repealed_on": "2025-07-04",
+    "repealed_on_raw": "20250704",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051201&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1994753",
+    "name": "대전광역시 서구 임산부 전용주차구역 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-20",
+    "repealed_on": "2024-12-20",
+    "repealed_on_raw": "20241220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1994753&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1971649",
+    "name": "대전광역시 서구 장애아동재활지원센터 설치ㆍ운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-27",
+    "repealed_on": "2024-09-27",
+    "repealed_on_raw": "20240927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971649&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1971633",
+    "name": "대전광역시 서구 장애아동재활지원센터 설치ㆍ운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-09-27",
+    "repealed_on": "2024-09-27",
+    "repealed_on_raw": "20240927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971633&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1951729",
+    "name": "대전광역시 서구의회 정책연구용역 운영·관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-08",
+    "repealed_on": "2024-07-08",
+    "repealed_on_raw": "20240708",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1951729&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1904349",
+    "name": "대전광역시 서구 민원업무담당공무원 등의 보호 및 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-01-24",
+    "repealed_on": "2024-01-24",
+    "repealed_on_raw": "20240124",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1904349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1835067",
+    "name": "대전광역시 서구 관급공사의 지역건설근로자 우선고용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-12",
+    "repealed_on": "2023-07-12",
+    "repealed_on_raw": "20230712",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1835067&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1835059",
+    "name": "대전광역시 서구 지역사회 청소년통합지원체계 운영위원회 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-07-12",
+    "repealed_on": "2023-07-12",
+    "repealed_on_raw": "20230712",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1835059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1803419",
+    "name": "대전광역시 서구 지역일자리 창출 협의체 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-21",
+    "repealed_on": "2023-04-21",
+    "repealed_on_raw": "20230421",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1803419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1788277",
+    "name": "대전광역시 서구 청년 1인 가구의 사회적 고립 및 고독사 예방에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-08",
+    "repealed_on": "2023-03-08",
+    "repealed_on_raw": "20230308",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1788277&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1788281",
+    "name": "대전광역시 서구 홀로 사는 노인 고독사 예방 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-08",
+    "repealed_on": "2023-03-08",
+    "repealed_on_raw": "20230308",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1788281&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1651043",
+    "name": "대전광역시 서구 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-23",
+    "repealed_on": "2022-03-25",
+    "repealed_on_raw": "20220325",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1651043&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1688373",
+    "name": "대전광역시 서구 의안의 비용추계에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-04",
+    "repealed_on": "2022-03-04",
+    "repealed_on_raw": "20220304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1688373&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1688391",
+    "name": "대전광역시 서구 의회사무국 직원 추천 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-04",
+    "repealed_on": "2022-03-04",
+    "repealed_on_raw": "20220304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1688391&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1688375",
+    "name": "대전광역시 서구 자치법규안 입법예고에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-04",
+    "repealed_on": "2022-03-04",
+    "repealed_on_raw": "20220304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1688375&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1688371",
+    "name": "대전광역시 서구 조례·규칙 등 공포에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-04",
+    "repealed_on": "2022-03-04",
+    "repealed_on_raw": "20220304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1688371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1688365",
+    "name": "대전광역시 서구 조례·규칙심의회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-03-04",
+    "repealed_on": "2022-03-04",
+    "repealed_on_raw": "20220304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1688365&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1668255",
+    "name": "대전광역시 서구 조례 제정 및 개폐청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-07",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1668255&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1630095",
+    "name": "대전광역시 서구 기반시설특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-30",
+    "repealed_on": "2021-09-30",
+    "repealed_on_raw": "20210930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1630095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1630125",
+    "name": "대전광역시 서구 범죄예방 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-30",
+    "repealed_on": "2021-09-30",
+    "repealed_on_raw": "20210930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1630125&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1630075",
+    "name": "대전광역시 서구 청소년육성위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-30",
+    "repealed_on": "2021-09-30",
+    "repealed_on_raw": "20210930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1630075&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612359",
+    "name": "대전광역시 서구 안전관리민관협력위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612359&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612349",
+    "name": "대전광역시 서구 안전관리위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612351",
+    "name": "대전광역시 서구 재난안전대책본부 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612351&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612355",
+    "name": "대전광역시 서구 재난현장 통합지원본부 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612355&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612327",
+    "name": "대전광역시 서구 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612327&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612345",
+    "name": "대전광역시 서구 쓰레기감량 및 자원재활용 촉진에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612345&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612329",
+    "name": "대전광역시 서구 주민자치센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612329&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1599163",
+    "name": "대전광역시 서구 주민옴부즈맨 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-05-28",
+    "repealed_on": "2021-05-28",
+    "repealed_on_raw": "20210528",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1599163&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1555441",
+    "name": "대전광역시 서구 기금관리 및 통합관리기금 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-22",
+    "repealed_on": "2020-12-22",
+    "repealed_on_raw": "20201222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1555441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1555443",
+    "name": "대전광역시 서구 기금관리 및 통합관리기금 설치에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-22",
+    "repealed_on": "2020-12-22",
+    "repealed_on_raw": "20201222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1555443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1513021",
+    "name": "대전광역시 서구 공무원직장협의회의 설립·운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-06",
+    "repealed_on": "2020-07-06",
+    "repealed_on_raw": "20200706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1513021&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1513023",
+    "name": "대전광역시서구공무원직장협의회의설립·운영에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-07-06",
+    "repealed_on": "2020-07-06",
+    "repealed_on_raw": "20200706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1513023&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1513051",
+    "name": "대전광역시 서구 사회적기업 육성조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-07-06",
+    "repealed_on": "2020-07-06",
+    "repealed_on_raw": "20200706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1513051&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 1,
+   "sentinel_99991231": 1
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "30170"
+ ]
+}

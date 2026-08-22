@@ -1,0 +1,293 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "lawname:행정 효율과 협업 촉진에 관한 규정",
+   "name": null,
+   "missing": true
+  },
+  "delegation": {
+   "rows": 511,
+   "child_ordinances": 446,
+   "by_verification_status": {
+    "unverifiable": 511
+   },
+   "by_delegation_type": {
+    "law-delegated": 511
+   },
+   "regions_top": [
+    {
+     "region_id": "44210",
+     "name": "충청남도 서산시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "43800",
+     "name": "충청북도 단양군",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41650",
+     "name": "경기도 포천시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "27290",
+     "name": "대구광역시 달서구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "12170",
+     "name": "전남광주통합특별시 나주시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "44200",
+     "name": "충청남도 아산시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41310",
+     "name": "경기도 구리시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41130",
+     "name": "경기도 성남시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "28185",
+     "name": "인천광역시 연수구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "26380",
+     "name": "부산광역시 사하구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "12130",
+     "name": "전남광주통합특별시 여수시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "edu:51",
+     "name": "강원특별자치도교육청",
+     "ordinances": 4
+    },
+    {
+     "region_id": "edu:48",
+     "name": "경상남도교육청",
+     "ordinances": 4
+    },
+    {
+     "region_id": "edu:44",
+     "name": "충청남도교육청",
+     "ordinances": 4
+    },
+    {
+     "region_id": "52710",
+     "name": "전북특별자치도 완주군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "51820",
+     "name": "강원특별자치도 고성군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41800",
+     "name": "경기도 연천군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41610",
+     "name": "경기도 광주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41250",
+     "name": "경기도 동두천시",
+     "ordinances": 4
+    }
+   ]
+  },
+  "articles": [],
+  "article_count": 0,
+  "articles_shown": 0,
+  "articles_truncated_bodies": 0,
+  "articles_available": false,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:2127463",
+    "name": "동두천시 정책실명제 운영 규칙",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127463&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130917",
+    "name": "하남시 정책실명제 운영 규칙",
+    "region_id": "41450",
+    "org_name": "경기도 하남시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132441",
+    "name": "전남광주통합특별시 서구 간행물 발간에 관한 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133425",
+    "name": "경상남도교육비특별회계 재무회계 규칙",
+    "region_id": "edu:48",
+    "org_name": "경상남도교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133425&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133671",
+    "name": "진도군 지역정보화 촉진 조례",
+    "region_id": "12860",
+    "org_name": "전남광주통합특별시 진도군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133671&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133697",
+    "name": "포항시 조례 ㆍ 규칙심의회 운영 규칙",
+    "region_id": "47110",
+    "org_name": "경상북도 포항시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133697&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2135975",
+    "name": "구리시 사무 전결처리 규칙",
+    "region_id": "41310",
+    "org_name": "경기도 구리시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135975&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2136731",
+    "name": "전남광주통합특별시 동구 용역과제심의위원회 설치 및 운영 조례",
+    "region_id": "12210",
+    "org_name": "전남광주통합특별시 동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2136731&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2136953",
+    "name": "전남광주통합특별시 광산구 용역 관리 및 운영에 관한 조례",
+    "region_id": "12330",
+    "org_name": "전남광주통합특별시 광산구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2136953&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2137579",
+    "name": "전남광주통합특별시 시민고충처리위원회 운영 조례 시행규칙",
+    "region_id": "12",
+    "org_name": "전남광주통합특별시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2137579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2141225",
+    "name": "전남광주통합특별시 남구 용역과제심의위원회 설치 및 운영 조례",
+    "region_id": "12270",
+    "org_name": "전남광주통합특별시 남구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2141225&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2142095",
+    "name": "전남광주통합특별시 남구 행정정보공개 조례 시행규칙",
+    "region_id": "12270",
+    "org_name": "전남광주통합특별시 남구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2146177",
+    "name": "포항시 정책실명제 운영 조례",
+    "region_id": "47110",
+    "org_name": "경상북도 포항시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2146177&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2146687",
+    "name": "부산광역시 정책연구용역 관리에 관한 조례",
+    "region_id": "26",
+    "org_name": "부산광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2146687&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2154129",
+    "name": "울산광역시 중구 사무전결 처리 규칙",
+    "region_id": "31110",
+    "org_name": "울산광역시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2154129&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2156983",
+    "name": "함안군 사무전결처리 규칙",
+    "region_id": "48730",
+    "org_name": "경상남도 함안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2156983&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2157495",
+    "name": "단양군 사무전결 처리 규칙",
+    "region_id": "43800",
+    "org_name": "충청북도 단양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2157495&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2157543",
+    "name": "의령군 사무전결처리 규칙",
+    "region_id": "48720",
+    "org_name": "경상남도 의령군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2157543&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2158635",
+    "name": "제주특별자치도 학술용역 관리 조례",
+    "region_id": "50",
+    "org_name": "제주특별자치도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2158635&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2159535",
+    "name": "담양군 사무전결 처리 규칙",
+    "region_id": "12710",
+    "org_name": "전남광주통합특별시 담양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2159535&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

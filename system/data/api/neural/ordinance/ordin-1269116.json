@@ -1,0 +1,791 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1269116",
+   "key": "ordin-1269116",
+   "mst": "1269116",
+   "name": "안성시 안전관리 민관협력위원회 구성 및 운영 조례",
+   "ord_kind": "조례",
+   "region_id": "41550",
+   "sig_cd": "41550",
+   "region_name": "경기도 안성시",
+   "org_name": "경기도 안성시",
+   "enacted_on": "20161221",
+   "effective_on": "20161221",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 9,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1269116",
+   "categories": [
+    {
+     "code": "C08",
+     "name": "안전·재난",
+     "confidence": 0.6842,
+     "method": "rule"
+    },
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.88888,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1950453",
+      "key": "ordin-1950453",
+      "name": "안성시 안성맞춤아트홀 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20240705",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1950453",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.887498,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1872365",
+      "key": "ordin-1872365",
+      "name": "안성시 수질개선 특별회계 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20231110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1872365",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.88388,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1872307",
+      "key": "ordin-1872307",
+      "name": "안성시 재정투자심사위원회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20231110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1872307",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.882598,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2086181",
+      "key": "ordin-2086181",
+      "name": "안성시 안전관리위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20251114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2086181",
+      "categories": [
+       "C08",
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.878985,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1668779",
+      "key": "ordin-1668779",
+      "name": "안성시의회 정례회 등 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20220107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1668779",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.875594,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2115349",
+      "key": "ordin-2115349",
+      "name": "안성시 정책실명제 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20260313",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2115349",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.871404,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1684981",
+      "key": "ordin-1684981",
+      "name": "안성시 의정비심의위원회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20220218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1684981",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.870146,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1864181",
+      "key": "ordin-1864181",
+      "name": "안성시 의료급여기금 특별회계 설치 및 운영조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20231013",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1864181",
+      "categories": [
+       "C02",
+       "C01",
+       "C06"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.865913,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2086193",
+      "key": "ordin-2086193",
+      "name": "안성시 소비자보호 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20251114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2086193",
+      "categories": [
+       "C12",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.864338,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2086183",
+      "key": "ordin-2086183",
+      "name": "안성시 안전관리자문단구성 및 운영에관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20251114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2086183",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.987452,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1757891",
+      "key": "ordin-1757891",
+      "name": "안성시 하수도 사용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20221216",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1757891",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.98662,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2115325",
+      "key": "ordin-2115325",
+      "name": "안성시 공유수면 점용료ㆍ사용료 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20260313",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2115325",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.986435,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2115361",
+      "key": "ordin-2115361",
+      "name": "안성시 현수막의 친환경 소재 사용 및 재활용 활성화 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20260313",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2115361",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.985662,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1702211",
+      "key": "ordin-1702211",
+      "name": "안성시 시민감사관 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20220422",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1702211",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.985582,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1489093",
+      "key": "ordin-1489093",
+      "name": "안성시 환경관련법규 위반업소 공개에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20200424",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1489093",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.985259,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2094481",
+      "key": "ordin-2094481",
+      "name": "안성시 생활인구 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20251219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2094481",
+      "categories": [
+       "C04",
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.985177,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2115383",
+      "key": "ordin-2115383",
+      "name": "안성시 응급의료 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20260313",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2115383",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.985159,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1508201",
+      "key": "ordin-1508201",
+      "name": "안성시 마을방송시스템 설치 등 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20200626",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1508201",
+      "categories": [
+       "C08",
+       "C07"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.984912,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1668779",
+      "key": "ordin-1668779",
+      "name": "안성시의회 정례회 등 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20220107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1668779",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.984888,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1307431",
+      "key": "ordin-1307431",
+      "name": "안성시 시험수당 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20170929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1307431",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994794,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2115247",
+      "key": "ordin-2115247",
+      "name": "안성시 건축 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20260313",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2115247",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994409,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1070402",
+      "key": "ordin-1070402",
+      "name": "안성시 경제발전 자문위원회 운영규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20120927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1070402",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994373,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1999895",
+      "key": "ordin-1999895",
+      "name": "안성시 자율적 내부통제 운영에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20241227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1999895",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994252,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1864161",
+      "key": "ordin-1864161",
+      "name": "안성시 세계언어센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20231013",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1864161",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994178,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2030343",
+      "key": "ordin-2030343",
+      "name": "안성시 남사당전수관 설치 및 운영조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20250418",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2030343",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993897,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1238690",
+      "key": "ordin-1238690",
+      "name": "재단법인 안성시민장학회 설립 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20160621",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1238690",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993836,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1612593",
+      "key": "ordin-1612593",
+      "name": "안성시 사회적경제 육성 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20210709",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1612593",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993827,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2060647",
+      "key": "ordin-2060647",
+      "name": "안성시 평생교육진흥 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20250725",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060647",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993705,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1373272",
+      "key": "ordin-1373272",
+      "name": "안성시 행정심판 비용 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20181214",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1373272",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993561,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2131503",
+      "key": "ordin-2131503",
+      "name": "안성시 문화상 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 안성시",
+      "sig_cd": "41550",
+      "enacted_on": "20260612",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2131503",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1668779",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.931949,
+    "best_rank": 5,
+    "ordinance_id": "ordin:1668779",
+    "key": "ordin-1668779",
+    "name": "안성시의회 정례회 등 운영 조례",
+    "region_name": "경기도 안성시",
+    "sig_cd": "41550",
+    "enacted_on": "20220107",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1668779"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

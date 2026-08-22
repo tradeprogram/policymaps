@@ -1,0 +1,712 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:267429",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "장애인ㆍ노인ㆍ임산부 등의 편의증진 보장에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20251221",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=267429&type=HTML&mobileYn=&efYd=20251221",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 381,
+   "child_ordinances": 360,
+   "by_verification_status": {
+    "article-missing": 14,
+    "article-verified": 295,
+    "unverifiable": 72
+   },
+   "by_delegation_type": {
+    "law-delegated": 381
+   },
+   "regions_top": [
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 7
+    },
+    {
+     "region_id": "41650",
+     "name": "경기도 포천시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "12240",
+     "name": "전남광주통합특별시 서구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "47",
+     "name": "경상북도",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41550",
+     "name": "경기도 안성시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "12330",
+     "name": "전남광주통합특별시 광산구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "11350",
+     "name": "서울특별시 노원구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "52",
+     "name": "전북특별자치도",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48250",
+     "name": "경상남도 김해시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "44210",
+     "name": "충청남도 서산시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41820",
+     "name": "경기도 가평군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41370",
+     "name": "경기도 오산시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41360",
+     "name": "경기도 남양주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41290",
+     "name": "경기도 과천시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41170",
+     "name": "경기도 안양시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41130",
+     "name": "경기도 성남시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 4
+    },
+    {
+     "region_id": "29",
+     "name": "광주광역시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "27710",
+     "name": "대구광역시 달성군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "27",
+     "name": "대구광역시",
+     "ordinances": 4
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 장애인ㆍ노인ㆍ임산부 등이 일상생활에서 안전하고 편리하게 시설과 설비를 이용하고 정보에 접근할 수 있도록 보장함으로써 이들의 사회활동 참여와 복지 증진에 이바지함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"장애인등\"이란 장애인ㆍ노인ㆍ임산부 등 일상생활에서 이동, 시설 이용 및 정보 접근 등에 불편을 느끼는 사람을 말한다.\n2. \"편의시설\"이란 장애인등이 일상생활에서 이동하거나 시설을 이용할 때 편리하게 하고, 정보에 쉽게 접근할 수 있도록 하기 위한 시설과 설비를 말한다.\n3. \"시설주\"(施設主)란 제",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "편의시설 설치의 기본 원칙",
+    "body": "제3조(편의시설 설치의 기본 원칙)\n1. 시설주\n2. 제7조에 따른 대상시설의 설치를 위하여 「건축법」 등 관계 법령에 따른 허가나 처분(「건축법」 제29조에 따른 협의를 포함한다)을 신청하는 등 절차를 진행 중인 자",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "접근권",
+    "body": "제4조(접근권)\n장애인등은 인간으로서의 존엄과 가치 및 행복을 추구할 권리를 보장받기 위하여 장애인등이 아닌 사람들이 이용하는 시설과 설비를 동등하게 이용하고, 정보에 자유롭게 접근할 수 있는 권리를 가진다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "다른 법률과의 관계",
+    "body": "제5조(다른 법률과의 관계)\n이 법에서 특별히 정하고 있지 아니한 편의시설에 관한 사항은 다른 법률에서 정하는 바에 따른다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "국가와 지방자치단체의 의무",
+    "body": "제6조(국가와 지방자치단체의 의무)\n국가와 지방자치단체는 장애인등이 일상생활에서 안전하고 편리하게 시설과 설비를 이용하고, 정보에 접근할 수 있도록 각종 시책을 마련하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "편의증진의 날",
+    "body": "제6조의2(편의증진의 날)\n① 편의시설에 대한 국민의 인식을 제고하고 관심을 확대하기 위하여 매년 4월 10일을 편의증진의 날로 한다.\n② 국가와 지방자치단체는 편의증진의 날의 취지에 맞는 행사 등 사업을 시행하도록 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "대상시설",
+    "body": "제7조(대상시설)\n1. 공원\n2. 공공건물 및 공중이용시설\n3. 공동주택\n4. 통신시설\n5. 그 밖에 장애인등의 편의를 위하여 편의시설을 설치할 필요가 있는 건물ㆍ시설 및 그 부대시설",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "편의시설의 설치기준",
+    "body": "제8조(편의시설의 설치기준)\n① 대상시설별로 설치하여야 하는 편의시설의 종류는 대상시설의 규모, 용도 등을 고려하여 대통령령으로 정한다.\n② 편의시설의 구조와 재질 등에 관한 세부기준은 보건복지부령으로 정한다. 이 경우 편의시설의 종류별 안내 내용과 안내 표시 디자인 기준을 함께 정하여야 한다. <개정 2019.1.15>",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "시설주등의 의무",
+    "body": "제9조(시설주등의 의무)\n시설주등은 대상시설을 설치하거나 대통령령으로 정하는 주요 부분을 변경(용도변경을 포함한다)할 때에는 장애인등이 대상시설을 항상 편리하게 이용할 수 있도록 편의시설을 제8조에 따른 설치기준에 적합하게 설치하고, 유지ㆍ관리하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "2",
+    "title": "편의시설 설치기준의 적합성 확인",
+    "body": "제9조의2(편의시설 설치기준의 적합성 확인)\n① 시설주관기관은 시설주등이 대상시설의 설치를 위하여 「건축법」 등 관계 법령에 따른 허가나 처분(「건축법」 제29조에 따른 협의를 포함한다)을 신청하는 등 절차를 진행 중인 경우에는 설계도서의 검토 등을 통하여 제8조에 따른 편의시설 설치기준에 적합한지 여부를 확인하여야 한다",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0009021"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "3",
+    "title": "편의시설 설치기준 적합성 확인 업무의 대행",
+    "body": "제9조의3(편의시설 설치기준 적합성 확인 업무의 대행)\n① 시설주관기관은 제9조의2제1항에 따른 확인 업무를 보건복지부령으로 정하는 장애인 관련 법인 또는 단체에 대행하게 할 수 있다.\n② 제1항에 따른 확인 업무의 대행에 필요한 사항은 보건복지부령으로 정한다.\n③ 제1항에 따라 확인 업무를 담당하는 법인 또는 단체의 임",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0009031"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "편의시설에 관한 지도ㆍ감독",
+    "body": "제10조(편의시설에 관한 지도ㆍ감독)\n① 보건복지부장관은 편의시설의 설치ㆍ운영에 관한 업무를 총괄한다.\n② 시설주관기관은 소관 대상시설에 대한 편의시설의 설치ㆍ운영에 필요한 지도와 감독을 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "10",
+    "title": "인증운영기관의 설치",
+    "body": "제10조의10(인증운영기관의 설치)\n① 국가는 인증에 관한 다음 각 호의 업무를 수행하게 하기 위하여 인증운영기관을 설치ㆍ운영할 수 있다.\n1. 인증기관 관리ㆍ지원\n2. 인증 관련 연구ㆍ개발 및 기술 보급\n3. 인증 관련 정보체계의 구축 및 운영\n4. 인증 관련 전문인력 양성 및 교육\n5. 그 밖에 인증 활성화를 위하여 ",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0010101"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "11",
+    "title": "인증 수수료",
+    "body": "제10조의11(인증 수수료)\n① 시설주는 제10조의2제2항에 따른 인증 및 예비인증 신청, 제10조의3제2항에 따른 연장신청(이하 \"인증 신청등\"이라 한다)을 하려는 경우 인증 수수료를 내야 한다. 다만, 의무인증시설이 아닌 시설의 시설주가 인증 신청등을 하는 경우에는 수수료를 감면할 수 있다.\n② 수수료 납부의 방법ㆍ기",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0010111"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "2",
+    "title": "장애물 없는 생활환경 인증",
+    "body": "제10조의2(장애물 없는 생활환경 인증)\n① 보건복지부장관과 국토교통부장관(이하 이 조, 제10조의5부터 제10조의9까지에서 \"보건복지부장관등\"이라 한다)은 장애인등이 대상시설을 안전하고 편리하게 이용할 수 있도록 편의시설의 설치ㆍ운영을 유도하기 위하여 대상시설에 대하여 장애물 없는 생활환경 인증(이하 \"인증\"이라 한다)",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0010021"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "3",
+    "title": "인증의 유효기간",
+    "body": "제10조의3(인증의 유효기간)\n① 인증의 유효기간은 인증을 받은 날부터 10년으로 한다. <개정 2019.12.3>\n② 인증의 유효기간을 연장 받으려는 자는 유효기간이 끝나기 전에 공동부령으로 정하는 바에 따라 연장신청을 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0010031"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "4",
+    "title": "인증의 표시",
+    "body": "제10조의4(인증의 표시)\n① 인증을 받은 대상시설의 시설주는 해당 대상시설에 인증 표시를 할 수 있다.\n② 누구든지 인증을 받지 아니한 시설물에 대해서는 인증 표시 또는 이와 유사한 표시를 하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0010041"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "5",
+    "title": "인증의 사후관리",
+    "body": "제10조의5(인증의 사후관리)\n① 보건복지부장관등은 인증을 받은 대상시설이 제10조의2제5항에 따른 인증 기준에 적합하게 유지ㆍ관리되고 있는지 여부를 조사할 수 있다.\n② 보건복지부장관등은 제1항에 따른 조사 결과 인증 기준에 적합하지 아니하게 유지ㆍ관리되고 있는 대상시설에 대하여 그 내용을 시설주에게 통보하고 기간을 정",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0010051"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "6",
+    "title": "인증의 취소",
+    "body": "제10조의6(인증의 취소)\n1. 거짓이나 그 밖의 부정한 방법으로 인증을 받은 경우\n2. 정당한 사유 없이 제10조의5제2항에 따른 조치를 이행하지 아니하여 제10조의2제5항에 따른 인증 기준에 적합하지 아니하게 된 경우",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0010061"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "7",
+    "title": "인증기관 지정의 취소",
+    "body": "제10조의7(인증기관 지정의 취소)\n① 보건복지부장관등은 제10조의2제4항에 따라 지정한 인증기관이 다음 각 호의 어느 하나에 해당하는 경우에는 그 인증기관의 지정을 취소하거나 1년 이내의 기간을 정하여 그 업무의 전부 또는 일부의 정지를 명할 수 있다. 다만, 제1호 또는 제5호에 해당하는 경우에는 지정을 취소하여야 한",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0010071"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "8",
+    "title": "청문",
+    "body": "제10조의8(청문)\n보건복지부장관등은 제10조의6에 따라 인증을 취소하거나 제10조의7에 따라 인증기관의 지정을 취소하려는 경우에는 청문을 실시하여야 한다. <개정 2019.12.3>",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0010081"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "9",
+    "title": "인증 통계의 작성ㆍ관리",
+    "body": "제10조의9(인증 통계의 작성ㆍ관리)\n① 보건복지부장관등은 인증의 활성화 및 제10조의5에 따른 사후관리 등에 활용하기 위하여 공동부령으로 정하는 바에 따라 대상시설별 인증의 현황 등 인증에 관한 통계를 작성ㆍ관리하여야 한다.\n② 보건복지부장관등은 관계 기관 및 단체의 장에게 제1항에 따른 통계의 작성ㆍ관리를 위하여 필요",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0010091"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "실태조사",
+    "body": "제11조(실태조사)\n① 시설주관기관은 편의시설 활성화 정책의 기초자료 확보 등을 위하여 편의시설 설치에 관한 실태조사를 실시하고, 그 결과를 공표하여야 한다.\n② 제1항에 따른 실태조사는 매년 전수조사 또는 표본조사의 방법으로 실시하되, 5년마다 1회는 전수조사의 방법으로 실시하여야 한다. <신설 2016.2.3>\n③ 제",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "설치계획의 수립ㆍ시행 및 보고",
+    "body": "제12조(설치계획의 수립ㆍ시행 및 보고)\n① 시설주관기관은 편의시설 설치를 촉진하기 위하여 소관 대상시설에 대한 편의시설 설치계획을 수립ㆍ시행하여야 한다.\n② 제1항에 따른 편의시설 설치계획에는 다음 각 호의 사항이 포함되어야 한다.\n1. 대상시설의 편의시설 설치실태 및 정비계획\n2. 대상시설의 건축ㆍ대수선(大修繕)ㆍ용도",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "2",
+    "title": "편의증진심의회의 설치 등",
+    "body": "제12조의2(편의증진심의회의 설치 등)\n①보건복지부에 장애인등의 편의증진에 관한 중요사항을 심의하기 위하여 편의증진심의회(이하 \"심의회\"라 한다)를 둔다. <개정 2008.2.29, 2010.1.18>\n②심의회는 다음 각호의 사항을 심의한다.\n1. 장애인등에 대한 편의증진정책의 기본방향에 관한 사항\n2. 제12조제4항의 ",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0012021"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "설치의 지원",
+    "body": "제13조(설치의 지원)\n① 국가와 지방자치단체는 민간의 편의시설 설치 부담을 덜고 그 설치를 촉진하기 위하여 금융 지원과 기술 지원 등 필요한 조치를 마련하여야 한다.\n② 법인이나 개인이 이 법에서 정하는 편의시설을 설치한 경우에는 시설의 설치 비용에 대하여 「조세특례제한법」, 「지방세특례제한법」 등 조세 관계 법령에서 ",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "연구개발의 촉진 등",
+    "body": "제14조(연구개발의 촉진 등)\n① 국가와 지방자치단체는 편의시설에 관한 연구개발을 촉진하기 위한 시책을 마련하여야 한다.\n② 보건복지부장관은 편의시설 설치사업을 원활하게 추진하기 위하여 편의시설 상세표준도(詳細標準圖)를 작성하여 보급하여야 한다. 이 경우 건축물에 대한 편의시설 상세표준도는 해당 편의시설에 관하여 「건축법",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "2",
+    "title": "교육 실시",
+    "body": "제14조의2(교육 실시)\n① 보건복지부장관이나 시설주관기관은 편의시설의 올바른 설치 및 편의시설에 대한 인식 개선을 위하여 필요하다고 인정할 때에는 건축사사무소 종사자나 시설주 등을 대상으로 교육을 할 수 있다.\n② 보건복지부장관이나 시설주관기관은 제1항에 따른 교육을 관계 전문기관ㆍ법인ㆍ단체에 위탁할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0014021"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "적용의 완화",
+    "body": "제15조(적용의 완화)\n① 시설주등은 다음 각 호의 어느 하나에 해당하는 경우로서 제8조제2항에 따른 세부기준(이하 이 조에서 \"세부기준\"이라 한다)에 적합한 편의시설을 설치하기가 곤란하거나 불합리할 때에는 세부기준을 완화한 별도의 기준을 정하고 시설주관기관의 승인을 받아 이에 따라 편의시설을 설치할 수 있다.\n1. 세부",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "시설이용상의 편의 제공",
+    "body": "제16조(시설이용상의 편의 제공)\n① 장애인등이 많이 이용하는 공공건물 및 공중이용시설의 시설주는 휠체어, 점자(點字) 안내책자, 보청기기, 장애인용 쇼핑카트, 전동보장구충전시설(전동휠체어 등 전기를 동력원으로 사용하는 보장구를 충전할 수 있는 시설을 의미한다. 이하 같다) 등을 갖추어 두고 장애인등이 해당 시설을 편리하",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": "2",
+    "title": "장애인에 대한 편의 제공",
+    "body": "제16조의2(장애인에 대한 편의 제공)\n장애인은 대통령령으로 정하는 공공건물 및 공중이용시설을 이용하려는 경우에는 시설주에게 안내 서비스, 한국수어 통역 등의 편의 제공을 요청할 수 있다. 이 경우 시설주는 정당한 사유가 없으면 이에 따라야 한다. <개정 2016.2.3>",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0016021"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "장애인전용주차구역 등",
+    "body": "제17조(장애인전용주차구역 등)\n① 시설주등은 주차장 관계 법령과 제8조에 따른 편의시설의 설치기준에 따라 해당 대상시설에 장애인전용주차구역을 설치하여야 한다.\n② 국가보훈부장관과 특별자치시장ㆍ특별자치도지사, 시장ㆍ군수ㆍ구청장은 보행에 장애가 있는 사람이 신청하는 경우 장애인전용주차구역에 주차할 수 있음을 표시하는 장애인",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": null,
+    "body": "제18조\n삭제 <2003.12.31>",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": null,
+    "body": "제19조\n삭제 <2003.12.31>",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": null,
+    "body": "제20조\n삭제 <2003.12.31>",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": null,
+    "body": "제21조\n삭제 <2003.12.31>",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "자료제출 요구와 검사",
+    "body": "제22조(자료제출 요구와 검사)\n① 보건복지부장관과 시설주관기관은 시설주에게 편의시설의 설치와 운영에 관련된 자료의 제출을 요구하거나 소속 공무원에게 설치된 편의시설이 제8조에 따른 편의시설의 설치기준에 적합한지를 검사하게 할 수 있다. 이 경우 시설주는 정당한 사유가 없으면 이에 따라야 한다.\n② 제1항에 따라 검사를 ",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "시정명령 등",
+    "body": "제23조(시정명령 등)\n① 시설주관기관은 대상시설이 이 법에 위반된 경우에는 그 시설주에게 대통령령으로 정하는 바에 따라 기간을 정하여 이 법에 적합하도록 편의시설을 설치하거나 관리ㆍ보수 또는 개선하는 등 필요한 조치를 할 것을 명할 수 있다. <개정 2016.2.3>\n② 보건복지부장관은 시설주관기관에 소관 대상시설에 대",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "이행강제금",
+    "body": "제24조(이행강제금)\n① 시설주관기관은 제23조제1항에 따라 시정명령을 받고 기간 내에 그 명령을 이행하지 아니한 시설주에게 편의시설 설치비용 등을 고려하여 3천만원 이하의 이행강제금을 부과한다.\n② 제1항에 따라 이행강제금 부과 대상이 되는 위반행위의 종류와 위반 정도에 따른 이행강제금의 금액 등은 대통령령으로 정한다.",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제25조(벌칙)\n제9조를 위반한 자로서 제23조제1항에 따른 시정명령을 받고 기간 내에 그 명령을 이행하지 아니한 자는 500만원 이하의 벌금에 처한다.",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "양벌규정",
+    "body": "제26조(양벌규정)\n법인의 대표자나 법인 또는 개인의 대리인, 사용인, 그 밖의 종업원이 그 법인 또는 개인의 업무에 관하여 제25조의 위반행위를 하면 그 행위자를 벌하는 외에 그 법인 또는 개인에게도 해당 조문의 벌금형을 과(科)한다. 다만, 법인 또는 개인이 그 위반행위를 방지하기 위하여 해당 업무에 관하여 상당한 주",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "과태료",
+    "body": "제27조(과태료)\n① 다음 각 호의 어느 하나에 해당하는 자에게는 200만원 이하의 과태료를 부과한다. <개정 2016.2.3, 2019.12.3, 2021.6.8, 2021.7.27>\n1. 거짓이나 부정한 방법으로 인증을 받거나 제10조의2제3항을 위반하여 인증(예비인증을 포함한다) 및 유효기간 연장을 받지 아니한 자\n",
+    "body_truncated": true,
+    "effective_on": "20251221",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": null,
+    "body": "제28조",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": null,
+    "body": "제29조",
+    "body_truncated": false,
+    "effective_on": "20251221",
+    "article_key": "0029001"
+   }
+  ],
+  "article_count": 45,
+  "articles_shown": 45,
+  "articles_truncated_bodies": 22,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1010707",
+    "name": "제천시 임산부 전용주차장 설치 및 운영에 관한 조례",
+    "region_id": "43150",
+    "org_name": "충청북도 제천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1010707&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1034133",
+    "name": "서산시 임산부 전용주차구역 설치·운영에 관한 조례",
+    "region_id": "44210",
+    "org_name": "충청남도 서산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1034133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1042717",
+    "name": "서울특별시 성북구 임산부 전용주차구역 설치 및 운영에 관한 조례",
+    "region_id": "11290",
+    "org_name": "서울특별시 성북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1042717&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1042727",
+    "name": "시흥시 장애인전용주차구역 관리에 관한 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1042727&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1046433",
+    "name": "태안군 임산부전용주차장 설치 및 운영에 관한 조례",
+    "region_id": "44825",
+    "org_name": "충청남도 태안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1046433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1050213",
+    "name": "칠곡군 장애인 등의 편의시설 사전검사에 관한 조례",
+    "region_id": "47850",
+    "org_name": "경상북도 칠곡군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1050213&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1058345",
+    "name": "서울특별시 관악구 장애인 최적관람석 설치·운영 조례",
+    "region_id": "11620",
+    "org_name": "서울특별시 관악구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1058345&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1116884",
+    "name": "여주시 장애인전용주차구역 관리에 관한 조례",
+    "region_id": "41670",
+    "org_name": "경기도 여주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1116884&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1116885",
+    "name": "여주시 임산부 전용주차구역 설치 및 운영에 관한 조례",
+    "region_id": "41670",
+    "org_name": "경기도 여주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1116885&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1124288",
+    "name": "청주시 장애인ㆍ노인ㆍ임산부 등의 편의시설 설치 사전검사에 관한 조례",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1124288&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1124472",
+    "name": "서울특별시 노원구 임산부 전용주차구역 설치 및 운영에 관한 조례",
+    "region_id": "11350",
+    "org_name": "서울특별시 노원구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1124472&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1131677",
+    "name": "광양시 임산부 전용주차구역 설치·운영에 관한 조례",
+    "region_id": "12190",
+    "org_name": "전남광주통합특별시 광양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1131677&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1140373",
+    "name": "논산시 공공시설내 최적의 장애인관람석 지정 설치·운영 조례",
+    "region_id": "44230",
+    "org_name": "충청남도 논산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1140373&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1162699",
+    "name": "서울특별시 구로구 임산부 전용주차구역 설치 및 운영에 관한 조례",
+    "region_id": "11530",
+    "org_name": "서울특별시 구로구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1162699&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1182094",
+    "name": "파주시 장애인 등의 편의시설 설치 및 지도점검 조례",
+    "region_id": "41480",
+    "org_name": "경기도 파주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1182094&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1196658",
+    "name": "완도군 도로점용료 및 과태료 부과징수 조례",
+    "region_id": "12850",
+    "org_name": "전남광주통합특별시 완도군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1196658&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197442",
+    "name": "안성시 장애인전용주차구역 관리에 관한 조례",
+    "region_id": "41550",
+    "org_name": "경기도 안성시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197442&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197757",
+    "name": "목포시 공공시설내 장애인 최적관람석 지정 설치 및 운영 조례",
+    "region_id": "12110",
+    "org_name": "전남광주통합특별시 목포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1203828",
+    "name": "광주시 임산부 전용주차구역 설치 및 운영에 관한 조례",
+    "region_id": "41610",
+    "org_name": "경기도 광주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1203828&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1212644",
+    "name": "광명시 장애인전용주차구역 관리에 관한 조례",
+    "region_id": "41210",
+    "org_name": "경기도 광명시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1212644&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

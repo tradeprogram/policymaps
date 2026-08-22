@@ -1,0 +1,714 @@
+{
+ "data": {
+  "region": {
+   "region_id": "51150",
+   "sig_cd": "51150",
+   "name": "강릉시",
+   "full_name": "강원특별자치도 강릉시",
+   "level": 2
+  },
+  "counts": {
+   "total": 802,
+   "active": 657,
+   "repealed": 145,
+   "by_rr_cls_cd": {
+    "일부개정": 442,
+    "전부개정": 36,
+    "제정": 179,
+    "폐지": 145
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 9
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 9
+   },
+   {
+    "year": 2009,
+    "n": 9
+   },
+   {
+    "year": 2010,
+    "n": 9
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 11
+   },
+   {
+    "year": 2013,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 15
+   },
+   {
+    "year": 2015,
+    "n": 16
+   },
+   {
+    "year": 2016,
+    "n": 23
+   },
+   {
+    "year": 2017,
+    "n": 43
+   },
+   {
+    "year": 2018,
+    "n": 15
+   },
+   {
+    "year": 2019,
+    "n": 19
+   },
+   {
+    "year": 2020,
+    "n": 19
+   },
+   {
+    "year": 2021,
+    "n": 44
+   },
+   {
+    "year": 2022,
+    "n": 49
+   },
+   {
+    "year": 2023,
+    "n": 93
+   },
+   {
+    "year": 2024,
+    "n": 163
+   },
+   {
+    "year": 2025,
+    "n": 202
+   },
+   {
+    "year": 2026,
+    "n": 37
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 7
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 8
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 8
+   },
+   {
+    "year": 2013,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 7
+   },
+   {
+    "year": 2015,
+    "n": 11
+   },
+   {
+    "year": 2016,
+    "n": 13
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 6
+   },
+   {
+    "year": 2019,
+    "n": 10
+   },
+   {
+    "year": 2020,
+    "n": 6
+   },
+   {
+    "year": 2021,
+    "n": 4
+   },
+   {
+    "year": 2022,
+    "n": 9
+   },
+   {
+    "year": 2023,
+    "n": 10
+   },
+   {
+    "year": 2024,
+    "n": 14
+   },
+   {
+    "year": 2025,
+    "n": 2
+   },
+   {
+    "year": 2026,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여업무처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로 무단점용자에 대한 과태료 부과징수조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회 실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원 재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금지급조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:829638",
+    "name": "강릉시보건진료소설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=829638&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:829591",
+    "name": "강릉시재해대책본부의운영등에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=829591&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:829639",
+    "name": "강릉시하수도사업특별회계설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=829639&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133521",
+    "name": "강릉시의회 입법예고에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-06-24",
+    "repealed_on": "2026-06-24",
+    "repealed_on_raw": "20260624",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133525",
+    "name": "강릉시 향토문화유산 보호ㆍ관리조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-06-24",
+    "repealed_on": "2026-06-24",
+    "repealed_on_raw": "20260624",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133525&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2083839",
+    "name": "강릉시 범죄예방 도시환경디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-05",
+    "repealed_on": "2025-11-05",
+    "repealed_on_raw": "20251105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2083839&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2075115",
+    "name": "강릉시 청솔공원 화장장 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-01",
+    "repealed_on": "2025-10-01",
+    "repealed_on_raw": "20251001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2075115&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2005563",
+    "name": "강릉시건강생활실천협의회 조직 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005563&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2005525",
+    "name": "강릉시 영상미디어센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005525&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2005553",
+    "name": "강릉시 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005553&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2005577",
+    "name": "강릉시 영상미디어센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005577&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1976103",
+    "name": "강릉시 로컬푸드 유통센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-25",
+    "repealed_on": "2024-09-25",
+    "repealed_on_raw": "20240925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1976103&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1969927",
+    "name": "강릉시 주민참여예산제 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-09-25",
+    "repealed_on": "2024-09-25",
+    "repealed_on_raw": "20240925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1969927&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1964507",
+    "name": "강릉시 택시운송사업의 구분 변경에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-08-28",
+    "repealed_on": "2024-08-28",
+    "repealed_on_raw": "20240828",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1964507&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937775",
+    "name": "강릉시 관광지 입장료 및 시설사용료 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-12",
+    "repealed_on": "2024-06-12",
+    "repealed_on_raw": "20240612",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937775&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937787",
+    "name": "강릉시 아동·여성안전 지역연대 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-12",
+    "repealed_on": "2024-06-12",
+    "repealed_on_raw": "20240612",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937787&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937771",
+    "name": "강릉시 지정문화재 공개관람료 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-12",
+    "repealed_on": "2024-06-12",
+    "repealed_on_raw": "20240612",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937771&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937757",
+    "name": "강릉시 청년일자리 창출 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-12",
+    "repealed_on": "2024-06-12",
+    "repealed_on_raw": "20240612",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937755",
+    "name": "강릉시 코로나바이러스감염증-19에 따른 긴급 생활안정 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-12",
+    "repealed_on": "2024-06-12",
+    "repealed_on_raw": "20240612",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937755&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1915719",
+    "name": "강릉시 소송사건 수행증인 등의 실비변상에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-27",
+    "repealed_on": "2024-03-27",
+    "repealed_on_raw": "20240327",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1915719&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1915865",
+    "name": "강릉시 사무의 민간위탁 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-03-27",
+    "repealed_on": "2024-03-27",
+    "repealed_on_raw": "20240327",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1915865&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1857579",
+    "name": "강릉시 고문공인회계사조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2023-09-27",
+    "repealed_on_raw": "20230927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1857579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1843111",
+    "name": "강릉시 도로 무단점용자에 대한 과태료 부과징수조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-08-02",
+    "repealed_on": "2023-08-02",
+    "repealed_on_raw": "20230802",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1843111&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1839629",
+    "name": "강릉시 분뇨위생처리부담금 징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-19",
+    "repealed_on": "2023-07-19",
+    "repealed_on_raw": "20230719",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1839629&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1839613",
+    "name": "강릉시 회계관계공무원 재정보증조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-19",
+    "repealed_on": "2023-07-19",
+    "repealed_on_raw": "20230719",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1839613&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1816987",
+    "name": "강릉시 청장년 일자리보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-07",
+    "repealed_on": "2023-06-07",
+    "repealed_on_raw": "20230607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816987&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1816995",
+    "name": "강릉시 폐기물 등 과태료부과·징수 및 신고포상금 지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-07",
+    "repealed_on": "2023-06-07",
+    "repealed_on_raw": "20230607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816995&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1816997",
+    "name": "강릉시 폐기물 배출방법 및 수수료 등의 부과·징수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-07",
+    "repealed_on": "2023-06-07",
+    "repealed_on_raw": "20230607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816997&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1817059",
+    "name": "강릉시 임해자연휴양림 시설사용료 징수조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-06-07",
+    "repealed_on": "2023-06-07",
+    "repealed_on_raw": "20230607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1817059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1800231",
+    "name": "강릉시 화장장려금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-12",
+    "repealed_on": "2023-04-12",
+    "repealed_on_raw": "20230412",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1800231&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1781399",
+    "name": "강릉시 읍·면·동 전결 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-02-01",
+    "repealed_on": "2023-02-01",
+    "repealed_on_raw": "20230201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1781399&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1751481",
+    "name": "강릉시의회의원연구회 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-25",
+    "repealed_on": "2022-11-25",
+    "repealed_on_raw": "20221125",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1751481&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1731855",
+    "name": "강릉시 사회갈등조정위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-05",
+    "repealed_on": "2022-10-05",
+    "repealed_on_raw": "20221005",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1731855&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1731869",
+    "name": "강릉시 사회갈등조정위원회 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-10-05",
+    "repealed_on": "2022-10-05",
+    "repealed_on_raw": "20221005",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1731869&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725689",
+    "name": "강릉시 경포도립공원 입장료 및 시설사용료 징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-31",
+    "repealed_on": "2022-08-31",
+    "repealed_on_raw": "20220831",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725689&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725691",
+    "name": "강릉시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-31",
+    "repealed_on": "2022-08-31",
+    "repealed_on_raw": "20220831",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725691&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725699",
+    "name": "강릉시 경포도립공원 입장료 및 시설사용료 징수조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-31",
+    "repealed_on": "2022-08-31",
+    "repealed_on_raw": "20220831",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725699&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1694635",
+    "name": "강릉시 향토주인상 및 향토일꾼상 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-06",
+    "repealed_on": "2022-04-06",
+    "repealed_on_raw": "20220406",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1694635&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1689403",
+    "name": "강릉시 조례제정 및 개폐청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-10",
+    "repealed_on": "2022-03-10",
+    "repealed_on_raw": "20220310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1689403&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1715771",
+    "name": "강릉시 참전유공자 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-03",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1715771&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 3,
+   "sentinel_99991231": 3
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51150"
+ ]
+}

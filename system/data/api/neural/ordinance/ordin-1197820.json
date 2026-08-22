@@ -1,0 +1,815 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1197820",
+   "key": "ordin-1197820",
+   "mst": "1197820",
+   "name": "부산광역시 해운대구 어린이 통학로 교통안전을 위한 조례",
+   "ord_kind": "조례",
+   "region_id": "26350",
+   "sig_cd": "26350",
+   "region_name": "부산광역시 해운대구",
+   "org_name": "부산광역시 해운대구",
+   "enacted_on": "20151106",
+   "effective_on": "20151106",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 12,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1197820",
+   "categories": [
+    {
+     "code": "C10",
+     "name": "교통",
+     "confidence": 0.6,
+     "method": "rule"
+    },
+    {
+     "code": "C04",
+     "name": "인구·출산·양육",
+     "confidence": 0.4,
+     "method": "rule"
+    },
+    {
+     "code": "C08",
+     "name": "안전·재난",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.811299,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1944819",
+      "key": "ordin-1944819",
+      "name": "부산광역시 해운대구 평생교육 진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20240701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1944819",
+      "categories": [
+       "C05",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.809152,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1786229",
+      "key": "ordin-1786229",
+      "name": "부산광역시 부산진구 어린이 통학로 교통안전을 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 부산진구",
+      "sig_cd": "26230",
+      "enacted_on": "20230228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1786229",
+      "categories": [
+       "C10",
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.806694,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1991411",
+      "key": "ordin-1991411",
+      "name": "부산광역시 해운대구 학교 밖 청소년 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20241212",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1991411",
+      "categories": [
+       "C05",
+       "C06"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.805482,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1976267",
+      "key": "ordin-1976267",
+      "name": "부산광역시 해운대구 청소년수련관 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20241010",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1976267",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.798215,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1972381",
+      "key": "ordin-1972381",
+      "name": "부산광역시 해운대구 건강증진센터 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20240930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1972381",
+      "categories": [
+       "C06",
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.795319,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1420277",
+      "key": "ordin-1420277",
+      "name": "부산광역시 해운대구 건강증진센터 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20191111",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1420277",
+      "categories": [
+       "C05",
+       "C06"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.792779,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1826639",
+      "key": "ordin-1826639",
+      "name": "부산광역시 해운대구 청소년수련관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20230630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1826639",
+      "categories": [
+       "C05",
+       "C03"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.788907,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2051859",
+      "key": "ordin-2051859",
+      "name": "인천광역시부평구 예방접종 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 부평구",
+      "sig_cd": "28237",
+      "enacted_on": "20250707",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2051859",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.786469,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1978157",
+      "key": "ordin-1978157",
+      "name": "부산광역시 부산진구 노인 간병예방 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 부산진구",
+      "sig_cd": "26230",
+      "enacted_on": "20241018",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1978157",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.786251,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1853791",
+      "key": "ordin-1853791",
+      "name": "인천광역시 계양구 온종일 돌봄 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20230922",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1853791",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.996067,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1400002",
+      "key": "ordin-1400002",
+      "name": "부산광역시 해운대구 노인교육 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20190701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1400002",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994614,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1991425",
+      "key": "ordin-1991425",
+      "name": "부산광역시 해운대구 보행권 확보 및 보행환경 개선에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20241212",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1991425",
+      "categories": [
+       "C07",
+       "C10"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994197,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1646973",
+      "key": "ordin-1646973",
+      "name": "부산광역시 해운대구 소규모 공동주택 관리 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20211215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1646973",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994138,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2046065",
+      "key": "ordin-2046065",
+      "name": "부산광역시 해운대구 사회복지기금 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20250627",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2046065",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.99373,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1430823",
+      "key": "ordin-1430823",
+      "name": "부산광역시 해운대구 저소득 노인세대 국민건강보험료 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20191210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1430823",
+      "categories": [
+       "C03",
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993333,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1915025",
+      "key": "ordin-1915025",
+      "name": "부산광역시 해운대구 기술교육원 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20240326",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1915025",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993225,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1806719",
+      "key": "ordin-1806719",
+      "name": "부산광역시 해운대구 아동 급식지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20230508",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806719",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993064,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2091967",
+      "key": "ordin-2091967",
+      "name": "부산광역시 해운대구 안전보안관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20251215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2091967",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993062,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1057426",
+      "key": "ordin-1057426",
+      "name": "부산광역시 해운대구 지역아동센터 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20141222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1057426",
+      "categories": [
+       "C03",
+       "C04"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.992934,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1826635",
+      "key": "ordin-1826635",
+      "name": "부산광역시 해운대구 북한이탈주민 정착지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20230630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1826635",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.986793,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2091951",
+      "key": "ordin-2091951",
+      "name": "부산광역시 해운대구 새마을운동조직 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20251215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2091951",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.985987,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1856353",
+      "key": "ordin-1856353",
+      "name": "부산광역시 해운대구 주차장특별회계 설치 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20230927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1856353",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.985551,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1945515",
+      "key": "ordin-1945515",
+      "name": "부산광역시 해운대구 인권 증진 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20240701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1945515",
+      "categories": [
+       "C03",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.985429,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1933527",
+      "key": "ordin-1933527",
+      "name": "부산광역시 해운대구 경계선 지능인 평생교육지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20240530",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1933527",
+      "categories": [
+       "C05",
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.985175,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1972409",
+      "key": "ordin-1972409",
+      "name": "부산광역시 해운대구 보육교직원 권익보호 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20240930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1972409",
+      "categories": [
+       "C04",
+       "C06"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.985023,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1806719",
+      "key": "ordin-1806719",
+      "name": "부산광역시 해운대구 아동 급식지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20230508",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806719",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.984594,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1826639",
+      "key": "ordin-1826639",
+      "name": "부산광역시 해운대구 청소년수련관 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20230630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1826639",
+      "categories": [
+       "C05",
+       "C03"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.984458,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1400001",
+      "key": "ordin-1400001",
+      "name": "부산광역시 해운대구 구민안전 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20190701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1400001",
+      "categories": [
+       "C08",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.983915,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2019715",
+      "key": "ordin-2019715",
+      "name": "부산광역시 해운대구 자원봉사활동 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20250310",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2019715",
+      "categories": []
+     },
+     {
+      "rank": 10,
+      "cosine": 0.983768,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1806717",
+      "key": "ordin-1806717",
+      "name": "부산광역시 해운대구 아동복지심의위원회 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 해운대구",
+      "sig_cd": "26350",
+      "enacted_on": "20230508",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806717",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1806719",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.989124,
+    "best_rank": 6,
+    "ordinance_id": "ordin:1806719",
+    "key": "ordin-1806719",
+    "name": "부산광역시 해운대구 아동 급식지원 조례",
+    "region_name": "부산광역시 해운대구",
+    "sig_cd": "26350",
+    "enacted_on": "20230508",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806719"
+   },
+   {
+    "node_id": "ordinance:ordin:1826639",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.888686,
+    "best_rank": 7,
+    "ordinance_id": "ordin:1826639",
+    "key": "ordin-1826639",
+    "name": "부산광역시 해운대구 청소년수련관 운영 조례",
+    "region_name": "부산광역시 해운대구",
+    "sig_cd": "26350",
+    "enacted_on": "20230630",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1826639"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

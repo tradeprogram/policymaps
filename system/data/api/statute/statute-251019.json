@@ -1,0 +1,603 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:251019",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "공공기관의 정보공개에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2023-05-16",
+   "effective_on": "20231117",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=251019&type=HTML&mobileYn=&efYd=20231117",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 1350,
+   "child_ordinances": 1319,
+   "by_verification_status": {
+    "article-verified": 924,
+    "unverifiable": 426
+   },
+   "by_delegation_type": {
+    "law-delegated": 1350
+   },
+   "regions_top": [
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 15
+    },
+    {
+     "region_id": "11",
+     "name": "서울특별시",
+     "ordinances": 14
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 13
+    },
+    {
+     "region_id": "41110",
+     "name": "경기도 수원시",
+     "ordinances": 12
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 12
+    },
+    {
+     "region_id": "41190",
+     "name": "경기도 부천시",
+     "ordinances": 11
+    },
+    {
+     "region_id": "52130",
+     "name": "전북특별자치도 군산시",
+     "ordinances": 10
+    },
+    {
+     "region_id": "44",
+     "name": "충청남도",
+     "ordinances": 10
+    },
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 10
+    },
+    {
+     "region_id": "41430",
+     "name": "경기도 의왕시",
+     "ordinances": 10
+    },
+    {
+     "region_id": "36",
+     "name": "세종특별자치시",
+     "ordinances": 10
+    },
+    {
+     "region_id": "28185",
+     "name": "인천광역시 연수구",
+     "ordinances": 10
+    },
+    {
+     "region_id": "26",
+     "name": "부산광역시",
+     "ordinances": 10
+    },
+    {
+     "region_id": "52190",
+     "name": "전북특별자치도 남원시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "52140",
+     "name": "전북특별자치도 익산시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "52110",
+     "name": "전북특별자치도 전주시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "52",
+     "name": "전북특별자치도",
+     "ordinances": 9
+    },
+    {
+     "region_id": "51",
+     "name": "강원특별자치도",
+     "ordinances": 9
+    },
+    {
+     "region_id": "44150",
+     "name": "충청남도 공주시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "44130",
+     "name": "충청남도 천안시",
+     "ordinances": 9
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 공공기관이 보유ㆍ관리하는 정보에 대한 국민의 공개 청구 및 공공기관의 공개 의무에 관하여 필요한 사항을 정함으로써 국민의 알권리를 보장하고 국정(國政)에 대한 국민의 참여와 국정 운영의 투명성을 확보함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"정보\"란 공공기관이 직무상 작성 또는 취득하여 관리하고 있는 문서(전자문서를 포함한다. 이하 같다) 및 전자매체를 비롯한 모든 형태의 매체 등에 기록된 사항을 말한다.\n2. \"공개\"란 공공기관이 이 법에 따라 정보를 열람하게 하거나 그 사본ㆍ복제물을 제공하는 것 또는 「전자정부법」 제2조제10호에 따",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "정보공개의 원칙",
+    "body": "제3조(정보공개의 원칙)\n공공기관이 보유ㆍ관리하는 정보는 국민의 알권리 보장 등을 위하여 이 법에서 정하는 바에 따라 적극적으로 공개하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "적용 범위",
+    "body": "제4조(적용 범위)\n① 정보의 공개에 관하여는 다른 법률에 특별한 규정이 있는 경우를 제외하고는 이 법에서 정하는 바에 따른다.\n② 지방자치단체는 그 소관 사무에 관하여 법령의 범위에서 정보공개에 관한 조례를 정할 수 있다.\n③ 국가안전보장에 관련되는 정보 및 보안 업무를 관장하는 기관에서 국가안전보장과 관련된 정보의 분",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "정보공개 청구권자",
+    "body": "제5조(정보공개 청구권자)\n① 모든 국민은 정보의 공개를 청구할 권리를 가진다.\n② 외국인의 정보공개 청구에 관하여는 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "공공기관의 의무",
+    "body": "제6조(공공기관의 의무)\n① 공공기관은 정보의 공개를 청구하는 국민의 권리가 존중될 수 있도록 이 법을 운영하고 소관 관계 법령을 정비하며, 정보를 투명하고 적극적으로 공개하는 조직문화 형성에 노력하여야 한다. <개정 2020.12.22>\n② 공공기관은 정보의 적절한 보존 및 신속한 검색과 국민에게 유용한 정보의 분석 및",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "정보공개 담당자의 의무",
+    "body": "제6조의2(정보공개 담당자의 의무)\n공공기관의 정보공개 담당자(정보공개 청구 대상 정보와 관련된 업무 담당자를 포함한다)는 정보공개 업무를 성실하게 수행하여야 하며, 공개 여부의 자의적인 결정, 고의적인 처리 지연 또는 위법한 공개 거부 및 회피 등 부당한 행위를 하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "정보의 사전적 공개 등",
+    "body": "제7조(정보의 사전적 공개 등)\n① 공공기관은 다음 각 호의 어느 하나에 해당하는 정보에 대해서는 공개의 구체적 범위, 주기, 시기 및 방법 등을 미리 정하여 정보통신망 등을 통하여 알리고, 이에 따라 정기적으로 공개하여야 한다. 다만, 제9조제1항 각 호의 어느 하나에 해당하는 정보에 대해서는 그러하지 아니하다. <개정",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "정보목록의 작성ㆍ비치 등",
+    "body": "제8조(정보목록의 작성ㆍ비치 등)\n① 공공기관은 그 기관이 보유ㆍ관리하는 정보에 대하여 국민이 쉽게 알 수 있도록 정보목록을 작성하여 갖추어 두고, 그 목록을 정보통신망을 활용한 정보공개시스템 등을 통하여 공개하여야 한다. 다만, 정보목록 중 제9조제1항에 따라 공개하지 아니할 수 있는 정보가 포함되어 있는 경우에는 해당",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": "2",
+    "title": "공개대상 정보의 원문공개",
+    "body": "제8조의2(공개대상 정보의 원문공개)\n공공기관 중 중앙행정기관 및 대통령령으로 정하는 기관은 전자적 형태로 보유ㆍ관리하는 정보 중 공개대상으로 분류된 정보를 국민의 정보공개 청구가 없더라도 정보통신망을 활용한 정보공개시스템 등을 통하여 공개하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0008021"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "비공개 대상 정보",
+    "body": "제9조(비공개 대상 정보)\n① 공공기관이 보유ㆍ관리하는 정보는 공개 대상이 된다. 다만, 다음 각 호의 어느 하나에 해당하는 정보는 공개하지 아니할 수 있다. <개정 2020.12.22>\n1. 다른 법률 또는 법률에서 위임한 명령(국회규칙ㆍ대법원규칙ㆍ헌법재판소규칙ㆍ중앙선거관리위원회규칙ㆍ대통령령 및 조례로 한정한다)에 따라",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "정보공개의 청구방법",
+    "body": "제10조(정보공개의 청구방법)\n① 정보의 공개를 청구하는 자(이하 \"청구인\"이라 한다)는 해당 정보를 보유하거나 관리하고 있는 공공기관에 다음 각 호의 사항을 적은 정보공개 청구서를 제출하거나 말로써 정보의 공개를 청구할 수 있다. <개정 2020.12.22>\n1. 청구인의 성명ㆍ생년월일ㆍ주소 및 연락처(전화번호ㆍ전자우편",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "정보공개 여부의 결정",
+    "body": "제11조(정보공개 여부의 결정)\n① 공공기관은 제10조에 따라 정보공개의 청구를 받으면 그 청구를 받은 날부터 10일 이내에 공개 여부를 결정하여야 한다.\n② 공공기관은 부득이한 사유로 제1항에 따른 기간 이내에 공개 여부를 결정할 수 없을 때에는 그 기간이 끝나는 날의 다음 날부터 기산(起算)하여 10일의 범위에서 공개",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "2",
+    "title": "반복 청구 등의 처리",
+    "body": "제11조의2(반복 청구 등의 처리)\n① 공공기관은 제11조에도 불구하고 제10조제1항 및 제2항에 따른 정보공개 청구가 다음 각 호의 어느 하나에 해당하는 경우에는 정보공개 청구 대상 정보의 성격, 종전 청구와의 내용적 유사성ㆍ관련성, 종전 청구와 동일한 답변을 할 수밖에 없는 사정 등을 종합적으로 고려하여 해당 청구를 ",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0011021"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "정보공개심의회",
+    "body": "제12조(정보공개심의회)\n① 국가기관, 지방자치단체, 「공공기관의 운영에 관한 법률」 제5조에 따른 공기업 및 준정부기관, 「지방공기업법」에 따른 지방공사 및 지방공단(이하 \"국가기관등\"이라 한다)은 제11조에 따른 정보공개 여부 등을 심의하기 위하여 정보공개심의회(이하 \"심의회\"라 한다)를 설치ㆍ운영한다. 이 경우 국가",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "2",
+    "title": "위원의 제척ㆍ기피ㆍ회피",
+    "body": "제12조의2(위원의 제척ㆍ기피ㆍ회피)\n① 심의회의 위원이 다음 각 호의 어느 하나에 해당하는 경우에는 심의회의 심의에서 제척(除斥)된다.\n1. 위원 또는 그 배우자나 배우자이었던 사람이 해당 심의사항의 당사자(당사자가 법인ㆍ단체 등인 경우에는 그 임원 또는 직원을 포함한다. 이하 이 호 및 제2호에서 같다)이거나 그 심의",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0012021"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "정보공개 여부 결정의 통지",
+    "body": "제13조(정보공개 여부 결정의 통지)\n① 공공기관은 제11조에 따라 정보의 공개를 결정한 경우에는 공개의 일시 및 장소 등을 분명히 밝혀 청구인에게 통지하여야 한다.\n② 공공기관은 청구인이 사본 또는 복제물의 교부를 원하는 경우에는 이를 교부하여야 한다. <개정 2020.12.22>\n③ 공공기관은 공개 대상 정보의 양이 ",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "부분 공개",
+    "body": "제14조(부분 공개)\n공개 청구한 정보가 제9조제1항 각 호의 어느 하나에 해당하는 부분과 공개 가능한 부분이 혼합되어 있는 경우로서 공개 청구의 취지에 어긋나지 아니하는 범위에서 두 부분을 분리할 수 있는 경우에는 제9조제1항 각 호의 어느 하나에 해당하는 부분을 제외하고 공개하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "정보의 전자적 공개",
+    "body": "제15조(정보의 전자적 공개)\n① 공공기관은 전자적 형태로 보유ㆍ관리하는 정보에 대하여 청구인이 전자적 형태로 공개하여 줄 것을 요청하는 경우에는 그 정보의 성질상 현저히 곤란한 경우를 제외하고는 청구인의 요청에 따라야 한다.\n② 공공기관은 전자적 형태로 보유ㆍ관리하지 아니하는 정보에 대하여 청구인이 전자적 형태로 공개하",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "즉시 처리가 가능한 정보의 공개",
+    "body": "제16조(즉시 처리가 가능한 정보의 공개)\n1. 법령 등에 따라 공개를 목적으로 작성된 정보\n2. 일반국민에게 알리기 위하여 작성된 각종 홍보자료\n3. 공개하기로 결정된 정보로서 공개에 오랜 시간이 걸리지 아니하는 정보\n4. 그 밖에 공공기관의 장이 정하는 정보",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "비용 부담",
+    "body": "제17조(비용 부담)\n① 정보의 공개 및 우송 등에 드는 비용은 실비(實費)의 범위에서 청구인이 부담한다.\n② 공개를 청구하는 정보의 사용 목적이 공공복리의 유지ㆍ증진을 위하여 필요하다고 인정되는 경우에는 제1항에 따른 비용을 감면할 수 있다.\n③ 제1항에 따른 비용 및 그 징수 등에 필요한 사항은 국회규칙ㆍ대법원규칙ㆍ헌",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "이의신청",
+    "body": "제18조(이의신청)\n① 청구인이 정보공개와 관련한 공공기관의 비공개 결정 또는 부분 공개 결정에 대하여 불복이 있거나 정보공개 청구 후 20일이 경과하도록 정보공개 결정이 없는 때에는 공공기관으로부터 정보공개 여부의 결정 통지를 받은 날 또는 정보공개 청구 후 20일이 경과한 날부터 30일 이내에 해당 공공기관에 문서로 ",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "행정심판",
+    "body": "제19조(행정심판)\n① 청구인이 정보공개와 관련한 공공기관의 결정에 대하여 불복이 있거나 정보공개 청구 후 20일이 경과하도록 정보공개 결정이 없는 때에는 「행정심판법」에서 정하는 바에 따라 행정심판을 청구할 수 있다. 이 경우 국가기관 및 지방자치단체 외의 공공기관의 결정에 대한 감독행정기관은 관계 중앙행정기관의 장 또",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "행정소송",
+    "body": "제20조(행정소송)\n① 청구인이 정보공개와 관련한 공공기관의 결정에 대하여 불복이 있거나 정보공개 청구 후 20일이 경과하도록 정보공개 결정이 없는 때에는 「행정소송법」에서 정하는 바에 따라 행정소송을 제기할 수 있다.\n② 재판장은 필요하다고 인정하면 당사자를 참여시키지 아니하고 제출된 공개 청구 정보를 비공개로 열람ㆍ심",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "제3자의 비공개 요청 등",
+    "body": "제21조(제3자의 비공개 요청 등)\n① 제11조제3항에 따라 공개 청구된 사실을 통지받은 제3자는 그 통지를 받은 날부터 3일 이내에 해당 공공기관에 대하여 자신과 관련된 정보를 공개하지 아니할 것을 요청할 수 있다.\n② 제1항에 따른 비공개 요청에도 불구하고 공공기관이 공개 결정을 할 때에는 공개 결정 이유와 공개 실시",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "정보공개위원회의 설치",
+    "body": "제22조(정보공개위원회의 설치)\n1. 정보공개에 관한 정책 수립 및 제도 개선에 관한 사항\n2. 정보공개에 관한 기준 수립에 관한 사항\n3. 제12조에 따른 심의회 심의결과의 조사ㆍ분석 및 심의기준 개선 관련 의견제시에 관한 사항\n4. 제24조제2항 및 제3항에 따른 공공기관의 정보공개 운영실태 평가 및 그 결과 처리에 ",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "위원회의 구성 등",
+    "body": "제23조(위원회의 구성 등)\n① 위원회는 성별을 고려하여 위원장과 부위원장 각 1명을 포함한 11명의 위원으로 구성한다. <개정 2020.12.22>\n② 위원회의 위원은 다음 각 호의 사람이 된다. 이 경우 위원장을 포함한 7명은 공무원이 아닌 사람으로 위촉하여야 한다. <개정 2014.11.19, 2017.7.26, 2",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "제도 총괄 등",
+    "body": "제24조(제도 총괄 등)\n① 행정안전부장관은 이 법에 따른 정보공개제도의 정책 수립 및 제도 개선 사항 등에 관한 기획ㆍ총괄 업무를 관장한다. <개정 2014.11.19, 2017.7.26>\n② 행정안전부장관은 위원회가 정보공개제도의 효율적 운영을 위하여 필요하다고 요청하면 공공기관(국회ㆍ법원ㆍ헌법재판소 및 중앙선거관리위",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "자료의 제출 요구",
+    "body": "제25조(자료의 제출 요구)\n국회사무총장ㆍ법원행정처장ㆍ헌법재판소사무처장ㆍ중앙선거관리위원회사무총장 및 행정안전부장관은 필요하다고 인정하면 관계 공공기관에 정보공개에 관한 자료 제출 등의 협조를 요청할 수 있다. <개정 2014.11.19, 2017.7.26>",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "국회에의 보고",
+    "body": "제26조(국회에의 보고)\n① 행정안전부장관은 전년도의 정보공개 운영에 관한 보고서를 매년 정기국회 개회 전까지 국회에 제출하여야 한다. <개정 2014.11.19, 2017.7.26>\n② 제1항에 따른 보고서 작성에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "위임규정",
+    "body": "제27조(위임규정)\n이 법 시행에 필요한 사항은 국회규칙ㆍ대법원규칙ㆍ헌법재판소규칙ㆍ중앙선거관리위원회규칙 및 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "신분보장",
+    "body": "제28조(신분보장)\n누구든지 이 법에 따른 정당한 정보공개를 이유로 징계조치 등 어떠한 신분상 불이익이나 근무조건상의 차별을 받지 아니한다.",
+    "body_truncated": false,
+    "effective_on": "20231117",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "기간의 계산",
+    "body": "제29조(기간의 계산)\n① 이 법에 따른 기간의 계산은 「민법」에 따른다.\n② 제1항에도 불구하고 다음 각 호의 기간은 \"일\" 단위로 계산하고 첫날을 산입하되, 공휴일과 토요일은 산입하지 아니한다.\n1. 제11조제1항 및 제2항에 따른 정보공개 여부 결정기간\n2. 제18조제1항, 제19조제1항 및 제20조제1항에 따른 정",
+    "body_truncated": true,
+    "effective_on": "20231117",
+    "article_key": "0029001"
+   }
+  ],
+  "article_count": 33,
+  "articles_shown": 33,
+  "articles_truncated_bodies": 22,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:2125015",
+    "name": "과천시 정책연구용역 관리 조례",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125015&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125077",
+    "name": "과천시 보육 조례",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125545",
+    "name": "통영시 정책연구용역 공개 조례",
+    "region_id": "48220",
+    "org_name": "경상남도 통영시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125545&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125879",
+    "name": "하동군의회 의원 윤리강령 및 행동강령 조례",
+    "region_id": "48850",
+    "org_name": "경상남도 하동군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125879&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125947",
+    "name": "부천시 성골지구 도시개발사업 시행 조례 시행규칙",
+    "region_id": "41190",
+    "org_name": "경기도 부천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125947&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126219",
+    "name": "수원시의회 의원 행동강령에 관한 조례",
+    "region_id": "41110",
+    "org_name": "경기도 수원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126439",
+    "name": "강릉시 성과관리 및 평가에 관한 규칙",
+    "region_id": "51150",
+    "org_name": "강원특별자치도 강릉시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126439&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126647",
+    "name": "성남시의회 의원 행동강령 조례",
+    "region_id": "41130",
+    "org_name": "경기도 성남시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126647&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126679",
+    "name": "충주시 각종 위원회 설치와 운영에 관한 조례",
+    "region_id": "43130",
+    "org_name": "충청북도 충주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126679&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126811",
+    "name": "금산군 정책실명제 운영 조례",
+    "region_id": "44710",
+    "org_name": "충청남도 금산군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126811&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126979",
+    "name": "사천시 정책실명제 운영 조례",
+    "region_id": "48240",
+    "org_name": "경상남도 사천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126979&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127391",
+    "name": "진주시 환경기본조례",
+    "region_id": "48170",
+    "org_name": "경상남도 진주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127391&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127463",
+    "name": "동두천시 정책실명제 운영 규칙",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127463&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127759",
+    "name": "동두천시의회 의원 행동강령 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127759&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127815",
+    "name": "오산시 용역과제사전심의위원회 설치 및 운영 조례",
+    "region_id": "41370",
+    "org_name": "경기도 오산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127815&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128039",
+    "name": "시흥시 정책실명제 운영 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128039&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2129247",
+    "name": "태백시 정책의 실명 관리에 관한 운영 규칙",
+    "region_id": "51190",
+    "org_name": "강원특별자치도 태백시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129247&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2129721",
+    "name": "원주시 위원회의 설치 및 운영에 관한 기본 조례",
+    "region_id": "51130",
+    "org_name": "강원특별자치도 원주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129721&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2129995",
+    "name": "창원시의회 의원 윤리강령 및 행동강령 조례",
+    "region_id": "48120",
+    "org_name": "경상남도 창원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129995&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130217",
+    "name": "부천시 보육 조례",
+    "region_id": "41190",
+    "org_name": "경기도 부천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130217&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

@@ -1,0 +1,783 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1356108",
+   "key": "ordin-1356108",
+   "mst": "1356108",
+   "name": "부산광역시 금정구 보훈회관 설치 및 운영에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "26410",
+   "sig_cd": "26410",
+   "region_name": "부산광역시 금정구",
+   "org_name": "부산광역시 금정구",
+   "enacted_on": "20180820",
+   "effective_on": "20180820",
+   "repealed_on": null,
+   "rr_cls_cd": "전부개정",
+   "article_count": 13,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1356108",
+   "categories": [
+    {
+     "code": "C03",
+     "name": "복지·돌봄",
+     "confidence": 0.6,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.83422,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1748049",
+      "key": "ordin-1748049",
+      "name": "부산광역시 사하구 보훈회관 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20221115",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1748049",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.828853,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1944829",
+      "key": "ordin-1944829",
+      "name": "부산광역시 금정구 보행권 확보 및 보행환경 개선에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20240701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1944829",
+      "categories": [
+       "C10",
+       "C03",
+       "C07"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.79303,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2051075",
+      "key": "ordin-2051075",
+      "name": "부산광역시 동구 일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 동구",
+      "sig_cd": "26170",
+      "enacted_on": "20250701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2051075",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.790881,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1811785",
+      "key": "ordin-1811785",
+      "name": "부산광역시 사하구 생활문화센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 사하구",
+      "sig_cd": "26380",
+      "enacted_on": "20230523",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1811785",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.772158,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1419201",
+      "key": "ordin-1419201",
+      "name": "울산광역시 동구 보훈복지회관 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 동구",
+      "sig_cd": "31170",
+      "enacted_on": "20191031",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1419201",
+      "categories": [
+       "C03",
+       "C10"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.769992,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2095063",
+      "key": "ordin-2095063",
+      "name": "인천광역시 연수구 보훈회관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 연수구",
+      "sig_cd": "28185",
+      "enacted_on": "20251222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2095063",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.768487,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:814766",
+      "key": "ordin-814766",
+      "name": "대구광역시 북구 환경개선비용부담금 세입징수포상금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 북구",
+      "sig_cd": "27230",
+      "enacted_on": "20081201",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=814766",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.766674,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2127299",
+      "key": "ordin-2127299",
+      "name": "부산광역시 금정구 건강생활지원센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20260430",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2127299",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.764582,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2122763",
+      "key": "ordin-2122763",
+      "name": "부산광역시 서구 보훈회관 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20260415",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2122763",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.758062,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1378318",
+      "key": "ordin-1378318",
+      "name": "부산광역시 기장군 보훈회관 설치 · 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 기장군",
+      "sig_cd": "26710",
+      "enacted_on": "20181231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1378318",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994171,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1628113",
+      "key": "ordin-1628113",
+      "name": "부산광역시 금정구 문화도시 조성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20210923",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1628113",
+      "categories": [
+       "C13",
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99416,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1809031",
+      "key": "ordin-1809031",
+      "name": "부산광역시 금정구 작은도서관 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20230515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1809031",
+      "categories": [
+       "C13",
+       "C07"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993646,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1867335",
+      "key": "ordin-1867335",
+      "name": "부산광역시 금정구 주차장특별회계 설치 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20231031",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1867335",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993233,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1967567",
+      "key": "ordin-1967567",
+      "name": "부산광역시 금정구 어린이·청소년의회 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20240920",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1967567",
+      "categories": [
+       "C05",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.992531,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1757407",
+      "key": "ordin-1757407",
+      "name": "부산광역시 금정구 아동 급식지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20221215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1757407",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.992415,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2109497",
+      "key": "ordin-2109497",
+      "name": "부산광역시 금정구 도시재생 활성화 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20260210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2109497",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.99229,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1411203",
+      "key": "ordin-1411203",
+      "name": "부산광역시 금정구 사회복지사 등의 처우 및 지위 향상에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20190927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1411203",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.99186,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2071081",
+      "key": "ordin-2071081",
+      "name": "부산광역시 금정구 창업지원시설 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20250926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2071081",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.991726,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1573833",
+      "key": "ordin-1573833",
+      "name": "부산광역시 금정구 중증장애인 자립생활 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20210209",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1573833",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.991718,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1967571",
+      "key": "ordin-1967571",
+      "name": "부산광역시 금정구 치매관리 및 치매안심센터 설치·운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20240920",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1967571",
+      "categories": [
+       "C06",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.986358,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1638585",
+      "key": "ordin-1638585",
+      "name": "부산광역시 금정구 청소년상담복지센터 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20211105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1638585",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.985984,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1809035",
+      "key": "ordin-1809035",
+      "name": "부산광역시 금정구 아동·청소년복지시설 퇴소청소년 등의 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20230515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1809035",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.984362,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1536603",
+      "key": "ordin-1536603",
+      "name": "부산광역시 금정구 구민안전보험 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20201012",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1536603",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.984244,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2134477",
+      "key": "ordin-2134477",
+      "name": "부산광역시 금정구 환경교육 활성화 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20260430",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2134477",
+      "categories": [
+       "C05",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.983612,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1713941",
+      "key": "ordin-1713941",
+      "name": "부산광역시 금정구 아동복지심의위원회 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20220630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1713941",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.983344,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1159834",
+      "key": "ordin-1159834",
+      "name": "부산광역시 금정구 축제위원회 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20141217",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1159834",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.983242,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1961247",
+      "key": "ordin-1961247",
+      "name": "부산광역시 금정구 저소득 주민 국민건강보험료 등 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20240731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1961247",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.982812,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2052449",
+      "key": "ordin-2052449",
+      "name": "부산광역시 금정구 식생활교육지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20250701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2052449",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.982738,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1846319",
+      "key": "ordin-1846319",
+      "name": "부산광역시 금정구 소규모 공동주택 관리 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20230810",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1846319",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.981776,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2071081",
+      "key": "ordin-2071081",
+      "name": "부산광역시 금정구 창업지원시설 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 금정구",
+      "sig_cd": "26410",
+      "enacted_on": "20250926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2071081",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2071081",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.986818,
+    "best_rank": 8,
+    "ordinance_id": "ordin:2071081",
+    "key": "ordin-2071081",
+    "name": "부산광역시 금정구 창업지원시설 설치 및 운영 조례",
+    "region_name": "부산광역시 금정구",
+    "sig_cd": "26410",
+    "enacted_on": "20250926",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2071081"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

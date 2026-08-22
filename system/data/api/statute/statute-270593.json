@@ -1,0 +1,820 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:270593",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "북한이탈주민의 보호 및 정착지원에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20251009",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=270593&type=HTML&mobileYn=&efYd=20251009",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 485,
+   "child_ordinances": 442,
+   "by_verification_status": {
+    "article-missing": 93,
+    "article-verified": 243,
+    "unverifiable": 149
+   },
+   "by_delegation_type": {
+    "law-delegated": 485
+   },
+   "regions_top": [
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 12
+    },
+    {
+     "region_id": "47850",
+     "name": "경상북도 칠곡군",
+     "ordinances": 7
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "36",
+     "name": "세종특별자치시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "28200",
+     "name": "인천광역시 남동구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "11740",
+     "name": "서울특별시 강동구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "11710",
+     "name": "서울특별시 송파구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "11500",
+     "name": "서울특별시 강서구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "11",
+     "name": "서울특별시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "edu:30",
+     "name": "대전광역시교육청",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47110",
+     "name": "경상북도 포항시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41610",
+     "name": "경기도 광주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41590",
+     "name": "경기도 화성시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41480",
+     "name": "경기도 파주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41460",
+     "name": "경기도 용인시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41410",
+     "name": "경기도 군포시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41250",
+     "name": "경기도 동두천시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "31200",
+     "name": "울산광역시 북구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "31",
+     "name": "울산광역시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "30110",
+     "name": "대전광역시 동구",
+     "ordinances": 4
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 군사분계선 이북지역에서 벗어나 대한민국의 보호를 받으려는 군사분계선 이북지역의 주민이 정치, 경제, 사회, 문화 등 모든 생활 영역에서 신속히 적응ㆍ정착하는 데 필요한 보호 및 지원에 관한 사항을 규정함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"북한이탈주민\"이란 군사분계선 이북지역(이하 \"북한\"이라 한다)에 주소, 직계가족, 배우자, 직장 등을 두고 있는 사람으로서 북한을 벗어난 후 외국 국적을 취득하지 아니한 사람을 말한다.\n2. \"보호대상자\"란 이 법에 따라 보호 및 지원을 받는 북한이탈주민을 말한다.\n3. \"정착지원시설\"이란 보호대상자",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "적용범위",
+    "body": "제3조(적용범위)\n이 법은 대한민국의 보호를 받으려는 의사를 표시한 북한이탈주민에 대하여 적용한다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "기본원칙",
+    "body": "제4조(기본원칙)\n① 대한민국은 보호대상자를 인도주의에 입각하여 특별히 보호한다.\n② 대한민국은 외국에 체류하고 있는 북한이탈주민의 보호 및 지원 등을 위하여 외교적 노력을 다하여야 한다.\n③ 보호대상자는 대한민국의 자유민주적 법질서에 적응하여 건강하고 문화적인 생활을 할 수 있도록 노력하여야 한다.\n④ 통일부장관은 북한",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": "2",
+    "title": "국가 및 지방자치단체의 책무",
+    "body": "제4조의2(국가 및 지방자치단체의 책무)\n① 국가 및 지방자치단체는 보호대상자의 성공적인 정착을 위하여 보호대상자의 보호ㆍ교육ㆍ취업ㆍ주거ㆍ의료 및 생활보호 등의 지원을 지속적으로 추진하고 이에 필요한 재원을 안정적으로 확보하기 위하여 노력하여야 한다. <개정 2017.3.21, 2021.1.5>\n② 국가 및 지방자치단체는",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0004021"
+   },
+   {
+    "article_no": "4",
+    "article_branch": "3",
+    "title": "기본계획 및 시행계획",
+    "body": "제4조의3(기본계획 및 시행계획)\n① 통일부장관은 제6조에 따른 북한이탈주민 보호 및 정착지원협의회의 심의를 거쳐 보호대상자의 보호 및 정착지원에 관한 기본계획(이하 \"기본계획\"이라 한다)을 3년마다 수립ㆍ시행하여야 한다. <개정 2021.4.20>\n② 기본계획에는 다음 각 호의 사항이 포함되어야 한다. <개정 2014.",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0004031"
+   },
+   {
+    "article_no": "4",
+    "article_branch": "4",
+    "title": "북한이탈주민의 날",
+    "body": "제4조의4(북한이탈주민의 날)\n① 북한이탈주민에 대한 국민의 관심을 높이고 북한이탈주민의 권익을 향상시키기 위하여 매년 7월 14일을 북한이탈주민의 날로 한다.\n② 국가와 지방자치단체는 북한이탈주민의 날의 취지에 맞는 행사, 교육 및 홍보 등을 실시할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0004041"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "보호기준 등",
+    "body": "제5조(보호기준 등)\n① 보호대상자에 대한 보호 및 지원 기준은 나이, 성별, 세대 구성, 학력, 경력, 자활 능력, 건강 상태 및 재산 등을 고려하여 합리적으로 정하여야 한다. <개정 2019.1.15>\n② 이 법에 따른 보호 및 정착지원은 원칙적으로 개인을 단위로 하되, 필요하다고 인정하는 경우에는 대통령령으로 정하는",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "북한이탈주민 보호 및 정착지원협의회",
+    "body": "제6조(북한이탈주민 보호 및 정착지원협의회)\n① 북한이탈주민에 관한 정책을 협의ㆍ조정하고 보호대상자의 보호 및 정착지원에 관한 다음 각 호의 사항을 심의하기 위하여 통일부에 북한이탈주민 보호 및 정착지원협의회(이하 \"협의회\"라 한다)를 둔다. <개정 2013.8.13, 2019.1.15, 2021.4.20, 2024.1.",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "보호신청 등",
+    "body": "제7조(보호신청 등)\n① 북한이탈주민으로서 이 법에 따른 보호를 받으려는 사람은 재외공관이나 그 밖의 행정기관의 장(각급 군부대의 장을 포함한다. 이하 \"재외공관장등\"이라 한다)에게 보호를 직접 신청하여야 한다. 다만, 보호를 직접 신청하지 아니할 수 있는 대통령령으로 정하는 사유가 있는 경우에는 그러하지 아니하다.\n② ",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "보호 결정 등",
+    "body": "제8조(보호 결정 등)\n① 통일부장관은 제7조제4항에 따른 통보를 받으면 협의회의 심의를 거쳐 보호 여부를 결정한다. 다만, 국가안전보장에 현저한 영향을 줄 우려가 있는 사람에 대하여는 국가정보원장이 그 보호 여부를 결정하고, 그 결과를 지체 없이 통일부장관과 보호신청자에게 통보하거나 알려야 한다. <개정 2024.12.",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "보호 결정의 기준 등",
+    "body": "제9조(보호 결정의 기준 등)\n① 제8조제1항 본문에 따라 보호 여부를 결정할 때 다음 각 호의 어느 하나에 해당하는 사람은 보호대상자로 결정하지 아니할 수 있다. <개정 2019.1.15, 2020.12.8>\n1. 항공기 납치, 마약거래, 테러, 집단살해 등 국제형사범죄자\n2. 살인 등 중대한 비정치적 범죄자\n3. 위장",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "정착지원시설의 설치",
+    "body": "제10조(정착지원시설의 설치)\n① 통일부장관은 보호대상자에 대한 보호 및 정착지원을 위하여 정착지원시설을 설치ㆍ운영한다. 다만, 제8조제1항 단서에 따라 국가정보원장이 보호하기로 결정한 사람을 위하여는 국가정보원장이 별도의 정착지원시설을 설치ㆍ운영할 수 있다.\n② 통일부장관 또는 국가정보원장은 제1항에 따라 정착지원시설을",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "정착지원시설에서의 보호 등",
+    "body": "제11조(정착지원시설에서의 보호 등)\n① 제10조제1항에 따라 정착지원시설을 설치ㆍ운영하는 기관의 장은 보호대상자가 거주지로 전출할 때까지 정착지원시설에서 보호하여야 한다.\n② 제1항에 따른 기관의 장은 정착지원시설에서 보호받는 보호대상자에게 대통령령으로 정하는 바에 따라 보호금품을 지급할 수 있다.\n③ 제1항에 따른 기",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "2",
+    "title": "무연고청소년 보호",
+    "body": "제11조의2(무연고청소년 보호)\n① 통일부장관은 무연고청소년(보호대상자로서 직계존속을 동반하지 아니한 만 24세 이하의 무연고 아동ㆍ청소년을 말한다. 이하 이 조에서 같다)의 보호를 위하여 무연고청소년의 보호자(법인이 보호하는 경우 법인의 대표자를 말한다. 이하 이 조에서 \"보호자\"라 한다)를 선정할 수 있다.\n② 통일부",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0011021"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "등록대장",
+    "body": "제12조(등록대장)\n① 제10조제1항에 따라 정착지원시설을 설치ㆍ운영하는 기관의 장은 제8조제1항에 따라 보호 결정을 한 때에는 보호대상자에 관한 다음 각 호의 사항을 기록한 등록대장을 대통령령으로 정하는 바에 따라 관리ㆍ보존하여야 한다. <개정 2021.4.20, 2024.2.6>\n1. 성명\n2. 성별\n3. 생년월일\n4",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "학력 인정",
+    "body": "제13조(학력 인정)\n보호대상자는 대통령령으로 정하는 바에 따라 북한이나 외국에서 이수한 학교 교육의 과정에 상응하는 학력을 인정받을 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "자격 인정",
+    "body": "제14조(자격 인정)\n① 보호대상자는 관계 법령에서 정하는 바에 따라 북한이나 외국에서 취득한 자격에 상응하는 자격 또는 그 자격의 일부를 인정받을 수 있다.\n② 통일부장관은 자격 인정 신청자에게 대통령령으로 정하는 바에 따라 자격 인정을 위하여 필요한 보수교육 또는 재교육을 실시할 수 있다.\n③ 제1항 및 제2항을 시행",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "사회적응교육 등",
+    "body": "제15조(사회적응교육 등)\n① 통일부장관은 보호대상자가 대한민국에 정착하는 데 필요한 기본교육을 실시하여야 한다.\n② 제1항에 따른 기본교육에는 다음 각 호의 내용을 포함하여야 한다. <신설 2021.1.5>\n1. 정치ㆍ경제ㆍ사회ㆍ문화 등 우리 사회 각 분야의 이해 증진을 위한 교육\n2. 「양성평등기본법」 제30조에 따른",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": "2",
+    "title": "지역적응센터의 지정 및 업무의 위탁",
+    "body": "제15조의2(지역적응센터의 지정 및 업무의 위탁)\n① 통일부장관은 북한이탈주민들의 지역적응을 종합적으로 지원하기 위해서 대통령령으로 정하는 자격 및 시설을 갖춘 기관 또는 단체를 보호대상자의 거주지를 관할하는 지방자치단체의 장(이하 \"지방자치단체장\"이라 한다)과 협의하여 지역적응센터로 지정ㆍ운영할 수 있다.\n② 통일부장관",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0015021"
+   },
+   {
+    "article_no": "15",
+    "article_branch": "3",
+    "title": "남북통합문화센터 설립ㆍ운영",
+    "body": "제15조의3(남북통합문화센터 설립ㆍ운영)\n① 통일부장관은 북한이탈주민에 대한 국민의 이해를 높이고 남북문화 통합에 필요한 기반을 조성하기 위하여 남북통합문화센터를 설립ㆍ운영할 수 있다.\n② 남북통합문화센터의 설립ㆍ운영에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0015031"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "직업훈련",
+    "body": "제16조(직업훈련)\n① 통일부장관은 직업훈련을 희망하는 보호대상자 또는 보호대상자이었던 사람(이하 \"보호대상자등\"이라 한다)에 대하여 직업훈련을 실시할 수 있다. <개정 2021.4.20>\n② 제1항에 따른 직업훈련을 받으려는 보호대상자등은 직업훈련신청서를 통일부장관에게 제출하여야 한다. <신설 2021.4.20>\n③ 통",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "취업보호 등",
+    "body": "제17조(취업보호 등)\n① 통일부장관은 보호대상자가 정착지원시설로부터 그의 거주지로 전입한 후 대통령령으로 정하는 바에 따라 최초로 취업한 날부터 3년간 취업보호를 실시한다. 다만, 사회적 취약계층, 장기근속자 등 취업보호 기간을 연장할 필요가 있는 경우로서 대통령령으로 정하는 사유에 해당하는 경우에는 1년의 범위에서 취",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "2",
+    "title": "취업보호의 제한",
+    "body": "제17조의2(취업보호의 제한)\n① 통일부장관은 취업보호대상자가 다음 각 호의 어느 하나에 해당하는 경우에는 제17조제1항에도 불구하고 대통령령으로 정하는 바에 따라 일정 기간 취업보호를 제한할 수 있다.\n1. 취업한 후 정당한 사유 없이 대통령령으로 정하는 기간 동안 근무하지 아니하고 자의로 퇴직한 경우\n2. 근무태만, ",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0017021"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "3",
+    "title": "영농 정착지원",
+    "body": "제17조의3(영농 정착지원)\n① 통일부장관은 영농(營農)[영어(營漁) 및 영림(營林)을 포함한다. 이하 같다]을 희망하는 북한이탈주민에 대하여 영농 정착을 위한 다음 각 호의 행정적ㆍ재정적 지원을 할 수 있다. <개정 2025.4.8>\n1. 영농 교육 훈련\n2. 농업ㆍ어업ㆍ임업 현장 실습\n3. 영농 자금 지원\n4. 그 밖",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0017031"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "4",
+    "title": "세제혜택",
+    "body": "제17조의4(세제혜택)\n국가 및 지방자치단체는 북한이탈주민을 채용하는 기업에 대하여 예산의 범위에서 재정지원을 하거나 조세 관계 법률에서 정하는 바에 따라 세금을 감면할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0017041"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "5",
+    "title": "우선 구매 등",
+    "body": "제17조의5(우선 구매 등)\n① 통일부장관은 북한이탈주민의 고용과 관련하여 다음 각 호의 요건을 모두 충족하는 모범이 되는 사업주에 대해서는 생산품 우선 구매 등의 지원을 할 수 있다.\n1. 연간 평균 3명 이상의 북한이탈주민을 고용할 것\n2. 대통령령으로 정하는 비율 이상의 월평균 근로자를 북한이탈주민으로 고용할 것\n②",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0017051"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "6",
+    "title": "창업 지원",
+    "body": "제17조의6(창업 지원)\n① 통일부장관은 북한이탈주민의 창업을 위하여 다음 각 호의 행정적ㆍ재정적 지원을 할 수 있다.\n1. 창업 교육\n2. 현장 실습\n3. 창업 상담\n4. 창업 자금 지원\n5. 그 밖에 대통령령으로 정하는 사항\n② 제1항에 따른 행정적ㆍ재정적 지원 절차 등 필요한 사항은 통일부령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0017061"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "특별임용",
+    "body": "제18조(특별임용)\n① 북한에서의 자격이나 경력이 있는 사람 등 북한이탈주민으로서 공무원으로 채용하는 것이 필요하다고 인정되는 사람에 대하여는 「국가공무원법」 제28조제2항 및 「지방공무원법」 제27조제2항에도 불구하고 북한을 벗어나기 전의 자격ㆍ경력 등을 고려하여 국가공무원 또는 지방공무원으로 특별임용할 수 있다.\n② ",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": "2",
+    "title": "공공기관 평가 반영",
+    "body": "제18조의2(공공기관 평가 반영)\n① 중앙행정기관ㆍ지방자치단체 및 공공기관은 북한이탈주민을 고용하기 위하여 노력하여야 한다.\n② 「정부업무평가 기본법」에 따른 중앙행정기관ㆍ지방자치단체 및 공공기관의 평가 시 북한이탈주민 고용률을 평가항목에 포함시킬 수 있다.\n③ 제2항에 따른 평가의 구체적인 방법 및 절차 등은 중앙행정기",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0018021"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "가족관계 등록 창설의 특례",
+    "body": "제19조(가족관계 등록 창설의 특례)\n① 통일부장관은 보호대상자로서 군사분계선 이남지역(이하 \"남한\"이라 한다)에 가족관계 등록이 되어 있지 아니한 사람에 대하여는 본인의 의사에 따라 등록기준지를 정하여 서울가정법원에 가족관계 등록 창설허가 신청서를 제출하여야 한다.\n② 제1항의 가족관계 등록 창설허가 신청서에는 제12조",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "2",
+    "title": "이혼의 특례",
+    "body": "제19조의2(이혼의 특례)\n① 제19조에 따라 가족관계 등록을 창설한 사람 중 북한에 배우자를 둔 사람은 그 배우자가 남한에 거주하는지 불명확한 경우 이혼을 청구할 수 있다.\n② 제19조에 따라 가족관계 등록을 창설한 사람의 가족관계등록부에 배우자로 기록된 사람은 재판상 이혼의 당사자가 될 수 있다.\n③ 제1항에 따라 이",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0019021"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "3",
+    "title": "주민등록번호 정정의 특례",
+    "body": "제19조의3(주민등록번호 정정의 특례)\n① 북한이탈주민 중 정착지원시설의 소재지를 기준으로 하여 주민등록번호를 부여받은 사람은 거주지의 시장ㆍ군수ㆍ구청장 또는 특별자치도지사에게 자신의 주민등록번호 정정을 한 번만 신청할 수 있다.\n② 제1항에 따른 신청을 받은 시장ㆍ군수ㆍ구청장 또는 특별자치도지사는 특별한 사정이 없으면 ",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0019031"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "주거지원 등",
+    "body": "제20조(주거지원 등)\n① 통일부장관은 보호대상자에게 대통령령으로 정하는 바에 따라 주거지원을 할 수 있다.\n② 제1항에 따라 주거지원을 받는 보호대상자는 그 주민등록 전입신고를 한 날부터 2년간 통일부장관의 허가를 받지 아니하고는 임대차계약을 해지하거나 그 주거지원에 따라 취득하게 된 소유권, 전세권 또는 임차권(이하 ",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "정착금 등의 지급",
+    "body": "제21조(정착금 등의 지급)\n① 통일부장관은 보호대상자의 정착 여건 및 생계유지 능력 등을 고려하여 정착금이나 그에 상응하는 가액의 물품(이하 \"정착금품\"이라 한다)을 지급할 수 있다. 이 경우 정착금품의 2분의 1을 초과하지 아니하는 범위에서 감액할 수 있다. <개정 2019.1.15>\n② 통일부장관은 보호대상자가 제공",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": "2",
+    "title": "정착자산 형성의 지원",
+    "body": "제21조의2(정착자산 형성의 지원)\n① 통일부장관은 보호대상자에게 정착에 필요한 자산을 형성할 수 있도록 재정적 지원과 자산활용에 필요한 교육을 실시할 수 있다.\n② 제1항에 따른 지원 대상ㆍ기준 및 교육에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0021021"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "거주지 보호",
+    "body": "제22조(거주지 보호)\n① 통일부장관은 보호대상자가 정착지원시설로부터 그의 거주지로 전입한 후 정착하여 스스로 생활하는 데 장애가 되는 사항을 해결하거나 그 밖에 자립ㆍ정착에 필요한 보호를 할 수 있다.\n② 통일부장관은 제1항에 따른 보호 업무를 행정안전부장관과 협의하여 지방자치단체장에게 위임할 수 있다. <개정 2013",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": "2",
+    "title": "거주지에서의 신변보호",
+    "body": "제22조의2(거주지에서의 신변보호)\n① 통일부장관은 제22조에 따라 보호대상자가 거주지로 전입한 후 그의 신변안전을 위하여 국방부장관이나 경찰청장에게 협조를 요청할 수 있으며, 협조요청을 받은 국방부장관이나 경찰청장은 이에 협조한다.\n② 제1항에 따른 신변보호(이하 이 조에서 \"신변보호\"라 한다)에 필요한 사항은 통일부장",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0022021"
+   },
+   {
+    "article_no": "22",
+    "article_branch": "3",
+    "title": "전문상담사제도 운영",
+    "body": "제22조의3(전문상담사제도 운영)\n① 통일부장관은 거주지에 전입한 북한이탈주민에 대한 정신건강 검사 등 전문적 상담서비스를 제공할 수 있는 북한이탈주민 전문상담사제도를 운영할 수 있다. <개정 2014.5.28>\n② 통일부장관은 제1항에 따른 전문상담사의 자질 향상을 위한 보수교육을 실시할 수 있다.\n③ 제1항 및 제2항",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0022031"
+   },
+   {
+    "article_no": "22",
+    "article_branch": "4",
+    "title": "보호 및 정착지원 업무 종사자 교육 실시",
+    "body": "제22조의4(보호 및 정착지원 업무 종사자 교육 실시)\n① 통일부장관은 이 법에 따른 북한이탈주민의 보호 및 정착지원 업무 중 다음 각 호의 어느 하나에 해당하는 업무를 수행하는 사람에게 북한이탈주민에 대한 이해 증진과 효율적인 업무 수행을 위하여 필요한 교육을 실시할 수 있다.\n1. 제16조에 따른 직업훈련 업무\n2. ",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0022041"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "보고 의무",
+    "body": "제23조(보고 의무)\n지방자치단체장은 대통령령으로 정하는 바에 따라 반기(半期)마다 보호대상자의 정착 실태 등을 파악하여 행정안전부장관을 거쳐 통일부장관에게 보고하여야 한다. <개정 2013.3.23, 2014.11.19, 2017.7.26>",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "교육지원",
+    "body": "제24조(교육지원)\n① 통일부장관은 대통령령으로 정하는 바에 따라 나이, 수학능력(修學能力), 출생지, 그 밖의 교육 여건 등을 고려하여 북한이탈주민과 그 자녀가 교육을 받을 수 있도록 필요한 지원을 할 수 있다. <개정 2024.10.22>\n② 통일부장관은 예산의 범위에서 대통령령으로 정하는 바에 따라 북한이탈주민을 대",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": "2",
+    "title": "북한이탈주민 예비학교의 설립",
+    "body": "제24조의2(북한이탈주민 예비학교의 설립)\n① 통일부장관은 탈북 청소년(제3국에서 출생한 북한이탈주민의 자녀로서 부 또는 모와 함께 정착지원시설에 입소한 사람을 포함한다)의 일반학교 진학을 지원하기 위하여 교육부장관과 협의하여 정착지원시설 내에 북한이탈주민 예비학교를 설립ㆍ운영할 수 있다. <개정 2013.3.23, 20",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0024021"
+   },
+   {
+    "article_no": "24",
+    "article_branch": "3",
+    "title": "공유재산의 대부ㆍ매각 및 사용 등에 관한 특례",
+    "body": "제24조의3(공유재산의 대부ㆍ매각 및 사용 등에 관한 특례)\n① 지방자치단체는 북한이탈주민 또는 그 자녀의 정착지원을 위하여 필요하다고 인정하는 경우에는 「공유재산 및 물품 관리법」에도 불구하고 공유재산을 북한이탈주민이나 그 자녀를 대상으로 교육을 실시하는 학교로서 「초ㆍ중등교육법」 제2조에 따른 학교에 수의(隨意)의 방",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0024031"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "의료급여 등",
+    "body": "제25조(의료급여 등)\n①통일부장관은 보호대상자와 그 가족에게 「의료급여법」에서 정하는 바에 따라 의료급여를 실시할 수 있다. <개정 2013.8.13>\n② 통일부장관은 「국민건강보험법」의 적용대상인 보호대상자의 경제적 능력 등을 고려하여 「국민건강보험법」 제69조에 따라 부담하여야 하는 보험료의 일부를 지원할 수 있다.",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "생활보호",
+    "body": "제26조(생활보호)\n1. 「국민기초생활 보장법」 제7조제1항제1호, 제8조(제2항은 제외한다), 제9조 및 제10조에 따른 생계급여\n2. 「국민기초생활 보장법」 제7조제1항제2호, 제11조 및 「주거급여법」(제5조는 제외한다)에 따른 주거급여\n3. 「국민기초생활 보장법」 제7조제1항제3호, 제12조의3(제2항은 제외한다)",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": "2",
+    "title": "국민연금에 대한 특례",
+    "body": "제26조의2(국민연금에 대한 특례)\n① 제8조에 따른 보호 결정 당시 50세 이상 60세 미만인 보호대상자는 「국민연금법」 제61조에도 불구하고 다음 각 호의 구분에 따른 날부터 국민연금을 받을 수 있다.\n1. 60세가 되기 전에 가입기간이 5년 이상 10년 미만 되는 사람: 60세가 되는 날\n2. 60세가 된 후에 가입",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0026021"
+   },
+   {
+    "article_no": "26",
+    "article_branch": "3",
+    "title": "생업 지원",
+    "body": "제26조의3(생업 지원)\n국가와 지방자치단체, 그 밖의 공공단체는 소관 공공시설에 편의사업 또는 편의시설의 설치를 허가하거나 위탁하는 경우 이 법에 따른 보호대상자의 신청이 있을 때에는 대통령령으로 정하는 바에 따라 이를 우선적으로 고려하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0026031"
+   },
+   {
+    "article_no": "26",
+    "article_branch": "4",
+    "title": "자금의 대여 등",
+    "body": "제26조의4(자금의 대여 등)\n보호대상자는 「근로자복지기본법」 제17조에 따른 생활안정자금 지원 및 「국민기초생활 보장법」 제15조에 따른 금품의 지급 또는 대여시 대상자 선정 및 지원 상한액 등에 있어 특별한 지원을 받을 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0026041"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "보호의 변경",
+    "body": "제27조(보호의 변경)\n① 통일부장관은 보호대상자가 다음 각 호의 어느 하나에 해당하는 경우에는 협의회의 심의를 거쳐 보호 및 정착지원을 중지하거나 종료할 수 있다.\n1. 1년 이상의 징역 또는 금고의 형을 선고받고 그 형이 확정된 경우\n2. 고의로 국가이익에 반하는 거짓 정보를 제공한 경우\n3. 사망선고나 실종선고를 받",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": null,
+    "body": "제28조\n삭제 <2014.5.28>",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "비용 부담",
+    "body": "제29조(비용 부담)\n① 이 법에 따른 보호 및 정착지원에 드는 비용은 국가가 부담한다.\n② 국가는 제22조제2항에 따른 보호 업무의 비용을 매년 해당 지방자치단체에 지급하며, 그 부족액을 추가로 지급하거나 초과액을 환수하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "북한이탈주민지원재단",
+    "body": "제30조(북한이탈주민지원재단)\n① 정부는 북한이탈주민에 대한 보호 및 정착지원을 위하여 북한이탈주민지원재단(이하 \"재단\"이라 한다)을 설립한다.\n② 재단은 법인으로 하며, 그 주된 사무소의 소재지에서 설립등기를 함으로써 성립한다.\n③ 재단의 정관에는 다음 각 호의 사항을 기재하여야 한다.\n1. 목적\n2. 명칭\n3. 임직원",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "권한의 위임ㆍ위탁",
+    "body": "제31조(권한의 위임ㆍ위탁)\n① 이 법에 따른 통일부장관의 권한 중 일부를 대통령령으로 정하는 바에 따라 그 소속 기관의 장이나 지방자치단체장에게 위임할 수 있다.\n② 이 법에 따른 통일부장관의 권한 중 일부를 대통령령으로 정하는 바에 따라 다른 행정기관의 장이나 관련 법인 또는 단체에 위탁할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "이의신청",
+    "body": "제32조(이의신청)\n① 이 법에 따른 보호 및 지원에 관한 처분에 이의가 있는 보호대상자는 그 처분의 통지를 받은 날부터 90일 이내에 통일부장관에게 서면으로 이의신청을 할 수 있다.\n② 통일부장관은 제1항에 따른 이의신청을 받은 때에는 지체 없이 이를 검토하여 처분이 위법 또는 부당하다고 인정되는 경우에는 그 시정이나 ",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제33조(벌칙)\n① 거짓이나 그 밖의 부정한 방법으로 이 법에 따른 보호 및 지원을 받거나 다른 사람으로 하여금 보호 및 지원을 받게 한 자는 5년 이하의 징역 또는 5천만원 이하의 벌금에 처한다. <개정 2014.1.21>\n② 이 법에 따른 업무와 관련하여 알게 된 정보 또는 자료를 정당한 사유 없이 이 법에 따른 업무",
+    "body_truncated": true,
+    "effective_on": "20251009",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "과태료",
+    "body": "제34조(과태료)\n① 제30조제14항을 위반하여 북한이탈주민지원재단 또는 이와 유사한 명칭을 사용한 자에게는 500만원 이하의 과태료를 부과한다.\n② 제1항에 따른 과태료는 통일부장관이 부과ㆍ징수한다.",
+    "body_truncated": false,
+    "effective_on": "20251009",
+    "article_key": "0034001"
+   }
+  ],
+  "article_count": 57,
+  "articles_shown": 57,
+  "articles_truncated_bodies": 42,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1182579",
+    "name": "목포시 북한이탈주민 정착지원에 관한 조례",
+    "region_id": "12110",
+    "org_name": "전남광주통합특별시 목포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1182579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1190380",
+    "name": "서울특별시 광진구 북한이탈주민 정착 지원에 관한 조례",
+    "region_id": "11215",
+    "org_name": "서울특별시 광진구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1190380&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1193419",
+    "name": "증평군 공공시설 내의 매점 및 자동판매기 설치에 관한 조례",
+    "region_id": "43745",
+    "org_name": "충청북도 증평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1193419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197412",
+    "name": "서울특별시 성북구 공공시설 내의 매점 및 자동판매기 등의 허가·위탁에 관한 조례",
+    "region_id": "11290",
+    "org_name": "서울특별시 성북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197412&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197717",
+    "name": "진도군 공공시설의 매점 및 자동판매기 설치 허가에 관한 조례",
+    "region_id": "12860",
+    "org_name": "전남광주통합특별시 진도군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197717&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1199717",
+    "name": "무안군 공공시설 내의 매점 및 자동판매기 설치 허가 조례",
+    "region_id": "12810",
+    "org_name": "전남광주통합특별시 무안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1199717&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1201989",
+    "name": "무주군 공공시설 내의 매점운영 및 자동판매기 설치의 우선허가 등에 관한 조례",
+    "region_id": "52730",
+    "org_name": "전북특별자치도 무주군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1201989&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1208321",
+    "name": "고양시 공공시설 내의 매점 및 자동판매기 설치에 관한 조례",
+    "region_id": "41280",
+    "org_name": "경기도 고양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1208321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1225419",
+    "name": "보성군 공공시설내의 매점 및 자동판매기 설치 허가에 관한 조례",
+    "region_id": "12750",
+    "org_name": "전남광주통합특별시 보성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1225419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1260362",
+    "name": "단양군 북한이탈주민 정착 지원에 관한 조례",
+    "region_id": "43800",
+    "org_name": "충청북도 단양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1260362&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1262722",
+    "name": "부산광역시 서구 북한이탈주민 정착 지원에 관한 조례",
+    "region_id": "26140",
+    "org_name": "부산광역시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1262722&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1265206",
+    "name": "서울특별시 서대문구 저소득 주민 등의 복지증진에 관한 조례",
+    "region_id": "11410",
+    "org_name": "서울특별시 서대문구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1265206&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1271812",
+    "name": "속초시 공공시설 내의 매점 및 자동판매기 등의 설치·계약에 관한 조례",
+    "region_id": "51210",
+    "org_name": "강원특별자치도 속초시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1271812&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1286837",
+    "name": "서울특별시 금천구 북한이탈주민 정착 지원에 관한 조례",
+    "region_id": "11545",
+    "org_name": "서울특별시 금천구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1286837&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1302261",
+    "name": "파주시 공공시설 내의 매점 및 자동판매기 설치에 관한 조례",
+    "region_id": "41480",
+    "org_name": "경기도 파주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1302261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1303113",
+    "name": "오산시 공공시설 내의 매점 및 자동판매기 설치 조례",
+    "region_id": "41370",
+    "org_name": "경기도 오산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1303113&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1303199",
+    "name": "전라남도교육청 공공시설 안의 매점 및 자동판매기 설치ㆍ운영 계약에 관한 조례",
+    "region_id": "edu:46",
+    "org_name": "(구)전라남도교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1303199&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1305044",
+    "name": "상주시 북한이탈주민 정착지원에 관한 조례",
+    "region_id": "47250",
+    "org_name": "경상북도 상주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1305044&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1309986",
+    "name": "부산광역시 해운대구 재난취약계층 지원 조례",
+    "region_id": "26350",
+    "org_name": "부산광역시 해운대구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1309986&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1318429",
+    "name": "경산시 북한이탈주민 정착지원에 관한 조례",
+    "region_id": "47290",
+    "org_name": "경상북도 경산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1318429&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

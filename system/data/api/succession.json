@@ -1,0 +1,503 @@
+{
+ "data": {
+  "successions": [
+   {
+    "old": {
+     "region_id": "42",
+     "sig_cd": "42000",
+     "name": "강원도",
+     "full_name": "강원도",
+     "level": 1,
+     "status": "renamed",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "51",
+     "sig_cd": "51000",
+     "name": "강원특별자치도",
+     "full_name": "강원특별자치도",
+     "level": 1,
+     "status": "active",
+     "ordinances": 1267
+    },
+    "succession_type": "개칭",
+    "effective_date": "2023-06-11",
+    "legal_basis": "강원특별자치도 설치 등에 관한 특별법",
+    "status_note": "행정안전부 '행정기관(행정동) 및 관할구역(법정동) 변경내역(2023.6.11. 시행)'로 확인. 기관코드는 642→653."
+   },
+   {
+    "old": {
+     "region_id": "47720",
+     "sig_cd": "47720",
+     "name": "군위군",
+     "full_name": "경상북도 군위군",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "27720",
+     "sig_cd": "27720",
+     "name": "군위군",
+     "full_name": "대구광역시 군위군",
+     "level": 2,
+     "status": "active",
+     "ordinances": 510
+    },
+    "succession_type": "승계",
+    "effective_date": "2023-07-01",
+    "legal_basis": "경상북도와 대구광역시 간 관할구역 변경에 관한 법률(및 지방자치법). 정확한 법률번호는 확인 필요",
+    "status_note": "행안부 보도자료·국가법령정보센터로 시행일·편입 확인. 하반기 과도기(경북 조례 준용) 후 2024-01-01부터 대구시 조례 전면 적용."
+   },
+   {
+    "old": {
+     "region_id": "45",
+     "sig_cd": "45000",
+     "name": "전라북도",
+     "full_name": "전라북도",
+     "level": 1,
+     "status": "renamed",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "52",
+     "sig_cd": "52000",
+     "name": "전북특별자치도",
+     "full_name": "전북특별자치도",
+     "level": 1,
+     "status": "active",
+     "ordinances": 1306
+    },
+    "succession_type": "개칭",
+    "effective_date": "2024-01-18",
+    "legal_basis": "전북특별자치도 설치 등에 관한 특별법",
+    "status_note": "행정안전부 '행정기관(행정동) 및 관할구역(법정동) 변경내역(2024.1.1.~ 일부)' 및 시도코드 변경 안내로 확인."
+   },
+   {
+    "old": {
+     "region_id": "28110",
+     "sig_cd": "28110",
+     "name": "중구",
+     "full_name": "인천광역시 중구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28125",
+     "sig_cd": "28125",
+     "name": "제물포구",
+     "full_name": "인천광역시 제물포구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 1078
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28110",
+     "sig_cd": "28110",
+     "name": "중구",
+     "full_name": "인천광역시 중구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28155",
+     "sig_cd": "28155",
+     "name": "영종구",
+     "full_name": "인천광역시 영종구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 944
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28110",
+     "sig_cd": "28110",
+     "name": "중구",
+     "full_name": "인천광역시 중구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28275",
+     "sig_cd": "28275",
+     "name": "서해구",
+     "full_name": "인천광역시 서해구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 751
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28110",
+     "sig_cd": "28110",
+     "name": "중구",
+     "full_name": "인천광역시 중구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28290",
+     "sig_cd": "28290",
+     "name": "검단구",
+     "full_name": "인천광역시 검단구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 508
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28140",
+     "sig_cd": "28140",
+     "name": "동구",
+     "full_name": "인천광역시 동구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28125",
+     "sig_cd": "28125",
+     "name": "제물포구",
+     "full_name": "인천광역시 제물포구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 1078
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28140",
+     "sig_cd": "28140",
+     "name": "동구",
+     "full_name": "인천광역시 동구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28155",
+     "sig_cd": "28155",
+     "name": "영종구",
+     "full_name": "인천광역시 영종구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 944
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28140",
+     "sig_cd": "28140",
+     "name": "동구",
+     "full_name": "인천광역시 동구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28275",
+     "sig_cd": "28275",
+     "name": "서해구",
+     "full_name": "인천광역시 서해구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 751
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28140",
+     "sig_cd": "28140",
+     "name": "동구",
+     "full_name": "인천광역시 동구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28290",
+     "sig_cd": "28290",
+     "name": "검단구",
+     "full_name": "인천광역시 검단구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 508
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28260",
+     "sig_cd": "28260",
+     "name": "서구",
+     "full_name": "인천광역시 서구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28125",
+     "sig_cd": "28125",
+     "name": "제물포구",
+     "full_name": "인천광역시 제물포구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 1078
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28260",
+     "sig_cd": "28260",
+     "name": "서구",
+     "full_name": "인천광역시 서구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28155",
+     "sig_cd": "28155",
+     "name": "영종구",
+     "full_name": "인천광역시 영종구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 944
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28260",
+     "sig_cd": "28260",
+     "name": "서구",
+     "full_name": "인천광역시 서구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28275",
+     "sig_cd": "28275",
+     "name": "서해구",
+     "full_name": "인천광역시 서해구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 751
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "28260",
+     "sig_cd": "28260",
+     "name": "서구",
+     "full_name": "인천광역시 서구",
+     "level": 2,
+     "status": "merged",
+     "ordinances": 0
+    },
+    "new": {
+     "region_id": "28290",
+     "sig_cd": "28290",
+     "name": "검단구",
+     "full_name": "인천광역시 검단구",
+     "level": 2,
+     "status": "active",
+     "ordinances": 508
+    },
+    "succession_type": "분리",
+    "effective_date": "2026-07-01",
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19)."
+   },
+   {
+    "old": {
+     "region_id": "29",
+     "sig_cd": "29000",
+     "name": "광주광역시",
+     "full_name": "광주광역시",
+     "level": 1,
+     "status": "merged",
+     "ordinances": 1724
+    },
+    "new": {
+     "region_id": "12",
+     "sig_cd": "12000",
+     "name": "전남광주통합특별시",
+     "full_name": "전남광주통합특별시",
+     "level": 1,
+     "status": "active",
+     "ordinances": 425
+    },
+    "succession_type": "통합",
+    "effective_date": "2026-07-01",
+    "legal_basis": "전남광주통합특별시 설치를 위한 특별법(법률 제21446호, 2026-03-05 공포, 2026-07-01 시행; 국회 본회의 2026-03-01 가결)",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19). 앞선 추정('강원51·전북52 다음 순번상 53 후보')은 틀렸음. 실제 시도코드는 12 [실측]. 하위 시군구도 12XXX 로 재부여됨(예 목포시 12110 = region_cd 1211000000)."
+   },
+   {
+    "old": {
+     "region_id": "46",
+     "sig_cd": "46000",
+     "name": "전라남도",
+     "full_name": "전라남도",
+     "level": 1,
+     "status": "merged",
+     "ordinances": 1127
+    },
+    "new": {
+     "region_id": "12",
+     "sig_cd": "12000",
+     "name": "전남광주통합특별시",
+     "full_name": "전남광주통합특별시",
+     "level": 1,
+     "status": "active",
+     "ordinances": 425
+    },
+    "succession_type": "통합",
+    "effective_date": "2026-07-01",
+    "legal_basis": "전남광주통합특별시 설치를 위한 특별법(법률 제21446호, 2026-03-05 공포, 2026-07-01 시행; 국회 본회의 2026-03-01 가결)",
+    "status_note": "[실측] StanReginCd API 실조회로 확정(2026-08-19). 앞선 추정('강원51·전북52 다음 순번상 53 후보')은 틀렸음. 실제 시도코드는 12 [실측]. 하위 시군구도 12XXX 로 재부여됨(예 목포시 12110 = region_cd 1211000000)."
+   }
+  ],
+  "events": [
+   {
+    "effective_date": "2023-06-11",
+    "succession_type": "개칭",
+    "count": 1,
+    "old_regions": [
+     "42"
+    ],
+    "new_regions": [
+     "51"
+    ],
+    "legal_basis": "강원특별자치도 설치 등에 관한 특별법"
+   },
+   {
+    "effective_date": "2023-07-01",
+    "succession_type": "승계",
+    "count": 1,
+    "old_regions": [
+     "47720"
+    ],
+    "new_regions": [
+     "27720"
+    ],
+    "legal_basis": "경상북도와 대구광역시 간 관할구역 변경에 관한 법률(및 지방자치법). 정확한 법률번호는 확인 필요"
+   },
+   {
+    "effective_date": "2024-01-18",
+    "succession_type": "개칭",
+    "count": 1,
+    "old_regions": [
+     "45"
+    ],
+    "new_regions": [
+     "52"
+    ],
+    "legal_basis": "전북특별자치도 설치 등에 관한 특별법"
+   },
+   {
+    "effective_date": "2026-07-01",
+    "succession_type": "분리",
+    "count": 12,
+    "old_regions": [
+     "28110",
+     "28140",
+     "28260"
+    ],
+    "new_regions": [
+     "28125",
+     "28155",
+     "28275",
+     "28290"
+    ],
+    "legal_basis": "인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률; 인천광역시 서구 명칭 변경에 관한 법률"
+   },
+   {
+    "effective_date": "2026-07-01",
+    "succession_type": "통합",
+    "count": 2,
+    "old_regions": [
+     "29",
+     "46"
+    ],
+    "new_regions": [
+     "12"
+    ],
+    "legal_basis": "전남광주통합특별시 설치를 위한 특별법(법률 제21446호, 2026-03-05 공포, 2026-07-01 시행; 국회 본회의 2026-03-01 가결)"
+   }
+  ],
+  "totals": {
+   "rows": 17,
+   "events": 5,
+   "regions_by_status": {
+    "abolished": 245,
+    "active": 303,
+    "merged": 6,
+    "renamed": 2
+   },
+   "ordinances_in_superseded_regions": 2851
+  },
+  "audit": {
+   "T7_region_no_longer_exists": 1362,
+   "T8_orphan_region": 5142,
+   "note": "승계로 사라진 지자체의 조례는 신 코드로 자동 이관되지 않는다. temporal_audit 의 T7/T8 이 그 잔여를 센다."
+  },
+  "caveat": "승계 이후 조례의 효력은 특별법 부칙의 경과규정에 따른다. 이 표는 코드 대응 관계이지 조례 효력 판단이 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

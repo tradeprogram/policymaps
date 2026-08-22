@@ -1,0 +1,793 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:253973",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "지방자치단체를 당사자로 하는 계약에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2023-08-16",
+   "effective_on": "20240217",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=253973&type=HTML&mobileYn=&efYd=20240217",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 1214,
+   "child_ordinances": 1151,
+   "by_verification_status": {
+    "article-missing": 221,
+    "article-verified": 248,
+    "unverifiable": 745
+   },
+   "by_delegation_type": {
+    "law-delegated": 1214
+   },
+   "regions_top": [
+    {
+     "region_id": "44210",
+     "name": "충청남도 서산시",
+     "ordinances": 16
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 12
+    },
+    {
+     "region_id": "41500",
+     "name": "경기도 이천시",
+     "ordinances": 11
+    },
+    {
+     "region_id": "29",
+     "name": "광주광역시",
+     "ordinances": 11
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 10
+    },
+    {
+     "region_id": "52190",
+     "name": "전북특별자치도 남원시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "52110",
+     "name": "전북특별자치도 전주시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "51230",
+     "name": "강원특별자치도 삼척시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "44200",
+     "name": "충청남도 아산시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "41670",
+     "name": "경기도 여주시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "41270",
+     "name": "경기도 안산시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "12300",
+     "name": "전남광주통합특별시 북구",
+     "ordinances": 9
+    },
+    {
+     "region_id": "12270",
+     "name": "전남광주통합특별시 남구",
+     "ordinances": 9
+    },
+    {
+     "region_id": "51210",
+     "name": "강원특별자치도 속초시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "44",
+     "name": "충청남도",
+     "ordinances": 8
+    },
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "43",
+     "name": "충청북도",
+     "ordinances": 8
+    },
+    {
+     "region_id": "41590",
+     "name": "경기도 화성시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "41480",
+     "name": "경기도 파주시",
+     "ordinances": 8
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 지방자치단체를 당사자로 하는 계약에 관한 기본적인 사항을 정함으로써 계약업무를 원활하게 수행할 수 있도록 함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "적용 범위",
+    "body": "제2조(적용 범위)\n이 법은 지방자치단체(「지방자치법」 제2조에 따른 지방자치단체를 말한다. 이하 같다)가 계약상대자와 체결하는 수입 및 지출의 원인이 되는 계약 등에 대하여 적용한다.",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "교육ㆍ과학 및 체육에 관한 사항의 적용",
+    "body": "제3조(교육ㆍ과학 및 체육에 관한 사항의 적용)\n이 법에서 교육ㆍ과학 및 체육에 관한 사항에 관하여는 \"지방자치단체의 장\" 또는 \"특별시장ㆍ광역시장ㆍ도지사\"는 \"교육감\"으로, \"행정안전부장관\"은 \"교육부장관\"으로, \"행정안전부\"는 \"교육부\"로 각각 본다. <개정 2008.2.29, 2013.3.23, 2014.11.19,",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "다른 법률과의 관계",
+    "body": "제4조(다른 법률과의 관계)\n지방자치단체를 당사자로 하는 계약에 관하여는 다른 법률에 특별한 규정이 있는 경우 외에는 이 법에서 정하는 바에 따른다.",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "국제입찰에 의한 지방자치단체 계약의 범위",
+    "body": "제5조(국제입찰에 의한 지방자치단체 계약의 범위)\n① 국제입찰에 의한 지방자치단체 계약은 지방자치단체가 체결하는 공사ㆍ물품ㆍ용역의 계약 중에서 대한민국이 당사자인 정부조달에 관한 조약ㆍ협약ㆍ협정 등이나 그 밖의 국제규범(이하 \"정부조달협정등\"이라 한다)에 따라 행정안전부장관이 그 적용 대상인 지방자치단체, 대상 금액, 공",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "계약의 원칙",
+    "body": "제6조(계약의 원칙)\n① 계약은 상호 대등한 입장에서 당사자의 합의에 따라 체결되어야 하고, 당사자는 계약의 내용을 신의성실의 원칙에 따라 이행하여야 한다. <개정 2023.4.11>\n② 지방자치단체의 장 또는 계약담당자는 제5조제1항에 따른 국제입찰의 경우에는 호혜(互惠)의 원칙에 따라 정부조달협정등에 가입한 국가의 국",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "청렴서약제",
+    "body": "제6조의2(청렴서약제)\n① 지방자치단체의 장 또는 계약담당자는 계약의 투명성과 공정성을 높이기 위하여 입찰참가자 또는 수의계약(隨意契約)의 계약상대자에게 청렴서약서를 제출하도록 하여야 한다.\n② 제1항에 따른 청렴서약서에는 다음 각 호의 사항이 포함되어야 한다.\n1. 입찰, 낙찰, 계약의 체결 및 이행, 제16조에 따른 ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "3",
+    "title": "근로관계법령의 준수",
+    "body": "제6조의3(근로관계법령의 준수)\n지방자치단체의 장 또는 계약담당공무원은 계약을 체결할 때 계약상대자로 하여금 해당 계약을 이행하는 근로자(「하도급거래 공정화에 관한 법률」에 따른 수급사업자가 고용한 근로자를 포함한다)의 근로조건이 「근로기준법」 등 근로관계 법령을 준수하도록 하는 내용을 계약서에 포함시킬 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0006031"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "계약사무의 위임ㆍ위탁",
+    "body": "제7조(계약사무의 위임ㆍ위탁)\n① 지방자치단체의 장은 다른 법령에서 정한 경우 외에는 그 소관 계약사무를 처리하기 위하여 필요하다고 인정되면 그 사무의 전부 또는 일부를 「지방회계법」에 따른 회계관계공무원, 중앙행정기관의 장, 다른 지방자치단체의 장 또는 대통령령으로 정하는 전문기관에 위임하거나 위탁하여 처리하게 할 수 ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "계약의 대행",
+    "body": "제8조(계약의 대행)\n① 지방자치단체의 장은 그 관할 행정구역의 시설물 설치 및 유지ㆍ관리와 물품 구매 등을 위하여 그 지역 주민들의 대행 요구가 있는 등 특히 필요하다고 인정되면 그 지방자치단체 외의 자로부터 계약 대행을 요청받아 대행할 수 있다.\n② 제1항에 따라 계약을 대행하는 지방자치단체의 장은 계약 이행에 드는 ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "계약의 방법",
+    "body": "제9조(계약의 방법)\n① 지방자치단체의 장 또는 계약담당자는 계약을 체결하려는 경우에는 이를 공고하여 일반입찰에 부쳐야 한다. 다만, 계약의 목적ㆍ성질ㆍ규모 및 지역특수성 등을 고려하여 필요하다고 인정되면 참가자를 지명(指名)하여 입찰에 부치거나 수의계약을 할 수 있다. <개정 2013.8.6>\n② 제1항 본문에 따라 일",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "2",
+    "title": "구매규격 사전공개",
+    "body": "제9조의2(구매규격 사전공개)\n① 지방자치단체의 장 또는 계약담당자는 입찰에 부치는 경우에는 입찰 공고 전에 물품과 용역의 구매규격을 관련 업체에 사전공개하고 이를 열람하도록 하여 구매규격에 대한 의견을 제시할 수 있도록 하여야 한다. 다만, 긴급 수요물자ㆍ비밀물자 또는 추정가격이 5천만원 미만인 물품ㆍ용역 등 대통령령으",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0009021"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "입찰공고",
+    "body": "제10조(입찰공고)\n① 지방자치단체의 장 또는 계약담당자는 입찰에 부치는 경우에는 입찰에 관한 사항을 공고하거나 통지하여야 한다.\n② 제1항에 따른 입찰공고 또는 통지의 방법ㆍ내용ㆍ시기, 그 밖에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "예정가격의 작성",
+    "body": "제11조(예정가격의 작성)\n① 지방자치단체의 장 또는 계약담당자는 입찰 또는 수의계약 등에 부칠 사항에 대하여 낙찰자 및 계약금액의 결정기준으로 삼기 위하여 미리 해당 규격서 및 설계서 등에 따라 예정가격을 작성하여야 한다. 다만, 다른 지방자치단체와 계약을 체결하는 경우 등 대통령령으로 정하는 경우에는 예정가격을 작성하",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "입찰보증금",
+    "body": "제12조(입찰보증금)\n① 지방자치단체의 장 또는 계약담당자는 입찰에 참가하려는 자로 하여금 입찰보증금을 내도록 하여야 한다. 다만, 다른 지방자치단체, 「공공기관의 운영에 관한 법률」에 따른 공공기관(이하 \"공공기관\"이라 한다) 및 「지방공기업법」에 따른 지방공기업(이하 \"지방공기업\"이라 한다) 등 대통령령으로 정하는 입",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "낙찰자 결정",
+    "body": "제13조(낙찰자 결정)\n① 지방자치단체 수입의 원인이 되는 입찰에서는 최고가격의 입찰자를 낙찰자로 한다. 다만, 계약의 목적, 입찰가격 및 수량 등을 고려하여 대통령령으로 기준을 정한 경우에는 그에 따른다.\n② 지방자치단체 재정지출의 부담이 되는 입찰에서는 다음 각 호의 어느 하나에 해당하는 입찰자를 낙찰자로 한다.\n1.",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "계약서의 작성 및 계약의 성립",
+    "body": "제14조(계약서의 작성 및 계약의 성립)\n① 지방자치단체의 장 또는 계약담당자는 계약을 체결하려는 경우에는 계약의 목적, 계약금액, 이행기간, 계약보증금, 위험부담, 지연배상금(遲延賠償金), 그 밖에 필요한 사항을 명백히 적은 계약서를 작성하여야 한다. 다만, 대통령령으로 정하는 경우에는 계약서의 작성을 생략할 수 있다.",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "계약보증금",
+    "body": "제15조(계약보증금)\n① 지방자치단체의 장 또는 계약담당자는 지방자치단체와 계약을 체결하려는 자로 하여금 계약보증금을 내도록 하여야 한다. 다만, 다른 지방자치단체, 공공기관 및 지방공기업 등 대통령령으로 정하는 계약상대자에 대하여는 계약보증금의 납부를 면제할 수 있다.\n② 제1항에 따른 계약보증금의 금액ㆍ납부방법, 그 ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "감독",
+    "body": "제16조(감독)\n① 지방자치단체의 장 또는 계약담당자는 공사ㆍ물품ㆍ용역 등의 계약을 체결한 경우에 그 계약을 적절하게 이행하도록 하기 위하여 필요하다고 인정하면 계약서ㆍ설계서 및 그 밖의 관계 서류에 따라 감독하거나 소속 공무원 등에게 그 사무를 위임하여 감독하게 하여야 한다. 다만, 대통령령으로 정하는 계약의 경우에는 ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "검사",
+    "body": "제17조(검사)\n① 지방자치단체의 장 또는 계약담당자는 계약상대자가 계약의 전부 또는 일부의 이행을 끝내면 이를 확인하기 위하여 계약서ㆍ설계서 및 그 밖의 관계 서류에 따라 이를 검사하거나 소속 공무원 등에게 위임하여 검사하게 하여야 한다. 다만, 다음 각 호의 어느 하나에 해당하는 계약의 경우에는 전문기관을 따로 지정하",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "대가의 지급",
+    "body": "제18조(대가의 지급)\n① 지방자치단체의 장 또는 계약담당자는 공사ㆍ물품ㆍ용역, 그 밖에 재정지출의 부담이 되는 계약에서는 검사한 후 또는 검사조서를 작성한 후에 그 대가를 지급하여야 한다. 다만, 「지방회계법」에 따라 선금급(先金給)을 지급하거나 국제관례 등 부득이한 사유가 있다고 인정되는 경우에는 그러하지 아니하다. ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "대가의 선납",
+    "body": "제19조(대가의 선납)\n지방자치단체의 장 또는 계약담당자는 재산의 매각ㆍ임대, 용역의 제공, 그 밖에 수입의 원인이 되는 계약에서는 다른 법령에 특별한 규정이 없으면 계약상대자로 하여금 그 대가를 미리 내도록 하여야 한다. 이 경우 계약상대자는 제15조에 따른 계약보증금을 내지 아니할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "계약의 담보책임",
+    "body": "제20조(계약의 담보책임)\n① 지방자치단체의 장 또는 계약담당자는 공사의 도급계약을 체결할 때에는 그 담보책임의 존속기간을 정하여야 한다.\n② 지방자치단체의 장 또는 계약담당자는 물품 및 용역 등의 계약을 체결할 때에는 그 계약의 성질상 필요한 경우 담보책임의 존속기간을 정할 수 있다.\n③ 지방자치단체의 장 또는 계약담당",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "하자보수보증금",
+    "body": "제21조(하자보수보증금)\n① 지방자치단체의 장 또는 계약담당자는 제20조제1항 및 제2항에 따라 담보책임의 존속기간을 정한 경우에는 계약상대자로 하여금 그 계약의 하자보수를 보증하기 위하여 하자보수보증금을 내도록 하여야 한다. 다만, 다른 지방자치단체, 공공기관 및 지방공기업 등 대통령령으로 정하는 계약상대자에 대하여는 ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "물가 변동 등에 따른 계약금액의 조정",
+    "body": "제22조(물가 변동 등에 따른 계약금액의 조정)\n① 지방자치단체의 장 또는 계약담당자는 공사ㆍ물품ㆍ용역, 그 밖에 재정지출의 원인이 되는 계약을 체결한 후 물가 변동 및 설계 변경, 그 밖에 계약내용의 변경으로 인하여 계약금액을 조정할 필요가 있으면 대통령령으로 정하는 바에 따라 그 계약금액을 조정한다. <개정 2018.",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "회계연도 시작 전 또는 예산배정 전의 계약체결",
+    "body": "제23조(회계연도 시작 전 또는 예산배정 전의 계약체결)\n지방자치단체의 장 또는 계약담당자는 그 지방자치단체의 긴급한 재해복구계약 또는 임차ㆍ운송ㆍ보관 계약 등 그 성질상 중단할 수 없는 계약에서는 대통령령으로 정하는 바에 따라 회계연도 시작 전 또는 예산배정 전이라도 그 회계연도의 확정된 예산의 범위에서 미리 계약을 체",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "장기계속계약 및 계속비계약",
+    "body": "제24조(장기계속계약 및 계속비계약)\n① 지방자치단체의 장 또는 계약담당자는 이행에 수년이 걸리는 공사ㆍ제조 또는 용역 등의 계약은 다음 각 호의 구분에 따라 체결한다.\n1. 총액으로 입찰하여 각 회계연도 예산의 범위에서 낙찰된 금액의 일부에 대하여 연차별로 계약을 체결하는 장기계속계약\n2. 「지방재정법」 제42조에 따라",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "단가계약",
+    "body": "제25조(단가계약)\n① 지방자치단체의 장 또는 계약담당자는 일정한 기간 계속하여 제조ㆍ구매ㆍ수리ㆍ보수ㆍ복구ㆍ가공ㆍ매매ㆍ공급ㆍ사용 등의 계약을 체결할 필요가 있을 때에는 해당 회계연도 예산의 범위에서 미리 단가(單價)에 대하여 계약을 체결할 수 있다.\n② 제1항에 따른 단가계약의 범위ㆍ절차ㆍ기준, 그 밖에 필요한 사항은 대",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "제3자를 위한 단가계약",
+    "body": "제26조(제3자를 위한 단가계약)\n① 특별시장ㆍ광역시장ㆍ도지사는 관할 구역 안에 있는 시ㆍ군ㆍ구(자치구를 말한다. 이하 같다)에 공통적으로 필요한 물자로서 제조ㆍ구매 및 가공 등의 계약에 관하여 시ㆍ군ㆍ구의 요청이 있는 경우에는 미리 단가만을 정하고 그 물자의 납품요구 및 그 대금지급은 각 시ㆍ군ㆍ구에서 직접 처리할 수 ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "개산계약",
+    "body": "제27조(개산계약)\n① 지방자치단체의 장 또는 계약담당자는 다음 각 호의 어느 하나에 해당되는 계약으로서 미리 가격을 정할 수 없을 때에는 대통령령으로 정하는 바에 따라 개산계약(槪算契約)을 체결할 수 있다. <개정 2021.1.12>\n1. 개발시제품(開發試製品)의 제조계약\n2. 시험ㆍ조사ㆍ연구용역의 계약\n3. 중앙행정기",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "종합계약 등",
+    "body": "제28조(종합계약 등)\n① 지방자치단체의 장 또는 계약담당자는 중앙행정기관, 다른 지방자치단체, 「공공기관의 운영에 관한 법률」에 따른 공기업 및 준정부기관, 지방공기업, 지방자치단체 출연ㆍ출자기관 또는 지방자치단체조합 등과 관련되는 공사 등에 대하여 관련 기관과 공동으로 종합계약을 체결할 수 있다.\n② 제1항에 따른 종",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "공동계약",
+    "body": "제29조(공동계약)\n① 지방자치단체의 장 또는 계약담당자는 필요하다고 인정하면 계약상대자를 2명 이상으로 하는 공동계약을 체결할 수 있다.\n② 지방자치단체의 장 또는 계약담당자는 제1항에 따른 공동계약의 경우 입찰 참가자격으로 지역을 제한하지 아니하는 입찰로서 건설업 등의 균형발전을 위하여 필요하다고 인정할 때에는 공사현",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "지연배상금 등",
+    "body": "제30조(지연배상금 등)\n① 지방자치단체의 장 또는 계약담당자는 정당한 사유 없이 계약의 이행을 지체한 계약상대자로 하여금 지연배상금을 내도록 하여야 한다.\n② 제1항에 따른 지연배상금의 금액ㆍ납부방법과 그 밖에 필요한 사항은 대통령령으로 정한다.\n③ 지방자치단체의 장 또는 계약담당자는 계약상대자가 지연배상금을 내지 아니",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": "2",
+    "title": "계약의 해제ㆍ해지 등",
+    "body": "제30조의2(계약의 해제ㆍ해지 등)\n① 지방자치단체의 장 또는 계약담당자는 다음 각 호의 어느 하나에 해당하는 사유가 발생하면 낙찰자 결정을 취소하거나 계약을 해제 또는 해지할 수 있다.\n1. 계약상대자의 계약상 의무 불이행을 이유로 제15조제3항에 따라 계약보증금 또는 계약보증금에 해당하는 금액을 해당 지방자치단체에 세",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0030021"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "부정당업자의 입찰 참가자격 제한",
+    "body": "제31조(부정당업자의 입찰 참가자격 제한)\n① 지방자치단체의 장(지방자치단체의 장이 제7조제1항에 따라 중앙행정기관의 장 또는 다른 지방자치단체의 장에게 계약사무를 위임하거나 위탁하여 처리하는 경우에는 그 위임 또는 위탁을 받은 중앙행정기관의 장 또는 지방자치단체의 장을 포함한다. 이하 제6항ㆍ제7항, 제31조의2제1항ㆍ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": "2",
+    "title": "과징금",
+    "body": "제31조의2(과징금)\n① 지방자치단체의 장은 제31조제1항에 따라 부정당업자에 대하여 입찰 참가자격을 제한하여야 하는 경우로서 다음 각 호의 어느 하나에 해당하는 경우에는 부정당업자의 신청에 따라 입찰 참가자격 제한을 갈음하여 다음 각 호의 구분에 따른 금액 이하의 과징금을 부과할 수 있다.\n1. 부정당업자의 위반행위가 ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0031021"
+   },
+   {
+    "article_no": "31",
+    "article_branch": "3",
+    "title": null,
+    "body": "제31조의3\n삭제 <2023.8.16>",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0031031"
+   },
+   {
+    "article_no": "31",
+    "article_branch": "4",
+    "title": "하도급대금 직불조건부 입찰참가",
+    "body": "제31조의4(하도급대금 직불조건부 입찰참가)\n① 지방자치단체의 장은 계약상대자가 「건설산업기본법」 제34조제1항 또는 「하도급거래 공정화에 관한 법률」 제13조제1항 또는 제3항을 위반한 사실을 확인한 때에는 해당 계약상대자 및 위반행위를 중앙행정기관 및 다른 지방자치단체의 장에게 지체 없이 통보하여야 한다.\n② 지방자치",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0031041"
+   },
+   {
+    "article_no": "31",
+    "article_branch": "5",
+    "title": "조세포탈 등을 한 자의 입찰 참가자격 제한",
+    "body": "제31조의5(조세포탈 등을 한 자의 입찰 참가자격 제한)\n① 지방자치단체의 장은 대통령령으로 정하는 조세포탈 등을 한 자로서 유죄판결이 확정된 날부터 2년이 지나지 아니한 자에 대해서는 입찰 참가자격을 제한하여야 한다.\n② 제1항에 따라 입찰 참가자격을 제한받은 자와의 수의계약 체결에 관하여는 제31조제5항을 준용한다.\n",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0031051"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "계약심의위원회의 설치ㆍ운영",
+    "body": "제32조(계약심의위원회의 설치ㆍ운영)\n① 지방자치단체의 장은 다음 각 호의 어느 하나에 해당하는 사항의 적절성과 적법성을 심의하기 위하여 계약심의위원회를 설치ㆍ운영한다. <개정 2013.8.6, 2016.5.29>\n1. 대통령령으로 정하는 규모 이상의 계약과 관련된 다음 각 목의 사항\n가. 입찰에서 입찰참가자의 자격 제한",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "입찰 및 계약체결의 제한",
+    "body": "제33조(입찰 및 계약체결의 제한)\n① 지방자치단체의 장 또는 지방의회의원은 그 지방자치단체와 영리를 목적으로 하는 계약을 체결할 수 없다.\n② 다음 각 호의 어느 하나에 해당하는 자가 사업자(법인의 경우 대표자를 말한다)인 경우에는 그 지방자치단체와 영리를 목적으로 하는 수의계약을 체결할 수 없다. <개정 2020.12",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": "2",
+    "title": "자료 제출 요구 등",
+    "body": "제33조의2(자료 제출 요구 등)\n① 지방자치단체의 장 또는 계약담당자는 제33조제2항에 따라 수의계약을 체결할 수 없는 자의 여부를 확인하기 위하여 관계 행정기관 등(지방의회를 포함한다)에 대통령령으로 정하는 자료의 제출이나 사실 조회를 요구하여야 한다. <개정 2018.12.24>\n② 제1항에 따라 자료의 제출이나 사",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0033021"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "이의신청",
+    "body": "제34조(이의신청)\n① 국제입찰에 의한 지방자치단체 계약 또는 대통령령으로 정하는 규모 이상의 입찰에 의한 계약과정에서 다음 각 호의 어느 하나에 해당하는 사항으로 인하여 불이익을 받은 자는 해당 지방자치단체의 장에게 그 행위의 취소 또는 시정을 위한 이의신청을 제기할 수 있다. <개정 2023.4.11>\n1. 제5조제1",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": "2",
+    "title": "분쟁해결방법의 합의",
+    "body": "제34조의2(분쟁해결방법의 합의)\n① 지방자치단체의 장 또는 계약담당자는 지방자치단체를 당사자로 하는 계약에서 발생하는 분쟁을 효율적으로 해결하기 위하여 계약을 체결하는 때에 계약당사자 간 분쟁의 해결방법을 정할 수 있다.\n② 제1항에 따른 분쟁의 해결방법은 다음 각 호의 어느 하나 중 계약당사자 간 합의로 정한다. <개",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0034021"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "지방계약심의조정위원회의 설치",
+    "body": "제35조(지방계약심의조정위원회의 설치)\n1. 제31조의2제1항 및 제3항에 따른 과징금의 부과 여부와 부과 금액의 적정성에 대한 심의\n2. 제34조제4항에 따른 재심청구(이하 \"재심청구\"라 한다)에 대한 심사\n3. 제34조의2제3항에 따른 조정신청(이하 \"조정신청\"이라 한다)에 대한 분쟁 조정",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0035001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": "2",
+    "title": "위원회의 구성 및 운영",
+    "body": "제35조의2(위원회의 구성 및 운영)\n① 위원회는 위원장을 포함하여 25명 이내의 위원으로 구성한다. <개정 2023.8.16>\n② 위원회의 위원장은 행정안전부장관이 지명하는 고위공무원단에 속하는 공무원이 되고, 위원은 행정안전부장관이 정하는 관계 중앙행정기관과 지방자치단체의 소속공무원 중에서 해당 기관의 장이 지명하는 ",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0035021"
+   },
+   {
+    "article_no": "36",
+    "article_branch": null,
+    "title": "계약절차 등의 중지",
+    "body": "제36조(계약절차 등의 중지)\n① 위원회는 심사ㆍ조정에 착수하는 경우 청구인 및 해당 지방자치단체의 장에게 그 사실을 통지하여야 한다.\n② 위원회는 당사자의 신청 또는 위원회의 직권에 의하여 필요하다고 인정되면 조정이 끝날 때까지 그 입찰절차를 연기하거나 계약체결 및 이행을 중지할 것을 명할 수 있다. 이 경우 해당 지방",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0036001"
+   },
+   {
+    "article_no": "37",
+    "article_branch": null,
+    "title": "심사ㆍ조정",
+    "body": "제37조(심사ㆍ조정)\n① 위원회는 특별한 사유가 없으면 재심청구ㆍ조정신청을 받은 날부터 50일 이내에 심사ㆍ조정하여야 한다. <개정 2018.12.24>\n② 위원회는 제1항에 따른 심사ㆍ조정을 한 경우에는 지체 없이 그 결과를 청구인과 해당 지방자치단체의 장에게 통지하여야 한다.\n③ 제1항에 따른 조정은 청구인과 해당 지",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0037001"
+   },
+   {
+    "article_no": "38",
+    "article_branch": null,
+    "title": "벌칙 적용에서 공무원 의제",
+    "body": "제38조(벌칙 적용에서 공무원 의제)\n1. 제7조제1항에 따라 위임ㆍ위탁을 받아 계약사무를 처리하는 기관의 계약 관련 업무를 수행하는 자(그 계약사무 처리와 관련하여 위원회 등이 설치된 경우 그 위원회 등의 위원을 포함한다)\n2. 제16조제2항에 따른 주민참여감독자\n3. 제31조제1항제7호아목에 따른 위원\n4. 삭제<20",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0038001"
+   },
+   {
+    "article_no": "39",
+    "article_branch": null,
+    "title": "지방계약담당공무원의 교육 등",
+    "body": "제39조(지방계약담당공무원의 교육 등)\n① 행정안전부장관은 지방계약담당공무원의 자질을 높이기 위하여 필요한 교육을 실시할 수 있다. <개정 2013.3.23, 2013.8.6, 2014.11.19, 2017.7.26>\n② 지방자치단체의 장 또는 계약담당자는 제7조제1항에 따른 전문기관 중에서 계약 및 회계에 관한 전문인력",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0039001"
+   },
+   {
+    "article_no": "40",
+    "article_branch": null,
+    "title": "계약실적보고서의 제출",
+    "body": "제40조(계약실적보고서의 제출)\n지방자치단체의 장은 대통령령으로 정하는 바에 따라 계약실적보고서를 행정안전부장관에게 제출하여야 한다. <개정 2013.3.23, 2014.11.19, 2017.7.26>",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0040001"
+   },
+   {
+    "article_no": "41",
+    "article_branch": null,
+    "title": "계약에 관한 법령에 대한 협의",
+    "body": "제41조(계약에 관한 법령에 대한 협의)\n중앙행정기관의 장은 지방자치단체의 계약에 관한 법령을 입안(立案)할 때에는 행정안전부장관과 미리 협의하여야 한다. <개정 2013.3.23, 2014.11.19, 2017.7.26>",
+    "body_truncated": false,
+    "effective_on": "20240217",
+    "article_key": "0041001"
+   },
+   {
+    "article_no": "42",
+    "article_branch": null,
+    "title": "평가",
+    "body": "제42조(평가)\n① 지방자치단체의 장은 지방자치단체에서 체결하는 계약 중 다음 각 호에 해당하는 경우에는 시공과정ㆍ시공품질 등에 대하여 평가를 실시하거나 전문기관에 평가를 의뢰할 수 있다. <개정 2013.5.22>\n1. 대통령령으로 정하는 규모 이상의 물품 및 용역 제공\n2. 대통령령으로 정하는 규모 이상의 공사. 다만",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0042001"
+   },
+   {
+    "article_no": "43",
+    "article_branch": null,
+    "title": "계약과정의 공개",
+    "body": "제43조(계약과정의 공개)\n① 지방자치단체의 장 또는 계약담당자는 발주계획, 입찰, 계약, 설계변경 및 그로 인한 계약금액의 조정, 감독, 검사, 대가의 지급 등 입찰, 계약, 계약의 이행과 관련되는 사항 중 대통령령으로 정하는 사항을 공개하여야 한다.\n② 제1항에 따른 공개의 절차, 기간, 방법, 그 밖에 공개에 필요한",
+    "body_truncated": true,
+    "effective_on": "20240217",
+    "article_key": "0043001"
+   }
+  ],
+  "article_count": 54,
+  "articles_shown": 54,
+  "articles_truncated_bodies": 44,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:2124825",
+    "name": "인천광역시 공익사업을 위한 보상업무 위탁 조례",
+    "region_id": "28",
+    "org_name": "인천광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125007",
+    "name": "과천시 건설공사 부실 방지에 관한 조례",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125007&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125419",
+    "name": "파주시 사무의 민간위탁에 관한 조례",
+    "region_id": "41480",
+    "org_name": "경기도 파주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125539",
+    "name": "함평군의회 의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "region_id": "12820",
+    "org_name": "전남광주통합특별시 함평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125539&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125721",
+    "name": "용인시 수도 급수 조례",
+    "region_id": "41460",
+    "org_name": "경기도 용인시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125721&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125879",
+    "name": "하동군의회 의원 윤리강령 및 행동강령 조례",
+    "region_id": "48850",
+    "org_name": "경상남도 하동군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125879&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125939",
+    "name": "광주광역시 건설신기술 활용 촉진에 관한 조례",
+    "region_id": "29",
+    "org_name": "(구)광주광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125939&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125947",
+    "name": "부천시 성골지구 도시개발사업 시행 조례 시행규칙",
+    "region_id": "41190",
+    "org_name": "경기도 부천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125947&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126203",
+    "name": "수원시의회 의원 윤리강령 및 윤리실천규범 조례",
+    "region_id": "41110",
+    "org_name": "경기도 수원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126203&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126291",
+    "name": "수원시 상수도 원인자부담금 등 산정ㆍ징수 조례",
+    "region_id": "41110",
+    "org_name": "경기도 수원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126291&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126765",
+    "name": "논산시 부실공사 방지 조례",
+    "region_id": "44230",
+    "org_name": "충청남도 논산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126765&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126937",
+    "name": "예천군의회 의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "region_id": "47900",
+    "org_name": "경상북도 예천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126937&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127107",
+    "name": "경상남도의회 의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "region_id": "48",
+    "org_name": "경상남도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127107&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127277",
+    "name": "서울특별시 성동구의회 의원 연구단체 활동 지원 조례",
+    "region_id": "11200",
+    "org_name": "서울특별시 성동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127277&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127347",
+    "name": "보은군 일반농산어촌개발사업 시설물 운영 및 관리 조례",
+    "region_id": "43720",
+    "org_name": "충청북도 보은군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127347&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127363",
+    "name": "진주시 사무의 위탁조례",
+    "region_id": "48170",
+    "org_name": "경상남도 진주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127363&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127537",
+    "name": "동두천시 기업사랑 및 기업활동 촉진 등에 관한 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127537&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127737",
+    "name": "동두천시 장애인·노인 등 전동보조기기 보험 가입 및 지원 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127737&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127827",
+    "name": "동두천시의회의원 윤리강령 및 윤리실천규범 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127827&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127835",
+    "name": "동두천시 발달장애인의 사회활동을 위한 배상책임보험 가입 및 지원 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127835&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

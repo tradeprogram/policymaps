@@ -1,7 +1,8 @@
 # 자치법규 정책지도 — 시각화 사이트 (스캐폴드)
 
 빌드도구·npm 설치 없이 브라우저에서 바로 열리는 정적 사이트다.
-가상(mock) 데이터로 지금 당장 9개 화면이 전부 동작하고, **데이터 경로 한 줄만 바꾸면 실데이터로 돌아간다.**
+가상(mock) 데이터로 지금 당장 14개 화면이 전부 동작하고, **데이터 경로 한 줄만 바꾸면 실데이터로 돌아간다.**
+(실데이터 전용 화면 5종 — 신경망·공간분석·확산 위험모형·생애주기·검증공시 — 은 가상 모드에서 «아직 굽지 않았다» 안내 패널로 강등된다.)
 
 - 사이트 루트: `viz/public/`
 - 진입점: `viz/public/index.html` (편의용 리다이렉트: `viz/index.html`)
@@ -106,17 +107,45 @@ export const DATA_BASE = "./data";            // 가상데이터
 ### 2-A-1. 레이아웃
 
 ```
-system/data/api/
-├─ index.json                     커버리지 카탈로그 (지역 목록·파일 경로·크기·경고·실패)
-├─ gap/{sig_cd}.json              격차분석            243개 · 12.0 MB
-├─ peers/{sig_cd}.json            유사 지자체         243개 ·  1.9 MB
-├─ effectiveness/{sig_cd}.json    조례-예산 실효성    243개 · 25.0 MB
-├─ diffusion/{slug}.json          정책 확산             6개 · 174 KB
-├─ votes/{bill_no}.json           의안 표결            15개 ·  51 KB
-└─ search/{slug}.json             대표 질의             5개 ·  72 KB
-                                  ────────────────────────────────
-                                  합계 755파일 · 39.2 MB · 최대 파일 130 KB
+system/data/api/                                        파일수      용량   생성기
+├─ index.json                커버리지 카탈로그               1            make_nationwide.py
+├─ gap/{sig_cd}.json         격차분석                     243   11.98 MB  make_nationwide.py
+├─ peers/{sig_cd}.json       유사 지자체                   243    1.91 MB  make_nationwide.py
+├─ effectiveness/{sig_cd}.json 조례-예산 실효성            243   25.01 MB  make_nationwide.py
+├─ diffusion/{slug}.json     정책 확산                      6    0.17 MB  make_nationwide.py
+├─ votes/{bill_no}.json      의안 표결                    149    0.48 MB  make_extend_fixtures.py
+├─ votes_index.json          의안 카탈로그                   1            make_extend_fixtures.py
+├─ search/{slug}.json        사전계산 질의                  40    0.57 MB  make_extend_fixtures.py
+├─ search_index.json         질의 카탈로그                   1            make_extend_fixtures.py
+├─ lifecycle/{sig_cd}.json   제정·개정·폐지 이력           243    5.04 MB  make_extend_fixtures.py
+├─ lifecycle_index.json      전국 생애주기 집계               1            make_extend_fixtures.py
+├─ statute/{slug}.json       상위법 + 조문 열람             200   12.12 MB  make_extend_fixtures.py
+├─ statute_index.json        법령 카탈로그                   1            make_extend_fixtures.py
+├─ verification/summary.json 검증 공시 전수                  1    0.01 MB  make_extend_fixtures.py
+├─ succession.json           지자체 승계 17건                1            make_extend_fixtures.py
+├─ graph/                    법령 위계 서브그래프            422   16.24 MB  make_graph_fixtures.py
+│   ├─ ordinance/{key}.json    조례 2홉                   300
+│   ├─ statute/{key}.json      법령 중심                   120
+│   ├─ hierarchy.json          위계 개념도·통계
+│   └─ index.json              커버 목록
+├─ neural/                   임베딩 유사도                  645   11.55 MB  make_neural_fixtures.py
+│   ├─ ordinance/ordin-{mst}.json  조례 400 · 모델 3종
+│   ├─ region/{sig_cd}.json        지자체 243
+│   ├─ quality.json               모델 품질지표
+│   └─ index.json
+├─ spatial/{slug}.json       Moran's I · LISA               7    0.49 MB  make_analytics_fixtures.py
+├─ eha/{slug}.json           이산시간 위험모형                3    0.09 MB  make_analytics_fixtures.py
+├─ community/summary.json    커뮤니티 탐지                   1    0.10 MB  make_analytics_fixtures.py
+├─ peer_methods/{sig_cd}.json 유사 지자체 방법비교          227    1.23 MB  make_analytics_fixtures.py
+│   └─ _guide.json              공통 안내문(1회만)
+└─ analytics.json            공간·EHA·커뮤니티·방법비교 카탈로그       make_analytics_fixtures.py
+                             ──────────────────────────────────────────────
+                             합계 2,688파일 · 87.82 MiB · 최대 파일 237.8 KB
 ```
+
+> **용량 규율**: `api/` 총량 90 MB 이하, 파일 하나 100 MB 미만(GitHub 한계).
+> 실측 87.82 MiB / 최대 237.8 KB 로 둘 다 만족한다.
+> 초과할 때 가장 먼저 줄일 곳은 `graph/` 다(노드 상한 1개당 약 0.62 KB, 거의 선형).
 
 대상 243곳 = `status='active' AND has_legislation=1 AND level IN (1,2)`
 (광역 16 + 기초 227). level 3 일반구 41곳은 조례 제정권이 없어 제외한다.
@@ -142,6 +171,38 @@ python make_nationwide.py --votes-top 30
 | `--diffusion` | `"조례명패턴=파일slug,..."` |
 | `--min-coverage` | 제정본 커버리지 경고 임계 (기본 0.30) |
 
+#### 확장 생성기 4종 (2026-08-22 추가)
+
+`make_nationwide.py` 가 덮지 않는 자산(신경망 임베딩·법령 조문·공간통계·생애주기 등)을 굽는다.
+모두 `make_gap_fixtures.envelope` · `make_nationwide.write_json` · `make_more_fixtures._sanitize_keys`
+를 그대로 재사용하므로 봉투 형식·키 살균·원자적 쓰기 규칙이 동일하다.
+
+```bash
+cd F:/policy_maps/system
+
+# 신경망 임베딩 유사도 (조례 400 · 지자체 243 · 모델 3종)
+python make_neural_fixtures.py --force                       # 약 17s
+
+# 공간통계 + EHA + 커뮤니티 + 유사방법비교
+python make_analytics_fixtures.py --permutations 999 --force  # 약 12분(커뮤니티 탐지가 대부분)
+python make_analytics_fixtures.py --only spatial --permutations 99   # 빠른 검증
+python make_analytics_fixtures.py --only peer_methods --force       # 약 3분
+
+# 법령 위계 서브그래프 (전량 그래프 빌드 18.8GB 없이 DB에서 씨앗 중심으로)
+python make_graph_fixtures.py --max-nodes 60 --statute-children 45 \
+       --max-parents 15 --max-cited 15 --force               # 약 9s(콜드 144s)
+
+# 검색 40질의 · 표결 149의안 · 생애주기 243곳 · 법령조문 200건 · 검증공시 · 승계
+python make_extend_fixtures.py --force                        # 약 4s(콜드 수분)
+```
+
+| 생성기 | 주요 옵션 |
+|---|---|
+| `make_neural_fixtures.py` | `--limit` 조례 수 · `--sample` 품질표본 · `--pairs` 무작위쌍 |
+| `make_analytics_fixtures.py` | `--only spatial,eha,community,peer_methods` · `--permutations` · `--peer-k` · `--peer-limit` |
+| `make_graph_fixtures.py` | `--max-nodes`(용량 조절 1순위) · `--ord-limit` · `--statute-limit` · `--statute-children` |
+| `make_extend_fixtures.py` | `--only search,votes,lifecycle,statute,verification,succession` · `--statute-top` · `--article-limit` |
+
 이미 만들어진 파일은 건너뛰므로 중간에 끊겨도 다시 실행하면 이어서 굽는다.
 `tmp` 에 쓰고 `os.replace` 로 바꾸는 원자적 쓰기라 반쪽 파일이 남지 않는다.
 한 지역이 실패해도 나머지는 계속 만들고, 실패는 `index.json` 의 `errors` 에 쌓인다.
@@ -154,6 +215,11 @@ python make_nationwide.py --votes-top 30
 3. 예전 단일 파일 `api/{kind}.json` (그 안에 해당 지역/항목이 있을 때만)
 4. 없으면 **에러가 아니라** "아직 사전계산되지 않았습니다" 안내 + 생성 명령어 표시
 
+**확장 카탈로그 병합** — 목록형(`votes`·`search`)은 색인이 둘이다.
+`api/index.json`(make_nationwide, 표결 15·검색 5)과 `config.EXTRA_CATALOGS` 가 가리키는
+`api/votes_index.json`·`api/search_index.json`(make_extend, 표결 149·검색 40)을 `key` 로 합친다.
+확장 색인이 없으면 조용히 무시하므로 가상데이터·구 번들에서도 그대로 돈다.
+
 화면 하단에 `데이터 소스: 전국 shard — api/gap/11680.json` 처럼 **어디서 온 값인지 항상 밝힌다.**
 3번 폴백은 `catalogKeyOf()` 로 동일 항목일 때만 쓴다. 그렇지 않으면 요청한 의안과 다른 의안을
 그 의안인 것처럼 그리는 사고가 난다(실제로 있었던 버그다).
@@ -165,7 +231,13 @@ python make_nationwide.py --votes-top 30
 | `#/gap` · `#/effectiveness` | 지역 선택기 | 전국 243곳, 시도별 optgroup 16개, 이름·코드 검색, `사전계산된 곳만` 필터 |
 | `#/region/:sig_cd` | 지역 선택기 | 284곳(일반구 41곳 포함 — 지역 상세는 일반구도 shard 가 있다) |
 | `#/diffusion` | 정책 템플릿 | 6종 |
-| `#/votes` | 의안 | 표결수 상위 15건 |
+| `#/votes` | 의안 | 149건 (표결수 상위 120 + 최근 처리 60, 중복 제거) |
+| `#/search` | 사전계산 질의 | 40건 (C01~C14 전 분류 커버) |
+| `#/lifecycle` | 지역 선택기 | 243곳 |
+| `#/neural` | 조례 선택기 / 지역 선택기 | 조례 400건(격차분석 등장 225건 필터) · 지자체 243곳 |
+| `#/spatial` | 지표 | 7종 |
+| `#/analytics` | 정책 템플릿 / scope / 지역 선택기 | EHA 3종 · 커뮤니티 2 scope · 방법비교 227곳 |
+| `#/graph` | 조례 / 법령 | 조례 300건 · 법령 120건 |
 
 - 검색창에 `구미` 또는 `47` 을 넣으면 목록이 즉시 좁아진다. 지우면 243곳으로 복귀한다.
 - 목록의 `✓` 는 사전계산된 곳, `·` 는 아직 안 구운 곳이다.
@@ -191,19 +263,42 @@ peer 가 없으니 격차 추천도 못 낸다. 예산 원자료가 없으니 �
 
 ## 3. 화면 목록
 
+14개 화면이다(초기 9개 + 2026-08-22 추가 5개). 모두 해시 라우팅이고 상태가 URL 에 남는다.
+
 | # | 경로 | 화면 | 소비 데이터 |
 |---|---|---|---|
 | 1 | `#/dashboard` | 대시보드 — 전국 요약 카드, 정책분야 분포, 최근 변경 피드 | `manifest.json`, `regions/index.json`, `regions/*.json`(표본), `changes/latest.json`, `meta/graph-stats.json` |
 | 2 | `#/map` | 시군구 코로플레스 — 지표 4종 전환, 클릭 시 상세 | `geo/municipalities.geojson`, `regions/index.json`, `regions/*.json` |
 | 3 | `#/region/:sig_cd` | 지역 상세 — 조례수·분야·예산·최근변경 | `regions/{sig_cd}.json` |
 | 4 | `#/gap` | **유사 지자체 + 격차분석 (킬러)** — "N곳 보유 / M곳 폐지" 배지 · 전국 243곳 선택기 | `api/index.json`, `api/peers/{sig_cd}.json`, `api/gap/{sig_cd}.json` |
-| 5 | `#/graph` | 법령 위계 그래프 — 조례→상위법 위임 ego 서브그래프 | `graph/nodes.json`, `graph/edges.json` |
-| 6 | `#/diffusion` | 정책 확산 타임라인 — 채택곡선·로지스틱적합·Rogers·경로검정 · 템플릿 6종 선택기 | `api/diffusion/{slug}.json` |
-| 7 | `#/effectiveness` | 조례 실효성 — 편성/지출/집행률 + **추정 연결 배지·confidence 등급** · 전국 243곳 선택기 | `api/effectiveness/{sig_cd}.json` |
-| 8 | `#/votes` | 국회 표결 — 정당별 찬반 스택 차트 · 의안 15건 선택기 | `api/votes/{bill_no}.json` |
-| 9 | `#/search` | 조문 단위 검색 결과 카드 | `api/search/{slug}.json` |
+| 5 | `#/graph` | 법령 위계 — ①위계 개념도 ②조례 2홉 서브그래프 ③법령 중심 + **조문 열람** | `api/graph/hierarchy.json`, `api/graph/ordinance|statute/*.json`, `api/statute/*.json` |
+| 6 | `#/lifecycle` | **정책 생애주기** — 제정/개정/폐지 곡선 · 일괄폐지 코호트 · 지자체 승계 | `api/lifecycle/*.json`, `api/lifecycle_index.json`, `api/succession.json` |
+| 7 | `#/diffusion` | 정책 확산 타임라인 — 채택곡선·로지스틱적합·Rogers·경로검정 | `api/diffusion/{slug}.json` |
+| 8 | `#/effectiveness` | 조례 실효성 — 편성/지출/집행률 + **추정 연결 배지·confidence 등급** | `api/effectiveness/{sig_cd}.json` |
+| 9 | `#/neural` | **신경망 유사도** — 조례/지자체 Top-10 이웃(모델 3종 비교) · 저장본 대조 · 모델 품질 | `api/neural/**`, `api/peers/*.json` |
+| 10 | `#/spatial` | **공간 분석** — Moran's I · LISA 코로플레스(사분면/5분위) · FDR 보정 | `api/analytics.json`, `api/spatial/*.json`, `geo/municipalities.geojson` |
+| 11 | `#/analytics` | **확산 위험모형** — ①EHA 이산시간 위험모형 ②커뮤니티 탐지 ③유사 지자체 방법비교 | `api/analytics.json`, `api/eha/*.json`, `api/community/summary.json`, `api/peer_methods/*.json` |
+| 12 | `#/votes` | 국회 표결 — 정당별 찬반 스택 + 발의자 | `api/votes/{bill_no}.json`, `api/votes_index.json` |
+| 13 | `#/search` | 조문 단위 검색 결과 카드 · 사전계산 40질의 선택기 | `api/search/{slug}.json`, `api/search_index.json` |
+| 14 | `#/trust` | **검증 공시** — 검증 사다리 6단계 · 인용검증 · 시간감사 · 예산링크 신뢰도 | `api/verification/summary.json`, `api/succession.json` |
 
 지표 4종(지도): 자치법규 수 / 예산 집행률 / 예산현액 / 선택 분야 조례 수·비중
+
+### 3-A. 딥링크
+
+화면 상태가 주소에 남아 그대로 공유된다.
+
+```
+#/graph?mode=hierarchy
+#/graph?mode=ordinance&key=ordin-2139297
+#/graph?mode=statute&key=statute-276653
+#/neural?tab=quality            #/neural?tab=region&sig=47190
+#/spatial?metric=ordinance-count
+#/lifecycle?tab=region&sig=47190     #/lifecycle?tab=succession
+#/analytics?tab=eha&slug=barefoot-walking
+#/analytics?tab=community
+#/analytics?tab=peers&sig=47190
+```
 
 ---
 
@@ -229,8 +324,9 @@ viz/
       ├─ vendor.js             CDN 로더 (실패 감지)
       ├─ router.js             해시 라우터
       ├─ app.js                앱 셸
-      └─ views/                화면 9개 (dashboard, map, region, gap, graph,
-                               diffusion, effectiveness, votes, search)
+      └─ views/                화면 14개 (dashboard, map, region, gap, graph,
+                               lifecycle, diffusion, effectiveness, neural,
+                               spatial, analytics, votes, search, trust)
 ```
 
 ---
@@ -363,3 +459,43 @@ GitHub Pages 로 올리면 그대로 웹에 게시되므로, `20_깃허브_공�
 - `bash system/tools_audit_keys.sh` → **커밋 대상 키 노출 0건**(비밀키 7개).
   교차검증으로 `system/data/api/` 755파일을 실키 7개로 직접 grep → 0건,
   `OC=` 파라미터 잔존 0건 (`_sanitize_keys()` 정상 동작)
+
+---
+
+## 12. 전 자산 반영 검증 기록 (2026-08-22, 최종)
+
+DB·엔진의 미반영분을 전부 화면에 올린 뒤의 실측이다.
+전체 대조표는 [22 완성도 최종점검](../22_완성도_최종점검.md) 을 본다.
+
+### 12-1. 생성
+
+| 생성기 | 산출 | 결과 |
+|---|---|---|
+| `make_neural_fixtures.py` | `api/neural/` 645파일 11.55 MB | 재개 11.8s · 실패 0 |
+| `make_analytics_fixtures.py` | `api/spatial/` 7 · `api/eha/` 3 · `api/community/` 1 · `api/peer_methods/` 228 | peer_methods 227곳 신규 180.8s · 오류 0 |
+| `make_graph_fixtures.py` | `api/graph/` 422파일 16.24 MB | 축소 재생성 8.4s · 오류 0 경고 0 |
+| `make_extend_fixtures.py` | search 40 · votes 149 · lifecycle 243 · statute 200 · verification · succession | 재개 3.7s · 실패 0 · 경고 1 |
+
+**합계 2,688파일 · 87.82 MiB · 최대 파일 237.8 KB** (90 MB 상한 · 100 MB 파일 한계 모두 충족)
+
+### 12-2. 브라우저 실측 (`python -m http.server` + `?src=real`)
+
+- **14화면 전부 렌더** · `.panel-error` 0 · **JS 예외 0 · `console.error` 0** · `as_of_date` 14/14 노출
+- 지도 `#/map` Leaflet path 250개, 공간분석 `#/spatial` 250개
+- `#/graph?mode=ordinance` 노드 58 / 엣지 72, `?mode=statute&key=statute-276653` 표본 고지 출력
+- `#/votes` 선택기 **149항목**, `#/search` 선택기 **40항목** (확장 카탈로그 병합 후)
+- `#/analytics` 3탭 전부 렌더 — EHA 3템플릿 × 4모형, 커뮤니티 2 scope, 방법비교 227곳
+- 임의 지역 3곳(제물포구 28125 · 부안군 52800 · 곡성군 12720) × 6화면 = **전부 오류 0**
+- 가상데이터 `?src=mock` 14화면 회귀 — 오류 0, 실데이터 전용 화면은 안내 패널로 정상 강등
+
+### 12-3. 이번에 잡은 결함
+
+1. `api/votes/` 149건·`api/search/` 40건이 **화면에서 선택 불가**였다.
+   로더가 `api/index.json`(표결 15·검색 5)만 읽고 확장 색인을 몰랐다 →
+   `config.EXTRA_CATALOGS` + `api.js loadCatalog` 병합으로 수정.
+2. `views/search.js` 가 shard 를 아예 안 쓰고 단일 `api/search.json` 1건만 그렸다 → 질의 선택기 추가.
+3. `api/eha/`·`api/community/` 가 생성만 되고 소비되지 않았다 → `views/analytics.js` 신규.
+4. `compare_peer_methods` 를 `row_factory` 없는 커넥션으로 호출하면 legacy 경로가 조용히 죽어
+   3방식 비교가 2방식(동일 결과)으로 쪼그라든다 → `policymap.db.connect()` 사용 + 주석.
+5. legacy 가 돌려주는 지자체명에 시도 접두어가 없어 동명 지자체가 구분되지 않았다 →
+   `region_features` 로 표기 통일.

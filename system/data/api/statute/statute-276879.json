@@ -1,0 +1,487 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:276879",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "성별영향평가법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20251001",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=276879&type=HTML&mobileYn=&efYd=20251001",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 355,
+   "child_ordinances": 266,
+   "by_verification_status": {
+    "article-missing": 38,
+    "article-verified": 166,
+    "unverifiable": 151
+   },
+   "by_delegation_type": {
+    "law-delegated": 355
+   },
+   "regions_top": [
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41130",
+     "name": "경기도 성남시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "44",
+     "name": "충청남도",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41450",
+     "name": "경기도 하남시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41270",
+     "name": "경기도 안산시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41210",
+     "name": "경기도 광명시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41170",
+     "name": "경기도 안양시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "28185",
+     "name": "인천광역시 연수구",
+     "ordinances": 3
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 3
+    },
+    {
+     "region_id": "27200",
+     "name": "대구광역시 남구",
+     "ordinances": 3
+    },
+    {
+     "region_id": "26",
+     "name": "부산광역시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "52720",
+     "name": "전북특별자치도 진안군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "52190",
+     "name": "전북특별자치도 남원시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "52130",
+     "name": "전북특별자치도 군산시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "52110",
+     "name": "전북특별자치도 전주시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "52",
+     "name": "전북특별자치도",
+     "ordinances": 2
+    },
+    {
+     "region_id": "51820",
+     "name": "강원특별자치도 고성군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "51790",
+     "name": "강원특별자치도 화천군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "51210",
+     "name": "강원특별자치도 속초시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48330",
+     "name": "경상남도 양산시",
+     "ordinances": 2
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 국가 및 지방자치단체의 정책에 대한 성별영향평가에 관하여 기본적인 사항을 정하여 정책의 수립과 시행에서 성평등을 실현하는 것을 목적으로 한다. <개정 2018.3.27>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"성별영향평가\"란 중앙행정기관의 장 및 지방자치단체의 장이 정책을 수립하거나 시행하는 과정에서 그 정책이 성평등에 미칠 영향을 평가하여 정책이 성평등의 실현에 기여할 수 있도록 하는 것을 말한다.\n2. \"중앙행정기관\"이란 「정부조직법」에 따른 중앙행정기관 및 그 밖의 법률에 따라 설치된 중앙행정기관을 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "국가 등의 책무",
+    "body": "제3조(국가 등의 책무)\n① 국가와 지방자치단체는 정책을 수립ㆍ시행함에 있어 성평등이 확보되도록 대책을 강구하여야 한다.\n② 국가와 지방자치단체는 성별영향평가의 실효성을 높이기 위하여 민관협력체계를 구축하도록 노력하여야 한다. <신설 2015.2.3, 2018.3.27>\n③ 국가와 지방자치단체는 성별영향평가의 중요성을 인",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "다른 법률과의 관계",
+    "body": "제4조(다른 법률과의 관계)\n성별영향평가에 관하여 다른 법률에 특별한 규정이 있는 경우를 제외하고는 이 법에서 정하는 바에 따른다. <개정 2018.3.27>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "성별영향평가 대상",
+    "body": "제5조(성별영향평가 대상)\n① 중앙행정기관의 장 및 지방자치단체의 장은 제정ㆍ개정을 추진하는 법령(법률ㆍ대통령령ㆍ총리령ㆍ부령 및 조례ㆍ규칙을 말한다)과 성평등에 중대한 영향을 미칠 수 있는 계획 및 사업 등(이하 \"대상 정책\"이라 한다)에 대하여 성별영향평가를 실시한다. 이 경우 성평등가족부장관이 중앙행정기관의 장 및 지",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "성별영향평가의 고려사항",
+    "body": "제6조(성별영향평가의 고려사항)\n1. 성별에 따라 구분한 성별통계\n2. 성별 수혜분석\n3. 성별영향평가결과에 따른 정책개선방안\n4. 그 밖에 성별영향평가의 기준에 관하여 대통령령으로 정하는 사항",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "성별영향평가의 시기",
+    "body": "제7조(성별영향평가의 시기)\n중앙행정기관의 장 및 지방자치단체의 장은 대상 정책을 수립하거나 시행하는 과정에서 성별영향평가를 실시한다. 다만, 소관 법령을 제정 또는 개정하는 경우에는 법제처의 법령안 심사 전에 실시하여야 한다. <개정 2018.3.27>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "성별영향평가서의 작성 등",
+    "body": "제8조(성별영향평가서의 작성 등)\n① 중앙행정기관의 장 및 지방자치단체의 장은 성별영향평가를 실시한 경우에는 대통령령으로 정하는 바에 따라 성별영향평가서를 작성하여 성평등가족부장관에게 제출하여야 한다. <개정 2018.3.27, 2025.10.1>\n② 성평등가족부장관은 제1항에 따라 제출받은 성별영향평가서의 검토를 위하여",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "성별영향평가결과의 반영",
+    "body": "제9조(성별영향평가결과의 반영)\n① 중앙행정기관의 장 및 지방자치단체의 장은 성별영향평가의 결과를 정책에 반영하여야 하고, 매년 그 결과를 성평등가족부장관에게 제출하여야 한다. <개정 2018.3.27, 2025.10.1>\n② 국가와 지방자치단체는 성별영향평가의 결과를 「국가재정법」 및 「지방재정법」에 따른 성인지 예산서",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "특정성별영향평가",
+    "body": "제10조(특정성별영향평가)\n① 성평등가족부장관은 다음 각 호에 대하여 특정하여 성별영향평가를 실시할 수 있다. <개정 2014.3.24, 2018.3.27, 2025.10.1>\n1. 시행 중인 법령\n2. 제5조에 따른 대상 정책 중 여성의 지위 향상과 밀접한 관련이 있는 중앙행정기관 및 지방자치단체 소관 정책\n3. 공공기",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "2",
+    "title": "지방자치단체의 특정성별영향평가",
+    "body": "제10조의2(지방자치단체의 특정성별영향평가)\n① 지방자치단체의 장은 다음 각 호의 사항에 대하여 특정하여 성별영향평가를 실시할 수 있다. <개정 2018.3.27>\n1. 시행 중인 조례ㆍ규칙\n2. 지방자치단체 소관 정책\n3. 「지방공기업법」에 따른 지방공기업이 수행하는 사업 중 여성의 지위 향상과 밀접한 관련이 있는 사업",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0010021"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "정책 등 개선 권고 및 의견 표명",
+    "body": "제11조(정책 등 개선 권고 및 의견 표명)\n① 성평등가족부장관은 제10조에 따른 특정성별영향평가의 결과 성평등 실현을 위하여 필요하다고 인정하는 경우 관계 중앙행정기관의 장, 지방자치단체의 장 및 공공기관의 장에게 법령, 정책, 사업(이하 \"정책 등\"이라 한다)의 개선을 권고하거나 의견을 표명할 수 있다. 다만, 개선 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "종합분석보고서의 작성과 제출 등",
+    "body": "제12조(종합분석보고서의 작성과 제출 등)\n①성평등가족부장관은 중앙행정기관 및 지방자치단체의 성별영향평가 추진 실적 및 정책개선 실적을 점검하고 종합 분석한 결과보고서(이하 이 조에서 \"종합분석보고서\"라 한다)를 작성하여 연 1회 이상 국무회의에 보고하고 국회에 제출하여야 한다. <개정 2014.3.24, 2018.3.2",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "중앙성별영향평가위원회의 설치 및 기능",
+    "body": "제13조(중앙성별영향평가위원회의 설치 및 기능)\n① 성별영향평가제도의 운영 및 개선 등에 관한 사항을 심의ㆍ조정하기 위하여 성평등가족부장관 소속으로 중앙성별영향평가위원회(이하 이 조에서 \"중앙위원회\"라 한다)를 둔다. <개정 2015.2.3, 2018.3.27, 2025.10.1>\n② 중앙위원회는 다음 각 호의 사항을 심",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": "2",
+    "title": "지방성별영향평가위원회의 설치 및 기능",
+    "body": "제13조의2(지방성별영향평가위원회의 설치 및 기능)\n① 성별영향평가제도의 운영 등에 관한 사항을 심의ㆍ조정하기 위하여 지방자치단체의 장 소속으로 지방성별영향평가위원회(이하 이 조에서 \"지방위원회\"라 한다)를 둔다. <개정 2018.3.27>\n② 지방위원회의 기능, 구성과 운영 등에 필요한 사항은 해당 지방자치단체의 조례로",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0013021"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "성별영향평가책임관과 실무담당자의 지정 및 임무",
+    "body": "제14조(성별영향평가책임관과 실무담당자의 지정 및 임무)\n① 중앙행정기관의 장 및 지방자치단체의 장은 해당 기관의 성별영향평가를 효율적으로 실시하기 위하여 소속 공무원 중에서 성별영향평가업무를 총괄하는 성별영향평가책임관과 실무담당자를 지정하여야 한다. <개정 2016.12.20, 2018.3.27>\n② 제1항에 따른 성별",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "성별영향평가 교육",
+    "body": "제15조(성별영향평가 교육)\n① 중앙행정기관의 장 및 지방자치단체의 장은 성별영향평가의 효율적인 시행을 위하여 소속 공무원에 대하여 성별영향평가 교육을 실시하여야 한다. <개정 2018.3.27>\n② 성별영향평가 교육 대상자의 범위 및 횟수, 결과 제출 등에 필요한 사항은 대통령령으로 정한다. <개정 2015.2.3, 2",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "성별영향평가 자문",
+    "body": "제16조(성별영향평가 자문)\n① 성평등가족부장관은 중앙행정기관의 장 및 지방자치단체의 장에게 성별영향평가에 대하여 자문을 제공할 수 있다. <개정 2018.3.27, 2025.10.1>\n② 성평등가족부장관은 제1항에 따른 자문에 관한 업무를 공공 또는 민간 기관ㆍ단체 등에 위탁하여 실시할 수 있다. <개정 2025.10.",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "성별영향평가기관",
+    "body": "제17조(성별영향평가기관)\n① 성평등가족부장관은 중앙행정기관 및 지방자치단체의 성별영향평가에 필요한 지원을 하기 위하여 다음 각 호의 어느 하나에 해당하는 기관을 성별영향평가기관(이하 \"평가기관\"이라 한다)으로 지정할 수 있다. <개정 2016.12.20, 2018.3.27, 2025.10.1>\n1. 국공립 연구기관\n2.",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "성별영향평가 정보의 수집ㆍ보급 및 전문 인력의 육성 등",
+    "body": "제18조(성별영향평가 정보의 수집ㆍ보급 및 전문 인력의 육성 등)\n① 성평등가족부장관은 성별영향평가의 전문성을 높이기 위하여 성별영향평가와 관련된 정보를 수집ㆍ보급하여야 하며, 성별영향평가 전문 인력 육성 방안을 강구하여야 한다. <개정 2018.3.27, 2025.10.1>\n② 성평등가족부장관은 제1항에 따른 성별영향평",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0018001"
+   }
+  ],
+  "article_count": 20,
+  "articles_shown": 20,
+  "articles_truncated_bodies": 16,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1350957",
+    "name": "서울특별시 은평구 성별영향평가위원회 설치 및 운영에 관한 조례",
+    "region_id": "11380",
+    "org_name": "서울특별시 은평구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1350957&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1351920",
+    "name": "전주시 성별영향평가 조례",
+    "region_id": "52110",
+    "org_name": "전북특별자치도 전주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1351920&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1357462",
+    "name": "인제군 양성평등 기본 조례",
+    "region_id": "51810",
+    "org_name": "강원특별자치도 인제군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1357462&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1375452",
+    "name": "경산시 성별영향평가 조례",
+    "region_id": "47290",
+    "org_name": "경상북도 경산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1375452&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1384332",
+    "name": "부산광역시동래구 여성친화도시 조성에 관한 조례",
+    "region_id": "26260",
+    "org_name": "부산광역시 동래구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1384332&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1386522",
+    "name": "하남시 성별영향평가 조례",
+    "region_id": "41450",
+    "org_name": "경기도 하남시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1386522&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1387091",
+    "name": "제천시 성별영향평가 조례",
+    "region_id": "43150",
+    "org_name": "충청북도 제천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1387091&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1393225",
+    "name": "서울특별시 금천구 성별영향평가위원회 설치 및 운영 조례",
+    "region_id": "11545",
+    "org_name": "서울특별시 금천구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1393225&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1394260",
+    "name": "예천군 성별영향평가 조례",
+    "region_id": "47900",
+    "org_name": "경상북도 예천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1394260&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396095",
+    "name": "정선군 성별영향평가 조례",
+    "region_id": "51770",
+    "org_name": "강원특별자치도 정선군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1405614",
+    "name": "단양군 성별영향평가 조례",
+    "region_id": "43800",
+    "org_name": "충청북도 단양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1405614&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1439567",
+    "name": "인천광역시 연수구 성별영향평가 조례",
+    "region_id": "28185",
+    "org_name": "인천광역시 연수구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1439567&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1516943",
+    "name": "포항시 성별영향평가 조례",
+    "region_id": "47110",
+    "org_name": "경상북도 포항시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1516943&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1527015",
+    "name": "옥천군 성별영향평가 조례",
+    "region_id": "43730",
+    "org_name": "충청북도 옥천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1527015&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1536843",
+    "name": "김포시 성별영향평가 조례",
+    "region_id": "41570",
+    "org_name": "경기도 김포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1536843&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1540001",
+    "name": "서울특별시 광진구 성별영향평가 조례",
+    "region_id": "11215",
+    "org_name": "서울특별시 광진구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1540001&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1546489",
+    "name": "청양군 양성평등 기본 조례",
+    "region_id": "44790",
+    "org_name": "충청남도 청양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1546489&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1546623",
+    "name": "무주군 성별영향평가 조례",
+    "region_id": "52730",
+    "org_name": "전북특별자치도 무주군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1546623&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1555883",
+    "name": "구례군 성별영향평가조례",
+    "region_id": "12730",
+    "org_name": "전남광주통합특별시 구례군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1555883&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1558199",
+    "name": "남동구 양성평등 기본 조례",
+    "region_id": "28200",
+    "org_name": "인천광역시 남동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1558199&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

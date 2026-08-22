@@ -1,0 +1,780 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1305640",
+   "key": "ordin-1305640",
+   "mst": "1305640",
+   "name": "용인시 소비자 기본 조례",
+   "ord_kind": "조례",
+   "region_id": "41460",
+   "sig_cd": "41460",
+   "region_name": "경기도 용인시",
+   "org_name": "경기도 용인시",
+   "enacted_on": "20171002",
+   "effective_on": "20171002",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 13,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1305640",
+   "categories": [
+    {
+     "code": "C11",
+     "name": "경제·산업·일자리",
+     "confidence": 0.3333,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.985284,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1199619",
+      "key": "ordin-1199619",
+      "name": "용인시 소비자 기본 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20151113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1199619",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.920211,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2033749",
+      "key": "ordin-2033749",
+      "name": "용인시 남북교류협력에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20250502",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2033749",
+      "categories": [
+       "C13",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.920146,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1804567",
+      "key": "ordin-1804567",
+      "name": "용인시 악취방지 및 저감 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20230427",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1804567",
+      "categories": [
+       "C06",
+       "C07"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.909831,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1842225",
+      "key": "ordin-1842225",
+      "name": "용인시 제안제도 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20230731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1842225",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.909412,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1938357",
+      "key": "ordin-1938357",
+      "name": "용인시 조례·규칙심의회 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20240614",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1938357",
+      "categories": [
+       "C01",
+       "C06"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.904363,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1723023",
+      "key": "ordin-1723023",
+      "name": "용인시 정보공개에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20220816",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1723023",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.900629,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1804537",
+      "key": "ordin-1804537",
+      "name": "용인시 만화·웹툰 진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20230427",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1804537",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.899926,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1723015",
+      "key": "ordin-1723015",
+      "name": "용인시 적극행정 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20220816",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1723015",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.893286,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1927367",
+      "key": "ordin-1927367",
+      "name": "용인시 주소정보 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20240510",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1927367",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.892619,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1090226",
+      "key": "ordin-1090226",
+      "name": "용인시 견인자동차 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20070701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1090226",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.989067,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1511691",
+      "key": "ordin-1511691",
+      "name": "용인시 수돗물평가위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20200702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1511691",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.988375,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2033783",
+      "key": "ordin-2033783",
+      "name": "용인시 납세자보호관 배치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20250502",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2033783",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.988229,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1530911",
+      "key": "ordin-1530911",
+      "name": "용인시 노인ㆍ아동을 위한 다목적복지회관 설치 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20200928",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1530911",
+      "categories": [
+       "C03",
+       "C04"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.987937,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1090223",
+      "key": "ordin-1090223",
+      "name": "용인시 주ㆍ정차단속 담당공무원 제복에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20080509",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1090223",
+      "categories": [
+       "C10",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.987646,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1827471",
+      "key": "ordin-1827471",
+      "name": "용인시 난임부부 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20230630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1827471",
+      "categories": [
+       "C04",
+       "C11"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.987364,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1610835",
+      "key": "ordin-1610835",
+      "name": "용인시 어린이 통학로 교통안전 및 개선을 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20210630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1610835",
+      "categories": [
+       "C10",
+       "C04",
+       "C08"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.987259,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1593663",
+      "key": "ordin-1593663",
+      "name": "용인시 통합 물관리 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20210429",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1593663",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.987187,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1619595",
+      "key": "ordin-1619595",
+      "name": "용인시 지식재산 진흥에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20210729",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1619595",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.987087,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2113107",
+      "key": "ordin-2113107",
+      "name": "용인시 동물장묘업 시설 및 운영 기준에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20260227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2113107",
+      "categories": [
+       "C14",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.987074,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1989907",
+      "key": "ordin-1989907",
+      "name": "용인시 출자·출연 기관의 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20221209",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1989907",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.99441,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2090225",
+      "key": "ordin-2090225",
+      "name": "용인시 법정동·리의 명칭 및 관할구역에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20251205",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2090225",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994176,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1584255",
+      "key": "ordin-1584255",
+      "name": "용인시 학교폭력예방 및 대책활동 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20210329",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1584255",
+      "categories": [
+       "C05",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994112,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2113867",
+      "key": "ordin-2113867",
+      "name": "용인시 환경친화적 자동차 전용주차구역 및 충전시설 설치에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20260303",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2113867",
+      "categories": [
+       "C10",
+       "C08"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994112,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1197843",
+      "key": "ordin-1197843",
+      "name": "용인시 용인학 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20151106",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1197843",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993938,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1969775",
+      "key": "ordin-1969775",
+      "name": "용인시 자치분권 촉진 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20240925",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1969775",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993899,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2082489",
+      "key": "ordin-2082489",
+      "name": "용인시 사랑의 집 설치 및 운영조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20251106",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2082489",
+      "categories": [
+       "C03",
+       "C04"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993703,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1969791",
+      "key": "ordin-1969791",
+      "name": "용인시 첨단산업의 육성 및 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20240925",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1969791",
+      "categories": [
+       "C11",
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993543,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1231829",
+      "key": "ordin-1231829",
+      "name": "용인시 식품진흥기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20160509",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1231829",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993501,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1651779",
+      "key": "ordin-1651779",
+      "name": "용인시 자치법규 등 부패영향평가에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20211220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1651779",
+      "categories": [
+       "C01",
+       "C10"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993468,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1199619",
+      "key": "ordin-1199619",
+      "name": "용인시 소비자 기본 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 용인시",
+      "sig_cd": "41460",
+      "enacted_on": "20151113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1199619",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1199619",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.989376,
+    "best_rank": 1,
+    "ordinance_id": "ordin:1199619",
+    "key": "ordin-1199619",
+    "name": "용인시 소비자 기본 조례 시행규칙",
+    "region_name": "경기도 용인시",
+    "sig_cd": "41460",
+    "enacted_on": "20151113",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1199619"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

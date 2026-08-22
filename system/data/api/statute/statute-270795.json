@@ -1,0 +1,892 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:270795",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "사회보장급여의 이용ㆍ제공 및 수급권자 발굴에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2025-04-22",
+   "effective_on": "20251023",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=270795&type=HTML&mobileYn=&efYd=20251023",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 627,
+   "child_ordinances": 541,
+   "by_verification_status": {
+    "article-missing": 46,
+    "article-verified": 453,
+    "unverifiable": 128
+   },
+   "by_delegation_type": {
+    "law-delegated": 627
+   },
+   "regions_top": [
+    {
+     "region_id": "52",
+     "name": "전북특별자치도",
+     "ordinances": 8
+    },
+    {
+     "region_id": "47190",
+     "name": "경상북도 구미시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "47",
+     "name": "경상북도",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41210",
+     "name": "경기도 광명시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "31",
+     "name": "울산광역시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "52190",
+     "name": "전북특별자치도 남원시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "44825",
+     "name": "충청남도 태안군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "28275",
+     "name": "인천광역시 서해구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "27290",
+     "name": "대구광역시 달서구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "27200",
+     "name": "대구광역시 남구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "26260",
+     "name": "부산광역시 동래구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "12240",
+     "name": "전남광주통합특별시 서구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "51210",
+     "name": "강원특별자치도 속초시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48250",
+     "name": "경상남도 김해시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47820",
+     "name": "경상북도 청도군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "43130",
+     "name": "충청북도 충주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41650",
+     "name": "경기도 포천시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41610",
+     "name": "경기도 광주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41480",
+     "name": "경기도 파주시",
+     "ordinances": 4
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 「사회보장기본법」에 따른 사회보장급여의 이용 및 제공에 관한 기준과 절차 등 기본적 사항을 규정하고 지원을 받지 못하는 지원대상자를 발굴하여 지원함으로써 사회보장급여를 필요로 하는 사람의 인간다운 생활을 할 권리를 최대한 보장하고, 사회보장급여가 공정하고 효과적으로 제공되도록 하며, 사회보장제도가 ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"사회보장급여\"란 제5호의 보장기관이 「사회보장기본법」 제3조제1호에 따라 제공하는 현금, 현물, 서비스 및 그 이용권을 말한다.\n2. \"수급권자\"란 「사회보장기본법」 제9조에 따른 사회보장급여를 제공받을 권리를 가진 사람을 말한다.\n3. \"수급자\"란 사회보장급여를 받고 있는 사람을 말한다.\n4. \"지",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "다른 법률과의 관계",
+    "body": "제3조(다른 법률과의 관계)\n사회보장급여의 이용 및 제공에 필요한 기준, 방법, 절차와 지원대상자의 발굴 및 지원 등에 관하여는 다른 법률에 특별한 규정이 있는 경우를 제외하고는 이 법에 따른다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "기본원칙",
+    "body": "제4조(기본원칙)\n① 사회보장급여가 필요한 사람은 누구든지 자신의 의사에 따라 사회보장급여를 신청할 수 있으며, 보장기관은 이에 필요한 안내와 상담 등의 지원을 충분히 제공하여야 한다.\n② 보장기관은 지원이 필요한 국민이 급여대상에서 누락되지 아니하도록 지원대상자를 적극 발굴하여 이들이 필요로 하는 사회보장급여를 적절하게",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "사회보장급여의 신청",
+    "body": "제5조(사회보장급여의 신청)\n① 지원대상자와 그 친족, 「민법」에 따른 후견인, 「청소년 기본법」에 따른 청소년상담사ㆍ청소년지도사, 지원대상자를 사실상 보호하고 있는 자(관련 기관 및 단체의 장을 포함한다) 등(이하 \"사회보장급여 신청권자\"라 한다)은 지원대상자의 주소지 관할 보장기관에 사회보장급여를 신청할 수 있다. 다",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "사회보장 요구의 조사",
+    "body": "제6조(사회보장 요구의 조사)\n1. 지원대상자의 사회보장 요구와 관련된 사항\n2. 지원대상자의 건강상태, 가구 구성 등 생활 실태에 관한 사항\n3. 그 밖에 지원대상자에게 필요하다고 인정되는 사회보장급여에 관한 사항",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "수급자격의 조사",
+    "body": "제7조(수급자격의 조사)\n① 보장기관의 장은 제5조에 따른 사회보장급여의 신청을 받으면 지원대상자와 그 부양의무자(배우자와 1촌의 직계혈족 및 그 배우자를 말한다. 이하 같다)에 대하여 사회보장급여의 수급자격 확인을 위하여 다음 각 호의 어느 하나에 해당하는 자료 또는 정보를 제공받아 조사하고 처리(「개인정보 보호법」 제",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": "2",
+    "title": "사회보장 전산관리번호의 부여 등",
+    "body": "제7조의2(사회보장 전산관리번호의 부여 등)\n① 보장기관의 장은 대통령령으로 정하는 사회보장급여가 누락되지 아니하고 효과적으로 제공될 수 있도록 다음 각 호의 어느 하나에 해당하는 지원대상자에 대하여 보건복지부령으로 정하는 바에 따라 전산관리번호를 임시로 부여할 수 있다.\n1. 출생 미신고 등의 사유로 주민등록번호를 부여",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0007021"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "금융정보등의 제공 등",
+    "body": "제8조(금융정보등의 제공 등)\n① 중앙행정기관의 장 또는 지방자치단체의 장은 지원대상자와 그 부양의무자에 대하여 제7조제1항에 따라 금융정보 등에 대한 조사가 필요한 경우 다음 각 호의 자료 또는 정보의 제공에 대하여 동의한다는 서면을 받아야 한다.\n1. 「금융실명거래 및 비밀보장에 관한 법률」 제2조제2호 및 제3호의 ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "사회보장급여 제공의 결정",
+    "body": "제9조(사회보장급여 제공의 결정)\n① 보장기관의 장이 제6조 및 제7조에 따른 조사를 실시한 경우에는 사회보장급여의 제공 여부 및 제공 유형을 결정하되, 제공하고자 하는 사회보장급여는 지원대상자가 현재 제공받고 있는 사회보장급여와 보장내용이 중복되도록 하여서는 아니 된다.\n② 보장기관의 장은 사회보장급여의 제공 결정에 필",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "2",
+    "title": "위기가구의 발굴",
+    "body": "제9조의2(위기가구의 발굴)\n① 보장기관의 장은 누락된 지원대상자가 적절한 사회보장급여를 제공받을 수 있도록 지원이 필요한 다음 각 호의 가구(이하 이 조에서 \"위기가구\"라 한다)를 발굴하기 위하여 노력하여야 한다. <개정 2020.4.7>\n1. 제11조제1항 각 호에 해당하는 관계 기관ㆍ법인ㆍ단체ㆍ시설의 장에게 공유받은",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0009021"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "자료 또는 정보의 제공과 홍보",
+    "body": "제10조(자료 또는 정보의 제공과 홍보)\n1. 사회보장급여의 내용 및 제공규모\n2. 수급자가 되기 위한 요건과 절차\n3. 그 밖에 사회보장급여 수급을 위하여 필요한 정보",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "정보공유 등의 협조 요청",
+    "body": "제11조(정보공유 등의 협조 요청)\n① 보장기관의 장은 관할 지역에 거주하는 지원대상자를 발굴(지원대상자의 소재 파악을 포함한다)하기 위하여 다음 각 호에 해당하는 관계 기관ㆍ법인ㆍ단체ㆍ시설의 장에게 소관 업무의 수행과 관련하여 취득한 정보의 공유, 지원대상자의 거주지 등 현장조사 시 소속 직원의 동행 등 필요한 사항에 ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "자료 또는 정보의 처리 등",
+    "body": "제12조(자료 또는 정보의 처리 등)\n① 보건복지부장관은 보장기관이 제10조에 따른 업무를 효율적으로 수행할 수 있도록 지원하기 위하여 「사회보장기본법」 제37조에 따른 사회보장정보시스템(이하 \"사회보장정보시스템\"이라 한다)을 통하여 다음 각 호의 자료 또는 정보를 처리할 수 있다. <개정 2017.3.21, 2019.1",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "2",
+    "title": "발굴조사의 실시 및 실태점검",
+    "body": "제12조의2(발굴조사의 실시 및 실태점검)\n① 보장기관의 장은 지원대상자에 대한 발굴조사를 분기마다 정기적으로 실시하여야 한다. 다만, 「긴급복지지원법」 제7조의2에 따라 발굴조사를 실시한 경우에는 그러하지 아니하다.\n② 보건복지부장관은 지원대상자 발굴체계의 운영 실태를 매년 정기적으로 점검하고 개선방안을 마련하여야 한다",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0012021"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "지원대상자 발견 시 신고의무",
+    "body": "제13조(지원대상자 발견 시 신고의무)\n① 누구든지 출산, 양육, 실업, 노령, 장애, 질병, 빈곤 및 사망 등의 사회적 위험으로 인하여 사회보장급여를 필요로 하는 지원대상자를 발견하였을 때에는 보장기관에 알려야 한다.\n② 다음 각 호의 어느 하나에 해당하는 사람은 그 직무상 제1항과 같은 사회적 위험으로 인하여 사망 또",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "민관협력",
+    "body": "제14조(민관협력)\n① 보장기관과 관계 기관ㆍ법인ㆍ단체ㆍ시설은 지역사회 내 사회보장이 필요한 지원대상자를 발굴하고, 가정과 지역공동체의 자발적인 협조가 이루어질 수 있도록 노력하여야 한다.\n② 특별자치시장 및 시장(「제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법」 제11조제2항에 따른 행정시장을 포함한다. 이하 ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "지원계획의 수립 및 시행",
+    "body": "제15조(지원계획의 수립 및 시행)\n① 보장기관의 장은 제9조제1항에 따라 사회보장급여의 제공을 결정한 때에는 필요한 경우 다음 각 호의 사항이 포함된 수급권자별 사회보장급여 제공계획(이하 이 조에서 \"지원계획\"이라 한다)을 수립하여야 한다. 이 경우 수급권자 또는 그 친족이나 그 밖의 관계인의 의견을 고려하여야 한다.\n",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "수급권자등에 대한 상담ㆍ안내, 의뢰 등",
+    "body": "제16조(수급권자등에 대한 상담ㆍ안내, 의뢰 등)\n① 보장기관의 업무담당자는 수급권자 또는 지원대상자(이하 \"수급권자등\"이라 한다)가 필요한 사회보장급여를 편리하게 이용할 수 있도록 사회보장급여의 명칭, 수급권자의 선정기준, 보장내용 및 신청방법 등에 관한 사항을 상담하고 안내하여야 하며, 이를 위하여 사회보장정보시스템에",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "이의신청",
+    "body": "제17조(이의신청)\n① 이 법에 따른 처분에 이의가 있는 수급권자등은 그 처분을 받은 날로부터 90일 이내에 처분을 결정한 보장기관의 장에게 이의신청을 할 수 있다. 다만, 정당한 사유로 인하여 그 기간 내에 이의신청을 할 수 없음을 증명한 때에는 그 사유가 소멸한 때부터 60일 이내에 이의신청을 할 수 있다.\n② 보장기",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "수급권자의 보호자에 대한 지원",
+    "body": "제18조(수급권자의 보호자에 대한 지원)\n보장기관의 장은 제9조에 따라 급여 제공이 결정된 수급권자를 자신의 가정에서 돌보는 사람의 부담을 줄이기 위하여 상담을 실시하거나 금전적 지원 등을 할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "사회보장급여의 적정성 확인조사",
+    "body": "제19조(사회보장급여의 적정성 확인조사)\n① 보장기관의 장은 수급자에 대한 사회보장급여의 적정성을 확인하기 위하여 제7조제1항 각 호에 해당하는 정보를 조사할 수 있다.\n② 제1항에 따른 조사의 방법 및 절차에 관하여는 제7조제2항부터 제5항까지 및 제8조를 준용한다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "2",
+    "title": "사회보장급여 부정수급 실태조사",
+    "body": "제19조의2(사회보장급여 부정수급 실태조사)\n① 보건복지부장관은 속임수 등의 부정한 방법으로 사회보장급여를 받거나 타인으로 하여금 사회보장급여를 받게 한 경우에 대하여 보장기관이 효과적인 대책을 세울 수 있도록 그 발생 현황, 피해사례 등에 관한 실태조사를 3년마다 실시하고, 그 결과를 공개하여야 한다.\n② 보건복지부장관",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0019021"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "수급자의 변동신고",
+    "body": "제20조(수급자의 변동신고)\n주기적으로 또는 기간을 정하여 사회보장급여를 제공받는 수급자는 거주지, 세대원, 소득ㆍ재산 상태, 근로능력, 다른 급여의 수급이력 등 제7조제1항 각 호의 사항이 변동되었을 때에는 지체 없이 관할 보장기관의 장에게 신고하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "사회보장급여의 변경ㆍ중지",
+    "body": "제21조(사회보장급여의 변경ㆍ중지)\n① 보장기관의 장은 제19조에 따른 사회보장급여의 적정성 확인조사 및 제20조에 따른 수급자의 변동신고에 따라 수급자 및 그 부양의무자의 인적사항, 가족관계, 소득ㆍ재산 상태, 근로능력 등에 변동이 있는 경우에는 직권 또는 수급자나 그 친족, 그 밖의 관계인의 신청에 따라 수급자에 대한",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "사회보장급여의 환수",
+    "body": "제22조(사회보장급여의 환수)\n① 수급자가 제20조에 따른 신고를 고의로 회피하거나 속임수 등의 부정한 방법으로 사회보장급여를 받거나 타인으로 하여금 사회보장급여를 받게 한 경우에는 사회보장급여를 제공한 보장기관의 장은 그 사회보장급여의 전부 또는 일부를 그 사회보장급여를 받거나 받게 한 자(이하 \"부정수급자\"라 한다)로",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": "2",
+    "title": "맞춤형 급여 안내",
+    "body": "제22조의2(맞춤형 급여 안내)\n① 보건복지부장관과 보장기관의 장은 사회보장급여 신청권자의 신청을 받아 주기적으로 사회보장급여의 수급가능성을 확인하여 그 결과를 안내(이하 \"맞춤형 급여 안내\"라 한다)할 수 있다.\n② 맞춤형 급여 안내를 받고자 하는 자는 보건복지부장관 또는 보장기관의 장에게 신청하여야 한다. 다만, 다음",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0022021"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "사회보장정보의 처리 등",
+    "body": "제23조(사회보장정보의 처리 등)\n① 보건복지부장관은 보장기관이 수급권자의 선정 및 급여관리 등에 관한 업무를 효율적으로 수행할 수 있도록 사회보장정보시스템을 통하여 다음 각 호에 해당하는 자료 또는 정보(이하 \"사회보장정보\"라 한다)를 처리할 수 있다. <개정 2017.3.21>\n1. 근거 법령, 보장대상 및 내용, 예",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "사회보장정보시스템의 이용 등",
+    "body": "제24조(사회보장정보시스템의 이용 등)\n① 보장기관의 장은 제5조부터 제22조까지에 따른 업무를 효율적으로 수행하기 위하여 사회보장정보시스템을 이용하거나 관할 업무시스템과 사회보장정보시스템을 연계하여 이용할 수 있다. 이 경우 보장기관의 장은 사회보장정보시스템을 이용하여 처리하고자 하는 자료 또는 정보와 그 범위, 처리 ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": "2",
+    "title": "사회서비스정보시스템의 구축ㆍ운영 등",
+    "body": "제24조의2(사회서비스정보시스템의 구축ㆍ운영 등)\n① 보건복지부장관은 보장기관이 다음 각 호의 법인ㆍ단체ㆍ시설ㆍ기관(이하 \"사회서비스 제공기관\"이라 한다)의 업무를 전자화하고 업무 수행에 필요한 정보를 통합ㆍ연계하여 처리ㆍ기록 및 관리하는 정보시스템(이하 \"사회서비스정보시스템\"이라 한다)을 구축ㆍ운영할 수 있다.\n1. 「",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0024021"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "대국민 포털 구축 등",
+    "body": "제25조(대국민 포털 구축 등)\n① 보건복지부장관은 사회보장급여가 필요한 국민에게 사회보장 관련 자료 또는 정보의 검색, 조회 등 온라인 서비스를 제공하는 인터넷 기반의 대국민 포털을 구축ㆍ관리하고 그 활용을 촉진하여야 한다.\n② 보건복지부장관 및 보장기관의 장은 제1항에 따른 대국민 포털 등 첨단 정보통신기술을 활용하여",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "사회보장정보의 정확성 유지",
+    "body": "제26조(사회보장정보의 정확성 유지)\n① 정보보유기관의 장은 사회보장정보의 정확성을 유지하기 위하여 노력하여야 한다.\n② 보건복지부장관은 사회보장정보를 주기적으로 갱신하여야 하며, 그 정보에 오류가 있다고 판단되는 경우에는 원천 자료 또는 정보를 제공한 정보보유기관의 장에게 해당 자료 또는 정보의 수정 또는 보완을 요구할",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "사회보장정보의 표준화",
+    "body": "제27조(사회보장정보의 표준화)\n보건복지부장관은 사회보장정보의 공동 활용을 통하여 국민이 사회보장급여의 이용을 편리하게 할 수 있도록 사회보장정보와 관련된 각종 기준, 절차, 방법, 서식 등을 표준화하여 보장기관의 장에게 제시할 수 있다. 이 경우 보장기관의 장은 정당한 사유가 없으면 이에 따라야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "사회보장정보 등의 협의ㆍ조정",
+    "body": "제28조(사회보장정보 등의 협의ㆍ조정)\n① 보장기관의 장 또는 관계 중앙행정기관의 장이 제23조에 따른 사회보장정보의 처리 등, 제24조에 따른 사회보장정보시스템의 이용, 제27조에 따른 사회보장정보의 표준화, 제51조에 따른 업무의 위임ㆍ위탁 등에 관하여 의견이 있는 경우에는 보건복지부장관과 협의하고, 협의가 이루어지지",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "한국사회보장정보원",
+    "body": "제29조(한국사회보장정보원)\n① 사회보장정보시스템의 운영ㆍ지원을 위하여 한국사회보장정보원(이하 \"한국사회보장정보원\"이라 한다)을 설립한다. <개정 2019.12.3>\n② 한국사회보장정보원은 법인으로 한다. <개정 2019.12.3>\n③ 한국사회보장정보원은 제51조제2항에 따른 위탁 등을 받아 다음 각 호의 업무를 수행한다",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "사회보장정보의 보호대책 수립ㆍ시행",
+    "body": "제30조(사회보장정보의 보호대책 수립ㆍ시행)\n① 보건복지부장관은 사회보장정보시스템의 사회보장정보를 안전하게 보호하기 위하여 물리적ㆍ기술적 대책을 포함한 보호대책을 수립ㆍ시행하여야 한다.\n② 한국사회보장정보원의 장은 제1항에 따른 보호대책을 시행하기 위한 실행계획을 매년 수립하여 보건복지부장관에게 제출하여야 한다. <개정 ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "사회보장정보 침해행위 등의 금지",
+    "body": "제31조(사회보장정보 침해행위 등의 금지)\n1. 사회보장정보의 처리업무를 방해할 목적으로 사회보장정보를 위조ㆍ변경ㆍ훼손하거나 말소하는 행위\n2. 정당한 사유 없이 사회보장정보를 위조ㆍ변경ㆍ훼손ㆍ말소ㆍ유출하거나 그 방법 또는 프로그램을 공개ㆍ유포ㆍ사용하는 행위\n3. 정당한 사유 없이 사회보장정보시스템을 위조ㆍ변경ㆍ훼손하거나",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": "2",
+    "title": "사회보장정보 보호 교육",
+    "body": "제31조의2(사회보장정보 보호 교육)\n① 보건복지부장관은 사회보장정보를 처리하는 자에게 사회보장정보 보호에 관한 교육을 실시하여야 한다.\n② 보건복지부장관은 제1항에 따른 교육을 한국사회보장정보원 또는 「한국보건복지인재원법」에 따른 한국보건복지인재원에 위탁할 수 있다. <개정 2021.7.27>\n③ 제1항에 따른 교육의 ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0031021"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "사회보장정보시스템의 복구조치",
+    "body": "제32조(사회보장정보시스템의 복구조치)\n① 한국사회보장정보원의 장 및 사회보장정보시스템을 이용하는 보장기관의 장은 사회보장정보시스템에 제31조에 따른 침해행위가 발생한 때에는 사회보장정보시스템의 피해복구 및 보호에 필요한 조치를 신속히 취하고 보건복지부장관에게 즉시 통보하여야 한다. <개정 2019.12.3>\n② 보건복지",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "사회보장정보 등에 대한 침해행위의 시정요구",
+    "body": "제33조(사회보장정보 등에 대한 침해행위의 시정요구)\n1. 사회보장정보 또는 사회보장정보시스템 침해행위의 중지\n2. 정보처리의 일시적인 정지\n3. 그 밖에 사회보장정보의 보호 및 침해행위 방지를 위하여 필요한 조치",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "사회보장정보의 파기",
+    "body": "제34조(사회보장정보의 파기)\n보장기관의 장 및 한국사회보장정보원의 장은 사회보장정보를 5년이 지나면 파기하여야 한다. 다만, 대통령령으로 정하는 지원대상자의 보호에 필요한 사회보장정보는 5년을 초과하여 보유할 수 있다. <개정 2019.12.3>",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "지역사회보장에 관한 계획의 수립",
+    "body": "제35조(지역사회보장에 관한 계획의 수립)\n① 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사ㆍ특별자치도지사(이하 \"시ㆍ도지사\"라 한다) 및 시장ㆍ군수ㆍ구청장은 지역사회보장에 관한 계획(이하 \"지역사회보장계획\"이라 한다)을 4년마다 수립하고, 매년 지역사회보장계획에 따라 연차별 시행계획을 수립하여야 한다. 이 경우 「사회보장기본법」",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0035001"
+   },
+   {
+    "article_no": "36",
+    "article_branch": null,
+    "title": "지역사회보장계획의 내용",
+    "body": "제36조(지역사회보장계획의 내용)\n① 제35조제2항에 따른 시ㆍ군ㆍ구 지역사회보장계획은 다음 각 호의 사항을 포함하여야 한다. <개정 2018.12.11>\n1. 지역사회보장 수요의 측정, 목표 및 추진전략\n2. 지역사회보장의 목표를 점검할 수 있는 지표(이하 \"지역사회보장지표\"라 한다)의 설정 및 목표\n3. 지역사회보장의",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0036001"
+   },
+   {
+    "article_no": "37",
+    "article_branch": null,
+    "title": "지역사회보장계획의 시행",
+    "body": "제37조(지역사회보장계획의 시행)\n① 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 지역사회보장계획을 시행하여야 한다.\n② 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 지역사회보장계획을 시행할 때 필요하다고 인정하는 경우에는 사회보장 관련 민간 법인ㆍ단체ㆍ시설에 인력, 기술, 재정 등의 지원을 할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0037001"
+   },
+   {
+    "article_no": "38",
+    "article_branch": null,
+    "title": "지역사회보장계획의 변경",
+    "body": "제38조(지역사회보장계획의 변경)\n시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 사회보장의 환경 변화, 「사회보장기본법」 제16조에 따른 사회보장에 관한 기본계획의 변경 등이 있는 경우에는 지역사회보장계획을 변경할 수 있으며, 그 변경 절차는 제35조를 준용한다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0038001"
+   },
+   {
+    "article_no": "39",
+    "article_branch": null,
+    "title": "지역사회보장계획 시행결과의 평가",
+    "body": "제39조(지역사회보장계획 시행결과의 평가)\n① 보건복지부장관은 시ㆍ도 지역사회보장계획의 시행결과를, 시ㆍ도지사는 시ㆍ군ㆍ구 지역사회보장계획의 시행결과를 각각 보건복지부령으로 정하는 바에 따라 평가할 수 있다.\n② 시ㆍ도지사는 제1항에 따른 평가를 시행한 경우 그 결과를 보건복지부장관에게 제출하여야 한다. 보건복지부장관은 ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0039001"
+   },
+   {
+    "article_no": "40",
+    "article_branch": null,
+    "title": "시ㆍ도사회보장위원회",
+    "body": "제40조(시ㆍ도사회보장위원회)\n① 시ㆍ도지사는 시ㆍ도의 사회보장 증진을 위하여 시ㆍ도사회보장위원회를 둔다.\n② 시ㆍ도사회보장위원회는 다음 각 호의 업무를 심의ㆍ자문한다. <개정 2017.3.21>\n1. 시ㆍ도의 지역사회보장계획 수립ㆍ시행 및 평가에 관한 사항\n2. 시ㆍ도의 지역사회보장조사 및 지역사회보장지표에 관한 사항\n",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0040001"
+   },
+   {
+    "article_no": "40",
+    "article_branch": "2",
+    "title": "벌금형의 분리 선고",
+    "body": "제40조의2(벌금형의 분리 선고)\n「형법」 제38조에도 불구하고 제40조제4항제7호에 규정된 죄와 다른 죄의 경합범(競合犯)에 대하여 벌금형을 선고하는 경우에는 이를 분리 선고하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0040021"
+   },
+   {
+    "article_no": "41",
+    "article_branch": null,
+    "title": "지역사회보장협의체",
+    "body": "제41조(지역사회보장협의체)\n① 시장ㆍ군수ㆍ구청장은 지역의 사회보장을 증진하고, 사회보장과 관련된 서비스를 제공하는 관계 기관ㆍ법인ㆍ단체ㆍ시설과 연계ㆍ협력을 강화하기 위하여 해당 시ㆍ군ㆍ구에 지역사회보장협의체를 둔다.\n② 지역사회보장협의체는 다음 각 호의 업무를 심의ㆍ자문한다.\n1. 시ㆍ군ㆍ구의 지역사회보장계획 수립ㆍ시행",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0041001"
+   },
+   {
+    "article_no": "42",
+    "article_branch": null,
+    "title": "사회보장사무 전담기구",
+    "body": "제42조(사회보장사무 전담기구)\n① 특별자치시장 및 시장ㆍ군수ㆍ구청장은 사회보장에 관한 업무를 효율적으로 수행하기 위하여 관련 조직, 인력, 관계 기관 간 협력체계 등을 마련하여야 하며, 필요한 경우에는 사회보장에 관한 사무를 전담하는 기구(이하 \"사회보장사무 전담기구\"라 한다)를 별도로 설치할 수 있다. <개정 2017",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0042001"
+   },
+   {
+    "article_no": "42",
+    "article_branch": "2",
+    "title": "통합사례관리",
+    "body": "제42조의2(통합사례관리)\n① 보건복지부장관, 시ㆍ도지사 및 시장ㆍ군수ㆍ구청장은 지원대상자의 사회보장 수준을 높이기 위하여 지원대상자의 다양하고 복합적인 특성에 따른 상담과 지도, 사회보장에 대한 욕구조사, 서비스 제공 계획의 수립을 실시하고, 그 계획에 따라 지원대상자에게 보건ㆍ복지ㆍ고용ㆍ교육 등에 대한 사회보장급여 및",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0042021"
+   },
+   {
+    "article_no": "43",
+    "article_branch": null,
+    "title": "사회복지전담공무원",
+    "body": "제43조(사회복지전담공무원)\n① 사회복지사업에 관한 업무를 담당하게 하기 위하여 시ㆍ도, 시ㆍ군ㆍ구, 읍ㆍ면ㆍ동 또는 사회보장사무 전담기구에 사회복지전담공무원을 둘 수 있다.\n② 사회복지전담공무원은 「사회복지사업법」 제11조에 따른 사회복지사의 자격을 가진 사람으로 하며, 그 임용 등에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0043001"
+   },
+   {
+    "article_no": "44",
+    "article_branch": null,
+    "title": null,
+    "body": "제44조\n삭제 <2017.3.21>",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0044001"
+   },
+   {
+    "article_no": "45",
+    "article_branch": null,
+    "title": "지역사회보장의 균형발전",
+    "body": "제45조(지역사회보장의 균형발전)\n중앙행정기관의 장 및 시ㆍ도지사는 시ㆍ도 및 시ㆍ군ㆍ구 간 사회보장 수준의 차이를 최소화하기 위하여 예산 배분, 사회보장급여의 제공 기관 등의 배치 등에 필요한 조치를 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0045001"
+   },
+   {
+    "article_no": "46",
+    "article_branch": null,
+    "title": "지역사회보장균형발전지원센터",
+    "body": "제46조(지역사회보장균형발전지원센터)\n① 보건복지부장관은 시ㆍ도 및 시ㆍ군ㆍ구의 사회보장 추진 현황 분석, 지역사회보장계획의 평가, 지역 간 사회보장의 균형발전 지원 등의 업무를 효과적으로 수행하기 위하여 지역사회보장균형발전지원센터를 설치ㆍ운영 할 수 있다.\n② 보건복지부장관은 지역사회보장균형발전지원센터의 운영을 관련 전",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0046001"
+   },
+   {
+    "article_no": "47",
+    "article_branch": null,
+    "title": "지방자치단체에 대한 지원",
+    "body": "제47조(지방자치단체에 대한 지원)\n중앙행정기관의 장은 시ㆍ도지사 및 시장ㆍ군수ㆍ구청장에게 사회보장 사업의 수행에 필요한 비용을 지원할 수 있으며, 이 경우 제39조에 따른 평가결과를 반영할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0047001"
+   },
+   {
+    "article_no": "48",
+    "article_branch": null,
+    "title": "사회보장 특별지원구역 운영",
+    "body": "제48조(사회보장 특별지원구역 운영)\n① 중앙행정기관의 장 또는 시ㆍ도지사는 「공공주택 특별법」에 따른 영구임대주택단지, 저소득층 밀집 거주지, 그 밖에 보건, 복지, 고용, 주거, 문화 등 특정 분야의 서비스가 취약한 지역을 사회보장 특별지원구역으로 선정하여 지원할 수 있다. 이 경우 중앙행정기관의 장 또는 시ㆍ도지사는",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0048001"
+   },
+   {
+    "article_no": "49",
+    "article_branch": null,
+    "title": "비밀유지의무",
+    "body": "제49조(비밀유지의무)\n1. 제5조부터 제22조까지에 따른 신청, 조사, 결정, 확인조사, 환수 등 급여의 제공 및 관리 등에 관한 업무\n2. 제23조에 따른 사회보장정보의 처리 등에 관한 업무\n2의2. 제24조의2에 따른 사회서비스정보시스템의 자료 또는 정보의 처리 등에 관한 업무\n3. 제42조의2에 따른 통합사례관리에",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0049001"
+   },
+   {
+    "article_no": "50",
+    "article_branch": null,
+    "title": "사회보장급여의 압류 금지",
+    "body": "제50조(사회보장급여의 압류 금지)\n사회보장급여로 지급된 금품과 이를 받을 권리는 압류하지 못한다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0050001"
+   },
+   {
+    "article_no": "51",
+    "article_branch": null,
+    "title": "권한의 위임ㆍ위탁",
+    "body": "제51조(권한의 위임ㆍ위탁)\n① 이 법에 따른 보장기관의 장의 권한 또는 업무의 일부 중 다음 각 호의 사항을 소속 기관의 장이나 지방자치단체의 장에게 위임하거나 보건복지부장관, 다른 행정기관의 장에게 위탁할 수 있다.\n1. 제5조에 따른 신청의 접수\n2. 제6조, 제7조 및 제19조에 따른 사회보장 요구의 조사, 수급자",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0051001"
+   },
+   {
+    "article_no": "52",
+    "article_branch": null,
+    "title": "위임ㆍ위탁 시 인력 및 비용의 지원",
+    "body": "제52조(위임ㆍ위탁 시 인력 및 비용의 지원)\n보장기관의 장 또는 보건복지부장관은 제51조에 따라 위임ㆍ위탁된 업무의 처리에 필요한 인력 또는 경비를 지원하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0052001"
+   },
+   {
+    "article_no": "53",
+    "article_branch": null,
+    "title": "고발 및 징계요구",
+    "body": "제53조(고발 및 징계요구)\n① 보건복지부장관은 이 법 위반에 따른 범죄혐의가 있다고 인정될 만한 상당한 이유가 있을 때에는 관할 수사기관에 그 내용을 고발하여야 한다.\n② 보건복지부장관은 이 법의 위반행위가 있다고 인정될 만한 상당한 이유가 있을 때에는 책임이 있는 사람을 징계할 것을 해당 기관의 장에게 요구할 수 있다",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0053001"
+   },
+   {
+    "article_no": "53",
+    "article_branch": "2",
+    "title": "신고포상금의 지급 등",
+    "body": "제53조의2(신고포상금의 지급 등)\n① 보장기관의 장은 다음 각 호의 어느 하나에 해당하는 자를 신고한 사람에게 예산의 범위에서 포상금을 지급할 수 있다. 다만, 공무원이 그 직무와 관련하여 신고한 경우에는 포상금을 지급하지 아니한다.\n1. 제22조제1항의 부정수급자\n2. 법령에 위반되거나 부당한 방법으로 사회보장급여를 ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0053021"
+   },
+   {
+    "article_no": "54",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제54조(벌칙)\n① 제31조제1호를 위반한 사람은 10년 이하의 징역 또는 1억원 이하의 벌금에 처한다.\n② 다음 각 호의 어느 하나에 해당하는 사람은 5년 이하의 징역 또는 5천만원 이하의 벌금에 처한다. <개정 2021.7.27>\n1. 제12조제7항을 위반한 사람\n2. 제29조제8항 또는 제49조를 위반한 사람\n3. ",
+    "body_truncated": true,
+    "effective_on": "20251023",
+    "article_key": "0054001"
+   },
+   {
+    "article_no": "55",
+    "article_branch": null,
+    "title": "과태료",
+    "body": "제55조(과태료)\n① 제7조제1항에 따른 조사범위를 초과하여 개인정보를 수집한 자에게는 5천만원 이하의 과태료를 부과한다.\n② 다음 각 호의 어느 하나에 해당하는 사람에게는 3천만원 이하의 과태료를 부과한다.\n1. 제33조에 따른 시정요구에 따르지 아니한 사람\n2. 제34조에 따른 파기를 하지 아니한 사람",
+    "body_truncated": false,
+    "effective_on": "20251023",
+    "article_key": "0055001"
+   }
+  ],
+  "article_count": 65,
+  "articles_shown": 65,
+  "articles_truncated_bodies": 47,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1891393",
+    "name": "아산시 출생축하금 및 다자녀가정 지원에 관한 조례",
+    "region_id": "44200",
+    "org_name": "충청남도 아산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891393&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2139579",
+    "name": "완주군 장애인가정 출산지원금 지원 조례",
+    "region_id": "52710",
+    "org_name": "전북특별자치도 완주군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2139579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2058881",
+    "name": "파주시 장애인 및 저소득계층 반려동물 진료비 등 부담 완화 지원 조례",
+    "region_id": "41480",
+    "org_name": "경기도 파주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058881&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124595",
+    "name": "양평군 의료·요양 등 지역 돌봄의 통합지원에 관한 조례",
+    "region_id": "41830",
+    "org_name": "경기도 양평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124595&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124711",
+    "name": "화성시 돌봄 통합지원에 관한 조례",
+    "region_id": "41590",
+    "org_name": "경기도 화성시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124711&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125051",
+    "name": "과천시 지역사회보장협의체 구성 및 운영 조례",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126951",
+    "name": "예천군 지역사회보장협의체 운영 조례",
+    "region_id": "47900",
+    "org_name": "경상북도 예천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126951&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126975",
+    "name": "사천시 찾아가는 보건복지서비스 활성화에 관한 조례",
+    "region_id": "48240",
+    "org_name": "경상남도 사천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126975&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127637",
+    "name": "동두천시 지역사회보장협의체 운영 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127637&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130285",
+    "name": "영덕군 지역사회보장협의체 운영조례",
+    "region_id": "47770",
+    "org_name": "경상북도 영덕군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130285&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2131811",
+    "name": "전남광주통합특별시 서구 드림스타트 사업 지원기구 설치 및 운영 등에 관한 규칙",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2131811&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132129",
+    "name": "전남광주통합특별시 서구 저장강박 의심가구 지원 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132129&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132313",
+    "name": "전남광주통합특별시 서구 위기가구 발굴 및 지원에 관한 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132313&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132321",
+    "name": "전남광주통합특별시 서구 드림스타트 운영 및 지원에 관한 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132569",
+    "name": "전남광주통합특별시 서구 지역사회보장협의체 운영 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132569&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133729",
+    "name": "부산광역시 사상구 찾아가는 보건복지서비스 활성화에 관한 조례",
+    "region_id": "26530",
+    "org_name": "부산광역시 사상구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133729&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133949",
+    "name": "거제시 장애인 차별금지 및 인권보장 조례",
+    "region_id": "48310",
+    "org_name": "경상남도 거제시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133949&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2134839",
+    "name": "인천광역시 서해구 위기가구 발굴 활성화 조례",
+    "region_id": "28275",
+    "org_name": "인천광역시 서해구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2134839&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2135141",
+    "name": "인천광역시 서해구 저장강박 의심가구 지원에 관한 조례",
+    "region_id": "28275",
+    "org_name": "인천광역시 서해구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135141&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2135585",
+    "name": "인천광역시 서해구 지역사회보장협의체 구성 및 운영 조례",
+    "region_id": "28275",
+    "org_name": "인천광역시 서해구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135585&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

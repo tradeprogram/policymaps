@@ -1,0 +1,790 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1437685",
+   "key": "ordin-1437685",
+   "mst": "1437685",
+   "name": "구리시 재난안전대책본부 구성 및 운영 등에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "41310",
+   "sig_cd": "41310",
+   "region_name": "경기도 구리시",
+   "org_name": "경기도 구리시",
+   "enacted_on": "20191220",
+   "effective_on": "20191220",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 25,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1437685",
+   "categories": [
+    {
+     "code": "C08",
+     "name": "안전·재난",
+     "confidence": 0.6471,
+     "method": "rule"
+    },
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.878524,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1550281",
+      "key": "ordin-1550281",
+      "name": "구리시 통합방위협의회 구성 및 운영 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20201204",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1550281",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.876072,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1245932",
+      "key": "ordin-1245932",
+      "name": "구리시 규제개혁위원회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20160801",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1245932",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.867806,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1579337",
+      "key": "ordin-1579337",
+      "name": "구리시 공공데이터의 제공 및 이용 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20210312",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1579337",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.863274,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1437679",
+      "key": "ordin-1437679",
+      "name": "구리시 소비자 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20191220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1437679",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.861554,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1208335",
+      "key": "ordin-1208335",
+      "name": "구리시 국기선양에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20151229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1208335",
+      "categories": [
+       "C05",
+       "C10"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.861539,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1800691",
+      "key": "ordin-1800691",
+      "name": "구리시재단법인구리시민장학회지원조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20230413",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1800691",
+      "categories": [
+       "C05",
+       "C02",
+       "C04"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.85806,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1550187",
+      "key": "ordin-1550187",
+      "name": "구리시 벤처기업 육성 및 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20201204",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1550187",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.854987,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2135973",
+      "key": "ordin-2135973",
+      "name": "구리시 지방공기업 회계감사인선임위원회 구성ㆍ운영에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20260629",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2135973",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.852389,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2025933",
+      "key": "ordin-2025933",
+      "name": "구리시 시금고 지정·운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20250401",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2025933",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.850679,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2120251",
+      "key": "ordin-2120251",
+      "name": "구리시 민족통일협의회 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20260408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2120251",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.989172,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1603151",
+      "key": "ordin-1603151",
+      "name": "구리시 무궁화도시 조성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20210608",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1603151",
+      "categories": [
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.988444,
+      "stored_rank": null,
+      "ordinance_id": "ordin:802007",
+      "key": "ordin-802007",
+      "name": "구리시 청소년 유해환경 신고 포상금 지급 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20140630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=802007",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.988357,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1750607",
+      "key": "ordin-1750607",
+      "name": "구리시 제증명 등 수수료 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20221124",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1750607",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.988122,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2113105",
+      "key": "ordin-2113105",
+      "name": "구리시 우수음식점 지정 및 지원에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20260227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2113105",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.988011,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1380395",
+      "key": "ordin-1380395",
+      "name": "구리시 차상위계층 국민건강보험료 및 장기요양보험료 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20181224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1380395",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.987757,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1695705",
+      "key": "ordin-1695705",
+      "name": "구리시 관광진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20220408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1695705",
+      "categories": [
+       "C13",
+       "C09"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.98772,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1444449",
+      "key": "ordin-1444449",
+      "name": "구리시 화재대피용 방연마스크 비치 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20191231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1444449",
+      "categories": [
+       "C08",
+       "C03"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.987638,
+      "stored_rank": null,
+      "ordinance_id": "ordin:837455",
+      "key": "ordin-837455",
+      "name": "구리시관리도로지정및관리에관한조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20010319",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=837455",
+      "categories": [
+       "C10"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.987627,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1492525",
+      "key": "ordin-1492525",
+      "name": "구리시 공정무역 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20200512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1492525",
+      "categories": [
+       "C11",
+       "C09"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.987544,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1628179",
+      "key": "ordin-1628179",
+      "name": "구리시 지적재조사위원회·경계결정위원회 및 지적재조사추진단의 구성과 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20210928",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1628179",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994721,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1800691",
+      "key": "ordin-1800691",
+      "name": "구리시재단법인구리시민장학회지원조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20230413",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1800691",
+      "categories": [
+       "C05",
+       "C02",
+       "C04"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994555,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1359062",
+      "key": "ordin-1359062",
+      "name": "구리시 바르게살기운동조직 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20180920",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1359062",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994364,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1651551",
+      "key": "ordin-1651551",
+      "name": "구리시 생활폐기물 무단투기 등 신고포상금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20211221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1651551",
+      "categories": [
+       "C07",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994296,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1291372",
+      "key": "ordin-1291372",
+      "name": "구리시 효행 장려 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20170623",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1291372",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994168,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1392189",
+      "key": "ordin-1392189",
+      "name": "구리시 가로등 및 보안등 설치 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20190415",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1392189",
+      "categories": [
+       "C07",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.994093,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1345072",
+      "key": "ordin-1345072",
+      "name": "구리시 납세자보호에 관한 사무처리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20180419",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1345072",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.994064,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1291371",
+      "key": "ordin-1291371",
+      "name": "구리시 미용산업 활성화 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20170623",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1291371",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993909,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1994843",
+      "key": "ordin-1994843",
+      "name": "구리시 지방세 세무조사 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20241220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1994843",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993904,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2084225",
+      "key": "ordin-2084225",
+      "name": "구리시 폭염·한파 피해 예방 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20251111",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2084225",
+      "categories": [
+       "C08",
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993856,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2102427",
+      "key": "ordin-2102427",
+      "name": "구리시 성실납세자 등 우대 및 지원 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2102427",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1800691",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.92813,
+    "best_rank": 1,
+    "ordinance_id": "ordin:1800691",
+    "key": "ordin-1800691",
+    "name": "구리시재단법인구리시민장학회지원조례",
+    "region_name": "경기도 구리시",
+    "sig_cd": "41310",
+    "enacted_on": "20230413",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1800691"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

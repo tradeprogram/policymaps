@@ -1,0 +1,702 @@
+{
+ "data": {
+  "region": {
+   "region_id": "41670",
+   "sig_cd": "41670",
+   "name": "여주시",
+   "full_name": "경기도 여주시",
+   "level": 2
+  },
+  "counts": {
+   "total": 1170,
+   "active": 734,
+   "repealed": 436,
+   "by_rr_cls_cd": {
+    "일부개정": 454,
+    "전부개정": 33,
+    "제정": 247,
+    "폐지": 436
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 8
+   },
+   {
+    "year": 2008,
+    "n": 9
+   },
+   {
+    "year": 2009,
+    "n": 8
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 9
+   },
+   {
+    "year": 2013,
+    "n": 367
+   },
+   {
+    "year": 2014,
+    "n": 7
+   },
+   {
+    "year": 2015,
+    "n": 15
+   },
+   {
+    "year": 2016,
+    "n": 28
+   },
+   {
+    "year": 2017,
+    "n": 31
+   },
+   {
+    "year": 2018,
+    "n": 11
+   },
+   {
+    "year": 2019,
+    "n": 29
+   },
+   {
+    "year": 2020,
+    "n": 29
+   },
+   {
+    "year": 2021,
+    "n": 50
+   },
+   {
+    "year": 2022,
+    "n": 77
+   },
+   {
+    "year": 2023,
+    "n": 96
+   },
+   {
+    "year": 2024,
+    "n": 215
+   },
+   {
+    "year": 2025,
+    "n": 129
+   },
+   {
+    "year": 2026,
+    "n": 40
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 8
+   },
+   {
+    "year": 2008,
+    "n": 9
+   },
+   {
+    "year": 2009,
+    "n": 8
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 9
+   },
+   {
+    "year": 2013,
+    "n": 334
+   },
+   {
+    "year": 2014,
+    "n": 2
+   },
+   {
+    "year": 2015,
+    "n": 5
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 7
+   },
+   {
+    "year": 2020,
+    "n": 8
+   },
+   {
+    "year": 2021,
+    "n": 1
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 7
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2025,
+    "n": 9
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "여주군보건진료소수가조례",
+    "display_name": "여주군 보건진료소 수가 조례",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직 · 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "지방보조사업자의법령위반등에대한신고포상금지급에관한규칙",
+    "display_name": "지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 35
+   },
+   {
+    "policy_key": "위원회실비변상조례",
+    "display_name": "위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 33
+   },
+   {
+    "policy_key": "사회적기업육성지원에관한조례",
+    "display_name": "사회적기업 육성지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 28
+   },
+   {
+    "policy_key": "청소년지도위원의위촉에관한조례",
+    "display_name": "청소년지도위원의 위촉에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 25
+   },
+   {
+    "policy_key": "농민기본소득지원조례",
+    "display_name": "농민기본소득 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 23
+   },
+   {
+    "policy_key": "안전관리위원회운영조례",
+    "display_name": "안전관리위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 23
+   },
+   {
+    "policy_key": "거주외국인지원조례",
+    "display_name": "거주외국인 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 22
+   },
+   {
+    "policy_key": "지방세심의위원회운영규칙",
+    "display_name": "지방세심의위원회 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 15
+   },
+   {
+    "policy_key": "화장장려금지원조례",
+    "display_name": "화장 장려금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 11
+   },
+   {
+    "policy_key": "기반시설특별회계설치운영조례",
+    "display_name": "기반시설특별회계 설치 · 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 9
+   },
+   {
+    "policy_key": "사회재난구호및복구지원에관한조례",
+    "display_name": "사회재난 구호 및 복구 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 9
+   },
+   {
+    "policy_key": "재난안전대책본부구성및운영등에관한조례",
+    "display_name": "재난안전대책본부 구성 및 운영 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 9
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2106055",
+    "name": "여주시 사회재난 구호 및 복구 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-22",
+    "repealed_on": "2025-12-22",
+    "repealed_on_raw": "20251222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2106055&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2106053",
+    "name": "여주시 안전관리민관협력위원회 구성과 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-22",
+    "repealed_on": "2025-12-22",
+    "repealed_on_raw": "20251222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2106053&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2106045",
+    "name": "여주시 안전관리위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-22",
+    "repealed_on": "2025-12-22",
+    "repealed_on_raw": "20251222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2106045&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2106049",
+    "name": "여주시 안전관리자문단 구성과 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-22",
+    "repealed_on": "2025-12-22",
+    "repealed_on_raw": "20251222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2106049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2106047",
+    "name": "여주시 재난안전대책본부 구성 및 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-22",
+    "repealed_on": "2025-12-22",
+    "repealed_on_raw": "20251222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2106047&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2106051",
+    "name": "여주시 재난현장 통합지원본부 설치·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-22",
+    "repealed_on": "2025-12-22",
+    "repealed_on_raw": "20251222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2106051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2077429",
+    "name": "여주시 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-09-30",
+    "repealed_on": "2025-09-30",
+    "repealed_on_raw": "20250930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2077429&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2025647",
+    "name": "여주시 농민기본소득 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-31",
+    "repealed_on": "2025-03-31",
+    "repealed_on_raw": "20250331",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025647&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2008445",
+    "name": "여주시 임산부 교통비 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-02",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2008445&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1943139",
+    "name": "여주시 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-06-27",
+    "repealed_on": "2024-06-27",
+    "repealed_on_raw": "20240627",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1943139&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1918329",
+    "name": "여주시 위기청소년 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-02",
+    "repealed_on": "2024-04-02",
+    "repealed_on_raw": "20240402",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1918329&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1918331",
+    "name": "여주시 장기미집행 도시계획시설 대지 보상 임시특별회계 설치와 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-02",
+    "repealed_on": "2024-04-02",
+    "repealed_on_raw": "20240402",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1918331&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1897595",
+    "name": "여주시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-31",
+    "repealed_on": "2023-12-31",
+    "repealed_on_raw": "20231231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1897595&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1885941",
+    "name": "여주시 청소년문화의 집 설치 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1885941&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1887803",
+    "name": "여주시 청소년문화의 집 설치 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1887803&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1865265",
+    "name": "여주도시관리공단 설립과 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-16",
+    "repealed_on": "2023-10-16",
+    "repealed_on_raw": "20231016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1865265&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1865107",
+    "name": "여주시 농민수당 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-16",
+    "repealed_on": "2023-10-16",
+    "repealed_on_raw": "20231016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1865107&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1824491",
+    "name": "여주시민행복위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-26",
+    "repealed_on": "2023-06-26",
+    "repealed_on_raw": "20230626",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1824491&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1798769",
+    "name": "여주시의회 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-07",
+    "repealed_on": "2023-04-07",
+    "repealed_on_raw": "20230407",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1798769&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1766959",
+    "name": "여주시 경계선지능인 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-21",
+    "repealed_on": "2022-12-21",
+    "repealed_on_raw": "20221221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1766959&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1760489",
+    "name": "여주시 시민의소리처리위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-21",
+    "repealed_on": "2022-12-21",
+    "repealed_on_raw": "20221221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1760489&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1701359",
+    "name": "여주시 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-20",
+    "repealed_on": "2022-04-20",
+    "repealed_on_raw": "20220420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1701359&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1614773",
+    "name": "여주시 체육진흥협의회 조직 · 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-17",
+    "repealed_on": "2021-06-17",
+    "repealed_on_raw": "20210617",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1614773&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1602833",
+    "name": "여주시 홍보대사 위촉 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-24",
+    "repealed_on": "2020-12-24",
+    "repealed_on_raw": "20201224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602833&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1538005",
+    "name": "여주시 세종인문도시 명품 여주 조성에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-29",
+    "repealed_on": "2020-09-29",
+    "repealed_on_raw": "20200929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1538005&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1599769",
+    "name": "여주시 재정안정화기금 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-29",
+    "repealed_on": "2020-09-29",
+    "repealed_on_raw": "20200929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1599769&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1599767",
+    "name": "여주시 통합관리기금 설치와 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-29",
+    "repealed_on": "2020-09-29",
+    "repealed_on_raw": "20200929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1599767&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1571705",
+    "name": "여주시 통합관리기금 설치와 운용조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-09-29",
+    "repealed_on": "2020-09-29",
+    "repealed_on_raw": "20200929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1571705&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1526757",
+    "name": "여주시 거주외국인 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-06-15",
+    "repealed_on": "2020-06-15",
+    "repealed_on_raw": "20200615",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1526757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1488741",
+    "name": "여주시 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-08",
+    "repealed_on": "2020-04-08",
+    "repealed_on_raw": "20200408",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1488741&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1488737",
+    "name": "여주시 화장 장려금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-08",
+    "repealed_on": "2020-04-08",
+    "repealed_on_raw": "20200408",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1488737&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1452105",
+    "name": "여주시 1회용품 사용억제위반사업장에 대한 과태료 부과 · 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-08",
+    "repealed_on": "2019-11-08",
+    "repealed_on_raw": "20191108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1452105&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1452115",
+    "name": "여주시 금은모래캠핑장 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-08",
+    "repealed_on": "2019-11-08",
+    "repealed_on_raw": "20191108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1452115&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1452111",
+    "name": "여주시 이포보캠핑장 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-08",
+    "repealed_on": "2019-11-08",
+    "repealed_on_raw": "20191108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1452111&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1402498",
+    "name": "여주시 농기계 임대사업 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-24",
+    "repealed_on": "2019-06-24",
+    "repealed_on_raw": "20190624",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1402498&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1402231",
+    "name": "여주시 사전재해영향성 검토위원회 구성과 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-24",
+    "repealed_on": "2019-06-24",
+    "repealed_on_raw": "20190624",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1402231&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1402232",
+    "name": "여주시 농기계 임대사업 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-06-24",
+    "repealed_on": "2019-06-24",
+    "repealed_on_raw": "20190624",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1402232&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1397345",
+    "name": "여주시 열린혁신 시정발전위원회 설치와 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-02-20",
+    "repealed_on": "2019-02-20",
+    "repealed_on_raw": "20190220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1397345&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1398571",
+    "name": "여주시 저소득주민 자녀 장학기금 설치와 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-12-26",
+    "repealed_on": "2018-12-26",
+    "repealed_on_raw": "20181226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1398571&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1319562",
+    "name": "여주시 저소득주민 자녀 장학기금 설치와 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-20",
+    "repealed_on": "2018-01-01",
+    "repealed_on_raw": "20180101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1319562&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "41670"
+ ]
+}

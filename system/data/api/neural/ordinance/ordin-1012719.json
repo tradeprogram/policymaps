@@ -1,0 +1,786 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1012719",
+   "key": "ordin-1012719",
+   "mst": "1012719",
+   "name": "청송군기반시설특별회계 설치·운영 조례",
+   "ord_kind": "조례",
+   "region_id": "47750",
+   "sig_cd": "47750",
+   "region_name": "경상북도 청송군",
+   "org_name": "경상북도 청송군",
+   "enacted_on": "20140821",
+   "effective_on": "20140821",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 8,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1012719",
+   "categories": [
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.5714,
+     "method": "rule"
+    },
+    {
+     "code": "C09",
+     "name": "도시·건축·주택",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.857544,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2114715",
+      "key": "ordin-2114715",
+      "name": "청송군 공공임대주택 특별회계 설립 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20260306",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2114715",
+      "categories": [
+       "C02",
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.850015,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1529371",
+      "key": "ordin-1529371",
+      "name": "청송군 상징물에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20200923",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1529371",
+      "categories": [
+       "C14"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.849738,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1184044",
+      "key": "ordin-1184044",
+      "name": "청송군 농산물산지유통센터 설치 및 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20150812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1184044",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.849317,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2045647",
+      "key": "ordin-2045647",
+      "name": "청송군 반 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20250625",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2045647",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.847277,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1851633",
+      "key": "ordin-1851633",
+      "name": "청송군비위공직자의 의원면직 처리제한에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20230915",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1851633",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.846894,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2095625",
+      "key": "ordin-2095625",
+      "name": "청송군 주민참여예산제도 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20251222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2095625",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.844604,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1913425",
+      "key": "ordin-1913425",
+      "name": "청송군 농산물산지유통센터 설치 및 운영조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20240318",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1913425",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.844469,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1400945",
+      "key": "ordin-1400945",
+      "name": "청송군농기계수리반 설치 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20190701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1400945",
+      "categories": [
+       "C02",
+       "C12"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.843924,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1229187",
+      "key": "ordin-1229187",
+      "name": "청송군의회의원신분증규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20160318",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1229187",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.843019,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1183766",
+      "key": "ordin-1183766",
+      "name": "청송군 인재육성장학회 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20150812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1183766",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990658,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1806447",
+      "key": "ordin-1806447",
+      "name": "청송야송미술관 설치 및 관리 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20230504",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806447",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.989668,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1205917",
+      "key": "ordin-1205917",
+      "name": "청송군 재단법인 세계유교문화재단 운영 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20151218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1205917",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.988344,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1677713",
+      "key": "ordin-1677713",
+      "name": "청송군의회 지방공무원 근무 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20211222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1677713",
+      "categories": [
+       "C01",
+       "C10"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.988329,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1896107",
+      "key": "ordin-1896107",
+      "name": "청송군 공중화장실 등 설치 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20231229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1896107",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.987995,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1704847",
+      "key": "ordin-1704847",
+      "name": "청송군 행정동우회 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20220429",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1704847",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.987904,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2067249",
+      "key": "ordin-2067249",
+      "name": "청송 국제슬로시티 지원 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20250915",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2067249",
+      "categories": [
+       "C07",
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.987847,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1954263",
+      "key": "ordin-1954263",
+      "name": "청송군 고령친화도시 조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20240712",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1954263",
+      "categories": [
+       "C04",
+       "C03",
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.987846,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1804347",
+      "key": "ordin-1804347",
+      "name": "청송군 주민투표 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20230426",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1804347",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.98778,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1704697",
+      "key": "ordin-1704697",
+      "name": "청송군 사회적경제 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20220429",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1704697",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.987536,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1704839",
+      "key": "ordin-1704839",
+      "name": "청송군 저소득 주민 국민건강보험료 및 장기요양보험료 지원조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20220429",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1704839",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.993781,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1564503",
+      "key": "ordin-1564503",
+      "name": "청송군 재난현장 통합자원봉사지원단 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20201231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1564503",
+      "categories": [
+       "C08"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993613,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1851677",
+      "key": "ordin-1851677",
+      "name": "청송군 장기미집행 도시계획시설 대지보상 임시특별회계 설치 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20230915",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1851677",
+      "categories": [
+       "C02",
+       "C09"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993218,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1770195",
+      "key": "ordin-1770195",
+      "name": "청송군 여객자동차 운수사업 재정지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20221230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1770195",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.992908,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1183868",
+      "key": "ordin-1183868",
+      "name": "청송군 영세노점상 전업자금 융자에 대한 이자보조금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20150812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1183868",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.992857,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1896069",
+      "key": "ordin-1896069",
+      "name": "청송군 드림스타트 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20231229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1896069",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.992735,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2095641",
+      "key": "ordin-2095641",
+      "name": "청송군 돌봄 통합지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20251222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2095641",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.99268,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2029229",
+      "key": "ordin-2029229",
+      "name": "청송군 긴급재난지원금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20250414",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2029229",
+      "categories": [
+       "C08",
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.992659,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1806447",
+      "key": "ordin-1806447",
+      "name": "청송야송미술관 설치 및 관리 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20230504",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806447",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.992601,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1896105",
+      "key": "ordin-1896105",
+      "name": "청송군 자연휴양림 관리 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20231229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1896105",
+      "categories": [
+       "C13",
+       "C12"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.992546,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2006751",
+      "key": "ordin-2006751",
+      "name": "청송군 시험위원 등의 수당 및 여비 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청송군",
+      "sig_cd": "47750",
+      "enacted_on": "20241231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2006751",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1806447",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.991658,
+    "best_rank": 1,
+    "ordinance_id": "ordin:1806447",
+    "key": "ordin-1806447",
+    "name": "청송야송미술관 설치 및 관리 운영 조례",
+    "region_name": "경상북도 청송군",
+    "sig_cd": "47750",
+    "enacted_on": "20230504",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1806447"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

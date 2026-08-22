@@ -1,0 +1,828 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1009773",
+   "key": "ordin-1009773",
+   "mst": "1009773",
+   "name": "부여군 대한노인회 부여군지회 지원에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "44760",
+   "sig_cd": "44760",
+   "region_name": "충청남도 부여군",
+   "org_name": "충청남도 부여군",
+   "enacted_on": "20131227",
+   "effective_on": "20131227",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 7,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1009773",
+   "categories": [
+    {
+     "code": "C03",
+     "name": "복지·돌봄",
+     "confidence": 0.5385,
+     "method": "rule"
+    },
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.815968,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1373202",
+      "key": "ordin-1373202",
+      "name": "부산광역시 중구 대한노인회 중구지회 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 중구",
+      "sig_cd": "26110",
+      "enacted_on": "20181214",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1373202",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.763945,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1797287",
+      "key": "ordin-1797287",
+      "name": "화성시 대한노인회 화성시지회 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 화성시",
+      "sig_cd": "41590",
+      "enacted_on": "20210730",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1797287",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.75524,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2093545",
+      "key": "ordin-2093545",
+      "name": "부여군 주민자치회 설치·운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20251218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2093545",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.755176,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1837275",
+      "key": "ordin-1837275",
+      "name": "부여군 다함께돌봄에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20230714",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1837275",
+      "categories": [
+       "C03",
+       "C04"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.754786,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2032641",
+      "key": "ordin-2032641",
+      "name": "대구광역시 중구 주민자치센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 중구",
+      "sig_cd": "27110",
+      "enacted_on": "20250430",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2032641",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.754684,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1496227",
+      "key": "ordin-1496227",
+      "name": "대구광역시 중구 문화예술진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 중구",
+      "sig_cd": "27110",
+      "enacted_on": "20200520",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1496227",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.748911,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1916907",
+      "key": "ordin-1916907",
+      "name": "대구광역시 군위군 교육발전위원회 설립 및 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 군위군",
+      "sig_cd": "27720",
+      "enacted_on": "20240329",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1916907",
+      "categories": [
+       "C05",
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.746901,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1823133",
+      "key": "ordin-1823133",
+      "name": "남해군 주민자치회 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 남해군",
+      "sig_cd": "48840",
+      "enacted_on": "20230620",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1823133",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.740746,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:854011",
+      "key": "ordin-854011",
+      "name": "서울특별시 은평구 대한노인회 은평구지회 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 은평구",
+      "sig_cd": "11380",
+      "enacted_on": "20141202",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=854011",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.73933,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1746473",
+      "key": "ordin-1746473",
+      "name": "대구광역시 수성구 주민자치센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 수성구",
+      "sig_cd": "27260",
+      "enacted_on": "20221110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1746473",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990995,
+      "stored_rank": null,
+      "ordinance_id": "ordin:905126",
+      "key": "ordin-905126",
+      "name": "부여군 충남문화산업진흥원 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20111128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=905126",
+      "categories": [
+       "C02",
+       "C11",
+       "C13"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.990832,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1581003",
+      "key": "ordin-1581003",
+      "name": "부여군 정신건강복지센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20210317",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1581003",
+      "categories": [
+       "C06",
+       "C03"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990772,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1985299",
+      "key": "ordin-1985299",
+      "name": "부여군 아동친화도시 조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20241112",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985299",
+      "categories": [
+       "C03",
+       "C06",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990408,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1985307",
+      "key": "ordin-1985307",
+      "name": "부여군 경계선지능아동 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20241113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985307",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990329,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1396169",
+      "key": "ordin-1396169",
+      "name": "부여군 문화도시 조성 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20190530",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1396169",
+      "categories": [
+       "C13",
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.990101,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2056737",
+      "key": "ordin-2056737",
+      "name": "부여군 사회복지협의회 운영 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20250714",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2056737",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990089,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1656821",
+      "key": "ordin-1656821",
+      "name": "부여군 생활문화센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20211221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1656821",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989327,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1434353",
+      "key": "ordin-1434353",
+      "name": "부여군 장애인가족 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20191220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1434353",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989175,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1750045",
+      "key": "ordin-1750045",
+      "name": "부여군 아동 급식지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20221121",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1750045",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.989071,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1734409",
+      "key": "ordin-1734409",
+      "name": "부여군 여성농업인 육성 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20221011",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1734409",
+      "categories": [
+       "C12",
+       "C04"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.986871,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1750045",
+      "key": "ordin-1750045",
+      "name": "부여군 아동 급식지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20221121",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1750045",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.986529,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1837285",
+      "key": "ordin-1837285",
+      "name": "부여군 저소득계층 국민건강보험료 및 장기요양보험료 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20230714",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1837285",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.986312,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1547279",
+      "key": "ordin-1547279",
+      "name": "부여군 농업기술센터 종합분석실 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20201117",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1547279",
+      "categories": [
+       "C12"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.985946,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1434347",
+      "key": "ordin-1434347",
+      "name": "부여군 내수면어업 관련 산업 육성 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20191220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1434347",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.985944,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1694669",
+      "key": "ordin-1694669",
+      "name": "부여군 공예문화산업 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20220406",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1694669",
+      "categories": [
+       "C11",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.985025,
+      "stored_rank": null,
+      "ordinance_id": "ordin:905126",
+      "key": "ordin-905126",
+      "name": "부여군 충남문화산업진흥원 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20111128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=905126",
+      "categories": [
+       "C02",
+       "C11",
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.985011,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1814037",
+      "key": "ordin-1814037",
+      "name": "부여군 공공도서관 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20230530",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814037",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.984933,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1977043",
+      "key": "ordin-1977043",
+      "name": "부여군을 빛낸 자랑스러운 문화예술인 선정 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20241014",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1977043",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.984864,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2100621",
+      "key": "ordin-2100621",
+      "name": "부여군 아이돌봄서비스 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20251226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2100621",
+      "categories": [
+       "C03",
+       "C04"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.984722,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2056737",
+      "key": "ordin-2056737",
+      "name": "부여군 사회복지협의회 운영 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 부여군",
+      "sig_cd": "44760",
+      "enacted_on": "20250714",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2056737",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 3,
+    "jaccard": 0.1765,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:905126",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.98801,
+    "best_rank": 1,
+    "ordinance_id": "ordin:905126",
+    "key": "ordin-905126",
+    "name": "부여군 충남문화산업진흥원 지원 조례",
+    "region_name": "충청남도 부여군",
+    "sig_cd": "44760",
+    "enacted_on": "20111128",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=905126"
+   },
+   {
+    "node_id": "ordinance:ordin:1750045",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.988023,
+    "best_rank": 1,
+    "ordinance_id": "ordin:1750045",
+    "key": "ordin-1750045",
+    "name": "부여군 아동 급식지원 조례",
+    "region_name": "충청남도 부여군",
+    "sig_cd": "44760",
+    "enacted_on": "20221121",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1750045"
+   },
+   {
+    "node_id": "ordinance:ordin:2056737",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.987411,
+    "best_rank": 6,
+    "ordinance_id": "ordin:2056737",
+    "key": "ordin-2056737",
+    "name": "부여군 사회복지협의회 운영 지원에 관한 조례",
+    "region_name": "충청남도 부여군",
+    "sig_cd": "44760",
+    "enacted_on": "20250714",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2056737"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

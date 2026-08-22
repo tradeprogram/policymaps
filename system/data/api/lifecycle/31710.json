@@ -1,0 +1,706 @@
+{
+ "data": {
+  "region": {
+   "region_id": "31710",
+   "sig_cd": "31710",
+   "name": "울주군",
+   "full_name": "울산광역시 울주군",
+   "level": 2
+  },
+  "counts": {
+   "total": 635,
+   "active": 551,
+   "repealed": 84,
+   "by_rr_cls_cd": {
+    "일부개정": 421,
+    "전부개정": 14,
+    "제정": 116,
+    "폐지": 84
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 5
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 8
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 8
+   },
+   {
+    "year": 2011,
+    "n": 8
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 11
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 9
+   },
+   {
+    "year": 2017,
+    "n": 11
+   },
+   {
+    "year": 2018,
+    "n": 11
+   },
+   {
+    "year": 2019,
+    "n": 9
+   },
+   {
+    "year": 2020,
+    "n": 30
+   },
+   {
+    "year": 2021,
+    "n": 32
+   },
+   {
+    "year": 2022,
+    "n": 25
+   },
+   {
+    "year": 2023,
+    "n": 97
+   },
+   {
+    "year": 2024,
+    "n": 189
+   },
+   {
+    "year": 2025,
+    "n": 80
+   },
+   {
+    "year": 2026,
+    "n": 72
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 6
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 7
+   },
+   {
+    "year": 2015,
+    "n": 5
+   },
+   {
+    "year": 2016,
+    "n": 4
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 4
+   },
+   {
+    "year": 2019,
+    "n": 1
+   },
+   {
+    "year": 2020,
+    "n": 3
+   },
+   {
+    "year": 2021,
+    "n": 5
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 5
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여 업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수.분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황공개조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "주민의조례제정및개폐청구에관한조례",
+    "display_name": "주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "재정운영상황공개조례시행규칙",
+    "display_name": "재정운영상황공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 58
+   },
+   {
+    "policy_key": "장수수당지급조례",
+    "display_name": "장수수당 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 56
+   },
+   {
+    "policy_key": "제안규칙",
+    "display_name": "제안 규칙",
+    "rows": 1,
+    "nationwide_regions": 53
+   },
+   {
+    "policy_key": "사회적기업육성및지원에관한조례",
+    "display_name": "사회적기업 육성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 48
+   },
+   {
+    "policy_key": "자연발생유원지관리조례",
+    "display_name": "자연발생유원지관리조례",
+    "rows": 1,
+    "nationwide_regions": 43
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2109705",
+    "name": "울산광역시 울주군 농산물 물류창고 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-12",
+    "repealed_on": "2026-02-12",
+    "repealed_on_raw": "20260212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2109705&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1989549",
+    "name": "울산광역시 울주군 상설재활용품 교환판매장 시설의 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-05",
+    "repealed_on": "2024-12-05",
+    "repealed_on_raw": "20241205",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1989549&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1988195",
+    "name": "울산광역시 울주군 상설재활용품 교환판매장 시설의 설치 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-11-21",
+    "repealed_on": "2024-11-21",
+    "repealed_on_raw": "20241121",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1988195&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1923913",
+    "name": "울산광역시 울주군 간절곶 드라마세트장 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-02",
+    "repealed_on": "2024-05-02",
+    "repealed_on_raw": "20240502",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1923913&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1866353",
+    "name": "울산광역시 울주군 청소년문화의집 관리 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-26",
+    "repealed_on": "2023-10-26",
+    "repealed_on_raw": "20231026",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1866353&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851163",
+    "name": "울산광역시 울주군 보증채무 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-14",
+    "repealed_on": "2023-09-14",
+    "repealed_on_raw": "20230914",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851163&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851189",
+    "name": "울산광역시 울주군 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-14",
+    "repealed_on": "2023-09-14",
+    "repealed_on_raw": "20230914",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851189&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1563071",
+    "name": "울산광역시 울주군 혁신위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-06",
+    "repealed_on": "2023-05-06",
+    "repealed_on_raw": "20230506",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1563071&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1563087",
+    "name": "울산광역시 울주군 남북교류협력에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-27",
+    "repealed_on": "2023-04-27",
+    "repealed_on_raw": "20230427",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1563087&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1140231",
+    "name": "울산광역시 울주군 장애인체육 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-15",
+    "repealed_on": "2022-12-15",
+    "repealed_on_raw": "20221215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1140231&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1598813",
+    "name": "울산광역시 울주군 체육진흥협의회 조직 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-15",
+    "repealed_on": "2022-12-15",
+    "repealed_on_raw": "20221215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1598813&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1720589",
+    "name": "울산광역시 울주군 소송사건 수행증인 등의 실비 변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-04",
+    "repealed_on": "2022-08-04",
+    "repealed_on_raw": "20220804",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1720589&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1720791",
+    "name": "울산광역시 울주군 식품접객업 옥외영업에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-04",
+    "repealed_on": "2022-08-04",
+    "repealed_on_raw": "20220804",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1720791&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1659955",
+    "name": "울산광역시 울주군 주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-29",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1659955&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1658289",
+    "name": "울산광역시 울주군 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-29",
+    "repealed_on": "2021-12-29",
+    "repealed_on_raw": "20211229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1658289&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1592031",
+    "name": "울산광역시 울주군 차상위계층 국민건강보험료 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-04-29",
+    "repealed_on": "2021-05-01",
+    "repealed_on_raw": "20210501",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1592031&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1575065",
+    "name": "울산광역시 울주군 복지위원 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-18",
+    "repealed_on": "2021-02-18",
+    "repealed_on_raw": "20210218",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1575065&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1562905",
+    "name": "울산광역시 울주군 문화의 집 관리 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1562905&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1562907",
+    "name": "울산광역시 울주군 문화의 집 관리 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1562907&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1562843",
+    "name": "울산광역시 울주군 각종위원회 수당 및 여비 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1562843&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1540783",
+    "name": "울산광역시 울주군 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-30",
+    "repealed_on": "2020-10-30",
+    "repealed_on_raw": "20201030",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1540783&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1502729",
+    "name": "울산광역시 울주군 학교급식 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-06-03",
+    "repealed_on": "2020-06-03",
+    "repealed_on_raw": "20200603",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1502729&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1393325",
+    "name": "울산광역시 울주군의회 의원 공무국외여행 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-04-23",
+    "repealed_on": "2019-04-23",
+    "repealed_on_raw": "20190423",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1393325&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1378538",
+    "name": "울산광역시 울주군 사회적기업 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-31",
+    "repealed_on": "2018-12-31",
+    "repealed_on_raw": "20181231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1378538&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1365069",
+    "name": "울산광역시 울주군 인터넷시스템 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-11-01",
+    "repealed_on": "2018-11-01",
+    "repealed_on_raw": "20181101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365069&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1365066",
+    "name": "울산광역시 울주군 정책자문단 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-11-01",
+    "repealed_on": "2018-11-01",
+    "repealed_on_raw": "20181101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365066&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1365224",
+    "name": "울산광역시 울주군 주요정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-11-01",
+    "repealed_on": "2018-11-01",
+    "repealed_on_raw": "20181101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365224&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1310789",
+    "name": "울산광역시 울주군기 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-11-02",
+    "repealed_on": "2017-11-02",
+    "repealed_on_raw": "20171102",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1310789&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1301506",
+    "name": "울산광역시 울주군 지방산업입지심의위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-09-14",
+    "repealed_on": "2017-09-14",
+    "repealed_on_raw": "20170914",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1301506&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1282912",
+    "name": "울산광역시 울주군 노인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-03-30",
+    "repealed_on": "2017-03-30",
+    "repealed_on_raw": "20170330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1282912&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1278142",
+    "name": "울산광역시 울주군 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-02-16",
+    "repealed_on": "2017-02-16",
+    "repealed_on_raw": "20170216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1278142&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1273715",
+    "name": "울산광역시 울주군 기반시설특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-29",
+    "repealed_on": "2016-12-29",
+    "repealed_on_raw": "20161229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1273715&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1266058",
+    "name": "울산광역시 울주군 태아·출생아 복지보험료 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-10-27",
+    "repealed_on": "2016-10-27",
+    "repealed_on_raw": "20161027",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1266058&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1241306",
+    "name": "울산광역시 울주군 항결핵제 수수료 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-07-07",
+    "repealed_on": "2016-07-07",
+    "repealed_on_raw": "20160707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1241306&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1212007",
+    "name": "울산광역시 울주군 장수수당 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-31",
+    "repealed_on": "2016-01-01",
+    "repealed_on_raw": "20160101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1212007&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1190077",
+    "name": "울산광역시 울주군 보도구역내 횡단차도 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-01",
+    "repealed_on": "2015-10-01",
+    "repealed_on_raw": "20151001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1190077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1137682",
+    "name": "울산광역시 울주군 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-04-09",
+    "repealed_on": "2015-04-09",
+    "repealed_on_raw": "20150409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1137682&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:951875",
+    "name": "울산광역시 울주군 보조금 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-26",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=951875&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:951878",
+    "name": "울산광역시 울주군 사회단체보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-26",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=951878&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1036116",
+    "name": "울산광역시 울주군 신청사건립기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-11-06",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1036116&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "31710"
+ ]
+}

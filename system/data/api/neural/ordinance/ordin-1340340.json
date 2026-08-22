@@ -1,0 +1,768 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1340340",
+   "key": "ordin-1340340",
+   "mst": "1340340",
+   "name": "부산광역시 남구 응급의료 지원에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "26290",
+   "sig_cd": "26290",
+   "region_name": "부산광역시 남구",
+   "org_name": "부산광역시 남구",
+   "enacted_on": "20180301",
+   "effective_on": "20180301",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 10,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1340340",
+   "categories": [
+    {
+     "code": "C06",
+     "name": "보건·의료",
+     "confidence": 0.6471,
+     "method": "rule"
+    },
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.3333,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.919952,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1740101",
+      "key": "ordin-1740101",
+      "name": "부산광역시 남구 학교폭력예방 및 대책활동 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20221007",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1740101",
+      "categories": [
+       "C05",
+       "C07"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.91853,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1599087",
+      "key": "ordin-1599087",
+      "name": "부산광역시 남구 전입 대학생 지원에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20210512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1599087",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.905818,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1700339",
+      "key": "ordin-1700339",
+      "name": "부산광역시 남구 침수 방지시설 설치 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20220408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1700339",
+      "categories": [
+       "C08",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.901685,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1273231",
+      "key": "ordin-1273231",
+      "name": "울산광역시 남구 음식판매자동차 영업장소 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 남구",
+      "sig_cd": "31140",
+      "enacted_on": "20161111",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1273231",
+      "categories": [
+       "C06",
+       "C10"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.900702,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1743451",
+      "key": "ordin-1743451",
+      "name": "부산광역시 남구 공영장례 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20221031",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1743451",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.898009,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1636843",
+      "key": "ordin-1636843",
+      "name": "부산광역시 남구 통장자녀 장학금 지급 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20211026",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1636843",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.894805,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2156777",
+      "key": "ordin-2156777",
+      "name": "울산광역시 남구 통장자녀장학금 지급조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "울산광역시 남구",
+      "sig_cd": "31140",
+      "enacted_on": "20260803",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2156777",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.893283,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1636343",
+      "key": "ordin-1636343",
+      "name": "부산광역시 남구 통장자녀 장학금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20211026",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1636343",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.891682,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1396779",
+      "key": "ordin-1396779",
+      "name": "부산광역시 남구 시험수당 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20141008",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1396779",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.887739,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1620909",
+      "key": "ordin-1620909",
+      "name": "부산광역시 남구 긴급지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20210809",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1620909",
+      "categories": [
+       "C03",
+       "C04"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.988045,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2063823",
+      "key": "ordin-2063823",
+      "name": "부산광역시 남구 여성의 경제활동 촉진과 경력단절 예방에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20250811",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2063823",
+      "categories": [
+       "C11",
+       "C04"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.986755,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1740107",
+      "key": "ordin-1740107",
+      "name": "부산광역시 남구청장직 인수위원회 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20221007",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1740107",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.985979,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2041615",
+      "key": "ordin-2041615",
+      "name": "부산광역시 남구의회 포상 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20250527",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2041615",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.985791,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2095015",
+      "key": "ordin-2095015",
+      "name": "부산광역시 남구 정책실명제 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20251219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2095015",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.985493,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2055301",
+      "key": "ordin-2055301",
+      "name": "부산광역시 남구 친환경 도시농업 활성화 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20250709",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2055301",
+      "categories": [
+       "C12",
+       "C07"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.985329,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1416447",
+      "key": "ordin-1416447",
+      "name": "부산광역시 남구 사회재난 구호 및 복구 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20191104",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1416447",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.985274,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2081619",
+      "key": "ordin-2081619",
+      "name": "부산광역시 남구 전기이륜차 보급 및 이용 활성화 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20251101",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2081619",
+      "categories": [
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.985201,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1738523",
+      "key": "ordin-1738523",
+      "name": "부산광역시 남구 안전관리민관협력위원회 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20221007",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1738523",
+      "categories": [
+       "C08",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.98518,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1897973",
+      "key": "ordin-1897973",
+      "name": "부산광역시 남구 학교 등의 급식에 방사능 등 유해물질로부터 안전한 식재료 사용 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20231229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1897973",
+      "categories": [
+       "C05",
+       "C04",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.985016,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1897969",
+      "key": "ordin-1897969",
+      "name": "부산광역시 남구 보육교직원 권익 보호 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20231229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1897969",
+      "categories": [
+       "C04",
+       "C07"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.995012,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1413484",
+      "key": "ordin-1413484",
+      "name": "부산광역시 남구 청소년 유해환경 신고포상금 지급 규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20151116",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1413484",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993745,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1758255",
+      "key": "ordin-1758255",
+      "name": "부산광역시 남구 환경친화적 자동차 보급 및 이용 활성화 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20221219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1758255",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993692,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1503535",
+      "key": "ordin-1503535",
+      "name": "부산광역시 남구 재해영향평가심의위원회 구성 및 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20200605",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1503535",
+      "categories": [
+       "C08",
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.99365,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1735711",
+      "key": "ordin-1735711",
+      "name": "부산광역시 남구 공유수면 점용료·사용료 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20221007",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1735711",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993407,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1916449",
+      "key": "ordin-1916449",
+      "name": "부산광역시 남구 순환경제사회 전환 촉진 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20240329",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1916449",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993338,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1749479",
+      "key": "ordin-1749479",
+      "name": "부산광역시 남구 규제개혁위원회 설치 및 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20221118",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1749479",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993317,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1396817",
+      "key": "ordin-1396817",
+      "name": "부산광역시 남구의회에서의 증인 등 비용 지급에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20050926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1396817",
+      "categories": [
+       "C01",
+       "C10"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993254,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2101631",
+      "key": "ordin-2101631",
+      "name": "부산광역시 남구 예산성과금심사위원회 구성·운영 등에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2101631",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993234,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2161103",
+      "key": "ordin-2161103",
+      "name": "부산광역시 남구 오륙도인생후반전지원센터 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20260812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2161103",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993205,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1345020",
+      "key": "ordin-1345020",
+      "name": "부산광역시 남구 납세자보호에 관한 사무처리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20180419",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1345020",
+      "categories": [
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

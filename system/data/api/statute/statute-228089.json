@@ -1,0 +1,1891 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:228089",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "변호사법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20210105",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=228089&type=HTML&mobileYn=&efYd=20210105",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 377,
+   "child_ordinances": 290,
+   "by_verification_status": {
+    "article-missing": 22,
+    "article-verified": 274,
+    "unverifiable": 81
+   },
+   "by_delegation_type": {
+    "law-delegated": 377
+   },
+   "regions_top": [
+    {
+     "region_id": "51",
+     "name": "강원특별자치도",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 5
+    },
+    {
+     "region_id": "edu:31",
+     "name": "울산광역시교육청",
+     "ordinances": 4
+    },
+    {
+     "region_id": "edu:30",
+     "name": "대전광역시교육청",
+     "ordinances": 4
+    },
+    {
+     "region_id": "edu:26",
+     "name": "부산광역시교육청",
+     "ordinances": 4
+    },
+    {
+     "region_id": "edu:11",
+     "name": "서울특별시교육청",
+     "ordinances": 4
+    },
+    {
+     "region_id": "edu:41",
+     "name": "경기도교육청",
+     "ordinances": 3
+    },
+    {
+     "region_id": "46",
+     "name": "전라남도",
+     "ordinances": 3
+    },
+    {
+     "region_id": "43730",
+     "name": "충청북도 옥천군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41360",
+     "name": "경기도 남양주시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "30",
+     "name": "대전광역시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "27290",
+     "name": "대구광역시 달서구",
+     "ordinances": 3
+    },
+    {
+     "region_id": "27200",
+     "name": "대구광역시 남구",
+     "ordinances": 3
+    },
+    {
+     "region_id": "27",
+     "name": "대구광역시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "26",
+     "name": "부산광역시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "edu:48",
+     "name": "경상남도교육청",
+     "ordinances": 2
+    },
+    {
+     "region_id": "edu:46",
+     "name": "전라남도교육청",
+     "ordinances": 2
+    },
+    {
+     "region_id": "edu:36",
+     "name": "세종특별자치시교육청",
+     "ordinances": 2
+    },
+    {
+     "region_id": "edu:29",
+     "name": "광주광역시교육청",
+     "ordinances": 2
+    },
+    {
+     "region_id": "edu:28",
+     "name": "인천광역시교육청",
+     "ordinances": 2
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "변호사의 사명",
+    "body": "제1조(변호사의 사명)\n① 변호사는 기본적 인권을 옹호하고 사회정의를 실현함을 사명으로 한다.\n② 변호사는 그 사명에 따라 성실히 직무를 수행하고 사회질서 유지와 법률제도 개선에 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "변호사의 지위",
+    "body": "제2조(변호사의 지위)\n변호사는 공공성을 지닌 법률 전문직으로서 독립하여 자유롭게 그 직무를 수행한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "변호사의 직무",
+    "body": "제3조(변호사의 직무)\n변호사는 당사자와 그 밖의 관계인의 위임이나 국가ㆍ지방자치단체와 그 밖의 공공기관(이하 \"공공기관\"이라 한다)의 위촉 등에 의하여 소송에 관한 행위 및 행정처분의 청구에 관한 대리행위와 일반 법률 사무를 하는 것을 그 직무로 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "변호사의 자격",
+    "body": "제4조(변호사의 자격)\n1. 사법시험에 합격하여 사법연수원의 과정을 마친 자\n2. 판사나 검사의 자격이 있는 자\n3. 변호사시험에 합격한 자",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "변호사의 결격사유",
+    "body": "제5조(변호사의 결격사유)\n1. 금고 이상의 형(刑)을 선고받고 그 집행이 끝나거나 그 집행을 받지 아니하기로 확정된 후 5년이 지나지 아니한 자\n2. 금고 이상의 형의 집행유예를 선고받고 그 유예기간이 지난 후 2년이 지나지 아니한 자\n3. 금고 이상의 형의 선고유예를 받고 그 유예기간 중에 있는 자\n4. 탄핵이나 징계",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": null,
+    "body": "제6조\n삭제 <2008.3.28>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "자격등록",
+    "body": "제7조(자격등록)\n① 변호사로서 개업을 하려면 대한변호사협회에 등록을 하여야 한다.\n② 제1항의 등록을 하려는 자는 가입하려는 지방변호사회를 거쳐 등록신청을 하여야 한다.\n③ 지방변호사회는 제2항에 따른 등록신청을 받으면 해당 변호사의 자격 유무에 관한 의견서를 첨부할 수 있다.\n④ 대한변호사협회는 제2항에 따른 등록신청",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "등록거부",
+    "body": "제8조(등록거부)\n① 대한변호사협회는 제7조제2항에 따라 등록을 신청한 자가 다음 각 호의 어느 하나에 해당하면 제9조에 따른 등록심사위원회의 의결을 거쳐 등록을 거부할 수 있다. 이 경우 제4호에 해당하여 등록을 거부할 때에는 제9조에 따른 등록심사위원회의 의결을 거쳐 1년 이상 2년 이하의 등록금지기간을 정하여야 한다",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "등록심사위원회의 설치",
+    "body": "제9조(등록심사위원회의 설치)\n① 다음 각 호의 사항을 심사하기 위하여 대한변호사협회에 등록심사위원회를 둔다.\n1. 제8조제1항에 따른 등록거부에 관한 사항\n2. 제18조제1항ㆍ제2항에 따른 등록취소에 관한 사항\n② 대한변호사협회의 장은 제8조제1항, 제18조제1항제2호 또는 같은 조 제2항에 따라 등록거부나 등록취소를 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "등록심사위원회의 구성",
+    "body": "제10조(등록심사위원회의 구성)\n① 등록심사위원회는 다음 각 호의 위원으로 구성한다.\n1. 법원행정처장이 추천하는 판사 1명\n2. 법무부장관이 추천하는 검사 1명\n3. 대한변호사협회 총회에서 선출하는 변호사 4명\n4. 대한변호사협회의 장이 추천하는, 법학 교수 1명 및 경험과 덕망이 있는 자로서 변호사가 아닌 자 2명\n②",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "심사",
+    "body": "제11조(심사)\n① 등록심사위원회는 심사에 관하여 필요하다고 인정하면 당사자, 관계인 및 관계 기관ㆍ단체 등에 대하여 사실을 조회하거나 자료 제출 또는 위원회에 출석하여 진술하거나 설명할 것을 요구할 수 있다.\n② 제1항에 따라 사실 조회, 자료 제출 등을 요구받은 관계 기관ㆍ단체 등은 그 요구에 협조하여야 한다.\n③ 등",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "의결",
+    "body": "제12조(의결)\n① 등록심사위원회의 회의는 재적위원 과반수의 찬성으로 의결한다.\n② 대한변호사협회는 제1항에 따른 등록심사위원회의 의결이 있으면 이에 따라 등록이나 등록거부 또는 등록취소를 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "운영규칙",
+    "body": "제13조(운영규칙)\n등록심사위원회의 심사 절차와 운영에 관하여 필요한 사항은 대한변호사협회가 정한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "소속 변경등록",
+    "body": "제14조(소속 변경등록)\n① 변호사는 지방변호사회의 소속을 변경하려면 새로 가입하려는 지방변호사회를 거쳐 대한변호사협회에 소속 변경등록을 신청하여야 한다.\n② 제1항에 따라 소속이 변경된 변호사는 지체 없이 종전 소속 지방변호사회에 신고하여야 한다.\n③ 제1항의 경우에는 제7조제4항과 제8조를 준용한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "개업신고 등",
+    "body": "제15조(개업신고 등)\n변호사가 개업하거나 법률사무소를 이전한 경우에는 지체 없이 소속 지방변호사회와 대한변호사협회에 신고하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "휴업",
+    "body": "제16조(휴업)\n변호사는 일시 휴업하려면 소속 지방변호사회와 대한변호사협회에 신고하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "폐업",
+    "body": "제17조(폐업)\n변호사는 폐업하려면 소속 지방변호사회를 거쳐 대한변호사협회에 등록취소를 신청하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "등록취소",
+    "body": "제18조(등록취소)\n① 대한변호사협회는 변호사가 다음 각 호의 어느 하나에 해당하면 변호사의 등록을 취소하여야 한다. 이 경우 지체 없이 등록취소 사유를 명시하여 등록이 취소되는 자(제1호의 경우는 제외한다)에게 통지하여야 하며, 제2호에 해당하여 변호사의 등록을 취소하려면 미리 등록심사위원회의 의결을 거쳐야 한다.\n1.",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "등록취소명령",
+    "body": "제19조(등록취소명령)\n법무부장관은 변호사 명부에 등록된 자가 제4조에 따른 변호사의 자격이 없거나 제5조에 따른 결격사유에 해당한다고 인정하는 경우 대한변호사협회에 그 변호사의 등록취소를 명하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "보고 등",
+    "body": "제20조(보고 등)\n대한변호사협회는 변호사의 등록 및 등록거부, 소속 변경등록 및 그 거부, 개업, 사무소 이전, 휴업 및 등록취소에 관한 사항을 지체 없이 소속 지방변호사회에 통지하고 법무부장관에게 보고하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "법률사무소",
+    "body": "제21조(법률사무소)\n① 변호사는 법률사무소를 개설할 수 있다.\n② 변호사의 법률사무소는 소속 지방변호사회의 지역에 두어야 한다.\n③ 변호사는 어떠한 명목으로도 둘 이상의 법률사무소를 둘 수 없다. 다만, 사무공간의 부족 등 부득이한 사유가 있어 대한변호사협회가 정하는 바에 따라 인접한 장소에 별도의 사무실을 두고 변호사",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": "2",
+    "title": "법률사무소 개설 요건 등",
+    "body": "제21조의2(법률사무소 개설 요건 등)\n① 제4조제3호에 따른 변호사는 통산(通算)하여 6개월 이상 다음 각 호의 어느 하나에 해당하는 기관 등(이하 \"법률사무종사기관\"이라 한다)에서 법률사무에 종사하거나 연수(제6호에 한정한다)를 마치지 아니하면 단독으로 법률사무소를 개설하거나 법무법인, 법무법인(유한) 및 법무조합의 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0021021"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "사무직원",
+    "body": "제22조(사무직원)\n① 변호사는 법률사무소에 사무직원을 둘 수 있다.\n② 변호사는 다음 각 호의 어느 하나에 해당하는 자를 제1항에 따른 사무직원으로 채용할 수 없다. <개정 2014.12.30, 2020.6.9>\n1. 이 법 또는 「형법」 제129조부터 제132조까지, 「특정범죄가중처벌 등에 관한 법률」 제2조 또는 제",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "광고",
+    "body": "제23조(광고)\n① 변호사ㆍ법무법인ㆍ법무법인(유한) 또는 법무조합(이하 이 조에서 \"변호사등\"이라 한다)은 자기 또는 그 구성원의 학력, 경력, 주요 취급 업무, 업무 실적, 그 밖에 그 업무의 홍보에 필요한 사항을 신문ㆍ잡지ㆍ방송ㆍ컴퓨터통신 등의 매체를 이용하여 광고할 수 있다.\n② 변호사등은 다음 각 호의 어느 하나에",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "품위유지의무 등",
+    "body": "제24조(품위유지의무 등)\n① 변호사는 그 품위를 손상하는 행위를 하여서는 아니 된다.\n② 변호사는 그 직무를 수행할 때에 진실을 은폐하거나 거짓 진술을 하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "회칙준수의무",
+    "body": "제25조(회칙준수의무)\n변호사는 소속 지방변호사회와 대한변호사협회의 회칙을 지켜야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "비밀유지의무 등",
+    "body": "제26조(비밀유지의무 등)\n변호사 또는 변호사이었던 자는 그 직무상 알게 된 비밀을 누설하여서는 아니 된다. 다만, 법률에 특별한 규정이 있는 경우에는 그러하지 아니하다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "공익활동 등 지정업무 처리의무",
+    "body": "제27조(공익활동 등 지정업무 처리의무)\n① 변호사는 연간 일정 시간 이상 공익활동에 종사하여야 한다.\n② 변호사는 법령에 따라 공공기관, 대한변호사협회 또는 소속 지방변호사회가 지정한 업무를 처리하여야 한다.\n③ 공익활동의 범위와 그 시행 방법 등에 관하여 필요한 사항은 대한변호사협회가 정한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "장부의 작성·보관",
+    "body": "제28조(장부의 작성·보관)\n① 변호사는 수임에 관한 장부를 작성하고 보관하여야 한다.\n② 제1항의 장부에는 수임받은 순서에 따라 수임일, 수임액, 위임인 등의 인적사항, 수임한 법률사건이나 법률사무의 내용, 그 밖에 대통령령으로 정하는 사항을 기재하여야 한다.\n③ 제1항에 따른 장부의 보관 방법, 보존 기간, 그 밖에 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": "2",
+    "title": "수임사건의 건수 및 수임액의 보고",
+    "body": "제28조의2(수임사건의 건수 및 수임액의 보고)\n변호사는 매년 1월 말까지 전년도에 처리한 수임사건의 건수와 수임액을 소속 지방변호사회에 보고하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0028021"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "변호인선임서 등의 지방변호사회 경유",
+    "body": "제29조(변호인선임서 등의 지방변호사회 경유)\n변호사는 법률사건이나 법률사무에 관한 변호인선임서 또는 위임장 등을 공공기관에 제출할 때에는 사전에 소속 지방변호사회를 경유하여야 한다. 다만, 사전에 경유할 수 없는 급박한 사정이 있는 경우에는 변호인선임서나 위임장 등을 제출한 후 지체 없이 공공기관에 소속 지방변호사회의 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": "2",
+    "title": "변호인선임서 등의 미제출 변호 금지",
+    "body": "제29조의2(변호인선임서 등의 미제출 변호 금지)\n1. 재판에 계속(係屬) 중인 사건\n2. 수사 중인 형사사건[내사(內査) 중인 사건을 포함한다]",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0029021"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "연고 관계 등의 선전금지",
+    "body": "제30조(연고 관계 등의 선전금지)\n변호사나 그 사무직원은 법률사건이나 법률사무의 수임을 위하여 재판이나 수사업무에 종사하는 공무원과의 연고(緣故) 등 사적인 관계를 드러내며 영향력을 미칠 수 있는 것으로 선전하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "수임제한",
+    "body": "제31조(수임제한)\n① 변호사는 다음 각 호의 어느 하나에 해당하는 사건에 관하여는 그 직무를 수행할 수 없다. 다만, 제2호 사건의 경우 수임하고 있는 사건의 위임인이 동의한 경우에는 그러하지 아니하다.\n1. 당사자 한쪽으로부터 상의(相議)를 받아 그 수임을 승낙한 사건의 상대방이 위임하는 사건\n2. 수임하고 있는 사건",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": "2",
+    "title": "변호사시험합격자의 수임제한",
+    "body": "제31조의2(변호사시험합격자의 수임제한)\n① 제4조제3호에 따른 변호사는 법률사무종사기관에서 통산하여 6개월 이상 법률사무에 종사하거나 연수를 마치지 아니하면 사건을 단독 또는 공동으로 수임[제50조제1항, 제58조의16 또는 제58조의30에 따라 법무법인ㆍ법무법인(유한) 또는 법무조합의 담당변호사로 지정하는 경우나 「외",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0031021"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "계쟁권리의 양수 금지",
+    "body": "제32조(계쟁권리의 양수 금지)\n변호사는 계쟁권리(係爭權利)를 양수하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "독직행위의 금지",
+    "body": "제33조(독직행위의 금지)\n변호사는 수임하고 있는 사건에 관하여 상대방으로부터 이익을 받거나 이를 요구 또는 약속하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "변호사가 아닌 자와의 동업 금지 등",
+    "body": "제34조(변호사가 아닌 자와의 동업 금지 등)\n① 누구든지 법률사건이나 법률사무의 수임에 관하여 다음 각 호의 행위를 하여서는 아니 된다.\n1. 사전에 금품ㆍ향응 또는 그 밖의 이익을 받거나 받기로 약속하고 당사자 또는 그 밖의 관계인을 특정한 변호사나 그 사무직원에게 소개ㆍ알선 또는 유인하는 행위\n2. 당사자 또는 그 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "사건 유치 목적의 출입금지 등",
+    "body": "제35조(사건 유치 목적의 출입금지 등)\n변호사나 그 사무직원은 법률사건이나 법률사무를 유상으로 유치할 목적으로 법원ㆍ수사기관ㆍ교정기관 및 병원에 출입하거나 다른 사람을 파견하거나 출입 또는 주재하게 하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0035001"
+   },
+   {
+    "article_no": "36",
+    "article_branch": null,
+    "title": "재판·수사기관 공무원의 사건 소개 금지",
+    "body": "제36조(재판·수사기관 공무원의 사건 소개 금지)\n재판기관이나 수사기관의 소속 공무원은 대통령령으로 정하는 자기가 근무하는 기관에서 취급 중인 법률사건이나 법률사무의 수임에 관하여 당사자 또는 그 밖의 관계인을 특정한 변호사나 그 사무직원에게 소개ㆍ알선 또는 유인하여서는 아니 된다. 다만, 사건 당사자나 사무 당사자가 「",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0036001"
+   },
+   {
+    "article_no": "37",
+    "article_branch": null,
+    "title": "직무취급자 등의 사건 소개 금지",
+    "body": "제37조(직무취급자 등의 사건 소개 금지)\n① 재판이나 수사 업무에 종사하는 공무원은 직무상 관련이 있는 법률사건 또는 법률사무의 수임에 관하여 당사자 또는 그 밖의 관계인을 특정한 변호사나 그 사무직원에게 소개ㆍ알선 또는 유인하여서는 아니 된다.\n② 제1항에서 \"직무상 관련\"이란 다음 각 호의 어느 하나에 해당하는 경우",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0037001"
+   },
+   {
+    "article_no": "38",
+    "article_branch": null,
+    "title": "겸직 제한",
+    "body": "제38조(겸직 제한)\n① 변호사는 보수를 받는 공무원을 겸할 수 없다. 다만, 국회의원이나 지방의회 의원 또는 상시 근무가 필요 없는 공무원이 되거나 공공기관에서 위촉한 업무를 수행하는 경우에는 그러하지 아니하다.\n② 변호사는 소속 지방변호사회의 허가 없이 다음 각 호의 행위를 할 수 없다. 다만, 법무법인ㆍ법무법인(유한",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0038001"
+   },
+   {
+    "article_no": "39",
+    "article_branch": null,
+    "title": "감독",
+    "body": "제39조(감독)\n변호사는 소속 지방변호사회, 대한변호사협회 및 법무부장관의 감독을 받는다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0039001"
+   },
+   {
+    "article_no": "40",
+    "article_branch": null,
+    "title": "법무법인의 설립",
+    "body": "제40조(법무법인의 설립)\n변호사는 그 직무를 조직적ㆍ전문적으로 수행하기 위하여 법무법인을 설립할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0040001"
+   },
+   {
+    "article_no": "41",
+    "article_branch": null,
+    "title": "설립 절차",
+    "body": "제41조(설립 절차)\n법무법인을 설립하려면 구성원이 될 변호사가 정관을 작성하여 주사무소(主事務所) 소재지의 지방변호사회와 대한변호사협회를 거쳐 법무부장관의 인가를 받아야 한다. 정관을 변경할 때에도 또한 같다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0041001"
+   },
+   {
+    "article_no": "42",
+    "article_branch": null,
+    "title": "정관의 기재사항",
+    "body": "제42조(정관의 기재사항)\n1. 목적, 명칭, 주사무소 및 분사무소(分事務所)의 소재지\n2. 구성원의 성명ㆍ주민등록번호 및 법무법인을 대표할 구성원의 주소\n3. 출자(出資)의 종류와 그 가액(價額) 또는 평가의 기준\n4. 구성원의 가입ㆍ탈퇴와 그 밖의 변경에 관한 사항\n5. 구성원 회의에 관한 사항\n6. 법무법인의 대표에",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0042001"
+   },
+   {
+    "article_no": "43",
+    "article_branch": null,
+    "title": "등기",
+    "body": "제43조(등기)\n① 법무법인은 설립인가를 받으면 2주일 이내에 설립등기를 하여야 한다. 등기사항이 변경되었을 때에도 또한 같다.\n② 제1항의 등기사항은 다음 각 호와 같다.\n1. 목적, 명칭, 주사무소 및 분사무소의 소재지\n2. 구성원의 성명ㆍ주민등록번호 및 법무법인을 대표할 구성원의 주소\n3. 출자의 종류ㆍ가액 및 이행",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0043001"
+   },
+   {
+    "article_no": "44",
+    "article_branch": null,
+    "title": "명칭",
+    "body": "제44조(명칭)\n① 법무법인은 그 명칭 중에 법무법인이라는 문자를 사용하여야 한다.\n② 법무법인이 아닌 자는 법무법인 또는 이와 유사한 명칭을 사용하지 못한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0044001"
+   },
+   {
+    "article_no": "45",
+    "article_branch": null,
+    "title": "구성원",
+    "body": "제45조(구성원)\n① 법무법인은 3명 이상의 변호사로 구성하며, 그중 1명 이상이 통산하여 5년 이상 「법원조직법」 제42조제1항 각 호의 어느 하나에 해당하는 직에 있었던 자이어야 한다. <개정 2011.5.17>\n② 법무법인은 제1항에 따른 구성원의 요건을 충족하지 못하게 된 경우에는 3개월 이내에 보충하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0045001"
+   },
+   {
+    "article_no": "46",
+    "article_branch": null,
+    "title": "구성원의 탈퇴",
+    "body": "제46조(구성원의 탈퇴)\n① 구성원은 임의로 탈퇴할 수 있다.\n② 구성원은 다음 각 호의 어느 하나에 해당하는 사유가 있으면 당연히 탈퇴한다.\n1. 사망한 경우\n2. 제18조에 따라 등록이 취소된 경우\n3. 제102조제2항에 따라 업무정지명령을 받은 경우\n4. 이 법이나 「공증인법」에 따라 정직(停職) 이상의 징계처분을 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0046001"
+   },
+   {
+    "article_no": "47",
+    "article_branch": null,
+    "title": "구성원 아닌 소속 변호사",
+    "body": "제47조(구성원 아닌 소속 변호사)\n법무법인은 구성원 아닌 소속 변호사를 둘 수 있다. <개정 2009.2.6>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0047001"
+   },
+   {
+    "article_no": "48",
+    "article_branch": null,
+    "title": "사무소",
+    "body": "제48조(사무소)\n① 법무법인은 분사무소를 둘 수 있다. 분사무소의 설치기준에 대하여는 대통령령으로 정한다.\n② 법무법인이 사무소를 개업 또는 이전하거나 분사무소를 둔 경우에는 지체 없이 주사무소 소재지의 지방변호사회와 대한변호사협회를 거쳐 법무부장관에게 신고하여야 한다.\n③ 법무법인의 구성원과 구성원 아닌 소속 변호사는",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0048001"
+   },
+   {
+    "article_no": "49",
+    "article_branch": null,
+    "title": "업무",
+    "body": "제49조(업무)\n① 법무법인은 이 법과 다른 법률에 따른 변호사의 직무에 속하는 업무를 수행한다. <개정 2009.2.6>\n② 법무법인은 다른 법률에서 변호사에게 그 법률에 정한 자격을 인정하는 경우 그 구성원이나 구성원 아닌 소속 변호사가 그 자격에 의한 직무를 수행할 수 있을 때에는 그 직무를 법인의 업무로 할 수 있",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0049001"
+   },
+   {
+    "article_no": "50",
+    "article_branch": null,
+    "title": "업무 집행 방법",
+    "body": "제50조(업무 집행 방법)\n① 법무법인은 법인 명의로 업무를 수행하며 그 업무를 담당할 변호사를 지정하여야 한다. 다만, 구성원 아닌 소속 변호사에 대하여는 구성원과 공동으로 지정하여야 한다.\n② 법무법인이 제49조제2항에 따른 업무를 할 때에는 그 직무를 수행할 수 있는 변호사 중에서 업무를 담당할 자를 지정하여야 한다",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0050001"
+   },
+   {
+    "article_no": "51",
+    "article_branch": null,
+    "title": "업무 제한",
+    "body": "제51조(업무 제한)\n법무법인은 그 법인이 인가공증인으로서 공증한 사건에 관하여는 변호사 업무를 수행할 수 없다. 다만, 대통령령으로 정하는 경우에는 그러하지 아니하다. <개정 2009.2.6>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0051001"
+   },
+   {
+    "article_no": "52",
+    "article_branch": null,
+    "title": "구성원 등의 업무 제한",
+    "body": "제52조(구성원 등의 업무 제한)\n① 법무법인의 구성원 및 구성원 아닌 소속 변호사는 자기나 제3자의 계산으로 변호사의 업무를 수행할 수 없다.\n② 법무법인의 구성원이었거나 구성원 아닌 소속 변호사이었던 자는 법무법인의 소속 기간 중 그 법인이 상의를 받아 수임을 승낙한 사건에 관하여는 변호사의 업무를 수행할 수 없다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0052001"
+   },
+   {
+    "article_no": "53",
+    "article_branch": null,
+    "title": "인가취소",
+    "body": "제53조(인가취소)\n① 법무부장관은 법무법인이 다음 각 호의 어느 하나에 해당하면 그 설립인가를 취소할 수 있다.\n1. 제45조제2항을 위반하여 3개월 이내에 구성원을 보충하지 아니한 경우\n2. 업무 집행에 관하여 법령을 위반한 경우\n② 법무부장관은 제1항에 따라 법무법인의 설립인가를 취소하려면 청문을 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0053001"
+   },
+   {
+    "article_no": "54",
+    "article_branch": null,
+    "title": "해산",
+    "body": "제54조(해산)\n①법무법인은 다음 각 호의 어느 하나에 해당하는 사유가 있을 때에는 해산한다.\n1. 정관에 정한 해산 사유가 발생하였을 때\n2. 구성원 전원의 동의가 있을 때\n3. 합병하였을 때\n4. 파산하였을 때\n5. 설립인가가 취소되었을 때\n② 법무법인이 해산한 경우에는 청산인은 지체 없이 주사무소 소재지의 지방변호사",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0054001"
+   },
+   {
+    "article_no": "55",
+    "article_branch": null,
+    "title": "합병",
+    "body": "제55조(합병)\n① 법무법인은 구성원 전원이 동의하면 다른 법무법인과 합병할 수 있다.\n② 제1항의 경우에는 제41조부터 제43조까지의 규정을 준용한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0055001"
+   },
+   {
+    "article_no": "55",
+    "article_branch": "2",
+    "title": "조직변경",
+    "body": "제55조의2(조직변경)\n① 법무법인(유한) 또는 법무조합의 설립요건을 갖춘 법무법인은 구성원 전원의 동의가 있으면 법무부장관의 인가를 받아 법무법인(유한) 또는 법무조합으로 조직변경을 할 수 있다.\n② 법무법인이 제1항에 따라 법무부장관으로부터 법무법인(유한)의 인가를 받은 때에는 2주일 이내에 주사무소 소재지에서 법무법",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0055021"
+   },
+   {
+    "article_no": "56",
+    "article_branch": null,
+    "title": "통지",
+    "body": "제56조(통지)\n법무부장관은 법무법인의 인가 및 그 취소, 해산 및 합병이 있으면 지체 없이 주사무소 소재지의 지방변호사회와 대한변호사협회에 통지하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0056001"
+   },
+   {
+    "article_no": "57",
+    "article_branch": null,
+    "title": "준용규정",
+    "body": "제57조(준용규정)\n법무법인에 관하여는 제22조, 제27조, 제28조, 제28조의2, 제29조, 제29조의2, 제30조, 제31조제1항, 제32조부터 제37조까지, 제39조 및 제10장을 준용한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0057001"
+   },
+   {
+    "article_no": "58",
+    "article_branch": null,
+    "title": "다른 법률의 준용",
+    "body": "제58조(다른 법률의 준용)\n① 법무법인에 관하여 이 법에 정한 것 외에는 「상법」 중 합명회사에 관한 규정을 준용한다.\n② 삭제 <2009.2.6>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058001"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "10",
+    "title": "구성원의 책임",
+    "body": "제58조의10(구성원의 책임)\n법무법인(유한)의 구성원의 책임은 이 법에 규정된 것 외에는 그 출자금액을 한도로 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058101"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "11",
+    "title": "수임사건과 관련된 손해배상책임",
+    "body": "제58조의11(수임사건과 관련된 손해배상책임)\n① 담당변호사[담당변호사가 지정되지 아니한 경우에는 그 법무법인(유한)의 구성원 모두를 말한다]는 수임사건에 관하여 고의나 과실로 그 수임사건의 위임인에게 손해를 발생시킨 경우에는 법무법인(유한)과 연대하여 그 손해를 배상할 책임이 있다.\n② 담당변호사가 제1항에 따른 손해배",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058111"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "12",
+    "title": "손해배상 준비금 등",
+    "body": "제58조의12(손해배상 준비금 등)\n① 법무법인(유한)은 수임사건과 관련한 제58조의11에 따른 손해배상책임을 보장하기 위하여 대통령령으로 정하는 바에 따라 사업연도마다 손해배상 준비금을 적립하거나 보험 또는 대한변호사협회가 운영하는 공제기금에 가입하여야 한다.\n② 제1항에 따른 손해배상 준비금, 손해배상보험 또는 공제기",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058121"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "13",
+    "title": "인가취소",
+    "body": "제58조의13(인가취소)\n1. 제58조의6제3항을 위반하여 3개월 이내에 구성원을 보충하지 아니한 경우\n2. 이사 중에 제58조의6제4항 각 호의 어느 하나에 해당하는 자가 있는 경우. 다만, 해당 사유가 발생한 날부터 3개월 이내에 그 이사를 개임(改任)한 경우에는 그러하지 아니하다.\n3. 제58조의8제1항을 위반하여 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058131"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "14",
+    "title": "해산",
+    "body": "제58조의14(해산)\n① 법무법인(유한)은 다음 각 호의 어느 하나에 해당하는 사유가 있을 때에는 해산한다.\n1. 정관에 정한 해산사유가 발생하였을 때\n2. 구성원 과반수와 총 구성원의 의결권의 4분의 3 이상을 가진 자가 동의하였을 때\n3. 합병하였을 때\n4. 파산하였을 때\n5. 설립인가가 취소되었을 때\n6. 존립 기간",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058141"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "15",
+    "title": "통지",
+    "body": "제58조의15(통지)\n법무부장관은 법무법인(유한)의 인가 및 그 취소, 해산 및 합병이 있으면 지체 없이 주사무소 및 분사무소 소재지의 지방변호사회와 대한변호사협회에 그 사실을 통지하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058151"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "16",
+    "title": "준용규정",
+    "body": "제58조의16(준용규정)\n법무법인(유한)에 관하여는 제22조, 제27조, 제28조, 제28조의2, 제29조, 제29조의2, 제30조, 제31조제1항, 제32조부터 제37조까지, 제39조, 제44조, 제46조부터 제52조까지, 제53조제2항 및 제10장을 준용한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058161"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "17",
+    "title": "다른 법률의 준용",
+    "body": "제58조의17(다른 법률의 준용)\n① 법무법인(유한)에 관하여 이 법에 정한 것 외에는 「상법」 중 유한회사에 관한 규정(「상법」 제545조는 제외한다)을 준용한다.\n② 삭제 <2009.2.6>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058171"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "18",
+    "title": "설립",
+    "body": "제58조의18(설립)\n변호사는 그 직무를 조직적ㆍ전문적으로 수행하기 위하여 법무조합을 설립할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058181"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "19",
+    "title": "설립 절차",
+    "body": "제58조의19(설립 절차)\n① 법무조합을 설립하려면 구성원이 될 변호사가 규약을 작성하여 주사무소 소재지의 지방변호사회와 대한변호사협회를 거쳐 법무부장관의 인가를 받아야 한다. 규약을 변경하려는 경우에도 또한 같다.\n② 법무부장관은 제1항에 따라 법무조합의 설립을 인가한 경우에는 관보에 고시하여야 한다.\n③ 법무조합은 제",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058191"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "2",
+    "title": "설립",
+    "body": "제58조의2(설립)\n변호사는 그 직무를 조직적ㆍ전문적으로 수행하기 위하여 법무법인(유한)을 설립할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058021"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "20",
+    "title": "규약의 기재 사항",
+    "body": "제58조의20(규약의 기재 사항)\n1. 목적, 명칭, 주사무소 및 분사무소의 소재지\n2. 구성원의 성명ㆍ주민등록번호 및 법무조합을 대표할 구성원의 주소\n3. 구성원의 가입ㆍ탈퇴와 그 밖의 변경에 관한 사항\n4. 출자의 종류 및 그 가액과 평가기준에 관한 사항\n5. 손익분배에 관한 사항\n6. 법무조합의 대표에 관한 사항\n7",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058201"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "21",
+    "title": "규약의 제출 등",
+    "body": "제58조의21(규약의 제출 등)\n① 법무조합은 설립인가를 받으면 2주일 이내에 주사무소 및 분사무소 소재지의 지방변호사회에 규약과 다음 각 호의 사항을 적은 서면을 제출하여야 한다. 규약이나 기재 사항을 변경한 경우에도 또한 같다.\n1. 목적, 명칭, 주사무소 및 분사무소의 소재지\n2. 구성원의 성명ㆍ주민등록번호 및 법무",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058211"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "22",
+    "title": "구성원 등",
+    "body": "제58조의22(구성원 등)\n① 법무조합은 7명 이상의 변호사로 구성하며, 그중 2명 이상이 통산하여 10년 이상 「법원조직법」 제42조제1항 각 호의 어느 하나에 해당하는 직에 있었던 자이어야 한다.\n② 법무조합은 구성원 아닌 소속 변호사를 둘 수 있다.\n③ 법무조합이 제1항에 따른 구성원의 요건을 충족하지 못하게 된 경",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058221"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "23",
+    "title": "업무 집행",
+    "body": "제58조의23(업무 집행)\n① 법무조합의 업무 집행은 구성원 과반수의 결의에 의한다. 다만, 둘 이상의 업무집행구성원을 두는 경우에는 그 과반수의 결의에 의한다.\n② 법무조합은 규약으로 정하는 바에 따라 업무집행구성원 전원으로 구성된 운영위원회를 둘 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058231"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "24",
+    "title": "구성원의 책임",
+    "body": "제58조의24(구성원의 책임)\n구성원은 법무조합의 채무(제58조의25에 따른 손해배상책임과 관련한 채무는 제외한다)에 대하여 그 채무 발생 당시의 손실분담 비율에 따라 책임을 진다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058241"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "25",
+    "title": "수임사건과 관련된 손해배상책임",
+    "body": "제58조의25(수임사건과 관련된 손해배상책임)\n① 담당변호사(담당변호사가 지정되지 아니한 경우에는 그 법무조합의 구성원 모두를 말한다)가 수임사건에 관하여 고의나 과실로 그 수임사건의 위임인에게 손해를 발생시킨 경우 담당변호사는 그 손해를 배상할 책임이 있다.\n② 담당변호사가 제1항에 따른 손해배상책임을 지는 경우 그 담",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058251"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "26",
+    "title": "소송당사자능력",
+    "body": "제58조의26(소송당사자능력)\n법무조합은 소송의 당사자가 될 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058261"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "27",
+    "title": "인가취소",
+    "body": "제58조의27(인가취소)\n1. 제58조의22제3항을 위반하여 3개월 이내에 구성원을 보충하지 아니한 경우\n2. 제58조의30에 따라 준용되는 제58조의12제1항을 위반하여 손해배상 준비금을 적립하지 아니하거나 보험 또는 공제기금에 가입하지 아니한 경우\n3. 업무 집행에 관하여 법령을 위반한 경우",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058271"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "28",
+    "title": "해산",
+    "body": "제58조의28(해산)\n① 법무조합은 다음 각 호의 어느 하나에 해당하는 사유가 있을 때에는 해산한다.\n1. 규약에 정한 해산사유가 발생하였을 때\n2. 구성원 과반수의 동의가 있을 때. 다만, 규약으로 그 비율을 높게 할 수 있다.\n3. 설립인가가 취소되었을 때\n4. 존립 기간을 정한 경우에는 그 기간이 지났을 때\n② 법무",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058281"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "29",
+    "title": "통지",
+    "body": "제58조의29(통지)\n법무부장관은 법무조합의 설립인가 및 그 취소나 해산이 있으면 지체 없이 주사무소 및 분사무소 소재지의 지방변호사회와 대한변호사협회에 통지하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058291"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "3",
+    "title": "설립 절차",
+    "body": "제58조의3(설립 절차)\n법무법인(유한)을 설립하려면 구성원이 될 변호사가 정관을 작성하여 주사무소 소재지의 지방변호사회와 대한변호사협회를 거쳐 법무부장관의 인가를 받아야 한다. 정관을 변경할 때에도 또한 같다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058031"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "30",
+    "title": "준용규정",
+    "body": "제58조의30(준용규정)\n법무조합에 관하여는 제22조, 제27조, 제28조, 제28조의2, 제29조, 제29조의2, 제30조, 제31조제1항, 제32조부터 제37조까지, 제39조, 제44조, 제46조부터 제52조까지, 제53조제2항, 제58조의9제1항, 제58조의12 및 제10장을 준용한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058301"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "31",
+    "title": "다른 법률의 준용",
+    "body": "제58조의31(다른 법률의 준용)\n① 법무조합에 관하여 이 법에 정한 것 외에는 「민법」 중 조합에 관한 규정(「민법」 제713조는 제외한다)을 준용한다.\n② 삭제 <2009.2.6>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0058311"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "4",
+    "title": "정관의 기재 사항",
+    "body": "제58조의4(정관의 기재 사항)\n1. 목적, 명칭, 주사무소 및 분사무소의 소재지\n2. 구성원의 성명ㆍ주민등록번호 및 법무법인(유한)을 대표할 구성원의 주소\n3. 자본의 총액과 각 구성원의 출자좌수\n4. 구성원의 가입ㆍ탈퇴와 그 밖의 변경에 관한 사항\n5. 구성원 회의에 관한 사항\n6. 법무법인(유한)의 대표에 관한 사항",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058041"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "5",
+    "title": "등기",
+    "body": "제58조의5(등기)\n① 법무법인(유한)은 설립인가를 받으면 2주일 이내에 설립등기를 하여야 한다. 등기 사항이 변경되었을 때에도 또한 같다.\n② 제1항의 등기 사항은 다음 각 호와 같다.\n1. 목적, 명칭, 주사무소 및 분사무소의 소재지\n2. 출좌 1좌의 금액, 자본 총액 및 이행 부분\n3. 이사의 성명 및 주민등록번호\n",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058051"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "6",
+    "title": "구성원 등",
+    "body": "제58조의6(구성원 등)\n① 법무법인(유한)은 7명 이상의 변호사로 구성하며, 그중 2명 이상이 통산하여 10년 이상 「법원조직법」 제42조제1항 각 호의 어느 하나에 해당하는 직에 있었던 자이어야 한다.\n② 법무법인(유한)은 구성원 아닌 소속 변호사를 둘 수 있다.\n③ 법무법인(유한)이 제1항에 따른 구성원의 요건을 충",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058061"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "7",
+    "title": "자본 총액 등",
+    "body": "제58조의7(자본 총액 등)\n① 법무법인(유한)의 자본 총액은 5억원 이상이어야 한다.\n② 출자 1좌의 금액은 1만원으로 한다.\n③ 각 구성원의 출자좌수는 3천좌 이상이어야 한다.\n④ 법무법인(유한)은 직전 사업연도 말 대차대조표의 자산 총액에서 부채 총액을 뺀 금액이 5억원에 미달하면 부족한 금액을 매 사업연도가 끝난 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058071"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "8",
+    "title": "다른 법인에의 출자 제한 등",
+    "body": "제58조의8(다른 법인에의 출자 제한 등)\n① 법무법인(유한)은 자기자본에 100분의 50의 범위에서 대통령령으로 정하는 비율을 곱한 금액을 초과하여 다른 법인에 출자하거나 타인을 위한 채무보증을 하여서는 아니 된다.\n② 제1항에 규정된 자기자본은 직전 사업연도 말 대차대조표의 자산 총액에서 부채 총액을 뺀 금액을 말한다",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058081"
+   },
+   {
+    "article_no": "58",
+    "article_branch": "9",
+    "title": "회계처리 등",
+    "body": "제58조의9(회계처리 등)\n① 법무법인(유한)은 이 법에 정한 것 외에는 「주식회사 등의 외부감사에 관한 법률」 제5조에 따른 회계처리기준에 따라 회계처리를 하여야 한다. <개정 2017.10.31>\n② 법무법인(유한)은 제1항의 회계처리기준에 따른 대차대조표를 작성하여 매 사업연도가 끝난 후 3개월 이내에 법무부장관에게",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0058091"
+   },
+   {
+    "article_no": "59",
+    "article_branch": null,
+    "title": null,
+    "body": "제59조\n삭제 <2005.1.27>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0059001"
+   },
+   {
+    "article_no": "60",
+    "article_branch": null,
+    "title": null,
+    "body": "제60조\n삭제 <2005.1.27>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0060001"
+   },
+   {
+    "article_no": "61",
+    "article_branch": null,
+    "title": null,
+    "body": "제61조\n삭제 <2005.1.27>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0061001"
+   },
+   {
+    "article_no": "62",
+    "article_branch": null,
+    "title": null,
+    "body": "제62조\n삭제 <2005.1.27>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0062001"
+   },
+   {
+    "article_no": "63",
+    "article_branch": null,
+    "title": null,
+    "body": "제63조\n삭제 <2005.1.27>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0063001"
+   },
+   {
+    "article_no": "64",
+    "article_branch": null,
+    "title": "목적 및 설립",
+    "body": "제64조(목적 및 설립)\n① 변호사의 품위를 보전하고, 변호사 사무의 개선과 발전을 도모하며, 변호사의 지도와 감독에 관한 사무를 하도록 하기 위하여 지방법원 관할 구역마다 1개의 지방변호사회를 둔다. 다만, 서울특별시에는 1개의 지방변호사회를 둔다.\n② 지방변호사회는 법인으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0064001"
+   },
+   {
+    "article_no": "65",
+    "article_branch": null,
+    "title": "설립 절차",
+    "body": "제65조(설립 절차)\n지방변호사회를 설립할 때에는 회원이 될 변호사가 회칙을 정하여 대한변호사협회를 거쳐 법무부장관의 인가를 받아야 한다. 회칙을 변경할 때에도 또한 같다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0065001"
+   },
+   {
+    "article_no": "66",
+    "article_branch": null,
+    "title": "회칙의 기재 사항",
+    "body": "제66조(회칙의 기재 사항)\n1. 명칭과 사무소의 소재지\n2. 회원의 가입 및 탈퇴에 관한 사항\n3. 총회, 이사회, 그 밖의 기관의 구성ㆍ권한 및 회의에 관한 사항\n4. 임원의 구성ㆍ수ㆍ선임ㆍ임기 및 직무에 관한 사항\n5. 회원의 권리 및 의무에 관한 사항\n6. 회원의 지도 및 감독에 관한 사항\n7. 자산과 회계에 관한",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0066001"
+   },
+   {
+    "article_no": "67",
+    "article_branch": null,
+    "title": "고시",
+    "body": "제67조(고시)\n법무부장관은 지방변호사회의 설립을 인가하였을 때에는 그 명칭, 사무소의 소재지 및 설립 연월일을 고시하여야 한다. 명칭이나 사무소 소재지가 변경되었을 때에도 또한 같다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0067001"
+   },
+   {
+    "article_no": "68",
+    "article_branch": null,
+    "title": "가입 및 탈퇴",
+    "body": "제68조(가입 및 탈퇴)\n① 제7조에 따른 등록을 한 변호사는 가입하려는 지방변호사회의 회원이 된다.\n② 제14조에 따른 소속 변경등록을 한 변호사는 새로 가입하려는 지방변호사회의 회원이 되고, 종전 소속 지방변호사회를 당연히 탈퇴한다.\n③ 제18조에 따라 등록이 취소된 변호사는 소속 지방변호사회를 당연히 탈퇴한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0068001"
+   },
+   {
+    "article_no": "69",
+    "article_branch": null,
+    "title": "임원",
+    "body": "제69조(임원)\n① 지방변호사회에는 다음 각 호의 임원을 둔다. <개정 2011.4.5>\n1. 회장\n2. 부회장\n3. 상임이사\n4. 이사\n5. 감사\n② 제1항 각 호의 임원의 구성ㆍ수ㆍ선임ㆍ임기 및 직무에 관한 사항은 지방변호사회 회칙으로 정한다. <개정 2014.12.30>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0069001"
+   },
+   {
+    "article_no": "69",
+    "article_branch": "2",
+    "title": "회장",
+    "body": "제69조의2(회장)\n지방변호사회의 장은 지방변호사회를 대표하고, 지방변호사회의 업무를 총괄한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0069021"
+   },
+   {
+    "article_no": "70",
+    "article_branch": null,
+    "title": "총회",
+    "body": "제70조(총회)\n① 지방변호사회에 총회를 둔다.\n② 총회는 개업신고를 한 변호사로 구성한다. 다만, 회원수가 200명 이상인 경우에는 회칙으로 정하는 바에 따라 회원이 선출하는 대의원으로 구성할 수 있다.\n③ 다음 각 호의 사항은 총회의 결의를 거쳐야 한다.\n1. 회칙의 변경\n2. 예산 및 결산",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0070001"
+   },
+   {
+    "article_no": "71",
+    "article_branch": null,
+    "title": "이사회",
+    "body": "제71조(이사회)\n① 지방변호사회에 이사회를 둔다.\n② 이사회는 지방변호사회 업무에 관한 중요 사항을 결의한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0071001"
+   },
+   {
+    "article_no": "72",
+    "article_branch": null,
+    "title": "국선변호 협력의무 등",
+    "body": "제72조(국선변호 협력의무 등)\n① 지방변호사회는 법원에 국선변호인 예정자 명단을 제출하고 국선변호인의 변호 활동을 지원하는 등 국선변호인제도의 효율적인 운영에 적극 협력하여야 한다.\n② 지방변호사회는 재정결정(裁定決定)에 따라 법원의 심판에 부쳐진 사건에 대한 공소유지 변호사의 추천, 「민사조정법」에 따른 조정위원의 추",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0072001"
+   },
+   {
+    "article_no": "73",
+    "article_branch": null,
+    "title": "사법연수생의 지도",
+    "body": "제73조(사법연수생의 지도)\n지방변호사회는 사법연수원장의 위촉에 따라 사법연수생의 변호사 실무 수습을 담당한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0073001"
+   },
+   {
+    "article_no": "74",
+    "article_branch": null,
+    "title": "분쟁의 조정",
+    "body": "제74조(분쟁의 조정)\n지방변호사회는 그 회원인 변호사 상호간 또는 그 회원인 변호사와 위임인 사이에 직무상 분쟁이 있으면 당사자의 청구에 의하여 이를 조정할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0074001"
+   },
+   {
+    "article_no": "75",
+    "article_branch": null,
+    "title": "자문과 건의",
+    "body": "제75조(자문과 건의)\n지방변호사회는 공공기관에서 자문받은 사항에 관하여 회답하여야 하며, 법률사무나 그 밖에 이와 관련된 사항에 대하여 공공기관에 건의할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0075001"
+   },
+   {
+    "article_no": "75",
+    "article_branch": "2",
+    "title": "사실조회 등",
+    "body": "제75조의2(사실조회 등)\n지방변호사회는 회원인 변호사가 수임사건과 관련하여 공공기관에 조회하여 필요한 사항의 회신이나 보관 중인 문서의 등본 또는 사본의 송부를 신청하는 경우에는 그 신청이 적당하지 아니하다고 인정할 만한 특별한 사유가 있는 경우가 아니면 그 신청에 따라 공공기관에 이를 촉탁하고 회신 또는 송부 받은 결",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0075021"
+   },
+   {
+    "article_no": "76",
+    "article_branch": null,
+    "title": "회원들에 관한 정보제공의무",
+    "body": "제76조(회원들에 관한 정보제공의무)\n① 지방변호사회는 의뢰인의 변호사 선임의 편의를 도모하고 법률사건이나 법률사무 수임의 투명성을 확보하기 위하여 회원들의 학력, 경력, 주요 취급 업무, 업무 실적 등 사건 수임을 위한 정보를 의뢰인에게 제공하여야 한다.\n② 제1항에 따른 정보의 제공 범위, 제공 방법, 그 밖에 필요한",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0076001"
+   },
+   {
+    "article_no": "77",
+    "article_branch": null,
+    "title": "감독",
+    "body": "제77조(감독)\n① 지방변호사회는 대한변호사협회와 법무부장관의 감독을 받는다.\n② 지방변호사회는 총회의 결의 내용을 지체 없이 대한변호사협회와 법무부장관에게 보고하여야 한다.\n③ 법무부장관은 제2항의 결의가 법령이나 회칙에 위반된다고 인정하면 대한변호사협회의 장의 의견을 들어 취소할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0077001"
+   },
+   {
+    "article_no": "77",
+    "article_branch": "2",
+    "title": "비밀 준수",
+    "body": "제77조의2(비밀 준수)\n지방변호사회의 임직원이거나 임직원이었던 자는 법률에 특별한 규정이 있는 경우가 아니면 제28조의2, 제89조의4제1항 및 제89조의5제1항에 관한 업무처리와 관련하여 알게 된 비밀을 누설하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0077021"
+   },
+   {
+    "article_no": "78",
+    "article_branch": null,
+    "title": "목적 및 설립",
+    "body": "제78조(목적 및 설립)\n① 변호사의 품위를 보전하고, 법률사무의 개선과 발전, 그 밖의 법률문화의 창달을 도모하며, 변호사 및 지방변호사회의 지도 및 감독에 관한 사무를 하도록 하기 위하여 대한변호사협회를 둔다.\n② 대한변호사협회는 법인으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0078001"
+   },
+   {
+    "article_no": "79",
+    "article_branch": null,
+    "title": "설립 절차",
+    "body": "제79조(설립 절차)\n지방변호사회는 연합하여 회칙을 정하고 법무부장관의 인가를 받아 대한변호사협회를 설립하여야 한다. 회칙을 변경할 때에도 또한 같다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0079001"
+   },
+   {
+    "article_no": "80",
+    "article_branch": null,
+    "title": "회칙의 기재 사항",
+    "body": "제80조(회칙의 기재 사항)\n1. 제66조 각 호의 사항\n2. 법률구조사업에 관한 사항\n3. 변호사의 연수에 관한 사항\n4. 변호사의 징계에 관한 사항\n5. 변호사와 지방변호사회의 지도 및 감독에 관한 사항",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0080001"
+   },
+   {
+    "article_no": "80",
+    "article_branch": "2",
+    "title": "협회장",
+    "body": "제80조의2(협회장)\n대한변호사협회의 장은 대한변호사협회를 대표하고, 대한변호사협회의 업무를 총괄한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0080021"
+   },
+   {
+    "article_no": "81",
+    "article_branch": null,
+    "title": "임원",
+    "body": "제81조(임원)\n①대한변호사협회에는 다음 각 호의 임원을 둔다. <개정 2011.4.5>\n1. 협회장\n2. 부협회장\n3. 상임이사\n4. 이사\n5. 감사\n② 제1항 각 호의 임원의 구성ㆍ수ㆍ선임ㆍ임기 및 직무에 관한 사항은 대한변호사협회 회칙으로 정한다. <신설 2011.4.5>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0081001"
+   },
+   {
+    "article_no": "82",
+    "article_branch": null,
+    "title": "총회",
+    "body": "제82조(총회)\n① 대한변호사협회에 총회를 둔다.\n② 총회의 구성에 관한 사항은 회칙으로 정한다. <개정 2011.4.5>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0082001"
+   },
+   {
+    "article_no": "83",
+    "article_branch": null,
+    "title": "분담금",
+    "body": "제83조(분담금)\n지방변호사회는 대한변호사협회가 정하는 바에 따라 대한변호사협회의의 운영에 필요한 경비를 내야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0083001"
+   },
+   {
+    "article_no": "84",
+    "article_branch": null,
+    "title": "법률구조기구",
+    "body": "제84조(법률구조기구)\n대한변호사협회에 법률구조사업을 하도록 하기 위하여 법률구조기구를 두며, 지방변호사회에는 그 지부를 둘 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0084001"
+   },
+   {
+    "article_no": "85",
+    "article_branch": null,
+    "title": "변호사의 연수",
+    "body": "제85조(변호사의 연수)\n① 변호사는 변호사의 전문성과 윤리의식을 높이기 위하여 대한변호사협회가 실시하는 연수교육(이하 \"연수교육\"이라 한다)을 대통령령으로 정하는 시간 이상 받아야 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 그러하지 아니하다.\n1. 질병 등으로 정상적인 변호사 업무를 수행할 수 없는 경우",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0085001"
+   },
+   {
+    "article_no": "86",
+    "article_branch": null,
+    "title": "감독",
+    "body": "제86조(감독)\n① 대한변호사협회는 법무부장관의 감독을 받는다.\n② 대한변호사협회는 총회의 결의 내용을 지체 없이 법무부장관에게 보고하여야 한다.\n③ 법무부장관은 제2항의 결의가 법령이나 회칙에 위반된다고 인정하면 이를 취소할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0086001"
+   },
+   {
+    "article_no": "87",
+    "article_branch": null,
+    "title": "준용규정",
+    "body": "제87조(준용규정)\n대한변호사협회에 관하여는 제70조제3항, 제71조 및 제75조를 준용한다. <개정 2011.4.5>",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0087001"
+   },
+   {
+    "article_no": "88",
+    "article_branch": null,
+    "title": "법조윤리협의회",
+    "body": "제88조(법조윤리협의회)\n법조윤리를 확립하고 건전한 법조풍토를 조성하기 위하여 법조윤리협의회(이하 \"윤리협의회\"라 한다)를 둔다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0088001"
+   },
+   {
+    "article_no": "89",
+    "article_branch": null,
+    "title": "윤리협의회의 기능 및 권한",
+    "body": "제89조(윤리협의회의 기능 및 권한)\n① 윤리협의회는 다음 각 호의 업무를 수행한다.\n1. 법조윤리의 확립을 위한 법령ㆍ제도 및 정책에 관한 협의\n2. 법조윤리 실태의 분석과 법조윤리 위반행위에 대한 대책\n3. 법조윤리와 관련된 법령을 위반한 자에 대한 징계개시(懲戒開始)의 신청 또는 수사 의뢰\n4. 그 밖에 법조윤리의 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0089001"
+   },
+   {
+    "article_no": "89",
+    "article_branch": "10",
+    "title": "벌칙 적용에서 공무원 의제",
+    "body": "제89조의10(벌칙 적용에서 공무원 의제)\n윤리협의회의 위원ㆍ간사ㆍ사무직원으로서 공무원이 아닌 사람은 그 직무상 행위와 관련하여 「형법」이나 그 밖의 법률에 따른 벌칙을 적용할 때에는 공무원으로 본다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0089101"
+   },
+   {
+    "article_no": "89",
+    "article_branch": "2",
+    "title": "윤리협의회의 구성",
+    "body": "제89조의2(윤리협의회의 구성)\n① 윤리협의회는 다음 각 호의 어느 하나에 해당하는 자 중에서 법원행정처장, 법무부장관 및 대한변호사협회의 장이 각 3명씩 지명하거나 위촉하는 9명의 위원으로 구성한다. 이 경우 법원행정처장, 법무부장관 및 대한변호사협회의 장은 제4호나 제5호에 해당하는 자를 1명 이상 위원으로 위촉하여야",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0089021"
+   },
+   {
+    "article_no": "89",
+    "article_branch": "3",
+    "title": "윤리협의회의 조직·운영 및 예산",
+    "body": "제89조의3(윤리협의회의 조직·운영 및 예산)\n① 윤리협의회의 사무를 처리하기 위하여 윤리협의회에 간사 3명과 사무기구를 둔다.\n② 간사는 법원행정처장이 지명하는 판사 1명, 법무부장관이 지명하는 검사 1명, 대한변호사협회의 장이 지명하는 변호사 1명으로 한다.\n③ 위원장은 효율적으로 업무를 처리하기 위하여 간사 중에서 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0089031"
+   },
+   {
+    "article_no": "89",
+    "article_branch": "4",
+    "title": "공직퇴임변호사의 수임 자료 등 제출",
+    "body": "제89조의4(공직퇴임변호사의 수임 자료 등 제출)\n① 공직퇴임변호사는 퇴직일부터 2년 동안 수임한 사건에 관한 수임 자료와 처리 결과를 대통령령으로 정하는 기간마다 소속 지방변호사회에 제출하여야 한다. <개정 2013.5.28>\n② 공직퇴임변호사가 제50조ㆍ제58조의16 또는 제58조의30에 따라 법무법인ㆍ법무법인(유한)",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0089041"
+   },
+   {
+    "article_no": "89",
+    "article_branch": "5",
+    "title": "특정변호사의 수임 자료 등 제출",
+    "body": "제89조의5(특정변호사의 수임 자료 등 제출)\n① 지방변호사회는 대통령령으로 정하는 수 이상의 사건을 수임한 변호사[제50조, 제58조의16 및 제58조의30에 따른 법무법인ㆍ법무법인(유한) 또는 법무조합의 담당변호사나 「외국법자문사법」 제35조의20에 따른 합작법무법인의 담당변호사를 포함하며, 이하 \"특정변호사\"라 한다",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0089051"
+   },
+   {
+    "article_no": "89",
+    "article_branch": "6",
+    "title": "법무법인 등에서의 퇴직공직자 활동내역 등 제출",
+    "body": "제89조의6(법무법인 등에서의 퇴직공직자 활동내역 등 제출)\n① 「공직자윤리법」 제3조에 따른 재산등록의무자 및 대통령령으로 정하는 일정 직급 이상의 직위에 재직했던 변호사 아닌 퇴직공직자(이하 이 조에서 \"퇴직공직자\"라 한다)가 법무법인ㆍ법무법인(유한)ㆍ법무조합 또는 「외국법자문사법」 제2조제9호에 따른 합작법무법인(이",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0089061"
+   },
+   {
+    "article_no": "89",
+    "article_branch": "7",
+    "title": "수임사건 처리 결과 등의 통지",
+    "body": "제89조의7(수임사건 처리 결과 등의 통지)\n① 윤리협의회는 제89조의4제3항과 제89조의5제2항에 따라 자료를 제출받으면 지체 없이 그 사건 목록을 관할 법원ㆍ검찰청 등 사건을 관할하는 기관의 장에게 통지하여야 한다.\n② 제1항에 규정된 각 기관의 장은 제1항의 통지를 받은 날부터 1개월 이내에 통지받은 사건에 대한 처",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0089071"
+   },
+   {
+    "article_no": "89",
+    "article_branch": "8",
+    "title": "비밀 누설의 금지",
+    "body": "제89조의8(비밀 누설의 금지)\n윤리협의회의 위원ㆍ간사ㆍ사무직원 또는 그 직에 있었던 자는 업무처리 중 알게 된 비밀을 누설하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0089081"
+   },
+   {
+    "article_no": "89",
+    "article_branch": "9",
+    "title": "국회에 대한 보고",
+    "body": "제89조의9(국회에 대한 보고)\n① 윤리협의회는 매년 제89조제1항의 업무수행과 관련한 운영상황을 국회에 보고하여야 한다.\n② 윤리협의회는 제89조의8에도 불구하고 「인사청문회법」에 따른 인사청문회 또는 「국정감사 및 조사에 관한 법률」에 따른 국정조사를 위하여 국회의 요구가 있을 경우에는 제89조의4제3항 및 제89조의",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0089091"
+   },
+   {
+    "article_no": "90",
+    "article_branch": null,
+    "title": "징계의 종류",
+    "body": "제90조(징계의 종류)\n1. 영구제명\n2. 제명\n3. 3년 이하의 정직\n4. 3천만원 이하의 과태료\n5. 견책",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0090001"
+   },
+   {
+    "article_no": "91",
+    "article_branch": null,
+    "title": "징계 사유",
+    "body": "제91조(징계 사유)\n① 제90조제1호에 해당하는 징계 사유는 다음 각 호와 같다.\n1. 변호사의 직무와 관련하여 2회 이상 금고 이상의 형을 선고받아(집행유예를 선고받은 경우를 포함한다) 그 형이 확정된 경우(과실범의 경우는 제외한다)\n2. 이 법에 따라 2회 이상 정직 이상의 징계처분을 받은 후 다시 제2항에 따른 징",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0091001"
+   },
+   {
+    "article_no": "92",
+    "article_branch": null,
+    "title": "변호사징계위원회의 설치",
+    "body": "제92조(변호사징계위원회의 설치)\n① 변호사의 징계는 변호사징계위원회가 한다.\n② 대한변호사협회와 법무부에 각각 변호사징계위원회를 둔다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0092001"
+   },
+   {
+    "article_no": "92",
+    "article_branch": "2",
+    "title": "조사위원회의 설치",
+    "body": "제92조의2(조사위원회의 설치)\n① 변호사의 징계혐의사실에 대한 조사를 위하여 대한변호사협회에 조사위원회를 둔다.\n② 조사위원회는 필요하면 관계 기관ㆍ 단체 등에 자료 제출을 요청할 수 있으며, 당사자나 관계인을 면담하여 사실에 관한 의견을 들을 수 있다.\n③ 조사위원회의 구성과 운영 등에 관하여 필요한 사항은 대한변호사",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0092021"
+   },
+   {
+    "article_no": "93",
+    "article_branch": null,
+    "title": "대한변호사협회 변호사징계위원회의 구성",
+    "body": "제93조(대한변호사협회 변호사징계위원회의 구성)\n① 대한변호사협회 변호사징계위원회(이하 \"변협징계위원회\"라 한다)는 다음 각 호의 위원으로 구성한다. <개정 2017.12.19>\n1. 법원행정처장이 추천하는, 판사 1명과 변호사가 아닌 경험과 덕망이 있는 자 1명\n2. 법무부장관이 추천하는, 검사 1명과 변호사가 아닌 경",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0093001"
+   },
+   {
+    "article_no": "94",
+    "article_branch": null,
+    "title": "법무부 변호사징계위원회의 구성 등",
+    "body": "제94조(법무부 변호사징계위원회의 구성 등)\n① 법무부 변호사징계위원회(이하 \"법무부징계위원회\"라 한다)는 위원장 1명과 위원 8명으로 구성하며, 예비위원 8명을 둔다.\n② 위원장은 법무부장관이 되고, 위원과 예비위원은 다음 각 호의 구분에 따라 법무부장관이 임명 또는 위촉한다. <개정 2018.12.18>\n1. 법원행정",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0094001"
+   },
+   {
+    "article_no": "95",
+    "article_branch": null,
+    "title": "변협징계위원회의 심의권",
+    "body": "제95조(변협징계위원회의 심의권)\n① 변협징계위원회는 제91조에 따른 징계 사유에 해당하는 징계 사건을 심의한다.\n② 변협징계위원회는 제1항의 심의를 위하여 필요하면 조사위원회에 징계혐의사실에 대한 조사를 요청할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0095001"
+   },
+   {
+    "article_no": "96",
+    "article_branch": null,
+    "title": "법무부징계위원회의 심의권",
+    "body": "제96조(법무부징계위원회의 심의권)\n법무부징계위원회는 변협징계위원회의 징계 결정에 대한 이의신청 사건을 심의한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0096001"
+   },
+   {
+    "article_no": "97",
+    "article_branch": null,
+    "title": "징계개시의 청구",
+    "body": "제97조(징계개시의 청구)\n대한변호사협회의 장은 변호사가 제91조에 따른 징계 사유에 해당하면 변협징계위원회에 징계개시를 청구하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0097001"
+   },
+   {
+    "article_no": "97",
+    "article_branch": "2",
+    "title": "징계개시의 신청",
+    "body": "제97조의2(징계개시의 신청)\n① 지방검찰청검사장 또는 고위공직자범죄수사처장은 범죄수사 등 업무의 수행 중 변호사에게 제91조에 따른 징계 사유가 있는 것을 발견하였을 때에는 대한변호사협회의 장에게 그 변호사에 대한 징계개시를 신청하여야 한다. <개정 2021.1.5>\n② 지방변호사회의 장이 소속 변호사에게 제91조에 따",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0097021"
+   },
+   {
+    "article_no": "97",
+    "article_branch": "3",
+    "title": "징계개시의 청원 및 재청원",
+    "body": "제97조의3(징계개시의 청원 및 재청원)\n① 의뢰인이나 의뢰인의 법정대리인ㆍ배우자ㆍ직계친족 또는 형제자매는 수임변호사나 법무법인[제58조의2에 따른 법무법인(유한)과 제58조의18에 따른 법무조합을 포함한다]의 담당변호사에게 제91조에 따른 징계 사유가 있으면 소속 지방변호사회의 장에게 그 변호사에 대한 징계개시의 신청을",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0097031"
+   },
+   {
+    "article_no": "97",
+    "article_branch": "4",
+    "title": "대한변호사협회의 장의 결정",
+    "body": "제97조의4(대한변호사협회의 장의 결정)\n① 대한변호사협회의 장은 제89조의4제4항(제89조의5제3항에 따라 준용되는 경우를 포함한다) 또는 제97조의2에 따른 징계개시의 신청이 있거나 제97조의3제3항에 따른 재청원이 있으면 지체 없이 징계개시의 청구 여부를 결정하여야 한다.\n② 대한변호사협회의 장은 징계개시의 청구 여",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0097041"
+   },
+   {
+    "article_no": "97",
+    "article_branch": "5",
+    "title": "이의신청",
+    "body": "제97조의5(이의신청)\n① 징계개시 신청인은 대한변호사협회의 장이 징계개시의 신청을 기각하거나 징계개시의 신청이 접수된 날부터 3개월이 지나도 징계개시의 청구 여부를 결정하지 아니하면 변협징계위원회에 이의신청을 할 수 있다. 이 경우 이의신청은 제97조의4제3항에 따른 통지를 받은 날 또는 징계개시의 신청이 접수되어 3개",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0097051"
+   },
+   {
+    "article_no": "98",
+    "article_branch": null,
+    "title": "징계 결정 기간 등",
+    "body": "제98조(징계 결정 기간 등)\n① 변협징계위원회는 징계개시의 청구를 받거나 제97조의5제2항에 따라 징계 절차를 개시한 날부터 6개월 이내에 징계에 관한 결정을 하여야 한다. 다만, 부득이한 사유가 있을 때에는 그 의결로 6개월의 범위에서 기간을 연장할 수 있다.\n② 법무부징계위원회는 변협징계위원회의 결정에 대한 이의신청",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0098001"
+   },
+   {
+    "article_no": "98",
+    "article_branch": "2",
+    "title": "징계혐의자의 출석·진술권 등",
+    "body": "제98조의2(징계혐의자의 출석·진술권 등)\n① 변협징계위원회의 위원장은 징계심의의 기일을 정하고 징계혐의자에게 출석을 명할 수 있다.\n② 징계혐의자는 징계심의기일에 출석하여 구술 또는 서면으로 자기에게 유리한 사실을 진술하거나 필요한 증거를 제출할 수 있다.\n③ 변협징계위원회는 징계심의기일에 심의를 개시하고 징계혐의자에 ",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0098021"
+   },
+   {
+    "article_no": "98",
+    "article_branch": "3",
+    "title": "제척 사유",
+    "body": "제98조의3(제척 사유)\n위원장과 위원은 자기 또는 자기의 친족이거나 친족이었던 자에 대한 징계 사건의 심의에 관여하지 못한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0098031"
+   },
+   {
+    "article_no": "98",
+    "article_branch": "4",
+    "title": "징계 의결 등",
+    "body": "제98조의4(징계 의결 등)\n① 변협징계위원회는 사건 심의를 마치면 위원 과반수의 찬성으로써 의결한다.\n② 변협징계위원회는 징계의 의결 결과를 징계혐의자와 징계청구자 또는 징계개시 신청인에게 각각 통지하여야 한다.\n③ 징계혐의자가 징계 결정의 통지를 받은 후 제100조제1항에 따른 이의신청을 하지 아니하면 이의신청 기간이",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0098041"
+   },
+   {
+    "article_no": "98",
+    "article_branch": "5",
+    "title": "징계의 집행",
+    "body": "제98조의5(징계의 집행)\n① 징계는 대한변호사협회의 장이 집행한다.\n② 제90조제4호의 과태료 결정은 「민사집행법」에 따른 집행력 있는 집행권원과 같은 효력이 있으며, 검사의 지휘로 집행한다.\n③ 대한변호사협회의 장은 징계처분을 하면 이를 지체 없이 대한변호사협회가 운영하는 인터넷 홈페이지에 3개월 이상 게재하는 등 공",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0098051"
+   },
+   {
+    "article_no": "98",
+    "article_branch": "6",
+    "title": "징계 청구의 시효",
+    "body": "제98조의6(징계 청구의 시효)\n징계의 청구는 징계 사유가 발생한 날부터 3년이 지나면 하지 못한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0098061"
+   },
+   {
+    "article_no": "99",
+    "article_branch": null,
+    "title": "보고",
+    "body": "제99조(보고)\n대한변호사협회의 장은 변협징계위원회에서 징계에 관한 결정을 하면 지체 없이 그 사실을 법무부장관에게 보고하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0099001"
+   },
+   {
+    "article_no": "100",
+    "article_branch": null,
+    "title": "징계 결정에 대한 불복",
+    "body": "제100조(징계 결정에 대한 불복)\n① 변협징계위원회의 결정에 불복하는 징계혐의자 및 징계개시 신청인은 그 통지를 받은 날부터 30일 이내에 법무부징계위원회에 이의신청을 할 수 있다.\n② 법무부징계위원회는 제1항에 따른 이의신청이 이유 있다고 인정하면 변협징계위원회의 징계 결정을 취소하고 스스로 징계 결정을 하여야 하며,",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0100001"
+   },
+   {
+    "article_no": "101",
+    "article_branch": null,
+    "title": "위임",
+    "body": "제101조(위임)\n① 법무부징계위원회의 운영이나 그 밖에 징계에 필요한 사항은 대통령령으로 정한다.\n② 변협징계위원회의 운영 등에 필요한 사항은 대한변호사협회가 정한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0101001"
+   },
+   {
+    "article_no": "101",
+    "article_branch": "2",
+    "title": "「형사소송법」 등의 준용",
+    "body": "제101조의2(「형사소송법」 등의 준용)\n서류의 송달, 기일의 지정이나 변경 및 증인ㆍ감정인의 선서와 급여에 관한 사항에 대하여는 「형사소송법」과 「형사소송비용 등에 관한 법률」의 규정을 준용한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0101021"
+   },
+   {
+    "article_no": "102",
+    "article_branch": null,
+    "title": "업무정지명령",
+    "body": "제102조(업무정지명령)\n① 법무부장관은 변호사가 공소제기되거나 제97조에 따라 징계 절차가 개시되어 그 재판이나 징계 결정의 결과 등록취소, 영구제명 또는 제명에 이르게 될 가능성이 매우 크고, 그대로 두면 장차 의뢰인이나 공공의 이익을 해칠 구체적인 위험성이 있는 경우에는 법무부징계위원회에 그 변호사의 업무정지에 관한",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0102001"
+   },
+   {
+    "article_no": "103",
+    "article_branch": null,
+    "title": "업무정지 결정기간 등",
+    "body": "제103조(업무정지 결정기간 등)\n① 법무부징계위원회는 제102조제1항에 따라 청구를 받은 날부터 1개월 이내에 업무정지에 관한 결정을 하여야 한다. 다만, 부득이한 사유가 있는 때에는 그 의결로 1개월의 범위에서 그 기간을 연장할 수 있다.\n② 업무정지에 관하여는 제98조제3항 및 제98조의2제2항부터 제6항까지의 규정",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0103001"
+   },
+   {
+    "article_no": "104",
+    "article_branch": null,
+    "title": "업무정지 기간과 갱신",
+    "body": "제104조(업무정지 기간과 갱신)\n① 업무정지 기간은 6개월로 한다. 다만, 법무부장관은 해당 변호사에 대한 공판 절차 또는 징계 절차가 끝나지 아니하고 업무정지 사유가 없어지지 아니한 경우에는 법무부징계위원회의 의결에 따라 업무정지 기간을 갱신할 수 있다.\n② 제1항 단서에 따라 갱신할 수 있는 기간은 3개월로 한다.\n",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0104001"
+   },
+   {
+    "article_no": "105",
+    "article_branch": null,
+    "title": "업무정지명령의 해제",
+    "body": "제105조(업무정지명령의 해제)\n① 법무부장관은 업무정지 기간 중인 변호사에 대한 공판 절차나 징계 절차의 진행 상황에 비추어 등록취소ㆍ영구제명 또는 제명에 이르게 될 가능성이 크지 아니하고, 의뢰인이나 공공의 이익을 침해할 구체적인 위험이 없어졌다고 인정할 만한 상당한 이유가 있으면 직권으로 그 명령을 해제할 수 있다.",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0105001"
+   },
+   {
+    "article_no": "106",
+    "article_branch": null,
+    "title": "업무정지명령의 실효",
+    "body": "제106조(업무정지명령의 실효)\n업무정지명령은 그 업무정지명령을 받은 변호사에 대한 해당 형사 판결이나 징계 결정이 확정되면 그 효력을 잃는다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0106001"
+   },
+   {
+    "article_no": "107",
+    "article_branch": null,
+    "title": "업무정지 기간의 통산",
+    "body": "제107조(업무정지 기간의 통산)\n업무정지명령을 받은 변호사가 공소제기된 해당 형사사건과 같은 행위로 징계개시가 청구되어 정직 결정을 받으면 업무정지 기간은 그 전부 또는 일부를 정직 기간에 산입한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0107001"
+   },
+   {
+    "article_no": "108",
+    "article_branch": null,
+    "title": "업무정지명령에 대한 불복",
+    "body": "제108조(업무정지명령에 대한 불복)\n업무정지명령, 업무정지 기간의 갱신에 관하여는 제100조제4항부터 제6항까지의 규정을 준용한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0108001"
+   },
+   {
+    "article_no": "109",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제109조(벌칙)\n1. 변호사가 아니면서 금품ㆍ향응 또는 그 밖의 이익을 받거나 받을 것을 약속하고 또는 제3자에게 이를 공여하게 하거나 공여하게 할 것을 약속하고 다음 각 목의 사건에 관하여 감정ㆍ대리ㆍ중재ㆍ화해ㆍ청탁ㆍ법률상담 또는 법률 관계 문서 작성, 그 밖의 법률사무를 취급하거나 이러한 행위를 알선한 자\n가. 소송",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0109001"
+   },
+   {
+    "article_no": "110",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제110조(벌칙)\n1. 판사ㆍ검사, 그 밖에 재판ㆍ수사기관의 공무원에게 제공하거나 그 공무원과 교제한다는 명목으로 금품이나 그 밖의 이익을 받거나 받기로 한 행위\n2. 제1호에 규정된 공무원에게 제공하거나 그 공무원과 교제한다는 명목의 비용을 변호사 선임료ㆍ성공사례금에 명시적으로 포함시키는 행위",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0110001"
+   },
+   {
+    "article_no": "111",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제111조(벌칙)\n① 공무원이 취급하는 사건 또는 사무에 관하여 청탁 또는 알선을 한다는 명목으로 금품ㆍ향응, 그 밖의 이익을 받거나 받을 것을 약속한 자 또는 제3자에게 이를 공여하게 하거나 공여하게 할 것을 약속한 자는 5년 이하의 징역 또는 1천만원 이하의 벌금에 처한다. 이 경우 벌금과 징역은 병과할 수 있다.\n②",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0111001"
+   },
+   {
+    "article_no": "112",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제112조(벌칙)\n1. 타인의 권리를 양수하거나 양수를 가장하여 소송ㆍ조정 또는 화해, 그 밖의 방법으로 그 권리를 실행함을 업(業)으로 한 자\n2. 변호사의 자격이 없이 대한변호사협회에 그 자격에 관하여 거짓으로 신청하여 등록을 한 자\n3. 변호사가 아니면서 변호사나 법률사무소를 표시 또는 기재하거나 이익을 얻을 목적으",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0112001"
+   },
+   {
+    "article_no": "113",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제113조(벌칙)\n1. 제21조의2제1항을 위반하여 법률사무소를 개설하거나 법무법인ㆍ법무법인(유한) 또는 법무조합의 구성원이 된 자\n2. 제21조의2제3항(제31조의2제2항에 따라 준용하는 경우를 포함한다)에 따른 확인서를 거짓으로 작성하거나 거짓으로 작성된 확인서를 제출한 자\n3. 제23조제2항제1호 및 제2호를 위반하",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0113001"
+   },
+   {
+    "article_no": "114",
+    "article_branch": null,
+    "title": "상습범",
+    "body": "제114조(상습범)\n상습적으로 제109조제1호, 제110조 또는 제111조의 죄를 지은 자는 10년 이하의 징역에 처한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0114001"
+   },
+   {
+    "article_no": "115",
+    "article_branch": null,
+    "title": "법무법인 등의 처벌",
+    "body": "제115조(법무법인 등의 처벌)\n① 법무법인ㆍ법무법인(유한) 또는 법무조합의 구성원이나 구성원 아닌 소속 변호사가 제51조를 위반하면 500만원 이하의 벌금에 처한다.\n② 법무법인, 법무법인(유한) 또는 법무조합의 구성원이나 구성원이 아닌 소속 변호사가 그 법무법인, 법무법인(유한) 또는 법무조합의 업무에 관하여 제1항의",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0115001"
+   },
+   {
+    "article_no": "116",
+    "article_branch": null,
+    "title": "몰수·추징",
+    "body": "제116조(몰수·추징)\n제34조(제57조, 제58조의16 또는 제58조의30에 따라 준용되는 경우를 포함한다)를 위반하거나 제109조제1호, 제110조, 제111조 또는 제114조의 죄를 지은 자 또는 그 사정을 아는 제3자가 받은 금품이나 그 밖의 이익은 몰수한다. 이를 몰수할 수 없을 때에는 그 가액을 추징한다.",
+    "body_truncated": false,
+    "effective_on": "20210105",
+    "article_key": "0116001"
+   },
+   {
+    "article_no": "117",
+    "article_branch": null,
+    "title": "과태료",
+    "body": "제117조(과태료)\n① 제89조의4제1항ㆍ제2항 및 제89조의5제2항을 위반하여 수임 자료와 처리 결과에 대한 거짓 자료를 제출한 자에게는 2천만원 이하의 과태료를 부과한다. <신설 2013.5.28>\n② 다음 각 호의 어느 하나에 해당하는 자에게는 1천만원 이하의 과태료를 부과한다. <개정 2011.5.17, 2013.",
+    "body_truncated": true,
+    "effective_on": "20210105",
+    "article_key": "0117001"
+   }
+  ],
+  "article_count": 176,
+  "articles_shown": 176,
+  "articles_truncated_bodies": 79,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1021285",
+    "name": "군산시 고문변호사 조례",
+    "region_id": "52130",
+    "org_name": "전북특별자치도 군산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1021285&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1026817",
+    "name": "영천시 고문변호사 조례",
+    "region_id": "47230",
+    "org_name": "경상북도 영천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1026817&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1169661",
+    "name": "증평군 공공하수도 관리대행·운영에 관한 조례",
+    "region_id": "43745",
+    "org_name": "충청북도 증평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1169661&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1224605",
+    "name": "군산시의회 입법 및 법률 고문 운영 조례",
+    "region_id": "52130",
+    "org_name": "전북특별자치도 군산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1224605&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1229190",
+    "name": "봉화군 고문변호사 운영 조례",
+    "region_id": "47920",
+    "org_name": "경상북도 봉화군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1229190&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1242431",
+    "name": "동두천시 고문변호사 운영조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1242431&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1266790",
+    "name": "산청군 공공하수처리시설등 관리대행에 관한 조례",
+    "region_id": "48860",
+    "org_name": "경상남도 산청군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1266790&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1280492",
+    "name": "진주시 법률고문변호사에 관한 조례",
+    "region_id": "48170",
+    "org_name": "경상남도 진주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1280492&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1303408",
+    "name": "수원시 아파트 공동협의체 설치 및 운영 조례",
+    "region_id": "41110",
+    "org_name": "경기도 수원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1303408&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1361826",
+    "name": "장흥군 고문변호사에 관한 조례",
+    "region_id": "12770",
+    "org_name": "전남광주통합특별시 장흥군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1361826&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1388564",
+    "name": "대구광역시 법률고문 운영 조례",
+    "region_id": "27",
+    "org_name": "대구광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1388564&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1401494",
+    "name": "경상북도 고문변호사 제도의 운영 등에 관한 조례",
+    "region_id": "47",
+    "org_name": "경상북도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401494&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1401911",
+    "name": "충청북도 고문변호사조례",
+    "region_id": "43",
+    "org_name": "충청북도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401911&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1408219",
+    "name": "천안시 고문변호사 조례",
+    "region_id": "44130",
+    "org_name": "충청남도 천안시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1408219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1416208",
+    "name": "곡성군 고문변호사에 관한 조례",
+    "region_id": "12720",
+    "org_name": "전남광주통합특별시 곡성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1416208&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1420077",
+    "name": "고성군 고문변호사 운영 조례",
+    "region_id": "51820",
+    "org_name": "강원특별자치도 고성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1420077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1439811",
+    "name": "대구광역시달서구 의회 입법·법률고문 운영 조례",
+    "region_id": "27290",
+    "org_name": "대구광역시 달서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1439811&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1452229",
+    "name": "경기도 집합건물관리지원단 설치 및 운영 조례",
+    "region_id": "41",
+    "org_name": "경기도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1452229&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1501747",
+    "name": "부산광역시 북구 고문변호사 운영 조례",
+    "region_id": "26320",
+    "org_name": "부산광역시 북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1501747&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1509373",
+    "name": "인천광역시 동구 고문변호사 운영 조례",
+    "region_id": "28125",
+    "org_name": "인천광역시 제물포구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1509373&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

@@ -1,0 +1,781 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1004553",
+   "key": "ordin-1004553",
+   "mst": "1004553",
+   "name": "영암군 작은도서관 및 독서문화 진흥을 위한 조례 시행규칙",
+   "ord_kind": "규칙",
+   "region_id": "12800",
+   "sig_cd": "12800",
+   "region_name": "전남광주통합특별시 영암군",
+   "org_name": "전남광주통합특별시 영암군",
+   "enacted_on": "20131107",
+   "effective_on": "20131107",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 9,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1004553",
+   "categories": [
+    {
+     "code": "C13",
+     "name": "문화·체육·관광",
+     "confidence": 0.5714,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.956808,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1993833",
+      "key": "ordin-1993833",
+      "name": "영암군 작은도서관 및 독서문화 진흥에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20241219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1993833",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.874633,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1832245",
+      "key": "ordin-1832245",
+      "name": "영암군 자연재해위험지구 안에서의 행위제한에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20230706",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1832245",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.873796,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2060379",
+      "key": "ordin-2060379",
+      "name": "영암군 전통시장 및 상점가 육성을 위한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250724",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060379",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.870106,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1029970",
+      "key": "ordin-1029970",
+      "name": "영암군 금연환경조성 및 간접흡연 피해방지 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20150319",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1029970",
+      "categories": [
+       "C06",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.866578,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1511883",
+      "key": "ordin-1511883",
+      "name": "영암군 전통시장 및 상점가 육성을 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20200702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1511883",
+      "categories": [
+       "C11",
+       "C10"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.858471,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1359238",
+      "key": "ordin-1359238",
+      "name": "영암군 농업기계 순회수리 봉사반 설치 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20180927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1359238",
+      "categories": [
+       "C12",
+       "C05"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.857371,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2037911",
+      "key": "ordin-2037911",
+      "name": "영암군 돌봄 통합지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2037911",
+      "categories": [
+       "C06",
+       "C03"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.85431,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:968975",
+      "key": "ordin-968975",
+      "name": "영암군 사업용 자동차 운송사업자 차고지 설치의무 면제 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20101104",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "undetermined",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=968975",
+      "categories": [
+       "C10"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.848324,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1732225",
+      "key": "ordin-1732225",
+      "name": "영암군 민원 처리에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20221006",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1732225",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.847468,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1199617",
+      "key": "ordin-1199617",
+      "name": "영암군 도시공원 및 녹지 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20151112",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1199617",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.99103,
+      "stored_rank": null,
+      "ordinance_id": "ordin:796427",
+      "key": "ordin-796427",
+      "name": "영암군 담배소매인 지정 기준에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20130307",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=796427",
+      "categories": [
+       "C10",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.989436,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1993785",
+      "key": "ordin-1993785",
+      "name": "영암군 지방재정계획·공시 심의위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20241219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1993785",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.989416,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2024765",
+      "key": "ordin-2024765",
+      "name": "영암군 사무전결 처리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250327",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2024765",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.988858,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1871579",
+      "key": "ordin-1871579",
+      "name": "영암군 수입증지 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20231109",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1871579",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.988803,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2060385",
+      "key": "ordin-2060385",
+      "name": "영암군 농업발전기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250724",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060385",
+      "categories": [
+       "C02",
+       "C12"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.988618,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2037917",
+      "key": "ordin-2037917",
+      "name": "영암군 온라인 쇼핑몰 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2037917",
+      "categories": [
+       "C11",
+       "C12"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.98855,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2158151",
+      "key": "ordin-2158151",
+      "name": "영암군립 하정웅미술관 관리 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20260806",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2158151",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.98855,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1310849",
+      "key": "ordin-1310849",
+      "name": "영암군 지방청소년 지도위원 위촉에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20171109",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1310849",
+      "categories": [
+       "C05",
+       "C03"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.988546,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2066295",
+      "key": "ordin-2066295",
+      "name": "영암군 군민 영양관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250904",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2066295",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.988507,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1954075",
+      "key": "ordin-1954075",
+      "name": "영암군 필수노동자 보호 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20240711",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1954075",
+      "categories": [
+       "C08",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994126,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2093685",
+      "key": "ordin-2093685",
+      "name": "영암군 향토축제 운영 및 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20251218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2093685",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994056,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1925417",
+      "key": "ordin-1925417",
+      "name": "영암군 공중화장실 설치 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20240509",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1925417",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993967,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2037917",
+      "key": "ordin-2037917",
+      "name": "영암군 온라인 쇼핑몰 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2037917",
+      "categories": [
+       "C11",
+       "C12"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993755,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1431073",
+      "key": "ordin-1431073",
+      "name": "영암군 수난구호 참여자 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20191212",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1431073",
+      "categories": [
+       "C08"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993523,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2050661",
+      "key": "ordin-2050661",
+      "name": "영암군 수도급수 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2050661",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993449,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2024811",
+      "key": "ordin-2024811",
+      "name": "영암군 친환경농업 육성 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250327",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2024811",
+      "categories": [
+       "C12",
+       "C07"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993344,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2024813",
+      "key": "ordin-2024813",
+      "name": "영암군 저소득층 주민생활안정자금 특별회계 설치운용 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20250327",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2024813",
+      "categories": [
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993287,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1412644",
+      "key": "ordin-1412644",
+      "name": "영암군 장애인 주간보호시설 설치 및 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20191010",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1412644",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993162,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1670779",
+      "key": "ordin-1670779",
+      "name": "영암군의회 사무기구 설치 및 직원 정수 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1670779",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993153,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1756985",
+      "key": "ordin-1756985",
+      "name": "영암군 데이터기반행정 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 영암군",
+      "sig_cd": "12800",
+      "enacted_on": "20221215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1756985",
+      "categories": [
+       "C02",
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2037917",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.991293,
+    "best_rank": 3,
+    "ordinance_id": "ordin:2037917",
+    "key": "ordin-2037917",
+    "name": "영암군 온라인 쇼핑몰 운영 조례",
+    "region_name": "전남광주통합특별시 영암군",
+    "sig_cd": "12800",
+    "enacted_on": "20250515",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2037917"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

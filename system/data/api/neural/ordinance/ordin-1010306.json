@@ -1,0 +1,765 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1010306",
+   "key": "ordin-1010306",
+   "mst": "1010306",
+   "name": "군산시근로청소년임대아파트설치운영조례시행규칙",
+   "ord_kind": "규칙",
+   "region_id": "52130",
+   "sig_cd": "52130",
+   "region_name": "전북특별자치도 군산시",
+   "org_name": "전북특별자치도 군산시",
+   "enacted_on": "20000215",
+   "effective_on": "20000215",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 12,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1010306",
+   "categories": [
+    {
+     "code": "C05",
+     "name": "청년·교육",
+     "confidence": 0.4,
+     "method": "rule"
+    },
+    {
+     "code": "C07",
+     "name": "환경·기후",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.993831,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1899063",
+      "key": "ordin-1899063",
+      "name": "군산시근로청소년임대아파트설치운영조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20231229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1899063",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.883121,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1003138",
+      "key": "ordin-1003138",
+      "name": "군산시 산사태취약지역 지정위원회 설치운영조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20130215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1003138",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.879691,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1839699",
+      "key": "ordin-1839699",
+      "name": "군산 새만금 시티투어 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20230717",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1839699",
+      "categories": [
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.879517,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2057861",
+      "key": "ordin-2057861",
+      "name": "군산시의회 의원 연구단체 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20250715",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2057861",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.877253,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2062121",
+      "key": "ordin-2062121",
+      "name": "군산시 장기요양기관 지정  심사위원회 운영에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20250801",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2062121",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.876469,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1303851",
+      "key": "ordin-1303851",
+      "name": "군산시 성실납세자 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20170927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1303851",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.874739,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1885295",
+      "key": "ordin-1885295",
+      "name": "군산시 담배소매인 지정 사실조사에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20231215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1885295",
+      "categories": []
+     },
+     {
+      "rank": 8,
+      "cosine": 0.874415,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1495291",
+      "key": "ordin-1495291",
+      "name": "군산시 납세자보호에 관한 사무처리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20200511",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1495291",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.874286,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2089155",
+      "key": "ordin-2089155",
+      "name": "군산시 지역사회보장협의체 운영조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20251117",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2089155",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.867353,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1395103",
+      "key": "ordin-1395103",
+      "name": "군산시 시민안전보험 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 군산시",
+      "sig_cd": "52130",
+      "enacted_on": "20190515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1395103",
+      "categories": [
+       "C08",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.485471,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1258747",
+      "key": "ordin-1258747",
+      "name": "해남군 법무행정 사무처리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 해남군",
+      "sig_cd": "12790",
+      "enacted_on": "20161013",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1258747",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.444675,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1423689",
+      "key": "ordin-1423689",
+      "name": "의왕시 비위공직자의 의원면직처리제한에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 의왕시",
+      "sig_cd": "41430",
+      "enacted_on": "20191128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1423689",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.438121,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2085567",
+      "key": "ordin-2085567",
+      "name": "영월군의회 청원심사 규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 영월군",
+      "sig_cd": "51750",
+      "enacted_on": "20251112",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2085567",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.427803,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2157389",
+      "key": "ordin-2157389",
+      "name": "광명 구름산지구 도시개발사업 시행 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 광명시",
+      "sig_cd": "41210",
+      "enacted_on": "20260805",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2157389",
+      "categories": [
+       "C09",
+       "C12"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.425067,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1982045",
+      "key": "ordin-1982045",
+      "name": "울산광역시 중구 폭염·한파 피해 예방 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 중구",
+      "sig_cd": "31110",
+      "enacted_on": "20241106",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1982045",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.423186,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2142613",
+      "key": "ordin-2142613",
+      "name": "인천광역시 검단구 안전취약계층 이용건물의 화재예방 안전시설 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 검단구",
+      "sig_cd": "28290",
+      "enacted_on": "20260701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2142613",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.418226,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1990175",
+      "key": "ordin-1990175",
+      "name": "부산광역시동래구의회 포상 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 동래구",
+      "sig_cd": "26260",
+      "enacted_on": "20241209",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1990175",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.408833,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1738855",
+      "key": "ordin-1738855",
+      "name": "진도군 공유수면 점용료·사용료 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 진도군",
+      "sig_cd": "12860",
+      "enacted_on": "20221019",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1738855",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.40578,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2068271",
+      "key": "ordin-2068271",
+      "name": "청주시 발전소주변지역 지원사업 특별회계 설치 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 청주시",
+      "sig_cd": "43110",
+      "enacted_on": "20250919",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2068271",
+      "categories": [
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.404436,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2115157",
+      "key": "ordin-2115157",
+      "name": "거제시 여객자동차운송사업 재정지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 거제시",
+      "sig_cd": "48310",
+      "enacted_on": "20260312",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2115157",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.353141,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1760871",
+      "key": "ordin-1760871",
+      "name": "대전광역시 서구 폐기물처리시설 설치촉진 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20221222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1760871",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.351568,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2073363",
+      "key": "ordin-2073363",
+      "name": "대전광역시 서구 아동학대 예방 및 보호에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20250930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2073363",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.347644,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1891061",
+      "key": "ordin-1891061",
+      "name": "대전광역시 서구 자원봉사활동 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20231228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1891061",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.345382,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1803417",
+      "key": "ordin-1803417",
+      "name": "대전광역시 서구 일자리 창출 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20230421",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803417",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.344275,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2119551",
+      "key": "ordin-2119551",
+      "name": "대전광역시 서구의회 청소년의회 구성과 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20260407",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2119551",
+      "categories": [
+       "C05",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.344269,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1630117",
+      "key": "ordin-1630117",
+      "name": "대전광역시 서구 아동복지심의위원회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20210930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1630117",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.344173,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1891097",
+      "key": "ordin-1891097",
+      "name": "대전광역시 서구 여성친화도시 조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20231228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1891097",
+      "categories": [
+       "C03",
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.343352,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1803407",
+      "key": "ordin-1803407",
+      "name": "대전광역시 서구 문화예술 진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20230421",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1803407",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.343212,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1722063",
+      "key": "ordin-1722063",
+      "name": "대전광역시 서구 지역아동센터 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20220812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1722063",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.342923,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1375111",
+      "key": "ordin-1375111",
+      "name": "대전광역시 서구 생활폐기물 수집ㆍ운반 대행업체 평가 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20181224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1375111",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

@@ -1,0 +1,722 @@
+{
+ "data": {
+  "region": {
+   "region_id": "41310",
+   "sig_cd": "41310",
+   "name": "구리시",
+   "full_name": "경기도 구리시",
+   "level": 2
+  },
+  "counts": {
+   "total": 806,
+   "active": 659,
+   "repealed": 147,
+   "by_rr_cls_cd": {
+    "일부개정": 368,
+    "전부개정": 46,
+    "제정": 245,
+    "폐지": 147
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1986,
+    "n": 1
+   },
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 3
+   },
+   {
+    "year": 2002,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 4
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 13
+   },
+   {
+    "year": 2008,
+    "n": 10
+   },
+   {
+    "year": 2009,
+    "n": 7
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 10
+   },
+   {
+    "year": 2014,
+    "n": 12
+   },
+   {
+    "year": 2015,
+    "n": 28
+   },
+   {
+    "year": 2016,
+    "n": 36
+   },
+   {
+    "year": 2017,
+    "n": 30
+   },
+   {
+    "year": 2018,
+    "n": 32
+   },
+   {
+    "year": 2019,
+    "n": 49
+   },
+   {
+    "year": 2020,
+    "n": 62
+   },
+   {
+    "year": 2021,
+    "n": 80
+   },
+   {
+    "year": 2022,
+    "n": 63
+   },
+   {
+    "year": 2023,
+    "n": 87
+   },
+   {
+    "year": 2024,
+    "n": 110
+   },
+   {
+    "year": 2025,
+    "n": 96
+   },
+   {
+    "year": 2026,
+    "n": 50
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2002,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 13
+   },
+   {
+    "year": 2008,
+    "n": 8
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 6
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 5
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 7
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 3
+   },
+   {
+    "year": 2019,
+    "n": 11
+   },
+   {
+    "year": 2020,
+    "n": 10
+   },
+   {
+    "year": 2021,
+    "n": 17
+   },
+   {
+    "year": 2022,
+    "n": 10
+   },
+   {
+    "year": 2023,
+    "n": 11
+   },
+   {
+    "year": 2024,
+    "n": 6
+   },
+   {
+    "year": 2025,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회조직운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수.분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에대한과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2102443",
+    "name": "구리시 아동·여성안전지역연대운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-31",
+    "repealed_on": "2025-12-31",
+    "repealed_on_raw": "20251231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2102443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1989903",
+    "name": "구리시 하수도사업 회전기금 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-06",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1989903&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1922965",
+    "name": "구리전통시장 공영주차장 설치 및 관리 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-04-30",
+    "repealed_on": "2024-04-30",
+    "repealed_on_raw": "20240430",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1922965&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1916615",
+    "name": "구리시 국가유공자의 날 지정 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1916615&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1911099",
+    "name": "구리시 골목형상점가 지정에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-08",
+    "repealed_on": "2024-03-08",
+    "repealed_on_raw": "20240308",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911099&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1911095",
+    "name": "구리전통시장 공영주차장 설치 및 관리·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-08",
+    "repealed_on": "2024-03-08",
+    "repealed_on_raw": "20240308",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1910293",
+    "name": "구리시 청소년 진로직업체험지원센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-30",
+    "repealed_on": "2024-02-22",
+    "repealed_on_raw": "20240222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910293&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1910291",
+    "name": "구리시 혁신교육지원센터 설립 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-30",
+    "repealed_on": "2024-02-22",
+    "repealed_on_raw": "20240222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910291&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1888291",
+    "name": "구리시 교육경비 보조에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-26",
+    "repealed_on": "2023-12-26",
+    "repealed_on_raw": "20231226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1888291&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1864927",
+    "name": "구리시 아동 급식지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-16",
+    "repealed_on": "2023-10-16",
+    "repealed_on_raw": "20231016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1864927&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1864913",
+    "name": "구리시 청소년 사업 육성 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-16",
+    "repealed_on": "2023-10-16",
+    "repealed_on_raw": "20231016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1864913&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1864917",
+    "name": "구리시 청소년육성위원회 구성과 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-16",
+    "repealed_on": "2023-10-16",
+    "repealed_on_raw": "20231016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1864917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1864919",
+    "name": "구리시 청소년지도위원의 위촉에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-16",
+    "repealed_on": "2023-10-16",
+    "repealed_on_raw": "20231016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1864919&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1827389",
+    "name": "구리시 투명사회협약 실천 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-30",
+    "repealed_on": "2023-06-30",
+    "repealed_on_raw": "20230630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1827389&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1813423",
+    "name": "구리시 동물보호 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-26",
+    "repealed_on": "2023-05-26",
+    "repealed_on_raw": "20230526",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1813423&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1813425",
+    "name": "구리시 반려동물 보호 및 학대방지 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-26",
+    "repealed_on": "2023-05-26",
+    "repealed_on_raw": "20230526",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1813425&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1810449",
+    "name": "구리시 기업 에스오에스 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-18",
+    "repealed_on": "2023-05-18",
+    "repealed_on_raw": "20230518",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1810449&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1804501",
+    "name": "구리시 민원업무담당공무원 등의 보호 및 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-26",
+    "repealed_on": "2023-04-26",
+    "repealed_on_raw": "20230426",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1804501&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1789727",
+    "name": "구리시공수의여비조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-13",
+    "repealed_on": "2023-03-13",
+    "repealed_on_raw": "20230313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1789727&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1761009",
+    "name": "구리시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-22",
+    "repealed_on": "2022-12-22",
+    "repealed_on_raw": "20221222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1761009&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1760991",
+    "name": "구리시 청년창업지원센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-22",
+    "repealed_on": "2022-12-22",
+    "repealed_on_raw": "20221222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1760991&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725681",
+    "name": "구리시 신·재생에너지 홍보관 관리·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-31",
+    "repealed_on": "2022-08-31",
+    "repealed_on_raw": "20220831",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725681&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725679",
+    "name": "구리시 한강시민공원 이용시설의 설치 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-31",
+    "repealed_on": "2022-08-31",
+    "repealed_on_raw": "20220831",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725679&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1722219",
+    "name": "구리시 구리아트홀 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-12",
+    "repealed_on": "2022-08-12",
+    "repealed_on_raw": "20220812",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1722219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1711363",
+    "name": "구리시 통장 자녀 장학금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-06-09",
+    "repealed_on": "2022-06-09",
+    "repealed_on_raw": "20220609",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1711363&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1692717",
+    "name": "구리시자치법규안입법예고조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-03-28",
+    "repealed_on": "2022-03-28",
+    "repealed_on_raw": "20220328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1692717&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1665255",
+    "name": "구리시 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-05",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1665255&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1665251",
+    "name": "구리시통장자녀장학금지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-05",
+    "repealed_on": "2022-01-05",
+    "repealed_on_raw": "20220105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1665251&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1665239",
+    "name": "구리시 여성·노인회관 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-01-05",
+    "repealed_on": "2022-01-05",
+    "repealed_on_raw": "20220105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1665239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1651549",
+    "name": "구리시 교통영향분석.개선대책 수립에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-21",
+    "repealed_on": "2021-12-21",
+    "repealed_on_raw": "20211221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1651549&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1651535",
+    "name": "구리시 의안의 비용추계에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-21",
+    "repealed_on": "2021-12-21",
+    "repealed_on_raw": "20211221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1651535&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1651537",
+    "name": "구리시자치법규안입법예고조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-21",
+    "repealed_on": "2021-12-21",
+    "repealed_on_raw": "20211221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1651537&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1651539",
+    "name": "구리시 조례·규칙 등 공포에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-21",
+    "repealed_on": "2021-12-21",
+    "repealed_on_raw": "20211221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1651539&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641635",
+    "name": "구리시 구리아트홀 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-16",
+    "repealed_on": "2021-11-16",
+    "repealed_on_raw": "20211116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641635&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641637",
+    "name": "구리시 어린이 교통안전체험장 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-16",
+    "repealed_on": "2021-11-16",
+    "repealed_on_raw": "20211116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641637&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641633",
+    "name": "구리시 여성·노인회관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-16",
+    "repealed_on": "2021-11-16",
+    "repealed_on_raw": "20211116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641633&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1625147",
+    "name": "구리시 도로명주소에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-09-16",
+    "repealed_on": "2021-09-16",
+    "repealed_on_raw": "20210916",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1625147&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1616283",
+    "name": "구리시 지방별정직공무원 자진퇴직수당 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-07-16",
+    "repealed_on": "2021-07-16",
+    "repealed_on_raw": "20210716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1616283&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1608547",
+    "name": "구리시행정서비스헌장운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-30",
+    "repealed_on": "2021-06-30",
+    "repealed_on_raw": "20210630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1608547&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1603889",
+    "name": "구리시행정운영동의설치및동장정수에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-11",
+    "repealed_on": "2021-06-11",
+    "repealed_on_raw": "20210611",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1603889&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "41310"
+ ]
+}

@@ -1,0 +1,759 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1009769",
+   "key": "ordin-1009769",
+   "mst": "1009769",
+   "name": "산청군 보건의료원 임상연구비 지급 조례",
+   "ord_kind": "조례",
+   "region_id": "48860",
+   "sig_cd": "48860",
+   "region_name": "경상남도 산청군",
+   "org_name": "경상남도 산청군",
+   "enacted_on": "20141212",
+   "effective_on": "20141212",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 8,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1009769",
+   "categories": [
+    {
+     "code": "C06",
+     "name": "보건·의료",
+     "confidence": 0.5714,
+     "method": "rule"
+    },
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.870696,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1971157",
+      "key": "ordin-1971157",
+      "name": "산청군 보건의료원 수가 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20240926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1971157",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.781029,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1190810",
+      "key": "ordin-1190810",
+      "name": "산청군 보건의료원 구급차 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20151005",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1190810",
+      "categories": [
+       "C06",
+       "C08"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.753899,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:947586",
+      "key": "ordin-947586",
+      "name": "산청군 이장자녀 장학금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20121231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=947586",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.751855,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2083599",
+      "key": "ordin-2083599",
+      "name": "대구광역시 남구 공동주택 관리에 관한 감사 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 남구",
+      "sig_cd": "27200",
+      "enacted_on": "20251110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2083599",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.745142,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2046477",
+      "key": "ordin-2046477",
+      "name": "울산광역시 남구 공동주택 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 남구",
+      "sig_cd": "31140",
+      "enacted_on": "20250627",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2046477",
+      "categories": [
+       "C09",
+       "C03"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.739139,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1480437",
+      "key": "ordin-1480437",
+      "name": "대구광역시 남구 문화예술단체 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "대구광역시 남구",
+      "sig_cd": "27200",
+      "enacted_on": "20200320",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1480437",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.734484,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1983761",
+      "key": "ordin-1983761",
+      "name": "대구광역시 남구 공동주택 층간소음 방지 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 남구",
+      "sig_cd": "27200",
+      "enacted_on": "20241111",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1983761",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.725283,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1412284",
+      "key": "ordin-1412284",
+      "name": "대구광역시 남구 공동주택관리 분쟁조정위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 남구",
+      "sig_cd": "27200",
+      "enacted_on": "20191010",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1412284",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.722663,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2064109",
+      "key": "ordin-2064109",
+      "name": "함안군 종합사회복지관 관리 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함안군",
+      "sig_cd": "48730",
+      "enacted_on": "20250811",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2064109",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.722592,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1346881",
+      "key": "ordin-1346881",
+      "name": "보은군 농경문화관 관리·운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 보은군",
+      "sig_cd": "43720",
+      "enacted_on": "20180504",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1346881",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.988392,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1662151",
+      "key": "ordin-1662151",
+      "name": "산청군 리개발위원회 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20211223",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1662151",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.988081,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2158033",
+      "key": "ordin-2158033",
+      "name": "산청군 승마장 관리ㆍ운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20260806",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2158033",
+      "categories": [
+       "C06",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.9879,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2067909",
+      "key": "ordin-2067909",
+      "name": "산청군의회 지방공무원 복무 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20250918",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2067909",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.987703,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1765233",
+      "key": "ordin-1765233",
+      "name": "산청군 식품등 기부 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20221227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1765233",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.98741,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1395043",
+      "key": "ordin-1395043",
+      "name": "산청군의회 의원 신분증 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20190515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1395043",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.9872,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1549619",
+      "key": "ordin-1549619",
+      "name": "산청군 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20201130",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1549619",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.987075,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1892835",
+      "key": "ordin-1892835",
+      "name": "산청군 상징물 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20231228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1892835",
+      "categories": []
+     },
+     {
+      "rank": 8,
+      "cosine": 0.986988,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1933819",
+      "key": "ordin-1933819",
+      "name": "산청군 정책실명제 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20240530",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1933819",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.986938,
+      "stored_rank": null,
+      "ordinance_id": "ordin:845939",
+      "key": "ordin-845939",
+      "name": "산청군 낙동강수계 주민지원사업 주민의견 수렴절차 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20121231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=845939",
+      "categories": []
+     },
+     {
+      "rank": 10,
+      "cosine": 0.986857,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1925727",
+      "key": "ordin-1925727",
+      "name": "산청군 공공디자인 진흥에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20240509",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1925727",
+      "categories": [
+       "C10",
+       "C13"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 1,
+    "stored_agreement": 0.1
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994485,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2050799",
+      "key": "ordin-2050799",
+      "name": "산청군 기업 및 투자유치 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20250703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2050799",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993191,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1999331",
+      "key": "ordin-1999331",
+      "name": "산청군 항노화산업 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20241226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1999331",
+      "categories": [
+       "C11",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993118,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1315500",
+      "key": "ordin-1315500",
+      "name": "산청군 가로등 및 보안등 설치관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20171201",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1315500",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.992868,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1361558",
+      "key": "ordin-1361558",
+      "name": "산청군 공영개발사업 시행 및 토지분양에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20181004",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1361558",
+      "categories": [
+       "C09",
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.992817,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1892891",
+      "key": "ordin-1892891",
+      "name": "산청군 자전거 이용 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20231228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1892891",
+      "categories": [
+       "C10",
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.992803,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2041985",
+      "key": "ordin-2041985",
+      "name": "산청군의회 포상 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20250529",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2041985",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.992628,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1892851",
+      "key": "ordin-1892851",
+      "name": "산청군 외국인주민 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20231228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1892851",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.992505,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1832575",
+      "key": "ordin-1832575",
+      "name": "산청군 대상포진 예방접종 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20230706",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1832575",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.992458,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1667903",
+      "key": "ordin-1667903",
+      "name": "산청군의회 지방공무원 명예퇴직수당 등 지급 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20211220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1667903",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.992453,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2033505",
+      "key": "ordin-2033505",
+      "name": "산청군 국가유공자 등 우선주차구역 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 산청군",
+      "sig_cd": "48860",
+      "enacted_on": "20250501",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2033505",
+      "categories": [
+       "C03",
+       "C10"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

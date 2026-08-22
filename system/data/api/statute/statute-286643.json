@@ -1,0 +1,918 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:286643",
+   "kind": "대통령령",
+   "national_tier": null,
+   "name": "지방회계법 시행령",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20260602",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=286643&type=HTML&mobileYn=&efYd=20260602",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 440,
+   "child_ordinances": 427,
+   "by_verification_status": {
+    "article-verified": 435,
+    "unverifiable": 5
+   },
+   "by_delegation_type": {
+    "law-delegated": 440
+   },
+   "regions_top": [
+    {
+     "region_id": "47110",
+     "name": "경상북도 포항시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "41170",
+     "name": "경기도 안양시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 7
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "11",
+     "name": "서울특별시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "47",
+     "name": "경상북도",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41570",
+     "name": "경기도 김포시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41290",
+     "name": "경기도 과천시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "28185",
+     "name": "인천광역시 연수구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "28",
+     "name": "인천광역시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "12240",
+     "name": "전남광주통합특별시 서구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "11560",
+     "name": "서울특별시 영등포구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "51210",
+     "name": "강원특별자치도 속초시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "51",
+     "name": "강원특별자치도",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48250",
+     "name": "경상남도 김해시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48220",
+     "name": "경상남도 통영시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "47250",
+     "name": "경상북도 상주시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "44800",
+     "name": "충청남도 홍성군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "44760",
+     "name": "충청남도 부여군",
+     "ordinances": 3
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 영은 「지방회계법」에서 위임된 사항과 그 시행에 필요한 사항을 규정함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "세입과 세출의 회계연도 소속 구분",
+    "body": "제2조(세입과 세출의 회계연도 소속 구분)\n① 「지방회계법」(이하 \"법\"이라 한다) 제6조제2항에 따른 세입(歲入)의 회계연도 소속은 다음 각 호의 구분에 따른다.\n1. 납부기한이 정해져 있는 수입: 그 납부기한(제19조제4항 및 제5항에 따라 납부기한이 연장되는 경우에는 연장되기 전 납부기한을 말한다)이 속하는 연도. ",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "출납 폐쇄기한 이내 처리의 예외",
+    "body": "제3조(출납 폐쇄기한 이내 처리의 예외)\n1. 「지방재정법」 제23조에 따라 교부된 국가의 보조금 및 특별시ㆍ광역시ㆍ특별자치시ㆍ도ㆍ특별자치도의 보조금을 정산하여 반납하는 경우\n2. 「지방자치단체 보조금 관리에 관한 법률」 제17조에 따라 지방보조사업자가 보조금을 정산하여 반납하는 경우\n3. 지방자치단체 내 회계 상호간 지",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "교육ㆍ과학 및 체육 등에 관한 사항의 적용",
+    "body": "제4조(교육ㆍ과학 및 체육 등에 관한 사항의 적용)\n이 영에서 교육ㆍ과학 및 체육에 관한 분야 또는 교육비 특별회계의 회계 및 자금관리에 관하여는 \"지방자치단체의 장\"은 \"교육감\"으로, \"행정안전부장관\"은 \"교육부장관\"으로, \"행정안전부\"는 \"교육부\"로, \"행정안전부령\"은 \"교육부령\"으로 각각 본다. <개정 2017.7.",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "회계책임관의 업무 등",
+    "body": "제5조(회계책임관의 업무 등)\n① 지방자치단체의 장은 법 제45조제2항에 따른 통합지출관(이하 \"통합지출관\"이라 한다)의 직근 상급자 또는 상위 직급자 중에서 법 제10조제1항에 따른 회계책임관(이하 \"회계책임관\"이라 한다)을 임명하여야 한다.\n② 법 제10조제2항제4호에서 \"그 밖에 회계업무의 수행에 관하여 대통령령으로",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": null,
+    "body": "제6조\n삭제 <2024.4.16>",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": null,
+    "body": "제7조\n삭제 <2024.4.16>",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "지방회계 등에 대한 전문기관의 지정기준 등",
+    "body": "제8조(지방회계 등에 대한 전문기관의 지정기준 등)\n① 법 제13조제1항에서 \"대통령령으로 정하는 업무\"란 다음 각 호의 업무를 말한다. <개정 2017.7.26>\n1. 국내외 지방회계기준 등 지방회계제도에 대한 연구ㆍ조사\n2. 법 제12조제1항에 따른 지방회계기준(이하 \"지방회계기준\"이라 한다)에 따라 작성된 재무제표를",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "지방회계전문기관의 지정 취소 등",
+    "body": "제9조(지방회계전문기관의 지정 취소 등)\n① 법 제13조제3항에 따른 지방회계전문기관의 지정 취소 및 업무정지의 기준은 별표와 같다.\n② 행정안전부장관이 법 제13조제3항에 따라 지방회계전문기관의 지정을 취소하거나 업무 정지를 명한 경우에는 그 사실을 관보와 행정안전부의 인터넷 홈페이지에 지체 없이 공고하여야 한다. <개",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "결산서 등의 제출",
+    "body": "제10조(결산서 등의 제출)\n① 지방자치단체의 장은 회계연도마다 법 제14조에 따라 작성한 결산서에 「지방자치법」 제150조제1항 전단에 따른 검사위원(이하 \"검사위원\"이라 한다)의 검사의견서를 첨부하여 다음 회계연도 5월 31일까지 지방의회에 제출하여야 한다. <개정 2021.12.16>\n② 지방의회의 의장은 제1항에 ",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "결산검사위원에 대한 설명ㆍ교육 등",
+    "body": "제11조(결산검사위원에 대한 설명ㆍ교육 등)\n지방자치단체의 장은 검사위원이 결산서의 검사 업무를 효과적으로 수행할 수 있도록 지방회계기준, 지방자치단체 세입ㆍ세출 업무 처리절차 등에 관한 사항을 설명ㆍ교육하고, 그 밖에 검사 업무 수행에 필요한 지원을 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "결산서의 작성",
+    "body": "제12조(결산서의 작성)\n① 법 제15조제1호에 따른 결산 개요는 예산의 집행 결과, 재정의 운영내용과 재무상태를 분명하게 파악할 수 있도록 작성하여야 한다.\n② 법 제15조제2호에 따른 세입ㆍ세출 결산에는 다음 각 호의 사항이 포함되어야 한다.\n1. 세입에 관한 다음 각 목의 사항\n가. 세입예산액\n나. 이체 등 증감액\n",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "공인회계사의 검토의견",
+    "body": "제13조(공인회계사의 검토의견)\n① 법 제16조제3항에 따른 공인회계사의 검토의견에는 검토의 대상과 기준, 재무제표의 적정성 등이 포함되어야 한다.\n② 공인회계사의 검토의견 작성에 관한 세부적인 사항은 행정안전부장관이 정한다. <개정 2017.7.26>",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "결산서 첨부서류의 제출 및 작성 등",
+    "body": "제14조(결산서 첨부서류의 제출 및 작성 등)\n① 지방자치단체의 장은 법 제17조제1항제1호에 따른 계속비 결산 명세서를 그 계속비 연부액(年賦額)의 마지막 지출이 속하는 연도의 세입ㆍ세출결산서와 함께 제출하여야 한다.\n② 법 제17조제2항제4호에서 \"대통령령으로 정하는 서류\"란 다음 각 호의 서류를 말한다. <개정 20",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "성인지 결산서의 내용 및 작성기준",
+    "body": "제15조(성인지 결산서의 내용 및 작성기준)\n① 법 제18조제1항에 따른 성인지 결산서(이하 \"성인지 결산서\"라 한다)에는 다음 각 호의 내용이 포함되어야 한다. <개정 2017.7.26>\n1. 성인지 결산의 개요\n2. 성인지 예산의 집행실적\n3. 성평등 효과 분석 및 평가\n4. 그 밖에 행정안전부장관이 정하는 사항\n② ",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "결산상 잉여금의 처리",
+    "body": "제16조(결산상 잉여금의 처리)\n1. 법 제19조 각 호의 금액\n2. 결산상 잉여금 중 법 제19조에 따라 지방채의 원리금 상환에 사용하고 남은 금액",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "결산상 잉여금의 결산 전 이입",
+    "body": "제17조(결산상 잉여금의 결산 전 이입)\n제16조 각 호에 해당하는 금액은 같은 조에도 불구하고 회계연도가 시작된 후 자금형편상 부득이한 경우에만 전년도 세입ㆍ세출의 결산 이전이라도 당해 연도의 세입에 이입할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "세입조사 결정",
+    "body": "제18조(세입조사 결정)\n① 법 제21조제2항에 따른 징수관(이하 \"징수관\"이라 한다)은 같은 항에 따라 지방세 또는 그 밖의 세입에 대한 징수 결정을 하려면 그 세입에 대한 법령의 위반 여부 또는 소속연도와 세입과목의 착오 여부를 조사하여야 한다.\n② 징수관은 법 제22조제1항 본문에 따른 수입금출납원(이하 \"수입금출납",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "납입의 고지 등",
+    "body": "제19조(납입의 고지 등)\n① 법 제21조제2항에 따라 납입 고지를 하려면 납부의무자에게 세입과목, 납입할 금액, 납부기간 및 납부장소를 적은 문서[전자문서 또는 「지방세기본법」 제2조제1항제28호에 따른 지방세통합정보통신망ㆍ「지방행정제재ㆍ부과금의 징수 등에 관한 법률」 제2조제12호에 따른 지방세외수입정보통신망ㆍ그 밖의",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "수입금출납원의 수납",
+    "body": "제20조(수입금출납원의 수납)\n수입금출납원은 법 제22조제1항에 따라 지방세 또는 그 밖의 세입금을 수납한 경우에는 납부자에게 영수증을 내주고, 징수관에게 수납 보고를 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "수납금의 납입",
+    "body": "제21조(수납금의 납입)\n1. 금고(제49조제1항 및 제2항에 따라 금고의 업무를 일부 대행하는 자를 포함한다. 이하 제22조, 제29조, 제50조 및 제60조부터 제63조까지에서 같다)의 소재지에서 수납한 경우: 수납한 날의 다음 날\n2. 그 밖의 경우: 수납한 날부터 5일이 되는 날",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "금고에서의 수납",
+    "body": "제22조(금고에서의 수납)\n금고에서 세입금을 수납하거나 세입금의 납입을 받은 경우에는 납부자에게 영수증을 내주고, 징수관에게 영수 보고를 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "유가증권에 의한 납입",
+    "body": "제23조(유가증권에 의한 납입)\n① 지방세 또는 그 밖의 세입금을 납입하는 경우에는 현금을 대신하여 유가증권으로 납입할 수 있다.\n② 제1항에 따라 현금을 대신하여 유가증권으로 납입하는 경우 현금을 대신할 수 있는 유가증권의 종류, 납입절차, 그 밖에 필요한 사항은 해당 지방자치단체의 규칙으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "수입증지에 의한 수입",
+    "body": "제24조(수입증지에 의한 수입)\n① 세외수입으로서 법령이나 해당 지방자치단체의 조례 또는 규칙으로 정한 것에 대해서는 수입증지로 수입할 수 있다.\n② 제1항에 따라 수입증지로 수입하는 경우에는 수입 즉시 접수 도장을 찍고, 따로 세입징수 결정을 하거나 수납 절차를 진행하지 않는다. <개정 2021.1.5>",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "징수기관과 수납기관을 겸할 수 있는 경우",
+    "body": "제25조(징수기관과 수납기관을 겸할 수 있는 경우)\n법 제23조 단서에서 \"대통령령으로 정하는 사유가 있는 경우\"란 정원이 5명 이내인 관서에서 세입의 징수와 현금출납을 하는 경우를 말한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "수입대체경비의 범위",
+    "body": "제26조(수입대체경비의 범위)\n① 법 제26조제1항 본문에서 \"대통령령으로 정하는 경비\"란 다음 각 호의 어느 하나에 해당하는 경우에 드는 경비를 말한다.\n1. 지방자치단체가 특별한 서비스 또는 시설을 제공하고 제공받은 자로부터 그 비용을 징수하는 경우\n2. 수입의 범위에서 관련경비 총액을 지출할 수 있는 경우\n3. 수입",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "수입대체경비의 예산초과지출",
+    "body": "제27조(수입대체경비의 예산초과지출)\n① 지방자치단체의 장은 법 제26조제1항 단서에 따라 예산을 초과하여 수입대체경비를 지출하려면 그 이유와 금액을 명확히 하여 지출하여야 한다.\n② 지방자치단체의 장이 법 제26조제1항 단서에 따라 수입대체경비를 초과 사용할 수 있는 경우는 다음 각 호와 같다. <개정 2017.7.26",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "지출금의 반납 절차",
+    "body": "제28조(지출금의 반납 절차)\n법 제31조에 따른 지출원(이하 \"지출원\"이라 한다)은 법 제27조제2항에 따라 지출금을 세출의 해당 과목에 반납하려는 경우 반납자로 하여금 그 금액을 반납하게 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "금고의 지출금 반납 통지",
+    "body": "제29조(금고의 지출금 반납 통지)\n금고는 제28조에 따라 지출금을 수납한 경우에는 그 사실을 장부에 적고 수납내용을 지출원에게 통지하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "징수 보고서의 작성 및 제출",
+    "body": "제30조(징수 보고서의 작성 및 제출)\n징수관은 매월 세입징수 보고서를 작성하고, 세입 월계표(月計表) 등 참고 서류를 첨부하여 다음 달 15일까지 지방자치단체의 장에게 제출하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "과오납환급금의 이자",
+    "body": "제31조(과오납환급금의 이자)\n1. 착오납부, 이중납부 또는 그 밖에 이의신청 등으로 납부가 잘못되었음이 확인되어 반환하는 경우: 과오납금을 납부한 날. 다만, 그 납입금이 2회 이상 분할하여 납부된 것인 경우에는 그 마지막 납부일로 하되, 과오납환급금이 마지막에 납부된 금액을 초과하는 경우에는 그 금액이 될 때까지 납부",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "자금 배정",
+    "body": "제32조(자금 배정)\n지방자치단체의 장은 예산이 성립되면 「지방재정법 시행령」 제56조에 따른 예산배정계획에 따라 월별 또는 분기별로 자금배정계획을 수립하여 지출원이 설치된 기관별로 지출한도액을 통보하여야 한다. 다만, 예산의 집행상 자금의 추가배정이 긴급히 필요하거나 자금운용상 불가피하다고 판단되는 경우에는 수시로 배정",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "지급명령 전의 확인",
+    "body": "제33조(지급명령 전의 확인)\n1. 법 제31조에 따라 지출원인행위 관계 서류가 보내졌을 것\n2. 배정된 예산의 금액과 지출한도액 이내일 것\n3. 소속 연도의 세출과목과 일치할 것",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "지급명령에 의한 지급",
+    "body": "제34조(지급명령에 의한 지급)\n지급명령에 의한 지급은 해당 회계연도의 출납 폐쇄기한까지 하여야 한다. 다만, 법 제7조제1항 각 호의 어느 하나에 해당하는 경우에는 다음 회계연도 1월 20일까지 지급할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "지급명령서 기재사항",
+    "body": "제35조(지급명령서 기재사항)\n① 지급명령서에는 다음 각 호의 사항을 적어야 한다.\n1. 채권자 또는 그 대리인의 성명(법인인 경우에는 명칭)이나 현금교부를 받을 자의 직위ㆍ성명\n2. 지급명령 금액ㆍ지출과목ㆍ연도ㆍ지급명령번호\n② 지방자치단체의 계정 상호간에 지급대체를 하려고 할 때에는 제1항의 지급명령서에 \"대체필요\"라고",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0035001"
+   },
+   {
+    "article_no": "36",
+    "article_branch": null,
+    "title": "지급명령의 종류",
+    "body": "제36조(지급명령의 종류)\n1. 현금지급명령: 금고에서 직접 채권자 또는 그 대리인이나 현금교부를 받을 자에게 지급할 때\n2. 계좌지급명령: 채권자의 예금계좌로 지급할 때",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0036001"
+   },
+   {
+    "article_no": "37",
+    "article_branch": null,
+    "title": "지출의 방법",
+    "body": "제37조(지출의 방법)\n① 지출원은 제52조 각 호에 해당하는 경우로서 현금 지급이 불가피한 경우가 아니면 금고로 하여금 채권자 또는 제49조에 따라 지방자치단체의 지급사무를 대행하여 처리하는 자(이하 이 조에서 \"채권자등\"이라 한다)의 금융기관 예금계좌로 이체하여 지급하게 하여야 한다. <개정 2017.7.26, 202",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0037001"
+   },
+   {
+    "article_no": "38",
+    "article_branch": null,
+    "title": "일상경비 등의 범위",
+    "body": "제38조(일상경비 등의 범위)\n① 법 제34조제1항에 따라 법 제44조제3항에 따른 일상경비등 출납원(이하 \"일상경비등 출납원\"이라 한다)에게 자금을 지급하게 할 수 있는 일상경비 등(이하 \"일상경비등\"이라 한다)은 다음 각 호와 같다.\n1. 여비\n2. 일반운영비\n3. 지출원이 없는 관서의 경비\n4. 장소가 일정하지 아니",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0038001"
+   },
+   {
+    "article_no": "39",
+    "article_branch": null,
+    "title": "일상경비등의 교부 제한",
+    "body": "제39조(일상경비등의 교부 제한)\n① 일상경비등에 대해서는 매 1개월분 이내의 금액을 예정하여 교부하여야 한다. 다만, 제38조제1항제4호 또는 제7호의 경비는 사무의 필요에 따라 3개월분 이내의 금액을 교부할 수 있다.\n② 제1항에도 불구하고 일상경비등 중에서 수시로 필요한 비용에 대해서는 필요한 금액을 예정하여 사무에",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0039001"
+   },
+   {
+    "article_no": "40",
+    "article_branch": null,
+    "title": "회계연도 시작 전의 자금 지급",
+    "body": "제40조(회계연도 시작 전의 자금 지급)\n법 제34조제2항에 따라 회계연도가 시작되기 전에 지출원이 일상경비등 출납원에게 자금을 지급할 수 있는 경비는 「지방재정법 시행령」 제57조 각 호의 경비로 한정한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0040001"
+   },
+   {
+    "article_no": "41",
+    "article_branch": null,
+    "title": "일상경비등에 대한 지급원인행위",
+    "body": "제41조(일상경비등에 대한 지급원인행위)\n① 법 제47조에 따라 법 제29조제2항에 따른 재무관(이하 \"재무관\"이라 한다)의 사무 일부를 나누어 맡은 공무원(이하 \"분임재무관\"이라 한다)은 지출원으로부터 교부된 일상경비등에 대하여 그 목별 금액의 범위에서 지급의 원인이 되는 행위(이하 \"지급원인행위\"라 한다)를 할 수 있",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0041001"
+   },
+   {
+    "article_no": "42",
+    "article_branch": null,
+    "title": "임시일상경비등 출납원",
+    "body": "제42조(임시일상경비등 출납원)\n① 지방자치단체의 장은 일상경비등의 출납을 위하여 필요한 경우에는 임시일상경비등 출납원(이하 \"임시일상경비등 출납원\"이라 한다)을 임명할 수 있다.\n② 임시일상경비등 출납원에 대해서는 제41조와 제46조를 적용하지 아니한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0042001"
+   },
+   {
+    "article_no": "43",
+    "article_branch": null,
+    "title": "계산서의 제출",
+    "body": "제43조(계산서의 제출)\n① 지출원은 소관 세출금의 지출에 관하여 지출계산서를 작성하여 지방자치단체의 장에게 제출하여야 한다.\n② 일상경비등 출납원과 법 제44조제3항에 따른 세입세출외현금 출납원(이하 \"세입세출외현금 출납원\"이라 한다)은 소관 현금의 출납에 관하여 출납계산서를 작성하여 지출원을 거쳐 지방자치단체의 장에게",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0043001"
+   },
+   {
+    "article_no": "44",
+    "article_branch": null,
+    "title": "선금급",
+    "body": "제44조(선금급)\n① 법 제35조에 따라 선금급으로 지급할 수 있는 경비는 다음 각 호와 같다. <개정 2020.6.2, 2024.2.15, 2024.4.16, 2026.6.2>\n1. 토지 또는 건물의 임차료와 용선료(傭船料)\n2. 운임 및 사례금\n3. 국가ㆍ지방자치단체 또는 국가ㆍ지방자치단체의 업무를 대행하는 기관(제8",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0044001"
+   },
+   {
+    "article_no": "45",
+    "article_branch": null,
+    "title": "개산급의 범위",
+    "body": "제45조(개산급의 범위)\n1. 일상경비등\n2. 소송비용\n3. 관서에 지급하는 경비\n4. 부담금ㆍ교부금 및 보조금\n5. 재해 구호 및 복구에 드는 경비\n6. 그 밖에 행정안전부장관이 정하는 경비",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0045001"
+   },
+   {
+    "article_no": "46",
+    "article_branch": null,
+    "title": "지출기관과 출납기관을 겸할 수 있는 경우",
+    "body": "제46조(지출기관과 출납기관을 겸할 수 있는 경우)\n법 제36조 단서에서 \"대통령령으로 정하는 경우\"란 정원이 3명 이내인 관서에서 분임재무관과 일상경비등 출납원을 겸하는 경우를 말한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0046001"
+   },
+   {
+    "article_no": "47",
+    "article_branch": null,
+    "title": "보충적 경비",
+    "body": "제47조(보충적 경비)\n1. 공무원의 보수\n2. 「공무원연금법」 제71조에 따른 연금부담금\n3. 공무원 사망급여금\n4. 공무원 공상급여금\n5. 배상금과 보상금\n6. 반환금ㆍ결손보전금 및 상환금\n7. 이자\n8. 소송 및 등기비용\n9. 법령 또는 조례ㆍ규칙에 따라 지방의회에 제출하는 의안류 인쇄비\n10. 지방세 징수교부금\n1",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0047001"
+   },
+   {
+    "article_no": "48",
+    "article_branch": null,
+    "title": "금고 업무의 약정",
+    "body": "제48조(금고 업무의 약정)\n① 법 제38조제1항에 따라 금고를 지정하려는 지방자치단체의 장은 다음 각 호의 사항을 고려하여야 한다.\n1. 금고 업무의 취급능력\n2. 주민의 이용 편의\n3. 금융기관의 재무구조\n② 법 제38조제1항 각 호 외의 부분 단서에서 \"대통령령으로 정하는 안정성 기준을 충족할 경우\"란 「주식회사 등",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0048001"
+   },
+   {
+    "article_no": "49",
+    "article_branch": null,
+    "title": "금고 업무의 일부대행",
+    "body": "제49조(금고 업무의 일부대행)\n① 금고는 지방자치단체의 장의 승인을 받아 해당 금고의 책임으로 다음 각 호의 어느 하나에 해당하는 자로 하여금 금고 업무의 일부를 취급하게 할 수 있다.\n1. 「은행법」에 따른 은행\n2. 「우체국예금ㆍ보험에 관한 법률」에 따른 체신관서(遞信官署)\n3. 「새마을금고법」에 따른 새마을금고\n4",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0049001"
+   },
+   {
+    "article_no": "50",
+    "article_branch": null,
+    "title": "금고에 대한 검사",
+    "body": "제50조(금고에 대한 검사)\n지방자치단체의 장은 법 제40조에 따라 연 1회 이상 검사 공무원을 지정하여 금고의 출납상황과 장부를 검사하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0050001"
+   },
+   {
+    "article_no": "51",
+    "article_branch": null,
+    "title": "세입세출 외 현금 및 유가증권 등의 금고보관",
+    "body": "제51조(세입세출 외 현금 및 유가증권 등의 금고보관)\n① 지방자치단체의 세입세출 외 현금은 세입세출외현금 출납원이 종류별로 명확히 구분하여 금고에 보관하여야 하며, 연도 구분은 그 수입과 지출을 한 날이 속하는 연도에 따른다.\n② 지방자치단체의 장은 지방자치단체가 소유하거나 보관하고 있는 유가증권에 대해서는 조례 또는 ",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0051001"
+   },
+   {
+    "article_no": "52",
+    "article_branch": null,
+    "title": "현금 취급 제한의 예외",
+    "body": "제52조(현금 취급 제한의 예외)\n1. 계좌 입금 및 카드 사용이 불가능한 경우\n2. 일반운영비 중 일직비ㆍ숙직비를 지급하는 경우\n3. 업무추진비 중 격려금, 조의금, 축의금을 지급하는 경우\n4. 공무원의 여비를 지급하는 경우\n5. 그 밖에 경비의 용도상 현금 사용이 불가피하다고 인정되는 경비로서 행정안전부장관이 정하는 ",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0052001"
+   },
+   {
+    "article_no": "53",
+    "article_branch": null,
+    "title": "통합지출관",
+    "body": "제53조(통합지출관)\n① 법 제45조제2항에 따른 통합지출관(이하 \"통합지출관\"이라 한다)은 지방자치단체의 장이 소속 공무원 중에서 임명한다. 이 경우 통합지출관은 회계관계공무원 중 어느 하나에 해당하는 공무원과 겸직하게 할 수 있다.\n② 통합지출관은 다음 각 호의 사무를 담당한다.\n1. 법 제14조제1항에 따른 결산서의",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0053001"
+   },
+   {
+    "article_no": "54",
+    "article_branch": null,
+    "title": "출납원의 분실 보고",
+    "body": "제54조(출납원의 분실 보고)\n출납원은 자신이 보관하고 있는 현금 또는 물품을 잃어버리거나 훼손한 경우에는 지체 없이 지출원 또는 법 제46조에 따른 물품관리관을 거쳐 지방자치단체의 장에게 보고하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0054001"
+   },
+   {
+    "article_no": "55",
+    "article_branch": null,
+    "title": "결손보전금의 지출",
+    "body": "제55조(결손보전금의 지출)\n① 지출원은 일상경비등 출납원이나 세입세출외현금 출납원이 잃어버린 세입ㆍ세출 또는 세입세출 외 현금을 해당 연도 내에 회수할 수 없다고 판단할 때에는 지방자치단체의 장에게 결손의 보전을 요구하여야 한다.\n② 지방자치단체의 장은 제1항의 요구를 받은 경우 결손을 보전할 필요가 있다고 인정될 때에",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0055001"
+   },
+   {
+    "article_no": "56",
+    "article_branch": null,
+    "title": "회계관계공무원의 재정보증",
+    "body": "제56조(회계관계공무원의 재정보증)\n법 제50조제1항에 따라 재정보증을 하는 경우의 한도액(공제에 가입한 경우에는 공제가입 한도를 말한다. 이하 같다)은 해당 회계관계공무원의 직위 및 책임범위 등을 고려하여 해당 지방자치단체의 장이 정한다. 이 경우 재정보증의 한도액은 1천만원 이상으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0056001"
+   },
+   {
+    "article_no": "57",
+    "article_branch": null,
+    "title": "장부 등의 검사",
+    "body": "제57조(장부 등의 검사)\n① 지방자치단체의 장은 회계책임관으로 하여금 매 회계연도말 또는 출납원이 변경된 경우에는 지방자치단체 감사부서의 공무원을 검사원으로 정하여 해당 출납원 소관의 장부ㆍ보관용기 또는 물품을 검사하게 하여야 한다.\n② 지방자치단체의 장은 회계분야의 전문성이 있는 사람 또는 법인ㆍ기관ㆍ단체에 의뢰하여 ",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0057001"
+   },
+   {
+    "article_no": "58",
+    "article_branch": null,
+    "title": "내부통제",
+    "body": "제58조(내부통제)\n① 지방자치단체의 장은 회계책임관으로 하여금 회계부정과 비리가 발생할 소지가 있는 분야를 선정하게 하고, 감사부서의 장으로 하여금 해당 분야의 업무처리과정을 주기적으로 점검하게 하여야 한다.\n② 지방자치단체의 장은 제1항에 따른 내부통제를 효율적으로 실시하기 위하여 각종 행정정보시스템을 연계한 내부통제",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0058001"
+   },
+   {
+    "article_no": "59",
+    "article_branch": null,
+    "title": "징수부 등의 비치",
+    "body": "제59조(징수부 등의 비치)\n① 징수관ㆍ재무관 및 지출원은 법 제52조에 따라 징수부ㆍ지출원인행위부 및 지출부를 각각 갖추어 두고 관계 사항을 기록하여야 한다.\n② 출납원은 현금출납부와 물품출납부를 각각 갖추어 두고, 현금과 물품의 출납 상황을 각각 기록하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0059001"
+   },
+   {
+    "article_no": "60",
+    "article_branch": null,
+    "title": "금고에 둘 장부",
+    "body": "제60조(금고에 둘 장부)\n① 금고는 법 제52조에 따라 다음 각 호의 장부를 갖추어 두고, 지방자치단체를 위하여 취급하는 현금의 출납 또는 유가증권의 수급을 기록하여야 한다.\n1. 세입ㆍ세출 및 세입세출 외 현금의 출납에 관한 장부\n2. 지급자금의 출납에 관한 장부\n3. 지방채의 발행과 상환에 관한 장부\n4. 법 제34",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0060001"
+   },
+   {
+    "article_no": "61",
+    "article_branch": null,
+    "title": "금고의 일계표 등 제출",
+    "body": "제61조(금고의 일계표 등 제출)\n금고는 법 제52조에 따라 출납에 관한 일계표(日計表), 월계표, 그 밖에 출납사무와 관련하여 필요한 보고서를 해당 지방자치단체의 장에게 제출하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0061001"
+   },
+   {
+    "article_no": "62",
+    "article_branch": null,
+    "title": "세입금통합수납처리시스템의 운영",
+    "body": "제62조(세입금통합수납처리시스템의 운영)\n1. 해당 지방자치단체의 금고\n2. 다른 지방자치단체의 금고\n3. 「전자금융거래법」 제2조제6호에 따른 결제중계시스템의 운영자\n4. 그 밖에 지방세 또는 그 밖의 세입금 수납업무 처리와 관련되는 법인이나 기관 또는 단체",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0062001"
+   },
+   {
+    "article_no": "63",
+    "article_branch": null,
+    "title": "지방재정관리시스템에 의한 회계처리",
+    "body": "제63조(지방재정관리시스템에 의한 회계처리)\n① 회계관계공무원은 통신 또는 프로그램 장애 등의 특별한 사유가 없으면 「지방재정법」 제96조의2제1항에 따른 정보시스템(이하 \"지방재정관리시스템\"이라 한다)을 이용하여 업무를 처리하여야 한다. 다만, 통신 또는 프로그램 장애 등의 사유로 지방재정관리시스템 이용이 불가능한 경우",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0063001"
+   },
+   {
+    "article_no": "64",
+    "article_branch": null,
+    "title": "회계 처리 등에 관한 사항",
+    "body": "제64조(회계 처리 등에 관한 사항)\n① 행정안전부장관은 이 영에서 정하는 사항 외에 지방자치단체 회계 처리의 통일적인 운용을 위하여 필요한 경우에는 「국고금 관리법」 등 국가의 회계 관련 법령 등을 참고하여 회계 처리에 관한 세부 처리기준을 정할 수 있다. 이 경우 지방자치단체의 업무추진비 집행기준에 관한 사항은 행정안",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0064001"
+   },
+   {
+    "article_no": "65",
+    "article_branch": null,
+    "title": "상계 등",
+    "body": "제65조(상계 등)\n① 지방자치단체의 장은 채권(「지방재정법 시행령」 제109조 각 호의 채권은 제외한다. 이하 이 조에서 같다)에 대하여 법령 또는 조례ㆍ규칙에 따라 해당 채권과 상계하거나 이에 충당할 수 있는 지방자치단체의 채무가 있는 것을 안 경우에는 즉시 해당 채무를 취급하는 지출원에게 상계 또는 충당할 것을 명하",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0065001"
+   },
+   {
+    "article_no": "66",
+    "article_branch": null,
+    "title": "회계관계공무원 등의 교육",
+    "body": "제66조(회계관계공무원 등의 교육)\n① 지방자치단체의 장은 법 제54조제1항에 따라 회계관계공무원 등에 대한 교육(이하 \"회계교육\"이라 한다)을 실시하려는 경우에는 교육훈련 수요를 조사하여야 한다.\n② 지방자치단체의 장은 다음 각 호의 어느 하나에 해당하는 교육 방법으로 회계교육을 실시하여야 한다. <개정 2017.7.2",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0066001"
+   },
+   {
+    "article_no": "67",
+    "article_branch": null,
+    "title": "끝수 계산",
+    "body": "제67조(끝수 계산)\n1. 그 분할금액이 10원 미만일 때\n2. 그 분할금액에 10원 미만의 끝수가 있을 때",
+    "body_truncated": false,
+    "effective_on": "20260602",
+    "article_key": "0067001"
+   },
+   {
+    "article_no": "68",
+    "article_branch": null,
+    "title": "고유식별정보의 처리",
+    "body": "제68조(고유식별정보의 처리)\n① 지방자치단체의 장(지방자치단체의 장의 권한을 위임ㆍ위탁받은 자를 포함한다) 또는 회계관계공무원은 다음 각 호의 사무를 수행하기 위하여 불가피한 경우 「개인정보 보호법 시행령」 제19조제1호 또는 제4호에 따른 주민등록번호 또는 외국인등록번호가 포함된 자료를 처리할 수 있다. <개정 202",
+    "body_truncated": true,
+    "effective_on": "20260602",
+    "article_key": "0068001"
+   }
+  ],
+  "article_count": 68,
+  "articles_shown": 68,
+  "articles_truncated_bodies": 38,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1277427",
+    "name": "고양시 회계관계공무원 재정보증 조례",
+    "region_id": "41280",
+    "org_name": "경기도 고양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1277427&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1287339",
+    "name": "연천군 회계관계공무원 재정보증조례",
+    "region_id": "41800",
+    "org_name": "경기도 연천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1287339&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1289605",
+    "name": "산청군 군세 징수 조례 시행규칙",
+    "region_id": "48860",
+    "org_name": "경상남도 산청군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1289605&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1297028",
+    "name": "강진군 군세 징수 조례 시행규칙",
+    "region_id": "12780",
+    "org_name": "전남광주통합특별시 강진군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1297028&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1297732",
+    "name": "장흥군 군세 징수 조례 시행규칙",
+    "region_id": "12770",
+    "org_name": "전남광주통합특별시 장흥군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1297732&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1297995",
+    "name": "울산광역시 중구 구세 징수 조례 시행규칙",
+    "region_id": "31110",
+    "org_name": "울산광역시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1297995&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1303286",
+    "name": "서울특별시 강서구 회계관계공무원 재정보증 조례",
+    "region_id": "11500",
+    "org_name": "서울특별시 강서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1303286&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1304856",
+    "name": "성남시의회 업무추진비 사용 및 공개 등에 관한 규칙",
+    "region_id": "41130",
+    "org_name": "경기도 성남시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1304856&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1312484",
+    "name": "부여군의회 업무추진비 사용 및 공개 등에 관한 조례",
+    "region_id": "44760",
+    "org_name": "충청남도 부여군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1312484&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1316665",
+    "name": "용인시 업무추진비 공개에 관한 조례",
+    "region_id": "41460",
+    "org_name": "경기도 용인시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1316665&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1320764",
+    "name": "울진군 회계관계공무원 재정보증 규칙",
+    "region_id": "47930",
+    "org_name": "경상북도 울진군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1320764&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1321228",
+    "name": "남양주시 회계관계공무원 재정보증 규칙",
+    "region_id": "41360",
+    "org_name": "경기도 남양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1321228&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1331480",
+    "name": "대구광역시 달성군 회계관계공무원 재정보증 규칙",
+    "region_id": "27710",
+    "org_name": "대구광역시 달성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1331480&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1345511",
+    "name": "대구광역시 수성구 세입·세출 결산서 및 예비비 지출 승인에 관한 조례",
+    "region_id": "27260",
+    "org_name": "대구광역시 수성구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1345511&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1364113",
+    "name": "연천군 군세 징수조례 시행규칙",
+    "region_id": "41800",
+    "org_name": "경기도 연천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1364113&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1365742",
+    "name": "강화군 군세 징수 조례 시행규칙",
+    "region_id": "28710",
+    "org_name": "인천광역시 강화군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365742&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1366869",
+    "name": "하동군 군세 징수 조례 시행규칙",
+    "region_id": "48850",
+    "org_name": "경상남도 하동군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1366869&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1376783",
+    "name": "경상북도의회 업무추진비 집행기준 및 공개에 관한 조례",
+    "region_id": "47",
+    "org_name": "경상북도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1376783&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1381369",
+    "name": "시흥시 업무추진비 공개에 관한 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1381369&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1381376",
+    "name": "시흥시의회 업무추진비 집행기준 및 공개에 관한 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1381376&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

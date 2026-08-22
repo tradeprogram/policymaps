@@ -1,0 +1,882 @@
+{
+ "data": {
+  "region": {
+   "region_id": "41150",
+   "sig_cd": "41150",
+   "name": "의정부시",
+   "full_name": "경기도 의정부시",
+   "level": 2
+  },
+  "counts": {
+   "total": 1053,
+   "active": 695,
+   "repealed": 358,
+   "by_rr_cls_cd": {
+    "일부개정": 480,
+    "전부개정": 12,
+    "제정": 203,
+    "폐지": 358
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1977,
+    "n": 3
+   },
+   {
+    "year": 1979,
+    "n": 3
+   },
+   {
+    "year": 1980,
+    "n": 1
+   },
+   {
+    "year": 1981,
+    "n": 1
+   },
+   {
+    "year": 1982,
+    "n": 1
+   },
+   {
+    "year": 1984,
+    "n": 1
+   },
+   {
+    "year": 1987,
+    "n": 1
+   },
+   {
+    "year": 1988,
+    "n": 14
+   },
+   {
+    "year": 1989,
+    "n": 21
+   },
+   {
+    "year": 1991,
+    "n": 11
+   },
+   {
+    "year": 1992,
+    "n": 19
+   },
+   {
+    "year": 1993,
+    "n": 11
+   },
+   {
+    "year": 1994,
+    "n": 5
+   },
+   {
+    "year": 1995,
+    "n": 12
+   },
+   {
+    "year": 1996,
+    "n": 2
+   },
+   {
+    "year": 1997,
+    "n": 19
+   },
+   {
+    "year": 1998,
+    "n": 15
+   },
+   {
+    "year": 1999,
+    "n": 12
+   },
+   {
+    "year": 2000,
+    "n": 11
+   },
+   {
+    "year": 2001,
+    "n": 4
+   },
+   {
+    "year": 2002,
+    "n": 4
+   },
+   {
+    "year": 2003,
+    "n": 6
+   },
+   {
+    "year": 2004,
+    "n": 10
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 7
+   },
+   {
+    "year": 2008,
+    "n": 8
+   },
+   {
+    "year": 2009,
+    "n": 11
+   },
+   {
+    "year": 2010,
+    "n": 6
+   },
+   {
+    "year": 2011,
+    "n": 8
+   },
+   {
+    "year": 2012,
+    "n": 17
+   },
+   {
+    "year": 2013,
+    "n": 12
+   },
+   {
+    "year": 2014,
+    "n": 3
+   },
+   {
+    "year": 2015,
+    "n": 24
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 25
+   },
+   {
+    "year": 2018,
+    "n": 17
+   },
+   {
+    "year": 2019,
+    "n": 16
+   },
+   {
+    "year": 2020,
+    "n": 18
+   },
+   {
+    "year": 2021,
+    "n": 41
+   },
+   {
+    "year": 2022,
+    "n": 39
+   },
+   {
+    "year": 2023,
+    "n": 150
+   },
+   {
+    "year": 2024,
+    "n": 224
+   },
+   {
+    "year": 2025,
+    "n": 117
+   },
+   {
+    "year": 2026,
+    "n": 111
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1977,
+    "n": 3
+   },
+   {
+    "year": 1979,
+    "n": 3
+   },
+   {
+    "year": 1980,
+    "n": 1
+   },
+   {
+    "year": 1981,
+    "n": 1
+   },
+   {
+    "year": 1982,
+    "n": 1
+   },
+   {
+    "year": 1984,
+    "n": 1
+   },
+   {
+    "year": 1987,
+    "n": 1
+   },
+   {
+    "year": 1988,
+    "n": 14
+   },
+   {
+    "year": 1989,
+    "n": 21
+   },
+   {
+    "year": 1991,
+    "n": 11
+   },
+   {
+    "year": 1992,
+    "n": 19
+   },
+   {
+    "year": 1993,
+    "n": 11
+   },
+   {
+    "year": 1994,
+    "n": 5
+   },
+   {
+    "year": 1995,
+    "n": 12
+   },
+   {
+    "year": 1996,
+    "n": 2
+   },
+   {
+    "year": 1997,
+    "n": 19
+   },
+   {
+    "year": 1998,
+    "n": 15
+   },
+   {
+    "year": 1999,
+    "n": 12
+   },
+   {
+    "year": 2000,
+    "n": 11
+   },
+   {
+    "year": 2001,
+    "n": 4
+   },
+   {
+    "year": 2002,
+    "n": 4
+   },
+   {
+    "year": 2003,
+    "n": 5
+   },
+   {
+    "year": 2004,
+    "n": 11
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 7
+   },
+   {
+    "year": 2008,
+    "n": 8
+   },
+   {
+    "year": 2009,
+    "n": 11
+   },
+   {
+    "year": 2010,
+    "n": 6
+   },
+   {
+    "year": 2011,
+    "n": 8
+   },
+   {
+    "year": 2012,
+    "n": 17
+   },
+   {
+    "year": 2013,
+    "n": 12
+   },
+   {
+    "year": 2014,
+    "n": 3
+   },
+   {
+    "year": 2015,
+    "n": 23
+   },
+   {
+    "year": 2016,
+    "n": 1
+   },
+   {
+    "year": 2017,
+    "n": 11
+   },
+   {
+    "year": 2018,
+    "n": 6
+   },
+   {
+    "year": 2019,
+    "n": 3
+   },
+   {
+    "year": 2020,
+    "n": 2
+   },
+   {
+    "year": 2021,
+    "n": 6
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 15
+   },
+   {
+    "year": 2024,
+    "n": 7
+   },
+   {
+    "year": 2025,
+    "n": 10
+   },
+   {
+    "year": 2026,
+    "n": 5
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방공무원정원규칙",
+    "display_name": "지방공무원 정원 규칙",
+    "rows": 2,
+    "nationwide_regions": 42
+   },
+   {
+    "policy_key": "새마을운동협의회조례",
+    "display_name": "새마을운동협의회조례",
+    "rows": 2,
+    "nationwide_regions": 14
+   },
+   {
+    "policy_key": "시유재산관리조례",
+    "display_name": "시유재산관리조례",
+    "rows": 2,
+    "nationwide_regions": 5
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성 검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설 특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과·징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2127343",
+    "name": "의정부시 여성장애인 출산지원금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-05-04",
+    "repealed_on": "2026-05-04",
+    "repealed_on_raw": "20260504",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127343&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2111227",
+    "name": "의정부시 청소년환경위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-23",
+    "repealed_on": "2026-02-23",
+    "repealed_on_raw": "20260223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2111227&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2107051",
+    "name": "의정부시 건강생활실천협의회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-01-09",
+    "repealed_on": "2026-01-09",
+    "repealed_on_raw": "20260109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2107043",
+    "name": "의정부시 금연지도원 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-01-09",
+    "repealed_on": "2026-01-09",
+    "repealed_on_raw": "20260109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107043&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2107003",
+    "name": "의정부시 여성장애인 출산지원금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-01-09",
+    "repealed_on": "2026-01-09",
+    "repealed_on_raw": "20260109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107003&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2067329",
+    "name": "의정부시 용현지방산업단지 조성 및 분양에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-17",
+    "repealed_on": "2025-09-17",
+    "repealed_on_raw": "20250917",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2067329&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2002141",
+    "name": "의정부시 상권활성화재단 설립 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002141&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2042987",
+    "name": "의정부시 도시계획 토지구획정리사업지구 체비지 등 매각 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-06-09",
+    "repealed_on": "2025-06-09",
+    "repealed_on_raw": "20250609",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2042987&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2002161",
+    "name": "의정부시 청소년재단 설립 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2025-04-30",
+    "repealed_on_raw": "20250430",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2002161&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2016265",
+    "name": "의정부시 노인복지증진 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-21",
+    "repealed_on": "2025-02-21",
+    "repealed_on_raw": "20250221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2016265&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2016261",
+    "name": "의정부시 노인 일자리 창출 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-21",
+    "repealed_on": "2025-02-21",
+    "repealed_on_raw": "20250221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2016261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2016269",
+    "name": "의정부시 노인학대 예방 및 보호에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-21",
+    "repealed_on": "2025-02-21",
+    "repealed_on_raw": "20250221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2016269&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2016491",
+    "name": "의정부시 농민기본소득 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-21",
+    "repealed_on": "2025-02-21",
+    "repealed_on_raw": "20250221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2016491&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2016271",
+    "name": "의정부시 동물보호 및 관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-21",
+    "repealed_on": "2025-02-21",
+    "repealed_on_raw": "20250221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2016271&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2016273",
+    "name": "의정부시 반려동물 보호 및 복지에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-21",
+    "repealed_on": "2025-02-21",
+    "repealed_on_raw": "20250221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2016273&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1918841",
+    "name": "의정부시 영상미디어센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-05",
+    "repealed_on": "2024-04-05",
+    "repealed_on_raw": "20240405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1918841&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1912173",
+    "name": "의정부시 지방공무원 임용후보자 장학규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-03-14",
+    "repealed_on": "2024-03-14",
+    "repealed_on_raw": "20240314",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912173&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1910669",
+    "name": "의정부시 시설관리공단 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-07",
+    "repealed_on": "2024-02-22",
+    "repealed_on_raw": "20240222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1910669&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1924315",
+    "name": "의정부시 노인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1924315&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1924317",
+    "name": "의정부시 문화예술진흥기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1924317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1924319",
+    "name": "의정부시 장애인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1924319&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1924311",
+    "name": "의정부시 체육진흥기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1924311&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1877451",
+    "name": "의정부시 택시운송사업의 구분 변경에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-30",
+    "repealed_on": "2023-11-30",
+    "repealed_on_raw": "20231130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1877451&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873425",
+    "name": "의정부시 사회재난 구호 및 복구 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873425&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873433",
+    "name": "의정부시 안전관리민관협력위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873423",
+    "name": "의정부시 안전관리위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873423&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873429",
+    "name": "의정부시 안전관리자문단 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873429&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873435",
+    "name": "의정부시 재난안전대책본부 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873435&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873427",
+    "name": "의정부시 재난현장 통합지원본부 설치·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873427&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1849763",
+    "name": "의정부시 행정혁신위원회 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-09-01",
+    "repealed_on": "2023-09-01",
+    "repealed_on_raw": "20230901",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1849763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1834659",
+    "name": "의정부시 정책연구용역 공개 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-07",
+    "repealed_on": "2023-07-07",
+    "repealed_on_raw": "20230707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1834659&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1833195",
+    "name": "의정부시 행정혁신위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-07",
+    "repealed_on": "2023-07-07",
+    "repealed_on_raw": "20230707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1833195&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1800607",
+    "name": "의정부시 의료급여기금 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-13",
+    "repealed_on": "2023-04-13",
+    "repealed_on_raw": "20230413",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1800607&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1801157",
+    "name": "의정부시 홀로 사는 노인 고독사 예방 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-13",
+    "repealed_on": "2023-04-13",
+    "repealed_on_raw": "20230413",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1801157&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1791375",
+    "name": "의정부시 정책연구단 설치 및 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-03-17",
+    "repealed_on": "2023-03-17",
+    "repealed_on_raw": "20230317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1791375&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1789247",
+    "name": "의정부시 기후변화 대응 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-08",
+    "repealed_on": "2023-03-08",
+    "repealed_on_raw": "20230308",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1789247&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1789249",
+    "name": "의정부시 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-08",
+    "repealed_on": "2023-03-08",
+    "repealed_on_raw": "20230308",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1789249&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1728731",
+    "name": "의정부시 살기 좋은 마을 만들기 및 사회적경제 육성 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-09-20",
+    "repealed_on": "2022-09-20",
+    "repealed_on_raw": "20220920",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1728731&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1728557",
+    "name": "의정부시 여성노동자 복지센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-09-20",
+    "repealed_on": "2022-09-20",
+    "repealed_on_raw": "20220920",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1728557&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1342650",
+    "name": "의정부시 주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-27",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1342650&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "41150"
+ ]
+}

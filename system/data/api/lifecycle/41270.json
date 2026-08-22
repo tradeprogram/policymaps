@@ -1,0 +1,734 @@
+{
+ "data": {
+  "region": {
+   "region_id": "41270",
+   "sig_cd": "41270",
+   "name": "안산시",
+   "full_name": "경기도 안산시",
+   "level": 2
+  },
+  "counts": {
+   "total": 912,
+   "active": 732,
+   "repealed": 180,
+   "by_rr_cls_cd": {
+    "일부개정": 445,
+    "전부개정": 51,
+    "제정": 236,
+    "폐지": 180
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1986,
+    "n": 2
+   },
+   {
+    "year": 1995,
+    "n": 1
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 10
+   },
+   {
+    "year": 2006,
+    "n": 5
+   },
+   {
+    "year": 2007,
+    "n": 9
+   },
+   {
+    "year": 2008,
+    "n": 17
+   },
+   {
+    "year": 2009,
+    "n": 17
+   },
+   {
+    "year": 2010,
+    "n": 20
+   },
+   {
+    "year": 2011,
+    "n": 11
+   },
+   {
+    "year": 2012,
+    "n": 14
+   },
+   {
+    "year": 2013,
+    "n": 10
+   },
+   {
+    "year": 2014,
+    "n": 9
+   },
+   {
+    "year": 2015,
+    "n": 34
+   },
+   {
+    "year": 2016,
+    "n": 21
+   },
+   {
+    "year": 2017,
+    "n": 37
+   },
+   {
+    "year": 2018,
+    "n": 41
+   },
+   {
+    "year": 2019,
+    "n": 31
+   },
+   {
+    "year": 2020,
+    "n": 64
+   },
+   {
+    "year": 2021,
+    "n": 61
+   },
+   {
+    "year": 2022,
+    "n": 69
+   },
+   {
+    "year": 2023,
+    "n": 94
+   },
+   {
+    "year": 2024,
+    "n": 129
+   },
+   {
+    "year": 2025,
+    "n": 141
+   },
+   {
+    "year": 2026,
+    "n": 59
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1995,
+    "n": 1
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 10
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 8
+   },
+   {
+    "year": 2008,
+    "n": 17
+   },
+   {
+    "year": 2009,
+    "n": 13
+   },
+   {
+    "year": 2010,
+    "n": 18
+   },
+   {
+    "year": 2011,
+    "n": 8
+   },
+   {
+    "year": 2012,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 5
+   },
+   {
+    "year": 2015,
+    "n": 24
+   },
+   {
+    "year": 2016,
+    "n": 3
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 11
+   },
+   {
+    "year": 2019,
+    "n": 3
+   },
+   {
+    "year": 2020,
+    "n": 2
+   },
+   {
+    "year": 2021,
+    "n": 12
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 4
+   },
+   {
+    "year": 2024,
+    "n": 8
+   },
+   {
+    "year": 2025,
+    "n": 5
+   },
+   {
+    "year": 2026,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "의회의원윤리실천규범",
+    "display_name": "의회의원 윤리 실천 규범",
+    "rows": 2,
+    "nationwide_regions": 3
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자부여 업무 처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한 행정처분 규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금 지급 규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에대한 과태료부과징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한 과태료부과징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의 공개 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:834603",
+    "name": "안산시의회의원 윤리 실천 규범",
+    "ord_kind": "규칙",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=834603&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2115713",
+    "name": "안산시 노선여객자동차운송사업 재정 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-03-18",
+    "repealed_on": "2026-03-18",
+    "repealed_on_raw": "20260318",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115713&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2115693",
+    "name": "안산시 시민시장 관리 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-03-18",
+    "repealed_on": "2026-03-18",
+    "repealed_on_raw": "20260318",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115693&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2066147",
+    "name": "안산시 노선여객자동차운송사업 재정 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-16",
+    "repealed_on": "2025-07-16",
+    "repealed_on_raw": "20250716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2066147&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2066145",
+    "name": "안산시 대중교통발전위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-16",
+    "repealed_on": "2025-07-16",
+    "repealed_on_raw": "20250716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2066145&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2066107",
+    "name": "안산시 어린이 보호구역 및 통학로 교통안전에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-16",
+    "repealed_on": "2025-07-16",
+    "repealed_on_raw": "20250716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2066107&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2057721",
+    "name": "안산시 의료관광 활성화 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-16",
+    "repealed_on": "2025-07-16",
+    "repealed_on_raw": "20250716",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2057721&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2032779",
+    "name": "안산시의회 의정자문위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-30",
+    "repealed_on": "2025-04-30",
+    "repealed_on_raw": "20250430",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2032779&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2005289",
+    "name": "안산시 자치법규안 입법예고에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005289&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2005287",
+    "name": "안산시 조례·규칙등 공포에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005287&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2005261",
+    "name": "안산시 지방청소년 육성위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2005259",
+    "name": "안산시 청소년지도위원의 위촉에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005259&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1982061",
+    "name": "안산시 주민자치센터설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-06",
+    "repealed_on": "2024-11-06",
+    "repealed_on_raw": "20241106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1982061&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1974657",
+    "name": "안산시 농민기본소득 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-02",
+    "repealed_on": "2024-10-02",
+    "repealed_on_raw": "20241002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974657&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1974659",
+    "name": "안산시 주택용 소방시설 설치 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-02",
+    "repealed_on": "2024-10-02",
+    "repealed_on_raw": "20241002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974659&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1906739",
+    "name": "안산사랑 운동 실천 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-14",
+    "repealed_on": "2024-02-14",
+    "repealed_on_raw": "20240214",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1906739&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873897",
+    "name": "안산시 택시운송사업의 구분 변경에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-15",
+    "repealed_on": "2023-11-15",
+    "repealed_on_raw": "20231115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873897&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1870665",
+    "name": "안산투명사회협약 실천 및 그 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-08",
+    "repealed_on": "2023-11-08",
+    "repealed_on_raw": "20231108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1870665&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1859497",
+    "name": "안산시 4·16세월호참사 피해극복 대책 협의회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-04",
+    "repealed_on": "2023-10-04",
+    "repealed_on_raw": "20231004",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1859497&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1856961",
+    "name": "안산시 보도구역안 횡단보도설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2023-09-27",
+    "repealed_on_raw": "20230927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1856961&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1768609",
+    "name": "안산시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1768609&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1730217",
+    "name": "안산시 한마음 임대아파트 설치운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-09-28",
+    "repealed_on": "2022-09-28",
+    "repealed_on_raw": "20220928",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1730217&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1682601",
+    "name": "안산시 갯벌습지보호지역관리위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-02-09",
+    "repealed_on": "2022-02-09",
+    "repealed_on_raw": "20220209",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1682601&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1684231",
+    "name": "안산시 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-07",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1684231&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1665217",
+    "name": "안산시 한마음임대아파트 설치 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-05",
+    "repealed_on": "2022-01-05",
+    "repealed_on_raw": "20220105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1665217&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1639409",
+    "name": "안산시 도로굴착·복구관리 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-10",
+    "repealed_on": "2021-11-10",
+    "repealed_on_raw": "20211110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1639409&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1721367",
+    "name": "안산시 성호박물관 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-10-13",
+    "repealed_on": "2021-10-13",
+    "repealed_on_raw": "20211013",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1721367&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1721369",
+    "name": "안산시 안산산업역사박물관 소장품 수집 및 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-10-13",
+    "repealed_on": "2021-10-13",
+    "repealed_on_raw": "20211013",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1721369&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1614403",
+    "name": "안산시 성호박물관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-13",
+    "repealed_on": "2021-07-13",
+    "repealed_on_raw": "20210713",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1614403&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1614405",
+    "name": "안산시 안산산업역사박물관 건립 자문위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-13",
+    "repealed_on": "2021-07-13",
+    "repealed_on_raw": "20210713",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1614405&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1721365",
+    "name": "안산시 안산산업역사박물관 소장품 수집 및 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-13",
+    "repealed_on": "2021-07-13",
+    "repealed_on_raw": "20210713",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1721365&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1614379",
+    "name": "안산시 최용신기념관 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-13",
+    "repealed_on": "2021-07-13",
+    "repealed_on_raw": "20210713",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1614379&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1606449",
+    "name": "안산시의회 의원 연구단체 구성 및 지원 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-06-28",
+    "repealed_on": "2021-06-28",
+    "repealed_on_raw": "20210628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1606449&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1580227",
+    "name": "안산시 통장자녀장학금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-03-17",
+    "repealed_on": "2021-03-17",
+    "repealed_on_raw": "20210317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580227&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1563175",
+    "name": "안산시 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-18",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1563175&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1560771",
+    "name": "안산시 통장자녀장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1560771&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1563163",
+    "name": "안산시 통합관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-18",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1563163&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1520769",
+    "name": "안산시 탈세정보교부금 지급 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-07-29",
+    "repealed_on": "2020-07-29",
+    "repealed_on_raw": "20200729",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1520769&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1518153",
+    "name": "안산시 시민소통 · 정책자문 위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-15",
+    "repealed_on": "2020-07-15",
+    "repealed_on_raw": "20200715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1518153&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1435229",
+    "name": "안산시 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-24",
+    "repealed_on": "2019-12-24",
+    "repealed_on_raw": "20191224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1435229&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 1,
+   "sentinel_99991231": 1
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "41270"
+ ]
+}

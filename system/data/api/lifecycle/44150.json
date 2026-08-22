@@ -1,0 +1,694 @@
+{
+ "data": {
+  "region": {
+   "region_id": "44150",
+   "sig_cd": "44150",
+   "name": "공주시",
+   "full_name": "충청남도 공주시",
+   "level": 2
+  },
+  "counts": {
+   "total": 825,
+   "active": 698,
+   "repealed": 127,
+   "by_rr_cls_cd": {
+    "일부개정": 443,
+    "전부개정": 32,
+    "제정": 223,
+    "폐지": 127
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2005,
+    "n": 8
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 10
+   },
+   {
+    "year": 2008,
+    "n": 10
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 8
+   },
+   {
+    "year": 2011,
+    "n": 16
+   },
+   {
+    "year": 2012,
+    "n": 12
+   },
+   {
+    "year": 2013,
+    "n": 17
+   },
+   {
+    "year": 2014,
+    "n": 26
+   },
+   {
+    "year": 2015,
+    "n": 26
+   },
+   {
+    "year": 2016,
+    "n": 23
+   },
+   {
+    "year": 2017,
+    "n": 15
+   },
+   {
+    "year": 2018,
+    "n": 21
+   },
+   {
+    "year": 2019,
+    "n": 29
+   },
+   {
+    "year": 2020,
+    "n": 33
+   },
+   {
+    "year": 2021,
+    "n": 55
+   },
+   {
+    "year": 2022,
+    "n": 55
+   },
+   {
+    "year": 2023,
+    "n": 139
+   },
+   {
+    "year": 2024,
+    "n": 146
+   },
+   {
+    "year": 2025,
+    "n": 102
+   },
+   {
+    "year": 2026,
+    "n": 65
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 10
+   },
+   {
+    "year": 2008,
+    "n": 8
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 8
+   },
+   {
+    "year": 2011,
+    "n": 4
+   },
+   {
+    "year": 2012,
+    "n": 9
+   },
+   {
+    "year": 2013,
+    "n": 5
+   },
+   {
+    "year": 2014,
+    "n": 11
+   },
+   {
+    "year": 2015,
+    "n": 12
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 4
+   },
+   {
+    "year": 2019,
+    "n": 7
+   },
+   {
+    "year": 2020,
+    "n": 3
+   },
+   {
+    "year": 2021,
+    "n": 5
+   },
+   {
+    "year": 2022,
+    "n": 6
+   },
+   {
+    "year": 2023,
+    "n": 7
+   },
+   {
+    "year": 2025,
+    "n": 2
+   },
+   {
+    "year": 2026,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행 규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직·운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설 특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀장학금지급조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀장학금지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업 특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금설치및운용조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수규칙",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수 규칙",
+    "rows": 1,
+    "nationwide_regions": 65
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:659576",
+    "name": "공주시 계룡산맑은물에 상표 사용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-08-03",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=659576&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:659802",
+    "name": "공주시농촌전화사업기금설치및관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-01-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=659802&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:659805",
+    "name": "공주시농촌전화사업기금설치및관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-01-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=659805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2122873",
+    "name": "공주시 안전취약계층 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-15",
+    "repealed_on": "2026-04-15",
+    "repealed_on_raw": "20260415",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2122873&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2046661",
+    "name": "공주시 중소기업 경영안정기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-27",
+    "repealed_on": "2026-01-01",
+    "repealed_on_raw": "20260101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2046661&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2046681",
+    "name": "공주시 중소기업경영안정기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-06-27",
+    "repealed_on": "2026-01-01",
+    "repealed_on_raw": "20260101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2046681&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2026103",
+    "name": "공주시 전통시장 내 야시장 이동판매형태의 즉석판매제조·가공업의 시설 기준 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-04-01",
+    "repealed_on": "2025-04-01",
+    "repealed_on_raw": "20250401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2026103&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2022093",
+    "name": "공주시 재단법인 백제문화제재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-17",
+    "repealed_on": "2025-03-17",
+    "repealed_on_raw": "20250317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2022093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1879257",
+    "name": "공주시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-08",
+    "repealed_on": "2023-12-08",
+    "repealed_on_raw": "20231208",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1879257&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1879233",
+    "name": "공주시 지속가능발전협의회 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-08",
+    "repealed_on": "2023-12-08",
+    "repealed_on_raw": "20231208",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1879233&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1860635",
+    "name": "공주시 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-04",
+    "repealed_on": "2023-10-04",
+    "repealed_on_raw": "20231004",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1860635&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1849841",
+    "name": "공주시 각종 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-01",
+    "repealed_on": "2023-09-01",
+    "repealed_on_raw": "20230901",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1849841&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1790321",
+    "name": "공주시 온천개발자문위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-15",
+    "repealed_on": "2023-03-15",
+    "repealed_on_raw": "20230315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1790321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1790359",
+    "name": "공주시의회에 출석·답변할 수 있는 관계공무원의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-15",
+    "repealed_on": "2023-03-15",
+    "repealed_on_raw": "20230315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1790359&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1790329",
+    "name": "공주시 전기자동차 충전시설의 설치 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-15",
+    "repealed_on": "2023-03-15",
+    "repealed_on_raw": "20230315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1790329&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1752061",
+    "name": "공주시 지방세 발전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-01",
+    "repealed_on": "2022-12-01",
+    "repealed_on_raw": "20221201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1752061&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1742509",
+    "name": "공주시 기업 및 지역건설산업 활성화 촉진에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-01",
+    "repealed_on": "2022-11-01",
+    "repealed_on_raw": "20221101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1742509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1729985",
+    "name": "공주시 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-09-27",
+    "repealed_on": "2022-09-27",
+    "repealed_on_raw": "20220927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1729985&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1644821",
+    "name": "공주시의회 정례회의 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-06",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1644821&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1656791",
+    "name": "공주시 주민의 조례 제정 및 개·폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-27",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1656791&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1623929",
+    "name": "공주시 주택사업 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-01",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1623929&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1652081",
+    "name": "공주시 지방계약직공무원 규정 시행 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-22",
+    "repealed_on": "2021-12-22",
+    "repealed_on_raw": "20211222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1652081&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1647239",
+    "name": "공주시 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-15",
+    "repealed_on": "2021-12-15",
+    "repealed_on_raw": "20211215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1647239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1636915",
+    "name": "공주시 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-01",
+    "repealed_on": "2021-11-01",
+    "repealed_on_raw": "20211101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1636915&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1623739",
+    "name": "공주시 쌀종합대책위원회 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-01",
+    "repealed_on": "2021-09-01",
+    "repealed_on_raw": "20210901",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1623739&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1589509",
+    "name": "공주 석장리 구석기축제 조직위원회 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-04-15",
+    "repealed_on": "2021-04-15",
+    "repealed_on_raw": "20210415",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1589509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1541451",
+    "name": "공주시 지방채상환기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-02",
+    "repealed_on": "2020-11-02",
+    "repealed_on_raw": "20201102",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1541451&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1524823",
+    "name": "공주시 친환경 급식 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-08-18",
+    "repealed_on": "2020-08-18",
+    "repealed_on_raw": "20200818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1524823&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1485917",
+    "name": "공주시 반포면 주민자치회 실시 및 설치· 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-06",
+    "repealed_on": "2020-04-06",
+    "repealed_on_raw": "20200406",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1485917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1813555",
+    "name": "공주시사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-07",
+    "repealed_on": "2019-11-07",
+    "repealed_on_raw": "20191107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1813555&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1411419",
+    "name": "공주시 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-10-01",
+    "repealed_on": "2019-10-01",
+    "repealed_on_raw": "20191001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1411419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1408545",
+    "name": "공주시 장기 미집행 도시계획시설 대지보상 임시 특별회계 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-09-02",
+    "repealed_on": "2019-09-02",
+    "repealed_on_raw": "20190902",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1408545&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1408077",
+    "name": "공주시 저소득주민 생활안정기금 융자 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-09-02",
+    "repealed_on": "2019-09-02",
+    "repealed_on_raw": "20190902",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1408077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1407837",
+    "name": "공주시 저소득주민 생활안정기금 융자 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-08-29",
+    "repealed_on": "2019-08-29",
+    "repealed_on_raw": "20190829",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1407837&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1779917",
+    "name": "공주시 명예 읍·면·동장 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-03",
+    "repealed_on": "2019-06-03",
+    "repealed_on_raw": "20190603",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1779917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1388361",
+    "name": "공주시 사회적기업 육성에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-03-15",
+    "repealed_on": "2019-03-15",
+    "repealed_on_raw": "20190315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1388361&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1381064",
+    "name": "공주시 기반시설 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-07",
+    "repealed_on": "2018-12-07",
+    "repealed_on_raw": "20181207",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1381064&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1381062",
+    "name": "공주시 노사정협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-07",
+    "repealed_on": "2018-12-07",
+    "repealed_on_raw": "20181207",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1381062&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1381063",
+    "name": "공주시 장기 미집행 도시계획시설 대지보상 임시 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-07",
+    "repealed_on": "2018-12-07",
+    "repealed_on_raw": "20181207",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1381063&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1578367",
+    "name": "공주시 자체평가위원회 구성·운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-09-27",
+    "repealed_on": "2018-09-27",
+    "repealed_on_raw": "20180927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1578367&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 3,
+   "sentinel_99991231": 3
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "44150"
+ ]
+}

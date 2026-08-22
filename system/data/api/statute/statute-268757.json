@@ -1,0 +1,766 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:268757",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "교통약자의 이동편의 증진법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2025-01-31",
+   "effective_on": "20260201",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=268757&type=HTML&mobileYn=&efYd=20260201",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 347,
+   "child_ordinances": 334,
+   "by_verification_status": {
+    "article-missing": 6,
+    "article-verified": 249,
+    "unverifiable": 92
+   },
+   "by_delegation_type": {
+    "law-delegated": 347
+   },
+   "regions_top": [
+    {
+     "region_id": "11",
+     "name": "서울특별시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "52",
+     "name": "전북특별자치도",
+     "ordinances": 6
+    },
+    {
+     "region_id": "36",
+     "name": "세종특별자치시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "47",
+     "name": "경상북도",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41460",
+     "name": "경기도 용인시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "11740",
+     "name": "서울특별시 강동구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "11410",
+     "name": "서울특별시 서대문구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "51750",
+     "name": "강원특별자치도 영월군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47130",
+     "name": "경상북도 경주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "44",
+     "name": "충청남도",
+     "ordinances": 4
+    },
+    {
+     "region_id": "43800",
+     "name": "충청북도 단양군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41570",
+     "name": "경기도 김포시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 4
+    },
+    {
+     "region_id": "11305",
+     "name": "서울특별시 강북구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "11170",
+     "name": "서울특별시 용산구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "52710",
+     "name": "전북특별자치도 완주군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "51720",
+     "name": "강원특별자치도 홍천군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "51170",
+     "name": "강원특별자치도 동해시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 3
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 교통약자(交通弱者)가 안전하고 편리하게 이동할 수 있도록 교통수단, 여객시설 및 도로에 이동편의시설을 확충하고 보행환경을 개선하여 사람중심의 교통체계를 구축함으로써 교통약자의 사회 참여와 복지 증진에 이바지함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"교통약자\"란 장애인, 고령자, 임산부, 영유아를 동반한 사람, 어린이 등 일상생활에서 이동에 불편을 느끼는 사람을 말한다.\n2. \"교통수단\"이란 사람을 운송하는 데 이용되는 것으로서 다음 각 목의 어느 하나에 해당하는 운송수단을 말한다.\n가. 「여객자동차 운수사업법」 제3조제1항제1호에 따른 노선 여",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "이동권",
+    "body": "제3조(이동권)\n교통약자는 인간으로서의 존엄과 가치 및 행복을 추구할 권리를 보장받기 위하여 교통약자가 아닌 사람들이 이용하는 모든 교통수단, 여객시설 및 도로를 차별 없이 안전하고 편리하게 이용하여 이동할 수 있는 권리를 가진다.",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "국가 등의 책무",
+    "body": "제4조(국가 등의 책무)\n국가와 지방자치단체는 교통약자가 안전하고 편리하게 이동할 수 있도록 교통수단과 여객시설의 이용편의 및 보행환경 개선을 위한 정책을 수립하고 시행하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "교통사업자 등의 의무",
+    "body": "제5조(교통사업자 등의 의무)\n① 교통사업자는 교통약자의 이동편의 증진을 위하여 이 법에서 정하는 이동편의시설 설치기준을 준수하고 교통약자에 대한 서비스 개선을 위하여 지속적으로 노력하여야 한다.\n② 교통수단을 제작하는 사업자는 교통약자가 편리하게 이동할 수 있는 구조ㆍ설비 또는 장치를 갖춘 교통수단을 개발ㆍ제조하기 위하",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "교통약자 이동편의 증진계획의 수립 등",
+    "body": "제6조(교통약자 이동편의 증진계획의 수립 등)\n① 국토교통부장관은 교통약자의 이동편의 증진을 위한 5년 단위의 계획(이하 \"교통약자 이동편의 증진계획\"이라 한다)을 수립하여야 한다. <개정 2013.3.23>\n② 교통약자 이동편의 증진계획에는 다음 각 호의 사항이 포함되어야 한다. <개정 2018.2.21>\n1. 교통약자",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "지방교통약자 이동편의 증진계획의 수립 등",
+    "body": "제7조(지방교통약자 이동편의 증진계획의 수립 등)\n① 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ특별자치도지사ㆍ시장(이하 \"시장\"이라 한다) 이나 군수(광역시에 있는 군의 군수는 제외한다. 이하 같다)는 교통약자 이동편의 증진계획에 따라 관할 지역에 있는 교통약자의 이동편의 증진을 촉진하기 위하여 대통령령으로 정하는 바에 따라 주민과",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": "2",
+    "title": "교통약자 이동편의 증진 지원계획의 수립 등",
+    "body": "제7조의2(교통약자 이동편의 증진 지원계획의 수립 등)\n① 도지사는 교통약자 이동편의 증진계획 및 지방교통약자 이동편의 증진계획의 실시를 지원하기 위하여 대통령령으로 정하는 바에 따라 5년 단위의 교통약자 이동편의 증진 지원계획(이하 \"교통약자 이동편의 증진 지원계획\"이라 한다)을 수립하여야 한다.\n② 교통약자 이동편의 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0007021"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "연차별 시행계획의 수립",
+    "body": "제8조(연차별 시행계획의 수립)\n① 시장이나 군수는 지방교통약자 이동편의 증진계획을 집행하기 위한 연차별 시행계획을 수립하여야 한다.\n② 제1항에 따른 연차별 시행계획의 수립ㆍ변경ㆍ시행 등에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "이동편의시설의 설치 대상",
+    "body": "제9조(이동편의시설의 설치 대상)\n1. 교통수단\n2. 여객시설\n3. 도로",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "이동편의시설의 설치기준",
+    "body": "제10조(이동편의시설의 설치기준)\n① 대상시설별로 설치하여야 하는 이동편의시설의 종류는 대상시설의 규모와 용도 등을 고려하여 대통령령으로 정한다.\n② 대상시설별로 설치하여야 하는 이동편의시설의 구조ㆍ재질 등에 관한 세부기준은 국토교통부령으로 정한다. <개정 2013.3.23>\n③ 이동편의시설에 관하여 이 법에서 특별히 규",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "이동편의시설의 설치 등",
+    "body": "제11조(이동편의시설의 설치 등)\n① 교통사업자 또는 도로관리청 등 대상시설을 설치ㆍ관리하는 자(이하 \"설치ㆍ관리자\"라 한다)는 대상시설을 설치하거나 대통령령으로 정하는 주요 부분을 변경할 때에는 제10조에 따른 설치기준에 맞게 이동편의시설을 설치하고 이를 유지ㆍ관리하여야 한다. <개정 2020.10.20, 2023.9.",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "기준적합성 심사",
+    "body": "제12조(기준적합성 심사)\n① 교통행정기관은 교통수단과 여객시설에 대한 면허ㆍ허가ㆍ인가 등을 하는 경우 교통수단과 여객시설에 설치된 이동편의시설이 제10조에 따른 설치기준에 맞는지를 심사하여야 한다. <개정 2020.12.22>\n② 교통행정기관은 제1항에 따른 심사를 하는 경우 미리 대통령령으로 정하는 바에 따라 장애인 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "교통사업자 등에 대한 교육",
+    "body": "제13조(교통사업자 등에 대한 교육)\n① 교통사업자는 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장이 실시하는 이동편의시설의 설치 및 관리 등에 관한 교육을 받아야 한다.\n② 특별교통수단을 운행하는 운전자는 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장이 실시하는 다음 각 호의 교육을 받아야 한다. <개정 2024.1.16>\n1. 교통약자서비스에",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": "2",
+    "title": "승무원 등에 대한 교육",
+    "body": "제13조의2(승무원 등에 대한 교육)\n① 다음 각 호의 어느 하나에 해당하는 사람을 고용하는 자는 해당 종사자에 대하여 교통약자서비스에 관한 교육(이하 이 조에서 \"교통약자서비스교육\"이라 한다)을 실시하여야 한다. <개정 2024.1.16>\n1. 「항공안전법」 제2조제17호에 따른 객실승무원\n2. 「철도안전법」 제2조제1",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0013021"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "노선버스의 이용 보장 등",
+    "body": "제14조(노선버스의 이용 보장 등)\n① 「여객자동차 운수사업법」 제3조제1항제1호에 따른 노선 여객자동차운송사업을 경영하는 자(이하 \"노선버스 운송사업자\"라 한다)는 교통약자가 안전하고 편리하게 버스를 이용할 수 있도록 다음 각 호의 사항을 준수하여야 한다. <개정 2018.2.21>\n1. 교통약자에게 승하차 시간을 충분",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "2",
+    "title": "전세버스의 이용 보장 등",
+    "body": "제14조의2(전세버스의 이용 보장 등)\n① 「여객자동차 운수사업법」 제3조제1항제2호에 따른 구역 여객자동차운송사업 중 전세버스운송사업(운행계통을 정하지 아니하고 전국을 사업구역으로 정하여 1개의 운송계약에 따라 자동차를 사용하여 여객을 운송하는 사업으로서 대통령령으로 정하는 사업을 말한다)을 경영하는 자(이하 이 조에서",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0014021"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "3",
+    "title": "휠체어 탑승설비의 장착 등",
+    "body": "제14조의3(휠체어 탑승설비의 장착 등)\n제14조제4항 및 제14조의2에 따라 버스에 장착되는 휠체어 탑승설비의 구조ㆍ재질 및 성능 등에 관한 규격 및 기준은 국토교통부령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0014031"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "도시철도의 이용 보장",
+    "body": "제15조(도시철도의 이용 보장)\n① 「도시철도법」 제26조에 따라 도시철도운송사업의 면허를 받은 자는 도시철도사업에 사용되는 차량의 10분의 1 이상에 해당하는 부분을 교통약자 전용구역으로 배정하여야 한다. <개정 2014.1.7>\n② 제1항에 따른 교통약자 전용구역의 시설기준, 운영방법 등에 관하여 필요한 사항은 국토교",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": "2",
+    "title": "철도의 이용 보장",
+    "body": "제15조의2(철도의 이용 보장)\n① 「철도사업법」 제2조제8호에 따른 철도사업자 중 대통령령으로 정하는 철도사업자는 교통약자가 안전하고 편리하게 철도를 이용할 수 있도록 교통약자를 위한 좌석 예약체계를 마련하여야 한다.\n② 제1항에 따른 좌석 예약체계를 이용할 수 있는 교통약자의 범위, 예약방법 등에 필요한 사항은 국토교",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0015021"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "특별교통수단의 운행 등",
+    "body": "제16조(특별교통수단의 운행 등)\n① 시장이나 군수는 이동에 심한 불편을 느끼는 교통약자의 이동편의를 위하여 국토교통부령으로 정하는 대수 이상의 특별교통수단을 운행하여야 한다. <개정 2013.3.23>\n② 시장이나 군수는 특별교통수단을 이용하려는 교통약자와 특별교통수단을 운행하는 자를 통신수단 등을 통하여 연결하여 주는",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": "2",
+    "title": "교통약자의 이동 지원",
+    "body": "제16조의2(교통약자의 이동 지원)\n① 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 교통약자의 이동편의를 증진하기 위하여 특별교통수단 외의 차량을 운행하거나 교통약자가 「택시운송사업의 발전에 관한 법률」 제2조제1호에 따른 택시운송사업에 사용되는 자동차를 이용하는 데에 소요되는 비용을 지원할 수 있다. 다만, 구청장이 이동 지원을",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0016021"
+   },
+   {
+    "article_no": "16",
+    "article_branch": "3",
+    "title": "장애인전용주차구역의 설치 등",
+    "body": "제16조의3(장애인전용주차구역의 설치 등)\n① 제9조제2호 및 제3호의 시설을 설치하는 자는 「주차장법」과 제10조에 따른 이동편의시설의 설치기준에 따라 장애인전용주차구역을 설치하여야 한다.\n② 누구든지 다음 각 호의 어느 하나에 해당하지 아니하는 차량을 제1항에 따라 설치된 장애인전용주차구역(이하 \"장애인전용주차구역\"이",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0016031"
+   },
+   {
+    "article_no": "16",
+    "article_branch": "4",
+    "title": "특별교통수단 운전업무 종사요건",
+    "body": "제16조의4(특별교통수단 운전업무 종사요건)\n① 특별교통수단을 운행하는 운전자는 국토교통부령으로 정하는 운전경력 등 운전업무에 필요한 요건을 갖추어야 한다.\n② 다음 각 호의 어느 하나에 해당하는 사람은 제1항에 따른 특별교통수단을 운행하는 운전자가 될 수 없다.\n1. 다음 각 목의 어느 하나에 해당하는 죄를 범하여 금고",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0016041"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "교통이용편의서비스의 제공",
+    "body": "제17조(교통이용편의서비스의 제공)\n① 교통사업자는 대통령령으로 정하는 바에 따라 교통약자 등이 편리하고 안전하게 교통수단, 여객시설 또는 이동편의시설을 이용할 수 있도록 안내정보 등 교통이용에 관한 정보와 한국수어ㆍ통역 서비스, 탑승보조 서비스 등 교통이용과 관련된 편의(이하 \"교통이용편의서비스\"라 한다)를 제공하여야 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "2",
+    "title": "교통수단 등 인증",
+    "body": "제17조의2(교통수단 등 인증)\n① 국토교통부장관은 교통약자가 안전하고 편리하게 이동할 수 있도록 이동편의시설을 설치한 교통수단ㆍ여객시설 및 도로에 장애물 없는 생활환경 인증(이하 \"인증\"이라 한다)을 할 수 있다. <개정 2013.3.23>\n② 국토교통부장관은 교통약자의 안전하고 편리한 이동을 위하여 교통수단ㆍ여객시설 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0017021"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "3",
+    "title": "인증 표시 등",
+    "body": "제17조의3(인증 표시 등)\n① 제17조의2제1항ㆍ제4항에 따라 인증을 받은 교통수단ㆍ여객시설ㆍ도로(이하 \"인증시설물\"이라 한다)의 설치ㆍ관리자와 같은 조 제2항에 따라 인증을 받은 시ㆍ군ㆍ구 및 지역(이하 \"인증지역\"이라 한다)의 지방자치단체의 장은 인증시설물과 인증지역에 대통령령으로 정하는 바에 따라 인증의 표시를 할",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0017031"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "4",
+    "title": "인증의 유효기간",
+    "body": "제17조의4(인증의 유효기간)\n① 인증의 유효기간은 인증을 받은 날부터 10년으로 한다.\n② 인증의 유효기간을 연장받으려는 자는 유효기간이 끝나기 전에 국토교통부령으로 정하는 바에 따라 연장신청을 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0017041"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "5",
+    "title": "인증의 사후관리",
+    "body": "제17조의5(인증의 사후관리)\n① 국토교통부장관은 인증시설물 또는 인증지역이 제17조의2제7항에 따른 인증 기준에 적합하게 유지ㆍ관리되고 있는지 여부를 조사할 수 있다.\n② 국토교통부장관은 제1항에 따른 조사 결과 인증 기준에 적합하지 아니하게 유지ㆍ관리되고 있는 인증시설물 또는 인증지역에 대하여 그 내용을 인증시설물의 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0017051"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "6",
+    "title": "인증의 취소",
+    "body": "제17조의6(인증의 취소)\n1. 거짓이나 그 밖의 부정한 방법으로 인증을 받은 경우\n2. 정당한 사유 없이 제17조의5제2항에 따른 조치를 이행하지 아니하여 제17조의2제7항에 따른 인증 기준에 적합하지 아니하게 된 경우",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0017061"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "7",
+    "title": "청문",
+    "body": "제17조의7(청문)\n국토교통부장관은 제17조의6에 따라 인증을 취소하려는 경우에는 청문을 실시하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0017071"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "보행우선구역의 지정",
+    "body": "제18조(보행우선구역의 지정)\n① 시장이나 군수는 교통약자를 포함한 보행자의 안전하고 편리한 보행환경을 위하여 필요하다고 인정할 때에는 도로의 일정 구간을 보행우선구역으로 지정할 수 있다.\n② 시장이나 군수는 제1항에 따라 보행우선구역을 지정하려면 보행우선구역의 지정 및 유지ㆍ관리를 위한 계획(이하 \"지정계획\"이라 한다)",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "보행우선구역에서의 조치",
+    "body": "제19조(보행우선구역에서의 조치)\n① 시장이나 군수는 보행우선구역에서 보행자의 안전 또는 편의를 도모하기 위하여 시ㆍ도경찰청장이나 경찰서장에게 다음 각 호의 조치를 요청할 수 있다. <개정 2020.12.22>\n1. 자동차의 일방통행 등 통행 제한\n2. 자동차 운행속도 제한\n3. 자동차의 정차나 주차의 금지\n② 제1항에 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "보행우선구역의 지정 해제 등",
+    "body": "제20조(보행우선구역의 지정 해제 등)\n① 시장이나 군수는 제18조제1항에 따라 보행우선구역을 지정한 목적이 상실되거나 보행우선구역의 규모를 변경할 필요가 있을 때에는 보행우선구역의 지정을 해제하거나 변경할 수 있다.\n② 보행우선구역의 지정을 해제하거나 변경하는 방법ㆍ절차 등에 관하여 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "보행안전시설물의 설치",
+    "body": "제21조(보행안전시설물의 설치)\n① 시장이나 군수는 보행우선구역에서 보행자가 안전하고 편리하게 보행할 수 있도록 다음 각 호의 보행안전시설물을 설치할 수 있다. <개정 2017.12.26>\n1. 속도저감시설\n2. 횡단시설\n3. 대중교통정보 알림시설 등 교통안내시설\n4. 보행자 우선통행을 위한 교통신호기\n5. 자동차 진입억",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "도로 점용물의 이설 등",
+    "body": "제22조(도로 점용물의 이설 등)\n① 시장이나 군수는 제21조에 따른 보행안전시설물을 설치하기 위하여 필요한 경우에는 「도로법」 제61조에 따라 도로 점용허가를 받은 자에게 도로 점용물을 옮길 것을 명할 수 있다. 이 경우 시장이나 군수가 그 도로의 관리청이 아닌 경우에는 그 도로의 관리청에 대하여 도로 점용허가를 받은 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "불법시설물의 정비",
+    "body": "제23조(불법시설물의 정비)\n① 시장이나 군수는 보행우선구역에서 「도로법」 제61조에 따른 도로 점용허가를 받지 아니하고 설치되어 보행안전시설물의 설치 또는 보행에 장애를 주는 노상적치물(路上積置物) 등 관계 법령에 따라 적법하게 설치되지 아니한 시설물(이하 \"불법시설물\"이라 한다)을 「도로법」 등 관계 법령에서 정하는 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "보행우선구역 관리대장의 작성ㆍ보관",
+    "body": "제24조(보행우선구역 관리대장의 작성ㆍ보관)\n시장이나 군수는 국토교통부령으로 정하는 바에 따라 보행우선구역 관리대장을 작성ㆍ보관하여야 한다. <개정 2013.3.23>",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": "2",
+    "title": "보행교통연구센터의 지정",
+    "body": "제24조의2(보행교통연구센터의 지정)\n① 국토교통부장관은 보행우선구역 사업의 전국적인 확산을 촉진하고 보행환경을 개선하기 위하여 「공공기관의 운영에 관한 법률」 제4조제1항의 어느 하나에 해당하는 공공기관을 보행교통연구센터로 지정하여 운영할 수 있다.\n② 제1항에 따른 보행교통연구센터는 다음 각 호의 업무를 수행한다. <",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0024021"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "실태조사",
+    "body": "제25조(실태조사)\n① 국토교통부장관은 교통약자의 이동편의 증진을 위한 정책을 효과적으로 수립하는 데 필요한 기초자료로 활용하기 위하여 다음 각 호의 사항을 조사하여야 한다. <개정 2013.3.22, 2013.3.23, 2019.4.23, 2023.5.16>\n1. 교통약자의 숫자 등 현황\n2. 교통약자의 이동 실태\n2의",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": "2",
+    "title": "교통복지지표의 조사 및 활용",
+    "body": "제25조의2(교통복지지표의 조사 및 활용)\n① 국토교통부장관은 교통약자의 교통수단ㆍ여객시설 및 도로의 이동편의와 보행환경 수준을 객관적으로 측정하기 위한 지표(이하 \"교통복지지표\"라 한다)를 개발할 수 있다.\n② 국토교통부장관은 교통복지지표를 활용하여 교통약자의 교통복지 수준에 관하여 조사하고 그 결과를 공표할 수 있다.",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0025021"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "연구ㆍ개발의 촉진 등",
+    "body": "제26조(연구ㆍ개발의 촉진 등)\n① 국토교통부장관은 교통약자의 이동편의 증진을 위하여 다음 각 호에 관한 연구ㆍ개발 사업을 추진하여야 한다. <개정 2013.3.23, 2018.2.21, 2019.4.23>\n1. 교통약자의 이동편의를 위한 교통수단, 여객시설 및 이동편의시설의 기준에 관한 사항\n2. 저상버스 및 휠체어 탑",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "장애인 등의 자가운전 지원 등",
+    "body": "제27조(장애인 등의 자가운전 지원 등)\n① 국가와 지방자치단체는 장애인이나 고령자가 직접 운전하여 안전하고 편리하게 이동할 수 있도록 운전면허제도를 정비하는 등 필요한 시책을 마련하여야 한다.\n② 교통사업자는 장애인의 경제적 부담을 덜어 주기 위하여 관계 법령에서 정하는 바에 따라 운임이나 요금을 감면할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "보고ㆍ검사 등",
+    "body": "제28조(보고ㆍ검사 등)\n① 교통행정기관은 필요하다고 인정할 때에는 교통사업자에 대하여 이동편의시설의 설치 또는 유지ㆍ관리와 관련되는 사항에 관하여 보고하게 하거나 관련 자료를 제출하게 할 수 있다.\n② 국토교통부장관은 제1항에 따라 교통사업자로부터 제출받은 자료를 대통령령으로 정하는 바에 따라 다른 교통행정기관이 공유ㆍ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "시정명령",
+    "body": "제29조(시정명령)\n교통행정기관은 제11조제1항을 위반하여 대상시설에 이동편의시설을 설치하지 아니하거나 설치한 이동편의시설을 제10조에 따른 설치기준에 맞지 아니하게 유지ㆍ관리한 교통사업자에 대하여 대통령령으로 정하는 바에 따라 1년 이내의 기간을 정하여 이동편의시설을 설치하도록 명하거나 제10조에 따른 설치기준에 맞게 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": "2",
+    "title": "이행강제금",
+    "body": "제29조의2(이행강제금)\n① 교통행정기관은 제29조에 따라 시정명령을 받은 후 시정기간 이내에 이행하지 아니한 자에게는 이동편의시설의 설치 비용을 고려하여 3천만원 이하의 이행강제금을 부과한다.\n② 제1항에 따라 이행강제금을 부과하는 위반행위의 종류, 위반 정도에 따른 금액 및 그 밖에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0029021"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "권한의 위임 또는 위탁",
+    "body": "제30조(권한의 위임 또는 위탁)\n① 이 법에 따른 중앙행정기관의 장의 권한은 그 일부를 대통령령으로 정하는 바에 따라 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장에게 위임할 수 있다. <개정 2013.3.23, 2019.4.23>\n② 중앙행정기관의 장은 이 법에 따른 업무의 일부를 대통령령으로 정하는 바에 따라 교통 관련 업무를 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제31조(벌칙)\n제11조제1항을 위반한 자로서 제29조에 따른 시정명령을 받고 그 시정기간 이내에 이행하지 아니한 자는 1천만원 이하의 벌금에 처한다. <개정 2023.9.14>",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "양벌규정",
+    "body": "제32조(양벌규정)\n법인의 대표자나 법인 또는 개인의 대리인, 사용인, 그 밖의 종업원이 그 법인 또는 개인의 업무에 관하여 제31조의 위반행위를 하면 그 행위자를 벌하는 외에 그 법인 또는 개인에게도 해당 조문의 벌금형을 과(科)한다. 다만, 법인 또는 개인이 그 위반행위를 방지하기 위하여 해당 업무에 관하여 상당한 주",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "과태료",
+    "body": "제33조(과태료)\n① 다음 각 호의 어느 하나에 해당하는 자에게는 200만원 이하의 과태료를 부과한다. <개정 2014.5.21, 2020.10.20>\n1. 거짓이나 부정한 방법으로 인증을 받거나 제17조의2제4항을 위반하여 인증을 받지 아니한 자\n2. 제17조의3제2항을 위반하여 인증 표시 또는 이와 유사한 표시를 한 ",
+    "body_truncated": true,
+    "effective_on": "20260201",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": null,
+    "body": "제34조\n삭제 <2012.6.1>",
+    "body_truncated": false,
+    "effective_on": "20260201",
+    "article_key": "0034001"
+   }
+  ],
+  "article_count": 51,
+  "articles_shown": 51,
+  "articles_truncated_bodies": 37,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:2124529",
+    "name": "가평군 대중교통 소외지역 주민 교통복지 증진에 관한 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124529&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125087",
+    "name": "군포시 교통약자의 이동편의 증진에 관한 조례 시행규칙",
+    "region_id": "41410",
+    "org_name": "경기도 군포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125087&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125331",
+    "name": "서울특별시 금천구 교통안전 기본 조례",
+    "region_id": "11545",
+    "org_name": "서울특별시 금천구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125331&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125777",
+    "name": "임실군 교통안전 증진 조례",
+    "region_id": "52750",
+    "org_name": "전북특별자치도 임실군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125777&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126433",
+    "name": "안산시 도시공원 조례",
+    "region_id": "41270",
+    "org_name": "경기도 안산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127583",
+    "name": "동두천시 교통약자의 이동편의 증진 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127583&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127629",
+    "name": "동두천시 보행안전 및 편의 증진에 관한 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127629&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128305",
+    "name": "부산광역시 사하구 장애인친화도시 조성에 관한 조례",
+    "region_id": "26380",
+    "org_name": "부산광역시 사하구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128305&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130191",
+    "name": "서울특별시 교통약자의 이동편의 증진에 관한 조례",
+    "region_id": "11",
+    "org_name": "서울특별시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130191&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130869",
+    "name": "양주시 교통약자의 이동편의 증진에 관한 조례",
+    "region_id": "41630",
+    "org_name": "경기도 양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130869&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132265",
+    "name": "전남광주통합특별시 서구 무장애 도시 조성 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132265&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132365",
+    "name": "전남광주통합특별시 서구 보행권 확보 및 보행환경개선에 관한 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132365&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132875",
+    "name": "전남광주통합특별시 서구 교통약자 이동을 위한 편의시설 점검에 관한 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132875&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2135379",
+    "name": "인천광역시 서해구 교통안전 조례",
+    "region_id": "28275",
+    "org_name": "인천광역시 서해구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135379&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2139785",
+    "name": "순천시 교통안전 증진에 관한 조례",
+    "region_id": "12150",
+    "org_name": "전남광주통합특별시 순천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2139785&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2139855",
+    "name": "순천시 교통약자의 이동편의 증진 조례",
+    "region_id": "12150",
+    "org_name": "전남광주통합특별시 순천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2139855&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2141435",
+    "name": "전남광주통합특별시 남구 교통안전 기본 조례",
+    "region_id": "12270",
+    "org_name": "전남광주통합특별시 남구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2141435&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2141439",
+    "name": "전남광주통합특별시 남구 공공시설 등 셔틀버스 운영 조례",
+    "region_id": "12270",
+    "org_name": "전남광주통합특별시 남구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2141439&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2141617",
+    "name": "전남광주통합특별시 남구 보행권 확보 및 보행환경 개선에 관한 조례",
+    "region_id": "12270",
+    "org_name": "전남광주통합특별시 남구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2141617&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2142569",
+    "name": "인천광역시 검단구 교통안전 조례",
+    "region_id": "28290",
+    "org_name": "인천광역시 검단구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142569&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

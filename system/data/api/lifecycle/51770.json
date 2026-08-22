@@ -1,0 +1,734 @@
+{
+ "data": {
+  "region": {
+   "region_id": "51770",
+   "sig_cd": "51770",
+   "name": "정선군",
+   "full_name": "강원특별자치도 정선군",
+   "level": 2
+  },
+  "counts": {
+   "total": 654,
+   "active": 565,
+   "repealed": 89,
+   "by_rr_cls_cd": {
+    "일부개정": 359,
+    "전부개정": 39,
+    "제정": 167,
+    "폐지": 89
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1983,
+    "n": 1
+   },
+   {
+    "year": 1986,
+    "n": 1
+   },
+   {
+    "year": 1987,
+    "n": 1
+   },
+   {
+    "year": 1989,
+    "n": 2
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 2
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 13
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 15
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 12
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 13
+   },
+   {
+    "year": 2015,
+    "n": 36
+   },
+   {
+    "year": 2016,
+    "n": 18
+   },
+   {
+    "year": 2017,
+    "n": 37
+   },
+   {
+    "year": 2018,
+    "n": 22
+   },
+   {
+    "year": 2019,
+    "n": 38
+   },
+   {
+    "year": 2020,
+    "n": 36
+   },
+   {
+    "year": 2021,
+    "n": 47
+   },
+   {
+    "year": 2022,
+    "n": 66
+   },
+   {
+    "year": 2023,
+    "n": 92
+   },
+   {
+    "year": 2024,
+    "n": 63
+   },
+   {
+    "year": 2025,
+    "n": 61
+   },
+   {
+    "year": 2026,
+    "n": 49
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 12
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 11
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 4
+   },
+   {
+    "year": 2017,
+    "n": 7
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 7
+   },
+   {
+    "year": 2020,
+    "n": 2
+   },
+   {
+    "year": 2021,
+    "n": 2
+   },
+   {
+    "year": 2022,
+    "n": 4
+   },
+   {
+    "year": 2023,
+    "n": 3
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 1
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨및축산폐수의처리에관한조례",
+    "rows": 2,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수조례",
+    "rows": 2,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "시장관리및사용조례",
+    "display_name": "시장관리및사용조례",
+    "rows": 2,
+    "nationwide_regions": 10
+   },
+   {
+    "policy_key": "병방치스카이워크전망대운영조례",
+    "display_name": "병방치 스카이워크 전망대 운영 조례",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금지급조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "호적과태료부과징수조례",
+    "display_name": "호적과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 62
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례",
+    "display_name": "사회단체 보조금 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 51
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례시행규칙",
+    "display_name": "오수·분뇨및축산폐수의처리에관한조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 42
+   },
+   {
+    "policy_key": "의회의원윤리강령및윤리실천규범등에관한조례",
+    "display_name": "의회 의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "지방재정공시심의위원회운영조례",
+    "display_name": "지방재정공시심의위원회운영조례",
+    "rows": 1,
+    "nationwide_regions": 35
+   },
+   {
+    "policy_key": "지역정보화촉진조례",
+    "display_name": "지역정보화촉진조례",
+    "rows": 1,
+    "nationwide_regions": 32
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2161351",
+    "name": "정선군 아동ㆍ여성안전 지역연대 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-08-14",
+    "repealed_on": "2026-08-14",
+    "repealed_on_raw": "20260814",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2161351&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2047403",
+    "name": "정선군 인구늘리기 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2047403&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2005721",
+    "name": "정선군 미혼자 국제결혼 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2005721&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1927389",
+    "name": "정선군 향토민상조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-05-08",
+    "repealed_on": "2024-05-08",
+    "repealed_on_raw": "20240508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1927389&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875867",
+    "name": "정선군고문공인회계사조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-20",
+    "repealed_on": "2023-11-20",
+    "repealed_on_raw": "20231120",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875867&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1877467",
+    "name": "정선군 지방공무원 임용후보자 장학규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-06",
+    "repealed_on": "2023-11-06",
+    "repealed_on_raw": "20231106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1877467&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1830077",
+    "name": "정선군지방공무원근무규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-07-03",
+    "repealed_on": "2023-07-03",
+    "repealed_on_raw": "20230703",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1830077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1745819",
+    "name": "정선군의회 의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-09",
+    "repealed_on": "2022-11-09",
+    "repealed_on_raw": "20221109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1745819&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197381",
+    "name": "정선군의회의원 공무국외여행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-09",
+    "repealed_on": "2022-11-09",
+    "repealed_on_raw": "20221109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197381&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1806821",
+    "name": "정선군 인구정책 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-18",
+    "repealed_on": "2022-04-18",
+    "repealed_on_raw": "20220418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1806821&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1684249",
+    "name": "정선군 주민조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-02-15",
+    "repealed_on": "2022-02-15",
+    "repealed_on_raw": "20220215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1684249&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641675",
+    "name": "정선군 장기미집행 군계획시설 대지보상 특별회계 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-16",
+    "repealed_on": "2021-11-16",
+    "repealed_on_raw": "20211116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641675&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632643",
+    "name": "정선군기조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-05",
+    "repealed_on": "2021-10-05",
+    "repealed_on_raw": "20211005",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632643&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1482031",
+    "name": "정선군 지역사회통합위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-03-30",
+    "repealed_on": "2020-03-30",
+    "repealed_on_raw": "20200330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1482031&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1482033",
+    "name": "정선군 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-03-30",
+    "repealed_on": "2020-03-30",
+    "repealed_on_raw": "20200330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1482033&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1420869",
+    "name": "정선군사전재해영향성검토위원회 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-15",
+    "repealed_on": "2019-11-15",
+    "repealed_on_raw": "20191115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1420869&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1415987",
+    "name": "정선군민원재심의위원회설치운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-01",
+    "repealed_on": "2019-11-01",
+    "repealed_on_raw": "20191101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1415987&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1405687",
+    "name": "2018 평창 동계올림픽대회 및 장애인동계올림픽대회 범군민 위원회 설립·지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-07-31",
+    "repealed_on": "2019-07-31",
+    "repealed_on_raw": "20190731",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1405687&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1405688",
+    "name": "정선군 문화군민운동 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-07-31",
+    "repealed_on": "2019-07-31",
+    "repealed_on_raw": "20190731",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1405688&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1405682",
+    "name": "정선군공영개발사업공기업지방채발행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-07-31",
+    "repealed_on": "2019-07-31",
+    "repealed_on_raw": "20190731",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1405682&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1405689",
+    "name": "정선군 아리랑박물관 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-07-31",
+    "repealed_on": "2019-07-31",
+    "repealed_on_raw": "20190731",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1405689&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1405686",
+    "name": "정선군향토박물관운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-07-31",
+    "repealed_on": "2019-07-31",
+    "repealed_on_raw": "20190731",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1405686&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1344909",
+    "name": "정선군 하수처리시설 위탁운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-04-16",
+    "repealed_on": "2018-04-16",
+    "repealed_on_raw": "20180416",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1344909&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1324051",
+    "name": "정선군 가로수 조성 및 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-29",
+    "repealed_on": "2017-12-29",
+    "repealed_on_raw": "20171229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1324051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1314833",
+    "name": "정선군민제안조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-11-27",
+    "repealed_on": "2017-11-27",
+    "repealed_on_raw": "20171127",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1314833&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1314834",
+    "name": "정선군민제안조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-11-27",
+    "repealed_on": "2017-11-27",
+    "repealed_on_raw": "20171127",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1314834&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1304324",
+    "name": "정선군계약심의위원회 운영 및 주민참여감독공사의 범위 등에 관한 조례 시행규칙 폐지규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-09-29",
+    "repealed_on": "2017-09-29",
+    "repealed_on_raw": "20170929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1304324&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1290381",
+    "name": "정선군 아리랑박물관 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-06-13",
+    "repealed_on": "2017-06-13",
+    "repealed_on_raw": "20170613",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1290381&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1290379",
+    "name": "정선군향토박물관운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-06-13",
+    "repealed_on": "2017-06-13",
+    "repealed_on_raw": "20170613",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1290379&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1284256",
+    "name": "정선군각종위원회등실비변상조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-04-17",
+    "repealed_on": "2017-04-17",
+    "repealed_on_raw": "20170417",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1284256&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1480953",
+    "name": "정선군 저소득주민자녀 장학금지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-06-09",
+    "repealed_on": "2016-06-09",
+    "repealed_on_raw": "20160609",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1480953&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1236775",
+    "name": "정선군 저소득주민자녀 장학금지급조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-06-09",
+    "repealed_on": "2016-06-09",
+    "repealed_on_raw": "20160609",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1236775&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1236809",
+    "name": "정선군 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-06-09",
+    "repealed_on": "2016-06-09",
+    "repealed_on_raw": "20160609",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1236809&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1221315",
+    "name": "정선군지방세발전기금 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-03-07",
+    "repealed_on": "2016-03-07",
+    "repealed_on_raw": "20160307",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1221315&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1207609",
+    "name": "정선군 노사정협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-23",
+    "repealed_on": "2015-12-23",
+    "repealed_on_raw": "20151223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1207609&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1207623",
+    "name": "정선군의료원 설립 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-23",
+    "repealed_on": "2015-12-23",
+    "repealed_on_raw": "20151223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1207623&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1207410",
+    "name": "정선군지방재정공시심의위원회운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-23",
+    "repealed_on": "2015-12-23",
+    "repealed_on_raw": "20151223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1207410&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1202901",
+    "name": "정선군주택임대차계약서확정일자부여업무처리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-11-30",
+    "repealed_on": "2015-11-30",
+    "repealed_on_raw": "20151130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1202901&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1178986",
+    "name": "정선군기반시설부담금특별회계 설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-07-31",
+    "repealed_on": "2015-07-31",
+    "repealed_on_raw": "20150731",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1178986&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1179069",
+    "name": "정선군기반시설부담금특별회계 설치조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-07-31",
+    "repealed_on": "2015-07-31",
+    "repealed_on_raw": "20150731",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1179069&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51770"
+ ]
+}

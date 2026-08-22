@@ -1,0 +1,181 @@
+{
+ "data": {
+  "bill": {
+   "bill_id": "PRC_Z2H5I0G5G1E3F1E0E2A3A0Z0Z3X0W4",
+   "bill_no": "2210708",
+   "age": 22,
+   "name": "수자원의 조사ㆍ계획 및 관리에 관한 법률 일부개정법률안",
+   "committee": "기후에너지환경노동위원회",
+   "propose_dt": "2025-06-11",
+   "proc_dt": "2026-06-18",
+   "proc_result": "수정가결",
+   "proc_result_cd": "수정가결"
+  },
+  "tally_reported": {
+   "member_tcnt": 300,
+   "vote_tcnt": 247,
+   "yes_tcnt": 246,
+   "no_tcnt": 0,
+   "blank_tcnt": 1
+  },
+  "tally_from_votes": {
+   "찬성": 232,
+   "반대": 0,
+   "기권": 1,
+   "기타": 52,
+   "합계": 285
+  },
+  "yes_ratio": 0.814,
+  "party_breakdown": [
+   {
+    "party": "더불어민주당",
+    "찬성": 126,
+    "반대": 0,
+    "기권": 0,
+    "기타": 26,
+    "합계": 152,
+    "찬성률": 0.8289
+   },
+   {
+    "party": "국민의힘",
+    "찬성": 82,
+    "반대": 0,
+    "기권": 1,
+    "기타": 22,
+    "합계": 105,
+    "찬성률": 0.781
+   },
+   {
+    "party": "조국혁신당",
+    "찬성": 11,
+    "반대": 0,
+    "기권": 0,
+    "기타": 1,
+    "합계": 12,
+    "찬성률": 0.9167
+   },
+   {
+    "party": "무소속",
+    "찬성": 5,
+    "반대": 0,
+    "기권": 0,
+    "기타": 2,
+    "합계": 7,
+    "찬성률": 0.7143
+   },
+   {
+    "party": "진보당",
+    "찬성": 4,
+    "반대": 0,
+    "기권": 0,
+    "기타": 0,
+    "합계": 4,
+    "찬성률": 1.0
+   },
+   {
+    "party": "개혁신당",
+    "찬성": 2,
+    "반대": 0,
+    "기권": 0,
+    "기타": 1,
+    "합계": 3,
+    "찬성률": 0.6667
+   },
+   {
+    "party": "기본소득당",
+    "찬성": 1,
+    "반대": 0,
+    "기권": 0,
+    "기타": 0,
+    "합계": 1,
+    "찬성률": 1.0
+   },
+   {
+    "party": "사회민주당",
+    "찬성": 1,
+    "반대": 0,
+    "기권": 0,
+    "기타": 0,
+    "합계": 1,
+    "찬성률": 1.0
+   }
+  ],
+  "proposers": [
+   {
+    "role": "RST",
+    "legislator_id": "JEZ3130Q",
+    "name": "김형동",
+    "current_party": "국민의힘",
+    "district": "경북 안동시예천군"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "TQP7167T",
+    "name": "김건",
+    "current_party": "국민의힘",
+    "district": "비례대표"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "1SR94244",
+    "name": "김소희",
+    "current_party": "국민의힘",
+    "district": "비례대표"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "6RD62559",
+    "name": "박정하",
+    "current_party": "국민의힘",
+    "district": "강원 원주시갑"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "6U243644",
+    "name": "박형수",
+    "current_party": "국민의힘",
+    "district": "경북 의성군청송군영덕군울진군"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "8UC4779G",
+    "name": "우재준",
+    "current_party": "국민의힘",
+    "district": "대구 북구갑"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "KBK8836C",
+    "name": "유용원",
+    "current_party": "국민의힘",
+    "district": "비례대표"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "S9U45255",
+    "name": "이양수",
+    "current_party": "국민의힘",
+    "district": "강원 속초시인제군고성군양양군"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "5KV82250",
+    "name": "조경태",
+    "current_party": "국민의힘",
+    "district": "부산 사하구을"
+   },
+   {
+    "role": "PUBL",
+    "legislator_id": "3NI5978A",
+    "name": "조지연",
+    "current_party": "국민의힘",
+    "district": "경북 경산시"
+   }
+  ]
+ },
+ "as_of_date": "2026-08-21T03:51:11+0900",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "이 응답은 의사결정 지원을 위한 참고 정보이며 법률 판단·유권해석이 아닙니다. 근거 조문과 law.go.kr 원문을 직접 확인하십시오.",
+ "official_url": "https://likms.assembly.go.kr/bill/billDetail.do?billId=PRC_Z2H5I0G5G1E3F1E0E2A3A0Z0Z3X0W4"
+}

@@ -1,0 +1,765 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1006899",
+   "key": "ordin-1006899",
+   "mst": "1006899",
+   "name": "서울특별시 종로구 장애인 차별금지 및 인권증진에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "11110",
+   "sig_cd": "11110",
+   "region_name": "서울특별시 종로구",
+   "org_name": "서울특별시 종로구",
+   "enacted_on": "20130412",
+   "effective_on": "20130412",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 10,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1006899",
+   "categories": [
+    {
+     "code": "C03",
+     "name": "복지·돌봄",
+     "confidence": 0.4,
+     "method": "rule"
+    },
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.941212,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1664233",
+      "key": "ordin-1664233",
+      "name": "서울특별시 광진구 장애인 차별금지 및 인권보장에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 광진구",
+      "sig_cd": "11215",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1664233",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.914468,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1481091",
+      "key": "ordin-1481091",
+      "name": "서울특별시 금천구 장애인 차별금지 및 인권보장에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 금천구",
+      "sig_cd": "11545",
+      "enacted_on": "20200325",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1481091",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.893991,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1537707",
+      "key": "ordin-1537707",
+      "name": "서울특별시 서대문구 아동의 놀이와 여가활동 보장에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서대문구",
+      "sig_cd": "11410",
+      "enacted_on": "20201014",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1537707",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.892848,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1695617",
+      "key": "ordin-1695617",
+      "name": "서울특별시 종로구 심폐소생술 교육에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20220408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1695617",
+      "categories": [
+       "C05",
+       "C06"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.891386,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2035637",
+      "key": "ordin-2035637",
+      "name": "서울특별시 종로구 저소득주민의 생활안정 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20250509",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2035637",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.889847,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1814629",
+      "key": "ordin-1814629",
+      "name": "서울특별시 서대문구 친환경 학교급식 등 지원에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 서대문구",
+      "sig_cd": "11410",
+      "enacted_on": "20230531",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814629",
+      "categories": [
+       "C05",
+       "C04",
+       "C07"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.888306,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1695623",
+      "key": "ordin-1695623",
+      "name": "서울특별시 종로구의회 의원 상해 보상금 지급 및 의회장에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20220408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1695623",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.880533,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2050429",
+      "key": "ordin-2050429",
+      "name": "서울특별시 은평구 이호철 문학관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 은평구",
+      "sig_cd": "11380",
+      "enacted_on": "20250703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2050429",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.879519,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1982571",
+      "key": "ordin-1982571",
+      "name": "서울특별시 동작구 실내공기질 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 동작구",
+      "sig_cd": "11590",
+      "enacted_on": "20241107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1982571",
+      "categories": [
+       "C09",
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.878734,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1935305",
+      "key": "ordin-1935305",
+      "name": "고양시 일제잔재 청산 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20240517",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1935305",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.9813,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2071261",
+      "key": "ordin-2071261",
+      "name": "서울특별시 종로구 발달장애인의 사회활동을 위한 보험 가입 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20250926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2071261",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.97911,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2071205",
+      "key": "ordin-2071205",
+      "name": "서울특별시 종로구 주민등록 및 인감업무 담당공무원 보험 · 공제 등의 가입 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20250926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2071205",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.979068,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1939639",
+      "key": "ordin-1939639",
+      "name": "서울특별시 종로구 유료광고에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20240621",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1939639",
+      "categories": []
+     },
+     {
+      "rank": 4,
+      "cosine": 0.979066,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1437317",
+      "key": "ordin-1437317",
+      "name": "서울특별시 종로구 생활임금 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20191227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1437317",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.978349,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1939645",
+      "key": "ordin-1939645",
+      "name": "서울특별시 종로구 재난 및 안전관리 기본 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20240621",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1939645",
+      "categories": [
+       "C08",
+       "C10"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.977631,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1374360",
+      "key": "ordin-1374360",
+      "name": "서울특별시 종로구 의사상자 등 예우 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20181221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1374360",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.97759,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1708627",
+      "key": "ordin-1708627",
+      "name": "서울특별시 종로구 순라군 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20220513",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1708627",
+      "categories": [
+       "C13",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.977444,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1650347",
+      "key": "ordin-1650347",
+      "name": "서울특별시 종로구 지역서점 활성화 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20211224",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1650347",
+      "categories": [
+       "C11",
+       "C13"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.97709,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1540079",
+      "key": "ordin-1540079",
+      "name": "서울특별시 종로구 구세 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20201028",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1540079",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.977039,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1238093",
+      "key": "ordin-1238093",
+      "name": "서울특별시 종로구 사회적경제 활성화 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20160617",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1238093",
+      "categories": [
+       "C03",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994703,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1985711",
+      "key": "ordin-1985711",
+      "name": "서울특별시 종로구 종교 화합 및 협력 증진 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20241115",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985711",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994292,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2094277",
+      "key": "ordin-2094277",
+      "name": "서울특별시 종로구 공중화장실 설치 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20251219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2094277",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994012,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2094291",
+      "key": "ordin-2094291",
+      "name": "서울특별시 종로구 헌혈 및 장기등 인체조직 기증 장려에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20251219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2094291",
+      "categories": [
+       "C08"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993924,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2088637",
+      "key": "ordin-2088637",
+      "name": "서울특별시 종로구 어르신 등 교통비 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20251121",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2088637",
+      "categories": [
+       "C10",
+       "C03"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993824,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2028791",
+      "key": "ordin-2028791",
+      "name": "서울특별시 종로구의회 국내외 교류협력에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20250411",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2028791",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993815,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1985713",
+      "key": "ordin-1985713",
+      "name": "서울특별시 종로구 야외운동기구 설치 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20241115",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985713",
+      "categories": [
+       "C06",
+       "C08"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993757,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1287439",
+      "key": "ordin-1287439",
+      "name": "서울특별시 종로구 지방공무원 징계 등에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20170519",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1287439",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993647,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2035625",
+      "key": "ordin-2035625",
+      "name": "서울특별시 종로구 주민조례발안에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20250509",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2035625",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993622,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1886117",
+      "key": "ordin-1886117",
+      "name": "서울특별시 종로구 통장자녀 장학금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20231222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1886117",
+      "categories": [
+       "C05",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993589,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2028801",
+      "key": "ordin-2028801",
+      "name": "서울특별시 종로구 재활용품 수집인 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 종로구",
+      "sig_cd": "11110",
+      "enacted_on": "20250411",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2028801",
+      "categories": [
+       "C07",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

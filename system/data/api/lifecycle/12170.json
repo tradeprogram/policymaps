@@ -1,0 +1,702 @@
+{
+ "data": {
+  "region": {
+   "region_id": "12170",
+   "sig_cd": "12170",
+   "name": "나주시",
+   "full_name": "전남광주통합특별시 나주시",
+   "level": 2
+  },
+  "counts": {
+   "total": 1039,
+   "active": 864,
+   "repealed": 175,
+   "by_rr_cls_cd": {
+    "일부개정": 472,
+    "전부개정": 66,
+    "제정": 326,
+    "폐지": 175
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1995,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 8
+   },
+   {
+    "year": 2009,
+    "n": 19
+   },
+   {
+    "year": 2010,
+    "n": 13
+   },
+   {
+    "year": 2011,
+    "n": 9
+   },
+   {
+    "year": 2012,
+    "n": 14
+   },
+   {
+    "year": 2013,
+    "n": 9
+   },
+   {
+    "year": 2014,
+    "n": 12
+   },
+   {
+    "year": 2015,
+    "n": 25
+   },
+   {
+    "year": 2016,
+    "n": 44
+   },
+   {
+    "year": 2017,
+    "n": 25
+   },
+   {
+    "year": 2018,
+    "n": 40
+   },
+   {
+    "year": 2019,
+    "n": 23
+   },
+   {
+    "year": 2020,
+    "n": 51
+   },
+   {
+    "year": 2021,
+    "n": 87
+   },
+   {
+    "year": 2022,
+    "n": 28
+   },
+   {
+    "year": 2023,
+    "n": 238
+   },
+   {
+    "year": 2024,
+    "n": 204
+   },
+   {
+    "year": 2025,
+    "n": 150
+   },
+   {
+    "year": 2026,
+    "n": 31
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 8
+   },
+   {
+    "year": 2009,
+    "n": 8
+   },
+   {
+    "year": 2010,
+    "n": 8
+   },
+   {
+    "year": 2011,
+    "n": 4
+   },
+   {
+    "year": 2012,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 2
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 18
+   },
+   {
+    "year": 2017,
+    "n": 6
+   },
+   {
+    "year": 2018,
+    "n": 9
+   },
+   {
+    "year": 2019,
+    "n": 5
+   },
+   {
+    "year": 2020,
+    "n": 8
+   },
+   {
+    "year": 2021,
+    "n": 15
+   },
+   {
+    "year": 2023,
+    "n": 20
+   },
+   {
+    "year": 2024,
+    "n": 20
+   },
+   {
+    "year": 2025,
+    "n": 11
+   },
+   {
+    "year": 2026,
+    "n": 5
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자부여 업무처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화 기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품사용 규제위반사업장에 대한 과태료부과 및 신고포상금지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료부과징수 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:798437",
+    "name": "나주시재난.재해관련기금운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=798437&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:798438",
+    "name": "나주시재난.재해관련기금운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=798438&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2163069",
+    "name": "나주시 자치분권 촉진 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-08-18",
+    "repealed_on": "2026-08-18",
+    "repealed_on_raw": "20260818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2163069&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2163073",
+    "name": "나주시 지방세발전기금의 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-08-18",
+    "repealed_on": "2026-08-18",
+    "repealed_on_raw": "20260818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2163073&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2163047",
+    "name": "나주시 혁신산업단지 조성을 위한 특수목적법인 출자 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-08-18",
+    "repealed_on": "2026-08-18",
+    "repealed_on_raw": "20260818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2163047&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130561",
+    "name": "나주시 정보화 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-05-22",
+    "repealed_on": "2026-05-22",
+    "repealed_on_raw": "20260522",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130561&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2113931",
+    "name": "나주시 아동·청소년 당뇨병 환자 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-03",
+    "repealed_on": "2026-03-03",
+    "repealed_on_raw": "20260303",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2113931&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2103115",
+    "name": "나주시 시민민원배심원제 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-31",
+    "repealed_on": "2025-12-31",
+    "repealed_on_raw": "20251231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103115&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2103143",
+    "name": "나주시 시민민원배심원제 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-12-31",
+    "repealed_on": "2025-12-31",
+    "repealed_on_raw": "20251231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103143&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2069753",
+    "name": "나주시 청사방호 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-24",
+    "repealed_on": "2025-10-15",
+    "repealed_on_raw": "20251015",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2069753&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2053185",
+    "name": "나주시 자원순환 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-09",
+    "repealed_on": "2025-07-09",
+    "repealed_on_raw": "20250709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053185&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2053261",
+    "name": "나주시 지역치안협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-09",
+    "repealed_on": "2025-07-09",
+    "repealed_on_raw": "20250709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2053137",
+    "name": "나주시 청소년문화의 집 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-09",
+    "repealed_on": "2025-07-09",
+    "repealed_on_raw": "20250709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053137&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2053219",
+    "name": "나주시 청소년상담복지센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-09",
+    "repealed_on": "2025-07-09",
+    "repealed_on_raw": "20250709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2053187",
+    "name": "나주시 청소년수련관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-09",
+    "repealed_on": "2025-07-09",
+    "repealed_on_raw": "20250709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053187&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2041341",
+    "name": "나주시 시민소통위원회 설치 및 운영 등에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-05-23",
+    "repealed_on": "2025-05-23",
+    "repealed_on_raw": "20250523",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2041341&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2040207",
+    "name": "나주시 시민소통위원회 설치 및 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-20",
+    "repealed_on": "2025-05-20",
+    "repealed_on_raw": "20250520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2040207&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2021743",
+    "name": "나주시 홍보대사 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-14",
+    "repealed_on": "2025-03-14",
+    "repealed_on_raw": "20250314",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021743&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981111",
+    "name": "나주시 공익활동 활성화 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-01",
+    "repealed_on": "2024-11-01",
+    "repealed_on_raw": "20241101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981111&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981101",
+    "name": "나주시 기부심사위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-01",
+    "repealed_on": "2024-11-01",
+    "repealed_on_raw": "20241101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981101&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981109",
+    "name": "나주시 민간기록물 수집 및 관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-01",
+    "repealed_on": "2024-11-01",
+    "repealed_on_raw": "20241101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981109&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981103",
+    "name": "나주시 민주평화통일 자문회의 대행기관 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-01",
+    "repealed_on": "2024-11-01",
+    "repealed_on_raw": "20241101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981103&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981095",
+    "name": "나주시의회 표창 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-01",
+    "repealed_on": "2024-11-01",
+    "repealed_on_raw": "20241101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1969441",
+    "name": "나주영상테마파크 관리 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2024-09-23",
+    "repealed_on_raw": "20240923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1969441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1969445",
+    "name": "나주영상테마파크 내 한옥숙박체험장 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2024-09-23",
+    "repealed_on_raw": "20240923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1969445&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1969443",
+    "name": "나주영상테마파크시설 위탁운영관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2024-09-23",
+    "repealed_on_raw": "20240923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1969443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1946539",
+    "name": "나주시 부모교육 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-01",
+    "repealed_on": "2024-07-01",
+    "repealed_on_raw": "20240701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1946539&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1946537",
+    "name": "나주시 여성의 안전한 생활을 위한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-01",
+    "repealed_on": "2024-07-01",
+    "repealed_on_raw": "20240701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1946537&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1946535",
+    "name": "나주시 으뜸서비스 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-01",
+    "repealed_on": "2024-07-01",
+    "repealed_on_raw": "20240701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1946535&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1932043",
+    "name": "나주시 범죄예방 디자인 및 방범시설 등 설치 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-20",
+    "repealed_on": "2024-05-20",
+    "repealed_on_raw": "20240520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1932043&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1931813",
+    "name": "나주시 어린이집 통학버스 안전에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-20",
+    "repealed_on": "2024-05-20",
+    "repealed_on_raw": "20240520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1931813&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1931755",
+    "name": "나주시의회에 출석.답변할 수 있는 관계공무원의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-20",
+    "repealed_on": "2024-05-20",
+    "repealed_on_raw": "20240520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1931755&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1931757",
+    "name": "나주시의회 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-20",
+    "repealed_on": "2024-05-20",
+    "repealed_on_raw": "20240520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1931757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1931753",
+    "name": "나주시의회 정례회 및 임시회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-20",
+    "repealed_on": "2024-05-20",
+    "repealed_on_raw": "20240520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1931753&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1909477",
+    "name": "나주시의회 고문변호사에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-21",
+    "repealed_on": "2024-02-21",
+    "repealed_on_raw": "20240221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1909477&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1909475",
+    "name": "나주시의회 의원 의정활동 소송비용 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-21",
+    "repealed_on": "2024-02-21",
+    "repealed_on_raw": "20240221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1909475&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1909479",
+    "name": "나주시의회 입법법률 고문 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-21",
+    "repealed_on": "2024-02-21",
+    "repealed_on_raw": "20240221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1909479&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1909473",
+    "name": "나주시 저출산·고령사회 대응에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-21",
+    "repealed_on": "2024-02-21",
+    "repealed_on_raw": "20240221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1909473&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1895443",
+    "name": "나주시꽃, 시나무, 시새에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1895443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1895449",
+    "name": "나주시 어린이통학로 교통안전에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1895449&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 2,
+   "sentinel_99991231": 2
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "12170"
+ ]
+}

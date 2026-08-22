@@ -1,0 +1,441 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:241935",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "비영리민간단체 지원법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20230427",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=241935&type=HTML&mobileYn=&efYd=20230427",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 2578,
+   "child_ordinances": 2346,
+   "by_verification_status": {
+    "article-verified": 1958,
+    "unverifiable": 620
+   },
+   "by_delegation_type": {
+    "law-delegated": 2578
+   },
+   "regions_top": [
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 28
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 27
+    },
+    {
+     "region_id": "26",
+     "name": "부산광역시",
+     "ordinances": 26
+    },
+    {
+     "region_id": "44",
+     "name": "충청남도",
+     "ordinances": 25
+    },
+    {
+     "region_id": "28",
+     "name": "인천광역시",
+     "ordinances": 22
+    },
+    {
+     "region_id": "36",
+     "name": "세종특별자치시",
+     "ordinances": 20
+    },
+    {
+     "region_id": "29",
+     "name": "광주광역시",
+     "ordinances": 20
+    },
+    {
+     "region_id": "11",
+     "name": "서울특별시",
+     "ordinances": 20
+    },
+    {
+     "region_id": "51",
+     "name": "강원특별자치도",
+     "ordinances": 19
+    },
+    {
+     "region_id": "30",
+     "name": "대전광역시",
+     "ordinances": 19
+    },
+    {
+     "region_id": "52",
+     "name": "전북특별자치도",
+     "ordinances": 18
+    },
+    {
+     "region_id": "47",
+     "name": "경상북도",
+     "ordinances": 18
+    },
+    {
+     "region_id": "27",
+     "name": "대구광역시",
+     "ordinances": 18
+    },
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 17
+    },
+    {
+     "region_id": "52710",
+     "name": "전북특별자치도 완주군",
+     "ordinances": 16
+    },
+    {
+     "region_id": "44150",
+     "name": "충청남도 공주시",
+     "ordinances": 16
+    },
+    {
+     "region_id": "41390",
+     "name": "경기도 시흥시",
+     "ordinances": 16
+    },
+    {
+     "region_id": "41190",
+     "name": "경기도 부천시",
+     "ordinances": 16
+    },
+    {
+     "region_id": "52130",
+     "name": "전북특별자치도 군산시",
+     "ordinances": 15
+    },
+    {
+     "region_id": "48",
+     "name": "경상남도",
+     "ordinances": 15
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 비영리민간단체의 자발적인 활동을 보장하고 건전한 민간단체로의 성장을 지원함으로써 비영리민간단체의 공익활동증진과 민주사회발전에 기여함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20230427",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. 사업의 직접 수혜자가 불특정 다수일 것\n2. 구성원 상호간에 이익분배를 하지 아니할 것\n3. 사실상 특정정당 또는 선출직 후보를 지지ㆍ지원 또는 반대할 것을 주된 목적으로 하거나, 특정 종교의 교리전파를 주된 목적으로 설립ㆍ운영되지 아니할 것\n4. 상시 구성원수가 100인 이상일 것\n5. 최근 1년 이",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "기본방향",
+    "body": "제3조(기본방향)\n국가 또는 지방자치단체는 비영리민간단체의 고유한 활동영역을 존중하여야 하며 창의성과 전문성을 발휘하여 공익활동에 참여할 수 있도록 적극 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20230427",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "등록",
+    "body": "제4조(등록)\n①이 법이 정한 지원을 받고자 하는 비영리민간단체는 그의 주된 공익활동을 주관하는 중앙행정기관의 장, 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사 또는 특별자치도지사(이하 \"시ㆍ도지사\"라 한다)나 「지방자치법」 제198조제2항제1호에 따른 인구 100만 이상 대도시(이하 \"특례시\"라 한다)의 장에게 등록을 신청하여",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": "2",
+    "title": "등록의 말소",
+    "body": "제4조의2(등록의 말소)\n① 중앙행정기관의 장, 시ㆍ도지사나 특례시의 장은 제4조에 따라 등록된 비영리민간단체가 제2조에 따른 비영리민간단체로서의 요건을 갖추지 못하게 된 때에는 그 등록을 말소할 수 있다. <개정 2022.4.26>\n② 제1항에 따라 등록을 말소한 중앙행정기관의 장, 시ㆍ도지사나 특례시의 장은 지체 없이",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0004021"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "비영리민간단체에 대한 지원 등",
+    "body": "제5조(비영리민간단체에 대한 지원 등)\n①비영리민간단체의 활동은 자율성이 보장되어야 한다.\n②행정안전부장관, 시ㆍ도지사나 특례시의 장은 공익활동에 참여하는 비영리민간단체에 대하여 필요한 행정지원 및 이 법이 정하는 재정지원을 할 수 있다. <개정 2008.2.29, 2013.3.23, 2014.11.19, 2017.7.2",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "보조금의 지원",
+    "body": "제6조(보조금의 지원)\n① 행정안전부장관, 시ㆍ도지사나 특례시의 장은 제4조제1항에 따라 등록된 비영리민간단체(이하 \"등록비영리민간단체\"라 한다)에 다른 법률에 따라 보조금을 교부하는 사업 외의 사업으로서 공익활동을 추진하기 위한 사업(이하 \"공익사업\"이라 한다)의 소요경비를 지원할 수 있다. <개정 2022.4.26>\n",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "지원사업의 선정등",
+    "body": "제7조(지원사업의 선정등)\n①행정안전부장관, 시ㆍ도지사나 특례시의 장은 매년 등록비영리민간단체가 참여할 수 있는 공익사업의 지원에 관한 사회적 수요를 파악하여 대통령령이 정하는 기준에 따라 제6조에 따른 지원을 할 수 있는 공익사업의 유형을 결정한다. <개정 2008.2.29, 2013.3.23, 2014.11.19, 2",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "사업계획서 제출",
+    "body": "제8조(사업계획서 제출)\n등록비영리민간단체가 공익사업을 추진하기 위하여 보조금을 교부받고자 할 때에는 사업의 목적과 내용, 소요경비, 기타 필요한 사항을 기재한 사업계획서를 해당 회계연도 2월 말까지 행정안전부장관, 시ㆍ도지사나 특례시의 장에게 제출하여야 한다. <개정 2008.2.29, 2013.3.23, 2013.8.",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "사업보고서 제출 등",
+    "body": "제9조(사업보고서 제출 등)\n① 등록비영리민간단체는 제8조의 사업계획서에 따라 사업을 완료한 때에는 다음 회계연도 1월 31일까지 사업보고서를 작성하여 행정안전부장관, 시ㆍ도지사나 특례시의 장에게 제출하여야 한다. <개정 2008.2.29, 2013.3.23, 2013.8.13, 2014.11.19, 2015.5.18, ",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "조세감면",
+    "body": "제10조(조세감면)\n등록비영리민간단체에 대하여 조세특례제한법 및 기타 조세에 관한 법령에 따라 조세를 감면할 수 있다. <개정 2022.4.26>",
+    "body_truncated": false,
+    "effective_on": "20230427",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "우편요금의 지원",
+    "body": "제11조(우편요금의 지원)\n등록비영리민간단체의 공익활동에 필요한 우편물에 대하여는 우편요금의 일부를 감액할 수 있으며, 그 내용과 범위에 관한 사항은 대통령령으로 정한다. <개정 2022.4.26>",
+    "body_truncated": false,
+    "effective_on": "20230427",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "보조금의 환수등",
+    "body": "제12조(보조금의 환수등)\n①행정안전부장관, 시ㆍ도지사나 특례시의 장은 사업계획서에 허위의 사실을 기재하거나 기타 부정한 방법으로 보조금을 교부받은 비영리민간단체에 대하여는 그가 받은 보조금을 환수한다. 교부받은 보조금을 사업계획서에 기재한 용도가 아닌 다른 용도에 사용한 때에도 또한 같다. <개정 2008.2.29, 2",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "2",
+    "title": "벌칙 적용에서 공무원 의제",
+    "body": "제12조의2(벌칙 적용에서 공무원 의제)\n제7조제2항에 따른 공익사업선정위원회의 위원 중 공무원이 아닌 사람은 「형법」 제129조부터 제132조까지의 규정에 따른 벌칙을 적용할 때에는 공무원으로 본다.",
+    "body_truncated": false,
+    "effective_on": "20230427",
+    "article_key": "0012021"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제13조(벌칙)\n①사업계획서에 허위의 사실을 기재하거나 기타 부정한 방법으로 보조금을 교부받은 자는 5년 이하의 징역 또는 3천만원 이하의 벌금에 처한다. <개정 2014.10.15>\n②교부받은 보조금을 사업계획서에 기재한 용도가 아닌 다른 용도로 사용한 자는 3년 이하의 징역 또는 2천만원 이하의 벌금에 처한다. <개정",
+    "body_truncated": true,
+    "effective_on": "20230427",
+    "article_key": "0013001"
+   }
+  ],
+  "article_count": 15,
+  "articles_shown": 15,
+  "articles_truncated_bodies": 10,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1009551",
+    "name": "칠곡군 종합자원봉사센터 설치 및 운영 조례",
+    "region_id": "47850",
+    "org_name": "경상북도 칠곡군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1009551&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1014200",
+    "name": "태안군 농업관련단체 지원에 관한 조례",
+    "region_id": "44825",
+    "org_name": "충청남도 태안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1014200&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1015937",
+    "name": "서울특별시 동작구 공유 촉진 조례",
+    "region_id": "11590",
+    "org_name": "서울특별시 동작구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1015937&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1025707",
+    "name": "하남시 효행 장려 및 지원에 관한 조례",
+    "region_id": "41450",
+    "org_name": "경기도 하남시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1025707&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1026397",
+    "name": "서울특별시 송파구 자전거이용 활성화에 관한 조례",
+    "region_id": "11710",
+    "org_name": "서울특별시 송파구",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1026397&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1033319",
+    "name": "양산시민대상 조례 시행규칙",
+    "region_id": "48330",
+    "org_name": "경상남도 양산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1033319&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1036453",
+    "name": "완도군 건강가정 지원 조례",
+    "region_id": "12850",
+    "org_name": "전남광주통합특별시 완도군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1036453&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1042727",
+    "name": "시흥시 장애인전용주차구역 관리에 관한 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1042727&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1047320",
+    "name": "목포시 중증장애인 자립생활 지원 조례",
+    "region_id": "12110",
+    "org_name": "전남광주통합특별시 목포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1047320&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1059957",
+    "name": "서울특별시 서초구 자원봉사활동 지원 조례",
+    "region_id": "11650",
+    "org_name": "서울특별시 서초구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1059957&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1076582",
+    "name": "고양시 긴급지원심의위원회 설치 및 운영 조례",
+    "region_id": "41280",
+    "org_name": "경기도 고양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1076582&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1078117",
+    "name": "경상남도 효행 장려 및 지원 조례",
+    "region_id": "48",
+    "org_name": "경상남도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1078117&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1080989",
+    "name": "고양시 여성발전 기본 조례",
+    "region_id": "41280",
+    "org_name": "경기도 고양시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1080989&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1084597",
+    "name": "함양군 자원봉사활동 지원 조례",
+    "region_id": "48870",
+    "org_name": "경상남도 함양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1084597&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1087812",
+    "name": "시흥시 생활보장 등 심의위원회 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1087812&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1094196",
+    "name": "사천시 자원봉사활동 지원조례",
+    "region_id": "48240",
+    "org_name": "경상남도 사천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1094196&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1116305",
+    "name": "밀양시 자전거 이용 활성화에 관한 조례",
+    "region_id": "48270",
+    "org_name": "경상남도 밀양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1116305&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1131537",
+    "name": "부산광역시 수영구 협상에 의한 계약 제안서 평가위원회 규칙",
+    "region_id": "26500",
+    "org_name": "부산광역시 수영구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1131537&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1149011",
+    "name": "부산광역시교육청 교복나눔운동 지원 조례",
+    "region_id": "edu:26",
+    "org_name": "부산광역시교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1149011&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1161801",
+    "name": "부산광역시 금정구 거주외국인 지원 조례",
+    "region_id": "26410",
+    "org_name": "부산광역시 금정구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1161801&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

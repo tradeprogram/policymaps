@@ -1,0 +1,775 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:249861",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "지방자치단체 보조금 관리에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2023-04-11",
+   "effective_on": "20231012",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=249861&type=HTML&mobileYn=&efYd=20231012",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 515,
+   "child_ordinances": 449,
+   "by_verification_status": {
+    "article-missing": 9,
+    "article-verified": 166,
+    "unverifiable": 340
+   },
+   "by_delegation_type": {
+    "law-delegated": 515
+   },
+   "regions_top": [
+    {
+     "region_id": "48220",
+     "name": "경상남도 통영시",
+     "ordinances": 46
+    },
+    {
+     "region_id": "41570",
+     "name": "경기도 김포시",
+     "ordinances": 32
+    },
+    {
+     "region_id": "12870",
+     "name": "전남광주통합특별시 신안군",
+     "ordinances": 22
+    },
+    {
+     "region_id": "51190",
+     "name": "강원특별자치도 태백시",
+     "ordinances": 11
+    },
+    {
+     "region_id": "43720",
+     "name": "충청북도 보은군",
+     "ordinances": 10
+    },
+    {
+     "region_id": "41500",
+     "name": "경기도 이천시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "41150",
+     "name": "경기도 의정부시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 8
+    },
+    {
+     "region_id": "30230",
+     "name": "대전광역시 대덕구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "11305",
+     "name": "서울특별시 강북구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "11200",
+     "name": "서울특별시 성동구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "47170",
+     "name": "경상북도 안동시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41630",
+     "name": "경기도 양주시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41590",
+     "name": "경기도 화성시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41480",
+     "name": "경기도 파주시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "11470",
+     "name": "서울특별시 양천구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "11290",
+     "name": "서울특별시 성북구",
+     "ordinances": 5
+    },
+    {
+     "region_id": "52130",
+     "name": "전북특별자치도 군산시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48250",
+     "name": "경상남도 김해시",
+     "ordinances": 4
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 지방보조금 예산의 편성, 교부 신청과 결정 및 사용 등의 기본적인 사항을 규정함으로써 지방보조금 예산의 효율적인 편성 및 집행 등 지방보조금 예산의 투명하고 적정한 관리를 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"지방보조금\"이란 지방자치단체가 법령 또는 조례에 따라 다른 지방자치단체, 법인ㆍ단체 또는 개인 등이 수행하는 사무 또는 사업 등을 조성하거나 이를 지원하기 위하여 교부하는 보조금 등을 말한다. 다만, 출자금 및 출연금과 국고보조재원에 의한 것으로서 지방자치단체가 교부하는 보조금은 제외한다.\n2. \"지",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "다른 법률과의 관계",
+    "body": "제3조(다른 법률과의 관계)\n① 지방보조금 예산의 편성ㆍ집행 등 그 관리에 관하여는 다른 법률에 규정이 있는 것을 제외하고는 이 법에서 정하는 바에 따른다.\n② 개인정보의 보호에 관하여는 이 법에 특별한 규정이 있는 경우를 제외하고는 「개인정보 보호법」에서 정하는 바에 따른다.\n③ 이 법을 적용할 때 교육ㆍ과학 및 체육에",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "시ㆍ도비 기준보조율",
+    "body": "제4조(시ㆍ도비 기준보조율)\n① 지방보조금이 지급되는 대상사업, 경비의 종목, 보조율 및 금액은 매년 예산으로 정하고, 다른 지방자치단체에 대한 지방보조금의 경우 예산 계상 신청 및 예산 편성 시 지방보조사업별로 적용하는 기준이 되는 보조율은 특별시ㆍ광역시ㆍ도ㆍ특별자치도의 조례로 정한다. 다만, 「지방재정법」 제22조에 ",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "지방보조사업을 수행하려는 자의 예산 계상 신청",
+    "body": "제5조(지방보조사업을 수행하려는 자의 예산 계상 신청)\n① 지방보조사업을 수행하려는 자는 매년 지방자치단체의 장에게 지방보조금의 예산 계상을 신청하여야 한다.\n② 지방자치단체의 장은 제1항에 따른 지방보조금의 예산 계상 신청이 없는 경우에도 해당 지방자치단체의 시책상 부득이 조례로 정하는 경우에는 필요한 지방보조금을 예산",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "지방보조금의 예산 편성 및 운영",
+    "body": "제6조(지방보조금의 예산 편성 및 운영)\n① 지방자치단체의 장은 해당 지방보조사업의 성격, 지방보조사업자의 비용부담능력 등을 고려하여 지방보조금을 편성하여야 한다.\n② 지방자치단체의 장은 법령에 명시적 근거가 있는 경우 외에는 지방보조금을 운영비로 교부할 수 없다. 이 경우 운영비로 사용할 수 있는 경비의 종목은 대통령령",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "지방보조금에 관한 예산의 통지",
+    "body": "제6조의2(지방보조금에 관한 예산의 통지)\n① 지방자치단체의 장은 다른 지방자치단체에 지방보조금을 교부하는 사항이 포함된 예산안을 지방의회에 제출한 경우 대통령령으로 정하는 바에 따라 그 지방보조금의 편성 내용을 해당 지방보조금을 교부받는 다른 지방자치단체의 장에게 즉시 통지하여야 한다.\n② 지방자치단체의 장은 제1항에 ",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "지방보조금의 교부 신청",
+    "body": "제7조(지방보조금의 교부 신청)\n① 지방보조금을 교부받으려는 자는 대통령령으로 정하는 바에 따라 지방보조사업의 목적과 내용, 지방보조사업에 드는 경비, 그 밖에 필요한 사항을 적은 신청서에 지방보조사업에 대한 구체적인 사업계획서와 지방자치단체의 장이 정하는 서류를 첨부하여 지방자치단체의 장이 지정한 기일 내에 지방자치단체",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "지방보조금의 교부 결정",
+    "body": "제8조(지방보조금의 교부 결정)\n① 지방자치단체의 장은 제7조에 따른 지방보조금의 교부신청서가 제출된 경우 다음 각 호의 사항을 조사하여 지체 없이 지방보조금의 교부 여부를 결정하여야 한다.\n1. 법령, 조례 및 예산의 목적에의 적합 여부\n2. 지방보조사업 내용의 적정 여부\n3. 금액 산정의 착오 유무\n4. 자기자금의 부",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "지방보조금의 교부 조건",
+    "body": "제9조(지방보조금의 교부 조건)\n① 지방자치단체의 장은 지방보조금의 교부를 결정할 때 법령, 조례와 예산에서 정하는 지방보조금의 교부 목적을 달성하는 데 필요한 조건을 붙일 수 있다.\n② 지방자치단체의 장은 지방보조금의 교부를 결정하는 경우 지방보조사업이 완료된 때에 그 지방보조사업자에게 상당한 수익이 발생하는 경우에는 ",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "지방보조금의 교부 결정 통지",
+    "body": "제10조(지방보조금의 교부 결정 통지)\n지방자치단체의 장은 지방보조금의 교부를 결정하였을 때에는 그 교부 결정의 내용(그에 조건을 붙인 경우에는 그 조건을 포함한다. 이하 같다)을 지체 없이 지방보조금의 교부를 신청한 자에게 통지하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "2",
+    "title": "지방보조금의 교부 방법",
+    "body": "제10조의2(지방보조금의 교부 방법)\n① 지방자치단체의 장은 지방보조금의 효율적인 집행ㆍ관리를 위하여 필요하다고 인정하는 경우 해당 지방자치단체의 금고에 지방보조금을 예치(預置)하여 지방보조사업자에게 교부할 수 있다.\n② 제1항에 따라 지방자치단체의 금고에 예치하는 지방보조금의 범위, 예치방법 및 교부절차 등에 필요한 사",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0010021"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "사정변경에 의한 교부 결정의 취소 등",
+    "body": "제11조(사정변경에 의한 교부 결정의 취소 등)\n① 지방자치단체의 장은 지방보조금의 교부를 결정한 경우 그 후에 발생한 사정의 변경으로 특히 필요하다고 인정할 때에는 지방보조금의 교부 결정 내용을 변경하거나 그 교부 결정의 전부 또는 일부를 취소할 수 있다. 다만, 이미 수행된 부분의 지방보조사업에 대해서는 그러하지 아니",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "법령 위반 등에 따른 교부 결정의 취소",
+    "body": "제12조(법령 위반 등에 따른 교부 결정의 취소)\n① 지방자치단체의 장은 지방보조사업자가 다음 각 호의 어느 하나에 해당하는 경우에는 지방보조금 교부 결정의 전부 또는 일부를 취소할 수 있다.\n1. 지방보조금을 다른 용도에 사용한 경우\n2. 법령, 조례, 지방보조금 교부 결정의 내용 또는 법령에 따른 지방자치단체의 장의 ",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "지방보조금의 용도 외 사용 금지",
+    "body": "제13조(지방보조금의 용도 외 사용 금지)\n지방보조사업자는 법령, 지방보조금 교부 결정의 내용 또는 법령에 따른 지방자치단체의 장의 처분에 따라 선량한 관리자의 주의로 지방보조사업을 수행하여야 하며, 해당 지방보조금을 다른 용도에 사용하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "지방보조사업의 내용 변경 등",
+    "body": "제14조(지방보조사업의 내용 변경 등)\n지방보조사업자는 사정의 변경으로 지방보조사업의 내용을 변경하거나 지방보조사업에 드는 경비의 배분을 변경하려면 지방자치단체의 장의 승인을 받아야 한다. 다만, 지방자치단체의 장이 정하는 경미한 내용 변경이나 경비 배분의 경우에는 그러하지 아니하다.",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "지방보조사업의 인계 등",
+    "body": "제15조(지방보조사업의 인계 등)\n지방보조사업자는 사정의 변경으로 그 지방보조사업을 다른 사업자에게 인계하거나 중단 또는 폐지하려면 미리 지방자치단체의 장의 승인을 받아야 한다.",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "지방보조사업 수행 상황 점검 등",
+    "body": "제16조(지방보조사업 수행 상황 점검 등)\n① 지방보조사업자는 지방자치단체의 장이 정하는 바에 따라 지방보조사업의 수행 상황을 지방자치단체의 장에게 보고하여야 한다.\n② 지방자치단체의 장은 지방보조사업의 수행 상황을 파악하기 위하여 필요한 경우 현지조사를 할 수 있다.\n③ 지방보조사업자는 지방보조사업의 수행과 관련된 자료",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "지방보조사업의 실적 보고",
+    "body": "제17조(지방보조사업의 실적 보고)\n① 지방보조사업자는 다음 각 호의 어느 하나에 해당하는 때에는 대통령령으로 정하는 기한까지 그 지방보조사업의 실적보고서(이하 \"실적보고서\"라 한다)를 작성하여 지방자치단체의 장에게 제출하여야 한다. 이 경우 실적보고서에는 그 지방보조사업에 든 경비를 재원별로 명백히 한 정산보고서 및 지",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "특정지방보조사업자에 대한 회계감사",
+    "body": "제18조(특정지방보조사업자에 대한 회계감사)\n① 같은 회계연도 중 지방자치단체의 장으로부터 교부받은 지방보조금의 총액이 10억원 이상인 지방보조사업자(지방보조사업자가 지방자치단체인 경우는 제외하며, 이하 이 조에서 \"특정지방보조사업자\"라 한다)는 「주식회사 등의 외부감사에 관한 법률」 제2조제7호 및 제9조에 따른 감사인",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "지방보조금의 금액 확정",
+    "body": "제19조(지방보조금의 금액 확정)\n① 지방자치단체의 장은 제17조에 따라 지방보조사업자가 작성한 실적보고서를 토대로 지방보조사업이 법령, 조례, 지방보조금 교부 결정의 내용 또는 법령에 따른 지방자치단체의 장의 처분에 적합한 것인지를 심사하여야 한다. 이 경우 필요하면 현지조사를 할 수 있다.\n② 지방자치단체의 장은 제1",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "지방보조사업의 시정명령",
+    "body": "제20조(지방보조사업의 시정명령)\n지방자치단체의 장은 실적보고서를 받은 경우 그 지방보조사업의 실적이 법령, 조례, 지방보조금 교부 결정의 내용 또는 법령에 따른 지방자치단체의 장의 처분에 적합하지 아니하다고 인정될 때에는 그 지방보조사업자에게 지방보조사업의 시정을 위하여 필요한 조치를 명할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": "2",
+    "title": "지방보조사업자의 정보 공시",
+    "body": "제20조의2(지방보조사업자의 정보 공시)\n① 대통령령으로 정하는 규모 이상의 지방보조사업을 수행하는 지방보조사업자(지방자치단체는 제외한다)는 매 회계연도가 종료되면 대통령령으로 정하는 기한까지 다음 각 호의 서류를 제28조제1항에 따른 지방보조금통합관리망에 공시하여야 한다. 다만, 「보조금 관리에 관한 법률」 제26조의1",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0020021"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "재산 처분의 제한",
+    "body": "제21조(재산 처분의 제한)\n① 지방보조사업자는 지방보조금으로 취득하거나 그 효용이 증가된 것으로서 대통령령으로 정하는 중요한 재산(이하 \"중요재산\"이라 한다)에 대해서는 대통령령으로 정하는 바에 따라 그 현재액과 증감을 명백히 하여야 하고, 그 현황을 지방자치단체의 장에게 보고하여야 한다.\n② 지방자치단체의 장은 제1항",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "중요재산의 부기등기",
+    "body": "제22조(중요재산의 부기등기)\n① 지방보조사업자는 중요재산 중 부동산에 대한 소유권 등기를 할 때에는 다음 각 호에서 정한 사항을 표기내용으로 하는 부기등기(附記登記)를 하여야 한다. 다만, 「공유재산 및 물품 관리법」 등에 따라 지방자치단체가 취득ㆍ관리하는 부동산의 경우에는 그러하지 아니하다.\n1. 해당 부동산은 지방보",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": null,
+    "body": "제23조\n삭제 <2023.4.11>",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "별도 계정의 설정 등",
+    "body": "제24조(별도 계정의 설정 등)\n① 지방보조사업자는 교부받은 지방보조금에 대하여 별도의 계정(計定)을 설정하고 자체의 수입 및 지출을 명백히 구분하여 회계처리하여야 한다.\n② 지방보조사업자가 시장ㆍ군수ㆍ구청장인 경우 제1항에 따른 회계는 지방보조사업 집행에 소요되는 시ㆍ도 및 시ㆍ군ㆍ구의 비용 내역과 각각의 집행실적을 구",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": null,
+    "body": "제25조\n삭제 <2023.4.11>",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "지방보조금관리위원회",
+    "body": "제26조(지방보조금관리위원회)\n① 지방보조금에 관한 사항을 전문적으로 심의하기 위하여 지방자치단체의 장 소속으로 지방보조금관리위원회를 둔다.\n② 지방자치단체의 장은 다음 각 호의 어느 하나에 해당하는 때에는 미리 지방보조금관리위원회의 심의를 거쳐야 한다. 다만, 대통령령으로 정하는 경우에는 심의를 거치지 아니할 수 있다.",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "지방보조사업의 운용평가",
+    "body": "제27조(지방보조사업의 운용평가)\n① 지방자치단체의 장은 지방보조사업에 대하여 매년 성과평가를 실시하고 특별한 사유가 없으면 그 평가결과를 예산편성에 반영하여야 한다. 다만, 국고보조사업의 경우에는 예외로 할 수 있다.\n② 지방자치단체의 장은 지속적으로 이루어지는 지방보조사업에 대해서는 3년마다 유지 필요성을 평가하고 지",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "지방보조금통합관리망의 구축ㆍ운영",
+    "body": "제28조(지방보조금통합관리망의 구축ㆍ운영)\n① 행정안전부장관과 지방자치단체의 장은 지방보조사업을 원활하게 수행하고 지방보조금의 중복 수급 또는 부정 수급을 방지하기 위하여 지방보조금통합관리망(이하 \"지방보조금통합관리망\"이라 한다)을 구축ㆍ운영하여야 한다.\n② 지방보조금통합관리망에는 다음 각 호의 사항에 대한 자료 또는 정",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": "2",
+    "title": "자료 또는 정보의 제공 요청 등",
+    "body": "제28조의2(자료 또는 정보의 제공 요청 등)\n① 행정안전부장관과 지방자치단체의 장은 지방보조사업자 또는 지방보조금수령자(이하 \"지방보조사업자등\"이라 한다)의 선정 및 자격관리, 지방보조금의 중복ㆍ부정 수급 방지 등 지방보조금 및 지방보조사업의 효율적인 집행ㆍ관리를 위하여 필요하다고 인정하는 경우 관계 기관의 장에게 다음",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0028021"
+   },
+   {
+    "article_no": "28",
+    "article_branch": "3",
+    "title": "금융정보 또는 신용정보의 제공 요청 등",
+    "body": "제28조의3(금융정보 또는 신용정보의 제공 요청 등)\n① 행정안전부장관과 지방자치단체의 장은 「금융실명거래 및 비밀보장에 관한 법률」 제4조제1항 및 「신용정보의 이용 및 보호에 관한 법률」 제32조제2항에도 불구하고 지방보조사업자등의 선정 및 자격관리, 지방보조금의 중복ㆍ부정 수급 방지 등 지방보조금 및 지방보조사업의 ",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0028031"
+   },
+   {
+    "article_no": "28",
+    "article_branch": "4",
+    "title": "지방보조금관리정보 등의 보호",
+    "body": "제28조의4(지방보조금관리정보 등의 보호)\n① 행정안전부장관과 지방자치단체의 장은 다음 각 호의 자료 또는 정보(이하 이 조에서 \"지방보조금관리정보등\"이라 한다)를 지방보조금 및 지방보조사업의 효율적인 집행ㆍ관리 목적에 필요한 범위에서 사용하여야 하며, 지방보조금관리정보등을 안전하게 보호하기 위하여 필요한 대책 또는 조치",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0028041"
+   },
+   {
+    "article_no": "28",
+    "article_branch": "5",
+    "title": "지방보조금관리정보 등의 파기",
+    "body": "제28조의5(지방보조금관리정보 등의 파기)\n① 행정안전부장관과 지방자치단체의 장은 지방보조금관리정보를 보유한 경우 그 보유한 날부터 5년이 지나면 즉시 해당 지방보조금관리정보를 파기하여야 한다. 다만, 지방보조금의 중복 수급이나 부정 수급의 방지를 위하여 계속 보유할 필요가 있다고 인정되는 경우로서 대통령령으로 정하는 자",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0028051"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "검사",
+    "body": "제29조(검사)\n① 지방자치단체의 장은 지방보조금에 관한 예산의 적절한 집행을 도모하기 위하여 필요하다고 인정할 때에는 지방보조사업자에 대하여 보고를 하게 하거나, 소속 공무원으로 하여금 그 사무소 또는 사업장에서 장부ㆍ서류 또는 그 밖의 재산을 검사하게 하거나 관계자에게 질문하게 할 수 있다.\n② 제1항에 따라 검사 또",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "명단 등의 공표",
+    "body": "제30조(명단 등의 공표)\n① 지방자치단체의 장은 다음 각 호의 어느 하나에 해당하는 자의 명단과 위반행위 및 처분내용 등 처분과 관련한 사항으로서 대통령령으로 정하는 사항을 매년 3월 31일까지 해당 지방자치단체의 인터넷 홈페이지에 공표하여야 한다. <개정 2023.4.11>\n1. 제20조의2제2항 전단에 따른 시정명령",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "지방보조금의 반환",
+    "body": "제31조(지방보조금의 반환)\n① 지방자치단체의 장은 지방보조금의 교부 결정을 취소한 경우 그 취소된 부분의 지방보조사업에 대하여 이미 지방보조금이 교부되었을 때에는 기한을 정하여 그 취소된 부분에 해당하는 지방보조금과 이로 인하여 발생한 이자의 반환을 명하여야 한다.\n② 지방자치단체의 장은 지방보조사업자에게 교부하여야 할",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "지방보조사업 수행 배제 등",
+    "body": "제32조(지방보조사업 수행 배제 등)\n① 지방자치단체의 장은 지방보조사업자가 다음 각 호의 어느 하나에 해당하는 경우에는 5년 이내의 범위에서 대통령령으로 정하는 바에 따라 해당 지방보조사업자를 소관 지방보조사업의 수행 대상에서 배제하거나 지방보조금의 교부를 제한하여야 한다. <개정 2023.4.11>\n1. 거짓이나 그 ",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "다른 지방보조금 교부의 일시 정지 등",
+    "body": "제33조(다른 지방보조금 교부의 일시 정지 등)\n지방자치단체의 장은 지방보조사업자가 제31조제1항 또는 제2항에 따른 지방보조금 및 이자의 반환 명령을 받고 반환하지 아니하는 경우 그 지방보조사업자에게 동종(同種)의 사무 또는 사업에 대하여 교부하여야 할 지방보조금이 있을 때에는 그 교부를 일시 정지하거나 그 지방보조금과",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "지방보조금수령자에 대한 지방보조금의 환수",
+    "body": "제34조(지방보조금수령자에 대한 지방보조금의 환수)\n① 지방자치단체의 장 및 지방보조사업자는 지방보조금수령자가 다음 각 호의 어느 하나에 해당하는 경우에는 지급한 지방보조금의 전부 또는 일부를 기한을 정하여 반환하도록 명하여야 한다.\n1. 거짓이나 그 밖의 부정한 방법으로 지방보조금을 지급받은 경우\n2. 지방보조금의 지급",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "제재부가금 및 가산금의 부과ㆍ징수",
+    "body": "제35조(제재부가금 및 가산금의 부과ㆍ징수)\n① 지방자치단체의 장은 다음 각 호의 어느 하나에 해당하는 경우에는 반환하여야 할 지방보조금 총액의 5배 이내의 범위에서 대통령령으로 정하는 바에 따라 지방보조사업자등에게 제재부가금을 부과ㆍ징수하여야 한다. 다만, 제재부가금을 부과하기 전 또는 부과한 후에 지방보조사업자등이 지",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0035001"
+   },
+   {
+    "article_no": "36",
+    "article_branch": null,
+    "title": "강제징수",
+    "body": "제36조(강제징수)\n① 지방자치단체의 장은 다음 각 호의 구분에 따라 반환금, 제재부가금 및 가산금을 지방세 체납처분의 예에 따라 징수하거나 「지방행정제재ㆍ부과금의 징수 등에 관한 법률」에 따라 징수할 수 있다.\n1. 지방보조사업자가 제21조 또는 제31조에 따른 반환금을 기한 내에 납부하지 아니한 경우\n2. 지방보조금수",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0036001"
+   },
+   {
+    "article_no": "36",
+    "article_branch": "2",
+    "title": "이의신청 등",
+    "body": "제36조의2(이의신청 등)\n① 지방보조사업자는 지방보조금의 교부 결정, 교부 조건, 교부 결정의 취소, 지방보조금의 반환명령 또는 삭감, 지방보조사업의 수행 배제, 지방보조금의 수급 제한 및 제재부가금의 부과, 그 밖에 지방보조금의 교부에 관한 지방자치단체의 장의 처분에 이의가 있을 때에는 그 통지 또는 처분을 받은 날부",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0036021"
+   },
+   {
+    "article_no": "36",
+    "article_branch": "3",
+    "title": "신고포상금의 지급",
+    "body": "제36조의3(신고포상금의 지급)\n① 지방자치단체의 장은 다음 각 호의 어느 하나에 해당하는 자를 관계 행정관청이나 수사기관에 신고 또는 고발한 자에게 예산의 범위에서 포상금을 지급할 수 있다. 다만, 공무원이 그 직무와 관련하여 신고한 경우에는 포상금을 지급하지 아니한다.\n1. 제12조제1항 각 호의 어느 하나에 해당하는",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0036031"
+   },
+   {
+    "article_no": "36",
+    "article_branch": "4",
+    "title": "온라인 서비스 시스템의 구축",
+    "body": "제36조의4(온라인 서비스 시스템의 구축)\n행정안전부장관은 지방보조금 및 지방보조사업에 대한 자료 또는 정보를 일반 국민에게 공개ㆍ제공하기 위하여 필요한 경우 온라인 서비스 시스템을 구축ㆍ운영할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0036041"
+   },
+   {
+    "article_no": "36",
+    "article_branch": "5",
+    "title": "업무의 위탁",
+    "body": "제36조의5(업무의 위탁)\n1. 지방보조금통합관리망의 운영\n2. 제28조의4제1항 각 호에 따른 자료 또는 정보의 처리\n3. 제36조의4에 따른 온라인 서비스 시스템의 운영",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0036051"
+   },
+   {
+    "article_no": "36",
+    "article_branch": "6",
+    "title": "벌칙 적용에서 공무원 의제",
+    "body": "제36조의6(벌칙 적용에서 공무원 의제)\n제36조의5에 따라 위탁받은 업무에 종사하는 기관의 임직원 중 공무원이 아닌 사람은 「형법」 제129조부터 제132조까지를 적용할 때에는 공무원으로 본다.",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0036061"
+   },
+   {
+    "article_no": "37",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제37조(벌칙)\n1. 거짓 신청이나 그 밖의 부정한 방법으로 지방보조금을 교부받거나 지급받은 자 또는 그 사실을 알면서 지방보조금을 교부하거나 지급한 자\n2. 제28조의4제2항제1호를 위반한 자",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0037001"
+   },
+   {
+    "article_no": "38",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제38조(벌칙)\n1. 제13조를 위반하여 지방보조금을 다른 용도에 사용한 자\n2. 제21조제3항을 위반하여 지방자치단체의 장의 승인 없이 중요재산에 대하여 금지된 행위를 한 자\n3. 제28조의4제2항제2호부터 제4호까지 중 어느 하나를 위반한 자",
+    "body_truncated": false,
+    "effective_on": "20231012",
+    "article_key": "0038001"
+   },
+   {
+    "article_no": "39",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제39조(벌칙)\n① 제14조 또는 제15조를 위반한 자는 2년 이하의 징역 또는 2천만원 이하의 벌금에 처한다.\n② 다음 각 호의 어느 하나에 해당하는 자는 1년 이하의 징역 또는 1천만원 이하의 벌금에 처한다.\n1. 제16조제3항을 위반하여 관련된 자료를 보관하지 아니한 자\n2. 제16조제5항에 따른 정지명령을 위반한 ",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0039001"
+   },
+   {
+    "article_no": "40",
+    "article_branch": null,
+    "title": "양벌규정",
+    "body": "제40조(양벌규정)\n법인의 대표자나 법인 또는 개인의 대리인ㆍ사용인, 그 밖의 종업원이 그 법인 또는 개인의 업무에 관하여 제37조부터 제39조까지의 어느 하나에 해당하는 위반행위를 하면 그 행위자를 벌하는 외에 그 법인 또는 개인에게도 해당 조문의 벌금형을 과(科)한다. 다만, 법인 또는 개인이 그 위반행위를 방지하기 ",
+    "body_truncated": true,
+    "effective_on": "20231012",
+    "article_key": "0040001"
+   }
+  ],
+  "article_count": 52,
+  "articles_shown": 52,
+  "articles_truncated_bodies": 39,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1828741",
+    "name": "통영시 출산 장려 및 보육 지원에 관한 조례",
+    "region_id": "48220",
+    "org_name": "경상남도 통영시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1828741&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2098847",
+    "name": "서울특별시 광진구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+    "region_id": "11215",
+    "org_name": "서울특별시 광진구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2098847&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2075939",
+    "name": "서울특별시 금천구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+    "region_id": "11545",
+    "org_name": "서울특별시 금천구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2075939&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2048487",
+    "name": "서울특별시 노원구 위기 임신 및 보호출산 지원과 아동 보호에 관한 조례",
+    "region_id": "11350",
+    "org_name": "서울특별시 노원구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2048487&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128435",
+    "name": "영월군 인구정책 기본 조례",
+    "region_id": "51750",
+    "org_name": "강원특별자치도 영월군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128435&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124849",
+    "name": "부산광역시 동구 옥외행사의 안전관리에 관한 조례",
+    "region_id": "26170",
+    "org_name": "부산광역시 동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124849&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125059",
+    "name": "과천시 지방보조금 관리 조례",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126143",
+    "name": "양주시 드론산업 육성 및 지원에 관한 조례",
+    "region_id": "41630",
+    "org_name": "경기도 양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126143&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130861",
+    "name": "김천시 기업 및 투자유치촉진 조례 시행규칙",
+    "region_id": "47150",
+    "org_name": "경상북도 김천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130861&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2132805",
+    "name": "전남광주통합특별시 서구 자율방범대 지원에 관한 조례",
+    "region_id": "12240",
+    "org_name": "전남광주통합특별시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2132805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133733",
+    "name": "부산광역시 사상구 옥외행사의 안전관리에 관한 조례",
+    "region_id": "26530",
+    "org_name": "부산광역시 사상구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133733&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2135015",
+    "name": "인천광역시 서해구 보조금지원 표지판 설치에 관한 조례",
+    "region_id": "28275",
+    "org_name": "인천광역시 서해구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2135015&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2138103",
+    "name": "인천광역시 검단구 보조금지원 표지판 설치에 관한 조례",
+    "region_id": "28290",
+    "org_name": "인천광역시 검단구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2138103&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2141187",
+    "name": "전남광주통합특별시 남구 지방보조금 관리 조례",
+    "region_id": "12270",
+    "org_name": "전남광주통합특별시 남구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2141187&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2143541",
+    "name": "인천광역시 영종구 지역축제 운영에 관한 조례",
+    "region_id": "28155",
+    "org_name": "인천광역시 영종구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2143541&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2145545",
+    "name": "전남광주통합특별시 북구 지방보조금 지원 표지판 설치에 관한 조례",
+    "region_id": "12300",
+    "org_name": "전남광주통합특별시 북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2145545&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2146029",
+    "name": "인천광역시 제물포구 공동주택 지원 및 관리 등에 관한 조례",
+    "region_id": "28125",
+    "org_name": "인천광역시 제물포구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2146029&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2146945",
+    "name": "인천광역시 제물포구 무주택 다자녀가구 전세자금 대출이자 지원 조례",
+    "region_id": "28125",
+    "org_name": "인천광역시 제물포구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2146945&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2147795",
+    "name": "서울특별시 용산구 경로당 운영 활성화 및 지원 조례",
+    "region_id": "11170",
+    "org_name": "서울특별시 용산구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2147795&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2147927",
+    "name": "인천광역시 제물포구 인천개항장 문화지구 관리 및 육성에 관한 조례",
+    "region_id": "28125",
+    "org_name": "인천광역시 제물포구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2147927&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

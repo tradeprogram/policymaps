@@ -1,0 +1,818 @@
+{
+ "data": {
+  "region": {
+   "region_id": "11560",
+   "sig_cd": "11560",
+   "name": "영등포구",
+   "full_name": "서울특별시 영등포구",
+   "level": 2
+  },
+  "counts": {
+   "total": 821,
+   "active": 622,
+   "repealed": 199,
+   "by_rr_cls_cd": {
+    "일부개정": 334,
+    "전부개정": 40,
+    "제정": 248,
+    "폐지": 199
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 1989,
+    "n": 5
+   },
+   {
+    "year": 1990,
+    "n": 9
+   },
+   {
+    "year": 1991,
+    "n": 7
+   },
+   {
+    "year": 1992,
+    "n": 5
+   },
+   {
+    "year": 1993,
+    "n": 3
+   },
+   {
+    "year": 1994,
+    "n": 11
+   },
+   {
+    "year": 1995,
+    "n": 4
+   },
+   {
+    "year": 1996,
+    "n": 5
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 16
+   },
+   {
+    "year": 1999,
+    "n": 17
+   },
+   {
+    "year": 2000,
+    "n": 6
+   },
+   {
+    "year": 2001,
+    "n": 2
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 12
+   },
+   {
+    "year": 2007,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 10
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 9
+   },
+   {
+    "year": 2013,
+    "n": 17
+   },
+   {
+    "year": 2014,
+    "n": 16
+   },
+   {
+    "year": 2015,
+    "n": 18
+   },
+   {
+    "year": 2016,
+    "n": 9
+   },
+   {
+    "year": 2017,
+    "n": 32
+   },
+   {
+    "year": 2018,
+    "n": 19
+   },
+   {
+    "year": 2019,
+    "n": 27
+   },
+   {
+    "year": 2020,
+    "n": 18
+   },
+   {
+    "year": 2021,
+    "n": 58
+   },
+   {
+    "year": 2022,
+    "n": 66
+   },
+   {
+    "year": 2023,
+    "n": 87
+   },
+   {
+    "year": 2024,
+    "n": 107
+   },
+   {
+    "year": 2025,
+    "n": 115
+   },
+   {
+    "year": 2026,
+    "n": 83
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1989,
+    "n": 5
+   },
+   {
+    "year": 1990,
+    "n": 9
+   },
+   {
+    "year": 1991,
+    "n": 7
+   },
+   {
+    "year": 1992,
+    "n": 5
+   },
+   {
+    "year": 1993,
+    "n": 3
+   },
+   {
+    "year": 1994,
+    "n": 11
+   },
+   {
+    "year": 1995,
+    "n": 4
+   },
+   {
+    "year": 1996,
+    "n": 4
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 16
+   },
+   {
+    "year": 1999,
+    "n": 15
+   },
+   {
+    "year": 2000,
+    "n": 6
+   },
+   {
+    "year": 2001,
+    "n": 2
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 8
+   },
+   {
+    "year": 2007,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 12
+   },
+   {
+    "year": 2015,
+    "n": 4
+   },
+   {
+    "year": 2016,
+    "n": 3
+   },
+   {
+    "year": 2017,
+    "n": 12
+   },
+   {
+    "year": 2018,
+    "n": 5
+   },
+   {
+    "year": 2019,
+    "n": 3
+   },
+   {
+    "year": 2020,
+    "n": 4
+   },
+   {
+    "year": 2022,
+    "n": 8
+   },
+   {
+    "year": 2023,
+    "n": 4
+   },
+   {
+    "year": 2024,
+    "n": 4
+   },
+   {
+    "year": 2025,
+    "n": 3
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "직제규칙",
+    "display_name": "직제규칙",
+    "rows": 2,
+    "nationwide_regions": 16
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수규칙",
+    "display_name": "국민건강증진법위반자에대한과태료부과징수규칙",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례시행규칙",
+    "display_name": "재해대책기금운용관리조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 64
+   },
+   {
+    "policy_key": "호적과태료부과징수조례",
+    "display_name": "호적과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 62
+   },
+   {
+    "policy_key": "재정운영상황의공개조례시행규칙",
+    "display_name": "재정운영상황의공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   },
+   {
+    "policy_key": "금연환경조성및지원에관한조례",
+    "display_name": "금연 환경조성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:796033",
+    "name": "서울특별시영등포구민회관사용료징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "1999-10-08",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=796033&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:925175",
+    "name": "서울특별시영등포구장애인등편의시설설치촉진기금관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2006-06-26",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=925175&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1207696",
+    "name": "서울특별시 영등포구 장학기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-28",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1207696&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:863993",
+    "name": "서울특별시 영등포구 체육진흥협의회조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-07-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=863993&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:798939",
+    "name": "서울특별시영등포구영화상영관등록등에관한수수료징수규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-05-16",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=798939&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1207960",
+    "name": "서울특별시 영등포구 장학기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-28",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1207960&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2120713",
+    "name": "서울특별시 영등포구 웰다잉(Well-Dying) 문화조성에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-09",
+    "repealed_on": "2026-04-09",
+    "repealed_on_raw": "20260409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2120713&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2077461",
+    "name": "서울특별시 영등포구 재정운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-10-10",
+    "repealed_on": "2025-10-10",
+    "repealed_on_raw": "20251010",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2077461&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018493",
+    "name": "서울특별시 영등포구 장기요양요원 처우 개선 및 지위 향상에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-06",
+    "repealed_on": "2025-03-06",
+    "repealed_on_raw": "20250306",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018493&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018487",
+    "name": "서울특별시 영등포구 주민자치회 설치ㆍ운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-06",
+    "repealed_on": "2025-03-06",
+    "repealed_on_raw": "20250306",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018487&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1963955",
+    "name": "서울특별시 영등포구 사회적경제지원센터 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-08-22",
+    "repealed_on": "2024-08-22",
+    "repealed_on_raw": "20240822",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1963955&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1928317",
+    "name": "서울특별시 영등포구 도농상생을 위한 공공급식 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-16",
+    "repealed_on": "2024-05-16",
+    "repealed_on_raw": "20240516",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1928317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1912083",
+    "name": "서울특별시 영등포구 마을공동체 지원 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-14",
+    "repealed_on": "2024-03-14",
+    "repealed_on_raw": "20240314",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912083&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1912085",
+    "name": "서울특별시 영등포구 민관협치 활성화를 위한 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-14",
+    "repealed_on": "2024-03-14",
+    "repealed_on_raw": "20240314",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912085&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1871317",
+    "name": "서울특별시 영등포구 남북교류협력에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-09",
+    "repealed_on": "2023-11-09",
+    "repealed_on_raw": "20231109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851095",
+    "name": "서울특별시 영등포구 노인상담센터 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-14",
+    "repealed_on": "2023-09-14",
+    "repealed_on_raw": "20230914",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851083",
+    "name": "서울특별시 영등포구 체육진흥기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-14",
+    "repealed_on": "2023-09-14",
+    "repealed_on_raw": "20230914",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851083&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1766031",
+    "name": "서울특별시 영등포구 타임스퀘어광장 사용 및 관리에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-29",
+    "repealed_on": "2023-01-01",
+    "repealed_on_raw": "20230101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1766031&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1751913",
+    "name": "서울특별시영등포구보건소간호사복제규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-01",
+    "repealed_on": "2022-12-01",
+    "repealed_on_raw": "20221201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1751913&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1751915",
+    "name": "서울특별시영등포구주택개량재개발사업시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-01",
+    "repealed_on": "2022-12-01",
+    "repealed_on_raw": "20221201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1751915&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1748921",
+    "name": "서울특별시영등포구주택재개발사업시행조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-17",
+    "repealed_on": "2022-11-17",
+    "repealed_on_raw": "20221117",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1748921&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1740941",
+    "name": "서울특별시 영등포구 기후변화 대응에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-27",
+    "repealed_on": "2022-10-27",
+    "repealed_on_raw": "20221027",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1740941&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1740945",
+    "name": "서울특별시 영등포구 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-27",
+    "repealed_on": "2022-10-27",
+    "repealed_on_raw": "20221027",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1740945&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1716497",
+    "name": "서울특별시 영등포구 미래비전자문단 설치 및 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-07-14",
+    "repealed_on": "2022-07-14",
+    "repealed_on_raw": "20220714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1716497&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1710599",
+    "name": "서울특별시영등포구동통장추천심의위원회 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-05-26",
+    "repealed_on": "2022-06-01",
+    "repealed_on_raw": "20220601",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1710599&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1677955",
+    "name": "서울특별시 영등포구 문화예술 및 생활체육 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1677955&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1542269",
+    "name": "서울특별시 영등포구 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-05",
+    "repealed_on": "2020-11-05",
+    "repealed_on_raw": "20201105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1542269&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1528029",
+    "name": "서울특별시 영등포구 사전재해영향성 검토위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-17",
+    "repealed_on": "2020-09-17",
+    "repealed_on_raw": "20200917",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1528029&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1473751",
+    "name": "서울특별시 영등포구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-02-27",
+    "repealed_on": "2020-02-27",
+    "repealed_on_raw": "20200227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1473751&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1415455",
+    "name": "서울특별시 영등포구 생활폐기물 무단투기 예방사업 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-10-31",
+    "repealed_on": "2020-01-01",
+    "repealed_on_raw": "20200101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1415455&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1436841",
+    "name": "서울특별시 영등포구 교통안전대책위원회설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-26",
+    "repealed_on": "2019-12-26",
+    "repealed_on_raw": "20191226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1436841&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1399130",
+    "name": "서울특별시 영등포구 복지위원 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-28",
+    "repealed_on": "2019-06-28",
+    "repealed_on_raw": "20190628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1399130&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1399132",
+    "name": "서울특별시 영등포구 홀로 사는 노인 고독사 예방 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-28",
+    "repealed_on": "2019-06-28",
+    "repealed_on_raw": "20190628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1399132&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1371244",
+    "name": "서울특별시 영등포구 환경위원회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-11-28",
+    "repealed_on": "2018-11-28",
+    "repealed_on_raw": "20181128",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1371244&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1349286",
+    "name": "서울특별시 영등포구 통합관리기금 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-06-04",
+    "repealed_on": "2018-06-04",
+    "repealed_on_raw": "20180604",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1349286&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1349287",
+    "name": "서울특별시 영등포구 통합관리기금 설치 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-06-04",
+    "repealed_on": "2018-06-04",
+    "repealed_on_raw": "20180604",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1349287&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1342636",
+    "name": "서울특별시 영등포구 청년인턴제 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-03-29",
+    "repealed_on": "2018-03-29",
+    "repealed_on_raw": "20180329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1342636&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1342630",
+    "name": "서울특별시 영등포구 투자사업 심사 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-03-29",
+    "repealed_on": "2018-03-29",
+    "repealed_on_raw": "20180329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1342630&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1310239",
+    "name": "서울특별시영등포구관광사업에관한과징금징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-11-09",
+    "repealed_on": "2017-11-09",
+    "repealed_on_raw": "20171109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1310239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1301924",
+    "name": "서울특별시영등포구의회에출석하여답변할수있는관계공무원의범위에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-09-21",
+    "repealed_on": "2017-09-21",
+    "repealed_on_raw": "20170921",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1301924&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 6,
+   "sentinel_99991231": 6
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "11560"
+ ]
+}

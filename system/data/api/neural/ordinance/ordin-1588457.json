@@ -1,0 +1,783 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1588457",
+   "key": "ordin-1588457",
+   "mst": "1588457",
+   "name": "대구광역시 서구 구보 조례",
+   "ord_kind": "조례",
+   "region_id": "27170",
+   "sig_cd": "27170",
+   "region_name": "대구광역시 서구",
+   "org_name": "대구광역시 서구",
+   "enacted_on": "20210412",
+   "effective_on": "20210412",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 17,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1588457",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.25,
+     "method": "rule"
+    },
+    {
+     "code": "C13",
+     "name": "문화·체육·관광",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.985818,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1353021",
+      "key": "ordin-1353021",
+      "name": "대구광역시 서구 구보 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20180730",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1353021",
+      "categories": [
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.942888,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1783117",
+      "key": "ordin-1783117",
+      "name": "부산광역시 서구 구보 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20230215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1783117",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.938755,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1937617",
+      "key": "ordin-1937617",
+      "name": "대구광역시 서구 구세 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20240610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1937617",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.935235,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1713191",
+      "key": "ordin-1713191",
+      "name": "대구광역시 서구 공공조형물의 건립 및 관리 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20220630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1713191",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.929773,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2036153",
+      "key": "ordin-2036153",
+      "name": "대구광역시 서구 유아 숲 교육 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20250512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2036153",
+      "categories": [
+       "C05",
+       "C12"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.929042,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1981633",
+      "key": "ordin-1981633",
+      "name": "대구광역시 서구 구기 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20241030",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1981633",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.926466,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1938011",
+      "key": "ordin-1938011",
+      "name": "대구광역시 서구 구세 기본조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20240610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1938011",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.925818,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1667095",
+      "key": "ordin-1667095",
+      "name": "대구광역시 서구 행정정보공개 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1667095",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.925361,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2010063",
+      "key": "ordin-2010063",
+      "name": "대구광역시 서구 우리동네청결지킴이 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2010063",
+      "categories": []
+     },
+     {
+      "rank": 10,
+      "cosine": 0.919305,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1938013",
+      "key": "ordin-1938013",
+      "name": "대구광역시 서구 구세 징수 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20240610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1938013",
+      "categories": [
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994527,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1407035",
+      "key": "ordin-1407035",
+      "name": "대구광역시 서구 발달장애인 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20190812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1407035",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994481,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1713283",
+      "key": "ordin-1713283",
+      "name": "대구광역시 서구 장애인재활교육센터 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20220630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1713283",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.99404,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1952845",
+      "key": "ordin-1952845",
+      "name": "대구광역시 서구 부모교육 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20240710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1952845",
+      "categories": [
+       "C05",
+       "C06"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994009,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2073307",
+      "key": "ordin-2073307",
+      "name": "대구광역시 서구의회 의원 윤리강령 및 행동강령 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20250930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2073307",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993545,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2083591",
+      "key": "ordin-2083591",
+      "name": "대구광역시 서구문화회관 운영 및 사용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20251110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2083591",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993335,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1479069",
+      "key": "ordin-1479069",
+      "name": "대구광역시 서구 국내·외 도시간 자매결연 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20200310",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1479069",
+      "categories": [
+       "C09",
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993333,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1696587",
+      "key": "ordin-1696587",
+      "name": "대구광역시 서구 주민의 감사청구에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20220411",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1696587",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993251,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1667077",
+      "key": "ordin-1667077",
+      "name": "대구광역시 서구의회에 출석ㆍ답변할 수 있는 관계공무원의 범위에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1667077",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993073,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1937617",
+      "key": "ordin-1937617",
+      "name": "대구광역시 서구 구세 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20240610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1937617",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993061,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1975143",
+      "key": "ordin-1975143",
+      "name": "대구광역시 서구 여성청소년 생리용품 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20240930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1975143",
+      "categories": [
+       "C05",
+       "C06"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.9944,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1625995",
+      "key": "ordin-1625995",
+      "name": "대구광역시 서구 통장자녀 장학금 지급 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20210923",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1625995",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993897,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2025305",
+      "key": "ordin-2025305",
+      "name": "대구광역시 서구 영양관리 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20250331",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2025305",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993809,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1748537",
+      "key": "ordin-1748537",
+      "name": "대구광역시 서구 1인가구 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20221110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1748537",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993676,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1938331",
+      "key": "ordin-1938331",
+      "name": "대구광역시 서구 청소종사원 복무 규칙",
+      "ord_kind": "규칙",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20240610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1938331",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993557,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2120947",
+      "key": "ordin-2120947",
+      "name": "대구광역시 서구 저연차 공무원 공직 적응 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20260410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2120947",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993396,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2120923",
+      "key": "ordin-2120923",
+      "name": "대구광역시 서구 이상동기 범죄 예방 및 피해자 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20260410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2120923",
+      "categories": [
+       "C08"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993085,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2036189",
+      "key": "ordin-2036189",
+      "name": "대구광역시 서구 디지털 성범죄 예방 및 피해자 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20250512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2036189",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.992945,
+      "stored_rank": null,
+      "ordinance_id": "ordin:998711",
+      "key": "ordin-998711",
+      "name": "대구광역시 서구 시험수당지급 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20030410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=998711",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.992929,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1713287",
+      "key": "ordin-1713287",
+      "name": "대구광역시 서구 음식판매자동차 영업장소 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20220630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1713287",
+      "categories": [
+       "C06",
+       "C10"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.99291,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1696611",
+      "key": "ordin-1696611",
+      "name": "대구광역시 서구 평생교육진흥 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20220411",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1696611",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1937617",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.965914,
+    "best_rank": 3,
+    "ordinance_id": "ordin:1937617",
+    "key": "ordin-1937617",
+    "name": "대구광역시 서구 구세 기본 조례",
+    "region_name": "대구광역시 서구",
+    "sig_cd": "27170",
+    "enacted_on": "20240610",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1937617"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

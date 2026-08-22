@@ -1,0 +1,754 @@
+{
+ "data": {
+  "region": {
+   "region_id": "43110",
+   "sig_cd": "43110",
+   "name": "청주시",
+   "full_name": "충청북도 청주시",
+   "level": 2
+  },
+  "counts": {
+   "total": 1664,
+   "active": 754,
+   "repealed": 910,
+   "by_rr_cls_cd": {
+    "일부개정": 546,
+    "전부개정": 28,
+    "제정": 180,
+    "폐지": 910
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1966,
+    "n": 1
+   },
+   {
+    "year": 1970,
+    "n": 1
+   },
+   {
+    "year": 1972,
+    "n": 1
+   },
+   {
+    "year": 1984,
+    "n": 1
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 14
+   },
+   {
+    "year": 2007,
+    "n": 16
+   },
+   {
+    "year": 2008,
+    "n": 16
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 12
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 19
+   },
+   {
+    "year": 2014,
+    "n": 759
+   },
+   {
+    "year": 2015,
+    "n": 32
+   },
+   {
+    "year": 2016,
+    "n": 17
+   },
+   {
+    "year": 2017,
+    "n": 10
+   },
+   {
+    "year": 2018,
+    "n": 13
+   },
+   {
+    "year": 2019,
+    "n": 23
+   },
+   {
+    "year": 2020,
+    "n": 49
+   },
+   {
+    "year": 2021,
+    "n": 50
+   },
+   {
+    "year": 2022,
+    "n": 52
+   },
+   {
+    "year": 2023,
+    "n": 44
+   },
+   {
+    "year": 2024,
+    "n": 106
+   },
+   {
+    "year": 2025,
+    "n": 272
+   },
+   {
+    "year": 2026,
+    "n": 132
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1966,
+    "n": 1
+   },
+   {
+    "year": 1972,
+    "n": 1
+   },
+   {
+    "year": 1984,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 14
+   },
+   {
+    "year": 2007,
+    "n": 16
+   },
+   {
+    "year": 2008,
+    "n": 15
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 11
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 18
+   },
+   {
+    "year": 2014,
+    "n": 726
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 7
+   },
+   {
+    "year": 2017,
+    "n": 2
+   },
+   {
+    "year": 2018,
+    "n": 6
+   },
+   {
+    "year": 2019,
+    "n": 6
+   },
+   {
+    "year": 2020,
+    "n": 15
+   },
+   {
+    "year": 2021,
+    "n": 6
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 3
+   },
+   {
+    "year": 2024,
+    "n": 10
+   },
+   {
+    "year": 2025,
+    "n": 9
+   },
+   {
+    "year": 2026,
+    "n": 4
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방채상환기금설치및운용조례폐지",
+    "display_name": "지방채상환기금 설치 및 운용조례(폐지)",
+    "rows": 2,
+    "nationwide_regions": 3
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례폐지",
+    "display_name": "사회단체보조금 지원에 관한 조례(폐지)",
+    "rows": 2,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "민방위교육회관시설사용운영조례폐지",
+    "display_name": "민방위교육회관시설 사용·운영조례(폐지)",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "의회의원의정활동비등의지급에관한조례폐지",
+    "display_name": "의회의원 의정활동비 등의 지급에 관한 조례(폐지)",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "청원군장수노인수당지원조례",
+    "display_name": "청원군 장수노인 수당지원 조례",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직ㆍ운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계설치 및 운영조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례시행규칙",
+    "display_name": "재해대책기금운용관리조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 64
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황 공개조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "재정운영상황공개조례시행규칙",
+    "display_name": "재정운영상황공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 58
+   },
+   {
+    "policy_key": "의회위원회조례",
+    "display_name": "의회 위원회조례",
+    "rows": 1,
+    "nationwide_regions": 47
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:1179763",
+    "name": "청주시 주민투표에 관한 조례(폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "2014-07-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1179763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128489",
+    "name": "청주시 미혼자 결혼지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-05-08",
+    "repealed_on": "2026-05-08",
+    "repealed_on_raw": "20260508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128489&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128579",
+    "name": "청주시 인구증가 시책 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-05-08",
+    "repealed_on": "2026-05-08",
+    "repealed_on_raw": "20260508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128583",
+    "name": "청주시 저출산ㆍ고령사회정책 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-05-08",
+    "repealed_on": "2026-05-08",
+    "repealed_on_raw": "20260508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128583&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2094883",
+    "name": "청주시 장기미집행 도시계획시설 대지보상임시특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-19",
+    "repealed_on": "2026-01-01",
+    "repealed_on_raw": "20260101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2094883&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2091837",
+    "name": "청주시 산업단지 관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-12",
+    "repealed_on": "2025-12-12",
+    "repealed_on_raw": "20251212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2091837&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2068239",
+    "name": "청주시 옥화자연휴양림 관리ㆍ운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-19",
+    "repealed_on": "2025-09-19",
+    "repealed_on_raw": "20250919",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2068239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2055915",
+    "name": "청주시 상권활성화관리재단 설립 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-11",
+    "repealed_on": "2025-07-11",
+    "repealed_on_raw": "20250711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2055915&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2055949",
+    "name": "청주시 슬레이트 철거 및 처리 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-11",
+    "repealed_on": "2025-07-11",
+    "repealed_on_raw": "20250711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2055949&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2055919",
+    "name": "청주시 시설관리공단 설립 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-11",
+    "repealed_on": "2025-07-11",
+    "repealed_on_raw": "20250711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2055919&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2021823",
+    "name": "청주시 농촌전문인력육성기금 설치 및 관리ㆍ운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-14",
+    "repealed_on": "2025-03-14",
+    "repealed_on_raw": "20250314",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021823&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2014621",
+    "name": "청주시 환경공무직 채용규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-02-07",
+    "repealed_on": "2025-03-01",
+    "repealed_on_raw": "20250301",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2014621&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2014619",
+    "name": "청주시 옥화자연휴양림 관리ㆍ운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-02-07",
+    "repealed_on": "2025-02-07",
+    "repealed_on_raw": "20250207",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2014619&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2000891",
+    "name": "청주시 장애인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-27",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000891&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2000875",
+    "name": "청주시 금속활자전수교육관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-27",
+    "repealed_on": "2024-12-27",
+    "repealed_on_raw": "20241227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000875&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2000879",
+    "name": "청주시 배첩전수교육관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-27",
+    "repealed_on": "2024-12-27",
+    "repealed_on_raw": "20241227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000879&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2000877",
+    "name": "청주시 옹기전수교육관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-27",
+    "repealed_on": "2024-12-27",
+    "repealed_on_raw": "20241227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000877&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2000893",
+    "name": "청주시 장애인 자립자금 이자차액보전금 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-27",
+    "repealed_on": "2024-12-27",
+    "repealed_on_raw": "20241227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000893&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1954819",
+    "name": "청주시 건축 민간전문가 참여에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-12",
+    "repealed_on": "2024-07-12",
+    "repealed_on_raw": "20240712",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1954819&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1954811",
+    "name": "청주시 소규모 공동주택관리에 관한 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-12",
+    "repealed_on": "2024-07-12",
+    "repealed_on_raw": "20240712",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1954811&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1913051",
+    "name": "청주시 노인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-15",
+    "repealed_on": "2024-03-15",
+    "repealed_on_raw": "20240315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1913051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1909293",
+    "name": "청주시 노인복지기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-02-23",
+    "repealed_on": "2024-02-23",
+    "repealed_on_raw": "20240223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1909293&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1872825",
+    "name": "청주시 저소득주민생활안정기금 융자 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1866717",
+    "name": "청주시 저소득주민생활안정기금 융자 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-10-27",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1866717&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876905",
+    "name": "청원군 이장자녀장학금 지급조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-24",
+    "repealed_on": "2023-11-24",
+    "repealed_on_raw": "20231124",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876905&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876903",
+    "name": "청주시 통장자녀장학금 지급조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-24",
+    "repealed_on": "2023-11-24",
+    "repealed_on_raw": "20231124",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876903&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1818443",
+    "name": "청주시의회 의원 공무국외출장 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-06-09",
+    "repealed_on": "2023-06-09",
+    "repealed_on_raw": "20230609",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1818443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1729625",
+    "name": "청주시 학교급식 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-09-23",
+    "repealed_on": "2022-09-23",
+    "repealed_on_raw": "20220923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1729625&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725415",
+    "name": "청주시 정책자문단 구성 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-26",
+    "repealed_on": "2022-08-26",
+    "repealed_on_raw": "20220826",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725415&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1653559",
+    "name": "청주시 기반시설특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-24",
+    "repealed_on": "2022-06-30",
+    "repealed_on_raw": "20220630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1653559&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1683753",
+    "name": "청주시 도로명주소에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-02-11",
+    "repealed_on": "2022-02-11",
+    "repealed_on_raw": "20220211",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1683753&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1653567",
+    "name": "청주시 주민의 조례 제정ㆍ개정ㆍ폐지 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-24",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1653567&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1595823",
+    "name": "청주시 저소득주민자녀 장학금 지급 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-14",
+    "repealed_on": "2021-05-14",
+    "repealed_on_raw": "20210514",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1595823&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1595825",
+    "name": "청주시 청소년자립지원사업 운영ㆍ관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-14",
+    "repealed_on": "2021-05-14",
+    "repealed_on_raw": "20210514",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1595825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1595819",
+    "name": "청주시 저소득주민자녀 장학금 지급 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-05-14",
+    "repealed_on": "2021-05-14",
+    "repealed_on_raw": "20210514",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1595819&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1595821",
+    "name": "청주시 청소년자립지원사업 운영ㆍ관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-05-14",
+    "repealed_on": "2021-05-14",
+    "repealed_on_raw": "20210514",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1595821&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1579247",
+    "name": "청주시 장애인 체육진흥 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-12",
+    "repealed_on": "2021-03-12",
+    "repealed_on_raw": "20210312",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579247&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1579245",
+    "name": "청주시 체육진흥협의회 조직ㆍ운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-12",
+    "repealed_on": "2021-03-12",
+    "repealed_on_raw": "20210312",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579245&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1557667",
+    "name": "청주시 직지의 날 행사추진위원회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-24",
+    "repealed_on": "2020-12-24",
+    "repealed_on_raw": "20201224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1557667&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1492121",
+    "name": "청주시 유네스코 직지상 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-08",
+    "repealed_on": "2020-11-09",
+    "repealed_on_raw": "20201109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1492121&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 1,
+   "sentinel_99991231": 1
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "43110"
+ ]
+}

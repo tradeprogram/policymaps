@@ -1,0 +1,756 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1383905",
+   "key": "ordin-1383905",
+   "mst": "1383905",
+   "name": "청양군의회 입법ㆍ법률고문 운영 조례",
+   "ord_kind": "조례",
+   "region_id": "44790",
+   "sig_cd": "44790",
+   "region_name": "충청남도 청양군",
+   "org_name": "충청남도 청양군",
+   "enacted_on": "20190130",
+   "effective_on": "20190130",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 10,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1383905",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.5,
+     "method": "rule"
+    },
+    {
+     "code": "C05",
+     "name": "청년·교육",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.864077,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1284552",
+      "key": "ordin-1284552",
+      "name": "청양군 명예군수 및 명예읍·면장 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20170418",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1284552",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.84982,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1355576",
+      "key": "ordin-1355576",
+      "name": "청양군 유통분쟁조정위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20180815",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1355576",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.846734,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1808609",
+      "key": "ordin-1808609",
+      "name": "청양군 공모전 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20230512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1808609",
+      "categories": [
+       "C05",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.836899,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1996731",
+      "key": "ordin-1996731",
+      "name": "청양군 맨발 걷기 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20241223",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1996731",
+      "categories": [
+       "C07",
+       "C06"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.835779,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2060539",
+      "key": "ordin-2060539",
+      "name": "합천군의회 입법ㆍ법률고문 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 합천군",
+      "sig_cd": "48890",
+      "enacted_on": "20250724",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2060539",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.831183,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1607831",
+      "key": "ordin-1607831",
+      "name": "함양군의회 입법 및 법률고문 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 함양군",
+      "sig_cd": "48870",
+      "enacted_on": "20210617",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1607831",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.830227,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1732695",
+      "key": "ordin-1732695",
+      "name": "청양군반운영규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20221007",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1732695",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.82105,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1996693",
+      "key": "ordin-1996693",
+      "name": "청양군의회 포상 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20241223",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1996693",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.816447,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1383880",
+      "key": "ordin-1383880",
+      "name": "청양군 지역보건의료심의위원회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20190130",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1383880",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.816125,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2012899",
+      "key": "ordin-2012899",
+      "name": "청양군 지역활성화재단 설립 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20250124",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2012899",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.992605,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2161505",
+      "key": "ordin-2161505",
+      "name": "청양군 지속가능발전 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20260814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2161505",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.991301,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2057241",
+      "key": "ordin-2057241",
+      "name": "청양군 정기시장 등의 개설 및 운영에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20250715",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2057241",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.991007,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1366780",
+      "key": "ordin-1366780",
+      "name": "청양군 관광협의회 설립허가 및 감독에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20181115",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1366780",
+      "categories": [
+       "C01",
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991007,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2118291",
+      "key": "ordin-2118291",
+      "name": "청양군 공동브랜드 사용에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20260401",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2118291",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.99082,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1614175",
+      "key": "ordin-1614175",
+      "name": "청양군 수렵장 운영·관리 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20210713",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1614175",
+      "categories": []
+     },
+     {
+      "rank": 6,
+      "cosine": 0.990685,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1383870",
+      "key": "ordin-1383870",
+      "name": "청양군 향토음식 발굴ㆍ육성 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20190130",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1383870",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990576,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1647443",
+      "key": "ordin-1647443",
+      "name": "청양군청 및 읍ㆍ면사무소 소재지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20211215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1647443",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.99045,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1493995",
+      "key": "ordin-1493995",
+      "name": "청양군 지역 먹거리 보장 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20200515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1493995",
+      "categories": [
+       "C11",
+       "C12"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990396,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2110115",
+      "key": "ordin-2110115",
+      "name": "청양군 산불방지 활동 활성화를 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20260213",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2110115",
+      "categories": [
+       "C08",
+       "C12"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990355,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1698965",
+      "key": "ordin-1698965",
+      "name": "청양군 인플루엔자 예방접종 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20220415",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1698965",
+      "categories": [
+       "C06",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 2,
+    "stored_agreement": 0.2
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.993798,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2156903",
+      "key": "ordin-2156903",
+      "name": "청양군 지방공무원 당직 수당 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20260803",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2156903",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993663,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1552443",
+      "key": "ordin-1552443",
+      "name": "청양군의회 업무추진비 사용 및 공개 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20201215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1552443",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993624,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1647401",
+      "key": "ordin-1647401",
+      "name": "청양군 유통업 상생발전 및 전통상업보존구역 지정 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20211215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1647401",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993575,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2161559",
+      "key": "ordin-2161559",
+      "name": "청양군 농촌관광을 위한 경관농업지구 조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20260814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2161559",
+      "categories": [
+       "C12",
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993328,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2156905",
+      "key": "ordin-2156905",
+      "name": "청양군 지방공무원 복무 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20260803",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2156905",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993288,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2161637",
+      "key": "ordin-2161637",
+      "name": "청양군 마을만들기 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20260814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2161637",
+      "categories": [
+       "C12",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993241,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2161475",
+      "key": "ordin-2161475",
+      "name": "청양군 행정정보공개 규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20260814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2161475",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993241,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1247239",
+      "key": "ordin-1247239",
+      "name": "청양군민원실무종합심의회 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20160810",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1247239",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.99324,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1808611",
+      "key": "ordin-1808611",
+      "name": "청양군 지능정보화 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20230512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1808611",
+      "categories": []
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993189,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2057305",
+      "key": "ordin-2057305",
+      "name": "청양군 건축 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 청양군",
+      "sig_cd": "44790",
+      "enacted_on": "20250715",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2057305",
+      "categories": [
+       "C01",
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

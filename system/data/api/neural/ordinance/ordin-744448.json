@@ -1,0 +1,762 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:744448",
+   "key": "ordin-744448",
+   "mst": "744448",
+   "name": "동두천시 문화관광해설사 운영 및 지원에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "41250",
+   "sig_cd": "41250",
+   "region_name": "경기도 동두천시",
+   "org_name": "경기도 동두천시",
+   "enacted_on": "20150508",
+   "effective_on": "20150508",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 8,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=744448",
+   "categories": [
+    {
+     "code": "C13",
+     "name": "문화·체육·관광",
+     "confidence": 0.5714,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.861167,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1412607",
+      "key": "ordin-1412607",
+      "name": "서산시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 서산시",
+      "sig_cd": "44210",
+      "enacted_on": "20191010",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1412607",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.86081,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2068327",
+      "key": "ordin-2068327",
+      "name": "청주시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 청주시",
+      "sig_cd": "43110",
+      "enacted_on": "20250919",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2068327",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.840909,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1574361",
+      "key": "ordin-1574361",
+      "name": "김해시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 김해시",
+      "sig_cd": "48250",
+      "enacted_on": "20210210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1574361",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.829063,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1980603",
+      "key": "ordin-1980603",
+      "name": "이천시 문화관광해설사 운영 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 이천시",
+      "sig_cd": "41500",
+      "enacted_on": "20241031",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1980603",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.823756,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1022258",
+      "key": "ordin-1022258",
+      "name": "제천시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 제천시",
+      "sig_cd": "43150",
+      "enacted_on": "20120713",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1022258",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.81591,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2085841",
+      "key": "ordin-2085841",
+      "name": "김천시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 김천시",
+      "sig_cd": "47150",
+      "enacted_on": "20251113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2085841",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.815342,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1488739",
+      "key": "ordin-1488739",
+      "name": "여주시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 여주시",
+      "sig_cd": "41670",
+      "enacted_on": "20200408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1488739",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.810407,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1585545",
+      "key": "ordin-1585545",
+      "name": "부천시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20210405",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1585545",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.808475,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1531007",
+      "key": "ordin-1531007",
+      "name": "충주시 문화관광해설사 운영과 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 충주시",
+      "sig_cd": "43130",
+      "enacted_on": "20200925",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1531007",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.802391,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2106187",
+      "key": "ordin-2106187",
+      "name": "원주시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 원주시",
+      "sig_cd": "51130",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2106187",
+      "categories": [
+       "C13"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.995434,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2127763",
+      "key": "ordin-2127763",
+      "name": "동두천시 장애인복지단체 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20260506",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2127763",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994351,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2012405",
+      "key": "ordin-2012405",
+      "name": "동두천시 장애인 체육진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20250120",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2012405",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993989,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1948161",
+      "key": "ordin-1948161",
+      "name": "동두천시 치매관리 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20240703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1948161",
+      "categories": [
+       "C06",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993064,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1960757",
+      "key": "ordin-1960757",
+      "name": "동두천시 교통안전 봉사단체 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20240802",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1960757",
+      "categories": [
+       "C08",
+       "C10"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.992644,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2127557",
+      "key": "ordin-2127557",
+      "name": "동두천시 장애인복지위원회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20260506",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2127557",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.992548,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2021613",
+      "key": "ordin-2021613",
+      "name": "동두천시 장애인 문화예술 활동 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20250314",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2021613",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.992365,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2005225",
+      "key": "ordin-2005225",
+      "name": "동두천시의회 업무추진비 사용 및 공개 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20241231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2005225",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.992216,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2047325",
+      "key": "ordin-2047325",
+      "name": "동두천시 체육진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20250630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2047325",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.992206,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1830019",
+      "key": "ordin-1830019",
+      "name": "동두천시 호스피스ㆍ완화의료 및 웰다잉(Well-Dying) 문화조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20230703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1830019",
+      "categories": [
+       "C06",
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.992039,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1474281",
+      "key": "ordin-1474281",
+      "name": "동두천시 예산절감 및 예산낭비 사례 공개 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20200301",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1474281",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.988131,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2127839",
+      "key": "ordin-2127839",
+      "name": "동두천시 건전한 음주문화 환경조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20260506",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2127839",
+      "categories": [
+       "C07",
+       "C13"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.987829,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1795155",
+      "key": "ordin-1795155",
+      "name": "동두천시 교복 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20230401",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1795155",
+      "categories": [
+       "C05",
+       "C03"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.987689,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1751397",
+      "key": "ordin-1751397",
+      "name": "동두천시 청소년의 날 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20221128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1751397",
+      "categories": [
+       "C05",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.987579,
+      "stored_rank": null,
+      "ordinance_id": "ordin:730316",
+      "key": "ordin-730316",
+      "name": "동두천시 대한노인회 동두천시지회 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20150107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=730316",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.987341,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2127837",
+      "key": "ordin-2127837",
+      "name": "동두천시 무장애 관광 환경 조성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20260506",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2127837",
+      "categories": [
+       "C03",
+       "C07"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.9872,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2033699",
+      "key": "ordin-2033699",
+      "name": "동두천시 어르신 교통비 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20250502",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2033699",
+      "categories": [
+       "C10",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.987094,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2062787",
+      "key": "ordin-2062787",
+      "name": "동두천시 체육인 기회소득 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20250806",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2062787",
+      "categories": [
+       "C13",
+       "C10"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.987078,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1897325",
+      "key": "ordin-1897325",
+      "name": "동두천시 여성청소년 위생용품 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20231231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1897325",
+      "categories": [
+       "C06",
+       "C02",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.987013,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2127687",
+      "key": "ordin-2127687",
+      "name": "동두천시 체육시설 관리 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20260506",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2127687",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.986934,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2127555",
+      "key": "ordin-2127555",
+      "name": "동두천시 공무원 후생복지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 동두천시",
+      "sig_cd": "41250",
+      "enacted_on": "20260506",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2127555",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

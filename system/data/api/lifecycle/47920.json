@@ -1,0 +1,682 @@
+{
+ "data": {
+  "region": {
+   "region_id": "47920",
+   "sig_cd": "47920",
+   "name": "봉화군",
+   "full_name": "경상북도 봉화군",
+   "level": 2
+  },
+  "counts": {
+   "total": 576,
+   "active": 493,
+   "repealed": 83,
+   "by_rr_cls_cd": {
+    "일부개정": 321,
+    "전부개정": 14,
+    "제정": 158,
+    "폐지": 83
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1992,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 30
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 20
+   },
+   {
+    "year": 2016,
+    "n": 29
+   },
+   {
+    "year": 2017,
+    "n": 45
+   },
+   {
+    "year": 2018,
+    "n": 13
+   },
+   {
+    "year": 2019,
+    "n": 27
+   },
+   {
+    "year": 2020,
+    "n": 35
+   },
+   {
+    "year": 2021,
+    "n": 43
+   },
+   {
+    "year": 2022,
+    "n": 48
+   },
+   {
+    "year": 2023,
+    "n": 91
+   },
+   {
+    "year": 2024,
+    "n": 77
+   },
+   {
+    "year": 2025,
+    "n": 72
+   },
+   {
+    "year": 2026,
+    "n": 20
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 10
+   },
+   {
+    "year": 2014,
+    "n": 2
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 12
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 3
+   },
+   {
+    "year": 2020,
+    "n": 7
+   },
+   {
+    "year": 2021,
+    "n": 4
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 1
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2025,
+    "n": 9
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례규칙등공포에관한조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금 지급 규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민 자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금설치및운용조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례시행규칙",
+    "display_name": "재해대책기금운용관리조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 64
+   },
+   {
+    "policy_key": "호적과태료부과징수조례",
+    "display_name": "호적과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 62
+   },
+   {
+    "policy_key": "주민의조례제정및개폐청구에관한조례",
+    "display_name": "주민의 조례제정 및 개폐청구에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:925859",
+    "name": "봉화군개발공사설립조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-08-04",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=925859&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:925259",
+    "name": "봉화군재난관리기금운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": null,
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=925259&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:914285",
+    "name": "봉화군재정운영상황의공개조례",
+    "ord_kind": "조례",
+    "enacted_on": "2006-08-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=914285&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:925261",
+    "name": "봉화군재해대책기금운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": null,
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=925261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:925263",
+    "name": "봉화군재해대책본부의운영등에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": null,
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=925263&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:925262",
+    "name": "봉화군재해대책기금운용관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": null,
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=925262&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2058627",
+    "name": "봉화군 자연휴양림 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-17",
+    "repealed_on": "2025-07-17",
+    "repealed_on_raw": "20250717",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2058627&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2012767",
+    "name": "봉화군 공무원 주거안정기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2012767&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2012765",
+    "name": "봉화군 교육발전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2012765&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2012771",
+    "name": "봉화군 농축산물 가격안정기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2012771&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2012763",
+    "name": "봉화군 에너지사업기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2012763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896347",
+    "name": "봉화군 장기미집행 도시계획시설대지보상특별회계 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-04",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896347&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2012769",
+    "name": "봉화군 재활용품판매대금관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2012769&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2012759",
+    "name": "봉화군 공무원 주거안정기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2012759&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2012761",
+    "name": "봉화군 에너지사업기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2012761&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2003193",
+    "name": "봉화군 여성문화회관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2003193&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896367",
+    "name": "봉화군 출산육아지원기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-23",
+    "repealed_on": "2024-09-23",
+    "repealed_on_raw": "20240923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896367&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1938137",
+    "name": "봉화군 태아·출생아 건강보장보험지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-13",
+    "repealed_on": "2024-06-13",
+    "repealed_on_raw": "20240613",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1938137&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1899409",
+    "name": "봉화군 정책실명제 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-28",
+    "repealed_on": "2023-12-28",
+    "repealed_on_raw": "20231228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1899409&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725513",
+    "name": "봉화군 노인복지기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-18",
+    "repealed_on": "2022-08-18",
+    "repealed_on_raw": "20220818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725513&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725511",
+    "name": "봉화군 자활기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-18",
+    "repealed_on": "2022-08-18",
+    "repealed_on_raw": "20220818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725511&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725517",
+    "name": "봉화군 희망복지장학기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-18",
+    "repealed_on": "2022-08-18",
+    "repealed_on_raw": "20220818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725517&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725509",
+    "name": "봉화군 노인복지기금 설치 및 운용에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-18",
+    "repealed_on": "2022-08-18",
+    "repealed_on_raw": "20220818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1725507",
+    "name": "봉화군 희망복지장학기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-18",
+    "repealed_on": "2022-08-18",
+    "repealed_on_raw": "20220818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1725507&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1646757",
+    "name": "봉화군 마을만들기 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-13",
+    "repealed_on": "2021-12-13",
+    "repealed_on_raw": "20211213",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1646757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641277",
+    "name": "봉화군 도로명주소에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-11-15",
+    "repealed_on": "2021-11-15",
+    "repealed_on_raw": "20211115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641277&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1588847",
+    "name": "봉화군 파인토피아봉화 워터파크 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-04-12",
+    "repealed_on": "2021-04-12",
+    "repealed_on_raw": "20210412",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1588847&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1588849",
+    "name": "봉화군 파인토피아봉화 워터파크 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-04-12",
+    "repealed_on": "2021-04-12",
+    "repealed_on_raw": "20210412",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1588849&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1564537",
+    "name": "봉화군 체육진흥협의회 조직운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1564537&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1547615",
+    "name": "봉화군 국민주택사업특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-19",
+    "repealed_on": "2020-11-19",
+    "repealed_on_raw": "20201119",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547615&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1547621",
+    "name": "봉화군 복지위원 정수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-19",
+    "repealed_on": "2020-11-19",
+    "repealed_on_raw": "20201119",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547621&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1547617",
+    "name": "봉화군 봉화물산주식회사 설립 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-19",
+    "repealed_on": "2020-11-19",
+    "repealed_on_raw": "20201119",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547617&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1547619",
+    "name": "봉화군 비지정관광지 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-19",
+    "repealed_on": "2020-11-19",
+    "repealed_on_raw": "20201119",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547619&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1547623",
+    "name": "봉화군 영세노점상전업자금융자에 대한 이자보조금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-19",
+    "repealed_on": "2020-11-19",
+    "repealed_on_raw": "20201119",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547623&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1547613",
+    "name": "봉화군 용역 사전 심의위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-19",
+    "repealed_on": "2020-11-19",
+    "repealed_on_raw": "20201119",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547613&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1431983",
+    "name": "봉화군 업무추진비 집행에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-12-12",
+    "repealed_on": "2019-12-12",
+    "repealed_on_raw": "20191212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1431983&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1422165",
+    "name": "봉화군 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-18",
+    "repealed_on": "2019-11-18",
+    "repealed_on_raw": "20191118",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422165&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395028",
+    "name": "봉화군 사회적기업 육성지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-18",
+    "repealed_on": "2019-11-18",
+    "repealed_on_raw": "20191118",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395028&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1380189",
+    "name": "봉화군 지역발전협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-20",
+    "repealed_on": "2018-12-20",
+    "repealed_on_raw": "20181220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1380189&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1319489",
+    "name": "봉화군 가로수 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-21",
+    "repealed_on": "2017-12-21",
+    "repealed_on_raw": "20171221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1319489&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 6,
+   "sentinel_99991231": 6
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "47920"
+ ]
+}

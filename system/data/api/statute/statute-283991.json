@@ -1,0 +1,523 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:283991",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "환경친화적 자동차의 개발 및 보급 촉진에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20260310",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=283991&type=HTML&mobileYn=&efYd=20260310",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 694,
+   "child_ordinances": 650,
+   "by_verification_status": {
+    "article-missing": 125,
+    "article-verified": 356,
+    "unverifiable": 213
+   },
+   "by_delegation_type": {
+    "law-delegated": 694
+   },
+   "regions_top": [
+    {
+     "region_id": "11",
+     "name": "서울특별시",
+     "ordinances": 9
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 7
+    },
+    {
+     "region_id": "11215",
+     "name": "서울특별시 광진구",
+     "ordinances": 7
+    },
+    {
+     "region_id": "44230",
+     "name": "충청남도 논산시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41460",
+     "name": "경기도 용인시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41270",
+     "name": "경기도 안산시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 6
+    },
+    {
+     "region_id": "26",
+     "name": "부산광역시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "52110",
+     "name": "전북특별자치도 전주시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "48250",
+     "name": "경상남도 김해시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "43730",
+     "name": "충청북도 옥천군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41820",
+     "name": "경기도 가평군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41390",
+     "name": "경기도 시흥시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41370",
+     "name": "경기도 오산시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41210",
+     "name": "경기도 광명시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "36",
+     "name": "세종특별자치시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "30",
+     "name": "대전광역시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "28",
+     "name": "인천광역시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "52800",
+     "name": "전북특별자치도 부안군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "52710",
+     "name": "전북특별자치도 완주군",
+     "ordinances": 4
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 환경친화적 자동차의 개발 및 보급을 촉진하기 위한 종합적인 계획 및 시책을 수립하여 추진하도록 함으로써 자동차산업의 지속적인 발전과 국민 생활환경의 향상을 도모하며 국가경제에 이바지함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20260310",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"자동차\"란 다음 각 목의 어느 하나에 해당하는 자동차 또는 건설기계로서 대통령령으로 정하는 것을 말한다.\n가. 「자동차관리법」 제2조제1호에 따른 자동차\n나. 「건설기계관리법」 제2조제1호에 따른 건설기계\n2. \"환경친화적 자동차\"란 제3호부터 제8호까지의 규정에 따른 전기자동차, 태양광자동차, 하이",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "환경친화적 자동차의 개발 등에 관한 기본계획",
+    "body": "제3조(환경친화적 자동차의 개발 등에 관한 기본계획)\n① 산업통상부장관은 환경친화적 자동차의 개발 및 보급을 촉진하기 위한 기본계획(이하 \"기본계획\"이라 한다)을 5년마다 수립하여야 한다. 이 경우 대통령령으로 정하는 바에 따라 기후에너지환경부장관 등 관계 중앙행정기관의 장과 특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사ㆍ 특별자",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "환경친화적 자동차의 개발시행계획",
+    "body": "제4조(환경친화적 자동차의 개발시행계획)\n① 산업통상부장관은 기본계획을 추진하기 위하여 대통령령으로 정하는 바에 따라 관계 중앙행정기관의 장의 의견을 들어 매년 환경친화적 자동차의 개발에 관한 시행계획(이하 \"개발시행계획\"이라 한다)을 수립ㆍ추진하여야 한다. <개정 2013.3.23, 2025.10.1>\n② 개발시행계획에",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "환경친화적 자동차의 보급시행계획 등",
+    "body": "제5조(환경친화적 자동차의 보급시행계획 등)\n① 기후에너지환경부장관은 기본계획을 추진하기 위하여 대통령령으로 정하는 바에 따라 관계 중앙행정기관의 장 및 시ㆍ도지사의 의견을 들어 매년 환경친화적 자동차의 보급에 관한 시행계획(이하 \"보급시행계획\"이라 한다)을 수립ㆍ추진하여야 한다. 이 경우 기후에너지환경부장관은 환경친화적",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "기술개발을 위한 지원시책",
+    "body": "제6조(기술개발을 위한 지원시책)\n① 국가는 환경친화적 자동차 관련 기술개발을 촉진하기 위하여 다음 각 호의 사항에 관한 지원시책을 수립하여 추진할 수 있다.\n1. 환경친화적 자동차의 국내외 기술개발 정보의 수집 및 제공\n2. 환경친화적 자동차의 핵심기술에 관한 연구개발 등\n② 산업통상부장관은 제1항에 따른 기술개발을 추",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "기술기반조성사업의 추진",
+    "body": "제7조(기술기반조성사업의 추진)\n1. 기술기반구축사업\n2. 국제기술협력사업\n3. 산업기술인력양성사업\n4. 환경친화적 자동차에 해당하기 위한 기준의 개발 및 검증사업\n5. 그 밖에 대통령령으로 정하는 사업",
+    "body_truncated": false,
+    "effective_on": "20260310",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "연료 생산자 등에 대한 지원",
+    "body": "제8조(연료 생산자 등에 대한 지원)\n① 국가나 지방자치단체는 수소전기자동차의 연료인 수소를 생산ㆍ공급 또는 판매하거나 수소연료공급시설을 설치ㆍ운영하려는 자(이하 이 조에서 \"수소연료생산자등\"이라 한다)에게 다음 각 호의 지원을 할 수 있다. <개정 2018.3.20, 2018.12.31>\n1. 수소연료의 생산ㆍ공급ㆍ판매",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": "2",
+    "title": "충전시설 등에 대한 지원",
+    "body": "제8조의2(충전시설 등에 대한 지원)\n① 국가와 지방자치단체는 환경친화적 자동차의 보급을 촉진하기 위하여 필요한 경우 환경친화적 자동차 관련기업에 대하여 다음 각 호의 지원을 할 수 있다.\n1. 환경친화적 자동차 충전시설이나 수소연료공급시설의 생산ㆍ공급ㆍ판매 또는 설치ㆍ운영에 필요한 자금 지원\n2. 환경친화적 자동차 또는",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0008021"
+   },
+   {
+    "article_no": "8",
+    "article_branch": "3",
+    "title": "양방향 충전 전기자동차 및 충전시설의 개발ㆍ보급",
+    "body": "제8조의3(양방향 충전 전기자동차 및 충전시설의 개발ㆍ보급)\n국가와 지방자치단체는 양방향 충전(충전과 방전을 말한다) 기능을 갖춘 전기자동차 및 충전시설의 개발ㆍ보급 확대를 위하여 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260310",
+    "article_key": "0008031"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": null,
+    "body": "제9조\n삭제 <2009.5.21>",
+    "body_truncated": false,
+    "effective_on": "20260310",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "환경친화적 자동차의 구매자 및 소유자에 대한 지원",
+    "body": "제10조(환경친화적 자동차의 구매자 및 소유자에 대한 지원)\n국가나 지방자치단체는 환경친화적 자동차의 구매자 및 소유자에게 필요한 지원을 할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20260310",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "2",
+    "title": "공공기관의 환경친화적 자동차의 구매 의무",
+    "body": "제10조의2(공공기관의 환경친화적 자동차의 구매 의무)\n① 「공공기관의 운영에 관한 법률」에 따른 공공기관(이하 \"공공기관\"이라 한다)과 「지방공기업법」에 따른 지방공기업(이하 \"지방공기업\"이라 한다)의 장은 업무용 차량을 구입하거나 임차할 경우 대통령령으로 정하는 바에 따라 해당 차량의 일정 비율 이상을 환경친화적 자동",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0010021"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "3",
+    "title": "환경친화적 자동차의 구매목표",
+    "body": "제10조의3(환경친화적 자동차의 구매목표)\n① 산업통상부장관은 환경친화적 자동차의 보급을 촉진하기 위하여 필요하다고 인정하면 다음 각 호의 어느 하나에 해당하는 자 중 대통령령으로 정하는 자(이하 \"구매대상자\"라 한다)가 업무용 차량을 구입하거나 임차할 경우 일정 비율 이상의 환경친화적 자동차를 구매하도록 구매목표(이하 ",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0010031"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "환경친화적 자동차의 운행에 대한 지원",
+    "body": "제11조(환경친화적 자동차의 운행에 대한 지원)\n① 시ㆍ도지사는 환경친화적 자동차의 소유자로 하여금 그 자동차의 외부에서 환경친화적 자동차라는 것을 알아볼 수 있도록 표지(標識)를 부착하게 할 수 있다.\n② 국가나 지방자치단체는 제1항에 따른 표지를 부착한 자동차에 대하여 필요한 지원시책을 마련하여야 한다.\n③ 제1항에 ",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "2",
+    "title": "환경친화적 자동차의 전용주차구역 등",
+    "body": "제11조의2(환경친화적 자동차의 전용주차구역 등)\n① 다음 각 호의 어느 하나에 해당하는 것으로서 대통령령으로 정하는 시설의 소유자(해당 시설에 대한 관리의무자가 따로 있는 경우에는 관리자를 말한다)는 대통령령으로 정하는 바에 따라 해당 대상시설에 환경친화적 자동차 충전시설 및 전용주차구역을 설치하여야 한다. <개정 20",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0011021"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "3",
+    "title": "국유재산ㆍ공유재산의 임대 등",
+    "body": "제11조의3(국유재산ㆍ공유재산의 임대 등)\n① 국가 또는 지방자치단체는 환경친화적 자동차의 충전시설 보급ㆍ확대 사업을 위하여 필요하다고 인정하면 국유재산 또는 공유재산을 「국유재산법」 또는 「공유재산 및 물품 관리법」에도 불구하고 수의계약에 따라 환경친화적 자동차의 충전시설 보급ㆍ확대 사업을 하는 자에게 대부계약의 체결 ",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0011031"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "4",
+    "title": "시정명령 등",
+    "body": "제11조의4(시정명령 등)\n① 관할 시장ㆍ군수ㆍ구청장은 제11조의2제1항 및 제2항을 위반하여 환경친화적 자동차 충전시설 및 전용주차구역을 설치하지 아니하거나 설치 기준에 맞지 아니하게 설치한 자에 대하여 대통령령으로 정하는 바에 따라 기간을 정하여 그 시정을 명할 수 있다.\n② 산업통상부장관은 시장ㆍ군수ㆍ구청장에게 제1",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0011041"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "5",
+    "title": "이행강제금",
+    "body": "제11조의5(이행강제금)\n① 시장ㆍ군수ㆍ구청장은 제11조의4제1항에 따라 시정명령을 받고 기간 이내에 그 명령을 이행하지 아니한 자에게는 환경친화적 자동차 충전시설 및 전용주차구역의 설치 비용 등을 고려하여 3천만원 이하의 이행강제금을 부과한다.\n② 제1항에 따라 이행강제금을 부과하는 위반행위의 종류, 위반 정도에 따른 ",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0011051"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "환경친화적 자동차에 대한 홍보",
+    "body": "제12조(환경친화적 자동차에 대한 홍보)\n국가나 지방자치단체는 자동차 관련 단체 등에 환경친화적 자동차의 보급 확대에 필요한 홍보활동을 시행할 것을 요청할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20260310",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "자금지원을 위한 재원",
+    "body": "제13조(자금지원을 위한 재원)\n1. 「에너지 및 자원사업 특별회계법」에 따른 에너지 및 자원사업 특별회계\n2. 「중소기업진흥에 관한 법률」 제63조에 따른 중소벤처기업창업 및 진흥기금\n3. 「환경정책기본법」에 따른 환경개선특별회계",
+    "body_truncated": false,
+    "effective_on": "20260310",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "자료의 제공 요청 등",
+    "body": "제14조(자료의 제공 요청 등)\n① 산업통상부장관은 기본계획 및 개발시행계획을 수립하기 위하여 필요하다고 인정하는 경우에는 관계 행정기관 및 환경친화적 자동차와 관련된 기관 또는 단체에 필요한 자료나 의견 등의 제출을 요청할 수 있다. 이 경우 요청을 받은 관계 행정기관 및 환경친화적 자동차와 관련된 기관 또는 단체는 특",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "업무의 위탁",
+    "body": "제15조(업무의 위탁)\n1. 제6조 및 제7조에 따른 사업을 추진하는 데에 필요한 사업평가 및 관리 등의 업무\n2. 제8조, 제8조의2, 제10조 및 제11조제2항에 따른 지원에 필요한 업무\n3. 그 밖에 이 법에서 정하는 업무의 일부로서 대통령령으로 정하는 업무",
+    "body_truncated": false,
+    "effective_on": "20260310",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "과태료",
+    "body": "제16조(과태료)\n① 제11조의2제9항을 위반하여 충전 방해행위를 한 자에게는 100만원 이하의 과태료를 부과한다. <개정 2021.7.27>\n② 제11조의2제7항 및 제8항을 위반하여 환경친화적 자동차 충전시설의 충전구역 및 전용주차구역에 주차한 자에게는 20만원 이하의 과태료를 부과한다. <개정 2021.7.27>\n③",
+    "body_truncated": true,
+    "effective_on": "20260310",
+    "article_key": "0016001"
+   }
+  ],
+  "article_count": 24,
+  "articles_shown": 24,
+  "articles_truncated_bodies": 16,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1242810",
+    "name": "서울특별시 서대문구 공용차량 관리 규칙",
+    "region_id": "11410",
+    "org_name": "서울특별시 서대문구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1242810&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1261093",
+    "name": "칠곡군 주차장 조례",
+    "region_id": "47850",
+    "org_name": "경상북도 칠곡군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1261093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1291244",
+    "name": "서울특별시 동대문구 에너지 조례",
+    "region_id": "11230",
+    "org_name": "서울특별시 동대문구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1291244&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1303993",
+    "name": "서울특별시 강남구 미세먼지 예방 및 저감에 관한 조례",
+    "region_id": "11680",
+    "org_name": "서울특별시 강남구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1303993&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1317071",
+    "name": "서울특별시 동대문구 녹색제품 구매촉진에 관한 조례",
+    "region_id": "11230",
+    "org_name": "서울특별시 동대문구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1317071&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1321042",
+    "name": "서울특별시 중구 에너지 기본 조례",
+    "region_id": "11140",
+    "org_name": "서울특별시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1321042&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1331633",
+    "name": "나주시 경유자동차 저공해 촉진 및 지원에 관한 조례",
+    "region_id": "12170",
+    "org_name": "전남광주통합특별시 나주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1331633&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1348845",
+    "name": "경상남도교육비특별회계 소관 공용차량 관리 규칙",
+    "region_id": "edu:48",
+    "org_name": "경상남도교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1348845&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1355133",
+    "name": "울릉군 전기자동차 보급 촉진 및 이용 활성화를 위한 조례",
+    "region_id": "47940",
+    "org_name": "경상북도 울릉군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1355133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1365782",
+    "name": "철원군 공용차량 관리에 관한 규칙",
+    "region_id": "51780",
+    "org_name": "강원특별자치도 철원군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365782&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1375373",
+    "name": "울산광역시 북구 녹색제품 구매촉진 조례",
+    "region_id": "31200",
+    "org_name": "울산광역시 북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1375373&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1379388",
+    "name": "통영시 에너지 기본 조례",
+    "region_id": "48220",
+    "org_name": "경상남도 통영시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1379388&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1382368",
+    "name": "서울특별시 동작구 미세먼지 피해 저감 및 지원에 관한 조례",
+    "region_id": "11590",
+    "org_name": "서울특별시 동작구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382368&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1384348",
+    "name": "보령시 전기자동차 이용 활성화 지원 조례",
+    "region_id": "44180",
+    "org_name": "충청남도 보령시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1384348&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1389787",
+    "name": "서울특별시 녹색제품 구매촉진에 관한 조례",
+    "region_id": "11",
+    "org_name": "서울특별시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1389787&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1390415",
+    "name": "하남시 미세먼지 저감 및 관리에 관한 조례",
+    "region_id": "41450",
+    "org_name": "경기도 하남시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1390415&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1390546",
+    "name": "서울특별시 서대문구 환경친화적 자동차의 이용 활성화 지원 조례",
+    "region_id": "11410",
+    "org_name": "서울특별시 서대문구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1390546&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395209",
+    "name": "서울특별시 중랑구 녹색제품 구매촉진에 관한 조례",
+    "region_id": "11260",
+    "org_name": "서울특별시 중랑구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395209&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396061",
+    "name": "의왕시 전기자동차 이용 활성화 지원 조례",
+    "region_id": "41430",
+    "org_name": "경기도 의왕시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396061&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396302",
+    "name": "서울특별시 서초구 환경친화적 자동차의 보급 촉진 및 이용 활성화를 위한 지원 조례",
+    "region_id": "11650",
+    "org_name": "서울특별시 서초구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396302&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

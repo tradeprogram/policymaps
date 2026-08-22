@@ -1,0 +1,790 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1000548",
+   "key": "ordin-1000548",
+   "mst": "1000548",
+   "name": "의령군 택지개발에 따른 폐기물처리시설 설치비용 산정에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "48720",
+   "sig_cd": "48720",
+   "region_name": "경상남도 의령군",
+   "org_name": "경상남도 의령군",
+   "enacted_on": "20141231",
+   "effective_on": "20141231",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 11,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1000548",
+   "categories": [
+    {
+     "code": "C09",
+     "name": "도시·건축·주택",
+     "confidence": 0.5714,
+     "method": "rule"
+    },
+    {
+     "code": "C07",
+     "name": "환경·기후",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.935413,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2072851",
+      "key": "ordin-2072851",
+      "name": "이천시 폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 이천시",
+      "sig_cd": "41500",
+      "enacted_on": "20250929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2072851",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.927942,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1954287",
+      "key": "ordin-1954287",
+      "name": "청도군 폐기물처리시설 설치 촉진 및 주변지역지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 청도군",
+      "sig_cd": "47820",
+      "enacted_on": "20240712",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1954287",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.927364,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1551855",
+      "key": "ordin-1551855",
+      "name": "하동군 폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 하동군",
+      "sig_cd": "48850",
+      "enacted_on": "20201211",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1551855",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.925833,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2014349",
+      "key": "ordin-2014349",
+      "name": "음성군 폐기물처리시설 설치촉진 및 주변지역 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 음성군",
+      "sig_cd": "43770",
+      "enacted_on": "20241226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2014349",
+      "categories": [
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.921562,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1255384",
+      "key": "ordin-1255384",
+      "name": "하동군 폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상남도 하동군",
+      "sig_cd": "48850",
+      "enacted_on": "20161007",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1255384",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.918527,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2052499",
+      "key": "ordin-2052499",
+      "name": "이천시 폐기물처리시설 설치지역 지원기금 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 이천시",
+      "sig_cd": "41500",
+      "enacted_on": "20250708",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2052499",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.917151,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1960863",
+      "key": "ordin-1960863",
+      "name": "보은군 폐기물처리시설 설치촉진 및 주변지역 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 보은군",
+      "sig_cd": "43720",
+      "enacted_on": "20240802",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1960863",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.912816,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2031637",
+      "key": "ordin-2031637",
+      "name": "의령군 폐기물처리시설 주변지역지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20250423",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2031637",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.911933,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1093749",
+      "key": "ordin-1093749",
+      "name": "제천시 폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 제천시",
+      "sig_cd": "43150",
+      "enacted_on": "20150605",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1093749",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.911451,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2091595",
+      "key": "ordin-2091595",
+      "name": "계룡시 폐기물 처리시설 설치 주변 영향 지역 지원을 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 계룡시",
+      "sig_cd": "44250",
+      "enacted_on": "20251210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2091595",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.992037,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1905881",
+      "key": "ordin-1905881",
+      "name": "의령군 국민체육센터 관리 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20240207",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1905881",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99191,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1832515",
+      "key": "ordin-1832515",
+      "name": "의령군 교통안전정책심의위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20230705",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1832515",
+      "categories": [
+       "C01",
+       "C08",
+       "C10"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.991809,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1310217",
+      "key": "ordin-1310217",
+      "name": "의령군 도로점용료 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20171108",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1310217",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991704,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1224790",
+      "key": "ordin-1224790",
+      "name": "의령군 학교 밖 청소년 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20160330",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1224790",
+      "categories": [
+       "C05",
+       "C06"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.991627,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1701137",
+      "key": "ordin-1701137",
+      "name": "의령군의회 행정사무감사 및 조사에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20220420",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1701137",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.991191,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1310220",
+      "key": "ordin-1310220",
+      "name": "의령군 건강생활실천협의 및 지역보건의료심의위원회 설치·운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20171108",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1310220",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.991151,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1964545",
+      "key": "ordin-1964545",
+      "name": "의령군 체육시설 관리 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20240828",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1964545",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.991008,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1501975",
+      "key": "ordin-1501975",
+      "name": "의령군 산모·신생아 건강관리 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20200603",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1501975",
+      "categories": [
+       "C04",
+       "C06"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990903,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1532591",
+      "key": "ordin-1532591",
+      "name": "의령군의회장에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20200929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1532591",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990871,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1629159",
+      "key": "ordin-1629159",
+      "name": "의령군 공중화장실 등의 불법촬영 예방 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20210929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1629159",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.995994,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2031637",
+      "key": "ordin-2031637",
+      "name": "의령군 폐기물처리시설 주변지역지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20250423",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2031637",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.993948,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2108365",
+      "key": "ordin-2108365",
+      "name": "의령군 영농폐기물 및 폐농약 수거ㆍ처리 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20260128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2108365",
+      "categories": [
+       "C07",
+       "C12"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.992933,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1306087",
+      "key": "ordin-1306087",
+      "name": "의령군 자원봉사활동 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20171010",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1306087",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991957,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1885025",
+      "key": "ordin-1885025",
+      "name": "의령군 자활기금 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20231220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1885025",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.991662,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1306046",
+      "key": "ordin-1306046",
+      "name": "의령군 청소년육성위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20171010",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1306046",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.991576,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2075685",
+      "key": "ordin-2075685",
+      "name": "의령군 야간관광 활성화 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20251001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2075685",
+      "categories": [
+       "C13",
+       "C04"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.991543,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2108397",
+      "key": "ordin-2108397",
+      "name": "의령군 공영버스터미널 특별회계 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20260128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2108397",
+      "categories": [
+       "C02",
+       "C10"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.99152,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2108375",
+      "key": "ordin-2108375",
+      "name": "의령군 공영버스 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20260128",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2108375",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.991497,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2093313",
+      "key": "ordin-2093313",
+      "name": "의령군 가족문화센터 관리 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20251217",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2093313",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.991383,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2116477",
+      "key": "ordin-2116477",
+      "name": "의령군 농공단지 복합문화센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 의령군",
+      "sig_cd": "48720",
+      "enacted_on": "20260325",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2116477",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2031637",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.954405,
+    "best_rank": 1,
+    "ordinance_id": "ordin:2031637",
+    "key": "ordin-2031637",
+    "name": "의령군 폐기물처리시설 주변지역지원 등에 관한 조례",
+    "region_name": "경상남도 의령군",
+    "sig_cd": "48720",
+    "enacted_on": "20250423",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2031637"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

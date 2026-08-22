@@ -1,0 +1,780 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1007180",
+   "key": "ordin-1007180",
+   "mst": "1007180",
+   "name": "부산광역시 서구 지역치안협의회 설치 및 운영 조례",
+   "ord_kind": "조례",
+   "region_id": "26140",
+   "sig_cd": "26140",
+   "region_name": "부산광역시 서구",
+   "org_name": "부산광역시 서구",
+   "enacted_on": "20101115",
+   "effective_on": "20101115",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 12,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1007180",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.4,
+     "method": "rule"
+    },
+    {
+     "code": "C08",
+     "name": "안전·재난",
+     "confidence": 0.3333,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.957007,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1748525",
+      "key": "ordin-1748525",
+      "name": "대구광역시 서구 지역치안협의회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 서구",
+      "sig_cd": "27170",
+      "enacted_on": "20221110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1748525",
+      "categories": [
+       "C08",
+       "C05",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.933253,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1737147",
+      "key": "ordin-1737147",
+      "name": "부산광역시 서구 지하안전위원회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20221017",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1737147",
+      "categories": [
+       "C08",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.931298,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1799013",
+      "key": "ordin-1799013",
+      "name": "부산광역시 서구 캐릭터 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20230405",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1799013",
+      "categories": [
+       "C09",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.92907,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1737141",
+      "key": "ordin-1737141",
+      "name": "부산광역시 서구 양성평등 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20221017",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1737141",
+      "categories": []
+     },
+     {
+      "rank": 5,
+      "cosine": 0.920861,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1273669",
+      "key": "ordin-1273669",
+      "name": "부산광역시 서구 지명위원회 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20170101",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1273669",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.920836,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2091655",
+      "key": "ordin-2091655",
+      "name": "부산광역시 서구 건축물관리 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20251211",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2091655",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.918186,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1711557",
+      "key": "ordin-1711557",
+      "name": "부산광역시 서구 예산성과금심사위원회 등 구성 및 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20220615",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1711557",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.917703,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1413455",
+      "key": "ordin-1413455",
+      "name": "부산광역시 서구 공론화위원회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20191015",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1413455",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.917078,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2029253",
+      "key": "ordin-2029253",
+      "name": "부산광역시 서구 기부자 예우에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20250415",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2029253",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.917014,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1640761",
+      "key": "ordin-1640761",
+      "name": "부산광역시 서구 위원회 실비 변상 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20211115",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1640761",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.991216,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1979351",
+      "key": "ordin-1979351",
+      "name": "부산광역시 서구 전세사기피해자 지원 및 주거안정에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20241021",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1979351",
+      "categories": [
+       "C02",
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.991147,
+      "stored_rank": null,
+      "ordinance_id": "ordin:997264",
+      "key": "ordin-997264",
+      "name": "부산광역시 서구 통장자녀장학금 지급 조례[제명개정 2013.5.1.]",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20130501",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=997264",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990574,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1189528",
+      "key": "ordin-1189528",
+      "name": "부산광역시 서구 여름철 물놀이 안전관리 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20151001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1189528",
+      "categories": [
+       "C08"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990251,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1727675",
+      "key": "ordin-1727675",
+      "name": "부산광역시 서구 발전소주변지역 지원사업 특별회계 설치 및 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20220915",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1727675",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990181,
+      "stored_rank": null,
+      "ordinance_id": "ordin:969965",
+      "key": "ordin-969965",
+      "name": "부산광역시 서구 성과관리 및 성과평가에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20150401",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=969965",
+      "categories": []
+     },
+     {
+      "rank": 6,
+      "cosine": 0.990152,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1737135",
+      "key": "ordin-1737135",
+      "name": "부산광역시 서구 공동주택 관리 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20221017",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1737135",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990039,
+      "stored_rank": null,
+      "ordinance_id": "ordin:854040",
+      "key": "ordin-854040",
+      "name": "부산광역시 서구 지방공무원 명예퇴직수당 등 지급 규칙[제명개정 2014.12.1]",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20141201",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=854040",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.990024,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1843459",
+      "key": "ordin-1843459",
+      "name": "부산광역시 서구 자치경찰사무 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20230803",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1843459",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989902,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2051711",
+      "key": "ordin-2051711",
+      "name": "부산광역시 서구 포상 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20250701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2051711",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.989779,
+      "stored_rank": null,
+      "ordinance_id": "ordin:958105",
+      "key": "ordin-958105",
+      "name": "부산광역시 서구 안전관리위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20100401",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=958105",
+      "categories": [
+       "C08",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990348,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1288240",
+      "key": "ordin-1288240",
+      "name": "부산광역시 서구 공인 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20170531",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1288240",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99004,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1404682",
+      "key": "ordin-1404682",
+      "name": "부산광역시 서구 계약서 등의  갑ㆍ을 명칭 사용 금지 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20190715",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1404682",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.989997,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1640777",
+      "key": "ordin-1640777",
+      "name": "부산광역시 서구 노래연습장업자 교육에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20211115",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1640777",
+      "categories": [
+       "C05",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.989822,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1675987",
+      "key": "ordin-1675987",
+      "name": "부산광역시 서구의회에서의 증인 등 비용 지급에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20220113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1675987",
+      "categories": [
+       "C01",
+       "C10"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.989791,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1650489",
+      "key": "ordin-1650489",
+      "name": "부산광역시 서구의회 지방공무원 근무 규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20211215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1650489",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.989722,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2029259",
+      "key": "ordin-2029259",
+      "name": "부산광역시 서구 지속가능발전 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20250415",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2029259",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.989625,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1843459",
+      "key": "ordin-1843459",
+      "name": "부산광역시 서구 자치경찰사무 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20230803",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1843459",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989417,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1404681",
+      "key": "ordin-1404681",
+      "name": "부산광역시 서구 생활임금 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20190715",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1404681",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989339,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1189324",
+      "key": "ordin-1189324",
+      "name": "부산광역시 서구 유통분쟁조정위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20151001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1189324",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.989334,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1722919",
+      "key": "ordin-1722919",
+      "name": "부산광역시 서구 공직자윤리위원회 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 서구",
+      "sig_cd": "26140",
+      "enacted_on": "20220816",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1722919",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1843459",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.989824,
+    "best_rank": 7,
+    "ordinance_id": "ordin:1843459",
+    "key": "ordin-1843459",
+    "name": "부산광역시 서구 자치경찰사무 지원 조례",
+    "region_name": "부산광역시 서구",
+    "sig_cd": "26140",
+    "enacted_on": "20230803",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1843459"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

@@ -1,0 +1,750 @@
+{
+ "data": {
+  "region": {
+   "region_id": "48870",
+   "sig_cd": "48870",
+   "name": "함양군",
+   "full_name": "경상남도 함양군",
+   "level": 2
+  },
+  "counts": {
+   "total": 607,
+   "active": 509,
+   "repealed": 98,
+   "by_rr_cls_cd": {
+    "일부개정": 293,
+    "전부개정": 54,
+    "제정": 162,
+    "폐지": 98
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1982,
+    "n": 2
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 5
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 8
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 7
+   },
+   {
+    "year": 2008,
+    "n": 1
+   },
+   {
+    "year": 2009,
+    "n": 7
+   },
+   {
+    "year": 2010,
+    "n": 10
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 20
+   },
+   {
+    "year": 2015,
+    "n": 26
+   },
+   {
+    "year": 2016,
+    "n": 27
+   },
+   {
+    "year": 2017,
+    "n": 10
+   },
+   {
+    "year": 2018,
+    "n": 20
+   },
+   {
+    "year": 2019,
+    "n": 20
+   },
+   {
+    "year": 2020,
+    "n": 53
+   },
+   {
+    "year": 2021,
+    "n": 34
+   },
+   {
+    "year": 2022,
+    "n": 95
+   },
+   {
+    "year": 2023,
+    "n": 79
+   },
+   {
+    "year": 2024,
+    "n": 48
+   },
+   {
+    "year": 2025,
+    "n": 53
+   },
+   {
+    "year": 2026,
+    "n": 57
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 5
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 8
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 7
+   },
+   {
+    "year": 2008,
+    "n": 1
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 10
+   },
+   {
+    "year": 2015,
+    "n": 4
+   },
+   {
+    "year": 2016,
+    "n": 7
+   },
+   {
+    "year": 2017,
+    "n": 3
+   },
+   {
+    "year": 2018,
+    "n": 7
+   },
+   {
+    "year": 2019,
+    "n": 2
+   },
+   {
+    "year": 2020,
+    "n": 3
+   },
+   {
+    "year": 2021,
+    "n": 4
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 2
+   },
+   {
+    "year": 2024,
+    "n": 5
+   },
+   {
+    "year": 2025,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분및과태료부과징수규칙폐지규칙",
+    "display_name": "부동산중개업법 위반자에 대한 행정처분 및 과태료 부과징수규칙 폐지규칙",
+    "rows": 2,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금 지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계 설치 및 운영조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금운용.관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "장수수당지급조례",
+    "display_name": "장수수당 지급조례",
+    "rows": 1,
+    "nationwide_regions": 56
+   },
+   {
+    "policy_key": "지방공무원정원조례",
+    "display_name": "지방공무원 정원 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례시행규칙",
+    "display_name": "주택사업특별회계 설치 및 운영조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "의회포상규칙",
+    "display_name": "의회 포상규칙",
+    "rows": 1,
+    "nationwide_regions": 26
+   },
+   {
+    "policy_key": "농지개량조합구역외농지개량시설관리조례",
+    "display_name": "농지개량조합구역외농지개량시설관리조례",
+    "rows": 1,
+    "nationwide_regions": 25
+   },
+   {
+    "policy_key": "농지관리위원회운영조례",
+    "display_name": "농지관리위원회 운영조례",
+    "rows": 1,
+    "nationwide_regions": 24
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례시행규칙",
+    "display_name": "지방별정직공무원의 임용등에 관한 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 24
+   },
+   {
+    "policy_key": "조례제정및개폐청구에관한조례",
+    "display_name": "조례 제정 및 개폐 청구에 관한조례",
+    "rows": 1,
+    "nationwide_regions": 22
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2050819",
+    "name": "함양군 인재육성기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-01",
+    "repealed_on": "2025-07-01",
+    "repealed_on_raw": "20250701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2050819&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1986683",
+    "name": "함양군 국민체육센터관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-14",
+    "repealed_on": "2024-11-14",
+    "repealed_on_raw": "20241114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1986683&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1986679",
+    "name": "함양군 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-11-14",
+    "repealed_on": "2024-11-14",
+    "repealed_on_raw": "20241114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1986679&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1975975",
+    "name": "함양군 농촌총각 가정이루기 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-02",
+    "repealed_on": "2024-10-02",
+    "repealed_on_raw": "20241002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1975975&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1975971",
+    "name": "함양군 농촌총각 가정이루기 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-10-02",
+    "repealed_on": "2024-10-02",
+    "repealed_on_raw": "20241002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1975971&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1922781",
+    "name": "함양군 택시 기본차령 조정에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-04-17",
+    "repealed_on": "2024-04-17",
+    "repealed_on_raw": "20240417",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1922781&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1834285",
+    "name": "함양군 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-06",
+    "repealed_on": "2023-07-06",
+    "repealed_on_raw": "20230706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1834285&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1808991",
+    "name": "함양군 명예군민증 수여 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-17",
+    "repealed_on": "2023-04-17",
+    "repealed_on_raw": "20230417",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1808991&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1746785",
+    "name": "함양산삼항노화엑스포조직위원회 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-10",
+    "repealed_on": "2022-11-10",
+    "repealed_on_raw": "20221110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1746785&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1704041",
+    "name": "함양군 건강가정지원센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-14",
+    "repealed_on": "2022-04-14",
+    "repealed_on_raw": "20220414",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1704041&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1689545",
+    "name": "함양군 음식판매자동차의 영업장소 등에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-03-10",
+    "repealed_on": "2022-03-10",
+    "repealed_on_raw": "20220310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1689545&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1679769",
+    "name": "함양군 조례 제정 및 개폐 청구에 관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-27",
+    "repealed_on": "2022-01-27",
+    "repealed_on_raw": "20220127",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1679769&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1674765",
+    "name": "함양군 관내 고등학교 학생 학자금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-06",
+    "repealed_on": "2022-01-06",
+    "repealed_on_raw": "20220106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1674765&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1614757",
+    "name": "함양군 국민여가 캠핑장 시설물 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-17",
+    "repealed_on": "2021-06-17",
+    "repealed_on_raw": "20210617",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1614757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1677289",
+    "name": "함양군체육진흥협의회 조직운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-17",
+    "repealed_on": "2021-06-17",
+    "repealed_on_raw": "20210617",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1677289&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1614759",
+    "name": "함양군 국민여가 캠핑장 시설물 관리 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-06-17",
+    "repealed_on": "2021-06-17",
+    "repealed_on_raw": "20210617",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1614759&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1711387",
+    "name": "함양군주택사업특별회계 설치 및 운영조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-03-04",
+    "repealed_on": "2021-03-04",
+    "repealed_on_raw": "20210304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1711387&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1495083",
+    "name": "함양군국제화추진협의회조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-07",
+    "repealed_on": "2020-05-07",
+    "repealed_on_raw": "20200507",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1495083&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1469399",
+    "name": "함양군 탁노소 설치ㆍ운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-01-02",
+    "repealed_on": "2020-01-02",
+    "repealed_on_raw": "20200102",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1469399&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1480851",
+    "name": "함양군의회 포상규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-01-02",
+    "repealed_on": "2020-01-02",
+    "repealed_on_raw": "20200102",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1480851&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1451893",
+    "name": "함양군 사전재해영향성심의위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-10-31",
+    "repealed_on": "2019-10-31",
+    "repealed_on_raw": "20191031",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1451893&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1398351",
+    "name": "함양군 읍ㆍ면 복지위원 정수 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-05",
+    "repealed_on": "2019-06-05",
+    "repealed_on_raw": "20190605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1398351&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1381423",
+    "name": "함양군 국가보훈대상자 예우 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-31",
+    "repealed_on": "2018-12-31",
+    "repealed_on_raw": "20181231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1381423&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1381424",
+    "name": "함양군 참전유공자 지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-31",
+    "repealed_on": "2018-12-31",
+    "repealed_on_raw": "20181231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1381424&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1350397",
+    "name": "함양군 지방공무원 정원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-06-01",
+    "repealed_on": "2018-08-01",
+    "repealed_on_raw": "20180801",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1350397&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1350395",
+    "name": "함양군 행정기구 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-06-01",
+    "repealed_on": "2018-08-01",
+    "repealed_on_raw": "20180801",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1350395&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1350398",
+    "name": "함양군 지방공무원 정원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-06-22",
+    "repealed_on": "2018-08-01",
+    "repealed_on_raw": "20180801",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1350398&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1350396",
+    "name": "함양군 행정기구 설치 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-06-22",
+    "repealed_on": "2018-08-01",
+    "repealed_on_raw": "20180801",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1350396&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1350591",
+    "name": "함양군의회기 및 의원배지에 관한 규정",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-06-21",
+    "repealed_on": "2018-06-21",
+    "repealed_on_raw": "20180621",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1350591&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1333847",
+    "name": "함양군 정기ㆍ임시시장 관리 및 사용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-10-17",
+    "repealed_on": "2017-10-17",
+    "repealed_on_raw": "20171017",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1333847&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1299134",
+    "name": "함양군 도로무단점용자에 대한 과태료 부과 및 징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-07-07",
+    "repealed_on": "2017-07-07",
+    "repealed_on_raw": "20170707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1299134&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1299131",
+    "name": "함양군 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-07-07",
+    "repealed_on": "2017-07-07",
+    "repealed_on_raw": "20170707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1299131&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1285775",
+    "name": "함양군 중소기업 및 소상공인 육성기금 설치 운용조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-12-27",
+    "repealed_on": "2016-12-27",
+    "repealed_on_raw": "20161227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1285775&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1266482",
+    "name": "함양군 도로 무단점용자에 대한 과태료 부과 및 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-11-11",
+    "repealed_on": "2016-11-11",
+    "repealed_on_raw": "20161111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1266482&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1266162",
+    "name": "함양군 중소기업 및 소상공인 육성기금 설치 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-11-11",
+    "repealed_on": "2016-11-11",
+    "repealed_on_raw": "20161111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1266162&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1260504",
+    "name": "함양군 장기미집행 군 계획시설 대지보상특별회계 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-09-27",
+    "repealed_on": "2016-09-27",
+    "repealed_on_raw": "20160927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1260504&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1244448",
+    "name": "함양군주택사업특별회계 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-07-15",
+    "repealed_on": "2016-07-15",
+    "repealed_on_raw": "20160715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1244448&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1236317",
+    "name": "함양군 친환경농업 육성에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-05-30",
+    "repealed_on": "2016-05-30",
+    "repealed_on_raw": "20160530",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1236317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1213741",
+    "name": "함양군 장수수당 지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-01-06",
+    "repealed_on": "2016-01-06",
+    "repealed_on_raw": "20160106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1213741&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1215412",
+    "name": "함양군 식품접객업 시설기준 적용  특례에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-31",
+    "repealed_on": "2015-12-31",
+    "repealed_on_raw": "20151231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1215412&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "48870"
+ ]
+}

@@ -1,0 +1,429 @@
+{
+ "data": {
+  "region": {
+   "region_id": "27200",
+   "sig_cd": "27200",
+   "name": "남구",
+   "full_name": "대구광역시 남구",
+   "level": 2
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 227,
+    "stored_note": "neural_similarity 저장본은 전체 Region 노드 537개(레벨3·비활성 포함)를 후보로 계산됐다. 여기 재계산본은 같은 레벨의 활성 지자체만 후보로 두므로 stored_agreement 가 낮아도 불일치가 아니라 후보집합 차이다.",
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.954695,
+      "stored_rank": 1,
+      "region_id": "31140",
+      "sig_cd": "31140",
+      "name": "울산광역시 남구",
+      "level": 2
+     },
+     {
+      "rank": 2,
+      "cosine": 0.916634,
+      "stored_rank": 2,
+      "region_id": "26290",
+      "sig_cd": "26290",
+      "name": "부산광역시 남구",
+      "level": 2
+     },
+     {
+      "rank": 3,
+      "cosine": 0.855376,
+      "stored_rank": 3,
+      "region_id": "27110",
+      "sig_cd": "27110",
+      "name": "대구광역시 중구",
+      "level": 2
+     },
+     {
+      "rank": 4,
+      "cosine": 0.820377,
+      "stored_rank": 4,
+      "region_id": "31110",
+      "sig_cd": "31110",
+      "name": "울산광역시 중구",
+      "level": 2
+     },
+     {
+      "rank": 5,
+      "cosine": 0.794207,
+      "stored_rank": 5,
+      "region_id": "26110",
+      "sig_cd": "26110",
+      "name": "부산광역시 중구",
+      "level": 2
+     },
+     {
+      "rank": 6,
+      "cosine": 0.7942,
+      "stored_rank": 6,
+      "region_id": "12270",
+      "sig_cd": "12270",
+      "name": "전남광주통합특별시 남구",
+      "level": 2
+     },
+     {
+      "rank": 7,
+      "cosine": 0.78034,
+      "stored_rank": 7,
+      "region_id": "31200",
+      "sig_cd": "31200",
+      "name": "울산광역시 북구",
+      "level": 2
+     },
+     {
+      "rank": 8,
+      "cosine": 0.762592,
+      "stored_rank": 8,
+      "region_id": "30140",
+      "sig_cd": "30140",
+      "name": "대전광역시 중구",
+      "level": 2
+     },
+     {
+      "rank": 9,
+      "cosine": 0.756659,
+      "stored_rank": 9,
+      "region_id": "48860",
+      "sig_cd": "48860",
+      "name": "경상남도 산청군",
+      "level": 2
+     },
+     {
+      "rank": 10,
+      "cosine": 0.749533,
+      "stored_rank": 10,
+      "region_id": "26320",
+      "sig_cd": "26320",
+      "name": "부산광역시 북구",
+      "level": 2
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 227,
+    "stored_note": "neural_similarity 저장본은 전체 Region 노드 537개(레벨3·비활성 포함)를 후보로 계산됐다. 여기 재계산본은 같은 레벨의 활성 지자체만 후보로 두므로 stored_agreement 가 낮아도 불일치가 아니라 후보집합 차이다.",
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.468775,
+      "stored_rank": 3,
+      "region_id": "27170",
+      "sig_cd": "27170",
+      "name": "대구광역시 서구",
+      "level": 2
+     },
+     {
+      "rank": 2,
+      "cosine": 0.461118,
+      "stored_rank": 4,
+      "region_id": "48820",
+      "sig_cd": "48820",
+      "name": "경상남도 고성군",
+      "level": 2
+     },
+     {
+      "rank": 3,
+      "cosine": 0.452268,
+      "stored_rank": 5,
+      "region_id": "44130",
+      "sig_cd": "44130",
+      "name": "충청남도 천안시",
+      "level": 2
+     },
+     {
+      "rank": 4,
+      "cosine": 0.44753,
+      "stored_rank": 6,
+      "region_id": "43750",
+      "sig_cd": "43750",
+      "name": "충청북도 진천군",
+      "level": 2
+     },
+     {
+      "rank": 5,
+      "cosine": 0.445742,
+      "stored_rank": 7,
+      "region_id": "12190",
+      "sig_cd": "12190",
+      "name": "전남광주통합특별시 광양시",
+      "level": 2
+     },
+     {
+      "rank": 6,
+      "cosine": 0.434678,
+      "stored_rank": 8,
+      "region_id": "12270",
+      "sig_cd": "12270",
+      "name": "전남광주통합특별시 남구",
+      "level": 2
+     },
+     {
+      "rank": 7,
+      "cosine": 0.43461,
+      "stored_rank": 9,
+      "region_id": "41150",
+      "sig_cd": "41150",
+      "name": "경기도 의정부시",
+      "level": 2
+     },
+     {
+      "rank": 8,
+      "cosine": 0.422645,
+      "stored_rank": 10,
+      "region_id": "26470",
+      "sig_cd": "26470",
+      "name": "부산광역시 연제구",
+      "level": 2
+     },
+     {
+      "rank": 9,
+      "cosine": 0.407783,
+      "stored_rank": null,
+      "region_id": "28155",
+      "sig_cd": "28155",
+      "name": "인천광역시 영종구",
+      "level": 2
+     },
+     {
+      "rank": 10,
+      "cosine": 0.404879,
+      "stored_rank": null,
+      "region_id": "11305",
+      "sig_cd": "11305",
+      "name": "서울특별시 강북구",
+      "level": 2
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 8,
+    "stored_agreement": 0.8
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 227,
+    "stored_note": "neural_similarity 저장본은 전체 Region 노드 537개(레벨3·비활성 포함)를 후보로 계산됐다. 여기 재계산본은 같은 레벨의 활성 지자체만 후보로 두므로 stored_agreement 가 낮아도 불일치가 아니라 후보집합 차이다.",
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.537306,
+      "stored_rank": 1,
+      "region_id": "27260",
+      "sig_cd": "27260",
+      "name": "대구광역시 수성구",
+      "level": 2
+     },
+     {
+      "rank": 2,
+      "cosine": 0.512728,
+      "stored_rank": 2,
+      "region_id": "27290",
+      "sig_cd": "27290",
+      "name": "대구광역시 달서구",
+      "level": 2
+     },
+     {
+      "rank": 3,
+      "cosine": 0.476021,
+      "stored_rank": 3,
+      "region_id": "27710",
+      "sig_cd": "27710",
+      "name": "대구광역시 달성군",
+      "level": 2
+     },
+     {
+      "rank": 4,
+      "cosine": 0.452518,
+      "stored_rank": 4,
+      "region_id": "27110",
+      "sig_cd": "27110",
+      "name": "대구광역시 중구",
+      "level": 2
+     },
+     {
+      "rank": 5,
+      "cosine": 0.402924,
+      "stored_rank": null,
+      "region_id": "11305",
+      "sig_cd": "11305",
+      "name": "서울특별시 강북구",
+      "level": 2
+     },
+     {
+      "rank": 6,
+      "cosine": 0.401454,
+      "stored_rank": null,
+      "region_id": "51210",
+      "sig_cd": "51210",
+      "name": "강원특별자치도 속초시",
+      "level": 2
+     },
+     {
+      "rank": 7,
+      "cosine": 0.399793,
+      "stored_rank": null,
+      "region_id": "26290",
+      "sig_cd": "26290",
+      "name": "부산광역시 남구",
+      "level": 2
+     },
+     {
+      "rank": 8,
+      "cosine": 0.396402,
+      "stored_rank": null,
+      "region_id": "26470",
+      "sig_cd": "26470",
+      "name": "부산광역시 연제구",
+      "level": 2
+     },
+     {
+      "rank": 9,
+      "cosine": 0.390515,
+      "stored_rank": null,
+      "region_id": "47730",
+      "sig_cd": "47730",
+      "name": "경상북도 의성군",
+      "level": 2
+     },
+     {
+      "rank": 10,
+      "cosine": 0.382969,
+      "stored_rank": null,
+      "region_id": "41590",
+      "sig_cd": "41590",
+      "name": "경기도 화성시",
+      "level": 2
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 4,
+    "stored_agreement": 0.4
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 2,
+    "jaccard": 0.1111,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 2,
+    "jaccard": 0.1111,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "region:26290",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.658214,
+    "best_rank": 2,
+    "region_id": "26290",
+    "sig_cd": "26290",
+    "name": "남구",
+    "full_name": "부산광역시 남구",
+    "level": 2
+   },
+   {
+    "node_id": "region:27110",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.653947,
+    "best_rank": 3,
+    "region_id": "27110",
+    "sig_cd": "27110",
+    "name": "중구",
+    "full_name": "대구광역시 중구",
+    "level": 2
+   },
+   {
+    "node_id": "region:11305",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.403902,
+    "best_rank": 5,
+    "region_id": "11305",
+    "sig_cd": "11305",
+    "name": "강북구",
+    "full_name": "서울특별시 강북구",
+    "level": 2
+   },
+   {
+    "node_id": "region:12270",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.614439,
+    "best_rank": 6,
+    "region_id": "12270",
+    "sig_cd": "12270",
+    "name": "남구",
+    "full_name": "전남광주통합특별시 남구",
+    "level": 2
+   },
+   {
+    "node_id": "region:26470",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.409523,
+    "best_rank": 8,
+    "region_id": "26470",
+    "sig_cd": "26470",
+    "name": "연제구",
+    "full_name": "부산광역시 연제구",
+    "level": 2
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "candidate_restriction": "같은 level(2) · status=active · has_legislation=1 지자체로 제한",
+   "note": "지역특성(analytics.peers)의 유사지자체와는 다른 축이다. 이쪽은 그래프 구조(조례·예산·인접·분류 연결)를 학습한 임베딩이다."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

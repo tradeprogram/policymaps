@@ -1,0 +1,784 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1006536",
+   "key": "ordin-1006536",
+   "mst": "1006536",
+   "name": "함평군소도읍육성지원조례",
+   "ord_kind": "조례",
+   "region_id": "12820",
+   "sig_cd": "12820",
+   "region_name": "전남광주통합특별시 함평군",
+   "org_name": "전남광주통합특별시 함평군",
+   "enacted_on": "20041230",
+   "effective_on": "20041230",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 2,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1006536",
+   "categories": [
+    {
+     "code": "C09",
+     "name": "도시·건축·주택",
+     "confidence": 0.625,
+     "method": "rule"
+    },
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.906182,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1620485",
+      "key": "ordin-1620485",
+      "name": "함평군 긴급재난지원금 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20210809",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1620485",
+      "categories": [
+       "C08",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.882312,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1180809",
+      "key": "ordin-1180809",
+      "name": "함평군 긴급지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20150731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1180809",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.880257,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1213913",
+      "key": "ordin-1213913",
+      "name": "함평군 저소득계층 자녀 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20151229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1213913",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.871157,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2095601",
+      "key": "ordin-2095601",
+      "name": "함평군 돌봄 통합지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20251222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2095601",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.867651,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1922015",
+      "key": "ordin-1922015",
+      "name": "함평군 실종자 발생 예방 및 조기 발견 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20240419",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1922015",
+      "categories": [
+       "C03",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.866118,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2155683",
+      "key": "ordin-2155683",
+      "name": "함평군 사회재난 구호 및 복구 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20260731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2155683",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.861852,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2155689",
+      "key": "ordin-2155689",
+      "name": "함평군 도시재생 활성화 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20260731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2155689",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.857941,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2155763",
+      "key": "ordin-2155763",
+      "name": "함평군 주택용 소방시설 설치 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20260731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2155763",
+      "categories": [
+       "C08",
+       "C03"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.857579,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1303532",
+      "key": "ordin-1303532",
+      "name": "함평군 문화예술진흥에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20170928",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1303532",
+      "categories": [
+       "C13",
+       "C09"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.855063,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2155723",
+      "key": "ordin-2155723",
+      "name": "함평군 발달장애인 권리보호 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20260731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2155723",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.987592,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1353179",
+      "key": "ordin-1353179",
+      "name": "함평군 군세 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20210719",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1353179",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.986641,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1620485",
+      "key": "ordin-1620485",
+      "name": "함평군 긴급재난지원금 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20210809",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1620485",
+      "categories": [
+       "C08",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.986166,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2155755",
+      "key": "ordin-2155755",
+      "name": "함평군의회 의원 상해보상 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20260731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2155755",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.986138,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1592095",
+      "key": "ordin-1592095",
+      "name": "함평군 토양 및 농산물 안전성 분석에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20210426",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1592095",
+      "categories": [
+       "C12",
+       "C08"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.986,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2151865",
+      "key": "ordin-2151865",
+      "name": "함평군 지방세 세무조사 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20260715",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2151865",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.985764,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2032539",
+      "key": "ordin-2032539",
+      "name": "함평군 결산검사위원 선임 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20250423",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2032539",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.985744,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1665749",
+      "key": "ordin-1665749",
+      "name": "함평군의회에서의 증인 등 비용지급에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20220104",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1665749",
+      "categories": [
+       "C01",
+       "C10"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.985633,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1769733",
+      "key": "ordin-1769733",
+      "name": "함평군청소년위원회 운영 및 청소년지도위원 위촉등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20221229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1769733",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.985616,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1629019",
+      "key": "ordin-1629019",
+      "name": "함평군 공용차량의 공익활동 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20210929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1629019",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.985557,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1617385",
+      "key": "ordin-1617385",
+      "name": "함평군 병역명문가 예우 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20210719",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1617385",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.996432,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1631561",
+      "key": "ordin-1631561",
+      "name": "함평군 수도 급수 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20210823",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1631561",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.995876,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1505695",
+      "key": "ordin-1505695",
+      "name": "함평군 재난현장 통합자원봉사지원단 구성 및 운영 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20200617",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1505695",
+      "categories": [
+       "C08"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.995829,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1877123",
+      "key": "ordin-1877123",
+      "name": "함평군 안전문화운동 추진협의회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20230927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1877123",
+      "categories": [
+       "C08",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.995802,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1975035",
+      "key": "ordin-1975035",
+      "name": "함평군 고독사 예방 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20240930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1975035",
+      "categories": []
+     },
+     {
+      "rank": 5,
+      "cosine": 0.995763,
+      "stored_rank": null,
+      "ordinance_id": "ordin:836405",
+      "key": "ordin-836405",
+      "name": "함평군보등발간에관한조례시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "19950628",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=836405",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.995657,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1808731",
+      "key": "ordin-1808731",
+      "name": "함평군 농산물 통합마케팅 전문조직 육성 및 활성화 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20230504",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1808731",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.995611,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2155695",
+      "key": "ordin-2155695",
+      "name": "함평군 화재 피해주민 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20260731",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2155695",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.995444,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1766715",
+      "key": "ordin-1766715",
+      "name": "함평군 농어민 공익수당 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20221229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1766715",
+      "categories": [
+       "C12",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.99539,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1371868",
+      "key": "ordin-1371868",
+      "name": "함평군 체육시설 관리운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20181130",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1371868",
+      "categories": [
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.995358,
+      "stored_rank": null,
+      "ordinance_id": "ordin:863603",
+      "key": "ordin-863603",
+      "name": "함평군농기계이동수리소설치및운영조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 함평군",
+      "sig_cd": "12820",
+      "enacted_on": "20060912",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=863603",
+      "categories": [
+       "C12",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1620485",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.946411,
+    "best_rank": 1,
+    "ordinance_id": "ordin:1620485",
+    "key": "ordin-1620485",
+    "name": "함평군 긴급재난지원금 지원 조례",
+    "region_name": "전남광주통합특별시 함평군",
+    "sig_cd": "12820",
+    "enacted_on": "20210809",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1620485"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

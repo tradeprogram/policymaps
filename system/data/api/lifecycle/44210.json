@@ -1,0 +1,694 @@
+{
+ "data": {
+  "region": {
+   "region_id": "44210",
+   "sig_cd": "44210",
+   "name": "서산시",
+   "full_name": "충청남도 서산시",
+   "level": 2
+  },
+  "counts": {
+   "total": 927,
+   "active": 797,
+   "repealed": 130,
+   "by_rr_cls_cd": {
+    "일부개정": 499,
+    "전부개정": 22,
+    "제정": 276,
+    "폐지": 130
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1995,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 21
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 12
+   },
+   {
+    "year": 2012,
+    "n": 11
+   },
+   {
+    "year": 2013,
+    "n": 10
+   },
+   {
+    "year": 2014,
+    "n": 10
+   },
+   {
+    "year": 2015,
+    "n": 40
+   },
+   {
+    "year": 2016,
+    "n": 22
+   },
+   {
+    "year": 2017,
+    "n": 32
+   },
+   {
+    "year": 2018,
+    "n": 32
+   },
+   {
+    "year": 2019,
+    "n": 55
+   },
+   {
+    "year": 2020,
+    "n": 77
+   },
+   {
+    "year": 2021,
+    "n": 100
+   },
+   {
+    "year": 2022,
+    "n": 86
+   },
+   {
+    "year": 2023,
+    "n": 104
+   },
+   {
+    "year": 2024,
+    "n": 129
+   },
+   {
+    "year": 2025,
+    "n": 103
+   },
+   {
+    "year": 2026,
+    "n": 65
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 16
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 4
+   },
+   {
+    "year": 2012,
+    "n": 4
+   },
+   {
+    "year": 2013,
+    "n": 9
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 11
+   },
+   {
+    "year": 2016,
+    "n": 1
+   },
+   {
+    "year": 2017,
+    "n": 3
+   },
+   {
+    "year": 2018,
+    "n": 4
+   },
+   {
+    "year": 2019,
+    "n": 17
+   },
+   {
+    "year": 2020,
+    "n": 13
+   },
+   {
+    "year": 2021,
+    "n": 6
+   },
+   {
+    "year": 2022,
+    "n": 8
+   },
+   {
+    "year": 2023,
+    "n": 3
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2025,
+    "n": 4
+   },
+   {
+    "year": 2026,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과 · 징수 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "주민의조례제정및개폐청구에관한조례",
+    "display_name": "주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "재정운영상황의공개조례시행규칙",
+    "display_name": "재정운영상황의공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2119039",
+    "name": "서산시 학교급식지원센터 특별회계 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-03",
+    "repealed_on": "2026-04-03",
+    "repealed_on_raw": "20260403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119039&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2119037",
+    "name": "서산시 학교급식 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-03",
+    "repealed_on": "2026-04-03",
+    "repealed_on_raw": "20260403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119037&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2113257",
+    "name": "서산시 밭 농업 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-02-27",
+    "repealed_on": "2026-02-27",
+    "repealed_on_raw": "20260227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2113257&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2090931",
+    "name": "서산시 거동불편 노인 성인용 보행기 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-10",
+    "repealed_on": "2025-12-10",
+    "repealed_on_raw": "20251210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2090931&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2090893",
+    "name": "서산시 중소기업 및 소상공인 육성기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-10",
+    "repealed_on": "2025-12-10",
+    "repealed_on_raw": "20251210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2090893&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2024347",
+    "name": "서산시 농어촌총각 국제결혼 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-25",
+    "repealed_on": "2025-03-25",
+    "repealed_on_raw": "20250325",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2024347&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2024343",
+    "name": "서산시 농업ㆍ농촌 혁신발전위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-25",
+    "repealed_on": "2025-03-25",
+    "repealed_on_raw": "20250325",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2024343&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1984123",
+    "name": "서산시상수도사업특별회계조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-11",
+    "repealed_on": "2024-11-11",
+    "repealed_on_raw": "20241111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1984123&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1984113",
+    "name": "서산시 청사입지 선정위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-11",
+    "repealed_on": "2024-11-11",
+    "repealed_on_raw": "20241111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1984113&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1920533",
+    "name": "서산시 평생학습 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-04-11",
+    "repealed_on": "2024-04-11",
+    "repealed_on_raw": "20240411",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1920533&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1872459",
+    "name": "서산시 기반시설특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872459&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1834085",
+    "name": "서산시 중증장애인 자립생활지원센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-10",
+    "repealed_on": "2023-07-10",
+    "repealed_on_raw": "20230710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1834085&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1814727",
+    "name": "서산시 지방공무원 당직수당 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-31",
+    "repealed_on": "2023-05-31",
+    "repealed_on_raw": "20230531",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1814727&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1738755",
+    "name": "서산시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-19",
+    "repealed_on": "2022-10-19",
+    "repealed_on_raw": "20221019",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1738755&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1701023",
+    "name": "서산시 여성장애인 출산지원금 및 양육비 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-20",
+    "repealed_on": "2022-04-20",
+    "repealed_on_raw": "20220420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1701023&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1701025",
+    "name": "서산시 장애인보장구 수리비 지원 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-20",
+    "repealed_on": "2022-04-20",
+    "repealed_on_raw": "20220420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1701025&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1701027",
+    "name": "서산시 장애인 복지시설 및 단체 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-20",
+    "repealed_on": "2022-04-20",
+    "repealed_on_raw": "20220420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1701027&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1701029",
+    "name": "서산시 장애인복지위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-20",
+    "repealed_on": "2022-04-20",
+    "repealed_on_raw": "20220420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1701029&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1701017",
+    "name": "서산시 중소기업 및 소상공인 육성기금 설치 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-20",
+    "repealed_on": "2022-04-20",
+    "repealed_on_raw": "20220420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1701017&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1688441",
+    "name": "서산시 주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-04",
+    "repealed_on": "2022-03-04",
+    "repealed_on_raw": "20220304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1688441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1645895",
+    "name": "서산시의회 사무직원 추천 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-10",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1645895&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1636521",
+    "name": "서산시 갑·을 명칭 지양 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-01",
+    "repealed_on": "2021-11-01",
+    "repealed_on_raw": "20211101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1636521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1627629",
+    "name": "서산시 밭 농업 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-27",
+    "repealed_on": "2021-09-27",
+    "repealed_on_raw": "20210927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627629&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1627633",
+    "name": "서산시 시민안전 청구 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-27",
+    "repealed_on": "2021-09-27",
+    "repealed_on_raw": "20210927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627633&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1627617",
+    "name": "서산시 영세노점상 전업자금 융자알선 및 이자보조금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-27",
+    "repealed_on": "2021-09-27",
+    "repealed_on_raw": "20210927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627617&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1572125",
+    "name": "서산시 저소득주민 자녀 교복구입비 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-01-25",
+    "repealed_on": "2021-01-25",
+    "repealed_on_raw": "20210125",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1572125&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1551099",
+    "name": "서산시 금연지도원 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-10",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1551099&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1551043",
+    "name": "서산시 지방별정직공무원의 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-10",
+    "repealed_on": "2020-12-10",
+    "repealed_on_raw": "20201210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1551043&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1551095",
+    "name": "서산시 환경지킴이상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-10",
+    "repealed_on": "2020-12-10",
+    "repealed_on_raw": "20201210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1551095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530351",
+    "name": "서산시 건강도시위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-25",
+    "repealed_on": "2020-09-25",
+    "repealed_on_raw": "20200925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530351&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530403",
+    "name": "서산시 아동복지심의위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-25",
+    "repealed_on": "2020-09-25",
+    "repealed_on_raw": "20200925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530403&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530415",
+    "name": "서산시 아동ㆍ청소년 보호 및 활동 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-25",
+    "repealed_on": "2020-09-25",
+    "repealed_on_raw": "20200925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530415&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530399",
+    "name": "서산시 어린이보호차량 인증에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-25",
+    "repealed_on": "2020-09-25",
+    "repealed_on_raw": "20200925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530399&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530319",
+    "name": "서산시 청소년육성위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-25",
+    "repealed_on": "2020-09-25",
+    "repealed_on_raw": "20200925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530319&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530321",
+    "name": "서산시 청소년지도위원 위촉에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-25",
+    "repealed_on": "2020-09-25",
+    "repealed_on_raw": "20200925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530381",
+    "name": "서산시 청소년 칭찬 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-25",
+    "repealed_on": "2020-09-25",
+    "repealed_on_raw": "20200925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530381&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530353",
+    "name": "서산시 공중보건을 위한 장학금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-09-25",
+    "repealed_on": "2020-09-25",
+    "repealed_on_raw": "20200925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530353&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1499265",
+    "name": "서산시 공중보건을 위한 장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-29",
+    "repealed_on": "2020-05-29",
+    "repealed_on_raw": "20200529",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1499265&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1499289",
+    "name": "서산시 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-29",
+    "repealed_on": "2020-05-29",
+    "repealed_on_raw": "20200529",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1499289&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1477973",
+    "name": "서산시 저소득주민자녀 장학금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-03-10",
+    "repealed_on": "2020-03-10",
+    "repealed_on_raw": "20200310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1477973&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "44210"
+ ]
+}

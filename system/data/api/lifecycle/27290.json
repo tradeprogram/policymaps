@@ -1,0 +1,670 @@
+{
+ "data": {
+  "region": {
+   "region_id": "27290",
+   "sig_cd": "27290",
+   "name": "달서구",
+   "full_name": "대구광역시 달서구",
+   "level": 2
+  },
+  "counts": {
+   "total": 646,
+   "active": 586,
+   "repealed": 60,
+   "by_rr_cls_cd": {
+    "일부개정": 354,
+    "전부개정": 21,
+    "제정": 211,
+    "폐지": 60
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 6
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 9
+   },
+   {
+    "year": 2013,
+    "n": 9
+   },
+   {
+    "year": 2014,
+    "n": 19
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 19
+   },
+   {
+    "year": 2017,
+    "n": 11
+   },
+   {
+    "year": 2018,
+    "n": 10
+   },
+   {
+    "year": 2019,
+    "n": 19
+   },
+   {
+    "year": 2020,
+    "n": 35
+   },
+   {
+    "year": 2021,
+    "n": 87
+   },
+   {
+    "year": 2022,
+    "n": 65
+   },
+   {
+    "year": 2023,
+    "n": 108
+   },
+   {
+    "year": 2024,
+    "n": 85
+   },
+   {
+    "year": 2025,
+    "n": 119
+   },
+   {
+    "year": 2026,
+    "n": 24
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 6
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 3
+   },
+   {
+    "year": 2016,
+    "n": 2
+   },
+   {
+    "year": 2017,
+    "n": 1
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 2
+   },
+   {
+    "year": 2020,
+    "n": 1
+   },
+   {
+    "year": 2021,
+    "n": 4
+   },
+   {
+    "year": 2022,
+    "n": 8
+   },
+   {
+    "year": 2023,
+    "n": 6
+   },
+   {
+    "year": 2024,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직·운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수규칙",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수 규칙",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "제안규칙",
+    "display_name": "제안 규칙",
+    "rows": 1,
+    "nationwide_regions": 53
+   },
+   {
+    "policy_key": "지방별정직공무원의임용자격기준에관한규칙",
+    "display_name": "지방별정직공무원의 임용자격기준에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례시행규칙",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 42
+   },
+   {
+    "policy_key": "관용심사위원회의설치및운영에관한규칙",
+    "display_name": "관용심사위원회의 설치 및 운영에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운용조례",
+    "display_name": "기반시설특별회계 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "소송사건수행증인등의실비변상조례",
+    "display_name": "소송사건 수행증인 등의 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:1990921",
+    "name": "대구광역시달서구 새마을운동조직 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-11",
+    "repealed_on": "2024-12-11",
+    "repealed_on_raw": "20241211",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1990921&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1978185",
+    "name": "대구광역시달서구 주거환경개선사업특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-21",
+    "repealed_on": "2024-10-21",
+    "repealed_on_raw": "20241021",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1978185&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1847171",
+    "name": "대구광역시달서구 교복나눔운동 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-08-11",
+    "repealed_on": "2023-08-11",
+    "repealed_on_raw": "20230811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1847171&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1829865",
+    "name": "대구광역시달서구 기반시설특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-03",
+    "repealed_on": "2023-07-03",
+    "repealed_on_raw": "20230703",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1829865&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1829845",
+    "name": "대구광역시달서구 유통분쟁조정위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-03",
+    "repealed_on": "2023-07-03",
+    "repealed_on_raw": "20230703",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1829845&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1795513",
+    "name": "대구광역시달서구 저소득주민 긴급보호지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-03",
+    "repealed_on": "2023-04-03",
+    "repealed_on_raw": "20230403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1795513&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1795525",
+    "name": "대구광역시달서구 저소득주민 긴급보호지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-03",
+    "repealed_on": "2023-04-03",
+    "repealed_on_raw": "20230403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1795525&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1795523",
+    "name": "대구광역시달서구 주민투표에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-03",
+    "repealed_on": "2023-04-03",
+    "repealed_on_raw": "20230403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1795523&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1742349",
+    "name": "대구광역시달서구 청소년공부방 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-01",
+    "repealed_on": "2022-11-01",
+    "repealed_on_raw": "20221101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1742349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1742353",
+    "name": "대구광역시달서구 청소년공부방 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-01",
+    "repealed_on": "2022-11-01",
+    "repealed_on_raw": "20221101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1742353&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1701447",
+    "name": "대구광역시달서구 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-21",
+    "repealed_on": "2022-07-01",
+    "repealed_on_raw": "20220701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1701447&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1691853",
+    "name": "대구광역시달서구 의회사무국 사무직원 추천 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-21",
+    "repealed_on": "2022-03-21",
+    "repealed_on_raw": "20220321",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1691853&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1659683",
+    "name": "대구광역시달서구 주민의 조례제정과 개폐청구 연서 주민수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1659683&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1646361",
+    "name": "대구광역시달서구 기금운용심의위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-13",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1646361&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1626039",
+    "name": "대구광역시달서구 주민소득지원 및 생활안정기금 운영·관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626039&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1626041",
+    "name": "대구광역시달서구 주민소득지원 및 생활안정기금 운영·관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-09-23",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626041&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1659713",
+    "name": "대구광역시달서구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1659713&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1613225",
+    "name": "대구광역시달서구 보증채무 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-12",
+    "repealed_on": "2021-07-12",
+    "repealed_on_raw": "20210712",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1613225&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1613231",
+    "name": "대구광역시달서구 새마을이동도서관 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-12",
+    "repealed_on": "2021-07-12",
+    "repealed_on_raw": "20210712",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1613231&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1592023",
+    "name": "대구광역시달서구 의회 의원연구단체 구성 및 지원 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-04-29",
+    "repealed_on": "2021-04-29",
+    "repealed_on_raw": "20210429",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1592023&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1547917",
+    "name": "대구광역시달서구 깨친맛음식점 지정 및 육성 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-23",
+    "repealed_on": "2020-11-23",
+    "repealed_on_raw": "20201123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1439785",
+    "name": "대구광역시달서구 지방공무원 임용후보자 장학 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-12-31",
+    "repealed_on": "2019-12-31",
+    "repealed_on_raw": "20191231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1439785&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1409620",
+    "name": "대구광역시달서구 사전재해영향성검토위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-09-23",
+    "repealed_on": "2019-09-23",
+    "repealed_on_raw": "20190923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1409620&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1378392",
+    "name": "대구광역시달서구 학술연구용역 관리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-12-31",
+    "repealed_on": "2018-12-31",
+    "repealed_on_raw": "20181231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1378392&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1277659",
+    "name": "대구광역시달서구 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-02-13",
+    "repealed_on": "2017-02-13",
+    "repealed_on_raw": "20170213",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1277659&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1266050",
+    "name": "대구광역시달서구 임대주택분쟁조정위원회 구성·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-01",
+    "repealed_on": "2016-12-01",
+    "repealed_on_raw": "20161201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1266050&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1266049",
+    "name": "대구광역시달서구 폐기물관련과태료 부과·징수업무에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-01",
+    "repealed_on": "2016-12-01",
+    "repealed_on_raw": "20161201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1266049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1203840",
+    "name": "대구광역시달서구 공립어린이집 설치·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-01",
+    "repealed_on": "2015-12-01",
+    "repealed_on_raw": "20151201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1203840&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1017697",
+    "name": "대구광역시달서구 사회단체보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-24",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1017697&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1017695",
+    "name": "대구광역시달서구 지방재정계획심의위원회 설치·운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2014-12-24",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1017695&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:937978",
+    "name": "대구광역시달서구 의회 의정 자문에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-01",
+    "repealed_on": "2014-12-01",
+    "repealed_on_raw": "20141201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=937978&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:965957",
+    "name": "대구광역시달서구 지방별정직공무원의 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-04-11",
+    "repealed_on": "2014-04-11",
+    "repealed_on_raw": "20140411",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=965957&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:990227",
+    "name": "대구광역시달서구 지방계약직공무원 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2014-02-21",
+    "repealed_on": "2014-02-21",
+    "repealed_on_raw": "20140221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=990227&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1041363",
+    "name": "대구광역시달서구 제안 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2014-01-21",
+    "repealed_on": "2014-01-21",
+    "repealed_on_raw": "20140121",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1041363&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:957899",
+    "name": "대구광역시달서구 복권 및 복권기금법 위반자에 대한 과태료 부과·징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-09-23",
+    "repealed_on": "2013-09-23",
+    "repealed_on_raw": "20130923",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=957899&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:912246",
+    "name": "대구광역시달서구 장애인재활 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-07-22",
+    "repealed_on": "2013-07-22",
+    "repealed_on_raw": "20130722",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=912246&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:768473",
+    "name": "대구광역시달서구 체육진흥협의회 조직·운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-07-22",
+    "repealed_on": "2013-07-22",
+    "repealed_on_raw": "20130722",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=768473&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1176506",
+    "name": "대구광역시달서구 장애인재활 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-07-22",
+    "repealed_on": "2013-07-22",
+    "repealed_on_raw": "20130722",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1176506&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:869819",
+    "name": "대구광역시달서구 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-03-04",
+    "repealed_on": "2013-03-04",
+    "repealed_on_raw": "20130304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=869819&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:866164",
+    "name": "대구광역시달서구 옥외광고물 등 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-03-04",
+    "repealed_on": "2013-03-04",
+    "repealed_on_raw": "20130304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=866164&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "27290"
+ ]
+}

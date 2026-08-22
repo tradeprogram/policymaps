@@ -1,0 +1,746 @@
+{
+ "data": {
+  "region": {
+   "region_id": "48330",
+   "sig_cd": "48330",
+   "name": "양산시",
+   "full_name": "경상남도 양산시",
+   "level": 2
+  },
+  "counts": {
+   "total": 818,
+   "active": 660,
+   "repealed": 158,
+   "by_rr_cls_cd": {
+    "일부개정": 426,
+    "전부개정": 19,
+    "제정": 215,
+    "폐지": 158
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1998,
+    "n": 9
+   },
+   {
+    "year": 1999,
+    "n": 18
+   },
+   {
+    "year": 2001,
+    "n": 4
+   },
+   {
+    "year": 2002,
+    "n": 12
+   },
+   {
+    "year": 2003,
+    "n": 4
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 10
+   },
+   {
+    "year": 2009,
+    "n": 8
+   },
+   {
+    "year": 2010,
+    "n": 13
+   },
+   {
+    "year": 2011,
+    "n": 11
+   },
+   {
+    "year": 2012,
+    "n": 9
+   },
+   {
+    "year": 2013,
+    "n": 11
+   },
+   {
+    "year": 2014,
+    "n": 16
+   },
+   {
+    "year": 2015,
+    "n": 22
+   },
+   {
+    "year": 2016,
+    "n": 15
+   },
+   {
+    "year": 2017,
+    "n": 21
+   },
+   {
+    "year": 2018,
+    "n": 24
+   },
+   {
+    "year": 2019,
+    "n": 30
+   },
+   {
+    "year": 2020,
+    "n": 44
+   },
+   {
+    "year": 2021,
+    "n": 55
+   },
+   {
+    "year": 2022,
+    "n": 45
+   },
+   {
+    "year": 2023,
+    "n": 111
+   },
+   {
+    "year": 2024,
+    "n": 127
+   },
+   {
+    "year": 2025,
+    "n": 141
+   },
+   {
+    "year": 2026,
+    "n": 49
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1998,
+    "n": 9
+   },
+   {
+    "year": 1999,
+    "n": 18
+   },
+   {
+    "year": 2001,
+    "n": 4
+   },
+   {
+    "year": 2002,
+    "n": 12
+   },
+   {
+    "year": 2003,
+    "n": 4
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 9
+   },
+   {
+    "year": 2011,
+    "n": 10
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 5
+   },
+   {
+    "year": 2015,
+    "n": 9
+   },
+   {
+    "year": 2016,
+    "n": 1
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 3
+   },
+   {
+    "year": 2019,
+    "n": 3
+   },
+   {
+    "year": 2020,
+    "n": 9
+   },
+   {
+    "year": 2021,
+    "n": 6
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 9
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2025,
+    "n": 3
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성 검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료부과 징수조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료부과 징수조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원임용후보자 장학규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금 지급조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금 지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계 설치 및 운영조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2118705",
+    "name": "양산시 문화축전 추진위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-02",
+    "repealed_on": "2026-04-02",
+    "repealed_on_raw": "20260402",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2118705&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2091571",
+    "name": "양산시 빗물관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-11",
+    "repealed_on": "2025-12-11",
+    "repealed_on_raw": "20251211",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2091571&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2050725",
+    "name": "양산시 어린이 안전 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-03",
+    "repealed_on": "2025-07-03",
+    "repealed_on_raw": "20250703",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2050725&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2015445",
+    "name": "양산시 금고지정 및 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-02-13",
+    "repealed_on": "2025-02-13",
+    "repealed_on_raw": "20250213",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2015445&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1996191",
+    "name": "양산시 재난취약계층 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-19",
+    "repealed_on": "2024-12-19",
+    "repealed_on_raw": "20241219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1996191&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1996173",
+    "name": "양산시 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-19",
+    "repealed_on": "2024-12-19",
+    "repealed_on_raw": "20241219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1996173&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1996171",
+    "name": "양산시 주민자치회 시범실시 및 설치ㆍ운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-19",
+    "repealed_on": "2024-12-19",
+    "repealed_on_raw": "20241219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1996171&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1884989",
+    "name": "양산시 국제화추진협의회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-19",
+    "repealed_on": "2023-12-19",
+    "repealed_on_raw": "20231219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884989&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1884969",
+    "name": "양산시 지방공기업 적용대상사업 기준에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-19",
+    "repealed_on": "2023-12-19",
+    "repealed_on_raw": "20231219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884969&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1884983",
+    "name": "양산시 체육기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-19",
+    "repealed_on": "2023-12-19",
+    "repealed_on_raw": "20231219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884983&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1884975",
+    "name": "양산시 항노화산업 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-19",
+    "repealed_on": "2023-12-19",
+    "repealed_on_raw": "20231219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1884975&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1831219",
+    "name": "양산시 지속가능발전협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-03",
+    "repealed_on": "2023-07-03",
+    "repealed_on_raw": "20230703",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1831219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1830409",
+    "name": "양산시 청년기본소득 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-03",
+    "repealed_on": "2023-07-03",
+    "repealed_on_raw": "20230703",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1830409&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1817581",
+    "name": "양산시 여성인재학당 운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-06-08",
+    "repealed_on": "2023-06-08",
+    "repealed_on_raw": "20230608",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1817581&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1794113",
+    "name": "양산시 남북교류협력에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-30",
+    "repealed_on": "2023-03-30",
+    "repealed_on_raw": "20230330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1794113&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1757183",
+    "name": "양산시 장애인복지기금 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-15",
+    "repealed_on": "2023-01-01",
+    "repealed_on_raw": "20230101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1757183&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1757155",
+    "name": "양산시 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-15",
+    "repealed_on": "2022-12-15",
+    "repealed_on_raw": "20221215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1757155&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1751573",
+    "name": "양산시 읍·면·동민원사무의 출장소 내부위임 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-29",
+    "repealed_on": "2022-11-29",
+    "repealed_on_raw": "20221129",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1751573&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1721761",
+    "name": "양산시 공론화위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-11",
+    "repealed_on": "2022-08-11",
+    "repealed_on_raw": "20220811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1721761&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1721759",
+    "name": "양산시 정책참여 행복위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-11",
+    "repealed_on": "2022-08-11",
+    "repealed_on_raw": "20220811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1721759&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1648227",
+    "name": "양산시 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-16",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648227&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1648299",
+    "name": "양산시 충렬사지편찬위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-16",
+    "repealed_on": "2021-12-16",
+    "repealed_on_raw": "20211216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648299&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1648329",
+    "name": "양산시 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-16",
+    "repealed_on": "2021-12-16",
+    "repealed_on_raw": "20211216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648329&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1611973",
+    "name": "양산시 식품접객업 옥외영업 시설기준 적용특례 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-07-08",
+    "repealed_on": "2021-07-08",
+    "repealed_on_raw": "20210708",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1611973&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1584585",
+    "name": "양산시 상권 활성화를 위한 특화거리(단지) 지정 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-04-01",
+    "repealed_on": "2021-04-01",
+    "repealed_on_raw": "20210401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1584585&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1584565",
+    "name": "양산시 휠체어택시 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-04-01",
+    "repealed_on": "2021-04-01",
+    "repealed_on_raw": "20210401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1584565&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1584567",
+    "name": "양산시 휠체어택시 운영조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-04-01",
+    "repealed_on": "2021-04-01",
+    "repealed_on_raw": "20210401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1584567&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1557545",
+    "name": "양산시 정책실명제 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-24",
+    "repealed_on": "2020-12-24",
+    "repealed_on_raw": "20201224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1557545&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1542529",
+    "name": "양산시 통합관리기금 설치 및 운용조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-05",
+    "repealed_on": "2020-11-05",
+    "repealed_on_raw": "20201105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1542529&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1528221",
+    "name": "양산시 재정안정화기금 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-17",
+    "repealed_on": "2020-09-17",
+    "repealed_on_raw": "20200917",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1528221&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1528197",
+    "name": "양산시 통합관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-17",
+    "repealed_on": "2020-09-17",
+    "repealed_on_raw": "20200917",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1528197&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1526365",
+    "name": "양산시 지방재정투자사업 심사규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-09-03",
+    "repealed_on": "2020-09-03",
+    "repealed_on_raw": "20200903",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1526365&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1514565",
+    "name": "양산시 지방재정공시심의위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-09",
+    "repealed_on": "2020-07-09",
+    "repealed_on_raw": "20200709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1514565&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1481257",
+    "name": "양산시지방채상환기금설치및운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-03-26",
+    "repealed_on": "2020-03-26",
+    "repealed_on_raw": "20200326",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1481257&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1481595",
+    "name": "양산시 취약계층 주택의 소방시설 설치 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-03-26",
+    "repealed_on": "2020-03-26",
+    "repealed_on_raw": "20200326",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1481595&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1481269",
+    "name": "양산시 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-03-26",
+    "repealed_on": "2020-03-26",
+    "repealed_on_raw": "20200326",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1481269&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1401025",
+    "name": "양산시 사전재해영향성 검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-07-01",
+    "repealed_on": "2019-07-01",
+    "repealed_on_raw": "20190701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401025&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1392943",
+    "name": "양산시 사회적기업 육성에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-05-02",
+    "repealed_on": "2019-05-02",
+    "repealed_on_raw": "20190502",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1392943&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1392946",
+    "name": "양산시 협동조합 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-05-02",
+    "repealed_on": "2019-05-02",
+    "repealed_on_raw": "20190502",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1392946&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1376548",
+    "name": "양산시 체육진흥협의회 조직에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1376548&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "48330"
+ ]
+}

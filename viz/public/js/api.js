@@ -8,7 +8,7 @@
  *      실데이터에서는 MCP 서버가 계산해야 하는 값이라 정적 번들에 없다 -> notAvailable 로 떨어진다.
  */
 import { DATA_BASE, DATA_SOURCES, GEO_URL, ADM_DONG_GEO_URL, LIMITS, CATEGORY_FALLBACK,
-         API_SHARDS, PICKER_LEVELS, SIDO_FALLBACK } from "./config.js";
+         API_SHARDS, EXTRA_CATALOGS, PICKER_LEVELS, SIDO_FALLBACK } from "./config.js";
 import { mapLimit } from "./util.js";
 
 /** ?src=real|mock 로 임시 전환 가능 */
@@ -502,15 +502,34 @@ function normCatalogEntry(x, kind, api) {
   return { key: String(key), label: String(label), paths: uniq, file: uniq[0], meta: x };
 }
 
-/** 확산 템플릿 / 의안 / 질의 목록. 색인이 없으면 빈 배열 → 화면은 단일 fixture 로 동작. */
+/**
+ * 확산 템플릿 / 의안 / 질의 목록. 색인이 없으면 빈 배열 → 화면은 단일 fixture 로 동작.
+ *
+ * 소스가 둘이다.
+ *   1) api/index.json          — make_nationwide.py (표결 15 · 검색 5)
+ *   2) config.EXTRA_CATALOGS   — make_extend_fixtures.py (표결 149 · 검색 40)
+ * 둘을 key 로 합친다. 앞선 소스가 우선이고, 확장 색인이 없으면 조용히 1)만 쓴다.
+ */
 export async function loadCatalog(kind) {
   const api = await loadApiIndex();
-  if (!api) return [];
   const out = [];
   const seen = new Set();
-  for (const raw of pickList(api, kind)) {
-    const e = normCatalogEntry(raw, kind, api);
+  const push = (raw, idx) => {
+    const e = normCatalogEntry(raw, kind, idx);
     if (e && !seen.has(e.key)) { seen.add(e.key); out.push(e); }
+  };
+
+  if (api) for (const raw of pickList(api, kind)) push(raw, api);
+
+  const extra = EXTRA_CATALOGS[kind];
+  if (extra) {
+    try {
+      const env = await getJSON(extra.path);
+      const body = (env && env.data) || env || {};
+      for (const listKey of extra.lists) for (const raw of asArray(body[listKey])) push(raw, null);
+    } catch (e) {
+      if (!(e instanceof DataMissingError)) throw e;   // 없으면 확장 색인만 건너뛴다
+    }
   }
   return out;
 }

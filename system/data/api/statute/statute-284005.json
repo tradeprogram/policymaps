@@ -1,0 +1,865 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:284005",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "지방자치법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2026-03-05",
+   "effective_on": "20260701",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=284005&type=HTML&mobileYn=&efYd=20260701",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 6381,
+   "child_ordinances": 5690,
+   "by_verification_status": {
+    "article-missing": 4108,
+    "article-verified": 1848,
+    "unverifiable": 425
+   },
+   "by_delegation_type": {
+    "law-delegated": 6381
+   },
+   "regions_top": [
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 64
+    },
+    {
+     "region_id": "11",
+     "name": "서울특별시",
+     "ordinances": 61
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 45
+    },
+    {
+     "region_id": "41190",
+     "name": "경기도 부천시",
+     "ordinances": 43
+    },
+    {
+     "region_id": "26",
+     "name": "부산광역시",
+     "ordinances": 42
+    },
+    {
+     "region_id": "36",
+     "name": "세종특별자치시",
+     "ordinances": 41
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 41
+    },
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 38
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 38
+    },
+    {
+     "region_id": "31",
+     "name": "울산광역시",
+     "ordinances": 36
+    },
+    {
+     "region_id": "11590",
+     "name": "서울특별시 동작구",
+     "ordinances": 36
+    },
+    {
+     "region_id": "44770",
+     "name": "충청남도 서천군",
+     "ordinances": 33
+    },
+    {
+     "region_id": "44",
+     "name": "충청남도",
+     "ordinances": 33
+    },
+    {
+     "region_id": "12130",
+     "name": "전남광주통합특별시 여수시",
+     "ordinances": 33
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 32
+    },
+    {
+     "region_id": "12110",
+     "name": "전남광주통합특별시 목포시",
+     "ordinances": 31
+    },
+    {
+     "region_id": "52180",
+     "name": "전북특별자치도 정읍시",
+     "ordinances": 30
+    },
+    {
+     "region_id": "51780",
+     "name": "강원특별자치도 철원군",
+     "ordinances": 30
+    },
+    {
+     "region_id": "48120",
+     "name": "경상남도 창원시",
+     "ordinances": 30
+    },
+    {
+     "region_id": "47190",
+     "name": "경상북도 구미시",
+     "ordinances": 30
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "지방자치단체의 종류",
+    "body": "① 지방자치단체는 다음의 두 가지 종류로 구분한다. <개정 2026.3.5>\n1.  특별시, 통합특별시, 광역시, 특별자치시, 도, 특별자치도\n2.  시, 군, 구\n② 지방자치단체인 구(이하 \"자치구\"라 한다)는 특별시, 통합특별시 및 광역시의 관할 구역의 구만을 말하며, 자치구의 자치권의 범위는 법령으로 정하는 바에 따",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제2조"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "지방자치단체의 기관구성 형태의 특례",
+    "body": "① 지방자치단체의 의회(이하 \"지방의회\"라 한다)와 집행기관에 관한 이 법의 규정에도 불구하고 따로 법률로 정하는 바에 따라 지방자치단체의 장의 선임방법을 포함한 지방자치단체의 기관구성 형태를 달리 할 수 있다.\n② 제1항에 따라 지방의회와 집행기관의 구성을 달리하려는 경우에는 「주민투표법」에 따른 주민투표를 거쳐야 한다",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제4조"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "지방자치단체의 명칭과 구역",
+    "body": "① 지방자치단체의 명칭과 구역은 종전과 같이 하고, 명칭과 구역을 바꾸거나 지방자치단체를 폐지하거나 설치하거나 나누거나 합칠 때에는 법률로 정한다.\n② 제1항에도 불구하고 지방자치단체의 구역변경 중 관할 구역 경계변경(이하 \"경계변경\"이라 한다)과 지방자치단체의 한자 명칭의 변경은 대통령령으로 정한다. 이 경우 경계변경의",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제5조"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "지방자치단체의 관할 구역 경계변경 등",
+    "body": "① 지방자치단체의 장은 관할 구역과 생활권과의 불일치 등으로 인하여 주민생활에 불편이 큰 경우 등 대통령령으로 정하는 사유가 있는 경우에는 행정안전부장관에게 경계변경이 필요한 지역 등을 명시하여 경계변경에 대한 조정을 신청할 수 있다. 이 경우 지방자치단체의 장은 지방의회 재적의원 과반수의 출석과 출석의원 3분의 2 이상",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제6조"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "구역의 변경 또는 폐지ㆍ설치ㆍ분리ㆍ합병 시의 사무와 재산의 승계",
+    "body": "① 지방자치단체의 구역을 변경하거나 지방자치단체를 폐지하거나 설치하거나 나누거나 합칠 때에는 새로 그 지역을 관할하게 된 지방자치단체가 그 사무와 재산을 승계한다.\n② 제1항의 경우에 지역으로 지방자치단체의 사무와 재산을 구분하기 곤란하면 시ㆍ도에서는 행정안전부장관이, 시ㆍ군 및 자치구에서는 특별시장ㆍ통합특별시장ㆍ광역시장",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제8조"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "사무배분의 기본원칙",
+    "body": "① 국가는 지방자치단체가 사무를 종합적ㆍ자율적으로 수행할 수 있도록 국가와 지방자치단체 간 또는 지방자치단체 상호 간의 사무를 주민의 편익증진, 집행의 효과 등을 고려하여 서로 중복되지 아니하도록 배분하여야 한다.\n② 국가는 제1항에 따라 사무를 배분하는 경우 지역주민생활과 밀접한 관련이 있는 사무는 원칙적으로 시ㆍ군 및",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제11조"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "지방자치단체의 종류별 사무배분기준",
+    "body": "① 제13조에 따른 지방자치단체의 사무를 지방자치단체의 종류별로 배분하는 기준은 다음 각 호와 같다. 다만, 제13조제2항제1호의 사무는 각 지방자치단체에 공통된 사무로 한다.\n1.  시ㆍ도\n가.  행정처리 결과가 2개 이상의 시ㆍ군 및 자치구에 미치는 광역적 사무\n나.  시ㆍ도 단위로 동일한 기준에 따라 처리되어야 할 ",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제14조"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "주민투표",
+    "body": "① 지방자치단체의 장은 주민에게 과도한 부담을 주거나 중대한 영향을 미치는 지방자치단체의 주요 결정사항 등에 대하여 주민투표에 부칠 수 있다.\n② 주민투표의 대상ㆍ발의자ㆍ발의요건, 그 밖에 투표절차 등에 관한 사항은 따로 법률로 정한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제18조"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "주민의 감사 청구",
+    "body": "① 지방자치단체의 18세 이상의 주민으로서 다음 각 호의 어느 하나에 해당하는 사람(「공직선거법」 제18조에 따른 선거권이 없는 사람은 제외한다. 이하 이 조에서 \"18세 이상의 주민\"이라 한다)은 시ㆍ도는 300명, 제198조에 따른 인구 50만 이상 대도시는 200명, 그 밖의 시ㆍ군 및 자치구는 150명 이내에서 그",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제21조"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "주민소송",
+    "body": "① 제21조제1항에 따라 공금의 지출에 관한 사항, 재산의 취득ㆍ관리ㆍ처분에 관한 사항, 해당 지방자치단체를 당사자로 하는 매매ㆍ임차ㆍ도급 계약이나 그 밖의 계약의 체결ㆍ이행에 관한 사항 또는 지방세ㆍ사용료ㆍ수수료ㆍ과태료 등 공금의 부과ㆍ징수를 게을리한 사항을 감사 청구한 주민은 다음 각 호의 어느 하나에 해당하는 경우에",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제22조"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "손해배상금 등의 지급청구 등",
+    "body": "① 지방자치단체의 장(해당 사항의 사무처리에 관한 권한을 소속 기관의 장에게 위임한 경우에는 그 소속 기관의 장을 말한다. 이하 이 조에서 같다)은 제22조제2항제4호 본문에 따른 소송에 대하여 손해배상청구나 부당이득반환청구를 명하는 판결이 확정되면 판결이 확정된 날부터 60일 이내를 기한으로 하여 당사자에게 그 판결에 ",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제23조"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "변상명령 등",
+    "body": "① 지방자치단체의 장은 제22조제2항제4호 단서에 따른 소송에 대하여 변상할 것을 명하는 판결이 확정되면 판결이 확정된 날부터 60일 이내를 기한으로 하여 당사자에게 그 판결에 따라 결정된 금액을 변상할 것을 명령하여야 한다.\n② 제1항에 따라 변상할 것을 명령받은 자가 같은 항의 기한까지 변상금을 지급하지 아니하면 지방",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제24조"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "조례",
+    "body": "① 지방자치단체는 법령의 범위에서 그 사무에 관하여 조례를 제정할 수 있다. 다만, 주민의 권리 제한 또는 의무 부과에 관한 사항이나 벌칙을 정할 때에는 법률의 위임이 있어야 한다.\n② 법령에서 조례로 정하도록 위임한 사항은 그 법령의 하위 법령에서 그 위임의 내용과 범위를 제한하거나 직접 규정할 수 없다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제28조"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "규칙",
+    "body": "지방자치단체의 장은 법령 또는 조례의 범위에서 그 권한에 속하는 사무에 관하여 규칙을 제정할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제29조"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "조례와 규칙의 입법한계",
+    "body": "시ㆍ군 및 자치구의 조례나 규칙은 시ㆍ도의 조례나 규칙을 위반해서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제30조"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "조례와 규칙의 제정 절차 등",
+    "body": "① 조례안이 지방의회에서 의결되면 지방의회의 의장은 의결된 날부터 5일 이내에 그 지방자치단체의 장에게 이송하여야 한다.\n② 지방자치단체의 장은 제1항의 조례안을 이송받으면 20일 이내에 공포하여야 한다.\n③ 지방자치단체의 장은 이송받은 조례안에 대하여 이의가 있으면 제2항의 기간에 이유를 붙여 지방의회로 환부(還付)하고",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제32조"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "조례와 규칙의 공포 방법 등",
+    "body": "① 조례와 규칙의 공포는 해당 지방자치단체의 공보에 게재하는 방법으로 한다. 다만, 제32조제6항 후단에 따라 지방의회의 의장이 조례를 공포하는 경우에는 공보나 일간신문에 게재하거나 게시판에 게시한다.\n② 제1항에 따른 공보는 종이로 발행되는 공보(이하 이 조에서 \"종이공보\"라 한다) 또는 전자적인 형태로 발행되는 공보(",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제33조"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "보고",
+    "body": "조례나 규칙을 제정하거나 개정하거나 폐지할 경우 조례는 지방의회에서 이송된 날부터 5일 이내에, 규칙은 공포 예정일 15일 전에 시ㆍ도지사는 행정안전부장관에게, 시장ㆍ군수 및 자치구의 구청장은 시ㆍ도지사에게 그 전문(全文)을 첨부하여 각각 보고하여야 하며, 보고를 받은 행정안전부장관은 그 내용을 관계 중앙행정기관의 장에게",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제35조"
+   },
+   {
+    "article_no": "41",
+    "article_branch": null,
+    "title": "의원의 정책지원 전문인력",
+    "body": "① 지방의회의원의 의정활동을 지원하기 위하여 지방의회의원 정수의 2분의 1 범위에서 해당 지방자치단체의 조례로 정하는 바에 따라 지방의회에 정책지원 전문인력을 둘 수 있다.\n② 정책지원 전문인력은 지방공무원으로 보하며, 직급ㆍ직무 및 임용절차 등 운영에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제41조"
+   },
+   {
+    "article_no": "47",
+    "article_branch": null,
+    "title": "지방의회의 의결사항",
+    "body": "① 지방의회는 다음 각 호의 사항을 의결한다.\n1.  조례의 제정ㆍ개정 및 폐지\n2.  예산의 심의ㆍ확정\n3.  결산의 승인\n4.  법령에 규정된 것을 제외한 사용료ㆍ수수료ㆍ분담금ㆍ지방세 또는 가입금의 부과와 징수\n5.  기금의 설치ㆍ운용\n6.  대통령령으로 정하는 중요 재산의 취득ㆍ처분\n7.  대통령령으로 정하는 공공시",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제47조"
+   },
+   {
+    "article_no": "49",
+    "article_branch": null,
+    "title": "행정사무 감사권 및 조사권",
+    "body": "① 지방의회는 매년 1회 그 지방자치단체의 사무에 대하여 시ㆍ도에서는 14일의 범위에서, 시ㆍ군 및 자치구에서는 9일의 범위에서 감사를 실시하고, 지방자치단체의 사무 중 특정 사안에 관하여 본회의 의결로 본회의나 위원회에서 조사하게 할 수 있다.\n② 제1항의 조사를 발의할 때에는 이유를 밝힌 서면으로 하여야 하며, 재적의",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제49조"
+   },
+   {
+    "article_no": "53",
+    "article_branch": null,
+    "title": "정례회",
+    "body": "① 지방의회는 매년 2회 정례회를 개최한다.\n② 정례회의 집회일, 그 밖에 정례회 운영에 필요한 사항은 해당 지방자치단체의 조례로 정한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제53조"
+   },
+   {
+    "article_no": "54",
+    "article_branch": null,
+    "title": "임시회",
+    "body": "① 지방의회의원 총선거 후 최초로 집회되는 임시회는 지방의회 사무처장ㆍ사무국장ㆍ사무과장이 지방의회의원 임기 개시일부터 25일 이내에 소집한다.\n② 지방자치단체를 폐지하거나 설치하거나 나누거나 합쳐 새로운 지방자치단체가 설치된 경우에 최초의 임시회는 지방의회 사무처장ㆍ사무국장ㆍ사무과장이 해당 지방자치단체가 설치되는 날에 소",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제54조"
+   },
+   {
+    "article_no": "57",
+    "article_branch": null,
+    "title": "의장ㆍ부의장의 선거와 임기",
+    "body": "① 지방의회는 지방의회의원 중에서 시ㆍ도의 경우 의장 1명과 부의장 2명을, 시ㆍ군 및 자치구의 경우 의장과 부의장 각 1명을 무기명투표로 선출하여야 한다.\n② 지방의회의원 총선거 후 처음으로 선출하는 의장ㆍ부의장 선거는 최초집회일에 실시한다.\n③ 의장과 부의장의 임기는 2년으로 한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제57조"
+   },
+   {
+    "article_no": "64",
+    "article_branch": null,
+    "title": "위원회의 설치",
+    "body": "① 지방의회는 조례로 정하는 바에 따라 위원회를 둘 수 있다.\n② 위원회의 종류는 다음 각 호와 같다.\n1.  소관 의안(議案)과 청원 등을 심사ㆍ처리하는 상임위원회\n2.  특정한 안건을 심사ㆍ처리하는 특별위원회\n③ 위원회의 위원은 본회의에서 선임한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제64조"
+   },
+   {
+    "article_no": "67",
+    "article_branch": null,
+    "title": "위원회의 권한",
+    "body": "위원회는 그 소관에 속하는 의안과 청원 등 또는 지방의회가 위임한 특정한 안건을 심사한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제67조"
+   },
+   {
+    "article_no": "68",
+    "article_branch": null,
+    "title": "전문위원",
+    "body": "① 위원회에는 위원장과 위원의 자치입법활동을 지원하기 위하여 지방의회의원이 아닌 전문지식을 가진 위원(이하 \"전문위원\"이라 한다)을 둔다.\n② 전문위원은 위원회에서 의안과 청원 등의 심사, 행정사무감사 및 조사, 그 밖의 소관 사항과 관련하여 검토보고 및 관련 자료의 수집ㆍ조사ㆍ연구를 한다.\n③ 위원회에 두는 전문위원의 ",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제68조"
+   },
+   {
+    "article_no": "72",
+    "article_branch": null,
+    "title": "의사정족수",
+    "body": "① 지방의회는 재적의원 3분의 1 이상의 출석으로 개의(開議)한다.\n② 회의 참석 인원이 제1항의 정족수에 미치지 못할 때에는 지방의회의 의장은 회의를 중지하거나 산회(散會)를 선포한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제72조"
+   },
+   {
+    "article_no": "73",
+    "article_branch": null,
+    "title": "의결정족수",
+    "body": "① 회의는 이 법에 특별히 규정된 경우 외에는 재적의원 과반수의 출석과 출석의원 과반수의 찬성으로 의결한다.\n② 지방의회의 의장은 의결에서 표결권을 가지며, 찬성과 반대가 같으면 부결된 것으로 본다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제73조"
+   },
+   {
+    "article_no": "74",
+    "article_branch": null,
+    "title": "표결방법",
+    "body": "1.  제57조에 따른 의장ㆍ부의장 선거\n2.  제60조에 따른 임시의장 선출\n3.  제62조에 따른 의장ㆍ부의장 불신임 의결\n4.  제92조에 따른 자격상실 의결\n5.  제100조에 따른 징계 의결\n6.  제32조, 제120조 또는 제121조, 제192조에 따른 재의 요구에 관한 의결\n7.  그 밖에 지방의회에서 하는 ",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제74조"
+   },
+   {
+    "article_no": "75",
+    "article_branch": null,
+    "title": "회의의 공개 등",
+    "body": "① 지방의회의 회의는 공개한다. 다만, 지방의회의원 3명 이상이 발의하고 출석의원 3분의 2 이상이 찬성한 경우 또는 지방의회의 의장이 사회의 안녕질서 유지를 위하여 필요하다고 인정하는 경우에는 공개하지 아니할 수 있다.\n② 지방의회의 의장은 공개된 회의의 방청 허가를 받은 장애인에게 정당한 편의를 제공하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제75조"
+   },
+   {
+    "article_no": "76",
+    "article_branch": null,
+    "title": "의안의 발의",
+    "body": "① 지방의회에서 의결할 의안은 지방자치단체의 장이나 조례로 정하는 수 이상의 지방의회의원의 찬성으로 발의한다.\n② 위원회는 그 직무에 속하는 사항에 관하여 의안을 제출할 수 있다.\n③ 제1항 및 제2항의 의안은 그 안을 갖추어 지방의회의 의장에게 제출하여야 한다.\n④ 제1항에 따라 지방의회의원이 조례안을 발의하는 경우에는",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제76조"
+   },
+   {
+    "article_no": "81",
+    "article_branch": null,
+    "title": "위원회에서 폐기된 의안",
+    "body": "① 위원회에서 본회의에 부칠 필요가 없다고 결정된 의안은 본회의에 부칠 수 없다. 다만, 위원회의 결정이 본회의에 보고된 날부터 폐회나 휴회 중의 기간을 제외한 7일 이내에 지방의회의 의장이나 재적의원 3분의 1 이상이 요구하면 그 의안을 본회의에 부쳐야 한다.\n② 제1항 단서의 요구가 없으면 그 의안은 폐기된다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제81조"
+   },
+   {
+    "article_no": "84",
+    "article_branch": null,
+    "title": "회의록",
+    "body": "① 지방의회는 회의록을 작성하고 회의의 진행내용 및 결과와 출석의원의 성명을 적어야 한다.\n② 회의록에는 지방의회의 의장과 지방의회에서 선출한 지방의회의원 2명 이상이 서명하여야 한다.\n③ 지방의회의 의장은 회의록 사본을 첨부하여 회의 결과를 그 지방자치단체의 장에게 알려야 한다.\n④ 지방의회의 의장은 회의록을 지방의회의",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제84조"
+   },
+   {
+    "article_no": "85",
+    "article_branch": null,
+    "title": "청원서의 제출",
+    "body": "① 지방의회에 청원을 하려는 자는 지방의회의원의 소개를 받아 청원서를 제출하여야 한다.\n② 청원서에는 청원자의 성명(법인인 경우에는 그 명칭과 대표자의 성명을 말한다) 및 주소를 적고 서명ㆍ날인하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제85조"
+   },
+   {
+    "article_no": "87",
+    "article_branch": null,
+    "title": "청원의 심사ㆍ처리",
+    "body": "① 지방의회의 의장은 청원서를 접수하면 소관 위원회나 본회의에 회부하여 심사를 하게 한다.\n② 청원을 소개한 지방의회의원은 소관 위원회나 본회의가 요구하면 청원의 취지를 설명하여야 한다.\n③ 위원회가 청원을 심사하여 본회의에 부칠 필요가 없다고 결정하면 그 처리 결과를 지방의회의 의장에게 보고하고, 지방의회의 의장은 청원",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제87조"
+   },
+   {
+    "article_no": "115",
+    "article_branch": null,
+    "title": "국가사무의 위임",
+    "body": "시ㆍ도와 시ㆍ군 및 자치구에서 시행하는 국가사무는 시ㆍ도지사와 시장ㆍ군수 및 자치구의 구청장에게 위임하여 수행하는 것을 원칙으로 한다. 다만, 법령에 다른 규정이 있는 경우에는 그러하지 아니하다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제115조"
+   },
+   {
+    "article_no": "116",
+    "article_branch": null,
+    "title": "사무의 관리 및 집행권",
+    "body": "지방자치단체의 장은 그 지방자치단체의 사무와 법령에 따라 그 지방자치단체의 장에게 위임된 사무를 관리하고 집행한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제116조"
+   },
+   {
+    "article_no": "117",
+    "article_branch": null,
+    "title": "사무의 위임 등",
+    "body": "① 지방자치단체의 장은 조례나 규칙으로 정하는 바에 따라 그 권한에 속하는 사무의 일부를 보조기관, 소속 행정기관 또는 하부행정기관에 위임할 수 있다.\n② 지방자치단체의 장은 조례나 규칙으로 정하는 바에 따라 그 권한에 속하는 사무의 일부를 관할 지방자치단체나 공공단체 또는 그 기관(사업소ㆍ출장소를 포함한다)에 위임하거나",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제117조"
+   },
+   {
+    "article_no": "120",
+    "article_branch": null,
+    "title": "지방의회의 의결에 대한 재의 요구와 제소",
+    "body": "① 지방자치단체의 장은 지방의회의 의결이 월권이거나 법령에 위반되거나 공익을 현저히 해친다고 인정되면 그 의결사항을 이송받은 날부터 20일 이내에 이유를 붙여 재의를 요구할 수 있다.\n② 제1항의 요구에 대하여 재의한 결과 재적의원 과반수의 출석과 출석의원 3분의 2 이상의 찬성으로 전과 같은 의결을 하면 그 의결사항은 ",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제120조"
+   },
+   {
+    "article_no": "121",
+    "article_branch": null,
+    "title": "예산상 집행 불가능한 의결의 재의 요구",
+    "body": "① 지방자치단체의 장은 지방의회의 의결이 예산상 집행할 수 없는 경비를 포함하고 있다고 인정되면 그 의결사항을 이송받은 날부터 20일 이내에 이유를 붙여 재의를 요구할 수 있다.\n② 지방의회가 다음 각 호의 어느 하나에 해당하는 경비를 줄이는 의결을 할 때에도 제1항과 같다.\n1.  법령에 따라 지방자치단체에서 의무적으로",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제121조"
+   },
+   {
+    "article_no": "125",
+    "article_branch": null,
+    "title": "행정기구와 공무원",
+    "body": "① 지방자치단체는 그 사무를 분장하기 위하여 필요한 행정기구와 지방공무원을 둔다.\n② 제1항에 따른 행정기구의 설치와 지방공무원의 정원은 인건비 등 대통령령으로 정하는 기준에 따라 그 지방자치단체의 조례로 정한다.\n③ 행정안전부장관은 지방자치단체의 행정기구와 지방공무원의 정원이 적절하게 운영되고 다른 지방자치단체와의 균형",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제125조"
+   },
+   {
+    "article_no": "126",
+    "article_branch": null,
+    "title": "직속기관",
+    "body": "지방자치단체는 소관 사무의 범위에서 필요하면 대통령령이나 대통령령으로 정하는 범위에서 그 지방자치단체의 조례로 자치경찰기관(제주특별자치도만 해당한다), 소방기관, 교육훈련기관, 보건진료기관, 시험연구기관 및 중소기업지도기관 등을 직속기관으로 설치할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제126조"
+   },
+   {
+    "article_no": "127",
+    "article_branch": null,
+    "title": "사업소",
+    "body": "지방자치단체는 특정 업무를 효율적으로 수행하기 위하여 필요하면 대통령령으로 정하는 범위에서 그 지방자치단체의 조례로 사업소를 설치할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제127조"
+   },
+   {
+    "article_no": "139",
+    "article_branch": null,
+    "title": "지방채무 및 지방채권의 관리",
+    "body": "① 지방자치단체의 장이나 지방자치단체조합은 따로 법률로 정하는 바에 따라 지방채를 발행할 수 있다.\n② 지방자치단체의 장은 따로 법률로 정하는 바에 따라 지방자치단체의 채무부담의 원인이 될 계약의 체결이나 그 밖의 행위를 할 수 있다.\n③ 지방자치단체의 장은 공익을 위하여 필요하다고 인정하면 미리 지방의회의 의결을 받아 ",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제139조"
+   },
+   {
+    "article_no": "142",
+    "article_branch": null,
+    "title": "예산의 편성 및 의결",
+    "body": "① 지방자치단체의 장은 회계연도마다 예산안을 편성하여 시ㆍ도는 회계연도 시작 50일 전까지, 시ㆍ군 및 자치구는 회계연도 시작 40일 전까지 지방의회에 제출하여야 한다.\n② 시ㆍ도의회는 제1항의 예산안을 회계연도 시작 15일 전까지, 시ㆍ군 및 자치구의회는 회계연도 시작 10일 전까지 의결하여야 한다.\n③ 지방의회는 지방",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제142조"
+   },
+   {
+    "article_no": "149",
+    "article_branch": null,
+    "title": "예산의 이송ㆍ고시 등",
+    "body": "① 지방의회의 의장은 예산안이 의결되면 그날부터 3일 이내에 지방자치단체의 장에게 이송하여야 한다.\n② 지방자치단체의 장은 제1항에 따라 예산을 이송받으면 지체 없이 시ㆍ도에서는 행정안전부장관에게, 시ㆍ군 및 자치구에서는 시ㆍ도지사에게 각각 보고하고, 그 내용을 고시하여야 한다. 다만, 제121조에 따른 재의 요구를 할 ",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제149조"
+   },
+   {
+    "article_no": "168",
+    "article_branch": null,
+    "title": "사무의 위탁",
+    "body": "① 지방자치단체나 그 장은 소관 사무의 일부를 다른 지방자치단체나 그 장에게 위탁하여 처리하게 할 수 있다.\n② 지방자치단체나 그 장은 제1항에 따라 사무를 위탁하려면 관계 지방자치단체와의 협의에 따라 규약을 정하여 고시하여야 한다.\n③ 제2항의 사무위탁에 관한 규약에는 다음 각 호의 사항이 포함되어야 한다.\n1.  사무",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제168조"
+   },
+   {
+    "article_no": "185",
+    "article_branch": null,
+    "title": "국가사무나 시ㆍ도 사무 처리의 지도ㆍ감독",
+    "body": "① 지방자치단체나 그 장이 위임받아 처리하는 국가사무에 관하여 시ㆍ도에서는 주무부장관, 시ㆍ군 및 자치구에서는 1차로 시ㆍ도지사, 2차로 주무부장관의 지도ㆍ감독을 받는다.\n② 시ㆍ군 및 자치구나 그 장이 위임받아 처리하는 시ㆍ도의 사무에 관하여는 시ㆍ도지사의 지도ㆍ감독을 받는다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제185조"
+   },
+   {
+    "article_no": "192",
+    "article_branch": null,
+    "title": "지방의회 의결의 재의와 제소",
+    "body": "① 지방의회의 의결이 법령에 위반되거나 공익을 현저히 해친다고 판단되면 시ㆍ도에 대해서는 주무부장관이, 시ㆍ군 및 자치구에 대해서는 시ㆍ도지사가 해당 지방자치단체의 장에게 재의를 요구하게 할 수 있고, 재의 요구 지시를 받은 지방자치단체의 장은 의결사항을 이송받은 날부터 20일 이내에 지방의회에 이유를 붙여 재의를 요구하",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제192조"
+   },
+   {
+    "article_no": "197",
+    "article_branch": null,
+    "title": "특례의 인정",
+    "body": "① 서울특별시의 지위ㆍ조직 및 운영에 대해서는 수도로서의 특수성을 고려하여 법률로 정하는 바에 따라 특례를 둘 수 있다.\n② 세종특별자치시와 제주특별자치도의 지위ㆍ조직 및 행정ㆍ재정 등의 운영에 대해서는 행정체제의 특수성을 고려하여 법률로 정하는 바에 따라 특례를 둘 수 있다.\n③ 전남광주통합특별시의 지위ㆍ조직 및 행정ㆍ",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제197조"
+   },
+   {
+    "article_no": "198",
+    "article_branch": null,
+    "title": "대도시 등에 대한 특례 인정",
+    "body": "① 제2조제1항제2호에 따른 시 중 인구 50만 이상 대도시의 행정, 재정 운영 및 국가의 지도ㆍ감독에 대해서는 그 특성을 고려하여 관계 법률로 정하는 바에 따라 특례를 둘 수 있다. <개정 2026.3.5>\n② 제1항에도 불구하고 서울특별시ㆍ통합특별시ㆍ광역시 및 특별자치시를 제외한 다음 각 호의 어느 하나에 해당하는 대",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제198조"
+   },
+   {
+    "article_no": "199",
+    "article_branch": null,
+    "title": "설치",
+    "body": "① 2개 이상의 지방자치단체가 공동으로 특정한 목적을 위하여 광역적으로 사무를 처리할 필요가 있을 때에는 특별지방자치단체를 설치할 수 있다. 이 경우 특별지방자치단체를 구성하는 지방자치단체(이하 \"구성 지방자치단체\"라 한다)는 상호 협의에 따른 규약을 정하여 구성 지방자치단체의 지방의회 의결을 거쳐 행정안전부장관의 승인을",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제199조"
+   },
+   {
+    "article_no": "202",
+    "article_branch": null,
+    "title": "규약 등",
+    "body": "① 특별지방자치단체의 규약에는 법령의 범위에서 다음 각 호의 사항이 포함되어야 한다.\n1.  특별지방자치단체의 목적\n2.  특별지방자치단체의 명칭\n3.  구성 지방자치단체\n4.  특별지방자치단체의 관할 구역\n5.  특별지방자치단체의 사무소의 위치\n6.  특별지방자치단체의 사무\n7.  특별지방자치단체의 사무처리를 위한 기본",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제202조"
+   },
+   {
+    "article_no": "203",
+    "article_branch": null,
+    "title": "기본계획 등",
+    "body": "① 특별지방자치단체의 장은 소관 사무를 처리하기 위한 기본계획(이하 \"기본계획\"이라 한다)을 수립하여 특별지방자치단체 의회의 의결을 받아야 한다. 기본계획을 변경하는 경우에도 또한 같다.\n② 특별지방자치단체는 기본계획에 따라 사무를 처리하여야 한다.\n③ 특별지방자치단체의 장은 구성 지방자치단체의 사무처리가 기본계획의 시행",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제203조"
+   },
+   {
+    "article_no": "204",
+    "article_branch": null,
+    "title": "의회의 조직 등",
+    "body": "① 특별지방자치단체의 의회는 규약으로 정하는 바에 따라 구성 지방자치단체의 의회 의원으로 구성한다.\n② 제1항의 지방의회의원은 제43조제1항에도 불구하고 특별지방자치단체의 의회 의원을 겸할 수 있다.\n③ 특별지방자치단체의 의회가 의결하여야 할 안건 중 대통령령으로 정하는 중요한 사항에 대해서는 특별지방자치단체의 장에게 미",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제204조"
+   },
+   {
+    "article_no": "205",
+    "article_branch": null,
+    "title": "집행기관의 조직 등",
+    "body": "① 특별지방자치단체의 장은 규약으로 정하는 바에 따라 특별지방자치단체의 의회에서 선출한다.\n② 구성 지방자치단체의 장은 제109조에도 불구하고 특별지방자치단체의 장을 겸할 수 있다.\n③ 특별지방자치단체의 의회 및 집행기관의 직원은 규약으로 정하는 바에 따라 특별지방자치단체 소속인 지방공무원과 구성 지방자치단체의 지방공무원",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제205조"
+   },
+   {
+    "article_no": "206",
+    "article_branch": null,
+    "title": "경비의 부담",
+    "body": "① 특별지방자치단체의 운영 및 사무처리에 필요한 경비는 구성 지방자치단체의 인구, 사무처리의 수혜범위 등을 고려하여 규약으로 정하는 바에 따라 구성 지방자치단체가 분담한다.\n② 구성 지방자치단체는 제1항의 경비에 대하여 특별회계를 설치하여 운영하여야 한다.\n③ 국가 또는 시ㆍ도가 사무를 위임하는 경우에는 사무를 위임한 국",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제206조"
+   },
+   {
+    "article_no": "207",
+    "article_branch": null,
+    "title": "사무처리상황 등의 통지",
+    "body": "특별지방자치단체의 장은 대통령령으로 정하는 바에 따라 사무처리 상황 등을 구성 지방자치단체의 장 및 행정안전부장관(시ㆍ군 및 자치구만으로 구성하는 경우에는 시ㆍ도지사를 포함한다)에게 통지하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제207조"
+   },
+   {
+    "article_no": "208",
+    "article_branch": null,
+    "title": "가입 및 탈퇴",
+    "body": "① 특별지방자치단체에 가입하거나 특별지방자치단체에서 탈퇴하려는 지방자치단체의 장은 해당 지방의회의 의결을 거쳐 특별지방자치단체의 장에게 가입 또는 탈퇴를 신청하여야 한다.\n② 제1항에 따른 가입 또는 탈퇴의 신청을 받은 특별지방자치단체의 장은 특별지방자치단체 의회의 동의를 받아 신청의 수용 여부를 결정하되, 특별한 사유가",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제208조"
+   },
+   {
+    "article_no": "209",
+    "article_branch": null,
+    "title": "해산",
+    "body": "① 구성 지방자치단체는 특별지방자치단체가 그 설치 목적을 달성하는 등 해산의 사유가 있을 때에는 해당 지방의회의 의결을 거쳐 행정안전부장관의 승인을 받아 특별지방자치단체를 해산하여야 한다.\n② 구성 지방자치단체는 제1항에 따라 특별지방자치단체를 해산할 경우에는 상호 협의에 따라 그 재산을 처분하고 사무와 직원의 재배치를 ",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제209조"
+   },
+   {
+    "article_no": "210",
+    "article_branch": null,
+    "title": "지방자치단체에 관한 규정의 준용",
+    "body": "시ㆍ도, 시ㆍ도와 시ㆍ군 및 자치구 또는 2개 이상의 시ㆍ도에 걸쳐 있는 시ㆍ군 및 자치구로 구성되는 특별지방자치단체는 시ㆍ도에 관한 규정을, 시ㆍ군 및 자치구로 구성하는 특별지방자치단체는 시ㆍ군 및 자치구에 관한 규정을 준용한다. 다만, 제3조, 제1장제2절, 제11조부터 제14조까지, 제17조제3항, 제25조, 제4장",
+    "body_truncated": true,
+    "effective_on": "2026-07-01",
+    "article_key": "statute:284005::제210조"
+   }
+  ],
+  "article_count": 62,
+  "articles_shown": 62,
+  "articles_truncated_bodies": 42,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1751809",
+    "name": "문경시 출산장려기금 설치 및 운용 조례",
+    "region_id": "47280",
+    "org_name": "경상북도 문경시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1751809&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2060453",
+    "name": "영암군 월출산 기찬랜드 관리 조례",
+    "region_id": "12800",
+    "org_name": "전남광주통합특별시 영암군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2060453&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124235",
+    "name": "부산광역시 부산진구 체육시설 관리 및 운영 조례",
+    "region_id": "26230",
+    "org_name": "부산광역시 부산진구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124235&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124373",
+    "name": "가평군 통합재정안정화기금 설치 및 운용 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124373&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124385",
+    "name": "가평군 지방재정투자심사위원회 운영 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124385&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124417",
+    "name": "가평군 여성농업인 육성지원 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124417&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124523",
+    "name": "가평군 성별영향평가 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124523&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124583",
+    "name": "가평군 고향사랑기부금 모금 및 운용 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124583&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124703",
+    "name": "화성시 출자ㆍ출연 기관의 운영에 관한 조례",
+    "region_id": "41590",
+    "org_name": "경기도 화성시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124703&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124705",
+    "name": "화성시 사회복지시설 설치 및 운영에 관한 조례",
+    "region_id": "41590",
+    "org_name": "경기도 화성시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124705&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124769",
+    "name": "경상북도의회의원 공무국외출장에 관한 조례",
+    "region_id": "47",
+    "org_name": "경상북도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124769&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124933",
+    "name": "부산광역시 사하구의회 의원 공무국외출장 규칙",
+    "region_id": "26380",
+    "org_name": "부산광역시 사하구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124933&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125059",
+    "name": "과천시 지방보조금 관리 조례",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125177",
+    "name": "포항시 체육진흥기금 조성 운용 조례",
+    "region_id": "47110",
+    "org_name": "경상북도 포항시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125177&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125235",
+    "name": "포항시 해양레저시설 관리 및 운영 조례",
+    "region_id": "47110",
+    "org_name": "경상북도 포항시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125235&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125267",
+    "name": "울릉군 의정비심의위원회 구성 및 운영에 관한 조례",
+    "region_id": "47940",
+    "org_name": "경상북도 울릉군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125267&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125303",
+    "name": "김해시 사무위임 조례",
+    "region_id": "48250",
+    "org_name": "경상남도 김해시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125303&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125365",
+    "name": "서울특별시 금천구의회 소송비용 지원에 관한 조례",
+    "region_id": "11545",
+    "org_name": "서울특별시 금천구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125365&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125419",
+    "name": "파주시 사무의 민간위탁에 관한 조례",
+    "region_id": "41480",
+    "org_name": "경기도 파주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125433",
+    "name": "춘천시 고향사랑 기부금 모금 및 운용에 관한 조례",
+    "region_id": "51110",
+    "org_name": "강원특별자치도 춘천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125433&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

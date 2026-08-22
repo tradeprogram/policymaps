@@ -1,0 +1,910 @@
+{
+ "data": {
+  "region": {
+   "region_id": "41630",
+   "sig_cd": "41630",
+   "name": "양주시",
+   "full_name": "경기도 양주시",
+   "level": 2
+  },
+  "counts": {
+   "total": 847,
+   "active": 619,
+   "repealed": 228,
+   "by_rr_cls_cd": {
+    "일부개정": 387,
+    "전부개정": 37,
+    "제정": 195,
+    "폐지": 228
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1964,
+    "n": 1
+   },
+   {
+    "year": 1965,
+    "n": 1
+   },
+   {
+    "year": 1966,
+    "n": 2
+   },
+   {
+    "year": 1971,
+    "n": 3
+   },
+   {
+    "year": 1972,
+    "n": 1
+   },
+   {
+    "year": 1973,
+    "n": 1
+   },
+   {
+    "year": 1974,
+    "n": 1
+   },
+   {
+    "year": 1976,
+    "n": 2
+   },
+   {
+    "year": 1977,
+    "n": 3
+   },
+   {
+    "year": 1978,
+    "n": 1
+   },
+   {
+    "year": 1979,
+    "n": 1
+   },
+   {
+    "year": 1980,
+    "n": 4
+   },
+   {
+    "year": 1981,
+    "n": 3
+   },
+   {
+    "year": 1982,
+    "n": 3
+   },
+   {
+    "year": 1983,
+    "n": 1
+   },
+   {
+    "year": 1984,
+    "n": 1
+   },
+   {
+    "year": 1985,
+    "n": 1
+   },
+   {
+    "year": 1986,
+    "n": 2
+   },
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 1989,
+    "n": 6
+   },
+   {
+    "year": 1991,
+    "n": 4
+   },
+   {
+    "year": 1993,
+    "n": 4
+   },
+   {
+    "year": 1994,
+    "n": 1
+   },
+   {
+    "year": 1995,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 2
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 64
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 15
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 10
+   },
+   {
+    "year": 2011,
+    "n": 8
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 9
+   },
+   {
+    "year": 2014,
+    "n": 16
+   },
+   {
+    "year": 2015,
+    "n": 64
+   },
+   {
+    "year": 2016,
+    "n": 21
+   },
+   {
+    "year": 2017,
+    "n": 16
+   },
+   {
+    "year": 2018,
+    "n": 21
+   },
+   {
+    "year": 2019,
+    "n": 25
+   },
+   {
+    "year": 2020,
+    "n": 31
+   },
+   {
+    "year": 2021,
+    "n": 61
+   },
+   {
+    "year": 2022,
+    "n": 44
+   },
+   {
+    "year": 2023,
+    "n": 64
+   },
+   {
+    "year": 2024,
+    "n": 72
+   },
+   {
+    "year": 2025,
+    "n": 93
+   },
+   {
+    "year": 2026,
+    "n": 138
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1964,
+    "n": 1
+   },
+   {
+    "year": 1965,
+    "n": 1
+   },
+   {
+    "year": 1966,
+    "n": 2
+   },
+   {
+    "year": 1971,
+    "n": 3
+   },
+   {
+    "year": 1972,
+    "n": 1
+   },
+   {
+    "year": 1973,
+    "n": 1
+   },
+   {
+    "year": 1974,
+    "n": 1
+   },
+   {
+    "year": 1976,
+    "n": 2
+   },
+   {
+    "year": 1977,
+    "n": 3
+   },
+   {
+    "year": 1978,
+    "n": 1
+   },
+   {
+    "year": 1979,
+    "n": 1
+   },
+   {
+    "year": 1980,
+    "n": 4
+   },
+   {
+    "year": 1981,
+    "n": 3
+   },
+   {
+    "year": 1982,
+    "n": 3
+   },
+   {
+    "year": 1983,
+    "n": 1
+   },
+   {
+    "year": 1984,
+    "n": 1
+   },
+   {
+    "year": 1985,
+    "n": 1
+   },
+   {
+    "year": 1986,
+    "n": 2
+   },
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 1989,
+    "n": 6
+   },
+   {
+    "year": 1991,
+    "n": 4
+   },
+   {
+    "year": 1993,
+    "n": 4
+   },
+   {
+    "year": 1994,
+    "n": 1
+   },
+   {
+    "year": 1995,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 2
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 57
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 4
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 5
+   },
+   {
+    "year": 2015,
+    "n": 25
+   },
+   {
+    "year": 2016,
+    "n": 4
+   },
+   {
+    "year": 2017,
+    "n": 3
+   },
+   {
+    "year": 2018,
+    "n": 4
+   },
+   {
+    "year": 2019,
+    "n": 3
+   },
+   {
+    "year": 2020,
+    "n": 3
+   },
+   {
+    "year": 2021,
+    "n": 5
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 4
+   },
+   {
+    "year": 2024,
+    "n": 6
+   },
+   {
+    "year": 2025,
+    "n": 1
+   },
+   {
+    "year": 2026,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "양주군읍면출장소조례",
+    "display_name": "양주군 읍면 출장소 조례",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원임용후보자장학규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "주민의조례제정및개폐청구에관한조례",
+    "display_name": "주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:840762",
+    "name": "양주시 1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-09-21",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=840762&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:989942",
+    "name": "양주시공립보육시설위탁운영에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2007-12-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=989942&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:930921",
+    "name": "양주시국제화추진협의회조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-09-22",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=930921&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:921249",
+    "name": "양주시농업기계수리센터설치및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2007-10-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=921249&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:873562",
+    "name": "양주시 농지관리위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-02-22",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=873562&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:868562",
+    "name": "양주시민자유치사업심의위원회조례",
+    "ord_kind": "조례",
+    "enacted_on": "2005-10-18",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=868562&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:884855",
+    "name": "양주시 발전협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-04-04",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=884855&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:921239",
+    "name": "양주시 복지위원 정수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-12-06",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=921239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:919720",
+    "name": "양주시수방단운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-04-14",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=919720&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:930930",
+    "name": "양주시시기조례",
+    "ord_kind": "조례",
+    "enacted_on": "2005-12-07",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=930930&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1013769",
+    "name": "양주시여성복지·아동상담소설치운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-09-22",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1013769&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:996519",
+    "name": "양주시재정운영상황공개에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2006-07-05",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=996519&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:907648",
+    "name": "양주시재해대책기금및재난관리기금운용·관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2005-04-08",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=907648&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:907992",
+    "name": "양주시재해대책본부의운영등에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2005-04-08",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=907992&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:833875",
+    "name": "양주시중수도운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-04-14",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=833875&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:920835",
+    "name": "양주시 지방공무원 정원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-02-21",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=920835&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:996522",
+    "name": "양주시지방재정계획심의위원회조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-02-18",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=996522&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:845616",
+    "name": "양주시 지방재정공시 심의위원회 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-02-18",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=845616&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:840159",
+    "name": "양주시 폐기물 관련 과태료 부과·징수 업무에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-09-21",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=840159&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:839848",
+    "name": "양주시폐기물의배출방법및수수료등의부과·징수에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2006-01-09",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=839848&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:918204",
+    "name": "양주시 향토장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2007-02-28",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=918204&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:932902",
+    "name": "양주시공무원제안규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2007-08-27",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=932902&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:793188",
+    "name": "양주시 예산성과금 심사운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2010-12-27",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=793188&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:907651",
+    "name": "양주시재해대책기금및재난관리기금운용·관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2005-09-13",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=907651&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:840756",
+    "name": "양주시 주요업무평가에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2010-12-27",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=840756&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:920833",
+    "name": "양주시 지방공무원 정원 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2011-02-21",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=920833&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:830242",
+    "name": "양주시청소년상담실운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-03-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=830242&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:876049",
+    "name": "양주시향토장학금지급조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-05-06",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=876049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2117821",
+    "name": "양주시 민원모니터 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-30",
+    "repealed_on": "2026-03-30",
+    "repealed_on_raw": "20260330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2117821&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2118447",
+    "name": "양주시 선정 세무대리인 제도의 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-30",
+    "repealed_on": "2026-03-30",
+    "repealed_on_raw": "20260330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2118447&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2117791",
+    "name": "양주시 민원모니터 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-03-30",
+    "repealed_on": "2026-03-30",
+    "repealed_on_raw": "20260330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2117791&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2052391",
+    "name": "양주시 주민편익시설 관리ㆍ운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-07-07",
+    "repealed_on": "2025-07-07",
+    "repealed_on_raw": "20250707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2052391&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1990349",
+    "name": "양주시 농민기본소득 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-09",
+    "repealed_on": "2024-12-09",
+    "repealed_on_raw": "20241209",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1990349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1919625",
+    "name": "양주시 주민자치센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-04-08",
+    "repealed_on": "2024-04-08",
+    "repealed_on_raw": "20240408",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1919625&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1915003",
+    "name": "양주시 농기계 임대사업 운영조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-03-25",
+    "repealed_on": "2024-03-25",
+    "repealed_on_raw": "20240325",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1915003&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1909503",
+    "name": "양주시 택시운송사업의 구분 변경에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-02-26",
+    "repealed_on": "2024-02-26",
+    "repealed_on_raw": "20240226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1909503&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875637",
+    "name": "양주시 경영수익사업 특별회계 설치운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-20",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875637&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1877693",
+    "name": "양주시 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-20",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1877693&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1855131",
+    "name": "양주시 농기계 임대사업 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-25",
+    "repealed_on": "2023-09-25",
+    "repealed_on_raw": "20230925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1855131&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1855137",
+    "name": "양주시 국민기초생활보장수급자 생활안정자금 융자 및 자활지원사업자금 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-09-25",
+    "repealed_on": "2023-09-25",
+    "repealed_on_raw": "20230925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1855137&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 28,
+   "sentinel_99991231": 28
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "41630"
+ ]
+}

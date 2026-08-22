@@ -1,0 +1,674 @@
+{
+ "data": {
+  "region": {
+   "region_id": "12770",
+   "sig_cd": "12770",
+   "name": "장흥군",
+   "full_name": "전남광주통합특별시 장흥군",
+   "level": 2
+  },
+  "counts": {
+   "total": 640,
+   "active": 563,
+   "repealed": 77,
+   "by_rr_cls_cd": {
+    "일부개정": 428,
+    "전부개정": 19,
+    "제정": 116,
+    "폐지": 77
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1989,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 13
+   },
+   {
+    "year": 2016,
+    "n": 14
+   },
+   {
+    "year": 2017,
+    "n": 38
+   },
+   {
+    "year": 2018,
+    "n": 21
+   },
+   {
+    "year": 2019,
+    "n": 30
+   },
+   {
+    "year": 2020,
+    "n": 19
+   },
+   {
+    "year": 2021,
+    "n": 23
+   },
+   {
+    "year": 2022,
+    "n": 22
+   },
+   {
+    "year": 2023,
+    "n": 26
+   },
+   {
+    "year": 2024,
+    "n": 86
+   },
+   {
+    "year": 2025,
+    "n": 213
+   },
+   {
+    "year": 2026,
+    "n": 107
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 9
+   },
+   {
+    "year": 2016,
+    "n": 8
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 3
+   },
+   {
+    "year": 2019,
+    "n": 6
+   },
+   {
+    "year": 2020,
+    "n": 4
+   },
+   {
+    "year": 2021,
+    "n": 1
+   },
+   {
+    "year": 2023,
+    "n": 1
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 8
+   },
+   {
+    "year": 2026,
+    "n": 6
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택 임대차계약서 확정일자 부여업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회 실비 변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법위반자에대한과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재정운영상황의공개조례시행규칙",
+    "display_name": "재정운영상황의공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   },
+   {
+    "policy_key": "여성발전기본조례",
+    "display_name": "여성발전 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 57
+   },
+   {
+    "policy_key": "장수수당지급조례",
+    "display_name": "장수수당 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 56
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례",
+    "display_name": "사회단체 보조금 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 51
+   },
+   {
+    "policy_key": "재활용품판매대금관리기금설치및운용조례",
+    "display_name": "재활용품판매대금관리기금설치및운용조례",
+    "rows": 1,
+    "nationwide_regions": 25
+   },
+   {
+    "policy_key": "조례규칙심의회운영규칙",
+    "display_name": "조례·규칙심의회운영규칙",
+    "rows": 1,
+    "nationwide_regions": 25
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:788187",
+    "name": "장흥군기획및심사평가에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=788187&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:796030",
+    "name": "장흥군 인재육성기금 조성 및 관리운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2009-12-28",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=796030&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2163129",
+    "name": "장흥군 재난안전대책본부 구성 및 운영 등에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-08-18",
+    "repealed_on": "2026-08-18",
+    "repealed_on_raw": "20260818",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2163129&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2115659",
+    "name": "장흥군 건축진흥 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-16",
+    "repealed_on": "2026-03-16",
+    "repealed_on_raw": "20260316",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115659&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2115663",
+    "name": "장흥군 안전도시 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-16",
+    "repealed_on": "2026-03-16",
+    "repealed_on_raw": "20260316",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115663&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2115627",
+    "name": "장흥군 지방사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-16",
+    "repealed_on": "2026-03-16",
+    "repealed_on_raw": "20260316",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115627&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2114817",
+    "name": "장흥군의회 의원 공무국외출장 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-09",
+    "repealed_on": "2026-03-09",
+    "repealed_on_raw": "20260309",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114817&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2099501",
+    "name": "장흥군 산업단지 폐수종말처리시설 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-29",
+    "repealed_on": "2026-01-01",
+    "repealed_on_raw": "20260101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2099501&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2084841",
+    "name": "장흥군 농공단지조성사업 특별회계 설치 및 운용조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-11-12",
+    "repealed_on": "2025-11-12",
+    "repealed_on_raw": "20251112",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2084841&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2052309",
+    "name": "장흥군 각종위원회 실비 변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-07",
+    "repealed_on": "2025-07-07",
+    "repealed_on_raw": "20250707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2052309&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2048049",
+    "name": "장흥군 4-H회 장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2048049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2039821",
+    "name": "장흥군 인감업무담당공무원 보험·공제 등의 가입 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-19",
+    "repealed_on": "2025-05-19",
+    "repealed_on_raw": "20250519",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2039821&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2025123",
+    "name": "장흥군 국민주택사업특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-28",
+    "repealed_on": "2025-03-28",
+    "repealed_on_raw": "20250328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025123&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2025131",
+    "name": "장흥군 농공단지조성사업 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-28",
+    "repealed_on": "2025-03-28",
+    "repealed_on_raw": "20250328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025131&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2027843",
+    "name": "장흥군 양식장형망선의 정수 및 사용기준에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-28",
+    "repealed_on": "2025-03-28",
+    "repealed_on_raw": "20250328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2027843&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2022359",
+    "name": "장흥군 주민조례 제정 및 개폐청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-01-12",
+    "repealed_on": "2025-01-13",
+    "repealed_on_raw": "20250113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2022359&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125969",
+    "name": "장흥군 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125969&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1986951",
+    "name": "장흥군 기반시설 특별회계 설치 및 운용.관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-18",
+    "repealed_on": "2024-11-18",
+    "repealed_on_raw": "20241118",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1986951&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1899245",
+    "name": "장흥군 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1899245&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1616603",
+    "name": "장흥군 주택 임대차계약서 확정일자 부여업무 처리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-07-19",
+    "repealed_on": "2021-07-19",
+    "repealed_on_raw": "20210719",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1616603&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1539321",
+    "name": "장흥군 정남진 노인복지재단 설립 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-15",
+    "repealed_on": "2020-10-15",
+    "repealed_on_raw": "20201015",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1539321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1497521",
+    "name": "장흥군 공영버스사업 특별회계 설치 및 운영조례 폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-21",
+    "repealed_on": "2020-05-21",
+    "repealed_on_raw": "20200521",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1497521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1497529",
+    "name": "장흥군 한국지역진흥재단 지원조례 폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-21",
+    "repealed_on": "2020-05-21",
+    "repealed_on_raw": "20200521",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1497529&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1488633",
+    "name": "장흥군 교통안전대책위원회 운영규칙 폐지규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-04-21",
+    "repealed_on": "2020-04-21",
+    "repealed_on_raw": "20200421",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1488633&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1438363",
+    "name": "장흥군 삼산지구 간척농지개발사업 특별회계설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-27",
+    "repealed_on": "2019-12-27",
+    "repealed_on_raw": "20191227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1438363&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1406123",
+    "name": "장흥군 장애인· 노인·임산부 등의 편의증진에 관한 법률 위반자에 대한 과태료 부과징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-08-05",
+    "repealed_on": "2019-08-05",
+    "repealed_on_raw": "20190805",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1406123&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1406129",
+    "name": "장흥군 공무원 징계 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-08-05",
+    "repealed_on": "2019-08-05",
+    "repealed_on_raw": "20190805",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1406129&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1400825",
+    "name": "장흥군 용역 심의위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-07-01",
+    "repealed_on": "2019-07-01",
+    "repealed_on_raw": "20190701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1400825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1400824",
+    "name": "장흥군 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-07-01",
+    "repealed_on": "2019-07-01",
+    "repealed_on_raw": "20190701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1400824&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1492167",
+    "name": "장흥군의회 의원 공무국외여행 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-06-18",
+    "repealed_on": "2019-06-18",
+    "repealed_on_raw": "20190618",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1492167&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1363559",
+    "name": "장흥군 의료급여기금 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-10-01",
+    "repealed_on": "2018-10-01",
+    "repealed_on_raw": "20181001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1363559&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1363548",
+    "name": "장흥군 장흥댐 관련 지역발전기금 특별회계 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-10-01",
+    "repealed_on": "2018-10-01",
+    "repealed_on_raw": "20181001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1363548&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1363194",
+    "name": "장흥군 장흥댐 관련 지역발전기금 특별회계 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-10-01",
+    "repealed_on": "2018-10-01",
+    "repealed_on_raw": "20181001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1363194&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1331704",
+    "name": "장흥군 수도급수 및 상수도특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-29",
+    "repealed_on": "2017-12-29",
+    "repealed_on_raw": "20171229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1331704&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1325666",
+    "name": "장흥군 저소득층 노인세대 건강보험료 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-12-29",
+    "repealed_on": "2017-12-29",
+    "repealed_on_raw": "20171229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1325666&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1312172",
+    "name": "장흥군 개인하수.분뇨와 가축분뇨처리 및 수집수수료등 징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-11-13",
+    "repealed_on": "2017-11-13",
+    "repealed_on_raw": "20171113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1312172&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1278175",
+    "name": "장흥군 노인복지기금 설치 및 운용 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-02-17",
+    "repealed_on": "2017-02-17",
+    "repealed_on_raw": "20170217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1278175&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1272295",
+    "name": "장흥군 보육정책 및 아동위원회 설치·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-30",
+    "repealed_on": "2016-12-30",
+    "repealed_on_raw": "20161230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1272295&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1272293",
+    "name": "장흥군 장수수당 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-30",
+    "repealed_on": "2016-12-30",
+    "repealed_on_raw": "20161230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1272293&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1272294",
+    "name": "장흥군 저소득층 노인세대 건강보험료 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-30",
+    "repealed_on": "2016-12-30",
+    "repealed_on_raw": "20161230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1272294&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 2,
+   "sentinel_99991231": 2
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "12770"
+ ]
+}

@@ -1,0 +1,794 @@
+{
+ "data": {
+  "region": {
+   "region_id": "11290",
+   "sig_cd": "11290",
+   "name": "성북구",
+   "full_name": "서울특별시 성북구",
+   "level": 2
+  },
+  "counts": {
+   "total": 695,
+   "active": 518,
+   "repealed": 177,
+   "by_rr_cls_cd": {
+    "일부개정": 331,
+    "전부개정": 28,
+    "제정": 159,
+    "폐지": 177
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1989,
+    "n": 7
+   },
+   {
+    "year": 1990,
+    "n": 8
+   },
+   {
+    "year": 1991,
+    "n": 1
+   },
+   {
+    "year": 1992,
+    "n": 3
+   },
+   {
+    "year": 1993,
+    "n": 1
+   },
+   {
+    "year": 1994,
+    "n": 17
+   },
+   {
+    "year": 1995,
+    "n": 11
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 5
+   },
+   {
+    "year": 1999,
+    "n": 21
+   },
+   {
+    "year": 2000,
+    "n": 2
+   },
+   {
+    "year": 2001,
+    "n": 2
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 4
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 23
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 13
+   },
+   {
+    "year": 2012,
+    "n": 12
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 25
+   },
+   {
+    "year": 2016,
+    "n": 6
+   },
+   {
+    "year": 2017,
+    "n": 11
+   },
+   {
+    "year": 2018,
+    "n": 7
+   },
+   {
+    "year": 2019,
+    "n": 21
+   },
+   {
+    "year": 2020,
+    "n": 60
+   },
+   {
+    "year": 2021,
+    "n": 54
+   },
+   {
+    "year": 2022,
+    "n": 41
+   },
+   {
+    "year": 2023,
+    "n": 68
+   },
+   {
+    "year": 2024,
+    "n": 141
+   },
+   {
+    "year": 2025,
+    "n": 82
+   },
+   {
+    "year": 2026,
+    "n": 21
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1989,
+    "n": 7
+   },
+   {
+    "year": 1990,
+    "n": 8
+   },
+   {
+    "year": 1991,
+    "n": 1
+   },
+   {
+    "year": 1992,
+    "n": 3
+   },
+   {
+    "year": 1994,
+    "n": 16
+   },
+   {
+    "year": 1995,
+    "n": 11
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 5
+   },
+   {
+    "year": 1999,
+    "n": 21
+   },
+   {
+    "year": 2000,
+    "n": 2
+   },
+   {
+    "year": 2001,
+    "n": 2
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 4
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 23
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 9
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 2
+   },
+   {
+    "year": 2015,
+    "n": 9
+   },
+   {
+    "year": 2016,
+    "n": 1
+   },
+   {
+    "year": 2017,
+    "n": 1
+   },
+   {
+    "year": 2020,
+    "n": 7
+   },
+   {
+    "year": 2021,
+    "n": 2
+   },
+   {
+    "year": 2022,
+    "n": 11
+   },
+   {
+    "year": 2023,
+    "n": 2
+   },
+   {
+    "year": 2024,
+    "n": 4
+   },
+   {
+    "year": 2025,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "동사무소사무분장규칙",
+    "display_name": "동사무소사무분장규칙",
+    "rows": 2,
+    "nationwide_regions": 9
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회조직ㆍ운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례ㆍ규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세 정보 교부금 지급 규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금운용ㆍ관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례시행규칙",
+    "display_name": "재해대책기금운용관리조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 64
+   },
+   {
+    "policy_key": "호적과태료부과징수조례",
+    "display_name": "호적과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 62
+   },
+   {
+    "policy_key": "여성발전기본조례",
+    "display_name": "여성발전 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 57
+   },
+   {
+    "policy_key": "의회위원회조례",
+    "display_name": "의회 위원회 조례",
+    "rows": 1,
+    "nationwide_regions": 47
+   },
+   {
+    "policy_key": "도시디자인조례",
+    "display_name": "도시디자인 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "노인복지기금설치및운용조례",
+    "display_name": "노인복지기금설치및운용조례",
+    "rows": 1,
+    "nationwide_regions": 37
+   },
+   {
+    "policy_key": "의회정례회의운영에관한조례",
+    "display_name": "의회정례회의운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "지방보조사업자의법령위반등에대한신고포상금지급에관한규칙",
+    "display_name": "지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 35
+   },
+   {
+    "policy_key": "안전관리자문단구성및운영에관한조례",
+    "display_name": "안전관리자문단구성및운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례시행규칙",
+    "display_name": "재난관리기금 운용ㆍ관리조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 33
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:1009000",
+    "name": "서울특별시 성북구 기반시설특별회계 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-10-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1009000&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1007478",
+    "name": "서울특별시 성북구 주택재개발사업 시행조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-04-24",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1007478&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1009099",
+    "name": "서울특별시성북구 농촌주택개량 및 취락구조개선사업자금융자규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "1994-05-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1009099&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1009646",
+    "name": "서울특별시 성북구 주택개량 재개발사업 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2009-04-24",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1009646&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2085023",
+    "name": "서울특별시 성북구 도서관 정책자문위원회 운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-11-13",
+    "repealed_on": "2025-11-13",
+    "repealed_on_raw": "20251113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2085023&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2071325",
+    "name": "서울특별시 성북구 도농상생 공공급식 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-25",
+    "repealed_on": "2025-09-25",
+    "repealed_on_raw": "20250925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2071325&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2038519",
+    "name": "서울특별시 성북구 교통안전정책 심의위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-15",
+    "repealed_on": "2025-05-15",
+    "repealed_on_raw": "20250515",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2038519&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1997861",
+    "name": "서울특별시 성북구 기업 및 일자리 창출 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-26",
+    "repealed_on": "2024-12-26",
+    "repealed_on_raw": "20241226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1997861&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1997859",
+    "name": "서울특별시 성북구 중소기업 공동브랜드 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-26",
+    "repealed_on": "2024-12-26",
+    "repealed_on_raw": "20241226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1997859&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1957761",
+    "name": "서울특별시 성북구 어린이·청소년 의회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-18",
+    "repealed_on": "2024-07-18",
+    "repealed_on_raw": "20240718",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1957761&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1920313",
+    "name": "서울특별시 성북구 사전재해영향성 검토위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-11",
+    "repealed_on": "2024-04-11",
+    "repealed_on_raw": "20240411",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1920313&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876303",
+    "name": "서울특별시성북구보건소간호사복제규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-23",
+    "repealed_on": "2023-11-23",
+    "repealed_on_raw": "20231123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876303&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1808145",
+    "name": "서울특별시 성북구 도서관 운영위원회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-05-11",
+    "repealed_on": "2023-05-11",
+    "repealed_on_raw": "20230511",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1808145&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1848171",
+    "name": "서울특별시 성북구 온실가스 감축 실천 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1848171&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1767701",
+    "name": "서울특별시 성북구 감사자문위원회 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1767701&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1743301",
+    "name": "서울특별시 성북구 하천내 동물배설물 단속 및 야생동물 보호 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-03",
+    "repealed_on": "2022-11-03",
+    "repealed_on_raw": "20221103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1743301&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1743317",
+    "name": "서울특별시성북구옥외광고물특별정비자금융자규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-03",
+    "repealed_on": "2022-11-03",
+    "repealed_on_raw": "20221103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1743317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1743315",
+    "name": "서울특별시 성북구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-03",
+    "repealed_on": "2022-11-03",
+    "repealed_on_raw": "20221103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1743315&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1707439",
+    "name": "서울특별시 성북구 성북선잠박물관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-05-06",
+    "repealed_on": "2022-05-06",
+    "repealed_on_raw": "20220506",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1707439&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1697111",
+    "name": "서울특별시 성북구 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-07",
+    "repealed_on": "2022-04-07",
+    "repealed_on_raw": "20220407",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697111&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1663433",
+    "name": "서울특별시 성북구의회에 출석하여 답변할 수 있는 관계공무원의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1663433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1663431",
+    "name": "서울특별시 성북구의회 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1663431&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1663435",
+    "name": "서울특별시 성북구의회 정례회 등의 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1663435&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1666535",
+    "name": "서울특별시 성북구 주민의 조례 제정·개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1666535&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1662693",
+    "name": "서울특별시성북구주택임대차계약서확정일자부여업무처리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1662693&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1584051",
+    "name": "서울특별시 성북구 자치회관 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-04-01",
+    "repealed_on": "2021-04-01",
+    "repealed_on_raw": "20210401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1584051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1567117",
+    "name": "서울특별시 성북구 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1567117&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1568865",
+    "name": "서울특별시 성북구 범죄예방디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1568865&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1568325",
+    "name": "서울특별시 성북구 자치회관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1568325&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1542755",
+    "name": "서울특별시 성북구 아동영향평가 등 실시에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-05",
+    "repealed_on": "2020-11-05",
+    "repealed_on_raw": "20201105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1542755&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1822213",
+    "name": "서울특별시 성북구 자기주도학습 지원센터 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-02",
+    "repealed_on": "2020-04-02",
+    "repealed_on_raw": "20200402",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1822213&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1530681",
+    "name": "서울특별시 성북구 진로직업체험지원센터 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-02",
+    "repealed_on": "2020-04-02",
+    "repealed_on_raw": "20200402",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1530681&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1437373",
+    "name": "서울특별시 성북구 참전유공자 사망위로금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-26",
+    "repealed_on": "2020-01-01",
+    "repealed_on_raw": "20200101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1437373&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1330148",
+    "name": "서울특별시 성북구 출산축하금 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-07-13",
+    "repealed_on": "2017-07-13",
+    "repealed_on_raw": "20170713",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1330148&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1220536",
+    "name": "서울특별시 성북구 1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고보상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-03-03",
+    "repealed_on": "2016-03-03",
+    "repealed_on_raw": "20160303",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1220536&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1209561",
+    "name": "서울특별시성북구국토의계획및이용에관한법률위반과태료부과·징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-31",
+    "repealed_on": "2015-12-31",
+    "repealed_on_raw": "20151231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1209561&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197456",
+    "name": "서울특별시 성북구 노인복지 증진에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-11-05",
+    "repealed_on": "2015-11-05",
+    "repealed_on_raw": "20151105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197456&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1198215",
+    "name": "서울특별시 성북구 재난 및 안전관리기구의 구성·운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-11-05",
+    "repealed_on": "2015-11-05",
+    "repealed_on_raw": "20151105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1198215&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1198235",
+    "name": "서울특별시성북구지방고용직공무원인사관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-11-05",
+    "repealed_on": "2015-11-05",
+    "repealed_on_raw": "20151105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1198235&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1188716",
+    "name": "서울특별시 성북구 영유아플라자“아이조아”설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-09-30",
+    "repealed_on": "2015-09-30",
+    "repealed_on_raw": "20150930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1188716&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 4,
+   "sentinel_99991231": 4
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "11290"
+ ]
+}

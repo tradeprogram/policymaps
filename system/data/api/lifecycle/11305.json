@@ -1,0 +1,762 @@
+{
+ "data": {
+  "region": {
+   "region_id": "11305",
+   "sig_cd": "11305",
+   "name": "강북구",
+   "full_name": "서울특별시 강북구",
+   "level": 2
+  },
+  "counts": {
+   "total": 699,
+   "active": 556,
+   "repealed": 143,
+   "by_rr_cls_cd": {
+    "일부개정": 342,
+    "전부개정": 42,
+    "제정": 172,
+    "폐지": 143
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1995,
+    "n": 2
+   },
+   {
+    "year": 1997,
+    "n": 4
+   },
+   {
+    "year": 1998,
+    "n": 4
+   },
+   {
+    "year": 1999,
+    "n": 15
+   },
+   {
+    "year": 2000,
+    "n": 7
+   },
+   {
+    "year": 2001,
+    "n": 4
+   },
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 5
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 8
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 9
+   },
+   {
+    "year": 2012,
+    "n": 4
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 21
+   },
+   {
+    "year": 2015,
+    "n": 17
+   },
+   {
+    "year": 2016,
+    "n": 19
+   },
+   {
+    "year": 2017,
+    "n": 15
+   },
+   {
+    "year": 2018,
+    "n": 18
+   },
+   {
+    "year": 2019,
+    "n": 23
+   },
+   {
+    "year": 2020,
+    "n": 34
+   },
+   {
+    "year": 2021,
+    "n": 34
+   },
+   {
+    "year": 2022,
+    "n": 74
+   },
+   {
+    "year": 2023,
+    "n": 96
+   },
+   {
+    "year": 2024,
+    "n": 88
+   },
+   {
+    "year": 2025,
+    "n": 123
+   },
+   {
+    "year": 2026,
+    "n": 47
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1995,
+    "n": 2
+   },
+   {
+    "year": 1997,
+    "n": 4
+   },
+   {
+    "year": 1998,
+    "n": 4
+   },
+   {
+    "year": 1999,
+    "n": 15
+   },
+   {
+    "year": 2000,
+    "n": 7
+   },
+   {
+    "year": 2001,
+    "n": 4
+   },
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 5
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 8
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 5
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 5
+   },
+   {
+    "year": 2016,
+    "n": 4
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 4
+   },
+   {
+    "year": 2020,
+    "n": 8
+   },
+   {
+    "year": 2021,
+    "n": 6
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 7
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2025,
+    "n": 5
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "물품관리조례",
+    "display_name": "물품관리조례",
+    "rows": 2,
+    "nationwide_regions": 31
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회조직운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "호적과태료부과징수조례",
+    "display_name": "호적과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 62
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한과태료부과징수규칙",
+    "display_name": "부동산중개업법위반자에대한과태료부과 · 징수규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례",
+    "display_name": "사회단체보조금지원에관한조례",
+    "rows": 1,
+    "nationwide_regions": 51
+   },
+   {
+    "policy_key": "금연환경조성및지원에관한조례",
+    "display_name": "금연환경 조성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "사회적기업육성및지원에관한조례",
+    "display_name": "사회적기업 육성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 48
+   },
+   {
+    "policy_key": "도시디자인조례",
+    "display_name": "도시디자인 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "의회정례회의운영에관한조례",
+    "display_name": "의회정례회의운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "지방보조사업자의법령위반등에대한신고포상금지급에관한규칙",
+    "display_name": "지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 35
+   },
+   {
+    "policy_key": "물품관리조례시행규칙",
+    "display_name": "물품관리조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 31
+   },
+   {
+    "policy_key": "협동조합지원에관한조례",
+    "display_name": "협동조합 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 28
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2082655",
+    "name": "서울특별시 강북구 다둥이 안심보험 가입에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-07",
+    "repealed_on": "2025-11-07",
+    "repealed_on_raw": "20251107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2082655&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2067951",
+    "name": "서울특별시 강북구 도농상생 공공급식 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-19",
+    "repealed_on": "2025-09-19",
+    "repealed_on_raw": "20250919",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2067951&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2038571",
+    "name": "서울특별시 강북구 심폐소생술 교육에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-16",
+    "repealed_on": "2025-05-16",
+    "repealed_on_raw": "20250516",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2038571&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2038569",
+    "name": "서울특별시 강북구 응급의료 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-16",
+    "repealed_on": "2025-05-16",
+    "repealed_on_raw": "20250516",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2038569&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2023103",
+    "name": "서울특별시 강북구 긴급지원심의위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-21",
+    "repealed_on": "2025-03-21",
+    "repealed_on_raw": "20250321",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2023103&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1936209",
+    "name": "서울특별시 강북구 출생축하금 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-06-07",
+    "repealed_on": "2024-06-07",
+    "repealed_on_raw": "20240607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1936209&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1938743",
+    "name": "서울특별시 강북구 강북봉제지원센터 설치 및 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-17",
+    "repealed_on": "2024-05-17",
+    "repealed_on_raw": "20240517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1938743&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1909083",
+    "name": "서울특별시 강북구 규제개혁위원회 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-02-23",
+    "repealed_on": "2024-02-23",
+    "repealed_on_raw": "20240223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1909083&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1893509",
+    "name": "서울특별시 강북구 역사·문화·관광의 도시 조성 자문위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1893509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1868901",
+    "name": "서울특별시 강북구 출생축하금 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-03",
+    "repealed_on": "2023-11-03",
+    "repealed_on_raw": "20231103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1868901&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1853667",
+    "name": "서울특별시 강북구 범죄예방 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-22",
+    "repealed_on": "2023-09-22",
+    "repealed_on_raw": "20230922",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1853667&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1785149",
+    "name": "서울특별시 강북구 안전도시만들기 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-24",
+    "repealed_on": "2023-02-24",
+    "repealed_on_raw": "20230224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1785149&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1785137",
+    "name": "서울특별시 강북구 지하안전위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-24",
+    "repealed_on": "2023-02-24",
+    "repealed_on_raw": "20230224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1785137&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1781319",
+    "name": "서울특별시 강북구 강북웰빙스포츠센터 설치·관리 및 사용료 징수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-04",
+    "repealed_on": "2023-02-01",
+    "repealed_on_raw": "20230201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1781319&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1781321",
+    "name": "서울특별시 강북구 강북웰빙스포츠센터 설치·관리 및 사용료 징수에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2023-02-01",
+    "repealed_on_raw": "20230201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1781321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1767783",
+    "name": "서울특별시 강북구 자치회관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1767783&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1767813",
+    "name": "서울특별시 강북구 자치회관 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1767813&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1767815",
+    "name": "서울특별시 강북구 정보화 기본 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1767815&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1722003",
+    "name": "서울특별시 강북구 저탄소 녹색성장 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-12",
+    "repealed_on": "2022-08-12",
+    "repealed_on_raw": "20220812",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1722003&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1716635",
+    "name": "서울특별시 강북구 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-07-15",
+    "repealed_on": "2022-07-15",
+    "repealed_on_raw": "20220715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1716635&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1663451",
+    "name": "서울특별시 강북구 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1663451&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1625811",
+    "name": "서울특별시 강북구 새마을회관 건립기금 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-24",
+    "repealed_on": "2021-09-24",
+    "repealed_on_raw": "20210924",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1625811&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1619981",
+    "name": "서울특별시 강북구의회 의원 공무국외여행 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-08-06",
+    "repealed_on": "2021-08-06",
+    "repealed_on_raw": "20210806",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1619981&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1578641",
+    "name": "서울특별시 강북구 생활안정기금 운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-12",
+    "repealed_on": "2021-03-12",
+    "repealed_on_raw": "20210312",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1578641&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1578639",
+    "name": "서울특별시 강북구 생활안정기금 운영 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-03-12",
+    "repealed_on": "2021-03-12",
+    "repealed_on_raw": "20210312",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1578639&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1573955",
+    "name": "서울특별시 강북구의회 의장단 업무추진비 집행 및 공개에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-10",
+    "repealed_on": "2021-02-10",
+    "repealed_on_raw": "20210210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1573955&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1562175",
+    "name": "서울특별시 강북구 공용 및 공공용의 청사건립기금 설치 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1562175&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545233",
+    "name": "서울특별시 강북구의회 의원 윤리강령 및 윤리실천규범 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545233&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545239",
+    "name": "서울특별시 강북구의회 의원 행동강령운영 자문위원회 설치 등 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545241",
+    "name": "서울특별시 강북구의회 의원 행동강령 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545241&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1547879",
+    "name": "서울특별시 강북구 일자리창출 위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1547879&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1540599",
+    "name": "서울특별시 강북구 사전재해영향성검토위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-30",
+    "repealed_on": "2020-10-30",
+    "repealed_on_raw": "20201030",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1540599&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1493625",
+    "name": "서울특별시 강북구 승용차요일제 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-15",
+    "repealed_on": "2020-05-15",
+    "repealed_on_raw": "20200515",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1493625&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1493633",
+    "name": "서울특별시 강북구 홀몸노인 고독사 예방 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-15",
+    "repealed_on": "2020-05-15",
+    "repealed_on_raw": "20200515",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1493633&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1392278",
+    "name": "서울특별시강북구보건소간호사복제규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-04-26",
+    "repealed_on": "2019-04-26",
+    "repealed_on_raw": "20190426",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1392278&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1380969",
+    "name": "서울특별시 강북구 보훈회관 건립기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-01-04",
+    "repealed_on": "2019-01-04",
+    "repealed_on_raw": "20190104",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1380969&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1366430",
+    "name": "서울특별시 강북구 동명칭 및 구역획정 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-11-16",
+    "repealed_on": "2019-01-01",
+    "repealed_on_raw": "20190101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1366430&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1366431",
+    "name": "서울특별시 강북구 동 주민센터의 명칭과 위치 및 관할구역에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-11-16",
+    "repealed_on": "2019-01-01",
+    "repealed_on_raw": "20190101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1366431&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1366433",
+    "name": "서울특별시 강북구 사회복지시설 설치 및 위탁운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-11-16",
+    "repealed_on": "2018-11-16",
+    "repealed_on_raw": "20181116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1366433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1361420",
+    "name": "서울특별시 강북구 전통시장 및 상점가 육성을 위한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-10-05",
+    "repealed_on": "2018-10-05",
+    "repealed_on_raw": "20181005",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1361420&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "11305"
+ ]
+}

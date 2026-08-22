@@ -1,0 +1,854 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:277263",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "신용보증기금법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20260102",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=277263&type=HTML&mobileYn=&efYd=20260102",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 525,
+   "child_ordinances": 519,
+   "by_verification_status": {
+    "unverifiable": 525
+   },
+   "by_delegation_type": {
+    "law-delegated": 525
+   },
+   "regions_top": [
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 6
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 5
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "12",
+     "name": "전남광주통합특별시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "52790",
+     "name": "전북특별자치도 고창군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "52140",
+     "name": "전북특별자치도 익산시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "52110",
+     "name": "전북특별자치도 전주시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "51780",
+     "name": "강원특별자치도 철원군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48170",
+     "name": "경상남도 진주시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48120",
+     "name": "경상남도 창원시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "47150",
+     "name": "경상북도 김천시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "47110",
+     "name": "경상북도 포항시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "44810",
+     "name": "충청남도 예산군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "44800",
+     "name": "충청남도 홍성군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "44130",
+     "name": "충청남도 천안시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "43130",
+     "name": "충청북도 충주시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41820",
+     "name": "경기도 가평군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41310",
+     "name": "경기도 구리시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41270",
+     "name": "경기도 안산시",
+     "ordinances": 3
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 신용보증기금을 설립하여 담보능력이 미약한 기업의 채무보증과 회사채등 유동화를 수행하게 하여 기업의 자금융통을 원활히 하고, 신용정보의 효율적인 관리ㆍ운용을 통하여 건전한 신용질서를 확립함으로써 균형 있는 국민경제의 발전에 이바지함을 목적으로 한다. <개정 2025.4.1>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"기업\"이란 사업을 하는 개인 및 법인과 이들의 단체를 말한다.\n2. \"신용보증\"이란 기업이 부담하는 다음 각 목의 채무를 신용보증기금(이하 \"기금\"이라 한다)이 보증하는 것을 말한다.\n가. 기업이 금융회사등으로부터 자금의 대출ㆍ급부 등을 받음으로써 금융회사등에 대하여 부담하는 금전채무\n나. 기업의 채",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "우선적 보증",
+    "body": "제3조(우선적 보증)\n① 기금은 대통령령으로 정하는 바에 따라 담보력이 미약한 중소기업과 대통령령으로 정하는 목적에 부합하는 자금에 대하여 우선적으로 신용보증을 하여야 한다.\n② 제1항에서 \"중소기업\"이란 「중소기업기본법」 제2조에 따른 중소기업을 말한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "법인격 등",
+    "body": "제4조(법인격 등)\n① 기금은 법인으로 한다.\n② 기금은 이 법, 이 법에 따른 명령과 정관으로 정하는 바에 따라 운영한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "본점, 지점, 출장소 및 대리점",
+    "body": "제5조(본점, 지점, 출장소 및 대리점)\n① 기금은 정관으로 정하는 바에 따라 본점을 둔다. <개정 2015.1.20>\n② 기금은 정관으로 정하는 바에 따라 필요한 곳에 지점, 출장소 및 대리점을 둘 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "기본재산의 조성",
+    "body": "제6조(기본재산의 조성)\n① 기금의 기본재산은 다음 각 호의 재원(財源)으로 조성한다.\n1. 정부의 출연금\n2. 금융회사등의 출연금\n3. 기업의 출연금\n4. 제1호부터 제3호까지 외의 자의 출연금\n② 제1항제1호에 따른 정부의 출연금의 예산은 중소벤처기업부 소관으로 한다. <개정 2017.7.26>\n③ 금융회사등은 해당 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "정관",
+    "body": "제7조(정관)\n① 기금의 정관에는 다음 각 호의 사항이 포함되어야 한다.\n1. 목적\n2. 명칭\n3. 본점, 지점, 출장소 및 대리점에 관한 사항\n4. 기본재산에 관한 사항\n5. 제10조에 따른 운영위원회에 관한 사항\n6. 이사회에 관한 사항\n7. 임직원에 관한 사항\n8. 업무와 그 집행에 관한 사항\n9. 회계에 관한 사항",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "등기",
+    "body": "제8조(등기)\n① 기금은 대통령령으로 정하는 바에 따라 등기를 하여야 한다.\n② 기금은 본점 소재지에서 설립등기를 함으로써 성립한다.\n③ 제1항에 따라 등기가 필요한 사항은 그 등기를 한 후가 아니면 제3자에게 대항하지 못한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "유사명칭의 사용금지",
+    "body": "제9조(유사명칭의 사용금지)\n이 법 또는 다른 법률에 따른 기금이 아닌 자는 신용보증기금 또는 이와 유사한 명칭을 사용하지 못한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "운영위원회의 설치 등",
+    "body": "제10조(운영위원회의 설치 등)\n① 기금에 운영위원회를 둔다.\n② 운영위원회는 이 법, 이 법에 따른 명령과 정관으로 정하는 바에 따라 기금의 업무운영에 관한 기본방침을 수립한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "운영위원회의 구성",
+    "body": "제11조(운영위원회의 구성)\n① 운영위원회는 다음 각 호의 위원 12명으로 구성한다. <개정 2017.7.26, 2025.10.1>\n1. 기금의 이사장\n2. 금융위원회 위원장이 소속 공무원 중에서 지명하는 사람 1명\n3. 기획예산처장관이 소속 공무원 중에서 지명하는 사람 1명\n4. 중소벤처기업부장관이 소속 공무원 중에서 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "위원의 임기",
+    "body": "제12조(위원의 임기)\n제11조제1항제8호 및 제9호의 위원의 임기는 2년으로 한다. 다만, 보궐위원의 임기는 전임자 임기의 남은 기간으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "운영위원회의 운영",
+    "body": "제13조(운영위원회의 운영)\n운영위원회의 운영에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "임원",
+    "body": "제14조(임원)\n기금에 임원으로서 이사장 1명, 전무이사 1명, 이사 7명 이내와 감사 1명을 둔다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "임원의 직무",
+    "body": "제15조(임원의 직무)\n① 이사장은 기금을 대표하고 그 업무를 총괄한다.\n② 전무이사는 이사장을 보좌하고 이사장이 부득이한 사유로 직무를 수행할 수 없을 때에는 그 직무를 대행한다.\n③ 이사는 이사장과 전무이사를 보좌하고, 기금의 업무를 나누어 맡는다.\n④ 이사장과 전무이사가 모두 부득이한 사유로 직무를 수행할 수 없을 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": "2",
+    "title": "이사회",
+    "body": "제15조의2(이사회)\n① 기금에 이사회를 둔다.\n② 이사회는 이사장, 전무이사 및 이사로 구성한다.\n③ 이사회는 기금의 업무에 관한 중요 사항을 의결한다.\n④ 이사장은 이사회를 소집하고, 그 의장이 된다.\n⑤ 이사회는 구성원 과반수의 출석으로 개의(開議)하고, 출석 구성원 과반수의 찬성으로 의결한다.\n⑥ 감사는 이사회에 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0015021"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "임원의 임명",
+    "body": "제16조(임원의 임명)\n① 이사장과 감사는 금융위원회가 임명한다.\n② 전무이사와 이사는 이사장의 제청으로 금융위원회가 임명한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "임원의 임기",
+    "body": "제17조(임원의 임기)\n임원의 임기는 3년으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "임원의 해임",
+    "body": "제18조(임원의 해임)\n1. 이 법, 이 법에 따른 명령 또는 정관을 위반한 경우\n2. 형사사건으로 유죄판결을 받은 경우\n3. 파산선고를 받은 경우\n4. 심신의 장애로 인하여 직무 수행이 곤란하게 된 경우",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "겸직금지 의무 등",
+    "body": "제19조(겸직금지 의무 등)\n① 기금의 임원은 금융위원회의 허가 없이 다른 직무에 종사하지 못한다.\n② 기금의 임원ㆍ직원 및 그 직(職)에 있었던 사람은 직무상 알게 된 비밀을 누설하여서는 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": null,
+    "body": "제20조\n삭제 <2011.5.19>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "직원의 임면",
+    "body": "제21조(직원의 임면)\n기금의 직원은 이사장이 임면(任免)한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "대리인의 선임",
+    "body": "제22조(대리인의 선임)\n이사장은 전무이사ㆍ이사 또는 직원 중에서 기금의 업무에 관하여 재판상 또는 재판 외의 모든 행위를 할 권한이 있는 대리인을 선임할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "업무",
+    "body": "제23조(업무)\n① 기금은 이 법의 목적을 달성하기 위하여 다음 각 호의 업무를 수행한다. <개정 2013.5.28, 2021.12.31, 2023.12.29, 2025.4.1>\n1. 기본재산의 관리\n2. 신용보증\n2의2. 보증연계투자\n2의3. 제23조의3제4항에 따라 양수한 자산에 대한 권리의 행사\n2의4. 제23조의5",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": "2",
+    "title": "재보증",
+    "body": "제23조의2(재보증)\n① 기금이 재보증을 하려는 경우에는 「지역신용보증재단법」에 따른 신용보증재단(이하 \"원보증자\"라 한다)과 계약을 체결하여야 한다.\n② 제1항에 따른 계약에는 재보증 한도액, 재보증 기간, 재보증 요건 등에 관한 사항이 포함되어야 하며, 계약의 방식은 재보증계약에 따른 재보증 한도액 및 재보증 기간의 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0023021"
+   },
+   {
+    "article_no": "23",
+    "article_branch": "3",
+    "title": "유동화보증 등",
+    "body": "제23조의3(유동화보증 등)\n① 기금은 유동화회사등이 회사채등을 유동화자산으로 하는 경우로서 다음 각 호의 어느 하나에 해당하는 경우에 부담하는 채무에 대하여 보증을 할 수 있다. <개정 2018.12.31, 2025.4.1>\n1. 유동화증권의 발행\n2. 유동화회사에 대한 금융회사등의 신용공여(信用供與)\n② 기금의 유동화",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0023031"
+   },
+   {
+    "article_no": "23",
+    "article_branch": "4",
+    "title": "보증연계투자",
+    "body": "제23조의4(보증연계투자)\n① 기금은 신용보증관계가 성립한 기업에 대하여 다음 각 호의 어느 하나에 해당하는 방식으로 투자를 할 수 있다. <개정 2020.12.29>\n1. 주식의 인수\n2. 전환사채의 인수\n3. 신주인수권부사채의 인수\n4. 교환사채의 인수\n5. 「상법」 제287조의8 또는 제556조에 따른 지분의 인수\n",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0023041"
+   },
+   {
+    "article_no": "23",
+    "article_branch": "5",
+    "title": "중소ㆍ중견기업팩토링 운용",
+    "body": "제23조의5(중소ㆍ중견기업팩토링 운용)\n① 정부는 다음 각 호의 어느 하나에 해당하는 자(이하 이 조에서 \"중소기업자등\"이라 한다)의 안정적인 자금 조달을 지원하기 위하여 중소기업자등이 물품이나 용역을 제공하고 취득한 매출채권을 상환청구권 없이 매입하여 해당 중소기업자등에게 자금을 제공하고 매출채권 만기일에 채무자로부터 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0023051"
+   },
+   {
+    "article_no": "23",
+    "article_branch": "6",
+    "title": "회사채등 유동화신탁",
+    "body": "제23조의6(회사채등 유동화신탁)\n① 기금은 자산유동화계획에 따라 회사채등을 기업으로부터 취득하거나 금융회사등으로부터 인수하여 이를 기초로 자신을 수탁자로 하는 신탁을 설정하고 유동화수익증권을 발행할 수 있다.\n② 「신탁법」 제3조제2항에도 불구하고 제1항에 따른 신탁설정은 자산유동화계획을 금융위원회에 등록한 때부터 그 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0023061"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "업무방법서",
+    "body": "제24조(업무방법서)\n1. 신용보증에 관한 다음 각 목의 사항\n가. 보증방법\n나. 보증 제한업종\n다. 보증기간\n라. 보증료\n마. 보증채무의 이행\n2. 구상권의 행사\n3. 재보증에 관한 다음 각 목의 사항\n가. 재보증 방법\n나. 재보증 기간\n다. 재보증 제한업종\n4. 유동화보증에 관한 다음 각 목의 사항\n가. 보증 대상 채",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "보증 등의 한도",
+    "body": "제25조(보증 등의 한도)\n① 기금의 신용보증, 재보증 및 유동화보증의 총액한도는 기금의 기본재산과 이월이익금(移越利益金)의 합계액의 20배를 초과하지 아니하는 범위에서 대통령령으로 정한다. <개정 2025.4.1>\n② 기금이 같은 기업에 대하여 신용보증 또는 재보증을 할 수 있는 최고한도는 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "업무계획",
+    "body": "제26조(업무계획)\n① 기금은 사업연도마다 업무계획을 작성하여 운영위원회의 의결을 거쳐 금융위원회의 승인을 받아야 한다.\n② 기금이 제1항의 승인을 받고자 할 때 그 업무계획서를 해당 연도 개시 1개월 전까지 금융위원회에 제출하여야 한다.\n③ 기금이 업무계획을 변경하고자 할 때 운영위원회의 의결을 거쳐 금융위원회의 승인을",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "조사의무",
+    "body": "제27조(조사의무)\n기금이 제23조제1항제2호에 따라 신용보증(유동화보증을 포함한다. 이하 같다)을 할 경우 또는 같은 항 제4호에 따라 신용조사를 할 경우에는 그 경영상태, 사업전망, 신용상태 등을 공정ㆍ성실하게 조사하여야 한다. <개정 2025.4.1>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "보증관계의 성립 등",
+    "body": "제28조(보증관계의 성립 등)\n① 기금이 기업에 대하여 신용보증을 하기로 결정하였을 때에는 그 뜻을 그 기업과 그 기업의 채권자가 될 자에게 통지하여야 한다. 다만, 제2조제2호다목의 사채를 보증하는 경우와 유동화회사등이 제23조의3제1항제1호에 따라 유동화증권을 발행함에 따라 부담하는 채무를 보증하는 경우에는 사채인수권",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "보증채무의 이행",
+    "body": "제29조(보증채무의 이행)\n① 채권자는 대통령령으로 정하는 사유가 발생하였을 때에는 기금에 대하여 그 보증채무의 이행을 청구할 수 있다.\n② 기금은 제1항에 따라 보증채무의 이행청구를 받았을 때에는 주채무와 대통령령으로 정하는 종속채무를 이행하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "구상권의 행사 등",
+    "body": "제30조(구상권의 행사 등)\n① 기금이 보증채무를 이행하였을 때에는 그 채권자는 지체 없이 기금이 구상권을 행사하는 데에 필요한 모든 서류를 기금에 보내고 그 구상권 행사에 적극 협조하여야 한다.\n② 기금은 기금이 대위변제한 기업이 다음 각 호의 어느 하나에 해당하는 경우에는 이사회의 의결을 거쳐 그 기업에 대한 구상권 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": "2",
+    "title": "구상채권의 매각",
+    "body": "제30조의2(구상채권의 매각)\n1. 「기업구조조정투자회사법」에 따른 기업구조조정투자회사\n2. 「산업발전법」(법률 제9584호 산업발전법 전부개정법률로 개정되기 전의 것을 말한다) 제15조에 따라 등록된 기업구조조정조합\n3. 「한국자산관리공사 설립 등에 관한 법률」에 따라 설립된 한국자산관리공사\n4. 「자산유동화에 관한 법",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0030021"
+   },
+   {
+    "article_no": "30",
+    "article_branch": "3",
+    "title": "연대보증채무의 감경ㆍ면제",
+    "body": "제30조의3(연대보증채무의 감경ㆍ면제)\n「채무자 회생 및 파산에 관한 법률」 제250조제2항, 제567조, 제625조제3항에도 불구하고 채권자가 기금인 경우에는 중소기업의 회생계획인가결정을 받는 시점 및 파산선고 이후 면책결정을 받는 시점에 주채무가 감경 또는 면제될 경우 연대보증채무도 동일한 비율로 감경 또는 면제한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0030031"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "채권자의 통지의무",
+    "body": "제31조(채권자의 통지의무)\n1. 주된 채권채무관계가 성립하였을 때\n2. 채무의 일부 또는 전부가 소멸하였을 때\n3. 채무자가 기한의 이익을 상실하였을 때\n4. 채무자가 채무를 이행하지 아니하였을 때\n5. 그 밖에 보증채무에 영향을 미칠 우려가 있는 사유가 발생하였을 때",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": "2",
+    "title": "신용정보 종합관리 등의 위임규정",
+    "body": "제31조의2(신용정보 종합관리 등의 위임규정)\n신용정보의 종합관리, 신용분석 및 평가 등의 업무에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0031021"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "업무의 위탁",
+    "body": "제32조(업무의 위탁)\n① 기금은 그 업무의 일부를 대통령령으로 정하는 바에 따라 금융회사등, 「한국자산관리공사 설립 등에 관한 법률」에 따른 한국자산관리공사 또는 「신용정보의 이용 및 보호에 관한 법률」에 따른 채권추심회사(이하 이 조에서 \"채권추심회사\"라 한다)에 위탁할 수 있다. 다만, 채권추심회사의 경우 위탁받을 ",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "보증료 등",
+    "body": "제33조(보증료 등)\n① 기금은 신용보증을 받은 기업(유동화보증을 받은 유동화회사등을 포함한다. 이하 같다)으로부터 보증금액에 대하여 대통령령으로 정하는 바에 따라 신용도 등을 고려하여 보증료를 징수한다. 이 경우 신용보증을 받은 기업이 현저한 경영성과를 얻은 경우에는 대통령령으로 정하는 바에 따라 그 기업으로부터 별도의",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": "2",
+    "title": "수수료",
+    "body": "제33조의2(수수료)\n기금은 제23조제1항제3호ㆍ제4호ㆍ제8호 및 제9호의 업무를 수행할 때 대통령령으로 정하는 바에 따라 수수료를 받을 수 있다. <개정 2025.4.1>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0033021"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "위약금",
+    "body": "제34조(위약금)\n기금은 신용보증을 받은 기업이 기한까지 그 채무를 이행하지 아니하여 보증채무의 이행책임이 해제되지 아니한 경우에는 그 기업으로부터 보증한 채무 중 이행되지 아니한 금액에 대하여 대통령령으로 정하는 바에 따라 위약금을 징수한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "손해금",
+    "body": "제35조(손해금)\n기금이 보증채무를 이행하였을 때에는 해당 기업으로부터 그 이행한 금액에 대하여 연율(年率) 100분의 25를 초과하지 아니하는 비율에 따른 손해금을 징수한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0035001"
+   },
+   {
+    "article_no": "36",
+    "article_branch": null,
+    "title": "회계원칙",
+    "body": "제36조(회계원칙)\n① 기금의 회계는 기업회계기준에 따라 회계처리하여야 한다.\n② 기금의 기본재산은 자본금으로 회계처리한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0036001"
+   },
+   {
+    "article_no": "37",
+    "article_branch": null,
+    "title": "회계연도",
+    "body": "제37조(회계연도)\n기금의 회계연도는 정부의 회계연도에 따른다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0037001"
+   },
+   {
+    "article_no": "38",
+    "article_branch": null,
+    "title": "예산",
+    "body": "제38조(예산)\n① 기금은 사업연도마다 총수입과 총지출을 예산으로 편성하여 운영위원회의 의결을 거쳐 금융위원회의 승인을 받아야 한다.\n② 기금이 제1항의 승인을 받으려면 그 예산서를 해당 연도 개시 1개월 전까지 금융위원회에 제출하여야 한다.\n③ 기금이 예산을 변경하려는 경우에는 운영위원회의 의결을 거쳐 금융위원회의 승인",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0038001"
+   },
+   {
+    "article_no": "39",
+    "article_branch": null,
+    "title": "결산",
+    "body": "제39조(결산)\n기금은 회계연도마다 결산보고서, 재무상태표, 손익계산서 및 기본재산계산서를 작성하여 운영위원회의 의결을 거쳐 해당 연도경과 후 2개월 내에 금융위원회에 제출하여야 한다. <개정 2021.4.20>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0039001"
+   },
+   {
+    "article_no": "40",
+    "article_branch": null,
+    "title": "기본재산의 운용",
+    "body": "제40조(기본재산의 운용)\n① 기금의 기본재산은 업무의 운영에 필요한 지출에 충당하고 그 여유금은 다음 각 호의 방법으로 운용한다. 다만, 제3호 및 제4호의 경우에는 금융위원회의 승인을 받아야 한다.\n1. 금융회사등에 예치\n2. 국채, 지방채 및 정부ㆍ지방자치단체 또는 금융회사등이 지급을 보증한 채권의 매입\n3. 주식(",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0040001"
+   },
+   {
+    "article_no": "41",
+    "article_branch": null,
+    "title": "결손보전",
+    "body": "제41조(결손보전)\n① 기금의 결산에서 이익금이 생겼을 때에는 이를 전액 적립하여야 한다.\n② 기금의 결산에서 손실금이 생겼을 때에는 제1항의 적립금으로 보전하고 그 적립금으로 보전하고도 부족할 때에는 정부가 이를 보전한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0041001"
+   },
+   {
+    "article_no": "42",
+    "article_branch": null,
+    "title": "감독",
+    "body": "제42조(감독)\n금융위원회는 기금의 업무를 감독하고 감독에 필요한 명령을 할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0042001"
+   },
+   {
+    "article_no": "43",
+    "article_branch": null,
+    "title": "보고ㆍ검사",
+    "body": "제43조(보고ㆍ검사)\n① 금융위원회는 이 법의 목적을 달성하기 위하여 필요한 경우 기금, 기금으로부터 업무를 위탁받은 금융회사등(이하 \"수탁자\"라 한다) 또는 기금에 출연하는 금융회사등에 보고서의 제출을 요구하거나 소속 공무원으로 하여금 그 업무 상황이나 장부ㆍ서류 또는 그 밖에 필요한 물건을 검사하게 할 수 있다. 다만",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0043001"
+   },
+   {
+    "article_no": "43",
+    "article_branch": "2",
+    "title": "자료제공 및 협조의 요청",
+    "body": "제43조의2(자료제공 및 협조의 요청)\n① 기금은 국가, 지방자치단체, 「국민연금법」에 따른 국민연금공단, 「국민건강보험법」에 따른 국민건강보험공단 및 「산업재해보상보험법」에 따른 근로복지공단, 그 밖에 대통령령으로 정하는 공공단체에 제23조제1항제2호, 제2호의2부터 제2호의4까지, 제3호부터 제9호까지 및 제23조의3",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0043021"
+   },
+   {
+    "article_no": "44",
+    "article_branch": null,
+    "title": "배상책임",
+    "body": "제44조(배상책임)\n① 기금의 임원이 법령 또는 정관을 위반한 행위를 하거나 그 임무를 게을리한 경우에는 그 임원은 기금에 대하여 연대하여 손해를 배상할 책임을 진다.\n② 기금의 신용보증업무에 종사하는 사람이 그 업무처리에 있어서 고의 또는 중대한 과실로 기금에 손해를 발생시켰을 때에는 이를 배상할 책임을 진다. 이 경우",
+    "body_truncated": true,
+    "effective_on": "20251001",
+    "article_key": "0044001"
+   },
+   {
+    "article_no": "45",
+    "article_branch": null,
+    "title": null,
+    "body": "제45조\n삭제 <1995.8.4>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0045001"
+   },
+   {
+    "article_no": "46",
+    "article_branch": null,
+    "title": "보증의 금지",
+    "body": "제46조(보증의 금지)\n기금은 부당하게 채무를 면탈하여 기금의 건전성을 훼손한 기업이나 이러한 기업의 이사 또는 업무집행사원이 경영하거나 대표자로 있는 기업 등에 대하여는 제24조의 업무방법서에서 정하는 바에 따라 보증을 금지할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0046001"
+   },
+   {
+    "article_no": "47",
+    "article_branch": null,
+    "title": null,
+    "body": "제47조\n삭제 <2001.12.31>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0047001"
+   },
+   {
+    "article_no": "48",
+    "article_branch": null,
+    "title": null,
+    "body": "제48조\n삭제 <2011.5.19>",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0048001"
+   },
+   {
+    "article_no": "48",
+    "article_branch": "2",
+    "title": "벌칙 적용에서의 공무원 의제",
+    "body": "제48조의2(벌칙 적용에서의 공무원 의제)\n기금의 임원은 「형법」이나 그 밖의 법률에 따른 벌칙을 적용할 때에는 공무원으로 본다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0048021"
+   },
+   {
+    "article_no": "49",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제49조(벌칙)\n① 제19조제2항을 위반하여 비밀을 누설한 사람은 2년 이하의 징역 또는 2천만원 이하의 벌금에 처한다. <개정 2019.11.26>\n② 제9조를 위반하여 신용보증기금 또는 이와 유사한 명칭을 사용한 자는 500만원 이하의 벌금에 처한다.",
+    "body_truncated": false,
+    "effective_on": "20251001",
+    "article_key": "0049001"
+   }
+  ],
+  "article_count": 61,
+  "articles_shown": 61,
+  "articles_truncated_bodies": 24,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1093326",
+    "name": "홍성군 도로복구 원인자부담금 징수 조례",
+    "region_id": "44800",
+    "org_name": "충청남도 홍성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1093326&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1173422",
+    "name": "당진군 군세 기본조례 부과징수규칙",
+    "region_id": "44270",
+    "org_name": "충청남도 당진시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1173422&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1179460",
+    "name": "청주시 농수산물도매시장 업무조례(폐지)",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1179460&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1180987",
+    "name": "청주시 시세 기본부과징수규칙(폐지)",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1180987&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1229457",
+    "name": "가평군 군세 기본 조례 부과징수 규칙",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1229457&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1292865",
+    "name": "영천시 시세 기본 조례 시행규칙",
+    "region_id": "47230",
+    "org_name": "경상북도 영천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1292865&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1293019",
+    "name": "영광군 군세 기본조례 부과징수규칙",
+    "region_id": "12830",
+    "org_name": "전남광주통합특별시 영광군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1293019&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1296560",
+    "name": "시흥시 시세 기본조례 시행규칙",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1296560&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1324247",
+    "name": "괴산군 사회재난 구호 및 복구 지원에 관한 조례",
+    "region_id": "43760",
+    "org_name": "충청북도 괴산군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1324247&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1326865",
+    "name": "울릉군 사회재난 구호 및 복구 지원에 관한 조례",
+    "region_id": "47940",
+    "org_name": "경상북도 울릉군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1326865&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1348947",
+    "name": "서울특별시 성북구 사회재난 구호 및 복구지원에 관한 조례",
+    "region_id": "11290",
+    "org_name": "서울특별시 성북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1348947&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1350261",
+    "name": "인천광역시 미추홀구 사회재난 구호 및 복구 지원에 관한 조례",
+    "region_id": "28177",
+    "org_name": "인천광역시 미추홀구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1350261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1359820",
+    "name": "청원군 군세 기본 부과징수규칙",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1359820&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1362043",
+    "name": "양양군 사회재난 구호 및 복구 지원에 관한 조례",
+    "region_id": "51830",
+    "org_name": "강원특별자치도 양양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1362043&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1366316",
+    "name": "금산군 사회재난 구호 및 복구 지원에 관한 조례",
+    "region_id": "44710",
+    "org_name": "충청남도 금산군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1366316&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1366441",
+    "name": "서울특별시 강북구 사회재난 구호 및 복구 지원에 관한 조례",
+    "region_id": "11305",
+    "org_name": "서울특별시 강북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1366441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1372678",
+    "name": "천안시 사회재난 구호 및 복구 지원에 관한 조례",
+    "region_id": "44130",
+    "org_name": "충청남도 천안시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1372678&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1374868",
+    "name": "철원군 사회재난 구호 및 복구 지원에 관한 조례",
+    "region_id": "51780",
+    "org_name": "강원특별자치도 철원군",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1374868&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1376413",
+    "name": "김천시 농산물도매시장 운영관리 조례",
+    "region_id": "47150",
+    "org_name": "경상북도 김천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1376413&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1376572",
+    "name": "양산시 사회재난 구호 및 복구 지원에 관한 조례",
+    "region_id": "48330",
+    "org_name": "경상남도 양산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1376572&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

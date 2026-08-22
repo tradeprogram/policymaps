@@ -1,0 +1,769 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1001116",
+   "key": "ordin-1001116",
+   "mst": "1001116",
+   "name": "화순군 주민등록업무 담당공무원 보험·공제 등의 가입조례",
+   "ord_kind": "조례",
+   "region_id": "12760",
+   "sig_cd": "12760",
+   "region_name": "전남광주통합특별시 화순군",
+   "org_name": "전남광주통합특별시 화순군",
+   "enacted_on": "20090731",
+   "effective_on": "20090731",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 6,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1001116",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.963292,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:855738",
+      "key": "ordin-855738",
+      "name": "화순군 인감업무 담당공무원 보험·공제 등의 가입조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20080311",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=855738",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.883151,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2006309",
+      "key": "ordin-2006309",
+      "name": "화순군 도박 등 주요 중독 예방 및 치료 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2006309",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.880936,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1534241",
+      "key": "ordin-1534241",
+      "name": "칠곡군 주민등록업무 담당공무원 보험·공제 등의 가입 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 칠곡군",
+      "sig_cd": "47850",
+      "enacted_on": "20201006",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1534241",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.855651,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1881061",
+      "key": "ordin-1881061",
+      "name": "화순군 공영장례 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20231213",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1881061",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.854191,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1831183",
+      "key": "ordin-1831183",
+      "name": "화순군 관광진흥에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20230630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1831183",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.852442,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2095807",
+      "key": "ordin-2095807",
+      "name": "화순군 생활문화센터 설치 및 관리·운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20251222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2095807",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.851181,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1430913",
+      "key": "ordin-1430913",
+      "name": "화순군 작품 구입 및 임차에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20191211",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1430913",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.846784,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1798625",
+      "key": "ordin-1798625",
+      "name": "화순군 공무직 복무 등 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20230406",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1798625",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.84488,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2020705",
+      "key": "ordin-2020705",
+      "name": "화순군 노동상담소 설치 및 운영조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20250311",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2020705",
+      "categories": [
+       "C11",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.844766,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1661579",
+      "key": "ordin-1661579",
+      "name": "화순군 장난감도서관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20211228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1661579",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.991942,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1552801",
+      "key": "ordin-1552801",
+      "name": "화순군 사회재난 구호 및 복구지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20201215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1552801",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.991307,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1946787",
+      "key": "ordin-1946787",
+      "name": "화순군 사무의 읍ㆍ면위임 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20240702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1946787",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.991132,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2028151",
+      "key": "ordin-2028151",
+      "name": "화순군의회 지방공무원 복무 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20250408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2028151",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991127,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1824003",
+      "key": "ordin-1824003",
+      "name": "화순군 성별영향평가 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20230622",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1824003",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990959,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1915911",
+      "key": "ordin-1915911",
+      "name": "화순군 통계자료실 운영규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20240321",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1915911",
+      "categories": []
+     },
+     {
+      "rank": 6,
+      "cosine": 0.990862,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2120331",
+      "key": "ordin-2120331",
+      "name": "화순군 군세 감면 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20260406",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2120331",
+      "categories": [
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.99083,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1661553",
+      "key": "ordin-1661553",
+      "name": "화순군 한약재유통지원시설 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20211228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1661553",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.990775,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1332160",
+      "key": "ordin-1332160",
+      "name": "화순군 여름철 물놀이 안전관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20171229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1332160",
+      "categories": [
+       "C08"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990588,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:923565",
+      "key": "ordin-923565",
+      "name": "화순군 마을상수도 및 소규모급수시설 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20130729",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=923565",
+      "categories": [
+       "C09",
+       "C06"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990436,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1824027",
+      "key": "ordin-1824027",
+      "name": "화순군 사회적경제 활성화 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20230622",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1824027",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 3,
+    "stored_agreement": 0.3
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994754,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2076611",
+      "key": "ordin-2076611",
+      "name": "화순군 체육시설 관리 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20251002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2076611",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994617,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1331691",
+      "key": "ordin-1331691",
+      "name": "화순군 자치분권 촉진·지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20171229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1331691",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994293,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1509851",
+      "key": "ordin-1509851",
+      "name": "오지호기념관 설치 및 관리 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20200630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1509851",
+      "categories": []
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994088,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1946751",
+      "key": "ordin-1946751",
+      "name": "화순군 민간인에 대한 실비보상조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20240702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1946751",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994005,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2105851",
+      "key": "ordin-2105851",
+      "name": "화순군 납세자보호에 관한 사무처리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20260105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2105851",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993698,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1670745",
+      "key": "ordin-1670745",
+      "name": "화순군 기록물 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20211228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1670745",
+      "categories": [
+       "C02",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993635,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1824007",
+      "key": "ordin-1824007",
+      "name": "화순군 갈등 예방과 해결에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20230622",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1824007",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993546,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2095807",
+      "key": "ordin-2095807",
+      "name": "화순군 생활문화센터 설치 및 관리·운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20251222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2095807",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993525,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1735395",
+      "key": "ordin-1735395",
+      "name": "화순군 관급공사 임금체불 방지 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20221006",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1735395",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993488,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1553421",
+      "key": "ordin-1553421",
+      "name": "화순군 감염병 예방 및 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 화순군",
+      "sig_cd": "12760",
+      "enacted_on": "20201215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1553421",
+      "categories": [
+       "C06"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2095807",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.922994,
+    "best_rank": 6,
+    "ordinance_id": "ordin:2095807",
+    "key": "ordin-2095807",
+    "name": "화순군 생활문화센터 설치 및 관리·운영 조례",
+    "region_name": "전남광주통합특별시 화순군",
+    "sig_cd": "12760",
+    "enacted_on": "20251222",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2095807"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

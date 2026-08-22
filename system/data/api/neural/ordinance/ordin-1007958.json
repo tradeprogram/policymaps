@@ -1,0 +1,768 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1007958",
+   "key": "ordin-1007958",
+   "mst": "1007958",
+   "name": "곡성군 지방별정직공무원 자진퇴직수당 지급에 관한 규칙",
+   "ord_kind": "규칙",
+   "region_id": "12720",
+   "sig_cd": "12720",
+   "region_name": "전남광주통합특별시 곡성군",
+   "org_name": "전남광주통합특별시 곡성군",
+   "enacted_on": "20150423",
+   "effective_on": "20150423",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 8,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1007958",
+   "categories": [
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.6471,
+     "method": "rule"
+    },
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.903234,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:806536",
+      "key": "ordin-806536",
+      "name": "곡성군 지방공무원 명예퇴직 수당 등 지급에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20091208",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=806536",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.898024,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1669293",
+      "key": "ordin-1669293",
+      "name": "고성군 지방별정직공무원 자진퇴직수당 지급에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 고성군",
+      "sig_cd": "51820",
+      "enacted_on": "20220107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1669293",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.866933,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1602725",
+      "key": "ordin-1602725",
+      "name": "곡성군 지방세 세무조사 운영규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20210607",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1602725",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.861279,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:941889",
+      "key": "ordin-941889",
+      "name": "곡성군 지방공무원 근무 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20180620",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=941889",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.860774,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1385171",
+      "key": "ordin-1385171",
+      "name": "곡성군 명품농업대학 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20190218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1385171",
+      "categories": [
+       "C05",
+       "C12"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.857453,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1272247",
+      "key": "ordin-1272247",
+      "name": "곡성군 사회복지사 등의 처우 및 지위 향상에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20161230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1272247",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.852668,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1778757",
+      "key": "ordin-1778757",
+      "name": "곡성군 회계관리에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20230113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1778757",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.852614,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:979138",
+      "key": "ordin-979138",
+      "name": "곡성군 보건진료소 운영협의회 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20131220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=979138",
+      "categories": [
+       "C01",
+       "C06"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.852304,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1363126",
+      "key": "ordin-1363126",
+      "name": "곡성군 공무원 후생복지에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20180919",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1363126",
+      "categories": [
+       "C01",
+       "C06",
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.852195,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1362681",
+      "key": "ordin-1362681",
+      "name": "곡성군 청소년상담복지센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20181008",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1362681",
+      "categories": [
+       "C03",
+       "C06",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.991227,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1957661",
+      "key": "ordin-1957661",
+      "name": "곡성군 소하천 점용료 및 사용료 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20240717",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1957661",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.990527,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1915297",
+      "key": "ordin-1915297",
+      "name": "곡성군 장난감도서관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20240325",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1915297",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.989675,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2129211",
+      "key": "ordin-2129211",
+      "name": "곡성군 식품진흥기금 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20260513",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2129211",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.989308,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1665629",
+      "key": "ordin-1665629",
+      "name": "곡성군 도로개발사업 지방채 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20211229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1665629",
+      "categories": [
+       "C02",
+       "C10",
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.988976,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1957663",
+      "key": "ordin-1957663",
+      "name": "곡성군 자율방범대 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20240717",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1957663",
+      "categories": [
+       "C05",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.988829,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1823581",
+      "key": "ordin-1823581",
+      "name": "곡성군의회 청원심사 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20230621",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1823581",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.988619,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1561467",
+      "key": "ordin-1561467",
+      "name": "곡성군 한옥 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20201230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1561467",
+      "categories": [
+       "C09",
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.988599,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1389874",
+      "key": "ordin-1389874",
+      "name": "곡성군정조정위원회 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20190403",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1389874",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.988322,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1679267",
+      "key": "ordin-1679267",
+      "name": "곡성군 긴급재난지원금 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20220124",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1679267",
+      "categories": [
+       "C08",
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.988313,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1223767",
+      "key": "ordin-1223767",
+      "name": "곡성군농업기술센터 종합검정실 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20160324",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1223767",
+      "categories": [
+       "C12"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994664,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2100735",
+      "key": "ordin-2100735",
+      "name": "곡성군 중증장애인생산품 우선구매 촉진 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20251230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2100735",
+      "categories": [
+       "C03",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994603,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1691675",
+      "key": "ordin-1691675",
+      "name": "곡성군 주민참여형 놀이터 조성 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20220318",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1691675",
+      "categories": [
+       "C08",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993824,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1915355",
+      "key": "ordin-1915355",
+      "name": "곡성군 무연고 사망자 등 장례 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20240325",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1915355",
+      "categories": [
+       "C02",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.99381,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2002887",
+      "key": "ordin-2002887",
+      "name": "곡성군 청소년유해환경 신고포상금 지급규칙",
+      "ord_kind": "규칙",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2002887",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993804,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1935445",
+      "key": "ordin-1935445",
+      "name": "곡성군 지방시대위원회 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20240603",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1935445",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993795,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2067335",
+      "key": "ordin-2067335",
+      "name": "곡성군 부산물 자원화센터 운영·관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20250917",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2067335",
+      "categories": [
+       "C12",
+       "C07"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993782,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1027135",
+      "key": "ordin-1027135",
+      "name": "곡성군 노사민정협의회 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20141114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1027135",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993744,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1809833",
+      "key": "ordin-1809833",
+      "name": "곡성군 다문화가족 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20230517",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1809833",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993708,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1414020",
+      "key": "ordin-1414020",
+      "name": "곡성군 어린이 통학로 교통안전을 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20191018",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1414020",
+      "categories": [
+       "C10",
+       "C04",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993684,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1915289",
+      "key": "ordin-1915289",
+      "name": "곡성군 고령 영세농업인 영농경영비 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 곡성군",
+      "sig_cd": "12720",
+      "enacted_on": "20240325",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1915289",
+      "categories": [
+       "C12",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

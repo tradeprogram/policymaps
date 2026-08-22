@@ -1,0 +1,694 @@
+{
+ "data": {
+  "region": {
+   "region_id": "12720",
+   "sig_cd": "12720",
+   "name": "곡성군",
+   "full_name": "전남광주통합특별시 곡성군",
+   "level": 2
+  },
+  "counts": {
+   "total": 591,
+   "active": 521,
+   "repealed": 70,
+   "by_rr_cls_cd": {
+    "일부개정": 327,
+    "전부개정": 28,
+    "제정": 166,
+    "폐지": 70
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1997,
+    "n": 2
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 1
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 6
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 25
+   },
+   {
+    "year": 2015,
+    "n": 27
+   },
+   {
+    "year": 2016,
+    "n": 22
+   },
+   {
+    "year": 2017,
+    "n": 23
+   },
+   {
+    "year": 2018,
+    "n": 25
+   },
+   {
+    "year": 2019,
+    "n": 29
+   },
+   {
+    "year": 2020,
+    "n": 33
+   },
+   {
+    "year": 2021,
+    "n": 87
+   },
+   {
+    "year": 2022,
+    "n": 32
+   },
+   {
+    "year": 2023,
+    "n": 61
+   },
+   {
+    "year": 2024,
+    "n": 58
+   },
+   {
+    "year": 2025,
+    "n": 60
+   },
+   {
+    "year": 2026,
+    "n": 77
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2006,
+    "n": 1
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 10
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 9
+   },
+   {
+    "year": 2017,
+    "n": 7
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 1
+   },
+   {
+    "year": 2020,
+    "n": 4
+   },
+   {
+    "year": 2021,
+    "n": 7
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 7
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여 업무처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법 위반자에 대한 행정처분 규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의 운영 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "제안규칙",
+    "display_name": "제안 규칙",
+    "rows": 1,
+    "nationwide_regions": 53
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2103195",
+    "name": "곡성군 대상포진 예방접종 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-30",
+    "repealed_on": "2026-07-01",
+    "repealed_on_raw": "20260701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103195&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1935443",
+    "name": "곡성군 자치분권 촉진 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-03",
+    "repealed_on": "2024-06-03",
+    "repealed_on_raw": "20240603",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1935443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1935441",
+    "name": "곡성군 지역혁신협의회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-03",
+    "repealed_on": "2024-06-03",
+    "repealed_on_raw": "20240603",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1935441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1889843",
+    "name": "곡성군 섬진강기차마을공사 사장후보 추천위원회 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-27",
+    "repealed_on": "2023-12-27",
+    "repealed_on_raw": "20231227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889843&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1889841",
+    "name": "곡성군 섬진강기차마을공사 설립 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-27",
+    "repealed_on": "2023-12-27",
+    "repealed_on_raw": "20231227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889841&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1889851",
+    "name": "곡성군 옥과공공도서관 설치 및 관리운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-27",
+    "repealed_on": "2023-12-27",
+    "repealed_on_raw": "20231227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889851&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1889815",
+    "name": "곡성군 읍면장의 임용 등에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-27",
+    "repealed_on": "2023-12-27",
+    "repealed_on_raw": "20231227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889815&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1878335",
+    "name": "곡성군 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-05",
+    "repealed_on": "2023-12-05",
+    "repealed_on_raw": "20231205",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1878335&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1878327",
+    "name": "곡성군 홀로 사는 노인 고독사 예방을 위한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-05",
+    "repealed_on": "2023-12-05",
+    "repealed_on_raw": "20231205",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1878327&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1863639",
+    "name": "곡성군 지속가능발전환경협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-04",
+    "repealed_on": "2023-10-04",
+    "repealed_on_raw": "20231004",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1863639&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1731611",
+    "name": "곡성군 소송수행자 포상금지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-04",
+    "repealed_on": "2022-10-04",
+    "repealed_on_raw": "20221004",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1731611&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1721085",
+    "name": "곡성군 청년일자리 창출 지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-10",
+    "repealed_on": "2022-08-10",
+    "repealed_on_raw": "20220810",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1721085&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1691669",
+    "name": "곡성심청축제추진위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-18",
+    "repealed_on": "2022-03-18",
+    "repealed_on_raw": "20220318",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1691669&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1644437",
+    "name": "곡성군 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-03",
+    "repealed_on": "2021-12-03",
+    "repealed_on_raw": "20211203",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1644437&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632737",
+    "name": "곡성군 공무원직장협의회의 설립 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-06",
+    "repealed_on": "2021-10-06",
+    "repealed_on_raw": "20211006",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632737&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632749",
+    "name": "곡성군 무료 법률·세무상담실 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-06",
+    "repealed_on": "2021-10-06",
+    "repealed_on_raw": "20211006",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632749&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632755",
+    "name": "곡성군 미래교육협력센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-06",
+    "repealed_on": "2021-10-06",
+    "repealed_on_raw": "20211006",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632755&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632751",
+    "name": "곡성군 불용농약 등의 수집·처리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-06",
+    "repealed_on": "2021-10-06",
+    "repealed_on_raw": "20211006",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632751&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1632739",
+    "name": "곡성군 곡성군직장협의회의 설립·운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-10-06",
+    "repealed_on": "2021-10-06",
+    "repealed_on_raw": "20211006",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1632739&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1614607",
+    "name": "곡성군 체육진흥협의회 조직 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-12",
+    "repealed_on": "2021-07-12",
+    "repealed_on_raw": "20210712",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1614607&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1550019",
+    "name": "곡성군 장학진흥기금조성 및 관리운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-30",
+    "repealed_on": "2020-11-30",
+    "repealed_on_raw": "20201130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1550019&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1550017",
+    "name": "곡성군 장학진흥기금조성 및 관리운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-30",
+    "repealed_on": "2020-11-30",
+    "repealed_on_raw": "20201130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1550017&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1532947",
+    "name": "곡성군 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-29",
+    "repealed_on": "2020-09-29",
+    "repealed_on_raw": "20200929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1532947&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1515629",
+    "name": "곡성군 농산물가공공장 운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-10",
+    "repealed_on": "2020-07-10",
+    "repealed_on_raw": "20200710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515629&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1389882",
+    "name": "곡성군 기반시설특별회계설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-04-03",
+    "repealed_on": "2019-04-03",
+    "repealed_on_raw": "20190403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1389882&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1377256",
+    "name": "곡성군 농공지구조성사업 특별회계 설치 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1377256&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1316304",
+    "name": "곡성군 가로수조성 및 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-08",
+    "repealed_on": "2017-12-08",
+    "repealed_on_raw": "20171208",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1316304&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1319979",
+    "name": "곡성군 민원조정위원회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-12-08",
+    "repealed_on": "2017-12-08",
+    "repealed_on_raw": "20171208",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1319979&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1308731",
+    "name": "곡성군 출산과 양육지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-10-11",
+    "repealed_on": "2017-10-11",
+    "repealed_on_raw": "20171011",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1308731&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1296409",
+    "name": "곡성군 거주 외국인 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-07-17",
+    "repealed_on": "2017-07-17",
+    "repealed_on_raw": "20170717",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1296409&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1296412",
+    "name": "곡성군 다문화가족 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-07-17",
+    "repealed_on": "2017-07-17",
+    "repealed_on_raw": "20170717",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1296412&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1274964",
+    "name": "곡성군 사회적기업 육성지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-01-09",
+    "repealed_on": "2017-01-09",
+    "repealed_on_raw": "20170109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1274964&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1274965",
+    "name": "곡성군 협동조합 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-01-09",
+    "repealed_on": "2017-01-09",
+    "repealed_on_raw": "20170109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1274965&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1022961",
+    "name": "곡성군 노인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-11-04",
+    "repealed_on": "2016-12-31",
+    "repealed_on_raw": "20161231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1022961&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1215416",
+    "name": "곡성군 문화예술진흥기금 조성 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-11-04",
+    "repealed_on": "2016-12-31",
+    "repealed_on_raw": "20161231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1215416&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:992920",
+    "name": "곡성군 재활용품판매대금 관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-11-04",
+    "repealed_on": "2016-12-31",
+    "repealed_on_raw": "20161231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=992920&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1272239",
+    "name": "곡성군 체육진흥협의회 조직운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-12-30",
+    "repealed_on": "2016-12-31",
+    "repealed_on_raw": "20161231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1272239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1272233",
+    "name": "곡성군 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-12-30",
+    "repealed_on": "2016-12-30",
+    "repealed_on_raw": "20161230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1272233&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1266145",
+    "name": "곡성군 황토은행 설치및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-11-30",
+    "repealed_on": "2016-11-30",
+    "repealed_on_raw": "20161130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1266145&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1215488",
+    "name": "곡성군 주택사업 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-07-19",
+    "repealed_on": "2016-07-19",
+    "repealed_on_raw": "20160719",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1215488&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "12720"
+ ]
+}

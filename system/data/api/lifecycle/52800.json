@@ -1,0 +1,706 @@
+{
+ "data": {
+  "region": {
+   "region_id": "52800",
+   "sig_cd": "52800",
+   "name": "부안군",
+   "full_name": "전북특별자치도 부안군",
+   "level": 2
+  },
+  "counts": {
+   "total": 739,
+   "active": 606,
+   "repealed": 133,
+   "by_rr_cls_cd": {
+    "일부개정": 427,
+    "전부개정": 22,
+    "제정": 157,
+    "폐지": 133
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 11
+   },
+   {
+    "year": 2012,
+    "n": 9
+   },
+   {
+    "year": 2013,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 22
+   },
+   {
+    "year": 2015,
+    "n": 20
+   },
+   {
+    "year": 2016,
+    "n": 14
+   },
+   {
+    "year": 2017,
+    "n": 10
+   },
+   {
+    "year": 2018,
+    "n": 19
+   },
+   {
+    "year": 2019,
+    "n": 28
+   },
+   {
+    "year": 2020,
+    "n": 50
+   },
+   {
+    "year": 2021,
+    "n": 30
+   },
+   {
+    "year": 2022,
+    "n": 38
+   },
+   {
+    "year": 2023,
+    "n": 78
+   },
+   {
+    "year": 2024,
+    "n": 121
+   },
+   {
+    "year": 2025,
+    "n": 239
+   },
+   {
+    "year": 2026,
+    "n": 24
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 11
+   },
+   {
+    "year": 2012,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 13
+   },
+   {
+    "year": 2015,
+    "n": 11
+   },
+   {
+    "year": 2016,
+    "n": 10
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 8
+   },
+   {
+    "year": 2019,
+    "n": 4
+   },
+   {
+    "year": 2020,
+    "n": 6
+   },
+   {
+    "year": 2021,
+    "n": 5
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 7
+   },
+   {
+    "year": 2024,
+    "n": 16
+   },
+   {
+    "year": 2025,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "상수도급수사용료과징사무처리규칙",
+    "display_name": "상수도급수사용료과징사무처리규칙",
+    "rows": 2,
+    "nationwide_regions": 9
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성 검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수.분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보 교부금 지급 규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료부과징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반 사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2077757",
+    "name": "부안군 노인돌봄종사자 처우개선 및 지위향상에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-10",
+    "repealed_on": "2025-10-10",
+    "repealed_on_raw": "20251010",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2077757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1998659",
+    "name": "부안군 식품제조·가공업 시설기준 특례 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-12-26",
+    "repealed_on": "2024-12-26",
+    "repealed_on_raw": "20241226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1998659&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1979169",
+    "name": "부안군 정보화 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-25",
+    "repealed_on": "2024-10-25",
+    "repealed_on_raw": "20241025",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1979169&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1979179",
+    "name": "부안군 치매환자 의료비 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-25",
+    "repealed_on": "2024-10-25",
+    "repealed_on_raw": "20241025",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1979179&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1974977",
+    "name": "부안군 노인 목욕비 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-02",
+    "repealed_on": "2024-10-02",
+    "repealed_on_raw": "20241002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974977&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1974985",
+    "name": "부안군 화재취약계층 주택용 소방시설 설치 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-02",
+    "repealed_on": "2024-10-02",
+    "repealed_on_raw": "20241002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974985&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1963859",
+    "name": "부안군 농어촌 미혼남성 혼인사업 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-08-20",
+    "repealed_on": "2024-08-20",
+    "repealed_on_raw": "20240820",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1963859&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1963851",
+    "name": "부안군 노인·여성 복지회관 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-08-20",
+    "repealed_on": "2024-08-20",
+    "repealed_on_raw": "20240820",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1963851&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1959601",
+    "name": "부안군 줄포만갯벌생태공원 운영 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-07-25",
+    "repealed_on": "2024-07-25",
+    "repealed_on_raw": "20240725",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1959601&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1953777",
+    "name": "부안군각종위원회실비변상조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-10",
+    "repealed_on": "2024-07-10",
+    "repealed_on_raw": "20240710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1953777&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1953935",
+    "name": "부안군 택시 기본차령 조정에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-10",
+    "repealed_on": "2024-07-10",
+    "repealed_on_raw": "20240710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1953935&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1921927",
+    "name": "부안군 2023 세계스카우트잼버리 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-19",
+    "repealed_on": "2024-04-19",
+    "repealed_on_raw": "20240419",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1921927&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1921939",
+    "name": "부안군 마실공영주차장 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-19",
+    "repealed_on": "2024-04-19",
+    "repealed_on_raw": "20240419",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1921939&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1921945",
+    "name": "부안군 심폐소생술 교육에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-19",
+    "repealed_on": "2024-04-19",
+    "repealed_on_raw": "20240419",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1921945&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1921935",
+    "name": "부안군 양식장형망선의 사용기준 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-19",
+    "repealed_on": "2024-04-19",
+    "repealed_on_raw": "20240419",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1921935&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1882223",
+    "name": "부안군 농공지구 조성 및 관리사업 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-15",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1882223&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1882217",
+    "name": "부안군 무연고 국민기초생활보장 수급자 장례 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-15",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1882217&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1903677",
+    "name": "부안군 노인·여성 복지회관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-28",
+    "repealed_on": "2023-12-28",
+    "repealed_on_raw": "20231228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1903677&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1865739",
+    "name": "부안군 기반시설특별회계 설치 설치·운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-13",
+    "repealed_on": "2023-12-01",
+    "repealed_on_raw": "20231201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1865739&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2029529",
+    "name": "부안군 사회적기업 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-13",
+    "repealed_on": "2023-10-13",
+    "repealed_on_raw": "20231013",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2029529&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1865737",
+    "name": "부안군읍.면개발자문위원회조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-13",
+    "repealed_on": "2023-10-13",
+    "repealed_on_raw": "20231013",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1865737&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1836337",
+    "name": "부안군 지역문화진흥기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-13",
+    "repealed_on": "2023-09-01",
+    "repealed_on_raw": "20230901",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1836337&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1836333",
+    "name": "부안군 새만금 지원협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-13",
+    "repealed_on": "2023-07-13",
+    "repealed_on_raw": "20230713",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1836333&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1803867",
+    "name": "부안군 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-21",
+    "repealed_on": "2023-04-21",
+    "repealed_on_raw": "20230421",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1803867&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1780085",
+    "name": "부안군노인.아동급식위원회 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-10",
+    "repealed_on": "2022-08-10",
+    "repealed_on_raw": "20220810",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1780085&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1721493",
+    "name": "부안군소송사건수행증인등의실비변상조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-10",
+    "repealed_on": "2022-08-10",
+    "repealed_on_raw": "20220810",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1721493&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1722597",
+    "name": "부안군 중소기업 육성기금 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-10",
+    "repealed_on": "2022-08-10",
+    "repealed_on_raw": "20220810",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1722597&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1706487",
+    "name": "부안군 작은 목욕탕 관리 및 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-05-03",
+    "repealed_on": "2022-05-03",
+    "repealed_on_raw": "20220503",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1706487&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1665391",
+    "name": "부안군 주민 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-05",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1665391&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1631465",
+    "name": "부안군기조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-01",
+    "repealed_on": "2021-10-01",
+    "repealed_on_raw": "20211001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1631465&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612779",
+    "name": "부안군 노인요양시설 설치·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612779&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612781",
+    "name": "부안군 재가노인지원센터 설치·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612781&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612765",
+    "name": "부안군 수입증지 취급 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612765&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1612767",
+    "name": "부안군 주택임대차계약서 확정일자 부여업무 처리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-07-09",
+    "repealed_on": "2021-07-09",
+    "repealed_on_raw": "20210709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1612767&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545549",
+    "name": "부안군의회에 출석·답변할 수 있는 관계공무원의 범위에 관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545549&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545543",
+    "name": "부안군의회 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545543&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545553",
+    "name": "부안군의회 회기운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-13",
+    "repealed_on": "2020-11-13",
+    "repealed_on_raw": "20201113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545553&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1495423",
+    "name": "부안군 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-05-19",
+    "repealed_on": "2020-05-19",
+    "repealed_on_raw": "20200519",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1495423&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1495431",
+    "name": "부안군 탈세정보 교부금 지급 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-05-19",
+    "repealed_on": "2020-05-19",
+    "repealed_on_raw": "20200519",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1495431&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1487095",
+    "name": "부안군 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-10",
+    "repealed_on": "2020-04-10",
+    "repealed_on_raw": "20200410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1487095&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "52800"
+ ]
+}

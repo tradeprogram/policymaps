@@ -1,0 +1,829 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:281959",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "양성평등기본법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20260701",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=281959&type=HTML&mobileYn=&efYd=20260701",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 3425,
+   "child_ordinances": 3226,
+   "by_verification_status": {
+    "article-missing": 44,
+    "article-verified": 3156,
+    "unverifiable": 225
+   },
+   "by_delegation_type": {
+    "law-delegated": 3425
+   },
+   "regions_top": [
+    {
+     "region_id": "48120",
+     "name": "경상남도 창원시",
+     "ordinances": 157
+    },
+    {
+     "region_id": "48250",
+     "name": "경상남도 김해시",
+     "ordinances": 94
+    },
+    {
+     "region_id": "48890",
+     "name": "경상남도 합천군",
+     "ordinances": 77
+    },
+    {
+     "region_id": "41570",
+     "name": "경기도 김포시",
+     "ordinances": 69
+    },
+    {
+     "region_id": "51",
+     "name": "강원특별자치도",
+     "ordinances": 65
+    },
+    {
+     "region_id": "48860",
+     "name": "경상남도 산청군",
+     "ordinances": 59
+    },
+    {
+     "region_id": "47820",
+     "name": "경상북도 청도군",
+     "ordinances": 53
+    },
+    {
+     "region_id": "44770",
+     "name": "충청남도 서천군",
+     "ordinances": 51
+    },
+    {
+     "region_id": "31200",
+     "name": "울산광역시 북구",
+     "ordinances": 51
+    },
+    {
+     "region_id": "31110",
+     "name": "울산광역시 중구",
+     "ordinances": 51
+    },
+    {
+     "region_id": "51730",
+     "name": "강원특별자치도 횡성군",
+     "ordinances": 50
+    },
+    {
+     "region_id": "11590",
+     "name": "서울특별시 동작구",
+     "ordinances": 50
+    },
+    {
+     "region_id": "44790",
+     "name": "충청남도 청양군",
+     "ordinances": 49
+    },
+    {
+     "region_id": "48840",
+     "name": "경상남도 남해군",
+     "ordinances": 46
+    },
+    {
+     "region_id": "48850",
+     "name": "경상남도 하동군",
+     "ordinances": 44
+    },
+    {
+     "region_id": "48720",
+     "name": "경상남도 의령군",
+     "ordinances": 43
+    },
+    {
+     "region_id": "48330",
+     "name": "경상남도 양산시",
+     "ordinances": 43
+    },
+    {
+     "region_id": "48870",
+     "name": "경상남도 함양군",
+     "ordinances": 40
+    },
+    {
+     "region_id": "12780",
+     "name": "전남광주통합특별시 강진군",
+     "ordinances": 39
+    },
+    {
+     "region_id": "12110",
+     "name": "전남광주통합특별시 목포시",
+     "ordinances": 39
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 「대한민국헌법」의 양성평등 이념을 실현하기 위한 국가와 지방자치단체의 책무 등에 관한 기본적인 사항을 규정함으로써 정치ㆍ경제ㆍ사회ㆍ문화의 모든 영역에서 양성평등을 실현하는 것을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "기본이념",
+    "body": "제2조(기본이념)\n이 법은 개인의 존엄과 인권의 존중을 바탕으로 성차별적 의식과 관행을 없애고, 여성과 남성이 동등한 참여와 대우를 받고 모든 영역에서 평등한 책임과 권리를 공유함으로써 실질적 양성평등 사회를 이루는 것을 기본이념으로 한다. <개정 2021.4.20>",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제3조(정의)\n1. \"양성평등\"이란 성별에 따른 차별, 편견, 비하 및 폭력 없이 인권을 동등하게 보장받고 모든 영역에 동등하게 참여하고 대우받는 것을 말한다.\n2. \"성희롱\"이란 업무, 고용, 그 밖의 관계에서 국가기관ㆍ지방자치단체 또는 대통령령으로 정하는 공공단체(이하 \"국가기관등\"이라 한다)의 종사자, 사용자 또는 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "국민의 권리와 의무",
+    "body": "제4조(국민의 권리와 의무)\n① 모든 국민은 가족과 사회 등 모든 영역에서 양성평등한 대우를 받고 양성평등한 생활을 영위할 권리를 가진다.\n② 모든 국민은 양성평등의 중요성을 인식하고 이를 실현하기 위하여 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "국가 등의 책무",
+    "body": "제5조(국가 등의 책무)\n① 국가기관등은 양성평등 실현을 위하여 노력하여야 한다.\n② 국가와 지방자치단체는 양성평등 실현을 위하여 법적ㆍ제도적 장치를 마련하고 이에 필요한 재원을 마련할 책무를 진다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "다른 법률과의 관계",
+    "body": "제6조(다른 법률과의 관계)\n양성평등에 관한 다른 법률을 제정하거나 개정할 때에는 이 법의 목적과 기본이념에 맞도록 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "양성평등정책 기본계획의 수립",
+    "body": "제7조(양성평등정책 기본계획의 수립)\n① 성평등가족부장관은 양성평등정책 기본계획(이하 \"기본계획\"이라 한다)을 5년마다 수립하여야 한다. <개정 2025.10.1>\n② 기본계획에는 다음 각 호의 사항이 포함되어야 한다.\n1. 양성평등정책의 기본 목표와 추진방향\n2. 양성평등정책의 추진과제와 추진방법\n3. 양성평등정책 추진",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "연도별 시행계획의 수립",
+    "body": "제8조(연도별 시행계획의 수립)\n① 중앙행정기관의 장과 시ㆍ도지사는 기본계획에 따라 연도별 시행계획(이하 \"시행계획\"이라 한다)을 각각 수립ㆍ시행하여야 한다.\n② 중앙행정기관의 장과 시ㆍ도지사는 해당 연도의 시행계획 및 전년도의 추진실적을 대통령령으로 정하는 바에 따라 매년 성평등가족부장관에게 제출하여야 하며, 성평등가족",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "계획 수립 및 시행의 협조",
+    "body": "제9조(계획 수립 및 시행의 협조)\n① 성평등가족부장관은 기본계획 및 시행계획을 수립ㆍ시행하기 위하여 필요하면 관계 중앙행정기관, 지방자치단체 또는 공공기관(「공공기관의 운영에 관한 법률」 제4조제1항에 따른 공공기관을 말한다. 이하 같다)의 장에게 협조를 요청할 수 있다. <개정 2021.1.12, 2025.10.1>\n",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "양성평등 실태조사 등",
+    "body": "제10조(양성평등 실태조사 등)\n① 성평등가족부장관은 기본계획 수립 등을 위하여 5년마다 양성평등 관련 실태조사를 실시하여야 하며 그 결과를 공표할 수 있다. <개정 2025.10.1>\n② 제1항에 따른 양성평등 관련 실태조사의 내용ㆍ방법 등에 필요한 사항은 대통령령으로 정한다.\n③ 성평등가족부장관은 국민이 양성평등 관련",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "양성평등위원회",
+    "body": "제11조(양성평등위원회)\n① 양성평등정책에 관한 중요사항을 심의ㆍ조정하기 위하여 국무총리 소속으로 양성평등위원회(이하 이 조에서 \"위원회\"라 한다)를 둔다.\n② 위원회는 다음 각 호의 사항을 심의ㆍ조정한다. <개정 2017.12.12>\n1. 기본계획 및 시행계획에 관한 사항\n2. 시행계획 등 양성평등정책 추진실적 점검에 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "2",
+    "title": "시ㆍ도 양성평등위원회",
+    "body": "제11조의2(시ㆍ도 양성평등위원회)\n특별시ㆍ광역시ㆍ특별자치시ㆍ도ㆍ특별자치도(이하 \"시ㆍ도\"라 한다)는 조례로 정하는 바에 따라 시ㆍ도의 양성평등정책에 관한 중요사항을 심의ㆍ조정하기 위하여 양성평등위원회(이하 \"시ㆍ도위원회\"라 한다)를 둘 수 있다. 다만, 시ㆍ도위원회의 기능을 담당하기에 적합한 다른 위원회가 있는 경우에는",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0011021"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "양성평등실무위원회 등",
+    "body": "제12조(양성평등실무위원회 등)\n① 제11조제2항 각 호의 사항을 미리 검토하고 양성평등위원회가 위임한 사항을 처리하기 위하여 양성평등위원회에 성평등가족부차관을 위원장으로 하는 양성평등실무위원회(이하 \"실무위원회\"라 한다)를 둔다. <개정 2025.10.1>\n② 양성평등위원회의 소관 사항을 전문적으로 검토하기 위하여 분과",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "양성평등정책책임관의 지정 등",
+    "body": "제13조(양성평등정책책임관의 지정 등)\n① 중앙행정기관의 장과 시ㆍ도지사는 해당 기관의 양성평등정책을 효율적으로 수립ㆍ시행하기 위하여 소속 공무원 중에서 양성평등정책책임관을 지정하고, 필요한 전담전문인력을 두어야 한다.\n② 제1항에 따른 양성평등정책책임관과 전담전문인력의 지정 및 업무 등에 필요한 사항은 대통령령으로 정한",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "성 주류화 조치",
+    "body": "제14조(성 주류화 조치)\n① 국가와 지방자치단체는 법령의 제정ㆍ개정 및 적용ㆍ해석, 정책의 기획, 예산 편성 및 집행, 그 밖에 법령에 따라 직무를 수행하는 과정에서 성평등 관점을 통합하는 성 주류화 조치를 취하여야 한다.\n② 국가와 지방자치단체는 성 주류화 조치의 실효성을 높이기 위하여 다양한 방법과 도구를 적극 개발",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "성별영향평가",
+    "body": "제15조(성별영향평가)\n① 국가와 지방자치단체는 제정ㆍ개정을 추진하는 법령(법률ㆍ대통령령ㆍ총리령ㆍ부령 및 조례ㆍ규칙을 말한다)과 성평등에 중대한 영향을 미칠 수 있는 계획 및 사업 등이 성평등에 미치는 영향을 평가(이하 이 조에서 \"성별영향평가\"라 한다)하여야 한다. <개정 2018.3.27>\n② 성별영향평가의 대상ㆍ방법",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "성인지 예산",
+    "body": "제16조(성인지 예산)\n① 국가와 지방자치단체는 관계 법률에서 정하는 바에 따라 예산이 여성과 남성에게 미치는 영향을 분석하고 이를 국가와 지방자치단체의 재정운용에 반영하는 성인지(性認知) 예산을 실시하여야 한다.\n② 성평등가족부장관은 기획예산처장관 및 행정안전부장관과 협의하여 제1항에 따른 성인지 예산에 필요한 기준제시",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "성인지 통계",
+    "body": "제17조(성인지 통계)\n① 국가, 지방자치단체 및 공공기관은 인적(人的) 통계를 작성하는 경우 성별 상황과 특성을 알 수 있도록 성별로 구분한 통계(이하 이 조에서 \"성인지 통계\"라 한다)를 산출하고, 이를 관련 기관에 보급하여야 한다. <개정 2021.1.12>\n② 성평등가족부장관은 국가데이터처장 등 관계 기관의 장과 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "성인지 교육",
+    "body": "제18조(성인지 교육)\n① 국가와 지방자치단체는 사회 모든 영역에서 법령, 정책, 관습 및 각종 제도 등이 여성과 남성에게 미치는 영향을 인식하는 능력을 증진시키는 교육(이하 \"성인지 교육\"이라 한다)을 전체 소속 공무원 등에게 실시하여야 한다. <개정 2018.12.18>\n② 국가와 지방자치단체는 성인지 교육을 한국양성",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "국가성평등지수 등",
+    "body": "제19조(국가성평등지수 등)\n① 성평등가족부장관은 국가의 성평등수준을 계량적으로 측정할 수 있도록 성평등한 사회참여의 정도, 성평등 의식ㆍ문화 및 여성의 인권ㆍ복지 등의 사항이 포함된 국가성평등지표를 개발ㆍ보급하여야 한다. <개정 2025.10.1>\n② 성평등가족부장관은 제1항에 따른 국가성평등지표를 이용하여 국가의 성평",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "적극적 조치 등",
+    "body": "제20조(적극적 조치 등)\n① 국가와 지방자치단체는 차별로 인하여 특정 성별의 참여가 현저히 부진한 분야에 대하여 합리적인 범위에서 해당 성별의 참여를 촉진하기 위하여 관계 법령에서 정하는 바에 따라 적극적 조치를 취하도록 노력하여야 한다.\n② 성평등가족부장관은 국가기관 및 지방자치단체의 장에게 제1항에 따른 적극적 조치",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "정책결정과정 참여",
+    "body": "제21조(정책결정과정 참여)\n① 국가와 지방자치단체는 정책결정과정에 여성과 남성이 평등하게 참여하기 위한 시책을 마련하여야 한다.\n② 국가와 지방자치단체는 위원회(위원회, 심의회, 협의회 등 명칭을 불문하고 행정기관의 소관 사무에 관하여 자문에 응하거나 조정, 협의, 심의 또는 의결 등을 하기 위한 복수의 구성원으로 이루",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "공직 참여",
+    "body": "제22조(공직 참여)\n① 국가와 지방자치단체는 공직에 여성과 남성이 평등하게 참여하기 위한 시책을 마련하여야 한다.\n② 국가와 지방자치단체는 공무원의 채용ㆍ보직관리ㆍ승진ㆍ포상ㆍ교육훈련 등에서 여성과 남성에게 평등한 기회를 보장하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "정치 참여",
+    "body": "제23조(정치 참여)\n국가와 지방자치단체는 여성과 남성의 동등한 정치 참여를 지원하기 위한 시책을 마련하도록 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "경제활동 참여",
+    "body": "제24조(경제활동 참여)\n① 국가와 지방자치단체는 관계 법률에서 정하는 바에 따라 근로자의 모집ㆍ채용ㆍ임금ㆍ교육훈련ㆍ승진ㆍ퇴직 등 고용 전반에 걸쳐 양성평등이 이루어지도록 하여야 한다. <개정 2016.12.20>\n② 국가기관등과 사용자는 직장 내의 양성평등한 근무환경 조성을 위하여 필요한 조치를 취하여야 한다.\n③ 국가",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "모성ㆍ부성의 권리 보장",
+    "body": "제25조(모성ㆍ부성의 권리 보장)\n① 국가기관등과 사용자는 임신ㆍ출산ㆍ수유ㆍ육아에 관한 모성권ㆍ부성권을 보장하고, 이를 이유로 가정과 직장 및 지역사회에서 불이익을 받지 아니하도록 하여야 한다. <개정 2021.4.20>\n② 국가와 지방자치단체는 제1항에 따른 모성권ㆍ부성권의 보장 등에 관련된 비용에 대하여 「사회보장기본",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "일ㆍ가정 양립지원",
+    "body": "제26조(일ㆍ가정 양립지원)\n① 국가기관등과 사용자는 일과 가정생활의 조화로운 양립을 위한 여건을 마련하기 위하여 노력하여야 한다.\n② 국가와 지방자치단체는 일과 가정생활의 양립을 지원하기 위하여 영유아 보육, 유아교육, 방과 후 아동 돌봄, 아이돌봄 등 양질의 양육서비스 확충, 출산전후휴가와 육아휴직제 확대 및 대체인력",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "여성 인적자원의 개발",
+    "body": "제27조(여성 인적자원의 개발)\n① 국가와 지방자치단체는 양성평등 사회 실현을 위하여 여성 인적자원 개발에 필요한 시책을 마련하여야 한다.\n② 제1항에 따른 시책의 구체적인 내용은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "여성인재의 관리ㆍ육성",
+    "body": "제28조(여성인재의 관리ㆍ육성)\n① 성평등가족부장관은 양성평등 사회 실현을 목적으로 여성인재의 육성 및 사회참여 확대를 지원하기 위하여 공공 및 민간 분야에서 일정한 자격을 갖춘 여성인재(이하 이 조에서 \"여성인재\"라 한다)에 관한 정보를 수집하여 관리할 수 있다. <개정 2025.10.1>\n② 여성인재에 관한 정보의 수",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "성차별의 금지",
+    "body": "제29조(성차별의 금지)\n국가와 지방자치단체는 관계 법률에서 정하는 바에 따라 성차별 금지를 위한 시책 마련에 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "성폭력ㆍ가정폭력ㆍ성매매 범죄의 예방 및 성희롱 방지",
+    "body": "제30조(성폭력ㆍ가정폭력ㆍ성매매 범죄의 예방 및 성희롱 방지)\n① 국가와 지방자치단체는 관계 법률에서 정하는 바에 따라 성폭력ㆍ가정폭력ㆍ성매매 범죄 및 성희롱을 예방ㆍ방지하고 피해자를 보호하여야 하며, 이를 위하여 필요한 시책을 마련하여야 한다.\n② 국가와 지방자치단체는 관계 법률에서 정하는 바에 따라 성폭력ㆍ가정폭력ㆍ성",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "성희롱 예방교육 등 방지조치",
+    "body": "제31조(성희롱 예방교육 등 방지조치)\n① 국가기관등의 장과 사용자는 성희롱을 방지하기 위하여 대통령령으로 정하는 바에 따라 해당 국가기관등과 사업장 등에 소속된 사람(해당 국가기관등의 장과 사용자를 포함한다)을 대상으로 성희롱 예방교육의 실시, 자체 예방지침의 마련, 성희롱 사건이 발생한 경우 재발방지대책의 수립ㆍ시행 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": "2",
+    "title": "성희롱 사건 발생 시 조치",
+    "body": "제31조의2(성희롱 사건 발생 시 조치)\n① 국가기관등의 장은 해당 기관에서 성희롱 사건이 발생한 사실을 알게 된 경우(국가기관등의 장이 해당 성희롱 사건의 행위자인 경우를 포함한다) 피해자의 명시적인 반대의견이 없으면 지체 없이 그 사실을 성평등가족부장관에게 통보하고, 해당 사실을 안 날부터 3개월 이내에 제31조제1항",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0031021"
+   },
+   {
+    "article_no": "31",
+    "article_branch": "3",
+    "title": "성희롱 방지 조직문화 진단 및 개선 권고",
+    "body": "제31조의3(성희롱 방지 조직문화 진단 및 개선 권고)\n① 성평등가족부장관은 성희롱을 방지하기 위하여 필요한 경우 국가기관등의 조직문화를 진단하고 개선권고를 할 수 있다. <개정 2025.10.1>\n② 제1항에 따른 조직문화 진단 대상, 내용, 방법 및 개선권고 등에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0031031"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "성희롱 실태조사",
+    "body": "제32조(성희롱 실태조사)\n① 성평등가족부장관은 3년마다 성희롱에 대한 실태조사를 실시하여 그 결과를 발표하고, 이를 성희롱을 방지하기 위한 정책수립의 기초자료로 활용하여야 한다. <개정 2025.10.1>\n② 제1항에 따른 성희롱 실태조사의 내용과 방법 등에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "복지증진",
+    "body": "제33조(복지증진)\n① 국가와 지방자치단체는 지역ㆍ나이 등에 따른 여성 복지 수요를 충족시키기 위한 시책을 강구하여야 한다.\n② 국가와 지방자치단체는 관계 법률에서 정하는 바에 따라 장애인, 한부모, 북한이탈주민, 결혼이민자 등 취약계층 여성과 그 밖에 보호가 필요한 여성의 복지 증진을 위하여 필요한 조치를 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "건강증진",
+    "body": "제34조(건강증진)\n① 국가와 지방자치단체는 보건의료에 대한 양성평등한 접근권을 보장하기 위하여 노력하여야 한다.\n② 국가와 지방자치단체는 모성건강 등 여성의 생애주기에 따른 건강증진에 관한 시책을 마련하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "양성평등한 가족",
+    "body": "제35조(양성평등한 가족)\n① 국가와 지방자치단체는 민주적이고 양성평등한 가족관계를 확립시키기 위하여 노력하여야 한다.\n② 국가와 지방자치단체는 가사노동에 대한 경제적 가치를 정당하게 평가하여 이를 법령ㆍ제도 또는 시책에 반영하도록 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0035001"
+   },
+   {
+    "article_no": "36",
+    "article_branch": null,
+    "title": "양성평등 교육",
+    "body": "제36조(양성평등 교육)\n① 국가와 지방자치단체는 가정에서부터 양성평등에 관한 교육이 이루어지도록 노력하여야 한다.\n② 국가와 지방자치단체는 「교육기본법」에 따른 학교교육에서 양성평등 의식을 높이는 교육이 실시되도록 노력하여야 한다.\n③ 국가와 지방자치단체는 국공립 연수기관, 「평생교육법」에 따른 평생교육시설의 연수교육 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0036001"
+   },
+   {
+    "article_no": "37",
+    "article_branch": null,
+    "title": "양성평등 문화조성",
+    "body": "제37조(양성평등 문화조성)\n① 국가와 지방자치단체는 양성평등한 문화조성을 위한 효과적인 사업을 발굴하고 추진하여야 한다.\n② 국가와 지방자치단체는 신문, 방송, 잡지, 인터넷 등 대중매체에서 성별을 이유로 한 차별, 편견, 비하 또는 폭력적 내용이 개선되도록 지원하고, 대중매체를 통하여 양성평등 의식이 확산되도록 노력하",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0037001"
+   },
+   {
+    "article_no": "38",
+    "article_branch": null,
+    "title": "여성의 날 등과 양성평등주간",
+    "body": "제38조(여성의 날 등과 양성평등주간)\n① 범국민적으로 양성평등 실현을 촉진하기 위하여 매년 3월 8일을 여성의 날로 하고, 대통령령으로 정하는 바에 따라 1년 중 1주간을 양성평등주간으로 한다. <개정 2018.3.2, 2019.11.26>\n② 우리나라 최초의 여성인권선언문이 발표된 날을 기념하기 위하여 매년 9월 1일",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0038001"
+   },
+   {
+    "article_no": "39",
+    "article_branch": null,
+    "title": "여성친화도시",
+    "body": "제39조(여성친화도시)\n① 국가와 지방자치단체는 지역정책과 발전과정에 여성과 남성이 평등하게 참여하고 여성의 역량강화, 돌봄 및 안전이 구현되도록 정책을 운영하는 지역(이하 이 조에서 \"여성친화도시\"라 한다)을 조성하도록 노력하여야 한다.\n② 성평등가족부장관은 특별자치시ㆍ특별자치도 또는 시ㆍ군ㆍ자치구를 여성친화도시로 지정",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0039001"
+   },
+   {
+    "article_no": "40",
+    "article_branch": null,
+    "title": "국제협력",
+    "body": "제40조(국제협력)\n① 국가와 지방자치단체는 양성평등 실현을 위한 국제조약을 체결하거나 이행하기 위하여 노력하여야 한다.\n② 국가와 지방자치단체는 국제기구나 국제회의에서 여성과 남성의 평등한 참여를 지원하여야 한다.\n③ 국가와 지방자치단체는 국제개발협력을 실시하는 경우 양성평등 실현을 위한 시책을 마련하여야 하고, 성평등",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0040001"
+   },
+   {
+    "article_no": "41",
+    "article_branch": null,
+    "title": "평화ㆍ통일 과정 참여",
+    "body": "제41조(평화ㆍ통일 과정 참여)\n① 국가와 지방자치단체는 국내외 평화 문화 확산과 통일 추진과정에서 여성과 남성이 평등하게 참여할 수 있도록 노력하여야 한다.\n② 국가와 지방자치단체는 국내외 여성평화증진 및 통일을 위한 활동을 지원할 수 있다.\n③ 정부는 여성, 평화와 안보에 관한 유엔 안전보장이사회 결의 1325호에 따",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0041001"
+   },
+   {
+    "article_no": "42",
+    "article_branch": null,
+    "title": "기금의 설치 등",
+    "body": "제42조(기금의 설치 등)\n① 국가는 이 법의 목적을 실현하기 위한 사업 등을 지원하는 데 필요한 재원을 확보하기 위하여 양성평등기금(이하 \"기금\"이라 한다)을 설치한다.\n② 기금은 다음 각 호의 재원으로 조성한다.\n1. 국가의 출연금\n2. 국가 외의 자의 출연금 또는 기부금\n3. 기금의 운용수익금\n4. 그 밖에 대통령령",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0042001"
+   },
+   {
+    "article_no": "43",
+    "article_branch": null,
+    "title": "기금의 용도",
+    "body": "제43조(기금의 용도)\n1. 양성평등 실현을 위한 사업의 지원\n2. 제51조에 따른 비영리법인 및 비영리민간단체의 지원\n3. 제40조에 따른 국제협력 관련 사업의 지원\n4. 그 밖에 대통령령으로 정하는 사업의 지원",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0043001"
+   },
+   {
+    "article_no": "44",
+    "article_branch": null,
+    "title": "기금의 회계기관",
+    "body": "제44조(기금의 회계기관)\n① 성평등가족부장관은 기금의 수입과 지출에 관한 업무를 수행하기 위하여 소속 공무원 중에서 기금수입징수관, 기금재무관, 기금지출관 및 기금출납공무원을 임명하여야 한다. <개정 2025.10.1>\n② 성평등가족부장관은 제42조제4항에 따라 기금의 운용ㆍ관리에 관한 사무의 전부 또는 일부를 위탁한 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0044001"
+   },
+   {
+    "article_no": "45",
+    "article_branch": null,
+    "title": "양성평등정책 관련 기관 등",
+    "body": "제45조(양성평등정책 관련 기관 등)\n① 국가와 지방자치단체는 양성평등정책을 연구하거나 교육하기 위한 기관을 설치ㆍ운영할 수 있다.\n② 국가와 지방자치단체는 양성평등한 사회참여를 촉진하기 위하여 능력개발 및 교육훈련을 위한 양성평등정책 관련 시설을 설치ㆍ운영할 수 있다.\n③ 국가와 지방자치단체는 제1항 및 제2항에 따른 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0045001"
+   },
+   {
+    "article_no": "46",
+    "article_branch": null,
+    "title": "한국양성평등교육진흥원의 설립 등",
+    "body": "제46조(한국양성평등교육진흥원의 설립 등)\n① 국가는 양성평등교육 등을 효율적이고 체계적으로 추진하고 진흥시키기 위하여 한국양성평등교육진흥원(이하 이 조에서 \"진흥원\"이라 한다)을 설립한다.\n② 진흥원은 법인으로 한다.\n③ 진흥원은 주된 사무소의 소재지에 설립등기를 함으로써 성립한다.\n④ 진흥원에는 정관으로 정하는 바에 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0046001"
+   },
+   {
+    "article_no": "46",
+    "article_branch": "2",
+    "title": "한국여성인권진흥원의 설립 등",
+    "body": "제46조의2(한국여성인권진흥원의 설립 등)\n① 국가는 성폭력ㆍ가정폭력ㆍ성매매 등을 예방ㆍ방지하고 그 피해자를 보호ㆍ지원하기 위하여 한국여성인권진흥원을 설립한다.\n② 한국여성인권진흥원은 법인으로 한다.\n③ 한국여성인권진흥원은 주된 사무소의 소재지에 설립등기를 함으로써 성립한다.\n④ 한국여성인권진흥원에는 정관으로 정하는 바에",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0046021"
+   },
+   {
+    "article_no": "47",
+    "article_branch": null,
+    "title": "여성인력개발센터의 설치ㆍ운영 등",
+    "body": "제47조(여성인력개발센터의 설치ㆍ운영 등)\n① 국가와 지방자치단체는 여성인력 개발을 위한 시설(이하 \"여성인력개발센터\"라 한다)을 설치ㆍ운영할 수 있다.\n② 국가 또는 지방자치단체 외의 자가 여성인력개발센터를 설치ㆍ운영하려면 시ㆍ도지사의 지정을 받아야 한다.\n③ 지방자치단체는 제2항에 따른 여성인력개발센터에 대하여 예산의",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0047001"
+   },
+   {
+    "article_no": "48",
+    "article_branch": null,
+    "title": "여성인력개발센터의 지정취소 등",
+    "body": "제48조(여성인력개발센터의 지정취소 등)\n① 시ㆍ도지사는 제47조제2항에 따라 지정받은 여성인력개발센터가 다음 각 호의 어느 하나에 해당하는 경우에는 그 지정을 취소하거나 그 시정을 명할 수 있다. 다만, 제1호에 해당하는 경우에는 그 지정을 취소하여야 한다.\n1. 거짓이나 그 밖의 부정한 방법으로 지정받은 경우\n2. 제",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0048001"
+   },
+   {
+    "article_no": "49",
+    "article_branch": null,
+    "title": "청문",
+    "body": "제49조(청문)\n시ㆍ도지사는 제48조에 따라 여성인력개발센터의 지정을 취소하려면 청문을 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0049001"
+   },
+   {
+    "article_no": "50",
+    "article_branch": null,
+    "title": "여성사박물관의 설립ㆍ운영",
+    "body": "제50조(여성사박물관의 설립ㆍ운영)\n① 성평등가족부장관은 역사 속 여성의 역할과 역사발전에 기여한 인물을 조명하고, 여성을 위한 교육과 국민의 양성평등의식 고양을 위한 장으로 활용하기 위하여 여성사박물관을 설립ㆍ운영할 수 있다. <개정 2025.10.1>\n② 여성사박물관은 다음 각 호의 사업을 한다.\n1. 여성 관련 문화",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0050001"
+   },
+   {
+    "article_no": "51",
+    "article_branch": null,
+    "title": "비영리법인ㆍ비영리민간단체의 지원",
+    "body": "제51조(비영리법인ㆍ비영리민간단체의 지원)\n국가와 지방자치단체는 양성평등 참여 확대, 양성평등 문화 확산, 양성평등 촉진과 여성 인권보호 및 복지 증진 등을 위하여 활동하는 비영리법인 및 비영리민간단체에 대하여 그 활동에 필요한 행정적 지원 및 필요한 경비의 일부를 보조할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0051001"
+   },
+   {
+    "article_no": "52",
+    "article_branch": null,
+    "title": "권한의 위임ㆍ위탁",
+    "body": "제52조(권한의 위임ㆍ위탁)\n① 이 법에 따른 성평등가족부장관의 권한은 대통령령으로 정하는 바에 따라 그 일부를 시ㆍ도지사에게 위임할 수 있다. <개정 2025.10.1>\n② 성평등가족부장관은 이 법에 따른 업무의 일부를 대통령령으로 정하는 바에 따라 양성평등정책 관련 전문기관이나 법인 또는 단체에 위탁할 수 있다. <개",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0052001"
+   },
+   {
+    "article_no": "53",
+    "article_branch": null,
+    "title": "국회 보고",
+    "body": "제53조(국회 보고)\n① 성평등가족부장관은 기본계획, 해당 연도 시행계획, 전년도 추진실적을 확정한 후 국회에 제출하여야 한다. <개정 2025.10.1>\n② 정부는 매년 주요 양성평등정책에 관한 연차보고서를 작성하여 정기국회 개회 전까지 국회에 제출하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0053001"
+   },
+   {
+    "article_no": "54",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제54조(벌칙)\n국가기관등의 장이 제31조의2제4항을 위반하여 성희롱 피해자 또는 성희롱 발생 사실을 신고한 자에게 불이익조치를 한 경우에는 3년 이하의 징역 또는 3천만원 이하의 벌금에 처한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0054001"
+   }
+  ],
+  "article_count": 58,
+  "articles_shown": 58,
+  "articles_truncated_bodies": 39,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1097042",
+    "name": "대전광역시여성인력개발센터 설치·운영 및 지원 조례",
+    "region_id": "30",
+    "org_name": "대전광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1097042&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1183363",
+    "name": "부산광역시 강서구 양성평등 기본 조례",
+    "region_id": "26440",
+    "org_name": "부산광역시 강서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1183363&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1199781",
+    "name": "예천군 양성평등 지원에 관한 조례",
+    "region_id": "47900",
+    "org_name": "경상북도 예천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1199781&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1202565",
+    "name": "의성군 양성평등 지원에 관한 조례",
+    "region_id": "47730",
+    "org_name": "경상북도 의성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1202565&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1202673",
+    "name": "익산시 양성평등 촉진에 관한 지원 조례",
+    "region_id": "52140",
+    "org_name": "전북특별자치도 익산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1202673&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1204172",
+    "name": "함양군 양성평등 지원 조례",
+    "region_id": "48870",
+    "org_name": "경상남도 함양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1204172&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1241978",
+    "name": "부산광역시 금정구 자치분권 촉진·지원 조례",
+    "region_id": "26410",
+    "org_name": "부산광역시 금정구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1241978&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1247338",
+    "name": "금산군 여성단체협의회 지원 조례",
+    "region_id": "44710",
+    "org_name": "충청남도 금산군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1247338&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1251090",
+    "name": "부산광역시 금정구 지적재조사위원회, 경계결정위원회 및 지적재조사추진단의 구성과 운영에 관한 조례",
+    "region_id": "26410",
+    "org_name": "부산광역시 금정구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1251090&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1255612",
+    "name": "횡성군 지적재조사위원회 구성 및 운영에 관한 조례",
+    "region_id": "51730",
+    "org_name": "강원특별자치도 횡성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1255612&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1255690",
+    "name": "횡성군 종합사회복지관 설치 및 운영에 따른 조례",
+    "region_id": "51730",
+    "org_name": "강원특별자치도 횡성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1255690&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1256288",
+    "name": "용인시 지역 안전을 위한 시민봉사단체 지원 및 협의회 구성 조례",
+    "region_id": "41460",
+    "org_name": "경기도 용인시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1256288&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1258535",
+    "name": "목포농수산물종합유통센터 관리 및 운영 조례",
+    "region_id": "12110",
+    "org_name": "전남광주통합특별시 목포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1258535&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1260485",
+    "name": "영덕군 양성평등 지원에 관한 조례",
+    "region_id": "47770",
+    "org_name": "경상북도 영덕군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1260485&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1277907",
+    "name": "부산광역시 금정구 지역보건의료심의위원회 운영 조례",
+    "region_id": "26410",
+    "org_name": "부산광역시 금정구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1277907&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1282694",
+    "name": "제주특별자치도 도민문화시장 육성 및 지원 조례",
+    "region_id": "50",
+    "org_name": "제주특별자치도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1282694&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1286830",
+    "name": "서울특별시 금천구 여성친화도시 조성에 관한 기본 조례",
+    "region_id": "11545",
+    "org_name": "서울특별시 금천구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1286830&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1288084",
+    "name": "울산광역시 중구 자치분권 촉진 및 지원 조례",
+    "region_id": "31110",
+    "org_name": "울산광역시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1288084&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1289154",
+    "name": "광양시 여성친화도시 조성에 관한 기본 조례",
+    "region_id": "12190",
+    "org_name": "전남광주통합특별시 광양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1289154&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1296877",
+    "name": "울진군 양성평등 지원에 관한 조례",
+    "region_id": "47930",
+    "org_name": "경상북도 울진군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1296877&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

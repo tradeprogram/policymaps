@@ -1,0 +1,706 @@
+{
+ "data": {
+  "region": {
+   "region_id": "43",
+   "sig_cd": "43000",
+   "name": "충청북도",
+   "full_name": "충청북도",
+   "level": 1
+  },
+  "counts": {
+   "total": 1024,
+   "active": 892,
+   "repealed": 132,
+   "by_rr_cls_cd": {
+    "일부개정": 584,
+    "전부개정": 56,
+    "제정": 252,
+    "폐지": 132
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1982,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 10
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 9
+   },
+   {
+    "year": 2010,
+    "n": 13
+   },
+   {
+    "year": 2011,
+    "n": 12
+   },
+   {
+    "year": 2012,
+    "n": 10
+   },
+   {
+    "year": 2013,
+    "n": 8
+   },
+   {
+    "year": 2014,
+    "n": 11
+   },
+   {
+    "year": 2015,
+    "n": 22
+   },
+   {
+    "year": 2016,
+    "n": 18
+   },
+   {
+    "year": 2017,
+    "n": 24
+   },
+   {
+    "year": 2018,
+    "n": 11
+   },
+   {
+    "year": 2019,
+    "n": 22
+   },
+   {
+    "year": 2020,
+    "n": 38
+   },
+   {
+    "year": 2021,
+    "n": 60
+   },
+   {
+    "year": 2022,
+    "n": 90
+   },
+   {
+    "year": 2023,
+    "n": 86
+   },
+   {
+    "year": 2024,
+    "n": 90
+   },
+   {
+    "year": 2025,
+    "n": 368
+   },
+   {
+    "year": 2026,
+    "n": 102
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 10
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 9
+   },
+   {
+    "year": 2010,
+    "n": 10
+   },
+   {
+    "year": 2011,
+    "n": 8
+   },
+   {
+    "year": 2012,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 6
+   },
+   {
+    "year": 2017,
+    "n": 10
+   },
+   {
+    "year": 2019,
+    "n": 6
+   },
+   {
+    "year": 2020,
+    "n": 6
+   },
+   {
+    "year": 2021,
+    "n": 4
+   },
+   {
+    "year": 2022,
+    "n": 7
+   },
+   {
+    "year": 2023,
+    "n": 7
+   },
+   {
+    "year": 2024,
+    "n": 1
+   },
+   {
+    "year": 2025,
+    "n": 3
+   },
+   {
+    "year": 2026,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙등공포에관한조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원 재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금설치및운용조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황공개조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "재정운영상황공개조례시행규칙",
+    "display_name": "재정운영상황 공개조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 58
+   },
+   {
+    "policy_key": "지방채상환기금설치및운용조례",
+    "display_name": "지방채상환기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 52
+   },
+   {
+    "policy_key": "생활체육진흥조례",
+    "display_name": "생활체육 진흥조례",
+    "rows": 1,
+    "nationwide_regions": 50
+   },
+   {
+    "policy_key": "공영개발사업설치조례",
+    "display_name": "공영개발사업설치조례",
+    "rows": 1,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "의회정례회의운영에관한조례",
+    "display_name": "의회 정례회의 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "주거환경개선지구조례",
+    "display_name": "주거환경개선지구조례",
+    "rows": 1,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "지방보조사업자의법령위반등에대한신고포상금지급에관한규칙",
+    "display_name": "지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 35
+   },
+   {
+    "policy_key": "소송사건수행증인등의실비변상조례",
+    "display_name": "소송사건 수행 증인 등의 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2158555",
+    "name": "충청북도 도정 정책자문단 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-08-07",
+    "repealed_on": "2026-08-07",
+    "repealed_on_raw": "20260807",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2158555&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2119093",
+    "name": "충북문화관 운영·관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-03",
+    "repealed_on": "2026-04-03",
+    "repealed_on_raw": "20260403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2119165",
+    "name": "충청북도 지역치안협의회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-03",
+    "repealed_on": "2026-04-03",
+    "repealed_on_raw": "20260403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119165&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2056281",
+    "name": "충청북도 공무원장학금 지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-11",
+    "repealed_on": "2025-07-11",
+    "repealed_on_raw": "20250711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2056281&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2039103",
+    "name": "충청북도 창업 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-16",
+    "repealed_on": "2025-05-16",
+    "repealed_on_raw": "20250516",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2039103&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2027215",
+    "name": "충청북도 소방정 운영관리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-04-04",
+    "repealed_on": "2025-04-04",
+    "repealed_on_raw": "20250404",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2027215&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1907721",
+    "name": "충청북도 미래 100년 준비 지원단 설치운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-16",
+    "repealed_on": "2024-02-16",
+    "repealed_on_raw": "20240216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1907721&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896797",
+    "name": "충청북도 외국인주민 및 다문화가족 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896797&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1879375",
+    "name": "충청북도 지역혁신협의회 등의 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-08",
+    "repealed_on": "2023-12-08",
+    "repealed_on_raw": "20231208",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1879375&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1869133",
+    "name": "충청북도 소송사건 수행 증인 등의 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-03",
+    "repealed_on": "2023-11-03",
+    "repealed_on_raw": "20231103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1869133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1840371",
+    "name": "충청북도 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-07-21",
+    "repealed_on": "2023-07-21",
+    "repealed_on_raw": "20230721",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1840371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1816283",
+    "name": "충청북도의회 의원 공무국외출장 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-05-04",
+    "repealed_on": "2023-05-04",
+    "repealed_on_raw": "20230504",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816283&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1798797",
+    "name": "충청북도 4차산업혁명추진위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-07",
+    "repealed_on": "2023-04-07",
+    "repealed_on_raw": "20230407",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1798797&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1783907",
+    "name": "충청북도 조령산자연휴양림 시설사용료 징수조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-02-17",
+    "repealed_on": "2023-02-17",
+    "repealed_on_raw": "20230217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1783907&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1771955",
+    "name": "충청북도 청년농업인 육성 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1771955&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1771905",
+    "name": "충청북도 한옥마을조성촉진 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1771905&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1744261",
+    "name": "충청북도 기후변화 대응에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-04",
+    "repealed_on": "2022-11-04",
+    "repealed_on_raw": "20221104",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1744263",
+    "name": "충청북도 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-04",
+    "repealed_on": "2022-11-04",
+    "repealed_on_raw": "20221104",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1744263&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1713801",
+    "name": "충청북도경제정책심의위원회 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-06-30",
+    "repealed_on": "2022-06-30",
+    "repealed_on_raw": "20220630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1713801&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1713777",
+    "name": "충청북도 경제정책심의위원회 설치 및 운영조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-06-30",
+    "repealed_on": "2022-06-30",
+    "repealed_on_raw": "20220630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1713777&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1672325",
+    "name": "충청북도 주민의 조례제정 및 개폐청구 연서주민수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1672325&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1649229",
+    "name": "충청북도 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-17",
+    "repealed_on": "2021-12-17",
+    "repealed_on_raw": "20211217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1649229&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1638551",
+    "name": "충청북도 공공건축물에 대한 소방시설공사 분리발주 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-05",
+    "repealed_on": "2021-11-05",
+    "repealed_on_raw": "20211105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1638551&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1596479",
+    "name": "충청북도 관광진흥법에 의한 과징금징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-18",
+    "repealed_on": "2021-05-18",
+    "repealed_on_raw": "20210518",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1596479&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1727415",
+    "name": "충청북도 소방특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-18",
+    "repealed_on": "2021-05-18",
+    "repealed_on_raw": "20210518",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1727415&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1515903",
+    "name": "충청북도의회 교섭단체 및 위원회 구성과 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-10",
+    "repealed_on": "2020-07-10",
+    "repealed_on_raw": "20200710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515903&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1515901",
+    "name": "충청북도의회에 출석 · 답변할 수 있는 관계공무원의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-10",
+    "repealed_on": "2020-07-10",
+    "repealed_on_raw": "20200710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515901&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1515915",
+    "name": "충청북도의회 입법·법률고문 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-10",
+    "repealed_on": "2020-07-10",
+    "repealed_on_raw": "20200710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515915&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1515919",
+    "name": "충청북도의회 회의운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-10",
+    "repealed_on": "2020-07-10",
+    "repealed_on_raw": "20200710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1515919&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1487333",
+    "name": "충청북도 공무원당직수당 지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-10",
+    "repealed_on": "2020-04-10",
+    "repealed_on_raw": "20200410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1487333&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1460237",
+    "name": "충청북도의회 의원 연구활동 지원에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-01-21",
+    "repealed_on": "2020-01-21",
+    "repealed_on_raw": "20200121",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1460237&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1420479",
+    "name": "충청북도 결혼장려 및 출산․양육지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-14",
+    "repealed_on": "2019-11-14",
+    "repealed_on_raw": "20191114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1420479&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1420467",
+    "name": "충청북도 도로점용료 징수조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-14",
+    "repealed_on": "2019-11-14",
+    "repealed_on_raw": "20191114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1420467&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1406050",
+    "name": "충청북도 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-08-02",
+    "repealed_on": "2019-08-02",
+    "repealed_on_raw": "20190802",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1406050&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1406046",
+    "name": "충청북도 구급대책협의회 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-08-02",
+    "repealed_on": "2019-08-02",
+    "repealed_on_raw": "20190802",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1406046&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1401919",
+    "name": "충청북도 충주 에코폴리스 지구 개발 특수목적법인 설립 및 출자 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-07-05",
+    "repealed_on": "2019-07-05",
+    "repealed_on_raw": "20190705",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401919&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395051",
+    "name": "충청북도 행정서비스 리콜조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-05-17",
+    "repealed_on": "2019-05-17",
+    "repealed_on_raw": "20190517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1318545",
+    "name": "충청북도 지역개발기금 회계규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-12-15",
+    "repealed_on": "2017-12-15",
+    "repealed_on_raw": "20171215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1318545&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1311471",
+    "name": "충청북도 한옥마을조성 촉진 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-11-10",
+    "repealed_on": "2017-11-10",
+    "repealed_on_raw": "20171110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1311471&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1294433",
+    "name": "충청북도교육발전협의회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-07-07",
+    "repealed_on": "2017-07-07",
+    "repealed_on_raw": "20170707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1294433&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "43000"
+ ]
+}

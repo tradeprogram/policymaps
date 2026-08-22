@@ -1,0 +1,397 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:280445",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "감염병의 예방 및 관리에 관한 법률",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2025-12-23",
+   "effective_on": "20260624",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=280445&type=HTML&mobileYn=&efYd=20260624",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 1034,
+   "child_ordinances": 983,
+   "by_verification_status": {
+    "article-missing": 118,
+    "article-verified": 642,
+    "unverifiable": 274
+   },
+   "by_delegation_type": {
+    "law-delegated": 1034
+   },
+   "regions_top": [
+    {
+     "region_id": "41820",
+     "name": "경기도 가평군",
+     "ordinances": 15
+    },
+    {
+     "region_id": "41110",
+     "name": "경기도 수원시",
+     "ordinances": 13
+    },
+    {
+     "region_id": "27710",
+     "name": "대구광역시 달성군",
+     "ordinances": 11
+    },
+    {
+     "region_id": "52140",
+     "name": "전북특별자치도 익산시",
+     "ordinances": 10
+    },
+    {
+     "region_id": "51780",
+     "name": "강원특별자치도 철원군",
+     "ordinances": 10
+    },
+    {
+     "region_id": "43750",
+     "name": "충청북도 진천군",
+     "ordinances": 10
+    },
+    {
+     "region_id": "52710",
+     "name": "전북특별자치도 완주군",
+     "ordinances": 9
+    },
+    {
+     "region_id": "51800",
+     "name": "강원특별자치도 양구군",
+     "ordinances": 8
+    },
+    {
+     "region_id": "51770",
+     "name": "강원특별자치도 정선군",
+     "ordinances": 8
+    },
+    {
+     "region_id": "51150",
+     "name": "강원특별자치도 강릉시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "44180",
+     "name": "충청남도 보령시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "41130",
+     "name": "경기도 성남시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "28710",
+     "name": "인천광역시 강화군",
+     "ordinances": 8
+    },
+    {
+     "region_id": "11350",
+     "name": "서울특별시 노원구",
+     "ordinances": 8
+    },
+    {
+     "region_id": "11260",
+     "name": "서울특별시 중랑구",
+     "ordinances": 8
+    },
+    {
+     "region_id": "11",
+     "name": "서울특별시",
+     "ordinances": 8
+    },
+    {
+     "region_id": "52770",
+     "name": "전북특별자치도 순창군",
+     "ordinances": 7
+    },
+    {
+     "region_id": "51720",
+     "name": "강원특별자치도 홍천군",
+     "ordinances": 7
+    },
+    {
+     "region_id": "51230",
+     "name": "강원특별자치도 삼척시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "51190",
+     "name": "강원특별자치도 태백시",
+     "ordinances": 7
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "1.  \"감염병\"이란 제1급감염병, 제2급감염병, 제3급감염병, 제4급감염병, 기생충감염병, 세계보건기구 감시대상 감염병, 생물테러감염병, 성매개감염병, 인수(人獸)공통감염병 및 의료관련감염병을 말한다.\n2.  \"제1급감염병\"이란 생물테러감염병 또는 치명률이 높거나 집단 발생의 우려가 커서 발생 또는 유행 즉시 신고하여야",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제2조"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "의사 등의 신고",
+    "body": "① 의사, 치과의사 또는 한의사는 다음 각 호의 어느 하나에 해당하는 사실(제16조제6항에 따라 표본감시 대상이 되는 제4급감염병으로 인한 경우는 제외한다)이 있으면 소속 의료기관의 장에게 보고하여야 하고, 해당 환자와 그 동거인에게 질병관리청장이 정하는 감염 방지 방법 등을 지도하여야 한다. 다만, 의료기관에 소속되지 ",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제11조"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "그 밖의 신고의무자",
+    "body": "① 다음 각 호의 어느 하나에 해당하는 사람은 제1급감염병부터 제3급감염병까지에 해당하는 감염병 중 보건복지부령으로 정하는 감염병이 발생한 경우에는 의사, 치과의사 또는 한의사의 진단이나 검안을 요구하거나 해당 주소지를 관할하는 보건소장에게 신고하여야 한다. <개정 2010.1.18, 2015.7.6, 2018.3.27,",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제12조"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "역학조사",
+    "body": "① 질병관리청장, 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 감염병이 발생하여 유행할 우려가 있거나, 감염병 여부가 불분명하나 발병원인을 조사할 필요가 있다고 인정하면 지체 없이 역학조사를 하여야 하고, 그 결과에 관한 정보를 필요한 범위 에서 해당 의료기관에 제공하여야 한다. 다만, 지역확산 방지 등을 위하여 필요한 경우 다른",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제18조"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "감염병 위기관리대책의 수립ㆍ시행",
+    "body": "① 보건복지부장관 및 질병관리청장은 감염병의 확산 또는 해외 신종감염병의 국내 유입으로 인한 재난상황에 대처하기 위하여 위원회의 심의를 거쳐 감염병 위기관리대책(이하 \"감염병 위기관리대책\"이라 한다)을 수립ㆍ시행하여야 한다. <개정 2010.1.18, 2015.7.6, 2020.8.11>\n② 감염병 위기관리대책에는 다음 ",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제34조"
+   },
+   {
+    "article_no": "41",
+    "article_branch": null,
+    "title": "감염병환자등의 관리",
+    "body": "① 감염병 중 특히 전파 위험이 높은 감염병으로서 제1급감염병 및 질병관리청장이 고시한 감염병에 걸린 감염병환자등은 감염병관리기관, 중앙감염병전문병원, 권역별 감염병전문병원 및 감염병관리시설을 갖춘 의료기관(이하 \"감염병관리기관등\"이라 한다)에서 입원치료를 받아야 한다. <개정 2010.1.18, 2018.3.27, 20",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제41조"
+   },
+   {
+    "article_no": "42",
+    "article_branch": null,
+    "title": "감염병에 관한 강제처분",
+    "body": "① 질병관리청장, 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 해당 공무원으로 하여금 다음 각 호의 어느 하나에 해당하는 감염병환자등이 있다고 인정되는 주거시설, 선박ㆍ항공기ㆍ열차 등 운송수단 또는 그 밖의 장소에 들어가 필요한 조사나 진찰을 하게 할 수 있으며, 그 진찰 결과 감염병환자등으로 인정될 때에는 동행하여 치료받게 하거",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제42조"
+   },
+   {
+    "article_no": "47",
+    "article_branch": null,
+    "title": "감염병 유행에 대한 방역 조치",
+    "body": "1.  감염병환자등이 있는 장소나 감염병병원체에 오염되었다고 인정되는 장소에 대한 다음 각 목의 조치\n가.  일시적 폐쇄\n나.  일반 공중의 출입금지\n다.  해당 장소 내 이동제한\n라.  그 밖에 통행차단을 위하여 필요한 조치\n2.  의료기관에 대한 업무 정지\n3.  감염병의심자를 적당한 장소에 일정한 기간 입원 또는 격",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제47조"
+   },
+   {
+    "article_no": "49",
+    "article_branch": null,
+    "title": "감염병의 예방 조치",
+    "body": "① 질병관리청장, 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 감염병을 예방하기 위하여 다음 각 호에 해당하는 모든 조치를 하거나 그에 필요한 일부 조치를 하여야 하며, 보건복지부장관은 감염병을 예방하기 위하여 제2호, 제2호의2부터 제2호의4까지, 제12호 및 제12호의2에 해당하는 조치를 할 수 있다. <개정 2015.7.6,",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제49조"
+   },
+   {
+    "article_no": "70",
+    "article_branch": null,
+    "title": "손실보상",
+    "body": "① 보건복지부장관, 시ㆍ도지사 및 시장ㆍ군수ㆍ구청장은 다음 각 호의 어느 하나에 해당하는 손실을 입은 자에게 제70조의2의 손실보상심의위원회의 심의ㆍ의결에 따라 그 손실을 보상하여야 한다. <개정 2015.12.29, 2018.3.27, 2020.8.11, 2020.8.12, 2020.12.15>\n1.  제36조 및 제3",
+    "body_truncated": true,
+    "effective_on": "2026-06-24",
+    "article_key": "statute:280445::제70조"
+   }
+  ],
+  "article_count": 10,
+  "articles_shown": 10,
+  "articles_truncated_bodies": 10,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1976801",
+    "name": "경기도 반려동물 테마파크 설치 및 운영에 관한 조례",
+    "region_id": "41",
+    "org_name": "경기도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1976801&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2159445",
+    "name": "부산광역시 부산진구 반려동물 임시돌봄 지원 조례",
+    "region_id": "26230",
+    "org_name": "부산광역시 부산진구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2159445&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1686809",
+    "name": "울산광역시 중구 반려동물 전용공원 운영 조례",
+    "region_id": "31110",
+    "org_name": "울산광역시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1686809&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124579",
+    "name": "가평군 소상공인 지원 및 골목상권 공동체 육성 등에 관한 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124705",
+    "name": "화성시 사회복지시설 설치 및 운영에 관한 조례",
+    "region_id": "41590",
+    "org_name": "경기도 화성시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124705&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124735",
+    "name": "인천광역시 문화유산시설의 관리와 운영에 관한 조례",
+    "region_id": "28",
+    "org_name": "인천광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124735&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125401",
+    "name": "울산광역시 중구 예방접종 지원 조례",
+    "region_id": "31110",
+    "org_name": "울산광역시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125401&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125533",
+    "name": "함평군 산업단지 복합문화센터 운영 및 관리 조례",
+    "region_id": "12820",
+    "org_name": "전남광주통합특별시 함평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125533&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125719",
+    "name": "용인시 시립도서관 관리 운영 조례",
+    "region_id": "41460",
+    "org_name": "경기도 용인시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125719&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126011",
+    "name": "양주시 정신건강복지센터 설치 및 운영에 관한 조례",
+    "region_id": "41630",
+    "org_name": "경기도 양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126011&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126093",
+    "name": "양주시 노인복지관 설치 및 운영에 관한 조례",
+    "region_id": "41630",
+    "org_name": "경기도 양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126233",
+    "name": "수원시 푸른숲 책뜰 운영 및 관리 조례",
+    "region_id": "41110",
+    "org_name": "경기도 수원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126233&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126289",
+    "name": "수원시 작은목욕탕 관리 및 운영 조례",
+    "region_id": "41110",
+    "org_name": "경기도 수원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126289&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126425",
+    "name": "안산시 시세의 감면에 관한 조례",
+    "region_id": "41270",
+    "org_name": "경기도 안산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126425&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126509",
+    "name": "서울특별시 도봉구 구세 감면 조례",
+    "region_id": "11320",
+    "org_name": "서울특별시 도봉구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126561",
+    "name": "대구광역시 달성군 달성문화센터 설치 및 운영 조례",
+    "region_id": "27710",
+    "org_name": "대구광역시 달성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126561&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127297",
+    "name": "대구광역시달서구립도서관 운영 및 독서문화진흥 조례",
+    "region_id": "27290",
+    "org_name": "대구광역시 달서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127297&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127687",
+    "name": "동두천시 체육시설 관리 및 운영 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127687&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128031",
+    "name": "서울특별시 동작구 공공형 실내 놀이터 설치 및 운영에 관한 조례",
+    "region_id": "11590",
+    "org_name": "서울특별시 동작구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128031&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128073",
+    "name": "서울특별시 동작구 지방공무원 복무 조례",
+    "region_id": "11590",
+    "org_name": "서울특별시 동작구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128073&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

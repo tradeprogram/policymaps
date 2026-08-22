@@ -1,0 +1,758 @@
+{
+ "data": {
+  "region": {
+   "region_id": "26500",
+   "sig_cd": "26500",
+   "name": "수영구",
+   "full_name": "부산광역시 수영구",
+   "level": 2
+  },
+  "counts": {
+   "total": 530,
+   "active": 406,
+   "repealed": 124,
+   "by_rr_cls_cd": {
+    "일부개정": 251,
+    "전부개정": 18,
+    "제정": 137,
+    "폐지": 124
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1995,
+    "n": 8
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 5
+   },
+   {
+    "year": 1999,
+    "n": 10
+   },
+   {
+    "year": 2000,
+    "n": 11
+   },
+   {
+    "year": 2001,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 11
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 8
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 17
+   },
+   {
+    "year": 2016,
+    "n": 17
+   },
+   {
+    "year": 2017,
+    "n": 11
+   },
+   {
+    "year": 2018,
+    "n": 13
+   },
+   {
+    "year": 2019,
+    "n": 13
+   },
+   {
+    "year": 2020,
+    "n": 17
+   },
+   {
+    "year": 2021,
+    "n": 42
+   },
+   {
+    "year": 2022,
+    "n": 55
+   },
+   {
+    "year": 2023,
+    "n": 52
+   },
+   {
+    "year": 2024,
+    "n": 70
+   },
+   {
+    "year": 2025,
+    "n": 86
+   },
+   {
+    "year": 2026,
+    "n": 41
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1995,
+    "n": 8
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 5
+   },
+   {
+    "year": 1999,
+    "n": 10
+   },
+   {
+    "year": 2000,
+    "n": 11
+   },
+   {
+    "year": 2001,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 11
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 3
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 10
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 5
+   },
+   {
+    "year": 2019,
+    "n": 2
+   },
+   {
+    "year": 2020,
+    "n": 1
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 6
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 2
+   },
+   {
+    "year": 2026,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례폐지조례",
+    "display_name": "국민건강증진법위반자에대한과태료부과징수조례 [폐지조례]",
+    "rows": 2,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "도시디자인조례",
+    "display_name": "도시디자인 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "의회의원윤리강령및윤리실천규범등에관한조례",
+    "display_name": "의회 의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "소송사건수행증인등의실비변상조례",
+    "display_name": "소송사건 수행 증인 등의 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "영세노점상전업자금융자에대한이자보조금지급조례",
+    "display_name": "영세노점상 전업자금 융자에 대한 이자보조금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "위원회실비변상조례",
+    "display_name": "위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 33
+   },
+   {
+    "policy_key": "주민소득지원및생활안정기금운영관리조례",
+    "display_name": "주민소득지원및생활안정기금 운영관리 조례",
+    "rows": 1,
+    "nationwide_regions": 30
+   },
+   {
+    "policy_key": "주민소득지원및생활안정기금운영관리조례시행규칙",
+    "display_name": "주민소득지원및생활안정기금 운영관리 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 30
+   },
+   {
+    "policy_key": "보증채무관리조례",
+    "display_name": "보증채무 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 28
+   },
+   {
+    "policy_key": "청소년지도위원의위촉에관한조례",
+    "display_name": "청소년지도위원의 위촉에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 25
+   },
+   {
+    "policy_key": "자치분권촉진및지원조례",
+    "display_name": "자치분권 촉진 및 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 21
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2159837",
+    "name": "부산광역시 수영구 자치분권 촉진 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-08-12",
+    "repealed_on": "2026-08-12",
+    "repealed_on_raw": "20260812",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2159837&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2130385",
+    "name": "부산광역시 수영구 환경기본 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-05-20",
+    "repealed_on": "2026-05-20",
+    "repealed_on_raw": "20260520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2130385&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2098541",
+    "name": "부산광역시 수영구 규제개혁위원회 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-12-26",
+    "repealed_on": "2025-12-26",
+    "repealed_on_raw": "20251226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2098541&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2086021",
+    "name": "부산광역시 수영구 지역발전사업기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-14",
+    "repealed_on": "2025-11-14",
+    "repealed_on_raw": "20251114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2086021&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2001543",
+    "name": "부산광역시 수영구 남북교류협력에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2001543&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1854389",
+    "name": "부산광역시 수영구 주거환경개선사업특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-25",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1854389&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1867347",
+    "name": "부산광역시 수영구 기후변화 대응에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-30",
+    "repealed_on": "2023-10-30",
+    "repealed_on_raw": "20231030",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867347&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1867345",
+    "name": "부산광역시 수영구 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-30",
+    "repealed_on": "2023-10-30",
+    "repealed_on_raw": "20231030",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1867345&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1816853",
+    "name": "부산광역시 수영구 사회복지기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-06-05",
+    "repealed_on": "2023-06-05",
+    "repealed_on_raw": "20230605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816853&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1791677",
+    "name": "부산광역시 수영구 자치법규의 입법예고에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-20",
+    "repealed_on": "2023-03-20",
+    "repealed_on_raw": "20230320",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1791677&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1791681",
+    "name": "부산광역시 수영구 조례·규칙 등 공포에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-20",
+    "repealed_on": "2023-03-20",
+    "repealed_on_raw": "20230320",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1791681&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1791679",
+    "name": "부산광역시 수영구 조례 입법평가 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-20",
+    "repealed_on": "2023-03-20",
+    "repealed_on_raw": "20230320",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1791679&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1759079",
+    "name": "부산광역시 수영구 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-20",
+    "repealed_on": "2022-12-20",
+    "repealed_on_raw": "20221220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1759079&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1718775",
+    "name": "부산광역시 수영구 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-01",
+    "repealed_on": "2022-08-01",
+    "repealed_on_raw": "20220801",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1718775&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1686235",
+    "name": "부산광역시 수영구 별정직공무원의 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-02-25",
+    "repealed_on": "2022-02-25",
+    "repealed_on_raw": "20220225",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1686235&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1555419",
+    "name": "부산광역시 수영구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-22",
+    "repealed_on": "2020-12-22",
+    "repealed_on_raw": "20201222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1555419&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1399185",
+    "name": "부산광역시 수영구 체육진흥협의회 조직운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-28",
+    "repealed_on": "2019-06-28",
+    "repealed_on_raw": "20190628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1399185&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395643",
+    "name": "부산광역시 수영구민체육센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-05-30",
+    "repealed_on": "2019-05-30",
+    "repealed_on_raw": "20190530",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395643&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1374178",
+    "name": "부산광역시 수영구민체육센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-19",
+    "repealed_on": "2018-12-19",
+    "repealed_on_raw": "20181219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1374178&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1365298",
+    "name": "부산광역시 수영구 건강생활실천협의회 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-11-10",
+    "repealed_on": "2018-11-10",
+    "repealed_on_raw": "20181110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365298&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1362064",
+    "name": "부산광역시 수영구 여름철 물놀이 안전관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-10-05",
+    "repealed_on": "2018-10-05",
+    "repealed_on_raw": "20181005",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1362064&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1347742",
+    "name": "부산광역시 수영구 공립어린이집 관리 및 운영 조례 시행규칙 폐지규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-05-15",
+    "repealed_on": "2018-05-15",
+    "repealed_on_raw": "20180515",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1347742&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1312742",
+    "name": "부산광역시 수영구 지역문화진흥기금 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-11-13",
+    "repealed_on": "2018-01-01",
+    "repealed_on_raw": "20180101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1312742&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1292804",
+    "name": "부산광역시 수영구 문화센터 바다갤러리 사용료 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-07-01",
+    "repealed_on": "2017-07-01",
+    "repealed_on_raw": "20170701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1292804&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1292803",
+    "name": "부산광역시 수영구의회 의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-07-01",
+    "repealed_on": "2017-07-01",
+    "repealed_on_raw": "20170701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1292803&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1282413",
+    "name": "부산광역시 수영구 출생아 건강보험 가입 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-03-31",
+    "repealed_on": "2017-03-31",
+    "repealed_on_raw": "20170331",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1282413&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1282884",
+    "name": "부산광역시 수영구 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-03-31",
+    "repealed_on": "2017-03-31",
+    "repealed_on_raw": "20170331",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1282884&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1271371",
+    "name": "부산광역시 수영구 금권 등의 관리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-12-30",
+    "repealed_on": "2016-12-30",
+    "repealed_on_raw": "20161230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1271371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1266326",
+    "name": "부산광역시 수영구 인문학도시 조성 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-05",
+    "repealed_on": "2016-12-05",
+    "repealed_on_raw": "20161205",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1266326&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1262243",
+    "name": "부산광역시 수영구 보증채무 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-11-04",
+    "repealed_on": "2016-11-04",
+    "repealed_on_raw": "20161104",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1262243&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1262225",
+    "name": "부산광역시 수영구 소송사건 수행 증인 등의 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-11-04",
+    "repealed_on": "2016-11-04",
+    "repealed_on_raw": "20161104",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1262225&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1251097",
+    "name": "부산광역시 수영구 주민소득지원및생활안정기금 운영관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-09-21",
+    "repealed_on": "2016-09-21",
+    "repealed_on_raw": "20160921",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1251097&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1251098",
+    "name": "부산광역시 수영구 주민소득지원및생활안정기금 운영관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-09-21",
+    "repealed_on": "2016-09-21",
+    "repealed_on_raw": "20160921",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1251098&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1236721",
+    "name": "부산광역시 수영구 유통분쟁조정위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-06-07",
+    "repealed_on": "2016-07-07",
+    "repealed_on_raw": "20160707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1236721&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1222790",
+    "name": "부산광역시 수영구 지방공무원 임용후보자 장학규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-03-18",
+    "repealed_on": "2016-03-18",
+    "repealed_on_raw": "20160318",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1222790&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1209197",
+    "name": "부산광역시 수영구 기반시설특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-28",
+    "repealed_on": "2016-01-01",
+    "repealed_on_raw": "20160101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1209197&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1209147",
+    "name": "부산광역시 수영구 복지위원 정수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-28",
+    "repealed_on": "2016-01-01",
+    "repealed_on_raw": "20160101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1209147&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1209371",
+    "name": "부산광역시 수영구 공설해수욕장 등 시설물의 사용료 및 대여료 징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-28",
+    "repealed_on": "2015-12-28",
+    "repealed_on_raw": "20151228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1209371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1200245",
+    "name": "부산광역시 수영구 아동복지심의위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-11-10",
+    "repealed_on": "2015-11-10",
+    "repealed_on_raw": "20151110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1200245&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1200251",
+    "name": "부산광역시 수영구 아동위원 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-11-10",
+    "repealed_on": "2015-11-10",
+    "repealed_on_raw": "20151110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1200251&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "26500"
+ ]
+}

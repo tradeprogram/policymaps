@@ -1,0 +1,678 @@
+{
+ "data": {
+  "region": {
+   "region_id": "52",
+   "sig_cd": "52000",
+   "name": "전북특별자치도",
+   "full_name": "전북특별자치도",
+   "level": 1
+  },
+  "counts": {
+   "total": 1306,
+   "active": 1165,
+   "repealed": 141,
+   "by_rr_cls_cd": {
+    "일부개정": 941,
+    "전부개정": 29,
+    "제정": 195,
+    "폐지": 141
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 13
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 16
+   },
+   {
+    "year": 2015,
+    "n": 20
+   },
+   {
+    "year": 2016,
+    "n": 16
+   },
+   {
+    "year": 2017,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 2
+   },
+   {
+    "year": 2020,
+    "n": 4
+   },
+   {
+    "year": 2021,
+    "n": 9
+   },
+   {
+    "year": 2022,
+    "n": 8
+   },
+   {
+    "year": 2023,
+    "n": 530
+   },
+   {
+    "year": 2024,
+    "n": 355
+   },
+   {
+    "year": 2025,
+    "n": 228
+   },
+   {
+    "year": 2026,
+    "n": 73
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 13
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 16
+   },
+   {
+    "year": 2015,
+    "n": 20
+   },
+   {
+    "year": 2016,
+    "n": 16
+   },
+   {
+    "year": 2017,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 2
+   },
+   {
+    "year": 2020,
+    "n": 3
+   },
+   {
+    "year": 2021,
+    "n": 10
+   },
+   {
+    "year": 2022,
+    "n": 6
+   },
+   {
+    "year": 2023,
+    "n": 8
+   },
+   {
+    "year": 2024,
+    "n": 9
+   },
+   {
+    "year": 2025,
+    "n": 6
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회운영규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금설치및운용조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "생활체육진흥조례",
+    "display_name": "생활체육 진흥 조례",
+    "rows": 1,
+    "nationwide_regions": 50
+   },
+   {
+    "policy_key": "지방공무원정원조례",
+    "display_name": "지방공무원 정원 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "지방별정직공무원의임용자격기준에관한규칙",
+    "display_name": "지방별정직공무원의 임용자격기준에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "지방공무원정원규칙",
+    "display_name": "지방공무원 정원 규칙",
+    "rows": 1,
+    "nationwide_regions": 42
+   },
+   {
+    "policy_key": "의회의원윤리강령및윤리실천규범등에관한조례",
+    "display_name": "의회의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례시행규칙",
+    "display_name": "통합관리기금설치및운용조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 40
+   },
+   {
+    "policy_key": "주거환경개선지구조례",
+    "display_name": "주거환경개선지구조례",
+    "rows": 1,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "다문화가족지원조례",
+    "display_name": "다문화가족 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 33
+   },
+   {
+    "policy_key": "의회에출석답변할수있는관계공무원의범위에관한조례",
+    "display_name": "의회에 출석·답변할 수 있는 관계공무원의 범위에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 33
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2060733",
+    "name": "전북특별자치도 소방정 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-07-25",
+    "repealed_on": "2025-07-25",
+    "repealed_on_raw": "20250725",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2060733&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2056373",
+    "name": "전라북도 출연기관 등의 장에 대한 인사검증 조례[무효판결,대법원2014추644.2017.12.13]",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-11",
+    "repealed_on": "2025-07-11",
+    "repealed_on_raw": "20250711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2056373&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2056245",
+    "name": "전북특별자치도 건축 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-07-11",
+    "repealed_on": "2025-07-11",
+    "repealed_on_raw": "20250711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2056245&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030835",
+    "name": "전라북도 2023 새만금 세계스카우트잼버리 사회적 배려 대상 청소년 참가 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030835&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030837",
+    "name": "전라북도 2023 새만금 세계스카우트잼버리 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030837&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2030867",
+    "name": "전라북도 2023 새만금 세계스카우트잼버리 참가자 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-18",
+    "repealed_on": "2025-04-18",
+    "repealed_on_raw": "20250418",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2030867&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1986595",
+    "name": "전북특별자치도 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-11-15",
+    "repealed_on": "2024-11-15",
+    "repealed_on_raw": "20241115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1986595&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1986597",
+    "name": "전북특별자치도 행정감사규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-11-15",
+    "repealed_on": "2024-11-15",
+    "repealed_on_raw": "20241115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1986597&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981377",
+    "name": "전북특별자치도 빅데이터 활용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-01",
+    "repealed_on": "2024-11-01",
+    "repealed_on_raw": "20241101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981377&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981347",
+    "name": "전북특별자치도 향교 활성화 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-01",
+    "repealed_on": "2024-11-01",
+    "repealed_on_raw": "20241101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981347&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1972263",
+    "name": "전북특별자치도 통합문화이용권 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-27",
+    "repealed_on": "2024-09-27",
+    "repealed_on_raw": "20240927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1972263&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1950985",
+    "name": "전북특별자치도 고농도 미세먼지 비상저감조치 발령에 따른 자동차 운행제한에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-05",
+    "repealed_on": "2024-07-05",
+    "repealed_on_raw": "20240705",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1950985&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1941787",
+    "name": "전북특별자치도 빈집 관리 및 활용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1941787&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1941789",
+    "name": "전북특별자치도 주변환경피해 파손건축물 철거 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-29",
+    "repealed_on": "2024-03-29",
+    "repealed_on_raw": "20240329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1941789&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1861137",
+    "name": "전라북도 환경보전기금 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-04",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1861137&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1861133",
+    "name": "전라북도 가족친화 사회환경 조성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-04",
+    "repealed_on": "2023-10-04",
+    "repealed_on_raw": "20231004",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1861133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1861113",
+    "name": "전라북도 지역혁신협의회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-04",
+    "repealed_on": "2023-10-04",
+    "repealed_on_raw": "20231004",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1861113&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1861141",
+    "name": "전라북도 특화거리 및 구도심 상가 활성화 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-04",
+    "repealed_on": "2023-10-04",
+    "repealed_on_raw": "20231004",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1861141&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1980833",
+    "name": "전북특별자치도 자치분권촉진에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-10-04",
+    "repealed_on": "2023-10-04",
+    "repealed_on_raw": "20231004",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1980833&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851741",
+    "name": "전라북도 삼락농정대상 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-09-15",
+    "repealed_on": "2023-09-15",
+    "repealed_on_raw": "20230915",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851741&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1791669",
+    "name": "전라북도자율방범연합회 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-03",
+    "repealed_on": "2023-04-27",
+    "repealed_on_raw": "20230427",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1791669&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1795093",
+    "name": "전라북도 외국인주민 및 다문화가족 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-31",
+    "repealed_on": "2023-03-31",
+    "repealed_on_raw": "20230331",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1795093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1795079",
+    "name": "전라북도 장애인 웹 접근성 향상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-31",
+    "repealed_on": "2023-03-31",
+    "repealed_on_raw": "20230331",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1795079&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1717081",
+    "name": "전라북도 전기자동차 보급 촉진 및 이용 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-07-15",
+    "repealed_on": "2022-07-15",
+    "repealed_on_raw": "20220715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1717081&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1712685",
+    "name": "전라북도 로컬푸드 육성 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-06-24",
+    "repealed_on": "2022-06-24",
+    "repealed_on_raw": "20220624",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1712685&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1712687",
+    "name": "전라북도 순직 소방공무원 장례 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-06-24",
+    "repealed_on": "2022-06-24",
+    "repealed_on_raw": "20220624",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1712687&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1708917",
+    "name": "전라북도 저소득주민 자녀 교복구입비 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-05-13",
+    "repealed_on": "2022-05-13",
+    "repealed_on_raw": "20220513",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1708917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1724139",
+    "name": "전라북도 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-05-13",
+    "repealed_on": "2022-05-13",
+    "repealed_on_raw": "20220513",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1724139&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1678319",
+    "name": "전라북도 주민조례 제정 및 개폐청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-13",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1678319&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1637613",
+    "name": "전라북도 범죄예방을 위한 환경설계 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-03",
+    "repealed_on": "2021-11-03",
+    "repealed_on_raw": "20211103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1637613&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1637609",
+    "name": "전라북도 유니버설디자인 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-03",
+    "repealed_on": "2021-11-03",
+    "repealed_on_raw": "20211103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1637609&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1677775",
+    "name": "전라북도 장애인가정 출산지원금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-01",
+    "repealed_on": "2021-10-01",
+    "repealed_on_raw": "20211001",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1677775&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1621855",
+    "name": "전라북도 로컬푸드 육성 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-08-13",
+    "repealed_on": "2021-08-13",
+    "repealed_on_raw": "20210813",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1621855&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1603591",
+    "name": "전라북도수입증지보관출납위임관리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-06-10",
+    "repealed_on": "2021-06-10",
+    "repealed_on_raw": "20210610",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1603591&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1595845",
+    "name": "전라북도 독거노인 고독사 방지를 위한 민간자원 활용 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-14",
+    "repealed_on": "2021-05-14",
+    "repealed_on_raw": "20210514",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1595845&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1597237",
+    "name": "전라북도문화원연합회 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-14",
+    "repealed_on": "2021-05-14",
+    "repealed_on_raw": "20210514",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1597237&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1580871",
+    "name": "전라북도 기록관 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-03-19",
+    "repealed_on": "2021-03-19",
+    "repealed_on_raw": "20210319",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580871&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1689597",
+    "name": "전라북도통합관리기금설치및운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-02-19",
+    "repealed_on": "2021-02-19",
+    "repealed_on_raw": "20210219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1689597&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2108805",
+    "name": "전북특별자치도 지역자원시설 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-13",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2108805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1532771",
+    "name": "전라북도 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-29",
+    "repealed_on": "2020-09-29",
+    "repealed_on_raw": "20200929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1532771&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "52000"
+ ]
+}

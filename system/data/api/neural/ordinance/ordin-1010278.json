@@ -1,0 +1,783 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1010278",
+   "key": "ordin-1010278",
+   "mst": "1010278",
+   "name": "인제군 불용의약품 관리에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "51810",
+   "sig_cd": "51810",
+   "region_name": "강원특별자치도 인제군",
+   "org_name": "강원특별자치도 인제군",
+   "enacted_on": "20140821",
+   "effective_on": "20140821",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 7,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1010278",
+   "categories": [
+    {
+     "code": "C06",
+     "name": "보건·의료",
+     "confidence": 0.3333,
+     "method": "rule"
+    },
+    {
+     "code": "C07",
+     "name": "환경·기후",
+     "confidence": 0.3333,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.894909,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1338732",
+      "key": "ordin-1338732",
+      "name": "인제군 석면 안전관리 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20171229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1338732",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.877139,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1036121",
+      "key": "ordin-1036121",
+      "name": "인제군 지질공원 보전·활용 및 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20141226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1036121",
+      "categories": []
+     },
+     {
+      "rank": 3,
+      "cosine": 0.875978,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1812783",
+      "key": "ordin-1812783",
+      "name": "인제군 주택용 소방시설 설치 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20230525",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1812783",
+      "categories": [
+       "C08",
+       "C02",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.871611,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2099205",
+      "key": "ordin-2099205",
+      "name": "인제군 경계선지능인 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20251229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2099205",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.870014,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2099233",
+      "key": "ordin-2099233",
+      "name": "인제군 도시숲 등의 조성 및 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20251229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2099233",
+      "categories": [
+       "C09"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.868117,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1392769",
+      "key": "ordin-1392769",
+      "name": "인제군 내수면어업 관련 산업 육성 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20190501",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1392769",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.855843,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2075225",
+      "key": "ordin-2075225",
+      "name": "인제군 출생아 건강보험 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20251001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2075225",
+      "categories": [
+       "C04",
+       "C06"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.850331,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1314277",
+      "key": "ordin-1314277",
+      "name": "인제군 지하수 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20171027",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1314277",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.846258,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1436929",
+      "key": "ordin-1436929",
+      "name": "인제군 가스사업 등의 허가기준에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20191226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1436929",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.845845,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1226488",
+      "key": "ordin-1226488",
+      "name": "인제군 농지개량사업 환지청산금 취급 규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20160322",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1226488",
+      "categories": [
+       "C02",
+       "C12"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990369,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1885183",
+      "key": "ordin-1885183",
+      "name": "인제군 다자녀가정 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20231221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1885183",
+      "categories": [
+       "C04",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.990106,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1885163",
+      "key": "ordin-1885163",
+      "name": "인제군 회계관계공무원 재정보증 규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20231221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1885163",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.989556,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1761181",
+      "key": "ordin-1761181",
+      "name": "인제군 공동주택 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20221222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1761181",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.98942,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1687789",
+      "key": "ordin-1687789",
+      "name": "인제군의회 장애인공무원 편의지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20220303",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1687789",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.989399,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1563745",
+      "key": "ordin-1563745",
+      "name": "인제군 마을공동체 만들기 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20201231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1563745",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.988753,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1669219",
+      "key": "ordin-1669219",
+      "name": "인제군 군세 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1669219",
+      "categories": [
+       "C02",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.98865,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1368559",
+      "key": "ordin-1368559",
+      "name": "인제군 납세자보호에 관한 사무처리 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20181122",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1368559",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.988549,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1885167",
+      "key": "ordin-1885167",
+      "name": "인제군 청소년보호법위반 과징금 감경 규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20231221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1885167",
+      "categories": [
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.98853,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1669175",
+      "key": "ordin-1669175",
+      "name": "인제군 수도급수 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1669175",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.988474,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1408075",
+      "key": "ordin-1408075",
+      "name": "인제군 마케팅센터 설립 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20190903",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1408075",
+      "categories": [
+       "C11",
+       "C13"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.995238,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1687795",
+      "key": "ordin-1687795",
+      "name": "인제군의회 위원회 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20220303",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1687795",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994964,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2075237",
+      "key": "ordin-2075237",
+      "name": "인제군 중·장년층 생애재설계 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20251001",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2075237",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994749,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1857641",
+      "key": "ordin-1857641",
+      "name": "인제군 어르신 버스 무료이용 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20230927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1857641",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994627,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1669001",
+      "key": "ordin-1669001",
+      "name": "인제군 주차장설치 및 관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1669001",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994522,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1669093",
+      "key": "ordin-1669093",
+      "name": "인제군 행정사무의 민간위탁에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1669093",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.99451,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1669113",
+      "key": "ordin-1669113",
+      "name": "인제군 사무위임 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1669113",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.994488,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2099233",
+      "key": "ordin-2099233",
+      "name": "인제군 도시숲 등의 조성 및 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20251229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2099233",
+      "categories": [
+       "C09"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.994422,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2099187",
+      "key": "ordin-2099187",
+      "name": "인제군 민원 처리 담당자 보호 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20251229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2099187",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.994406,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1669125",
+      "key": "ordin-1669125",
+      "name": "인제군 액화석유가스(LPG) 시설 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20211230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1669125",
+      "categories": [
+       "C08",
+       "C09"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.994365,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2021429",
+      "key": "ordin-2021429",
+      "name": "인제군 한국디엠제트평화생명동산 설치 및 관리운영 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 인제군",
+      "sig_cd": "51810",
+      "enacted_on": "20250313",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2021429",
+      "categories": [
+       "C07",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2099233",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.932251,
+    "best_rank": 5,
+    "ordinance_id": "ordin:2099233",
+    "key": "ordin-2099233",
+    "name": "인제군 도시숲 등의 조성 및 관리에 관한 조례",
+    "region_name": "강원특별자치도 인제군",
+    "sig_cd": "51810",
+    "enacted_on": "20251229",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2099233"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

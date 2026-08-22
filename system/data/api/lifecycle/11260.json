@@ -1,0 +1,706 @@
+{
+ "data": {
+  "region": {
+   "region_id": "11260",
+   "sig_cd": "11260",
+   "name": "중랑구",
+   "full_name": "서울특별시 중랑구",
+   "level": 2
+  },
+  "counts": {
+   "total": 633,
+   "active": 547,
+   "repealed": 86,
+   "by_rr_cls_cd": {
+    "일부개정": 333,
+    "전부개정": 17,
+    "제정": 197,
+    "폐지": 86
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2000,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 10
+   },
+   {
+    "year": 2007,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 10
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 22
+   },
+   {
+    "year": 2016,
+    "n": 9
+   },
+   {
+    "year": 2017,
+    "n": 7
+   },
+   {
+    "year": 2018,
+    "n": 10
+   },
+   {
+    "year": 2019,
+    "n": 31
+   },
+   {
+    "year": 2020,
+    "n": 24
+   },
+   {
+    "year": 2021,
+    "n": 30
+   },
+   {
+    "year": 2022,
+    "n": 54
+   },
+   {
+    "year": 2023,
+    "n": 152
+   },
+   {
+    "year": 2024,
+    "n": 57
+   },
+   {
+    "year": 2025,
+    "n": 127
+   },
+   {
+    "year": 2026,
+    "n": 42
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2004,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 9
+   },
+   {
+    "year": 2007,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 9
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 3
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 3
+   },
+   {
+    "year": 2017,
+    "n": 1
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 6
+   },
+   {
+    "year": 2020,
+    "n": 2
+   },
+   {
+    "year": 2021,
+    "n": 2
+   },
+   {
+    "year": 2022,
+    "n": 10
+   },
+   {
+    "year": 2023,
+    "n": 4
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설 특별회계 설치및 운영조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "호적과태료부과징수조례",
+    "display_name": "호적과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 62
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한과태료부과징수규칙",
+    "display_name": "부동산중개업법위반자에대한과태료부과징수규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   },
+   {
+    "policy_key": "재정운영상황공개조례시행규칙",
+    "display_name": "재정운영상황공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 58
+   },
+   {
+    "policy_key": "여성발전기본조례",
+    "display_name": "여성발전기본조례",
+    "rows": 1,
+    "nationwide_regions": 57
+   },
+   {
+    "policy_key": "금연환경조성및지원에관한조례",
+    "display_name": "금연환경 조성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "사회적기업육성및지원에관한조례",
+    "display_name": "사회적기업 육성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 48
+   },
+   {
+    "policy_key": "의회위원회조례",
+    "display_name": "의회 위원회 조례",
+    "rows": 1,
+    "nationwide_regions": 47
+   },
+   {
+    "policy_key": "도시디자인조례",
+    "display_name": "도시디자인 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "의회정례회의운영에관한조례",
+    "display_name": "의회정례회의운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 36
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:896191",
+    "name": "서울특별시중랑구 재활용품판매대금관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-06-27",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=896191&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2101167",
+    "name": "서울특별시 중랑구 체육진흥기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-31",
+    "repealed_on": "2025-12-31",
+    "repealed_on_raw": "20251231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2101167&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018025",
+    "name": "서울특별시 중랑구 도시재생기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-05",
+    "repealed_on": "2025-03-05",
+    "repealed_on_raw": "20250305",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018025&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1978869",
+    "name": "서울특별시 중랑구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-10-24",
+    "repealed_on": "2024-10-24",
+    "repealed_on_raw": "20241024",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1978869&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1932623",
+    "name": "서울특별시 중랑구 홀로 사는 노인 고독사 예방 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-23",
+    "repealed_on": "2024-05-23",
+    "repealed_on_raw": "20240523",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1932623&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1877433",
+    "name": "서울특별시중랑구쓰레기줄이기와자원재활용촉진에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-30",
+    "repealed_on": "2023-11-30",
+    "repealed_on_raw": "20231130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1877433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1784853",
+    "name": "서울특별시 중랑구 재난현장 통합지휘소 설치·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-23",
+    "repealed_on": "2023-02-23",
+    "repealed_on_raw": "20230223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1784853&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1784861",
+    "name": "서울특별시중랑구 재난 및 안전관리기구의 구성·운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-02-23",
+    "repealed_on": "2023-02-23",
+    "repealed_on_raw": "20230223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1784861&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1773295",
+    "name": "서울특별시 중랑구 자치회관 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-01-02",
+    "repealed_on": "2023-01-02",
+    "repealed_on_raw": "20230102",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1773295&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1767673",
+    "name": "서울특별시 중랑구 기후변화 대응에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1767673&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1767631",
+    "name": "서울특별시 중랑구 자치회관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1767631&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1767677",
+    "name": "서울특별시 중랑구 저탄소 녹색성장 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1767677&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1707409",
+    "name": "서울특별시 중랑구 구청장 공약 관리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-05-06",
+    "repealed_on": "2022-05-06",
+    "repealed_on_raw": "20220506",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1707409&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1697315",
+    "name": "서울특별시 중랑구의회에 출석하여 답변할 수 있는 관계공무원 등의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-12",
+    "repealed_on": "2022-04-12",
+    "repealed_on_raw": "20220412",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697315&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1697317",
+    "name": "서울특별시 중랑구의회 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-12",
+    "repealed_on": "2022-04-12",
+    "repealed_on_raw": "20220412",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1697323",
+    "name": "서울특별시 중랑구의회 회의와 그 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-12",
+    "repealed_on": "2022-04-12",
+    "repealed_on_raw": "20220412",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697323&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1697305",
+    "name": "서울특별시 중랑구 청소년아동복지위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-12",
+    "repealed_on": "2022-04-12",
+    "repealed_on_raw": "20220412",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697305&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1689275",
+    "name": "서울특별시 중랑구 정보화 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-03-10",
+    "repealed_on": "2022-03-10",
+    "repealed_on_raw": "20220310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1689275&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1667991",
+    "name": "서울특별시 중랑구 참전유공자 사망위로금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-06",
+    "repealed_on": "2022-01-06",
+    "repealed_on_raw": "20220106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1667991&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641855",
+    "name": "서울특별시 중랑구 구립합창단 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-11",
+    "repealed_on": "2021-11-11",
+    "repealed_on_raw": "20211111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641855&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1633061",
+    "name": "서울특별시 중랑구 아동·여성보호에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-29",
+    "repealed_on": "2021-09-29",
+    "repealed_on_raw": "20210929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1633061&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1531257",
+    "name": "서울특별시 중랑구 승용차요일제 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-29",
+    "repealed_on": "2020-09-29",
+    "repealed_on_raw": "20200929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1531257&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1486347",
+    "name": "서울특별시 중랑구 사전재해영향성 검토위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-09",
+    "repealed_on": "2020-04-09",
+    "repealed_on_raw": "20200409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1486347&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1402928",
+    "name": "서울특별시중랑구 사회적기업 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-07-11",
+    "repealed_on": "2019-07-11",
+    "repealed_on_raw": "20190711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1402928&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1402929",
+    "name": "서울특별시 중랑구 협동조합 활성화 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-07-11",
+    "repealed_on": "2019-07-11",
+    "repealed_on_raw": "20190711",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1402929&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395207",
+    "name": "서울특별시중랑구 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-05-23",
+    "repealed_on": "2019-05-23",
+    "repealed_on_raw": "20190523",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395207&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395218",
+    "name": "서울특별시 중랑구 범죄예방디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-05-23",
+    "repealed_on": "2019-05-23",
+    "repealed_on_raw": "20190523",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395218&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395201",
+    "name": "서울특별시중랑구 복지위원 위촉 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-05-23",
+    "repealed_on": "2019-05-23",
+    "repealed_on_raw": "20190523",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395201&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1384684",
+    "name": "서울특별시 중랑구 주민참여예산제 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-02-14",
+    "repealed_on": "2019-02-14",
+    "repealed_on_raw": "20190214",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1384684&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1835517",
+    "name": "서울특별시 중랑구 구세 감면 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-04-05",
+    "repealed_on": "2018-04-05",
+    "repealed_on_raw": "20180405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1835517&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1482683",
+    "name": "서울특별시 중랑구 지방공무원 징계 등에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-05-18",
+    "repealed_on": "2017-05-18",
+    "repealed_on_raw": "20170518",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1482683&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1233594",
+    "name": "서울특별시중랑구지방계약직공무원관리규정시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-05-19",
+    "repealed_on": "2016-05-19",
+    "repealed_on_raw": "20160519",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1233594&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1224769",
+    "name": "서울특별시중랑구 가족관계의 등록 등에 관한 과태료 부과 징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-03-31",
+    "repealed_on": "2016-03-31",
+    "repealed_on_raw": "20160331",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1224769&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1223639",
+    "name": "서울특별시중랑구산림법위반과태료부과 ·징수규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-03-24",
+    "repealed_on": "2016-03-24",
+    "repealed_on_raw": "20160324",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1223639&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1210918",
+    "name": "서울특별시중랑구 민방위통대장 복장 지급에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-31",
+    "repealed_on": "2015-12-31",
+    "repealed_on_raw": "20151231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1210918&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1200614",
+    "name": "서울특별시중랑구민방위통대장복장지급에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-11-18",
+    "repealed_on": "2015-11-18",
+    "repealed_on_raw": "20151118",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1200614&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1192140",
+    "name": "서울특별시중랑구 지방고용직공무원 인사관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-12",
+    "repealed_on": "2015-10-12",
+    "repealed_on_raw": "20151012",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1192140&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1192139",
+    "name": "서울특별시중랑구 지방별정직공무원 인사관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-12",
+    "repealed_on": "2015-10-12",
+    "repealed_on_raw": "20151012",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1192139&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1163808",
+    "name": "서울특별시중랑구 행정서비스헌장 제정 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-07-23",
+    "repealed_on": "2015-07-23",
+    "repealed_on_raw": "20150723",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1163808&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1166214",
+    "name": "서울특별시중랑구 수입증지 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-07-23",
+    "repealed_on": "2015-07-23",
+    "repealed_on_raw": "20150723",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1166214&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 1,
+   "sentinel_99991231": 1
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "11260"
+ ]
+}

@@ -1,0 +1,861 @@
+{
+ "data": {
+  "_engine": "analytics.eha.estimate_diffusion_hazard",
+  "slug": "safety-sheriff",
+  "template": "안전보안관",
+  "window": [
+   2020,
+   2026
+  ],
+  "level": 2,
+  "adoption_meta": {
+   "enactment": {
+    "template": "안전보안관",
+    "mode": "enactment",
+    "ord_kind": "조례",
+    "universe": 227,
+    "adopters_observed": 170,
+    "holders_any_version": 186,
+    "enactment_date_coverage": 0.914,
+    "year_min": 2020,
+    "year_max": 2026,
+    "warning": "rr_cls_cd='제정' 만 사용 → 개정 이력이 있는 조례는 제외되어 채택 시점이 관측되지 않는다(선택편의). enactment_date_coverage 로 정도를 확인하라."
+   },
+   "upper_bound": {
+    "template": "안전보안관",
+    "mode": "upper_bound",
+    "ord_kind": "조례",
+    "universe": 227,
+    "adopters_observed": 186,
+    "holders_any_version": 186,
+    "enactment_date_coverage": 1.0,
+    "year_min": 2020,
+    "year_max": 2026,
+    "warning": "enacted_on 은 현행본 공포일이므로 최초 제정일의 상한이다(측정오차 상향)."
+   }
+  },
+  "enactment_date_coverage": 0.914,
+  "coverage_note": "주모형(mode=enactment)의 제정본 커버리지 0.914 — 나머지는 개정 이력만 남아 채택시점이 관측되지 않는다(선택편의). 관측창은 upper_bound 정의까지 포함한 합집합 2020–2026 이다.",
+  "models": [
+   {
+    "template": "안전보안관",
+    "mode": "enactment",
+    "window": [
+     2020,
+     2026
+    ],
+    "model": {
+     "link": "logit",
+     "converged": true,
+     "n_obs": 873,
+     "n_params": 7,
+     "n_events": 149,
+     "n_clusters": 196,
+     "terms": [
+      {
+       "term": "(intercept)",
+       "coef": -1.64106342992952,
+       "se": 0.09446422302152811,
+       "se_robust": 0.0920977953934004,
+       "z": -17.818704811767038,
+       "p_value": 5.059440001880398e-71,
+       "odds_ratio": 0.19377386775370695,
+       "or_ci95": [
+        0.16177127997145835,
+        0.2321074039276677
+       ]
+      },
+      {
+       "term": "neighbor_exposure",
+       "coef": -0.42212276630726586,
+       "se": 0.15953275793623192,
+       "se_robust": 0.18646664410544708,
+       "z": -2.2637977335429227,
+       "p_value": 0.023586557993442028,
+       "odds_ratio": 0.6556535422881441,
+       "or_ci95": [
+        0.45493957276771485,
+        0.944920145987129
+       ]
+      },
+      {
+       "term": "sido_exposure",
+       "coef": 0.37533887780622643,
+       "se": 0.1686847794071249,
+       "se_robust": 0.1924164532351025,
+       "z": 1.9506589561113135,
+       "p_value": 0.05109762889675,
+       "odds_ratio": 1.4554845624705772,
+       "or_ci95": [
+        0.9982111583456084,
+        2.1222316479623107
+       ]
+      },
+      {
+       "term": "log_pop",
+       "coef": 0.16609515950353415,
+       "se": 0.16834877700289108,
+       "se_robust": 0.19013494631362876,
+       "z": 0.873564606211628,
+       "p_value": 0.38235540821523106,
+       "odds_ratio": 1.1806854498189314,
+       "or_ci95": [
+        0.8133754317020501,
+        1.7138680086476714
+       ]
+      },
+      {
+       "term": "welfare_ratio",
+       "coef": -0.4917672257875025,
+       "se": 0.2579737291395431,
+       "se_robust": 0.2874248997924866,
+       "z": -1.7109416273348128,
+       "p_value": 0.08709188908964054,
+       "odds_ratio": 0.6115447011019819,
+       "or_ci95": [
+        0.34815423892933267,
+        1.0741989601965556
+       ]
+      },
+      {
+       "term": "fiscal_self_ratio",
+       "coef": -0.2957344821157508,
+       "se": 0.17669363943230854,
+       "se_robust": 0.18853363792789318,
+       "z": -1.5686032761371624,
+       "p_value": 0.11674040860720801,
+       "odds_ratio": 0.743984943105132,
+       "or_ci95": [
+        0.5141431114970849,
+        1.0765749519728511
+       ]
+      },
+      {
+       "term": "year_trend",
+       "coef": 0.307287424351322,
+       "se": 0.15629760607560209,
+       "se_robust": 0.15037031731392125,
+       "z": 2.0435377795327256,
+       "p_value": 0.040999231463528386,
+       "odds_ratio": 1.359731731922787,
+       "or_ci95": [
+        1.0126463125162775,
+        1.825780985864226
+       ]
+      }
+     ],
+     "log_likelihood": -386.9060135341614,
+     "ll_null": -398.9227725748407,
+     "mcfadden_r2": 0.03012302096247177,
+     "lr_chi2": 24.03351808135858,
+     "aic": 787.8120270683228,
+     "se_reported": "cluster_robust",
+     "scaling": {
+      "neighbor_exposure": {
+       "mean": 0.24446502333100273,
+       "sd": 0.3013775726352352
+      },
+      "sido_exposure": {
+       "mean": 0.22115751754927013,
+       "sd": 0.2578294718005333
+      },
+      "log_pop": {
+       "mean": 11.884588899668254,
+       "sd": 1.077616619689834
+      },
+      "welfare_ratio": {
+       "mean": 0.3055820684185628,
+       "sd": 0.1389349117035301
+      },
+      "fiscal_self_ratio": {
+       "mean": 0.6006843433281102,
+       "sd": 0.1135226645528828
+      },
+      "year_trend": {
+       "mean": 2.1993127147766325,
+       "sd": 1.8236449998520896
+      }
+     },
+     "standardized": true,
+     "rows_dropped_missing_covariate": 167,
+     "dropped_constant_terms": [
+      {
+       "term": "upper_adopted",
+       "constant_value": 0.0
+      }
+     ]
+    },
+    "panel_meta": {
+     "template": "안전보안관",
+     "mode": "enactment",
+     "y0": 2020,
+     "y1": 2026,
+     "level": 2,
+     "universe": 227,
+     "n_obs": 1040,
+     "n_events": 170,
+     "n_regions_in_panel": 227,
+     "left_truncated": 0,
+     "left_truncated_regions": [],
+     "right_censored": 57,
+     "adoption_meta": {
+      "template": "안전보안관",
+      "mode": "enactment",
+      "ord_kind": "조례",
+      "universe": 227,
+      "adopters_observed": 170,
+      "holders_any_version": 186,
+      "enactment_date_coverage": 0.914,
+      "year_min": 2020,
+      "year_max": 2026,
+      "warning": "rr_cls_cd='제정' 만 사용 → 개정 이력이 있는 조례는 제외되어 채택 시점이 관측되지 않는다(선택편의). enactment_date_coverage 로 정도를 확인하라."
+     },
+     "weights_meta": {
+      "n_with_neighbors": 223,
+      "standardize": "row",
+      "island_policy": "knn",
+      "mean_cardinality": 4.771
+     }
+    },
+    "role": "primary",
+    "link": "logit",
+    "spec_note": "주모형 — 제정본 기준 채택시점, 로짓 링크, Berry&Berry(1990) 통합모형 공변량",
+    "covariates": [
+     "neighbor_exposure",
+     "sido_exposure",
+     "upper_adopted",
+     "log_pop",
+     "welfare_ratio",
+     "fiscal_self_ratio",
+     "year_trend"
+    ],
+    "console_table": "[안전보안관] 2020-2026 mode=enactment link=logit  N=873 events=149 clusters=196  McFadden R2=0.0301  SE=cluster_robust\nterm                        coef    SE(cl)       z         p       OR             OR 95% CI\n(intercept)              -1.6411    0.0921  -17.82    0.0000    0.194        [0.162, 0.232] ***\nneighbor_exposure        -0.4221    0.1865   -2.26    0.0236    0.656        [0.455, 0.945] *\nsido_exposure             0.3753    0.1924    1.95    0.0511    1.455        [0.998, 2.122] †\nlog_pop                   0.1661    0.1901    0.87    0.3824    1.181        [0.813, 1.714] \nwelfare_ratio            -0.4918    0.2874   -1.71    0.0871    0.612        [0.348, 1.074] †\nfiscal_self_ratio        -0.2957    0.1885   -1.57    0.1167    0.744        [0.514, 1.077] \nyear_trend                0.3073    0.1504    2.04    0.0410    1.360        [1.013, 1.826] *",
+    "seconds": 0.2
+   },
+   {
+    "template": "안전보안관",
+    "mode": "upper_bound",
+    "window": [
+     2020,
+     2026
+    ],
+    "model": {
+     "link": "logit",
+     "converged": true,
+     "n_obs": 857,
+     "n_params": 7,
+     "n_events": 159,
+     "n_clusters": 196,
+     "terms": [
+      {
+       "term": "(intercept)",
+       "coef": -1.56962121316653,
+       "se": 0.09436893163854781,
+       "se_robust": 0.09141279586411671,
+       "z": -17.170694740589056,
+       "p_value": 4.4012044753448795e-66,
+       "odds_ratio": 0.2081240020598546,
+       "or_ci95": [
+        0.17398485875566602,
+        0.24896189555345277
+       ]
+      },
+      {
+       "term": "neighbor_exposure",
+       "coef": -0.4918464479454571,
+       "se": 0.16087717770929721,
+       "se_robust": 0.19167568308584965,
+       "z": -2.5660346687021534,
+       "p_value": 0.0102868546043001,
+       "odds_ratio": 0.6114962551300974,
+       "or_ci95": [
+        0.4199902062331382,
+        0.890324737312004
+       ]
+      },
+      {
+       "term": "sido_exposure",
+       "coef": 0.5683995268318285,
+       "se": 0.1657303796244207,
+       "se_robust": 0.1890768245505849,
+       "z": 3.006182953319914,
+       "p_value": 0.002645497730023187,
+       "odds_ratio": 1.7654392509767527,
+       "or_ci95": [
+        1.2187378298041835,
+        2.5573799981166867
+       ]
+      },
+      {
+       "term": "log_pop",
+       "coef": 0.13829005215613824,
+       "se": 0.16604335383419977,
+       "se_robust": 0.19397007617539846,
+       "z": 0.7129452897213318,
+       "p_value": 0.47587961242590454,
+       "odds_ratio": 1.1483085713521357,
+       "or_ci95": [
+        0.7851470026377102,
+        1.679446741324732
+       ]
+      },
+      {
+       "term": "welfare_ratio",
+       "coef": -0.39452000503574186,
+       "se": 0.25425203517459694,
+       "se_robust": 0.29144632811227594,
+       "z": -1.3536626369290132,
+       "p_value": 0.17584403347795194,
+       "odds_ratio": 0.6740034798939588,
+       "or_ci95": [
+        0.3806997333295254,
+        1.193278195747909
+       ]
+      },
+      {
+       "term": "fiscal_self_ratio",
+       "coef": -0.23796645937680894,
+       "se": 0.17457758536248844,
+       "se_robust": 0.1891547139224327,
+       "z": -1.2580519641418646,
+       "p_value": 0.2083729639361326,
+       "odds_ratio": 0.7882291283465891,
+       "or_ci95": [
+        0.5440561127026958,
+        1.1419872771717963
+       ]
+      },
+      {
+       "term": "year_trend",
+       "coef": 0.33142100361724086,
+       "se": 0.1492567735173448,
+       "se_robust": 0.14565419124473686,
+       "z": 2.275396271023657,
+       "p_value": 0.02288216887509659,
+       "odds_ratio": 1.3929461042283164,
+       "or_ci95": [
+        1.0470158102800944,
+        1.8531705349948642
+       ]
+      }
+     ],
+     "log_likelihood": -390.47604109606084,
+     "ll_null": -411.0835943571444,
+     "mcfadden_r2": 0.050129836227859714,
+     "lr_chi2": 41.21510652216716,
+     "aic": 794.9520821921217,
+     "se_reported": "cluster_robust",
+     "scaling": {
+      "neighbor_exposure": {
+       "mean": 0.24240441588749642,
+       "sd": 0.30409363493183134
+      },
+      "sido_exposure": {
+       "mean": 0.2153084966146947,
+       "sd": 0.25699515427104846
+      },
+      "log_pop": {
+       "mean": 11.883857921371904,
+       "sd": 1.074068777778304
+      },
+      "welfare_ratio": {
+       "mean": 0.30581542865177574,
+       "sd": 0.13917102531263836
+      },
+      "fiscal_self_ratio": {
+       "mean": 0.6001132750300558,
+       "sd": 0.11392406445681375
+      },
+      "year_trend": {
+       "mean": 2.1411901983663943,
+       "sd": 1.786738384880845
+      }
+     },
+     "standardized": true,
+     "rows_dropped_missing_covariate": 167,
+     "dropped_constant_terms": [
+      {
+       "term": "upper_adopted",
+       "constant_value": 0.0
+      }
+     ]
+    },
+    "panel_meta": {
+     "template": "안전보안관",
+     "mode": "upper_bound",
+     "y0": 2020,
+     "y1": 2026,
+     "level": 2,
+     "universe": 227,
+     "n_obs": 1024,
+     "n_events": 186,
+     "n_regions_in_panel": 227,
+     "left_truncated": 0,
+     "left_truncated_regions": [],
+     "right_censored": 41,
+     "adoption_meta": {
+      "template": "안전보안관",
+      "mode": "upper_bound",
+      "ord_kind": "조례",
+      "universe": 227,
+      "adopters_observed": 186,
+      "holders_any_version": 186,
+      "enactment_date_coverage": 1.0,
+      "year_min": 2020,
+      "year_max": 2026,
+      "warning": "enacted_on 은 현행본 공포일이므로 최초 제정일의 상한이다(측정오차 상향)."
+     },
+     "weights_meta": {
+      "n_with_neighbors": 223,
+      "standardize": "row",
+      "island_policy": "knn",
+      "mean_cardinality": 4.771
+     }
+    },
+    "role": "sensitivity_mode",
+    "link": "logit",
+    "spec_note": "민감도① 채택시점 정의를 '보유 판본 중 최초 시행일 상한'으로 바꿔도 부호·유의성이 유지되는지(base.adoption_years 의 선택편의 경고 대응)",
+    "covariates": [
+     "neighbor_exposure",
+     "sido_exposure",
+     "upper_adopted",
+     "log_pop",
+     "welfare_ratio",
+     "fiscal_self_ratio",
+     "year_trend"
+    ],
+    "console_table": "[안전보안관] 2020-2026 mode=upper_bound link=logit  N=857 events=159 clusters=196  McFadden R2=0.0501  SE=cluster_robust\nterm                        coef    SE(cl)       z         p       OR             OR 95% CI\n(intercept)              -1.5696    0.0914  -17.17    0.0000    0.208        [0.174, 0.249] ***\nneighbor_exposure        -0.4918    0.1917   -2.57    0.0103    0.611        [0.420, 0.890] *\nsido_exposure             0.5684    0.1891    3.01    0.0026    1.765        [1.219, 2.557] **\nlog_pop                   0.1383    0.1940    0.71    0.4759    1.148        [0.785, 1.679] \nwelfare_ratio            -0.3945    0.2914   -1.35    0.1758    0.674        [0.381, 1.193] \nfiscal_self_ratio        -0.2380    0.1892   -1.26    0.2084    0.788        [0.544, 1.142] \nyear_trend                0.3314    0.1457    2.28    0.0229    1.393        [1.047, 1.853] *",
+    "seconds": 0.2
+   },
+   {
+    "template": "안전보안관",
+    "mode": "enactment",
+    "window": [
+     2020,
+     2026
+    ],
+    "model": {
+     "link": "cloglog",
+     "converged": true,
+     "n_obs": 873,
+     "n_params": 7,
+     "n_events": 149,
+     "n_clusters": 196,
+     "terms": [
+      {
+       "term": "(intercept)",
+       "coef": -1.7354878694456382,
+       "se": 0.08663200705042942,
+       "se_robust": 0.08352136188955829,
+       "z": -20.778969956698063,
+       "p_value": 6.70824332278342e-96,
+       "odds_ratio": null,
+       "or_ci95": null
+      },
+      {
+       "term": "neighbor_exposure",
+       "coef": -0.37006029343944397,
+       "se": 0.14098515607261544,
+       "se_robust": 0.1636301148136097,
+       "z": -2.261565934002906,
+       "p_value": 0.023724234732895953,
+       "odds_ratio": null,
+       "or_ci95": null
+      },
+      {
+       "term": "sido_exposure",
+       "coef": 0.3182903527927316,
+       "se": 0.14725473969931174,
+       "se_robust": 0.16923181840159351,
+       "z": 1.8807949698762707,
+       "p_value": 0.05999981469138203,
+       "odds_ratio": null,
+       "or_ci95": null
+      },
+      {
+       "term": "log_pop",
+       "coef": 0.14685370737193887,
+       "se": 0.1518507208201144,
+       "se_robust": 0.17116868040956434,
+       "z": 0.8579473009931153,
+       "p_value": 0.3909215636507161,
+       "odds_ratio": null,
+       "or_ci95": null
+      },
+      {
+       "term": "welfare_ratio",
+       "coef": -0.44772930279508716,
+       "se": 0.23231250612796364,
+       "se_robust": 0.2582462860157586,
+       "z": -1.7337298812799422,
+       "p_value": 0.08296602202611891,
+       "odds_ratio": null,
+       "or_ci95": null
+      },
+      {
+       "term": "fiscal_self_ratio",
+       "coef": -0.274173072184601,
+       "se": 0.15914529286006385,
+       "se_robust": 0.16935830625443749,
+       "z": -1.6188935650590046,
+       "p_value": 0.10547016566388882,
+       "odds_ratio": null,
+       "or_ci95": null
+      },
+      {
+       "term": "year_trend",
+       "coef": 0.27058723814376795,
+       "se": 0.1390140965130825,
+       "se_robust": 0.13336990190880604,
+       "z": 2.0288478455115504,
+       "p_value": 0.042473790296068986,
+       "odds_ratio": null,
+       "or_ci95": null
+      }
+     ],
+     "log_likelihood": -387.2202722755173,
+     "ll_null": -398.9227725748407,
+     "mcfadden_r2": 0.029335252594856365,
+     "lr_chi2": 23.40500059864678,
+     "aic": 788.4405445510346,
+     "se_reported": "cluster_robust",
+     "scaling": {
+      "neighbor_exposure": {
+       "mean": 0.24446502333100273,
+       "sd": 0.3013775726352352
+      },
+      "sido_exposure": {
+       "mean": 0.22115751754927013,
+       "sd": 0.2578294718005333
+      },
+      "log_pop": {
+       "mean": 11.884588899668254,
+       "sd": 1.077616619689834
+      },
+      "welfare_ratio": {
+       "mean": 0.3055820684185628,
+       "sd": 0.1389349117035301
+      },
+      "fiscal_self_ratio": {
+       "mean": 0.6006843433281102,
+       "sd": 0.1135226645528828
+      },
+      "year_trend": {
+       "mean": 2.1993127147766325,
+       "sd": 1.8236449998520896
+      }
+     },
+     "standardized": true,
+     "rows_dropped_missing_covariate": 167,
+     "dropped_constant_terms": [
+      {
+       "term": "upper_adopted",
+       "constant_value": 0.0
+      }
+     ]
+    },
+    "panel_meta": {
+     "template": "안전보안관",
+     "mode": "enactment",
+     "y0": 2020,
+     "y1": 2026,
+     "level": 2,
+     "universe": 227,
+     "n_obs": 1040,
+     "n_events": 170,
+     "n_regions_in_panel": 227,
+     "left_truncated": 0,
+     "left_truncated_regions": [],
+     "right_censored": 57,
+     "adoption_meta": {
+      "template": "안전보안관",
+      "mode": "enactment",
+      "ord_kind": "조례",
+      "universe": 227,
+      "adopters_observed": 170,
+      "holders_any_version": 186,
+      "enactment_date_coverage": 0.914,
+      "year_min": 2020,
+      "year_max": 2026,
+      "warning": "rr_cls_cd='제정' 만 사용 → 개정 이력이 있는 조례는 제외되어 채택 시점이 관측되지 않는다(선택편의). enactment_date_coverage 로 정도를 확인하라."
+     },
+     "weights_meta": {
+      "n_with_neighbors": 223,
+      "standardize": "row",
+      "island_policy": "knn",
+      "mean_cardinality": 4.771
+     }
+    },
+    "role": "sensitivity_link",
+    "link": "cloglog",
+    "spec_note": "민감도② 보완로그로그 링크(이산시간 비례위험) — 링크 선택에 결과가 좌우되는지",
+    "covariates": [
+     "neighbor_exposure",
+     "sido_exposure",
+     "upper_adopted",
+     "log_pop",
+     "welfare_ratio",
+     "fiscal_self_ratio",
+     "year_trend"
+    ],
+    "console_table": "[안전보안관] 2020-2026 mode=enactment link=cloglog  N=873 events=149 clusters=196  McFadden R2=0.0293  SE=cluster_robust\nterm                        coef    SE(cl)       z         p       OR             OR 95% CI\n(intercept)              -1.7355    0.0835  -20.78    0.0000                                ***\nneighbor_exposure        -0.3701    0.1636   -2.26    0.0237                                *\nsido_exposure             0.3183    0.1692    1.88    0.0600                                †\nlog_pop                   0.1469    0.1712    0.86    0.3909                                \nwelfare_ratio            -0.4477    0.2582   -1.73    0.0830                                †\nfiscal_self_ratio        -0.2742    0.1694   -1.62    0.1055                                \nyear_trend                0.2706    0.1334    2.03    0.0425                                *",
+    "seconds": 0.0
+   },
+   {
+    "template": "안전보안관",
+    "mode": "enactment",
+    "window": [
+     2020,
+     2026
+    ],
+    "model": {
+     "link": "logit",
+     "converged": true,
+     "n_obs": 873,
+     "n_params": 8,
+     "n_events": 149,
+     "n_clusters": 196,
+     "terms": [
+      {
+       "term": "(intercept)",
+       "coef": -1.6654862810016413,
+       "se": 0.09650935716950196,
+       "se_robust": 0.09586545264138384,
+       "z": -17.373164524992532,
+       "p_value": 1.3175502895096177e-67,
+       "odds_ratio": 0.18909868052457493,
+       "or_ci95": [
+        0.15670674021901626,
+        0.22818617071709085
+       ]
+      },
+      {
+       "term": "neighbor_exposure",
+       "coef": -0.3950755043550185,
+       "se": 0.16003301259492658,
+       "se_robust": 0.18459650245964734,
+       "z": -2.1402112125140706,
+       "p_value": 0.032337701439361044,
+       "odds_ratio": 0.6736291753922609,
+       "or_ci95": [
+        0.4691287613772853,
+        0.9672744527695218
+       ]
+      },
+      {
+       "term": "sido_exposure",
+       "coef": 0.4715394352788276,
+       "se": 0.17266395972337814,
+       "se_robust": 0.1851003553806195,
+       "z": 2.5474799025058976,
+       "p_value": 0.010850410282789979,
+       "odds_ratio": 1.6024591775794568,
+       "or_ci95": [
+        1.114882928284903,
+        2.303269115223568
+       ]
+      },
+      {
+       "term": "log_pop",
+       "coef": 0.292945994553461,
+       "se": 0.1766929977858397,
+       "se_robust": 0.19674891962905477,
+       "z": 1.488933179942099,
+       "p_value": 0.13650496525536424,
+       "odds_ratio": 1.3403704011749489,
+       "or_ci95": [
+        0.9114898640897998,
+        1.971050785232751
+       ]
+      },
+      {
+       "term": "welfare_ratio",
+       "coef": -0.796737498459616,
+       "se": 0.28565124694231164,
+       "se_robust": 0.3166965748885549,
+       "z": -2.515775545535934,
+       "p_value": 0.011877079526671568,
+       "odds_ratio": 0.4507972944674093,
+       "or_ci95": [
+        0.2423308387552658,
+        0.8385981814900982
+       ]
+      },
+      {
+       "term": "fiscal_self_ratio",
+       "coef": -0.43568011172886245,
+       "se": 0.18561141508473736,
+       "se_robust": 0.2003602451982568,
+       "z": -2.1744838218667395,
+       "p_value": 0.029668819087523987,
+       "odds_ratio": 0.6468246044491169,
+       "or_ci95": [
+        0.43675670443446063,
+        0.9579293567170384
+       ]
+      },
+      {
+       "term": "year_trend",
+       "coef": 0.9461386131224793,
+       "se": 0.27817838626185326,
+       "se_robust": 0.25591932981105237,
+       "z": 3.6970189544534295,
+       "p_value": 0.00021814606033837629,
+       "odds_ratio": 2.5757444860449166,
+       "or_ci95": [
+        1.5597818001639139,
+        4.253453692493137
+       ]
+      },
+      {
+       "term": "peer_exposure",
+       "coef": -0.7767304166063965,
+       "se": 0.27991033897937506,
+       "se_robust": 0.2553268937864967,
+       "z": -3.042101852599575,
+       "p_value": 0.0023493238558295517,
+       "odds_ratio": 0.45990726088027034,
+       "or_ci95": [
+        0.2788275087229911,
+        0.7585861580843093
+       ]
+      }
+     ],
+     "log_likelihood": -382.99346188891934,
+     "ll_null": -398.9227725748407,
+     "mcfadden_r2": 0.039930813132341036,
+     "lr_chi2": 31.858621371842673,
+     "aic": 781.9869237778387,
+     "se_reported": "cluster_robust",
+     "scaling": {
+      "neighbor_exposure": {
+       "mean": 0.24446502333100273,
+       "sd": 0.3013775726352352
+      },
+      "sido_exposure": {
+       "mean": 0.22115751754927013,
+       "sd": 0.2578294718005333
+      },
+      "log_pop": {
+       "mean": 11.884588899668254,
+       "sd": 1.077616619689834
+      },
+      "welfare_ratio": {
+       "mean": 0.3055820684185628,
+       "sd": 0.1389349117035301
+      },
+      "fiscal_self_ratio": {
+       "mean": 0.6006843433281102,
+       "sd": 0.1135226645528828
+      },
+      "year_trend": {
+       "mean": 2.1993127147766325,
+       "sd": 1.8236449998520896
+      },
+      "peer_exposure": {
+       "mean": 0.27743413516609394,
+       "sd": 0.2620639124907881
+      }
+     },
+     "standardized": true,
+     "rows_dropped_missing_covariate": 167,
+     "dropped_constant_terms": [
+      {
+       "term": "upper_adopted",
+       "constant_value": 0.0
+      }
+     ]
+    },
+    "panel_meta": {
+     "template": "안전보안관",
+     "mode": "enactment",
+     "y0": 2020,
+     "y1": 2026,
+     "level": 2,
+     "universe": 227,
+     "n_obs": 1040,
+     "n_events": 170,
+     "n_regions_in_panel": 227,
+     "left_truncated": 0,
+     "left_truncated_regions": [],
+     "right_censored": 57,
+     "adoption_meta": {
+      "template": "안전보안관",
+      "mode": "enactment",
+      "ord_kind": "조례",
+      "universe": 227,
+      "adopters_observed": 170,
+      "holders_any_version": 186,
+      "enactment_date_coverage": 0.914,
+      "year_min": 2020,
+      "year_max": 2026,
+      "warning": "rr_cls_cd='제정' 만 사용 → 개정 이력이 있는 조례는 제외되어 채택 시점이 관측되지 않는다(선택편의). enactment_date_coverage 로 정도를 확인하라."
+     },
+     "weights_meta": {
+      "n_with_neighbors": 223,
+      "standardize": "row",
+      "island_policy": "knn",
+      "mean_cardinality": 4.771
+     }
+    },
+    "role": "peer_vs_neighbor",
+    "link": "logit",
+    "spec_note": "확장 — 지리적 인접 노출(neighbor_exposure)과 구조적 유사 노출(peer_exposure, 행안부 유사자치단체 Top-20)을 한 모형에 같이 넣어 head-to-head 비교",
+    "covariates": [
+     "neighbor_exposure",
+     "sido_exposure",
+     "upper_adopted",
+     "log_pop",
+     "welfare_ratio",
+     "fiscal_self_ratio",
+     "year_trend",
+     "peer_exposure"
+    ],
+    "console_table": "[안전보안관] 2020-2026 mode=enactment link=logit  N=873 events=149 clusters=196  McFadden R2=0.0399  SE=cluster_robust\nterm                        coef    SE(cl)       z         p       OR             OR 95% CI\n(intercept)              -1.6655    0.0959  -17.37    0.0000    0.189        [0.157, 0.228] ***\nneighbor_exposure        -0.3951    0.1846   -2.14    0.0323    0.674        [0.469, 0.967] *\nsido_exposure             0.4715    0.1851    2.55    0.0109    1.602        [1.115, 2.303] *\nlog_pop                   0.2929    0.1967    1.49    0.1365    1.340        [0.911, 1.971] \nwelfare_ratio            -0.7967    0.3167   -2.52    0.0119    0.451        [0.242, 0.839] *\nfiscal_self_ratio        -0.4357    0.2004   -2.17    0.0297    0.647        [0.437, 0.958] *\nyear_trend                0.9461    0.2559    3.70    0.0002    2.576        [1.560, 4.253] ***\npeer_exposure            -0.7767    0.2553   -3.04    0.0023    0.460        [0.279, 0.759] **",
+    "seconds": 0.0
+   }
+  ],
+  "primary_role": "primary",
+  "covariate_glossary": {
+   "(intercept)": "절편(기저 위험)",
+   "neighbor_exposure": "t-1 까지 채택한 지리적 인접 지자체 비율 (Valente 1996 exposure)",
+   "peer_exposure": "t-1 까지 채택한 행안부 유사자치단체 Top-20 비율(구조적 유사)",
+   "sido_exposure": "t-1 까지 채택한 동일 광역 내 타 기초 비율",
+   "log_pop": "log(주민등록 인구)",
+   "welfare_ratio": "사회복지 예산 비중(FY2025, 시불변)",
+   "fiscal_self_ratio": "자체재원 비율(FY2025, 시불변) — 재정자립도 근사",
+   "year_trend": "t - y0 (선형 시간추세, 기저위험 근사)"
+  },
+  "risk_set": {
+   "n_obs": 873,
+   "n_events": 149,
+   "n_clusters": 196,
+   "universe": 227,
+   "left_truncated": 0,
+   "right_censored": 57,
+   "note": "위험집합 = 아직 채택하지 않은 지자체 × 연도. 채택한 해에 event=1 행을 남기고 이탈한다(Allison 1982)."
+  },
+  "significance_legend": {
+   "***": "p<0.001",
+   "**": "p<0.01",
+   "*": "p<0.05",
+   "†": "p<0.10"
+  },
+  "neighbor_effect_supported": false,
+  "neighbor_effect_note": "neighbor_exposure 계수 -0.4221 (p=0.0236) — 유의하지만 부호가 음(-)이다. 이웃이 먼저 채택할수록 채택 위험이 낮아지는 방향이므로 수평확산(학습·모방) 가설과 반대다. 인접 지자체가 이미 채택해 남은 위험집합이 선택적으로 구성된 결과일 수 있다.",
+  "interpretation_caveat": "해석 주의 — 이 추정은 '이웃이 채택하면 따라 채택한다'는 수평확산 가설을 **지지하지 않는다**. 우리 실측에서 neighbor_exposure(지리적 인접 노출)는 유의하지 않거나 오히려 음(-)의 방향으로 나왔고, 일관되게 유의한 것은 인구 규모(log_pop)와 시간추세였다. 즉 관측된 S자 확산곡선을 '이웃 학습'의 증거로 읽으면 안 된다 — 상위법·중앙 지침·규모 효과로 설명될 여지가 크다. 계수는 1표준편차 변화당 로그오즈이며(연속변수 z-표준화), 표준오차는 지자체 클러스터 로버스트(Liang&Zeger 1986)다. 채택시점은 rr_cls_cd='제정' 판본에서만 관측되므로 선택편의가 있다(enactment_date_coverage 및 sensitivity_mode 모형으로 확인하라). 인과추론이 아니라 관측자료의 조건부 연관이다.",
+  "verification_status": "engine_computed_unreviewed",
+  "model_errors": [],
+  "references": [
+   "Berry & Berry (1990) APSR 84(2):395-415",
+   "Shipan & Volden (2008) AJPS 52(4):840-857",
+   "Valente (1996) Social Networks 18(1):69-89",
+   "Allison (1982) Sociological Methodology 13:61-98",
+   "Liang & Zeger (1986) Biometrika 73(1):13-22"
+  ]
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

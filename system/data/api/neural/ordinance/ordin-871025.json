@@ -1,0 +1,790 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:871025",
+   "key": "ordin-871025",
+   "mst": "871025",
+   "name": "남양주시 문화관광해설사 운영 및 지원에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "41360",
+   "sig_cd": "41360",
+   "region_name": "경기도 남양주시",
+   "org_name": "경기도 남양주시",
+   "enacted_on": "20141204",
+   "effective_on": "20141204",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 11,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=871025",
+   "categories": [
+    {
+     "code": "C13",
+     "name": "문화·체육·관광",
+     "confidence": 0.6667,
+     "method": "rule"
+    },
+    {
+     "code": "C11",
+     "name": "경제·산업·일자리",
+     "confidence": 0.3333,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.921205,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1384882",
+      "key": "ordin-1384882",
+      "name": "김포시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20190215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1384882",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.904241,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1931947",
+      "key": "ordin-1931947",
+      "name": "오산시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 오산시",
+      "sig_cd": "41370",
+      "enacted_on": "20240517",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1931947",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.875486,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1279580",
+      "key": "ordin-1279580",
+      "name": "태백시 문화관광해설사 운영 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 태백시",
+      "sig_cd": "51190",
+      "enacted_on": "20170303",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1279580",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.834768,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1938223",
+      "key": "ordin-1938223",
+      "name": "경상남도 문화관광해설사 운영 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도",
+      "sig_cd": "48000",
+      "enacted_on": "20240613",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1938223",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.811985,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1689491",
+      "key": "ordin-1689491",
+      "name": "옥천군 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 옥천군",
+      "sig_cd": "43730",
+      "enacted_on": "20220310",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1689491",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.806939,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1403202",
+      "key": "ordin-1403202",
+      "name": "속초시 문화관광해설사 운영 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 속초시",
+      "sig_cd": "51210",
+      "enacted_on": "20190712",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1403202",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.751146,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1574361",
+      "key": "ordin-1574361",
+      "name": "김해시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상남도 김해시",
+      "sig_cd": "48250",
+      "enacted_on": "20210210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1574361",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.749861,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2102665",
+      "key": "ordin-2102665",
+      "name": "강릉시 문화관광해설사 운영 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "강원특별자치도 강릉시",
+      "sig_cd": "51150",
+      "enacted_on": "20251231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2102665",
+      "categories": [
+       "C13",
+       "C07"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.749451,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1917595",
+      "key": "ordin-1917595",
+      "name": "성남시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 성남시",
+      "sig_cd": "41130",
+      "enacted_on": "20240401",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1917595",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.747978,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1170359",
+      "key": "ordin-1170359",
+      "name": "고양시 문화관광해설사 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20150417",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1170359",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990712,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2002239",
+      "key": "ordin-2002239",
+      "name": "남양주시 일자리센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2002239",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.990468,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2112491",
+      "key": "ordin-2112491",
+      "name": "남양주시 마을공동체 미디어 활성화 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20260226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2112491",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990229,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1994857",
+      "key": "ordin-1994857",
+      "name": "남양주시 사무위임 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20241220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1994857",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.98995,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1855525",
+      "key": "ordin-1855525",
+      "name": "남양주시 장애인기업활동 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20230926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1855525",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.989794,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1766217",
+      "key": "ordin-1766217",
+      "name": "남양주시 경로당 설치 및 운영 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20221229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1766217",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.989633,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:855719",
+      "key": "ordin-855719",
+      "name": "남양주시 시정조정위원회 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20101202",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=855719",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.989587,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2002245",
+      "key": "ordin-2002245",
+      "name": "남양주시 체육진흥 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2002245",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989546,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1586801",
+      "key": "ordin-1586801",
+      "name": "남양주시 중소기업협동조합 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20210408",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1586801",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989529,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1436387",
+      "key": "ordin-1436387",
+      "name": "남양주시 교복 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20191226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1436387",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.989411,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1676219",
+      "key": "ordin-1676219",
+      "name": "남양주시의회 지방공무원 여비 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20220113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1676219",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 3,
+    "stored_agreement": 0.3
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.988608,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2099081",
+      "key": "ordin-2099081",
+      "name": "남양주시 새마을운동 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20251229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2099081",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.988478,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1436387",
+      "key": "ordin-1436387",
+      "name": "남양주시 교복 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20191226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1436387",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.98811,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2129707",
+      "key": "ordin-2129707",
+      "name": "남양주시 장애인복지관 건립 기금 조성 및 운용에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20260515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2129707",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.98792,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2053039",
+      "key": "ordin-2053039",
+      "name": "남양주시 청소년 중독 예방 및 치유 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20250709",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2053039",
+      "categories": [
+       "C05",
+       "C07"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.987561,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1511663",
+      "key": "ordin-1511663",
+      "name": "남양주시 청소년상 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20200702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1511663",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.987501,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1808209",
+      "key": "ordin-1808209",
+      "name": "남양주시 읍·면·동 복지회관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20230511",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1808209",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.987488,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1925271",
+      "key": "ordin-1925271",
+      "name": "남양주시 가정 밖 청소년 보호 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20240509",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1925271",
+      "categories": [
+       "C05",
+       "C03"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.986808,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1213348",
+      "key": "ordin-1213348",
+      "name": "남양주시 노인복지시설 및 단체지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20160107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1213348",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.986691,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1855527",
+      "key": "ordin-1855527",
+      "name": "남양주시 청년기업 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20230926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1855527",
+      "categories": [
+       "C11",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.98648,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2085491",
+      "key": "ordin-2085491",
+      "name": "남양주시 주거복지 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 남양주시",
+      "sig_cd": "41360",
+      "enacted_on": "20251113",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2085491",
+      "categories": [
+       "C03",
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1436387",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.989003,
+    "best_rank": 2,
+    "ordinance_id": "ordin:1436387",
+    "key": "ordin-1436387",
+    "name": "남양주시 교복 지원 조례",
+    "region_name": "경기도 남양주시",
+    "sig_cd": "41360",
+    "enacted_on": "20191226",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1436387"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

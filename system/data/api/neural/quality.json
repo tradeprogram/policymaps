@@ -1,0 +1,262 @@
+{
+ "data": {
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "kinds": {
+     "Ordinance": {
+      "n_nodes_sampled": 20000,
+      "dim": 132,
+      "random_pair_cosine": {
+       "n_pairs": 199993,
+       "mean": 0.136074,
+       "std": 0.198954,
+       "p50": 0.126044,
+       "p90": 0.389471,
+       "p99": 0.689511,
+       "max": 0.993244,
+       "frac_gt_0999": 0.0
+      },
+      "effective_dim": 31.544,
+      "interpretation": "무작위쌍 코사인 평균이 0 근처이고 표준편차가 크며 유효차원이 높을수록 변별력이 좋다. 평균이 1 에 붙고 유효차원이 1 에 가까우면 임베딩이 붕괴(collapse)한 것이다.",
+      "category_separation_auc": {
+       "auc": 0.5231,
+       "n_pos": 66321,
+       "n_neg": 133672,
+       "random_baseline": 0.5,
+       "in_sample": true,
+       "note": "같은 분류를 공유하는 조례쌍 vs 나머지. IN_CATEGORY 는 학습 엣지이므로 in-sample 재현 지표다(일반화 성능 아님)."
+      },
+      "region_separation_auc": {
+       "auc": 0.8975,
+       "n_pos": 914,
+       "n_neg": 199079,
+       "random_baseline": 0.5,
+       "in_sample": true,
+       "note": "같은 지자체 조례쌍 vs 나머지. HAS_ORDINANCE 경유 학습 엣지이므로 in-sample 재현 지표다."
+      }
+     },
+     "Region": {
+      "n_nodes_sampled": 537,
+      "dim": 132,
+      "random_pair_cosine": {
+       "n_pairs": 10723,
+       "mean": 0.353736,
+       "std": 0.404535,
+       "p50": 0.148536,
+       "p90": 0.97713,
+       "p99": 0.995814,
+       "max": 0.999572,
+       "frac_gt_0999": 0.000466
+      },
+      "effective_dim": 9.164,
+      "interpretation": "무작위쌍 코사인 평균이 0 근처이고 표준편차가 크며 유효차원이 높을수록 변별력이 좋다. 평균이 1 에 붙고 유효차원이 1 에 가까우면 임베딩이 붕괴(collapse)한 것이다."
+     }
+    },
+    "meta": {
+     "model_name": "graphsage-numpy",
+     "dim": 132,
+     "encoding": "f32b64",
+     "nodes_total": 242891,
+     "nodes_by_kind": {
+      "Bill": 18911,
+      "BudgetLine": 68726,
+      "Category": 2,
+      "LegalInstrument": 77,
+      "Legislator": 320,
+      "Ordinance": 154310,
+      "Party": 8,
+      "Region": 537
+     },
+     "computed_at": "2026-08-19T19:39:08+0900",
+     "similarity_rows": 1548470,
+     "similarity_computed_at": "2026-08-19T21:11:03+0900",
+     "algorithm": {
+      "family": "GraphSAGE",
+      "supervision": "unsupervised (link-based)",
+      "impl": "policymap.neural.gnn (numpy 수동 미분)",
+      "note": "이웃 집계(mean/pool)로 노드 표현 학습. 학습 시 held-out 엣지를 메시지패싱에서 제거해 누수를 막는다."
+     }
+    },
+    "held_out_auc": null,
+    "held_out_auc_status": "unavailable",
+    "held_out_auc_reason": "학습 당시의 held-out 엣지 분할(policymap.neural.gnn.split_edges)이 DB 에 저장돼 있지 않다. 같은 분할을 복원할 수 없으므로 held-out AUC 를 여기서 다시 계산하면 학습에 쓰인 엣지가 섞여 과대추정된다. 재학습 없이는 산출 불가 — 값을 지어내지 않고 null 로 둔다. 재산출하려면 gnn.train_graphsage(..., split=split_edges(...)) 로 다시 돌리고 그 결과를 이 파일에 기록해야 한다."
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "kinds": {
+     "Ordinance": {
+      "n_nodes_sampled": 20000,
+      "dim": 64,
+      "random_pair_cosine": {
+       "n_pairs": 199993,
+       "mean": 0.516959,
+       "std": 0.246991,
+       "p50": 0.606692,
+       "p90": 0.691115,
+       "p99": 0.789566,
+       "max": 0.993173,
+       "frac_gt_0999": 0.0
+      },
+      "effective_dim": 51.261,
+      "interpretation": "무작위쌍 코사인 평균이 0 근처이고 표준편차가 크며 유효차원이 높을수록 변별력이 좋다. 평균이 1 에 붙고 유효차원이 1 에 가까우면 임베딩이 붕괴(collapse)한 것이다.",
+      "category_separation_auc": {
+       "auc": 0.4966,
+       "n_pos": 66321,
+       "n_neg": 133672,
+       "random_baseline": 0.5,
+       "in_sample": true,
+       "note": "같은 분류를 공유하는 조례쌍 vs 나머지. IN_CATEGORY 는 학습 엣지이므로 in-sample 재현 지표다(일반화 성능 아님)."
+      },
+      "region_separation_auc": {
+       "auc": 0.8416,
+       "n_pos": 914,
+       "n_neg": 199079,
+       "random_baseline": 0.5,
+       "in_sample": true,
+       "note": "같은 지자체 조례쌍 vs 나머지. HAS_ORDINANCE 경유 학습 엣지이므로 in-sample 재현 지표다."
+      }
+     },
+     "Region": {
+      "n_nodes_sampled": 537,
+      "dim": 64,
+      "random_pair_cosine": {
+       "n_pairs": 10723,
+       "mean": 0.061302,
+       "std": 0.165848,
+       "p50": 0.043716,
+       "p90": 0.299489,
+       "p99": 0.439063,
+       "max": 0.59653,
+       "frac_gt_0999": 0.0
+      },
+      "effective_dim": 56.154,
+      "interpretation": "무작위쌍 코사인 평균이 0 근처이고 표준편차가 크며 유효차원이 높을수록 변별력이 좋다. 평균이 1 에 붙고 유효차원이 1 에 가까우면 임베딩이 붕괴(collapse)한 것이다."
+     }
+    },
+    "meta": {
+     "model_name": "metapath2vec-numpy",
+     "dim": 64,
+     "encoding": "f32b64",
+     "nodes_total": 209203,
+     "nodes_by_kind": {
+      "Bill": 18911,
+      "BudgetLine": 35038,
+      "Category": 2,
+      "LegalInstrument": 77,
+      "Legislator": 320,
+      "Ordinance": 154310,
+      "Party": 8,
+      "Region": 537
+     },
+     "computed_at": "2026-08-19T16:42:43+0900",
+     "similarity_rows": 305370,
+     "similarity_computed_at": "2026-08-19T20:00:24+0900",
+     "algorithm": {
+      "family": "metapath2vec",
+      "supervision": "unsupervised (SGNS)",
+      "impl": "policymap.neural.embeddings (numpy 수동 미분)",
+      "note": "이종그래프 메타패스(R-O-R, O-I-O, O-B-O, O-C-O, O-R-O 등)로 워크를 강제해 타입 의미를 보존한다."
+     }
+    },
+    "held_out_auc": null,
+    "held_out_auc_status": "unavailable",
+    "held_out_auc_reason": "학습 당시의 held-out 엣지 분할(policymap.neural.gnn.split_edges)이 DB 에 저장돼 있지 않다. 같은 분할을 복원할 수 없으므로 held-out AUC 를 여기서 다시 계산하면 학습에 쓰인 엣지가 섞여 과대추정된다. 재학습 없이는 산출 불가 — 값을 지어내지 않고 null 로 둔다. 재산출하려면 gnn.train_graphsage(..., split=split_edges(...)) 로 다시 돌리고 그 결과를 이 파일에 기록해야 한다."
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "kinds": {
+     "Ordinance": {
+      "n_nodes_sampled": 20000,
+      "dim": 128,
+      "random_pair_cosine": {
+       "n_pairs": 199993,
+       "mean": 0.437911,
+       "std": 0.210752,
+       "p50": 0.515959,
+       "p90": 0.593217,
+       "p99": 0.682434,
+       "max": 0.995672,
+       "frac_gt_0999": 0.0
+      },
+      "effective_dim": 92.049,
+      "interpretation": "무작위쌍 코사인 평균이 0 근처이고 표준편차가 크며 유효차원이 높을수록 변별력이 좋다. 평균이 1 에 붙고 유효차원이 1 에 가까우면 임베딩이 붕괴(collapse)한 것이다.",
+      "category_separation_auc": {
+       "auc": 0.5123,
+       "n_pos": 66321,
+       "n_neg": 133672,
+       "random_baseline": 0.5,
+       "in_sample": true,
+       "note": "같은 분류를 공유하는 조례쌍 vs 나머지. IN_CATEGORY 는 학습 엣지이므로 in-sample 재현 지표다(일반화 성능 아님)."
+      },
+      "region_separation_auc": {
+       "auc": 0.8349,
+       "n_pos": 914,
+       "n_neg": 199079,
+       "random_baseline": 0.5,
+       "in_sample": true,
+       "note": "같은 지자체 조례쌍 vs 나머지. HAS_ORDINANCE 경유 학습 엣지이므로 in-sample 재현 지표다."
+      }
+     },
+     "Region": {
+      "n_nodes_sampled": 537,
+      "dim": 128,
+      "random_pair_cosine": {
+       "n_pairs": 10723,
+       "mean": 0.341958,
+       "std": 0.166147,
+       "p50": 0.349046,
+       "p90": 0.501796,
+       "p99": 0.987383,
+       "max": 0.997916,
+       "frac_gt_0999": 0.0
+      },
+      "effective_dim": 74.598,
+      "interpretation": "무작위쌍 코사인 평균이 0 근처이고 표준편차가 크며 유효차원이 높을수록 변별력이 좋다. 평균이 1 에 붙고 유효차원이 1 에 가까우면 임베딩이 붕괴(collapse)한 것이다."
+     }
+    },
+    "meta": {
+     "model_name": "node2vec-numpy",
+     "dim": 128,
+     "encoding": "f32b64",
+     "nodes_total": 209203,
+     "nodes_by_kind": {
+      "Bill": 18911,
+      "BudgetLine": 35038,
+      "Category": 2,
+      "LegalInstrument": 77,
+      "Legislator": 320,
+      "Ordinance": 154310,
+      "Party": 8,
+      "Region": 537
+     },
+     "computed_at": "2026-08-19T16:34:40+0900",
+     "similarity_rows": 39690,
+     "similarity_computed_at": "2026-08-19T17:02:02+0900",
+     "algorithm": {
+      "family": "node2vec/DeepWalk",
+      "supervision": "unsupervised (SGNS)",
+      "impl": "policymap.neural.embeddings (numpy 수동 미분)",
+      "note": "2차 랜덤워크 + skip-gram negative sampling. p=q=1 이면 DeepWalk."
+     }
+    },
+    "held_out_auc": null,
+    "held_out_auc_status": "unavailable",
+    "held_out_auc_reason": "학습 당시의 held-out 엣지 분할(policymap.neural.gnn.split_edges)이 DB 에 저장돼 있지 않다. 같은 분할을 복원할 수 없으므로 held-out AUC 를 여기서 다시 계산하면 학습에 쓰인 엣지가 섞여 과대추정된다. 재학습 없이는 산출 불가 — 값을 지어내지 않고 null 로 둔다. 재산출하려면 gnn.train_graphsage(..., split=split_edges(...)) 로 다시 돌리고 그 결과를 이 파일에 기록해야 한다."
+   }
+  },
+  "pair_sampling": {
+   "method": "ORDER BY RANDOM()",
+   "why": "LIMIT N 만 쓰면 삽입순(그래프 구축순) 앞부분만 뽑혀 무작위쌍 코사인이 과대추정된다 — 변별력을 실제보다 좋게 보이게 만든다 [실측 교훈].",
+   "sample_size": 20000,
+   "pairs": 200000,
+   "seed": 20260822
+  },
+  "warnings": []
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true
+}

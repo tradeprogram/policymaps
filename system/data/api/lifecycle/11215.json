@@ -1,0 +1,698 @@
+{
+ "data": {
+  "region": {
+   "region_id": "11215",
+   "sig_cd": "11215",
+   "name": "광진구",
+   "full_name": "서울특별시 광진구",
+   "level": 2
+  },
+  "counts": {
+   "total": 570,
+   "active": 500,
+   "repealed": 70,
+   "by_rr_cls_cd": {
+    "일부개정": 298,
+    "전부개정": 24,
+    "제정": 178,
+    "폐지": 70
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1995,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 9
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 9
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 5
+   },
+   {
+    "year": 2014,
+    "n": 9
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 10
+   },
+   {
+    "year": 2017,
+    "n": 9
+   },
+   {
+    "year": 2018,
+    "n": 11
+   },
+   {
+    "year": 2019,
+    "n": 32
+   },
+   {
+    "year": 2020,
+    "n": 40
+   },
+   {
+    "year": 2021,
+    "n": 70
+   },
+   {
+    "year": 2022,
+    "n": 46
+   },
+   {
+    "year": 2023,
+    "n": 80
+   },
+   {
+    "year": 2024,
+    "n": 72
+   },
+   {
+    "year": 2025,
+    "n": 98
+   },
+   {
+    "year": 2026,
+    "n": 48
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 2
+   },
+   {
+    "year": 2016,
+    "n": 4
+   },
+   {
+    "year": 2017,
+    "n": 1
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 4
+   },
+   {
+    "year": 2020,
+    "n": 3
+   },
+   {
+    "year": 2021,
+    "n": 3
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 12
+   },
+   {
+    "year": 2024,
+    "n": 1
+   },
+   {
+    "year": 2025,
+    "n": 6
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법 위반자에 대한 행정처분 규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금 지급 규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원 재정보증 조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한과태료부과징수규칙",
+    "display_name": "부동산중개업법 위반자에 대한 과태료 부과징수 규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례",
+    "display_name": "사회단체보조금 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 51
+   },
+   {
+    "policy_key": "금연환경조성및지원에관한조례",
+    "display_name": "금연 환경조성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "의회위원회조례",
+    "display_name": "의회 위원회 조례",
+    "rows": 1,
+    "nationwide_regions": 47
+   },
+   {
+    "policy_key": "도시디자인조례",
+    "display_name": "도시디자인 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "다문화가족지원조례",
+    "display_name": "다문화가족 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 33
+   },
+   {
+    "policy_key": "수입증지조례시행규칙",
+    "display_name": "수입증지 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 28
+   },
+   {
+    "policy_key": "복지위원운영에관한조례",
+    "display_name": "복지위원 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 27
+   },
+   {
+    "policy_key": "가축사육제한에관한조례시행규칙",
+    "display_name": "가축사육 제한에 관한 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 23
+   },
+   {
+    "policy_key": "지방고용직공무원인사관리조례",
+    "display_name": "지방고용직공무원 인사관리 조례",
+    "rows": 1,
+    "nationwide_regions": 23
+   },
+   {
+    "policy_key": "공동주택지원조례",
+    "display_name": "공동주택 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 22
+   },
+   {
+    "policy_key": "공무원제안규칙",
+    "display_name": "공무원 제안 규칙",
+    "rows": 1,
+    "nationwide_regions": 22
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:942381",
+    "name": "서울특별시 광진구 기반시설특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-12-22",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=942381&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:928887",
+    "name": "서울특별시 광진구 지방고용직공무원 인사관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-04-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=928887&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2114727",
+    "name": "서울특별시 광진구 자치회관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-29",
+    "repealed_on": "2025-12-29",
+    "repealed_on_raw": "20251229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114727&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2066387",
+    "name": "서울특별시 광진구 광고물관리심의위원회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-09-05",
+    "repealed_on": "2025-09-05",
+    "repealed_on_raw": "20250905",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2066387&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2060823",
+    "name": "서울특별시 광진구 마을공동체 지원 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-28",
+    "repealed_on": "2025-08-17",
+    "repealed_on_raw": "20250817",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2060823&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2060825",
+    "name": "서울특별시 광진구 맛집멋집심의위원회 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-28",
+    "repealed_on": "2025-08-17",
+    "repealed_on_raw": "20250817",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2060825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2060795",
+    "name": "서울특별시 광진구 민원업무 담당 공무원 등의 보호 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-28",
+    "repealed_on": "2025-07-28",
+    "repealed_on_raw": "20250728",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2060795&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2034349",
+    "name": "서울특별시 광진구 불용의약품 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-07",
+    "repealed_on": "2025-05-07",
+    "repealed_on_raw": "20250507",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2034349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2001335",
+    "name": "서울특별시 광진구 공공 야간약국 운영 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2001335&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1877407",
+    "name": "서울특별시 광진구 공동주택지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-30",
+    "repealed_on": "2023-11-30",
+    "repealed_on_raw": "20231130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1877407&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1877409",
+    "name": "서울특별시 광진구 산림 및 개발제한구역보호 초소감시원 근무 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-30",
+    "repealed_on": "2023-11-30",
+    "repealed_on_raw": "20231130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1877409&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1870155",
+    "name": "서울특별시 광진구 공동주택관리 분쟁조정위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-07",
+    "repealed_on": "2023-11-07",
+    "repealed_on_raw": "20231107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1870155&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1870159",
+    "name": "서울특별시 광진구 공동주택 관리에 관한 감사 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-07",
+    "repealed_on": "2023-11-07",
+    "repealed_on_raw": "20231107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1870159&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1870157",
+    "name": "서울특별시 광진구 공동주택 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-07",
+    "repealed_on": "2023-11-07",
+    "repealed_on_raw": "20231107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1870157&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1870151",
+    "name": "서울특별시 광진구 신생아 건강보험료 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-07",
+    "repealed_on": "2023-11-07",
+    "repealed_on_raw": "20231107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1870151&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1805075",
+    "name": "서울특별시 광진구  민자유치사업심의위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-01",
+    "repealed_on": "2023-11-01",
+    "repealed_on_raw": "20231101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1805075&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1805071",
+    "name": "서울특별시 광진구 남북교류협력에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-01",
+    "repealed_on": "2023-05-01",
+    "repealed_on_raw": "20230501",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1805071&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1786931",
+    "name": "서울특별시 광진구 민관협치 활성화를 위한 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-02",
+    "repealed_on": "2023-03-02",
+    "repealed_on_raw": "20230302",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786931&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1786919",
+    "name": "서울특별시 광진구의회에 출석하여 답변할 수 있는 관계공무원 등의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-02",
+    "repealed_on": "2023-03-02",
+    "repealed_on_raw": "20230302",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786919&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1786917",
+    "name": "서울특별시 광진구의회 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-02",
+    "repealed_on": "2023-03-02",
+    "repealed_on_raw": "20230302",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1786913",
+    "name": "서울특별시 광진구의회 회기 및 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-02",
+    "repealed_on": "2023-03-02",
+    "repealed_on_raw": "20230302",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786913&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1737053",
+    "name": "서울특별시 광진구 정책자문위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-17",
+    "repealed_on": "2022-10-17",
+    "repealed_on_raw": "20221017",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1737053&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1712561",
+    "name": "서울특별시 광진구 아동ㆍ여성폭력방지 및 피해자 보호에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-06-24",
+    "repealed_on": "2022-06-24",
+    "repealed_on_raw": "20220624",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1712561&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1686205",
+    "name": "서울특별시 광진구 지방별정직공무원의 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-02-25",
+    "repealed_on": "2022-02-25",
+    "repealed_on_raw": "20220225",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1686205&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1635709",
+    "name": "서울특별시 광진구 교통특구 지정ㆍ운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-10-29",
+    "repealed_on": "2021-10-29",
+    "repealed_on_raw": "20211029",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1635709&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1581933",
+    "name": "서울특별시 광진구 교통안전대책위원회 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-25",
+    "repealed_on": "2021-03-25",
+    "repealed_on_raw": "20210325",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1581933&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1577701",
+    "name": "서울특별시 광진구 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-04",
+    "repealed_on": "2021-03-04",
+    "repealed_on_raw": "20210304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1577701&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1558065",
+    "name": "서울특별시 광진구 사전재해영향성검토위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-28",
+    "repealed_on": "2020-12-28",
+    "repealed_on_raw": "20201228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1558065&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1539951",
+    "name": "서울특별시 광진구 환경모범도시 광진21실천위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-28",
+    "repealed_on": "2020-10-28",
+    "repealed_on_raw": "20201028",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1539951&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1526877",
+    "name": "서울특별시 광진구 어린이공원 및 어린이놀이터의 관리 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-10",
+    "repealed_on": "2020-09-10",
+    "repealed_on_raw": "20200910",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1526877&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1439627",
+    "name": "서울특별시 광진구의회 정책연구위원회 설치·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-31",
+    "repealed_on": "2019-12-31",
+    "repealed_on_raw": "20191231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1439627&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1439363",
+    "name": "서울특별시 광진구 인터넷방송국 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-30",
+    "repealed_on": "2019-12-30",
+    "repealed_on_raw": "20191230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1439363&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1395144",
+    "name": "서울특별시 광진구 복지위원 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-05-22",
+    "repealed_on": "2019-05-22",
+    "repealed_on_raw": "20190522",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1395144&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1387425",
+    "name": "서울특별시 광진구 홀로사는 노인 고독사 예방 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-03-12",
+    "repealed_on": "2019-03-12",
+    "repealed_on_raw": "20190312",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1387425&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1345682",
+    "name": "서울특별시 광진구 쓰레기줄이기와 자원재활용 촉진에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-04-24",
+    "repealed_on": "2018-04-24",
+    "repealed_on_raw": "20180424",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1345682&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1055639",
+    "name": "서울특별시 광진구 평생교육 진흥 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-10-17",
+    "repealed_on": "2017-10-17",
+    "repealed_on_raw": "20171017",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1055639&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1260296",
+    "name": "서울특별시 광진구 유료광고에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-10-25",
+    "repealed_on": "2016-10-25",
+    "repealed_on_raw": "20161025",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1260296&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1260297",
+    "name": "서울특별시 광진구 유료광고에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-10-25",
+    "repealed_on": "2016-10-25",
+    "repealed_on_raw": "20161025",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1260297&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1218499",
+    "name": "서울특별시 광진구 가축사육 제한에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-02-17",
+    "repealed_on": "2016-02-17",
+    "repealed_on_raw": "20160217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1218499&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1218500",
+    "name": "서울특별시 광진구 지방계약직공무원 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-02-17",
+    "repealed_on": "2016-02-17",
+    "repealed_on_raw": "20160217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1218500&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 2,
+   "sentinel_99991231": 2
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "11215"
+ ]
+}

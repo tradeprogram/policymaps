@@ -1,0 +1,706 @@
+{
+ "data": {
+  "region": {
+   "region_id": "12750",
+   "sig_cd": "12750",
+   "name": "보성군",
+   "full_name": "전남광주통합특별시 보성군",
+   "level": 2
+  },
+  "counts": {
+   "total": 646,
+   "active": 571,
+   "repealed": 75,
+   "by_rr_cls_cd": {
+    "일부개정": 399,
+    "전부개정": 30,
+    "제정": 142,
+    "폐지": 75
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1975,
+    "n": 1
+   },
+   {
+    "year": 1982,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 7
+   },
+   {
+    "year": 2015,
+    "n": 21
+   },
+   {
+    "year": 2016,
+    "n": 27
+   },
+   {
+    "year": 2017,
+    "n": 32
+   },
+   {
+    "year": 2018,
+    "n": 29
+   },
+   {
+    "year": 2019,
+    "n": 17
+   },
+   {
+    "year": 2020,
+    "n": 20
+   },
+   {
+    "year": 2021,
+    "n": 37
+   },
+   {
+    "year": 2022,
+    "n": 75
+   },
+   {
+    "year": 2023,
+    "n": 119
+   },
+   {
+    "year": 2024,
+    "n": 49
+   },
+   {
+    "year": 2025,
+    "n": 51
+   },
+   {
+    "year": 2026,
+    "n": 132
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 15
+   },
+   {
+    "year": 2016,
+    "n": 11
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 4
+   },
+   {
+    "year": 2019,
+    "n": 1
+   },
+   {
+    "year": 2020,
+    "n": 2
+   },
+   {
+    "year": 2021,
+    "n": 5
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 5
+   },
+   {
+    "year": 2024,
+    "n": 4
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여업무 처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설 특별회계 설치 및 운영조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수ㆍ분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업 특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법위반자에 대한 과태료 부과징수 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "여성발전기본조례",
+    "display_name": "여성발전 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 57
+   },
+   {
+    "policy_key": "장수수당지급조례",
+    "display_name": "장수수당 지급조례",
+    "rows": 1,
+    "nationwide_regions": 56
+   },
+   {
+    "policy_key": "지방채상환기금설치및운용조례",
+    "display_name": "지방채 상환기금 설치 및 운용조례",
+    "rows": 1,
+    "nationwide_regions": 52
+   },
+   {
+    "policy_key": "사회단체보조금지원에관한조례",
+    "display_name": "사회단체 보조금 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 51
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례시행규칙",
+    "display_name": "오수ㆍ분뇨 및 축산폐수의 처리에 관한 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 42
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:1004238",
+    "name": "보성군오수ㆍ분뇨및축산폐수의처리에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2007-11-22",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1004238&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1003498",
+    "name": "보성군인재육성기금설치및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-06-03",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1003498&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1003500",
+    "name": "보성군인재육성기금설치및운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-06-26",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1003500&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2115501",
+    "name": "보성군 봇재 관리·운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-03-13",
+    "repealed_on": "2026-03-13",
+    "repealed_on_raw": "20260313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115501&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2006261",
+    "name": "보성군 대상포진 예방접종 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-31",
+    "repealed_on": "2024-12-31",
+    "repealed_on_raw": "20241231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2006261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2000471",
+    "name": "보성군 벌교꼬막 웰빙센터 운영관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-27",
+    "repealed_on": "2024-12-27",
+    "repealed_on_raw": "20241227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2000471&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1967887",
+    "name": "보성군 공립어린이집 운영조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-09-20",
+    "repealed_on": "2024-09-20",
+    "repealed_on_raw": "20240920",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1967887&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1943027",
+    "name": "보성군 건강생활실천협의회 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-28",
+    "repealed_on": "2024-06-28",
+    "repealed_on_raw": "20240628",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1943027&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851287",
+    "name": "보성군 위생환경사업소 설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-14",
+    "repealed_on": "2023-09-14",
+    "repealed_on_raw": "20230914",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851287&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851249",
+    "name": "보성군 차상위계층 노인 국민건강보험료 및 장기요양보험료 지원조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-09-14",
+    "repealed_on": "2023-09-14",
+    "repealed_on_raw": "20230914",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851249&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1804141",
+    "name": "보성군 저탄소녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-25",
+    "repealed_on": "2023-04-25",
+    "repealed_on_raw": "20230425",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1804141&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1804127",
+    "name": "보성군 정책실명제 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-25",
+    "repealed_on": "2023-04-25",
+    "repealed_on_raw": "20230425",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1804127&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1791499",
+    "name": "보성군 디자인표준화 규정 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-20",
+    "repealed_on": "2023-03-20",
+    "repealed_on_raw": "20230320",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1791499&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1901633",
+    "name": "보성군 시장운영 관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-28",
+    "repealed_on": "2022-04-28",
+    "repealed_on_raw": "20220428",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1901633&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1703867",
+    "name": "보성군 의안 비용추계에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-28",
+    "repealed_on": "2022-04-28",
+    "repealed_on_raw": "20220428",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1703867&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1703839",
+    "name": "보성군 시장운영 관리조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-28",
+    "repealed_on": "2022-04-28",
+    "repealed_on_raw": "20220428",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1703839&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1652567",
+    "name": "보성군 서편제보성소리전수관 관리 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-24",
+    "repealed_on": "2021-12-24",
+    "repealed_on_raw": "20211224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1652567&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1652555",
+    "name": "보성군 다문화가족 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-24",
+    "repealed_on": "2021-12-24",
+    "repealed_on_raw": "20211224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1652555&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1638377",
+    "name": "보성군 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-05",
+    "repealed_on": "2021-11-05",
+    "repealed_on_raw": "20211105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1638377&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1640029",
+    "name": "보성군 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-10",
+    "repealed_on": "2021-09-10",
+    "repealed_on_raw": "20210910",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1640029&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1574765",
+    "name": "보성군 수산물유통센터 운영관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-16",
+    "repealed_on": "2021-02-16",
+    "repealed_on_raw": "20210216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1574765&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1558665",
+    "name": "보성군 복지회관 설치 및 관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-28",
+    "repealed_on": "2020-12-28",
+    "repealed_on_raw": "20201228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1558665&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1543909",
+    "name": "보성군 골재채취사업 특별회계 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-09",
+    "repealed_on": "2020-11-09",
+    "repealed_on_raw": "20201109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1543909&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1411464",
+    "name": "보성군 사전재해 영향성 검토위원회 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-09-30",
+    "repealed_on": "2019-09-30",
+    "repealed_on_raw": "20190930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1411464&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1379145",
+    "name": "보성군 재정 투ㆍ융자사업 심사규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-12-28",
+    "repealed_on": "2018-12-28",
+    "repealed_on_raw": "20181228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1379145&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1346452",
+    "name": "보성군 인구늘리기 시책 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-05-01",
+    "repealed_on": "2018-05-01",
+    "repealed_on_raw": "20180501",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1346452&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1351155",
+    "name": "보성군 사회적기업 육성에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-01-31",
+    "repealed_on": "2018-01-31",
+    "repealed_on_raw": "20180131",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1351155&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1351156",
+    "name": "보성군 협동조합 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-01-31",
+    "repealed_on": "2018-01-31",
+    "repealed_on_raw": "20180131",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1351156&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1322204",
+    "name": "보성군 1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-26",
+    "repealed_on": "2017-12-26",
+    "repealed_on_raw": "20171226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1322204&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1322203",
+    "name": "보성군 자원의 절약과 재활용촉진에 관한 과태료 부과ㆍ징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-26",
+    "repealed_on": "2017-12-26",
+    "repealed_on_raw": "20171226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1322203&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1305964",
+    "name": "보성군 삼베전시판매장 운영관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-09-29",
+    "repealed_on": "2017-09-29",
+    "repealed_on_raw": "20170929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1305964&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1305957",
+    "name": "보성군 지방세체납정리위원회 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-09-29",
+    "repealed_on": "2017-09-29",
+    "repealed_on_raw": "20170929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1305957&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1285100",
+    "name": "보성군 기반시설 특별회계 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-04-25",
+    "repealed_on": "2017-04-25",
+    "repealed_on_raw": "20170425",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1285100&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1270173",
+    "name": "보성군 국제화추진협의회 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-27",
+    "repealed_on": "2016-12-27",
+    "repealed_on_raw": "20161227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1270173&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1270174",
+    "name": "보성군 자매도시위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-27",
+    "repealed_on": "2016-12-27",
+    "repealed_on_raw": "20161227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1270174&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1270176",
+    "name": "보성군 오수ㆍ분뇨 및 축산폐수의 처리에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-12-27",
+    "repealed_on": "2016-12-27",
+    "repealed_on_raw": "20161227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1270176&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1383093",
+    "name": "보성군 지역발전협의회 설치 및 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-07-26",
+    "repealed_on": "2016-07-26",
+    "repealed_on_raw": "20160726",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1383093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1240966",
+    "name": "보성군 주택사업 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-07-05",
+    "repealed_on": "2016-07-05",
+    "repealed_on_raw": "20160705",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1240966&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1240948",
+    "name": "보성군 지방계약직공무원규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-07-05",
+    "repealed_on": "2016-07-05",
+    "repealed_on_raw": "20160705",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1240948&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1239733",
+    "name": "보성군 지역사회복지협의체 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-03-29",
+    "repealed_on": "2016-03-29",
+    "repealed_on_raw": "20160329",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1239733&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 3,
+   "sentinel_99991231": 3
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "12750"
+ ]
+}

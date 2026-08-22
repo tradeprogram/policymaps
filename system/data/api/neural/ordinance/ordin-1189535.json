@@ -1,0 +1,761 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1189535",
+   "key": "ordin-1189535",
+   "mst": "1189535",
+   "name": "시흥시 도로와 다른 시설의 연결에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "41390",
+   "sig_cd": "41390",
+   "region_name": "경기도 시흥시",
+   "org_name": "경기도 시흥시",
+   "enacted_on": "20150930",
+   "effective_on": "20150930",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 15,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1189535",
+   "categories": [
+    {
+     "code": "C10",
+     "name": "교통",
+     "confidence": 0.6,
+     "method": "rule"
+    },
+    {
+     "code": "C08",
+     "name": "안전·재난",
+     "confidence": 0.5,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.899825,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1881645",
+      "key": "ordin-1881645",
+      "name": "시흥시 야외운동기구 설치 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20231215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1881645",
+      "categories": [
+       "C06",
+       "C08"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.883543,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2118593",
+      "key": "ordin-2118593",
+      "name": "시흥시 시민 영양관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20260402",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2118593",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.882804,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2062339",
+      "key": "ordin-2062339",
+      "name": "시흥시 학교복합화시설 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20250710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2062339",
+      "categories": [
+       "C05",
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.877923,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1599251",
+      "key": "ordin-1599251",
+      "name": "시흥시 주소정보 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20210528",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1599251",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.875747,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1645687",
+      "key": "ordin-1645687",
+      "name": "시흥시주민감사청구에관한조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20211209",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1645687",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.875668,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1845941",
+      "key": "ordin-1845941",
+      "name": "시흥시 자동차 정비산업 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20230809",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1845941",
+      "categories": [
+       "C11",
+       "C09"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.875062,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1264097",
+      "key": "ordin-1264097",
+      "name": "시흥시 도로무단점용자에 대한 과태료 부과·징수 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20161114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1264097",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.873733,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1706763",
+      "key": "ordin-1706763",
+      "name": "시흥시 공정무역 지원 및 육성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20220503",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1706763",
+      "categories": [
+       "C11",
+       "C09"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.871611,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1982691",
+      "key": "ordin-1982691",
+      "name": "시흥시 건전한 음주문화 환경조성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20241107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1982691",
+      "categories": [
+       "C07",
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.869768,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1620639",
+      "key": "ordin-1620639",
+      "name": "시흥시 성과시상금 지급ㆍ운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20210809",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1620639",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.993103,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1431683",
+      "key": "ordin-1431683",
+      "name": "시흥시 하수도사업 지방공기업 설치 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20191213",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1431683",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.992422,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2118553",
+      "key": "ordin-2118553",
+      "name": "시흥시 인공지능산업 육성 및 제조혁신 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20260402",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2118553",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.992159,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2112545",
+      "key": "ordin-2112545",
+      "name": "시흥시 1회용품 사용 저감에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20260226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2112545",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991844,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1756665",
+      "key": "ordin-1756665",
+      "name": "시흥시 산업재해 예방 및 노동안전보건 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20221215",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1756665",
+      "categories": [
+       "C08",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.991465,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2045737",
+      "key": "ordin-2045737",
+      "name": "시흥시 근로자종합복지관 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20250626",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2045737",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.991276,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1089390",
+      "key": "ordin-1089390",
+      "name": "시흥시시민의날조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "19890804",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "undetermined",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1089390",
+      "categories": []
+     },
+     {
+      "rank": 7,
+      "cosine": 0.991168,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1086765",
+      "key": "ordin-1086765",
+      "name": "시흥시 문화원 지원 및 육성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20141212",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1086765",
+      "categories": [
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.991088,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2077237",
+      "key": "ordin-2077237",
+      "name": "시흥시 아동친화도시 조성 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20251002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2077237",
+      "categories": [
+       "C03",
+       "C09"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990941,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2077231",
+      "key": "ordin-2077231",
+      "name": "시흥시 시책일몰제 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20251002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2077231",
+      "categories": [
+       "C01",
+       "C07"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990884,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1542027",
+      "key": "ordin-1542027",
+      "name": "시흥시 재활용품 수집인 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20201104",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1542027",
+      "categories": [
+       "C07",
+       "C03"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.995278,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1906047",
+      "key": "ordin-1906047",
+      "name": "시흥시 재향경우회 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20240208",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1906047",
+      "categories": [
+       "C05",
+       "C08"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99511,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2091367",
+      "key": "ordin-2091367",
+      "name": "시흥시 행정기구 및 정원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20251211",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2091367",
+      "categories": [
+       "C01",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.995083,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1654255",
+      "key": "ordin-1654255",
+      "name": "시흥시의회 시험수당 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20211228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1654255",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994899,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2020921",
+      "key": "ordin-2020921",
+      "name": "시흥아트센터 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20250312",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2020921",
+      "categories": []
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994679,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1919831",
+      "key": "ordin-1919831",
+      "name": "시흥시 결혼친화 공공예식장 개방 및 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20240409",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1919831",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.994546,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2042655",
+      "key": "ordin-2042655",
+      "name": "시흥시 고향사랑 기부금 모금 및 운용에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20250605",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2042655",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.994491,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1231930",
+      "key": "ordin-1231930",
+      "name": "시흥시 청문실시에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20160510",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1231930",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.994454,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2077227",
+      "key": "ordin-2077227",
+      "name": "시흥시 성별영향평가 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20251002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2077227",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.994453,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1919823",
+      "key": "ordin-1919823",
+      "name": "시흥시 감정노동자 보호 및 건전한 노동문화 조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20240409",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1919823",
+      "categories": [
+       "C11",
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.994426,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2077039",
+      "key": "ordin-2077039",
+      "name": "시흥시 교통위원회 설치ㆍ운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 시흥시",
+      "sig_cd": "41390",
+      "enacted_on": "20251002",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2077039",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

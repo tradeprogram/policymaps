@@ -1,0 +1,384 @@
+{
+ "data": {
+  "region": {
+   "region_id": "47900",
+   "sig_cd": "47900",
+   "name": "예천군",
+   "full_name": "경상북도 예천군",
+   "level": 2
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 227,
+    "stored_note": "neural_similarity 저장본은 전체 Region 노드 537개(레벨3·비활성 포함)를 후보로 계산됐다. 여기 재계산본은 같은 레벨의 활성 지자체만 후보로 두므로 stored_agreement 가 낮아도 불일치가 아니라 후보집합 차이다.",
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.80447,
+      "stored_rank": 1,
+      "region_id": "12780",
+      "sig_cd": "12780",
+      "name": "전남광주통합특별시 강진군",
+      "level": 2
+     },
+     {
+      "rank": 2,
+      "cosine": 0.794985,
+      "stored_rank": 2,
+      "region_id": "44810",
+      "sig_cd": "44810",
+      "name": "충청남도 예산군",
+      "level": 2
+     },
+     {
+      "rank": 3,
+      "cosine": 0.726812,
+      "stored_rank": 3,
+      "region_id": "51790",
+      "sig_cd": "51790",
+      "name": "강원특별자치도 화천군",
+      "level": 2
+     },
+     {
+      "rank": 4,
+      "cosine": 0.715962,
+      "stored_rank": 4,
+      "region_id": "51750",
+      "sig_cd": "51750",
+      "name": "강원특별자치도 영월군",
+      "level": 2
+     },
+     {
+      "rank": 5,
+      "cosine": 0.704351,
+      "stored_rank": 5,
+      "region_id": "43745",
+      "sig_cd": "43745",
+      "name": "충청북도 증평군",
+      "level": 2
+     },
+     {
+      "rank": 6,
+      "cosine": 0.70424,
+      "stored_rank": 6,
+      "region_id": "47820",
+      "sig_cd": "47820",
+      "name": "경상북도 청도군",
+      "level": 2
+     },
+     {
+      "rank": 7,
+      "cosine": 0.701323,
+      "stored_rank": 7,
+      "region_id": "47280",
+      "sig_cd": "47280",
+      "name": "경상북도 문경시",
+      "level": 2
+     },
+     {
+      "rank": 8,
+      "cosine": 0.699183,
+      "stored_rank": 8,
+      "region_id": "26530",
+      "sig_cd": "26530",
+      "name": "부산광역시 사상구",
+      "level": 2
+     },
+     {
+      "rank": 9,
+      "cosine": 0.695317,
+      "stored_rank": 9,
+      "region_id": "43740",
+      "sig_cd": "43740",
+      "name": "충청북도 영동군",
+      "level": 2
+     },
+     {
+      "rank": 10,
+      "cosine": 0.688115,
+      "stored_rank": 10,
+      "region_id": "12800",
+      "sig_cd": "12800",
+      "name": "전남광주통합특별시 영암군",
+      "level": 2
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 227,
+    "stored_note": "neural_similarity 저장본은 전체 Region 노드 537개(레벨3·비활성 포함)를 후보로 계산됐다. 여기 재계산본은 같은 레벨의 활성 지자체만 후보로 두므로 stored_agreement 가 낮아도 불일치가 아니라 후보집합 차이다.",
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.478883,
+      "stored_rank": 2,
+      "region_id": "51830",
+      "sig_cd": "51830",
+      "name": "강원특별자치도 양양군",
+      "level": 2
+     },
+     {
+      "rank": 2,
+      "cosine": 0.477975,
+      "stored_rank": 3,
+      "region_id": "12720",
+      "sig_cd": "12720",
+      "name": "전남광주통합특별시 곡성군",
+      "level": 2
+     },
+     {
+      "rank": 3,
+      "cosine": 0.475424,
+      "stored_rank": 4,
+      "region_id": "12300",
+      "sig_cd": "12300",
+      "name": "전남광주통합특별시 북구",
+      "level": 2
+     },
+     {
+      "rank": 4,
+      "cosine": 0.474719,
+      "stored_rank": 5,
+      "region_id": "43720",
+      "sig_cd": "43720",
+      "name": "충청북도 보은군",
+      "level": 2
+     },
+     {
+      "rank": 5,
+      "cosine": 0.46414,
+      "stored_rank": 6,
+      "region_id": "31710",
+      "sig_cd": "31710",
+      "name": "울산광역시 울주군",
+      "level": 2
+     },
+     {
+      "rank": 6,
+      "cosine": 0.456474,
+      "stored_rank": 7,
+      "region_id": "41410",
+      "sig_cd": "41410",
+      "name": "경기도 군포시",
+      "level": 2
+     },
+     {
+      "rank": 7,
+      "cosine": 0.455175,
+      "stored_rank": 8,
+      "region_id": "51800",
+      "sig_cd": "51800",
+      "name": "강원특별자치도 양구군",
+      "level": 2
+     },
+     {
+      "rank": 8,
+      "cosine": 0.453495,
+      "stored_rank": 9,
+      "region_id": "41370",
+      "sig_cd": "41370",
+      "name": "경기도 오산시",
+      "level": 2
+     },
+     {
+      "rank": 9,
+      "cosine": 0.45079,
+      "stored_rank": 10,
+      "region_id": "12810",
+      "sig_cd": "12810",
+      "name": "전남광주통합특별시 무안군",
+      "level": 2
+     },
+     {
+      "rank": 10,
+      "cosine": 0.444877,
+      "stored_rank": null,
+      "region_id": "48730",
+      "sig_cd": "48730",
+      "name": "경상남도 함안군",
+      "level": 2
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 9,
+    "stored_agreement": 0.9
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 227,
+    "stored_note": "neural_similarity 저장본은 전체 Region 노드 537개(레벨3·비활성 포함)를 후보로 계산됐다. 여기 재계산본은 같은 레벨의 활성 지자체만 후보로 두므로 stored_agreement 가 낮아도 불일치가 아니라 후보집합 차이다.",
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.498909,
+      "stored_rank": null,
+      "region_id": "47170",
+      "sig_cd": "47170",
+      "name": "경상북도 안동시",
+      "level": 2
+     },
+     {
+      "rank": 2,
+      "cosine": 0.493561,
+      "stored_rank": null,
+      "region_id": "47280",
+      "sig_cd": "47280",
+      "name": "경상북도 문경시",
+      "level": 2
+     },
+     {
+      "rank": 3,
+      "cosine": 0.4806,
+      "stored_rank": null,
+      "region_id": "47730",
+      "sig_cd": "47730",
+      "name": "경상북도 의성군",
+      "level": 2
+     },
+     {
+      "rank": 4,
+      "cosine": 0.476581,
+      "stored_rank": null,
+      "region_id": "47250",
+      "sig_cd": "47250",
+      "name": "경상북도 상주시",
+      "level": 2
+     },
+     {
+      "rank": 5,
+      "cosine": 0.465397,
+      "stored_rank": null,
+      "region_id": "43800",
+      "sig_cd": "43800",
+      "name": "충청북도 단양군",
+      "level": 2
+     },
+     {
+      "rank": 6,
+      "cosine": 0.424501,
+      "stored_rank": null,
+      "region_id": "47210",
+      "sig_cd": "47210",
+      "name": "경상북도 영주시",
+      "level": 2
+     },
+     {
+      "rank": 7,
+      "cosine": 0.413402,
+      "stored_rank": null,
+      "region_id": "47230",
+      "sig_cd": "47230",
+      "name": "경상북도 영천시",
+      "level": 2
+     },
+     {
+      "rank": 8,
+      "cosine": 0.401184,
+      "stored_rank": null,
+      "region_id": "28710",
+      "sig_cd": "28710",
+      "name": "인천광역시 강화군",
+      "level": 2
+     },
+     {
+      "rank": 9,
+      "cosine": 0.395032,
+      "stored_rank": null,
+      "region_id": "51750",
+      "sig_cd": "51750",
+      "name": "강원특별자치도 영월군",
+      "level": 2
+     },
+     {
+      "rank": 10,
+      "cosine": 0.393529,
+      "stored_rank": null,
+      "region_id": "44130",
+      "sig_cd": "44130",
+      "name": "충청남도 천안시",
+      "level": 2
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 0,
+    "stored_agreement": 0.0
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 2,
+    "jaccard": 0.1111,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "region:47280",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.597442,
+    "best_rank": 2,
+    "region_id": "47280",
+    "sig_cd": "47280",
+    "name": "문경시",
+    "full_name": "경상북도 문경시",
+    "level": 2
+   },
+   {
+    "node_id": "region:51750",
+    "models": [
+     "graphsage-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.555497,
+    "best_rank": 4,
+    "region_id": "51750",
+    "sig_cd": "51750",
+    "name": "영월군",
+    "full_name": "강원특별자치도 영월군",
+    "level": 2
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "candidate_restriction": "같은 level(2) · status=active · has_legislation=1 지자체로 제한",
+   "note": "지역특성(analytics.peers)의 유사지자체와는 다른 축이다. 이쪽은 그래프 구조(조례·예산·인접·분류 연결)를 학습한 임베딩이다."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

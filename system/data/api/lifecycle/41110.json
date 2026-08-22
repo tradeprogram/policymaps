@@ -1,0 +1,742 @@
+{
+ "data": {
+  "region": {
+   "region_id": "41110",
+   "sig_cd": "41110",
+   "name": "수원시",
+   "full_name": "경기도 수원시",
+   "level": 2
+  },
+  "counts": {
+   "total": 1119,
+   "active": 867,
+   "repealed": 252,
+   "by_rr_cls_cd": {
+    "일부개정": 619,
+    "전부개정": 30,
+    "제정": 218,
+    "폐지": 252
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1984,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 4
+   },
+   {
+    "year": 2000,
+    "n": 2
+   },
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 4
+   },
+   {
+    "year": 2004,
+    "n": 8
+   },
+   {
+    "year": 2005,
+    "n": 11
+   },
+   {
+    "year": 2006,
+    "n": 22
+   },
+   {
+    "year": 2007,
+    "n": 10
+   },
+   {
+    "year": 2008,
+    "n": 18
+   },
+   {
+    "year": 2009,
+    "n": 32
+   },
+   {
+    "year": 2010,
+    "n": 10
+   },
+   {
+    "year": 2011,
+    "n": 15
+   },
+   {
+    "year": 2012,
+    "n": 12
+   },
+   {
+    "year": 2013,
+    "n": 12
+   },
+   {
+    "year": 2014,
+    "n": 12
+   },
+   {
+    "year": 2015,
+    "n": 23
+   },
+   {
+    "year": 2016,
+    "n": 22
+   },
+   {
+    "year": 2017,
+    "n": 35
+   },
+   {
+    "year": 2018,
+    "n": 24
+   },
+   {
+    "year": 2019,
+    "n": 40
+   },
+   {
+    "year": 2020,
+    "n": 45
+   },
+   {
+    "year": 2021,
+    "n": 103
+   },
+   {
+    "year": 2022,
+    "n": 55
+   },
+   {
+    "year": 2023,
+    "n": 181
+   },
+   {
+    "year": 2024,
+    "n": 112
+   },
+   {
+    "year": 2025,
+    "n": 158
+   },
+   {
+    "year": 2026,
+    "n": 147
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2000,
+    "n": 2
+   },
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 4
+   },
+   {
+    "year": 2004,
+    "n": 8
+   },
+   {
+    "year": 2005,
+    "n": 11
+   },
+   {
+    "year": 2006,
+    "n": 22
+   },
+   {
+    "year": 2007,
+    "n": 10
+   },
+   {
+    "year": 2008,
+    "n": 18
+   },
+   {
+    "year": 2009,
+    "n": 31
+   },
+   {
+    "year": 2010,
+    "n": 9
+   },
+   {
+    "year": 2011,
+    "n": 13
+   },
+   {
+    "year": 2012,
+    "n": 8
+   },
+   {
+    "year": 2013,
+    "n": 5
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 11
+   },
+   {
+    "year": 2016,
+    "n": 8
+   },
+   {
+    "year": 2017,
+    "n": 11
+   },
+   {
+    "year": 2018,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 10
+   },
+   {
+    "year": 2020,
+    "n": 16
+   },
+   {
+    "year": 2021,
+    "n": 9
+   },
+   {
+    "year": 2022,
+    "n": 6
+   },
+   {
+    "year": 2023,
+    "n": 13
+   },
+   {
+    "year": 2024,
+    "n": 10
+   },
+   {
+    "year": 2025,
+    "n": 4
+   },
+   {
+    "year": 2026,
+    "n": 3
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여 업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직·운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금 지급 규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로 무단점용자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로 무단점용자에 대한 과태료 부과·징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반 사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2142721",
+    "name": "수원시 수원화성문화제 추진위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-07-03",
+    "repealed_on": "2026-07-03",
+    "repealed_on_raw": "20260703",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142721&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2112477",
+    "name": "수원시 교통안전정책심의위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-26",
+    "repealed_on": "2026-02-26",
+    "repealed_on_raw": "20260226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2112477&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2112453",
+    "name": "수원시 주택용 소방시설 설치 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-26",
+    "repealed_on": "2026-02-26",
+    "repealed_on_raw": "20260226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2112453&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2073441",
+    "name": "수원시 1회용품 줄이기 활성화 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-30",
+    "repealed_on": "2025-09-30",
+    "repealed_on_raw": "20250930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2073441&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2038685",
+    "name": "수원시 재능기부 활성화 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-16",
+    "repealed_on": "2025-05-16",
+    "repealed_on_raw": "20250516",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2038685&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2021579",
+    "name": "수원시 공영자전거 관리 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-11",
+    "repealed_on": "2025-03-11",
+    "repealed_on_raw": "20250311",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2020351",
+    "name": "수원시 공영자전거 관리 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-03-11",
+    "repealed_on": "2025-03-11",
+    "repealed_on_raw": "20250311",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2020351&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1985151",
+    "name": "수원시 공동주택 관리 감사 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-14",
+    "repealed_on": "2024-11-14",
+    "repealed_on_raw": "20241114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1985151&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1967641",
+    "name": "수원시 공공한옥 관리·운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-09-20",
+    "repealed_on": "2024-09-20",
+    "repealed_on_raw": "20240920",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1967641&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1963183",
+    "name": "수원시 시민감사관 구성과 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-08-13",
+    "repealed_on": "2024-08-13",
+    "repealed_on_raw": "20240813",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1963183&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937739",
+    "name": "수원시 공중화장실 등의 불법촬영 예방 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-17",
+    "repealed_on": "2024-05-17",
+    "repealed_on_raw": "20240517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937739&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1930179",
+    "name": "수원시 권선행정타운 배후단지 도시개발사업 시행 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-17",
+    "repealed_on": "2024-05-17",
+    "repealed_on_raw": "20240517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1930179&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1935679",
+    "name": "수원시의회 국제친선협의회 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-17",
+    "repealed_on": "2024-05-17",
+    "repealed_on_raw": "20240517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1935679&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1930113",
+    "name": "수원시 권선행정타운 배후단지 도시개발사업 시행 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-05-17",
+    "repealed_on": "2024-05-17",
+    "repealed_on_raw": "20240517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1930113&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1913293",
+    "name": "수원시 장기요양기관 공표심의위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-18",
+    "repealed_on": "2024-03-18",
+    "repealed_on_raw": "20240318",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1913293&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1913277",
+    "name": "수원시 조례 입법평가 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-18",
+    "repealed_on": "2024-03-18",
+    "repealed_on_raw": "20240318",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1913277&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1894109",
+    "name": "수원시 컨벤션센터 등 복합시설 건립사업 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1894109&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1874675",
+    "name": "수원시 1회용품 사용규제 위반 사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-16",
+    "repealed_on": "2023-11-16",
+    "repealed_on_raw": "20231116",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1874675&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1872219",
+    "name": "수원시 남북교류협력에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1872219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1848215",
+    "name": "수원시 택시산업 발전 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-08-17",
+    "repealed_on": "2023-10-19",
+    "repealed_on_raw": "20231019",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1848215&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1856821",
+    "name": "수원시 인문학도시 조성 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2023-09-27",
+    "repealed_on_raw": "20230927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1856821&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1792193",
+    "name": "수원시 남북교류협력에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-23",
+    "repealed_on": "2023-08-01",
+    "repealed_on_raw": "20230801",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1792193&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1835339",
+    "name": "수원시 대학생 학자금 대출이자 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-12",
+    "repealed_on": "2023-07-12",
+    "repealed_on_raw": "20230712",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1835339&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1835119",
+    "name": "수원시 청춘도시 수원 미래기획단 설립 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-12",
+    "repealed_on": "2023-07-12",
+    "repealed_on_raw": "20230712",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1835119&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1938353",
+    "name": "수원시 기술자문위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-23",
+    "repealed_on": "2023-04-27",
+    "repealed_on_raw": "20230427",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1938353&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1803105",
+    "name": "수원시 기후변화 대책 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-20",
+    "repealed_on": "2023-04-20",
+    "repealed_on_raw": "20230420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1803105&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1803103",
+    "name": "수원시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-20",
+    "repealed_on": "2023-04-20",
+    "repealed_on_raw": "20230420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1803103&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1803091",
+    "name": "수원시 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-20",
+    "repealed_on": "2023-04-20",
+    "repealed_on_raw": "20230420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1803091&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1792203",
+    "name": "수원시 마을교육공동체 활성화 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-23",
+    "repealed_on": "2023-03-23",
+    "repealed_on_raw": "20230323",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1792203&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1782129",
+    "name": "수원시 지역정보화 촉진 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-02-06",
+    "repealed_on": "2023-02-06",
+    "repealed_on_raw": "20230206",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1782129&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1768457",
+    "name": "수원시 마을만들기 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1768457&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1711597",
+    "name": "수원시 물관리대책위원회 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-06-15",
+    "repealed_on": "2022-06-15",
+    "repealed_on_raw": "20220615",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1711597&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1689357",
+    "name": "수원시 물가안정에 관한 사무처리 및 과태료 부과 징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-03-10",
+    "repealed_on": "2022-03-10",
+    "repealed_on_raw": "20220310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1689357&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1659989",
+    "name": "수원시 의회사무국 직원 추천 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1659989&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1659967",
+    "name": "수원시 조례 제정 및 개정·폐지 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1659967&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1674995",
+    "name": "수원시 주민자치회 시범실시 및 설치·운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-01-12",
+    "repealed_on": "2022-01-12",
+    "repealed_on_raw": "20220112",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1674995&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1660011",
+    "name": "수원시 주민자치회 시범실시 및 설치·운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2021-12-31",
+    "repealed_on_raw": "20211231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1660011&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1639893",
+    "name": "수원시 지방공무원 임용후보자 장학 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-11-11",
+    "repealed_on": "2021-11-11",
+    "repealed_on_raw": "20211111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1639893&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1611685",
+    "name": "수원시 청소년위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-08",
+    "repealed_on": "2021-07-08",
+    "repealed_on_raw": "20210708",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1611685&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1611687",
+    "name": "수원시 청소년지도위원의 위촉에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-08",
+    "repealed_on": "2021-07-08",
+    "repealed_on_raw": "20210708",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1611687&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "41110"
+ ]
+}

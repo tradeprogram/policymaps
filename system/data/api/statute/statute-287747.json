@@ -1,0 +1,667 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:287747",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "지방공무원 평정규칙",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20260630",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=287747&type=HTML&mobileYn=&efYd=20260630",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 421,
+   "child_ordinances": 230,
+   "by_verification_status": {
+    "article-missing": 128,
+    "article-verified": 265,
+    "unverifiable": 28
+   },
+   "by_delegation_type": {
+    "law-delegated": 421
+   },
+   "regions_top": [
+    {
+     "region_id": "41460",
+     "name": "경기도 용인시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47760",
+     "name": "경상북도 영양군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "41250",
+     "name": "경기도 동두천시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "31140",
+     "name": "울산광역시 남구",
+     "ordinances": 3
+    },
+    {
+     "region_id": "31110",
+     "name": "울산광역시 중구",
+     "ordinances": 3
+    },
+    {
+     "region_id": "31",
+     "name": "울산광역시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 3
+    },
+    {
+     "region_id": "12",
+     "name": "전남광주통합특별시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "52750",
+     "name": "전북특별자치도 임실군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "52190",
+     "name": "전북특별자치도 남원시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "51170",
+     "name": "강원특별자치도 동해시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48890",
+     "name": "경상남도 합천군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48820",
+     "name": "경상남도 고성군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "48330",
+     "name": "경상남도 양산시",
+     "ordinances": 2
+    },
+    {
+     "region_id": "47900",
+     "name": "경상북도 예천군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "47830",
+     "name": "경상북도 고령군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "47820",
+     "name": "경상북도 청도군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "47750",
+     "name": "경상북도 청송군",
+     "ordinances": 2
+    },
+    {
+     "region_id": "47730",
+     "name": "경상북도 의성군",
+     "ordinances": 2
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 규칙은 「지방공무원 임용령」 제31조의2부터 제31조의4까지, 제31조의6, 제31조의7 및 제32조와 「지방 연구직 및 지도직공무원의 임용 등에 관한 규정」 제14조, 제15조, 제17조부터 제19조까지의 규정에 따른 근무성적평정ㆍ경력평정 및 승진후보자 명부 작성에 관한 사항을 규정함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "적용 범위",
+    "body": "제2조(적용 범위)\n이 규칙은 지방자치단체의 장과 지방의회의 의장 소속의 지방공무원(이하 \"공무원\"이라 한다)에게 적용한다. <개정 2022.1.4>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "평정 시기",
+    "body": "제3조(평정 시기)\n① 다음 각 호의 어느 하나에 해당하는 공무원에 대한 성과계약 등의 평가는 12월 31일을 기준으로 하여 실시한다.\n1. 4급 이상 공무원\n2. 연구관ㆍ지도관(제2항에 해당하는 연구관 및 지도관은 제외한다)\n3. 「지방공무원 임용령」(이하 \"영\"이라 한다) 제31조의2제2항 단서에 해당하는 5급 이하 ",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": null,
+    "body": "제4조\n삭제 <1999.7.3>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "근무성적의 평정자 및 확인자 등",
+    "body": "제5조(근무성적의 평정자 및 확인자 등)\n① 근무성적평정은 임용권자가 정하는 평정단위별로 근무성적평정자(이하 이 장에서 \"평정자\"라 한다) 및 근무성적평정확인자(이하 이 장에서 \"확인자\"라 한다)가 실시한다.\n② 임용권자는 영 제7조의4제1항제2호에 따라 지정된 민간기업 전담공무원과 영 제27조의5제1항제4호에 따라 인사",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "성과계약의 체결 등",
+    "body": "제6조(성과계약의 체결 등)\n① 임용권자는 매년 2월 말까지 평정대상 공무원에 대하여 다음 각 호의 구분에 따라 성과계약을 체결하거나 성과목표를 설정하도록 하여야 한다. 다만, 제3조제2항에 해당하는 공무원에 대해서는 담당 직무의 특성을 고려하여 성과목표의 설정을 생략하게 할 수 있다.\n1. 제3조제1항에 해당하는 공무원",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "4급 이상 공무원 등의 근무성적평정",
+    "body": "제7조(4급 이상 공무원 등의 근무성적평정)\n제3조제1항에 해당하는 평정대상 공무원의 근무성적평정점은 제6조제2항에 따른 해당 평정 대상기간의 성과목표 달성도 등의 평정점으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "5급 이하 공무원 등의 근무성적평정",
+    "body": "제8조(5급 이하 공무원 등의 근무성적평정)\n① 임용권자는 평정 대상기간 동안의 해당 기관의 임무 등을 기초로 하여 평정대상 공무원이 평정자 및 확인자와 협의하여 별지 제1호서식에 따른 성과목표 등을 설정하고 성과계획서를 작성하도록 하여야 한다. 다만, 평정대상 공무원이 수행하는 업무가 단순ㆍ반복적인 업무로서 성과목표 등",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": "2",
+    "title": "성과면담 등",
+    "body": "제8조의2(성과면담 등)\n① 평정자는 근무성적평정이 공정하고 타당성 있게 실시될 수 있도록 하기 위하여 근무성적평정대상 공무원과 면담을 실시하여야 한다.\n② 평정자는 평가 대상기간 중에 근무성적평정대상 공무원의 성과목표 수행과정을 점검하여야 하며, 그 결과를 성과면담 시 활용하여야 한다.\n③ 성과면담에 대한 세부 운영방법",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0008021"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "근무성적 평정점의 심사ㆍ결정",
+    "body": "제9조(근무성적 평정점의 심사ㆍ결정)\n① 근무성적의 평정자 및 확인자는 제8조에 따른 평정 결과를 종합하여 별지 제3호서식의 평정단위별 서열 명부를 작성하여 영 제31조의4 및 연구ㆍ지도직규정 제17조에 따른 근무성적평정위원회(영 제31조의4제3항 및 연구ㆍ지도직규정 제17조제3항의 경우에는 부기관장을 말한다. 이하 같다",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "근무성적평정 결과 보고 및 재결정 요구",
+    "body": "제10조(근무성적평정 결과 보고 및 재결정 요구)\n① 근무성적평정위원회는 제9조에 따른 평정점 결정 후 10일 이내에 근무성적평정서 및 근무성적평정표를 영 제32조제1항 및 연구ㆍ지도직규정 제14조제1항에 따른 승진후보자 명부 작성권자에게 제출하여야 한다.\n② 승진후보자 명부 작성권자는 제1항에 따라 제출된 평정점 결정 ",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "근무성적평정 결과의 공개 및 이의신청 등",
+    "body": "제11조(근무성적평정 결과의 공개 및 이의신청 등)\n① 평정자 또는 확인자는 제7조 또는 제8조에 따라 근무성적평정을 한 경우에는 근무성적평정 결과를 해당 평정대상 공무원에게 알려주어야 한다. 이 경우 제3조제2항에 따른 평정대상 공무원에게는 종합평정 등급 및 점수, 종합평정 의견과 제9조제1항에 따라 작성한 평정단위별 ",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "2",
+    "title": "근무평정소위원회의 설치ㆍ운영",
+    "body": "제11조의2(근무평정소위원회의 설치ㆍ운영)\n① 임용권자는 제11조에 따른 근무성적평정 결과에 대한 이의신청을 처리하기 위하여 평정단위별로 근무성적평정소위원회를 둔다. 다만, 불가피한 경우에는 근무성적평정소위원회를 두지 아니할 수 있으며, 이 경우 영 제31조의4에 따른 근무성적평정위원회가 그 기능을 수행한다.\n② 근무성적",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0011021"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "경력 및 가산점 평정의 평정자와 확인자",
+    "body": "제12조(경력 및 가산점 평정의 평정자와 확인자)\n경력평정 및 가산점 평정의 평정자는 확인자 소속 기관의 인사담당관으로 하고, 확인자는 평정대상 공무원의 임용권자 또는 임용권자가 지정하는 사람으로 한다. <개정 2022.1.4>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "경력 및 가산점 평정의 서식",
+    "body": "제13조(경력 및 가산점 평정의 서식)\n① 제14조부터 제17조까지의 규정에 따른 경력평정과 제23조, 제24조 및 제25조의2에 따른 가산점 평정은 별지 제5호서식의 경력 및 가산점 평정표에 따라 실시한다.\n② 임용권자는 필요하다고 인정하는 경우에는 제1항에 따른 경력 및 가산점 평정표를 달리 정할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "경력평정의 대상 및 방법",
+    "body": "제14조(경력평정의 대상 및 방법)\n① 경력평정은 제3조에 따른 평정기준일 현재 승진소요 최저연수에 도달한 5급 이하 공무원ㆍ연구사 및 지도사에 대하여 실시한다. <개정 2013.12.12>\n② 경력평정은 해당 공무원의 인사기록카드에 따라 실시한다. 다만, 인사기록카드에 적힌 사항이라도 필요하다고 인정하는 경우에는 그 기",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "특정직 및 별정직 공무원경력 등의 상당계급",
+    "body": "제15조(특정직 및 별정직 공무원경력 등의 상당계급)\n영 별표 3 및 연구ㆍ지도직규정 별표 4에 따른 특정직 또는 별정직 공무원경력의 일반직공무원의 상당계급 및 일반직공무원경력 상호간의 상당계급은 별표 1과 같다. 다만, 별표 1에 규정되지 아니한 특정직공무원경력의 상당계급은 해당 지방자치단체의 규칙(의회규칙을 포함한다.",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "경력의 평정점",
+    "body": "제16조(경력의 평정점)\n① 경력의 총평정점은 30점을 만점으로 한다.\n② 영 제31조의6제2항 및 연구ㆍ지도직규정 제19조제2항에 따른 평정점은 별표 2와 같다.\n③ 지방자치단체의 장과 지방의회의 의장은 경력 평정을 할 때 해당 지방자치단체의 운용 여건을 고려하여 가산점을 부여할 특별한 사유가 있는 직위를 지방자치단체의",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "경력평정기간의 계산",
+    "body": "제17조(경력평정기간의 계산)\n① 영 제31조의6제2항 및 연구ㆍ지도직규정 제19조제2항에 따른 환산경력기간은 경력평정 대상기간의 각 연ㆍ월ㆍ일별로 영 별표 3 및 연구ㆍ지도직규정 별표 4에 따른 환산율을 곱하여 계산하되, 소수점 이하의 일수는 반올림한다.\n② 별표 2에 따른 환산경력개월 수는 제1항에 따른 환산경력기간을",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": null,
+    "body": "제18조\n삭제 <2007.5.2>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": null,
+    "body": "제19조\n삭제 <2007.5.2>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": null,
+    "body": "제20조\n삭제 <2007.5.2>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": null,
+    "body": "제21조\n삭제 <2005.4.14>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": null,
+    "body": "제22조\n삭제 <1996.12.31>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "자격증 등의 가산점",
+    "body": "제23조(자격증 등의 가산점)\n① 임용권자는 5급 이하 공무원ㆍ연구사 및 지도사가 다음 각 호의 어느 하나에 해당하는 자격증 또는 검정시험 합격확인서 등(이하 \"자격증등\"이라 한다)을 소지한 경우에는 영 제32조제2항 및 연구ㆍ지도직규정 제14조제2항에 따라 가산점을 줄 수 있다. <개정 2020.9.10>\n1. 「자격기",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "근무경력 가산점",
+    "body": "제24조(근무경력 가산점)\n① 임용권자는 5급 이하 공무원ㆍ연구사 및 지도사가 해당 계급에서 다음 각 호의 어느 하나에 해당하는 경력(제1호의 경우에는 연구사 및 지도사가 6급 및 7급 공무원으로 해당 지역에서 근무한 경력을 포함한다)이 있는 경우에는 영 제32조제2항 및 연구ㆍ지도직규정 제14조제2항에 따라 1개월마다 ",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": null,
+    "body": "제25조\n삭제 <2007.12.17>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": "2",
+    "title": "실적 가산점",
+    "body": "제25조의2(실적 가산점)\n① 임용권자는 제6조제2항에 따른 목표달성도의 평정점이 일정 기준을 초과하거나 평정 대상기간 중 탁월한 근무실적 또는 공헌이 있는 경우에는 영 제32조제2항 및 연구ㆍ지도직규정 제14조제2항에 따라 실적 가산점을 부여할 수 있다. <개정 2016.5.19, 2020.9.10>\n② 삭제 <2020",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0025021"
+   },
+   {
+    "article_no": "25",
+    "article_branch": "3",
+    "title": "가산점 부여 기준의 공개 등",
+    "body": "제25조의3(가산점 부여 기준의 공개 등)\n① 제23조, 제24조 및 제25조의2에 따른 가산점의 부여 기준ㆍ요건 및 가산점 평정 대상기간 등 가산점 부여에 필요한 사항은 해당 지방자치단체의 규칙으로 정한다. <개정 2023.6.23>\n② 임용권자는 가산점의 부여 기준ㆍ요건 및 가산점 평정 대상 기간 등 가산점 부여에 필",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0025031"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "경력 및 가산점 평정 결과의 제출 및 열람",
+    "body": "제26조(경력 및 가산점 평정 결과의 제출 및 열람)\n① 경력평정 및 가산점 평정의 평정자와 확인자는 제13조에 따른 경력 및 가산점 평정표 부본(副本)을 승진후보자 명부 작성권자에게 제출하여야 한다.\n② 경력평정 및 가산점 평정의 평정자와 확인자는 평정대상 공무원이 요구할 때에는 해당 공무원의 경력 및 가산점 평정표를 ",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "승진후보자 명부의 작성방법",
+    "body": "제27조(승진후보자 명부의 작성방법)\n① 승진후보자 명부(이하 \"명부\"라 한다)는 승진에 필요한 요건을 갖춘 공무원에 대하여 100점을 총평정점의 만점으로 하여 작성하되, 명부의 평정점은 근무성적평정점 70점, 경력평정점 30점을 각각 만점으로 한다. 다만, 제23조, 제24조 및 제25조의2에 따른 가산점 해당자에 대해",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "명부의 작성기준일",
+    "body": "제28조(명부의 작성기준일)\n명부는 1월 31일과 7월 31일을 기준으로 하여 작성한다. 다만, 제3조제3항에 따라 평정 시기를 달리 정할 경우에는 정기평정 기준일 다음 달 말일을 기준으로 명부를 작성하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "명부의 효력",
+    "body": "제29조(명부의 효력)\n명부는 작성기준일 다음 날부터 효력을 갖는다. 다만, 제31조에 따라 명부를 조정하거나 삭제하였을 때에는 그 다음 날부터 효력을 갖는다.",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "동점자의 순위",
+    "body": "제30조(동점자의 순위)\n① 명부의 평정점이 동일한 경우에는 다음 각 호의 순위에 따라 선순위자를 결정한다. <개정 2013.12.12>\n1. 근무성적평정점 및 실적가산점을 합산한 점수가 우수한 사람\n2. 해당 직급에서 장기근무한 사람\n3. 해당 계급에서 장기근무한 사람\n4. 5급 이하 공무원ㆍ연구사 또는 지도사로서 계속",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "명부의 조정 및 삭제",
+    "body": "제31조(명부의 조정 및 삭제)\n① 다음 각 호의 어느 하나에 해당하는 사유가 생겼을 때에는 제28조에도 불구하고 명부를 조정할 수 있으며, 조정한 내용은 해당 조정사유 발생 후에 하는 승진임용에 적용되도록 해야 한다. 다만, 제7호의 경우에는 조정사유 및 조정내역에 대하여 근무성적평정위원회의 사후 확인을 받아야 한다. ",
+    "body_truncated": true,
+    "effective_on": "20260630",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "명부 순위의 공개",
+    "body": "제32조(명부 순위의 공개)\n명부 작성권자는 정기평정에 따라 명부 작성을 완료하였을 때에는 지체 없이 명부에 등재된 공무원에게 전자우편 등을 통하여 본인의 명부 순위를 알려주어야 한다. 수시평정에 따라 명부 작성을 완료한 경우로서 명부에 등재된 공무원이 요구하는 경우에도 또한 같다. <개정 2020.9.10>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": null,
+    "body": "제33조\n삭제 <1999.7.3>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": null,
+    "body": "제34조\n삭제 <1999.7.3>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": null,
+    "body": "제35조\n삭제 <1999.7.3>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0035001"
+   },
+   {
+    "article_no": "36",
+    "article_branch": null,
+    "title": null,
+    "body": "제36조\n삭제 <1999.7.3>",
+    "body_truncated": false,
+    "effective_on": "20260630",
+    "article_key": "0036001"
+   }
+  ],
+  "article_count": 40,
+  "articles_shown": 40,
+  "articles_truncated_bodies": 21,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1181295",
+    "name": "청주시 지방공무원 인사규칙(폐지)",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1181295&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1305279",
+    "name": "울산광역시 행정감사 규칙",
+    "region_id": "31",
+    "org_name": "울산광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1305279&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1318439",
+    "name": "영양군 지방공무원 인사 규칙",
+    "region_id": "47760",
+    "org_name": "경상북도 영양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1318439&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1344629",
+    "name": "과천시 행정서비스헌장 운영 조례",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1344629&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1349671",
+    "name": "구례군 지방공무원 인사 규칙",
+    "region_id": "12730",
+    "org_name": "전남광주통합특별시 구례군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1349671&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1353170",
+    "name": "고흥군 지방공무원 인사 규칙",
+    "region_id": "12740",
+    "org_name": "전남광주통합특별시 고흥군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1353170&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1359402",
+    "name": "청원군 지방공무원 인사규칙",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1359402&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1359981",
+    "name": "용인시 기업유치 촉진 및 지원에 관한 조례 시행규칙",
+    "region_id": "41460",
+    "org_name": "경기도 용인시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1359981&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1362110",
+    "name": "용인시 성과관리 및 평가에 관한 규칙",
+    "region_id": "41460",
+    "org_name": "경기도 용인시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1362110&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1382549",
+    "name": "고양시 행정서비스헌장 운영 조례",
+    "region_id": "41280",
+    "org_name": "경기도 고양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1382549&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396344",
+    "name": "태안군 지방공무원 인사 규칙",
+    "region_id": "44825",
+    "org_name": "충청남도 태안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396344&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1422701",
+    "name": "울산광역시 북구 지방공무원 인사 규칙",
+    "region_id": "31200",
+    "org_name": "울산광역시 북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422701&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1423097",
+    "name": "예산군 행정서비스헌장 제정 및 운영 조례",
+    "region_id": "44810",
+    "org_name": "충청남도 예산군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1423097&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1520101",
+    "name": "울산광역시 울주군 자체감사 규칙",
+    "region_id": "31710",
+    "org_name": "울산광역시 울주군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1520101&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1546341",
+    "name": "울산광역시 중구 자체감사 규칙",
+    "region_id": "31110",
+    "org_name": "울산광역시 중구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1546341&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1576499",
+    "name": "영양군 행정감사 규칙",
+    "region_id": "47760",
+    "org_name": "경상북도 영양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1576499&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1594537",
+    "name": "인천광역시 동구 공무원제안 규칙",
+    "region_id": "28125",
+    "org_name": "인천광역시 제물포구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1594537&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1604757",
+    "name": "옥천군 기업 및 투자 유치 촉진 조례 시행규칙",
+    "region_id": "43730",
+    "org_name": "충청북도 옥천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1604757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1650487",
+    "name": "부산광역시 서구의회 지방공무원 인사 규칙",
+    "region_id": "26140",
+    "org_name": "부산광역시 서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1650487&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1650803",
+    "name": "부산광역시 강서구의회 지방공무원 인사 규칙",
+    "region_id": "26440",
+    "org_name": "부산광역시 강서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1650803&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

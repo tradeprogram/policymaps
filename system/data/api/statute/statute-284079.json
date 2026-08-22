@@ -1,0 +1,739 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:284079",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "박물관 및 미술관 진흥법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20260701",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=284079&type=HTML&mobileYn=&efYd=20260701",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 328,
+   "child_ordinances": 266,
+   "by_verification_status": {
+    "article-missing": 6,
+    "article-verified": 263,
+    "unverifiable": 59
+   },
+   "by_delegation_type": {
+    "law-delegated": 328
+   },
+   "regions_top": [
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 7
+    },
+    {
+     "region_id": "48120",
+     "name": "경상남도 창원시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "27",
+     "name": "대구광역시",
+     "ordinances": 7
+    },
+    {
+     "region_id": "46",
+     "name": "전라남도",
+     "ordinances": 6
+    },
+    {
+     "region_id": "52190",
+     "name": "전북특별자치도 남원시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "51",
+     "name": "강원특별자치도",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48330",
+     "name": "경상남도 양산시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41590",
+     "name": "경기도 화성시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "41280",
+     "name": "경기도 고양시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "31",
+     "name": "울산광역시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "28125",
+     "name": "인천광역시 제물포구",
+     "ordinances": 4
+    },
+    {
+     "region_id": "26",
+     "name": "부산광역시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "12790",
+     "name": "전남광주통합특별시 해남군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "12130",
+     "name": "전남광주통합특별시 여수시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "51230",
+     "name": "강원특별자치도 삼척시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48740",
+     "name": "경상남도 창녕군",
+     "ordinances": 3
+    },
+    {
+     "region_id": "48170",
+     "name": "경상남도 진주시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "47150",
+     "name": "경상북도 김천시",
+     "ordinances": 3
+    },
+    {
+     "region_id": "44270",
+     "name": "충청남도 당진시",
+     "ordinances": 3
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 박물관과 미술관의 설립과 운영에 필요한 사항을 규정하여 박물관과 미술관을 건전하게 육성함으로써 문화ㆍ예술ㆍ학문의 발전과 일반 공중의 문화향유(文化享有) 및 평생교육 증진에 이바지함을 목적으로 한다. <개정 2016.2.3>",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"박물관\"이란 문화ㆍ예술ㆍ학문의 발전과 일반 공중의 문화향유 및 평생교육 증진에 이바지하기 위하여 역사ㆍ고고(考古)ㆍ인류ㆍ민속ㆍ예술ㆍ동물ㆍ식물ㆍ광물ㆍ과학ㆍ기술ㆍ산업 등에 관한 자료를 수집ㆍ관리ㆍ보존ㆍ조사ㆍ연구ㆍ전시ㆍ교육하는 시설을 말한다.\n2. \"미술관\"이란 문화ㆍ예술의 발전과 일반 공중의 문화향유 및",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": "2",
+    "title": "국가 및 지방자치단체의 책무",
+    "body": "제2조의2(국가 및 지방자치단체의 책무)\n① 국가와 지방자치단체는 박물관 및 미술관의 확충, 지역의 핵심 문화시설로서의 지원ㆍ육성, 학예사 양성 등 박물관 및 미술관 진흥을 위한 시책을 강구하여야 한다.\n② 국가와 지방자치단체는 제1항에 따른 책무를 다하기 위하여 이에 수반되는 예산상의 조치를 하도록 노력하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0002021"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "박물관ㆍ미술관의 구분",
+    "body": "제3조(박물관ㆍ미술관의 구분)\n①박물관은 그 설립ㆍ운영 주체에 따라 다음과 같이 구분한다.\n1. 국립 박물관 : 국가가 설립ㆍ운영하는 박물관\n2. 공립 박물관 : 지방자치단체가 설립ㆍ운영하는 박물관\n3. 사립 박물관 : 「민법」, 「상법」, 그 밖의 특별법에 따라 설립된 법인ㆍ단체 또는 개인이 설립ㆍ운영하는 박물관\n4. ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "사업",
+    "body": "제4조(사업)\n①박물관은 다음 각 호의 사업을 수행한다. <개정 2007.7.27, 2016.2.3>\n1. 박물관자료의 수집ㆍ관리ㆍ보존ㆍ전시\n2. 박물관자료에 관한 교육 및 전문적ㆍ학술적인 조사ㆍ연구\n3. 박물관자료의 보존과 전시 등에 관한 기술적인 조사ㆍ연구\n4. 박물관자료에 관한 강연회ㆍ강습회ㆍ영사회(映寫會)ㆍ연구회ㆍ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "적용 범위",
+    "body": "제5조(적용 범위)\n이 법은 자료관, 사료관, 유물관, 전시장, 전시관, 향토관, 교육관, 문서관, 기념관, 보존소, 민속관, 민속촌, 문화관, 예술관, 문화의 집, 야외 전시 공원 및 이와 유사한 명칭과 기능을 갖는 문화시설 중 대통령령으로 정하는 바에 따라 문화체육관광부장관이 인정하는 시설에 대하여도 적용한다. 다만,",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "2",
+    "title": "박물관 및 미술관 진흥 기본계획",
+    "body": "제5조의2(박물관 및 미술관 진흥 기본계획)\n① 문화체육관광부장관은 박물관 및 미술관의 설립을 촉진하고 그 운영을 활성화하기 위하여 박물관 및 미술관 진흥 기본계획(이하 \"기본계획\"이라 한다)을 5년마다 수립ㆍ시행하여야 한다.\n② 기본계획에는 다음 각 호의 사항이 포함되어야 한다.\n1. 박물관 및 미술관의 설립 촉진 및 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0005021"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "3",
+    "title": "박물관 및 미술관 진흥 시행계획 등",
+    "body": "제5조의3(박물관 및 미술관 진흥 시행계획 등)\n① 문화체육관광부장관, 관계 중앙행정기관의 장 및 지방자치단체의 장은 기본계획에 따라 소관 박물관 및 미술관에 대하여 박물관 및 미술관 진흥 시행계획(이하 \"시행계획\"이라 한다)을 수립ㆍ시행하여야 한다.\n② 관계 중앙행정기관의 장과 지방자치단체의 장은 시행계획에 따른 추진실",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0005031"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "4",
+    "title": "실태조사",
+    "body": "제5조의4(실태조사)\n① 문화체육관광부장관은 기본계획 및 시행계획을 효율적으로 수립하기 위하여 박물관 및 미술관 운영 실태에 관한 조사를 실시하고, 그 결과를 기본계획 및 시행계획에 반영하여야 한다.\n② 문화체육관광부장관은 제1항에 따른 실태조사를 위하여 관계 중앙행정기관의 장, 지방자치단체의 장 및 관련 법인ㆍ단체 등에",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0005041"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "박물관ㆍ미술관 학예사",
+    "body": "제6조(박물관ㆍ미술관 학예사)\n①박물관과 미술관은 대통령령으로 정하는 바에 따라 제4조에 따른 박물관ㆍ미술관 사업을 담당하는 박물관ㆍ미술관 학예사(이하 \"학예사\"라 한다)를 둘 수 있다.\n②학예사는 1급 정(正)학예사, 2급 정학예사, 3급 정학예사 및 준(準)학예사로 구분하고, 그 자격제도의 시행 방법과 절차 등에 필요",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "자격취소",
+    "body": "제6조의2(자격취소)\n1. 거짓이나 그 밖의 부정한 방법으로 자격을 취득한 경우\n2. 제6조제3항에 따라 발급받은 자격증을 다른 사람에게 대여한 경우",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "운영 위원회",
+    "body": "제7조(운영 위원회)\n①제16조에 따라 등록한 국ㆍ공립의 박물관과 미술관(각 지방 분관을 포함한다)은 전문성 제고와 공공 시설물로서의 효율적 운영 및 경영 합리화를 위하여 그 박물관이나 미술관에 운영 위원회를 둔다.\n②운영 위원회의 구성과 운영에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "재산의 기부 등",
+    "body": "제8조(재산의 기부 등)\n①「민법」, 「상법」, 그 밖의 특별법에 따라 설립된 법인ㆍ단체 및 개인은 박물관이나 미술관 시설의 설치, 박물관자료 또는 미술관자료의 확충 등 박물관이나 미술관의 설립ㆍ운영을 지원하기 위하여 금전이나 부동산, 박물관 또는 미술관 소장품으로서 가치가 있는 재산(이하 \"기증품\"이라 한다)을 박물관이",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": null,
+    "body": "제9조\n삭제 <2023.6.20>",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "2",
+    "title": "박물관 및 미술관 자료수집 등의 원칙",
+    "body": "제9조의2(박물관 및 미술관 자료수집 등의 원칙)\n① 박물관과 미술관은 박물관ㆍ미술관 자료의 목록 및 자료의 취득ㆍ변경ㆍ활용 등에 관한 사항을 성실히 기록하고 이를 지속적으로 관리하여야 한다.\n② 박물관과 미술관은 소장품의 보존 및 관리를 위하여 적정한 전문인력, 수장(收藏) 및 전시 환경을 마련하여야 한다.\n③ 제1항에",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0009021"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "3",
+    "title": "박물관 또는 미술관의 장애인 편의성 보장 등",
+    "body": "제9조의3(박물관 또는 미술관의 장애인 편의성 보장 등)\n① 박물관 또는 미술관을 설립ㆍ운영하는 자는 장애인이 박물관 또는 미술관을 자유롭게 이용할 수 있도록 장애 유형 및 정도, 성별 등의 특성에 따른 적절한 편의를 제공하기 위하여 노력하여야 한다. 이 경우 박물관 또는 미술관에 장애인 관련 업무를 전담하는 인력을 둘 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0009031"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "4",
+    "title": "안전관리매뉴얼 마련ㆍ활용 등",
+    "body": "제9조의4(안전관리매뉴얼 마련ㆍ활용 등)\n① 문화체육관광부장관은 대통령령으로 정하는 일정 규모 이상의 박물관 및 미술관에 대하여 관람객의 안전과 박물관ㆍ미술관 자료의 보존ㆍ관리 등에 필요한 매뉴얼(이하 \"안전관리매뉴얼\"이라 한다)을 마련하고, 이를 박물관 및 미술관을 운영하는 자가 활용할 수 있도록 하여야 한다.\n② 제1",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0009041"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "설립과 운영",
+    "body": "제10조(설립과 운영)\n①국가를 대표하는 박물관과 미술관으로 문화체육관광부장관 소속으로 국립중앙박물관과 국립현대미술관을 둔다. <개정 2008.2.29>\n②민속자료의 수집ㆍ보존ㆍ전시와 이의 체계적인 조사ㆍ연구를 위하여 문화체육관광부장관 소속으로 국립민속박물관을 둔다. <개정 2008.2.29>\n③국립중앙박물관은 제4조제1",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "설립 협의",
+    "body": "제11조(설립 협의)\n①중앙행정기관의 장은 소관 업무와 관련하여 국립 박물관이나 국립 미술관을 설립하려면 미리 문화체육관광부장관과 협의하여야 한다. <개정 2008.2.29, 2025.1.31>\n②제1항의 협의에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": "2",
+    "title": "국립 박물관ㆍ미술관의 설립타당성 사전평가",
+    "body": "제11조의2(국립 박물관ㆍ미술관의 설립타당성 사전평가)\n① 제11조에 따른 설립 협의를 마친 중앙행정기관의 장은 제3조제1항제1호 및 같은 조 제2항에 따른 국립 박물관ㆍ미술관의 설립ㆍ운영 계획을 수립하여 문화체육관광부장관에게 설립타당성에 관한 사전평가를 받아야 한다.\n② 제1항에 따른 사전평가의 절차, 방법 등에 필요한",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0011021"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "설립과 운영",
+    "body": "제12조(설립과 운영)\n①지방자치단체는 지역사회의 박물관자료 및 미술관자료의 구입ㆍ관리ㆍ보존ㆍ전시 및 지역 문화 발전과 지역 주민의 문화향유권 증진을 위하여 대통령령으로 정하는 절차와 기준에 따라 박물관과 미술관을 설립할 수 있다.\n②제1항에 따른 박물관과 미술관 운영에 필요한 사항은 지방자치단체의 조례로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "2",
+    "title": "설립 협의",
+    "body": "제12조의2(설립 협의)\n① 지방자치단체의 장은 제12조제1항에 따라 제3조제1항제2호 및 같은 조 제2항에 따른 공립 박물관ㆍ미술관을 설립하려면 미리 문화체육관광부장관과 협의하여야 한다.\n② 제1항의 협의에 필요한 사항은 대통령령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0012021"
+   },
+   {
+    "article_no": "12",
+    "article_branch": "3",
+    "title": "공립 박물관ㆍ미술관의 설립타당성 사전검토 및 사전평가",
+    "body": "제12조의3(공립 박물관ㆍ미술관의 설립타당성 사전검토 및 사전평가)\n① 제12조의2에 따른 설립 협의를 마친 특별시장ㆍ통합특별시장ㆍ광역시장ㆍ특별자치시장ㆍ도지사ㆍ특별자치도지사(이하 \"시ㆍ도지사\"라 한다)는 제3조제1항제2호 및 같은 조 제2항에 따른 공립 박물관ㆍ미술관의 설립ㆍ운영 계획을 수립하여 자체적으로 설립타당성에 관",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0012031"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "설립과 육성",
+    "body": "제13조(설립과 육성)\n①법인ㆍ단체 또는 개인은 박물관과 미술관을 설립할 수 있다. <개정 2007.7.27>\n②국가나 지방자치단체는 제1항에 따른 박물관 및 미술관의 설립을 돕고, 문화유산의 보존ㆍ계승 및 창달(暢達)과 문화 향유를 증진하는 문화 기반 시설로서 지원ㆍ육성하여야 한다.\n③사립 박물관과 사립 미술관은 제1조",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "설립과 운영",
+    "body": "제14조(설립과 운영)\n①「고등교육법」에 따라 설립된 학교나 다른 법률에 따라 설립된 대학 교육과정의 교육기관은 교육 지원 시설로 대학 박물관과 대학 미술관을 설립할 수 있다.\n②대학 박물관과 대학 미술관은 대학의 중요한 교육 지원 시설로 평가되어야 한다.\n③대학 박물관과 대학 미술관은 박물관자료나 미술관자료를 효율적으로",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "업무",
+    "body": "제15조(업무)\n1. 교수와 학생의 연구와 교육 활동에 필요한 박물관자료나 미술관자료의 수집ㆍ정리ㆍ관리ㆍ보존 및 전시\n2. 박물관자료나 미술관자료의 학술적인 조사ㆍ연구\n3. 교육과정에 대한 효율적 지원\n4. 지역 문화 활동과 사회 문화 교육에 대한 지원\n5. 국ㆍ공립 박물관 및 미술관, 다른 박물관 및 미술관과의 교류ㆍ협",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "등록 등",
+    "body": "제16조(등록 등)\n①박물관과 미술관을 설립ㆍ운영하려는 자는 그 설립 목적을 달성하기 위하여 필요한 학예사와 박물관자료 또는 미술관자료 및 시설을 갖추어 대통령령으로 정하는 바에 따라 국립 박물관 및 미술관은 문화체육관광부장관에게, 공립 박물관 및 미술관은 시ㆍ도지사 또는 「지방자치법」 제198조제1항에 따른 인구 50만",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "등록증과 등록 표시",
+    "body": "제17조(등록증과 등록 표시)\n① 문화체육관광부장관, 시ㆍ도지사 또는 대도시 시장은 제16조제3항에 따른 등록심의 결과가 결정된 때에는 박물관 또는 미술관 등록원부에 필요한 사항을 기재하고, 신청인에게 문화체육관광부령으로 정하는 바에 따라 박물관 등록증 또는 미술관 등록증(이하 \"등록증\"이라 한다)을 발급하여야 한다. <",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "2",
+    "title": "변경등록",
+    "body": "제17조의2(변경등록)\n① 등록 박물관ㆍ미술관은 등록 사항에 변경이 발생하면 대통령령으로 정하는 바에 따라 문화체육관광부장관, 시ㆍ도지사 또는 대도시 시장에게 지체 없이 변경 등록을 신청하여야 한다. <개정 2020.2.18>\n② 제1항에 따른 변경 등록의 허용 범위 및 절차 등에 필요한 사항은 대통령령으로 정한다.\n③ ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0017021"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "3",
+    "title": "등록 사실의 통지",
+    "body": "제17조의3(등록 사실의 통지)\n시ㆍ도지사 또는 대도시 시장은 신규로 등록하거나 변경 등록한 박물관이나 미술관이 발생하였을 경우에 매 반기별로 그 등록 또는 변경 등록 사실을 문화체육관광부장관에게 통지하여야 한다. <개정 2020.2.18>",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0017031"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "사립 박물관ㆍ사립 미술관의 설립 계획 승인 등",
+    "body": "제18조(사립 박물관ㆍ사립 미술관의 설립 계획 승인 등)\n①시ㆍ도지사 또는 대도시 시장은 사립 박물관 또는 사립 미술관을 설립하려는 자가 신청하면 대통령령으로 정하는 바에 따라 박물관이나 미술관의 설립 계획을 승인할 수 있다. <개정 2020.2.18>\n②제1항에 따라 설립 계획의 승인을 받은 자가 그 설립 계획 중 대통",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "유휴 공간 활용",
+    "body": "제19조(유휴 공간 활용)\n①지방자치단체의 장은 그 소유의 유휴 부동산 또는 건물을 「공유재산 및 물품 관리법」으로 정하는 바에 따라 박물관, 미술관 또는 문화의 집 등 지역 문화 공간으로 용도 변경하여 활용할 수 있다. <개정 2016.5.29>\n②지방자치단체의 장은 박물관, 미술관 또는 문화의 집 등을 설립ㆍ운영하려는",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "다른 법률과의 관계",
+    "body": "제20조(다른 법률과의 관계)\n①시ㆍ도지사 또는 대도시 시장이 제18조제1항과 제2항에 따라 사립 박물관 또는 사립 미술관 설립 계획을 승인하거나 변경 승인하는 경우 같은 조 제3항에 따라 다음 각 호의 어느 하나에 해당하는 사항에 관하여 소관 행정기관의 장과 협의를 한 때에는 그에 해당하는 허가ㆍ인가ㆍ지정을 받거나 신고",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "개관",
+    "body": "제21조(개관)\n제16조제1항에 따라 등록한 박물관 또는 미술관은 연간 문화체육관광부령으로 정한 일수 이상 일반 공중이 이용할 수 있도록 개방하여야 한다. <개정 2008.2.29>",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "폐관 신고",
+    "body": "제22조(폐관 신고)\n①등록한 박물관이나 미술관을 운영하는 자가 박물관이나 미술관을 폐관하려면 박물관 또는 미술관의 시설 및 자료의 처리계획을 첨부하여 대통령령으로 정하는 바에 따라 문화체육관광부장관, 시ㆍ도지사 또는 대도시 시장에게 신고하여야 한다. <개정 2009.3.5, 2017.11.28, 2020.2.18>\n② ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "자료의 양여 등",
+    "body": "제23조(자료의 양여 등)\n①박물관이나 미술관은 상호간에 박물관자료나 미술관자료를 교환ㆍ양여(讓與) 또는 대여하거나 그 자료의 보관을 위탁할 수 있다.\n②국가나 지방자치단체는 박물관자료나 미술관자료로 활용할 수 있는 자료를 「국유재산법」, 「지방재정법」 또는 「물품관리법」에 따라 박물관이나 미술관에 무상이나 유상으로 양여",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "경비 보조 등",
+    "body": "제24조(경비 보조 등)\n①국가나 지방자치단체는 제18조제1항에 따라 사립 박물관이나 사립 미술관 설립 계획의 승인을 받은 자에게는 설립에 필요한 경비를, 등록한 박물관이나 미술관에 대하여는 운영에 필요한 경비를 예산의 범위에서 각각 보조할 수 있다.\n②정부는 국영 수송 기관에 의한 박물관자료나 미술관자료의 수송에 관하여",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "관람료와 이용료",
+    "body": "제25조(관람료와 이용료)\n①박물관이나 미술관은 관람료, 그 밖에 박물관자료나 미술관자료의 이용에 대한 대가를 받을 수 있다.\n②공립 박물관이나 공립 미술관의 관람료, 그 밖에 박물관자료나 미술관자료의 이용에 대한 대가는 지방자치단체의 조례로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "박물관 및 미술관의 평가인증",
+    "body": "제26조(박물관 및 미술관의 평가인증)\n① 문화체육관광부장관은 박물관 및 미술관의 운영의 질적 수준을 향상시키기 위하여 제16조에 따라 등록한 후 3년이 지난 국ㆍ공립 박물관 및 미술관에 대하여 평가를 실시하여야 한다.\n② 문화체육관광부장관은 제1항에 따른 평가결과를 대통령령으로 정하는 바에 따라 공표하고, 관계 행정기관",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "인증 박물관ㆍ미술관의 평가인증 취소",
+    "body": "제27조(인증 박물관ㆍ미술관의 평가인증 취소)\n① 문화체육관광부장관은 제26조제3항에 따른 인증 박물관ㆍ미술관이 다음 각 호의 어느 하나에 해당하는 경우에는 인증을 취소할 수 있다.\n1. 거짓이나 부정한 방법으로 평가인증을 받은 경우\n2. 제29조제1항에 따른 등록취소 및 제22조에 따른 폐관 신고를 받은 경우\n3. 그 ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "시정 요구와 정관",
+    "body": "제28조(시정 요구와 정관)\n①문화체육관광부장관, 시ㆍ도지사 또는 대도시 시장은 박물관이나 미술관이 그 시설과 관리ㆍ운영에 관하여 이 법이나 설립 목적을 위반하면 시정할 것을 요구할 수 있다. <개정 2009.3.5, 2020.2.18>\n②제1항에 따른 시정 요구를 받은 박물관이나 미술관은 정당한 사유가 없으면 이에 따라",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "등록취소",
+    "body": "제29조(등록취소)\n①문화체육관광부장관, 시ㆍ도지사 또는 대도시 시장은 등록한 박물관이나 미술관이 다음 각 호의 어느 하나에 해당하면 그 등록을 취소할 수 있다. 다만, 천재지변이나 그 밖의 부득이한 사유로 제3호에 해당하게 된 경우 6개월 이내에 그 사유가 해소된 때에는 그러하지 아니하다. <개정 2009.3.5, 20",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "보고",
+    "body": "제30조(보고)\n①제16조에 따라 등록한 국립 박물관과 미술관의 장, 시ㆍ도지사 또는 대도시 시장은 매년 대통령령으로 정하는 바에 따라 해당 국립 박물관과 미술관 또는 관할 등록 박물관과 미술관의 관리ㆍ운영, 관람료와 이용료, 지도ㆍ감독 현황 등의 운영 현황을 다음 해 1월 20일까지 문화체육관광부장관에게 보고하여야 한다",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "청문",
+    "body": "제31조(청문)\n1. 제6조의2에 따른 자격취소\n2. 제18조제4항에 따른 설립 계획의 승인취소\n3. 제28조제3항에 따른 정관명령\n4. 제29조제1항에 따른 등록취소",
+    "body_truncated": false,
+    "effective_on": "20260701",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "중요 사항의 자문",
+    "body": "제32조(중요 사항의 자문)\n①문화체육관광부장관은 다음 각 호의 사항에 관하여 필요한 경우 「문화유산의 보존 및 활용에 관한 법률」 제8조에 따라 설치된 문화유산위원회에 자문을 할 수 있다. <개정 2008.2.29, 2013.12.30, 2023.6.20, 2023.8.8>\n1. 기본계획의 수립에 관한 사항\n2. 제11",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "박물관ㆍ미술관 협력망",
+    "body": "제33조(박물관ㆍ미술관 협력망)\n①문화체육관광부장관은 박물관 또는 미술관에 관한 자료의 효율적인 유통ㆍ관리 및 이용과 각종 박물관 또는 미술관의 상호 협력을 도모하기 위한 협력 체제로서 다음 각 호의 기능을 수행하는 박물관ㆍ미술관 협력망(이하 \"협력망\"이라 한다)을 구성한다. <개정 2008.2.29>\n1. 전산 정보 체",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "협회",
+    "body": "제34조(협회)\n①문화체육관광부장관은 박물관 또는 미술관에 관한 정보 자료의 교환과 업무협조, 박물관이나 미술관의 관리ㆍ운영 등에 관한 연구, 외국의 박물관이나 미술관과의 교류, 그 밖에 박물관이나 미술관 종사자의 자질 향상을 위하여 필요한 경우 박물관 협회 또는 미술관 협회(이하 \"협회\"라 한다)의 법인 설립을 각각 허",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "국립박물관문화재단의 설립",
+    "body": "제35조(국립박물관문화재단의 설립)\n① 정부는 문화유산의 보존ㆍ계승 및 이용촉진과 국민의 문화향유 증진을 위하여 국립박물관문화재단(이하 \"문화재단\"이라 한다)을 설립한다.\n② 문화재단은 법인으로 한다.\n③ 문화재단에는 정관으로 정하는 바에 따라 임원과 필요한 직원을 둔다.\n④ 문화재단은 다음 각 호의 사업을 한다.\n1. ",
+    "body_truncated": true,
+    "effective_on": "20260701",
+    "article_key": "0035001"
+   }
+  ],
+  "article_count": 48,
+  "articles_shown": 48,
+  "articles_truncated_bodies": 36,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1171098",
+    "name": "당진군 기지시줄다리기박물관 관리 및 운영조례",
+    "region_id": "44270",
+    "org_name": "충청남도 당진시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1171098&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1206276",
+    "name": "목포시 노적봉예술공원 미술관 관리 및 운영조례",
+    "region_id": "12110",
+    "org_name": "전남광주통합특별시 목포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1206276&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1285182",
+    "name": "울산광역시 문화예술진흥에 관한 조례 시행규칙",
+    "region_id": "31",
+    "org_name": "울산광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1285182&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1294387",
+    "name": "대전시립박물관 조례 시행규칙",
+    "region_id": "30",
+    "org_name": "대전광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1294387&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1298681",
+    "name": "한밭교육박물관 운영조례",
+    "region_id": "edu:30",
+    "org_name": "대전광역시교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1298681&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1304077",
+    "name": "대구광역시 수성구 사립 박물관 및 미술관 진흥 조례",
+    "region_id": "27260",
+    "org_name": "대구광역시 수성구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1304077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1314083",
+    "name": "제주교육박물관 운영 조례",
+    "region_id": "edu:50",
+    "org_name": "제주특별자치도교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1314083&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1364138",
+    "name": "구례군 한국압화박물관 관리 운영 조례 시행규칙",
+    "region_id": "12730",
+    "org_name": "전남광주통합특별시 구례군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1364138&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1365085",
+    "name": "밀양시 화재예방 전기시설 설치 지원에 관한 조례",
+    "region_id": "48270",
+    "org_name": "경상남도 밀양시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365085&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1374531",
+    "name": "아산시 산림교육 및 유아 숲 체험 활성화에 관한 조례",
+    "region_id": "44200",
+    "org_name": "충청남도 아산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1374531&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1393885",
+    "name": "성남시 도시역사문화 아카이브 구축 및 운영 조례",
+    "region_id": "41130",
+    "org_name": "경기도 성남시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1393885&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1401046",
+    "name": "양산시 도시역사문화 아카이브 구축 및 운영 조례",
+    "region_id": "48330",
+    "org_name": "경상남도 양산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1401046&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1414199",
+    "name": "부천시 문화의 날 지정 및 운영에 관한 조례",
+    "region_id": "41190",
+    "org_name": "경기도 부천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1414199&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1416215",
+    "name": "대구텍스타일콤플렉스 관리 및 운영 조례",
+    "region_id": "27",
+    "org_name": "대구광역시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1416215&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1422949",
+    "name": "동두천시 문화의 날 지정 및 운영에 관한 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422949&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1435239",
+    "name": "안산시 문화의 날 지정 및 운영에 관한 조례",
+    "region_id": "41270",
+    "org_name": "경기도 안산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1435239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1436899",
+    "name": "인제군 문화재단 설립 및 운영에 관한 조례",
+    "region_id": "51810",
+    "org_name": "강원특별자치도 인제군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1436899&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1478217",
+    "name": "세종특별자치시 기업 및 투자유치 촉진에 관한 조례 시행규칙",
+    "region_id": "36",
+    "org_name": "세종특별자치시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1478217&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1484029",
+    "name": "김천시 세계도자기박물관 설치 및 운영 조례",
+    "region_id": "47150",
+    "org_name": "경상북도 김천시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1484029&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1492565",
+    "name": "홍천박물관 운영 및 관리 조례",
+    "region_id": "51720",
+    "org_name": "강원특별자치도 홍천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1492565&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

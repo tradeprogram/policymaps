@@ -1,0 +1,765 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1010884",
+   "key": "ordin-1010884",
+   "mst": "1010884",
+   "name": "임실군 저소득주민 생활안정 지원 조례",
+   "ord_kind": "조례",
+   "region_id": "52750",
+   "sig_cd": "52750",
+   "region_name": "전북특별자치도 임실군",
+   "org_name": "전북특별자치도 임실군",
+   "enacted_on": "20150515",
+   "effective_on": "20150515",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 10,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1010884",
+   "categories": [
+    {
+     "code": "C03",
+     "name": "복지·돌봄",
+     "confidence": 0.7857,
+     "method": "rule"
+    },
+    {
+     "code": "C05",
+     "name": "청년·교육",
+     "confidence": 0.4,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.992099,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1273292",
+      "key": "ordin-1273292",
+      "name": "임실군 저소득주민 생활안정 지원 조례 시행규칙",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20161230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1273292",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.891897,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1413570",
+      "key": "ordin-1413570",
+      "name": "임실군 공공시설 내의 매점 및 자동판매기 설치 허가에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20191015",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1413570",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.887086,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:2039691",
+      "key": "ordin-2039691",
+      "name": "임실군 다문화가족 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20250519",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2039691",
+      "categories": [
+       "C04",
+       "C13"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.880406,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2105439",
+      "key": "ordin-2105439",
+      "name": "임실군 생활주변 위험수목 처리 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20260102",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2105439",
+      "categories": [
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.878693,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2049419",
+      "key": "ordin-2049419",
+      "name": "임실군 저연차 공무원 공직 적응 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20250701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2049419",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.875525,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1922433",
+      "key": "ordin-1922433",
+      "name": "임실군의회 인사청문회 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20240424",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1922433",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.873933,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2125773",
+      "key": "ordin-2125773",
+      "name": "임실군 제증명 등 수수료징수 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20260424",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2125773",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.873274,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1232743",
+      "key": "ordin-1232743",
+      "name": "임실군 소형 특수농기계 면허취득을 위한 교육비 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20160513",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1232743",
+      "categories": [
+       "C12",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.872767,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1592405",
+      "key": "ordin-1592405",
+      "name": "임실군 자체감사 규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20210430",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1592405",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.871235,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2023559",
+      "key": "ordin-2023559",
+      "name": "임실군 생활보장위원회 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20250324",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2023559",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.431286,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1579911",
+      "key": "ordin-1579911",
+      "name": "진천군 1회용품 사용 저감에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 진천군",
+      "sig_cd": "43750",
+      "enacted_on": "20210316",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1579911",
+      "categories": [
+       "C07",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.413994,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1970417",
+      "key": "ordin-1970417",
+      "name": "서울특별시 동대문구 고령운전자 교통사고 예방에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 동대문구",
+      "sig_cd": "11230",
+      "enacted_on": "20240926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1970417",
+      "categories": [
+       "C10",
+       "C07"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.40963,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2017899",
+      "key": "ordin-2017899",
+      "name": "임실군 정책실명제 운영규칙",
+      "ord_kind": "규칙",
+      "region_name": "전북특별자치도 임실군",
+      "sig_cd": "52750",
+      "enacted_on": "20250304",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2017899",
+      "categories": [
+       "C01",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.405119,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1990565",
+      "key": "ordin-1990565",
+      "name": "논산시 신중년 인생이모작 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 논산시",
+      "sig_cd": "44230",
+      "enacted_on": "20241210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1990565",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.387211,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2087501",
+      "key": "ordin-2087501",
+      "name": "음성군 개인형 이동장치 이용 안전 증진 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 음성군",
+      "sig_cd": "43770",
+      "enacted_on": "20251117",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2087501",
+      "categories": [
+       "C10",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.386746,
+      "stored_rank": null,
+      "ordinance_id": "ordin:974441",
+      "key": "ordin-974441",
+      "name": "문경시 청소년수련관 설치 및 운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경상북도 문경시",
+      "sig_cd": "47280",
+      "enacted_on": "20070813",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=974441",
+      "categories": [
+       "C05",
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.382692,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1501885",
+      "key": "ordin-1501885",
+      "name": "문경시 식품접객업 옥외영업에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 문경시",
+      "sig_cd": "47280",
+      "enacted_on": "20200603",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1501885",
+      "categories": [
+       "C06",
+       "C11"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.38205,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1508091",
+      "key": "ordin-1508091",
+      "name": "부산광역시 남구 오수.분뇨의 관리에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "부산광역시 남구",
+      "sig_cd": "26290",
+      "enacted_on": "20200619",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1508091",
+      "categories": [
+       "C07"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.378646,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1705937",
+      "key": "ordin-1705937",
+      "name": "논산시 외국인 주민 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 논산시",
+      "sig_cd": "44230",
+      "enacted_on": "20220502",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1705937",
+      "categories": [
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.374193,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2153177",
+      "key": "ordin-2153177",
+      "name": "전남광주통합특별시 북구 건강도시 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 북구",
+      "sig_cd": "12300",
+      "enacted_on": "20260630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2153177",
+      "categories": [
+       "C06",
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.340893,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2071355",
+      "key": "ordin-2071355",
+      "name": "서울특별시 성북구 공공청사 부설주차장 관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 성북구",
+      "sig_cd": "11290",
+      "enacted_on": "20250925",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2071355",
+      "categories": [
+       "C01",
+       "C10"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.336411,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2151559",
+      "key": "ordin-2151559",
+      "name": "전남광주통합특별시 동구 지역치안협의회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "전남광주통합특별시 동구",
+      "sig_cd": "12210",
+      "enacted_on": "20260701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2151559",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.311049,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2088973",
+      "key": "ordin-2088973",
+      "name": "청주시의회 지방공무원 복무 조례",
+      "ord_kind": "조례",
+      "region_name": "충청북도 청주시",
+      "sig_cd": "43110",
+      "enacted_on": "20251124",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2088973",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.306855,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2010483",
+      "key": "ordin-2010483",
+      "name": "강원특별자치도 도세 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "강원특별자치도",
+      "sig_cd": "51000",
+      "enacted_on": "20241227",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2010483",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.302568,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1585399",
+      "key": "ordin-1585399",
+      "name": "이천시 장애인 등의 편의시설 설치 및 운영 점검에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 이천시",
+      "sig_cd": "41500",
+      "enacted_on": "20200806",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1585399",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.296305,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1478753",
+      "key": "ordin-1478753",
+      "name": "구리시 지방공무원 수당 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 구리시",
+      "sig_cd": "41310",
+      "enacted_on": "20200305",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1478753",
+      "categories": [
+       "C01",
+       "C06"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.293826,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1863489",
+      "key": "ordin-1863489",
+      "name": "서울특별시 중랑구 도로굴착 · 복구업무 처리규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 중랑구",
+      "sig_cd": "11260",
+      "enacted_on": "20231012",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1863489",
+      "categories": [
+       "C08",
+       "C10"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.291384,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1683545",
+      "key": "ordin-1683545",
+      "name": "대전광역시 대덕구 조례·규칙 등 공포에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 대덕구",
+      "sig_cd": "30230",
+      "enacted_on": "20220211",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1683545",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.280116,
+      "stored_rank": null,
+      "ordinance_id": "ordin:669121",
+      "key": "ordin-669121",
+      "name": "울릉군 홍보대사 위촉 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경상북도 울릉군",
+      "sig_cd": "47940",
+      "enacted_on": "20121015",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=669121",
+      "categories": [
+       "C13",
+       "C11"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.279129,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1966225",
+      "key": "ordin-1966225",
+      "name": "울산광역시 울주군 보건소 진료비 및 수수료에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 울주군",
+      "sig_cd": "31710",
+      "enacted_on": "20240912",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1966225",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

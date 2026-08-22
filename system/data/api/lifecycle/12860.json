@@ -1,0 +1,690 @@
+{
+ "data": {
+  "region": {
+   "region_id": "12860",
+   "sig_cd": "12860",
+   "name": "진도군",
+   "full_name": "전남광주통합특별시 진도군",
+   "level": 2
+  },
+  "counts": {
+   "total": 626,
+   "active": 543,
+   "repealed": 83,
+   "by_rr_cls_cd": {
+    "일부개정": 371,
+    "전부개정": 15,
+    "제정": 157,
+    "폐지": 83
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 6
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 8
+   },
+   {
+    "year": 2011,
+    "n": 10
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 30
+   },
+   {
+    "year": 2014,
+    "n": 12
+   },
+   {
+    "year": 2015,
+    "n": 20
+   },
+   {
+    "year": 2016,
+    "n": 8
+   },
+   {
+    "year": 2017,
+    "n": 12
+   },
+   {
+    "year": 2018,
+    "n": 16
+   },
+   {
+    "year": 2019,
+    "n": 15
+   },
+   {
+    "year": 2020,
+    "n": 49
+   },
+   {
+    "year": 2021,
+    "n": 37
+   },
+   {
+    "year": 2022,
+    "n": 76
+   },
+   {
+    "year": 2023,
+    "n": 72
+   },
+   {
+    "year": 2024,
+    "n": 57
+   },
+   {
+    "year": 2025,
+    "n": 57
+   },
+   {
+    "year": 2026,
+    "n": 117
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 10
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2013,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 5
+   },
+   {
+    "year": 2015,
+    "n": 12
+   },
+   {
+    "year": 2016,
+    "n": 3
+   },
+   {
+    "year": 2017,
+    "n": 1
+   },
+   {
+    "year": 2018,
+    "n": 3
+   },
+   {
+    "year": 2019,
+    "n": 1
+   },
+   {
+    "year": 2020,
+    "n": 8
+   },
+   {
+    "year": 2021,
+    "n": 7
+   },
+   {
+    "year": 2023,
+    "n": 2
+   },
+   {
+    "year": 2024,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직 공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계 양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설 특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로 무단 점용자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반 사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업 특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법위반자에대한과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:1539509",
+    "name": "진도군 주택사업 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-26",
+    "repealed_on": "2024-12-26",
+    "repealed_on_raw": "20241226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1539509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1852637",
+    "name": "진도군 투자심사위원회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-09-20",
+    "repealed_on": "2023-09-20",
+    "repealed_on_raw": "20230920",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1852637&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1794825",
+    "name": "진도군 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-31",
+    "repealed_on": "2023-03-31",
+    "repealed_on_raw": "20230331",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1794825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1614651",
+    "name": "진도군 공인 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-07-14",
+    "repealed_on": "2021-07-14",
+    "repealed_on_raw": "20210714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1614651&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1580261",
+    "name": "진도군 리의 명칭 및 구역과 이장 정수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-17",
+    "repealed_on": "2021-03-17",
+    "repealed_on_raw": "20210317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1580267",
+    "name": "진도군 반 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-17",
+    "repealed_on": "2021-03-17",
+    "repealed_on_raw": "20210317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580267&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1580265",
+    "name": "진도군 이장의 임무와 실비보상에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-17",
+    "repealed_on": "2021-03-17",
+    "repealed_on_raw": "20210317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580265&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1580279",
+    "name": "진도군 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-17",
+    "repealed_on": "2021-03-17",
+    "repealed_on_raw": "20210317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580279&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1580269",
+    "name": "진도군 반 설치 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-03-17",
+    "repealed_on": "2021-03-17",
+    "repealed_on_raw": "20210317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580269&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1580263",
+    "name": "진도군 이장 임명에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-03-17",
+    "repealed_on": "2021-03-17",
+    "repealed_on_raw": "20210317",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580263&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1561509",
+    "name": "진도군 비용추계에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1561509&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1561501",
+    "name": "진도군 조례·규칙 등 공포에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1561501&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1561507",
+    "name": "진도군 주민 조례 제정 개폐 청구 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1561507&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1561521",
+    "name": "진도군 농산물 안정기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1561521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1539333",
+    "name": "진도군 각종 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-14",
+    "repealed_on": "2020-10-14",
+    "repealed_on_raw": "20201014",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1539333&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1504121",
+    "name": "진도군 노인복지기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-06-10",
+    "repealed_on": "2020-06-10",
+    "repealed_on_raw": "20200610",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1504121&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1487653",
+    "name": "진도군 농업기계 임대사업장 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-04-14",
+    "repealed_on": "2020-04-14",
+    "repealed_on_raw": "20200414",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1487653&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1478933",
+    "name": "진도군 가로수 조성 및 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-03-11",
+    "repealed_on": "2020-03-11",
+    "repealed_on_raw": "20200311",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1478933&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1410153",
+    "name": "진도군 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-09-25",
+    "repealed_on": "2019-09-25",
+    "repealed_on_raw": "20190925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410153&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1392707",
+    "name": "진도군 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-26",
+    "repealed_on": "2018-12-26",
+    "repealed_on_raw": "20181226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1392707&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1375224",
+    "name": "진도군 청소년수련관 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-12-19",
+    "repealed_on": "2018-12-19",
+    "repealed_on_raw": "20181219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1375224&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1353196",
+    "name": "진도군 1회용품 사용규제 위반 사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-08-01",
+    "repealed_on": "2018-08-01",
+    "repealed_on_raw": "20180801",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1353196&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1322230",
+    "name": "진도군 가로수 조성 및 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-27",
+    "repealed_on": "2017-12-27",
+    "repealed_on_raw": "20171227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1322230&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1272987",
+    "name": "진도군 지방공무원 징계 양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-12-29",
+    "repealed_on": "2016-12-29",
+    "repealed_on_raw": "20161229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1272987&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1343324",
+    "name": "진도군 여성문화회관 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-06-30",
+    "repealed_on": "2016-06-30",
+    "repealed_on_raw": "20160630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1343324&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1245805",
+    "name": "진도군 여성회관 설치 및 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-06-30",
+    "repealed_on": "2016-06-30",
+    "repealed_on_raw": "20160630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1245805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1211685",
+    "name": "진도군 건강생활 실천협의회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-29",
+    "repealed_on": "2015-12-29",
+    "repealed_on_raw": "20151229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1211685&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1211675",
+    "name": "진도군 국제화추진협의회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-29",
+    "repealed_on": "2015-12-29",
+    "repealed_on_raw": "20151229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1211675&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1211688",
+    "name": "진도군 기반시설 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-12-29",
+    "repealed_on": "2015-12-29",
+    "repealed_on_raw": "20151229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1211688&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1211636",
+    "name": "진도군 부두시설 사용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-29",
+    "repealed_on": "2015-12-29",
+    "repealed_on_raw": "20151229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1211636&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1211695",
+    "name": "진도군 재정운영상황의 공개 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2015-12-29",
+    "repealed_on": "2015-12-29",
+    "repealed_on_raw": "20151229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1211695&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197582",
+    "name": "진도군 도로 관련사업 조정위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-29",
+    "repealed_on": "2015-10-29",
+    "repealed_on_raw": "20151029",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197582&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197585",
+    "name": "진도군 도로 무단 점용자에 대한 과태료 부과·징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-29",
+    "repealed_on": "2015-10-29",
+    "repealed_on_raw": "20151029",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197585&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197583",
+    "name": "진도군 도로 복구 원인자부담금 및 도로 손괴자부담금 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-29",
+    "repealed_on": "2015-10-29",
+    "repealed_on_raw": "20151029",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197583&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1197584",
+    "name": "진도군 도로 점용료 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-10-29",
+    "repealed_on": "2015-10-29",
+    "repealed_on_raw": "20151029",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1197584&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1164146",
+    "name": "진도군 읍·면 개발자문위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-07-14",
+    "repealed_on": "2015-07-14",
+    "repealed_on_raw": "20150714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1164146&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1184212",
+    "name": "진도군 이장 정수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-07-14",
+    "repealed_on": "2015-07-14",
+    "repealed_on_raw": "20150714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1184212&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1207611",
+    "name": "진도군 지방세 발전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-03-27",
+    "repealed_on": "2015-03-27",
+    "repealed_on_raw": "20150327",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1207611&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:806458",
+    "name": "진도군 사회단체보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-29",
+    "repealed_on": "2014-12-29",
+    "repealed_on_raw": "20141229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=806458&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:763443",
+    "name": "진도군 부두시설 사용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-11-03",
+    "repealed_on": "2014-11-03",
+    "repealed_on_raw": "20141103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=763443&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 3,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "12860"
+ ]
+}

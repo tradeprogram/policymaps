@@ -1,0 +1,791 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1283508",
+   "key": "ordin-1283508",
+   "mst": "1283508",
+   "name": "부천시 건강도시 기본 조례",
+   "ord_kind": "조례",
+   "region_id": "41190",
+   "sig_cd": "41190",
+   "region_name": "경기도 부천시",
+   "org_name": "경기도 부천시",
+   "enacted_on": "20170410",
+   "effective_on": "20170410",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 15,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1283508",
+   "categories": [
+    {
+     "code": "C06",
+     "name": "보건·의료",
+     "confidence": 0.5,
+     "method": "rule"
+    },
+    {
+     "code": "C09",
+     "name": "도시·건축·주택",
+     "confidence": 0.5,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.841347,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1235670",
+      "key": "ordin-1235670",
+      "name": "부산광역시 기장군 택지개발에 따른 폐기물 처리시설 설치비용 산정에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 기장군",
+      "sig_cd": "26710",
+      "enacted_on": "20160603",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1235670",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.818839,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1862905",
+      "key": "ordin-1862905",
+      "name": "부산광역시 기장군 폐기물처리시설 특별회계 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "부산광역시 기장군",
+      "sig_cd": "26710",
+      "enacted_on": "20231011",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1862905",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.791447,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1933549",
+      "key": "ordin-1933549",
+      "name": "대구광역시 동구 폐기물관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 동구",
+      "sig_cd": "27140",
+      "enacted_on": "20240530",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1933549",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.788311,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1760871",
+      "key": "ordin-1760871",
+      "name": "대전광역시 서구 폐기물처리시설 설치촉진 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 서구",
+      "sig_cd": "30170",
+      "enacted_on": "20221222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1760871",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.787719,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2046305",
+      "key": "ordin-2046305",
+      "name": "대전광역시 대덕구 폐기물 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "대전광역시 대덕구",
+      "sig_cd": "30230",
+      "enacted_on": "20250627",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2046305",
+      "categories": [
+       "C07",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.783811,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2125043",
+      "key": "ordin-2125043",
+      "name": "과천시 종합사회복지관 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 과천시",
+      "sig_cd": "41290",
+      "enacted_on": "20260422",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2125043",
+      "categories": [
+       "C03"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.783272,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1857097",
+      "key": "ordin-1857097",
+      "name": "군포시 폐기물처리시설 특별회계 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20230927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1857097",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.780642,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1875219",
+      "key": "ordin-1875219",
+      "name": "고양시 청년농업인 육성 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 고양시",
+      "sig_cd": "41280",
+      "enacted_on": "20231117",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1875219",
+      "categories": [
+       "C12",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.779571,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2098313",
+      "key": "ordin-2098313",
+      "name": "울산광역시 북구 폐기물관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "울산광역시 북구",
+      "sig_cd": "31200",
+      "enacted_on": "20251226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2098313",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.778775,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2136435",
+      "key": "ordin-2136435",
+      "name": "대구광역시 북구 폐기물 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "대구광역시 북구",
+      "sig_cd": "27230",
+      "enacted_on": "20260630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2136435",
+      "categories": [
+       "C07",
+       "C06"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.992609,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2130217",
+      "key": "ordin-2130217",
+      "name": "부천시 보육 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20260518",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2130217",
+      "categories": [
+       "C03",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.991729,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2002211",
+      "key": "ordin-2002211",
+      "name": "부천시 시민옴부즈만 운영에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20241230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2002211",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.99121,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1631975",
+      "key": "ordin-1631975",
+      "name": "부천시 상동호수공원 관리 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20211005",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1631975",
+      "categories": [
+       "C05",
+       "C07"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990982,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1585547",
+      "key": "ordin-1585547",
+      "name": "부천시 음식판매자동차의 영업장소 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20210405",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1585547",
+      "categories": [
+       "C06",
+       "C08"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990971,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1570427",
+      "key": "ordin-1570427",
+      "name": "부천시 청원경찰 징계 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20210111",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1570427",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.99085,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2107285",
+      "key": "ordin-2107285",
+      "name": "부천시 식품진흥기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20260112",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2107285",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990792,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2095377",
+      "key": "ordin-2095377",
+      "name": "부천시 개인정보 보호 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20251222",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2095377",
+      "categories": [
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.990732,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1827351",
+      "key": "ordin-1827351",
+      "name": "부천시 장애인 표준사업장 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20230630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1827351",
+      "categories": [
+       "C11",
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990699,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1888259",
+      "key": "ordin-1888259",
+      "name": "부천시 일·쉼 지원센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20231226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1888259",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990614,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1355998",
+      "key": "ordin-1355998",
+      "name": "부천시 인터넷시스템 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20180820",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1355998",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.991148,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2144527",
+      "key": "ordin-2144527",
+      "name": "부천시 건강가정지원센터 조직 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20260706",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2144527",
+      "categories": [
+       "C06",
+       "C08"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.991144,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2122347",
+      "key": "ordin-2122347",
+      "name": "부천시 보훈회관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20260413",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2122347",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.991034,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1972719",
+      "key": "ordin-1972719",
+      "name": "부천시 건강생활지원센터 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20240930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1972719",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990786,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1996497",
+      "key": "ordin-1996497",
+      "name": "부천시 장애인 가족 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20241223",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1996497",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.99036,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1827351",
+      "key": "ordin-1827351",
+      "name": "부천시 장애인 표준사업장 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20230630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1827351",
+      "categories": [
+       "C11",
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.989703,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1485805",
+      "key": "ordin-1485805",
+      "name": "부천시 장애인차별금지 및 인권보장에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20200406",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1485805",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.98931,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1516289",
+      "key": "ordin-1516289",
+      "name": "부천시 석면안전관리 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20200713",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1516289",
+      "categories": [
+       "C08",
+       "C06"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989224,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1888237",
+      "key": "ordin-1888237",
+      "name": "부천시 장애인회관 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20231226",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1888237",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989031,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1722981",
+      "key": "ordin-1722981",
+      "name": "부천시 무장애 도시 조성 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20220816",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1722981",
+      "categories": [
+       "C10",
+       "C03",
+       "C09"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.988877,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1252985",
+      "key": "ordin-1252985",
+      "name": "부천시 사회복지관 설치 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 부천시",
+      "sig_cd": "41190",
+      "enacted_on": "20160929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1252985",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1827351",
+    "models": [
+     "metapath2vec-numpy",
+     "node2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.990546,
+    "best_rank": 5,
+    "ordinance_id": "ordin:1827351",
+    "key": "ordin-1827351",
+    "name": "부천시 장애인 표준사업장 지원 조례",
+    "region_name": "경기도 부천시",
+    "sig_cd": "41190",
+    "enacted_on": "20230630",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1827351"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

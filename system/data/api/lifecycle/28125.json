@@ -1,0 +1,778 @@
+{
+ "data": {
+  "region": {
+   "region_id": "28125",
+   "sig_cd": "28125",
+   "name": "제물포구",
+   "full_name": "인천광역시 제물포구",
+   "level": 2
+  },
+  "counts": {
+   "total": 1078,
+   "active": 893,
+   "repealed": 185,
+   "by_rr_cls_cd": {
+    "일부개정": 246,
+    "전부개정": 26,
+    "제정": 621,
+    "폐지": 185
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1988,
+    "n": 1
+   },
+   {
+    "year": 1990,
+    "n": 1
+   },
+   {
+    "year": 1991,
+    "n": 2
+   },
+   {
+    "year": 1993,
+    "n": 2
+   },
+   {
+    "year": 1994,
+    "n": 2
+   },
+   {
+    "year": 1996,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 2
+   },
+   {
+    "year": 1998,
+    "n": 2
+   },
+   {
+    "year": 1999,
+    "n": 3
+   },
+   {
+    "year": 2000,
+    "n": 2
+   },
+   {
+    "year": 2001,
+    "n": 2
+   },
+   {
+    "year": 2002,
+    "n": 3
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 12
+   },
+   {
+    "year": 2012,
+    "n": 17
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 23
+   },
+   {
+    "year": 2016,
+    "n": 14
+   },
+   {
+    "year": 2017,
+    "n": 26
+   },
+   {
+    "year": 2018,
+    "n": 15
+   },
+   {
+    "year": 2019,
+    "n": 33
+   },
+   {
+    "year": 2020,
+    "n": 43
+   },
+   {
+    "year": 2021,
+    "n": 31
+   },
+   {
+    "year": 2022,
+    "n": 69
+   },
+   {
+    "year": 2023,
+    "n": 70
+   },
+   {
+    "year": 2024,
+    "n": 68
+   },
+   {
+    "year": 2025,
+    "n": 76
+   },
+   {
+    "year": 2026,
+    "n": 456
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1991,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 2
+   },
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 2
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 4
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 2
+   },
+   {
+    "year": 2015,
+    "n": 12
+   },
+   {
+    "year": 2016,
+    "n": 2
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 5
+   },
+   {
+    "year": 2020,
+    "n": 11
+   },
+   {
+    "year": 2021,
+    "n": 3
+   },
+   {
+    "year": 2022,
+    "n": 6
+   },
+   {
+    "year": 2023,
+    "n": 12
+   },
+   {
+    "year": 2024,
+    "n": 5
+   },
+   {
+    "year": 2025,
+    "n": 5
+   },
+   {
+    "year": 2026,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "동구1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "동구 1회용품 사용규제 위반사업장에 대한 과태료부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "동구기반시설특별회계설치및운영조례",
+    "display_name": "동구기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "동구사회단체보조금지원조례",
+    "display_name": "동구 사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "동구위원회실비변상조례",
+    "display_name": "동구위원회실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "동구재정안정화기금설치및운용조례",
+    "display_name": "동구 재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "동구지방고용직공무원임용등에관한조례",
+    "display_name": "동구지방고용직공무원임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "동구지방공무원징계양정에관한규칙",
+    "display_name": "동구 지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "동구회계관계공무원재정보증조례",
+    "display_name": "동구회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 2
+   },
+   {
+    "policy_key": "농어촌종합대책추진위원회설치운영조례폐지",
+    "display_name": "농(어)촌종합대책추진위원회설치운영조례(폐지)",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구4세대이상가정지원에관한조례",
+    "display_name": "동구 4세대 이상 가정 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구건축사현장조사검사및확인업무대행수수료지급규칙폐지",
+    "display_name": "동구건축사현장조사·검사및확인업무대행수수료지급규칙(폐지)",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구건축조례",
+    "display_name": "동구건축조례",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구공공용지에편입된사권제한토지에대한종합토지세불균일과세에관한조례폐지",
+    "display_name": "동구공공용지에편입된사권제한토지에대한종합토지세불균일과세에관한조례(폐지)",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구공동급수시설유지관리조례폐지",
+    "display_name": "동구공동급수시설유지관리조례(폐지)",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구공동주택관리분쟁조정위원회구성운영조례",
+    "display_name": "동구공동주택관리분쟁조정위원회 구성·운영 조례",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구공동주택관리지원조례",
+    "display_name": "동구 공동주택 관리지원 조례",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구공동주택관리지원조례시행규칙",
+    "display_name": "동구 공동주택 관리지원 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구공무원기본사무용품비지급에관한조례폐지",
+    "display_name": "동구공무원기본사무용품비지급에관한조례(폐지)",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구공영버스사업운영조례",
+    "display_name": "동구 공영버스 사업 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "동구공유재산매각특례에관한조례폐지",
+    "display_name": "동구공유재산매각특례에관한조례(폐지)",
+    "rows": 1,
+    "nationwide_regions": 1
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:833117",
+    "name": "인천광역시동구공중화장실설치및관리조례(폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "2001-01-12",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=833117&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:816841",
+    "name": "인천광역시동구노인복지기금설치및운용조례(폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=816841&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:833105",
+    "name": "인천광역시동구새마을이동도서관운영에관한조례(폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=833105&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:836016",
+    "name": "인천광역시동구재해대책기금운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=836016&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:804494",
+    "name": "인천광역시동구호적과태료부과징수조례 (폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "1996-06-20",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=804494&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:800647",
+    "name": "인천광역시동구국토이용관리법위반자에대한과태료부과ㆍ징수규칙(폐지)",
+    "ord_kind": "규칙",
+    "enacted_on": "1999-06-05",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=800647&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:838835",
+    "name": "인천광역시동구도시가스사업기금설치및운용조례시행규칙(폐지)",
+    "ord_kind": "규칙",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=838835&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:804495",
+    "name": "인천광역시동구민원1회방문처리제운영규칙(폐지)",
+    "ord_kind": "규칙",
+    "enacted_on": "2000-01-18",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=804495&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:837411",
+    "name": "인천광역시동구이웃돕기기금설치및운용조례시행규칙(2002.1.10폐지)",
+    "ord_kind": "규칙",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=837411&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:838496",
+    "name": "인천광역시동구저소득주민자녀장학금지급조례시행규칙(2002.1.10폐지)",
+    "ord_kind": "규칙",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=838496&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:800322",
+    "name": "인천직할시동구행정장비의보유정수에관한규칙(폐지)",
+    "ord_kind": "규칙",
+    "enacted_on": "1993-04-03",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=800322&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2151193",
+    "name": "인천광역시 동구 지방보조금 관리 조례(폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "2026-07-01",
+    "repealed_on": "2026-07-01",
+    "repealed_on_raw": "20260701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2151193&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2149539",
+    "name": "인천광역시 동구 법제사무 처리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-07-01",
+    "repealed_on": "2026-07-01",
+    "repealed_on_raw": "20260701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2149539&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2147891",
+    "name": "인천광역시 동구 장기등 및 인체조직 기증 장려에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-31",
+    "repealed_on": "2025-12-31",
+    "repealed_on_raw": "20251231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2147891&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2051793",
+    "name": "인천광역시 동구 금권 등의 관리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-07-07",
+    "repealed_on": "2025-07-07",
+    "repealed_on_raw": "20250707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051793&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2051773",
+    "name": "인천광역시동구용역과제심의위원회설치및운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-07-07",
+    "repealed_on": "2025-07-07",
+    "repealed_on_raw": "20250707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051773&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2153417",
+    "name": "인천광역시 동구 관광진흥 조례(폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-19",
+    "repealed_on": "2025-03-19",
+    "repealed_on_raw": "20250319",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2153417&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2147889",
+    "name": "인천광역시 동구 헌혈 장려 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-19",
+    "repealed_on": "2025-03-19",
+    "repealed_on_raw": "20250319",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2147889&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1985861",
+    "name": "인천광역시 동구 출산·입양 축하금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-15",
+    "repealed_on": "2024-11-15",
+    "repealed_on_raw": "20241115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1985861&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1951381",
+    "name": "인천광역시 동구 문화의 날 지정 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-08",
+    "repealed_on": "2024-07-08",
+    "repealed_on_raw": "20240708",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1951381&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1930011",
+    "name": "인천광역시동구 유실·유기동물 보호에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-17",
+    "repealed_on": "2024-05-17",
+    "repealed_on_raw": "20240517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1930011&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:993732",
+    "name": "인천광역시동구 지역발전위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-17",
+    "repealed_on": "2024-05-17",
+    "repealed_on_raw": "20240517",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=993732&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1805679",
+    "name": "인천광역시 동구 구립합창단 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-04-22",
+    "repealed_on": "2024-04-22",
+    "repealed_on_raw": "20240422",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1805679&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1889333",
+    "name": "인천광역시 동구 공영버스 사업 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-27",
+    "repealed_on": "2023-12-27",
+    "repealed_on_raw": "20231227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889333&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1889315",
+    "name": "인천광역시동구구민운동장관리운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-27",
+    "repealed_on": "2023-12-27",
+    "repealed_on_raw": "20231227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889315&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1889331",
+    "name": "인천광역시동구 옥상녹화 등 건축물상의 경관조성 권장 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-27",
+    "repealed_on": "2023-12-27",
+    "repealed_on_raw": "20231227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889331&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1889323",
+    "name": "인천광역시 동구 저소득자 소액대출 이자 보전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-27",
+    "repealed_on": "2023-12-27",
+    "repealed_on_raw": "20231227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1889323&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1962087",
+    "name": "인천광역시 동구 생활체육진흥 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-23",
+    "repealed_on": "2023-11-23",
+    "repealed_on_raw": "20231123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1962087&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2147887",
+    "name": "인천광역시 동구 심폐소생술 교육 활성화에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-23",
+    "repealed_on": "2023-11-23",
+    "repealed_on_raw": "20231123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2147887&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876335",
+    "name": "인천광역시동구 지역정보화 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-23",
+    "repealed_on": "2023-11-23",
+    "repealed_on_raw": "20231123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876335&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876333",
+    "name": "인천광역시 동구 지역축제 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-23",
+    "repealed_on": "2023-11-23",
+    "repealed_on_raw": "20231123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876333&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876365",
+    "name": "인천광역시동구구민운동장관리운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-23",
+    "repealed_on": "2023-11-23",
+    "repealed_on_raw": "20231123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876365&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876367",
+    "name": "인천광역시동구 저소득자 소액대출 이자 보전기금 설치 및 운용조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-23",
+    "repealed_on": "2023-11-23",
+    "repealed_on_raw": "20231123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876367&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876361",
+    "name": "인천광역시동구지방공무원임용후보자장학규정시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-23",
+    "repealed_on": "2023-11-23",
+    "repealed_on_raw": "20231123",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876361&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1850213",
+    "name": "인천광역시동구관용심사운영절차에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-09-06",
+    "repealed_on": "2023-09-06",
+    "repealed_on_raw": "20230906",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1850213&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1684551",
+    "name": "인천광역시동구 주민조례제정 및 개폐청구 연서주민 수에 관한 조례 폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-02-15",
+    "repealed_on": "2022-02-15",
+    "repealed_on_raw": "20220215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1684551&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1662893",
+    "name": "인천광역시동구의회 정례회의 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-03",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1662893&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1662849",
+    "name": "인천광역시동구 문화원의 설립ㆍ지원 및 육성에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-03",
+    "repealed_on": "2022-01-03",
+    "repealed_on_raw": "20220103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1662849&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1662841",
+    "name": "인천광역시 동구 장애인 문화예술 활동 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-03",
+    "repealed_on": "2022-01-03",
+    "repealed_on_raw": "20220103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1662841&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1662811",
+    "name": "인천광역시동구 지역문화예술진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-03",
+    "repealed_on": "2022-01-03",
+    "repealed_on_raw": "20220103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1662811&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 71,
+   "sentinel_99991231": 11
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "28125"
+ ]
+}

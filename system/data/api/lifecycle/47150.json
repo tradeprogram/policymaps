@@ -1,0 +1,694 @@
+{
+ "data": {
+  "region": {
+   "region_id": "47150",
+   "sig_cd": "47150",
+   "name": "김천시",
+   "full_name": "경상북도 김천시",
+   "level": 2
+  },
+  "counts": {
+   "total": 655,
+   "active": 576,
+   "repealed": 79,
+   "by_rr_cls_cd": {
+    "일부개정": 407,
+    "전부개정": 21,
+    "제정": 148,
+    "폐지": 79
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1995,
+    "n": 2
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2007,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 6
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 20
+   },
+   {
+    "year": 2015,
+    "n": 17
+   },
+   {
+    "year": 2016,
+    "n": 14
+   },
+   {
+    "year": 2017,
+    "n": 16
+   },
+   {
+    "year": 2018,
+    "n": 15
+   },
+   {
+    "year": 2019,
+    "n": 31
+   },
+   {
+    "year": 2020,
+    "n": 36
+   },
+   {
+    "year": 2021,
+    "n": 66
+   },
+   {
+    "year": 2022,
+    "n": 62
+   },
+   {
+    "year": 2023,
+    "n": 57
+   },
+   {
+    "year": 2024,
+    "n": 99
+   },
+   {
+    "year": 2025,
+    "n": 115
+   },
+   {
+    "year": 2026,
+    "n": 61
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 11
+   },
+   {
+    "year": 2015,
+    "n": 6
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 7
+   },
+   {
+    "year": 2018,
+    "n": 2
+   },
+   {
+    "year": 2019,
+    "n": 6
+   },
+   {
+    "year": 2020,
+    "n": 2
+   },
+   {
+    "year": 2021,
+    "n": 2
+   },
+   {
+    "year": 2022,
+    "n": 2
+   },
+   {
+    "year": 2023,
+    "n": 5
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2025,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계 양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보 교부금지급 규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:968465",
+    "name": "김천시가로명에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2007-12-13",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=968465&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:898944",
+    "name": "김천시새마을소득사업운영관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-05-20",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=898944&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:900571",
+    "name": "김천시여성발전기금설치운영에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-09-02",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=900571&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:906442",
+    "name": "김천시임대주택분쟁조정위원회 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-06-04",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=906442&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:968476",
+    "name": "김천시재난관리기금운용관리조례 (폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "2005-04-07",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=968476&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:968468",
+    "name": "김천시재해대책기금운용관리조례 (폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "2005-02-03",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=968468&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:968475",
+    "name": "김천시재해대책본부운영등에관한조례 (폐지)",
+    "ord_kind": "조례",
+    "enacted_on": "2005-04-07",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=968475&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:899830",
+    "name": "김천시청소년야영장 사용료 징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-10-28",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=899830&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:902414",
+    "name": "김천시하수도사업특별회계설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-10-15",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=902414&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:968470",
+    "name": "김천시대해대책기금운용·관리조례시행규칙 (폐지)",
+    "ord_kind": "규칙",
+    "enacted_on": "2005-02-03",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=968470&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:901992",
+    "name": "김천시립도서관열람규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2003-09-25",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=901992&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:898946",
+    "name": "김천시새마을소득사업운영관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2010-11-25",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=898946&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:986321",
+    "name": "김천시제안규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-05-15",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=986321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2024859",
+    "name": "김천시 보건소ㆍ보건지소 및 보건진료소 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-03-27",
+    "repealed_on": "2025-03-27",
+    "repealed_on_raw": "20250327",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2024859&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1966393",
+    "name": "김천시의회고문변호사운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-12",
+    "repealed_on": "2024-09-12",
+    "repealed_on_raw": "20240912",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1966393&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1966381",
+    "name": "김천시 화장장 설치 및 사용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-12",
+    "repealed_on": "2024-09-12",
+    "repealed_on_raw": "20240912",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1966381&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1949011",
+    "name": "김천시 이전공공기관 임직원 주택자금 대출이자 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-04",
+    "repealed_on": "2024-07-04",
+    "repealed_on_raw": "20240704",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1949011&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1832321",
+    "name": "김천시 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-06",
+    "repealed_on": "2023-07-06",
+    "repealed_on_raw": "20230706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1832321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1832371",
+    "name": "김천시 여성발전기본 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-07-06",
+    "repealed_on": "2023-07-06",
+    "repealed_on_raw": "20230706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1832371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1832375",
+    "name": "김천시 정책실명제 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-07-06",
+    "repealed_on": "2023-07-06",
+    "repealed_on_raw": "20230706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1832375&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1794001",
+    "name": "김천시 두레일자리 지원센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-30",
+    "repealed_on": "2023-03-30",
+    "repealed_on_raw": "20230330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1794001&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1766817",
+    "name": "김천시 문화의 집 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-29",
+    "repealed_on": "2023-01-01",
+    "repealed_on_raw": "20230101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1766817&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1688007",
+    "name": "김천시 각종 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-03",
+    "repealed_on": "2022-03-03",
+    "repealed_on_raw": "20220303",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1688007&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1671097",
+    "name": "김천시 주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1671097&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1671079",
+    "name": "김천시립보육시설 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1671079&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1671153",
+    "name": "김천시립보육시설 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1671153&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1493437",
+    "name": "김천시 한국지역진흥재단 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-14",
+    "repealed_on": "2020-05-14",
+    "repealed_on_raw": "20200514",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1493437&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1484029",
+    "name": "김천시 세계도자기박물관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-02",
+    "repealed_on": "2020-04-02",
+    "repealed_on_raw": "20200402",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1484029&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1420141",
+    "name": "김천시사전재해영향성검토위원회 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-14",
+    "repealed_on": "2019-11-14",
+    "repealed_on_raw": "20191114",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1420141&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1386858",
+    "name": "김천시 저소득주민 생활안정자금 융자 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-03-07",
+    "repealed_on": "2019-03-07",
+    "repealed_on_raw": "20190307",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1386858&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1386856",
+    "name": "김천시 저소득주민 주거안정사업 운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-03-07",
+    "repealed_on": "2019-03-07",
+    "repealed_on_raw": "20190307",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1386856&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1386859",
+    "name": "김천시 저소득주민 생활안정자금 융자 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-03-07",
+    "repealed_on": "2019-03-07",
+    "repealed_on_raw": "20190307",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1386859&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1386857",
+    "name": "김천시 저소득주민 주거안정사업 운영 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-03-07",
+    "repealed_on": "2019-03-07",
+    "repealed_on_raw": "20190307",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1386857&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1355091",
+    "name": "김천시 새마을소득지원자금 운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-08-09",
+    "repealed_on": "2019-01-01",
+    "repealed_on_raw": "20190101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1355091&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1376393",
+    "name": "김천시공설묘지설치및사용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1376393&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1355094",
+    "name": "김천시 공설시장 설치 및 사용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-08-09",
+    "repealed_on": "2018-08-09",
+    "repealed_on_raw": "20180809",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1355094&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1322277",
+    "name": "김천시 사회적기업 육성에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-28",
+    "repealed_on": "2017-12-28",
+    "repealed_on_raw": "20171228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1322277&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1291288",
+    "name": "김천시 탈세정보 교부금지급 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-06-22",
+    "repealed_on": "2017-06-22",
+    "repealed_on_raw": "20170622",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1291288&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1284003",
+    "name": "김천시 공동주택관리분쟁조정위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-04-13",
+    "repealed_on": "2017-04-13",
+    "repealed_on_raw": "20170413",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1284003&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1284004",
+    "name": "김천시 공동주택 시설관리 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-04-13",
+    "repealed_on": "2017-04-13",
+    "repealed_on_raw": "20170413",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1284004&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 13,
+   "sentinel_99991231": 13
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "47150"
+ ]
+}

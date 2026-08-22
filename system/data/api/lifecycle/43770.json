@@ -1,0 +1,710 @@
+{
+ "data": {
+  "region": {
+   "region_id": "43770",
+   "sig_cd": "43770",
+   "name": "음성군",
+   "full_name": "충청북도 음성군",
+   "level": 2
+  },
+  "counts": {
+   "total": 703,
+   "active": 597,
+   "repealed": 106,
+   "by_rr_cls_cd": {
+    "일부개정": 379,
+    "전부개정": 39,
+    "제정": 179,
+    "폐지": 106
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1980,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 8
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 9
+   },
+   {
+    "year": 2015,
+    "n": 29
+   },
+   {
+    "year": 2016,
+    "n": 7
+   },
+   {
+    "year": 2017,
+    "n": 30
+   },
+   {
+    "year": 2018,
+    "n": 22
+   },
+   {
+    "year": 2019,
+    "n": 59
+   },
+   {
+    "year": 2020,
+    "n": 43
+   },
+   {
+    "year": 2021,
+    "n": 84
+   },
+   {
+    "year": 2022,
+    "n": 36
+   },
+   {
+    "year": 2023,
+    "n": 50
+   },
+   {
+    "year": 2024,
+    "n": 122
+   },
+   {
+    "year": 2025,
+    "n": 101
+   },
+   {
+    "year": 2026,
+    "n": 61
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2003,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 5
+   },
+   {
+    "year": 2015,
+    "n": 16
+   },
+   {
+    "year": 2016,
+    "n": 3
+   },
+   {
+    "year": 2017,
+    "n": 6
+   },
+   {
+    "year": 2018,
+    "n": 3
+   },
+   {
+    "year": 2019,
+    "n": 5
+   },
+   {
+    "year": 2020,
+    "n": 2
+   },
+   {
+    "year": 2021,
+    "n": 7
+   },
+   {
+    "year": 2022,
+    "n": 4
+   },
+   {
+    "year": 2023,
+    "n": 7
+   },
+   {
+    "year": 2024,
+    "n": 4
+   },
+   {
+    "year": 2025,
+    "n": 8
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "정책자문단구성및운영조례",
+    "display_name": "정책자문단 구성 및 운영 조례",
+    "rows": 2,
+    "nationwide_regions": 4
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자부여 업무처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수· 분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료 부과 징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수규칙",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과 징수 규칙",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:1139285",
+    "name": "음성군 자료관 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-03-24",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1139285&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1139259",
+    "name": "음성군 지방공무원 제안 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2010-12-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1139259&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1139978",
+    "name": "음성군 지방별정직공무원 임용자격 기준에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2011-05-13",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1139978&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2107197",
+    "name": "음성군 대상포진 예방접종 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-15",
+    "repealed_on": "2025-12-15",
+    "repealed_on_raw": "20251215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2107197&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2087095",
+    "name": "음성군 저소득주민자녀 장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-17",
+    "repealed_on": "2025-11-17",
+    "repealed_on_raw": "20251117",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2087095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2087093",
+    "name": "음성군 청소년 교통비 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-17",
+    "repealed_on": "2025-11-17",
+    "repealed_on_raw": "20251117",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2087093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2087091",
+    "name": "음성군 저소득주민자녀 장학금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-11-17",
+    "repealed_on": "2025-11-17",
+    "repealed_on_raw": "20251117",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2087091&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2064497",
+    "name": "음성군 외국인주민 및 다문화가족 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-08-11",
+    "repealed_on": "2025-08-11",
+    "repealed_on_raw": "20250811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2064497&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2060651",
+    "name": "음성군 생극제2산업단지 주식회사 출자 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-25",
+    "repealed_on": "2025-07-25",
+    "repealed_on_raw": "20250725",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2060651&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2053143",
+    "name": "음성군 정책자문단 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053143&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2053139",
+    "name": "음성군 정책자문단 구성 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-06-30",
+    "repealed_on": "2025-06-30",
+    "repealed_on_raw": "20250630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2053139&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1977003",
+    "name": "음성군 청소년수련원 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-07",
+    "repealed_on": "2024-10-07",
+    "repealed_on_raw": "20241007",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1977003&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1976997",
+    "name": "음성군 청소년수련원 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-10-07",
+    "repealed_on": "2024-10-07",
+    "repealed_on_raw": "20241007",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1976997&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1962527",
+    "name": "음성군 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-08-05",
+    "repealed_on": "2024-08-05",
+    "repealed_on_raw": "20240805",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1962527&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1962525",
+    "name": "음성군 주민자치센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-08-05",
+    "repealed_on": "2024-08-05",
+    "repealed_on_raw": "20240805",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1962525&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1876781",
+    "name": "음성군명예읍면장조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-25",
+    "repealed_on": "2023-09-25",
+    "repealed_on_raw": "20230925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1876781&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1805945",
+    "name": "음성군 산업단지 조성과 분양 · 임대에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-05",
+    "repealed_on": "2023-04-05",
+    "repealed_on_raw": "20230405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1805945&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1805711",
+    "name": "음성군 산업단지 폐수종말처리장 위탁운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-05",
+    "repealed_on": "2023-04-05",
+    "repealed_on_raw": "20230405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1805711&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1797911",
+    "name": "음성군 여성회관 설치 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-05",
+    "repealed_on": "2023-04-05",
+    "repealed_on_raw": "20230405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1797911&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1756717",
+    "name": "음성군 노인복지기금설치 및 운용관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-15",
+    "repealed_on": "2023-01-01",
+    "repealed_on_raw": "20230101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1756717&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1756701",
+    "name": "음성군 노인복지기금설치 및 운용관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-15",
+    "repealed_on": "2023-01-01",
+    "repealed_on_raw": "20230101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1756701&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1756703",
+    "name": "음성군 양성평등 기본 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-15",
+    "repealed_on": "2023-01-01",
+    "repealed_on_raw": "20230101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1756703&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1756707",
+    "name": "음성군 청소년육성기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-15",
+    "repealed_on": "2022-12-15",
+    "repealed_on_raw": "20221215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1756707&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1756699",
+    "name": "음성군 청소년육성기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-15",
+    "repealed_on": "2022-12-15",
+    "repealed_on_raw": "20221215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1756699&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1755185",
+    "name": "음성군 오선일반산업단지 주식회사 출자 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-05",
+    "repealed_on": "2022-12-05",
+    "repealed_on_raw": "20221205",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1755185&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1656763",
+    "name": "음성군 주민의 조례제정 및 개폐청구 연서 주민수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-27",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1656763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1656769",
+    "name": "음성군 농촌총각 국제결혼 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-27",
+    "repealed_on": "2021-12-27",
+    "repealed_on_raw": "20211227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1656769&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1638231",
+    "name": "음성군 가로수 조성 및 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-05",
+    "repealed_on": "2021-11-05",
+    "repealed_on_raw": "20211105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1638231&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1638247",
+    "name": "음성군 교복구입비 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-05",
+    "repealed_on": "2021-11-05",
+    "repealed_on_raw": "20211105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1638247&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1638243",
+    "name": "음성군 도시림등의 조성ㆍ관리심의위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-05",
+    "repealed_on": "2021-11-05",
+    "repealed_on_raw": "20211105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1638243&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1568637",
+    "name": "음성군의회에 출석·답변할 수 있는 관계공무원의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-01-05",
+    "repealed_on": "2021-01-05",
+    "repealed_on_raw": "20210105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1568637&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1568635",
+    "name": "음성군의회 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-01-05",
+    "repealed_on": "2021-01-05",
+    "repealed_on_raw": "20210105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1568635&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1568641",
+    "name": "음성군의회 회기와 그 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-01-05",
+    "repealed_on": "2021-01-05",
+    "repealed_on_raw": "20210105",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1568641&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1422985",
+    "name": "음성군 도로무단점용자에 대한 과태료 부과 징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-07-27",
+    "repealed_on": "2020-07-27",
+    "repealed_on_raw": "20200727",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422985&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1502961",
+    "name": "음성군 보도구역 내 횡단차도 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-06-05",
+    "repealed_on": "2020-06-05",
+    "repealed_on_raw": "20200605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1502961&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1432297",
+    "name": "음성군 사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-16",
+    "repealed_on": "2019-12-16",
+    "repealed_on_raw": "20191216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1432297&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1421049",
+    "name": "음성군 도로명주소에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-15",
+    "repealed_on": "2019-11-15",
+    "repealed_on_raw": "20191115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1421049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1411934",
+    "name": "음성군 가격등의 표시에 대한 과태료 부과 징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-10-07",
+    "repealed_on": "2019-10-07",
+    "repealed_on_raw": "20191007",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1411934&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1411933",
+    "name": "음성군 도로관리심의회 설치 및 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-10-07",
+    "repealed_on": "2019-10-07",
+    "repealed_on_raw": "20191007",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1411933&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1410078",
+    "name": "음성군 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-09-25",
+    "repealed_on": "2019-09-25",
+    "repealed_on_raw": "20190925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1410078&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 3,
+   "sentinel_99991231": 3
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "43770"
+ ]
+}

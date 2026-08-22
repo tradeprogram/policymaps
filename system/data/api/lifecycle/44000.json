@@ -1,0 +1,710 @@
+{
+ "data": {
+  "region": {
+   "region_id": "44",
+   "sig_cd": "44000",
+   "name": "충청남도",
+   "full_name": "충청남도",
+   "level": 1
+  },
+  "counts": {
+   "total": 1388,
+   "active": 1179,
+   "repealed": 209,
+   "by_rr_cls_cd": {
+    "일부개정": 702,
+    "전부개정": 59,
+    "제정": 418,
+    "폐지": 209
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1996,
+    "n": 4
+   },
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 11
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 11
+   },
+   {
+    "year": 2013,
+    "n": 13
+   },
+   {
+    "year": 2014,
+    "n": 14
+   },
+   {
+    "year": 2015,
+    "n": 22
+   },
+   {
+    "year": 2016,
+    "n": 19
+   },
+   {
+    "year": 2017,
+    "n": 26
+   },
+   {
+    "year": 2018,
+    "n": 19
+   },
+   {
+    "year": 2019,
+    "n": 56
+   },
+   {
+    "year": 2020,
+    "n": 60
+   },
+   {
+    "year": 2021,
+    "n": 101
+   },
+   {
+    "year": 2022,
+    "n": 79
+   },
+   {
+    "year": 2023,
+    "n": 249
+   },
+   {
+    "year": 2024,
+    "n": 224
+   },
+   {
+    "year": 2025,
+    "n": 243
+   },
+   {
+    "year": 2026,
+    "n": 212
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 5
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 9
+   },
+   {
+    "year": 2011,
+    "n": 6
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 10
+   },
+   {
+    "year": 2014,
+    "n": 10
+   },
+   {
+    "year": 2015,
+    "n": 14
+   },
+   {
+    "year": 2016,
+    "n": 7
+   },
+   {
+    "year": 2017,
+    "n": 19
+   },
+   {
+    "year": 2018,
+    "n": 5
+   },
+   {
+    "year": 2019,
+    "n": 10
+   },
+   {
+    "year": 2020,
+    "n": 18
+   },
+   {
+    "year": 2021,
+    "n": 14
+   },
+   {
+    "year": 2022,
+    "n": 4
+   },
+   {
+    "year": 2023,
+    "n": 40
+   },
+   {
+    "year": 2024,
+    "n": 11
+   },
+   {
+    "year": 2025,
+    "n": 6
+   },
+   {
+    "year": 2026,
+    "n": 4
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례ㆍ규칙등공포에관한조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "주민의조례제정및개폐청구에관한조례",
+    "display_name": "주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "제안규칙",
+    "display_name": "제안규칙",
+    "rows": 1,
+    "nationwide_regions": 53
+   },
+   {
+    "policy_key": "생활체육진흥조례",
+    "display_name": "생활체육진흥 조례",
+    "rows": 1,
+    "nationwide_regions": 50
+   },
+   {
+    "policy_key": "금연환경조성및지원에관한조례",
+    "display_name": "금연환경 조성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "지방공무원정원조례",
+    "display_name": "지방공무원 정원 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "의회위원회조례",
+    "display_name": "의회 위원회 조례",
+    "rows": 1,
+    "nationwide_regions": 47
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례시행규칙",
+    "display_name": "통합관리기금 설치 및 운용 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 40
+   },
+   {
+    "policy_key": "의안의비용추계에관한조례",
+    "display_name": "의안의 비용추계에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 39
+   },
+   {
+    "policy_key": "의회정례회의운영에관한조례",
+    "display_name": "의회정례회의운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "소송사건수행증인등의실비변상조례",
+    "display_name": "소송사건수행증인등의실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:810456",
+    "name": "충청남도지방별정직공무원인사관리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2010-11-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=810456&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2159391",
+    "name": "충청남도 서해안기후환경연구소 설치 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-08-10",
+    "repealed_on": "2026-08-10",
+    "repealed_on_raw": "20260810",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2159391&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2148679",
+    "name": "충청남도 코로나바이러스감염증-19 도민 상생지원금 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-07-10",
+    "repealed_on": "2026-07-10",
+    "repealed_on_raw": "20260710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2148679&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2142121",
+    "name": "충청남도의회 의원정책개발 연구용역 운영.관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-06-30",
+    "repealed_on": "2026-07-01",
+    "repealed_on_raw": "20260701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142121&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2142123",
+    "name": "충청남도의회 정책위원회 설치.운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-06-30",
+    "repealed_on": "2026-07-01",
+    "repealed_on_raw": "20260701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2142123&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2100981",
+    "name": "충청남도 민간기록물 수집 및 관리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-30",
+    "repealed_on": "2025-12-30",
+    "repealed_on_raw": "20251230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2100981&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2074443",
+    "name": "충청남도지역보건의료심의위원회설치운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-30",
+    "repealed_on": "2025-09-30",
+    "repealed_on_raw": "20250930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2074443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2036475",
+    "name": "충청남도 외국인주민 및 다문화가족 지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-12",
+    "repealed_on": "2025-05-12",
+    "repealed_on_raw": "20250512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2036475&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2020295",
+    "name": "충청남도 보호대상아동 자립 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-10",
+    "repealed_on": "2025-03-10",
+    "repealed_on_raw": "20250310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2020295&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2020259",
+    "name": "충청남도 중장년 여성 일자리 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-10",
+    "repealed_on": "2025-03-10",
+    "repealed_on_raw": "20250310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2020259&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2020255",
+    "name": "충청남도 도청소재 도시건설 특별회계 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-03-10",
+    "repealed_on": "2025-03-10",
+    "repealed_on_raw": "20250310",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2020255&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2004121",
+    "name": "충청남도 공동생활가정 설치 및 운영 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2004121&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2003831",
+    "name": "충청남도 위원회 위원 수당 및 여비 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2003831&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2004093",
+    "name": "충청남도 체불임금 없는 관급공사 운영을 위한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2004093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2041555",
+    "name": "충청남도 과학기술진흥 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-12-30",
+    "repealed_on": "2024-12-30",
+    "repealed_on_raw": "20241230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2041555&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1974155",
+    "name": "2027하계유니버시아드대회 충청권(충청남도·대전광역시·세종특별자치시·충청북도)공동유치위원회 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-30",
+    "repealed_on": "2024-09-30",
+    "repealed_on_raw": "20240930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974155&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1974147",
+    "name": "충청남도 소통협력공간 조성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-30",
+    "repealed_on": "2024-09-30",
+    "repealed_on_raw": "20240930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974147&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1974151",
+    "name": "충청남도 시민사회 활성화와 공익활동 증진에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-30",
+    "repealed_on": "2024-09-30",
+    "repealed_on_raw": "20240930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1974151&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937237",
+    "name": "충청남도 의용소방대원 자녀장학금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-06-10",
+    "repealed_on": "2024-06-10",
+    "repealed_on_raw": "20240610",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937237&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1919229",
+    "name": "충청남도사전재해영향성검토위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-04-05",
+    "repealed_on": "2024-04-05",
+    "repealed_on_raw": "20240405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1919229&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1915007",
+    "name": "충청남도 사회적경제제품 구매촉진 및 판로지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-20",
+    "repealed_on": "2024-02-20",
+    "repealed_on_raw": "20240220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1915007&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1908621",
+    "name": "충청남도 재단법인 계룡세계군문화엑스포조직위원회 설립 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-02-20",
+    "repealed_on": "2024-02-20",
+    "repealed_on_raw": "20240220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1908621&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896905",
+    "name": "충청남도 6·25전쟁 납북피해 진상규명 및 납북피해자 명예회복 실무위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896905&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896971",
+    "name": "충청남도 공공건축물의 소방시설공사 분리발주에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896971&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896915",
+    "name": "충청남도 도민안전보험 가입 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896915&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896969",
+    "name": "충청남도 도청 이전 신도시 보상추진협의회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896969&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896853",
+    "name": "충청남도 발광다이오드(LED)조명 보급 촉진에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896853&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896877",
+    "name": "충청남도 스포츠인권 보호 및 증진에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896877&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896865",
+    "name": "충청남도 어린이놀이시설 안전관리 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896865&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896957",
+    "name": "충청남도 의용소방대원 자녀장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896957&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896981",
+    "name": "충청남도 자동차관리사업 등록기준에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896981&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896913",
+    "name": "충청남도재난안전연구센터 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896913&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896973",
+    "name": "충청남도 주한미군 공여구역주변지역 등 발전위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896973&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896921",
+    "name": "충청남도 지역치안협의회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896921&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896941",
+    "name": "충청남도 청년농수산인등의 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896941&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896879",
+    "name": "충청남도 체육진흥기금 설치 및 운용에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896879&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1896959",
+    "name": "충청남도 특화거리 조성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1896959&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873191",
+    "name": "충청남도구조대구조장비보유규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873191&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873181",
+    "name": "충청남도국제자문역위촉기준등에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873181&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873189",
+    "name": "충청남도 자동차 운수사업에 관한 과징금 징수규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-10",
+    "repealed_on": "2023-11-10",
+    "repealed_on_raw": "20231110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873189&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 1,
+   "sentinel_99991231": 1
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "44000"
+ ]
+}

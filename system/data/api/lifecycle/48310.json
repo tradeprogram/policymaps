@@ -1,0 +1,770 @@
+{
+ "data": {
+  "region": {
+   "region_id": "48310",
+   "sig_cd": "48310",
+   "name": "거제시",
+   "full_name": "경상남도 거제시",
+   "level": 2
+  },
+  "counts": {
+   "total": 889,
+   "active": 675,
+   "repealed": 214,
+   "by_rr_cls_cd": {
+    "일부개정": 431,
+    "전부개정": 33,
+    "제정": 211,
+    "폐지": 214
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1995,
+    "n": 11
+   },
+   {
+    "year": 1996,
+    "n": 3
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 12
+   },
+   {
+    "year": 1999,
+    "n": 20
+   },
+   {
+    "year": 2000,
+    "n": 5
+   },
+   {
+    "year": 2001,
+    "n": 4
+   },
+   {
+    "year": 2003,
+    "n": 7
+   },
+   {
+    "year": 2004,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 7
+   },
+   {
+    "year": 2007,
+    "n": 8
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 8
+   },
+   {
+    "year": 2010,
+    "n": 9
+   },
+   {
+    "year": 2011,
+    "n": 14
+   },
+   {
+    "year": 2012,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 13
+   },
+   {
+    "year": 2014,
+    "n": 12
+   },
+   {
+    "year": 2015,
+    "n": 35
+   },
+   {
+    "year": 2016,
+    "n": 34
+   },
+   {
+    "year": 2017,
+    "n": 27
+   },
+   {
+    "year": 2018,
+    "n": 19
+   },
+   {
+    "year": 2019,
+    "n": 28
+   },
+   {
+    "year": 2020,
+    "n": 43
+   },
+   {
+    "year": 2021,
+    "n": 44
+   },
+   {
+    "year": 2022,
+    "n": 77
+   },
+   {
+    "year": 2023,
+    "n": 98
+   },
+   {
+    "year": 2024,
+    "n": 102
+   },
+   {
+    "year": 2025,
+    "n": 151
+   },
+   {
+    "year": 2026,
+    "n": 76
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1995,
+    "n": 10
+   },
+   {
+    "year": 1996,
+    "n": 3
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 10
+   },
+   {
+    "year": 1999,
+    "n": 20
+   },
+   {
+    "year": 2000,
+    "n": 5
+   },
+   {
+    "year": 2001,
+    "n": 4
+   },
+   {
+    "year": 2003,
+    "n": 7
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 7
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 7
+   },
+   {
+    "year": 2011,
+    "n": 12
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 10
+   },
+   {
+    "year": 2014,
+    "n": 5
+   },
+   {
+    "year": 2015,
+    "n": 7
+   },
+   {
+    "year": 2016,
+    "n": 10
+   },
+   {
+    "year": 2017,
+    "n": 6
+   },
+   {
+    "year": 2018,
+    "n": 5
+   },
+   {
+    "year": 2019,
+    "n": 6
+   },
+   {
+    "year": 2020,
+    "n": 7
+   },
+   {
+    "year": 2021,
+    "n": 6
+   },
+   {
+    "year": 2022,
+    "n": 10
+   },
+   {
+    "year": 2023,
+    "n": 1
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 9
+   },
+   {
+    "year": 2026,
+    "n": 7
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회조직운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과ㆍ징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:701796",
+    "name": "거제시공영개발사업설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "2007-01-08",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=701796&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:701792",
+    "name": "거제시공영개발사업소설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "1998-09-14",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=701792&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:701794",
+    "name": "거제시공영개발사업소직제조례",
+    "ord_kind": "조례",
+    "enacted_on": "1995-03-24",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=701794&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:721885",
+    "name": "거제시시설관리공단 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-01-13",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=721885&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:677952",
+    "name": "거제시시설관리공단이사장추천위원회설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-12-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=677952&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:697241",
+    "name": "거제시재정운영상황의공개조례",
+    "ord_kind": "조례",
+    "enacted_on": "2006-05-03",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=697241&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:697820",
+    "name": "거제시공영개발사업소직제규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "1998-09-14",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=697820&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:668062",
+    "name": "거제시재정운영상황의공개조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-06-26",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=668062&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:702033",
+    "name": "거제시정평가위원회구성및운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2004-11-10",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=702033&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:701777",
+    "name": "거제시주요업무의심사평가및조정에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2004-11-10",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=701777&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133953",
+    "name": "거제시 대대 이전 및 양여부지 개발사업 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-06-25",
+    "repealed_on": "2026-06-25",
+    "repealed_on_raw": "20260625",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133953&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133925",
+    "name": "거제시 무연고 사망자 등의 장례 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-06-25",
+    "repealed_on": "2026-06-25",
+    "repealed_on_raw": "20260625",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133925&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2133935",
+    "name": "거제시 청렴공무원상 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-06-25",
+    "repealed_on": "2026-06-25",
+    "repealed_on_raw": "20260625",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2133935&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2120815",
+    "name": "거제시 면종합복지회관 설치 및 운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-09",
+    "repealed_on": "2026-04-09",
+    "repealed_on_raw": "20260409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2120815&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2115189",
+    "name": "거제시 건설공사 준공표지 설치에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-12",
+    "repealed_on": "2026-03-12",
+    "repealed_on_raw": "20260312",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115189&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2115153",
+    "name": "거제시민헌장에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-12",
+    "repealed_on": "2026-03-12",
+    "repealed_on_raw": "20260312",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2115153&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2112767",
+    "name": "거제시 정책실명제 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-02-26",
+    "repealed_on": "2026-02-26",
+    "repealed_on_raw": "20260226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2112767&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2085919",
+    "name": "거제시 먹거리통합지원센터 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-13",
+    "repealed_on": "2025-11-13",
+    "repealed_on_raw": "20251113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2085919&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2085893",
+    "name": "거제시 화장장려금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-13",
+    "repealed_on": "2025-11-13",
+    "repealed_on_raw": "20251113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2085893&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2081403",
+    "name": "거제시 교복 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-09-25",
+    "repealed_on": "2025-09-25",
+    "repealed_on_raw": "20250925",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2081403&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2054685",
+    "name": "거제시 리개발위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-10",
+    "repealed_on": "2025-07-10",
+    "repealed_on_raw": "20250710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2054685&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2035541",
+    "name": "거제시 거북선 관리 및 위탁 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-08",
+    "repealed_on": "2025-05-08",
+    "repealed_on_raw": "20250508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2035541&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2035533",
+    "name": "거제시 승용차요일제 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-08",
+    "repealed_on": "2025-05-08",
+    "repealed_on_raw": "20250508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2035533&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2035537",
+    "name": "거제시 장목관광지 조성사업 보상 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-08",
+    "repealed_on": "2025-05-08",
+    "repealed_on_raw": "20250508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2035537&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2035543",
+    "name": "거제시 재능나눔 활성화 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-08",
+    "repealed_on": "2025-05-08",
+    "repealed_on_raw": "20250508",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2035543&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2031857",
+    "name": "거제시 학교급식 식품비 지원에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-04-24",
+    "repealed_on": "2025-04-24",
+    "repealed_on_raw": "20250424",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2031857&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2003371",
+    "name": "거제시의회 포상 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-12-26",
+    "repealed_on": "2024-12-26",
+    "repealed_on_raw": "20241226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2003371&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1988181",
+    "name": "거제시 농산물 이용촉진 등 농산물 직거래 활성화에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-21",
+    "repealed_on": "2024-11-21",
+    "repealed_on_raw": "20241121",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1988181&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1794093",
+    "name": "거제시 새로운 거제 추진위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-03-30",
+    "repealed_on": "2023-03-30",
+    "repealed_on_raw": "20230330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1794093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1764135",
+    "name": "거제시 국제화추진위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-27",
+    "repealed_on": "2022-12-27",
+    "repealed_on_raw": "20221227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1764135&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1764137",
+    "name": "거제시 농·어촌거주 미혼남성 국제결혼 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-27",
+    "repealed_on": "2022-12-27",
+    "repealed_on_raw": "20221227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1764137&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1740269",
+    "name": "거제시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-20",
+    "repealed_on": "2022-10-20",
+    "repealed_on_raw": "20221020",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1740269&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1722639",
+    "name": "거제시 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-11",
+    "repealed_on": "2022-08-11",
+    "repealed_on_raw": "20220811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1722639&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1722645",
+    "name": "거제시 살기좋은 마을만들기 지원조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-11",
+    "repealed_on": "2022-08-11",
+    "repealed_on_raw": "20220811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1722645&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1715189",
+    "name": "거제시 다문화가족 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-07-07",
+    "repealed_on": "2022-07-07",
+    "repealed_on_raw": "20220707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1715189&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1698065",
+    "name": "거제섬꽃축제 입장료 징수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-14",
+    "repealed_on": "2022-04-14",
+    "repealed_on_raw": "20220414",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1698065&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1655271",
+    "name": "거제시 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-29",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1655271&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1655297",
+    "name": "거제시 지방보조금 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-29",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1655297&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1655299",
+    "name": "거제시 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-29",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1655299&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1626901",
+    "name": "거제시 아동복지심의위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-24",
+    "repealed_on": "2021-09-24",
+    "repealed_on_raw": "20210924",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626901&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 10,
+   "sentinel_99991231": 10
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "48310"
+ ]
+}

@@ -1,0 +1,706 @@
+{
+ "data": {
+  "region": {
+   "region_id": "52110",
+   "sig_cd": "52110",
+   "name": "전주시",
+   "full_name": "전북특별자치도 전주시",
+   "level": 2
+  },
+  "counts": {
+   "total": 878,
+   "active": 747,
+   "repealed": 131,
+   "by_rr_cls_cd": {
+    "일부개정": 445,
+    "전부개정": 78,
+    "제정": 224,
+    "폐지": 131
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1980,
+    "n": 1
+   },
+   {
+    "year": 1992,
+    "n": 1
+   },
+   {
+    "year": 1997,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 9
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 11
+   },
+   {
+    "year": 2012,
+    "n": 19
+   },
+   {
+    "year": 2013,
+    "n": 9
+   },
+   {
+    "year": 2014,
+    "n": 26
+   },
+   {
+    "year": 2015,
+    "n": 39
+   },
+   {
+    "year": 2016,
+    "n": 26
+   },
+   {
+    "year": 2017,
+    "n": 13
+   },
+   {
+    "year": 2018,
+    "n": 8
+   },
+   {
+    "year": 2019,
+    "n": 28
+   },
+   {
+    "year": 2020,
+    "n": 47
+   },
+   {
+    "year": 2021,
+    "n": 47
+   },
+   {
+    "year": 2022,
+    "n": 65
+   },
+   {
+    "year": 2023,
+    "n": 152
+   },
+   {
+    "year": 2024,
+    "n": 108
+   },
+   {
+    "year": 2025,
+    "n": 216
+   },
+   {
+    "year": 2026,
+    "n": 35
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 11
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 19
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 10
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2020,
+    "n": 8
+   },
+   {
+    "year": 2021,
+    "n": 3
+   },
+   {
+    "year": 2022,
+    "n": 10
+   },
+   {
+    "year": 2023,
+    "n": 9
+   },
+   {
+    "year": 2024,
+    "n": 4
+   },
+   {
+    "year": 2025,
+    "n": 7
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로 무단점용자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과·징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법위반자에대한과태료부과ㆍ징수조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금설치및운용조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "호적과태료부과징수조례",
+    "display_name": "호적과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 62
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한과태료부과징수규칙",
+    "display_name": "부동산중개업법위반자에대한과태료부과·징수규칙",
+    "rows": 1,
+    "nationwide_regions": 59
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:784134",
+    "name": "전주시부동산중개업분쟁조정위원회설치및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=784134&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:783152",
+    "name": "전주시소규모농지개량사업분담금부과징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=783152&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:781353",
+    "name": "전주시지역의료보험운영협조를위한조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=781353&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2154237",
+    "name": "전주시 먹는물 수질검사기관 운영 및 검사수수료 징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-07-30",
+    "repealed_on": "2026-07-30",
+    "repealed_on_raw": "20260730",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2154237&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2097861",
+    "name": "전주시도시계획송천지구토지구획정리사업시행조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-26",
+    "repealed_on": "2025-12-26",
+    "repealed_on_raw": "20251226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2097861&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2045255",
+    "name": "전주시 성매매피해자등의 자활지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-06-24",
+    "repealed_on": "2025-06-24",
+    "repealed_on_raw": "20250624",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2045255&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2019081",
+    "name": "전주시 시민생활 안전을 위한 치안협의회 설치.운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-07",
+    "repealed_on": "2025-03-07",
+    "repealed_on_raw": "20250307",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2019081&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018181",
+    "name": "전주시립요양병원 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-02-28",
+    "repealed_on": "2025-02-28",
+    "repealed_on_raw": "20250228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018181&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018173",
+    "name": "전주시시정모니터설치규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-02-28",
+    "repealed_on": "2025-02-28",
+    "repealed_on_raw": "20250228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018173&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018175",
+    "name": "전주시주택임대차계약서확정일자부여업무처리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-02-28",
+    "repealed_on": "2025-02-28",
+    "repealed_on_raw": "20250228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018175&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1939093",
+    "name": "전주시 건강가정지원센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-14",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1939093&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1952241",
+    "name": "전주시 안전관리민관협력위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-09",
+    "repealed_on": "2024-07-09",
+    "repealed_on_raw": "20240709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1952241&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1952239",
+    "name": "전주시 안전도시 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-09",
+    "repealed_on": "2024-07-09",
+    "repealed_on_raw": "20240709",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1952239&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1938805",
+    "name": "전주시 빈집 정비 지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-14",
+    "repealed_on": "2024-06-14",
+    "repealed_on_raw": "20240614",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1938805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1912805",
+    "name": "전주시 청렴 시민감시관 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-15",
+    "repealed_on": "2024-03-15",
+    "repealed_on_raw": "20240315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912805&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1886467",
+    "name": "전주시 야호학교 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-20",
+    "repealed_on": "2023-12-20",
+    "repealed_on_raw": "20231220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1886467&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1871487",
+    "name": "전주시공무원직장협의회의설립·운영에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-09",
+    "repealed_on": "2023-11-09",
+    "repealed_on_raw": "20231109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871487&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1871521",
+    "name": "전주시도로사업비지방채조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-09",
+    "repealed_on": "2023-11-09",
+    "repealed_on_raw": "20231109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1871517",
+    "name": "전주시 주택사업특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-09",
+    "repealed_on": "2023-11-09",
+    "repealed_on_raw": "20231109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871517&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1871465",
+    "name": "전주시공무원직장협의회의설립·운영에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-09",
+    "repealed_on": "2023-11-09",
+    "repealed_on_raw": "20231109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871465&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1871485",
+    "name": "전주시도로사업비지방채조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-09",
+    "repealed_on": "2023-11-09",
+    "repealed_on_raw": "20231109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1871485&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1841219",
+    "name": "전주시도시계획사업구역정리분담금징수조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-25",
+    "repealed_on": "2023-07-25",
+    "repealed_on_raw": "20230725",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1841219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1838325",
+    "name": "전주시 유아를 위한 도서관 교육 권고 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-13",
+    "repealed_on": "2023-07-13",
+    "repealed_on_raw": "20230713",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1838325&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1801933",
+    "name": "전주시 주민자율방범대 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-10",
+    "repealed_on": "2023-04-27",
+    "repealed_on_raw": "20230427",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1801933&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1763861",
+    "name": "전주시 화재취약계층 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-23",
+    "repealed_on": "2022-12-23",
+    "repealed_on_raw": "20221223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1763861&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1750627",
+    "name": "전주시 폐기물처리시설 설치촉진·운영 및 주변지역지원 등에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-24",
+    "repealed_on": "2022-11-24",
+    "repealed_on_raw": "20221124",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1750627&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1748159",
+    "name": "전주시 금연환경 조성 및 간접흡연 피해 방지 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-15",
+    "repealed_on": "2022-11-15",
+    "repealed_on_raw": "20221115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1748159&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1748155",
+    "name": "전주시 생활임금 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-11-15",
+    "repealed_on": "2022-11-15",
+    "repealed_on_raw": "20221115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1748155&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1743717",
+    "name": "완주ㆍ전주 상생발전을 위한 민간활동 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-04",
+    "repealed_on": "2022-11-04",
+    "repealed_on_raw": "20221104",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1743717&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1727803",
+    "name": "전주시 바이전주우수상품 이용 활성화 및 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-09-15",
+    "repealed_on": "2022-09-15",
+    "repealed_on_raw": "20220915",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1727803&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1714439",
+    "name": "전주시 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-06-30",
+    "repealed_on": "2022-06-30",
+    "repealed_on_raw": "20220630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1714439&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1692917",
+    "name": "전주시농업기계순회수리봉사반설치운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-03-30",
+    "repealed_on": "2022-03-30",
+    "repealed_on_raw": "20220330",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1692917&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1690897",
+    "name": "전주시 한국탄소융합기술원 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-03-15",
+    "repealed_on": "2022-03-15",
+    "repealed_on_raw": "20220315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1690897&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1652241",
+    "name": "전주시 조례의 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-22",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1652241&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1626763",
+    "name": "전주시탈세정보교부금지급규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-09-24",
+    "repealed_on": "2021-09-24",
+    "repealed_on_raw": "20210924",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1626763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1580433",
+    "name": "전주시 금융복지상담소 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-18",
+    "repealed_on": "2021-03-18",
+    "repealed_on_raw": "20210318",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1580433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1572553",
+    "name": "전주시 근로자종합복지관 설치 및 운영조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-01-29",
+    "repealed_on": "2021-01-29",
+    "repealed_on_raw": "20210129",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1572553&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2015421",
+    "name": "전주시 성매매피해자등의 자활지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2015421&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1563897",
+    "name": "전주시 수도사업 설치 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1563897&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1549495",
+    "name": "전주시도시계획송천지구토지구획정리사업환지규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-30",
+    "repealed_on": "2020-11-30",
+    "repealed_on_raw": "20201130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1549495&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 3,
+   "sentinel_99991231": 3
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "52110"
+ ]
+}

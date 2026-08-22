@@ -1,0 +1,613 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:265327",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "농어촌 등 보건의료를 위한 특별조치법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20250321",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=265327&type=HTML&mobileYn=&efYd=20250321",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 477,
+   "child_ordinances": 413,
+   "by_verification_status": {
+    "article-missing": 1,
+    "article-verified": 343,
+    "unverifiable": 133
+   },
+   "by_delegation_type": {
+    "law-delegated": 477
+   },
+   "regions_top": [
+    {
+     "region_id": "41820",
+     "name": "경기도 가평군",
+     "ordinances": 7
+    },
+    {
+     "region_id": "28155",
+     "name": "인천광역시 영종구",
+     "ordinances": 6
+    },
+    {
+     "region_id": "51730",
+     "name": "강원특별자치도 횡성군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "47770",
+     "name": "경상북도 영덕군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "47250",
+     "name": "경상북도 상주시",
+     "ordinances": 5
+    },
+    {
+     "region_id": "41830",
+     "name": "경기도 양평군",
+     "ordinances": 5
+    },
+    {
+     "region_id": "52800",
+     "name": "전북특별자치도 부안군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "52730",
+     "name": "전북특별자치도 무주군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "51800",
+     "name": "강원특별자치도 양구군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "51780",
+     "name": "강원특별자치도 철원군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "51110",
+     "name": "강원특별자치도 춘천시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48870",
+     "name": "경상남도 함양군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48860",
+     "name": "경상남도 산청군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48330",
+     "name": "경상남도 양산시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48170",
+     "name": "경상남도 진주시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "48120",
+     "name": "경상남도 창원시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47760",
+     "name": "경상북도 영양군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "47190",
+     "name": "경상북도 구미시",
+     "ordinances": 4
+    },
+    {
+     "region_id": "44825",
+     "name": "충청남도 태안군",
+     "ordinances": 4
+    },
+    {
+     "region_id": "44770",
+     "name": "충청남도 서천군",
+     "ordinances": 4
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 농어촌 등 보건의료 취약지역의 주민 등에게 보건의료를 효율적으로 제공함으로써 국민이 고르게 의료혜택을 받게 하고 국민의 보건을 향상시키는 데에 이바지함을 목적으로 한다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"공중보건의사\"란 공중보건업무에 종사하게 하기 위하여 「병역법」 제34조제1항에 따라 공중보건의사에 편입된 의사ㆍ치과의사 또는 한의사로서 보건복지부장관으로부터 공중보건업무에 종사할 것을 명령받은 사람을 말한다.\n2. \"공중보건업무\"란 제5조의2제1항 각 호에 따른 기관 또는 시설에서 수행하는 보건의료업",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "공중보건의사의 신분",
+    "body": "제3조(공중보건의사의 신분)\n① 공중보건의사는 「국가공무원법」 제26조의5에 따른 임기제공무원으로 한다. <개정 2012.12.11>\n② 공중보건의사가 제5조제1항에 따라 보건복지부장관의 종사명령을 받은 경우에는 「국가공무원법」 제26조의5에 따른 임기제공무원으로 임용된 것으로 본다. <개정 2012.12.11>",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": "2",
+    "title": "결격사유",
+    "body": "제3조의2(결격사유)\n「국가공무원법」 제33조 각 호의 어느 하나에 해당하는 사람은 공중보건의사로 임용될 수 없다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0003021"
+   },
+   {
+    "article_no": "3",
+    "article_branch": "3",
+    "title": "공중보건의사의 수급관리 및 실태조사",
+    "body": "제3조의3(공중보건의사의 수급관리 및 실태조사)\n① 보건복지부장관은 국방부장관과 협의하여 공중보건의사의 적정 수급을 위한 정책을 수립ㆍ시행하여야 한다.\n② 보건복지부장관은 제1항에 따른 정책을 수립하는 경우 공중보건의사의 신규 편입 현황 등을 고려한 장기적인 인력수요 전망을 반영하여야 한다.\n③ 보건복지부장관은 공중보건의",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0003031"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "공중보건의사의 명단 통보",
+    "body": "제4조(공중보건의사의 명단 통보)\n병무청장은 「병역법」 제34조제1항에 따라 공중보건의사에 편입된 의사ㆍ치과의사 또는 한의사의 명단을 보건복지부장관에게 통보하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "종사명령 등",
+    "body": "제5조(종사명령 등)\n① 보건복지부장관은 제4조에 따른 명단 통보를 받으면 지체 없이 해당 의사ㆍ치과의사 또는 한의사에 대하여 근무할 지역ㆍ기관 또는 시설을 정하여 공중보건업무에 종사할 것을 명하고, 이를 해당 광역시장ㆍ특별자치시장ㆍ도지사ㆍ특별자치도지사(이하 \"시ㆍ도지사\"라 한다) 또는 배치기관의 장(보건복지부장관이 직접",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": "2",
+    "title": "공중보건의사의 배치기관 및 배치시설",
+    "body": "제5조의2(공중보건의사의 배치기관 및 배치시설)\n① 제5조제1항 및 제2항에 따라 보건복지부장관 또는 시ㆍ도지사가 공중보건의사를 배치할 수 있는 기관 또는 시설은 다음 각 호와 같다.\n1. 보건소 또는 보건지소\n2. 국가ㆍ지방자치단체 또는 공공단체가 설립ㆍ운영하는 병원으로서 보건복지부장관이 정하는 병원(이하 이 조에서 \"",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0005021"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "근무지역 등의 변경",
+    "body": "제6조(근무지역 등의 변경)\n① 보건복지부장관은 필요하다고 인정하면 공중보건의사의 근무지역 또는 근무기관ㆍ근무시설을 변경할 수 있다. 다만, 같은 광역시ㆍ특별자치시ㆍ도ㆍ특별자치도(이하 \"시ㆍ도\"라 한다) 내 또는 같은 시ㆍ군ㆍ구(자치구를 말한다. 이하 같다) 내에서의 변경은 해당 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장(자치구의",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "파견근무",
+    "body": "제6조의2(파견근무)\n① 보건복지부장관은 감염병 또는 재해 발생 등의 사유로 의료 인력이 긴급히 필요하다고 인정할 때에는 공중보건의사를 다른 지역ㆍ기관 또는 시설에 파견하여 근무하게 할 수 있다. 다만, 같은 시ㆍ도 내 또는 같은 시ㆍ군ㆍ구 내의 파견은 해당 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장이 한다.\n② 제1항 단서에 따",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "의무복무기간",
+    "body": "제7조(의무복무기간)\n① 공중보건의사의 의무복무기간은 「병역법」 제55조에 따라 받는 군사교육소집기간 외에 3년으로 한다. <개정 2016.5.29>\n② 제1항에 따른 의무복무기간을 마친 공중보건의사에 대하여는 「병역법」 제34조제2항에 따라 사회복무요원 복무를 마친 것으로 본다. <개정 2013.6.4>\n③ 보건복지부장",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "직장 이탈 금지",
+    "body": "제8조(직장 이탈 금지)\n① 공중보건의사는 해당 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장 또는 배치기관의 장의 허가 없이 근무시간에 직장을 이탈하여서는 아니 된다.\n② 보건복지부장관, 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장은 다음 각 호의 어느 하나에 해당할 때에는 그 관할구역에 있는 공중보건의사에게 근무지역의 이탈 금지를",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "공중보건의사의 복무",
+    "body": "제9조(공중보건의사의 복무)\n① 공중보건의사는 의무복무기간 동안 공중보건업무에 성실히 종사하여야 하며, 제5조제1항에 따라 부여받은 공중보건업무 외의 업무에 종사하여서는 아니 된다.\n② 보건복지부장관은 공중보건의사가 제8조제1항 및 제2항에 따른 명령을 위반하여 의무복무기간 중 통틀어 7일 이내의 기간 동안 직장을 이탈하",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "2",
+    "title": "신분 상실 및 박탈",
+    "body": "제9조의2(신분 상실 및 박탈)\n① 공중보건의사가 다음 각 호의 어느 하나에 해당하는 경우에는 공중보건의사의 신분을 상실한다.\n1. 「국가공무원법」 제33조 각 호의 어느 하나에 해당하는 경우. 다만, 「국가공무원법」 제33조제5호의 경우에는 같은 법 제69조 단서에 따른다.\n2. 의사ㆍ치과의사ㆍ한의사의 자격을 상실하거나",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0009021"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "3",
+    "title": "청문",
+    "body": "제9조의3(청문)\n보건복지부장관은 제9조의2제2항에 따라 공중보건의사 신분 박탈의 처분을 하려는 경우에는 청문을 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0009031"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "신분조치 통보",
+    "body": "제10조(신분조치 통보)\n보건복지부장관은 공중보건의사가 제9조의2에 따라 신분을 상실하거나 박탈당하였을 때에는 지체 없이 그 명단을 병무청장에게 통보하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "보수 등",
+    "body": "제11조(보수 등)\n① 보건복지부장관은 공중보건의사에게 군인보수의 한도에서 보수를 지급한다. 다만, 제5조의2제1항제5호의 기관 또는 시설 중 「의료법」 제3조에 따라 개설된 민간 의료기관에 배치된 공중보건의사의 보수는 해당 민간 의료기관의 장이 지급한다.\n② 공중보건의사의 수당 및 직무 수행에 필요한 여비 등은 보건복지",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "공중보건의사의 수련",
+    "body": "제12조(공중보건의사의 수련)\n① 보건복지부장관은 공중보건의사에 대하여 1년의 범위에서 전공의 수련을 허가할 수 있다.\n② 제1항에 따른 수련기간은 제7조제1항에 따른 의무복무기간에 산입하지 아니한다.\n③ 공중보건의사의 수련허가신청 등에 필요한 사항은 보건복지부령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": null,
+    "body": "제13조\n삭제 <2000.1.12>",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "복무 감독",
+    "body": "제14조(복무 감독)\n특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수ㆍ구청장 또는 배치기관의 장은 공중보건의사의 복무에 관하여 관할지역 또는 해당 기관에 근무하는 공중보건의사를 지도ㆍ감독한다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "2",
+    "title": null,
+    "body": "제14조의2\n삭제 <2014.1.28>",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0014021"
+   },
+   {
+    "article_no": "14",
+    "article_branch": "3",
+    "title": "공중보건의사 배치의 적정성 평가",
+    "body": "제14조의3(공중보건의사 배치의 적정성 평가)\n① 보건복지부장관은 공중보건의사를 효율적으로 활용하기 위하여 공중보건의사 배치의 적정성을 평가하고 그 결과를 다음 연도의 배치에 반영할 수 있다.\n② 보건복지부장관은 제1항에 따른 평가를 관계 전문기관에 위탁할 수 있다. <개정 2014.1.28>\n③ 보건복지부장관은 제1항에",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0014031"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "보건진료소의 설치ㆍ운영",
+    "body": "제15조(보건진료소의 설치ㆍ운영)\n① 시장[도농복합형태(都農複合形態)의 시의 시장을 말하며, 읍ㆍ면 지역에서 보건진료소를 설치ㆍ운영하는 경우만 해당한다] 또는 군수는 보건의료 취약지역의 주민에게 보건의료를 제공하기 위하여 보건진료소를 설치ㆍ운영한다. 다만, 시ㆍ구의 관할구역의 도서지역에는 해당 시장ㆍ구청장이 보건진료소를 ",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "보건진료 전담공무원의 자격",
+    "body": "제16조(보건진료 전담공무원의 자격)\n① 보건진료 전담공무원은 간호사ㆍ조산사 면허를 가진 사람으로서 보건복지부장관이 실시하는 24주 이상의 직무교육을 받은 사람이어야 한다.\n② 제1항의 직무교육에 필요한 사항은 보건복지부령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "보건진료 전담공무원의 신분 및 임용",
+    "body": "제17조(보건진료 전담공무원의 신분 및 임용)\n① 보건진료 전담공무원은 지방공무원으로 하며, 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수 또는 구청장이 근무지역을 지정하여 임용한다.\n② 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수 또는 구청장은 보건진료 전담공무원이 다음 각 호의 어느 하나에 해당하는 경우에는 그 보건진료 전담공무원을 ",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "보건진료 전담공무원의 보수교육",
+    "body": "제18조(보건진료 전담공무원의 보수교육)\n① 보건복지부장관은 보건진료 전담공무원의 자질 향상을 위하여 필요하다고 인정하면 보수교육(補修敎育)을 받을 것을 명할 수 있다.\n② 제1항의 보수교육의 기간ㆍ내용과 그 밖에 필요한 사항은 보건복지부령으로 정한다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "보건진료 전담공무원의 의료행위의 범위",
+    "body": "제19조(보건진료 전담공무원의 의료행위의 범위)\n보건진료 전담공무원은 「의료법」 제27조에도 불구하고 근무지역으로 지정받은 의료 취약지역에서 대통령령으로 정하는 경미한 의료행위를 할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "보건진료 전담공무원의 관할구역 이탈금지",
+    "body": "제20조(보건진료 전담공무원의 관할구역 이탈금지)\n① 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수 또는 구청장은 다음 각 호의 어느 하나에 해당하는 경우 해당 관할구역의 보건진료 전담공무원에 대하여 관할구역 이탈금지를 명할 수 있다.\n1. 해당 관할구역의 응급환자 처치를 위하여 필요한 때\n2. 해당 관할구역에 「의료법」 제3조에",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "보건진료소운영협의회",
+    "body": "제21조(보건진료소운영협의회)\n① 보건진료소 운영을 원활히 하기 위하여 보건진료소가 설치되어 있는 지역마다 주민으로 구성되는 보건진료소운영협의회를 둔다.\n② 보건진료소운영협의회는 다음의 업무를 수행한다.\n1. 보건진료소의 운영 지원\n2. 보건진료소 운영에 관한 건의\n③ 보건진료소운영협의회의 조직과 운영에 필요한 사항은 해",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "보조금 지급 및 조세 감면",
+    "body": "제22조(보조금 지급 및 조세 감면)\n① 국가ㆍ도 및 특별자치도는 시(도농복합형태의 시를 말하며, 읍ㆍ면 지역에서 보건진료소를 설치ㆍ운영하는 경우만 해당한다)ㆍ군에 보건진료소의 설치비와 부대비의 일부를 보조한다. 이 경우 국고보조금은 설치비와 부대비의 3분의 2 이내로 하고, 도비보조금(道費補助金)은 설치비와 부대비의 3",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "지도ㆍ감독",
+    "body": "제23조(지도ㆍ감독)\n① 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수 또는 구청장은 보건진료소의 업무를 지도ㆍ감독한다.\n② 특별자치시장ㆍ특별자치도지사ㆍ시장ㆍ군수 또는 구청장은 해당 보건소장 또는 보건지소장에게 보건진료 전담공무원의 의료행위를 지도ㆍ감독하게 할 수 있다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "보건진료 전담공무원의 복무",
+    "body": "제24조(보건진료 전담공무원의 복무)\n보건진료 전담공무원의 복무에 관하여는 이 법에서 규정한 사항을 제외하고는 「지방공무원법」에 따른다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "진료비",
+    "body": "제25조(진료비)\n보건진료소의 진료수가기준(診療酬價基準)은 보건복지부장관이 정하는 바에 따른다.",
+    "body_truncated": false,
+    "effective_on": "20240920",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "권한의 위임 또는 업무의 위탁",
+    "body": "제26조(권한의 위임 또는 업무의 위탁)\n① 이 법에 따른 보건복지부장관, 시ㆍ도지사 또는 시장ㆍ군수ㆍ구청장의 권한은 대통령령으로 정하는 바에 따라 그 일부를 시ㆍ도지사, 시장ㆍ군수ㆍ구청장, 배치기관의 장 또는 보건소장에게 위임하거나 위탁할 수 있다.\n② 보건복지부장관은 대통령령으로 정하는 바에 따라 공중보건업무의 일부를",
+    "body_truncated": true,
+    "effective_on": "20240920",
+    "article_key": "0026001"
+   }
+  ],
+  "article_count": 34,
+  "articles_shown": 34,
+  "articles_truncated_bodies": 18,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1015246",
+    "name": "서산시 보건진료소 운영협의회 조례",
+    "region_id": "44210",
+    "org_name": "충청남도 서산시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1015246&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1040600",
+    "name": "영양군 보건진료소운영협의회 조례",
+    "region_id": "47760",
+    "org_name": "경상북도 영양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1040600&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1061556",
+    "name": "춘천시 보건진료소운영협의회 조례",
+    "region_id": "51110",
+    "org_name": "강원특별자치도 춘천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1061556&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1062052",
+    "name": "태안군 보건진료소운영협의회 조례",
+    "region_id": "44825",
+    "org_name": "충청남도 태안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1062052&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1078654",
+    "name": "태안군 공중보건의사 활동장려금 지급에 관한 조례",
+    "region_id": "44825",
+    "org_name": "충청남도 태안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1078654&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1088776",
+    "name": "광주시 보건진료소 운영 협의회 조례",
+    "region_id": "41610",
+    "org_name": "경기도 광주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1088776&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1095464",
+    "name": "보령시 공중보건의사 활동장려금 등 지급 조례",
+    "region_id": "44180",
+    "org_name": "충청남도 보령시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1095464&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1116957",
+    "name": "청주시 행정기구 설치조례(폐지)",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1116957&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1177840",
+    "name": "영광군 보건진료소 운영협의회 운영 조례",
+    "region_id": "12830",
+    "org_name": "전남광주통합특별시 영광군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1177840&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1185733",
+    "name": "이천시 보건진료소 운영지원협의회 조례",
+    "region_id": "41500",
+    "org_name": "경기도 이천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1185733&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1190205",
+    "name": "합천군 보건진료소 운영협의회 조례",
+    "region_id": "48890",
+    "org_name": "경상남도 합천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1190205&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1193571",
+    "name": "단양군 보건진료소 설치 및 운영조례",
+    "region_id": "43800",
+    "org_name": "충청북도 단양군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1193571&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1194491",
+    "name": "남해군 보건진료소운영협의회 조례",
+    "region_id": "48840",
+    "org_name": "경상남도 남해군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1194491&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1227319",
+    "name": "옹진군 보건진료소운영협의회 조례",
+    "region_id": "28720",
+    "org_name": "인천광역시 옹진군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1227319&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1254970",
+    "name": "시흥시 보건진료소운영협의회 조례",
+    "region_id": "41390",
+    "org_name": "경기도 시흥시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1254970&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1257099",
+    "name": "양주시 보건진료소 운영협의회에 관한 조례",
+    "region_id": "41630",
+    "org_name": "경기도 양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1257099&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1259043",
+    "name": "영덕군 보건진료 전담공무원 관할구역의 범위에 관한 조례",
+    "region_id": "47770",
+    "org_name": "경상북도 영덕군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1259043&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1263492",
+    "name": "사천시 보건진료소 운영협의회조례",
+    "region_id": "48240",
+    "org_name": "경상남도 사천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1263492&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1267624",
+    "name": "하동군 보건진료소 진료수가 조례",
+    "region_id": "48850",
+    "org_name": "경상남도 하동군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1267624&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1270532",
+    "name": "창원시 보건진료소 운영협의회에 관한 조례",
+    "region_id": "48120",
+    "org_name": "경상남도 창원시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1270532&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

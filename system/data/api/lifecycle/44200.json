@@ -1,0 +1,710 @@
+{
+ "data": {
+  "region": {
+   "region_id": "44200",
+   "sig_cd": "44200",
+   "name": "아산시",
+   "full_name": "충청남도 아산시",
+   "level": 2
+  },
+  "counts": {
+   "total": 980,
+   "active": 804,
+   "repealed": 176,
+   "by_rr_cls_cd": {
+    "일부개정": 507,
+    "전부개정": 56,
+    "제정": 241,
+    "폐지": 176
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1995,
+    "n": 2
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2000,
+    "n": 2
+   },
+   {
+    "year": 2003,
+    "n": 2
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 4
+   },
+   {
+    "year": 2006,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 20
+   },
+   {
+    "year": 2011,
+    "n": 16
+   },
+   {
+    "year": 2012,
+    "n": 19
+   },
+   {
+    "year": 2013,
+    "n": 8
+   },
+   {
+    "year": 2014,
+    "n": 33
+   },
+   {
+    "year": 2015,
+    "n": 42
+   },
+   {
+    "year": 2016,
+    "n": 43
+   },
+   {
+    "year": 2017,
+    "n": 39
+   },
+   {
+    "year": 2018,
+    "n": 45
+   },
+   {
+    "year": 2019,
+    "n": 49
+   },
+   {
+    "year": 2020,
+    "n": 48
+   },
+   {
+    "year": 2021,
+    "n": 74
+   },
+   {
+    "year": 2022,
+    "n": 87
+   },
+   {
+    "year": 2023,
+    "n": 100
+   },
+   {
+    "year": 2024,
+    "n": 122
+   },
+   {
+    "year": 2025,
+    "n": 132
+   },
+   {
+    "year": 2026,
+    "n": 76
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 15
+   },
+   {
+    "year": 2011,
+    "n": 10
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 6
+   },
+   {
+    "year": 2014,
+    "n": 26
+   },
+   {
+    "year": 2015,
+    "n": 11
+   },
+   {
+    "year": 2016,
+    "n": 13
+   },
+   {
+    "year": 2017,
+    "n": 6
+   },
+   {
+    "year": 2018,
+    "n": 8
+   },
+   {
+    "year": 2019,
+    "n": 5
+   },
+   {
+    "year": 2020,
+    "n": 4
+   },
+   {
+    "year": 2021,
+    "n": 7
+   },
+   {
+    "year": 2022,
+    "n": 6
+   },
+   {
+    "year": 2023,
+    "n": 12
+   },
+   {
+    "year": 2024,
+    "n": 9
+   },
+   {
+    "year": 2025,
+    "n": 9
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금 설치 및 운용 조례",
+    "rows": 2,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "내고향장학회조직운영조례시행규칙",
+    "display_name": "내고향장학회조직운영조례시행규칙",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료 부과징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "가로명에관한조례",
+    "display_name": "가로명에관한조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "주민의조례제정및개폐청구에관한조례",
+    "display_name": "주민의 조례 제정 및 개·폐 청구에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "장수수당지급조례",
+    "display_name": "장수수당 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 56
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:675526",
+    "name": "아산성웅이순신축제위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-01-05",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=675526&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:685464",
+    "name": "아산시 국제화추진협의회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-09-27",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=685464&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:673046",
+    "name": "아산시내고향장학회조직운영조례<폐지 2005.06.07. 조례 제603호>",
+    "ord_kind": "조례",
+    "enacted_on": "2005-06-07",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=673046&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:669508",
+    "name": "아산시 여성발전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-12-15",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=669508&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:677114",
+    "name": "아산시온주종합사회복지회관설치및운영에관한조례<폐지 2007. 5. 7>",
+    "ord_kind": "조례",
+    "enacted_on": "2007-05-07",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=677114&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:681936",
+    "name": "아산시 이순신 종합운동장 운영관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-05-06",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=681936&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:728467",
+    "name": "아산시 인구증가 등을 위한 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-07-27",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=728467&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:727384",
+    "name": "아산시 지방공무원 정원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-09-27",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=727384&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:677019",
+    "name": "아산시지역의료보험운영지원을위한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-03-05",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=677019&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:727899",
+    "name": "아산시청 대강당 대관 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-11-05",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=727899&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:676900",
+    "name": "아산성웅이순신축제위원회 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2011-06-07",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=676900&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:673047",
+    "name": "아산시내고향장학회조직운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-03-05",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=673047&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:725364",
+    "name": "아산시내고향장학회조직운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2005-06-07",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=725364&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1577677",
+    "name": "아산시 새마을 농민 교육원 직제규칙(폐지 2007.02.26  규칙 제350호)",
+    "ord_kind": "규칙",
+    "enacted_on": "2007-02-26",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1577677&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:681938",
+    "name": "아산시 이순신 종합운동장 운영관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2011-05-06",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=681938&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:728228",
+    "name": "아산시 지방공무원 정원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2010-09-27",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=728228&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:727828",
+    "name": "아산시 지방별정직공무원의 범위 및 임용 등에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2011-06-07",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=727828&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2089085",
+    "name": "아산시 주민자치센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-11-25",
+    "repealed_on": "2025-11-25",
+    "repealed_on_raw": "20251125",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2089085&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2079393",
+    "name": "아산시 어린이 안심보험료 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-15",
+    "repealed_on": "2025-10-15",
+    "repealed_on_raw": "20251015",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079393&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2079395",
+    "name": "아산시 주민자치센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-15",
+    "repealed_on": "2025-10-15",
+    "repealed_on_raw": "20251015",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2079395&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2064873",
+    "name": "아산시 3농혁신위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-08-14",
+    "repealed_on": "2025-08-14",
+    "repealed_on_raw": "20250814",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2064873&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2044133",
+    "name": "아산시 대학생아르바이트 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-06-16",
+    "repealed_on": "2025-06-16",
+    "repealed_on_raw": "20250616",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2044133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2039219",
+    "name": "아산시 중소기업경영안정기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-15",
+    "repealed_on": "2025-05-15",
+    "repealed_on_raw": "20250515",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2039219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2038969",
+    "name": "아산시 중소기업경영안정기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-05-15",
+    "repealed_on": "2025-05-15",
+    "repealed_on_raw": "20250515",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2038969&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018609",
+    "name": "아산시 노인보호에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-05",
+    "repealed_on": "2025-03-05",
+    "repealed_on_raw": "20250305",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018609&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018611",
+    "name": "아산시 효행 장려 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-05",
+    "repealed_on": "2025-03-05",
+    "repealed_on_raw": "20250305",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018611&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1993197",
+    "name": "아산시 유비쿼터스도시 기반시설 관리·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-16",
+    "repealed_on": "2024-12-16",
+    "repealed_on_raw": "20241216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1993197&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1968877",
+    "name": "아산시 배방월천지구 도시개발사업 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-19",
+    "repealed_on": "2024-09-19",
+    "repealed_on_raw": "20240919",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1968877&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1968879",
+    "name": "아산 신정호지구 도시개발사업 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-19",
+    "repealed_on": "2024-09-19",
+    "repealed_on_raw": "20240919",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1968879&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1969323",
+    "name": "아산시 배방월천지구 도시개발사업 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-09-19",
+    "repealed_on": "2024-09-19",
+    "repealed_on_raw": "20240919",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1969323&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1969325",
+    "name": "아산 신정호지구 도시개발사업 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-09-19",
+    "repealed_on": "2024-09-19",
+    "repealed_on_raw": "20240919",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1969325&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1956343",
+    "name": "아산시 곡교천 야영장 관리 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-07-15",
+    "repealed_on": "2024-07-15",
+    "repealed_on_raw": "20240715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1956343&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1936017",
+    "name": "아산시 둔포전자정보집적화단지 특수목적법인설립출자심의회 구성 및 운용 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-06-05",
+    "repealed_on": "2024-06-05",
+    "repealed_on_raw": "20240605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1936017&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1912793",
+    "name": "아산시 개발도상국 원조 및 연구단체 등에 대한 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-15",
+    "repealed_on": "2024-03-15",
+    "repealed_on_raw": "20240315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912793&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1912783",
+    "name": "아산시 아동ㆍ여성안전 지역연대 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-15",
+    "repealed_on": "2024-03-15",
+    "repealed_on_raw": "20240315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912783&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1891417",
+    "name": "아산시 기후변화 대응조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-26",
+    "repealed_on": "2023-12-26",
+    "repealed_on_raw": "20231226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891417&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1891421",
+    "name": "아산시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-26",
+    "repealed_on": "2023-12-26",
+    "repealed_on_raw": "20231226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891421&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851477",
+    "name": "아산시 공무원직장협의회의 설립·운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-15",
+    "repealed_on": "2023-09-15",
+    "repealed_on_raw": "20230915",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851477&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851473",
+    "name": "아산시 아기 디엔에이(DNA)카드 발급에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-15",
+    "repealed_on": "2023-09-15",
+    "repealed_on_raw": "20230915",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851473&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1851497",
+    "name": "아산시 재해주택복구자금 융자 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-15",
+    "repealed_on": "2023-09-15",
+    "repealed_on_raw": "20230915",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1851497&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 17,
+   "sentinel_99991231": 17
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "44200"
+ ]
+}

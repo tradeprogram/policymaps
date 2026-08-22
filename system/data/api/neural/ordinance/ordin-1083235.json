@@ -1,0 +1,771 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1083235",
+   "key": "ordin-1083235",
+   "mst": "1083235",
+   "name": "군포시 예산절감 및 예산낭비 사례 등 공개에 관한 조례",
+   "ord_kind": "조례",
+   "region_id": "41410",
+   "sig_cd": "41410",
+   "region_name": "경기도 군포시",
+   "org_name": "경기도 군포시",
+   "enacted_on": "20130627",
+   "effective_on": "20130627",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 7,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1083235",
+   "categories": [
+    {
+     "code": "C02",
+     "name": "재정·세무·회계",
+     "confidence": 0.5,
+     "method": "rule"
+    },
+    {
+     "code": "C01",
+     "name": "행정·자치·의회",
+     "confidence": 0.4545,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.884592,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1830967",
+      "key": "ordin-1830967",
+      "name": "군포시 예산성과금 심사 운영에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20230704",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1830967",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.872953,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1362316",
+      "key": "ordin-1362316",
+      "name": "군포시 고문 공인노무사 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20181008",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1362316",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.862657,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1479667",
+      "key": "ordin-1479667",
+      "name": "군포시 전통상업보존구역 지정 및 대규모·준대규모점포의 등록제한 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20200316",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1479667",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.862344,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2077579",
+      "key": "ordin-2077579",
+      "name": "군포시 인공지능행정 구현에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20251010",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2077579",
+      "categories": []
+     },
+     {
+      "rank": 5,
+      "cosine": 0.851589,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:2106125",
+      "key": "ordin-2106125",
+      "name": "군포시 시민참여 예산감시단 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20260107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2106125",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.850111,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1402107",
+      "key": "ordin-1402107",
+      "name": "군포시 민주평화통일자문회의 대행기관 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20190709",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1402107",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.84835,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1083394",
+      "key": "ordin-1083394",
+      "name": "군포시 상수도대행업자 지정에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20120703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1083394",
+      "categories": []
+     },
+     {
+      "rank": 8,
+      "cosine": 0.846914,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2106129",
+      "key": "ordin-2106129",
+      "name": "군포시 도시텃밭 및 생태교육농장 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20260107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2106129",
+      "categories": [
+       "C05",
+       "C09"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.846107,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1660317",
+      "key": "ordin-1660317",
+      "name": "군포시 주민참여 예산제 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20211231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1660317",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.845029,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1630313",
+      "key": "ordin-1630313",
+      "name": "군포시 시민안전보험 가입 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20210930",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1630313",
+      "categories": [
+       "C08"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990274,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1492251",
+      "key": "ordin-1492251",
+      "name": "군포시 취약계층 국민건강보험료 등 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20200511",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1492251",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.989659,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2106107",
+      "key": "ordin-2106107",
+      "name": "군포시 수도급수 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20260107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2106107",
+      "categories": []
+     },
+     {
+      "rank": 3,
+      "cosine": 0.989548,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1487175",
+      "key": "ordin-1487175",
+      "name": "군포시 자활기금 설치 및 운용 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20200413",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1487175",
+      "categories": [
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.989089,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1830891",
+      "key": "ordin-1830891",
+      "name": "군포시 지방보조금 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20230704",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1830891",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.988909,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2106103",
+      "key": "ordin-2106103",
+      "name": "군포시 공무원 당직 및 비상근무 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20260107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2106103",
+      "categories": [
+       "C01",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.988732,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1362919",
+      "key": "ordin-1362919",
+      "name": "군포시 직무대리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20181008",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1362919",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.988708,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1668627",
+      "key": "ordin-1668627",
+      "name": "군포시 평생학습원 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20220107",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1668627",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.988625,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1880637",
+      "key": "ordin-1880637",
+      "name": "군포시 아이돌봄 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20231212",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1880637",
+      "categories": [
+       "C03",
+       "C04"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.988413,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1083003",
+      "key": "ordin-1083003",
+      "name": "군포시 제안제도 운영조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20120109",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1083003",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.98824,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1083394",
+      "key": "ordin-1083394",
+      "name": "군포시 상수도대행업자 지정에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20120703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1083394",
+      "categories": []
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994673,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1880619",
+      "key": "ordin-1880619",
+      "name": "군포시 마약류 및 유해약물 오남용 방지를 위한 예방활동 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20231212",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1880619",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99451,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1805189",
+      "key": "ordin-1805189",
+      "name": "군포시 가족센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20230501",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1805189",
+      "categories": [
+       "C06",
+       "C13"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.993999,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1928097",
+      "key": "ordin-1928097",
+      "name": "군포시 에너지 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20240515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1928097",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993745,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1830865",
+      "key": "ordin-1830865",
+      "name": "군포시 고문변호사 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20230704",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1830865",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993741,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1362333",
+      "key": "ordin-1362333",
+      "name": "군포시 보건소 지역보건의료사업의 업무대행에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20181008",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1362333",
+      "categories": [
+       "C06",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993736,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1362274",
+      "key": "ordin-1362274",
+      "name": "군포시 소송수행자 포상금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20181008",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1362274",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993708,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1830893",
+      "key": "ordin-1830893",
+      "name": "군포시 농촌용수구역 관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20230704",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1830893",
+      "categories": [
+       "C07",
+       "C12"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.993606,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1901189",
+      "key": "ordin-1901189",
+      "name": "군포시 공중화장실 등의 설치 및 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20240108",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1901189",
+      "categories": [
+       "C13",
+       "C03"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993578,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1391722",
+      "key": "ordin-1391722",
+      "name": "군포시 재난안전대책본부 구성·운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20190418",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1391722",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993552,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1362322",
+      "key": "ordin-1362322",
+      "name": "군포시 시민의 날 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 군포시",
+      "sig_cd": "41410",
+      "enacted_on": "20181008",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1362322",
+      "categories": []
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1083394",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.918295,
+    "best_rank": 7,
+    "ordinance_id": "ordin:1083394",
+    "key": "ordin-1083394",
+    "name": "군포시 상수도대행업자 지정에 관한 규칙",
+    "region_name": "경기도 군포시",
+    "sig_cd": "41410",
+    "enacted_on": "20120703",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1083394"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

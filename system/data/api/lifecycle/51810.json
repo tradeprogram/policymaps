@@ -1,0 +1,702 @@
+{
+ "data": {
+  "region": {
+   "region_id": "51810",
+   "sig_cd": "51810",
+   "name": "인제군",
+   "full_name": "강원특별자치도 인제군",
+   "level": 2
+  },
+  "counts": {
+   "total": 607,
+   "active": 492,
+   "repealed": 115,
+   "by_rr_cls_cd": {
+    "일부개정": 309,
+    "전부개정": 38,
+    "제정": 145,
+    "폐지": 115
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 30
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 5
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 17
+   },
+   {
+    "year": 2015,
+    "n": 22
+   },
+   {
+    "year": 2016,
+    "n": 21
+   },
+   {
+    "year": 2017,
+    "n": 10
+   },
+   {
+    "year": 2018,
+    "n": 15
+   },
+   {
+    "year": 2019,
+    "n": 37
+   },
+   {
+    "year": 2020,
+    "n": 29
+   },
+   {
+    "year": 2021,
+    "n": 90
+   },
+   {
+    "year": 2022,
+    "n": 44
+   },
+   {
+    "year": 2023,
+    "n": 91
+   },
+   {
+    "year": 2024,
+    "n": 51
+   },
+   {
+    "year": 2025,
+    "n": 105
+   },
+   {
+    "year": 2026,
+    "n": 17
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 2
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 5
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 1
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 6
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 3
+   },
+   {
+    "year": 2019,
+    "n": 15
+   },
+   {
+    "year": 2020,
+    "n": 8
+   },
+   {
+    "year": 2021,
+    "n": 24
+   },
+   {
+    "year": 2022,
+    "n": 1
+   },
+   {
+    "year": 2023,
+    "n": 10
+   },
+   {
+    "year": 2024,
+    "n": 1
+   },
+   {
+    "year": 2025,
+    "n": 4
+   },
+   {
+    "year": 2026,
+    "n": 5
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여 업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전 재해 영향성 검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수·분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원 재정보증 조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과·징수 조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:903019",
+    "name": "인제군의회정례회운영에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=903019&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:904473",
+    "name": "인제군재정운영상황공개조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=904473&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:816579",
+    "name": "인제군촉탁의료인보수지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "0000-00-00",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=816579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2099195",
+    "name": "인제군 농어촌총각 국제혼인 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-29",
+    "repealed_on": "2026-07-01",
+    "repealed_on_raw": "20260701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2099195&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2114117",
+    "name": "인제군 농업발전기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-04",
+    "repealed_on": "2026-03-04",
+    "repealed_on_raw": "20260304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114117&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2114079",
+    "name": "인제군 옥외광고정비기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-04",
+    "repealed_on": "2026-03-04",
+    "repealed_on_raw": "20260304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114079&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2114119",
+    "name": "인제군 통합재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-03-04",
+    "repealed_on": "2026-03-04",
+    "repealed_on_raw": "20260304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114119&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2114077",
+    "name": "인제군 농업발전기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-03-04",
+    "repealed_on": "2026-03-04",
+    "repealed_on_raw": "20260304",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2114077&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2021695",
+    "name": "인제군 수도사업회전기금 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-13",
+    "repealed_on": "2025-03-13",
+    "repealed_on_raw": "20250313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2021695&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2024525",
+    "name": "인제군 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-13",
+    "repealed_on": "2025-03-13",
+    "repealed_on_raw": "20250313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2024525&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2022055",
+    "name": "인제군 주거취약계층 노후주택개량 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-13",
+    "repealed_on": "2025-03-13",
+    "repealed_on_raw": "20250313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2022055&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2022057",
+    "name": "인제군 취약계층 주거환경 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-13",
+    "repealed_on": "2025-03-13",
+    "repealed_on_raw": "20250313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2022057&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1941477",
+    "name": "인제군 지방공무원 임용후보자 장학 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-06-27",
+    "repealed_on": "2024-06-27",
+    "repealed_on_raw": "20240627",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1941477&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1891349",
+    "name": "인제군 주택사업 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-28",
+    "repealed_on": "2023-12-28",
+    "repealed_on_raw": "20231228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891349&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1891345",
+    "name": "인제군 경관형성 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-28",
+    "repealed_on": "2023-12-28",
+    "repealed_on_raw": "20231228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891345&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1891341",
+    "name": "인제군 주택사업 특별회계 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-28",
+    "repealed_on": "2023-12-28",
+    "repealed_on_raw": "20231228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1891341&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1885195",
+    "name": "인제군 자치분권 촉진 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1885195&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1885217",
+    "name": "인제군 장기미집행 군계획시설 대지보상특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1885217&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1885201",
+    "name": "인제군정자문위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1885201&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1885191",
+    "name": "인제군 지역혁신협의회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1885191&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1885211",
+    "name": "인제군 회계관계공무원 재정보증 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1885211&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1812923",
+    "name": "인제군 신에너지 및 재생에너지 발전사업 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-25",
+    "repealed_on": "2023-05-25",
+    "repealed_on_raw": "20230525",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1812923&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1803255",
+    "name": "인제군 모범공무원 포상 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-04-20",
+    "repealed_on": "2023-04-20",
+    "repealed_on_raw": "20230420",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1803255&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1697945",
+    "name": "인제군 공인 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-14",
+    "repealed_on": "2022-04-14",
+    "repealed_on_raw": "20220414",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1697945&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669197",
+    "name": "인제군 고등학교 학생 교육비 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669197&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669207",
+    "name": "인제군 공무원직장협의회의 설립·운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669207&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669191",
+    "name": "인제군 국제화추진협의회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669191&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669213",
+    "name": "인제군 저소득주민자녀 장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669213&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669183",
+    "name": "인제군 주차장특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669183&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669187",
+    "name": "인제군 지역개발사업 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669187&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669195",
+    "name": "인제군 지역사회통합 원탁회의 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669195&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669189",
+    "name": "인제군 체육진흥기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669189&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669225",
+    "name": "인제군 체육진흥협의회 조직운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669225&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669193",
+    "name": "인제군 클린행정모니터 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669193&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669057",
+    "name": "인제군 공무원직장협의회의 설립·운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669057&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669039",
+    "name": "인제군 교통안전대책위원회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669039&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669063",
+    "name": "인제군농기계순회수리소 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669063&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669035",
+    "name": "인제군 농특산물전시판매장 시설 설치 및 운영 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669035&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669031",
+    "name": "인제군 읍·면장 임용 등에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669031&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1669041",
+    "name": "인제군 재해대책기금 운용 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-30",
+    "repealed_on": "2021-12-30",
+    "repealed_on_raw": "20211230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1669041&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 3,
+   "sentinel_99991231": 3
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51810"
+ ]
+}

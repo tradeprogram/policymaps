@@ -1,0 +1,734 @@
+{
+ "data": {
+  "region": {
+   "region_id": "51760",
+   "sig_cd": "51760",
+   "name": "평창군",
+   "full_name": "강원특별자치도 평창군",
+   "level": 2
+  },
+  "counts": {
+   "total": 702,
+   "active": 610,
+   "repealed": 92,
+   "by_rr_cls_cd": {
+    "일부개정": 370,
+    "전부개정": 34,
+    "제정": 206,
+    "폐지": 92
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1982,
+    "n": 1
+   },
+   {
+    "year": 1983,
+    "n": 1
+   },
+   {
+    "year": 1989,
+    "n": 2
+   },
+   {
+    "year": 1992,
+    "n": 1
+   },
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 1999,
+    "n": 2
+   },
+   {
+    "year": 2000,
+    "n": 3
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 4
+   },
+   {
+    "year": 2005,
+    "n": 11
+   },
+   {
+    "year": 2006,
+    "n": 8
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 3
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 7
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 23
+   },
+   {
+    "year": 2016,
+    "n": 25
+   },
+   {
+    "year": 2017,
+    "n": 23
+   },
+   {
+    "year": 2018,
+    "n": 28
+   },
+   {
+    "year": 2019,
+    "n": 22
+   },
+   {
+    "year": 2020,
+    "n": 52
+   },
+   {
+    "year": 2021,
+    "n": 49
+   },
+   {
+    "year": 2022,
+    "n": 38
+   },
+   {
+    "year": 2023,
+    "n": 105
+   },
+   {
+    "year": 2024,
+    "n": 137
+   },
+   {
+    "year": 2025,
+    "n": 95
+   },
+   {
+    "year": 2026,
+    "n": 38
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2000,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2005,
+    "n": 10
+   },
+   {
+    "year": 2006,
+    "n": 7
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 4
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 11
+   },
+   {
+    "year": 2016,
+    "n": 8
+   },
+   {
+    "year": 2017,
+    "n": 4
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 4
+   },
+   {
+    "year": 2020,
+    "n": 9
+   },
+   {
+    "year": 2021,
+    "n": 2
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 2
+   },
+   {
+    "year": 2024,
+    "n": 5
+   },
+   {
+    "year": 2025,
+    "n": 4
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성 검토위원회 운영조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회조직운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수ㆍ분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀장학금지급조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀장학금지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법위반자에대한과태료부과ㆍ징수조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금설치및운용조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "재난관리기금운용관리조례",
+    "display_name": "재난관리기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2080817",
+    "name": "평창군 스포츠전지훈련 선수단 유치 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-31",
+    "repealed_on": "2025-10-31",
+    "repealed_on_raw": "20251031",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2080817&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2077675",
+    "name": "평창군 스포츠전지훈련 선수단 유치 및 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-10-10",
+    "repealed_on": "2025-10-10",
+    "repealed_on_raw": "20251010",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2077675&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2025023",
+    "name": "평창군 행복주택 관리 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-28",
+    "repealed_on": "2025-03-28",
+    "repealed_on_raw": "20250328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025023&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2025021",
+    "name": "평창군 행복주택 관리 및 운영에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-03-28",
+    "repealed_on": "2025-03-28",
+    "repealed_on_raw": "20250328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025021&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1979119",
+    "name": "평창군 장기 미집행 군 계획시설 대지 보상 임시특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-25",
+    "repealed_on": "2024-10-25",
+    "repealed_on_raw": "20241025",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1979119&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1975653",
+    "name": "평창군 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-04",
+    "repealed_on": "2024-10-04",
+    "repealed_on_raw": "20241004",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1975653&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1936433",
+    "name": "평창군 문화예술재단 설립 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-07",
+    "repealed_on": "2024-06-07",
+    "repealed_on_raw": "20240607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1936433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1936437",
+    "name": "평창군 헴프전시체험실 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-07",
+    "repealed_on": "2024-06-07",
+    "repealed_on_raw": "20240607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1936437&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1926345",
+    "name": "평창군 전통시장 및 상점가 육성·관리 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-10",
+    "repealed_on": "2024-05-10",
+    "repealed_on_raw": "20240510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1926345&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1894639",
+    "name": "평창군 복지위원 정수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1894639&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1894623",
+    "name": "평창군읍ㆍ면종합복지회관설치및운영조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1894623&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1720231",
+    "name": "평창군 정책실명제 운영규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-05",
+    "repealed_on": "2022-08-05",
+    "repealed_on_raw": "20220805",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1720231&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1711443",
+    "name": "평창군 다문화가족 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-04-01",
+    "repealed_on": "2022-04-01",
+    "repealed_on_raw": "20220401",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1711443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1660797",
+    "name": "평창군 주민조례 제정 및  개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-31",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1660797&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1623161",
+    "name": "평창군주택임대차계약서확정일자부여업무처리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-08-27",
+    "repealed_on": "2021-08-27",
+    "repealed_on_raw": "20210827",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1623161&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1593739",
+    "name": "평창군 시장 관리 및 사용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-07",
+    "repealed_on": "2021-05-07",
+    "repealed_on_raw": "20210507",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1593739&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1563565",
+    "name": "평창군 문화예술 육성 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1563565&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1563535",
+    "name": "평창군 문화예술 창작스튜디오 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1563535&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1563553",
+    "name": "평창군 사회복지기금 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1563553&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1563555",
+    "name": "평창군사회복지기금 설치조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-31",
+    "repealed_on": "2020-12-31",
+    "repealed_on_raw": "20201231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1563555&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545427",
+    "name": "평창군농촌지도자실비변상조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-06",
+    "repealed_on": "2020-11-06",
+    "repealed_on_raw": "20201106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545427&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545459",
+    "name": "평창군 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-06",
+    "repealed_on": "2020-11-06",
+    "repealed_on_raw": "20201106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545459&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1545377",
+    "name": "평창군 통합관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-06",
+    "repealed_on": "2020-11-06",
+    "repealed_on_raw": "20201106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1545377&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1506345",
+    "name": "평창군지역의료보험운영지원을위한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-06-19",
+    "repealed_on": "2020-06-19",
+    "repealed_on_raw": "20200619",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1506345&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1223256",
+    "name": "평창군 학교급식 식재료 사용 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-03",
+    "repealed_on": "2020-04-03",
+    "repealed_on_raw": "20200403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1223256&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1438027",
+    "name": "평창군 주택사업 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-27",
+    "repealed_on": "2019-12-27",
+    "repealed_on_raw": "20191227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1438027&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1438025",
+    "name": "평창군 경관조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-12-27",
+    "repealed_on": "2019-12-27",
+    "repealed_on_raw": "20191227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1438025&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1438029",
+    "name": "평창군주택사업특별회계설치및운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-12-27",
+    "repealed_on": "2019-12-27",
+    "repealed_on_raw": "20191227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1438029&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1415729",
+    "name": "평창군 사전재해영향성 검토위원회 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-01",
+    "repealed_on": "2019-11-01",
+    "repealed_on_raw": "20191101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1415729&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1352672",
+    "name": "평창군 공유재산관리 특별회계 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-07-27",
+    "repealed_on": "2018-07-27",
+    "repealed_on_raw": "20180727",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1352672&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1304313",
+    "name": "평창군계획관리지역안에서의공장건축가능지역지정에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-09-29",
+    "repealed_on": "2017-09-29",
+    "repealed_on_raw": "20170929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1304313&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1292472",
+    "name": "평창군규모이하제분업신고절차등에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-06-30",
+    "repealed_on": "2017-06-30",
+    "repealed_on_raw": "20170630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1292472&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1292462",
+    "name": "평창군살기좋은고장만들기조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-06-30",
+    "repealed_on": "2017-06-30",
+    "repealed_on_raw": "20170630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1292462&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1275095",
+    "name": "평창군의회에서의 증인 등 비용지급에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-01-06",
+    "repealed_on": "2017-01-06",
+    "repealed_on_raw": "20170106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1275095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1271897",
+    "name": "평창군도시공원·녹지의점용허가에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-12-30",
+    "repealed_on": "2016-12-30",
+    "repealed_on_raw": "20161230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1271897&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1256125",
+    "name": "평창군생활보호기금운용관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-10-14",
+    "repealed_on": "2016-10-14",
+    "repealed_on_raw": "20161014",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1256125&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1253550",
+    "name": "평창군급수공사대행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-09-30",
+    "repealed_on": "2016-09-30",
+    "repealed_on_raw": "20160930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1253550&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1253546",
+    "name": "평창군 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2016-09-30",
+    "repealed_on": "2016-09-30",
+    "repealed_on_raw": "20160930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1253546&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1243735",
+    "name": "평창군기반시설부담금특별회계 설치 및 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-06-10",
+    "repealed_on": "2016-06-10",
+    "repealed_on_raw": "20160610",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1243735&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1243299",
+    "name": "평창군지역개발사업특별회계설치및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-05-27",
+    "repealed_on": "2016-05-27",
+    "repealed_on_raw": "20160527",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1243299&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51760"
+ ]
+}

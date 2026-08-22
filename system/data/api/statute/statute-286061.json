@@ -1,0 +1,892 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:286061",
+   "kind": "법률",
+   "national_tier": null,
+   "name": "유아교육법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": null,
+   "effective_on": "20260519",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=286061&type=HTML&mobileYn=&efYd=20260519",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 2717,
+   "child_ordinances": 2483,
+   "by_verification_status": {
+    "article-missing": 64,
+    "article-verified": 2288,
+    "unverifiable": 365
+   },
+   "by_delegation_type": {
+    "law-delegated": 2717
+   },
+   "regions_top": [
+    {
+     "region_id": "edu:41",
+     "name": "경기도교육청",
+     "ordinances": 79
+    },
+    {
+     "region_id": "edu:46",
+     "name": "전라남도교육청",
+     "ordinances": 73
+    },
+    {
+     "region_id": "edu:51",
+     "name": "강원특별자치도교육청",
+     "ordinances": 68
+    },
+    {
+     "region_id": "edu:26",
+     "name": "부산광역시교육청",
+     "ordinances": 68
+    },
+    {
+     "region_id": "edu:43",
+     "name": "충청북도교육청",
+     "ordinances": 67
+    },
+    {
+     "region_id": "edu:28",
+     "name": "인천광역시교육청",
+     "ordinances": 64
+    },
+    {
+     "region_id": "edu:52",
+     "name": "전북특별자치도교육청",
+     "ordinances": 63
+    },
+    {
+     "region_id": "edu:31",
+     "name": "울산광역시교육청",
+     "ordinances": 63
+    },
+    {
+     "region_id": "edu:50",
+     "name": "제주특별자치도교육청",
+     "ordinances": 62
+    },
+    {
+     "region_id": "edu:11",
+     "name": "서울특별시교육청",
+     "ordinances": 62
+    },
+    {
+     "region_id": "edu:47",
+     "name": "경상북도교육청",
+     "ordinances": 60
+    },
+    {
+     "region_id": "edu:29",
+     "name": "광주광역시교육청",
+     "ordinances": 60
+    },
+    {
+     "region_id": "edu:44",
+     "name": "충청남도교육청",
+     "ordinances": 55
+    },
+    {
+     "region_id": "edu:36",
+     "name": "세종특별자치시교육청",
+     "ordinances": 55
+    },
+    {
+     "region_id": "edu:48",
+     "name": "경상남도교육청",
+     "ordinances": 51
+    },
+    {
+     "region_id": "edu:30",
+     "name": "대전광역시교육청",
+     "ordinances": 46
+    },
+    {
+     "region_id": "edu:27",
+     "name": "대구광역시교육청",
+     "ordinances": 46
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 16
+    },
+    {
+     "region_id": "41450",
+     "name": "경기도 하남시",
+     "ordinances": 16
+    },
+    {
+     "region_id": "11590",
+     "name": "서울특별시 동작구",
+     "ordinances": 16
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "1",
+    "article_branch": null,
+    "title": "목적",
+    "body": "제1조(목적)\n이 법은 「교육기본법」 제9조에 따라 유아교육에 관한 사항을 정함을 목적으로 한다. <개정 2010.3.24>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0001001"
+   },
+   {
+    "article_no": "2",
+    "article_branch": null,
+    "title": "정의",
+    "body": "제2조(정의)\n1. \"유아\"란 만 3세부터 초등학교 취학전까지의 어린이를 말한다.\n2. \"유치원\"이란 유아의 교육을 위하여 이 법에 따라 설립ㆍ운영되는 학교를 말한다.\n3. \"보호자\"란 친권자ㆍ후견인 그 밖의 자로서 유아를 사실상 보호하는 자를 말한다.\n4. 삭제<2012.3.21>\n5. 삭제<2012.3.21>\n6. \"",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0002001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": null,
+    "title": "책임",
+    "body": "제3조(책임)\n국가 및 지방자치단체는 보호자와 더불어 유아를 건전하게 교육할 책임을 진다.",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0003001"
+   },
+   {
+    "article_no": "3",
+    "article_branch": "2",
+    "title": "유아교육발전기본계획",
+    "body": "제3조의2(유아교육발전기본계획)\n① 교육부장관은 유아교육의 발전을 위하여 유아교육에 관한 중장기 정책 목표 및 방향을 설정하고, 유아교육발전기본계획(이하 \"기본계획\"이라 한다)을 수립하여 추진하여야 한다. <개정 2013.3.23>\n② 교육부장관은 제5조제1항에 따른 중앙유아교육위원회의 심의를 거쳐 5년마다 기본계획을 수",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0003021"
+   },
+   {
+    "article_no": "4",
+    "article_branch": null,
+    "title": "유아교육ㆍ보육위원회",
+    "body": "제4조(유아교육ㆍ보육위원회)\n①유아교육 및 「영유아보육법」 제2조에 따른 보육에 관한 다음 각호의 사항을 심의하기 위하여 국무총리 소속으로 유아교육ㆍ보육위원회를 둔다. <개정 2010.3.24, 2011.6.7, 2014.1.28>\n1. 유아교육 및 보육에 관한 기본계획\n2. 유치원과 어린이집간의 연계운영\n3. 유아교육 ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0004001"
+   },
+   {
+    "article_no": "5",
+    "article_branch": null,
+    "title": "유아교육위원회",
+    "body": "제5조(유아교육위원회)\n①유아교육에 관한 정책, 사업의 기획ㆍ조사 등에 관한 사항을 심의하기 위하여 교육부에 중앙유아교육위원회를 두고, 시ㆍ도 교육청에 시ㆍ도 유아교육위원회를 둔다. <개정 2008.2.29, 2010.3.24, 2012.1.26, 2013.3.23>\n②중앙유아교육위원회와 시ㆍ도 유아교육위원회는 유아교육전",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0005001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": null,
+    "title": "유아교육진흥원",
+    "body": "제6조(유아교육진흥원)\n①국가 및 지방자치단체는 유아교육에 관한 연구와 정보제공, 프로그램 및 교재 개발, 유치원교원 연수 및 평가, 유아 체험교육 등을 담당하는 유아교육진흥원을 설치하거나 해당 업무를 교육관련연구기관 등에 위탁할 수 있다. <개정 2010.3.24, 2012.3.21>\n②제1항에 따른 유아교육진흥원의 설",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0006001"
+   },
+   {
+    "article_no": "6",
+    "article_branch": "2",
+    "title": "교육통계조사 등",
+    "body": "제6조의2(교육통계조사 등)\n① 교육부장관은 유아교육 정책의 효율적인 추진과 유아교육 연구에 필요한 원생ㆍ교원ㆍ직원ㆍ유치원ㆍ교육행정기관 등에 대한 기초자료 수집을 위하여 교육통계조사를 매년 실시하고 그 결과를 공개하여야 한다.\n② 교육부장관은 유아교육 정책의 효율적인 수립ㆍ시행과 평가를 위하여 제1항에 따른 교육통계조사(",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0006021"
+   },
+   {
+    "article_no": "7",
+    "article_branch": null,
+    "title": "유치원의 구분",
+    "body": "제7조(유치원의 구분)\n1. 국립유치원 : 국가가 설립ㆍ경영하는 유치원\n2. 공립유치원 : 지방자치단체가 설립ㆍ경영하는 유치원(설립주체에 따라 시립유치원과 도립유치원으로 구분할 수 있다)\n3. 사립유치원 : 법인 또는 사인(私人)이 설립ㆍ경영하는 유치원",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0007001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": null,
+    "title": "유치원의 설립 등",
+    "body": "제8조(유치원의 설립 등)\n①유치원을 설립하려는 자는 시설ㆍ설비 등 대통령령으로 정하는 설립기준을 갖추어야 한다. <개정 2010.3.24>\n②사립유치원을 설립하려는 자는 교육감의 인가를 받아야 한다. <개정 2010.3.24, 2012.1.26>\n③ 교육감은 제2항에 따른 인가 신청이 있는 경우에는 다음 각 호의 어느 ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0008001"
+   },
+   {
+    "article_no": "8",
+    "article_branch": "2",
+    "title": "결격사유",
+    "body": "제8조의2(결격사유)\n1. 미성년자ㆍ피성년후견인 또는 피한정후견인\n2. 「정신건강증진 및 정신질환자 복지서비스 지원에 관한 법률」 제3조제1호의 정신질환자\n3. 「마약류 관리에 관한 법률」 제2조제1호의 마약류에 중독된 사람\n4. 파산선고를 받고 복권되지 아니한 사람\n5. 금고 이상의 실형을 선고받고 그 집행이 종료(집행",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0008021"
+   },
+   {
+    "article_no": "8",
+    "article_branch": "3",
+    "title": "교육명령",
+    "body": "제8조의3(교육명령)\n① 교육부장관은 「아동복지법」 제3조제7호의2에 따른 아동학대관련범죄로 형 또는 치료감호를 선고받아 그 형 또는 치료감호가 확정된 사람이 제8조의2제5호부터 제8호까지의 결격사유에 해당하지 아니하게 되어 유치원을 설립ㆍ운영하려는 경우에는 그 사람에 대하여 사전에 아동학대 방지를 위한 교육을 받도록 명",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0008031"
+   },
+   {
+    "article_no": "9",
+    "article_branch": null,
+    "title": "유치원의 병설",
+    "body": "제9조(유치원의 병설)\n유치원은 「초ㆍ중등교육법」 제2조에 따른 초등학교ㆍ중학교 및 고등학교에 병설될 수 있다. <개정 2010.3.24>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0009001"
+   },
+   {
+    "article_no": "9",
+    "article_branch": "2",
+    "title": "유치원의 설립의무",
+    "body": "제9조의2(유치원의 설립의무)\n① 교육감은 다음 각 호의 지역의 경우에는 제8조제3항제2호에 따른 유아배치계획을 고려하여 「초ㆍ중등교육법」 제2조에 따른 초등학교에 유치원을 병설하거나 별도로 설립하여야 한다. <개정 2017.2.8, 2017.12.19>\n1. 「도시개발법」 제3조에 따른 도시개발구역\n2. 「도시 및 주거",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0009021"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "유치원규칙",
+    "body": "제10조(유치원규칙)\n①유치원의 장(유치원을 설립하는 경우에는 해당 유치원을 설립하려는 자를 말한다. 이하 \"원장\"이라 한다)은 법령의 범위에서 유치원규칙을 제정하거나 개정할 수 있다. <개정 2008.2.29, 2010.3.24, 2013.3.23, 2016.5.29>\n②유치원규칙의 기재사항 및 제정절차 등에 관하여 필",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0010001"
+   },
+   {
+    "article_no": "11",
+    "article_branch": null,
+    "title": "입학",
+    "body": "제11조(입학)\n①유치원에 입학할 수 있는 사람은 유아로 한다. <개정 2010.3.24, 2016.5.29>\n② 원장은 교육 목적에 적합한 범위에서 유치원규칙으로 정하는 바에 따라 공정하고 투명한 방법으로 유치원에 입학할 유아를 모집ㆍ선발하여야 한다. 다만, 제3항에 따른 조례에서 모집ㆍ선발 시기 등을 달리 정한 경우에",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0011001"
+   },
+   {
+    "article_no": "12",
+    "article_branch": null,
+    "title": "학년도 등",
+    "body": "제12조(학년도 등)\n①유치원의 학년도는 3월 1일부터 다음해 2월 말일까지로 한다.\n②유치원은 보호자의 요구 및 지역실정에 따라 방과후 과정을 운영할 수 있다. <개정 2012.3.21>\n③유치원의 학기ㆍ수업일수ㆍ학급편성ㆍ휴업일 및 반의 편성ㆍ운영 등에 필요한 사항은 대통령령으로 정한다. <개정 2010.3.24>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0012001"
+   },
+   {
+    "article_no": "13",
+    "article_branch": null,
+    "title": "교육과정 등",
+    "body": "제13조(교육과정 등)\n①유치원은 교육과정을 운영하여야 하며, 교육과정 운영 이후에는 방과후 과정을 운영할 수 있다. <개정 2012.3.21>\n② 국가교육위원회는 제1항에 따른 교육과정의 기준과 내용에 관한 기본적인 사항을 정하며, 교육감은 국가교육위원회가 정한 교육과정의 범위에서 지역 실정에 적합한 기준과 내용을 정할",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0013001"
+   },
+   {
+    "article_no": "14",
+    "article_branch": null,
+    "title": "유치원생활기록",
+    "body": "제14조(유치원생활기록)\n원장은 유아의 생활지도 및 초등학교 교육과의 연계지도에 활용할 수 있도록 유아의 발달 등을 종합적으로 관찰하고 평가하여 교육부장관이 정하는 기준에 따라 생활기록부를 작성ㆍ관리하여야 한다. <개정 2008.2.29, 2010.3.24, 2013.3.23>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0014001"
+   },
+   {
+    "article_no": "15",
+    "article_branch": null,
+    "title": "특수학교 등",
+    "body": "제15조(특수학교 등)\n①특수학교는 신체적ㆍ정신적ㆍ지적 장애 등으로 특수교육이 필요한 유아에게 유치원에 준하는 교육과 실생활에 필요한 지식ㆍ기능 및 사회적응 교육을 하는 것을 목적으로 한다. <개정 2010.3.24>\n②국가 및 지방자치단체는 특수교육이 필요한 유아가 유치원에서 교육을 받으려는 경우에는 따로 입학절차ㆍ교육",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0015001"
+   },
+   {
+    "article_no": "16",
+    "article_branch": null,
+    "title": "외국인유치원",
+    "body": "제16조(외국인유치원)\n①\"외국인유치원\"이란 국내에 체류중인 외국인의 자녀를 교육하기 위하여 설립된 유치원을 말하며, 외국인유치원에 대하여는 제11조제1항ㆍ제2항 단서ㆍ제3항, 제12조부터 제14조까지, 제17조, 제18조제2항, 제19조, 제19조의2부터 제19조의8까지, 제22조, 제24조부터 제26조까지 및 제27조",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0016001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "건강검진 및 급식",
+    "body": "제17조(건강검진 및 급식)\n①원장은 교육하고 있는 유아에 대하여 건강검진을 실시하고, 유아의 건강검진 결과를 제14조에 따른 생활기록부에 기록하여 관리하여야 한다. 다만, 보호자가 「국민건강보험법」 제52조 및 「의료급여법」 제14조에 따른 건강검진을 실시하고 그 건강검진결과 통보서를 제출하거나, 원장이 보호자의 동의를",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0017001"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "2",
+    "title": "유아 관련 자료제공의 제한",
+    "body": "제17조의2(유아 관련 자료제공의 제한)\n① 원장은 제14조에 따른 유치원생활기록 및 제17조에 따른 건강검진에 관한 자료를 해당 유아의 보호자의 동의 없이 제3자에게 제공하여서는 아니 된다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 그러하지 아니하다.\n1. 유치원에 대한 감독ㆍ검사의 권한을 가진 행정기관이 그",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0017021"
+   },
+   {
+    "article_no": "17",
+    "article_branch": "3",
+    "title": "응급조치",
+    "body": "제17조의3(응급조치)\n원장(제21조제2항에 따라 원장의 직무를 대행하는 사람을 포함한다)은 보호하는 유아에게 질병ㆍ사고나 재해 등으로 인하여 위급한 상태가 발생한 경우 즉시 해당 유아를 「응급의료에 관한 법률」 제2조에 따른 응급의료기관에 이송하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0017031"
+   },
+   {
+    "article_no": "18",
+    "article_branch": null,
+    "title": "지도ㆍ감독",
+    "body": "제18조(지도ㆍ감독)\n①국립유치원은 교육부장관의 지도ㆍ감독을 받으며, 공립ㆍ사립유치원은 교육감의 지도ㆍ감독을 받는다. <개정 2008.2.29, 2010.3.24, 2013.3.23>\n②교육감은 유아교육을 충실히 하기 위하여 유치원 교육과정 운영에 대한 장학지도를 할 수 있다. <개정 2008.2.29, 2010.3.24",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0018001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "평가",
+    "body": "제19조(평가)\n①교육감은 유아교육을 효율적으로 하기 위하여 필요하면 유치원 운영실태 등에 대한 평가를 할 수 있다. <개정 2008.2.29, 2010.3.24, 2012.1.26>\n② 교육부장관은 필요한 경우 각 시ㆍ도 교육청의 유아교육 전반에 대한 평가를 실시할 수 있다. <개정 2012.1.26, 2013.3.23",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0019001"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "2",
+    "title": "유아교육정보시스템의 구축ㆍ운영 등",
+    "body": "제19조의2(유아교육정보시스템의 구축ㆍ운영 등)\n① 교육부장관 및 교육감은 유치원 및 교육행정기관의 업무(회계관리를 포함한다)를 전자적으로 처리할 수 있도록 유아교육정보시스템(이하 \"정보시스템\"이라 한다)을 구축ㆍ운영하여야 한다. <개정 2013.3.23, 2020.1.29>\n② 교육부장관 및 교육감은 정보시스템의 운영 ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0019021"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "3",
+    "title": "유치원운영위원회의 설치 등",
+    "body": "제19조의3(유치원운영위원회의 설치 등)\n① 유치원 운영의 자율성을 높이고 지역의 실정과 특성에 맞는 다양한 교육을 창의적으로 실시할 수 있도록 하기 위하여 유치원에 유치원운영위원회를 두어야 한다. 다만, 대통령령으로 정하는 규모 미만의 사립유치원은 유치원운영위원회를 두지 아니할 수 있다. <개정 2020.1.29>\n② ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0019031"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "4",
+    "title": "유치원운영위원회의 기능",
+    "body": "제19조의4(유치원운영위원회의 기능)\n① 국립ㆍ공립 유치원에 두는 유치원운영위원회는 다음 각 호의 사항을 심의한다. <개정 2020.1.29>\n1. 유치원규칙의 개정에 관한 사항\n2. 유치원 예산 및 결산에 관한 사항\n3. 유치원 교육과정의 운영방법에 관한 사항\n3의2. 아동학대 예방에 관한 사항\n4. 학부모가 부담하는 ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0019041"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "5",
+    "title": "유치원운영위원회의 구성ㆍ운영",
+    "body": "제19조의5(유치원운영위원회의 구성ㆍ운영)\n① 제19조의3에 따른 유치원운영위원회 중 국립유치원에 두는 유치원운영위원회의 구성ㆍ운영에 필요한 사항은 대통령령으로 정하고, 공립유치원에 두는 유치원운영위원회의 구성ㆍ운영에 필요한 사항은 대통령령으로 정하는 범위에서 시ㆍ도의 조례로 정한다.\n② 사립유치원에 두는 유치원운영위원회",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0019051"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "6",
+    "title": "유치원운영위원회 위원의 연수 등",
+    "body": "제19조의6(유치원운영위원회 위원의 연수 등)\n① 교육감은 유치원운영위원회 위원의 자질과 직무수행능력의 향상을 위한 연수를 실시할 수 있다.\n② 교육감은 제1항에 따른 연수를 연수기관 또는 민간기관에 위탁하여 실시할 수 있다.\n③ 교육감은 제2항에 따라 연수를 위탁받은 기관에 행정적ㆍ재정적 지원을 할 수 있다.\n④ 제1항",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0019061"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "7",
+    "title": "유치원회계의 설치",
+    "body": "제19조의7(유치원회계의 설치)\n① 국립ㆍ공립 유치원에 유치원회계를 설치한다.\n② 유치원회계는 다음 각 호의 수입을 세입으로 한다.\n1. 국가의 일반회계 또는 지방자치단체의 교육비특별회계로부터의 전입금\n2. 제25조에 따른 수업료 등 교육비용과 그 밖의 납부금\n3. 국가 또는 지방자치단체의 보조금 및 지원금\n4. 사용료 ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0019071"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "8",
+    "title": "유치원회계의 운영",
+    "body": "제19조의8(유치원회계의 운영)\n① 유치원회계의 회계연도는 매년 3월 1일에 시작하여 다음 연도 2월 말일에 종료한다.\n② 원장은 회계연도마다 유치원회계세입세출예산안을 편성하여 회계연도 개시 30일 전까지 제19조의3에 따른 유치원운영위원회에 제출하여야 한다.\n③ 유치원운영위원회는 유치원회계세입세출예산안을 회계연도 개시 ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0019081"
+   },
+   {
+    "article_no": "19",
+    "article_branch": "9",
+    "title": "유치원 민원 처리 관련 계획의 수립 등",
+    "body": "제19조의9(유치원 민원 처리 관련 계획의 수립 등)\n① 교육부장관은 원장이 유치원에 제기된 민원을 공정하고 적법하게 처리할 수 있도록 다음 각 호의 사항을 포함한 계획을 수립ㆍ시행하여야 한다.\n1. 유치원 현장의 실정과 특성에 맞춘 민원 처리의 방법 및 절차\n2. 제1호의 민원 처리를 전자적으로 하기 위한 정보시스템 구",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0019091"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "교직원의 구분",
+    "body": "제20조(교직원의 구분)\n①유치원에는 교원으로 원장ㆍ원감ㆍ수석교사 및 교사를 두되, 대통령령으로 정하는 일정 규모 이하의 유치원에는 원감을 두지 아니할 수 있다. <개정 2010.3.24, 2011.7.25>\n②유치원에는 교원외에 계약의사, 영양사, 간호사 또는 간호조무사, 행정직원 등을 둘 수 있다. <개정 2021.3",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0020001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": null,
+    "title": "교직원의 임무",
+    "body": "제21조(교직원의 임무)\n①원장은 유치원 업무를 총괄하고 민원 처리를 책임지며, 소속 교직원을 지도ㆍ감독하고 해당 유치원의 유아를 교육한다. <개정 2010.3.24, 2021.3.23, 2023.9.27>\n②원감은 원장을 보좌하여 유치원 업무를 관리하고 해당 유치원의 유아를 교육하며, 원장이 부득이한 사유로 직무를 수행",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0021001"
+   },
+   {
+    "article_no": "21",
+    "article_branch": "2",
+    "title": "유아의 인권 보장",
+    "body": "제21조의2(유아의 인권 보장)\n① 유치원의 설립자ㆍ경영자와 원장은 헌법과 국제인권조약에 명시된 유아의 인권을 보장하여야 한다.\n② 교직원은 제21조에 따라 유아를 교육하거나 사무를 담당할 때에는 도구, 신체 등을 이용하여 유아의 신체에 고통을 가하거나 고성, 폭언 등으로 유아에게 정신적 고통을 가해서는 아니 된다. <개",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0021021"
+   },
+   {
+    "article_no": "21",
+    "article_branch": "3",
+    "title": "원장 등 교원의 유아생활지도",
+    "body": "제21조의3(원장 등 교원의 유아생활지도)\n① 원장 등 교원은 유아의 인권을 보호하고 교원의 교육활동과 돌봄활동을 위하여 필요한 경우에는 법령과 유치원규칙으로 정하는 바에 따라 유아를 지도할 수 있다.\n② 제1항에 따른 교원의 정당한 유아생활지도에 대해서는 「아동복지법」 제17조제3호, 제5호 및 제6호의 금지행위 위반으",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0021031"
+   },
+   {
+    "article_no": "21",
+    "article_branch": "4",
+    "title": "보호자의 의무 등",
+    "body": "제21조의4(보호자의 의무 등)\n① 보호자는 교직원 또는 다른 유아의 인권을 침해하는 행위를 하여서는 아니 된다.\n② 보호자는 제21조의3제1항에 따른 교원의 유아생활지도를 존중하고 지원하여야 한다.\n③ 보호자는 교육활동과 돌봄활동의 범위에서 교원과 유치원의 전문적인 판단을 존중하고 교육활동과 돌봄활동이 원활히 이루어질 ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0021041"
+   },
+   {
+    "article_no": "21",
+    "article_branch": "5",
+    "title": "유아 사교육비 조사",
+    "body": "제21조의5(유아 사교육비 조사)\n① 교육부장관은 유아의 건전한 발달과 유치원 교육과정 등의 정상적인 운영을 위하여 사교육 실시 및 그 비용 등에 대한 실태를 조사할 수 있다.\n② 교육부장관은 제1항에 따른 실태조사에 필요한 인력과 예산을 확보하도록 노력하여야 한다.\n③ 제1항에 따른 실태조사의 범위와 방법 등에 필요한 ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0021051"
+   },
+   {
+    "article_no": "21",
+    "article_branch": "6",
+    "title": "교원 개인정보의 보호",
+    "body": "제21조의6(교원 개인정보의 보호)\n유치원과 원장은 교원의 전화번호, 주민등록번호 등 개인정보가 「개인정보 보호법」 및 「공공기관의 정보공개에 관한 법률」 등 관계 법률에 따라 보호될 수 있도록 필요한 조치를 하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0021061"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "교원의 자격",
+    "body": "제22조(교원의 자격)\n①원장 및 원감은 별표 1의 자격기준에 해당하는 사람으로서 대통령령으로 정하는 바에 따라 교육부장관이 검정ㆍ수여하는 자격증을 받은 사람이어야 한다. <개정 2008.2.29, 2010.3.24, 2013.3.23>\n②교사는 정교사(1급ㆍ2급), 준교사, 보건교사(1급ㆍ2급) 및 영양교사(1급ㆍ2급)",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0022001"
+   },
+   {
+    "article_no": "22",
+    "article_branch": "2",
+    "title": "교사 자격 취득의 결격사유",
+    "body": "제22조의2(교사 자격 취득의 결격사유)\n1. 마약ㆍ대마ㆍ향정신성의약품 중독자\n2. 미성년자에 대한 다음 각 목의 어느 하나에 해당하는 행위로 형 또는 치료감호를 선고받아 그 형 또는 치료감호가 확정된 사람(집행유예를 선고받은 후 그 집행유예기간이 경과한 사람을 포함한다)\n가. 「성폭력범죄의 처벌 등에 관한 특례법」 제2",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0022021"
+   },
+   {
+    "article_no": "22",
+    "article_branch": "3",
+    "title": "벌금형의 분리 선고",
+    "body": "제22조의3(벌금형의 분리 선고)\n「형법」 제38조에도 불구하고 제22조의2제3호에 해당하는 죄와 다른 죄의 경합범(競合犯)에 대하여 벌금형을 선고하는 경우에는 이를 분리하여 선고하여야 한다.",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0022031"
+   },
+   {
+    "article_no": "22",
+    "article_branch": "4",
+    "title": "교원자격증 대여ㆍ알선 금지",
+    "body": "제22조의4(교원자격증 대여ㆍ알선 금지)\n제22조에 따라 받은 자격증은 다른 사람에게 빌려주거나 빌려서는 아니 되며, 이를 알선하여서도 아니 된다.",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0022041"
+   },
+   {
+    "article_no": "22",
+    "article_branch": "5",
+    "title": "자격취소 등",
+    "body": "제22조의5(자격취소 등)\n① 교육부장관은 제22조에 따라 자격증을 받은 사람이 다음 각 호의 어느 하나에 해당하는 경우에는 그 자격을 취소하여야 한다.\n1. 거짓이나 그 밖의 부정한 방법으로 자격증을 받은 경우\n2. 제22조의4를 위반하여 자격증을 다른 사람에게 빌려준 경우\n② 제1항에 따라 자격이 취소된 후 2년이 지",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0022051"
+   },
+   {
+    "article_no": "23",
+    "article_branch": null,
+    "title": "강사 등",
+    "body": "제23조(강사 등)\n①유치원에는 교육과정 운영에 필요한 경우 제20조제1항에 따른 교원외에 강사, 기간제 교사 또는 명예교사 등을 두어 유아교육을 담당하거나 보조하게 할 수 있다. 이 경우 국립ㆍ공립 유치원은 「교육공무원법」 제10조의3제1항 및 제10조의4를, 사립유치원은 「사립학교법」 제54조의3제4항 및 제5항을 각",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0023001"
+   },
+   {
+    "article_no": "24",
+    "article_branch": null,
+    "title": "무상교육",
+    "body": "제24조(무상교육)\n① 초등학교 취학직전 3년의 유아교육은 무상(無償)으로 실시하되, 무상의 내용 및 범위는 대통령령으로 정한다. <개정 2012.3.21>\n②제1항에 따라 무상으로 실시하는 유아교육에 드는 비용은 국가 및 지방자치단체가 부담하되, 유아의 보호자에게 지원하는 것을 원칙으로 한다. <개정 2010.3.24>",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0024001"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "유치원 원비",
+    "body": "제25조(유치원 원비)\n①유치원의 설립ㆍ경영자는 교육부령으로 정하는 바에 따라 수업료 등의 교육비용과 그 밖의 납부금(이하 \"유치원 원비\"라 한다)을 받을 수 있다. 이 경우 다음 각 호의 기준에 따라 유치원 원비를 달리 정할 수 있다. <개정 2008.2.29, 2010.3.24, 2013.3.23, 2015.3.27>",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0025001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "비용의 부담 등",
+    "body": "제26조(비용의 부담 등)\n① 삭제 <2012.3.21>\n② 삭제 <2012.3.21>\n③국가 및 지방자치단체는 대통령령으로 정하는 바에 따라 사립유치원의 설립 및 유치원교사의 인건비 등 운영에 드는 경비의 전부 또는 일부를 보조한다. <개정 2010.3.24>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0026001"
+   },
+   {
+    "article_no": "26",
+    "article_branch": "2",
+    "title": null,
+    "body": "제26조의2\n삭제 <2012.3.21>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0026021"
+   },
+   {
+    "article_no": "26",
+    "article_branch": "3",
+    "title": null,
+    "body": "제26조의3\n삭제 <2012.3.21>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0026031"
+   },
+   {
+    "article_no": "26",
+    "article_branch": "4",
+    "title": null,
+    "body": "제26조의4\n삭제 <2012.3.21>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0026041"
+   },
+   {
+    "article_no": "26",
+    "article_branch": "5",
+    "title": null,
+    "body": "제26조의5\n삭제 <2012.3.21>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0026051"
+   },
+   {
+    "article_no": "27",
+    "article_branch": null,
+    "title": "방과후 과정 운영 등에 대한 지원",
+    "body": "제27조(방과후 과정 운영 등에 대한 지원)\n국가 및 지방자치단체는 방과후 과정을 운영하거나 제12조제3항에 따라 대통령령으로 정하는 수업일수를 초과하여 운영하는 유치원에 대하여는 대통령령으로 정하는 바에 따라 운영에 드는 경비를 보조할 수 있다. <개정 2010.3.24, 2012.3.21>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0027001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": null,
+    "title": "보조금 등의 반환",
+    "body": "제28조(보조금 등의 반환)\n①국가 및 지방자치단체는 다음 각 호의 어느 하나에 해당하는 경우에는 이미 지급한 보조금ㆍ지원금의 전부 또는 일부의 반환을 명할 수 있다. <개정 2010.3.24, 2012.3.21, 2015.3.27, 2020.1.29>\n1. 유치원 목적외에 보조금ㆍ지원금을 사용한 경우\n2. 거짓이나 그 ",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0028001"
+   },
+   {
+    "article_no": "28",
+    "article_branch": "2",
+    "title": "유치원 명칭의 사용금지",
+    "body": "제28조의2(유치원 명칭의 사용금지)\n이 법에 따른 유치원이 아니면 유치원 또는 이와 유사한 명칭을 사용하지 못한다.",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0028021"
+   },
+   {
+    "article_no": "29",
+    "article_branch": null,
+    "title": "권한 등의 위임 및 위탁",
+    "body": "제29조(권한 등의 위임 및 위탁)\n① 이 법에 따른 교육부장관의 권한은 대통령령으로 정하는 바에 따라 그 일부를 교육감에게 위임할 수 있다. <개정 2013.3.23>\n② 이 법에 따른 교육부장관 및 교육감의 업무는 대통령령으로 정하는 바에 따라 그 일부를 보건복지부장관 또는 지방자치단체의 장에게 위탁할 수 있다. <개",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0029001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": null,
+    "title": "시정 또는 변경 명령",
+    "body": "제30조(시정 또는 변경 명령)\n①유치원의 지도ㆍ감독기관(국립유치원인 경우에는 교육부장관, 공립ㆍ사립 유치원인 경우에는 교육감을 말한다. 이하 \"관할청\"이라 한다)은 유치원이 시설ㆍ설비, 교육과정 운영, 유치원 원비 인상률 및 그 밖의 사항에 관하여 교육관계법령, 「도로교통법」 제53조, 제53조의3 또는 이에 따른 명령",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0030001"
+   },
+   {
+    "article_no": "30",
+    "article_branch": "2",
+    "title": "위반사실의 공표",
+    "body": "제30조의2(위반사실의 공표)\n① 관할청은 제28조제1항, 제30조 및 제32조에 따른 조치를 한 경우 그 위반행위, 처분 내용, 해당 유치원의 명칭 및 그 밖에 다른 유치원과의 구별이 필요한 사항으로서 대통령령으로 정하는 사항을 인터넷 홈페이지 등에 공개하여야 한다. 다만, 제28조제1항에 따른 처분의 경우에는 교육부령",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0030021"
+   },
+   {
+    "article_no": "31",
+    "article_branch": null,
+    "title": "휴업 및 휴원 명령",
+    "body": "제31조(휴업 및 휴원 명령)\n①관할청은 재해 등의 긴급한 사유로 정상적인 교육이 불가능하다고 인정하는 경우에는 원장에게 휴업을 명할 수 있다.\n②제1항에 따른 명령을 받은 원장은 지체없이 휴업을 하여야 한다. <개정 2010.3.24>\n③관할청은 원장이 제1항에 따른 명령에도 불구하고 휴업을 하지 아니하거나 특별히 긴급",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0031001"
+   },
+   {
+    "article_no": "32",
+    "article_branch": null,
+    "title": "유치원의 폐쇄 등",
+    "body": "제32조(유치원의 폐쇄 등)\n①관할청은 유치원이 다음 각 호의 어느 하나에 해당하여 정상적인 교육과정 운영이 불가능한 경우에는 1년 이내의 운영정지를 명하거나 폐쇄를 명할 수 있다. <개정 2010.3.24, 2016.5.29, 2020.1.29>\n1. 원장 또는 설립ㆍ경영자가 고의 또는 중대한 과실로 이 법 또는 이 법",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0032001"
+   },
+   {
+    "article_no": "33",
+    "article_branch": null,
+    "title": "청문",
+    "body": "제33조(청문)\n① 교육부장관은 제22조의5제1항에 따라 자격을 취소하려면 청문을 하여야 한다. <신설 2020.12.22>\n② 관할청은 제32조에 따라 유치원 또는 시설의 폐쇄나 운영정지를 명하려면 청문을 하여야 한다 <개정 2010.3.24, 2016.5.29, 2020.12.22>",
+    "body_truncated": false,
+    "effective_on": "20260519",
+    "article_key": "0033001"
+   },
+   {
+    "article_no": "34",
+    "article_branch": null,
+    "title": "벌칙",
+    "body": "제34조(벌칙)\n① 삭제 <2012.3.21>\n②다음 각 호의 어느 하나에 해당하는 자는 3년 이하의 징역 또는 3천만원 이하의 벌금에 처한다. <개정 2010.3.24, 2012.3.21, 2016.5.29>\n1. 제8조제2항에 따른 유치원 설립인가를 받지 아니하고 유치원을 운영한 자\n2. 제8조제4항을 위반하여 폐쇄인",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0034001"
+   },
+   {
+    "article_no": "35",
+    "article_branch": null,
+    "title": "과태료",
+    "body": "제35조(과태료)\n① 제28조의2를 위반하여 유치원 또는 이와 유사한 명칭을 사용한 자에게는 500만원 이하의 과태료를 부과한다.\n② 제17조제1항에 따른 건강검진을 실시하지 아니하거나 제17조의3에 따른 응급조치의무를 이행하지 아니한 자에게는 300만원 이하의 과태료를 부과한다. 다만, 제17조제1항에 따른 유아 건강검",
+    "body_truncated": true,
+    "effective_on": "20260519",
+    "article_key": "0035001"
+   }
+  ],
+  "article_count": 65,
+  "articles_shown": 65,
+  "articles_truncated_bodies": 47,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1000335",
+    "name": "부천시 학교급식 지원 조례",
+    "region_id": "41190",
+    "org_name": "경기도 부천시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1000335&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1020474",
+    "name": "홍천군 학교급식 지원 조례",
+    "region_id": "51720",
+    "org_name": "강원특별자치도 홍천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1020474&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1024361",
+    "name": "홍천군 농촌체험관광 활성화 지원에 관한 조례",
+    "region_id": "51720",
+    "org_name": "강원특별자치도 홍천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1024361&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1027904",
+    "name": "목포시 어린이 안전 지원 조례",
+    "region_id": "12110",
+    "org_name": "전남광주통합특별시 목포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1027904&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1036517",
+    "name": "서울특별시 송파구 어린이 보호차량 인증에 관한 조례",
+    "region_id": "11710",
+    "org_name": "서울특별시 송파구",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1036517&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1041767",
+    "name": "부여군 학교급식 지원에 관한 조례",
+    "region_id": "44760",
+    "org_name": "충청남도 부여군",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1041767&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1042716",
+    "name": "서울특별시 성북구 어린이 통학로 교통안전을 위한 조례",
+    "region_id": "11290",
+    "org_name": "서울특별시 성북구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1042716&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1073579",
+    "name": "서울특별시 관악구 식생활교육지원 조례",
+    "region_id": "11620",
+    "org_name": "서울특별시 관악구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1073579&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1079516",
+    "name": "서울특별시 동대문구 어린이 통학로 교통안전을 위한 조례",
+    "region_id": "11230",
+    "org_name": "서울특별시 동대문구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1079516&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1081825",
+    "name": "서울특별시 동대문구 효행 장려 및 지원에 관한 조례",
+    "region_id": "11230",
+    "org_name": "서울특별시 동대문구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1081825&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1082547",
+    "name": "군포시 방사능으로부터 안전한 식재료 공급 지원 조례",
+    "region_id": "41410",
+    "org_name": "경기도 군포시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1082547&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1127430",
+    "name": "경상북도 농산어촌 체험관광 활성화 지원에 관한 조례",
+    "region_id": "47",
+    "org_name": "경상북도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1127430&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1147300",
+    "name": "대구광역시교육청 교육공무직원의 채용 및 관리에 관한 조례",
+    "region_id": "edu:27",
+    "org_name": "대구광역시교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1147300&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1170876",
+    "name": "당진군 학교급식 지원에 관한 조례",
+    "region_id": "44270",
+    "org_name": "충청남도 당진시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1170876&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1171914",
+    "name": "남양주시 식생활 교육 지원 조례",
+    "region_id": "41360",
+    "org_name": "경기도 남양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1171914&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1175838",
+    "name": "충주시 학교급식 지원에 관한 조례",
+    "region_id": "43130",
+    "org_name": "충청북도 충주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1175838&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1178070",
+    "name": "부산광역시교육청 녹색제품 구매촉진에 관한 조례",
+    "region_id": "edu:26",
+    "org_name": "부산광역시교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1178070&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1178080",
+    "name": "부산광역시교육청 친환경 운동장 조성 조례",
+    "region_id": "edu:26",
+    "org_name": "부산광역시교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1178080&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1179724",
+    "name": "청주시 어린이 보호구역의 교통 안전관리에 관한 조례(폐지)",
+    "region_id": "43110",
+    "org_name": "충청북도 청주시",
+    "repealed": true,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1179724&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1181479",
+    "name": "서울특별시 강남구 효행 장려 및 지원 조례",
+    "region_id": "11680",
+    "org_name": "서울특별시 강남구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1181479&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

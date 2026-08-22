@@ -1,0 +1,714 @@
+{
+ "data": {
+  "region": {
+   "region_id": "51",
+   "sig_cd": "51000",
+   "name": "강원특별자치도",
+   "full_name": "강원특별자치도",
+   "level": 1
+  },
+  "counts": {
+   "total": 1267,
+   "active": 1047,
+   "repealed": 220,
+   "by_rr_cls_cd": {
+    "일부개정": 745,
+    "전부개정": 74,
+    "제정": 228,
+    "폐지": 220
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 27
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 9
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 14
+   },
+   {
+    "year": 2014,
+    "n": 9
+   },
+   {
+    "year": 2015,
+    "n": 9
+   },
+   {
+    "year": 2016,
+    "n": 21
+   },
+   {
+    "year": 2017,
+    "n": 9
+   },
+   {
+    "year": 2018,
+    "n": 12
+   },
+   {
+    "year": 2019,
+    "n": 15
+   },
+   {
+    "year": 2020,
+    "n": 12
+   },
+   {
+    "year": 2021,
+    "n": 7
+   },
+   {
+    "year": 2022,
+    "n": 18
+   },
+   {
+    "year": 2023,
+    "n": 571
+   },
+   {
+    "year": 2024,
+    "n": 201
+   },
+   {
+    "year": 2025,
+    "n": 233
+   },
+   {
+    "year": 2026,
+    "n": 74
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2001,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 27
+   },
+   {
+    "year": 2007,
+    "n": 4
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 9
+   },
+   {
+    "year": 2011,
+    "n": 7
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 14
+   },
+   {
+    "year": 2014,
+    "n": 9
+   },
+   {
+    "year": 2015,
+    "n": 9
+   },
+   {
+    "year": 2016,
+    "n": 16
+   },
+   {
+    "year": 2017,
+    "n": 13
+   },
+   {
+    "year": 2018,
+    "n": 12
+   },
+   {
+    "year": 2019,
+    "n": 14
+   },
+   {
+    "year": 2020,
+    "n": 9
+   },
+   {
+    "year": 2021,
+    "n": 10
+   },
+   {
+    "year": 2022,
+    "n": 18
+   },
+   {
+    "year": 2023,
+    "n": 12
+   },
+   {
+    "year": 2024,
+    "n": 11
+   },
+   {
+    "year": 2025,
+    "n": 9
+   },
+   {
+    "year": 2026,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직 공무원규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙 등 공포에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종위원회 실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황공개조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "재정운영상황공개조례시행규칙",
+    "display_name": "재정운영상황공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 58
+   },
+   {
+    "policy_key": "생활체육진흥조례",
+    "display_name": "생활체육 진흥 조례",
+    "rows": 1,
+    "nationwide_regions": 50
+   },
+   {
+    "policy_key": "지방공무원제안규칙",
+    "display_name": "지방공무원 제안규칙",
+    "rows": 1,
+    "nationwide_regions": 47
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례시행규칙",
+    "display_name": "통합관리기금 설치 및 운용 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 40
+   },
+   {
+    "policy_key": "의안의비용추계에관한조례",
+    "display_name": "의안의 비용추계에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 39
+   },
+   {
+    "policy_key": "공영개발사업설치조례",
+    "display_name": "공영개발사업 설치조례",
+    "rows": 1,
+    "nationwide_regions": 36
+   },
+   {
+    "policy_key": "안전관리자문단구성및운영에관한조례",
+    "display_name": "안전관리자문단 구성 및 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "지역정보화촉진조례",
+    "display_name": "지역정보화 촉진조례",
+    "rows": 1,
+    "nationwide_regions": 32
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2113595",
+    "name": "강원특별자치도 외국인주민 및 다문화가족 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-02-27",
+    "repealed_on": "2026-02-27",
+    "repealed_on_raw": "20260227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2113595&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2104911",
+    "name": "강원학연구센터 설립 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-26",
+    "repealed_on": "2026-01-01",
+    "repealed_on_raw": "20260101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2104911&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2104923",
+    "name": "강원특별자치도 아동 치과주치의 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-26",
+    "repealed_on": "2025-12-26",
+    "repealed_on_raw": "20251226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2104923&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2083291",
+    "name": "강원특별자치도 뷰티산업 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-11-07",
+    "repealed_on": "2025-11-07",
+    "repealed_on_raw": "20251107",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2083291&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2051501",
+    "name": "강원특별자치도 농어업인 국제결혼 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-04",
+    "repealed_on": "2025-07-04",
+    "repealed_on_raw": "20250704",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051501&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2042845",
+    "name": "강원특별자치도 자동차정비사업자 및 종사자 교육지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-05",
+    "repealed_on": "2025-06-05",
+    "repealed_on_raw": "20250605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2042845&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2036025",
+    "name": "2024 강원 동계청소년올림픽대회 지원위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-02",
+    "repealed_on": "2025-05-02",
+    "repealed_on_raw": "20250502",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2036025&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2036059",
+    "name": "강원특별자치도 교통연수원 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-02",
+    "repealed_on": "2025-05-02",
+    "repealed_on_raw": "20250502",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2036059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2025739",
+    "name": "강원특별자치도공무원교육원 시설사용료 징수 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-03-28",
+    "repealed_on": "2025-03-28",
+    "repealed_on_raw": "20250328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025739&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1926999",
+    "name": "강원특별자치도 지역방송발전지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-10",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1926999&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1926995",
+    "name": "강원특별자치도 지역신문발전지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-05-10",
+    "repealed_on": "2025-01-01",
+    "repealed_on_raw": "20250101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1926995&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2009185",
+    "name": "강원세계산림엑스포조직위원회 설립 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-27",
+    "repealed_on": "2024-12-27",
+    "repealed_on_raw": "20241227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2009185&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981311",
+    "name": "2024 강원 동계청소년올림픽대회 서포터즈 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-01",
+    "repealed_on": "2024-11-01",
+    "repealed_on_raw": "20241101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981311&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1981279",
+    "name": "강원특별자치도 명예도민증서 수여 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-11-01",
+    "repealed_on": "2024-11-01",
+    "repealed_on_raw": "20241101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1981279&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1952045",
+    "name": "강원특별자치도 대관령신·재생에너지 전시관 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-05",
+    "repealed_on": "2024-07-05",
+    "repealed_on_raw": "20240705",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1952045&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1952039",
+    "name": "강원특별자치도 코로나바이러스감염증-19에 따른 긴급 생활안정 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-05",
+    "repealed_on": "2024-07-05",
+    "repealed_on_raw": "20240705",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1952039&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1952051",
+    "name": "강원특별자치도의회 의정모니터 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-05",
+    "repealed_on": "2024-07-01",
+    "repealed_on_raw": "20240701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1952051&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1940369",
+    "name": "강원특별자치도규제개혁위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2024-06-08",
+    "repealed_on_raw": "20240608",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1940369&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937339",
+    "name": "강원특별자치도 아동ㆍ청소년복지시설 퇴소청소년 등의 자립지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-06-07",
+    "repealed_on": "2024-06-07",
+    "repealed_on_raw": "20240607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937339&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1911219",
+    "name": "강원도립극단 설립·지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-08",
+    "repealed_on": "2024-03-08",
+    "repealed_on_raw": "20240308",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1911259",
+    "name": "강원특별자치도 위스타트마을 운영 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-08",
+    "repealed_on": "2024-03-08",
+    "repealed_on_raw": "20240308",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911259&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1911221",
+    "name": "남춘천산업단지개발 주식회사 설립 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-08",
+    "repealed_on": "2024-03-08",
+    "repealed_on_raw": "20240308",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1911221&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1897131",
+    "name": "강원특별자치도 광역두만개발계획(GTI) 국제무역․투자박람회 육성 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1897131&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2026491",
+    "name": "강원특별자치도 인구정책 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-29",
+    "repealed_on": "2023-12-29",
+    "repealed_on_raw": "20231229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2026491&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1873247",
+    "name": "강원특별자치도 지역혁신협의회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-03",
+    "repealed_on": "2023-11-03",
+    "repealed_on_raw": "20231103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1873247&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1904341",
+    "name": "강원도 해외자매도 연수생 장학금 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-11-03",
+    "repealed_on": "2023-11-03",
+    "repealed_on_raw": "20231103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1904341&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1844427",
+    "name": "강원특별자치도 일자리재단 설립 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-08-04",
+    "repealed_on": "2023-10-11",
+    "repealed_on_raw": "20231011",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1844427&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1862727",
+    "name": "강원특별자치도 6·25전쟁납북피해 진상규명 및 납북피해자 명예회복실무위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2023-09-27",
+    "repealed_on_raw": "20230927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1862727&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1908649",
+    "name": "행복한 강원특별자치도 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2023-09-27",
+    "repealed_on_raw": "20230927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1908649&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1834899",
+    "name": "강원특별자치도 수산종자산업 육성 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-07",
+    "repealed_on": "2023-07-07",
+    "repealed_on_raw": "20230707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1834899&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1821225",
+    "name": "강원도민의날 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-09",
+    "repealed_on": "2023-06-11",
+    "repealed_on_raw": "20230611",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1821225&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1821259",
+    "name": "강원특별자치도 지역응급의료위원회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-09",
+    "repealed_on": "2023-06-11",
+    "repealed_on_raw": "20230611",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1821259&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1821665",
+    "name": "강원도 감사 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-06-09",
+    "repealed_on": "2023-06-11",
+    "repealed_on_raw": "20230611",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1821665&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1810797",
+    "name": "강원도 신농정 거버넌스 활성화 및 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-05-12",
+    "repealed_on": "2023-05-12",
+    "repealed_on_raw": "20230512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1810797&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1771865",
+    "name": "강원도 공무원 다면평가 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-30",
+    "repealed_on": "2022-12-30",
+    "repealed_on_raw": "20221230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1771865&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1763391",
+    "name": "강원도 개인정보 보호 관계 기관 협의회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-23",
+    "repealed_on": "2022-12-23",
+    "repealed_on_raw": "20221223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1763391&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1762463",
+    "name": "강원도 도시림등 조성ㆍ관리심의위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-23",
+    "repealed_on": "2022-12-23",
+    "repealed_on_raw": "20221223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762463&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1762459",
+    "name": "강원도 지역치안협의회 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-23",
+    "repealed_on": "2022-12-23",
+    "repealed_on_raw": "20221223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762459&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1736859",
+    "name": "강원도 공공건축물에 대한 소방시설공사 분리발주 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-14",
+    "repealed_on": "2022-10-14",
+    "repealed_on_raw": "20221014",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1736859&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1736855",
+    "name": "강원도 기초안전교육 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-14",
+    "repealed_on": "2022-10-14",
+    "repealed_on_raw": "20221014",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1736855&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "51000"
+ ]
+}

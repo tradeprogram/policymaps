@@ -1,0 +1,765 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1001242",
+   "key": "ordin-1001242",
+   "mst": "1001242",
+   "name": "김포시 특산품판매장 운영 관리 조례",
+   "ord_kind": "조례",
+   "region_id": "41570",
+   "sig_cd": "41570",
+   "region_name": "경기도 김포시",
+   "org_name": "경기도 김포시",
+   "enacted_on": "20060504",
+   "effective_on": "99991231",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 14,
+   "status": "active",
+   "lifecycle": "undetermined",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1001242",
+   "categories": [
+    {
+     "code": "C11",
+     "name": "경제·산업·일자리",
+     "confidence": 0.3333,
+     "method": "rule"
+    },
+    {
+     "code": "C12",
+     "name": "농림·수산",
+     "confidence": 0.3333,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990696,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:2061043",
+      "key": "ordin-2061043",
+      "name": "김포시 특산품판매장 운영 관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20250730",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2061043",
+      "categories": [
+       "C12",
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.887127,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1728909",
+      "key": "ordin-1728909",
+      "name": "김포시 결산검사위원 선임 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20220921",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1728909",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.886768,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1694603",
+      "key": "ordin-1694603",
+      "name": "김포시 농작물 병해충 예찰ㆍ방제단 구성 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20220406",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1694603",
+      "categories": [
+       "C07",
+       "C12"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.880092,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1539565",
+      "key": "ordin-1539565",
+      "name": "김포시 청소년육성위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20200929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1539565",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.879144,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1958083",
+      "key": "ordin-1958083",
+      "name": "김포시 택시쉼터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20240718",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1958083",
+      "categories": [
+       "C10",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.878178,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:1728933",
+      "key": "ordin-1728933",
+      "name": "김포시 아동복지심의위원회 구성 및 운영에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20220921",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1728933",
+      "categories": [
+       "C03",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.875794,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1512371",
+      "key": "ordin-1512371",
+      "name": "김포시 도로관리심의위원회 설치조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20200701",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1512371",
+      "categories": [
+       "C01",
+       "C08",
+       "C10"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.874547,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1539645",
+      "key": "ordin-1539645",
+      "name": "김포시 먹거리 보장 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20221228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1539645",
+      "categories": [
+       "C11",
+       "C12"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.872513,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1988617",
+      "key": "ordin-1988617",
+      "name": "김포시 청소년 유해환경 신고 포상금 지급규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20241127",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1988617",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.871505,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1069093",
+      "key": "ordin-1069093",
+      "name": "김포시시민의날조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "19991127",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "undetermined",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1069093",
+      "categories": [
+       "C09"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.990959,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1609729",
+      "key": "ordin-1609729",
+      "name": "김포시 효행장려 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20210702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1609729",
+      "categories": [
+       "C13",
+       "C05"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99091,
+      "stored_rank": null,
+      "ordinance_id": "ordin:995248",
+      "key": "ordin-995248",
+      "name": "김포시 생활폐기물처리시설설치특별회계 설치 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20071108",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=995248",
+      "categories": [
+       "C02",
+       "C07"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990632,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1694587",
+      "key": "ordin-1694587",
+      "name": "김포시 중소기업협동조합 육성을 위한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20220406",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1694587",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990522,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1805909",
+      "key": "ordin-1805909",
+      "name": "김포시 옥외행사의 안전관리에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20230503",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1805909",
+      "categories": [
+       "C08",
+       "C13"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990146,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1857461",
+      "key": "ordin-1857461",
+      "name": "김포시 외국인주민 지원센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20230927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1857461",
+      "categories": [
+       "C06",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.989466,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1583773",
+      "key": "ordin-1583773",
+      "name": "김포시 공동주택관리 감사에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20210331",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1583773",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.989402,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1537429",
+      "key": "ordin-1537429",
+      "name": "김포시 에너지 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20200929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1537429",
+      "categories": [
+       "C07",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.989326,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1660385",
+      "key": "ordin-1660385",
+      "name": "김포시의회 사무기구 직무대리 규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20211231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1660385",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.989233,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1915603",
+      "key": "ordin-1915603",
+      "name": "김포시 갈등 예방과 해결에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20240327",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1915603",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.988835,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1537445",
+      "key": "ordin-1537445",
+      "name": "김포시 교통유발부담금 경감 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20200929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1537445",
+      "categories": [
+       "C10",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.99427,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2161293",
+      "key": "ordin-2161293",
+      "name": "김포시 도시공원 및 녹지 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20260814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "pending",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2161293",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.994161,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1912483",
+      "key": "ordin-1912483",
+      "name": "김포시 폐기물처리시설 설치촉진 및 주변지역지원 등에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20240315",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1912483",
+      "categories": [
+       "C07"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.99405,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2161297",
+      "key": "ordin-2161297",
+      "name": "김포시 포상조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20260814",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2161297",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.993978,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2149717",
+      "key": "ordin-2149717",
+      "name": "김포시 관광 진흥에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20260713",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2149717",
+      "categories": [
+       "C13",
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.993672,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2005371",
+      "key": "ordin-2005371",
+      "name": "김포시 노인복합문화센터 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20241231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2005371",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.993634,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1978811",
+      "key": "ordin-1978811",
+      "name": "김포시 건축조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20241023",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1978811",
+      "categories": [
+       "C09",
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.993469,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2037755",
+      "key": "ordin-2037755",
+      "name": "김포시 제안제도 운영에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20250515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2037755",
+      "categories": []
+     },
+     {
+      "rank": 8,
+      "cosine": 0.9934,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2086241",
+      "key": "ordin-2086241",
+      "name": "김포시 주거복지 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20251114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2086241",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.993365,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1894487",
+      "key": "ordin-1894487",
+      "name": "김포시 공공심야어린이병원 및 공공심야약국 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20231229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1894487",
+      "categories": [
+       "C06"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.993342,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1538671",
+      "key": "ordin-1538671",
+      "name": "김포시 건강생활실천협의회 및 지역보건의료심의위원회 운영조례",
+      "ord_kind": "조례",
+      "region_name": "경기도 김포시",
+      "sig_cd": "41570",
+      "enacted_on": "20200929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1538671",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

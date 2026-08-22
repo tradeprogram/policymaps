@@ -1,0 +1,674 @@
+{
+ "data": {
+  "region": {
+   "region_id": "31110",
+   "sig_cd": "31110",
+   "name": "중구",
+   "full_name": "울산광역시 중구",
+   "level": 2
+  },
+  "counts": {
+   "total": 574,
+   "active": 519,
+   "repealed": 55,
+   "by_rr_cls_cd": {
+    "일부개정": 335,
+    "전부개정": 19,
+    "제정": 165,
+    "폐지": 55
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 11
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 30
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 17
+   },
+   {
+    "year": 2017,
+    "n": 24
+   },
+   {
+    "year": 2018,
+    "n": 14
+   },
+   {
+    "year": 2019,
+    "n": 22
+   },
+   {
+    "year": 2020,
+    "n": 30
+   },
+   {
+    "year": 2021,
+    "n": 48
+   },
+   {
+    "year": 2022,
+    "n": 53
+   },
+   {
+    "year": 2023,
+    "n": 64
+   },
+   {
+    "year": 2024,
+    "n": 123
+   },
+   {
+    "year": 2025,
+    "n": 89
+   },
+   {
+    "year": 2026,
+    "n": 24
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2006,
+    "n": 11
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 4
+   },
+   {
+    "year": 2015,
+    "n": 1
+   },
+   {
+    "year": 2016,
+    "n": 1
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 1
+   },
+   {
+    "year": 2019,
+    "n": 2
+   },
+   {
+    "year": 2020,
+    "n": 2
+   },
+   {
+    "year": 2021,
+    "n": 4
+   },
+   {
+    "year": 2022,
+    "n": 5
+   },
+   {
+    "year": 2023,
+    "n": 1
+   },
+   {
+    "year": 2024,
+    "n": 4
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회 조직운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "회계관계공무원재정보증조례",
+    "display_name": "회계관계공무원재정보증조례",
+    "rows": 1,
+    "nationwide_regions": 83
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀장학금지급조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀장학금지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황공개조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "주민의조례제정및개폐청구에관한조례",
+    "display_name": "주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "재정운영상황공개조례시행규칙",
+    "display_name": "재정운영상황공개조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 58
+   },
+   {
+    "policy_key": "제안규칙",
+    "display_name": "제안 규칙",
+    "rows": 1,
+    "nationwide_regions": 53
+   },
+   {
+    "policy_key": "생활체육진흥조례",
+    "display_name": "생활체육 진흥 조례",
+    "rows": 1,
+    "nationwide_regions": 50
+   },
+   {
+    "policy_key": "사회적기업육성및지원에관한조례",
+    "display_name": "사회적기업 육성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 48
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례시행규칙",
+    "display_name": "오수분뇨및축산폐수의처리에관한조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 42
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:1963619",
+    "name": "울산광역시 중구 금고지정 및 운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-08-19",
+    "repealed_on": "2024-08-19",
+    "repealed_on_raw": "20240819",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1963619&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1931573",
+    "name": "울산광역시 중구 지방공무원 임용후보자 장학규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-05-20",
+    "repealed_on": "2024-05-20",
+    "repealed_on_raw": "20240520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1931573&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1931575",
+    "name": "울산광역시중구 지방별정직공무원의 임용 등에 관한 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-05-20",
+    "repealed_on": "2024-05-20",
+    "repealed_on_raw": "20240520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1931575&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1937261",
+    "name": "울산광역시 중구 향토문화재 보호 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-11",
+    "repealed_on": "2024-03-11",
+    "repealed_on_raw": "20240311",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1937261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1844607",
+    "name": "울산광역시 중구 생활체육 진흥 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-08-07",
+    "repealed_on": "2023-08-07",
+    "repealed_on_raw": "20230807",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1844607&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1720583",
+    "name": "울산광역시 중구 지방보조사업자의 법령위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-08",
+    "repealed_on": "2022-08-08",
+    "repealed_on_raw": "20220808",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1720583&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1699891",
+    "name": "울산광역시 중구 저소득층 국민건강보험료 및 노인장기요양보험료 지원 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-18",
+    "repealed_on": "2022-07-01",
+    "repealed_on_raw": "20220701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1699891&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1696673",
+    "name": "울산광역시 중구 제안 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-11",
+    "repealed_on": "2022-04-11",
+    "repealed_on_raw": "20220411",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1696673&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1662963",
+    "name": "울산광역시 중구 주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-03",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1662963&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1627283",
+    "name": "울산광역시 중구 캠핑장 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-27",
+    "repealed_on": "2022-01-01",
+    "repealed_on_raw": "20220101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627283&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1656319",
+    "name": "울산광역시 중구 장기미집행 도시계획시설 대지보상 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-27",
+    "repealed_on": "2021-12-27",
+    "repealed_on_raw": "20211227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1656319&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1627339",
+    "name": "울산광역시 중구 홀로 사는 노인 고독사 예방 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-27",
+    "repealed_on": "2021-09-27",
+    "repealed_on_raw": "20210927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627339&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1617849",
+    "name": "울산광역시 중구 자연재해 예방·복구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-26",
+    "repealed_on": "2021-09-01",
+    "repealed_on_raw": "20210901",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1617849&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1594053",
+    "name": "울산광역시 중구 생활소음저감 실천에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-05-10",
+    "repealed_on": "2021-06-30",
+    "repealed_on_raw": "20210630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1594053&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1497429",
+    "name": "울산광역시 중구 사회적기업 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-25",
+    "repealed_on": "2020-05-25",
+    "repealed_on_raw": "20200525",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1497429&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1497433",
+    "name": "울산광역시 중구 협동조합 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-05-25",
+    "repealed_on": "2020-05-25",
+    "repealed_on_raw": "20200525",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1497433&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1400127",
+    "name": "울산광역시중구의회 의정옴부즈만 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-07-01",
+    "repealed_on": "2019-07-01",
+    "repealed_on_raw": "20190701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1400127&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1392480",
+    "name": "울산광역시 중구 복지위원 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-04-29",
+    "repealed_on": "2019-04-29",
+    "repealed_on_raw": "20190429",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1392480&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1376136",
+    "name": "울산광역시중구의회의원 공무국외여행 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-12-27",
+    "repealed_on": "2018-12-27",
+    "repealed_on_raw": "20181227",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1376136&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1317988",
+    "name": "울산광역시 중구 포상 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-12-18",
+    "repealed_on": "2017-12-18",
+    "repealed_on_raw": "20171218",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1317988&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1307878",
+    "name": "울산광역시 중구 기반시설특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-10-23",
+    "repealed_on": "2017-10-23",
+    "repealed_on_raw": "20171023",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1307878&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1289103",
+    "name": "울산광역시 중구의회 의원 윤리강령 및 윤리 실천규범 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-06-05",
+    "repealed_on": "2017-06-05",
+    "repealed_on_raw": "20170605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1289103&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1291197",
+    "name": "울산광역시 중구의회 의원 행동강령 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-06-05",
+    "repealed_on": "2017-06-05",
+    "repealed_on_raw": "20170605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1291197&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1280764",
+    "name": "울산광역시 중구 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-03-13",
+    "repealed_on": "2017-03-13",
+    "repealed_on_raw": "20170313",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1280764&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1231779",
+    "name": "울산광역시중구새마을기금조성및관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2016-05-09",
+    "repealed_on": "2016-05-09",
+    "repealed_on_raw": "20160509",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1231779&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1126176",
+    "name": "울산광역시 중구 체육진흥협의회 조직운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2015-05-11",
+    "repealed_on": "2015-05-11",
+    "repealed_on_raw": "20150511",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1126176&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1094640",
+    "name": "울산광역시중구 지방별정직공무원의 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-29",
+    "repealed_on": "2014-12-29",
+    "repealed_on_raw": "20141229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1094640&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1077440",
+    "name": "울산광역시중구 도시디자인 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-22",
+    "repealed_on": "2014-12-22",
+    "repealed_on_raw": "20141222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1077440&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:822401",
+    "name": "울산광역시중구지방계약직공무원규정시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2014-12-01",
+    "repealed_on": "2014-12-01",
+    "repealed_on_raw": "20141201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=822401&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1077938",
+    "name": "울산광역시중구 항결핵제 보급수수료 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-10-06",
+    "repealed_on": "2014-10-06",
+    "repealed_on_raw": "20141006",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1077938&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:945780",
+    "name": "울산광역시중구기조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-12-28",
+    "repealed_on": "2012-12-28",
+    "repealed_on_raw": "20121228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=945780&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:884787",
+    "name": "울산광역시중구 마을상수도ㆍ소규모급수시설 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-12-28",
+    "repealed_on": "2012-12-28",
+    "repealed_on_raw": "20121228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=884787&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:765912",
+    "name": "울산광역시중구지방고용직공무원의임용등에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-09-24",
+    "repealed_on": "2012-09-24",
+    "repealed_on_raw": "20120924",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=765912&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:937089",
+    "name": "울산광역시중구 국민건강증진법 위반자 등에 대한 과태료 부과 징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-12-26",
+    "repealed_on": "2011-12-26",
+    "repealed_on_raw": "20111226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=937089&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:965117",
+    "name": "울산광역시중구 주택임대차계약서 확정일자 부여업무 처리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2011-03-14",
+    "repealed_on": "2011-03-14",
+    "repealed_on_raw": "20110314",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=965117&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:942219",
+    "name": "울산광역시중구회계관계공무원재정보증조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-09-20",
+    "repealed_on": "2010-09-20",
+    "repealed_on_raw": "20100920",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=942219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:939303",
+    "name": "울산광역시중구공중화장실설치및관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-04-10",
+    "repealed_on": "2010-04-10",
+    "repealed_on_raw": "20100410",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=939303&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:936975",
+    "name": "울산광역시중구재래시장전문상가육성지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2009-10-05",
+    "repealed_on": "2009-10-05",
+    "repealed_on_raw": "20091005",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=936975&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:945026",
+    "name": "울산광역시중구 관용심사위원회의 설치 및 운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2009-06-22",
+    "repealed_on": "2009-06-22",
+    "repealed_on_raw": "20090622",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=945026&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:939302",
+    "name": "울산광역시중구오수분뇨및축산폐수의처리에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-12-01",
+    "repealed_on": "2008-12-01",
+    "repealed_on_raw": "20081201",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=939302&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "31110"
+ ]
+}

@@ -1,0 +1,714 @@
+{
+ "data": {
+  "region": {
+   "region_id": "26470",
+   "sig_cd": "26470",
+   "name": "연제구",
+   "full_name": "부산광역시 연제구",
+   "level": 2
+  },
+  "counts": {
+   "total": 581,
+   "active": 491,
+   "repealed": 90,
+   "by_rr_cls_cd": {
+    "일부개정": 278,
+    "전부개정": 26,
+    "제정": 187,
+    "폐지": 90
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1998,
+    "n": 2
+   },
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 8
+   },
+   {
+    "year": 2005,
+    "n": 7
+   },
+   {
+    "year": 2006,
+    "n": 9
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 4
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 4
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 11
+   },
+   {
+    "year": 2015,
+    "n": 9
+   },
+   {
+    "year": 2016,
+    "n": 17
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 9
+   },
+   {
+    "year": 2019,
+    "n": 19
+   },
+   {
+    "year": 2020,
+    "n": 19
+   },
+   {
+    "year": 2021,
+    "n": 46
+   },
+   {
+    "year": 2022,
+    "n": 60
+   },
+   {
+    "year": 2023,
+    "n": 122
+   },
+   {
+    "year": 2024,
+    "n": 105
+   },
+   {
+    "year": 2025,
+    "n": 85
+   },
+   {
+    "year": 2026,
+    "n": 33
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1998,
+    "n": 1
+   },
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2003,
+    "n": 7
+   },
+   {
+    "year": 2005,
+    "n": 6
+   },
+   {
+    "year": 2006,
+    "n": 9
+   },
+   {
+    "year": 2007,
+    "n": 2
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 1
+   },
+   {
+    "year": 2012,
+    "n": 1
+   },
+   {
+    "year": 2014,
+    "n": 6
+   },
+   {
+    "year": 2015,
+    "n": 4
+   },
+   {
+    "year": 2016,
+    "n": 5
+   },
+   {
+    "year": 2017,
+    "n": 3
+   },
+   {
+    "year": 2018,
+    "n": 5
+   },
+   {
+    "year": 2019,
+    "n": 4
+   },
+   {
+    "year": 2020,
+    "n": 3
+   },
+   {
+    "year": 2021,
+    "n": 3
+   },
+   {
+    "year": 2022,
+    "n": 6
+   },
+   {
+    "year": 2023,
+    "n": 12
+   },
+   {
+    "year": 2024,
+    "n": 2
+   },
+   {
+    "year": 2025,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서 확정일자 부여업무 처리 규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회조직운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "조례규칙등공포에관한조례",
+    "display_name": "조례·규칙등공포에관한조례",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원임용후보자장학규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수규칙",
+    "display_name": "국민건강증진법 위반자에 대한 과태료 부과징수 규칙",
+    "rows": 1,
+    "nationwide_regions": 65
+   },
+   {
+    "policy_key": "재정운영상황공개조례",
+    "display_name": "재정운영상황 공개 조례",
+    "rows": 1,
+    "nationwide_regions": 61
+   },
+   {
+    "policy_key": "사회적기업육성및지원에관한조례",
+    "display_name": "사회적기업 육성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 48
+   },
+   {
+    "policy_key": "도시디자인조례",
+    "display_name": "도시디자인 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "의회의원윤리강령및윤리실천규범등에관한조례",
+    "display_name": "의회 의원 윤리강령 및 윤리실천규범 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 41
+   },
+   {
+    "policy_key": "의안의비용추계에관한조례",
+    "display_name": "의안의 비용추계에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 39
+   },
+   {
+    "policy_key": "소송사건수행증인등의실비변상조례",
+    "display_name": "소송사건수행증인등의실비변상조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   },
+   {
+    "policy_key": "안전관리자문단구성및운영에관한조례",
+    "display_name": "안전관리자문단구성및운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 34
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2040055",
+    "name": "부산광역시 연제구 어린이 통학로 교통안전을 위한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-20",
+    "repealed_on": "2025-05-20",
+    "repealed_on_raw": "20250520",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2040055&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2015871",
+    "name": "부산광역시 연제구 선택예방접종 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-20",
+    "repealed_on": "2025-02-20",
+    "repealed_on_raw": "20250220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2015871&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1945757",
+    "name": "부산광역시 연제구 소방취약계층 주택용 소방시설 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-07-01",
+    "repealed_on": "2024-07-01",
+    "repealed_on_raw": "20240701",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1945757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1886277",
+    "name": "부산광역시 연제구 기반시설특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-22",
+    "repealed_on": "2024-01-01",
+    "repealed_on_raw": "20240101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1886277&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1886245",
+    "name": "부산광역시 연제구 국민체육센터 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-22",
+    "repealed_on": "2023-12-22",
+    "repealed_on_raw": "20231222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1886245&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1886303",
+    "name": "부산광역시 연제구 국민체육센터 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-22",
+    "repealed_on": "2023-12-22",
+    "repealed_on_raw": "20231222",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1886303&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1856451",
+    "name": "부산광역시 연제구 정신건강복지센터 설치 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2023-09-27",
+    "repealed_on_raw": "20230927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1856451&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1856423",
+    "name": "부산광역시 연제구 지역치안협의회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-27",
+    "repealed_on": "2023-09-27",
+    "repealed_on_raw": "20230927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1856423&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1846367",
+    "name": "부산광역시 연제구 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-08-10",
+    "repealed_on": "2023-08-10",
+    "repealed_on_raw": "20230810",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1846367&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1786265",
+    "name": "부산광역시 연제구 사회재난 구호 및 복구 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-28",
+    "repealed_on": "2023-02-28",
+    "repealed_on_raw": "20230228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786265&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1786261",
+    "name": "부산광역시 연제구 안전관리민관협력위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-28",
+    "repealed_on": "2023-02-28",
+    "repealed_on_raw": "20230228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786261&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1786257",
+    "name": "부산광역시 연제구 안전관리위원회 구성 및 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-28",
+    "repealed_on": "2023-02-28",
+    "repealed_on_raw": "20230228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786257&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1786255",
+    "name": "부산광역시연제구안전관리자문단구성및운영에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-28",
+    "repealed_on": "2023-02-28",
+    "repealed_on_raw": "20230228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786255&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1786259",
+    "name": "부산광역시 연제구 재난안전대책본부 구성 및 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-28",
+    "repealed_on": "2023-02-28",
+    "repealed_on_raw": "20230228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1786259&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1787397",
+    "name": "부산광역시 연제구 청소년육성위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-28",
+    "repealed_on": "2023-02-28",
+    "repealed_on_raw": "20230228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1787397&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1787395",
+    "name": "부산광역시 연제구 청소년지도위원의 위촉에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-02-28",
+    "repealed_on": "2023-02-28",
+    "repealed_on_raw": "20230228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1787395&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1733807",
+    "name": "부산광역시 연제구 기후변화 대응 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-11",
+    "repealed_on": "2022-10-11",
+    "repealed_on_raw": "20221011",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1733807&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1733809",
+    "name": "부산광역시 연제구 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-10-11",
+    "repealed_on": "2022-10-11",
+    "repealed_on_raw": "20221011",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1733809&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1719891",
+    "name": "도로명주소법의 개정에 따른 부산광역시 연제구 및 동주민센터의 소재지에 관한 조례 등의 정비에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-08-05",
+    "repealed_on": "2022-08-05",
+    "repealed_on_raw": "20220805",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1719891&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1719897",
+    "name": "도로명주소법의 개정에 따른 부산광역시 연제구 통.반 설치 조례 시행규칙 등의 정비에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-08-05",
+    "repealed_on": "2022-08-05",
+    "repealed_on_raw": "20220805",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1719897&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1666859",
+    "name": "부산광역시 연제구 주민의 조례 제정·개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-06",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1666859&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1653613",
+    "name": "(폐지)부산광역시연제구의회포상규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-12-24",
+    "repealed_on": "2022-01-13",
+    "repealed_on_raw": "20220113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1653613&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1610559",
+    "name": "부산광역시 연제구 사전재해영향성검토위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-07-06",
+    "repealed_on": "2021-07-06",
+    "repealed_on_raw": "20210706",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1610559&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1602519",
+    "name": "부산광역시 연제구 주민자치회 시범실시 및 설치.운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-06-07",
+    "repealed_on": "2021-06-07",
+    "repealed_on_raw": "20210607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1602519&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1579481",
+    "name": "부산광역시 연제구 지적현장민원실 설치·운영에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-03-15",
+    "repealed_on": "2021-03-15",
+    "repealed_on_raw": "20210315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579481&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1556867",
+    "name": "부산광역시연제구연제문화원지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-24",
+    "repealed_on": "2020-12-24",
+    "repealed_on_raw": "20201224",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1556867&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396961",
+    "name": "부산광역시 연제구 사회복지기금 설치 및 운용·관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-07",
+    "repealed_on": "2020-01-01",
+    "repealed_on_raw": "20200101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396961&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1432057",
+    "name": "부산광역시 연제구 사회복지기금 설치 및 운용·관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-12-16",
+    "repealed_on": "2020-01-01",
+    "repealed_on_raw": "20200101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1432057&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1436285",
+    "name": "부산광역시 연제구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-12-26",
+    "repealed_on": "2019-12-26",
+    "repealed_on_raw": "20191226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1436285&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1432053",
+    "name": "부산광역시연제구금권등의관리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-12-16",
+    "repealed_on": "2019-12-16",
+    "repealed_on_raw": "20191216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1432053&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1432055",
+    "name": "부산광역시연제구지방수입부과공개에관한규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-12-16",
+    "repealed_on": "2019-12-16",
+    "repealed_on_raw": "20191216",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1432055&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1414117",
+    "name": "부산광역시연제구지방공무원임용후보자장학규정시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-10-21",
+    "repealed_on": "2019-10-21",
+    "repealed_on_raw": "20191021",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1414117&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1376940",
+    "name": "부산광역시연제구소송사건수행증인등의실비변상조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-12-28",
+    "repealed_on": "2018-12-28",
+    "repealed_on_raw": "20181228",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1376940&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1365172",
+    "name": "부산광역시 연제구 주민소득지원 및 생활안정자금 특별회계 설치·운용 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-11-09",
+    "repealed_on": "2018-11-09",
+    "repealed_on_raw": "20181109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365172&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1365173",
+    "name": "부산광역시연제구주민소득지원및생활안정자금특별회계설치·운용관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2018-11-09",
+    "repealed_on": "2018-11-09",
+    "repealed_on_raw": "20181109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1365173&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1354593",
+    "name": "부산광역시연제구아동위원회운영등에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-08-13",
+    "repealed_on": "2018-08-13",
+    "repealed_on_raw": "20180813",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1354593&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1340141",
+    "name": "부산광역시 연제구 복지위원 정수 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2018-02-28",
+    "repealed_on": "2018-05-01",
+    "repealed_on_raw": "20180501",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1340141&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1305526",
+    "name": "부산광역시 연제구 사회적기업 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-10-10",
+    "repealed_on": "2017-11-11",
+    "repealed_on_raw": "20171111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1305526&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1482729",
+    "name": "부산광역시 연제구 위반건축물에 대한 과태료 및 이행강제금 부과징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-05-12",
+    "repealed_on": "2017-05-12",
+    "repealed_on_raw": "20170512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1482729&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1482727",
+    "name": "부산광역시 연제구 지방공무원 징계양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-05-12",
+    "repealed_on": "2017-05-12",
+    "repealed_on_raw": "20170512",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1482727&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "26470"
+ ]
+}

@@ -1,0 +1,826 @@
+{
+ "data": {
+  "region": {
+   "region_id": "48170",
+   "sig_cd": "48170",
+   "name": "진주시",
+   "full_name": "경상남도 진주시",
+   "level": 2
+  },
+  "counts": {
+   "total": 1288,
+   "active": 683,
+   "repealed": 605,
+   "by_rr_cls_cd": {
+    "일부개정": 422,
+    "전부개정": 34,
+    "제정": 227,
+    "폐지": 605
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1988,
+    "n": 4
+   },
+   {
+    "year": 1989,
+    "n": 13
+   },
+   {
+    "year": 1990,
+    "n": 91
+   },
+   {
+    "year": 1991,
+    "n": 20
+   },
+   {
+    "year": 1992,
+    "n": 4
+   },
+   {
+    "year": 1993,
+    "n": 7
+   },
+   {
+    "year": 1994,
+    "n": 1
+   },
+   {
+    "year": 1995,
+    "n": 3
+   },
+   {
+    "year": 1996,
+    "n": 2
+   },
+   {
+    "year": 1997,
+    "n": 3
+   },
+   {
+    "year": 1998,
+    "n": 5
+   },
+   {
+    "year": 1999,
+    "n": 22
+   },
+   {
+    "year": 2000,
+    "n": 13
+   },
+   {
+    "year": 2001,
+    "n": 5
+   },
+   {
+    "year": 2002,
+    "n": 10
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 24
+   },
+   {
+    "year": 2008,
+    "n": 3
+   },
+   {
+    "year": 2009,
+    "n": 13
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 10
+   },
+   {
+    "year": 2012,
+    "n": 6
+   },
+   {
+    "year": 2013,
+    "n": 7
+   },
+   {
+    "year": 2014,
+    "n": 16
+   },
+   {
+    "year": 2015,
+    "n": 36
+   },
+   {
+    "year": 2016,
+    "n": 12
+   },
+   {
+    "year": 2017,
+    "n": 29
+   },
+   {
+    "year": 2018,
+    "n": 26
+   },
+   {
+    "year": 2019,
+    "n": 31
+   },
+   {
+    "year": 2020,
+    "n": 39
+   },
+   {
+    "year": 2021,
+    "n": 51
+   },
+   {
+    "year": 2022,
+    "n": 80
+   },
+   {
+    "year": 2023,
+    "n": 116
+   },
+   {
+    "year": 2024,
+    "n": 129
+   },
+   {
+    "year": 2025,
+    "n": 114
+   },
+   {
+    "year": 2026,
+    "n": 55
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1988,
+    "n": 4
+   },
+   {
+    "year": 1989,
+    "n": 6
+   },
+   {
+    "year": 1990,
+    "n": 91
+   },
+   {
+    "year": 1991,
+    "n": 17
+   },
+   {
+    "year": 1992,
+    "n": 4
+   },
+   {
+    "year": 1993,
+    "n": 5
+   },
+   {
+    "year": 1994,
+    "n": 1
+   },
+   {
+    "year": 1995,
+    "n": 3
+   },
+   {
+    "year": 1996,
+    "n": 2
+   },
+   {
+    "year": 1997,
+    "n": 3
+   },
+   {
+    "year": 1998,
+    "n": 5
+   },
+   {
+    "year": 1999,
+    "n": 22
+   },
+   {
+    "year": 2000,
+    "n": 13
+   },
+   {
+    "year": 2001,
+    "n": 5
+   },
+   {
+    "year": 2002,
+    "n": 10
+   },
+   {
+    "year": 2003,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 2
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 11
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2009,
+    "n": 11
+   },
+   {
+    "year": 2010,
+    "n": 3
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 2
+   },
+   {
+    "year": 2014,
+    "n": 7
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 11
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 9
+   },
+   {
+    "year": 2019,
+    "n": 2
+   },
+   {
+    "year": 2020,
+    "n": 5
+   },
+   {
+    "year": 2021,
+    "n": 7
+   },
+   {
+    "year": 2022,
+    "n": 11
+   },
+   {
+    "year": 2023,
+    "n": 5
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2025,
+    "n": 4
+   },
+   {
+    "year": 2026,
+    "n": 5
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "임대주택분쟁조정위원회구성및운영조례",
+    "display_name": "임대주택분쟁조정위원회 구성 및 운영조례",
+    "rows": 2,
+    "nationwide_regions": 17
+   },
+   {
+    "policy_key": "공동주택관리분쟁조정위원회구성및운영조례",
+    "display_name": "공동주택관리분쟁조정위원회 구성 및 운영조례",
+    "rows": 2,
+    "nationwide_regions": 8
+   },
+   {
+    "policy_key": "국가유공자소유토지건물및자동차에대한시세과세면제에관한조례중개정조례",
+    "display_name": "국가유공자소유토지·건물및자동차에대한시세과세면제에관한조례중개정조례",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "리통반장자녀장학금지급조례",
+    "display_name": "리·통·반장자녀장학금지급조례",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "상수도사업소검사시험등수수료징수조례",
+    "display_name": "상수도사업소검사시험등수수료징수조례",
+    "rows": 2,
+    "nationwide_regions": 1
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원징계양정에관한규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "주택임대차계약서확정일자부여업무처리규칙",
+    "display_name": "주택임대차계약서확정일자부여업무처리규칙",
+    "rows": 1,
+    "nationwide_regions": 133
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회운영조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "기반시설특별회계설치및운영조례",
+    "display_name": "기반시설특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 115
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수.분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보교부금 지급규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에대한과태료부과·징수조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과·징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:881274",
+    "name": "진주시도시정비정돈에따른재산세과세면제에관한조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1991-12-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=881274&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:875844",
+    "name": "진주시민간투자사업심의위원회운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-09-25",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=875844&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:881275",
+    "name": "진주시지방공사경상남도의료원에대한주민세과세면제에관한조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1991-12-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=881275&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:876082",
+    "name": "<폐지>진주시공단문화발전지원협의회설치조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1993-10-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=876082&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:881625",
+    "name": "<폐지>진주시국가유공자단체등에대한시세과세면제및불균일과세에관한조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1989-01-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=881625&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:881272",
+    "name": "<폐지>진주시국민연금관리공단에대한시세과세면제에관한조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1989-01-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=881272&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:881624",
+    "name": "<폐지>진주시군장성소유자동차에대한자동차세과세면제에관한조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1989-01-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=881624&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:881623",
+    "name": "<폐지>진주시방송송신·중계소통합에따른시세불균일과세에관한조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1991-01-07",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=881623&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:878227",
+    "name": "<폐지>진주시세의과소세액에대한과세면제에관한조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1989-01-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=878227&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:861001",
+    "name": "<폐지>진주시체육시설관리사무소설치조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1993-08-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=861001&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:881273",
+    "name": "<폐지>진주시한국방송공사에대한시세과세면제에관한조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1989-01-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=881273&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:881626",
+    "name": "<폐지>진주시한국전매공사에대한시세과세면제에관한조례폐지조례",
+    "ord_kind": "조례",
+    "enacted_on": "1989-01-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=881626&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:860975",
+    "name": "진주시오수·분뇨및축산폐수의처리에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2008-12-12",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=860975&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2119471",
+    "name": "진주시 진주실크박물관 건립추진위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-04-06",
+    "repealed_on": "2026-04-06",
+    "repealed_on_raw": "20260406",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2119471&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2096323",
+    "name": "진주시 공설봉안당 설치 및 관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-24",
+    "repealed_on": "2026-01-01",
+    "repealed_on_raw": "20260101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2096323&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2096321",
+    "name": "진주시 공설화장시설 설치 및 관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-12-24",
+    "repealed_on": "2026-01-01",
+    "repealed_on_raw": "20260101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2096321&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2096367",
+    "name": "진주시공설봉안당설치및관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-12-24",
+    "repealed_on": "2026-01-01",
+    "repealed_on_raw": "20260101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2096367&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2096369",
+    "name": "진주시 공설화장시설 설치 및 관리조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-12-24",
+    "repealed_on": "2026-01-01",
+    "repealed_on_raw": "20260101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2096369&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2077893",
+    "name": "진주시 민간공원 조성 특례사업 특별회계 설치 및 운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-10",
+    "repealed_on": "2025-10-10",
+    "repealed_on_raw": "20251010",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2077893&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2064063",
+    "name": "진주시 능력개발관 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-08-11",
+    "repealed_on": "2025-08-11",
+    "repealed_on_raw": "20250811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2064063&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2064055",
+    "name": "진주시 평생학습조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-08-11",
+    "repealed_on": "2025-08-11",
+    "repealed_on_raw": "20250811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2064055&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2064103",
+    "name": "진주시 능력개발관 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2025-08-11",
+    "repealed_on": "2025-08-11",
+    "repealed_on_raw": "20250811",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2064103&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1984229",
+    "name": "진주시 문화관광센터 관리 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-11",
+    "repealed_on": "2024-11-11",
+    "repealed_on_raw": "20241111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1984229&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1963733",
+    "name": "진주시 농촌거주 미혼남성 농업인 혼인사업 지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-08-19",
+    "repealed_on": "2024-08-19",
+    "repealed_on_raw": "20240819",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1963733&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1912981",
+    "name": "진주시 정책연구용역 공개 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-03-15",
+    "repealed_on": "2024-03-15",
+    "repealed_on_raw": "20240315",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1912981&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1885715",
+    "name": "진주시 자연발생유원지 관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-21",
+    "repealed_on": "2023-12-21",
+    "repealed_on_raw": "20231221",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1885715&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1870031",
+    "name": "진주시 생물산업 지원조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-06",
+    "repealed_on": "2023-11-06",
+    "repealed_on_raw": "20231106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1870031&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1853271",
+    "name": "진주시 건강가정지원센터 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-21",
+    "repealed_on": "2023-09-21",
+    "repealed_on_raw": "20230921",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1853271&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1853275",
+    "name": "진주시 다문화가족지원센터 설치 및 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-09-21",
+    "repealed_on": "2023-09-21",
+    "repealed_on_raw": "20230921",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1853275&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1816705",
+    "name": "진주시 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-05",
+    "repealed_on": "2023-06-05",
+    "repealed_on_raw": "20230605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1816705&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1758875",
+    "name": "진주시 기반시설특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-19",
+    "repealed_on": "2022-12-19",
+    "repealed_on_raw": "20221219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758875&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1758869",
+    "name": "진주시청소년육성위원회구성및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-19",
+    "repealed_on": "2022-12-19",
+    "repealed_on_raw": "20221219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758869&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1758867",
+    "name": "진주시 청소년지도위원 위촉에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-19",
+    "repealed_on": "2022-12-19",
+    "repealed_on_raw": "20221219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758867&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1758901",
+    "name": "진주시 전통예술회관 설치 및 운영조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-12-19",
+    "repealed_on": "2022-12-19",
+    "repealed_on_raw": "20221219",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1758901&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1708071",
+    "name": "진주시 어린이 농촌테마체험관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-05-10",
+    "repealed_on": "2022-05-10",
+    "repealed_on_raw": "20220510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1708071&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1708059",
+    "name": "진주시 역사관 관리 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-05-10",
+    "repealed_on": "2022-05-10",
+    "repealed_on_raw": "20220510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1708059&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1708073",
+    "name": "진주시진양호동물원전담수의사에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-05-10",
+    "repealed_on": "2022-05-10",
+    "repealed_on_raw": "20220510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1708073&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1708057",
+    "name": "진주시 형평문학상 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-05-10",
+    "repealed_on": "2022-05-10",
+    "repealed_on_raw": "20220510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1708057&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1708095",
+    "name": "진주시진양호동물원입장료및시설이용에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-05-10",
+    "repealed_on": "2022-05-10",
+    "repealed_on_raw": "20220510",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1708095&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1694815",
+    "name": "진주시 지방공무원 임용후보자 장학규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2022-04-06",
+    "repealed_on": "2022-04-06",
+    "repealed_on_raw": "20220406",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1694815&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 287,
+   "sentinel_99991231": 13
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "48170"
+ ]
+}

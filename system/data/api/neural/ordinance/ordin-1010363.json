@@ -1,0 +1,775 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1010363",
+   "key": "ordin-1010363",
+   "mst": "1010363",
+   "name": "서울특별시 서초구 학생 치과주치의 및 저소득층 아동 치과치료 지원 조례",
+   "ord_kind": "조례",
+   "region_id": "11650",
+   "sig_cd": "11650",
+   "region_name": "서울특별시 서초구",
+   "org_name": "서울특별시 서초구",
+   "enacted_on": "20121123",
+   "effective_on": "20121123",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 15,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1010363",
+   "categories": [
+    {
+     "code": "C03",
+     "name": "복지·돌봄",
+     "confidence": 0.7273,
+     "method": "rule"
+    },
+    {
+     "code": "C05",
+     "name": "청년·교육",
+     "confidence": 0.6,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.923101,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1985779",
+      "key": "ordin-1985779",
+      "name": "서울특별시 서초구 환경공무관 고용 및 근무 규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20241114",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1985779",
+      "categories": [
+       "C07",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.920849,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:2109669",
+      "key": "ordin-2109669",
+      "name": "서울특별시 서초구 법률고문 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20260212",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2109669",
+      "categories": []
+     },
+     {
+      "rank": 3,
+      "cosine": 0.912061,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1626523",
+      "key": "ordin-1626523",
+      "name": "서울특별시 서초구 상징물에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20210923",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1626523",
+      "categories": []
+     },
+     {
+      "rank": 4,
+      "cosine": 0.909566,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2120723",
+      "key": "ordin-2120723",
+      "name": "서울특별시 서초구의회 입법·법률고문 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20260409",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2120723",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.903778,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1742929",
+      "key": "ordin-1742929",
+      "name": "서울특별시 서초구 드론산업의 육성 및 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20221103",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1742929",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.901513,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2081901",
+      "key": "ordin-2081901",
+      "name": "서울특별시 서초구 공영장례 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20251105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2081901",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.900409,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:1558101",
+      "key": "ordin-1558101",
+      "name": "서울특별시 서초구 통장자녀 장학금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20201228",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1558101",
+      "categories": [
+       "C05",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.898399,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1059338",
+      "key": "ordin-1059338",
+      "name": "서울특별시 서초구 거주외국인 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20081231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1059338",
+      "categories": []
+     },
+     {
+      "rank": 9,
+      "cosine": 0.897504,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1372913",
+      "key": "ordin-1372913",
+      "name": "서울특별시 서초구 1인가구 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20181213",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1372913",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.896193,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:2053629",
+      "key": "ordin-2053629",
+      "name": "서울특별시 서초구 사무전결 규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20250710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2053629",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.99203,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1893625",
+      "key": "ordin-1893625",
+      "name": "서울특별시 서초구 저소득 취약계층 국민건강보험료 등 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20231229",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1893625",
+      "categories": [
+       "C03",
+       "C06"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.989061,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1388721",
+      "key": "ordin-1388721",
+      "name": "서울특별시 서초구 공유 촉진 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20190326",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1388721",
+      "categories": [
+       "C11",
+       "C03"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.988996,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2053629",
+      "key": "ordin-2053629",
+      "name": "서울특별시 서초구 사무전결 규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20250710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2053629",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.988914,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1060256",
+      "key": "ordin-1060256",
+      "name": "서울특별시 서초구 주민등록업무 담당공무원 보험·공제 등의 가입 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20081231",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1060256",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.988696,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1980417",
+      "key": "ordin-1980417",
+      "name": "서울특별시 서초구 학교체육시설 사용료 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20241031",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1980417",
+      "categories": [
+       "C13",
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.988645,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1970891",
+      "key": "ordin-1970891",
+      "name": "서울특별시 서초구 녹색건축물 조성 활성화에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20240926",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1970891",
+      "categories": [
+       "C07",
+       "C09"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.988587,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1868175",
+      "key": "ordin-1868175",
+      "name": "서울특별시 서초구 지방공무원 복무 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20231102",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1868175",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.988579,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1066727",
+      "key": "ordin-1066727",
+      "name": "서울특별시 서초구 새마을운동조직 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20150212",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1066727",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.988561,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1708393",
+      "key": "ordin-1708393",
+      "name": "서울특별시 서초구 북한이탈주민 정착 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20220512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1708393",
+      "categories": []
+     },
+     {
+      "rank": 10,
+      "cosine": 0.988545,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1804725",
+      "key": "ordin-1804725",
+      "name": "서울특별시 서초구 비위공직자의 의원면직 처리제한에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20230428",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1804725",
+      "categories": [
+       "C01"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 2,
+    "stored_agreement": 0.2
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.992219,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1708399",
+      "key": "ordin-1708399",
+      "name": "서울특별시 서초구 전기통신금융사기 피해 방지 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20220512",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1708399",
+      "categories": [
+       "C08",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.991486,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2114597",
+      "key": "ordin-2114597",
+      "name": "서울특별시 서초구 관광약자를 위한 관광환경 조성 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20260305",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2114597",
+      "categories": [
+       "C03",
+       "C13"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.991333,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1813335",
+      "key": "ordin-1813335",
+      "name": "서울특별시 서초구 청사건립기금 설치 및 운용에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20230526",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1813335",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991085,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2114593",
+      "key": "ordin-2114593",
+      "name": "서울특별시 서초구 건축안전특별회계 설치 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20260305",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2114593",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.991029,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1582343",
+      "key": "ordin-1582343",
+      "name": "서울특별시 서초구 아동·청소년 상속채무에 대한 법률지원 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20210326",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1582343",
+      "categories": [
+       "C03",
+       "C05"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.990877,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2053619",
+      "key": "ordin-2053619",
+      "name": "서울특별시 서초구 공공시설등 설치기금 관리 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20250710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2053619",
+      "categories": [
+       "C09",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990856,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2081911",
+      "key": "ordin-2081911",
+      "name": "서울특별시 서초구 청사건립기금 설치 및 운용에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20251105",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2081911",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.990728,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2120719",
+      "key": "ordin-2120719",
+      "name": "서울특별시 서초구 인공지능윤리 기반 조성에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20260409",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2120719",
+      "categories": [
+       "C07",
+       "C08"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990687,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1989491",
+      "key": "ordin-1989491",
+      "name": "서울특별시 서초구 지하수 조례",
+      "ord_kind": "조례",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20241205",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1989491",
+      "categories": [
+       "C07",
+       "C01"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990599,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1397609",
+      "key": "ordin-1397609",
+      "name": "서울특별시 서초구 음식물류 폐기물의 발생억제, 수집ㆍ운반 및 재활용에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "서울특별시 서초구",
+      "sig_cd": "11650",
+      "enacted_on": "20190613",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1397609",
+      "categories": [
+       "C07",
+       "C02",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:2053629",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.942595,
+    "best_rank": 3,
+    "ordinance_id": "ordin:2053629",
+    "key": "ordin-2053629",
+    "name": "서울특별시 서초구 사무전결 규칙",
+    "region_name": "서울특별시 서초구",
+    "sig_cd": "11650",
+    "enacted_on": "20250710",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2053629"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

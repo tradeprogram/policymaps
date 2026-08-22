@@ -1,0 +1,674 @@
+{
+ "data": {
+  "region": {
+   "region_id": "48730",
+   "sig_cd": "48730",
+   "name": "함안군",
+   "full_name": "경상남도 함안군",
+   "level": 2
+  },
+  "counts": {
+   "total": 616,
+   "active": 523,
+   "repealed": 93,
+   "by_rr_cls_cd": {
+    "일부개정": 366,
+    "전부개정": 15,
+    "제정": 142,
+    "폐지": 93
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2002,
+    "n": 1
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2009,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 15
+   },
+   {
+    "year": 2011,
+    "n": 6
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 4
+   },
+   {
+    "year": 2014,
+    "n": 8
+   },
+   {
+    "year": 2015,
+    "n": 51
+   },
+   {
+    "year": 2016,
+    "n": 18
+   },
+   {
+    "year": 2017,
+    "n": 18
+   },
+   {
+    "year": 2018,
+    "n": 18
+   },
+   {
+    "year": 2019,
+    "n": 21
+   },
+   {
+    "year": 2020,
+    "n": 36
+   },
+   {
+    "year": 2021,
+    "n": 40
+   },
+   {
+    "year": 2022,
+    "n": 58
+   },
+   {
+    "year": 2023,
+    "n": 54
+   },
+   {
+    "year": 2024,
+    "n": 49
+   },
+   {
+    "year": 2025,
+    "n": 118
+   },
+   {
+    "year": 2026,
+    "n": 96
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 7
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 3
+   },
+   {
+    "year": 2014,
+    "n": 5
+   },
+   {
+    "year": 2015,
+    "n": 9
+   },
+   {
+    "year": 2016,
+    "n": 6
+   },
+   {
+    "year": 2017,
+    "n": 1
+   },
+   {
+    "year": 2018,
+    "n": 5
+   },
+   {
+    "year": 2019,
+    "n": 8
+   },
+   {
+    "year": 2020,
+    "n": 7
+   },
+   {
+    "year": 2021,
+    "n": 6
+   },
+   {
+    "year": 2022,
+    "n": 3
+   },
+   {
+    "year": 2023,
+    "n": 3
+   },
+   {
+    "year": 2024,
+    "n": 3
+   },
+   {
+    "year": 2025,
+    "n": 7
+   },
+   {
+    "year": 2026,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본 조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직 공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성 검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수분뇨 및 축산폐수의 처리에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "탈세정보교부금지급규칙",
+    "display_name": "탈세정보 교부금 지급 규칙",
+    "rows": 1,
+    "nationwide_regions": 92
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례",
+    "display_name": "도로무단점용자에 대한 과태료 부과징수 조례",
+    "rows": 1,
+    "nationwide_regions": 91
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에 대한 과태료 부과 징수 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "재정안정화기금설치및운용조례",
+    "display_name": "재정안정화기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "지방공무원임용후보자장학규정시행규칙",
+    "display_name": "지방공무원 임용후보자 장학 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 82
+   },
+   {
+    "policy_key": "1회용품사용규제위반사업장에대한과태료부과및신고포상금지급조례",
+    "display_name": "1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "국제화추진협의회조례",
+    "display_name": "국제화추진협의회 조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득 주민자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "한국지역진흥재단지원조례",
+    "display_name": "한국지역진흥재단 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 76
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득 주민자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업 특별회계 설치 및 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "교통안전대책위원회운영규칙",
+    "display_name": "교통안전대책위원회 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 68
+   },
+   {
+    "policy_key": "보조금관리조례",
+    "display_name": "보조금 관리 조례",
+    "rows": 1,
+    "nationwide_regions": 65
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:794328",
+    "name": "주식회사함안유통 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-09-29",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=794328&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:845440",
+    "name": "함안군 1회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-07-09",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=845440&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:961121",
+    "name": "함안군 공설봉안당 설치 및 관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-01-11",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=961121&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:845997",
+    "name": "함안군농지관리위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-05-14",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=845997&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:961123",
+    "name": "함안군 신청사건립기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2011-03-15",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=961123&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:961104",
+    "name": "함안군 오수분뇨 및 축산폐수의 처리에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-07-09",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=961104&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:845757",
+    "name": "함안군 자연발생유원지 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-07-09",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=845757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:961409",
+    "name": "함안군 폐기물관련 과태료 부과징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-07-09",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=961409&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:954248",
+    "name": "함안군 휠체어택시 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2002-08-19",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=954248&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:845907",
+    "name": "함안군교통안전대책위원회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2009-07-20",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=845907&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:794319",
+    "name": "함안군제안규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2010-09-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=794319&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:961411",
+    "name": "함안군 환경미화원 복무 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2010-06-17",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=961411&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2139661",
+    "name": "함안군 홀로 사는 노인 고독사 예방에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-06-30",
+    "repealed_on": "2026-06-30",
+    "repealed_on_raw": "20260630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2139661&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127035",
+    "name": "함안군 지방보조사업자의 법령 위반 등에 대한 신고포상금 지급에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2026-04-30",
+    "repealed_on": "2026-04-30",
+    "repealed_on_raw": "20260430",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127035&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2076771",
+    "name": "함안군 공영개발사업 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-02",
+    "repealed_on": "2025-10-02",
+    "repealed_on_raw": "20251002",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2076771&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2042809",
+    "name": "함안군 농촌거주 미혼남성 혼인사업 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-06-05",
+    "repealed_on": "2025-06-05",
+    "repealed_on_raw": "20250605",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2042809&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2034649",
+    "name": "함안군 낙동강수계 주민지원사업 주민의견 수렴절차 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-05-07",
+    "repealed_on": "2025-05-07",
+    "repealed_on_raw": "20250507",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2034649&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2025155",
+    "name": "녹색함안21추진위원회 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-28",
+    "repealed_on": "2025-03-28",
+    "repealed_on_raw": "20250328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025155&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2025149",
+    "name": "함안군의회 의정자문위원회 설치운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-03-28",
+    "repealed_on": "2025-03-28",
+    "repealed_on_raw": "20250328",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2025149&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018241",
+    "name": "함안군 각종 위원회 회의록 작성 및 공개 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-20",
+    "repealed_on": "2025-02-20",
+    "repealed_on_raw": "20250220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018241&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2018243",
+    "name": "함안군 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-02-20",
+    "repealed_on": "2025-02-20",
+    "repealed_on_raw": "20250220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2018243&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1986995",
+    "name": "함안군 도시림등 조성·관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-11-18",
+    "repealed_on": "2024-11-18",
+    "repealed_on_raw": "20241118",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1986995&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1977625",
+    "name": "함안군 폐기물소각시설 증설기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-10-16",
+    "repealed_on": "2024-10-16",
+    "repealed_on_raw": "20241016",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1977625&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1936643",
+    "name": "함안군 행정정보공개 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2024-06-07",
+    "repealed_on": "2024-06-07",
+    "repealed_on_raw": "20240607",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1936643&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1875615",
+    "name": "함안군 학교급식 등 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-11-13",
+    "repealed_on": "2023-11-13",
+    "repealed_on_raw": "20231113",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1875615&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1798089",
+    "name": "칠원읍 신청사건립기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-05",
+    "repealed_on": "2023-04-05",
+    "repealed_on_raw": "20230405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1798089&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1798099",
+    "name": "함안군 강나루 오토캠핑장 관리·운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-04-05",
+    "repealed_on": "2023-04-05",
+    "repealed_on_raw": "20230405",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1798099&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1770545",
+    "name": "함안군 저탄소 녹색성장 기본 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-26",
+    "repealed_on": "2022-12-26",
+    "repealed_on_raw": "20221226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1770545&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1748317",
+    "name": "함안군 다함께 돌봄 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-11",
+    "repealed_on": "2022-11-11",
+    "repealed_on_raw": "20221111",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1748317&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1666227",
+    "name": "함안군 아동여성안전 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-01-03",
+    "repealed_on": "2022-01-03",
+    "repealed_on_raw": "20220103",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1666227&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641357",
+    "name": "함안군 국민체육센터 관리 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-15",
+    "repealed_on": "2021-11-15",
+    "repealed_on_raw": "20211115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641357&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641377",
+    "name": "함안군 부대이전관련사업기금 설치 및 운용 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-15",
+    "repealed_on": "2021-11-15",
+    "repealed_on_raw": "20211115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641377&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1641385",
+    "name": "함안군 지역공동체활성화 지원조직 설립ㆍ운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-11-15",
+    "repealed_on": "2021-11-15",
+    "repealed_on_raw": "20211115",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1641385&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1576831",
+    "name": "함안군 경전선폐선부지매입ㆍ활용기금사업 특별회계 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-25",
+    "repealed_on": "2021-02-25",
+    "repealed_on_raw": "20210225",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1576831&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1576819",
+    "name": "함안군 저소득 주민자녀 장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-02-25",
+    "repealed_on": "2021-02-25",
+    "repealed_on_raw": "20210225",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1576819&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1576821",
+    "name": "함안군 저소득 주민자녀 장학금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-02-25",
+    "repealed_on": "2021-02-25",
+    "repealed_on_raw": "20210225",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1576821&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1534839",
+    "name": "함안군 재정안정화기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-10-07",
+    "repealed_on": "2020-10-07",
+    "repealed_on_raw": "20201007",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1534839&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1516985",
+    "name": "함안군 주택사업 특별회계 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-07-14",
+    "repealed_on": "2020-07-14",
+    "repealed_on_raw": "20200714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1516985&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1516987",
+    "name": "함안군 주택사업 특별회계 설치 및 운영 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-07-14",
+    "repealed_on": "2020-07-14",
+    "repealed_on_raw": "20200714",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1516987&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1501999",
+    "name": "함안군과 외국 자치단체 간 자매결연에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-06-03",
+    "repealed_on": "2020-06-03",
+    "repealed_on_raw": "20200603",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1501999&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 12,
+   "sentinel_99991231": 12
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "48730"
+ ]
+}

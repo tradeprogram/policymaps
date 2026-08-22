@@ -1,0 +1,803 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1001100",
+   "key": "ordin-1001100",
+   "mst": "1001100",
+   "name": "보령시 고향사랑자문관 운영 조례",
+   "ord_kind": "조례",
+   "region_id": "44180",
+   "sig_cd": "44180",
+   "region_name": "충청남도 보령시",
+   "org_name": "충청남도 보령시",
+   "enacted_on": "20070510",
+   "effective_on": "20070510",
+   "repealed_on": null,
+   "rr_cls_cd": "제정",
+   "article_count": 10,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1001100",
+   "categories": [
+    {
+     "code": "C09",
+     "name": "도시·건축·주택",
+     "confidence": 0.25,
+     "method": "rule"
+    },
+    {
+     "code": "C11",
+     "name": "경제·산업·일자리",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.903487,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1384344",
+      "key": "ordin-1384344",
+      "name": "보령시 고문 공인노무사 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20190211",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1384344",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.89999,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1683299",
+      "key": "ordin-1683299",
+      "name": "보령시 농업산·학협동심의회 운영 규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20220210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1683299",
+      "categories": [
+       "C12",
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.897752,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1683289",
+      "key": "ordin-1683289",
+      "name": "보령시 고문변호사 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20220210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1683289",
+      "categories": []
+     },
+     {
+      "rank": 4,
+      "cosine": 0.889071,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:2131361",
+      "key": "ordin-2131361",
+      "name": "보령머드 테마파크 설치 및 관리·운영 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20260610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2131361",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.888036,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1960291",
+      "key": "ordin-1960291",
+      "name": "보령시 세입 징수포상금 지급 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20240710",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1960291",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.886135,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2066727",
+      "key": "ordin-2066727",
+      "name": "보령머드 테마파크 설치 및 관리·운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20250910",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2066727",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.884898,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2121509",
+      "key": "ordin-2121509",
+      "name": "보령시 암환자 가발 구입비 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20260410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "pending",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2121509",
+      "categories": [
+       "C02",
+       "C06"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.883509,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:2121505",
+      "key": "ordin-2121505",
+      "name": "보령시 노사민정협의회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20260410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2121505",
+      "categories": [
+       "C11",
+       "C01"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.875706,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:2121447",
+      "key": "ordin-2121447",
+      "name": "보령시 시세 감면 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20260410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2121447",
+      "categories": [
+       "C02",
+       "C03"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.874305,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1030811",
+      "key": "ordin-1030811",
+      "name": "보령시 의회 입법ㆍ법률고문 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20141110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1030811",
+      "categories": [
+       "C01",
+       "C05"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.991866,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2121477",
+      "key": "ordin-2121477",
+      "name": "보령시 에너지 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20260410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2121477",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.991087,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1470625",
+      "key": "ordin-1470625",
+      "name": "보령시 교육경비 보조에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20200220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1470625",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.990933,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1206669",
+      "key": "ordin-1206669",
+      "name": "보령시 중증장애인 자립생활 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20151221",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1206669",
+      "categories": [
+       "C03",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.990914,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2058979",
+      "key": "ordin-2058979",
+      "name": "보령시 공동주택 관리비 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20250718",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2058979",
+      "categories": [
+       "C09",
+       "C08"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.990867,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1407437",
+      "key": "ordin-1407437",
+      "name": "보령시 넝쿨강낭콩 지리적 표시 사용 및 운영에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20190820",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1407437",
+      "categories": [
+       "C01",
+       "C12"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.990721,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2083889",
+      "key": "ordin-2083889",
+      "name": "보령시 체육진흥기금 조성 및 운용 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20251110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2083889",
+      "categories": [
+       "C02",
+       "C13"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990584,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1196050",
+      "key": "ordin-1196050",
+      "name": "보령시 주산도서관 및 문화의집 설치·운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20151030",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1196050",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.990449,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1683289",
+      "key": "ordin-1683289",
+      "name": "보령시 고문변호사 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20220210",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1683289",
+      "categories": []
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990391,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2066727",
+      "key": "ordin-2066727",
+      "name": "보령머드 테마파크 설치 및 관리·운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20250910",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2066727",
+      "categories": [
+       "C11",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990126,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1885265",
+      "key": "ordin-1885265",
+      "name": "보령시 귀농어·귀촌 활성화 지원 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20231220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1885265",
+      "categories": [
+       "C02",
+       "C12"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.994993,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1511727",
+      "key": "ordin-1511727",
+      "name": "보령시 농어업인 대상 시상 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20200630",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1511727",
+      "categories": [
+       "C12",
+       "C11"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99492,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1814027",
+      "key": "ordin-1814027",
+      "name": "보령시 영농폐기물 수거 지원 등에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20230530",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1814027",
+      "categories": [
+       "C07",
+       "C12"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.994904,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2100593",
+      "key": "ordin-2100593",
+      "name": "보령시 자치경찰사무 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20251230",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2100593",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.99469,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2121449",
+      "key": "ordin-2121449",
+      "name": "보령시 공유재산 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20260410",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2121449",
+      "categories": [
+       "C02",
+       "C08"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.99464,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1701651",
+      "key": "ordin-1701651",
+      "name": "보령시 제증명 등 수수료 징수 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20220420",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1701651",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.994613,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1759313",
+      "key": "ordin-1759313",
+      "name": "보령시 연안여객선 이용 섬주민 숙박비 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20221220",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1759313",
+      "categories": [
+       "C07",
+       "C10"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.994599,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1875423",
+      "key": "ordin-1875423",
+      "name": "보령시의회 행정사무감사 및 조사에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20231110",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1875423",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.994546,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1963525",
+      "key": "ordin-1963525",
+      "name": "보령시 만세보령 청년주택 관리 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20240812",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1963525",
+      "categories": [
+       "C02",
+       "C05"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.994445,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2131337",
+      "key": "ordin-2131337",
+      "name": "보령시 주산도서관 및 문화의집 설치·운영에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20260610",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2131337",
+      "categories": [
+       "C13",
+       "C02"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.994408,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2025533",
+      "key": "ordin-2025533",
+      "name": "보령시 개인형 이동장치 이용안전 증진 조례",
+      "ord_kind": "조례",
+      "region_name": "충청남도 보령시",
+      "sig_cd": "44180",
+      "enacted_on": "20250331",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2025533",
+      "categories": [
+       "C08",
+       "C10"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 2,
+    "jaccard": 0.1111,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1683289",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.944101,
+    "best_rank": 3,
+    "ordinance_id": "ordin:1683289",
+    "key": "ordin-1683289",
+    "name": "보령시 고문변호사 운영 조례",
+    "region_name": "충청남도 보령시",
+    "sig_cd": "44180",
+    "enacted_on": "20220210",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1683289"
+   },
+   {
+    "node_id": "ordinance:ordin:2066727",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.938263,
+    "best_rank": 6,
+    "ordinance_id": "ordin:2066727",
+    "key": "ordin-2066727",
+    "name": "보령머드 테마파크 설치 및 관리·운영 조례",
+    "region_name": "충청남도 보령시",
+    "sig_cd": "44180",
+    "enacted_on": "20250910",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2066727"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

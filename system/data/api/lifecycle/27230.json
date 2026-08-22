@@ -1,0 +1,690 @@
+{
+ "data": {
+  "region": {
+   "region_id": "27230",
+   "sig_cd": "27230",
+   "name": "북구",
+   "full_name": "대구광역시 북구",
+   "level": 2
+  },
+  "counts": {
+   "total": 568,
+   "active": 510,
+   "repealed": 58,
+   "by_rr_cls_cd": {
+    "일부개정": 307,
+    "전부개정": 32,
+    "제정": 171,
+    "폐지": 58
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 4
+   },
+   {
+    "year": 2007,
+    "n": 6
+   },
+   {
+    "year": 2008,
+    "n": 18
+   },
+   {
+    "year": 2009,
+    "n": 1
+   },
+   {
+    "year": 2010,
+    "n": 5
+   },
+   {
+    "year": 2011,
+    "n": 5
+   },
+   {
+    "year": 2012,
+    "n": 4
+   },
+   {
+    "year": 2013,
+    "n": 8
+   },
+   {
+    "year": 2014,
+    "n": 15
+   },
+   {
+    "year": 2015,
+    "n": 8
+   },
+   {
+    "year": 2016,
+    "n": 13
+   },
+   {
+    "year": 2017,
+    "n": 11
+   },
+   {
+    "year": 2018,
+    "n": 10
+   },
+   {
+    "year": 2019,
+    "n": 15
+   },
+   {
+    "year": 2020,
+    "n": 31
+   },
+   {
+    "year": 2021,
+    "n": 56
+   },
+   {
+    "year": 2022,
+    "n": 42
+   },
+   {
+    "year": 2023,
+    "n": 55
+   },
+   {
+    "year": 2024,
+    "n": 62
+   },
+   {
+    "year": 2025,
+    "n": 126
+   },
+   {
+    "year": 2026,
+    "n": 69
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 3
+   },
+   {
+    "year": 2006,
+    "n": 3
+   },
+   {
+    "year": 2007,
+    "n": 3
+   },
+   {
+    "year": 2008,
+    "n": 2
+   },
+   {
+    "year": 2010,
+    "n": 2
+   },
+   {
+    "year": 2011,
+    "n": 3
+   },
+   {
+    "year": 2012,
+    "n": 2
+   },
+   {
+    "year": 2013,
+    "n": 5
+   },
+   {
+    "year": 2014,
+    "n": 5
+   },
+   {
+    "year": 2015,
+    "n": 2
+   },
+   {
+    "year": 2017,
+    "n": 3
+   },
+   {
+    "year": 2019,
+    "n": 3
+   },
+   {
+    "year": 2020,
+    "n": 8
+   },
+   {
+    "year": 2022,
+    "n": 2
+   },
+   {
+    "year": 2023,
+    "n": 1
+   },
+   {
+    "year": 2024,
+    "n": 1
+   },
+   {
+    "year": 2025,
+    "n": 1
+   },
+   {
+    "year": 2026,
+    "n": 1
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체 보조금 지원 조례",
+    "rows": 2,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원 규정 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "정책실명제운영규칙",
+    "display_name": "정책실명제 운영 규칙",
+    "rows": 1,
+    "nationwide_regions": 156
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "지방별정직공무원의임용등에관한조례",
+    "display_name": "지방별정직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 145
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전재해영향성검토위원회 운영 조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의 임용 등에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회 운영에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "부동산중개업법위반자에대한행정처분규칙",
+    "display_name": "부동산중개업법위반자에대한행정처분규칙",
+    "rows": 1,
+    "nationwide_regions": 97
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수.분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "도로무단점용자에대한과태료부과징수조례시행규칙",
+    "display_name": "도로무단점용자에대한과태료부과ㆍ징수조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 87
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀 장학금 지급 조례 시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀 장학금 지급 조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "금연환경조성및지원에관한조례",
+    "display_name": "금연환경조성 및 지원에 관한 조례",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "지방별정직공무원의임용자격기준에관한규칙",
+    "display_name": "지방별정직공무원의 임용자격기준에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 49
+   },
+   {
+    "policy_key": "의회위원회조례",
+    "display_name": "의회 위원회 조례",
+    "rows": 1,
+    "nationwide_regions": 47
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:811904",
+    "name": "대구광역시북구녹지점용허가및관리에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-12-01",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=811904&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:803245",
+    "name": "대구광역시북구농지관리위원회 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2010-03-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=803245&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:828280",
+    "name": "대구광역시북구문화예술진흥기금설치및운용조례",
+    "ord_kind": "조례",
+    "enacted_on": "2007-11-20",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=828280&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:803247",
+    "name": "대구광역시북구수리계조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-10-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=803247&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:803241",
+    "name": "대구광역시북구정기시장등의시설기준및운영.관리에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2008-10-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=803241&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:828282",
+    "name": "대구광역시북구문화예술진흥기금설치및운용조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2007-11-20",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=828282&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:832425",
+    "name": "대구광역시북구청소년육성및지원에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2007-11-30",
+    "repealed_on": "9999-12-31",
+    "repealed_on_raw": "99991231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=832425&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2136329",
+    "name": "대구광역시 북구 자치분권 촉진 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2026-06-30",
+    "repealed_on": "2026-06-30",
+    "repealed_on_raw": "20260630",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2136329&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2051757",
+    "name": "대구광역시 북구 안전관리민관협력위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-07-07",
+    "repealed_on": "2025-07-07",
+    "repealed_on_raw": "20250707",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2051757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1971543",
+    "name": "대구광역시 북구 도청터개발추진위원회 구성 및 운영에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-09-27",
+    "repealed_on": "2024-09-27",
+    "repealed_on_raw": "20240927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1971543&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1820425",
+    "name": "대구광역시 북구 아동·여성보호에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-06-12",
+    "repealed_on": "2023-06-12",
+    "repealed_on_raw": "20230612",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1820425&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1762749",
+    "name": "대구광역시 북구 주민의 조례제정과 개폐청구 연서 주민수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-12-26",
+    "repealed_on": "2022-12-26",
+    "repealed_on_raw": "20221226",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1762749&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1746443",
+    "name": "대구광역시북구사전재해영향성검토위원회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2022-11-10",
+    "repealed_on": "2022-11-10",
+    "repealed_on_raw": "20221110",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1746443&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1560497",
+    "name": "대구광역시 북구의회에 출석ㆍ 답변할 수 있는 관계공무원의 범위에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1560497&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1560499",
+    "name": "대구광역시 북구의회 위원회 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1560499&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1560503",
+    "name": "대구광역시 북구의회 회기와 그 운영 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1560503&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1560527",
+    "name": "대구광역시 북구 일회용품 사용규제 위반사업장에 대한 과태료 부과 및 신고포상금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1560527&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1560519",
+    "name": "대구광역시 북구 저소득주민자녀 장학금 지급 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-30",
+    "repealed_on": "2020-12-30",
+    "repealed_on_raw": "20201230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1560519&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1549359",
+    "name": "대구광역시 북구 저소득주민자녀 장학금 지급 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-11-30",
+    "repealed_on": "2020-11-30",
+    "repealed_on_raw": "20201130",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1549359&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1539127",
+    "name": "대구광역시 북구 사무의 민간위탁 촉진 및 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-10-20",
+    "repealed_on": "2020-10-20",
+    "repealed_on_raw": "20201020",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1539127&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1539121",
+    "name": "대구광역시 북구 정책실명제 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-10-20",
+    "repealed_on": "2020-10-20",
+    "repealed_on_raw": "20201020",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1539121&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1440131",
+    "name": "대구광역시 북구 주민소득지원 및 생활안정기금 운영 관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-30",
+    "repealed_on": "2019-12-31",
+    "repealed_on_raw": "20191231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1440131&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1440133",
+    "name": "대구광역시 북구 주민소득지원 및 생활안정기금 운영 관리 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-12-30",
+    "repealed_on": "2019-12-31",
+    "repealed_on_raw": "20191231",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1440133&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1409170",
+    "name": "대구광역시 북구 새마을 이동도서관 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-09-20",
+    "repealed_on": "2019-09-20",
+    "repealed_on_raw": "20190920",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1409170&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1323046",
+    "name": "대구광역시 북구 옥외광고물 등 관리 조례 등에 관한 규제특례 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-12-29",
+    "repealed_on": "2017-12-29",
+    "repealed_on_raw": "20171229",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1323046&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1294632",
+    "name": "대구광역시북구임대주택분쟁조정위원회 구성과 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2017-07-10",
+    "repealed_on": "2017-07-10",
+    "repealed_on_raw": "20170710",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1294632&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1280759",
+    "name": "대구광역시 북구 지방공무원 징계의 양정에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2017-02-10",
+    "repealed_on": "2017-02-10",
+    "repealed_on_raw": "20170210",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1280759&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1012245",
+    "name": "대구광역시 북구 사회단체 보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-30",
+    "repealed_on": "2015-01-09",
+    "repealed_on_raw": "20150109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1012245&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1012244",
+    "name": "대구광역시 북구 사회단체 보조금 지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-30",
+    "repealed_on": "2015-01-01",
+    "repealed_on_raw": "20150101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1012244&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:817547",
+    "name": "대구광역시 북구의회 의원 윤리강령 및 윤리실천 규범에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-12-30",
+    "repealed_on": "2014-12-30",
+    "repealed_on_raw": "20141230",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=817547&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1073783",
+    "name": "대구광역시 북구 각종 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-04-30",
+    "repealed_on": "2014-04-30",
+    "repealed_on_raw": "20140430",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1073783&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:908658",
+    "name": "대구광역시 북구 지방별정직공무원의 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2014-04-30",
+    "repealed_on": "2014-04-30",
+    "repealed_on_raw": "20140430",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=908658&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1008986",
+    "name": "대구광역시 북구 지방계약직공무원 규정 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2014-04-25",
+    "repealed_on": "2014-04-25",
+    "repealed_on_raw": "20140425",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1008986&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:948219",
+    "name": "대구광역시 북구 지방별정직공무원의 임용자격기준에 관한 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2014-04-25",
+    "repealed_on": "2014-04-25",
+    "repealed_on_raw": "20140425",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=948219&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1482737",
+    "name": "대구광역시 북구 폐기물관련 과태료부과.징수 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2013-09-30",
+    "repealed_on": "2013-09-30",
+    "repealed_on_raw": "20130930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1482737&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:985549",
+    "name": "대구광역시 북구 국민건강증진법 위반자 등에 관한 과태료 부과 징수 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-09-30",
+    "repealed_on": "2013-09-30",
+    "repealed_on_raw": "20130930",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=985549&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:970877",
+    "name": "대구광역시 북구 자치법규집 관리 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-08-30",
+    "repealed_on": "2013-08-30",
+    "repealed_on_raw": "20130830",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=970877&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:861585",
+    "name": "대구광역시 북구 조례·규칙심의회 운영 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-08-30",
+    "repealed_on": "2013-08-30",
+    "repealed_on_raw": "20130830",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=861585&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:864892",
+    "name": "대구광역시북구녹지점용허가및관리에관한조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2013-02-20",
+    "repealed_on": "2013-02-20",
+    "repealed_on_raw": "20130220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=864892&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:783610",
+    "name": "대구광역시 북구 금연환경조성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2012-11-09",
+    "repealed_on": "2012-11-09",
+    "repealed_on_raw": "20121109",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=783610&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 7,
+   "sentinel_99991231": 7
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "27230"
+ ]
+}

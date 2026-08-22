@@ -1,0 +1,397 @@
+{
+ "data": {
+  "instrument": {
+   "instrument_id": "statute:258477",
+   "kind": "법률",
+   "national_tier": 1,
+   "name": "공유재산 및 물품 관리법",
+   "short_name": null,
+   "competent_authority": null,
+   "enacted_on": "2024-01-09",
+   "effective_on": "20240710",
+   "repealed_on": null,
+   "rr_cls_cd": null,
+   "official_url": "/DRF/lawService.do?target=law&MST=258477&type=HTML&mobileYn=&efYd=20240710",
+   "status": "active",
+   "verification_status": "source-linked",
+   "as_of_date": "2026-08-20"
+  },
+  "delegation": {
+   "rows": 1821,
+   "child_ordinances": 1603,
+   "by_verification_status": {
+    "article-missing": 1026,
+    "article-verified": 306,
+    "unverifiable": 489
+   },
+   "by_delegation_type": {
+    "law-delegated": 1821
+   },
+   "regions_top": [
+    {
+     "region_id": "51820",
+     "name": "강원특별자치도 고성군",
+     "ordinances": 25
+    },
+    {
+     "region_id": "52720",
+     "name": "전북특별자치도 진안군",
+     "ordinances": 18
+    },
+    {
+     "region_id": "50",
+     "name": "제주특별자치도",
+     "ordinances": 18
+    },
+    {
+     "region_id": "43110",
+     "name": "충청북도 청주시",
+     "ordinances": 16
+    },
+    {
+     "region_id": "26",
+     "name": "부산광역시",
+     "ordinances": 16
+    },
+    {
+     "region_id": "12110",
+     "name": "전남광주통합특별시 목포시",
+     "ordinances": 16
+    },
+    {
+     "region_id": "52710",
+     "name": "전북특별자치도 완주군",
+     "ordinances": 15
+    },
+    {
+     "region_id": "48840",
+     "name": "경상남도 남해군",
+     "ordinances": 15
+    },
+    {
+     "region_id": "43760",
+     "name": "충청북도 괴산군",
+     "ordinances": 15
+    },
+    {
+     "region_id": "41",
+     "name": "경기도",
+     "ordinances": 15
+    },
+    {
+     "region_id": "52790",
+     "name": "전북특별자치도 고창군",
+     "ordinances": 14
+    },
+    {
+     "region_id": "44180",
+     "name": "충청남도 보령시",
+     "ordinances": 14
+    },
+    {
+     "region_id": "52770",
+     "name": "전북특별자치도 순창군",
+     "ordinances": 13
+    },
+    {
+     "region_id": "48120",
+     "name": "경상남도 창원시",
+     "ordinances": 13
+    },
+    {
+     "region_id": "47730",
+     "name": "경상북도 의성군",
+     "ordinances": 13
+    },
+    {
+     "region_id": "12170",
+     "name": "전남광주통합특별시 나주시",
+     "ordinances": 13
+    },
+    {
+     "region_id": "48",
+     "name": "경상남도",
+     "ordinances": 12
+    },
+    {
+     "region_id": "43150",
+     "name": "충청북도 제천시",
+     "ordinances": 12
+    },
+    {
+     "region_id": "41130",
+     "name": "경기도 성남시",
+     "ordinances": 12
+    },
+    {
+     "region_id": "12870",
+     "name": "전남광주통합특별시 신안군",
+     "ordinances": 12
+    }
+   ]
+  },
+  "articles": [
+   {
+    "article_no": "3",
+    "article_branch": "2",
+    "title": "공유재산 및 물품 관리ㆍ처분의 기본원칙",
+    "body": "1.  해당 지방자치단체 전체의 이익에 맞도록 할 것\n2.  취득과 처분이 균형을 이룰 것\n3.  공공가치와 활용가치를 고려할 것\n4.  투명하고 효율적인 절차를 따를 것",
+    "body_truncated": false,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제3조의2"
+   },
+   {
+    "article_no": "10",
+    "article_branch": null,
+    "title": "중기공유재산관리계획",
+    "body": "① 지방자치단체의 장은 공유재산을 계획적으로 관리ㆍ처분하기 위하여 매년 다음 회계연도부터 5회계연도 이상의 기간에 대한 공유재산의 관리ㆍ처분에 관한 계획(이하 \"중기공유재산관리계획\"이라 한다)을 수립하여 예산안과 함께 지방의회에 제출하여야 한다.\n② 지방자치단체의 장은 중기공유재산관리계획을 수립할 때에는 행정안전부장관이 ",
+    "body_truncated": true,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제10조"
+   },
+   {
+    "article_no": "10",
+    "article_branch": "2",
+    "title": "공유재산관리계획",
+    "body": "① 지방자치단체의 장은 지방의회에서 예산을 의결하기 전에 중기공유재산관리계획에 따라 매년 다음 회계연도의 공유재산의 취득과 처분에 관한 계획(이하 \"공유재산관리계획\"이라 한다)을 수립하여 그 지방의회의 의결을 받아 확정하여야 한다. 이 경우 공유재산관리계획을 수립한 후 부득이한 사유로 그 내용이 취소되거나 일부를 변경할 ",
+    "body_truncated": true,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제10조의2"
+   },
+   {
+    "article_no": "17",
+    "article_branch": null,
+    "title": "공유재산에 관한 법령안의 협의",
+    "body": "중앙행정기관의 장은 공유재산의 관리와 처분에 관련되는 법령을 제정, 개정 또는 폐지하려면 미리 행정안전부장관과 협의하여야 한다. <개정 2013.3.23, 2014.11.19, 2017.7.26>",
+    "body_truncated": false,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제17조"
+   },
+   {
+    "article_no": "19",
+    "article_branch": null,
+    "title": "처분 등의 제한",
+    "body": "① 행정재산은 대부ㆍ매각ㆍ교환ㆍ양여ㆍ신탁 또는 대물변제나 출자의 대상이 되지 아니하며, 이에 사권을 설정하지 못한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 예외로 한다. <개정 2010.2.4, 2021.4.20>\n1.  행정재산의 용도와 성질을 유지하는 조건으로 대통령령으로 정하는 바에 따라 국가 또는 다",
+    "body_truncated": true,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제19조"
+   },
+   {
+    "article_no": "20",
+    "article_branch": null,
+    "title": "사용허가",
+    "body": "① 지방자치단체의 장은 행정재산에 대하여 그 목적 또는 용도에 장애가 되지 아니하는 범위에서 사용허가를 할 수 있다. <개정 2021.4.20>\n② 지방자치단체의 장은 제1항에 따라 사용허가를 하려면 일반입찰로 하여야 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 제한경쟁 또는 지명경쟁에 부치거나 수의(隨意)",
+    "body_truncated": true,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제20조"
+   },
+   {
+    "article_no": "22",
+    "article_branch": null,
+    "title": "사용료",
+    "body": "① 지방자치단체의 장은 행정재산을 사용허가한 때에는 대통령령으로 정하는 요율(料率)과 계산방법에 따라 매년 사용료를 징수한다. 다만, 연간 사용료가 대통령령으로 정하는 금액 이하인 경우에는 사용허가기간의 사용료를 일시에 통합 징수할 수 있다. <개정 2021.4.20>\n② 제1항에 따른 사용료는 그 전액을 대통령령으로 정",
+    "body_truncated": true,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제22조"
+   },
+   {
+    "article_no": "25",
+    "article_branch": null,
+    "title": "사용허가의 취소",
+    "body": "① 지방자치단체의 장은 제20조제1항에 따라 행정재산의 사용허가를 받은 자가 다음 각 호의 어느 하나에 해당하면 그 허가를 취소할 수 있다. <개정 2021.4.20>\n1.  사용허가를 받은 행정재산을 제20조제3항을 위반하여 다른 사람에게 사용ㆍ수익하게 한 경우\n2.  해당 행정재산의 관리를 게을리하였거나 그 사용 목적",
+    "body_truncated": true,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제25조"
+   },
+   {
+    "article_no": "26",
+    "article_branch": null,
+    "title": "청문",
+    "body": "지방자치단체의 장은 제25조제1항에 따라 행정재산의 사용허가를 취소하려면 청문을 하여야 한다. <개정 2021.4.20>",
+    "body_truncated": false,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제26조"
+   },
+   {
+    "article_no": "92",
+    "article_branch": null,
+    "title": "공유재산 및 물품 운영상황의 공개 등",
+    "body": "지방자치단체의 장은 조례로 정하는 바에 따라 회계연도마다 1회 이상 공유재산의 증감 및 현황, 중요 물품의 증감 및 현재액을 주민에게 공개하여야 한다. <개정 2021.4.20>",
+    "body_truncated": false,
+    "effective_on": "2024-07-10",
+    "article_key": "statute:258477::제92조"
+   }
+  ],
+  "article_count": 10,
+  "articles_shown": 10,
+  "articles_truncated_bodies": 6,
+  "articles_available": true,
+  "child_ordinances_sample": [
+   {
+    "ordinance_id": "ordin:1438607",
+    "name": "의성군 출산통합지원센터 설치 및 운영에 관한 조례",
+    "region_id": "47730",
+    "org_name": "경상북도 의성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1438607&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2103507",
+    "name": "의성군 반려동물문화센터 관리ㆍ운영에 관한 조례",
+    "region_id": "47730",
+    "org_name": "경상북도 의성군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2103507&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2122531",
+    "name": "전북특별자치도 공립학교회계 규칙",
+    "region_id": "edu:52",
+    "org_name": "전북특별자치도교육청",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2122531&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124235",
+    "name": "부산광역시 부산진구 체육시설 관리 및 운영 조례",
+    "region_id": "26230",
+    "org_name": "부산광역시 부산진구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124235&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124301",
+    "name": "대구광역시 동구 음식판매자동차 영업장소 등에 관한 조례",
+    "region_id": "27140",
+    "org_name": "대구광역시 동구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124301&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124451",
+    "name": "가평군 일반농산어촌개발사업 시설물 운영 및 관리 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124451&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124481",
+    "name": "가평군 공유재산 관리 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124481&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2124521",
+    "name": "가평군 농산물종합가공센터 관리 및 운영에 관한 조례",
+    "region_id": "41820",
+    "org_name": "경기도 가평군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2124521&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125049",
+    "name": "과천시 벤처기업 육성 및 지원에 관한 조례",
+    "region_id": "41290",
+    "org_name": "경기도 과천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2125235",
+    "name": "포항시 해양레저시설 관리 및 운영 조례",
+    "region_id": "47110",
+    "org_name": "경상북도 포항시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2125235&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126049",
+    "name": "양주시 사회적경제 육성 및 지원에 관한 조례",
+    "region_id": "41630",
+    "org_name": "경기도 양주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126049&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126703",
+    "name": "충주시 풍류문화관 설치 및 운영관리 조례",
+    "region_id": "43130",
+    "org_name": "충청북도 충주시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126703&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126807",
+    "name": "금산군 문화의 집 설치 및 운영에 관한 조례 시행규칙",
+    "region_id": "44710",
+    "org_name": "충청남도 금산군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126807&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126831",
+    "name": "금산군 아토피 자연치유마을 설치 및 운영 조례",
+    "region_id": "44710",
+    "org_name": "충청남도 금산군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126831&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2126935",
+    "name": "예천군 기후위기 대응을 위한 탄소중립·녹색성장 기본조례",
+    "region_id": "47900",
+    "org_name": "경상북도 예천군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2126935&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127197",
+    "name": "경상남도 기후위기 대응을 위한 탄소중립·녹색성장 기본 조례",
+    "region_id": "48",
+    "org_name": "경상남도",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127197&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127297",
+    "name": "대구광역시달서구립도서관 운영 및 독서문화진흥 조례",
+    "region_id": "27290",
+    "org_name": "대구광역시 달서구",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127297&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2127601",
+    "name": "동두천시 기후위기 대응을 위한 탄소중립ㆍ녹색성장 기본 조례",
+    "region_id": "41250",
+    "org_name": "경기도 동두천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2127601&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2128445",
+    "name": "제천시 게스트하우스 및 워케이션센터 관리운영 조례",
+    "region_id": "43150",
+    "org_name": "충청북도 제천시",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2128445&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2129331",
+    "name": "진안군 산약초타운 운영 및 관리 조례",
+    "region_id": "52720",
+    "org_name": "전북특별자치도 진안군",
+    "repealed": false,
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2129331&type=HTML&mobileYn="
+   }
+  ],
+  "caveat": "위임 관계는 조례 본문의 인용 문구에서 추출한 것이다. verification_status 가 article-verified 가 아닌 항목은 조문 존재를 확인하지 못했다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것."
+}

@@ -1,0 +1,781 @@
+{
+ "data": {
+  "ordinance": {
+   "ordinance_id": "ordin:1189785",
+   "key": "ordin-1189785",
+   "mst": "1189785",
+   "name": "인천광역시 계양구 상징물 관리 조례",
+   "ord_kind": "조례",
+   "region_id": "28245",
+   "sig_cd": "28245",
+   "region_name": "인천광역시 계양구",
+   "org_name": "인천광역시 계양구",
+   "enacted_on": "20151002",
+   "effective_on": "20151002",
+   "repealed_on": null,
+   "rr_cls_cd": "일부개정",
+   "article_count": 13,
+   "status": "active",
+   "lifecycle": "in_force",
+   "verification_status": "source-linked",
+   "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1189785",
+   "categories": [
+    {
+     "code": "C09",
+     "name": "도시·건축·주택",
+     "confidence": 0.25,
+     "method": "rule"
+    },
+    {
+     "code": "C14",
+     "name": "동물·반려",
+     "confidence": 0.25,
+     "method": "rule"
+    }
+   ]
+  },
+  "models": {
+   "graphsage-numpy": {
+    "model_name": "graphsage-numpy",
+    "dim": 132,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.950095,
+      "stored_rank": 1,
+      "ordinance_id": "ordin:1833085",
+      "key": "ordin-1833085",
+      "name": "인천광역시 계양구 건축물관리 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20230707",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1833085",
+      "categories": [
+       "C09"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.940362,
+      "stored_rank": 2,
+      "ordinance_id": "ordin:1739373",
+      "key": "ordin-1739373",
+      "name": "인천광역시 계양구 물품관리 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20221021",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1739373",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.936131,
+      "stored_rank": 3,
+      "ordinance_id": "ordin:1739399",
+      "key": "ordin-1739399",
+      "name": "인천광역시 계양구 물품관리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20221021",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1739399",
+      "categories": [
+       "C06",
+       "C01"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.935212,
+      "stored_rank": 4,
+      "ordinance_id": "ordin:1608265",
+      "key": "ordin-1608265",
+      "name": "인천광역시 계양구 시설관리공단 설치 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20210702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1608265",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.934369,
+      "stored_rank": 5,
+      "ordinance_id": "ordin:1833077",
+      "key": "ordin-1833077",
+      "name": "인천광역시 계양구 대학생 행정체험연수 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20230707",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1833077",
+      "categories": [
+       "C05",
+       "C02"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.934271,
+      "stored_rank": 6,
+      "ordinance_id": "ordin:2094405",
+      "key": "ordin-2094405",
+      "name": "인천광역시 계양구 납세자보호에 관한 사무처리 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20251219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2094405",
+      "categories": [
+       "C02"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.933797,
+      "stored_rank": 7,
+      "ordinance_id": "ordin:2094385",
+      "key": "ordin-2094385",
+      "name": "인천광역시 계양구 납세자보호에 관한 사무처리 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20251219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2094385",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.933244,
+      "stored_rank": 8,
+      "ordinance_id": "ordin:1787427",
+      "key": "ordin-1787427",
+      "name": "인천광역시 계양구 암환자 가발구입비 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20230303",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1787427",
+      "categories": [
+       "C02",
+       "C06"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.930931,
+      "stored_rank": 9,
+      "ordinance_id": "ordin:1639865",
+      "key": "ordin-1639865",
+      "name": "인천광역시 계양구 경관 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20211112",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1639865",
+      "categories": [
+       "C09",
+       "C07"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.930871,
+      "stored_rank": 10,
+      "ordinance_id": "ordin:1979099",
+      "key": "ordin-1979099",
+      "name": "인천광역시 계양구 회계관리에 관한 규칙",
+      "ord_kind": "규칙",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20241025",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1979099",
+      "categories": [
+       "C01",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": true,
+    "stored_rows": 10,
+    "stored_overlap": 10,
+    "stored_agreement": 1.0
+   },
+   "metapath2vec-numpy": {
+    "model_name": "metapath2vec-numpy",
+    "dim": 64,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.993657,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2129519",
+      "key": "ordin-2129519",
+      "name": "인천광역시 계양구 지방공무원 정원 규칙",
+      "ord_kind": "규칙",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20260515",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2129519",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.99194,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2094395",
+      "key": "ordin-2094395",
+      "name": "인천광역시 계양구 노인 예우 및 복지증진에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20251219",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2094395",
+      "categories": [
+       "C03",
+       "C04"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.991912,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1608265",
+      "key": "ordin-1608265",
+      "name": "인천광역시 계양구 시설관리공단 설치 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20210702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1608265",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.991796,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1926029",
+      "key": "ordin-1926029",
+      "name": "인천광역시 계양구 학생 불균형 체형 관리 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20240510",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1926029",
+      "categories": [
+       "C05",
+       "C06"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.991092,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1479219",
+      "key": "ordin-1479219",
+      "name": "인천광역시 계양구 폐기물 관리에 관한 조례 시행규칙",
+      "ord_kind": "규칙",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20200313",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1479219",
+      "categories": [
+       "C07",
+       "C08"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.991046,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1909093",
+      "key": "ordin-1909093",
+      "name": "인천광역시 계양구 공모사업 관리 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20240223",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1909093",
+      "categories": [
+       "C01",
+       "C11"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.990965,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1531423",
+      "key": "ordin-1531423",
+      "name": "인천광역시 계양구 대한적십자사 봉사회 활동 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20200929",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1531423",
+      "categories": [
+       "C06",
+       "C08"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.990874,
+      "stored_rank": null,
+      "ordinance_id": "ordin:689700",
+      "key": "ordin-689700",
+      "name": "인천광역시 계양구 명예구민증 수여에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20130802",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=689700",
+      "categories": [
+       "C01",
+       "C13"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.990869,
+      "stored_rank": null,
+      "ordinance_id": "ordin:2116979",
+      "key": "ordin-2116979",
+      "name": "인천광역시 계양구 행정운영동의 설치 및 동장 정수 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20260327",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=2116979",
+      "categories": []
+     },
+     {
+      "rank": 10,
+      "cosine": 0.990652,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1950045",
+      "key": "ordin-1950045",
+      "name": "인천광역시 계양구 자활사업 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20240705",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1950045",
+      "categories": [
+       "C03",
+       "C11"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   },
+   "node2vec-numpy": {
+    "model_name": "node2vec-numpy",
+    "dim": 128,
+    "candidate_pool": 154310,
+    "neighbors": [
+     {
+      "rank": 1,
+      "cosine": 0.995294,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1689723",
+      "key": "ordin-1689723",
+      "name": "인천광역시 계양구의회 행정사무감사 및 조사에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20220311",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1689723",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 2,
+      "cosine": 0.995156,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1415954",
+      "key": "ordin-1415954",
+      "name": "인천광역시 계양구 플랫폼 노동자 지원 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20230707",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1415954",
+      "categories": [
+       "C11"
+      ]
+     },
+     {
+      "rank": 3,
+      "cosine": 0.99482,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1512313",
+      "key": "ordin-1512313",
+      "name": "인천광역시 계양구 방문건강관리서비스 운영 및 지원에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20200703",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1512313",
+      "categories": [
+       "C06",
+       "C03"
+      ]
+     },
+     {
+      "rank": 4,
+      "cosine": 0.994746,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1739367",
+      "key": "ordin-1739367",
+      "name": "인천광역시 계양구 정책자문위원회 설치 및 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20221021",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1739367",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 5,
+      "cosine": 0.994614,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1393068",
+      "key": "ordin-1393068",
+      "name": "인천광역시 계양구 모유수유시설 설치·운영 및 모자 건강증진에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20190503",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1393068",
+      "categories": [
+       "C04",
+       "C06"
+      ]
+     },
+     {
+      "rank": 6,
+      "cosine": 0.994595,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1689747",
+      "key": "ordin-1689747",
+      "name": "인천광역시 계양구 사무인계인수 규칙",
+      "ord_kind": "규칙",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20220311",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1689747",
+      "categories": [
+       "C01"
+      ]
+     },
+     {
+      "rank": 7,
+      "cosine": 0.994499,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1608333",
+      "key": "ordin-1608333",
+      "name": "인천광역시 계양구 지방재정투자심사위원회 운영 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20210702",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1608333",
+      "categories": [
+       "C02",
+       "C01"
+      ]
+     },
+     {
+      "rank": 8,
+      "cosine": 0.994493,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1554045",
+      "key": "ordin-1554045",
+      "name": "인천광역시 계양구 헌혈 권장에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20201218",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1554045",
+      "categories": [
+       "C06",
+       "C09"
+      ]
+     },
+     {
+      "rank": 9,
+      "cosine": 0.99446,
+      "stored_rank": null,
+      "ordinance_id": "ordin:1971587",
+      "key": "ordin-1971587",
+      "name": "인천광역시 계양구 양성평등 기본 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20240927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1971587",
+      "categories": [
+       "C11",
+       "C13"
+      ]
+     },
+     {
+      "rank": 10,
+      "cosine": 0.994341,
+      "stored_rank": null,
+      "ordinance_id": "ordin:684776",
+      "key": "ordin-684776",
+      "name": "인천광역시 계양구 자연재해위험개선지구 안에서의 행위제한에 관한 조례",
+      "ord_kind": "조례",
+      "region_name": "인천광역시 계양구",
+      "sig_cd": "28245",
+      "enacted_on": "20130927",
+      "repealed_on": null,
+      "status": "active",
+      "lifecycle": "in_force",
+      "repealed": false,
+      "verification_status": "source-linked",
+      "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=684776",
+      "categories": [
+       "C08",
+       "C02"
+      ]
+     }
+    ],
+    "stored_covered": false,
+    "stored_rows": 0,
+    "stored_overlap": 0,
+    "stored_agreement": null
+   }
+  },
+  "model_agreement": {
+   "graphsage-numpy|metapath2vec-numpy": {
+    "overlap": 1,
+    "jaccard": 0.0526,
+    "of": 10
+   },
+   "graphsage-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   },
+   "metapath2vec-numpy|node2vec-numpy": {
+    "overlap": 0,
+    "jaccard": 0.0,
+    "of": 10
+   }
+  },
+  "consensus": [
+   {
+    "node_id": "ordinance:ordin:1608265",
+    "models": [
+     "graphsage-numpy",
+     "metapath2vec-numpy"
+    ],
+    "model_count": 2,
+    "mean_cosine": 0.963562,
+    "best_rank": 3,
+    "ordinance_id": "ordin:1608265",
+    "key": "ordin-1608265",
+    "name": "인천광역시 계양구 시설관리공단 설치 조례",
+    "region_name": "인천광역시 계양구",
+    "sig_cd": "28245",
+    "enacted_on": "20210702",
+    "status": "active",
+    "repealed_on": null,
+    "url": "https://www.law.go.kr/ordinInfoP.do?ordinSeq=1608265"
+   }
+  ],
+  "method": {
+   "top_k": 10,
+   "similarity": "cosine(node_embeddings)",
+   "recomputed_over": "전체 Ordinance 노드(모델별 candidate_pool)",
+   "why_recomputed": "neural_similarity 저장본은 모델별 커버리지가 달라 3모델 비교가 불가능하다. 저장본은 stored_rank/stored_agreement 로 대조만 한다.",
+   "candidate_pool_status": {
+    "active": 154310
+   },
+   "repealed_in_pool": 0,
+   "repealed_note": "후보 pool 에 폐지 조례가 0건이면 폐지 조례가 이웃으로 뜨는 일 자체가 구조적으로 불가능하다(학습 그래프에 현행 조례만 들어갔다는 뜻). 0건이 아니면 각 이웃의 repealed/status 를 반드시 화면에 표기할 것."
+  }
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "그래프 신경망 임베딩의 코사인 유사도다. 조문 의미가 아니라 그래프 구조(같은 지자체·같은 분류·같은 상위법·같은 재정사업으로 이어지는지)를 학습한 값이므로, '선례 추천'이 아니라 '탐색 보조'로만 쓸 것. 폐지 조례(status=repealed)는 선례로 인용하지 말 것. 인용 전 원문 링크로 확인할 것.",
+ "neural": true,
+ "models": [
+  "graphsage-numpy",
+  "metapath2vec-numpy",
+  "node2vec-numpy"
+ ]
+}

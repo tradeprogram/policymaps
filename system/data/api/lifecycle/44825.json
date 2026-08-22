@@ -1,0 +1,702 @@
+{
+ "data": {
+  "region": {
+   "region_id": "44825",
+   "sig_cd": "44825",
+   "name": "태안군",
+   "full_name": "충청남도 태안군",
+   "level": 2
+  },
+  "counts": {
+   "total": 772,
+   "active": 644,
+   "repealed": 128,
+   "by_rr_cls_cd": {
+    "일부개정": 391,
+    "전부개정": 18,
+    "제정": 235,
+    "폐지": 128
+   }
+  },
+  "enacted_by_year": [
+   {
+    "year": 1999,
+    "n": 3
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 7
+   },
+   {
+    "year": 2006,
+    "n": 6
+   },
+   {
+    "year": 2007,
+    "n": 1
+   },
+   {
+    "year": 2008,
+    "n": 7
+   },
+   {
+    "year": 2009,
+    "n": 6
+   },
+   {
+    "year": 2010,
+    "n": 9
+   },
+   {
+    "year": 2011,
+    "n": 9
+   },
+   {
+    "year": 2012,
+    "n": 4
+   },
+   {
+    "year": 2013,
+    "n": 13
+   },
+   {
+    "year": 2014,
+    "n": 11
+   },
+   {
+    "year": 2015,
+    "n": 33
+   },
+   {
+    "year": 2016,
+    "n": 18
+   },
+   {
+    "year": 2017,
+    "n": 10
+   },
+   {
+    "year": 2018,
+    "n": 30
+   },
+   {
+    "year": 2019,
+    "n": 39
+   },
+   {
+    "year": 2020,
+    "n": 79
+   },
+   {
+    "year": 2021,
+    "n": 81
+   },
+   {
+    "year": 2022,
+    "n": 76
+   },
+   {
+    "year": 2023,
+    "n": 75
+   },
+   {
+    "year": 2024,
+    "n": 154
+   },
+   {
+    "year": 2025,
+    "n": 86
+   },
+   {
+    "year": 2026,
+    "n": 14
+   }
+  ],
+  "repealed_by_year": [
+   {
+    "year": 1999,
+    "n": 1
+   },
+   {
+    "year": 2004,
+    "n": 1
+   },
+   {
+    "year": 2005,
+    "n": 5
+   },
+   {
+    "year": 2006,
+    "n": 5
+   },
+   {
+    "year": 2008,
+    "n": 6
+   },
+   {
+    "year": 2009,
+    "n": 5
+   },
+   {
+    "year": 2010,
+    "n": 7
+   },
+   {
+    "year": 2011,
+    "n": 2
+   },
+   {
+    "year": 2012,
+    "n": 3
+   },
+   {
+    "year": 2013,
+    "n": 10
+   },
+   {
+    "year": 2014,
+    "n": 9
+   },
+   {
+    "year": 2015,
+    "n": 10
+   },
+   {
+    "year": 2016,
+    "n": 6
+   },
+   {
+    "year": 2017,
+    "n": 5
+   },
+   {
+    "year": 2018,
+    "n": 12
+   },
+   {
+    "year": 2019,
+    "n": 15
+   },
+   {
+    "year": 2020,
+    "n": 9
+   },
+   {
+    "year": 2021,
+    "n": 6
+   },
+   {
+    "year": 2023,
+    "n": 8
+   },
+   {
+    "year": 2024,
+    "n": 1
+   },
+   {
+    "year": 2025,
+    "n": 2
+   }
+  ],
+  "top_repealed_policies": [
+   {
+    "policy_key": "지방계약직공무원규정시행규칙",
+    "display_name": "지방계약직공무원규정시행규칙",
+    "rows": 1,
+    "nationwide_regions": 188
+   },
+   {
+    "policy_key": "저탄소녹색성장기본조례",
+    "display_name": "저탄소 녹색성장 기본조례",
+    "rows": 1,
+    "nationwide_regions": 179
+   },
+   {
+    "policy_key": "사회단체보조금지원조례",
+    "display_name": "사회단체보조금 지원 조례",
+    "rows": 1,
+    "nationwide_regions": 167
+   },
+   {
+    "policy_key": "지방공무원징계양정에관한규칙",
+    "display_name": "지방공무원 징계양정에 관한 규칙",
+    "rows": 1,
+    "nationwide_regions": 166
+   },
+   {
+    "policy_key": "수방단운영조례",
+    "display_name": "수방단운영조례",
+    "rows": 1,
+    "nationwide_regions": 146
+   },
+   {
+    "policy_key": "사전재해영향성검토위원회운영조례",
+    "display_name": "사전 재해영향성 검토위원회 운영조례",
+    "rows": 1,
+    "nationwide_regions": 127
+   },
+   {
+    "policy_key": "지방고용직공무원의임용등에관한조례",
+    "display_name": "지방고용직공무원의임용등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 124
+   },
+   {
+    "policy_key": "체육진흥협의회조직운영에관한조례",
+    "display_name": "체육진흥협의회조직운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 118
+   },
+   {
+    "policy_key": "농지관리위원회운영에관한조례",
+    "display_name": "농지관리위원회운영에관한조례",
+    "rows": 1,
+    "nationwide_regions": 104
+   },
+   {
+    "policy_key": "오수분뇨및축산폐수의처리에관한조례",
+    "display_name": "오수분뇨및축산폐수의처리에관한조례",
+    "rows": 1,
+    "nationwide_regions": 95
+   },
+   {
+    "policy_key": "각종위원회실비변상조례",
+    "display_name": "각종 위원회 실비변상 조례",
+    "rows": 1,
+    "nationwide_regions": 84
+   },
+   {
+    "policy_key": "재해대책기금운용관리조례",
+    "display_name": "재해대책기금운용관리조례",
+    "rows": 1,
+    "nationwide_regions": 81
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례시행규칙",
+    "display_name": "저소득주민자녀장학금지급조례시행규칙",
+    "rows": 1,
+    "nationwide_regions": 80
+   },
+   {
+    "policy_key": "재해대책본부의운영등에관한조례",
+    "display_name": "재해대책본부의운영등에관한조례",
+    "rows": 1,
+    "nationwide_regions": 78
+   },
+   {
+    "policy_key": "저소득주민자녀장학금지급조례",
+    "display_name": "저소득주민자녀장학금지급조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "주택사업특별회계설치및운영조례",
+    "display_name": "주택사업특별회계설치및운영조례",
+    "rows": 1,
+    "nationwide_regions": 75
+   },
+   {
+    "policy_key": "국민건강증진법위반자에대한과태료부과징수조례",
+    "display_name": "국민건강증진법위반자에대한과태료부과징수조례",
+    "rows": 1,
+    "nationwide_regions": 72
+   },
+   {
+    "policy_key": "재정운영상황의공개조례",
+    "display_name": "재정운영상황의공개조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "통합관리기금설치및운용조례",
+    "display_name": "통합관리기금 설치 및 운용 조례",
+    "rows": 1,
+    "nationwide_regions": 70
+   },
+   {
+    "policy_key": "여성발전기금설치및운용조례",
+    "display_name": "여성발전기금설치및운용조례",
+    "rows": 1,
+    "nationwide_regions": 68
+   }
+  ],
+  "recent_repeals": [
+   {
+    "ordinance_id": "ordin:2077739",
+    "name": "태안군 여성회관 설치 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-10-10",
+    "repealed_on": "2025-10-10",
+    "repealed_on_raw": "20251010",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2077739&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2028137",
+    "name": "태안군 기후위기 대응 탄소중립 촉진에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2025-04-09",
+    "repealed_on": "2025-04-09",
+    "repealed_on_raw": "20250409",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2028137&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:2012743",
+    "name": "태안군 저탄소 녹색성장 기본조례",
+    "ord_kind": "조례",
+    "enacted_on": "2024-12-23",
+    "repealed_on": "2024-12-23",
+    "repealed_on_raw": "20241223",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=2012743&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1880729",
+    "name": "만리포 토지구획 정리사업 시행 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-12",
+    "repealed_on": "2023-12-12",
+    "repealed_on_raw": "20231212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880729&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1880727",
+    "name": "만리포 토지구획 정리사업 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-12",
+    "repealed_on": "2023-12-12",
+    "repealed_on_raw": "20231212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880727&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1880731",
+    "name": "태안군 관광경영개발사업 특별회계 설치 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-12-12",
+    "repealed_on": "2023-12-12",
+    "repealed_on_raw": "20231212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880731&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1880759",
+    "name": "만리포 토지구획정리사업 공공용지 부담 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-12",
+    "repealed_on": "2023-12-12",
+    "repealed_on_raw": "20231212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880759&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1880757",
+    "name": "만리포 토지구획정리사업 체비지 및 보류지 관리처분 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-12",
+    "repealed_on": "2023-12-12",
+    "repealed_on_raw": "20231212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880757&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1880761",
+    "name": "만리포 토지구획정리사업 환지 및 청산금 취급 규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2023-12-12",
+    "repealed_on": "2023-12-12",
+    "repealed_on_raw": "20231212",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1880761&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1831983",
+    "name": "태안군 사전 재해영향성 검토위원회 운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-05",
+    "repealed_on": "2023-07-05",
+    "repealed_on_raw": "20230705",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1831983&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1831981",
+    "name": "태안군 쌀·현미의 품종 검정업무 절차 및 수수료 및 징수에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2023-07-05",
+    "repealed_on": "2023-07-05",
+    "repealed_on_raw": "20230705",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1831981&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1648943",
+    "name": "태안군 각종 위원회 실비변상 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-12-17",
+    "repealed_on": "2021-12-17",
+    "repealed_on_raw": "20211217",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1648943&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1627667",
+    "name": "태안군 해양보호구역 관리위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-09-27",
+    "repealed_on": "2021-09-27",
+    "repealed_on_raw": "20210927",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1627667&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1600397",
+    "name": "태안군 이장자녀장학금 지급조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2021-05-31",
+    "repealed_on": "2021-05-31",
+    "repealed_on_raw": "20210531",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1600397&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1579165",
+    "name": "태안군 양성평등 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2021-03-12",
+    "repealed_on": "2021-03-12",
+    "repealed_on_raw": "20210312",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1579165&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1543079",
+    "name": "태안군 통합관리기금 설치 및 운용 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-06",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1543079&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1558619",
+    "name": "태안군 통합관리기금 설치 및 운용 조례 시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2020-12-28",
+    "repealed_on": "2021-01-01",
+    "repealed_on_raw": "20210101",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1558619&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1552493",
+    "name": "태안군 사회적기업 육성 및 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-15",
+    "repealed_on": "2020-12-15",
+    "repealed_on_raw": "20201215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1552493&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1552481",
+    "name": "태안군 청소년위원회 구성 및 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-15",
+    "repealed_on": "2020-12-15",
+    "repealed_on_raw": "20201215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1552481&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1552479",
+    "name": "태안군 청소년지도위원 위촉에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-12-15",
+    "repealed_on": "2020-12-15",
+    "repealed_on_raw": "20201215",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1552479&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1543075",
+    "name": "태안군 의안의 비용추계에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-06",
+    "repealed_on": "2020-11-06",
+    "repealed_on_raw": "20201106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1543075&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1543067",
+    "name": "태안군 조례규칙 등 공포 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-06",
+    "repealed_on": "2020-11-06",
+    "repealed_on_raw": "20201106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1543067&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1543069",
+    "name": "태안군 주민의 조례 제정 및 개폐 청구에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-11-06",
+    "repealed_on": "2020-11-06",
+    "repealed_on_raw": "20201106",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1543069&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1532343",
+    "name": "태안군공공용지의취득및손실보상에관한심의위원회설치조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-29",
+    "repealed_on": "2020-09-29",
+    "repealed_on_raw": "20200929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1532343&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1532451",
+    "name": "한국지역진흥재단 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-09-29",
+    "repealed_on": "2020-09-29",
+    "repealed_on_raw": "20200929",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1532451&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1484719",
+    "name": "태안군 소상공인 특례보증 지원에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2020-04-03",
+    "repealed_on": "2020-04-03",
+    "repealed_on_raw": "20200403",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1484719&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:4471121",
+    "name": "태안군 노사정협의회 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-20",
+    "repealed_on": "2019-12-20",
+    "repealed_on_raw": "20191220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=4471121&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:4471029",
+    "name": "태안군다문화가족지원센터 운영 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-20",
+    "repealed_on": "2019-12-20",
+    "repealed_on_raw": "20191220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=4471029&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:4471117",
+    "name": "태안군 외국인주민지원 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-12-20",
+    "repealed_on": "2019-12-20",
+    "repealed_on_raw": "20191220",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=4471117&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1422011",
+    "name": "태안군공무원관용심사처리규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-20",
+    "repealed_on": "2019-11-20",
+    "repealed_on_raw": "20191120",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422011&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1422017",
+    "name": "태안군지방공기업특별회계규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-11-20",
+    "repealed_on": "2019-11-20",
+    "repealed_on_raw": "20191120",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1422017&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1417777",
+    "name": "태안군 기반시설 특별회계 설치 및 운영·관리 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-08",
+    "repealed_on": "2019-11-08",
+    "repealed_on_raw": "20191108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417777&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1417783",
+    "name": "태안군읍·면개발자문위원회조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-08",
+    "repealed_on": "2019-11-08",
+    "repealed_on_raw": "20191108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417783&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1417763",
+    "name": "태안군이장자녀장학금지급조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-08",
+    "repealed_on": "2019-11-08",
+    "repealed_on_raw": "20191108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417763&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1417761",
+    "name": "태안군행정서비스헌장제정및운영조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-11-08",
+    "repealed_on": "2019-11-08",
+    "repealed_on_raw": "20191108",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1417761&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1406767",
+    "name": "태안군새마을소득특별지원사업운영관리조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-08-09",
+    "repealed_on": "2019-08-09",
+    "repealed_on_raw": "20190809",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1406767&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1403849",
+    "name": "태안군새마을소득특별지원사업자금운영관리조례시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-07-15",
+    "repealed_on": "2019-07-15",
+    "repealed_on_raw": "20190715",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1403849&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396503",
+    "name": "태안군 지방별정직 공무원의 범위 및 임용 등에 관한 조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-03",
+    "repealed_on": "2019-06-03",
+    "repealed_on_raw": "20190603",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396503&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396502",
+    "name": "태안군지방별정직공무원의범위에관한조례",
+    "ord_kind": "조례",
+    "enacted_on": "2019-06-03",
+    "repealed_on": "2019-06-03",
+    "repealed_on_raw": "20190603",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396502&type=HTML&mobileYn="
+   },
+   {
+    "ordinance_id": "ordin:1396505",
+    "name": "태안군지방계약직공무원규정시행규칙",
+    "ord_kind": "규칙",
+    "enacted_on": "2019-06-03",
+    "repealed_on": "2019-06-03",
+    "repealed_on_raw": "20190603",
+    "official_url": "https://www.law.go.kr/DRF/lawService.do?target=ordin&MST=1396505&type=HTML&mobileYn="
+   }
+  ],
+  "data_quality": {
+   "unparseable_repealed_on": 0,
+   "sentinel_99991231": 0
+  },
+  "caveat": "폐지 조례는 선례로 추천하지 않는다. 이 화면은 '왜 사라졌는가' 를 보여주는 이력 자료이며 현행 근거가 아니다."
+ },
+ "as_of_date": "2026-08-22",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",
+ "regions": [
+  "44825"
+ ]
+}

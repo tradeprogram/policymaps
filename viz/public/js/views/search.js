@@ -1,22 +1,65 @@
-// 9. 검색 — api/search.json. 조문 단위 결과 카드.
+// 9. 검색 — 질의별 shard api/search/{slug}.json (목록은 api/search_index.json + api/index.json)
+//    폴백: api/search.json 단일 1건. 조문 단위 결과 카드.
+//    ★ 랭킹에 그래프 확장을 섞지 않는다(15 문서에서 무익함이 실증됨). 연결관계는 카드 하단에만.
 import { el, num, extLink, debounce } from "../util.js";
-import { loadFixture, state } from "../api.js";
+import { loadFixture, loadCatalog, loadCatalogItem, state, categoryName } from "../api.js";
 import { section, table, note, loading, asOfLine, fixtureMissingPanel, badge,
          statusBadge, verificationBadge, envelopeFooter } from "../components.js";
+import { catalogSelector, sourceLine } from "../nationwide.js";
 import { go } from "../router.js";
 
 export async function render(root, params, query) {
-  root.appendChild(loading("검색 결과를 불러오는 중…"));
-  let env;
-  try { env = await loadFixture("search"); }
-  catch (e) { root.innerHTML = ""; root.appendChild(fixtureMissingPanel("search", e)); return; }
+  root.appendChild(loading("사전계산 질의 목록을 불러오는 중…"));
+
+  let entries = [];
+  try { entries = await loadCatalog("search"); } catch (e) { entries = []; }
+  // 카테고리 코드가 있으면 라벨에 붙여 고르기 쉽게 한다.
+  for (const e of entries) {
+    const cc = e.meta && e.meta.category_code;
+    if (cc && !String(e.label).includes(cc)) e.label = `${e.label} · ${cc} ${categoryName(cc) || ""}`.trim();
+  }
   root.innerHTML = "";
 
-  const d = env.data || {};
+  const initial = (query && query.q && entries.some((e) => e.key === String(query.q)))
+    ? String(query.q)
+    : (entries.length ? entries[0].key : null);
+
+  const picker = catalogSelector({
+    entries, current: initial, label: "사전계산 질의",
+    onChange: (k) => draw(k),
+  });
+  if (picker) root.appendChild(picker);
+
+  const body = el("div", {});
+  root.appendChild(body);
+
+  let token = 0;
+  async function draw(key) {
+    const my = ++token;
+    body.innerHTML = "";
+    body.appendChild(loading("검색 결과를 불러오는 중…"));
+    const entry = entries.find((e) => e.key === String(key)) || null;
+
+    let res;
+    if (entry) res = await loadCatalogItem("search", entry);
+    else {
+      try { const env = await loadFixture("search"); res = { env, data: env.data || env, source: "fixture", path: "api/search.json" }; }
+      catch (e) { res = { env: null, data: null, error: e }; }
+    }
+    if (my !== token) return;
+    body.innerHTML = "";
+    if (!res.data) { body.appendChild(fixtureMissingPanel("search", res.error)); return; }
+    renderBody(body, res.data, res.env, res, entries.length);
+  }
+
+  await draw(initial);
+}
+
+function renderBody(root, d, env, res, catalogSize) {
   const all = d.results || [];
 
   const input = el("input", {
-    type: "search", class: "search-input", value: query?.q || "",
+    type: "search", class: "search-input", value: "",
     placeholder: "결과 내 필터 (조례명·조문·기관)",
   });
   const counter = el("span", { class: "muted" });
@@ -31,7 +74,9 @@ export async function render(root, params, query) {
     note(state.isMock
       ? "가상데이터에는 사전계산된 질의 1건의 결과만 들어 있다. 아래 입력창은 그 결과 안에서의 필터다. "
         + "실제 검색은 MCP tool semantic_search_ordinance / search_ordinance 가 처리한다."
-      : "정적 번들에는 검색 인덱스가 포함되지 않는다. 실검색은 MCP tool 이 수행한다."),
+      : `정적 번들에는 RAG 인덱스(9.5GB)가 포함되지 않는다. 대신 사전계산 질의 ${num(catalogSize)}건의 `
+        + "결과를 그대로 실었다(조문 원본은 ordinance_articles 236만 행). "
+        + "임의 질의는 MCP tool semantic_search_ordinance / search_ordinance 가 수행한다."),
     el("div", { class: "toolbar" }, input, counter),
     list
   );
@@ -61,6 +106,8 @@ export async function render(root, params, query) {
   input.addEventListener("input", debounce(paint, 150));
   paint();
 
+  const src = sourceLine(res);
+  if (src) root.appendChild(src);
   root.appendChild(envelopeFooter(env));
 }
 
