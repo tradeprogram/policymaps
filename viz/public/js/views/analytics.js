@@ -228,6 +228,44 @@ function ehaPanels(d, slug) {
     table(["역할", "설명", "mode/link", "neighbor 계수", "p", "유의", "peer_exposure", "R²"], rows),
     note("주모형과 민감도 모형에서 neighbor_exposure 의 부호·유의성이 같으면 결론이 정의 선택에 좌우되지 않는다는 뜻이다.")));
 
+  /* 확산 경로 3종 head-to-head.
+   *
+   * 세 노출 변수는 형식이 같다(t-1 까지 채택한 비율). 다른 것은 '누구를 이웃으로
+   * 세는가' 뿐이다 — 지리적 인접 / 인구·재정이 비슷한 곳 / 그래프 임베딩이 가까운 곳.
+   * 한 모형에 같이 넣으면 서로를 통제한 뒤 어느 경로가 남는지 볼 수 있다.
+   * three_channel 모형이 없으면(생성기 미실행·Region 임베딩 부재) 이 절을 건너뛴다. */
+  const CHANNELS = [
+    ["neighbor_exposure", "지리적 인접", "옆에 있으니까 따라 한다"],
+    ["peer_exposure", "통계적 유사", "인구·재정 형편이 비슷하니까 (행안부 기준)"],
+    ["neural_exposure", "구조적 유사", "조례 구성·상위법 연결이 닮았으니까 (그래프 신경망)"],
+  ];
+  const tri = models.filter((m) => (m.model?.terms || []).some((t) => t.term === "neural_exposure"));
+  if (tri.length) {
+    const box = section("확산 경로 3종 비교 — 무엇이 채택을 예측하는가");
+    for (const m of tri) {
+      const terms = m.model?.terms || [];
+      box.appendChild(el("h3", { class: "card-title",
+        text: `${m.role} — ${m.mode || "?"} / ${m.link || "?"}` }));
+      box.appendChild(table(
+        ["확산 경로", "뜻", "계수", "SE", "p", "유의", "OR", "OR 95% CI"],
+        CHANNELS.map(([key, label, meaning]) => {
+          const t = terms.find((x) => x.term === key);
+          if (!t) return [label, meaning, "—", "—", "—", "", "—", "이 모형에 미포함"];
+          return [
+            label, meaning,
+            fx(t.coef, 4), fx(t.se_robust ?? t.se, 4),
+            t.p_value == null ? "—" : (t.p_value < 1e-4 ? "<0.0001" : t.p_value.toFixed(4)),
+            STAR(t.p_value), fx(t.odds_ratio, 3),
+            Array.isArray(t.or_ci95) ? `${fx(t.or_ci95[0], 3)} ~ ${fx(t.or_ci95[1], 3)}` : "—",
+          ];
+        })));
+    }
+    box.appendChild(note(
+      "세 변수는 모두 't-1 까지 채택한 이웃 비율' 로 형식이 같다. 다른 것은 이웃을 세는 기준뿐이라 "
+      + "계수를 직접 비교할 수 있다. 셋을 한 모형에 같이 넣었으므로 각 계수는 나머지 둘을 통제한 뒤의 값이다."));
+    wrap.appendChild(box);
+  }
+
   // 해석 주의 + 참고문헌 + 콘솔표
   wrap.appendChild(section("해석 주의와 근거",
     note(d.interpretation_caveat || "", "warn"),

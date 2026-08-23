@@ -268,6 +268,24 @@ function mapSection(d, lisa, geo, regionIndex) {
   const modeSel = el("select", { class: "sel", "aria-label": "지도 표시 방식" },
     el("option", { value: "lisa", text: "LISA 사분면 (FDR 통과분만 색칠)" }),
     el("option", { value: "value", text: "값 5분위 코로플레스" }));
+
+  /* 시도 선택 — 전국을 한 번에 보면 수도권처럼 조밀한 곳의 군집이 안 보인다.
+   * 값·분위는 **전국 기준 그대로** 두고 화면만 해당 시도로 좁힌다(부분집합에서
+   * 다시 분위를 끊으면 같은 지역의 색이 시도를 고를 때마다 달라져 오해를 준다). */
+  const sidoOf = (sig) => String(sig).slice(0, 2);
+  const sidoNames = new Map();
+  for (const r of lisa) {
+    const cd = sidoOf(r.sig_cd);
+    if (!sidoNames.has(cd)) {
+      const nm = String(r.region_name || r.name || "").trim().split(/\s+/)[0];
+      if (nm) sidoNames.set(cd, nm);
+    }
+  }
+  const sidoSel = el("select", { class: "sel", "aria-label": "시도 선택" },
+    el("option", { value: "", text: "전국 (전체)" }));
+  for (const [cd, nm] of [...sidoNames].sort((a, b) => a[0].localeCompare(b[0]))) {
+    sidoSel.appendChild(el("option", { value: cd, text: nm }));
+  }
   const legend = el("div", { class: "legend" });
   const statusLine = el("div", { class: "as-of" });
   const mapDiv = el("div", { class: "map-canvas" });
@@ -275,7 +293,9 @@ function mapSection(d, lisa, geo, regionIndex) {
   const tableHolder = el("div", {});
 
   const sec = section("코로플레스",
-    el("div", { class: "map-controls" }, el("label", { text: "표시 " }), modeSel),
+    el("div", { class: "map-controls" },
+      el("label", { text: "표시 " }), modeSel,
+      el("label", { text: " 지역 " }), sidoSel),
     legend, statusLine,
     el("div", { class: "map-layout" }, mapDiv, detail),
     el("details", { class: "table-fallback" },
@@ -285,11 +305,12 @@ function mapSection(d, lisa, geo, regionIndex) {
   renderLisaTable(tableHolder, lisa, d);
 
   let layer = null;
+  let mapRef = null;   // 시도 선택 시 fitBounds 하려면 map 인스턴스가 필요하다
   function paint() {
     const mode = modeSel.value;
     renderLegend(legend, mode, breaks, d);
     if (!layer) return;
-    let matched = 0, rolled = 0, painted = 0;
+    let matched = 0, rolled = 0, painted = 0, inSido = 0;
     layer.eachLayer((lyr) => {
       const sig = String(lyr.feature.properties.sig_cd);
       const hit = lookup(sig, bySig, levelOf);
@@ -307,8 +328,17 @@ function mapSection(d, lisa, geo, regionIndex) {
           if (ci >= 0) painted++;
         }
       }
-      lyr.setStyle({ fillColor: fill, fillOpacity: opacity, color: "#7d8794", weight: 0.6,
-                     dashArray: hit.via ? "3,3" : null });
+      // 시도를 골랐으면 밖은 흐리게 눌러 초점을 만든다. 값·분위는 전국 기준 그대로다.
+      const sel = sidoSel.value;
+      const outside = sel && sidoOf(sig) !== sel;
+      lyr.setStyle({
+        fillColor: outside ? "#e9edf1" : fill,
+        fillOpacity: outside ? 0.25 : opacity,
+        color: outside ? "#c8cfd6" : "#7d8794",
+        weight: outside ? 0.4 : 0.6,
+        dashArray: hit.via ? "3,3" : null,
+      });
+      if (!outside && sel) inSido++;
       const p = lyr.feature.properties;
       lyr.bindTooltip(tooltipHtml(p, r, hit, d), { sticky: true });
       lyr._row = r || null;
@@ -318,6 +348,10 @@ function mapSection(d, lisa, geo, regionIndex) {
     const bits = [`경계 ${total}개 중 ${matched}개에 LISA 행이 매칭됨`];
     if (rolled) bits.push(`그 중 ${rolled}개는 소속 시 값으로 채움(점선) — 일반구는 조례 제정권이 없어 분석 단위가 아니다`);
     bits.push(mode === "lisa" ? `사분면 색칠 ${painted}개(FDR 통과분만)` : `5분위 색칠 ${painted}개`);
+    if (sidoSel.value) {
+      bits.push(`${sidoSel.options[sidoSel.selectedIndex].text} ${inSido}개만 강조 `
+        + `— 색 기준(분위·사분면)은 전국 전체로 계산한 값 그대로다`);
+    }
     statusLine.textContent = bits.join(" · ");
   }
 
@@ -360,6 +394,7 @@ function mapSection(d, lisa, geo, regionIndex) {
     ensureLeaflet().then(() => new Promise((resolve) => whenMounted(mapDiv, resolve))).then(() => {
       const L = window.L;
       const map = L.map(mapDiv, { preferCanvas: false, renderer: L.svg(), attributionControl: false });
+      mapRef = map;
       layer = L.geoJSON(geo, {
         style: () => ({ color: "#7d8794", weight: 0.6, fillColor: NEUTRAL, fillOpacity: 0.5 }),
         onEachFeature: (feature, lyr) => {
@@ -381,6 +416,19 @@ function mapSection(d, lisa, geo, regionIndex) {
   }
 
   modeSel.addEventListener("change", paint);
+  sidoSel.addEventListener("change", () => {
+    paint();
+    // 선택 시도가 화면에 꽉 차도록 이동. 전국을 다시 고르면 전체로 되돌린다.
+    if (!layer || typeof L === "undefined") return;
+    const sel = sidoSel.value;
+    let target = null;
+    layer.eachLayer((lyr) => {
+      if (sel && sidoOf(lyr.feature.properties.sig_cd) !== sel) return;
+      const b = lyr.getBounds();
+      target = target ? target.extend(b) : L.latLngBounds(b.getSouthWest(), b.getNorthEast());
+    });
+    if (target && target.isValid() && mapRef) mapRef.fitBounds(target, { padding: [12, 12] });
+  });
   renderLegend(legend, modeSel.value, breaks, d);
   return sec;
 }
