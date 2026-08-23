@@ -1,9 +1,11 @@
 // 3. 지역 상세 — regions/{sig_cd}.json 소비.
 //    지역 선택기는 전국(시도별 optgroup + 검색). 목록 출처는 regions/index.json + api/index.json.
-import { el, num, won, pct, dtime, extLink } from "../util.js";
-import { loadRegion, loadRegionCatalog, categoryName, state } from "../api.js";
+import { el, num, won, pct, dtime, ymd, extLink, debounce } from "../util.js";
+import { loadRegion, loadRegionCatalog, categoryName, state,
+         loadOrdinanceBundle, full, DataMissingError } from "../api.js";
 import { regionSelector } from "../nationwide.js";
-import { section, statCard, table, note, loading, asOfLine, errorPanel, badge, statusBadge, cdnFailPanel } from "../components.js";
+import { section, statCard, table, note, loading, asOfLine, errorPanel, badge, statusBadge,
+         verificationBadge, cdnFailPanel } from "../components.js";
 import { ensureChart } from "../vendor.js";
 import { go } from "../router.js";
 
@@ -102,6 +104,9 @@ export async function render(root, params) {
       : note("이 지역의 최근 변경 이력이 없습니다.")
   ));
 
+  // 자치법규 전량 목록 (api/ordinance/{sig}.json — make_full_ordinance.py 산출)
+  await appendOrdinanceList(root, sig);
+
   root.appendChild(section("다음 화면",
     el("div", { class: "chip-row" },
       el("button", { class: "btn", text: "유사 지자체 · 격차분석", onclick: () => go("/gap") }),
@@ -134,4 +139,93 @@ function regionPicker(cat, current) {
   picker.appendChild(el("span", { class: "muted small",
     text: `전국 ${items.length}곳 · shard 보유 ${covered.size}곳(✓) · 목록 출처 ${(cat.sources || []).join(", ") || "없음"}` }));
   return picker;
+}
+
+
+/* ==================================================================== *
+ *  지역 자치법규 전량 목록 — api/ordinance/{sig}.json (columnar-v1)
+ *
+ *  배포본에도 199,858건이 전량 들어 있다(지역 번들 247개). 여기서 조례를 골라
+ *  상세(#/ordinance/{mst}?sig=)로 들어가면, 완전판이면 조문 본문까지,
+ *  배포본이면 조문 제목까지 보여준다.
+ * ==================================================================== */
+
+const PAGE = 200;
+
+async function appendOrdinanceList(root, sig) {
+  const sec = section("자치법규 전량");
+  root.appendChild(sec);
+  const box = el("div", {});
+  sec.appendChild(box);
+  box.appendChild(loading("지역 자치법규 번들을 불러오는 중…"));
+
+  let bundle;
+  try {
+    bundle = await loadOrdinanceBundle(sig);
+  } catch (e) {
+    box.innerHTML = "";
+    box.appendChild(note(
+      e instanceof DataMissingError
+        ? `api/ordinance/${sig}.json 이 없습니다. `
+          + "전량 번들은 system/make_full_ordinance.py 가 굽습니다(가상데이터에는 없습니다)."
+        : `자치법규 번들을 읽지 못했습니다 — ${e.message}`, "warn"));
+    return;
+  }
+
+  const items = bundle.items || [];
+  const counts = bundle.counts || {};
+  box.innerHTML = "";
+  box.appendChild(el("div", { class: "chip-row" },
+    badge(`전량 ${num(items.length)}건`, "badge-info"),
+    counts.active != null ? badge(`현행 ${num(counts.active)}`, "badge-active") : null,
+    counts.repealed != null ? badge(`폐지 ${num(counts.repealed)}`, "badge-repealed") : null,
+    badge(full.enabled ? "상세: 조문 본문(완전판)" : "상세: 조문 제목까지(배포본)",
+          full.enabled ? "badge-verified" : "badge-plain")));
+
+  const input = el("input", { type: "search", class: "search-input",
+    placeholder: "자치법규명·소관부서로 거르기" });
+  const statusSel = el("select", { class: "sel" },
+    el("option", { value: "", text: "전체" }),
+    el("option", { value: "active", text: "현행만" }),
+    el("option", { value: "repealed", text: "폐지만" }));
+  const counter = el("span", { class: "muted" });
+  const holder = el("div", {});
+  const more = el("button", { class: "btn", text: "더 보기" });
+  box.appendChild(el("div", { class: "toolbar" }, input, statusSel, counter));
+  box.appendChild(holder);
+  box.appendChild(more);
+  box.appendChild(note("폐지된 자치법규도 전량 포함한다(status=repealed). "
+    + "선례로 인용하면 안 되고, 위험 신호로만 읽어야 한다."));
+
+  let shown = PAGE;
+  function filtered() {
+    const q = input.value.trim().toLowerCase();
+    const st = statusSel.value;
+    return items.filter((o) =>
+      (!st || (o.status || "active") === st)
+      && (!q || [o.name, o.department, o.mst].some((x) => String(x || "").toLowerCase().includes(q))));
+  }
+  function paint() {
+    const rows = filtered();
+    counter.textContent = `${num(Math.min(shown, rows.length))} / ${num(rows.length)}건 표시`;
+    holder.innerHTML = "";
+    holder.appendChild(table(
+      ["자치법규", "종류", "공포", "조문", "분야", "상태", "검증", "원문"],
+      rows.slice(0, shown).map((o) => [
+        el("button", { class: "btn-link", text: o.name || o.mst,
+          onclick: () => go(`/ordinance/${encodeURIComponent(o.mst)}?sig=${encodeURIComponent(sig)}`) }),
+        o.ord_kind || "—",
+        ymd(o.enacted_on) || "—",
+        o.article_count ?? "—",
+        o.category ? categoryName(o.category) : "미분류",
+        statusBadge(o.status),
+        verificationBadge(o.verification_status) || "—",
+        extLink(o.official_url, o.official_url ? "law.go.kr" : "—"),
+      ])));
+    more.style.display = rows.length > shown ? "" : "none";
+  }
+  input.addEventListener("input", debounce(() => { shown = PAGE; paint(); }, 150));
+  statusSel.addEventListener("change", () => { shown = PAGE; paint(); });
+  more.addEventListener("click", () => { shown += PAGE; paint(); });
+  paint();
 }

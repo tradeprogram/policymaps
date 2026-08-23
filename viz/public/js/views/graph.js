@@ -4,6 +4,7 @@
 //      #/graph?mode=hierarchy                     위계 개념도 (api/graph/hierarchy.json)
 //      #/graph?mode=ordinance&key=ordin-1735111   조례 중심 2홉 (api/graph/ordinance/{key}.json)
 //      #/graph?mode=statute&key=statute-276653    법령 중심     (api/graph/statute/{key}.json)
+//      #/graph?mode=region&key=11110              지역 전량     (api/graph/by-region/{sig_cd}.json)
 //
 //    api/graph/index.json 이 없으면(가상데이터 번들 등) 예전 경로 — graph/nodes.json+edges.json 의
 //    ego 서브그래프 — 로 떨어지고, shard 생성 명령을 안내한다.
@@ -19,6 +20,8 @@ import { ensureLeaflet, ensureVisNetwork } from "../vendor.js";
 
 const IDX_PATH = "api/graph/index.json";
 const GENERATOR = "system/make_graph_fixtures.py";
+/** 지역 묶음이 공유하는 상위법 사전(전국 32,727건). 지역 파일마다 복제하지 않으려고 뺐다. */
+const INSTRUMENTS_PATH = "api/graph/instruments.json";
 
 const REL_STYLE = {
   DELEGATED_FROM: { color: "#c0392b", label: "위임", dashes: false, width: 2 },
@@ -89,6 +92,7 @@ export async function render(root, params, query = {}) {
 
   const ords = Array.isArray(idx.ordinances) ? idx.ordinances : [];
   const stats = Array.isArray(idx.statutes) ? idx.statutes : [];
+  const regions = Array.isArray(idx.regions) ? idx.regions : [];
   const ordKeys = new Set(ords.map((e) => e.key));
   const statKeys = new Set(stats.map((e) => e.key));
 
@@ -109,6 +113,8 @@ export async function render(root, params, query = {}) {
     { key: "ordinance", label: `조례 중심 (${num(ords.length)})` },
     { key: "statute", label: `법령 중심 (${num(stats.length)})` },
   ];
+  // 지역 전량 묶음(make_full_graph.py). 없으면 탭 자체를 만들지 않는다 — 구 번들 하위호환.
+  if (regions.length) tabs.push({ key: "region", label: `지역 전량 (${num(regions.length)})` });
 
   let mode = tabs.some((t) => t.key === query.mode) ? query.mode : "hierarchy";
   let key = query.key || null;
@@ -118,7 +124,7 @@ export async function render(root, params, query = {}) {
   sec.appendChild(bar);
   sec.appendChild(body);
 
-  const ctx = { idx, ords, stats, ordKeys, statKeys, jump };
+  const ctx = { idx, ords, stats, regions, ordKeys, statKeys, jump };
 
   function jump(nextMode, nextKey) {
     mode = nextMode;
@@ -136,7 +142,10 @@ export async function render(root, params, query = {}) {
     body.appendChild(loading("서브그래프를 불러오는 중…"));
     const host = el("div", {});
     try {
-      if (mode === "ordinance" || mode === "statute") {
+      if (mode === "region") {
+        const resolved = await renderRegionMode(host, ctx, key, (k) => { key = k; show(); });
+        if (resolved && resolved !== key) { key = resolved; syncUrl(mode, key); }
+      } else if (mode === "ordinance" || mode === "statute") {
         // 목록의 첫 항목으로 떨어졌을 때도 주소에 실제 key 를 남긴다(딥링크·새로고침 대비).
         const resolved = await renderShardMode(host, ctx, mode, key, (k) => { key = k; show(); });
         if (resolved && resolved !== key) { key = resolved; syncUrl(mode, key); }
@@ -481,6 +490,207 @@ async function renderShardMode(host, ctx, kind, key, onKey) {
   if (kind === "statute") await articlesPanel(detail, cur);
   detail.appendChild(envelopeFooter(env));
   return cur.key;
+}
+
+/* ==================================================================== *
+ *  지역 전량 (api/graph/by-region/{sig_cd}.json · 247곳)
+ *
+ *  조례 개별 shard 1,000건은 표본이고, 이 묶음이 위임 구조의 전량이다.
+ *  파일은 용량 때문에 (가) 엣지를 인덱스 배열로 접고 (나) 상위법 노드를 전국 공용
+ *  사전(graph/instruments.json)으로 빼고 (다) 지역 안에서 상수인 필드를 defaults 로
+ *  올려 뒀다. 여기서 그걸 도로 펴서 기존 subgraphPanel 에 그대로 넘긴다.
+ * ==================================================================== */
+
+/** by-region 번들을 {nodes, edges} 로 편다. 규약은 파일의 data.edge_encoding·data.defaults 에 있다. */
+function decodeRegionBundle(d, dict) {
+  const df = d.defaults || {};
+  const labelOf = df["node.label"] || { ordinance: "Ordinance", instrument: "LegalInstrument" };
+  const hopOf = df["node.hop"] || { ordinance: 0, instrument: 1 };
+  const verCodes = df["edge.verification_status_codes"] || [];
+  const region = d.region || {};
+  const prefix = region.name_prefix || "";
+  const nameMatched = new Set(d.name_matched || []);
+
+  const ordNodes = (d.nodes || []).map((n) => ({
+    ...n,
+    label: labelOf.ordinance || "Ordinance",
+    // 생성기가 조례명 앞의 지자체 이름을 잘라냈다(data.region.name_prefix). 붙여서 되돌린다.
+    name: prefix && n.name ? `${prefix} ${n.name}` : n.name,
+    ord_kind: n.ord_kind ?? df["node.ord_kind"],
+    status: n.status ?? df["node.status"],
+    repealed: n.repealed ?? df["node.repealed"],
+    hop: hopOf.ordinance ?? 0,
+    region_name: region.full_name || region.name,
+    org_name: region.org_name,
+    src_id: String(n.id || "").replace(/^ordinance:/, ""),
+  }));
+
+  const instIds = d.instruments || [];
+  const instNodes = instIds.map((id, i) => {
+    const meta = (dict && dict[id]) || {};
+    const bare = String(id).replace(/^instrument:/, "");
+    // lawname: 은 인용문에서 이름만 확인된 미수집 법령이다(단정 금지).
+    const resolved = meta.resolved !== undefined ? meta.resolved : !bare.startsWith("lawname:");
+    const out = {
+      id,
+      label: labelOf.instrument || "LegalInstrument",
+      name: meta.name || bare.replace(/^lawname:/, ""),
+      hop: hopOf.instrument ?? 1,
+      resolved,
+      src_id: bare,
+    };
+    if (meta.instrument_kind) out.instrument_kind = meta.instrument_kind;
+    if (meta.tier !== undefined) out.tier = meta.tier;
+    if (meta.status) out.status = meta.status;
+    if (nameMatched.has(i)) out.resolved_by = "name-match";
+    return out;
+  });
+
+  const nodes = ordNodes.concat(instNodes);
+  const n0 = ordNodes.length;
+  const idAt = (i) => (i < n0 ? ordNodes[i].id : (instNodes[i - n0] || {}).id);
+
+  const edges = [];
+  for (const e of d.edges || []) {
+    const src = idAt(e[0]);
+    const dst = idAt(e[1]);
+    if (!src || !dst) continue;          // 색인이 범위를 벗어나면 그리지 않는다(조용히 버리지 말고 셈은 stats 로 본다)
+    const row = {
+      source: src,
+      target: dst,
+      relation: d.relation || df["edge.relation"] || "DELEGATED_FROM",
+      count: e[2] ?? df["edge.count"] ?? 1,
+      verification_status: e[3] !== undefined
+        ? (verCodes[e[3]] || String(e[3]))
+        : df["edge.verification_status"],
+    };
+    const tgt = nodes[e[1]];
+    if (tgt && tgt.resolved_by) row.resolved_by = tgt.resolved_by;
+    edges.push(row);
+  }
+  return { nodes, edges, ordinanceCount: n0 };
+}
+
+async function renderRegionMode(host, ctx, key, onKey) {
+  const entries = ctx.regions;
+  if (!entries.length) {
+    host.appendChild(note(`${IDX_PATH} 에 지역 묶음 목록이 없습니다. `
+      + "python system/make_full_graph.py --only by-region 로 생성합니다.", "warn"));
+    return;
+  }
+  const cur = entries.find((e) => String(e.sig_cd) === String(key)) || entries[0];
+
+  host.appendChild(entryPicker({
+    entries: entries.map((e) => ({ ...e, key: String(e.sig_cd) })),
+    current: String(cur.sig_cd),
+    groupOf: (e) => (e.full_name && e.full_name !== e.name
+      ? e.full_name.split(" ")[0]
+      : (e.level === 1 ? "시·도" : "기타")),
+    textOf: (e) => `${e.full_name || e.name} (${e.sig_cd}) — 조례 ${num(e.ordinances || 0)} · 위임 ${num(e.edges || 0)}`,
+    onChange: onKey,
+    label: "지역", placeholder: "지자체명·코드 검색",
+  }));
+
+  const detail = el("div", {});
+  host.appendChild(detail);
+  detail.appendChild(loading(`${cur.full_name || cur.name} 위임 구조를 불러오는 중…`));
+
+  const relPath = cur.path ? "api/graph/" + cur.path : `api/graph/by-region/${cur.sig_cd}.json`;
+  let env, dict = null;
+  try {
+    [env, dict] = await Promise.all([
+      getJSON(relPath),
+      getJSON(INSTRUMENTS_PATH).then((doc) => (doc.data || doc).instruments || {}).catch(() => null),
+    ]);
+  } catch (e) {
+    detail.innerHTML = "";
+    detail.appendChild(shardMissingPanel("by-region", cur, { tried: [relPath], error: e }));
+    return String(cur.sig_cd);
+  }
+  detail.innerHTML = "";
+
+  const d = env.data || env;
+  const st = d.stats || {};
+  const tr = d.truncated || {};
+  const dec = decodeRegionBundle(d, dict);
+
+  const head = el("div", {});
+  head.appendChild(el("h3", { style: "margin:6px 0", text: (d.region || cur).full_name || cur.name }));
+  const chips = el("div", { class: "chip-row" });
+  if ((d.region || {}).status) chips.appendChild(statusBadge(d.region.status));
+  chips.appendChild(badge(`위임 관계만 (DELEGATED_FROM)`, "badge-plain"));
+  if (!dict) chips.appendChild(badge("상위법 사전 미로드 — 법령명 대신 id 표시", "badge-warn"));
+  head.appendChild(chips);
+  head.appendChild(el("div", { class: "as-of", text: `데이터 소스: ${relPath} + ${INSTRUMENTS_PATH}` }));
+  detail.appendChild(head);
+
+  detail.appendChild(el("div", { class: "stat-grid" },
+    statCard("조례 노드", num(st.ordinance_nodes ?? dec.ordinanceCount), "이 지역에서 위임 근거가 있는 조례"),
+    statCard("상위법 노드", num(st.instrument_nodes ?? 0),
+      `미수집(이름만) ${num(st.unresolved_instruments || 0)} · 이름해소 ${num(st.name_matched_instruments || 0)}`),
+    statCard("위임 엣지", num(st.edges ?? dec.edges.length), `원본 위임 행 ${num(st.delegation_rows || 0)}건을 접은 것`),
+    statCard("폐지 노드", num(st.repealed_nodes || 0), "회색 + 붉은 테두리")));
+
+  // 결손을 숨기지 않는다 — 위임 근거가 없어 그래프에 아예 없는 조례를 명시한다.
+  if (tr.region_ordinances_all) {
+    detail.appendChild(note(
+      `이 지역 자치법규 ${num(tr.region_ordinances_all)}건 중 위임 근거가 수집된 것은 `
+      + `${num(tr.ordinances_total || 0)}건이다. 나머지 ${num(tr.ordinances_without_delegation || 0)}건은 `
+      + "자치조례이거나 상위법 인용이 수집되지 않아 이 그림에 노드가 없다. "
+      + (tr.ordinances_shown < tr.ordinances_total
+        ? `또한 노드 상한 때문에 ${num(tr.ordinances_shown)}건만 그린다.` : ""), "warn"));
+  }
+  if (st.unresolved_instruments) {
+    detail.appendChild(note(
+      `상위법 ${num(st.unresolved_instruments)}건은 법령 원문이 수집되지 않아 이름만 확인된 상태다`
+      + "(점선 테두리 · tier·폐지여부 미상). 단정해서 읽으면 안 된다.", "warn"));
+  }
+  if (st.name_matched_instruments) {
+    detail.appendChild(note(
+      `상위법 ${num(st.name_matched_instruments)}건은 법령명 정규화로 붙인 추정(name-match) 연결이다.`, "warn"));
+  }
+  detail.appendChild(note(
+    "지역 묶음은 위임(DELEGATED_FROM)만 담는다. 인용(CITES)과 조문 단위 근거는 "
+    + "'조례 중심' 탭의 개별 shard 에 있다.", ""));
+
+  // 지역 전체는 수천 노드라 통째로 그리면 브라우저가 멈춘다. 기존 ego() 로 기준 조례 주변만 그린다.
+  const seeds = dec.nodes.slice(0, dec.ordinanceCount)
+    .filter((n) => dec.edges.some((e) => e.source === n.id))
+    .map((n) => ({ key: n.id, name: n.name, parents: n.parents || 0 }))
+    .sort((a, b) => (b.parents || 0) - (a.parents || 0));
+
+  if (!seeds.length) {
+    detail.appendChild(note("이 지역에는 위임 근거가 있는 조례가 없어 그래프를 그릴 수 없습니다.", "warn"));
+    detail.appendChild(envelopeFooter(env));
+    return String(cur.sig_cd);
+  }
+
+  const byId = new Map(dec.nodes.map((n) => [n.id, n]));
+  const graphBox = el("div", {});
+  detail.appendChild(entryPicker({
+    entries: seeds, current: seeds[0].key,
+    groupOf: () => `위임 근거가 있는 조례 (${seeds.length})`,
+    textOf: (e) => `${e.name} — 근거 상위법 ${num(e.parents || 0)}건`,
+    onChange: (k) => drawSeed(k),
+    label: "기준 조례", placeholder: "조례명 검색",
+  }));
+  detail.appendChild(graphBox);
+
+  async function drawSeed(seedId) {
+    graphBox.innerHTML = "";
+    const sub = ego(seedId, 2, dec.edges, byId, LIMITS.graphRenderNodes);
+    await subgraphPanel(graphBox, {
+      nodes: sub.nodes, edges: sub.edges, seedId,
+      defaults: d.defaults || null, ctx, kind: "region",
+    });
+    if (sub.truncated) {
+      graphBox.appendChild(note(`노드 상한 ${LIMITS.graphRenderNodes} 에 걸려 잘렸다.`, "warn"));
+    }
+  }
+  await drawSeed(seeds[0].key);
+
+  detail.appendChild(envelopeFooter(env));
+  return String(cur.sig_cd);
 }
 
 function shardPaths(idx, kind, key, entry) {

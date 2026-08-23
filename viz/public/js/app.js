@@ -1,7 +1,7 @@
 // 앱 셸 — 네비게이션, 배너, 라우팅
 import { el, qs } from "./util.js";
-import { BASE, state, loadManifest } from "./api.js";
-import { mockBanner, staleBanner, errorPanel, loading } from "./components.js";
+import { BASE, state, loadManifest, probeFullApi } from "./api.js";
+import { mockBanner, staleBanner, fullEditionBanner, errorPanel, loading } from "./components.js";
 import { route, setNotFound, setOnNavigate, start, go } from "./router.js";
 import { initAgent } from "./agent.js";
 
@@ -19,6 +19,8 @@ import * as spatial from "./views/spatial.js";
 import * as lifecycle from "./views/lifecycle.js";
 import * as trust from "./views/trust.js";
 import * as analytics from "./views/analytics.js";
+import * as ordinance from "./views/ordinance.js";
+import * as statute from "./views/statute.js";
 
 const NAV = [
   ["/dashboard", "대시보드", dashboard],
@@ -54,7 +56,10 @@ async function boot() {
     return;
   }
 
-  for (const b of [mockBanner(), staleBanner()]) if (b) banners.appendChild(b);
+  // 완전판(로컬 DB 직결) 탐지 — 실패해도 조용히 정적 shard 로 간다(배포본 보호).
+  await probeFullApi();
+
+  for (const b of [mockBanner(), staleBanner(), fullEditionBanner()]) if (b) banners.appendChild(b);
 
   // 네비게이션
   for (const [path, label] of NAV) {
@@ -77,6 +82,33 @@ async function boot() {
       window.scrollTo(0, 0);
     });
   }
+
+  // 네비게이션에 올리지 않는 상세 라우트. 목록·검색 결과에서만 들어온다.
+  route("/ordinance/:id", async (params, query) => {
+    const container = qs("#app");
+    container.innerHTML = "";
+    try {
+      await ordinance.render(container, params, query);
+    } catch (e) {
+      container.innerHTML = "";
+      container.appendChild(errorPanel(e, "조례 상세 화면 렌더 중 오류"));
+      console.error(e);
+    }
+    window.scrollTo(0, 0);
+  });
+
+  route("/statute/:id", async (params, query) => {
+    const container = qs("#app");
+    container.innerHTML = "";
+    try {
+      await statute.render(container, params, query);
+    } catch (e) {
+      container.innerHTML = "";
+      container.appendChild(errorPanel(e, "법령 상세 화면 렌더 중 오류"));
+      console.error(e);
+    }
+    window.scrollTo(0, 0);
+  });
 
   setNotFound((p) => {
     qs("#app").innerHTML = "";

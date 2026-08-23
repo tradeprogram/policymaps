@@ -1,6 +1,6 @@
 // 화면 공통 조각 — 배너, 배지, 카드, 표, 에러 패널
 import { el, esc, num, pct, ymd } from "./util.js";
-import { state, DataMissingError, FIXTURE_TOOLS } from "./api.js";
+import { state, full, DataMissingError, FIXTURE_TOOLS } from "./api.js";
 import { CONFIDENCE_GRADES } from "./config.js";
 
 /* ---------- 상단 배너 ---------- */
@@ -18,6 +18,42 @@ export function staleBanner() {
       text: `기준일 ${state.asOfDate ?? "?"} 이후 갱신이 임계(${state.staleDays ?? "?"}일)를 넘었습니다. 최신 상태가 아닐 수 있습니다.`,
     })
   );
+}
+
+/**
+ * 완전판(로컬 DB 직결) 배너.
+ *  - 연결됨: 조문 본문·임의 질의 검색이 켜졌다는 사실을 알린다.
+ *  - ?full=1 로 요청했는데 실패: 왜 실패했는지 보여준다(조용히 넘어가면 오해를 준다).
+ *  - 요청하지 않았는데 없음(=배포본 기본): 배너를 띄우지 않는다.
+ */
+export function fullEditionBanner() {
+  if (!full.probed) return null;
+  if (full.enabled) {
+    const st = full.status || {};
+    const t = st.tables || {};
+    const rag = st.rag || {};
+    const bits = [
+      t.ordinance_articles ? `조문 본문 ${num(t.ordinance_articles)}건` : null,
+      t.ordinances ? `자치법규 ${num(t.ordinances)}건` : null,
+      rag.exists ? `전문검색 색인 ${num(rag.n_docs)}문서${rag.ready ? "" : " (예열 중 — 첫 질의가 느립니다)"}` : "전문검색 색인 없음 (이름 검색으로 강등)",
+    ].filter(Boolean);
+    return el("div", { class: "banner banner-full", role: "status" },
+      el("span", { class: "banner-tag", text: "완전판" }),
+      el("span", { class: "banner-body",
+        text: `로컬 DB 연결됨 — ${bits.join(" · ")}. 상세 화면은 정적 shard 대신 DB 를 직접 읽습니다.` }),
+      el("span", { class: "banner-src", text: full.base })
+    );
+  }
+  if (full.requested === "1" || full.requested === "on" || full.requested === "true") {
+    return el("div", { class: "banner banner-mock", role: "alert" },
+      el("span", { class: "banner-tag", text: "완전판 실패" }),
+      el("span", { class: "banner-body",
+        text: "?full=1 로 요청했지만 DB API 에 연결하지 못해 정적 shard 로 동작합니다. "
+            + "저장소 루트에서 `python viz/serve_full.py` 를 띄운 뒤 그 주소로 여세요." }),
+      el("span", { class: "banner-src", text: full.error || "" })
+    );
+  }
+  return null;
 }
 
 export function asOfLine(extra) {

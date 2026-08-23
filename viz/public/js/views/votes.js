@@ -1,7 +1,7 @@
 // 8. 국회 표결 — 전국 shard api/votes/{의안번호}.json (목록은 api/index.json 의 votes)
 //    폴백: api/votes.json 단일 1건. 정당별 찬반 스택 차트.
-import { el, num, pct, ymd } from "../util.js";
-import { loadCatalog, loadCatalogItem } from "../api.js";
+import { el, num, pct, ymd, debounce } from "../util.js";
+import { loadCatalog, loadCatalogItem, getJSON, DataMissingError } from "../api.js";
 import { section, table, note, loading, asOfLine, badge, statCard,
          envelopeFooter, cdnFailPanel } from "../components.js";
 import { catalogSelector, notPrecomputedPanel, sourceLine } from "../nationwide.js";
@@ -9,6 +9,13 @@ import { ensureChart } from "../vendor.js";
 
 const VOTE_COLORS = { "찬성": "#2c66a8", "반대": "#c0392b", "기권": "#f39c12", "기타": "#95a5a6" };
 const VOTE_KEYS = ["찬성", "반대", "기권", "기타"];
+
+/**
+ * 의안 전량 묶음(make_full_vote_neural.py --only bill).
+ * 위 표결 선택기는 '표결 기록이 있는 200건'이고, 이쪽은 bills 테이블 전량 19,847건이다
+ * (표결이 없는 계류·폐기 의안 포함). bill_no 앞 5자리로 버킷을 나눠 필요한 것만 받는다.
+ */
+const BILL_INDEX = "api/bill_index.json";
 
 export async function render(root) {
   root.appendChild(loading("의안 목록을 불러오는 중…"));
@@ -56,6 +63,155 @@ export async function render(root) {
   }
 
   await draw(entries.length ? entries[0].key : null);
+
+  // 표결이 없는 의안까지 포함한 전량 목록. 실패해도 위 표결 화면은 그대로 둔다.
+  const billBox = el("div", {});
+  root.appendChild(billBox);
+  renderBillBrowser(billBox, (billNo) => {
+    const hit = entries.find((e) => String(e.key) === String(billNo));
+    if (!hit) return false;
+    // 선택기를 직접 움직인다 — draw() 만 부르면 위 드롭다운이 옛 의안을 가리킨 채 남는다.
+    const sel = picker ? picker.querySelector("select") : null;
+    if (sel) { sel.value = hit.key; sel.dispatchEvent(new Event("change")); }
+    else draw(hit.key);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return true;
+  }).catch((e) => {
+    billBox.innerHTML = "";
+    billBox.appendChild(note(`의안 전량 목록을 열지 못했다: ${e.message || e}`, "warn"));
+  });
+}
+
+/* ==================================================================== *
+ *  의안 전량 (api/bill/{bucket}.json)
+ * ==================================================================== */
+
+async function renderBillBrowser(host, onOpenVotes) {
+  let idxEnv;
+  try { idxEnv = await getJSON(BILL_INDEX); }
+  catch (e) {
+    if (!(e instanceof DataMissingError)) throw e;
+    return;  // 구 번들·가상데이터에는 없다. 조용히 넘어간다.
+  }
+  const d = idxEnv.data || idxEnv;
+  const buckets = Array.isArray(d.buckets) ? d.buckets : [];
+  const totals = d.totals || {};
+  if (!buckets.length) return;
+
+  const sec = section("의안 전량",
+    asOfLine(`색인 ${BILL_INDEX} · 버킷 ${num(buckets.length)}개 (bill_no 앞 5자리)`));
+  host.appendChild(sec);
+
+  sec.appendChild(el("div", { class: "stat-grid" },
+    statCard("의안", num(totals.bills_total || 0), "bills 테이블 전량"),
+    statCard("표결 기록 있음", num(totals.bills_with_votes || 0),
+      "나머지는 계류·폐기 등으로 표결이 없다"),
+    statCard("발의자 행", num(totals.proposer_rows || 0), "대표+공동발의"),
+    statCard("의원", num(totals.legislators || 0), "legislators.json")));
+
+  const procCounts = d.proc_result_counts || {};
+  if (Object.keys(procCounts).length) {
+    sec.appendChild(el("details", {},
+      el("summary", { text: "처리결과 분포" }),
+      table(["처리결과", "건수"],
+        Object.entries(procCounts).sort((a, b) => b[1] - a[1])
+          .map(([k, v]) => [k || "(미처리)", num(v)]))));
+  }
+
+  const bucketSel = el("select", { class: "sel", "aria-label": "의안 버킷 선택" });
+  for (const b of buckets) {
+    bucketSel.appendChild(el("option", { value: b.key, text: `${b.key}xx (${num(b.count || 0)}건)` }));
+  }
+  const filter = el("input", { class: "search-input", type: "search",
+                               placeholder: "의안명·위원회·발의자 검색(선택한 버킷 안에서)",
+                               "aria-label": "의안 검색" });
+  const count = el("span", { class: "muted small" });
+  sec.appendChild(el("div", { class: "toolbar" },
+    el("label", { text: "버킷 " }), bucketSel, filter, count));
+
+  const out = el("div", {});
+  sec.appendChild(out);
+
+  let bills = [];
+  let token = 0;
+
+  async function loadBucket(key) {
+    const my = ++token;
+    out.innerHTML = "";
+    out.appendChild(loading(`의안 버킷 ${key} 를 불러오는 중…`));
+    const entry = buckets.find((b) => String(b.key) === String(key));
+    const rel = "api/" + ((entry && entry.path) || `bill/${key}.json`);
+    let env;
+    try { env = await getJSON(rel); }
+    catch (e) {
+      if (my !== token) return;
+      out.innerHTML = "";
+      out.appendChild(note(`${rel} 을 읽지 못했다: ${e.message || e}`, "warn"));
+      return;
+    }
+    if (my !== token) return;
+    const bd = env.data || env;
+    bills = bd.bills || [];
+    out.innerHTML = "";
+    out.appendChild(el("div", { class: "as-of", text: `데이터 소스: ${rel}` }));
+    const tableBox = el("div", {});
+    out.appendChild(tableBox);
+    drawTable(tableBox, bd);
+    out.appendChild(envelopeFooter(env));
+  }
+
+  function drawTable(box, bd) {
+    const q = filter.value.trim().toLowerCase();
+    const rows = [];
+    for (const b of bills) {
+      const rst = (b.rst || []).map((x) => x.name).filter(Boolean).join(", ");
+      const hay = `${b.name || ""} ${b.committee || ""} ${rst} ${b.bill_no || ""}`.toLowerCase();
+      if (q && !hay.includes(q)) continue;
+      const nameCell = el("span", {});
+      if (b.link_url) {
+        nameCell.appendChild(el("a", { href: b.link_url, target: "_blank",
+                                       rel: "noopener noreferrer", text: b.name || b.bill_no }));
+      } else {
+        nameCell.appendChild(document.createTextNode(b.name || b.bill_no || "?"));
+      }
+      if (b.has_votes) {
+        nameCell.appendChild(document.createTextNode(" "));
+        const go = el("button", { class: "btn btn-sm", text: "표결 보기" });
+        go.addEventListener("click", () => {
+          if (!onOpenVotes(b.bill_no)) {
+            go.replaceWith(badge("표결 shard 미생성", "badge-warn"));
+          }
+        });
+        nameCell.appendChild(go);
+      }
+      rows.push([
+        b.bill_no || "—",
+        nameCell,
+        b.committee || "—",
+        ymd(b.propose_dt),
+        b.proc_result || el("span", { class: "muted", text: "미처리" }),
+        rst || "—",
+        num(b.proposer_count || 0),
+      ]);
+    }
+    count.textContent = `${rows.length}/${bills.length}건 표시 (버킷 ${bd.bucket})`;
+    box.innerHTML = "";
+    if (!rows.length) { box.appendChild(note("검색 결과가 없습니다.", "warn")); return; }
+    box.appendChild(table(
+      ["의안번호", "의안명", "위원회", "제안일", "처리결과", "대표발의", "발의자 수"],
+      rows.slice(0, 300)));
+    if (rows.length > 300) {
+      box.appendChild(note(`${num(rows.length)}건 중 300건만 그린다. 검색어로 좁혀서 보라.`, "warn"));
+    }
+  }
+
+  bucketSel.addEventListener("change", () => loadBucket(bucketSel.value));
+  filter.addEventListener("input", debounce(() => {
+    const box = out.querySelector("div:nth-child(2)");
+    if (box) drawTable(box, { bucket: bucketSel.value });
+  }, 200));
+
+  await loadBucket(buckets[0].key);
 }
 
 /** 의안 1건의 표결 결과 렌더 */

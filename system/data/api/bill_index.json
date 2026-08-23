@@ -1,0 +1,1482 @@
+{
+ "data": {
+  "buckets": [
+   {
+    "key": "22000",
+    "path": "bill/22000.json",
+    "bytes": 120448,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22001",
+    "path": "bill/22001.json",
+    "bytes": 127718,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22002",
+    "path": "bill/22002.json",
+    "bytes": 124285,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22003",
+    "path": "bill/22003.json",
+    "bytes": 128947,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22004",
+    "path": "bill/22004.json",
+    "bytes": 123791,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22005",
+    "path": "bill/22005.json",
+    "bytes": 139896,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22006",
+    "path": "bill/22006.json",
+    "bytes": 126069,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22007",
+    "path": "bill/22007.json",
+    "bytes": 132246,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22008",
+    "path": "bill/22008.json",
+    "bytes": 125014,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22009",
+    "path": "bill/22009.json",
+    "bytes": 115748,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22010",
+    "path": "bill/22010.json",
+    "bytes": 100765,
+    "reused": true,
+    "count": 86
+   },
+   {
+    "key": "22011",
+    "path": "bill/22011.json",
+    "bytes": 91996,
+    "reused": true,
+    "count": 77
+   },
+   {
+    "key": "22012",
+    "path": "bill/22012.json",
+    "bytes": 111738,
+    "reused": true,
+    "count": 90
+   },
+   {
+    "key": "22013",
+    "path": "bill/22013.json",
+    "bytes": 127290,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22014",
+    "path": "bill/22014.json",
+    "bytes": 121416,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22015",
+    "path": "bill/22015.json",
+    "bytes": 121222,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22016",
+    "path": "bill/22016.json",
+    "bytes": 114415,
+    "reused": true,
+    "count": 91
+   },
+   {
+    "key": "22017",
+    "path": "bill/22017.json",
+    "bytes": 106713,
+    "reused": true,
+    "count": 86
+   },
+   {
+    "key": "22018",
+    "path": "bill/22018.json",
+    "bytes": 122728,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22019",
+    "path": "bill/22019.json",
+    "bytes": 114973,
+    "reused": true,
+    "count": 94
+   },
+   {
+    "key": "22020",
+    "path": "bill/22020.json",
+    "bytes": 99794,
+    "reused": true,
+    "count": 84
+   },
+   {
+    "key": "22021",
+    "path": "bill/22021.json",
+    "bytes": 80998,
+    "reused": true,
+    "count": 68
+   },
+   {
+    "key": "22022",
+    "path": "bill/22022.json",
+    "bytes": 87851,
+    "reused": true,
+    "count": 74
+   },
+   {
+    "key": "22023",
+    "path": "bill/22023.json",
+    "bytes": 111351,
+    "reused": true,
+    "count": 91
+   },
+   {
+    "key": "22024",
+    "path": "bill/22024.json",
+    "bytes": 118959,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22025",
+    "path": "bill/22025.json",
+    "bytes": 120929,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22026",
+    "path": "bill/22026.json",
+    "bytes": 121774,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22027",
+    "path": "bill/22027.json",
+    "bytes": 119301,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22028",
+    "path": "bill/22028.json",
+    "bytes": 118303,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22029",
+    "path": "bill/22029.json",
+    "bytes": 120220,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22030",
+    "path": "bill/22030.json",
+    "bytes": 117021,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22031",
+    "path": "bill/22031.json",
+    "bytes": 120831,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22032",
+    "path": "bill/22032.json",
+    "bytes": 116224,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22033",
+    "path": "bill/22033.json",
+    "bytes": 117647,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22034",
+    "path": "bill/22034.json",
+    "bytes": 116307,
+    "reused": true,
+    "count": 93
+   },
+   {
+    "key": "22035",
+    "path": "bill/22035.json",
+    "bytes": 115930,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22036",
+    "path": "bill/22036.json",
+    "bytes": 120003,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22037",
+    "path": "bill/22037.json",
+    "bytes": 122017,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22038",
+    "path": "bill/22038.json",
+    "bytes": 121764,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22039",
+    "path": "bill/22039.json",
+    "bytes": 118073,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22040",
+    "path": "bill/22040.json",
+    "bytes": 114339,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22041",
+    "path": "bill/22041.json",
+    "bytes": 122121,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22042",
+    "path": "bill/22042.json",
+    "bytes": 112695,
+    "reused": true,
+    "count": 92
+   },
+   {
+    "key": "22043",
+    "path": "bill/22043.json",
+    "bytes": 100110,
+    "reused": true,
+    "count": 91
+   },
+   {
+    "key": "22044",
+    "path": "bill/22044.json",
+    "bytes": 118755,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22045",
+    "path": "bill/22045.json",
+    "bytes": 118146,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22046",
+    "path": "bill/22046.json",
+    "bytes": 116289,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22047",
+    "path": "bill/22047.json",
+    "bytes": 100190,
+    "reused": true,
+    "count": 84
+   },
+   {
+    "key": "22048",
+    "path": "bill/22048.json",
+    "bytes": 111600,
+    "reused": true,
+    "count": 92
+   },
+   {
+    "key": "22049",
+    "path": "bill/22049.json",
+    "bytes": 118084,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22050",
+    "path": "bill/22050.json",
+    "bytes": 114451,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22051",
+    "path": "bill/22051.json",
+    "bytes": 116889,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22052",
+    "path": "bill/22052.json",
+    "bytes": 117973,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22053",
+    "path": "bill/22053.json",
+    "bytes": 110439,
+    "reused": true,
+    "count": 93
+   },
+   {
+    "key": "22054",
+    "path": "bill/22054.json",
+    "bytes": 115183,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22055",
+    "path": "bill/22055.json",
+    "bytes": 121153,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22056",
+    "path": "bill/22056.json",
+    "bytes": 124285,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22057",
+    "path": "bill/22057.json",
+    "bytes": 118810,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22058",
+    "path": "bill/22058.json",
+    "bytes": 115246,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22059",
+    "path": "bill/22059.json",
+    "bytes": 106143,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22060",
+    "path": "bill/22060.json",
+    "bytes": 120701,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22061",
+    "path": "bill/22061.json",
+    "bytes": 112653,
+    "reused": true,
+    "count": 94
+   },
+   {
+    "key": "22062",
+    "path": "bill/22062.json",
+    "bytes": 111572,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22063",
+    "path": "bill/22063.json",
+    "bytes": 106473,
+    "reused": true,
+    "count": 94
+   },
+   {
+    "key": "22064",
+    "path": "bill/22064.json",
+    "bytes": 99752,
+    "reused": true,
+    "count": 84
+   },
+   {
+    "key": "22065",
+    "path": "bill/22065.json",
+    "bytes": 115269,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22066",
+    "path": "bill/22066.json",
+    "bytes": 93462,
+    "reused": true,
+    "count": 79
+   },
+   {
+    "key": "22067",
+    "path": "bill/22067.json",
+    "bytes": 118286,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22068",
+    "path": "bill/22068.json",
+    "bytes": 119020,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22069",
+    "path": "bill/22069.json",
+    "bytes": 104607,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22070",
+    "path": "bill/22070.json",
+    "bytes": 114476,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22071",
+    "path": "bill/22071.json",
+    "bytes": 118074,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22072",
+    "path": "bill/22072.json",
+    "bytes": 119244,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22073",
+    "path": "bill/22073.json",
+    "bytes": 119428,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22074",
+    "path": "bill/22074.json",
+    "bytes": 116722,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22075",
+    "path": "bill/22075.json",
+    "bytes": 117530,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22076",
+    "path": "bill/22076.json",
+    "bytes": 119980,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22077",
+    "path": "bill/22077.json",
+    "bytes": 118094,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22078",
+    "path": "bill/22078.json",
+    "bytes": 115557,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22079",
+    "path": "bill/22079.json",
+    "bytes": 117229,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22080",
+    "path": "bill/22080.json",
+    "bytes": 121520,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22081",
+    "path": "bill/22081.json",
+    "bytes": 120897,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22082",
+    "path": "bill/22082.json",
+    "bytes": 118693,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22083",
+    "path": "bill/22083.json",
+    "bytes": 115974,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22084",
+    "path": "bill/22084.json",
+    "bytes": 106660,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22085",
+    "path": "bill/22085.json",
+    "bytes": 117028,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22086",
+    "path": "bill/22086.json",
+    "bytes": 119753,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22087",
+    "path": "bill/22087.json",
+    "bytes": 122387,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22088",
+    "path": "bill/22088.json",
+    "bytes": 111935,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22089",
+    "path": "bill/22089.json",
+    "bytes": 119546,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22090",
+    "path": "bill/22090.json",
+    "bytes": 108645,
+    "reused": true,
+    "count": 89
+   },
+   {
+    "key": "22091",
+    "path": "bill/22091.json",
+    "bytes": 109678,
+    "reused": true,
+    "count": 92
+   },
+   {
+    "key": "22092",
+    "path": "bill/22092.json",
+    "bytes": 119979,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22093",
+    "path": "bill/22093.json",
+    "bytes": 112887,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22094",
+    "path": "bill/22094.json",
+    "bytes": 120132,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22095",
+    "path": "bill/22095.json",
+    "bytes": 118781,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22096",
+    "path": "bill/22096.json",
+    "bytes": 116819,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22097",
+    "path": "bill/22097.json",
+    "bytes": 118146,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22098",
+    "path": "bill/22098.json",
+    "bytes": 117705,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22099",
+    "path": "bill/22099.json",
+    "bytes": 112752,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22100",
+    "path": "bill/22100.json",
+    "bytes": 118471,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22101",
+    "path": "bill/22101.json",
+    "bytes": 121449,
+    "reused": true,
+    "count": 101
+   },
+   {
+    "key": "22102",
+    "path": "bill/22102.json",
+    "bytes": 115898,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22103",
+    "path": "bill/22103.json",
+    "bytes": 118543,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22104",
+    "path": "bill/22104.json",
+    "bytes": 118668,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22105",
+    "path": "bill/22105.json",
+    "bytes": 109210,
+    "reused": true,
+    "count": 92
+   },
+   {
+    "key": "22106",
+    "path": "bill/22106.json",
+    "bytes": 107437,
+    "reused": true,
+    "count": 91
+   },
+   {
+    "key": "22107",
+    "path": "bill/22107.json",
+    "bytes": 120834,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22108",
+    "path": "bill/22108.json",
+    "bytes": 120708,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22109",
+    "path": "bill/22109.json",
+    "bytes": 110958,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22110",
+    "path": "bill/22110.json",
+    "bytes": 122687,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22111",
+    "path": "bill/22111.json",
+    "bytes": 118144,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22112",
+    "path": "bill/22112.json",
+    "bytes": 118224,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22113",
+    "path": "bill/22113.json",
+    "bytes": 123462,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22114",
+    "path": "bill/22114.json",
+    "bytes": 121193,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22115",
+    "path": "bill/22115.json",
+    "bytes": 120128,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22116",
+    "path": "bill/22116.json",
+    "bytes": 114118,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22117",
+    "path": "bill/22117.json",
+    "bytes": 117212,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22118",
+    "path": "bill/22118.json",
+    "bytes": 115278,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22119",
+    "path": "bill/22119.json",
+    "bytes": 116109,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22120",
+    "path": "bill/22120.json",
+    "bytes": 119551,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22121",
+    "path": "bill/22121.json",
+    "bytes": 118112,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22122",
+    "path": "bill/22122.json",
+    "bytes": 120309,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22123",
+    "path": "bill/22123.json",
+    "bytes": 119010,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22124",
+    "path": "bill/22124.json",
+    "bytes": 116452,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22125",
+    "path": "bill/22125.json",
+    "bytes": 110677,
+    "reused": true,
+    "count": 92
+   },
+   {
+    "key": "22126",
+    "path": "bill/22126.json",
+    "bytes": 103228,
+    "reused": true,
+    "count": 90
+   },
+   {
+    "key": "22127",
+    "path": "bill/22127.json",
+    "bytes": 119266,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22128",
+    "path": "bill/22128.json",
+    "bytes": 120412,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22129",
+    "path": "bill/22129.json",
+    "bytes": 146219,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22130",
+    "path": "bill/22130.json",
+    "bytes": 126814,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22131",
+    "path": "bill/22131.json",
+    "bytes": 113552,
+    "reused": true,
+    "count": 94
+   },
+   {
+    "key": "22132",
+    "path": "bill/22132.json",
+    "bytes": 91243,
+    "reused": true,
+    "count": 86
+   },
+   {
+    "key": "22133",
+    "path": "bill/22133.json",
+    "bytes": 117082,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22134",
+    "path": "bill/22134.json",
+    "bytes": 106549,
+    "reused": true,
+    "count": 88
+   },
+   {
+    "key": "22135",
+    "path": "bill/22135.json",
+    "bytes": 121247,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22136",
+    "path": "bill/22136.json",
+    "bytes": 109377,
+    "reused": true,
+    "count": 91
+   },
+   {
+    "key": "22137",
+    "path": "bill/22137.json",
+    "bytes": 118726,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22138",
+    "path": "bill/22138.json",
+    "bytes": 121944,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22139",
+    "path": "bill/22139.json",
+    "bytes": 118544,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22140",
+    "path": "bill/22140.json",
+    "bytes": 112097,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22141",
+    "path": "bill/22141.json",
+    "bytes": 108332,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22142",
+    "path": "bill/22142.json",
+    "bytes": 117382,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22143",
+    "path": "bill/22143.json",
+    "bytes": 119825,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22144",
+    "path": "bill/22144.json",
+    "bytes": 113792,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22145",
+    "path": "bill/22145.json",
+    "bytes": 114964,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22146",
+    "path": "bill/22146.json",
+    "bytes": 108239,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22147",
+    "path": "bill/22147.json",
+    "bytes": 118656,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22148",
+    "path": "bill/22148.json",
+    "bytes": 101591,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22149",
+    "path": "bill/22149.json",
+    "bytes": 120414,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22150",
+    "path": "bill/22150.json",
+    "bytes": 116779,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22151",
+    "path": "bill/22151.json",
+    "bytes": 100612,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22152",
+    "path": "bill/22152.json",
+    "bytes": 123775,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22153",
+    "path": "bill/22153.json",
+    "bytes": 111465,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22154",
+    "path": "bill/22154.json",
+    "bytes": 110152,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22155",
+    "path": "bill/22155.json",
+    "bytes": 118755,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22156",
+    "path": "bill/22156.json",
+    "bytes": 123721,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22157",
+    "path": "bill/22157.json",
+    "bytes": 112686,
+    "reused": true,
+    "count": 93
+   },
+   {
+    "key": "22158",
+    "path": "bill/22158.json",
+    "bytes": 119380,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22159",
+    "path": "bill/22159.json",
+    "bytes": 119598,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22160",
+    "path": "bill/22160.json",
+    "bytes": 124320,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22161",
+    "path": "bill/22161.json",
+    "bytes": 120055,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22162",
+    "path": "bill/22162.json",
+    "bytes": 115070,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22163",
+    "path": "bill/22163.json",
+    "bytes": 121225,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22164",
+    "path": "bill/22164.json",
+    "bytes": 118245,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22165",
+    "path": "bill/22165.json",
+    "bytes": 124071,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22166",
+    "path": "bill/22166.json",
+    "bytes": 120878,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22167",
+    "path": "bill/22167.json",
+    "bytes": 105020,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22168",
+    "path": "bill/22168.json",
+    "bytes": 117633,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22169",
+    "path": "bill/22169.json",
+    "bytes": 114217,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22170",
+    "path": "bill/22170.json",
+    "bytes": 114639,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22171",
+    "path": "bill/22171.json",
+    "bytes": 118757,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22172",
+    "path": "bill/22172.json",
+    "bytes": 118022,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22173",
+    "path": "bill/22173.json",
+    "bytes": 114427,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22174",
+    "path": "bill/22174.json",
+    "bytes": 114864,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22175",
+    "path": "bill/22175.json",
+    "bytes": 122108,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22176",
+    "path": "bill/22176.json",
+    "bytes": 118659,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22177",
+    "path": "bill/22177.json",
+    "bytes": 118457,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22178",
+    "path": "bill/22178.json",
+    "bytes": 108894,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22179",
+    "path": "bill/22179.json",
+    "bytes": 94927,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22180",
+    "path": "bill/22180.json",
+    "bytes": 116243,
+    "reused": true,
+    "count": 95
+   },
+   {
+    "key": "22181",
+    "path": "bill/22181.json",
+    "bytes": 119498,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22182",
+    "path": "bill/22182.json",
+    "bytes": 120911,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22183",
+    "path": "bill/22183.json",
+    "bytes": 120844,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22184",
+    "path": "bill/22184.json",
+    "bytes": 118261,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22185",
+    "path": "bill/22185.json",
+    "bytes": 78986,
+    "reused": true,
+    "count": 81
+   },
+   {
+    "key": "22186",
+    "path": "bill/22186.json",
+    "bytes": 114908,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22187",
+    "path": "bill/22187.json",
+    "bytes": 107974,
+    "reused": true,
+    "count": 90
+   },
+   {
+    "key": "22188",
+    "path": "bill/22188.json",
+    "bytes": 96622,
+    "reused": true,
+    "count": 90
+   },
+   {
+    "key": "22189",
+    "path": "bill/22189.json",
+    "bytes": 114961,
+    "reused": true,
+    "count": 96
+   },
+   {
+    "key": "22190",
+    "path": "bill/22190.json",
+    "bytes": 111593,
+    "reused": true,
+    "count": 93
+   },
+   {
+    "key": "22191",
+    "path": "bill/22191.json",
+    "bytes": 120140,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22192",
+    "path": "bill/22192.json",
+    "bytes": 118358,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22193",
+    "path": "bill/22193.json",
+    "bytes": 120048,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22194",
+    "path": "bill/22194.json",
+    "bytes": 121454,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22195",
+    "path": "bill/22195.json",
+    "bytes": 121398,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22196",
+    "path": "bill/22196.json",
+    "bytes": 118285,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22197",
+    "path": "bill/22197.json",
+    "bytes": 117401,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22198",
+    "path": "bill/22198.json",
+    "bytes": 123232,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22199",
+    "path": "bill/22199.json",
+    "bytes": 121906,
+    "reused": true,
+    "count": 97
+   },
+   {
+    "key": "22200",
+    "path": "bill/22200.json",
+    "bytes": 120020,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22201",
+    "path": "bill/22201.json",
+    "bytes": 120445,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22202",
+    "path": "bill/22202.json",
+    "bytes": 67228,
+    "reused": true,
+    "count": 56
+   },
+   {
+    "key": "22203",
+    "path": "bill/22203.json",
+    "bytes": 119083,
+    "reused": true,
+    "count": 99
+   },
+   {
+    "key": "22204",
+    "path": "bill/22204.json",
+    "bytes": 118516,
+    "reused": true,
+    "count": 100
+   },
+   {
+    "key": "22205",
+    "path": "bill/22205.json",
+    "bytes": 116405,
+    "reused": true,
+    "count": 98
+   },
+   {
+    "key": "22206",
+    "path": "bill/22206.json",
+    "bytes": 37201,
+    "reused": true,
+    "count": 30
+   }
+  ],
+  "totals": {
+   "bills_total": 19847,
+   "bills_in_shards": 19847,
+   "shards": 207,
+   "proposer_rows": 241546,
+   "legislators": 320,
+   "bills_with_votes": 200
+  },
+  "proc_result_counts": {
+   "(미기재)": 14247,
+   "대안반영폐기": 3735,
+   "원안가결": 1143,
+   "수정가결": 515,
+   "철회": 162,
+   "수정안반영폐기": 39,
+   "폐기": 4,
+   "부결": 2
+  },
+  "layout": {
+   "shard": "api/bill/{bucket}.json",
+   "bucket_rule": "bill_no 앞 5자리",
+   "schema": "bill/1"
+  }
+ },
+ "as_of_date": "2026-08-23",
+ "stale": false,
+ "execution_allowed": false,
+ "disclaimer": "제22대 국회 의안 메타 전량이다. proc_result 가 비어 있는 의안은 계류 중이거나 처리결과가 아직 수집되지 않은 것이며 '부결'이 아니다. enacted_instrument_id 는 확률적 매칭 결과이므로 enact_verified=1 이 아닌 연결은 추정이다."
+}

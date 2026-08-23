@@ -24,11 +24,17 @@ HITS=$(grep -rIl --exclude-dir=external --exclude-dir=__pycache__ --exclude-dir=
        | grep -v '/system/scratchpad/' \
        | grep -vE '\.env$' || true)
 
-if [ -z "$HITS" ]; then
-  echo "  ✅ 커밋 대상 키 노출 0건 (비밀키 ${#KEYS[@]}개 검사)"
+# 사전압축본(.json.gz)은 grep -I 가 바이너리로 보고 건너뛴다 — api/ shard 가 통째로
+# 검사에서 빠지므로 풀어서 따로 훑는다(tools_compress_api.py 도입과 함께 생긴 구멍).
+GZOUT="$(python "$ROOT/system/tools_audit_gz.py" "$ROOT" "$PAT" 2>/dev/null)"
+GZN="$(find "$ROOT/system/data/api" -name '*.gz' 2>/dev/null | wc -l | tr -d ' ')"
+
+if [ -z "$HITS" ] && [ -z "$GZOUT" ]; then
+  echo "  ✅ 커밋 대상 키 노출 0건 (비밀키 ${#KEYS[@]}개 검사 · 압축 shard ${GZN}개 포함)"
   exit 0
 else
   echo "  ⚠ 키 노출 발견 — push 금지:"
-  echo "$HITS" | sed 's/^/     /'
+  [ -n "$HITS" ] && echo "$HITS" | sed 's/^/     /'
+  [ -n "$GZOUT" ] && echo "$GZOUT" | sed 's/^/     [gz] /'
   exit 1
 fi

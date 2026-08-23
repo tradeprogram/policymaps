@@ -8,7 +8,7 @@
  *      실데이터에서는 MCP 서버가 계산해야 하는 값이라 정적 번들에 없다 -> notAvailable 로 떨어진다.
  */
 import { DATA_BASE, DATA_SOURCES, GEO_URL, ADM_DONG_GEO_URL, LIMITS, CATEGORY_FALLBACK,
-         API_SHARDS, EXTRA_CATALOGS, PICKER_LEVELS, SIDO_FALLBACK } from "./config.js";
+         API_SHARDS, EXTRA_CATALOGS, PICKER_LEVELS, SIDO_FALLBACK, FULL_API } from "./config.js";
 import { mapLimit } from "./util.js";
 
 /** ?src=real|mock 로 임시 전환 가능 */
@@ -37,10 +37,47 @@ export async function getJSON(relPath) {
   return getJSONFromBase(BASE, relPath);
 }
 
+/**
+ * 사전압축(.json.gz) 대상 판정 — system/tools_compress_api.py 의 규칙과 반드시 같아야 한다.
+ *   "api/<디렉터리>/…/*.json" 형태의 shard 는 .json.gz 로 굽혀 있다(지역·버킷 shard).
+ *   "api/*.json" 최상위 카탈로그는 비압축 그대로다(부팅 때 읽는다).
+ * 전량 shard 405MB 를 76MB 로 줄이려고 넣었다. 한 건도 버리지 않기 위한 선택이다.
+ */
+const GZIP_SHARD_RE = /^api\/[^/]+\/.+\.json$/;
+
+/**
+ * 응답 바이트를 JSON 으로 만든다. 서버가 Content-Encoding: gzip 을 붙였으면 브라우저가
+ * 이미 풀어 놨고, 안 붙였으면(python -m http.server · Vercel 정적) 여기서 직접 푼다.
+ * 매직바이트 0x1f8b 로 두 경우를 구분하므로 서버 설정에 의존하지 않는다.
+ */
+async function parseMaybeGzip(res, relPath) {
+  const buf = new Uint8Array(await res.arrayBuffer());
+  if (buf.length > 1 && buf[0] === 0x1f && buf[1] === 0x8b) {
+    if (typeof DecompressionStream === "undefined") {
+      throw new Error(`이 브라우저는 DecompressionStream 을 지원하지 않아 사전압축 shard(${relPath}.gz)를 ` +
+        `읽을 수 없습니다. Chrome 80+ / Firefox 113+ / Safari 16.4+ 를 쓰거나 ` +
+        `python system/tools_compress_api.py --decompress 로 되돌리세요.`);
+    }
+    const stream = new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"));
+    return JSON.parse(await new Response(stream).text());
+  }
+  return JSON.parse(new TextDecoder().decode(buf));
+}
+
 async function getJSONFromBase(base, relPath) {
   const url = `${base.replace(/\/+$/, "")}/${relPath.replace(/^\/+/, "")}`;
   if (cache.has(url)) return cache.get(url);
   const p = (async () => {
+    // 가상데이터(viz/public/data)에는 api/ 하위 디렉터리가 없다 -> 헛된 .gz 요청을 만들지 않는다.
+    const tryGzip = base !== DATA_SOURCES.mock && GZIP_SHARD_RE.test(relPath);
+    if (tryGzip) {
+      let gzRes = null;
+      try {
+        gzRes = await fetch(`${url}.gz`, { cache: "no-cache" });
+      } catch { /* 네트워크 오류면 비압축본으로 한 번 더 시도한다 */ }
+      if (gzRes && gzRes.ok) return parseMaybeGzip(gzRes, relPath);
+      // 404 면 비압축본으로 폴백한다(압축 전 번들 · 부분 압축 상태 하위호환).
+    }
     let res;
     try {
       res = await fetch(url, { cache: "no-cache" });
@@ -48,7 +85,7 @@ async function getJSONFromBase(base, relPath) {
       throw new Error(`요청 실패: ${url} — ${e.message}. file:// 로 열면 fetch가 막힙니다. HTTP 서버로 여세요.`);
     }
     if (!res.ok) throw new DataMissingError(relPath, res.status);
-    return res.json();
+    return parseMaybeGzip(res, relPath);
   })();
   cache.set(url, p);
   try { return await p; } catch (e) { cache.delete(url); throw e; }
@@ -580,4 +617,134 @@ export async function loadCatalogItem(kind, entry) {
     }
   }
   return { env, data, source: entry ? "fixture-fallback" : "fixture" };
+}
+
+/* ==================================================================== *
+ *  완전판(로컬 DB 직결) — viz/serve_full.py 의 /api/db/*
+ *
+ *  설계 원칙
+ *   1) 있으면 쓰고 없으면 조용히 정적 shard 로 돌아간다. 배포본이 깨지면 안 된다.
+ *   2) 화면은 full.enabled 만 보고 분기한다. 경로·타임아웃은 여기서 감춘다.
+ *   3) 정적 shard 와 봉투 모양이 같다({data, as_of_date, stale, disclaimer}).
+ * ==================================================================== */
+
+export const full = {
+  requested: null,   // ?full= 값 ("1"|"0"|null)
+  enabled: false,    // DB API 를 실제로 쓸 수 있는가
+  base: null,        // 확정된 API 기본 경로
+  status: null,      // /status 의 data
+  error: null,       // 탐지 실패 사유(요청했을 때만 화면에 알린다)
+  probed: false,
+};
+
+function fullParam() {
+  return new URLSearchParams(location.search).get("full");
+}
+
+async function fetchJSONTimeout(url, ms) {
+  const ctrl = typeof AbortController === "function" ? new AbortController() : null;
+  const timer = ctrl ? setTimeout(() => ctrl.abort(), ms) : null;
+  try {
+    const res = await fetch(url, { cache: "no-store", signal: ctrl ? ctrl.signal : undefined });
+    if (!res.ok) throw new DataMissingError(url, res.status);
+    return await res.json();
+  } finally {
+    if (timer) clearTimeout(timer);
+  }
+}
+
+let fullProbePromise = null;
+
+/** 완전판 API 탐지. 절대 throw 하지 않는다. 여러 번 불러도 한 번만 탐지한다. */
+export async function probeFullApi() {
+  if (fullProbePromise) return fullProbePromise;
+  fullProbePromise = (async () => {
+    full.requested = fullParam();
+    full.probed = true;
+    if (full.requested === "0" || full.requested === "off" || full.requested === "false") {
+      full.error = null;
+      return full;
+    }
+    // 배포(https) 페이지에서 127.0.0.1 후보를 때리면 혼합콘텐츠/사설망 차단으로
+    // 매 로딩마다 타임아웃까지 기다린다. 로컬에서 열었을 때만 절대 URL 후보를 쓴다.
+    const isLocal = /^(localhost|127\.0\.0\.1|\[::1\]|)$/.test(location.hostname)
+      || location.protocol === "file:";
+    const candidates = FULL_API.candidates.filter(
+      (b) => isLocal || !/^https?:\/\//.test(b));
+
+    const tried = [];
+    for (const base of candidates) {
+      const url = `${base.replace(/\/+$/, "")}/status`;
+      try {
+        const env = await fetchJSONTimeout(url, FULL_API.probeTimeoutMs);
+        const d = (env && env.data) || {};
+        if (d.full_edition) {
+          full.enabled = true;
+          full.base = base.replace(/\/+$/, "");
+          full.status = d;
+          full.error = null;
+          return full;
+        }
+        tried.push(`${url} → full_edition=false (${d.db_path || "DB 없음"})`);
+      } catch (e) {
+        tried.push(`${url} → ${e.name === "AbortError" ? "시간초과" : e.message}`);
+      }
+    }
+    full.error = tried.join(" / ");
+    return full;
+  })();
+  return fullProbePromise;
+}
+
+/** 완전판 API 호출. 봉투 그대로 돌려준다. 실패는 throw(화면이 폴백을 결정한다). */
+export async function fullGet(path, params = {}) {
+  if (!full.enabled || !full.base) throw new Error("완전판 API 가 연결되어 있지 않습니다.");
+  const qs = new URLSearchParams();
+  for (const [k, v] of Object.entries(params)) {
+    if (v !== null && v !== undefined && v !== "") qs.set(k, String(v));
+  }
+  const url = `${full.base}/${String(path).replace(/^\/+/, "")}` + (qs.toString() ? `?${qs}` : "");
+  return fetchJSONTimeout(url, FULL_API.requestTimeoutMs);
+}
+
+/* ---------------- 정적 조례 번들(columnar-v1) 디코더 ---------------- *
+ *  make_full_ordinance.py 산출. 199,858건을 키 반복 없이 담기 위해 열지향이다.
+ *  규약은 각 파일의 data.format / columns / enums / derived 에 들어 있다.
+ * ------------------------------------------------------------------- */
+
+/** columnar-v1 (또는 objects-v1) 을 객체 배열로 편다. */
+export function decodeOrdinanceBundle(env) {
+  const d = (env && env.data) || {};
+  if (d.format === "objects-v1" || Array.isArray(d.ordinances)) {
+    return { region: d.region || null, counts: d.counts || null,
+             items: d.ordinances || d.rows || [] };
+  }
+  const cols = d.columns || [];
+  const enums = d.enums || {};
+  const urlTpl = (d.derived && d.derived.official_url) || null;
+  const items = (d.rows || []).map((row) => {
+    const o = {};
+    cols.forEach((c, i) => {
+      const raw = row[i];
+      const table = enums[c];
+      o[c] = (table && typeof raw === "number") ? (table[raw] ?? null) : (raw ?? null);
+    });
+    if (!o.ordinance_id && o.mst) o.ordinance_id = `ordin:${o.mst}`;
+    if (!o.official_url && urlTpl && o.mst) o.official_url = urlTpl.replace("{mst}", o.mst);
+    return o;
+  });
+  return { region: d.region || null, counts: d.counts || null, items };
+}
+
+/** api/ordinance/{sig}.json — 지역 자치법규 전량 메타(정적 shard). */
+export async function loadOrdinanceBundle(sig) {
+  const env = await getJSON(`api/ordinance/${sig}.json`);
+  return { env, ...decodeOrdinanceBundle(env) };
+}
+
+/** api/ordinance/articles/{sig}.json — 조문 '번호+제목'만(본문은 완전판 전용). */
+export async function loadArticleTitles(sig) {
+  const env = await getJSON(`api/ordinance/articles/${sig}.json`);
+  const d = (env && env.data) || {};
+  return { env, byMst: d.articles || {}, note: d.body_excluded || null };
 }

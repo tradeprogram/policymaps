@@ -436,3 +436,7 @@ pre.err {
   -webkit-backdrop-filter: blur(10px);
 }
 .site-footer p { margin: 4px 0; }
+
+/* 완전판(로컬 DB 직결) 배너 — viz/serve_full.py 연결 시 */
+.banner-full { background: #e6f4ea; border-color: #a8d5b5; color: #1d5231; }
+.banner-full .banner-tag { background: #2f7a4d; }

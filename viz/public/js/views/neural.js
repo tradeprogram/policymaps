@@ -15,8 +15,16 @@ const GENERATOR = "system/make_neural_fixtures.py";
 const TABS = [
   ["ordinance", "조례 유사도"],
   ["region", "지자체 유사도"],
+  ["fullregion", "지역 전량"],
   ["quality", "모델 품질"],
 ];
+
+/**
+ * 지역 전량 묶음(make_full_vote_neural.py --only neural).
+ * 위 "조례 유사도" 탭은 사전선정 400건 표본이고, 이쪽이 neural_similarity 저장본 전량이다
+ * (조례 노드 154,310건 · Top-10 엣지 1,877,420건 = DB 전량).
+ */
+const FULL_REGION_INDEX = "api/neural_by_region_index.json";
 
 /* ------------------------------------------------------------------ *
  * 로더 — 없으면 null. 화면이 안내로 처리하고 죽지 않는다.
@@ -114,6 +122,7 @@ export async function render(root, params, query = {}) {
     try {
       if (key === "ordinance") node = await ordinanceTab(idx, ords, query);
       else if (key === "region") node = await regionTab(idx, regs, query);
+      else if (key === "fullregion") node = await fullRegionTab(query);
       else node = await qualityTab();
     } catch (e) {
       node = errorPanel(e, `${key} 탭 렌더 실패`);
@@ -453,6 +462,243 @@ async function regionTab(idx, regs, query) {
   }
 
   await draw(initial);
+  return wrap;
+}
+
+/* ------------------------------------------------------------------ *
+ * 탭 3 — 지역 전량 (api/neural/by-region/{sig_cd}.json)
+ *
+ *   조례 유사도 탭은 400건 표본이다. 이 탭은 저장본 전량을 지역 단위로 연다.
+ *   파일은 용량 때문에 노드를 한 번만 싣고(nodes[]) 엣지는 그 배열의 정수 인덱스로
+ *   가리킨다. 규약은 파일 안의 data.node_fields / data.edge_fields 에 들어 있다.
+ * ------------------------------------------------------------------ */
+
+async function fullRegionTab(query) {
+  const wrap = el("div", {});
+  const idxEnv = await maybe(FULL_REGION_INDEX);
+  if (!idxEnv) {
+    wrap.appendChild(el("div", { class: "panel panel-warn" },
+      el("h2", { class: "panel-title", text: "지역 전량 신경망 묶음이 없습니다" }),
+      el("p", { text: `${FULL_REGION_INDEX} 를 찾지 못했습니다.` }),
+      el("p", { class: "hint" }, el("code", {
+        text: "python system/make_full_vote_neural.py --only neural --neural-topk 10" }))));
+    return wrap;
+  }
+  const d = idxEnv.data || idxEnv;
+  const regions = Array.isArray(d.regions) ? d.regions : [];
+  const totals = d.totals || {};
+  if (!regions.length) {
+    wrap.appendChild(note("색인에 지역 목록이 없습니다.", "warn"));
+    return wrap;
+  }
+
+  wrap.appendChild(el("div", { class: "stat-grid" },
+    statCard("지역 묶음", num(regions.length), "조례를 보유한 지역 전량(교육청·폐지 지자체 포함)"),
+    statCard("조례 노드", num(totals.src_in_shards ?? totals.src_covered ?? 0), "유사도 저장본이 있는 조례"),
+    statCard("유사도 엣지", num(totals.edges_in_shards ?? totals.similarity_rows_total ?? 0),
+      `Top-${totals.top_k ?? 10} · neural_similarity 전량`),
+    statCard("모델", num((totals.models || []).length || 3),
+      (totals.models || []).join(" · ") || "graphsage · metapath2vec · node2vec")));
+
+  wrap.appendChild(note(
+    "여기 순위는 그래프 구조 임베딩의 코사인이다. 조문 의미 유사도가 아니고 선례 추천도 아니다. "
+    + "폐지 조례가 이웃으로 나올 수 있으니 상태 배지를 반드시 확인할 것.", "warn"));
+
+  const byCd = new Map(regions.map((r) => [String(r.key), r]));
+  let cat = null;
+  try { cat = await loadRegionCatalog(); } catch (e) { cat = null; }
+  const sidoOf = cat ? cat.sidoOf : ((cd) => String(cd).slice(0, 2));
+  const covered = new Set(byCd.keys());
+  const items = [...covered].sort().map((cd) => {
+    const r = byCd.get(cd);
+    const fromCat = cat ? cat.items.find((i) => i.sig_cd === cd) : null;
+    return { sig_cd: cd, name: (fromCat && fromCat.name) || r.name || cd,
+             level: fromCat ? fromCat.level : null, sido: sidoOf(cd) };
+  });
+
+  const initial = (query.fullsig && covered.has(String(query.fullsig)) ? String(query.fullsig) : null)
+    || (covered.has("52180") ? "52180" : items[0].sig_cd);
+
+  const detail = el("div", {});
+  wrap.appendChild(regionSelector({
+    items, sidoOf, current: initial, covered,
+    onChange: (sig) => draw(sig),
+    coveredLabel: "전량 묶음이 있는 곳만", coveredWord: "신경망 전량",
+  }));
+  wrap.appendChild(detail);
+
+  let token = 0;
+  async function draw(sig) {
+    const my = ++token;
+    detail.innerHTML = "";
+    detail.appendChild(loading(`${sig} 의 조례 유사도 전량을 불러오는 중…`));
+    const meta = byCd.get(String(sig));
+    const rel = "api/" + ((meta && meta.path) || `neural/by-region/${sig}.json`);
+    const env = await maybe(rel);
+    if (my !== token) return;
+    detail.innerHTML = "";
+    if (!env) {
+      detail.appendChild(note(`${rel} 이 없습니다.`, "warn"));
+      return;
+    }
+    detail.appendChild(fullRegionBody(env, rel));
+  }
+  await draw(initial);
+  return wrap;
+}
+
+function fullRegionBody(env, path) {
+  const d = env.data || {};
+  const r = d.region || {};
+  const cov = d.coverage || {};
+  const nodeFields = d.node_fields || ["ordinance_id", "name", "sig_cd", "repealed_on", "status"];
+  // 필드 이름은 번들 판본에 따라 src/src_index 두 가지가 다 나온다. 둘 다 받는다.
+  const edgeFields = d.edge_fields || ["src", "dst", "sim", "rank"];
+  const at = (...names) => {
+    for (const n of names) { const i = edgeFields.indexOf(n); if (i >= 0) return i; }
+    return -1;
+  };
+  const iSrc = at("src", "src_index");
+  const iDst = at("dst", "dst_index");
+  const iSim = at("sim", "cosine_sim");
+  const iRank = at("rank");
+  const fIdx = Object.fromEntries(nodeFields.map((f, i) => [f, i]));
+  const urlTpl = d.url_template || null;
+
+  const nodes = d.nodes || [];
+  const node = (i) => {
+    const n = nodes[i];
+    if (!n) return null;
+    const o = {};
+    for (const [f, k] of Object.entries(fIdx)) o[f] = n[k];
+    if (urlTpl && o.ordinance_id) {
+      o.url = urlTpl.replace("{mst}", String(o.ordinance_id).split(":").pop());
+    }
+    return o;
+  };
+
+  const wrap = el("div", {});
+  wrap.appendChild(section(`${r.full_name || r.name || d.sig_cd} — 조례 유사도 전량`,
+    el("div", { class: "chip-row" },
+      badge(`sig_cd ${d.sig_cd}`, "badge-info"),
+      badge(`Top-${d.top_k ?? 10}`, "badge-plain")),
+    asOfLine(`데이터 소스: ${path}`)));
+
+  wrap.appendChild(el("div", { class: "stat-grid" },
+    statCard("이 지역 조례", num(cov.ordinances_in_region || 0), "자치법규 전량"),
+    statCard("유사도 있는 조례", num(cov.src_covered || 0),
+      `없는 것 ${num(cov.src_missing || 0)}건 — 임베딩 학습 대상에서 빠진 조례`),
+    statCard("노드", num(cov.nodes ?? nodes.length), "이웃으로 등장하는 조례 포함(타 지역 포함)"),
+    statCard("엣지", num(cov.edges ?? 0),
+      Object.entries(cov.edges_by_model || {}).map(([k, v]) => `${k.replace("-numpy", "")} ${num(v)}`).join(" · "))));
+
+  if (cov.src_missing) {
+    wrap.appendChild(note(
+      `이 지역 조례 ${num(cov.ordinances_in_region || 0)}건 중 ${num(cov.src_missing)}건은 `
+      + "임베딩 유사도가 계산되지 않았다(그래프에서 고립됐거나 학습 대상 밖). 여기 목록에 나오지 않는다.", "warn"));
+  }
+
+  // 지역-지역 유사도(같은 번들 안에 동봉되어 있다)
+  const rn = d.region_neighbors || {};
+  const rnModels = Object.keys(rn);
+  if (rnModels.length) {
+    const det = el("details", {}, el("summary", { text: `지자체끼리의 유사도 (${rnModels.length}개 모델)` }));
+    for (const m of rnModels) {
+      det.appendChild(el("h4", { style: "margin:8px 0 4px", text: m }));
+      det.appendChild(table(["순위", "코사인", "지자체", "sig_cd"],
+        (rn[m] || []).map((n) => [n.rank, fx(n.sim ?? n.cosine_sim, 4), n.name || "—", n.sig_cd])));
+    }
+    wrap.appendChild(det);
+  }
+
+  // 모델별 · 기준조례별 이웃
+  const models = Object.keys(d.edges || {});
+  if (!models.length) {
+    wrap.appendChild(note("이 지역에는 유사도 엣지가 없습니다.", "warn"));
+    wrap.appendChild(envelopeFooter(env));
+    return wrap;
+  }
+
+  const modelSel = el("select", { class: "sel", "aria-label": "모델 선택" });
+  for (const m of models) modelSel.appendChild(el("option", { value: m, text: m }));
+  const srcSel = el("select", { class: "sel sel-wide", "aria-label": "기준 조례 선택" });
+  const filter = el("input", { class: "search-input", type: "search", placeholder: "조례명 검색",
+                               "aria-label": "기준 조례 검색" });
+  const count = el("span", { class: "muted small" });
+  const out = el("div", {});
+
+  function srcListFor(model) {
+    const seen = new Map();
+    for (const e of d.edges[model] || []) {
+      const si = e[iSrc];
+      if (!seen.has(si)) seen.set(si, 0);
+      seen.set(si, seen.get(si) + 1);
+    }
+    return [...seen.entries()]
+      .map(([i, n]) => ({ i, n, node: node(i) }))
+      .filter((x) => x.node)
+      .sort((a, b) => String(a.node.name || "").localeCompare(String(b.node.name || ""), "ko"));
+  }
+
+  let srcList = [];
+  function buildSrc() {
+    const q = filter.value.trim().toLowerCase();
+    srcSel.innerHTML = "";
+    let shown = 0;
+    for (const x of srcList) {
+      if (q && !String(x.node.name || "").toLowerCase().includes(q)) continue;
+      srcSel.appendChild(el("option", { value: String(x.i),
+        text: `${x.node.name || x.node.ordinance_id} (이웃 ${x.n})` }));
+      shown++;
+    }
+    if (!shown) srcSel.appendChild(el("option", { value: "", text: "검색 결과 없음", disabled: "disabled" }));
+    count.textContent = `${shown}/${srcList.length}건 표시`;
+  }
+
+  function drawNeighbors() {
+    out.innerHTML = "";
+    const model = modelSel.value;
+    const si = parseInt(srcSel.value, 10);
+    if (Number.isNaN(si)) return;
+    const src = node(si);
+    const rows = (d.edges[model] || [])
+      .filter((e) => e[iSrc] === si)
+      .sort((a, b) => (a[iRank] || 0) - (b[iRank] || 0))
+      .map((e) => {
+        const t = node(e[iDst]) || {};
+        const repealed = !!t.repealed_on || t.status === "repealed";
+        return [
+          e[iRank],
+          fx(e[iSim], 4),
+          el("span", {}, extLink(t.url, t.name || t.ordinance_id || "?"),
+            document.createTextNode(" "),
+            repealed ? badge("폐지", "badge-repealed") : null),
+          t.sig_cd || "—",
+          t.repealed_on ? ymd(t.repealed_on) : "—",
+        ];
+      });
+    out.appendChild(el("h4", { style: "margin:10px 0 4px" },
+      document.createTextNode(src ? (src.name || src.ordinance_id) : "?"),
+      document.createTextNode(" "),
+      src && (src.repealed_on || src.status === "repealed") ? badge("폐지", "badge-repealed") : null));
+    if (src && src.url) out.appendChild(el("div", { class: "as-of" }, extLink(src.url, "law.go.kr 원문")));
+    out.appendChild(table(["순위", "코사인", "유사 조례", "지자체", "폐지일"], rows));
+  }
+
+  modelSel.addEventListener("change", () => { srcList = srcListFor(modelSel.value); buildSrc(); drawNeighbors(); });
+  srcSel.addEventListener("change", drawNeighbors);
+  filter.addEventListener("input", debounce(() => { buildSrc(); drawNeighbors(); }, 150));
+
+  wrap.appendChild(el("div", { class: "toolbar" },
+    el("label", { text: "모델 " }), modelSel,
+    el("label", { text: " 기준 조례 " }), srcSel, filter, count));
+  wrap.appendChild(out);
+
+  srcList = srcListFor(modelSel.value);
+  buildSrc();
+  drawNeighbors();
+
+  wrap.appendChild(envelopeFooter(env));
   return wrap;
 }
 

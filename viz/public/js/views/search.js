@@ -2,13 +2,18 @@
 //    폴백: api/search.json 단일 1건. 조문 단위 결과 카드.
 //    ★ 랭킹에 그래프 확장을 섞지 않는다(15 문서에서 무익함이 실증됨). 연결관계는 카드 하단에만.
 import { el, num, extLink, debounce } from "../util.js";
-import { loadFixture, loadCatalog, loadCatalogItem, state, categoryName } from "../api.js";
+import { loadFixture, loadCatalog, loadCatalogItem, state, categoryName,
+         full, fullGet } from "../api.js";
 import { section, table, note, loading, asOfLine, fixtureMissingPanel, badge,
          statusBadge, verificationBadge, envelopeFooter } from "../components.js";
 import { catalogSelector, sourceLine } from "../nationwide.js";
 import { go } from "../router.js";
 
 export async function render(root, params, query) {
+  // 완전판(로컬 DB)이 붙어 있으면 임의 질의 전문검색을 먼저 올린다.
+  // 사전계산 질의 목록은 그 아래에 그대로 남긴다(배포본과 결과를 비교할 수 있게).
+  if (full.enabled) root.appendChild(liveSearchPanel(query));
+
   root.appendChild(loading("사전계산 질의 목록을 불러오는 중…"));
 
   let entries = [];
@@ -18,7 +23,9 @@ export async function render(root, params, query) {
     const cc = e.meta && e.meta.category_code;
     if (cc && !String(e.label).includes(cc)) e.label = `${e.label} · ${cc} ${categoryName(cc) || ""}`.trim();
   }
+  const keep = full.enabled ? root.firstElementChild : null;
   root.innerHTML = "";
+  if (keep) root.appendChild(keep);
 
   const initial = (query && query.q && entries.some((e) => e.key === String(query.q)))
     ? String(query.q)
@@ -76,7 +83,10 @@ function renderBody(root, d, env, res, catalogSize) {
         + "실제 검색은 MCP tool semantic_search_ordinance / search_ordinance 가 처리한다."
       : `정적 번들에는 RAG 인덱스(9.5GB)가 포함되지 않는다. 대신 사전계산 질의 ${num(catalogSize)}건의 `
         + "결과를 그대로 실었다(조문 원본은 ordinance_articles 236만 행). "
-        + "임의 질의는 MCP tool semantic_search_ordinance / search_ordinance 가 수행한다."),
+        + (full.enabled
+          ? "임의 질의는 위쪽 '조문 전문검색(완전판)' 패널이 DB 를 직접 검색한다."
+          : "임의 질의를 하려면 로컬에서 `python viz/serve_full.py` 를 띄우고 ?full=1 로 여세요 "
+            + "(또는 MCP tool semantic_search_ordinance).")),
     el("div", { class: "toolbar" }, input, counter),
     list
   );
@@ -155,6 +165,14 @@ function resultCard(r) {
   }
 
   const foot = el("div", { class: "card-foot" });
+  // 조례 상세로 — 완전판이면 조문 본문 전량, 배포본이면 조문 제목까지 보여준다.
+  const oid = r.id || r.parent_id;
+  if (oid && String(oid).startsWith("ordin:")) {
+    const sig = r.sig_cd ? `?sig=${encodeURIComponent(r.sig_cd)}` : "";
+    foot.appendChild(el("button", { class: "btn-link",
+      text: full.enabled ? "조문 본문 보기" : "조례 상세",
+      onclick: () => go(`/ordinance/${encodeURIComponent(oid)}${sig}`) }));
+  }
   if (r.region_id) {
     foot.appendChild(el("button", { class: "btn-link", text: `지역 상세 (${r.region_id})`,
       onclick: () => go(`/region/${r.region_id}`) }));
@@ -170,4 +188,66 @@ function scoreChip(label, value, digits, rank) {
   if (value === null || value === undefined) return null;
   const txt = `${label} ${Number(value).toFixed(digits)}` + (rank ? ` (순위 ${rank})` : "");
   return badge(txt, "badge-plain");
+}
+
+
+/* ==================================================================== *
+ *  완전판 전용 — 임의 질의 조문 전문검색 (GET /api/db/search)
+ *  RAG 하이브리드(BM25 + dense + 그래프)로 조문 236만 행을 직접 검색한다.
+ *  사전계산 40질의에 갇히지 않는다는 것이 완전판의 핵심 차이다.
+ * ==================================================================== */
+
+function liveSearchPanel(query) {
+  const input = el("input", {
+    type: "search", class: "search-input",
+    value: (query && query.live) ? String(query.live) : "",
+    placeholder: "조문 전문검색 — 예) 지하주차장 전기차 충전시설 화재예방",
+  });
+  const kSel = el("select", { class: "sel" },
+    ...[5, 10, 20, 30, 50].map((n) => el("option", { value: String(n), text: `k=${n}`,
+      selected: n === 10 ? "selected" : null })));
+  const modeSel = el("select", { class: "sel" },
+    el("option", { value: "semantic", text: "조문 의미검색(RAG)" }),
+    el("option", { value: "name", text: "조례명 검색(SQL)" }));
+  const btn = el("button", { class: "btn", text: "검색" });
+  const out = el("div", {});
+
+  const rag = (full.status && full.status.rag) || {};
+  const sec = section("조문 전문검색 (완전판 · DB 직결)",
+    el("div", { class: "toolbar" }, input, kSel, modeSel, btn),
+    note(rag.exists
+      ? `RAG 색인 ${num(rag.n_docs || 0)}문서(조문 본문 포함)를 직접 검색합니다.`
+        + (rag.ready ? " 질의당 약 1~2초." : " 색인 예열 중이라 첫 질의는 수 분 걸릴 수 있습니다.")
+      : "RAG 색인이 없어 조례명 LIKE 검색으로 강등됩니다(조문 의미검색 아님)."),
+    out);
+
+  async function run() {
+    const q = input.value.trim();
+    if (!q) return;
+    out.innerHTML = "";
+    out.appendChild(loading("DB 를 직접 검색하는 중…"));
+    try {
+      const env = await fullGet("search", { q, k: kSel.value, mode: modeSel.value });
+      const d = (env && env.data) || {};
+      out.innerHTML = "";
+      out.appendChild(el("div", { class: "chip-row" },
+        badge(`engine ${d._engine || "?"}`, "badge-info"),
+        badge(`${num(d.count ?? 0)}건`, "badge-plain"),
+        d.elapsed_sec != null ? badge(`${d.elapsed_sec}s`, "badge-plain") : null));
+      const rows = d.results || [];
+      if (!rows.length) { out.appendChild(note("결과가 없습니다. 다른 낱말로 다시 시도하세요.", "warn")); return; }
+      const list = el("div", { class: "result-list" });
+      for (const r of rows) list.appendChild(resultCard(r));
+      out.appendChild(list);
+      out.appendChild(envelopeFooter(env));
+    } catch (e) {
+      out.innerHTML = "";
+      out.appendChild(note(`검색 실패: ${e.message}`, "warn"));
+    }
+  }
+
+  btn.addEventListener("click", run);
+  input.addEventListener("keydown", (ev) => { if (ev.key === "Enter") run(); });
+  if (input.value.trim()) run();
+  return sec;
 }

@@ -51,6 +51,66 @@ python viz/serve_ai.py --port 8742
 - `.env` 는 `.gitignore` 로 제외되어 GitHub 에 올라가지 않는다.
 - `GEMINI_API_KEY` 가 없거나 일반 `python -m http.server` 로 띄운 경우에도 로컬 요약 모드로 동작한다.
 
+### 1-1-B. 완전판 — 조문 본문까지 (로컬 DB 직결)
+
+배포본(Vercel 정적)에는 조문 **본문**이 없다. `ordinance_articles` 236만 행의 본문 합계가
+약 490MB 라 GitHub·Vercel 정적 배포 용량을 넘기 때문이다. 배포본은 조문 **번호와 제목**까지만 담는다.
+
+로컬에서 DB(`system/data/policymap.db`, 4.3GB)를 직접 읽는 서버를 띄우면 같은 화면이 100% 로 동작한다.
+
+```bash
+cd F:/policy_maps
+python viz/serve_full.py              # 기본 127.0.0.1:8743
+# 또는  run_full.bat            (윈도우: 브라우저까지 자동으로 연다)
+# 또는  run_full.bat 9000       (포트 지정)
+```
+
+- 접속: <http://127.0.0.1:8743/viz/public/index.html?full=1>
+- `serve_full.py` 는 `serve_ai.py` 를 상속한다 — 정적 서빙과 `/ai/chat`(Gemini 프록시)이 그대로 동작한다.
+- DB 는 **읽기 전용**(`mode=ro`)으로 연다. 쓰기 경로가 없다.
+- 시작하면 RAG 인덱스(9.5GB, 245만 문서)를 백그라운드로 예열한다(실측 141초).
+  예열 전 첫 질의는 2분 넘게 걸리고, 예열 후에는 질의당 1~2초다. `--no-warm` 으로 끌 수 있다.
+- **DB 가 없으면 화면은 자동으로 정적 shard 로 폴백한다.** 배포본은 이 경로로만 동작하므로
+  완전판 코드가 배포본을 깨뜨리지 않는다.
+
+#### 완전판에서 달라지는 것
+
+| 화면 | 배포본(정적 shard) | 완전판(DB 직결) |
+| --- | --- | --- |
+| 검색 | 사전계산 40질의의 결과만 | **임의 질의** 조문 전문검색(BM25+dense+그래프, 236만 조문) |
+| 조례 상세 `#/ordinance/{mst}` | 조문 번호·제목까지(2,365,068건 **전량**) | **조문 본문 전량** + 근거 상위법·분류·예산연결·판본·변경이력·신경망유사 |
+| 법령 위계 | 지역 전량 247곳 + 조례 서브그래프 1,000건 | **199,858건 어느 것이든** 2홉 서브그래프 즉석 계산 |
+| 법령 상세 `#/statute/{id}` | 대표 법령 200건의 조문만 | **법령 조문 86,745건 전량** |
+| 지역 상세 | 자치법규 메타 199,858건 **전량** | 같음(+ 본문으로 바로 진입) |
+| 신경망 유사도 | Top-10 엣지 1,877,420건 **전량** | 같음(+ 임의 조례 즉석 계산) |
+| 국회 표결 | 의안 19,847건 · 표결 57,178행 **전량** | 같음 |
+
+> 배포본에서 «전량»이라고 적은 것은 DB 건수와 산출 파일 건수를 대조해 확인한 값이다.
+> 자산별 3열 비교표(DB / 배포본 / 완전판)는 [22 완성도 최종점검 §1.7](../22_완성도_최종점검.md) 에 있다.
+
+#### API (모두 GET, 응답 봉투는 MCP 와 동일)
+
+```
+GET /api/db/status                      DB 존재·테이블 행수·RAG 색인 상태(프론트가 완전판 가용 여부 판단)
+GET /api/db/ordinance/{ordinance_id}    조례 상세 + 조문 본문 전량
+GET /api/db/search?q=&k=&mode=          조문 전문검색(mode=name 이면 조례명 LIKE)
+GET /api/db/graph/{ordinance_id}        임의 조례 2홉 서브그래프
+GET /api/db/neural/{ordinance_id}?k=    임의 조례 신경망 유사
+GET /api/db/statute/{instrument_id}     법령 상세 + 조문 본문 + 하위 조례
+GET /api/db/ordinances?sig_cd=&q=       지역/이름으로 조례 목록(상세로 들어가는 입구)
+```
+
+`ordinance_id` 는 `ordin:2137681` · `2137681` · `ordinance:ordin:2137681` 을 모두 받는다.
+
+#### 완전판 판정과 폴백
+
+`js/config.js` 의 `FULL_API.candidates` 를 순서대로 `GET {base}/status` 해서
+`data.full_edition === true` 인 첫 번째를 쓴다. 전부 실패하면 조용히 정적 shard 로 간다.
+
+- `?full=1` — 요청. 연결되면 초록 배너, 실패하면 실패 사유 배너가 뜬다.
+- `?full=0` — 강제로 끈다(완전판 서버 위에서 배포본 동작을 확인할 때).
+- 쿼리 없음 — 탐지는 하되 실패해도 조용하다(배포 환경의 기본 동작).
+
 ### 1-3. 가상데이터 재생성
 
 ```bash
@@ -138,14 +198,30 @@ system/data/api/                                        파일수      용량   
 ├─ community/summary.json    커뮤니티 탐지                   1    0.10 MB  make_analytics_fixtures.py
 ├─ peer_methods/{sig_cd}.json 유사 지자체 방법비교          227    1.23 MB  make_analytics_fixtures.py
 │   └─ _guide.json              공통 안내문(1회만)
-└─ analytics.json            공간·EHA·커뮤니티·방법비교 카탈로그       make_analytics_fixtures.py
+├─ analytics.json            공간·EHA·커뮤니티·방법비교 카탈로그       make_analytics_fixtures.py
+│
+│   ── 아래는 전량 생성기(2026-08-23) 산출. 전부 .json.gz 로 굽혀 있다 ──
+├─ ordinance/{sig_cd}.json   자치법규 메타 199,858건       247    (전량)  make_full_ordinance.py
+│   └─ articles/{sig_cd}.json  조문 제목 2,365,068건       248
+├─ statute/all/{bucket}.json 법령 29,811건                 32            make_full_statute.py
+│   └─ names/{bucket}.json     정규화 법령명 색인           32
+├─ delegation/{sig_cd}.json  위임관계 421,627건            245            make_full_statute.py
+├─ bill/{bucket}.json        의안 19,847건                207            make_full_vote_neural.py
+├─ legislators.json          국회의원 320명                 1
+├─ neural/by-region/{sig}.json 유사도 Top-10 1,877,420엣지 266            make_full_vote_neural.py
+└─ graph/by-region/{sig}.json 지역 위임 서브그래프          247            make_full_graph.py
+    └─ instruments.json        상위법 공용 사전 32,727건      1
                              ──────────────────────────────────────────────
-                             합계 2,688파일 · 87.82 MiB · 최대 파일 237.8 KB
+                             합계 4,972파일 · 75.82 MB · 최대 파일 443.0 KB
+                             (사전압축 전 405.6 MB → gzip 5.2배)
 ```
 
-> **용량 규율**: `api/` 총량 90 MB 이하, 파일 하나 100 MB 미만(GitHub 한계).
-> 실측 87.82 MiB / 최대 237.8 KB 로 둘 다 만족한다.
-> 초과할 때 가장 먼저 줄일 곳은 `graph/` 다(노드 상한 1개당 약 0.62 KB, 거의 선형).
+> **용량 규율**: `api/` 총량 250 MB 이하, 파일 하나 100 MB 미만(GitHub 한계).
+> 실측 **75.82 MB / 최대 443.0 KB** 로 둘 다 만족한다.
+> 전량화로 405.6 MB 까지 불어난 것을 **데이터를 깎지 않고** gzip 사전압축으로 맞췄다
+> (위 «사전압축» 절 참조). 그래도 넘치면 줄일 순서는
+> ① `make_full_vote_neural.py --neural-topk 3`(-11 MB) → ② `make_full_ordinance.py --skip-articles`(-14 MB)
+> → ③ `make_full_graph.py --ord-limit 300`(-2 MB) 이다.
 
 대상 243곳 = `status='active' AND has_legislation=1 AND level IN (1,2)`
 (광역 16 + 기초 227). level 3 일반구 41곳은 조례 제정권이 없어 제외한다.
@@ -206,6 +282,66 @@ python make_extend_fixtures.py --force                        # 약 4s(콜드 �
 이미 만들어진 파일은 건너뛰므로 중간에 끊겨도 다시 실행하면 이어서 굽는다.
 `tmp` 에 쓰고 `os.replace` 로 바꾸는 원자적 쓰기라 반쪽 파일이 남지 않는다.
 한 지역이 실패해도 나머지는 계속 만들고, 실패는 `index.json` 의 `errors` 에 쌓인다.
+
+#### 전량 생성기 4종 (2026-08-23 추가) — 표본이 아니라 전수
+
+위 확장 생성기가 «대표 표본»을 굽는다면, 이 넷은 **DB 전량**을 굽는다.
+
+```bash
+cd F:/policy_maps/system
+
+# 자치법규 199,858건 + 조문 제목 2,365,068건 → api/ordinance/ 497파일
+python make_full_ordinance.py                       # 재개 22s
+
+# 법령 29,811건 + 위임관계 421,627건 → api/statute/all·names/, api/delegation/
+python make_full_statute.py                         # 재개 1.7s
+
+# 표결 200 + 의안 19,847 + 신경망 Top-10 1,877,420엣지
+python make_full_vote_neural.py --neural-topk 10 --force    # 신경망만 약 305s
+
+# 지역 위임 서브그래프 247곳 + 조례 서브그래프 1,000건
+python make_full_graph.py                           # 재개 3.5s
+```
+
+| 생성기 | 용량 조절 레버 |
+|---|---|
+| `make_full_ordinance.py` | `--skip-articles`(조문 제목 번들 제외) · `--format objects` · `--sigs` |
+| `make_full_statute.py` | `--with-citation`(낫표 인용 원문 +10MB) · `--buckets` |
+| `make_full_vote_neural.py` | `--neural-topk`(10=전량 / 5 / 3) · `--bill-bucket-width` |
+| `make_full_graph.py` | `--max-nodes` · `--ord-limit` · `--inline-instruments` |
+
+#### 사전압축 — `api/` 는 `.json.gz` 로 굽혀 있다 (중요)
+
+전량 생성을 마치면 `api/` 가 **405.6 MB** 가 된다. 배포 예산 250 MB 를 맞추려고
+데이터를 깎는 대신 **gzip 으로 미리 구웠다**. JSON 이 5.2배로 줄어 **75.82 MB** 가 되고
+**한 건도 잃지 않는다**.
+
+```bash
+cd F:/policy_maps
+python system/tools_compress_api.py            # api/<디렉터리>/**/*.json -> .json.gz
+python system/tools_compress_api.py --check    # 쓰지 않고 예상 용량만
+python system/tools_compress_api.py --decompress   # 되돌리기
+```
+
+- 압축 대상은 **`api/` 하위 디렉터리의 shard 뿐**이다. 최상위 `api/*.json` 카탈로그 19개는
+  비압축 그대로 둔다(부팅 경로를 단순하게 유지하려고).
+- 원본 `.json` 은 지운다. 즉 `api/ordinance/11110.json` 을 직접 열면 **404** 이고
+  `api/ordinance/11110.json.gz` 가 있다. 브라우저는 이 차이를 몰라도 된다 — 아래 참조.
+- 재실행해도 같은 바이트가 나온다(gzip mtime 을 0 으로 고정). 다시 돌려도 git diff 가 생기지 않는다.
+
+**읽는 쪽은 `viz/public/js/api.js` 의 `getJSONFromBase()` 한 곳이다.**
+
+- `api/<디렉터리>/…json` 요청이면 `.json.gz` 를 먼저 받아 본다. 404 면 비압축 `.json` 으로 폴백한다
+  (압축 전 번들·부분 압축 상태도 그대로 열린다).
+- 서버가 `Content-Encoding: gzip` 을 붙이면 브라우저가 이미 풀어 놨고, 안 붙이면
+  gzip 매직바이트 `0x1f8b` 를 보고 `DecompressionStream` 으로 직접 푼다.
+  **`python -m http.server` · `serve_full.py` · Vercel 정적 어디서든 같은 파일이 그대로 동작한다.**
+- 가상데이터(`viz/public/data`)에는 `api/` 하위 디렉터리가 없으므로 `.gz` 요청을 만들지 않는다.
+  `?src=mock` 은 압축 이전과 완전히 동일하게 돈다.
+
+> **브라우저 요건**: `DecompressionStream` — Chrome 80+ / Firefox 113+ / Safari 16.4+.
+> 그보다 낮으면 «되돌리는 방법»을 적은 오류 메시지를 띄운다(조용한 빈 화면이 되지 않는다).
+> 압축을 쓰고 싶지 않으면 `--decompress` 로 되돌리면 되고, 로더는 그대로 동작한다.
 
 ### 2-A-3. 로더 동작 — shard 우선, 단일 파일 폴백
 
@@ -499,3 +635,52 @@ DB·엔진의 미반영분을 전부 화면에 올린 뒤의 실측이다.
    3방식 비교가 2방식(동일 결과)으로 쪼그라든다 → `policymap.db.connect()` 사용 + 주석.
 5. legacy 가 돌려주는 지자체명에 시도 접두어가 없어 동명 지자체가 구분되지 않았다 →
    `region_features` 로 표기 통일.
+
+---
+
+## 13. 전량화 검증 기록 (2026-08-23)
+
+표본이던 자산을 DB 전량으로 바꾸고, 그 데이터가 실제로 화면에서 열리는지 확인한 기록이다.
+자산별 3열 커버리지표(DB / 배포본 / 완전판)는 [22 완성도 최종점검 §1.7](../22_완성도_최종점검.md) 에 있다.
+
+### 13-1. 생성·용량
+
+| 항목 | 값(실측) |
+|---|---|
+| `api/` 총량 | **75.82 MB / 4,972 파일** (압축 전 405.6 MB, 5.2배) |
+| 최대 파일 | `api/graph/instruments.json.gz` **443.0 KB** (100 MB 한계 대비 225배 여유) |
+| 한 디렉터리 최대 파일 수 | `api/graph/ordinance/` 1,000개 |
+| 무결성 | `.json.gz` 4,953 + `.json` 19 = **4,972개 전부 파싱 성공, 실패 0** |
+
+배포 예산 250 MB 를 맞추려고 **버린 데이터는 없다.** 오히려 압축으로 생긴 여유로
+신경망을 Top-5(53.1 MB) → **Top-10(87.7 MB, 저장본 전량)** 으로 다시 구웠다.
+
+### 13-2. 브라우저 실측 (`viz/serve_full.py` + `?src=real&full=1`)
+
+- **14화면 + 신규 2탭 + 상세 2라우트 = 18개 경로 전부 렌더** ·
+  오류 패널 0 · **JS 예외 0 · `console.error` 0 · 실패 요청(HTTP≥400) 0**
+- 임의 지역 3곳 — 정읍시 52180 / 괴산군 43760 / 은평구 11380.
+  지역 상세의 «자치법규 전량»이 **845 / 656 / 602건**으로 DB 건수와 정확히 일치.
+- 임의 조례 3건 — `ordin:1807445`(8조) · `ordin:1731477`(18조) · `ordin:1900303`(15조).
+  세 건 모두 «완전판 · DB 직결» 배지 + 조문 수가 DB 와 일치.
+- 신규 «지역 전량» 탭(법령 위계) — 247곳 선택기, 정읍시에서 조례 노드 545 / 상위법 647 /
+  위임 엣지 1,494, 그리고 «845건 중 545건만 위임 근거 수집»이라는 결손 고지까지 출력.
+- 신규 «지역 전량» 탭(신경망) — 266곳, 총계 노드 154,310 / 엣지 1,877,420,
+  정읍시 698개 조례 각각의 Top-10 이웃 + 지자체끼리 유사도.
+- 신규 «의안 전량»(국회 표결) — 버킷 207개 / 의안 19,847건, 검색·버킷 전환 동작,
+  `has_votes` 의안의 «표결 보기»가 위 표결 화면으로 연결.
+- `?full=0` 정적 폴백 — «배포본 · 정적 shard» 배지 + 조문 제목 8개(압축 shard 디코딩) +
+  «본문은 `serve_full.py` 로» 안내. 배포본 경로가 깨지지 않는다.
+- `?src=mock` 회귀 — 7화면 오류 0, **`.gz` 요청 0건**(가상데이터에는 압축 대상이 없다).
+
+### 13-3. 이번에 잡은 결함
+
+1. **`serve_full.py` 가 한국어 Windows 콘솔에서 기동 즉시 죽었다.** 시작 로그의 `—`(em dash)가
+   cp949 로 인코딩되지 않아 `UnicodeEncodeError`. 로그를 파일로 리다이렉트해도 같았다 →
+   `sys.stdout/stderr` 를 UTF-8 로 고정.
+2. 신규 전량 자산 3종(`neural/by-region`·`graph/by-region`·`bill`)이 **생성만 되고 어느 화면에서도
+   열 수 없었다**(21 MB 사장). → `views/neural.js`·`views/graph.js`·`views/votes.js` 에 탭·브라우저 추가.
+3. 의안 목록에서 «표결 보기»를 눌렀을 때 표결은 바뀌는데 위쪽 드롭다운이 옛 의안을 가리킨 채
+   남았다 → 선택기 `<select>` 를 직접 움직이도록 수정.
+4. `neural/by-region` 번들의 `edge_fields` 가 `["src","dst","sim","rank"]` 인데 뷰가
+   `src_index`·`cosine_sim` 를 찾아 이웃 표가 비었다 → 두 이름을 모두 받도록 수정.
