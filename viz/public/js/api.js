@@ -166,11 +166,17 @@ export async function loadGraph({ force = false } = {}) {
   const m = await loadManifest();
   const n = m.counts?.graph_nodes ?? 0;
   if (!force && n > LIMITS.graphNodeWarn) {
-    return loadGraphSample({
-      reason: "real graph is too large for automatic browser loading",
+    // 예전에는 여기서 가상데이터 표본(viz/public/data/graph)을 대신 그렸다. 실데이터의
+    // graph_nodes 는 250,416 이라 이 분기가 **항상** 참이었고, 결과적으로 실데이터 모드에서도
+    // 조용히 목업 500노드가 화면에 나왔다. 소스 교차 참조는 금지한다 — 못 그리면 못 그린다고
+    // 알리고, 화면이 shard 안내를 띄우게 한다.
+    return {
+      nodes: [],
+      edges: [],
+      tooLarge: true,
       realNodeCount: n,
       realEdgeCount: m.counts?.graph_edges ?? 0,
-    });
+    };
   }
   const [nodesDoc, edgesDoc] = await Promise.all([
     getJSON("graph/nodes.json"),
@@ -182,26 +188,6 @@ export async function loadGraph({ force = false } = {}) {
     if (nd.label === "Category" && nd.src_id) state.categoryNames[nd.src_id] = nd.name;
   }
   return { nodes, edges };
-}
-
-async function loadGraphSample(meta = {}) {
-  const [nodesDoc, edgesDoc] = await Promise.all([
-    getJSONFromBase(DATA_SOURCES.mock, "graph/nodes.json"),
-    getJSONFromBase(DATA_SOURCES.mock, "graph/edges.json"),
-  ]);
-  const nodes = nodesDoc.nodes || nodesDoc;
-  const edges = edgesDoc.edges || edgesDoc;
-  for (const nd of nodes) {
-    if (nd.label === "Category" && nd.src_id) state.categoryNames[nd.src_id] = nd.name;
-  }
-  return {
-    nodes,
-    edges,
-    sample: true,
-    sampleBase: DATA_SOURCES.mock,
-    sampleWarning: nodesDoc._mock_warning || edgesDoc._mock_warning || null,
-    ...meta,
-  };
 }
 
 export function categoryName(code) {

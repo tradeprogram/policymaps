@@ -5,8 +5,25 @@ import { CONFIDENCE_GRADES } from "./config.js";
 
 /* ---------- 상단 배너 ---------- */
 
+/**
+ * 가상데이터 경고 배너.
+ *
+ * 커밋 91e813d 가 발표 스크린샷을 위해 이 배너를 통째로 없앴는데(항상 null 반환),
+ * 그 결과 ?src=mock 으로 열면 조례 302건짜리 표본이 **아무 표시 없이** 실데이터와
+ * 똑같은 모습으로 렌더됐다. 목업을 실측치로 오해하게 만드는 건 배너가 화면을 조금
+ * 가리는 것보다 훨씬 나쁘다. 화면을 밀지 않는 얇은 띠로 되살린다.
+ */
 export function mockBanner() {
-  return null;
+  if (!state.isMock) return null;
+  return el("div", { class: "banner banner-mock", role: "alert" },
+    el("span", { class: "banner-tag", text: "가상 데이터" }),
+    el("span", {
+      class: "banner-body",
+      text: state.manifest?._mock_warning
+        || "가상(mock) 데이터입니다. 실제 수치가 아니므로 정책 판단의 근거로 쓸 수 없습니다. "
+           + "실데이터로 보려면 주소에서 ?src=mock 을 빼세요.",
+    })
+  );
 }
 
 export function staleBanner() {
@@ -170,8 +187,11 @@ export function fixtureMissingPanel(key, err) {
   return el("div", { class: "panel panel-warn" },
     el("h2", { class: "panel-title", text: "이 화면의 데이터가 현재 소스에 없습니다" }),
     el("p", {
-      text: `이 화면은 사전계산 결과 파일(api/${key}.json)을 씁니다. 가상데이터 번들에는 들어 있지만 `
-        + `정적 export 번들(system/data)에는 없습니다 — 요청 파라미터에 따라 계산되는 값이라 파일로 굽지 않기 때문입니다.`,
+      // 예전 문구는 '실데이터 번들에는 원래 없다'고 단언했는데 사실이 아니다 —
+      // system/data/api/ 에 gap·peers·effectiveness·diffusion·votes·search 가 모두 있다.
+      // 그 서술은 진짜 원인(경로·shard 누락)을 가리고 목업을 정답처럼 보이게 했다.
+      text: `이 화면은 사전계산 결과 파일(api/${key}.json)을 씁니다. 현재 데이터 소스에서 그 파일을 찾지 못했습니다 — `
+        + `데이터 경로(DATA_BASE)와 웹 루트를 확인하세요. 가상데이터(?src=mock)로 열었다면 표본만 들어 있습니다.`,
     }),
     tool ? el("p", { class: "hint" },
       el("b", { text: "실데이터로 채우는 법: " }),

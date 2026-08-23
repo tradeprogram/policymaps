@@ -1,0 +1,16 @@
+# Vercel 배포에서 제외할 것 — 저장소에는 남기되 공개 사이트에는 올리지 않는다.
+
+# 가상데이터 번들(조례 302건 · 지역 27곳 스캐폴드 표본).
+# 저장소에는 회귀 시험 자산으로 남기지만, 배포본에 함께 올라가면
+# 주소에 ?src=mock 만 붙여도 가짜 수치 사이트가 열린다. 그 입구를 닫는다.
+viz/public/data/
+viz/mock/
+
+# 팀 내부 문서(전략·일정·실명). internal/ 은 .gitignore 로도 막혀 있다.
+internal/
+
+# 개발 산출물
+system/scratchpad/
+__pycache__/
+.ruff_cache/
+*.log

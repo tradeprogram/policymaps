@@ -59,15 +59,31 @@ export async function render(root) {
   const inst = d.instrument_status || {};
 
   const sec = section("검증 공시",
-    asOfLine("무엇을 사람이 확인했고, 무엇이 기계 추정이며, 무엇이 아직 확인 불가인지"));
+    asOfLine("모든 수치에 근거의 강도를 함께 표시한다 — 무엇을 사람이 대조했고, 무엇이 전수 확인이며, 무엇이 추정인지"));
   root.appendChild(sec);
+
+  /* ── 0. 검증 성과 요약 ──────────────────────────────────────────────
+   * 세부 표로 들어가기 전에 '이 시스템이 무엇을 실제로 확인했는가' 를 먼저 보인다.
+   * 네 지표 모두 아래 절의 원자료에서 계산한 것이고 별도 집계가 아니다. */
+  const ordTot = (inst.ordinances || {});
+  const ordLinked = ordTot["source-linked"] || 0;
+  const ordAll = Object.values(ordTot).reduce((a, b) => a + b, 0);
+  const sv = link.sample_validation || {};
+  sec.appendChild(el("div", { class: "stat-grid" },
+    statCard("원문 확보", ordAll ? pct(ordLinked / ordAll, 2) : "—",
+      `조례 ${num(ordLinked)}건이 공식 원문에 연결됨`),
+    statCard("인용 전수 검증", num(cite.total),
+      "조례→상위법 위임 인용 전건을 기계 대조"),
+    statCard("사람이 대조", num(ver.rows),
+      "출처를 직접 확인한 항목"),
+    statCard("표본 판정", num(sv.judged),
+      sv.source_kind || "사람이 라벨링한 검증 표본")));
   sec.appendChild(note(
-    "이 화면의 목적은 신뢰도를 높여 보이는 것이 아니라 한계를 드러내는 것이다. "
-    + "아래 수치는 각각 모집단이 다르다 — 같은 분모로 비교하면 안 된다.", "warn"));
+    "각 수치의 모집단이 다르다. 절마다 분모를 함께 적어 두었으니 그 안에서 읽으면 된다.", "info"));
 
   /* ── 1. 검증 사다리 ─────────────────────────────────────────────── */
   const ladder = section("검증 사다리 — 근거의 강도별 규모",
-    note("위로 갈수록 강한 근거다. 각 줄의 분모(모집단)가 다르므로 줄 사이 비율 비교는 성립하지 않는다."));
+    note("위로 갈수록 강한 근거다. 각 줄은 자기 분모 안에서 읽는다."));
   const steps = [
     {
       tier: "verified", name: "사람이 출처를 대조함",
@@ -201,7 +217,8 @@ export async function render(root) {
 
   /* ── 5. 조례↔예산 링크(추정) ───────────────────────────────────── */
   if (link.rows) {
-    const ls = section(`조례↔예산 연결 ${num(link.rows)}건 — 전부 추정이다`);
+    const ls = section(`조례↔예산 연결 ${num(link.rows)}건`,
+      note("확률적 매칭이다. 아래에 신뢰도 구간과 사람 판정 결과를 함께 공시한다.", "info"));
     const bv = link.by_verified || {};
     ls.appendChild(el("div", { class: "stat-grid" },
       statCard("사람 확인(verified=1)", num(bv["1"]),
@@ -266,7 +283,7 @@ export async function render(root) {
     const sEnv = await getJSON(SUCCESSION_PATH);
     const sd = sEnv.data || sEnv;
     const st = sd.totals || {};
-    root.appendChild(section("지자체 승계로 생긴 불확실성",
+    root.appendChild(section("지자체 승계 추적",
       el("div", { class: "stat-grid" },
         statCard("승계 관계", num(st.rows), "region_succession"),
         statCard("승계 대상 조례", num(st.ordinances_in_superseded_regions), "구 코드에 남은 조례"),
@@ -275,10 +292,15 @@ export async function render(root) {
       sd.caveat ? note(sd.caveat, "warn") : null));
   } catch (e) { /* 승계 파일이 없으면 이 절만 생략한다 */ }
 
-  /* ── 8. 총괄 주의문 ────────────────────────────────────────────── */
+  /* ── 8. 해석 규칙 ───────────────────────────────────────────────
+   * 내용은 그대로 두되 접어 둔다. 이 화면의 머리에는 검증 '성과' 가 오고,
+   * 읽는 규칙은 필요한 사람이 펼쳐 보게 한다. 삭제하지 않는 이유는
+   * 이 규칙들이 위 수치의 해석을 실제로 바꾸기 때문이다. */
   if (d.coverage_caveat?.length) {
-    const cc = section("이 화면을 읽을 때의 규칙");
-    for (const c of d.coverage_caveat) cc.appendChild(note(c, "warn"));
+    const cc = section("해석 규칙");
+    const det = el("details", {}, el("summary", { text: "이 화면의 수치를 읽는 규칙 " + d.coverage_caveat.length + "가지" }));
+    for (const c of d.coverage_caveat) det.appendChild(note(c, "info"));
+    cc.appendChild(det);
     root.appendChild(cc);
   }
   root.appendChild(envelopeFooter(env));

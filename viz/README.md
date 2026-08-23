@@ -136,9 +136,12 @@ python viz/tools/build_geo.py
 `viz/public/js/config.js` 의 한 줄만 고친다.
 
 ```js
-export const DATA_BASE = "./data";            // 가상데이터
-// export const DATA_BASE = "../../system/data"; // 실데이터
+export const DATA_BASE = "../../system/data"; // 실데이터 (기본값)
+// export const DATA_BASE = "./data";         // 가상데이터
 ```
+
+기본값은 실데이터다. 가상데이터는 조례 302건·지역 27곳짜리 스캐폴드 표본이므로
+개발과 회귀 시험 외에는 쓰지 않는다. 실수로 되돌리면 사이트가 목업을 보여준다.
 
 ### 방법 B — URL 로 임시 전환
 
@@ -549,8 +552,10 @@ CDN 3종(Leaflet 1.9.4 / Chart.js 4.4.1 / vis-network 9.1.9)이 막히면 각 �
 
 ## 9. 공개 배포 전 확인 (중요)
 
-`viz/public/data/` 의 가상데이터 `official_url` 에는 **법령 API 키(`OC=...`)가 그대로 들어 있다.**
-`generate_mock.py` 소스에도 하드코딩돼 있다.
+`viz/public/data/` 의 가상데이터 `official_url` 은 **살균 완료**다 —
+`OC=` 값이 전부 리터럴 `OC=MOCK` 이고 실키는 0건이다(2026-08-23 재확인).
+남은 배포 전 확인 항목은 목업 번들 자체를 배포본에서 제외하는 것이며,
+루트 `.vercelignore` 가 `viz/public/data/` 를 빼도록 되어 있다.
 GitHub Pages 로 올리면 그대로 웹에 게시되므로, `20_깃허브_공개계획.md` 의 살균 게이트를 통과시킨 뒤 배포해야 한다.
 사이트 코드(`viz/public/js/**`, `css`, `index.html`)와 `tools/build_geo.py` 에는 키가 없다.
 

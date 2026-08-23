@@ -1105,10 +1105,14 @@ async function renderLegacy(host) {
   try { graph = await loadGraph(); }
   catch (e) { sec.appendChild(errorPanel(e, "graph/nodes.json 또는 graph/edges.json 로드 실패")); return; }
 
-  if (graph.sample) {
+  if (graph.tooLarge) {
+    // 목업 표본으로 대신 그리던 자리다. 가짜 조례명을 실데이터처럼 보여주는 것보다
+    // 그리지 못하는 이유와 해결법을 알리는 편이 낫다.
     sec.appendChild(note(
-      `실데이터 그래프(노드 ${num(graph.realNodeCount)} · 엣지 ${num(graph.realEdgeCount)})는 브라우저로 통째로 받을 수 없어 `
-      + "가상데이터 표본을 대신 그린다. 실데이터 위계는 위 shard 를 구워야 볼 수 있다.", "warn"));
+      `실데이터 전체 그래프는 노드 ${num(graph.realNodeCount)} · 엣지 ${num(graph.realEdgeCount)} 규모라 `
+      + "브라우저로 통째로 받지 않는다. 이 화면의 위계 개념도·조례 중심·법령 중심 뷰는 "
+      + "서브그래프 shard(api/graph/)로 같은 내용을 훨씬 빠르게 보여준다 — 위 탭을 쓰면 된다.", "info"));
+    return;
   }
 
   const { nodes, edges } = graph;
