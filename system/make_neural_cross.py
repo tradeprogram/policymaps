@@ -103,6 +103,33 @@ def cross_region_topk(U, reg_idx, k: int, block: int, log_every: int = 20):
     return np.concatenate(rows_o), np.concatenate(cols_o), np.concatenate(sims_o)
 
 
+# 보조 인덱스 2개. 대량 적재 전에 내렸다가 끝나고 다시 만든다.
+# PK(src_id,dst_id,model_name) 는 INSERT OR REPLACE 가 쓰므로 유지해야 한다.
+SECONDARY_INDEXES = {
+    "ix_neursim_src": "CREATE INDEX ix_neursim_src ON neural_similarity(model_name, src_id, rank)",
+    "ix_neursim_dst": "CREATE INDEX ix_neursim_dst ON neural_similarity(model_name, dst_id)",
+}
+
+
+def drop_secondary(conn) -> list[str]:
+    """존재하는 보조 인덱스만 내리고 이름을 돌려준다."""
+    have = {r["name"] for r in D.fetchall(
+        conn, "SELECT name FROM sqlite_master WHERE type='index' AND tbl_name='neural_similarity'")}
+    dropped = []
+    for name in SECONDARY_INDEXES:
+        if name in have:
+            conn.execute(f"DROP INDEX {name}")
+            dropped.append(name)
+    conn.commit()
+    return dropped
+
+
+def rebuild_secondary(conn, names) -> None:
+    for name in names:
+        conn.execute(SECONDARY_INDEXES[name])
+    conn.commit()
+
+
 def write(conn, model, nodes, rows, cols, sims, kind: str) -> int:
     now = _util.now_kst_iso()
     conn.execute("DELETE FROM neural_similarity WHERE model_name=? AND node_kind=?", (model, kind))
@@ -133,6 +160,9 @@ def main() -> int:
     ap.add_argument("--model", action="append", default=None)
     ap.add_argument("--top-k", type=int, default=10)
     ap.add_argument("--block", type=int, default=1024)
+    ap.add_argument("--fast-load", action="store_true",
+                    help="적재 전 보조 인덱스를 내렸다가 끝나고 재생성한다. 150만행 기준 크게 빨라진다. "
+                         "다른 프로세스가 이 테이블을 읽는 중이면 쓰지 말 것")
     ap.add_argument("--keep-same-region", action="store_true",
                     help="같은 지자체를 제외하지 않는다(기존 동작. 비교용)")
     args = ap.parse_args()
@@ -167,7 +197,18 @@ def main() -> int:
         rows, cols, sims = cross_region_topk(U, reg_idx, args.top_k, args.block)
         print(f"[{model}] kNN {time.time()-t1:.0f}s → {len(rows):,}쌍", flush=True)
         t2 = time.time()
-        n = write(conn, model, nodes, rows, cols, sims, "Ordinance")
+        dropped = []
+        if args.fast_load:
+            dropped = drop_secondary(conn)
+            if dropped:
+                print(f"[{model}] 보조 인덱스 {len(dropped)}개 내림 — 적재 후 재생성", flush=True)
+        try:
+            n = write(conn, model, nodes, rows, cols, sims, "Ordinance")
+        finally:
+            if dropped:
+                t3 = time.time()
+                rebuild_secondary(conn, dropped)
+                print(f"[{model}] 인덱스 재생성 {time.time()-t3:.0f}s", flush=True)
         print(f"[{model}] 적재 {n:,}행 {time.time()-t2:.0f}s (총 {time.time()-t0:.0f}s)", flush=True)
     return 0
 

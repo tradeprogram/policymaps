@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "자치법규 정책지도 (Policy Maps)"
+message: "이 소프트웨어나 데이터를 사용하면 아래와 같이 인용해 주세요."
+type: software
+authors:
+  - name: "policy_maps"
+repository-code: "https://github.com/zxsa0716/policymaps"
+url: "https://policymaps.vercel.app/"
+abstract: >-
+  전국 자치법규 199,858건과 상위법령·위임관계·예산·의안·표결·행정경계를
+  노드 250,416개·엣지 1,125,036개의 단일 그래프로 엮고, 그래프 신경망과
+  GraphRAG 위에서 "비슷한 지자체엔 있고 우리엔 없는 조례"를 근거·출처와 함께
+  산출한다. 어디까지가 검증이고 어디부터가 추정인지를 수치로 공시한다.
+keywords:
+  - legal informatics
+  - policy diffusion
+  - graph neural network
+  - GraphRAG
+  - spatial autocorrelation
+  - open government data
+  - South Korea
+license: MIT
+date-released: "2026-08-21"
