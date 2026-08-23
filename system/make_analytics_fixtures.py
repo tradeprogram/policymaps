@@ -72,19 +72,61 @@ KINDS = ("spatial", "eha", "community", "peer_methods")
 # --------------------------------------------------------------------------- #
 # (metric, slug, 화면 설명). slug 는 ASCII 로 둔다(정적 호스팅 URL 안전).
 DEFAULT_METRICS = [
+    # ── 기본 지표 ────────────────────────────────────────────────────────
     ("ordinance_count", "ordinance-count",
      "현행 조례·규칙 수 — 입법 활동량의 공간 군집"),
     ("budget_per_capita", "budget-per-capita",
      "1인당 예산(총예산/인구) — 재정 여력의 공간 군집"),
     ("welfare_ratio", "welfare-ratio",
      "사회복지 예산 비중(C03 복지 영역의 예산측 지표)"),
+
+    # ── 분야별 조례 비중 14종 ────────────────────────────────────────────
+    # 전 분야를 굽는다. 예전에는 C03·C04 두 개뿐이라 "지표를 골라 본다"는
+    # 화면의 취지가 살지 않았다. 분야마다 군집 구조가 다르다는 것 자체가 결과다
+    # (실측: 복지 C03 은 Moran I=0.52 로 강한 군집, 인구 C04 는 -0.008 로 무작위와 구별 안 됨).
+    ("category_share:C01", "category-share-c01",
+     "행정·자치·의회(C01) 조례 비중 = C01 조례 수 / 현행 조례 수"),
+    ("category_share:C02", "category-share-c02",
+     "재정·세무·회계(C02) 조례 비중 = C02 조례 수 / 현행 조례 수"),
     ("category_share:C03", "category-share-c03",
      "복지·돌봄(C03) 조례 비중 = C03 조례 수 / 현행 조례 수"),
     ("category_share:C04", "category-share-c04",
      "인구·출산·양육(C04) 조례 비중 = C04 조례 수 / 현행 조례 수"),
-    ("adoption_year:맨발걷기", "adoption-year-barefoot",
-     "맨발걷기 조례 '채택 연도' 자체의 공간군집 — 수평확산 가설의 직접 검정"),
-    ("adoption_year_resid:맨발걷기", "adoption-year-resid-barefoot",
+    ("category_share:C05", "category-share-c05",
+     "청년·교육(C05) 조례 비중 = C05 조례 수 / 현행 조례 수"),
+    ("category_share:C06", "category-share-c06",
+     "보건·의료(C06) 조례 비중 = C06 조례 수 / 현행 조례 수"),
+    ("category_share:C07", "category-share-c07",
+     "환경·기후(C07) 조례 비중 = C07 조례 수 / 현행 조례 수"),
+    ("category_share:C08", "category-share-c08",
+     "안전·재난(C08) 조례 비중 = C08 조례 수 / 현행 조례 수"),
+    ("category_share:C09", "category-share-c09",
+     "도시·건축·주택(C09) 조례 비중 = C09 조례 수 / 현행 조례 수"),
+    ("category_share:C10", "category-share-c10",
+     "교통(C10) 조례 비중 = C10 조례 수 / 현행 조례 수"),
+    ("category_share:C11", "category-share-c11",
+     "경제·산업·일자리(C11) 조례 비중 = C11 조례 수 / 현행 조례 수"),
+    ("category_share:C12", "category-share-c12",
+     "농림·수산(C12) 조례 비중 = C12 조례 수 / 현행 조례 수"),
+    ("category_share:C13", "category-share-c13",
+     "문화·체육·관광(C13) 조례 비중 = C13 조례 수 / 현행 조례 수"),
+    ("category_share:C14", "category-share-c14",
+     "동물·반려(C14) 조례 비중 = C14 조례 수 / 현행 조례 수"),
+
+    # ── 확산 템플릿의 채택연도 공간군집 ──────────────────────────────────
+    # 채택 "연도" 자체의 군집은 수평확산(이웃 학습) 가설의 직접 검정이다.
+    # _resid 는 시도 고정효과를 뺀 잔차로, 광역 공통충격과 이웃학습을 분리한다.
+    ("adoption_year:맨발걷기", "adoption-year-barefoot-walking",
+     "맨발걷기 조례 채택 연도의 공간군집 — 수평확산 가설의 직접 검정"),
+    ("adoption_year_resid:맨발걷기", "adoption-year-resid-barefoot-walking",
+     "위와 같되 시도 고정효과(광역 공통충격)를 뺀 잔차 — 이웃학습 vs 광역충격 분리"),
+    ("adoption_year:안전보안관", "adoption-year-safety-sheriff",
+     "안전보안관 조례 채택 연도의 공간군집 — 수평확산 가설의 직접 검정"),
+    ("adoption_year_resid:안전보안관", "adoption-year-resid-safety-sheriff",
+     "위와 같되 시도 고정효과(광역 공통충격)를 뺀 잔차 — 이웃학습 vs 광역충격 분리"),
+    ("adoption_year:청년", "adoption-year-youth",
+     "청년 조례 채택 연도의 공간군집 — 수평확산 가설의 직접 검정"),
+    ("adoption_year_resid:청년", "adoption-year-resid-youth",
      "위와 같되 시도 고정효과(광역 공통충격)를 뺀 잔차 — 이웃학습 vs 광역충격 분리"),
 ]
 
@@ -109,12 +151,22 @@ MODEL_SPECS = [
     ("peer_vs_neighbor", "enactment", "logit", ("peer_exposure",),
      "확장 — 지리적 인접 노출(neighbor_exposure)과 구조적 유사 노출(peer_exposure, "
      "행안부 유사자치단체 Top-20)을 한 모형에 같이 넣어 head-to-head 비교"),
+    ("three_channel", "enactment", "logit", ("peer_exposure", "neural_exposure"),
+     "확장② 확산 경로 3종을 한 모형에서 동시 비교 — 지리적 인접(neighbor_exposure) vs "
+     "통계적 유사(peer_exposure, 행안부 기준) vs 구조적 유사(neural_exposure, 그래프 "
+     "신경망 임베딩 Top-20). 셋을 같이 넣으면 서로를 통제한 뒤 어느 경로가 남는지 보인다. "
+     "Region 임베딩이 없으면 neural_exposure 가 전부 결측이라 모형에서 자동 제외된다"),
+    ("three_channel_cloglog", "enactment", "cloglog", ("peer_exposure", "neural_exposure"),
+     "확장② 의 링크 민감도 — 보완로그로그(이산시간 비례위험)로 바꿔도 세 경로의 "
+     "상대적 크기·부호가 유지되는지"),
 ]
 
 COVARIATE_GLOSSARY = {
     "(intercept)": "절편(기저 위험)",
     "neighbor_exposure": "t-1 까지 채택한 지리적 인접 지자체 비율 (Valente 1996 exposure)",
-    "peer_exposure": "t-1 까지 채택한 행안부 유사자치단체 Top-20 비율(구조적 유사)",
+    "peer_exposure": "t-1 까지 채택한 행안부 유사자치단체 Top-20 비율(통계적 유사 — 인구·재정)",
+    "neural_exposure": "t-1 까지 채택한 그래프 신경망 임베딩 Top-20 유사 지자체 비율"
+                       "(구조적 유사 — 조례 구성·상위법 연결·이웃 관계에서 학습)",
     "sido_exposure": "t-1 까지 채택한 동일 광역 내 타 기초 비율",
     "upper_adopted": "t-1 까지 상위 광역이 같은 이름의 조례를 채택했는지(0/1, 수직확산)",
     "log_pop": "log(주민등록 인구)",

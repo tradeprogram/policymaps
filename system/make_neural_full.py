@@ -50,15 +50,22 @@ def coverage(conn: sqlite3.Connection) -> dict[str, int]:
     return {r["model_name"]: r["n"] for r in rows}
 
 
-def rebuild(conn: sqlite3.Connection, model: str, *, top_k: int, block: int) -> dict:
+def rebuild(conn: sqlite3.Connection, model: str, kind: str, *,
+            top_k: int, block: int, replace: bool) -> dict:
+    """model x kind 한 조합의 kNN 을 다시 굽는다.
+
+    replace 는 build_neural_similarity 안에서 **model_name 단위 DELETE** 라,
+    Ordinance 와 Region 을 연달아 돌릴 때 두 번째 호출이 첫 번째 결과를 지운다.
+    그래서 첫 호출에만 True 를 준다.
+    """
     t0 = time.time()
-    emb = load_node_embeddings(conn, model, node_kind="Ordinance")
+    emb = load_node_embeddings(conn, model, node_kind=kind)
     if not emb:
-        print(f"  [{model}] 임베딩 없음 — 건너뜀", flush=True)
+        print(f"  [{model}/{kind}] 임베딩 없음 — 건너뜀", flush=True)
         return {}
     nodes = list(emb)
     matrix = np.asarray([emb[n] for n in nodes], dtype=np.float32)
-    print(f"  [{model}] 임베딩 {len(nodes):,}개 dim={matrix.shape[1]} "
+    print(f"  [{model}/{kind}] 임베딩 {len(nodes):,}개 dim={matrix.shape[1]} "
           f"({matrix.nbytes/2**20:.0f}MB) 로드 {time.time()-t0:.0f}s", flush=True)
 
     result = EmbeddingResult(matrix, nodes, model_name=model)
@@ -66,13 +73,13 @@ def rebuild(conn: sqlite3.Connection, model: str, *, top_k: int, block: int) -> 
     stats = build_neural_similarity(
         conn, result,
         top_k=top_k,
-        kinds=("Ordinance",),
+        kinds=(kind,),
         max_items=None,        # ★ 상한 해제 — 이것이 이번 수정의 핵심이다
-        replace=True,          # 같은 model_name 의 부분 결과를 먼저 지운다
+        replace=replace,
         fast_insert=True,
         block=block,
     )
-    print(f"  [{model}] kNN 완료 {time.time()-t1:.0f}s  {stats}", flush=True)
+    print(f"  [{model}/{kind}] kNN 완료 {time.time()-t1:.0f}s  {stats}", flush=True)
     return stats
 
 
@@ -100,7 +107,11 @@ def main() -> int:
     print(f"\n=== 재계산 대상: {', '.join(models)} ===", flush=True)
     t0 = time.time()
     for m in models:
-        rebuild(conn, m, top_k=args.top_k, block=args.block)
+        # Region 유사도는 EHA 의 neural_exposure 공변량이 쓴다. 같이 굽지 않으면
+        # 확산모형에서 그 경로가 통째로 빠진다.
+        for i, kind in enumerate(("Ordinance", "Region")):
+            rebuild(conn, m, kind, top_k=args.top_k, block=args.block,
+                    replace=(i == 0))
 
     after = coverage(conn)
     print(f"\n=== 재계산 후 커버리지 (총 {time.time()-t0:.0f}s) ===")

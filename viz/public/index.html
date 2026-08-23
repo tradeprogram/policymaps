@@ -3,8 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>자치법규 정책지도 — 시각화 스캐폴드</title>
-<meta name="description" content="자치법규·법령 위임·예산·표결 데이터를 지도와 그래프로 보는 정적 시각화 사이트">
+<title>자치법규 정책지도 — 전국 조례를 지도와 그래프로</title>
+<meta name="description" content="전국 자치법규 199,858건과 상위법 위임 421,627건을 지도와 그래프로 연결해, 비슷한 지자체엔 있고 우리엔 없는 조례를 근거와 함께 찾는다.">
+
+<!-- 링크 공유 카드(카톡·슬랙·트위터). 발표·심사에서 주소를 주고받을 때 미리보기가 뜬다. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="자치법규 정책지도">
+<meta property="og:title" content="자치법규 정책지도 — 전국 조례를 지도와 그래프로">
+<meta property="og:description" content="전국 자치법규 199,858건 · 상위법 위임 421,627건 · 그래프 250,416노드. 비슷한 지자체엔 있고 우리엔 없는 조례를 근거와 함께 찾는다.">
+<meta property="og:image" content="./assets/logo.png">
+<meta property="og:url" content="https://policymaps.vercel.app/">
+<meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="./css/style.css">
 <link rel="icon" href="./assets/logo.png">
 </head>
@@ -14,9 +23,9 @@
 </noscript>
 
 <header class="site-header">
-  <div class="brand">
+  <a class="brand" href="#/dashboard" aria-label="자치법규 정책지도 — 전국 요약으로">
     <img class="brand-logo" src="./assets/logo.png" alt="자치법규 정책지도">
-  </div>
+  </a>
   <nav id="nav" class="nav"></nav>
 </header>
 
@@ -30,6 +39,16 @@
   <p>
     이 화면의 수치는 의사결정을 돕기 위한 참고 자료이며 법적 판단·집행 근거가 아니다.
     근거 조문은 <a href="https://www.law.go.kr" target="_blank" rel="noopener noreferrer">law.go.kr</a> 원문으로 확인해야 한다.
+  </p>
+  <p class="footer-meta">
+    데이터 출처 —
+    <a href="https://open.law.go.kr" target="_blank" rel="noopener noreferrer">국가법령정보</a> ·
+    <a href="https://open.assembly.go.kr" target="_blank" rel="noopener noreferrer">열린국회정보</a> ·
+    <a href="https://www.vworld.kr" target="_blank" rel="noopener noreferrer">V-World</a> ·
+    <a href="https://www.data.go.kr" target="_blank" rel="noopener noreferrer">행정표준코드</a> ·
+    <a href="https://lofin365.go.kr" target="_blank" rel="noopener noreferrer">지방재정365</a>
+    · 원문의 권리는 각 기관에 있다.
+    <a href="https://github.com/zxsa0716/policymaps" target="_blank" rel="noopener noreferrer">소스 코드</a>
   </p>
 </footer>
 

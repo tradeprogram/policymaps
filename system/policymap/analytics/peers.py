@@ -320,6 +320,40 @@ __all__ = ["find_similar_governments", "compare_peer_methods", "peer_matrix",
 # --------------------------------------------------------------------------- #
 # peer 행렬 (EHA 공변량용)
 # --------------------------------------------------------------------------- #
+def neural_peer_matrix(conn: sqlite3.Connection, *, m: int = 20,
+                       model: Optional[str] = None) -> dict[str, list[str]]:
+    """그래프 신경망 임베딩 기준 Top-m 유사 지자체 (region_id -> [region_id]).
+
+    peer_matrix 와 **같은 형식**을 돌려주므로 EHA 의 노출 변수로 그대로 꽂을 수 있다.
+    셋을 한 모형에 같이 넣으면 확산 경로를 head-to-head 로 비교할 수 있다.
+
+        neighbor_exposure  지리적 인접 — "옆에 있으니까 따라 한다"
+        peer_exposure      행안부 유사자치단체(인구·재정 통계) — "형편이 비슷하니까"
+        neural_exposure    그래프 구조 임베딩 — "조례 구성과 상위법 연결이 닮았으니까"
+
+    셋째는 통계 지표가 아니라 **어떤 조례를 어떤 상위법 아래 두고 어떤 이웃과 붙어
+    있는가** 라는 구조에서 학습된 유사도다. 앞의 둘이 못 보는 축이다.
+
+    neural_similarity 에 Region 행이 없으면 빈 dict 를 돌려준다 —
+    호출부는 이때 neural_exposure 를 None 으로 두고 모형에서 자동 제외한다.
+    """
+    sql = ("SELECT src_id, dst_id, cosine_sim FROM neural_similarity "
+           "WHERE node_kind='Region'")
+    params: list = []
+    if model:
+        sql += " AND model_name=?"
+        params.append(model)
+    sql += " ORDER BY src_id, cosine_sim DESC"
+    out: dict[str, list[str]] = {}
+    for r in _base._rows(conn, sql, params):
+        src = str(r["src_id"]).split(":", 1)[-1]
+        dst = str(r["dst_id"]).split(":", 1)[-1]
+        lst = out.setdefault(src, [])
+        if len(lst) < m and dst not in lst:
+            lst.append(dst)
+    return out
+
+
 def peer_matrix(conn: sqlite3.Connection, *, level: int = 2, m: int = 20,
                 weights: Optional[dict[str, float]] = None,
                 partition_by_type: bool = True,

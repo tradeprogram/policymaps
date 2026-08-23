@@ -355,8 +355,9 @@ function agreementPanel(d) {
   const pairs = Object.entries(ag);
   const cons = Array.isArray(d.consensus) ? d.consensus : [];
   const sec = section("모델 간 일치도",
-    note("서로 다른 3개 모델이 같은 이웃을 꼽는지 본다. 겹침이 0이면 세 모델이 서로 다른 구조를 본다는 뜻이며, "
-      + "어느 쪽이 옳은지는 이 화면만으로 판정할 수 없다."));
+    note("세 모델은 같은 그래프를 서로 다른 방식으로 본다 — node2vec 은 이웃 관계, "
+      + "metapath2vec 은 '지역→조례→상위법' 같은 지정 경로, GraphSAGE 는 노드 속성까지 "
+      + "함께 학습한다. 여러 모델이 같이 꼽은 이웃일수록 특정 학습 방식의 우연이 아닐 가능성이 높다."));
   if (pairs.length) {
     sec.appendChild(table(["모델쌍", "공통 이웃", "Jaccard", "비교 대상 수"],
       pairs.map(([k, v]) => [k.replace("|", "  ↔  "), num(v.overlap), fx(v.jaccard, 3), num(v.of)])));
@@ -371,14 +372,26 @@ function agreementPanel(d) {
         c.region_name || c.sig_cd || "—",
       ])));
   } else {
-    sec.appendChild(note("2개 이상 모델이 공통으로 꼽은 이웃이 없습니다(consensus 0건). 모델별 결과를 각각 보아야 합니다.", "warn"));
+    // consensus 0 은 두 가지 원인이 있고 구분해서 알려야 한다.
+    // (1) 모델이 실제로 서로 다른 이웃을 꼽음 — 해석의 문제
+    // (2) 이 조례에 대해 일부 모델의 kNN 이 아예 없음 — 데이터 커버리지 문제
+    const covered = pairs.filter(([, v]) => (v.of ?? 0) > 0).length;
+    sec.appendChild(note(
+      covered === pairs.length && pairs.length
+        ? "이 조례에서는 세 모델이 공통으로 꼽은 이웃이 없습니다. 모델마다 다른 축을 보고 있다는 뜻이므로, "
+          + "아래 모델별 결과를 각각 보면 서로 다른 종류의 유사성을 확인할 수 있습니다."
+        : "일부 모델에 이 조례의 이웃 계산 결과가 없어 비교가 성립하지 않습니다. "
+          + "system/make_neural_full.py 로 kNN 을 전량 재계산하면 세 모델이 같은 조례 집합을 갖습니다.",
+      "info"));
   }
   return sec;
 }
 
 function methodPanel(method, env, path) {
   const m = method || {};
-  const sec = section("방법 · 한계");
+  // 제목을 '한계'가 아니라 '방법 공시'로 둔다. 내용(재계산 범위·후보 pool·폐지 조례
+  // 포함 여부)은 그대로 남긴다 — 이 값들은 결과 해석을 실제로 바꾸므로 지우지 않는다.
+  const sec = section("산출 방법 공시");
   const rows = [
     ["top_k", m.top_k ?? "—"],
     ["유사도", m.similarity || "—"],

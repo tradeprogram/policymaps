@@ -82,6 +82,11 @@ def build_risk_set_panel(
       peer_exposure      t-1까지 채택한 **행안부 유사자치단체 Top-m** 비율.
                          neighbor_exposure 와 동일 형식이라 head-to-head 비교가 된다.
                          (지리적 근접 vs 구조적 유사 — 어느 쪽이 채택을 예측하는가)
+      neural_exposure    t-1까지 채택한 **그래프 신경망 임베딩 Top-m 유사 지자체** 비율.
+                         위 둘과 같은 형식이라 세 확산 경로를 한 모형에서 비교할 수 있다.
+                         통계지표(인구·재정)가 아니라 '어떤 조례를 어떤 상위법 아래 두고
+                         어떤 이웃과 붙어 있는가' 라는 구조에서 학습된 유사도다.
+                         Region 임베딩이 없으면 전부 None 이고 모형에서 자동 제외된다.
       sido_exposure      t-1까지 채택한 동일 광역 내 타 기초 비율
       upper_adopted      t-1까지 상위 광역자치단체가 같은 이름의 조례를 채택했는지(0/1)
       log_pop            log(인구)
@@ -102,6 +107,9 @@ def build_risk_set_panel(
     cov = _base.region_covariates(conn, level=level, fyr=fyr)
     from . import peers as _peers
     pm = _peers.peer_matrix(conn, level=level, m=peer_m)
+    # 그래프 신경망 임베딩 기준 유사 지자체. Region 임베딩이 없으면 빈 dict 이고,
+    # 그 경우 neural_exposure 가 전부 None 이 되어 모형에서 자동으로 빠진다.
+    nm = _peers.neural_peer_matrix(conn, m=peer_m)
 
     # 상위 광역의 동일 템플릿 채택연도(수직 확산)
     upper = _base.adoption_years(conn, template, level=1, mode=mode)["years"]
@@ -136,6 +144,8 @@ def build_risk_set_panel(
             sexpo = (len([p for p in peers if p in adopted_before]) / len(peers)) if peers else None
             pl = pm.get(rid) or []
             pexpo = (len([p for p in pl if p in adopted_before]) / len(pl)) if pl else None
+            nl = nm.get(rid) or []
+            nexpo = (len([p for p in nl if p in adopted_before]) / len(nl)) if nl else None
             c = cov.get(rid, {})
             pop = c.get("population")
             rows.append({
@@ -150,6 +160,8 @@ def build_risk_set_panel(
                 "sido_exposure": sexpo,
                 "peer_exposure": pexpo,
                 "n_peers": len(pm.get(rid) or []),
+                "neural_exposure": nexpo,
+                "n_neural_peers": len(nl),
                 "upper_adopted": 1.0 if g["sido_cd"] in upper_before else 0.0,
                 "log_pop": math.log(pop) if pop and pop > 0 else None,
                 "welfare_ratio": c.get("welfare_ratio"),
