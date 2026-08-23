@@ -1,10 +1,11 @@
 {
  "data": {
   "generator": "make_analytics_fixtures.py",
-  "generated_at": "2026-08-22T14:39:14+0900",
+  "generated_at": "2026-08-24T01:27:08+0900",
   "params": {
    "only": [
-    "peer_methods"
+    "eha",
+    "spatial"
    ],
    "permutations": 999,
    "level": 2,
@@ -13,10 +14,12 @@
   },
   "spatial": [
    {
-    "slug": "adoption-year-barefoot",
-    "path": "spatial/adoption-year-barefoot.json",
+    "slug": "adoption-year-barefoot-walking",
     "metric": "adoption_year:맨발걷기",
-    "description": "맨발걷기 조례 '채택 연도' 자체의 공간군집 — 수평확산 가설의 직접 검정",
+    "path": "spatial/adoption-year-barefoot-walking.json",
+    "description": "맨발걷기 조례 채택 연도의 공간군집 — 수평확산 가설의 직접 검정",
+    "bytes": 59775,
+    "seconds": 1.0,
     "n": 125,
     "universe": 227,
     "moran_i": 0.208771,
@@ -25,14 +28,15 @@
     "p_sim": 0.002,
     "n_significant_fdr": 0,
     "by_quadrant": {},
-    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)",
-    "bytes": 59778
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
    },
    {
-    "slug": "adoption-year-resid-barefoot",
-    "path": "spatial/adoption-year-resid-barefoot.json",
+    "slug": "adoption-year-resid-barefoot-walking",
     "metric": "adoption_year_resid:맨발걷기",
+    "path": "spatial/adoption-year-resid-barefoot-walking.json",
     "description": "위와 같되 시도 고정효과(광역 공통충격)를 뺀 잔차 — 이웃학습 vs 광역충격 분리",
+    "bytes": 60306,
+    "seconds": 0.7,
     "n": 125,
     "universe": 227,
     "moran_i": 0.191705,
@@ -41,14 +45,83 @@
     "p_sim": 0.011,
     "n_significant_fdr": 0,
     "by_quadrant": {},
-    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)",
-    "bytes": 60298
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "adoption-year-resid-safety-sheriff",
+    "metric": "adoption_year_resid:안전보안관",
+    "path": "spatial/adoption-year-resid-safety-sheriff.json",
+    "description": "위와 같되 시도 고정효과(광역 공통충격)를 뺀 잔차 — 이웃학습 vs 광역충격 분리",
+    "bytes": 70433,
+    "seconds": 1.1,
+    "n": 180,
+    "universe": 227,
+    "moran_i": -0.068215,
+    "expected_i": -0.005587,
+    "z_sim": -1.0675,
+    "p_sim": 0.138,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "무작위 배치와 구별되지 않음"
+   },
+   {
+    "slug": "adoption-year-resid-youth",
+    "metric": "adoption_year_resid:청년",
+    "path": "spatial/adoption-year-resid-youth.json",
+    "description": "위와 같되 시도 고정효과(광역 공통충격)를 뺀 잔차 — 이웃학습 vs 광역충격 분리",
+    "bytes": 78635,
+    "seconds": 1.3,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.015925,
+    "expected_i": -0.004505,
+    "z_sim": 0.4478,
+    "p_sim": 0.317,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "무작위 배치와 구별되지 않음"
+   },
+   {
+    "slug": "adoption-year-safety-sheriff",
+    "metric": "adoption_year:안전보안관",
+    "path": "spatial/adoption-year-safety-sheriff.json",
+    "description": "안전보안관 조례 채택 연도의 공간군집 — 수평확산 가설의 직접 검정",
+    "bytes": 70203,
+    "seconds": 1.3,
+    "n": 180,
+    "universe": 227,
+    "moran_i": 0.236926,
+    "expected_i": -0.005587,
+    "z_sim": 4.1795,
+    "p_sim": 0.001,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "adoption-year-youth",
+    "metric": "adoption_year:청년",
+    "path": "spatial/adoption-year-youth.json",
+    "description": "청년 조례 채택 연도의 공간군집 — 수평확산 가설의 직접 검정",
+    "bytes": 78632,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.067249,
+    "expected_i": -0.004505,
+    "z_sim": 1.5647,
+    "p_sim": 0.065,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "무작위 배치와 구별되지 않음"
    },
    {
     "slug": "budget-per-capita",
-    "path": "spatial/budget-per-capita.json",
     "metric": "budget_per_capita",
+    "path": "spatial/budget-per-capita.json",
     "description": "1인당 예산(총예산/인구) — 재정 여력의 공간 군집",
+    "bytes": 76549,
+    "seconds": 1.1,
     "n": 195,
     "universe": 227,
     "moran_i": 0.610973,
@@ -61,14 +134,49 @@
      "LL": 32,
      "LH": 2
     },
-    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)",
-    "bytes": 76549
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c01",
+    "metric": "category_share:C01",
+    "path": "spatial/category-share-c01.json",
+    "description": "행정·자치·의회(C01) 조례 비중 = C01 조례 수 / 현행 조례 수",
+    "bytes": 78558,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.320227,
+    "expected_i": -0.004505,
+    "z_sim": 6.9697,
+    "p_sim": 0.001,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c02",
+    "metric": "category_share:C02",
+    "path": "spatial/category-share-c02.json",
+    "description": "재정·세무·회계(C02) 조례 비중 = C02 조례 수 / 현행 조례 수",
+    "bytes": 78609,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.028391,
+    "expected_i": -0.004505,
+    "z_sim": 1.2428,
+    "p_sim": 0.098,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "무작위 배치와 구별되지 않음"
    },
    {
     "slug": "category-share-c03",
-    "path": "spatial/category-share-c03.json",
     "metric": "category_share:C03",
+    "path": "spatial/category-share-c03.json",
     "description": "복지·돌봄(C03) 조례 비중 = C03 조례 수 / 현행 조례 수",
+    "bytes": 79695,
+    "seconds": 1.6,
     "n": 223,
     "universe": 227,
     "moran_i": 0.520635,
@@ -81,14 +189,15 @@
      "HH": 20,
      "LH": 1
     },
-    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)",
-    "bytes": 79695
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
    },
    {
     "slug": "category-share-c04",
-    "path": "spatial/category-share-c04.json",
     "metric": "category_share:C04",
+    "path": "spatial/category-share-c04.json",
     "description": "인구·출산·양육(C04) 조례 비중 = C04 조례 수 / 현행 조례 수",
+    "bytes": 78607,
+    "seconds": 1.6,
     "n": 223,
     "universe": 227,
     "moran_i": -0.008067,
@@ -97,14 +206,193 @@
     "p_sim": 0.48,
     "n_significant_fdr": 0,
     "by_quadrant": {},
-    "interpretation": "무작위 배치와 구별되지 않음",
-    "bytes": 78607
+    "interpretation": "무작위 배치와 구별되지 않음"
+   },
+   {
+    "slug": "category-share-c05",
+    "metric": "category_share:C05",
+    "path": "spatial/category-share-c05.json",
+    "description": "청년·교육(C05) 조례 비중 = C05 조례 수 / 현행 조례 수",
+    "bytes": 78576,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.259644,
+    "expected_i": -0.004505,
+    "z_sim": 5.6995,
+    "p_sim": 0.001,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c06",
+    "metric": "category_share:C06",
+    "path": "spatial/category-share-c06.json",
+    "description": "보건·의료(C06) 조례 비중 = C06 조례 수 / 현행 조례 수",
+    "bytes": 79948,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.578464,
+    "expected_i": -0.004505,
+    "z_sim": 12.6087,
+    "p_sim": 0.001,
+    "n_significant_fdr": 40,
+    "by_quadrant": {
+     "HH": 25,
+     "LL": 13,
+     "LH": 2
+    },
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c07",
+    "metric": "category_share:C07",
+    "path": "spatial/category-share-c07.json",
+    "description": "환경·기후(C07) 조례 비중 = C07 조례 수 / 현행 조례 수",
+    "bytes": 78581,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.21663,
+    "expected_i": -0.004505,
+    "z_sim": 4.4396,
+    "p_sim": 0.001,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c08",
+    "metric": "category_share:C08",
+    "path": "spatial/category-share-c08.json",
+    "description": "안전·재난(C08) 조례 비중 = C08 조례 수 / 현행 조례 수",
+    "bytes": 78614,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.225815,
+    "expected_i": -0.004505,
+    "z_sim": 5.1344,
+    "p_sim": 0.001,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c09",
+    "metric": "category_share:C09",
+    "path": "spatial/category-share-c09.json",
+    "description": "도시·건축·주택(C09) 조례 비중 = C09 조례 수 / 현행 조례 수",
+    "bytes": 78646,
+    "seconds": 1.7,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.172652,
+    "expected_i": -0.004505,
+    "z_sim": 3.801,
+    "p_sim": 0.001,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c10",
+    "metric": "category_share:C10",
+    "path": "spatial/category-share-c10.json",
+    "description": "교통(C10) 조례 비중 = C10 조례 수 / 현행 조례 수",
+    "bytes": 78638,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.04905,
+    "expected_i": -0.004505,
+    "z_sim": 4.5938,
+    "p_sim": 0.002,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c11",
+    "metric": "category_share:C11",
+    "path": "spatial/category-share-c11.json",
+    "description": "경제·산업·일자리(C11) 조례 비중 = C11 조례 수 / 현행 조례 수",
+    "bytes": 78605,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.29119,
+    "expected_i": -0.004505,
+    "z_sim": 6.4142,
+    "p_sim": 0.001,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c12",
+    "metric": "category_share:C12",
+    "path": "spatial/category-share-c12.json",
+    "description": "농림·수산(C12) 조례 비중 = C12 조례 수 / 현행 조례 수",
+    "bytes": 81040,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.764326,
+    "expected_i": -0.004505,
+    "z_sim": 16.2307,
+    "p_sim": 0.001,
+    "n_significant_fdr": 69,
+    "by_quadrant": {
+     "HH": 30,
+     "LL": 38,
+     "LH": 1
+    },
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c13",
+    "metric": "category_share:C13",
+    "path": "spatial/category-share-c13.json",
+    "description": "문화·체육·관광(C13) 조례 비중 = C13 조례 수 / 현행 조례 수",
+    "bytes": 78595,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": 0.154014,
+    "expected_i": -0.004505,
+    "z_sim": 3.5966,
+    "p_sim": 0.001,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
+   },
+   {
+    "slug": "category-share-c14",
+    "metric": "category_share:C14",
+    "path": "spatial/category-share-c14.json",
+    "description": "동물·반려(C14) 조례 비중 = C14 조례 수 / 현행 조례 수",
+    "bytes": 78596,
+    "seconds": 1.6,
+    "n": 223,
+    "universe": 227,
+    "moran_i": -0.01372,
+    "expected_i": -0.004505,
+    "z_sim": -0.2,
+    "p_sim": 0.428,
+    "n_significant_fdr": 0,
+    "by_quadrant": {},
+    "interpretation": "무작위 배치와 구별되지 않음"
    },
    {
     "slug": "ordinance-count",
-    "path": "spatial/ordinance-count.json",
     "metric": "ordinance_count",
+    "path": "spatial/ordinance-count.json",
     "description": "현행 조례·규칙 수 — 입법 활동량의 공간 군집",
+    "bytes": 78719,
+    "seconds": 1.9,
     "n": 223,
     "universe": 227,
     "moran_i": 0.433295,
@@ -116,14 +404,15 @@
      "HH": 1,
      "LL": 8
     },
-    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)",
-    "bytes": 78723
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
    },
    {
     "slug": "welfare-ratio",
-    "path": "spatial/welfare-ratio.json",
     "metric": "welfare_ratio",
+    "path": "spatial/welfare-ratio.json",
     "description": "사회복지 예산 비중(C03 복지 영역의 예산측 지표)",
+    "bytes": 75000,
+    "seconds": 1.2,
     "n": 195,
     "universe": 227,
     "moran_i": 0.645354,
@@ -136,20 +425,21 @@
      "LL": 29,
      "HL": 2
     },
-    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)",
-    "bytes": 75000
+    "interpretation": "정적 공간자기상관(유사한 값끼리 인접)"
    }
   ],
   "eha": [
    {
     "slug": "barefoot-walking",
-    "path": "eha/barefoot-walking.json",
     "template": "맨발걷기",
+    "path": "eha/barefoot-walking.json",
+    "bytes": 39206,
+    "seconds": 19.3,
     "window": [
      2023,
      2026
     ],
-    "n_models": 4,
+    "n_models": 5,
     "enactment_date_coverage": 0.9385,
     "n_obs": 513,
     "n_events": 108,
@@ -157,17 +447,19 @@
     "neighbor_exposure_p": 0.4516337607089509,
     "neighbor_effect_supported": false,
     "neighbor_effect_note": "neighbor_exposure 계수 +0.1847 (p=0.4516) — 유의수준 5%에서 0과 구별되지 않는다. 이웃효과 **미지지**.",
-    "bytes": 31029
+    "model_errors": []
    },
    {
     "slug": "safety-sheriff",
-    "path": "eha/safety-sheriff.json",
     "template": "안전보안관",
+    "path": "eha/safety-sheriff.json",
+    "bytes": 37558,
+    "seconds": 19.2,
     "window": [
      2020,
      2026
     ],
-    "n_models": 4,
+    "n_models": 5,
     "enactment_date_coverage": 0.914,
     "n_obs": 873,
     "n_events": 149,
@@ -175,17 +467,19 @@
     "neighbor_exposure_p": 0.023586557993442028,
     "neighbor_effect_supported": false,
     "neighbor_effect_note": "neighbor_exposure 계수 -0.4221 (p=0.0236) — 유의하지만 부호가 음(-)이다. 이웃이 먼저 채택할수록 채택 위험이 낮아지는 방향이므로 수평확산(학습·모방) 가설과 반대다. 인접 지자체가 이미 채택해 남은 위험집합이 선택적으로 구성된 결과일 수 있다.",
-    "bytes": 29748
+    "model_errors": []
    },
    {
     "slug": "youth",
-    "path": "eha/youth.json",
     "template": "청년",
+    "path": "eha/youth.json",
+    "bytes": 39092,
+    "seconds": 19.3,
     "window": [
      2015,
      2026
     ],
-    "n_models": 4,
+    "n_models": 5,
     "enactment_date_coverage": 0.8722,
     "n_obs": 1667,
     "n_events": 176,
@@ -193,2054 +487,22 @@
     "neighbor_exposure_p": 0.9416833647449482,
     "neighbor_effect_supported": false,
     "neighbor_effect_note": "neighbor_exposure 계수 -0.0078 (p=0.9417) — 유의수준 5%에서 0과 구별되지 않는다. 이웃효과 **미지지**.",
-    "bytes": 30942
+    "model_errors": []
    }
   ],
-  "community": [
-   {
-    "path": "community/summary.json",
-    "bytes": 109558,
-    "scopes": {
-     "ordinance_similarity": {
-      "modularity": 0.464837,
-      "backend": "networkx-greedy-modularity",
-      "num_communities_detected": 10,
-      "num_communities_summarized": 10
-     },
-     "region_adjacency": {
-      "modularity": 0.451397,
-      "backend": "networkx-greedy-modularity",
-      "num_communities_detected": 12,
-      "num_communities_summarized": 9
-     }
-    }
-   }
-  ],
-  "peer_methods": [
-   {
-    "sig_cd": "11110",
-    "path": "peer_methods/11110.json",
-    "bytes": 6244,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "11140",
-    "path": "peer_methods/11140.json",
-    "bytes": 6239,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "11170",
-    "path": "peer_methods/11170.json",
-    "bytes": 6276,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "11200",
-    "path": "peer_methods/11200.json",
-    "bytes": 6283,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "11215",
-    "path": "peer_methods/11215.json",
-    "bytes": 6296,
-    "seconds": 0.78,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "11230",
-    "path": "peer_methods/11230.json",
-    "bytes": 6326,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.4286,
-    "jaccard:hybrid_policy|legacy": 0.4286
-   },
-   {
-    "sig_cd": "11260",
-    "path": "peer_methods/11260.json",
-    "bytes": 6302,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "11290",
-    "path": "peer_methods/11290.json",
-    "bytes": 6306,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "11305",
-    "path": "peer_methods/11305.json",
-    "bytes": 6295,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "11320",
-    "path": "peer_methods/11320.json",
-    "bytes": 6282,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "11350",
-    "path": "peer_methods/11350.json",
-    "bytes": 6277,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "11380",
-    "path": "peer_methods/11380.json",
-    "bytes": 6292,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "11410",
-    "path": "peer_methods/11410.json",
-    "bytes": 6296,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "11440",
-    "path": "peer_methods/11440.json",
-    "bytes": 6328,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "11470",
-    "path": "peer_methods/11470.json",
-    "bytes": 6311,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "11500",
-    "path": "peer_methods/11500.json",
-    "bytes": 6288,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.4286,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "11530",
-    "path": "peer_methods/11530.json",
-    "bytes": 6335,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "11545",
-    "path": "peer_methods/11545.json",
-    "bytes": 6236,
-    "seconds": 0.84,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "11560",
-    "path": "peer_methods/11560.json",
-    "bytes": 6313,
-    "seconds": 0.82,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "11590",
-    "path": "peer_methods/11590.json",
-    "bytes": 6328,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "11620",
-    "path": "peer_methods/11620.json",
-    "bytes": 6296,
-    "seconds": 0.78,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "11650",
-    "path": "peer_methods/11650.json",
-    "bytes": 6311,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "11680",
-    "path": "peer_methods/11680.json",
-    "bytes": 6299,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "11710",
-    "path": "peer_methods/11710.json",
-    "bytes": 6296,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "11740",
-    "path": "peer_methods/11740.json",
-    "bytes": 6292,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "12110",
-    "path": "peer_methods/12110.json",
-    "bytes": 2653,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 목포시"
-   },
-   {
-    "sig_cd": "12130",
-    "path": "peer_methods/12130.json",
-    "bytes": 2632,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 여수시"
-   },
-   {
-    "sig_cd": "12150",
-    "path": "peer_methods/12150.json",
-    "bytes": 2605,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 순천시"
-   },
-   {
-    "sig_cd": "12170",
-    "path": "peer_methods/12170.json",
-    "bytes": 2634,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 나주시"
-   },
-   {
-    "sig_cd": "12190",
-    "path": "peer_methods/12190.json",
-    "bytes": 2606,
-    "seconds": 0.72,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 광양시"
-   },
-   {
-    "sig_cd": "12210",
-    "path": "peer_methods/12210.json",
-    "bytes": 2581,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 동구"
-   },
-   {
-    "sig_cd": "12240",
-    "path": "peer_methods/12240.json",
-    "bytes": 2613,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 서구"
-   },
-   {
-    "sig_cd": "12270",
-    "path": "peer_methods/12270.json",
-    "bytes": 2599,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 남구"
-   },
-   {
-    "sig_cd": "12300",
-    "path": "peer_methods/12300.json",
-    "bytes": 2668,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 북구"
-   },
-   {
-    "sig_cd": "12330",
-    "path": "peer_methods/12330.json",
-    "bytes": 2661,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 광산구"
-   },
-   {
-    "sig_cd": "12710",
-    "path": "peer_methods/12710.json",
-    "bytes": 2622,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 담양군"
-   },
-   {
-    "sig_cd": "12720",
-    "path": "peer_methods/12720.json",
-    "bytes": 2607,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 곡성군"
-   },
-   {
-    "sig_cd": "12730",
-    "path": "peer_methods/12730.json",
-    "bytes": 2600,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 구례군"
-   },
-   {
-    "sig_cd": "12740",
-    "path": "peer_methods/12740.json",
-    "bytes": 2628,
-    "seconds": 0.79,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 고흥군"
-   },
-   {
-    "sig_cd": "12750",
-    "path": "peer_methods/12750.json",
-    "bytes": 2641,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 보성군"
-   },
-   {
-    "sig_cd": "12760",
-    "path": "peer_methods/12760.json",
-    "bytes": 2646,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 화순군"
-   },
-   {
-    "sig_cd": "12770",
-    "path": "peer_methods/12770.json",
-    "bytes": 2640,
-    "seconds": 0.78,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 장흥군"
-   },
-   {
-    "sig_cd": "12780",
-    "path": "peer_methods/12780.json",
-    "bytes": 2634,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 강진군"
-   },
-   {
-    "sig_cd": "12790",
-    "path": "peer_methods/12790.json",
-    "bytes": 2618,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 해남군"
-   },
-   {
-    "sig_cd": "12800",
-    "path": "peer_methods/12800.json",
-    "bytes": 2628,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 영암군"
-   },
-   {
-    "sig_cd": "12810",
-    "path": "peer_methods/12810.json",
-    "bytes": 2593,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 무안군"
-   },
-   {
-    "sig_cd": "12820",
-    "path": "peer_methods/12820.json",
-    "bytes": 2610,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 함평군"
-   },
-   {
-    "sig_cd": "12830",
-    "path": "peer_methods/12830.json",
-    "bytes": 2637,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 영광군"
-   },
-   {
-    "sig_cd": "12840",
-    "path": "peer_methods/12840.json",
-    "bytes": 2597,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 장성군"
-   },
-   {
-    "sig_cd": "12850",
-    "path": "peer_methods/12850.json",
-    "bytes": 2598,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 완도군"
-   },
-   {
-    "sig_cd": "12860",
-    "path": "peer_methods/12860.json",
-    "bytes": 2622,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 진도군"
-   },
-   {
-    "sig_cd": "12870",
-    "path": "peer_methods/12870.json",
-    "bytes": 2614,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "전남광주통합특별시 신안군"
-   },
-   {
-    "sig_cd": "26110",
-    "path": "peer_methods/26110.json",
-    "bytes": 6164,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "26140",
-    "path": "peer_methods/26140.json",
-    "bytes": 6212,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "26170",
-    "path": "peer_methods/26170.json",
-    "bytes": 6208,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.5385,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "26200",
-    "path": "peer_methods/26200.json",
-    "bytes": 6213,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "26230",
-    "path": "peer_methods/26230.json",
-    "bytes": 6298,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "26260",
-    "path": "peer_methods/26260.json",
-    "bytes": 6261,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.4286,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "26290",
-    "path": "peer_methods/26290.json",
-    "bytes": 6248,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "26320",
-    "path": "peer_methods/26320.json",
-    "bytes": 6270,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.4286,
-    "jaccard:hybrid_policy|legacy": 0.4286
-   },
-   {
-    "sig_cd": "26350",
-    "path": "peer_methods/26350.json",
-    "bytes": 6268,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "26380",
-    "path": "peer_methods/26380.json",
-    "bytes": 6265,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "26410",
-    "path": "peer_methods/26410.json",
-    "bytes": 6233,
-    "seconds": 0.79,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "26440",
-    "path": "peer_methods/26440.json",
-    "bytes": 6236,
-    "seconds": 0.78,
-    "jaccard:mois_aligned|hybrid_policy": 0.4286,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "26470",
-    "path": "peer_methods/26470.json",
-    "bytes": 6251,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "26500",
-    "path": "peer_methods/26500.json",
-    "bytes": 6237,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "26530",
-    "path": "peer_methods/26530.json",
-    "bytes": 6252,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "26710",
-    "path": "peer_methods/26710.json",
-    "bytes": 6115,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "27110",
-    "path": "peer_methods/27110.json",
-    "bytes": 6228,
-    "seconds": 0.81,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.4286,
-    "jaccard:hybrid_policy|legacy": 0.4286
-   },
-   {
-    "sig_cd": "27140",
-    "path": "peer_methods/27140.json",
-    "bytes": 6263,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "27170",
-    "path": "peer_methods/27170.json",
-    "bytes": 6264,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "27200",
-    "path": "peer_methods/27200.json",
-    "bytes": 6255,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "27230",
-    "path": "peer_methods/27230.json",
-    "bytes": 6299,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "27260",
-    "path": "peer_methods/27260.json",
-    "bytes": 6277,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "27290",
-    "path": "peer_methods/27290.json",
-    "bytes": 6304,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "27710",
-    "path": "peer_methods/27710.json",
-    "bytes": 6103,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "27720",
-    "path": "peer_methods/27720.json",
-    "bytes": 6091,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "28125",
-    "path": "peer_methods/28125.json",
-    "bytes": 2633,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "인천광역시 제물포구"
-   },
-   {
-    "sig_cd": "28155",
-    "path": "peer_methods/28155.json",
-    "bytes": 2624,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "인천광역시 영종구"
-   },
-   {
-    "sig_cd": "28177",
-    "path": "peer_methods/28177.json",
-    "bytes": 6306,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.4286,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "28185",
-    "path": "peer_methods/28185.json",
-    "bytes": 6284,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "28200",
-    "path": "peer_methods/28200.json",
-    "bytes": 6305,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "28237",
-    "path": "peer_methods/28237.json",
-    "bytes": 6292,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "28245",
-    "path": "peer_methods/28245.json",
-    "bytes": 6263,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "28275",
-    "path": "peer_methods/28275.json",
-    "bytes": 2640,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "인천광역시 서해구"
-   },
-   {
-    "sig_cd": "28290",
-    "path": "peer_methods/28290.json",
-    "bytes": 2638,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|legacy": null,
-    "name": "인천광역시 검단구"
-   },
-   {
-    "sig_cd": "28710",
-    "path": "peer_methods/28710.json",
-    "bytes": 6036,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "28720",
-    "path": "peer_methods/28720.json",
-    "bytes": 6139,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "30110",
-    "path": "peer_methods/30110.json",
-    "bytes": 6246,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "30140",
-    "path": "peer_methods/30140.json",
-    "bytes": 6247,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "30170",
-    "path": "peer_methods/30170.json",
-    "bytes": 6285,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "30200",
-    "path": "peer_methods/30200.json",
-    "bytes": 6291,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "30230",
-    "path": "peer_methods/30230.json",
-    "bytes": 6202,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "31110",
-    "path": "peer_methods/31110.json",
-    "bytes": 6238,
-    "seconds": 0.78,
-    "jaccard:mois_aligned|hybrid_policy": 0.5385,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "31140",
-    "path": "peer_methods/31140.json",
-    "bytes": 6263,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "31170",
-    "path": "peer_methods/31170.json",
-    "bytes": 6249,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "31200",
-    "path": "peer_methods/31200.json",
-    "bytes": 6237,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "31710",
-    "path": "peer_methods/31710.json",
-    "bytes": 6120,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "41110",
-    "path": "peer_methods/41110.json",
-    "bytes": 5946,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.6667,
-    "jaccard:hybrid_policy|legacy": 0.6667
-   },
-   {
-    "sig_cd": "41130",
-    "path": "peer_methods/41130.json",
-    "bytes": 5925,
-    "seconds": 0.79,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "41150",
-    "path": "peer_methods/41150.json",
-    "bytes": 6059,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "41170",
-    "path": "peer_methods/41170.json",
-    "bytes": 5980,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "41190",
-    "path": "peer_methods/41190.json",
-    "bytes": 5955,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "41210",
-    "path": "peer_methods/41210.json",
-    "bytes": 5994,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "41220",
-    "path": "peer_methods/41220.json",
-    "bytes": 5946,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "41250",
-    "path": "peer_methods/41250.json",
-    "bytes": 6077,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.5385,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "41270",
-    "path": "peer_methods/41270.json",
-    "bytes": 5971,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.5385,
-    "jaccard:hybrid_policy|legacy": 0.6667
-   },
-   {
-    "sig_cd": "41280",
-    "path": "peer_methods/41280.json",
-    "bytes": 5944,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.6667,
-    "jaccard:hybrid_policy|legacy": 0.6667
-   },
-   {
-    "sig_cd": "41290",
-    "path": "peer_methods/41290.json",
-    "bytes": 6036,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.5385,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "41310",
-    "path": "peer_methods/41310.json",
-    "bytes": 6043,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "41360",
-    "path": "peer_methods/41360.json",
-    "bytes": 5937,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "41370",
-    "path": "peer_methods/41370.json",
-    "bytes": 6028,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "41390",
-    "path": "peer_methods/41390.json",
-    "bytes": 5970,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "41410",
-    "path": "peer_methods/41410.json",
-    "bytes": 6032,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "41430",
-    "path": "peer_methods/41430.json",
-    "bytes": 6024,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "41450",
-    "path": "peer_methods/41450.json",
-    "bytes": 5979,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "41460",
-    "path": "peer_methods/41460.json",
-    "bytes": 5954,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.6667,
-    "jaccard:hybrid_policy|legacy": 0.6667
-   },
-   {
-    "sig_cd": "41480",
-    "path": "peer_methods/41480.json",
-    "bytes": 5994,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "41500",
-    "path": "peer_methods/41500.json",
-    "bytes": 6072,
-    "seconds": 0.8,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "41550",
-    "path": "peer_methods/41550.json",
-    "bytes": 6055,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "41570",
-    "path": "peer_methods/41570.json",
-    "bytes": 6030,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "41590",
-    "path": "peer_methods/41590.json",
-    "bytes": 5951,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.4286,
-    "jaccard:hybrid_policy|legacy": 0.5385
-   },
-   {
-    "sig_cd": "41610",
-    "path": "peer_methods/41610.json",
-    "bytes": 6060,
-    "seconds": 0.82,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "41630",
-    "path": "peer_methods/41630.json",
-    "bytes": 6110,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "41650",
-    "path": "peer_methods/41650.json",
-    "bytes": 6034,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "41670",
-    "path": "peer_methods/41670.json",
-    "bytes": 6063,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "41800",
-    "path": "peer_methods/41800.json",
-    "bytes": 6150,
-    "seconds": 0.8,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "41820",
-    "path": "peer_methods/41820.json",
-    "bytes": 6114,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "41830",
-    "path": "peer_methods/41830.json",
-    "bytes": 6057,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "43110",
-    "path": "peer_methods/43110.json",
-    "bytes": 5950,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.5385,
-    "jaccard:hybrid_policy|legacy": 0.5385
-   },
-   {
-    "sig_cd": "43130",
-    "path": "peer_methods/43130.json",
-    "bytes": 6040,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "43150",
-    "path": "peer_methods/43150.json",
-    "bytes": 6044,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "43720",
-    "path": "peer_methods/43720.json",
-    "bytes": 6121,
-    "seconds": 0.8,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "43730",
-    "path": "peer_methods/43730.json",
-    "bytes": 6065,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "43740",
-    "path": "peer_methods/43740.json",
-    "bytes": 6075,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "43745",
-    "path": "peer_methods/43745.json",
-    "bytes": 6155,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.5385,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "43750",
-    "path": "peer_methods/43750.json",
-    "bytes": 6024,
-    "seconds": 0.82,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "43760",
-    "path": "peer_methods/43760.json",
-    "bytes": 6115,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "43770",
-    "path": "peer_methods/43770.json",
-    "bytes": 6091,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "43800",
-    "path": "peer_methods/43800.json",
-    "bytes": 6180,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "44130",
-    "path": "peer_methods/44130.json",
-    "bytes": 5960,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.4286
-   },
-   {
-    "sig_cd": "44150",
-    "path": "peer_methods/44150.json",
-    "bytes": 6070,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "44180",
-    "path": "peer_methods/44180.json",
-    "bytes": 6105,
-    "seconds": 0.81,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "44200",
-    "path": "peer_methods/44200.json",
-    "bytes": 6094,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "44210",
-    "path": "peer_methods/44210.json",
-    "bytes": 6107,
-    "seconds": 0.81,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "44230",
-    "path": "peer_methods/44230.json",
-    "bytes": 6124,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "44250",
-    "path": "peer_methods/44250.json",
-    "bytes": 6070,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "44270",
-    "path": "peer_methods/44270.json",
-    "bytes": 6055,
-    "seconds": 0.78,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "44710",
-    "path": "peer_methods/44710.json",
-    "bytes": 6122,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "44760",
-    "path": "peer_methods/44760.json",
-    "bytes": 6130,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "44770",
-    "path": "peer_methods/44770.json",
-    "bytes": 6125,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "44790",
-    "path": "peer_methods/44790.json",
-    "bytes": 6150,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "44800",
-    "path": "peer_methods/44800.json",
-    "bytes": 6063,
-    "seconds": 0.79,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "44810",
-    "path": "peer_methods/44810.json",
-    "bytes": 6094,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "44825",
-    "path": "peer_methods/44825.json",
-    "bytes": 6086,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "47110",
-    "path": "peer_methods/47110.json",
-    "bytes": 6024,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "47130",
-    "path": "peer_methods/47130.json",
-    "bytes": 6103,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "47150",
-    "path": "peer_methods/47150.json",
-    "bytes": 6056,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "47170",
-    "path": "peer_methods/47170.json",
-    "bytes": 6062,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "47190",
-    "path": "peer_methods/47190.json",
-    "bytes": 6038,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "47210",
-    "path": "peer_methods/47210.json",
-    "bytes": 6106,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "47230",
-    "path": "peer_methods/47230.json",
-    "bytes": 6117,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "47250",
-    "path": "peer_methods/47250.json",
-    "bytes": 6073,
-    "seconds": 0.82,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "47280",
-    "path": "peer_methods/47280.json",
-    "bytes": 6095,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "47290",
-    "path": "peer_methods/47290.json",
-    "bytes": 6144,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "47730",
-    "path": "peer_methods/47730.json",
-    "bytes": 6021,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "47750",
-    "path": "peer_methods/47750.json",
-    "bytes": 6093,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "47760",
-    "path": "peer_methods/47760.json",
-    "bytes": 6147,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "47770",
-    "path": "peer_methods/47770.json",
-    "bytes": 6055,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "47820",
-    "path": "peer_methods/47820.json",
-    "bytes": 6072,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "47830",
-    "path": "peer_methods/47830.json",
-    "bytes": 6155,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "47840",
-    "path": "peer_methods/47840.json",
-    "bytes": 6103,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "47850",
-    "path": "peer_methods/47850.json",
-    "bytes": 6048,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "47900",
-    "path": "peer_methods/47900.json",
-    "bytes": 6045,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "47920",
-    "path": "peer_methods/47920.json",
-    "bytes": 6140,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "47930",
-    "path": "peer_methods/47930.json",
-    "bytes": 6135,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "47940",
-    "path": "peer_methods/47940.json",
-    "bytes": 6097,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "48120",
-    "path": "peer_methods/48120.json",
-    "bytes": 5951,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.5385,
-    "jaccard:hybrid_policy|legacy": 0.5385
-   },
-   {
-    "sig_cd": "48170",
-    "path": "peer_methods/48170.json",
-    "bytes": 6084,
-    "seconds": 4.07,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "48220",
-    "path": "peer_methods/48220.json",
-    "bytes": 6093,
-    "seconds": 3.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "48240",
-    "path": "peer_methods/48240.json",
-    "bytes": 6088,
-    "seconds": 4.07,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "48250",
-    "path": "peer_methods/48250.json",
-    "bytes": 6039,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "48270",
-    "path": "peer_methods/48270.json",
-    "bytes": 6109,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "48310",
-    "path": "peer_methods/48310.json",
-    "bytes": 6095,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "48330",
-    "path": "peer_methods/48330.json",
-    "bytes": 6126,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "48720",
-    "path": "peer_methods/48720.json",
-    "bytes": 6153,
-    "seconds": 0.79,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "48730",
-    "path": "peer_methods/48730.json",
-    "bytes": 6049,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "48740",
-    "path": "peer_methods/48740.json",
-    "bytes": 6010,
-    "seconds": 0.83,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "48820",
-    "path": "peer_methods/48820.json",
-    "bytes": 6144,
-    "seconds": 0.81,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "48840",
-    "path": "peer_methods/48840.json",
-    "bytes": 6034,
-    "seconds": 0.81,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "48850",
-    "path": "peer_methods/48850.json",
-    "bytes": 6075,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "48860",
-    "path": "peer_methods/48860.json",
-    "bytes": 6106,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "48870",
-    "path": "peer_methods/48870.json",
-    "bytes": 6076,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "48880",
-    "path": "peer_methods/48880.json",
-    "bytes": 6112,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "48890",
-    "path": "peer_methods/48890.json",
-    "bytes": 6086,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "51110",
-    "path": "peer_methods/51110.json",
-    "bytes": 6107,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "51130",
-    "path": "peer_methods/51130.json",
-    "bytes": 6082,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "51150",
-    "path": "peer_methods/51150.json",
-    "bytes": 6060,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "51170",
-    "path": "peer_methods/51170.json",
-    "bytes": 6125,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "51190",
-    "path": "peer_methods/51190.json",
-    "bytes": 6152,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "51210",
-    "path": "peer_methods/51210.json",
-    "bytes": 6064,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "51230",
-    "path": "peer_methods/51230.json",
-    "bytes": 6099,
-    "seconds": 0.79,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "51720",
-    "path": "peer_methods/51720.json",
-    "bytes": 6183,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "51730",
-    "path": "peer_methods/51730.json",
-    "bytes": 6150,
-    "seconds": 0.8,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "51750",
-    "path": "peer_methods/51750.json",
-    "bytes": 6175,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "51760",
-    "path": "peer_methods/51760.json",
-    "bytes": 6157,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "51770",
-    "path": "peer_methods/51770.json",
-    "bytes": 6182,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "51780",
-    "path": "peer_methods/51780.json",
-    "bytes": 6100,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "51790",
-    "path": "peer_methods/51790.json",
-    "bytes": 6161,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "51800",
-    "path": "peer_methods/51800.json",
-    "bytes": 6143,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.4286
-   },
-   {
-    "sig_cd": "51810",
-    "path": "peer_methods/51810.json",
-    "bytes": 6142,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "51820",
-    "path": "peer_methods/51820.json",
-    "bytes": 6212,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "51830",
-    "path": "peer_methods/51830.json",
-    "bytes": 6192,
-    "seconds": 0.78,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "52110",
-    "path": "peer_methods/52110.json",
-    "bytes": 5999,
-    "seconds": 0.78,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.4286,
-    "jaccard:hybrid_policy|legacy": 0.4286
-   },
-   {
-    "sig_cd": "52130",
-    "path": "peer_methods/52130.json",
-    "bytes": 6099,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "52140",
-    "path": "peer_methods/52140.json",
-    "bytes": 6104,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.1765
-   },
-   {
-    "sig_cd": "52180",
-    "path": "peer_methods/52180.json",
-    "bytes": 6043,
-    "seconds": 0.79,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.1765,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "52190",
-    "path": "peer_methods/52190.json",
-    "bytes": 6071,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "52210",
-    "path": "peer_methods/52210.json",
-    "bytes": 6087,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "52710",
-    "path": "peer_methods/52710.json",
-    "bytes": 6077,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 0.8182,
-    "jaccard:mois_aligned|legacy": 0.0526,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   },
-   {
-    "sig_cd": "52720",
-    "path": "peer_methods/52720.json",
-    "bytes": 6151,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "52730",
-    "path": "peer_methods/52730.json",
-    "bytes": 6142,
-    "seconds": 0.75,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.0,
-    "jaccard:hybrid_policy|legacy": 0.0
-   },
-   {
-    "sig_cd": "52740",
-    "path": "peer_methods/52740.json",
-    "bytes": 6197,
-    "seconds": 0.77,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "52750",
-    "path": "peer_methods/52750.json",
-    "bytes": 6188,
-    "seconds": 0.76,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.25,
-    "jaccard:hybrid_policy|legacy": 0.25
-   },
-   {
-    "sig_cd": "52770",
-    "path": "peer_methods/52770.json",
-    "bytes": 6184,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.3333,
-    "jaccard:hybrid_policy|legacy": 0.3333
-   },
-   {
-    "sig_cd": "52790",
-    "path": "peer_methods/52790.json",
-    "bytes": 6076,
-    "seconds": 0.73,
-    "jaccard:mois_aligned|hybrid_policy": 1.0,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.1111
-   },
-   {
-    "sig_cd": "52800",
-    "path": "peer_methods/52800.json",
-    "bytes": 6077,
-    "seconds": 0.74,
-    "jaccard:mois_aligned|hybrid_policy": 0.6667,
-    "jaccard:mois_aligned|legacy": 0.1111,
-    "jaccard:hybrid_policy|legacy": 0.0526
-   }
-  ],
+  "community": [],
+  "peer_methods": [],
   "errors": [],
   "peer_methods_summary": {
-   "shards": 227,
-   "mean_jaccard_mois_vs_legacy": 0.172,
-   "n_with_legacy": 196,
+   "shards": 0,
+   "mean_jaccard_mois_vs_legacy": null,
+   "n_with_legacy": 0,
    "note": "mois_aligned 와 구 방식의 Top-k 겹침(Jaccard) 평균. 낮을수록 방법 선택이 결론을 크게 바꾼다."
   },
-  "total_bytes": 1994459,
-  "total_human": "1.9 MB"
+  "total_bytes": 1869416,
+  "total_human": "1.8 MB"
  },
- "as_of_date": "2026-08-22",
+ "as_of_date": "2026-08-24",
  "stale": false,
  "execution_allowed": false,
  "disclaimer": "조례↔예산 연결은 확률적 매칭이다. verified=1 이 아닌 항목은 추정이며, 폐지 조례는 선례로 추천되지 않는다. 인용 전 원문을 확인할 것.",

@@ -124,10 +124,6 @@ DEFAULT_METRICS = [
      "안전보안관 조례 채택 연도의 공간군집 — 수평확산 가설의 직접 검정"),
     ("adoption_year_resid:안전보안관", "adoption-year-resid-safety-sheriff",
      "위와 같되 시도 고정효과(광역 공통충격)를 뺀 잔차 — 이웃학습 vs 광역충격 분리"),
-    ("adoption_year:자원봉사", "adoption-year-volunteer",
-     "자원봉사 조례 채택 연도의 공간군집 — 수평확산 가설의 직접 검정"),
-    ("adoption_year_resid:자원봉사", "adoption-year-resid-volunteer",
-     "위와 같되 시도 고정효과(광역 공통충격)를 뺀 잔차 — 이웃학습 vs 광역충격 분리"),
     ("adoption_year:청년", "adoption-year-youth",
      "청년 조례 채택 연도의 공간군집 — 수평확산 가설의 직접 검정"),
     ("adoption_year_resid:청년", "adoption-year-resid-youth",
@@ -137,17 +133,21 @@ DEFAULT_METRICS = [
 # 확산 커버리지가 높은 템플릿만. 커버리지가 낮으면 채택시점이 관측되지 않아 위험모형이
 # 무너진다. 아래는 rr_cls_cd LIKE '%제정%' 기준 실측(2026-08-24, level=2 기초자치단체):
 #
-#   맨발걷기 93.8%(130곳) · 안전보안관 91.4%(186) · 자원봉사 87.7%(228) · 청년 86.8%(228)
+#   맨발걷기 93.8%(130곳) · 안전보안관 91.4%(186) · 청년 86.8%(228)
 #   ── 이하 채택 안 함 ──
 #   반려동물 72.6% · 1인가구 70.1% · 스마트도시 55.3% · 도시재생 42.5% · 탄소중립 40.6%
 #   기후위기 38.8% · 치매 38.5% · 생활임금 25.6% · 마을공동체 25.5% · 자전거 24.3% · 고향사랑 12.8%
 #
 # 탄소중립·기후위기는 보유 지자체가 200곳을 넘어 매력적으로 보이지만 제정본이 40%뿐이라
 # 채택 '시점' 이 관측되지 않는다. 그대로 넣으면 확산이 늦게 시작한 것처럼 보이는 편의가 생긴다.
+#
+# 자원봉사(87.7%, 228곳)는 커버리지만 보면 채택할 만했으나 **모형이 발산했다** —
+# 관측창이 2006-2026 으로 길고 채택이 초기에 몰려 있어 완전분리에 빠진다
+# (실측: McFadden R2 = -7.2469, coef ~ 1e9, OR = inf). 제정본 커버리지는 필요조건이지
+# 충분조건이 아니다. 템플릿을 추가할 때는 반드시 diagnose_convergence 를 통과하는지 본다.
 DEFAULT_TEMPLATES = [
     ("맨발걷기", "barefoot-walking"),
     ("안전보안관", "safety-sheriff"),
-    ("자원봉사", "volunteer"),
     ("청년", "youth"),
 ]
 
@@ -169,9 +169,6 @@ MODEL_SPECS = [
      "통계적 유사(peer_exposure, 행안부 기준) vs 구조적 유사(neural_exposure, 그래프 "
      "신경망 임베딩 Top-20). 셋을 같이 넣으면 서로를 통제한 뒤 어느 경로가 남는지 보인다. "
      "Region 임베딩이 없으면 neural_exposure 가 전부 결측이라 모형에서 자동 제외된다"),
-    ("three_channel_cloglog", "enactment", "cloglog", ("peer_exposure", "neural_exposure"),
-     "확장② 의 링크 민감도 — 보완로그로그(이산시간 비례위험)로 바꿔도 세 경로의 "
-     "상대적 크기·부호가 유지되는지"),
 ]
 
 COVARIATE_GLOSSARY = {
@@ -349,6 +346,33 @@ def spatial_shards(conn, out: Path, args, report: dict) -> None:
 # --------------------------------------------------------------------------- #
 # 2) EHA shard
 # --------------------------------------------------------------------------- #
+# 로지스틱/보완로그로그 추정이 완전분리(separation)에 빠지면 예외를 던지지 않고
+# 계수가 발산한 채로 '성공' 을 돌려준다. 실측 사례:
+#   자원봉사 primary               McFadden R2 = -7.2469, coef ~ 1e9, OR = inf
+#   청년 three_channel_cloglog     McFadden R2 = -6.2101, coef ~ 1e8
+# 그대로 화면에 실으면 유의성 별표까지 붙은 쓰레기가 표로 나간다. 걸러 낸다.
+DIVERGENCE_COEF_ABS = 50.0     # 표준화 공변량의 로짓 계수가 이 값을 넘으면 비정상
+DIVERGENCE_MIN_R2 = -0.5       # McFadden R2 는 음수가 될 수 있으나 이 아래는 미수렴
+
+
+def diagnose_convergence(res: dict):
+    """미수렴이면 사유 문자열, 정상이면 None."""
+    m = res.get("model") or {}
+    r2 = m.get("mcfadden_r2")
+    if r2 is not None and r2 < DIVERGENCE_MIN_R2:
+        return f"McFadden R2={r2:.4f} (< {DIVERGENCE_MIN_R2}) — 귀무모형보다 나쁘다"
+    for t in m.get("terms") or []:
+        c = t.get("coef")
+        if c is None or c != c:
+            return f"{t.get('term')} 계수가 NaN"
+        if abs(c) > DIVERGENCE_COEF_ABS:
+            return f"{t.get('term')} 계수 {c:.3g} 가 |{DIVERGENCE_COEF_ABS}| 를 넘음 — 완전분리 의심"
+        orv = t.get("odds_ratio")
+        if orv is not None and (orv != orv or orv in (float("inf"), float("-inf"))):
+            return f"{t.get('term')} 의 OR 이 inf/NaN"
+    return None
+
+
 def eha_shards(conn, out: Path, args, report: dict) -> None:
     if "eha" not in args.only:
         return
@@ -406,8 +430,18 @@ def eha_shards(conn, out: Path, args, report: dict) -> None:
             res["covariates"] = list(covs)
             res["console_table"] = E.format_table(res)
             res["seconds"] = round(time.time() - m0, 1)
+            bad = diagnose_convergence(res)
+            if bad:
+                # 버리지 않고 표시만 한다 — 어떤 사양이 왜 실패했는지가 정보다.
+                # 화면은 diverged=True 인 모형을 표에서 빼고 사유만 적는다.
+                res["diverged"] = True
+                res["divergence_reason"] = bad
+                errors.append(f"{role}: 미수렴 — {bad}")
+                report["errors"].append({"kind": "eha", "slug": slug,
+                                         "message": f"{role} 미수렴: {bad}"})
+                print(f"       [미수렴] {role}: {bad}", flush=True)
             models.append(res)
-            if role == "primary":
+            if role == "primary" and not bad:
                 print("  [OK] " + res["console_table"].replace("\n", "\n       "), flush=True)
 
         if not models:
@@ -415,7 +449,13 @@ def eha_shards(conn, out: Path, args, report: dict) -> None:
             report["eha"].append(item)
             continue
 
-        primary = next((m for m in models if m["role"] == "primary"), models[0])
+        ok = [m for m in models if not m.get("diverged")]
+        if not ok:
+            item["error"] = "모든 모형이 미수렴(완전분리 의심)"
+            report["eha"].append(item)
+            print(f"       [건너뜀] {template}: 모든 모형 미수렴", flush=True)
+            continue
+        primary = next((m for m in ok if m["role"] == "primary"), ok[0])
         pm = primary.get("model") or {}
         terms = {t["term"]: t for t in pm.get("terms", [])}
         nb = terms.get("neighbor_exposure") or {}

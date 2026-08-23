@@ -172,7 +172,11 @@ async function ehaTab(cat, query) {
 
 function ehaPanels(d, slug) {
   const wrap = el("div", {});
-  const models = d.models || [];
+  // 미수렴(완전분리) 모형은 계수가 1e9 대로 발산한 채 유의성 별표까지 달고 온다.
+  // 생성기가 diverged 로 표시해 두므로 표에서 빼고 사유만 따로 알린다.
+  const allModels = d.models || [];
+  const models = allModels.filter((m) => !m.diverged);
+  const diverged = allModels.filter((m) => m.diverged);
   const primary = models.find((m) => m.role === (d.primary_role || "primary")) || models[0];
   const rs = d.risk_set || {};
 
@@ -264,6 +268,14 @@ function ehaPanels(d, slug) {
       "세 변수는 모두 't-1 까지 채택한 이웃 비율' 로 형식이 같다. 다른 것은 이웃을 세는 기준뿐이라 "
       + "계수를 직접 비교할 수 있다. 셋을 한 모형에 같이 넣었으므로 각 계수는 나머지 둘을 통제한 뒤의 값이다."));
     wrap.appendChild(box);
+  }
+
+  if (diverged.length) {
+    wrap.appendChild(section("추정에 실패한 모형",
+      note("아래 사양은 최대우도 추정이 수렴하지 않았다(완전분리 의심). 계수가 발산해 "
+        + "해석할 수 없으므로 위 표에서 제외했다. 어떤 사양이 왜 실패했는지도 결과이므로 감추지 않는다.", "warn"),
+      table(["역할", "mode/link", "사유"],
+        diverged.map((m) => [m.role, `${m.mode || "?"} / ${m.link || "?"}`, m.divergence_reason || "미수렴"]))));
   }
 
   // 해석 주의 + 참고문헌 + 콘솔표
