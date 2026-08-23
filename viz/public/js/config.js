@@ -8,8 +8,18 @@
  * viz/public/ 에서 직접 서버를 띄우면 상위 디렉터리는 접근 불가하므로 가상데이터만 쓸 수 있다.
  */
 
-/** ★ 전환 지점 ★  "./data" = 가상데이터 / "../../system/data" = 실데이터 */
-export const DATA_BASE = "./data";
+/**
+ * ★ 전환 지점 ★  "../../system/data" = 실데이터(기본) / "./data" = 가상데이터
+ *
+ * 기본을 실데이터로 둔다. 가상데이터는 조례 302건·지역 27곳뿐인 스캐폴드용 표본이라
+ * 기본값으로 두면 사이트가 목업을 보여준다(실측: manifest.counts.ordinances 302 vs 199,858).
+ * 가상데이터로 보려면 ?src=mock 을 붙인다.
+ *
+ * 주의: 이 상대경로는 웹 루트가 저장소 루트(F:/policy_maps)일 때만 잡힌다.
+ * viz/public/ 에서 직접 서버를 띄우면 상위 디렉터리에 접근할 수 없어 실데이터가 404 가 된다.
+ * serve_full.py 와 Vercel 배포는 둘 다 저장소 루트를 서빙하므로 문제없다.
+ */
+export const DATA_BASE = "../../system/data";
 
 /** 프리셋. ?src=real 또는 ?src=mock 쿼리스트링으로 임시 전환도 된다. */
 export const DATA_SOURCES = {
@@ -26,12 +36,19 @@ export const SATELLITE_TILE = {
   attribution: "Imagery: Esri, Maxar, Earthstar Geographics, and the GIS User Community",
 };
 
-/** CDN. 실패하면 화면마다 대체 렌더(표/목록)로 떨어지고 배너가 뜬다. */
+/**
+ * 라이브러리 소스. 각 항목은 **[로컬 내장, 원격 CDN] 순서**로 시도한다.
+ *
+ * viz/public/vendor/ 에 leaflet·chart.js·vis-network 를 내장해 두었으므로(1.1MB)
+ * 인터넷이 없거나 사내망이 unpkg/jsdelivr 를 막는 발표장에서도 지도·차트·그래프가
+ * 그대로 뜬다. 로컬이 없으면 원격으로 넘어가고, 둘 다 실패해야 비로소 화면마다
+ * 대체 렌더(표/목록)로 떨어지고 배너가 뜬다.
+ */
 export const CDN = {
-  leafletCss: "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
-  leafletJs: "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
-  chartJs: "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js",
-  visNetworkJs: "https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js",
+  leafletCss: ["./vendor/leaflet.css", "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"],
+  leafletJs: ["./vendor/leaflet.js", "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"],
+  chartJs: ["./vendor/chart.umd.js", "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"],
+  visNetworkJs: ["./vendor/vis-network.min.js", "https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"],
 };
 
 /** 안전장치 — 실데이터 graph/nodes.json 은 134MiB 다. 무심코 받으면 브라우저가 죽는다. */
