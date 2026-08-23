@@ -26,6 +26,31 @@ const TABS = [
  */
 const FULL_REGION_INDEX = "api/neural_by_region_index.json";
 
+/** api/neural_eval.json 의 요약. loadEval() 이 채운다. 없으면 빈 값으로 남는다. */
+const EVAL_PATH = "api/neural_eval.json";
+const NEURAL_EVAL = { best: null, byModel: {}, method: null, ranking: [], loaded: false };
+
+/**
+ * 모델 평가 결과를 한 번만 읽는다.
+ *
+ * '모델 간 일치도 0' 만 보여주면 모델이 서로 다른 타당한 이웃을 고른 것인지,
+ * 일부가 사실상 무작위인지 구분되지 않는다. 무작위 기준선 대비 분야 일치율(lift)을
+ * 같이 보여야 판단할 수 있다. 생성기는 system/make_neural_eval.py.
+ */
+async function loadEval() {
+  if (NEURAL_EVAL.loaded) return NEURAL_EVAL;
+  NEURAL_EVAL.loaded = true;
+  try {
+    const env = await getJSON(EVAL_PATH);
+    const d = env.data || env;
+    NEURAL_EVAL.best = d.best_model || null;
+    NEURAL_EVAL.method = d.method || null;
+    NEURAL_EVAL.ranking = d.ranking || [];
+    for (const m of d.models || []) NEURAL_EVAL.byModel[m.model] = m;
+  } catch (e) { /* 평가 파일이 없으면 조용히 넘어간다 — 화면은 그대로 동작한다 */ }
+  return NEURAL_EVAL;
+}
+
 /* ------------------------------------------------------------------ *
  * 로더 — 없으면 null. 화면이 안내로 처리하고 죽지 않는다.
  * ------------------------------------------------------------------ */
@@ -86,8 +111,10 @@ export async function render(root, params, query = {}) {
   root.appendChild(loading("신경망 임베딩 색인을 불러오는 중…"));
 
   let idx;
-  try { idx = await loadIndex(); }
-  catch (e) { root.innerHTML = ""; root.appendChild(errorPanel(e, `${DIR}/index.json 로드 실패`)); return; }
+  try {
+    // 평가는 실패해도 화면이 도므로 색인과 함께 병렬로 받고 결과만 무시한다.
+    [idx] = await Promise.all([loadIndex(), loadEval()]);
+  } catch (e) { root.innerHTML = ""; root.appendChild(errorPanel(e, `${DIR}/index.json 로드 실패`)); return; }
 
   root.innerHTML = "";
   if (!idx) { root.appendChild(missingPanel()); return; }
@@ -290,15 +317,21 @@ function ordinanceBody(env, path) {
   };
   for (const n of names) {
     const m = models[n] || {};
-    const b = el("button", { class: "btn", text: `${n} (dim ${m.dim ?? "?"})`, onclick: () => pick(n) });
+    const ev = NEURAL_EVAL.byModel[n];
+    const liftTxt = ev && ev.lift != null ? `  분야 ${(ev.category_agreement * 100).toFixed(0)}% / 기준선 ${ev.lift}배` : "";
+    const b = el("button", { class: "btn", text: `${n} (dim ${m.dim ?? "?"})${liftTxt}`, onclick: () => pick(n) });
     mb.set(n, b);
     modelBar.appendChild(b);
   }
   const sec = section(`유사 조례 Top-${(d.method && d.method.top_k) || 10} — 모델 3종 비교`, modelBar, modelBody);
-  if (names.length) pick(names[0]);
+  // 기본 탭은 평가에서 가장 나은 모델로 연다(api/neural_eval.json 의 best_model).
+  // 평가 파일이 없으면 종전대로 첫 모델을 연다.
+  if (names.length) pick(names.includes(NEURAL_EVAL.best) ? NEURAL_EVAL.best : names[0]);
   else sec.appendChild(note("이 조례에 대한 모델 결과가 없습니다.", "warn"));
   wrap.appendChild(sec);
 
+  const ev = evalPanel();
+  if (ev) wrap.appendChild(ev);
   wrap.appendChild(agreementPanel(d));
   wrap.appendChild(methodPanel(d.method, env, path));
   return wrap;
@@ -348,6 +381,47 @@ function neighborTable(m, kind) {
       : ["순위", "코사인", "조례", "지자체", "제정일", "분류", "저장본 순위"],
     rows));
   return box;
+}
+
+/**
+ * 모델 평가 공시.
+ *
+ * 절대 정확도만 보여주면 오독한다 — 조례 다수가 C01(행정) 같은 흔한 분야를 갖고 있어
+ * 무작위로 이웃을 뽑아도 30%대가 나온다. 그래서 기준선을 나란히 놓고 배수(lift)를 본다.
+ */
+function evalPanel() {
+  const models = Object.values(NEURAL_EVAL.byModel);
+  if (!models.length) return null;
+  const m0 = NEURAL_EVAL.method || {};
+  const sec = section("모델 평가 — 이웃이 실제로 같은 분야인가",
+    note("표본 " + num(m0.sample) + "건 × top-" + (m0.top_k ?? 10)
+      + " 로 측정했다. 같은 후보 풀에서 이웃만 무작위로 바꾼 값이 기준선이고, "
+      + "배수가 1.0 이면 무작위와 구별되지 않는다는 뜻이다."));
+  const rows = models
+    .slice()
+    .sort((a, b) => (b.lift ?? 0) - (a.lift ?? 0))
+    .map((m) => [
+      m.model === NEURAL_EVAL.best
+        ? el("span", {}, el("b", { text: m.model }), document.createTextNode(" "),
+            badge("기본 선택", "badge-active"))
+        : m.model,
+      pct(m.category_agreement, 1),
+      pct(m.random_baseline, 1),
+      m.lift == null ? "—"
+        : el("span", { class: m.lift >= 1.2 ? "badge badge-active" : "badge badge-warn",
+                       text: `${m.lift.toFixed(2)}배` }),
+      m.region_spread_mean == null ? "—" : `${m.region_spread_mean} 곳`,
+      m.same_region_share == null ? "—" : pct(m.same_region_share, 1),
+      num(m.n_sources),
+    ]);
+  sec.appendChild(table(
+    ["모델", "분야 일치", "무작위 기준선", "기준선 대비", "이웃 지역 폭", "같은 지자체", "표본"], rows));
+  if (m0.caveat) sec.appendChild(note(m0.caveat));
+  sec.appendChild(note(
+    "'이웃 지역 폭' 은 top-10 이 몇 개 서로 다른 지자체에서 왔는지다. "
+    + "이 기능의 용도가 '다른 지자체는 이걸 어떻게 만들었나' 이므로 후보에서 같은 지자체는 제외한다 "
+    + "— '같은 지자체' 열이 0% 인 이유다. 같은 시·군의 다른 조례는 지역 상세 화면에서 본다.", "info"));
+  return sec;
 }
 
 function agreementPanel(d) {
@@ -739,7 +813,9 @@ function regionBody(env, peersRes, path) {
   };
   for (const n of names) {
     const m = models[n] || {};
-    const b = el("button", { class: "btn", text: `${n} (dim ${m.dim ?? "?"})`, onclick: () => pick(n) });
+    const ev = NEURAL_EVAL.byModel[n];
+    const liftTxt = ev && ev.lift != null ? `  분야 ${(ev.category_agreement * 100).toFixed(0)}% / 기준선 ${ev.lift}배` : "";
+    const b = el("button", { class: "btn", text: `${n} (dim ${m.dim ?? "?"})${liftTxt}`, onclick: () => pick(n) });
     mb.set(n, b);
     modelBar.appendChild(b);
   }
