@@ -118,7 +118,26 @@ code {
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
 }
-.panel-title { margin: 0 0 12px; font-size: 17px; }
+.panel-title-row {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 0 0 12px;
+}
+.panel-title { margin: 0; font-size: 17px; }
+.panel-qa {
+  border: 1px solid rgba(39, 112, 134, .18);
+  border-radius: 999px;
+  padding: 3px 8px;
+  background: rgba(255, 255, 255, .54);
+  color: #1f6475;
+  font: inherit;
+  font-size: 10.8px;
+  font-weight: 750;
+  cursor: pointer;
+  box-shadow: 0 5px 16px rgba(39, 68, 82, .07);
+}
+.panel-qa:hover {
+  background: rgba(226, 245, 247, .82);
+  border-color: rgba(39, 112, 134, .30);
+}
 .panel h3 { font-size: 14.5px; margin: 16px 0 8px; }
 .panel-error { border-color: #f3b8b1; background: var(--danger-soft); }
 .panel-warn { border-color: #f0d78c; background: var(--warn-soft); }

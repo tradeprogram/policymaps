@@ -24,6 +24,7 @@ SYSTEM_PROMPT = """너는 '자치법규 정책지도.agent'다. 자치법규 정
 - 데이터에 없는 내용은 추정하지 말고 '현재 화면 데이터로는 확인 불가'라고 말한다.
 - 답변은 발표자가 바로 읽을 수 있을 만큼 충분히 설명한다. 핵심 판단, 근거 수치, 주의할 한계, 다음 화면 행동을 함께 제안한다.
 - 정책 도입 질문에는 반드시 다음 흐름을 포함한다: 판정, 근거, 위험, 예산/실효성, 다음 확인.
+- panel_context가 있으면 해당 패널의 제목과 텍스트를 기준으로 초심자에게 용어와 읽는 법을 쉽게 설명한다.
 """
 
 ACTIONS = {
@@ -81,8 +82,9 @@ def run_agent(payload: dict) -> dict:
         "route": route,
         "data_mode": "mock" if manifest.get("_mock") else mode,
         "as_of_date": manifest.get("as_of_date"),
-        "intent": infer_intent(message, memory),
+        "intent": "panel_explain" if client_context.get("panel_context") else infer_intent(message, memory),
         "memory_used": bool(memory and (not infer_policy_keyword(message) or not explicit_region_mentioned(message, route))),
+        "panel_context": client_context.get("panel_context"),
         "region": None,
         "gap": None,
         "peers": None,
@@ -528,6 +530,10 @@ def local_answer(agent: dict) -> str:
     recs = gap.get("recommendations") or []
     matched = gap.get("matched_policy")
     keyword = ctx.get("policy_keyword")
+    panel_context = ctx.get("panel_context") or {}
+
+    if panel_context:
+        return panel_explanation(ctx, panel_context)
 
     if any(k in q for k in ("조문", "원문", "검색")):
         search = ctx.get("search") or {}
@@ -633,6 +639,57 @@ def adoption_grade(matched: dict | None, diffusion: dict | None) -> str:
     if score >= 2:
         return "보통"
     return "추가 확인 필요"
+
+
+def panel_explanation(ctx: dict, panel_context: dict) -> str:
+    title = panel_context.get("title") or "현재 패널"
+    text = panel_context.get("text") or ""
+    as_of = ctx.get("as_of_date") or "화면 표시 기준일"
+    route = panel_context.get("route") or ctx.get("route") or ""
+    lower = f"{title} {text} {route}".lower()
+
+    if "그래프 구성" in title:
+        return (
+            "판정: 이 패널은 법령 위계 그래프에 어떤 종류의 점과 선이 들어있는지 보여주는 안내판입니다. 처음 보는 사용자는 여기서 그래프가 '무엇으로 이루어져 있는가'를 먼저 이해하면 됩니다.\n\n"
+            "노드: Region은 지자체, Ordinance는 자치법규, LegalInstrument는 상위 법령, Bill은 의안, Legislator는 의원, Party는 정당, Category는 정책분야입니다. 즉 표 왼쪽은 그래프에 등장하는 대상의 종류이고, 오른쪽 숫자는 그 대상이 몇 개 있는지입니다.\n\n"
+            "엣지: HAS_ORDINANCE는 지자체가 조례를 가진 관계, DELEGATED_FROM/SUBORDINATE_TO는 조례가 상위법에 근거하는 관계, CITES는 인용 관계, PROPOSED_BY는 의안 발의자 관계, VOTED는 표결 관계입니다. 심사위원에게는 '조례를 법령·의안·예산·지역과 연결한 근거망'이라고 말하면 이해가 빠릅니다.\n\n"
+            "주의: 하단의 제외 엣지는 화면에 그리면 너무 복잡해지는 관계입니다. 제외됐다고 데이터가 없다는 뜻은 아니고, 이 화면에서 해석 가능한 관계만 보여주기 위해 필터링한 것입니다.\n\n"
+            f"기준일은 {as_of}입니다."
+        )
+    if "정책분야" in title:
+        return (
+            "판정: 이 패널은 조례가 어떤 정책분야에 많이 분포하는지 보여줍니다. 막대가 길수록 해당 분야의 조례가 더 많이 등장한다는 뜻입니다.\n\n"
+            "읽는 법: 행정·자치·의회, 재정·세무·회계, 복지·돌봄처럼 분야명이 붙어 있고, 괄호 안 코드는 내부 분류 코드입니다. 사용자는 코드를 외울 필요 없이 분야명과 상대적인 막대 길이를 보면 됩니다.\n\n"
+            "발표 표현: '이 지역 또는 번들에서 자치법규가 어느 정책영역에 집중되어 있는지 보여주는 분포도'라고 설명하면 됩니다. 단, 이 값은 전국 전체 점수가 아니라 화면에 표시된 shard 또는 사전계산 범위의 합산일 수 있으므로 범위 문구를 같이 봐야 합니다.\n\n"
+            f"기준일은 {as_of}입니다."
+        )
+    if "격차" in title or "유사" in title:
+        return (
+            "판정: 이 패널은 비슷한 지자체들이 갖고 있지만 기준 지자체에는 없는 조례 후보를 찾는 곳입니다. 실무자는 여기서 '우리도 검토할 만한 정책 후보'를 좁힐 수 있습니다.\n\n"
+            "읽는 법: 유사 지자체 보유 수가 많고 폐지 사례가 적은 후보일수록 선례 근거가 강합니다. 다만 폐지 조례는 추천 선례가 아니라 위험 신호로만 봐야 합니다.\n\n"
+            "발표 표현: '전화나 검색으로 찾던 유사 지자체 선례를 한 화면에서 후보화한다'고 말하면 좋습니다. 이후 확산 화면과 실효성 화면으로 넘어가 채택률과 예산 연결을 확인하면 판단이 더 단단해집니다.\n\n"
+            f"기준일은 {as_of}입니다."
+        )
+    if "예산" in title or "실효" in title or "연결" in title:
+        return (
+            "판정: 이 패널은 조례와 예산 세부사업이 실제로 연결되는지 보는 곳입니다. 조례가 선언에 그치는지, 예산 집행 근거까지 보이는지 확인하는 단계입니다.\n\n"
+            "읽는 법: verified=1은 확인됨으로 말할 수 있지만, 그 외 자동 연결은 confidence가 붙은 추정 연결입니다. 따라서 숫자가 크더라도 전부 확정 사실처럼 말하면 안 됩니다.\n\n"
+            "발표 표현: '조례와 예산의 연결 가능성을 보여주되, 확인됨과 추정 연결을 분리해 과장하지 않는다'고 말하면 정확성 기준에 맞습니다.\n\n"
+            f"기준일은 {as_of}입니다."
+        )
+    if "확산" in title or "채택" in title:
+        return (
+            "판정: 이 패널은 특정 조례가 전국 지자체로 얼마나 퍼졌는지 보는 곳입니다. 도입률과 연도별 채택 추이를 통해 정책이 초기 실험인지, 이미 보편화된 흐름인지 판단합니다.\n\n"
+            "읽는 법: 최종 채택률은 전체 지자체 중 해당 조례를 채택한 비율이고, 연도별 곡선은 언제부터 확산이 빨라졌는지 보여줍니다. 최초 채택 지자체는 선례 조사 출발점으로 쓰면 됩니다.\n\n"
+            "발표 표현: '구미시만의 감이 아니라 전국 채택 흐름에서 도입 타이밍을 판단한다'고 설명하면 좋습니다.\n\n"
+            f"기준일은 {as_of}입니다."
+        )
+    return (
+        f"판정: '{title}' 패널은 현재 화면의 데이터를 해석하기 위한 근거 패널입니다. 처음 쓰는 사용자는 제목, 표의 첫 번째 열, 숫자 열을 순서대로 보면 됩니다.\n\n"
+        "읽는 법: 숫자는 단독으로 결론을 내리는 값이 아니라 다른 패널의 선례, 폐지 여부, 예산 연결과 함께 보는 근거입니다. 표 안의 영문 코드나 내부 명칭은 원천 데이터 관계명을 보존한 것이므로, 발표에서는 쉬운 한국어로 풀어 말하는 편이 좋습니다.\n\n"
+        f"현재 패널에서 읽힌 일부 내용은 다음과 같습니다. {text[:260]}\n\n"
+        f"기준일은 {as_of}입니다."
+    )
 
 
 def infer_intent(question: str, memory: dict | None = None) -> str:

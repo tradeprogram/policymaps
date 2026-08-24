@@ -25,6 +25,7 @@ let input;
 let sendBtn;
 let statusLine;
 let lastHandoff = null;
+let panelEl;
 
 export function initAgent() {
   const launcher = el("button", { class: "ai-launcher", type: "button", title: "자치법규 정책지도.agent", text: "AI" });
@@ -43,9 +44,20 @@ export function initAgent() {
 
   document.body.appendChild(launcher);
   document.body.appendChild(panel);
+  panelEl = panel;
 
   launcher.addEventListener("click", () => panel.classList.add("open"));
   panel.querySelector(".ai-close").addEventListener("click", () => panel.classList.remove("open"));
+  window.addEventListener("agent:panel-question", (ev) => {
+    const detail = ev.detail || {};
+    const title = detail.title || "현재 패널";
+    panel.classList.add("open");
+    ask(`'${title}' 패널을 처음 쓰는 사람에게 쉽게 설명해줘. 어떤 수치를 봐야 하고, 발표에서는 어떻게 말하면 좋은지도 알려줘.`, {
+      title,
+      route: detail.route,
+      text: detail.text,
+    });
+  });
   const form = panel.querySelector("form");
   form.addEventListener("submit", async (ev) => {
     ev.preventDefault();
@@ -67,10 +79,10 @@ export function initAgent() {
     getQuickPrompts());
 }
 
-async function ask(text) {
+async function ask(text, panelContext = null) {
   addUser(text);
   setBusy(true);
-  const context = await buildContext(text);
+  const context = await buildContext(text, panelContext);
   const fallbackActions = suggestActions(text, context);
   try {
     const res = await fetch("/ai/chat", {
@@ -116,13 +128,14 @@ function shortError(message) {
   return s.length > 56 ? `${s.slice(0, 56)}...` : s;
 }
 
-async function buildContext(question) {
+async function buildContext(question, panelContext = null) {
   await loadManifest().catch(() => null);
   const ctx = {
     route: currentPath(),
     as_of_date: state.asOfDate,
     data_mode: state.isMock ? "mock" : "real",
     agent_memory: lastHandoff,
+    panel_context: panelContext,
     rules: [
       "조례-예산은 verified=1만 확인됨, 나머지는 추정 연결로 표현",
       "폐지 조례는 선례로 추천 금지",

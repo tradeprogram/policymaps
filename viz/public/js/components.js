@@ -125,10 +125,30 @@ export function statCard(label, value, sub) {
 }
 
 export function section(title, ...children) {
-  return el("section", { class: "panel" },
-    title ? el("h2", { class: "panel-title", text: title }) : null,
-    ...children
-  );
+  const panel = el("section", { class: "panel" });
+  if (title) {
+    const qa = el("button", {
+      class: "panel-qa",
+      type: "button",
+      title: "이 패널을 챗봇에게 설명시키기",
+      text: "Q&A",
+      onclick: () => {
+        window.dispatchEvent(new CustomEvent("agent:panel-question", {
+          detail: {
+            title: String(title),
+            route: window.location.hash.replace(/^#/, "") || "/dashboard",
+            text: panel.textContent.replace(/\s+/g, " ").trim().slice(0, 900),
+          },
+        }));
+      },
+    });
+    panel.appendChild(el("div", { class: "panel-title-row" },
+      el("h2", { class: "panel-title", text: title }),
+      qa
+    ));
+  }
+  panel.append(...children.filter(Boolean));
+  return panel;
 }
 
 export function note(text, kind = "") {
