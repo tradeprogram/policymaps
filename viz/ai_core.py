@@ -175,7 +175,7 @@ def call_gemini(payload: dict, agent: dict) -> dict:
         "agent_context": agent["context"],
         "tool_trace": agent["tool_trace"],
         "recent_history": (payload.get("history") or [])[-8:],
-        "output_format": "한국어 순수 텍스트. 2~4개 짧은 문단, 300자 이내. 자연스러운 대화체로 쓴다. '판정:', '근거:', '위험:' 같은 고정 머리말 없이 흐르듯 이어지게. 마크다운 기호 금지.",
+        "output_format": "한국어 순수 텍스트. 5~8개 문단, 약 900~1300자 분량. 자연스러운 대화체로 쓴다. '판정:', '근거:', '위험:' 같은 고정 머리말 없이 흐르듯 이어지게. 마크다운 기호 금지.",
     }
     req_body = {
         "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
