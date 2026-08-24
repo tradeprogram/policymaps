@@ -50,7 +50,7 @@ export async function render(root, params, query = {}) {
     for (const t of tabs) {
       const active = t.key === tab;
       bar.appendChild(el("button", {
-        class: "btn lifecycle-tab", "aria-pressed": active ? "true" : "false",
+        class: "btn view-tab", "aria-pressed": active ? "true" : "false",
         text: t.label,
         onclick: () => { if (!active) { tab = t.key; show(); } },
       }));

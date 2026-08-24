@@ -166,9 +166,8 @@ export async function render(root, params, query = {}) {
     for (const t of tabs) {
       const active = t.key === mode;
       bar.appendChild(el("button", {
-        class: "btn",
+        class: "btn view-tab",
         "aria-pressed": active ? "true" : "false",
-        style: active ? "background:var(--brand);color:#fff;border-color:var(--brand);font-weight:600" : null,
         text: t.label,
         onclick: () => { if (!active) { mode = t.key; key = null; show(); } },
       }));
