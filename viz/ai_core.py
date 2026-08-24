@@ -10,7 +10,7 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_MODEL = "gemini-3.7-flash"
+DEFAULT_MODEL = "gemini-3.6-flash"
 GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
 
 SYSTEM_PROMPT = """너는 '자치법규 정책지도.agent'다. 자치법규 정책지도 사이트 안에서 지자체 실무자의 의사결정을 돕는다.
@@ -98,7 +98,7 @@ def run_agent(payload: dict) -> dict:
 
     if "gap" in plan:
         env = read_json(base / "api" / "gap.json")
-        ctx["gap"] = summarize_gap(env, sig)
+        ctx["gap"] = summarize_gap(env, sig, ctx["policy_keyword"])
         record("load_gap_fixture", "ok" if ctx["gap"] else "missing", f"sig_cd={sig}")
         if ctx["gap"]:
             evidence.append({"title": f"{ctx['gap'].get('target') or sig} 격차분석", "kind": "gap", "as_of_date": ctx["gap"].get("as_of_date")})
@@ -413,3 +413,138 @@ def extract_text(data: dict) -> str:
     block = (data.get("promptFeedback") or {}).get("blockReason")
     hint = f"finishReason={reason}" + (f", blockReason={block}" if block else "")
     return f"AI 응답 본문이 비어 있습니다 ({hint})."
+
+
+# The definitions below intentionally shadow the first-pass helpers above. They
+# keep the demo useful when Gemini is unavailable and avoid repeating one generic
+# answer for every policy question.
+def infer_policy_keyword(question: str) -> str | None:
+    q = question or ""
+    for kw in ("맨발걷기", "청년 월세", "출산장려", "반려동물", "미세먼지"):
+        if kw in q:
+            return kw
+    m = re.search(r"([가-힣A-Za-z0-9 ]{2,24})(?:\s*조례|\s*정책|\s*지원|\s*근거)", q)
+    return m.group(1).strip() if m else None
+
+
+def plan_tools(question: str) -> list[str]:
+    q = question.lower()
+    plan = ["gap", "peers"]
+    if any(k in q for k in ("확산", "채택", "추세", "s곡선", "맨발")):
+        plan.append("diffusion")
+    if any(k in q for k in ("예산", "실효", "집행", "근거", "맨발")):
+        plan.append("effectiveness")
+    if any(k in q for k in ("검색", "조문", "원문", "법령", "근거")):
+        plan.append("search")
+    return list(dict.fromkeys(plan))
+
+
+def _text_has(text, keyword: str | None) -> bool:
+    if not keyword:
+        return False
+    return keyword.replace(" ", "") in str(text or "").replace(" ", "")
+
+
+def summarize_gap(env: dict | None, sig: str, policy_keyword: str | None = None):
+    d = pick_fixture_data(env, sig)
+    if not d:
+        return None
+    raw_recs = d.get("recommendations") or []
+    matched = [
+        r for r in raw_recs
+        if _text_has(r.get("policy_key"), policy_keyword)
+        or any(_text_has(p.get("ordinance_name"), policy_keyword) for p in (r.get("peers") or []))
+    ]
+    ranked = (matched + [r for r in raw_recs if r not in matched])[:8]
+
+    def pack(r: dict) -> dict:
+        return {
+            "policy": r.get("policy_key"),
+            "peer_count": r.get("peer_count"),
+            "peer_share": r.get("peer_share"),
+            "repealed_peer_count": r.get("repealed_peer_count") or 0,
+            "likely_variant_of_mine": bool(r.get("likely_variant_of_mine")),
+            "active_examples": [
+                f"{p.get('name')} {p.get('ordinance_name') or ''}".strip()
+                for p in (r.get("peers") or [])[:3]
+            ],
+        }
+
+    return {
+        "target": (d.get("target") or {}).get("name"),
+        "peer_pool_size": d.get("peer_pool_size"),
+        "my_policy_count": d.get("my_policy_count"),
+        "matched_policy": pack(matched[0]) if matched else None,
+        "recommendations": [pack(r) for r in ranked],
+        "repealed_candidates": [
+            pack(r) for r in raw_recs
+            if (r.get("repealed_peer_count") or 0) > 0
+        ][:5],
+        "as_of_date": (env or {}).get("as_of_date"),
+    }
+
+
+def local_answer(agent: dict) -> str:
+    ctx = agent["context"]
+    q = ctx.get("question") or ""
+    target = (ctx.get("gap") or {}).get("target") or (ctx.get("region") or {}).get("name") or "선택 지자체"
+    as_of = ctx.get("as_of_date") or "화면 표시 기준일"
+    gap = ctx.get("gap") or {}
+    recs = gap.get("recommendations") or []
+    matched = gap.get("matched_policy")
+    keyword = ctx.get("policy_keyword")
+
+    if any(k in q for k in ("조문", "원문", "검색")):
+        search = ctx.get("search") or {}
+        query = search.get("query")
+        if keyword and query and not _text_has(query, keyword):
+            return (
+                f"현재 정적 검색 fixture는 '{query}' 기준이라 '{keyword}' 조문 원문은 이 화면 데이터만으로는 확인하기 어렵습니다.\n\n"
+                "발표에서는 검색 화면에서 같은 키워드로 재조회하거나, RAG 인덱스가 재생성된 환경에서 원문 근거를 붙이는 흐름으로 설명하는 편이 정확합니다.\n\n"
+                f"기준일은 {as_of}입니다."
+            )
+        results = search.get("results") or []
+        if results:
+            lines = [f"{r.get('name') or r.get('org')}: {r.get('article') or '조문 제목 확인'}" for r in results[:3]]
+            return f"검색 fixture에서 확인된 조문 후보입니다.\n\n" + "\n".join(lines) + f"\n\n기준일은 {as_of}입니다."
+        return f"현재 화면 데이터에는 조문 원문 검색 결과가 없습니다. 검색 화면 또는 RAG 재색인 환경에서 확인해야 합니다.\n\n기준일은 {as_of}입니다."
+
+    if any(k in q for k in ("없는 정책", "많이 갖고", "후보", "추천")) and recs:
+        lines = []
+        for r in recs[:3]:
+            lines.append(f"{r.get('policy')}: 유사 지자체 {r.get('peer_count')}곳 보유, 폐지 사례 {r.get('repealed_peer_count')}곳")
+        return (
+            f"{target} 기준으로 유사 지자체에는 많고 우리 지역에는 없는 상위 후보는 다음과 같습니다.\n\n"
+            + "\n".join(lines)
+            + f"\n\n폐지 조례는 선례로 추천하지 않고 경고 신호로만 봐야 합니다. 기준일은 {as_of}입니다."
+        )
+
+    if keyword:
+        parts = [f"{target} 기준 '{keyword}' 분석입니다."]
+        if matched:
+            parts.append(
+                f"격차분석에서 '{matched.get('policy')}' 후보가 잡혔고, 유사 지자체 {matched.get('peer_count')}곳이 보유하며 폐지 사례는 {matched.get('repealed_peer_count')}곳입니다."
+            )
+            examples = matched.get("active_examples") or []
+            if examples:
+                parts.append("선례 예시는 " + ", ".join(examples[:3]) + "입니다.")
+        elif recs:
+            parts.append(f"격차분석 상위 후보에는 '{keyword}'가 직접 잡히지 않았습니다. 따라서 다른 후보와 섞어 말하지 않는 편이 정확합니다.")
+        diff = ctx.get("diffusion")
+        if diff:
+            parts.append(f"확산 화면 기준 '{diff.get('template')}' 최종 채택률은 {percent(diff.get('final_adoption_rate'))}입니다.")
+        eff = ctx.get("effectiveness")
+        if eff:
+            parts.append(f"조례-예산 연결은 {eff.get('link_count')}건입니다. verified=1만 확인됨이고 나머지는 추정 연결로 말해야 합니다.")
+        parts.append(f"기준일은 {as_of}입니다.")
+        return "\n\n".join(parts)
+
+    parts = [f"{target} 기준으로 정책 도구 {len(agent['tool_trace'])}개를 확인했습니다."]
+    if recs:
+        top = recs[0]
+        parts.append(f"가장 강한 격차 후보는 '{top.get('policy')}'이며 유사 지자체 {top.get('peer_count')}곳이 보유, 폐지 사례는 {top.get('repealed_peer_count')}곳입니다.")
+    eff = ctx.get("effectiveness")
+    if eff:
+        parts.append(f"예산 연결은 {eff.get('link_count')}건입니다. verified=1만 확인됨이고 나머지는 추정 연결입니다.")
+    parts.append(f"기준일은 {as_of}입니다.")
+    return "\n\n".join(parts)
