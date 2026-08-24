@@ -175,7 +175,7 @@ def call_gemini(payload: dict, agent: dict) -> dict:
         "agent_context": agent["context"],
         "tool_trace": agent["tool_trace"],
         "recent_history": (payload.get("history") or [])[-8:],
-        "output_format": "한국어 순수 텍스트. 보통 5~8개 짧은 문단, 약 900~1300자 분량으로 답한다. 정책 도입 질문은 '판정:', '근거:', '위험:', '예산/실효성:', '다음 확인:' 문단을 포함한다. 마크다운 기호는 쓰지 않는다.",
+        "output_format": "한국어 순수 텍스트. 2~4개 짧은 문단, 300자 이내. 자연스러운 대화체로 쓴다. '판정:', '근거:', '위험:' 같은 고정 머리말 없이 흐르듯 이어지게. 마크다운 기호 금지.",
     }
     req_body = {
         "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
