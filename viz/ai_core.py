@@ -22,7 +22,7 @@ SYSTEM_PROMPT = """너는 '자치법규 정책지도.agent'다. 자치법규 정
 - 폐지 조례는 선례로 추천하지 않는다. 폐지 사례는 위험 신호로만 설명한다.
 - 수치 판단에는 as_of_date 기준을 함께 언급한다.
 - 데이터에 없는 내용은 추정하지 말고 '현재 화면 데이터로는 확인 불가'라고 말한다.
-- 답변은 짧고 실행 중심으로 쓴다. 가능한 다음 화면 행동을 제안한다.
+- 답변은 발표자가 바로 읽을 수 있을 만큼 충분히 설명한다. 핵심 판단, 근거 수치, 주의할 한계, 다음 화면 행동을 함께 제안한다.
 """
 
 ACTIONS = {
@@ -148,7 +148,7 @@ def call_gemini(payload: dict, agent: dict) -> dict:
         "agent_context": agent["context"],
         "tool_trace": agent["tool_trace"],
         "recent_history": (payload.get("history") or [])[-8:],
-        "output_format": "핵심만 담은 짧은 한국어. 3~4문장 또는 2~3개 짧은 문단. 마크다운 기호 없이 순수 텍스트.",
+        "output_format": "한국어 순수 텍스트. 보통 5~8개 짧은 문단, 약 900~1300자 분량으로 답한다. 첫 문단은 결론, 중간 문단은 근거 수치와 비교 선례, 마지막 문단은 주의사항과 다음 화면 행동을 담는다. 마크다운 기호는 쓰지 않는다.",
     }
     req_body = {
         "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
@@ -539,6 +539,9 @@ def local_answer(agent: dict) -> str:
         eff = ctx.get("effectiveness")
         if eff:
             parts.append(f"조례-예산 연결은 {eff.get('link_count')}건입니다. verified=1만 확인됨이고 나머지는 추정 연결로 말해야 합니다.")
+        parts.append("판정 흐름은 먼저 격차분석에서 유사 지자체 보유 여부와 폐지 사례를 확인하고, 그 다음 확산 화면에서 전국 채택률과 확산 단계를 본 뒤, 실효성 화면에서 예산 연결의 신뢰도를 확인하는 순서가 좋습니다.")
+        parts.append("주의할 점은 조례-예산 연결을 확정 사실로 말하면 안 된다는 것입니다. verified=1은 확인됨으로 말할 수 있지만, 그 밖의 연결은 confidence 등급이 붙은 추정 연결로만 설명해야 합니다.")
+        parts.append("다음 행동은 '격차분석 실행' 버튼으로 선례 조례를 먼저 보고, 이어서 '확산곡선 확인'과 '예산 연결 확인'을 눌러 발표 근거를 보강하는 것입니다.")
         parts.append(f"기준일은 {as_of}입니다.")
         return "\n\n".join(parts)
 
