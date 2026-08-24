@@ -429,13 +429,18 @@ pre.err {
 .ai-msg {
   max-width: 92%; margin-bottom: 10px; padding: 10px 12px; border-radius: 14px;
   font-size: 12.8px; line-height: 1.55; box-shadow: 0 8px 20px rgba(39, 68, 82, .07);
+  overflow-wrap: anywhere;
 }
 .ai-msg p { margin: 0 0 7px; }
 .ai-msg p:last-child { margin-bottom: 0; }
 .ai-user {
+  width: fit-content;
+  max-width: min(86%, 420px);
   margin-left: auto; color: #fff;
   background: linear-gradient(135deg, var(--brand), #3a8b9c);
-  border-bottom-right-radius: 5px;
+  border-radius: 999px;
+  border-bottom-right-radius: 8px;
+  padding: 9px 16px;
 }
 .ai-assistant {
   background: rgba(255, 255, 255, .70); color: var(--ink);
