@@ -4,10 +4,10 @@ import { go, currentPath } from "./router.js";
 import { state, loadManifest, loadRegionIndex, loadRegion, loadFixture } from "./api.js";
 
 const QUICK_PROMPTS = [
-  "구미시 맨발걷기 조례 도입 가능성을 분석해줘",
-  "유사 지자체가 가진 정책 중 우리에게 없는 후보를 요약해줘",
-  "폐지 사례가 있는 위험 후보만 찾아줘",
-  "예산 연결 근거가 있는 정책을 발표용으로 설명해줘",
+  { label: "구미시 맨발걷기 분석", prompt: "구미시 맨발걷기 조례 도입 가능성을 분석해줘" },
+  { label: "없는 정책 후보", prompt: "유사 지자체가 가진 정책 중 우리에게 없는 후보를 요약해줘" },
+  { label: "폐지 위험 확인", prompt: "폐지 사례가 있는 위험 후보만 찾아줘" },
+  { label: "예산 근거 정리", prompt: "예산 연결 근거가 있는 정책을 발표용으로 설명해줘" },
 ];
 
 const ACTIONS = [
@@ -64,7 +64,7 @@ export function initAgent() {
 
   addAssistant(
     "무엇을 볼까요? 저는 현재 화면과 정책도구 결과를 읽고, 필요한 화면으로 이동하면서 근거를 정리합니다.",
-    QUICK_PROMPTS.map((q) => ({ label: q, prompt: q })));
+    getQuickPrompts());
 }
 
 async function ask(text) {
@@ -376,6 +376,49 @@ function appendMeta(box, meta = {}) {
         text: `${s.status === "ok" ? "✓" : "!"} ${s.label}`,
       }))));
   }
+  appendSuggestedQuestions(box, handoff?.suggested_questions);
+}
+
+function appendSuggestedQuestions(box, questions) {
+  const items = Array.isArray(questions) && questions.length
+    ? questions
+    : getQuickPrompts().map((q) => q.prompt);
+  if (!items.length) return;
+  box.appendChild(el("div", { class: "ai-suggest" },
+    el("span", { class: "ai-suggest-title", text: "다음 질문" }),
+    ...items.slice(0, 3).map((q) => el("button", {
+      class: "ai-suggest-btn",
+      type: "button",
+      text: q,
+      onclick: () => ask(q),
+    }))));
+}
+
+function getQuickPrompts() {
+  const route = currentPath();
+  const policy = lastHandoff?.policy_keyword || "맨발걷기";
+  if (route.startsWith("/gap")) {
+    return [
+      { label: "상위 후보 판정", prompt: "이 후보들 중 발표에서 가장 설득력 있는 정책을 골라줘" },
+      { label: "폐지 위험", prompt: `${policy} 폐지 사례와 위험 신호를 확인해줘` },
+      { label: "예산 확인", prompt: `${policy} 예산 연결까지 이어서 확인해줘` },
+    ];
+  }
+  if (route.startsWith("/diffusion")) {
+    return [
+      { label: "도입률 해석", prompt: `${policy} 확산 단계와 도입률을 발표용으로 해석해줘` },
+      { label: "격차 근거", prompt: `${policy} 격차분석 근거와 연결해서 설명해줘` },
+      { label: "실효성 확인", prompt: `${policy} 예산 근거까지 이어서 확인해줘` },
+    ];
+  }
+  if (route.startsWith("/effectiveness")) {
+    return [
+      { label: "예산 신뢰도", prompt: `${policy} 예산 연결의 확인됨과 추정 연결을 구분해줘` },
+      { label: "발표 문장", prompt: `${policy} 조례 도입 근거를 발표 문장으로 정리해줘` },
+      { label: "주의점", prompt: "심사에서 오해받을 수 있는 표현을 걸러줘" },
+    ];
+  }
+  return QUICK_PROMPTS;
 }
 
 function appendEvidenceCards(box, evidence, handoff) {

@@ -23,6 +23,7 @@ SYSTEM_PROMPT = """너는 '자치법규 정책지도.agent'다. 자치법규 정
 - 수치 판단에는 as_of_date 기준을 함께 언급한다.
 - 데이터에 없는 내용은 추정하지 말고 '현재 화면 데이터로는 확인 불가'라고 말한다.
 - 답변은 발표자가 바로 읽을 수 있을 만큼 충분히 설명한다. 핵심 판단, 근거 수치, 주의할 한계, 다음 화면 행동을 함께 제안한다.
+- 정책 도입 질문에는 반드시 다음 흐름을 포함한다: 판정, 근거, 위험, 예산/실효성, 다음 확인.
 """
 
 ACTIONS = {
@@ -172,7 +173,7 @@ def call_gemini(payload: dict, agent: dict) -> dict:
         "agent_context": agent["context"],
         "tool_trace": agent["tool_trace"],
         "recent_history": (payload.get("history") or [])[-8:],
-        "output_format": "한국어 순수 텍스트. 보통 5~8개 짧은 문단, 약 900~1300자 분량으로 답한다. 첫 문단은 결론, 중간 문단은 근거 수치와 비교 선례, 마지막 문단은 주의사항과 다음 화면 행동을 담는다. 마크다운 기호는 쓰지 않는다.",
+        "output_format": "한국어 순수 텍스트. 보통 5~8개 짧은 문단, 약 900~1300자 분량으로 답한다. 정책 도입 질문은 '판정:', '근거:', '위험:', '예산/실효성:', '다음 확인:' 문단을 포함한다. 마크다운 기호는 쓰지 않는다.",
     }
     req_body = {
         "systemInstruction": {"parts": [{"text": SYSTEM_PROMPT}]},
@@ -544,60 +545,94 @@ def local_answer(agent: dict) -> str:
         return f"현재 화면 데이터에는 조문 원문 검색 결과가 없습니다. 검색 화면 또는 RAG 재색인 환경에서 확인해야 합니다.\n\n기준일은 {as_of}입니다."
 
     if any(k in q for k in ("없는 정책", "많이 갖고", "후보", "추천")) and recs:
-        lines = []
-        for r in recs[:3]:
-            lines.append(f"{r.get('policy')}: 유사 지자체 {r.get('peer_count')}곳 보유, 폐지 사례 {r.get('repealed_peer_count')}곳")
+        lines = [
+            f"{r.get('policy')}: 유사 지자체 {r.get('peer_count')}곳 보유, 폐지 사례 {r.get('repealed_peer_count')}곳"
+            for r in recs[:3]
+        ]
+        top = recs[0]
         return (
-            f"{target} 기준으로 유사 지자체에는 많고 우리 지역에는 없는 상위 후보는 다음과 같습니다.\n\n"
+            f"판정: {target} 기준으로 우선 검토할 후보는 '{top.get('policy')}'입니다. 유사 지자체 보유 수가 가장 크고, 폐지 사례가 적을수록 발표에서 선례 근거로 쓰기 좋습니다.\n\n"
+            "근거: 상위 후보는 다음과 같습니다.\n"
             + "\n".join(lines)
-            + f"\n\n폐지 조례는 선례로 추천하지 않고 경고 신호로만 봐야 합니다. 기준일은 {as_of}입니다."
+            + "\n\n위험: 폐지 조례는 선례로 추천하지 않고 위험 신호로만 봐야 합니다. 폐지 사례가 있는 후보는 현행 조례 선례와 분리해서 말해야 합니다."
+            + "\n\n다음 확인: 격차분석에서 후보 카드를 먼저 확인한 뒤, 확산 화면에서 전국 채택률을 보고 실효성 화면에서 예산 연결 신뢰도를 확인하는 순서가 좋습니다."
+            + f"\n\n기준일은 {as_of}입니다."
         )
 
     if "폐지" in q and keyword and matched:
         repealed = matched.get("repealed_peer_count") or 0
         examples = matched.get("active_examples") or []
         parts = [
-            f"{target} 기준 '{keyword}' 후보의 폐지 사례는 {repealed}곳입니다.",
-            f"격차분석에서 잡힌 후보는 '{matched.get('policy')}'이고, 유사 지자체 {matched.get('peer_count')}곳이 현행 조례로 보유하고 있습니다.",
+            f"판정: {target} 기준 '{keyword}' 후보의 폐지 위험은 현재 fixture 기준 {'낮음' if repealed == 0 else '확인 필요'}입니다.",
+            f"근거: 격차분석에서 잡힌 후보는 '{matched.get('policy')}'이고, 유사 지자체 {matched.get('peer_count')}곳이 현행 조례로 보유하고 있습니다.",
+            f"위험: 폐지 사례는 {repealed}곳입니다. 폐지 조례는 선례로 추천하지 않고 위험 신호로만 설명해야 합니다.",
         ]
         if examples:
             parts.append("현행 선례 예시는 " + ", ".join(examples[:3]) + "입니다.")
-        parts.append("폐지 조례가 있는 경우에는 선례로 추천하지 않고 위험 신호로만 봐야 합니다. 이 후보는 현재 fixture 기준 폐지 사례가 0곳이라 발표에서는 '폐지 위험 신호는 확인되지 않음'으로 말할 수 있습니다.")
+        parts.append("다음 확인: 폐지 사례가 0곳이라면 발표에서는 '폐지 위험 신호는 확인되지 않음'으로 말하고, 이어서 확산률과 예산 연결을 확인하면 됩니다.")
         parts.append(f"기준일은 {as_of}입니다.")
         return "\n\n".join(parts)
 
     if keyword:
-        parts = [f"{target} 기준 '{keyword}' 분석입니다."]
+        grade = adoption_grade(matched, ctx.get("diffusion"))
+        parts = [f"판정: {target} 기준 '{keyword}' 조례 도입 가능성은 {grade}으로 볼 수 있습니다. 이 판정은 유사 지자체 보유 수, 폐지 사례, 전국 확산률, 예산 연결 신뢰도를 함께 본 실무 검토용 판단입니다."]
         if matched:
             parts.append(
-                f"격차분석에서 '{matched.get('policy')}' 후보가 잡혔고, 유사 지자체 {matched.get('peer_count')}곳이 보유하며 폐지 사례는 {matched.get('repealed_peer_count')}곳입니다."
+                f"근거: 격차분석에서 '{matched.get('policy')}' 후보가 잡혔고, 유사 지자체 {matched.get('peer_count')}곳이 보유하며 폐지 사례는 {matched.get('repealed_peer_count')}곳입니다."
             )
             examples = matched.get("active_examples") or []
             if examples:
-                parts.append("선례 예시는 " + ", ".join(examples[:3]) + "입니다.")
+                parts.append("선례: 현행 조례 예시는 " + ", ".join(examples[:3]) + "입니다. 이 예시는 폐지 조례가 아니라 현행 선례로만 설명해야 합니다.")
         elif recs:
-            parts.append(f"격차분석 상위 후보에는 '{keyword}'가 직접 잡히지 않았습니다. 따라서 다른 후보와 섞어 말하지 않는 편이 정확합니다.")
+            parts.append(f"근거: 격차분석 상위 후보에는 '{keyword}'가 직접 잡히지 않았습니다. 따라서 다른 후보와 섞어 말하지 않는 편이 정확합니다.")
         diff = ctx.get("diffusion")
         if diff:
-            parts.append(f"확산 화면 기준 '{diff.get('template')}' 최종 채택률은 {percent(diff.get('final_adoption_rate'))}입니다.")
+            parts.append(f"확산: 확산 화면 기준 '{diff.get('template')}' 최종 채택률은 {percent(diff.get('final_adoption_rate'))}입니다. 이 수치는 조례가 전국적으로 얼마나 보편화됐는지 보여주는 보조 근거입니다.")
         eff = ctx.get("effectiveness")
         if eff:
-            parts.append(f"조례-예산 연결은 {eff.get('link_count')}건입니다. verified=1만 확인됨이고 나머지는 추정 연결로 말해야 합니다.")
-        parts.append("판정 흐름은 먼저 격차분석에서 유사 지자체 보유 여부와 폐지 사례를 확인하고, 그 다음 확산 화면에서 전국 채택률과 확산 단계를 본 뒤, 실효성 화면에서 예산 연결의 신뢰도를 확인하는 순서가 좋습니다.")
-        parts.append("주의할 점은 조례-예산 연결을 확정 사실로 말하면 안 된다는 것입니다. verified=1은 확인됨으로 말할 수 있지만, 그 밖의 연결은 confidence 등급이 붙은 추정 연결로만 설명해야 합니다.")
-        parts.append("다음 행동은 '격차분석 실행' 버튼으로 선례 조례를 먼저 보고, 이어서 '확산곡선 확인'과 '예산 연결 확인'을 눌러 발표 근거를 보강하는 것입니다.")
+            parts.append(f"예산/실효성: 조례-예산 연결은 {eff.get('link_count')}건입니다. verified=1만 확인됨이고 나머지는 confidence 등급이 붙은 추정 연결로 말해야 합니다.")
+        parts.append("위험: 폐지 조례를 선례처럼 말하거나 조례-예산 연결을 확정 사실처럼 말하면 정확성 감점 요소가 됩니다. 폐지 사례는 위험 신호, 추정 연결은 추정 연결로 분리해야 합니다.")
+        parts.append("다음 확인: '격차분석 실행'으로 선례 조례를 먼저 보고, 이어서 '확산곡선 확인'과 '예산 연결 확인'을 눌러 발표 근거를 보강하는 흐름이 좋습니다.")
         parts.append(f"기준일은 {as_of}입니다.")
         return "\n\n".join(parts)
 
-    parts = [f"{target} 기준으로 정책 도구 {len(agent['tool_trace'])}개를 확인했습니다."]
+    parts = [f"판정: {target} 기준으로 정책 도구 {len(agent['tool_trace'])}개를 확인했습니다. 현재 질문이 특정 정책명을 포함하지 않아 상위 격차 후보 중심으로 요약합니다."]
     if recs:
         top = recs[0]
-        parts.append(f"가장 강한 격차 후보는 '{top.get('policy')}'이며 유사 지자체 {top.get('peer_count')}곳이 보유, 폐지 사례는 {top.get('repealed_peer_count')}곳입니다.")
+        parts.append(f"근거: 가장 강한 격차 후보는 '{top.get('policy')}'이며 유사 지자체 {top.get('peer_count')}곳이 보유, 폐지 사례는 {top.get('repealed_peer_count')}곳입니다.")
     eff = ctx.get("effectiveness")
     if eff:
-        parts.append(f"예산 연결은 {eff.get('link_count')}건입니다. verified=1만 확인됨이고 나머지는 추정 연결입니다.")
+        parts.append(f"예산/실효성: 예산 연결은 {eff.get('link_count')}건입니다. verified=1만 확인됨이고 나머지는 추정 연결입니다.")
+    parts.append("다음 확인: 정책명을 넣어 다시 질문하면 격차, 확산, 실효성 근거를 하나의 도입 판단으로 묶어 답할 수 있습니다.")
     parts.append(f"기준일은 {as_of}입니다.")
     return "\n\n".join(parts)
+
+
+def adoption_grade(matched: dict | None, diffusion: dict | None) -> str:
+    score = 0
+    if matched:
+        peer_count = matched.get("peer_count") or 0
+        repealed = matched.get("repealed_peer_count") or 0
+        if peer_count >= 10:
+            score += 2
+        elif peer_count >= 5:
+            score += 1
+        if repealed == 0:
+            score += 1
+    if diffusion:
+        rate = diffusion.get("final_adoption_rate")
+        try:
+            if float(rate) >= 0.5:
+                score += 2
+            elif float(rate) >= 0.25:
+                score += 1
+        except Exception:
+            pass
+    if score >= 4:
+        return "높음"
+    if score >= 2:
+        return "보통"
+    return "추가 확인 필요"
 
 
 def infer_intent(question: str, memory: dict | None = None) -> str:
@@ -730,4 +765,33 @@ def build_handoff(ctx: dict, plan: list[str], sig: str) -> dict:
         "as_of_date": ctx.get("as_of_date"),
         "steps": steps,
         "next": next((a for a in suggest_actions(plan, sig, ctx) if a.get("primary")), None),
+        "suggested_questions": suggest_followup_questions(ctx),
     }
+
+
+def suggest_followup_questions(ctx: dict) -> list[str]:
+    keyword = ctx.get("policy_keyword") or "맨발걷기"
+    intent = ctx.get("intent")
+    if intent == "gap_recommendation":
+        return [
+            f"{keyword} 폐지 사례와 위험 신호를 확인해줘",
+            f"{keyword} 전국 확산률까지 연결해서 설명해줘",
+            f"{keyword} 예산 연결 근거를 확인해줘",
+        ]
+    if intent == "effectiveness_review":
+        return [
+            "verified=1과 추정 연결을 발표 문장으로 구분해줘",
+            f"{keyword} 도입 판단을 한 문단으로 요약해줘",
+            "심사에서 오해받을 표현을 걸러줘",
+        ]
+    if intent == "evidence_search":
+        return [
+            f"{keyword} 선례 조례와 폐지 사례를 구분해줘",
+            f"{keyword} 조문 근거를 발표용으로 요약해줘",
+            f"{keyword} 예산 연결 근거도 이어서 확인해줘",
+        ]
+    return [
+        f"{keyword} 폐지 위험은 낮은지 확인해줘",
+        f"{keyword} 도입 근거를 발표용으로 정리해줘",
+        f"{keyword} 예산 연결의 신뢰도를 확인해줘",
+    ]
