@@ -424,27 +424,30 @@ pre.err {
   border: 0; background: rgba(255, 255, 255, .54); color: var(--ink-2);
   width: 28px; height: 28px; border-radius: 50%; cursor: pointer; font-size: 18px; line-height: 1;
 }
-.ai-body { flex: 1; overflow-y: auto; padding: 14px 14px 8px; }
+.ai-body { flex: 1; overflow-y: auto; padding: 14px 14px 8px; display: flex; flex-direction: column; gap: 8px; }
 .ai-msg {
-  max-width: 92%; margin-bottom: 10px; padding: 10px 12px; border-radius: 14px;
-  font-size: 12.8px; line-height: 1.55; box-shadow: 0 8px 20px rgba(39, 68, 82, .07);
-  overflow-wrap: anywhere;
+  max-width: 88%; padding: 10px 13px; border-radius: 16px;
+  font-size: 13px; line-height: 1.58;
+  overflow-wrap: anywhere; word-break: break-word;
 }
-.ai-msg p { margin: 0 0 7px; }
+.ai-msg p { margin: 0 0 6px; }
 .ai-msg p:last-child { margin-bottom: 0; }
 .ai-user {
-  width: fit-content;
-  max-width: min(86%, 420px);
-  margin-left: auto; color: #fff;
+  align-self: flex-end;
+  max-width: min(82%, 380px);
+  color: #fff;
   background: linear-gradient(135deg, var(--brand), #3a8b9c);
-  border-radius: 999px;
-  border-bottom-right-radius: 8px;
-  padding: 9px 16px;
+  border-radius: 18px 18px 4px 18px;
+  padding: 9px 15px;
+  box-shadow: 0 2px 8px rgba(39, 112, 134, .22);
+  font-size: 13px;
 }
 .ai-assistant {
+  align-self: flex-start;
+  max-width: 92%;
   background: rgba(255, 255, 255, .70); color: var(--ink);
   border: 1px solid rgba(255, 255, 255, .72);
-  border-bottom-left-radius: 5px;
+  border-radius: 4px 18px 18px 18px;
 }
 .ai-cursor {
   display: inline-block; width: 6px; height: 1.05em; vertical-align: -2px; margin-left: 1px;
@@ -487,8 +490,9 @@ pre.err {
   width: 100%; text-align: left; cursor: pointer;
   border: 1px solid rgba(39, 112, 134, .22);
   border-radius: 999px; padding: 7px 11px;
-  background: linear-gradient(135deg, rgba(31, 100, 117, .94), rgba(86, 164, 174, .88));
-  color: #fff; font: inherit; font-size: 11.5px; font-weight: 700;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, .64), rgba(226, 245, 247, .62));
+  color: #1f6475; font: inherit; font-size: 11.5px; font-weight: 650;
   box-shadow:
     0 7px 18px rgba(39, 68, 82, .07),
     inset 0 1px 0 rgba(255, 255, 255, .78);
@@ -496,9 +500,9 @@ pre.err {
   -webkit-backdrop-filter: blur(12px) saturate(1.15);
 }
 .ai-suggest-btn:hover {
-  color: #fff;
-  background: linear-gradient(135deg, rgba(27, 86, 103, .98), rgba(69, 145, 157, .94));
-  border-color: rgba(255, 255, 255, .58);
+  color: #1f6475;
+  background: rgba(226, 245, 247, .78);
+  border-color: rgba(39, 112, 134, .26);
   transform: translateY(-1px);
 }
 .ai-evidence-grid {
