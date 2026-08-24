@@ -476,16 +476,14 @@ pre.err {
 }
 .ai-suggest-btn {
   width: 100%; text-align: left; cursor: pointer;
-  border: 1px solid rgba(108, 123, 138, .16);
-  border-radius: 999px; padding: 6px 10px;
-  background: rgba(223, 246, 238, .62);
-  color: #176653; font: inherit; font-size: 11.5px; font-weight: 650;
+  border: 1px solid rgba(39, 112, 134, .16);
+  border-radius: 999px; padding: 6px 9px;
+  background: rgba(255, 255, 255, .54);
+  color: #244c55; font: inherit; font-size: 11.4px;
 }
 .ai-suggest-btn:hover {
-  color: #176653;
-  background: rgba(212, 242, 231, .84);
-  border-color: rgba(23, 102, 83, .24);
-  transform: translateY(-1px);
+  background: rgba(226, 245, 247, .78);
+  border-color: rgba(39, 112, 134, .26);
 }
 .ai-evidence-grid {
   display: grid; grid-template-columns: 1fr; gap: 6px; margin-top: 8px;
@@ -514,22 +512,18 @@ button.ai-evidence-card { cursor: pointer; font: inherit; }
 }
 .ai-next-card:hover { background: rgba(210, 237, 241, .86); }
 .ai-action {
-  border: 1px solid rgba(108, 123, 138, .16);
-  background: rgba(223, 246, 238, .62);
-  color: #176653;
+  border: 1px solid rgba(39, 112, 134, .20);
+  background: rgba(231, 244, 246, .72); color: #1c4c58;
   border-radius: 999px; padding: 5px 9px; font-size: 11.5px; cursor: pointer;
 }
 .ai-action[data-primary="true"] {
-  color: #176653;
-  border-color: rgba(23, 102, 83, .24);
-  background: rgba(223, 246, 238, .78);
+  color: #fff;
+  border-color: rgba(39, 112, 134, .42);
+  background: linear-gradient(135deg, rgba(39, 112, 134, .96), rgba(86, 164, 174, .90));
+  box-shadow: 0 8px 18px rgba(39, 112, 134, .18);
 }
-.ai-action:hover {
-  background: rgba(212, 242, 231, .84);
-  border-color: rgba(23, 102, 83, .24);
-  transform: translateY(-1px);
-}
-.ai-action[data-primary="true"]:hover { background: rgba(212, 242, 231, .88); }
+.ai-action:hover { background: rgba(210, 237, 241, .9); }
+.ai-action[data-primary="true"]:hover { background: linear-gradient(135deg, #216579, #4f9ca7); }
 .ai-form {
   padding: 10px 12px 12px; border-top: 1px solid rgba(108, 123, 138, .18);
   background: rgba(255, 255, 255, .36);
@@ -554,17 +548,9 @@ button.ai-evidence-card { cursor: pointer; font: inherit; }
 .ai-status { color: var(--ink-3); font-size: 11px; }
 .ai-send {
   border-radius: 999px;
-  padding: 7px 16px;
-  font-weight: 750;
-  border-color: rgba(39, 112, 134, .24);
-  background: linear-gradient(135deg, rgba(31, 100, 117, .96), rgba(86, 164, 174, .90));
-  color: #fff;
+  padding: 6px 13px;
 }
-.panel-qa:focus-visible,
-.btn:focus-visible,
-.ai-action:focus-visible,
-.ai-suggest-btn:focus-visible,
-.ai-send:focus-visible {
+.panel-qa:focus-visible {
   outline: none;
   box-shadow:
     0 0 0 3px rgba(39, 112, 134, .16),
