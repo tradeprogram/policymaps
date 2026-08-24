@@ -301,19 +301,22 @@ details.method { background: rgba(250, 251, 252, .78); border: 1px solid var(--l
 .btn:hover { background: #f4f8f9; border-color: rgba(39, 112, 134, .24); }
 .view-tab {
   border: 0;
+  outline: none;
   border-radius: 999px;
   padding: 6px 12px;
   box-shadow: none;
 }
 .view-tab[aria-pressed="true"] {
   border: 0;
+  outline: none;
   background: linear-gradient(135deg, var(--brand), #3a8b9c);
   color: #fff;
   font-weight: 600;
-  box-shadow: 0 8px 18px rgba(39, 112, 134, .22);
+  box-shadow: none;
 }
 .view-tab[aria-pressed="true"]:hover {
   background: linear-gradient(135deg, var(--brand), #3a8b9c);
+  box-shadow: none;
 }
 .btn-danger { border-color: #f3b8b1; background: var(--danger-soft); color: var(--danger); font-weight: 600; }
 .btn-link {
