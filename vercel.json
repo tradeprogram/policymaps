@@ -1,4 +1,18 @@
 {
+  "headers": [
+    {
+      "source": "/viz/public/js/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/viz/public/index.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
+      ]
+    }
+  ],
   "rewrites": [
     { "source": "/ai/chat", "destination": "/api/chat" }
   ],
