@@ -91,7 +91,7 @@ flowchart TB
     subgraph S5["⑤ 소비"]
         E1[웹 시각화 16화면]
         E2[MCP 서버 14 tools]
-        E3[AI 정책분석관]
+        E3[자치법규 정책지도.agent]
     end
     S1 --> S2 --> S3 --> S4 --> S5
 ```
@@ -250,7 +250,7 @@ policymaps/
 │   ├── vendor/            leaflet · chart.js · vis-network 내장(오프라인 대응)
 │   └── geo/               시군구·행정동 경계
 ├── viz/serve_full.py    완전판 서버 (DB 직결)
-├── viz/serve_ai.py      AI 정책분석관 프록시
+├── viz/serve_ai.py      자치법규 정책지도.agent 프록시
 ├── system/policymap/    파이썬 코어 (40파일 22,529줄)
 │   ├── collectors/        API 수집기 5종
 │   ├── parsers/           조문·분야·위임 파싱

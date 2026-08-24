@@ -348,7 +348,7 @@ pre.err {
   border-radius: 5px; font-size: 11.5px; overflow-x: auto; margin: 8px 0 0;
 }
 
-/* ---------- AI 정책분석관 ---------- */
+/* ---------- 자치법규 정책지도.agent ---------- */
 .ai-launcher {
   position: fixed; right: 22px; bottom: 22px; z-index: 1200;
   width: 54px; height: 54px; border-radius: 50%;
@@ -403,6 +403,14 @@ pre.err {
 @keyframes ai-blink { 50% { opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .ai-cursor { animation: none; } }
 .ai-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
+.ai-meta { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+.ai-meta-chip {
+  display: inline-flex; align-items: center;
+  max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  border: 1px solid rgba(108, 123, 138, .18);
+  background: rgba(255, 255, 255, .52);
+  color: var(--ink-3); border-radius: 999px; padding: 3px 8px; font-size: 10.8px;
+}
 .ai-action {
   border: 1px solid rgba(39, 112, 134, .20);
   background: rgba(231, 244, 246, .72); color: #1c4c58;

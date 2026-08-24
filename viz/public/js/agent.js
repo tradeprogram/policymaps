@@ -1,4 +1,4 @@
-// AI 정책분석관 — 화면 컨텍스트를 읽고 Gemini 프록시(/ai/chat)에 질의한다.
+// 자치법규 정책지도.agent — 화면 컨텍스트와 서버 도구 결과를 결합한다.
 import { el, num, pct, won, ymd } from "./util.js";
 import { go, currentPath } from "./router.js";
 import { state, loadManifest, loadRegionIndex, loadRegion, loadFixture } from "./api.js";
@@ -26,18 +26,18 @@ let sendBtn;
 let statusLine;
 
 export function initAgent() {
-  const launcher = el("button", { class: "ai-launcher", type: "button", title: "AI 정책분석관", text: "AI" });
-  const panel = el("aside", { class: "ai-panel", "aria-label": "AI 정책분석관" },
+  const launcher = el("button", { class: "ai-launcher", type: "button", title: "자치법규 정책지도.agent", text: "AI" });
+  const panel = el("aside", { class: "ai-panel", "aria-label": "자치법규 정책지도.agent" },
     el("div", { class: "ai-head" },
       el("div", {},
-        el("strong", { text: "AI 정책분석관" }),
-        el("span", { class: "ai-sub", text: "화면을 읽고 다음 분석으로 이동합니다" })),
+        el("strong", { text: "자치법규 정책지도.agent" }),
+        el("span", { class: "ai-sub", text: "정책도구를 실행하고 근거를 묶습니다" })),
       el("button", { class: "ai-close", type: "button", title: "닫기", text: "×" })),
     panelBody = el("div", { class: "ai-body" }),
     el("form", { class: "ai-form" },
       input = el("textarea", { class: "ai-input", rows: "2", placeholder: "예: 구미시 맨발걷기 조례 도입 근거를 정리해줘" }),
       el("div", { class: "ai-form-row" },
-        statusLine = el("span", { class: "ai-status", text: "Gemini 프록시 연결 시 AI 답변, 미연결 시 로컬 요약" }),
+        statusLine = el("span", { class: "ai-status", text: "Gemini 연결 시 에이전트 답변, 실패 시 로컬 요약" }),
         sendBtn = el("button", { class: "btn ai-send", type: "submit", text: "질문" }))));
 
   document.body.appendChild(launcher);
@@ -62,7 +62,7 @@ export function initAgent() {
   });
 
   addAssistant(
-    "무엇을 볼까요? 저는 현재 화면과 사전계산 데이터를 읽고, 필요한 화면으로 이동하면서 근거를 정리합니다.",
+    "무엇을 볼까요? 저는 현재 화면과 정책도구 결과를 읽고, 필요한 화면으로 이동하면서 근거를 정리합니다.",
     QUICK_PROMPTS.map((q) => ({ label: q, prompt: q })));
 }
 
@@ -70,7 +70,7 @@ async function ask(text) {
   addUser(text);
   setBusy(true);
   const context = await buildContext(text);
-  const actions = suggestActions(text, context);
+  const fallbackActions = suggestActions(text, context);
   try {
     const res = await fetch("/ai/chat", {
       method: "POST",
@@ -85,10 +85,13 @@ async function ask(text) {
     if (!res.ok) throw new Error(`AI 서버 HTTP ${res.status}`);
     const data = await res.json();
     if (data.error) throw new Error(data.detail || data.error);
-    addAssistant(data.answer || localAnswer(text, context), actions);
+    addAssistant(
+      data.answer || localAnswer(text, context),
+      normalizeActions(data.actions) || fallbackActions,
+      { evidence: data.evidence, toolTrace: data.tool_trace });
     statusLine.textContent = data.model ? `Gemini: ${data.model}` : "AI 답변 완료";
   } catch (e) {
-    addAssistant(localAnswer(text, context), actions);
+    addAssistant(localAnswer(text, context), fallbackActions);
     statusLine.textContent = `Gemini 오류 · 로컬 요약 (${shortError(e.message)})`;
   } finally {
     setBusy(false);
@@ -278,24 +281,36 @@ function suggestActions(question, ctx) {
   return base;
 }
 
+function normalizeActions(actions) {
+  if (!Array.isArray(actions) || !actions.length) return null;
+  return actions
+    .filter((a) => a && (a.path || a.prompt) && a.label)
+    .slice(0, 5)
+    .map((a) => ({ label: a.label, path: a.path, prompt: a.prompt }));
+}
+
 function addUser(text) {
   messages.push({ role: "user", text });
   panelBody.appendChild(el("div", { class: "ai-msg ai-user", text }));
   panelBody.scrollTop = panelBody.scrollHeight;
 }
 
-function addAssistant(text, actions = []) {
+function addAssistant(text, actions = [], meta = {}) {
   messages.push({ role: "assistant", text });
   const box = el("div", { class: "ai-msg ai-assistant" });
   panelBody.appendChild(box);
   const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   if (reduce) {
     renderParagraphs(box, text);
+    appendMeta(box, meta);
     appendActions(box, actions);
     panelBody.scrollTop = panelBody.scrollHeight;
     return;
   }
-  typeInto(box, String(text), () => appendActions(box, actions));
+  typeInto(box, String(text), () => {
+    appendMeta(box, meta);
+    appendActions(box, actions);
+  });
 }
 
 function renderParagraphs(box, text) {
@@ -312,6 +327,21 @@ function appendActions(box, actions) {
       onclick: () => (a.prompt ? ask(a.prompt) : go(a.path)),
     }))));
   panelBody.scrollTop = panelBody.scrollHeight;
+}
+
+function appendMeta(box, meta = {}) {
+  const evidence = Array.isArray(meta.evidence) ? meta.evidence : [];
+  const trace = Array.isArray(meta.toolTrace) ? meta.toolTrace : [];
+  if (!evidence.length && !trace.length) return;
+  const chips = [];
+  for (const ev of evidence.slice(0, 3)) {
+    chips.push(el("span", { class: "ai-meta-chip", text: `${ev.kind || "근거"} · ${ev.title || ""}` }));
+  }
+  if (trace.length) {
+    const ok = trace.filter((t) => t.status === "ok").length;
+    chips.push(el("span", { class: "ai-meta-chip", text: `도구 ${ok}/${trace.length}` }));
+  }
+  box.appendChild(el("div", { class: "ai-meta" }, chips));
 }
 
 // 답변을 단어 단위로 빠르게 흘려 쓴다(스트리밍 느낌). 문단(\n)은 <p> 로 유지한다.

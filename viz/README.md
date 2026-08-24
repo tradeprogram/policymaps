@@ -36,7 +36,7 @@ python -m http.server 8000
 
 > `file://` 로 직접 열면 브라우저가 `fetch` 를 차단해 아무것도 안 나온다. 반드시 HTTP 서버로 열어야 한다.
 
-### 1-1-A. AI 정책분석관까지 함께 띄우기
+### 1-1-A. 자치법규 정책지도.agent까지 함께 띄우기
 
 Gemini API 를 쓰는 발표용 실행법이다. API 키는 브라우저에 넣지 않고 로컬 프록시 서버가 환경변수에서만 읽는다.
 
@@ -47,7 +47,7 @@ python viz/serve_ai.py --port 8742
 ```
 
 - 접속: <http://127.0.0.1:8742/viz/public/index.html?src=real>
-- 우하단 `AI` 버튼을 누르면 정책분석관 패널이 열린다.
+- 우하단 `AI` 버튼을 누르면 `자치법규 정책지도.agent` 패널이 열린다.
 - `.env` 는 `.gitignore` 로 제외되어 GitHub 에 올라가지 않는다.
 - `GEMINI_API_KEY` 가 없거나 일반 `python -m http.server` 로 띄운 경우에도 로컬 요약 모드로 동작한다.
 
