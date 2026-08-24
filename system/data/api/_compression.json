@@ -4,8 +4,8 @@
   "reader": "viz/public/js/api.js getJSONFromBase() — Content-Encoding 이 없으면 매직바이트를 보고 DecompressionStream 으로 푼다",
   "generator": "system/tools_compress_api.py",
   "state": "compressed",
-  "files": 4992,
-  "total_bytes": 85148690,
+  "files": 4991,
+  "total_bytes": 85203719,
   "json_plain": 20,
   "json_gz": 4971
 }
