@@ -56,17 +56,17 @@ export async function render(root, params, query) {
     if (my !== token) return;
     body.innerHTML = "";
     if (!res.data) { body.appendChild(fixtureMissingPanel("search", res.error)); return; }
-    renderBody(body, res.data, res.env, res, entries.length);
+    renderBody(body, res.data, res.env, res, entries.length, query);
   }
 
   await draw(initial);
 }
 
-function renderBody(root, d, env, res, catalogSize) {
+function renderBody(root, d, env, res, catalogSize, query = {}) {
   const all = d.results || [];
 
   const input = el("input", {
-    type: "search", class: "search-input", value: "",
+    type: "search", class: "search-input", value: (query && query.live) ? String(query.live) : "",
     placeholder: "결과 내 필터 (조례명·조문·기관)",
   });
   const counter = el("span", { class: "muted" });

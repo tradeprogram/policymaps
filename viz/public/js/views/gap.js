@@ -113,7 +113,7 @@ export async function render(root, params = {}, query = {}) {
     if (pRes.data) { renderPeers(body, pRes.data, pRes.env, pRes); }
     else body.appendChild(notPrecomputedPanel({ kind: "peers", sig, name: nameOf(sig), tried: pRes.tried || [] }));
 
-    if (gRes.data) { await renderGap(body, gRes.data, gRes.env, gRes); }
+    if (gRes.data) { await renderGap(body, gRes.data, gRes.env, gRes, query.policy); }
     else body.appendChild(notPrecomputedPanel({ kind: "gap", sig, name: nameOf(sig), tried: gRes.tried || [] }));
   }
 
@@ -236,7 +236,7 @@ function indicatorRows(ind) {
 
 /* ---------------- 격차분석 ---------------- */
 
-async function renderGap(root, d, env, res) {
+async function renderGap(root, d, env, res, focusPolicy = "") {
   const t = d.target || {};
   const recs = d.recommendations || [];
 
@@ -284,8 +284,19 @@ async function renderGap(root, d, env, res) {
   }
 
   // 카드 목록
+  const focusNeedle = normFocus(focusPolicy);
+  let focusCard = null;
   const list = el("div", { class: "gap-list" });
-  for (const r of recs) list.appendChild(gapCard(r));
+  for (const r of recs) {
+    const focused = focusNeedle && normFocus(r.policy_key).includes(focusNeedle);
+    const card = gapCard(r, focused);
+    if (focused && !focusCard) focusCard = card;
+    list.appendChild(card);
+  }
+  if (focusCard) {
+    sec.appendChild(note(`agent가 요청한 정책 후보 「${focusPolicy}」를 강조했습니다.`));
+    setTimeout(() => focusCard.scrollIntoView({ block: "center", behavior: "smooth" }), 120);
+  }
   sec.appendChild(list);
 
   // 차트
@@ -324,9 +335,9 @@ function kv(label, value, kind = "") {
     el("div", { class: "stat-value", text: value }));
 }
 
-function gapCard(r) {
+function gapCard(r, focused = false) {
   const repealed = r.repealed_peer_count || 0;
-  const card = el("div", { class: `card ${repealed ? "card-caution" : ""}` });
+  const card = el("div", { class: `card ${repealed ? "card-caution" : ""} ${focused ? "card-agent-focus" : ""}` });
 
   card.appendChild(el("div", { class: "card-head" },
     el("h3", { class: "card-title", text: r.policy_key }),
@@ -366,4 +377,8 @@ function gapCard(r) {
   ));
 
   return card;
+}
+
+function normFocus(s) {
+  return String(s || "").replace(/\s+/g, "").toLowerCase();
 }

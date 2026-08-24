@@ -364,6 +364,7 @@ function appendMeta(box, meta = {}) {
     chips.push(el("span", { class: "ai-meta-chip", text: `도구 ${ok}/${trace.length}` }));
   }
   box.appendChild(el("div", { class: "ai-meta" }, chips));
+  appendEvidenceCards(box, evidence, handoff);
   if (handoff?.steps?.length) {
     box.appendChild(el("div", { class: "ai-plan" },
       ...handoff.steps.slice(0, 5).map((s) => el("span", {
@@ -371,6 +372,30 @@ function appendMeta(box, meta = {}) {
         text: `${s.status === "ok" ? "✓" : "!"} ${s.label}`,
       }))));
   }
+}
+
+function appendEvidenceCards(box, evidence, handoff) {
+  const cards = [];
+  for (const ev of evidence.slice(0, 3)) {
+    cards.push(el("div", { class: "ai-evidence-card" },
+      el("span", { class: "ai-evidence-kind", text: ev.kind || "근거" }),
+      el("strong", { text: ev.title || "근거 데이터" }),
+      ev.as_of_date ? el("span", { class: "ai-evidence-date", text: `기준 ${String(ev.as_of_date).slice(0, 10)}` }) : null
+    ));
+  }
+  if (handoff?.next) {
+    cards.push(el("button", {
+      class: "ai-evidence-card ai-next-card",
+      type: "button",
+      title: handoff.next.description || handoff.next.label,
+      onclick: () => go(handoff.next.path),
+    },
+      el("span", { class: "ai-evidence-kind", text: "다음 실행" }),
+      el("strong", { text: handoff.next.label }),
+      handoff.next.description ? el("span", { class: "ai-evidence-date", text: handoff.next.description }) : null
+    ));
+  }
+  if (cards.length) box.appendChild(el("div", { class: "ai-evidence-grid" }, cards));
 }
 
 // 답변을 단어 단위로 빠르게 흘려 쓴다(스트리밍 느낌). 문단(\n)은 <p> 로 유지한다.
