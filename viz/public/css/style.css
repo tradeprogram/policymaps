@@ -127,7 +127,7 @@ code {
   align-items: center;
   justify-content: center;
   min-height: 25px;
-  border: 1px solid rgba(39, 112, 134, .26);
+  border: 0;
   border-radius: 999px;
   padding: 4px 10px;
   background: linear-gradient(135deg, rgba(31, 100, 117, .96), rgba(86, 164, 174, .90));
@@ -145,7 +145,6 @@ code {
 .panel-qa:hover {
   color: #fff;
   background: linear-gradient(135deg, rgba(27, 86, 103, .98), rgba(69, 145, 157, .94));
-  border-color: rgba(255, 255, 255, .58);
   transform: translateY(-1px);
 }
 .panel h3 { font-size: 14.5px; margin: 16px 0 8px; }
