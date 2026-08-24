@@ -65,11 +65,14 @@ def handle_chat(payload: dict) -> dict:
 def run_agent(payload: dict) -> dict:
     message = str(payload.get("message", ""))[:3000]
     route = str(payload.get("route") or "")
-    mode = ((payload.get("context") or {}).get("data_mode") or "real").lower()
+    client_context = payload.get("context") or {}
+    memory = client_context.get("agent_memory") or {}
+    mode = (client_context.get("data_mode") or "real").lower()
     base = data_root(mode)
     manifest = read_json(base / "manifest.json") or {}
-    sig = infer_region(message, route, payload.get("context") or {})
+    sig = infer_region(message, route, client_context)
     plan = plan_tools(message)
+    policy_keyword = infer_policy_keyword(message) or memory.get("policy_keyword")
     tool_trace: list[dict] = []
     evidence: list[dict] = []
     ctx = {
@@ -77,14 +80,15 @@ def run_agent(payload: dict) -> dict:
         "route": route,
         "data_mode": "mock" if manifest.get("_mock") else mode,
         "as_of_date": manifest.get("as_of_date"),
-        "intent": infer_intent(message),
+        "intent": infer_intent(message, memory),
+        "memory_used": bool(memory and (not infer_policy_keyword(message) or not explicit_region_mentioned(message, route))),
         "region": None,
         "gap": None,
         "peers": None,
         "diffusion": None,
         "effectiveness": None,
         "search": None,
-        "policy_keyword": infer_policy_keyword(message),
+        "policy_keyword": policy_keyword,
         "rules": [
             "verified=1만 확인됨",
             "나머지 조례-예산 연결은 추정 연결",
@@ -104,7 +108,12 @@ def run_agent(payload: dict) -> dict:
         ctx["gap"] = summarize_gap(env, sig, ctx["policy_keyword"])
         record("load_gap_fixture", "ok" if ctx["gap"] else "missing", f"sig_cd={sig}")
         if ctx["gap"]:
-            evidence.append({"title": f"{ctx['gap'].get('target') or sig} 격차분석", "kind": "gap", "as_of_date": ctx["gap"].get("as_of_date")})
+            evidence.append({
+                "title": f"{ctx['gap'].get('target') or sig} 격차분석",
+                "kind": "gap",
+                "summary": gap_evidence_summary(ctx["gap"]),
+                "as_of_date": ctx["gap"].get("as_of_date"),
+            })
 
     if "peers" in plan:
         env = read_json(base / "api" / "peers.json")
@@ -116,21 +125,36 @@ def run_agent(payload: dict) -> dict:
         ctx["diffusion"] = summarize_diffusion(env)
         record("load_diffusion_fixture", "ok" if ctx["diffusion"] else "missing")
         if ctx["diffusion"]:
-            evidence.append({"title": f"{ctx['diffusion'].get('template')} 확산", "kind": "diffusion", "as_of_date": ctx["diffusion"].get("as_of_date")})
+            evidence.append({
+                "title": f"{ctx['diffusion'].get('template')} 확산",
+                "kind": "diffusion",
+                "summary": diffusion_evidence_summary(ctx["diffusion"]),
+                "as_of_date": ctx["diffusion"].get("as_of_date"),
+            })
 
     if "effectiveness" in plan:
         env = read_json(base / "api" / "effectiveness.json")
         ctx["effectiveness"] = summarize_effectiveness(env)
         record("load_effectiveness_fixture", "ok" if ctx["effectiveness"] else "missing")
         if ctx["effectiveness"]:
-            evidence.append({"title": "조례-예산 실효성", "kind": "effectiveness", "as_of_date": ctx["effectiveness"].get("as_of_date")})
+            evidence.append({
+                "title": "조례-예산 실효성",
+                "kind": "effectiveness",
+                "summary": effectiveness_evidence_summary(ctx["effectiveness"]),
+                "as_of_date": ctx["effectiveness"].get("as_of_date"),
+            })
 
     if "search" in plan:
         env = read_json(base / "api" / "search.json")
         ctx["search"] = summarize_search(env)
         record("load_search_fixture", "ok" if ctx["search"] else "missing")
         if ctx["search"]:
-            evidence.append({"title": f"검색: {ctx['search'].get('query')}", "kind": "search", "as_of_date": ctx["search"].get("as_of_date")})
+            evidence.append({
+                "title": f"검색: {ctx['search'].get('query')}",
+                "kind": "search",
+                "summary": search_evidence_summary(ctx["search"]),
+                "as_of_date": ctx["search"].get("as_of_date"),
+            })
 
     actions = suggest_actions(plan, sig, ctx)
     return {"context": ctx, "actions": actions, "evidence": evidence[:5], "tool_trace": tool_trace, "handoff": build_handoff(ctx, plan, sig)}
@@ -208,7 +232,14 @@ def infer_region(question: str, route: str, client_context: dict) -> str:
         return m.group(1)
     sig = (((client_context or {}).get("region") or {}).get("sig_cd")
            or ((client_context or {}).get("gap") or {}).get("target_sig_cd"))
-    return str(sig or "47190")
+    if sig:
+        return str(sig)
+    memory_sig = ((client_context or {}).get("agent_memory") or {}).get("region_sig_cd")
+    return str(memory_sig or "47190")
+
+
+def explicit_region_mentioned(question: str, route: str) -> bool:
+    return bool(re.search(r"구미|47190", question or "") or re.search(r"/region/\d+", route or ""))
 
 
 def infer_policy_keyword(question: str) -> str | None:
@@ -522,6 +553,19 @@ def local_answer(agent: dict) -> str:
             + f"\n\n폐지 조례는 선례로 추천하지 않고 경고 신호로만 봐야 합니다. 기준일은 {as_of}입니다."
         )
 
+    if "폐지" in q and keyword and matched:
+        repealed = matched.get("repealed_peer_count") or 0
+        examples = matched.get("active_examples") or []
+        parts = [
+            f"{target} 기준 '{keyword}' 후보의 폐지 사례는 {repealed}곳입니다.",
+            f"격차분석에서 잡힌 후보는 '{matched.get('policy')}'이고, 유사 지자체 {matched.get('peer_count')}곳이 현행 조례로 보유하고 있습니다.",
+        ]
+        if examples:
+            parts.append("현행 선례 예시는 " + ", ".join(examples[:3]) + "입니다.")
+        parts.append("폐지 조례가 있는 경우에는 선례로 추천하지 않고 위험 신호로만 봐야 합니다. 이 후보는 현재 fixture 기준 폐지 사례가 0곳이라 발표에서는 '폐지 위험 신호는 확인되지 않음'으로 말할 수 있습니다.")
+        parts.append(f"기준일은 {as_of}입니다.")
+        return "\n\n".join(parts)
+
     if keyword:
         parts = [f"{target} 기준 '{keyword}' 분석입니다."]
         if matched:
@@ -556,17 +600,53 @@ def local_answer(agent: dict) -> str:
     return "\n\n".join(parts)
 
 
-def infer_intent(question: str) -> str:
+def infer_intent(question: str, memory: dict | None = None) -> str:
     q = question or ""
     if any(k in q for k in ("조문", "원문", "검색", "근거 찾아")):
         return "evidence_search"
-    if any(k in q for k in ("없는 정책", "많이 갖고", "후보", "추천")):
+    if any(k in q for k in ("폐지", "위험", "없는 정책", "많이 갖고", "후보", "추천")):
         return "gap_recommendation"
     if any(k in q for k in ("예산", "실효", "집행", "효과")):
         return "effectiveness_review"
     if any(k in q for k in ("확산", "채택", "추세", "도입률", "s곡선", "맨발")):
         return "adoption_analysis"
+    if memory and memory.get("policy_keyword") and len(q.strip()) <= 20:
+        return memory.get("intent") or "policy_brief"
     return "policy_brief"
+
+
+def gap_evidence_summary(gap: dict | None) -> str | None:
+    if not gap:
+        return None
+    m = gap.get("matched_policy")
+    if m:
+        return f"유사 {m.get('peer_count')}곳 보유 · 폐지 {m.get('repealed_peer_count')}곳"
+    recs = gap.get("recommendations") or []
+    if recs:
+        top = recs[0]
+        return f"상위 후보 {top.get('policy')} · 유사 {top.get('peer_count')}곳"
+    return None
+
+
+def diffusion_evidence_summary(diff: dict | None) -> str | None:
+    if not diff:
+        return None
+    rate = percent(diff.get("final_adoption_rate"))
+    adopters = diff.get("adopters")
+    universe = diff.get("universe")
+    return f"최종 채택률 {rate}" + (f" · {adopters}/{universe}곳" if adopters is not None and universe else "")
+
+
+def effectiveness_evidence_summary(eff: dict | None) -> str | None:
+    if not eff:
+        return None
+    return f"예산 연결 {eff.get('link_count')}건 · verified {eff.get('verified_links')}건"
+
+
+def search_evidence_summary(search: dict | None) -> str | None:
+    if not search:
+        return None
+    return f"사전계산 질의 '{search.get('query')}' · 결과 {search.get('count')}건"
 
 
 def _path(path: str, **query) -> str:

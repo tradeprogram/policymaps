@@ -450,6 +450,9 @@ button.ai-evidence-card { cursor: pointer; font: inherit; }
 .ai-evidence-date {
   color: var(--ink-3); font-size: 10.6px;
 }
+.ai-evidence-summary {
+  color: #1c4c58; font-size: 10.8px; font-weight: 650;
+}
 .ai-next-card {
   border-color: rgba(39, 112, 134, .28);
   background: rgba(226, 245, 247, .70);

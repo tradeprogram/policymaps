@@ -24,6 +24,7 @@ let panelBody;
 let input;
 let sendBtn;
 let statusLine;
+let lastHandoff = null;
 
 export function initAgent() {
   const launcher = el("button", { class: "ai-launcher", type: "button", title: "자치법규 정책지도.agent", text: "AI" });
@@ -85,6 +86,7 @@ async function ask(text) {
     if (!res.ok) throw new Error(`AI 서버 HTTP ${res.status}`);
     const data = await res.json();
     if (data.answer) {
+      if (data.handoff) lastHandoff = data.handoff;
       addAssistant(
         data.answer,
         normalizeActions(data.actions) || fallbackActions,
@@ -95,6 +97,7 @@ async function ask(text) {
       return;
     }
     if (data.error) throw new Error(data.detail || data.error);
+    if (data.handoff) lastHandoff = data.handoff;
     addAssistant(
       data.answer || localAnswer(text, context),
       normalizeActions(data.actions) || fallbackActions,
@@ -119,6 +122,7 @@ async function buildContext(question) {
     route: currentPath(),
     as_of_date: state.asOfDate,
     data_mode: state.isMock ? "mock" : "real",
+    agent_memory: lastHandoff,
     rules: [
       "조례-예산은 verified=1만 확인됨, 나머지는 추정 연결로 표현",
       "폐지 조례는 선례로 추천 금지",
@@ -380,6 +384,7 @@ function appendEvidenceCards(box, evidence, handoff) {
     cards.push(el("div", { class: "ai-evidence-card" },
       el("span", { class: "ai-evidence-kind", text: ev.kind || "근거" }),
       el("strong", { text: ev.title || "근거 데이터" }),
+      ev.summary ? el("span", { class: "ai-evidence-summary", text: ev.summary }) : null,
       ev.as_of_date ? el("span", { class: "ai-evidence-date", text: `기준 ${String(ev.as_of_date).slice(0, 10)}` }) : null
     ));
   }
