@@ -88,7 +88,7 @@ async function ask(text) {
       addAssistant(
         data.answer,
         normalizeActions(data.actions) || fallbackActions,
-        { evidence: data.evidence, toolTrace: data.tool_trace });
+        { evidence: data.evidence, toolTrace: data.tool_trace, handoff: data.handoff });
       statusLine.textContent = data.error
         ? `Gemini 오류 · 서버 요약 (${shortError(data.detail || data.error)})`
         : (data.model ? `Gemini: ${data.model}` : "AI 응답 완료");
@@ -98,7 +98,7 @@ async function ask(text) {
     addAssistant(
       data.answer || localAnswer(text, context),
       normalizeActions(data.actions) || fallbackActions,
-      { evidence: data.evidence, toolTrace: data.tool_trace });
+      { evidence: data.evidence, toolTrace: data.tool_trace, handoff: data.handoff });
     statusLine.textContent = data.model ? `Gemini: ${data.model}` : "AI 답변 완료";
   } catch (e) {
     addAssistant(localAnswer(text, context), fallbackActions);
@@ -296,7 +296,14 @@ function normalizeActions(actions) {
   return actions
     .filter((a) => a && (a.path || a.prompt) && a.label)
     .slice(0, 5)
-    .map((a) => ({ label: a.label, path: a.path, prompt: a.prompt }));
+    .map((a) => ({
+      label: a.label,
+      path: a.path,
+      prompt: a.prompt,
+      kind: a.kind,
+      primary: a.primary === true,
+      description: a.description,
+    }));
 }
 
 function addUser(text) {
@@ -332,6 +339,8 @@ function appendActions(box, actions) {
   box.appendChild(el("div", { class: "ai-actions" },
     ...actions.map((a) => el("button", {
       class: "ai-action",
+      "data-primary": a.primary ? "true" : null,
+      title: a.description || a.label,
       type: "button",
       text: a.label,
       onclick: () => (a.prompt ? ask(a.prompt) : go(a.path)),
@@ -342,8 +351,11 @@ function appendActions(box, actions) {
 function appendMeta(box, meta = {}) {
   const evidence = Array.isArray(meta.evidence) ? meta.evidence : [];
   const trace = Array.isArray(meta.toolTrace) ? meta.toolTrace : [];
-  if (!evidence.length && !trace.length) return;
+  const handoff = meta.handoff && typeof meta.handoff === "object" ? meta.handoff : null;
+  if (!evidence.length && !trace.length && !handoff) return;
   const chips = [];
+  if (handoff?.intent) chips.push(el("span", { class: "ai-meta-chip ai-meta-intent", text: `intent · ${handoff.intent}` }));
+  if (handoff?.policy_keyword) chips.push(el("span", { class: "ai-meta-chip", text: `정책 · ${handoff.policy_keyword}` }));
   for (const ev of evidence.slice(0, 3)) {
     chips.push(el("span", { class: "ai-meta-chip", text: `${ev.kind || "근거"} · ${ev.title || ""}` }));
   }
@@ -352,6 +364,13 @@ function appendMeta(box, meta = {}) {
     chips.push(el("span", { class: "ai-meta-chip", text: `도구 ${ok}/${trace.length}` }));
   }
   box.appendChild(el("div", { class: "ai-meta" }, chips));
+  if (handoff?.steps?.length) {
+    box.appendChild(el("div", { class: "ai-plan" },
+      ...handoff.steps.slice(0, 5).map((s) => el("span", {
+        class: `ai-plan-step ${s.status === "ok" ? "ok" : "miss"}`,
+        text: `${s.status === "ok" ? "✓" : "!"} ${s.label}`,
+      }))));
+  }
 }
 
 // 답변을 단어 단위로 빠르게 흘려 쓴다(스트리밍 느낌). 문단(\n)은 <p> 로 유지한다.

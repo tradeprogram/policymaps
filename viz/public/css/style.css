@@ -411,12 +411,35 @@ pre.err {
   background: rgba(255, 255, 255, .52);
   color: var(--ink-3); border-radius: 999px; padding: 3px 8px; font-size: 10.8px;
 }
+.ai-meta-intent {
+  color: #1b6172;
+  border-color: rgba(39, 112, 134, .24);
+  background: rgba(226, 245, 247, .68);
+}
+.ai-plan {
+  display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px;
+}
+.ai-plan-step {
+  display: inline-flex; align-items: center; gap: 4px;
+  border-radius: 999px; padding: 3px 8px; font-size: 10.8px;
+  border: 1px solid rgba(108, 123, 138, .16);
+  background: rgba(255, 255, 255, .46); color: var(--ink-3);
+}
+.ai-plan-step.ok { color: #176653; background: rgba(223, 246, 238, .62); }
+.ai-plan-step.miss { color: #8a5b00; background: rgba(255, 244, 214, .70); }
 .ai-action {
   border: 1px solid rgba(39, 112, 134, .20);
   background: rgba(231, 244, 246, .72); color: #1c4c58;
   border-radius: 999px; padding: 5px 9px; font-size: 11.5px; cursor: pointer;
 }
+.ai-action[data-primary="true"] {
+  color: #fff;
+  border-color: rgba(39, 112, 134, .42);
+  background: linear-gradient(135deg, rgba(39, 112, 134, .96), rgba(86, 164, 174, .90));
+  box-shadow: 0 8px 18px rgba(39, 112, 134, .18);
+}
 .ai-action:hover { background: rgba(210, 237, 241, .9); }
+.ai-action[data-primary="true"]:hover { background: linear-gradient(135deg, #216579, #4f9ca7); }
 .ai-form {
   padding: 10px 12px 12px; border-top: 1px solid rgba(108, 123, 138, .18);
   background: rgba(255, 255, 255, .36);

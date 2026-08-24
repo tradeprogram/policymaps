@@ -12,7 +12,7 @@ import { ensureChart } from "../vendor.js";
 /** 완료판정 시나리오(구미시)를 기본으로 노출하고, 없으면 사전계산된 첫 곳으로 */
 const PREFERRED = ["47190", "11110"];
 
-export async function render(root) {
+export async function render(root, params = {}, query = {}) {
   root.appendChild(loading("전국 지자체 목록을 불러오는 중…"));
 
   let cat;
@@ -60,7 +60,9 @@ export async function render(root) {
     return;
   }
 
-  const initial = PREFERRED.find((cd) => covered.has(cd))
+  const querySig = query && query.sig ? String(query.sig) : null;
+  const initial = (querySig && (covered.has(querySig) || seen.has(querySig)) ? querySig : null)
+    || PREFERRED.find((cd) => covered.has(cd))
     || [...covered][0]
     || PREFERRED.find((cd) => seen.has(cd))
     || items[0].sig_cd;
@@ -76,6 +78,9 @@ export async function render(root) {
     onChange: (sig) => { draw(sig); },
   });
   root.appendChild(picker);
+  if (query && query.policy) {
+    root.appendChild(note(`agent 정책 키워드: ${query.policy}`));
+  }
   root.appendChild(el("div", { class: "as-of", text:
     `전국 ${cat.items.length}곳 선택 가능`
     + (cat.hasApiIndex ? ` · 사전계산 ${covered.size}곳 (api/index.json)` : "")

@@ -6,6 +6,7 @@ import json
 import os
 import re
 from pathlib import Path
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 
@@ -51,6 +52,7 @@ def handle_chat(payload: dict) -> dict:
         "actions": agent["actions"],
         "evidence": agent["evidence"],
         "tool_trace": agent["tool_trace"],
+        "handoff": agent.get("handoff"),
     }
     if model:
         out["model"] = model
@@ -75,6 +77,7 @@ def run_agent(payload: dict) -> dict:
         "route": route,
         "data_mode": "mock" if manifest.get("_mock") else mode,
         "as_of_date": manifest.get("as_of_date"),
+        "intent": infer_intent(message),
         "region": None,
         "gap": None,
         "peers": None,
@@ -129,8 +132,8 @@ def run_agent(payload: dict) -> dict:
         if ctx["search"]:
             evidence.append({"title": f"검색: {ctx['search'].get('query')}", "kind": "search", "as_of_date": ctx["search"].get("as_of_date")})
 
-    actions = suggest_actions(plan, sig)
-    return {"context": ctx, "actions": actions, "evidence": evidence[:5], "tool_trace": tool_trace}
+    actions = suggest_actions(plan, sig, ctx)
+    return {"context": ctx, "actions": actions, "evidence": evidence[:5], "tool_trace": tool_trace, "handoff": build_handoff(ctx, plan, sig)}
 
 
 def call_gemini(payload: dict, agent: dict) -> dict:
@@ -548,3 +551,100 @@ def local_answer(agent: dict) -> str:
         parts.append(f"예산 연결은 {eff.get('link_count')}건입니다. verified=1만 확인됨이고 나머지는 추정 연결입니다.")
     parts.append(f"기준일은 {as_of}입니다.")
     return "\n\n".join(parts)
+
+
+def infer_intent(question: str) -> str:
+    q = question or ""
+    if any(k in q for k in ("조문", "원문", "검색", "근거 찾아")):
+        return "evidence_search"
+    if any(k in q for k in ("없는 정책", "많이 갖고", "후보", "추천")):
+        return "gap_recommendation"
+    if any(k in q for k in ("예산", "실효", "집행", "효과")):
+        return "effectiveness_review"
+    if any(k in q for k in ("확산", "채택", "추세", "도입률", "s곡선", "맨발")):
+        return "adoption_analysis"
+    return "policy_brief"
+
+
+def _path(path: str, **query) -> str:
+    clean = {k: v for k, v in query.items() if v is not None and v != ""}
+    return path + (("?" + urlencode(clean)) if clean else "")
+
+
+def suggest_actions(plan: list[str], sig: str, ctx: dict | None = None) -> list[dict]:
+    ctx = ctx or {}
+    keyword = ctx.get("policy_keyword")
+    intent = ctx.get("intent") or "policy_brief"
+    matched = ((ctx.get("gap") or {}).get("matched_policy") or {}).get("policy") or keyword
+    actions = []
+
+    def add(label: str, path: str, kind: str, primary: bool = False, description: str | None = None) -> None:
+        actions.append({
+            "label": label,
+            "path": path,
+            "kind": kind,
+            "primary": primary,
+            "description": description,
+        })
+
+    add("격차분석 실행", _path("/gap", sig=sig, policy=matched), "gap",
+        primary=intent in ("gap_recommendation", "adoption_analysis"),
+        description="유사 지자체 보유 후보와 폐지 위험을 확인")
+    if "diffusion" in plan or keyword:
+        add("확산곡선 확인", _path("/diffusion", key=keyword), "diffusion",
+            primary=intent == "adoption_analysis",
+            description="전국 채택률과 확산 단계 확인")
+    if "effectiveness" in plan or keyword:
+        add("예산 연결 확인", _path("/effectiveness", sig=sig, policy=matched), "effectiveness",
+            primary=intent == "effectiveness_review",
+            description="verified=1과 추정 연결을 구분")
+    if "search" in plan or intent == "evidence_search":
+        add("조문 원문 검색", _path("/search", live=keyword or ctx.get("question")), "search",
+            primary=intent == "evidence_search",
+            description="원문/RAG 검색 화면으로 이동")
+    add("지역 상세", f"/region/{sig}", "region", description="지역 지표와 보유 조례 확인")
+
+    primary_seen = False
+    out = []
+    for action in actions:
+        key = (action["label"], action["path"])
+        if key in {(x["label"], x["path"]) for x in out}:
+            continue
+        if action.get("primary"):
+            if primary_seen:
+                action["primary"] = False
+            primary_seen = True
+        out.append(action)
+    return out[:5]
+
+
+def build_handoff(ctx: dict, plan: list[str], sig: str) -> dict:
+    labels = {
+        "gap": "격차분석",
+        "peers": "유사 지자체",
+        "diffusion": "정책 확산",
+        "effectiveness": "조례-예산 실효성",
+        "search": "조문 검색",
+    }
+    steps = []
+    for tool in plan:
+        status = "ok"
+        if tool == "gap" and not ctx.get("gap"):
+            status = "missing"
+        elif tool == "peers" and not ctx.get("peers"):
+            status = "missing"
+        elif tool == "diffusion" and not ctx.get("diffusion"):
+            status = "missing"
+        elif tool == "effectiveness" and not ctx.get("effectiveness"):
+            status = "missing"
+        elif tool == "search" and not ctx.get("search"):
+            status = "missing"
+        steps.append({"label": labels.get(tool, tool), "status": status})
+    return {
+        "intent": ctx.get("intent"),
+        "region_sig_cd": sig,
+        "policy_keyword": ctx.get("policy_keyword"),
+        "as_of_date": ctx.get("as_of_date"),
+        "steps": steps,
+        "next": next((a for a in suggest_actions(plan, sig, ctx) if a.get("primary")), None),
+    }

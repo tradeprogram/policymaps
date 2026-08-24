@@ -8,13 +8,15 @@ import { section, table, note, loading, asOfLine, badge,
 import { catalogSelector, notPrecomputedPanel, sourceLine } from "../nationwide.js";
 import { ensureChart } from "../vendor.js";
 
-export async function render(root) {
+export async function render(root, params = {}, query = {}) {
   root.appendChild(loading("정책 목록을 불러오는 중…"));
   const entries = await loadCatalog("diffusion");
   root.innerHTML = "";
 
+  const queryKey = query && query.key ? String(query.key) : null;
+  const initialKey = pickInitialEntry(entries, queryKey);
   const picker = catalogSelector({
-    entries, current: entries.length ? entries[0].key : null,
+    entries, current: initialKey,
     label: "정책 템플릿", onChange: (k) => draw(k),
   });
   if (picker) root.appendChild(picker);
@@ -56,7 +58,17 @@ export async function render(root) {
     await renderBody(body, res.data, res.env, res);
   }
 
-  await draw(entries.length ? entries[0].key : null);
+  await draw(initialKey);
+}
+
+function pickInitialEntry(entries, queryKey) {
+  if (!entries.length) return null;
+  if (!queryKey) return entries[0].key;
+  const needle = queryKey.replace(/\s+/g, "");
+  const hit = entries.find((e) =>
+    String(e.key || "").replace(/\s+/g, "") === needle
+    || String(e.label || "").replace(/\s+/g, "").includes(needle));
+  return hit ? hit.key : entries[0].key;
 }
 
 
