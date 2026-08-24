@@ -52,7 +52,7 @@ export function initAgent() {
     const detail = ev.detail || {};
     const title = detail.title || "현재 패널";
     panel.classList.add("open");
-    ask(`'${title}' 패널을 처음 쓰는 사람에게 쉽게 설명해줘. 어떤 수치를 봐야 하고, 발표에서는 어떻게 말하면 좋은지도 알려줘.`, {
+    ask("이 패널을 설명해줘", {
       title,
       route: detail.route,
       text: detail.text,
@@ -80,7 +80,8 @@ export function initAgent() {
 }
 
 async function ask(text, panelContext = null) {
-  addUser(text);
+  const visibleText = panelContext ? "이 패널을 설명해줘" : text;
+  addUser(visibleText);
   setBusy(true);
   const context = await buildContext(text, panelContext);
   const fallbackActions = suggestActions(text, context);
