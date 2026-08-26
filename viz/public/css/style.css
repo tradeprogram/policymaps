@@ -296,6 +296,54 @@ code {
   margin: 8px 0 0; color: var(--ink-3); font-size: 11px;
 }
 
+.ai-recommend-panel {
+  margin: 12px 0;
+  padding: 14px 16px;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(39, 112, 134, .94), rgba(86, 164, 174, .82));
+  color: #fff;
+  box-shadow: 0 16px 34px rgba(39, 68, 82, .18);
+}
+.ai-recommend-kicker {
+  font-size: 11px; font-weight: 800; opacity: .84; margin-bottom: 5px;
+}
+.ai-recommend-main {
+  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+}
+.ai-recommend-main strong { font-size: 18px; }
+.ai-recommend-main span { font-weight: 800; }
+.ai-recommend-panel p {
+  margin: 7px 0 0; line-height: 1.55;
+}
+.ai-recommend-disclaimer {
+  font-size: 11px; opacity: .82;
+}
+.score-sort {
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin: 12px 0 8px;
+}
+.score-sort-label {
+  color: var(--ink-3); font-size: 11.5px; font-weight: 700; margin-right: 2px;
+}
+.score-sort-btn {
+  border: 1px solid rgba(39, 112, 134, .16);
+  border-radius: 999px;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, .62);
+  color: #1c4c58;
+  font: inherit;
+  font-size: 11.5px;
+  cursor: pointer;
+}
+.score-sort-btn[aria-pressed="true"] {
+  border-color: rgba(39, 112, 134, .32);
+  background: rgba(226, 245, 247, .86);
+  font-weight: 750;
+}
+.score-sort-btn:hover {
+  background: rgba(226, 245, 247, .74);
+}
+
 .caution {
   background: var(--danger-soft); border: 1px solid #f3b8b1; color: #7a231a;
   padding: 8px 12px; border-radius: 4px; margin: 8px 0; font-size: 13px;

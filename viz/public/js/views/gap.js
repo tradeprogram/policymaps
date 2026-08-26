@@ -292,24 +292,41 @@ async function renderGap(root, d, env, res, focusPolicy = "", scoringContext = {
   }
 
   // 카드 목록
-  const focusNeedle = normFocus(focusPolicy);
-  let focusCard = null;
-  const list = el("div", { class: "gap-list" });
-  for (const r of recs) {
-    const focused = focusNeedle && normFocus(r.policy_key).includes(focusNeedle);
-    const score = scorePolicyCandidate(r, {
+  const scored = recs.map((r, index) => ({
+    candidate: r,
+    index,
+    score: scorePolicyCandidate(r, {
       peerPoolSize: d.peer_pool_size,
       diffusion: scoringContext.diffusion,
       effectiveness: scoringContext.effectiveness,
-    });
-    const card = gapCard(r, focused, score);
-    if (focused && !focusCard) focusCard = card;
-    list.appendChild(card);
+    }),
+  }));
+  const recommended = pickRecommended(scored);
+  if (recommended) sec.appendChild(aiRecommendationPanel(recommended, t));
+
+  const focusNeedle = normFocus(focusPolicy);
+  let focusCard = null;
+  const list = el("div", { class: "gap-list" });
+  const sortState = { key: "default" };
+  const sortBar = scoreSortBar(sortState, () => renderCards());
+
+  function renderCards() {
+    list.innerHTML = "";
+    focusCard = null;
+    for (const item of sortedScored(scored, sortState.key)) {
+      const r = item.candidate;
+      const focused = focusNeedle && normFocus(r.policy_key).includes(focusNeedle);
+      const card = gapCard(r, focused, item.score);
+      if (focused && !focusCard) focusCard = card;
+      list.appendChild(card);
+    }
   }
+  renderCards();
   if (focusCard) {
     sec.appendChild(note(`agent가 요청한 정책 후보 「${focusPolicy}」를 강조했습니다.`));
     setTimeout(() => focusCard.scrollIntoView({ block: "center", behavior: "smooth" }), 120);
   }
+  sec.appendChild(sortBar);
   sec.appendChild(list);
 
   // 차트
@@ -346,6 +363,73 @@ function kv(label, value, kind = "") {
   return el("div", { class: `stat-card ${kind}` },
     el("div", { class: "stat-label", text: label }),
     el("div", { class: "stat-value", text: value }));
+}
+
+function pickRecommended(scored) {
+  return sortedScored(scored, "score").find((item) => !item.score.parts.some((p) => p.risk))
+    || sortedScored(scored, "score")[0]
+    || null;
+}
+
+function sortedScored(scored, key) {
+  const arr = scored.slice();
+  if (key === "score") {
+    arr.sort((a, b) => (b.score.score - a.score.score) || (b.candidate.peer_count || 0) - (a.candidate.peer_count || 0) || a.index - b.index);
+  } else if (key === "risk") {
+    arr.sort((a, b) => ((b.candidate.repealed_peer_count || 0) - (a.candidate.repealed_peer_count || 0)) || (b.score.score - a.score.score) || a.index - b.index);
+  } else {
+    arr.sort((a, b) => a.index - b.index);
+  }
+  return arr;
+}
+
+function scoreSortBar(state, onChange) {
+  const buttons = [
+    ["default", "기본순"],
+    ["score", "점수순"],
+    ["risk", "폐지위험순"],
+  ];
+  const wrap = el("div", { class: "score-sort" },
+    el("span", { class: "score-sort-label", text: "후보 정렬" })
+  );
+  const render = () => {
+    while (wrap.children.length > 1) wrap.removeChild(wrap.lastChild);
+    for (const [key, label] of buttons) {
+      wrap.appendChild(el("button", {
+        class: "score-sort-btn",
+        type: "button",
+        "aria-pressed": state.key === key ? "true" : "false",
+        text: label,
+        onclick: () => {
+          state.key = key;
+          render();
+          onChange();
+        },
+      }));
+    }
+  };
+  render();
+  return wrap;
+}
+
+function aiRecommendationPanel(item, target) {
+  const r = item.candidate;
+  const s = item.score;
+  const peer = s.parts.find((p) => p.key === "peers");
+  const repeal = s.parts.find((p) => p.key === "repeal");
+  const diffusion = s.parts.find((p) => p.key === "diffusion");
+  return el("div", { class: "ai-recommend-panel" },
+    el("div", { class: "ai-recommend-kicker", text: "AI 추천 요약" }),
+    el("div", { class: "ai-recommend-main" },
+      el("strong", { text: r.policy_key }),
+      el("span", { text: `${s.score}점 · ${s.grade}` })
+    ),
+    el("p", { text:
+      `${target?.name || "기준 지자체"} 기준 우선 검토 후보입니다. `
+      + `${peer?.detail || ""}${repeal ? `, ${repeal.detail}` : ""}`
+      + `${diffusion && !diffusion.unavailable ? `, ${diffusion.detail}` : ""}.` }),
+    el("p", { class: "ai-recommend-disclaimer", text: s.disclaimer })
+  );
 }
 
 function gapCard(r, focused = false, decisionScore = null) {
