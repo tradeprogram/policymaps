@@ -255,6 +255,47 @@ code {
 .card-foot { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-top: 8px; font-size: 12px; }
 .rank { font-family: ui-monospace, monospace; color: var(--ink-3); margin-right: 6px; }
 
+.decision-score {
+  margin: 10px 0;
+  padding: 10px 12px;
+  border: 1px solid rgba(39, 112, 134, .16);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, .78), rgba(226, 245, 247, .50));
+  box-shadow: 0 10px 24px rgba(39, 68, 82, .06);
+}
+.decision-score-main {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.decision-score-label {
+  color: var(--ink-3); font-size: 11.5px; font-weight: 700;
+}
+.decision-score-main strong {
+  color: #1f6475; font-size: 22px; letter-spacing: 0;
+}
+.decision-score-parts {
+  display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px;
+}
+.decision-score-part {
+  display: inline-flex; align-items: center;
+  border-radius: 999px; padding: 3px 8px;
+  background: rgba(231, 244, 246, .78);
+  color: #1c4c58; font-size: 11px; font-weight: 650;
+}
+.decision-score-part.is-muted {
+  background: rgba(238, 241, 245, .78); color: var(--ink-3);
+}
+.decision-score-part.is-risk {
+  background: var(--danger-soft); color: var(--danger);
+}
+.decision-score-detail {
+  display: grid; gap: 2px; margin-top: 8px;
+  color: var(--ink-2); font-size: 11.5px;
+}
+.decision-score-disclaimer {
+  margin: 8px 0 0; color: var(--ink-3); font-size: 11px;
+}
+
 .caution {
   background: var(--danger-soft); border: 1px solid #f3b8b1; color: #7a231a;
   padding: 8px 12px; border-radius: 4px; margin: 8px 0; font-size: 13px;

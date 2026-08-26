@@ -8,6 +8,7 @@ import { section, table, note, loading, asOfLine, errorPanel,
          badge, envelopeFooter, cdnFailPanel } from "../components.js";
 import { regionSelector, notPrecomputedPanel, sourceLine } from "../nationwide.js";
 import { ensureChart } from "../vendor.js";
+import { scorePolicyCandidate } from "../scoring.js";
 
 /** 완료판정 시나리오(구미시)를 기본으로 노출하고, 없으면 사전계산된 첫 곳으로 */
 const PREFERRED = ["47190", "11110"];
@@ -93,9 +94,11 @@ export async function render(root, params = {}, query = {}) {
     const my = ++token;
     body.innerHTML = "";
     body.appendChild(loading(`${nameOf(sig) || sig} 결과를 불러오는 중…`));
-    const [pRes, gRes] = await Promise.all([
+    const [pRes, gRes, diffusionEnv, effectivenessEnv] = await Promise.all([
       loadRegionalShard("peers", sig),
       loadRegionalShard("gap", sig),
+      loadFixture("diffusion").catch(() => null),
+      loadFixture("effectiveness").catch(() => null),
     ]);
     if (my !== token) return; // 빠르게 바꾸면 늦게 온 응답은 버린다
     body.innerHTML = "";
@@ -113,7 +116,12 @@ export async function render(root, params = {}, query = {}) {
     if (pRes.data) { renderPeers(body, pRes.data, pRes.env, pRes); }
     else body.appendChild(notPrecomputedPanel({ kind: "peers", sig, name: nameOf(sig), tried: pRes.tried || [] }));
 
-    if (gRes.data) { await renderGap(body, gRes.data, gRes.env, gRes, query.policy); }
+    if (gRes.data) {
+      await renderGap(body, gRes.data, gRes.env, gRes, query.policy, {
+        diffusion: diffusionEnv,
+        effectiveness: effectivenessEnv,
+      });
+    }
     else body.appendChild(notPrecomputedPanel({ kind: "gap", sig, name: nameOf(sig), tried: gRes.tried || [] }));
   }
 
@@ -236,7 +244,7 @@ function indicatorRows(ind) {
 
 /* ---------------- 격차분석 ---------------- */
 
-async function renderGap(root, d, env, res, focusPolicy = "") {
+async function renderGap(root, d, env, res, focusPolicy = "", scoringContext = {}) {
   const t = d.target || {};
   const recs = d.recommendations || [];
 
@@ -289,7 +297,12 @@ async function renderGap(root, d, env, res, focusPolicy = "") {
   const list = el("div", { class: "gap-list" });
   for (const r of recs) {
     const focused = focusNeedle && normFocus(r.policy_key).includes(focusNeedle);
-    const card = gapCard(r, focused);
+    const score = scorePolicyCandidate(r, {
+      peerPoolSize: d.peer_pool_size,
+      diffusion: scoringContext.diffusion,
+      effectiveness: scoringContext.effectiveness,
+    });
+    const card = gapCard(r, focused, score);
     if (focused && !focusCard) focusCard = card;
     list.appendChild(card);
   }
@@ -335,7 +348,7 @@ function kv(label, value, kind = "") {
     el("div", { class: "stat-value", text: value }));
 }
 
-function gapCard(r, focused = false) {
+function gapCard(r, focused = false, decisionScore = null) {
   const repealed = r.repealed_peer_count || 0;
   const card = el("div", { class: `card ${repealed ? "card-caution" : ""} ${focused ? "card-agent-focus" : ""}` });
 
@@ -349,6 +362,10 @@ function gapCard(r, focused = false) {
       r.likely_variant_of_mine ? badge("표기변이 의심", "badge-warn") : null
     )
   ));
+
+  if (decisionScore) {
+    card.appendChild(decisionScoreBox(decisionScore));
+  }
 
   if (repealed) {
     card.appendChild(el("div", { class: "caution" },
@@ -377,6 +394,27 @@ function gapCard(r, focused = false) {
   ));
 
   return card;
+}
+
+function decisionScoreBox(s) {
+  return el("div", { class: "decision-score", title: s.disclaimer },
+    el("div", { class: "decision-score-main" },
+      el("span", { class: "decision-score-label", text: "도입 검토 우선도" }),
+      el("strong", { text: `${s.score}점` }),
+      badge(s.grade, s.score >= 80 ? "badge-active" : s.score >= 60 ? "badge-info" : s.score >= 40 ? "badge-warn" : "badge-unknown")
+    ),
+    el("div", { class: "decision-score-parts" },
+      s.parts.map((p) => el("span", {
+        class: `decision-score-part ${p.unavailable ? "is-muted" : ""} ${p.risk ? "is-risk" : ""}`,
+        title: p.detail,
+        text: `${p.label} ${p.score}/${p.max}`,
+      }))
+    ),
+    el("div", { class: "decision-score-detail" },
+      s.parts.map((p) => el("span", { text: p.detail }))
+    ),
+    el("p", { class: "decision-score-disclaimer", text: s.disclaimer })
+  );
 }
 
 function normFocus(s) {
